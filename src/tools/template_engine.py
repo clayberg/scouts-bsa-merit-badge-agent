@@ -2615,6 +2615,22 @@ NANO_BUILT_IN_BACKDROPS_CATALOG: List[Dict[str, str]] = [
         "file": "nano_base_emergency_medical_triage.jpg",
         "keywords": "emergency first aid kit rescue litter field triage preparedness lifesaving cpr medical health",
     },
+    {
+        "id": "lake_sunset_dock",
+        "label": "🌅 Lake & Sunset Dock",
+        "url": "/assets/templates/overlays/nano_base_lake_sunset_dock.jpg",
+        "path": "assets/templates/overlays/nano_base_lake_sunset_dock.jpg",
+        "file": "nano_base_lake_sunset_dock.jpg",
+        "keywords": "lake and sunset dock tranquil camp waterfront golden hour water reflections pine hills",
+    },
+    {
+        "id": "first_aid_trail_kit",
+        "label": "🧰 Wilderness Trail First Aid Kit & Medical Supplies",
+        "url": "/assets/templates/overlays/nano_base_first_aid_trail_kit.jpg",
+        "path": "assets/templates/overlays/nano_base_first_aid_trail_kit.jpg",
+        "file": "nano_base_first_aid_trail_kit.jpg",
+        "keywords": "wilderness trail first aid kit medical supplies bandages gauze forest log emergency preparedness",
+    },
 ]
 
 

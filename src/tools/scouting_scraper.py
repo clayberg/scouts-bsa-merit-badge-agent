@@ -4396,10 +4396,6 @@ def enrich_requirement_point(
         "counselor_signoff_criteria",
         f"Scout must individually {verb.lower()} mastery of Requirement {req_num} to the Merit Badge Counselor.",
     )
-    if not enriched.get("workbook_diagram_url"):
-        diag_url = _resolve_workbook_diagram_url(badge_name, req_num, req_text)
-        if diag_url:
-            enriched["workbook_diagram_url"] = diag_url
     enriched["topic_slides"] = decompose_requirement_into_topic_slides(
         badge_name=badge_name,
         req_dict=enriched,
@@ -4407,6 +4403,16 @@ def enrich_requirement_point(
         total_reqs=max(1, total_reqs),
         used_image_paths=used_image_paths,
     )
+    if not enriched.get("workbook_diagram_url"):
+        for ts in enriched.get("topic_slides") or []:
+            dp = str((ts.get("diagram_path") if isinstance(ts, dict) else getattr(ts, "diagram_path", "")) or "").strip()
+            if dp:
+                enriched["workbook_diagram_url"] = dp
+                break
+    if not enriched.get("workbook_diagram_url"):
+        diag_url = _resolve_workbook_diagram_url(badge_name, req_num, req_text)
+        if diag_url:
+            enriched["workbook_diagram_url"] = diag_url
     return enriched
 
 
@@ -4516,6 +4522,7 @@ def _merge_curated_with_official_requirements(
                 "curated_resources",
                 "estimated_minutes",
                 "homework_verification_note",
+                "workbook_diagram_url",
             ):
                 if off_r.get(extra_k) is not None and not m_req.get(extra_k):
                     m_req[extra_k] = off_r[extra_k]
@@ -5764,20 +5771,19 @@ def _resolve_workbook_diagram_url(
         if r_clean in ("1", "1a", "2", "2a", "3", "3a") and ("water cycle" in tl or "hydrologic" in tl):
             return "assets/ai_illustrations/weather_hydrologic_cycle_nano.png"
 
-    # 4. Authentic BSA Pamphlet figure for Req 1 (and Req 2 when available)
-    if r_clean in ("1", "1a", "2", "2a"):
-        pamphlet_idx = _get_pamphlet_badge_diagram_index()
-        figs = pamphlet_idx.get(slug) or []
-        if figs:
-            if r_parent == "1":
-                return figs[0]
-            if r_parent == "2" and len(figs) >= 2:
-                return figs[1]
-        # Fallback to badge Req 1 hero illustration if pamphlet figure not present
-        hero_rel = f"assets/ai_illustrations/{slug}_req_{r_parent}_nano_hero.png"
-        hero_abs = Path(__file__).resolve().parents[2] / hero_rel
-        if hero_abs.exists():
-            return hero_rel
+    # 4. Authentic BSA Pamphlet figure or Nano Hero illustration for any requirement
+    hero_exact_rel = f"assets/ai_illustrations/{slug}_req_{r_clean}_nano_hero.png"
+    if (Path(__file__).resolve().parents[2] / hero_exact_rel).exists():
+        return hero_exact_rel
+    hero_rel = f"assets/ai_illustrations/{slug}_req_{r_parent}_nano_hero.png"
+    if (Path(__file__).resolve().parents[2] / hero_rel).exists():
+        return hero_rel
+    pamphlet_idx = _get_pamphlet_badge_diagram_index()
+    figs = pamphlet_idx.get(slug) or []
+    if figs and r_parent.isdigit():
+        p_idx = int(r_parent) - 1
+        if 0 <= p_idx < len(figs):
+            return figs[p_idx]
 
     return ""
 
@@ -5791,6 +5797,8 @@ def _is_comma_chopped_or_boilerplate_row(row_str: str) -> bool:
     if not s:
         return True
     boilerplate_patterns = (
+        "key pamphlet facts & mechanism",
+        "field application & counselor discussion",
         "pamphlet standard & key facts",
         "field application & counselor verification",
         "key pamphlet examples & evidence",
@@ -6359,6 +6367,7 @@ def _sanitize_workbook_organizer_runtime(
 
     if repaired_rows:
         out["row_labels"] = repaired_rows
+        out["rows"] = list(repaired_rows)
         out["min_rows"] = len(repaired_rows)
     return out
 
@@ -6536,6 +6545,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             "safety_callout": r_safety,
         })
 
+        req_diag_emitted = False
         for sr_idx, sr in enumerate(subs):
             sr_id = str(
                 sr.get("sub_id")
@@ -6592,11 +6602,12 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 or sr.get("homework_verification_note")
                 or f"Scout must individually {sr_verb.lower()} Requirement {sr_id} ({sr_text[:110].rstrip('.')}) to the Counselor."
             ).strip()
+            sr_explicit_diag = str(sr.get("workbook_diagram_url") or "")
             sr_diag = _resolve_workbook_diagram_url(
                 badge_name,
                 sr_id,
                 sr_text,
-                str(sr.get("workbook_diagram_url") or (r_diag if sr_idx == 0 else "")),
+                sr_explicit_diag or (r_diag if not req_diag_emitted else ""),
             )
             children = list(sr.get("children") or [])
 
@@ -6614,6 +6625,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     consolidated_rows.append(f"{c_lbl} {c_txt}".strip())
                 if consolidated_rows:
                     sr_org["row_labels"] = consolidated_rows
+                    sr_org["rows"] = list(consolidated_rows)
                     sr_org["min_rows"] = len(consolidated_rows)
 
             sr_is_group_header = bool(children) and not children_are_short_condition_rows
@@ -6623,6 +6635,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 sr_diag_emit = sr_diag
                 if sr_diag_emit:
                     seen_diagrams.add(sr_diag_emit)
+                    req_diag_emitted = True
 
             units.append({
                 "is_group_header": sr_is_group_header,
@@ -6719,12 +6732,16 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     or f"Scout must individually {ch_verb.lower()} Requirement {ch_id} ({ch_text[:110].rstrip('.')}) to the Counselor."
                 ).strip()
                 ch_diag = _resolve_workbook_diagram_url(
-                    badge_name, ch_id, ch_text, str(ch.get("workbook_diagram_url") or "")
+                    badge_name,
+                    ch_id,
+                    ch_text,
+                    str(ch.get("workbook_diagram_url") or (r_diag if not req_diag_emitted else "")),
                 )
                 if ch_diag in seen_diagrams:
                     ch_diag = ""
                 elif ch_diag:
                     seen_diagrams.add(ch_diag)
+                    req_diag_emitted = True
 
                 units.append({
                     "is_group_header": False,

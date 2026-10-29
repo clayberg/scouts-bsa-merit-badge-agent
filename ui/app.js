@@ -1180,6 +1180,13 @@ function bindFilterAndSlideControls() {
           )
         )
       : [];
+    const coverEls = leftZone
+      ? Array.from(
+          leftZone.querySelectorAll(
+            "#stage-cover-title, #cover-single-option-subhead, #stage-cover-subtitle, #stage-cover-counselor-name, #stage-cover-troop-name, #stage-cover-location, #stage-cover-email, #stage-cover-phone"
+          )
+        )
+      : [];
     const reqVisible =
       reqVerbEl && reqStripBox && !reqStripBox.classList.contains("hidden") && reqStripBox.style.display !== "none";
     const miscVisible =
@@ -1187,9 +1194,11 @@ function bindFilterAndSlideControls() {
     const safetyVisible =
       safetyEl && safetyBar && !safetyBar.classList.contains("hidden") && safetyBar.style.display !== "none";
     const capVisible = capEl && capEl.offsetParent !== null;
+    const isCoverSlide = state.activeSlideIdx === -1;
     const allEditable = [
-      titleEl,
+      !isCoverSlide ? titleEl : null,
       reqVisible ? reqVerbEl : null,
+      ...coverEls,
       ...cardEls,
       ...subCardEls,
       capVisible ? capEl : null,
@@ -1206,6 +1215,7 @@ function bindFilterAndSlideControls() {
       safetyEl,
       safetyVisible,
       leftZone,
+      coverEls,
       cardEls,
       subCardEls,
       allEditable,
@@ -1213,10 +1223,7 @@ function bindFilterAndSlideControls() {
   };
 
   const setStageInlineEditMode = (enable, focusTarget = null) => {
-    if (!state.currentResult || state.activeSlideIdx < 0) {
-      if (enable) {
-        showToast("Select a content slide (Slide 2+) to edit text directly on stage.", "info");
-      }
+    if (!state.currentResult) {
       enable = false;
     }
     state.stageInlineEditActive = Boolean(enable);
@@ -1226,22 +1233,25 @@ function bindFilterAndSlideControls() {
     barEl?.classList.toggle("hidden", !state.stageInlineEditActive);
     toggleBtn?.classList.toggle("active", state.stageInlineEditActive);
     if (toggleBtn) {
-      toggleBtn.textContent = state.stageInlineEditActive ? "✓ Done Editing" : "✏️ Edit Text on Stage";
+      toggleBtn.textContent = state.stageInlineEditActive ? "✓ Done Editing" : "✏️ Edit Text";
       toggleBtn.title =
         "Edit Title, Body Cards, Requirement Text & Caption directly on the slide (Press Esc or click Done Editing to finish)";
     }
     if (hintEl) {
       hintEl.textContent =
-        "✏️ Edit Title, Body Cards, Requirement Text & Caption directly on the slide (Press Esc or click Done Editing to finish)";
+        state.activeSlideIdx === -1
+          ? "✏️ Edit Cover Title, Subtitle & Counselor Info directly on Slide 1 (Press Esc or Done Editing to finish)"
+          : "✏️ Edit Title, Body Cards, Requirement Text, Safety & Caption on the slide (Press Esc or Done Editing to finish)";
     }
 
-    const { titleEl, cardEls, allEditable } = getStageInlineEditableNodes();
+    const { titleEl, coverEls, cardEls, allEditable } = getStageInlineEditableNodes();
     const cleanupNodes = [
       document.getElementById("stage-slide-title"),
       document.getElementById("stage-diagram-caption"),
       document.getElementById("stage-req-verbatim"),
       document.getElementById("stage-misconception-text"),
       document.getElementById("stage-safety-text"),
+      ...(coverEls || []),
       ...allEditable,
     ].filter(Boolean);
 
@@ -1261,7 +1271,7 @@ function bindFilterAndSlideControls() {
     });
 
     if (state.stageInlineEditActive) {
-      const target = focusTarget || titleEl || cardEls[0];
+      const target = focusTarget || (state.activeSlideIdx === -1 ? coverEls[0] : titleEl) || cardEls[0];
       if (target && typeof target.focus === "function") {
         target.focus();
       }
@@ -1270,8 +1280,86 @@ function bindFilterAndSlideControls() {
   window.setStageInlineEditMode = setStageInlineEditMode;
 
   const commitStageInlineEdits = () => {
-    if (!state.currentResult || state.activeSlideIdx < 0) {
+    if (!state.currentResult) {
       setStageInlineEditMode(false);
+      return;
+    }
+    if (state.activeSlideIdx === -1) {
+      const res = state.currentResult;
+      res.counselor_info = res.counselor_info || {};
+      const covTitleEl = document.getElementById("stage-cover-title");
+      const covOptEl = document.getElementById("cover-single-option-subhead");
+      const covSubEl = document.getElementById("stage-cover-subtitle");
+      const covCounselorEl = document.getElementById("stage-cover-counselor-name");
+      const covTroopEl = document.getElementById("stage-cover-troop-name");
+      const covLocEl = document.getElementById("stage-cover-location");
+      const covEmailEl = document.getElementById("stage-cover-email");
+      const covPhoneEl = document.getElementById("stage-cover-phone");
+
+      if (covTitleEl) {
+        const v = (covTitleEl.innerText || covTitleEl.textContent || "").trim();
+        if (v) res._customCoverTitle = v;
+      }
+      if (covOptEl) {
+        const v = (covOptEl.innerText || covOptEl.textContent || "").trim();
+        if (v) res._customCoverOptionSubhead = v;
+      }
+      if (covSubEl) {
+        const v = (covSubEl.innerText || covSubEl.textContent || "").trim();
+        if (v) res._customCoverSubtitle = v;
+      }
+      if (covCounselorEl) {
+        const v = (covCounselorEl.innerText || covCounselorEl.textContent || "")
+          .replace(/^Counselor\s*:\s*/i, "")
+          .trim();
+        if (v) {
+          res.counselor_info.counselor_name = v;
+          const inEl = document.getElementById("input-counselor-name");
+          if (inEl) inEl.value = v;
+        }
+      }
+      if (covTroopEl) {
+        const v = (covTroopEl.innerText || covTroopEl.textContent || "")
+          .replace(/^Unit\s*\/\s*Council\s*:\s*/i, "")
+          .trim();
+        if (v) {
+          res.counselor_info.troop_affiliation = v;
+          const inEl = document.getElementById("input-troop-name");
+          if (inEl) inEl.value = v;
+        }
+      }
+      if (covLocEl) {
+        const v = (covLocEl.innerText || covLocEl.textContent || "")
+          .replace(/^Location\s*:\s*/i, "")
+          .trim();
+        if (v) {
+          res.counselor_info.location_or_zip = v;
+          const inEl = document.getElementById("input-counselor-location");
+          if (inEl) inEl.value = v;
+        }
+      }
+      if (covEmailEl) {
+        const v = (covEmailEl.innerText || covEmailEl.textContent || "")
+          .replace(/^Email\s*:\s*/i, "")
+          .trim();
+        if (v) {
+          res.counselor_info.email_address = v;
+          const inEl = document.getElementById("input-counselor-email");
+          if (inEl) inEl.value = v;
+        }
+      }
+      if (covPhoneEl) {
+        const v = (covPhoneEl.innerText || covPhoneEl.textContent || "")
+          .replace(/^Phone\s*:\s*/i, "")
+          .trim();
+        if (v) {
+          res.counselor_info.phone_number = v;
+          const inEl = document.getElementById("input-counselor-phone");
+          if (inEl) inEl.value = v;
+        }
+      }
+      setStageInlineEditMode(false);
+      renderActiveSlide(-1);
       return;
     }
     const slides = state.currentResult.storyboard?.slides || [];
@@ -1415,7 +1503,7 @@ function bindFilterAndSlideControls() {
   document.getElementById("btn-stage-inline-cancel")?.addEventListener("click", (ev) => {
     ev.stopPropagation();
     setStageInlineEditMode(false);
-    if (state.currentResult && state.activeSlideIdx >= 0) {
+    if (state.currentResult && state.activeSlideIdx >= -1) {
       renderActiveSlide(state.activeSlideIdx);
     }
   });
@@ -1431,9 +1519,8 @@ function bindFilterAndSlideControls() {
     }
   });
   document.getElementById("widescreen-slide-stage")?.addEventListener("dblclick", (ev) => {
-    if (state.activeSlideIdx < 0) return;
     const hitTarget = ev.target?.closest(
-      "#stage-slide-title, #stage-left-cards, .stage-content-card, .m3-slide-card-item:not(.m3-quiz-reveal-card), #stage-req-verbatim, #stage-diagram-caption, #stage-misconception-text, #stage-safety-text"
+      "#stage-cover-title, #cover-single-option-subhead, #stage-cover-subtitle, #stage-cover-counselor-name, #stage-cover-troop-name, #stage-cover-location, #stage-cover-email, #stage-cover-phone, #stage-slide-title, #stage-left-cards, .stage-content-card, .m3-slide-card-item:not(.m3-quiz-reveal-card), #stage-req-verbatim, #stage-diagram-caption, #stage-misconception-text, #stage-safety-text"
     );
     if (hitTarget && !state.stageInlineEditActive) {
       ev.stopPropagation();
@@ -3464,6 +3551,15 @@ function hydrateWorkbench(rawResult, options = {}) {
   }
 
   // 3. Reveal Slide Stage and Render Storyboard Filmstrip, Requirement Quick-Jump Bar & Active Slide
+  // Item 3: Creating/loading a new slide deck defaults to its recommended background
+  state.coverBackdropMode = "BADGE_RECOMMENDED";
+  state.deckStyle = state.deckStyle || getCurrentDeckStyleConfig();
+  state.deckStyle.cover_backdrop_id = "AUTO_TEMPLATE";
+  const bdSelOnNewDeck = document.getElementById("style-cover-backdrop");
+  if (bdSelOnNewDeck) {
+    bdSelOnNewDeck.value = "AUTO_TEMPLATE";
+  }
+
   updateConstructionBadgeEmblem(result.badge_name);
   hideConstructionAnimationStage();
   renderFilmstrip(slides);
@@ -3473,13 +3569,21 @@ function hydrateWorkbench(rawResult, options = {}) {
   renderTriageMatrix(result.research_artifact || {}, pamphletUrl, drgUrl);
   renderBlueCardTracker(result);
 
-  // 5. Render Printable Workbook as styled wrapped Markdown
+  // 5. Render Printable Workbook as styled wrapped Markdown and reset segmented button highlight to match
   const wbPreview = document.getElementById("workbook-markdown-preview");
   if (wbPreview) {
     wbPreview.innerHTML = renderMarkdownToStyledHtml(
       result.workbook_markdown || "# Counselor Workbook Generated"
     );
   }
+  ["btn-workbook-view-default", "btn-workbook-open-fillable-html", "btn-workbook-open-cpp"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      const isAct = id === "btn-workbook-view-default";
+      el.classList.toggle("active", isAct);
+      el.setAttribute("aria-selected", isAct ? "true" : "false");
+    }
+  });
 
   // 6. Render Counselor StudioKit (Lesson Plan, Parent Letter, Gear Checklist, Citations & FinOps)
   renderStudioKitAndParentLetter(result);
@@ -4866,24 +4970,24 @@ function renderActiveSlide(idx) {
               : ""
           }
           <div style="flex:1; text-align:center;">
-            <div style="font-size:2.1rem; font-weight:800; color:${titleColor}; line-height:1.15;">${escapeHtml(res.badge_name)}</div>
+            <div id="stage-cover-title" style="font-size:2.1rem; font-weight:800; color:${titleColor}; line-height:1.15;">${escapeHtml(res._customCoverTitle || res.badge_name)}</div>
             ${
-              singleOptionSubhead
-                ? `<div id="cover-single-option-subhead" style="font-size:1.32rem; font-weight:800; margin-top:5px; color:${labelColor}; letter-spacing:0.01em;">${escapeHtml(singleOptionSubhead)}</div>`
+              singleOptionSubhead || res._customCoverOptionSubhead
+                ? `<div id="cover-single-option-subhead" style="font-size:1.32rem; font-weight:800; margin-top:5px; color:${labelColor}; letter-spacing:0.01em;">${escapeHtml(res._customCoverOptionSubhead || singleOptionSubhead)}</div>`
                 : ""
             }
-            <div style="font-size:1.15rem; font-weight:700; margin-top:6px; color:${subColor};">
-              ${res.is_eagle_required ? "Eagle-Required Merit Badge" : "Scouts BSA Merit Badge"}
+            <div id="stage-cover-subtitle" style="font-size:1.15rem; font-weight:700; margin-top:6px; color:${subColor};">
+              ${escapeHtml(res._customCoverSubtitle || (res.is_eagle_required ? "Eagle-Required Merit Badge" : "Scouts BSA Merit Badge"))}
             </div>
           </div>
         </div>
         <div style="display:flex; align-items:center; justify-content:space-between; gap:18px; padding:16px 8px; text-align:left;">
-          <div style="flex:1;">
-            <div style="font-size:1.22rem; font-weight:800; color:${labelColor}; margin-bottom:6px;">Counselor: ${escapeHtml(counselorName)}</div>
-            <div style="font-size:1.05rem; color:${bodyTextColor}; margin-bottom:5px;"><strong style="color:${unitLabelColor};">Unit / Council:</strong> ${escapeHtml(troopName)}</div>
-            ${locationOrZip ? `<div style="font-size:0.98rem; color:${bodyTextColor}; margin-bottom:4px;"><strong style="color:${unitLabelColor};">Location:</strong> ${escapeHtml(locationOrZip)}</div>` : ""}
-            ${email ? `<div style="font-size:0.98rem; color:${bodyTextColor}; margin-bottom:4px;"><strong style="color:${labelColor};">Email:</strong> ${escapeHtml(email)}</div>` : ""}
-            ${phone ? `<div style="font-size:0.98rem; color:${bodyTextColor};"><strong style="color:${labelColor};">Phone:</strong> ${escapeHtml(phone)}</div>` : ""}
+          <div id="stage-cover-counselor-block" style="flex:1;">
+            <div id="stage-cover-counselor-name" style="font-size:1.22rem; font-weight:800; color:${labelColor}; margin-bottom:6px;">Counselor: ${escapeHtml(counselorName)}</div>
+            <div id="stage-cover-troop-name" style="font-size:1.05rem; color:${bodyTextColor}; margin-bottom:5px;"><strong style="color:${unitLabelColor};">Unit / Council:</strong> ${escapeHtml(troopName)}</div>
+            ${locationOrZip ? `<div id="stage-cover-location" style="font-size:0.98rem; color:${bodyTextColor}; margin-bottom:4px;"><strong style="color:${unitLabelColor};">Location:</strong> ${escapeHtml(locationOrZip)}</div>` : ""}
+            ${email ? `<div id="stage-cover-email" style="font-size:0.98rem; color:${bodyTextColor}; margin-bottom:4px;"><strong style="color:${labelColor};">Email:</strong> ${escapeHtml(email)}</div>` : ""}
+            ${phone ? `<div id="stage-cover-phone" style="font-size:0.98rem; color:${bodyTextColor};"><strong style="color:${labelColor};">Phone:</strong> ${escapeHtml(phone)}</div>` : ""}
           </div>
           ${
             customLogoUrl
@@ -6140,6 +6244,11 @@ function formatInlineMarkdown(text) {
   // Support inline <br> and <br/> line breaks inside table cells
   s = s.replace(/&lt;br\s*\/?&gt;/gi, "<br/>");
   s = s.replace(/<br\/>\s*-\s+/g, "<br/>&bull; ");
+  // Images ![alt](url) -> interactive zoomable figure card in Counselor Workbook
+  s = s.replace(
+    /!\[([^\]]*)\]\(([^)\s]+)\)/g,
+    '<figure class="wb-figure-box" style="margin:10px 0 14px 0; padding:10px 14px; background:rgb(248, 250, 252); border:1px solid rgb(226, 232, 240); border-radius:10px; display:inline-block; max-width:480px;"><div style="position:relative; display:inline-block;"><img src="$2" alt="$1" title="🔍 Click to zoom in Lightbox (up to 500%)" style="max-width:440px; max-height:240px; width:auto; height:auto; border-radius:6px; display:block; cursor:zoom-in;" /><button type="button" class="wb-fig-zoom-btn" data-wb-zoom-src="$2" data-wb-zoom-caption="$1" style="position:absolute; bottom:8px; right:8px; background:rgba(15, 23, 42, 0.80); color:rgb(255, 255, 255); border:1px solid rgba(255, 255, 255, 0.32); border-radius:999px; padding:3px 9px; font-size:0.70rem; font-weight:700; cursor:zoom-in;">🔍 Click to zoom</button></div><figcaption class="wb-figure-caption" style="margin-top:6px; font-size:0.76rem; color:rgb(71, 85, 105); font-weight:600;">$1</figcaption></figure>'
+  );
   // Links [label](url)
   s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:var(--md-sys-color-primary); font-weight:600;">$1</a>');
   // Bold **text** (non-greedy across any inner characters)
@@ -6789,10 +6898,13 @@ const COVER_BACKDROP_DESCRIPTIONS = {
   wildlife_forestry_conservation: "Old-growth forest canopy, wildlife habitat, and conservation trail.",
   astronomy_deep_space_observatory: "Night sky observatory dome, refractor telescope, and Milky Way starfield.",
   emergency_medical_triage: "Emergency preparedness medical kit, rescue litter, and incident command post.",
+  lake_sunset_dock: "Lake and sunset dock surrounded by tranquil pine-covered hills, golden hour water reflections, and calm camp waterfront waters.",
+  first_aid_trail_kit: "Open red wilderness first aid kit on a mossy forest log with bandages, gauze rolls, medical shears, and trail preparedness gear.",
 };
 
 const CANONICAL_COVER_BACKDROP_KEYS = [
   "pinewood_campfire",
+  "lake_sunset_dock",
   "topographic_adventure",
   "heritage_embroidery",
   "collegiate_mbc",
@@ -6804,6 +6916,7 @@ const CANONICAL_COVER_BACKDROP_KEYS = [
   "pioneering_signal_tower",
   "whitewater_kayak_rapids",
   "first_aid_search_rescue",
+  "first_aid_trail_kit",
   "eagle_court_of_honor",
   "environmental_wetlands",
   "aviation_glider_airfield",
@@ -6818,6 +6931,44 @@ const CANONICAL_COVER_BACKDROP_KEYS = [
   "emergency_medical_triage",
 ];
 
+function normalizeTemplateBackdropUrl(rawUrl) {
+  const s = String(rawUrl || "").trim();
+  if (!s) return "";
+  if (s.startsWith("/") || s.startsWith("http") || s.startsWith("data:")) return s;
+  return `/${s}`;
+}
+
+function resolveTemplateDefaultBackdropKey(prof, curBadge) {
+  const tid = String(prof?.template_id || "").toLowerCase();
+  if (!tid || tid === "default_workbench" || tid.startsWith("bsa_scouting_america")) {
+    return typeof window.matchBackdropIdFromPrompt === "function"
+      ? window.matchBackdropIdFromPrompt("", curBadge)
+      : "pinewood_campfire";
+  }
+  if (tid.includes("topographic")) return "topographic_adventure";
+  if (tid.includes("fleur")) return "bsa_emblem_color";
+  if (tid.includes("250")) return "eagle_court_of_honor";
+  if (tid.includes("outdoor_silhouette")) return "pinewood_campfire";
+  if (tid.includes("hidden_valley") || tid.includes("hvsc")) return "lake_sunset_dock";
+  const tplBg = normalizeTemplateBackdropUrl(prof?.cover_bg_url || "");
+  if (tplBg && window.BUILTIN_BACKDROP_URLS) {
+    const cleanTpl = stripUrlQuery(tplBg);
+    for (const key of CANONICAL_COVER_BACKDROP_KEYS) {
+      if (stripUrlQuery(window.BUILTIN_BACKDROP_URLS[key]) === cleanTpl) {
+        return key;
+      }
+    }
+    for (const [key, val] of Object.entries(window.BUILTIN_BACKDROP_URLS)) {
+      if (stripUrlQuery(val) === cleanTpl && CANONICAL_COVER_BACKDROP_KEYS.includes(key)) {
+        return key;
+      }
+    }
+  }
+  return typeof window.matchBackdropIdFromPrompt === "function"
+    ? window.matchBackdropIdFromPrompt(tid, curBadge)
+    : "pinewood_campfire";
+}
+
 function getCoverBackdropChoices() {
   const urlsMap = window.BUILTIN_BACKDROP_URLS || {};
   const labelsMap = window.BUILTIN_BACKDROP_LABELS || {};
@@ -6827,15 +6978,38 @@ function getCoverBackdropChoices() {
     document.getElementById("badge-select")?.value ||
     "First Aid";
   const prof = getActiveTemplateProfile();
-  const matchedKey =
+  const badgeRecommendedKey =
     typeof window.matchBackdropIdFromPrompt === "function"
-      ? window.matchBackdropIdFromPrompt(prof?.template_id || "", curBadge)
+      ? window.matchBackdropIdFromPrompt("", curBadge)
       : "pinewood_campfire";
+  const matchedKey =
+    state.coverBackdropMode === "TEMPLATE_DEFAULT"
+      ? resolveTemplateDefaultBackdropKey(prof, curBadge)
+      : badgeRecommendedKey;
 
   const choices = [];
   const seenUrls = new Set();
 
-  // 1. Put the badge-recommended built-in backdrop first so [1/N] is the badge's signature backdrop
+  // 0. If the active template has its own custom/overlay cover_bg_url not in canonical built-ins, include it first
+  const tplCoverUrl = normalizeTemplateBackdropUrl(prof?.cover_bg_url || "");
+  if (tplCoverUrl) {
+    const cleanTpl = stripUrlQuery(tplCoverUrl);
+    const inCanonical = CANONICAL_COVER_BACKDROP_KEYS.some(
+      (k) => stripUrlQuery(urlsMap[k]) === cleanTpl
+    );
+    if (!inCanonical && !seenUrls.has(cleanTpl)) {
+      seenUrls.add(cleanTpl);
+      choices.push({
+        backdrop_id: "AUTO_TEMPLATE",
+        image_url: tplCoverUrl,
+        title: `🏞️ ${prof?.name || "Template"} Default Backdrop`,
+        caption: `Default washed cover backdrop for the "${prof?.name || "Active"}" slide template.`,
+        source_type: "RECOMMENDED_BACKDROP",
+      });
+    }
+  }
+
+  // 1. Put the recommended/default built-in backdrop first
   const orderedKeys = [
     ...(CANONICAL_COVER_BACKDROP_KEYS.includes(matchedKey) ? [matchedKey] : []),
     ...CANONICAL_COVER_BACKDROP_KEYS.filter((k) => k !== matchedKey),
@@ -6844,8 +7018,9 @@ function getCoverBackdropChoices() {
   // 2. Custom synthesized or uploaded backdrops from Nano Banana AI Template Studio in this session
   if (Array.isArray(state.customCoverBackdrops)) {
     state.customCoverBackdrops.forEach((cb) => {
-      if (cb && cb.backdrop_id && cb.image_url && !seenUrls.has(cb.image_url)) {
-        seenUrls.add(cb.image_url);
+      const cleanCb = stripUrlQuery(cb?.image_url || "");
+      if (cb && cb.backdrop_id && cb.image_url && !seenUrls.has(cleanCb)) {
+        seenUrls.add(cleanCb);
         choices.push({
           backdrop_id: cb.backdrop_id,
           image_url: cb.image_url,
@@ -6859,10 +7034,11 @@ function getCoverBackdropChoices() {
 
   orderedKeys.forEach((key) => {
     const u = urlsMap[key];
-    if (!u || seenUrls.has(u)) return;
-    seenUrls.add(u);
+    const cleanU = stripUrlQuery(u || "");
+    if (!u || seenUrls.has(cleanU)) return;
+    seenUrls.add(cleanU);
     const lbl = labelsMap[key] || key;
-    const isRecommended = key === matchedKey;
+    const isRecommended = key === badgeRecommendedKey;
     choices.push({
       backdrop_id: key,
       image_url: u,
@@ -6897,11 +7073,27 @@ function resolveActiveCoverBackdropChoiceIdx(choices) {
     state.currentBadge ||
     document.getElementById("badge-select")?.value ||
     "First Aid";
-  const effectiveUrl =
-    prof?.cover_bg_url ||
-    (typeof window.resolveDefaultCoverBackdropForBadge === "function"
-      ? window.resolveDefaultCoverBackdropForBadge(curBadge, prof?.template_id || "")
-      : "");
+  let effectiveUrl = "";
+  if (state.coverBackdropMode === "TEMPLATE_DEFAULT") {
+    const tplCoverUrl = normalizeTemplateBackdropUrl(prof?.cover_bg_url || "");
+    if (tplCoverUrl) {
+      effectiveUrl = tplCoverUrl;
+    } else {
+      const tplKey = resolveTemplateDefaultBackdropKey(prof, curBadge);
+      effectiveUrl = window.BUILTIN_BACKDROP_URLS?.[tplKey] || "";
+    }
+  } else {
+    const recKey =
+      typeof window.matchBackdropIdFromPrompt === "function"
+        ? window.matchBackdropIdFromPrompt("", curBadge)
+        : "pinewood_campfire";
+    effectiveUrl =
+      window.BUILTIN_BACKDROP_URLS?.[recKey] ||
+      normalizeTemplateBackdropUrl(prof?.cover_bg_url || "") ||
+      (typeof window.resolveDefaultCoverBackdropForBadge === "function"
+        ? window.resolveDefaultCoverBackdropForBadge(curBadge, prof?.template_id || "")
+        : "");
+  }
   const cleanEff = stripUrlQuery(effectiveUrl);
   if (cleanEff) {
     const urlIdx = choices.findIndex((c) => stripUrlQuery(c.image_url) === cleanEff);
@@ -15031,7 +15223,7 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     state.currentBadge ||
     document.getElementById("badge-select")?.value ||
     "First Aid";
-  let effectiveCoverBgUrl = prof.cover_bg_url || "";
+  let effectiveCoverBgUrl = normalizeTemplateBackdropUrl(prof.cover_bg_url || "");
   if (String(coverBackdropSelVal).toUpperCase() === "NONE") {
     effectiveCoverBgUrl = "";
   } else if (
@@ -15040,10 +15232,22 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     window.BUILTIN_BACKDROP_URLS?.[coverBackdropSelVal]
   ) {
     effectiveCoverBgUrl = window.BUILTIN_BACKDROP_URLS[coverBackdropSelVal];
-  } else if (!effectiveCoverBgUrl && prof.template_id !== "default_workbench") {
-    if (typeof window.resolveDefaultCoverBackdropForBadge === "function") {
-      effectiveCoverBgUrl = window.resolveDefaultCoverBackdropForBadge(curBadgeForCover, prof.template_id);
+  } else if (state.coverBackdropMode === "TEMPLATE_DEFAULT") {
+    if (!effectiveCoverBgUrl && prof.template_id !== "default_workbench") {
+      const tplKey = resolveTemplateDefaultBackdropKey(prof, curBadgeForCover);
+      effectiveCoverBgUrl = window.BUILTIN_BACKDROP_URLS?.[tplKey] || "";
     }
+  } else if (prof.template_id !== "default_workbench") {
+    const recKey =
+      typeof window.matchBackdropIdFromPrompt === "function"
+        ? window.matchBackdropIdFromPrompt("", curBadgeForCover)
+        : "pinewood_campfire";
+    effectiveCoverBgUrl =
+      window.BUILTIN_BACKDROP_URLS?.[recKey] ||
+      effectiveCoverBgUrl ||
+      (typeof window.resolveDefaultCoverBackdropForBadge === "function"
+        ? window.resolveDefaultCoverBackdropForBadge(curBadgeForCover, prof.template_id)
+        : "");
   }
 
   // 2. Default Workbench Classic: Reset responsive geometry overrides & keep slide footer locked to Slide Theme (never flipping with UI Dark Mode)
@@ -15815,6 +16019,18 @@ async function applyTemplateToActiveDeck(templateId, showNotification = true) {
     window.localStorage.setItem(TEMPLATE_STORAGE_KEY, state.activeTemplateId);
   } catch (_e) {}
 
+  // Item 3: Switching to a specific template switches the Slide 1 background to the default background for that template
+  // (when showNotification is false during renderResults hydration, preserve BADGE_RECOMMENDED for the new deck)
+  if (showNotification) {
+    state.coverBackdropMode = "TEMPLATE_DEFAULT";
+    state.deckStyle = state.deckStyle || getCurrentDeckStyleConfig();
+    state.deckStyle.cover_backdrop_id = "AUTO_TEMPLATE";
+    const bdSelEl = document.getElementById("style-cover-backdrop");
+    if (bdSelEl) {
+      bdSelEl.value = "AUTO_TEMPLATE";
+    }
+  }
+
   const prof = getActiveTemplateProfile();
   state.activeTemplateProfile = prof;
   if (prof?.family_id) {
@@ -16513,6 +16729,8 @@ async function initPowerPointTemplateStudio() {
     wildlife_forestry_conservation: "/assets/templates/overlays/nano_base_wildlife_forestry_conservation.jpg",
     astronomy_deep_space_observatory: "/assets/templates/overlays/nano_base_astronomy_deep_space_observatory.jpg",
     emergency_medical_triage: "/assets/templates/overlays/nano_base_emergency_medical_triage.jpg",
+    lake_sunset_dock: "/assets/templates/overlays/nano_base_lake_sunset_dock.jpg",
+    first_aid_trail_kit: "/assets/templates/overlays/nano_base_first_aid_trail_kit.jpg",
   };
   window.BUILTIN_BACKDROP_URLS = BUILTIN_BACKDROP_URLS;
 
@@ -16544,6 +16762,8 @@ async function initPowerPointTemplateStudio() {
     wildlife_forestry_conservation: "🦌 Old-Growth Forest Canopy, Wildlife Habitat & Conservation",
     astronomy_deep_space_observatory: "🔭 Night Sky Observatory Dome, Telescope & Milky Way",
     emergency_medical_triage: "🚑 Emergency First Aid Kit, Rescue Litter & Field Triage",
+    lake_sunset_dock: "🌅 Lake & Sunset Dock",
+    first_aid_trail_kit: "🧰 Wilderness Trail First Aid Kit & Medical Supplies",
   };
   window.BUILTIN_BACKDROP_LABELS = BUILTIN_BACKDROP_LABELS;
 
@@ -16790,6 +17010,11 @@ async function initPowerPointTemplateStudio() {
           : genVar?.cover_bg_url ||
             resolvePhotorealisticCoverBackdropUrl(styleFamily, promptText || customBgDesc, backdropSelVal);
 
+      stageBox.dataset.zoomBgUrl = coverBgUrl;
+      stageBox.dataset.zoomBgTitle = backdropDisplayLabel;
+      stageBox.style.cursor = "zoom-in";
+      stageBox.title = "Click to zoom background image in full-screen Lightbox";
+
       if (isBackdropMode) {
         stageBox.style.backgroundImage = `linear-gradient(135deg, rgba(250,248,245,0.68) 0%, ${pHex}22 50%, rgba(250,248,245,0.72) 100%), url('${coverBgUrl}')`;
         stageBox.style.backgroundSize = "cover";
@@ -16815,6 +17040,8 @@ async function initPowerPointTemplateStudio() {
           ? ""
           : "margin-right:32px;";
 
+      const zoomPillHtml = `<span class="m3-tpl-ai-zoom-pill" style="position:absolute; bottom:42px; right:12px; z-index:5; background:rgba(15,23,42,0.82); color:#F8FAFC; border:1px solid rgba(148,163,184,0.65); border-radius:999px; padding:3px 9px; font-size:0.62rem; font-weight:800; display:inline-flex; align-items:center; gap:4px; box-shadow:0 2px 8px rgba(0,0,0,0.28); cursor:zoom-in;">🔍 Click to zoom</span>`;
+
       if (isBackdropMode) {
         stageBox.innerHTML = `
           <div id="tpl-ai-preview-backdrop-mode" style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-between; ${perimeterBorder}">
@@ -16826,6 +17053,7 @@ async function initPowerPointTemplateStudio() {
                 Washed Background &bull; ${escapeHtml(activeVariantLabel)}
               </span>
             </div>
+            ${zoomPillHtml}
             <div style="padding:8px 12px; display:flex; align-items:center; justify-content:space-between; background:linear-gradient(90deg, rgba(255,255,255,0.86) 0%, rgba(255,255,255,0.72) 100%); border-top:2px solid ${escapeHtml(aHex)}; font-size:0.62rem; font-weight:700; color:#1E293B;">
               <span>16:9 Full-Bleed Washed Backdrop (Warm Cream #FAF8F5 + ${escapeHtml(pHex)} Duotone Wash)</span>
               <span>WCAG AAA Contrast Safe</span>
@@ -16849,6 +17077,7 @@ async function initPowerPointTemplateStudio() {
               </div>
               <img src="/assets/badge_emblems/first_aid.png" alt="" style="width:68px; height:68px; object-fit:contain; filter:drop-shadow(0 4px 10px rgba(15,23,42,0.18));" />
             </div>
+            ${zoomPillHtml}
             <div id="tpl-ai-preview-bottom-silhouette" style="position:relative; height:34px; background:linear-gradient(90deg, ${escapeHtml(pHex)} 0%, ${escapeHtml(pHex)}D9 65%, ${escapeHtml(aHex)} 100%); border-top:2.5px solid ${escapeHtml(aHex)}; display:flex; align-items:center; justify-content:space-between; padding:0 12px; color:#FFFFFF; font-size:0.61rem; font-weight:700;">
               <span>Scouts BSA First Aid Merit Badge &bull; Cover Slide 1</span>
               <span>${escapeHtml(activeVariantLabel)}</span>
@@ -16907,6 +17136,30 @@ async function initPowerPointTemplateStudio() {
   };
   window.updateNanoBananaLivePreview = updateNanoBananaLivePreview;
   window.renderNanoBananaLivePreview = updateNanoBananaLivePreview;
+
+  // Item 14: Click-to-zoom on Live 16:9 Preview Stage and Synthesized Backdrop Thumbnail
+  document.getElementById("tpl-ai-live-preview-stage")?.addEventListener("click", (ev) => {
+    const stageEl = ev.currentTarget;
+    const zoomUrl = stageEl?.dataset?.zoomBgUrl || "";
+    const zoomTitle = stageEl?.dataset?.zoomBgTitle || "Washed Background Preview";
+    if (zoomUrl && typeof window.openImageZoomLightbox === "function") {
+      window.openImageZoomLightbox({
+        src: zoomUrl,
+        title: zoomTitle,
+        caption: "16:9 Photorealistic Washed Backdrop Preview — Use + / − or scroll wheel to zoom up to 500%.",
+      });
+    }
+  });
+  document.getElementById("tpl-ai-synthesized-thumb-img")?.addEventListener("click", (ev) => {
+    const src = ev.currentTarget?.getAttribute("src") || "";
+    if (src && typeof window.openImageZoomLightbox === "function") {
+      window.openImageZoomLightbox({
+        src,
+        title: state.tplAiSynthesizedBackdropLabel || "✨ Custom AI Synthesized Backdrop",
+        caption: "16:9 Photorealistic Washed Backdrop Preview — Use + / − or scroll wheel to zoom up to 500%.",
+      });
+    }
+  });
 
   document.querySelectorAll("[data-tpl-ai-slide-mode]").forEach((modeBtn) => {
     modeBtn.addEventListener("click", () => {

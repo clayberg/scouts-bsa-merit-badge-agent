@@ -63,14 +63,16 @@
           "1. Present evidence that you have cared for a pet for four months.",
           "2. Get approval before you start.",
           "3. Note: Work done for other merit badges cannot be used for this requirement."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Evidence That You Have Cared without explaining how it works in practice satisfies Pets Requirement 1.",
-        "fact": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence That You Have Cared (Evidence That You Have Cared) (p. 7, p. 60).",
-        "fact_correction": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence That You Have Cared (Evidence That You Have Cared) (p. 7, p. 60).",
-        "pamphlet_page_ref": "p. 7, p. 60",
-        "myth": "Memorizing a one-line definition of Evidence That You Have Cared without explaining how it works in practice satisfies Pets Requirement 1."
+        "misconception": "Assuming Present evidence that you have cared in Pets Requirement 1 operates identically across all environmental and technical conditions.",
+        "fact": "If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious thought to pet ownership.",
+        "fact_correction": "If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious thought to pet ownership.",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)",
+        "myth": "Assuming Present evidence that you have cared in Pets Requirement 1 operates identically across all environmental and technical conditions.",
+        "correction": "If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious thought to pet ownership."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -94,14 +96,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Evidence That You Have Cared: Present evidence that you have cared: If you are not a pet owner and plan to buy or adopt ananimal to earn this merit badge, first give serious thought to pet ownership (p. 7).",
+        "Evidence That You Have Cared: Present evidence that you have cared: If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious thought to pet ownership (p. 7).",
         "Evidence That You Have Cared Principle 2: Present evidence that you have cared Principle 2: You must realize what every responsiblepet owner already knows: It takes time, effort, and money to care for a pet properly (p. 7).",
-        "Evidence That You Have Cared Principle 3: Present evidence that you have cared Principle 3: You must ensure quality health care for your pet, which could include vaccinations and preventive andemergency care as needed (p. 7).",
-        "Evidence That You Have Cared Principle 4: Present evidence that you have cared Principle 4: You must take the time to properlytrain your pet so that it does not become a nuisance (p. 7)."
+        "Evidence That You Have Cared Principle 3: Present evidence that you have cared Principle 3: You must ensure quality health care for your pet, which could include vaccinations and preventive and emergency care as needed (p. 7).",
+        "Evidence That You Have Cared Principle 4: Present evidence that you have cared Principle 4: You must take the time to properly train your pet so that it does not become a nuisance (p. 7)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Evidence That You Have Cared): Step 1 (Present evidence that you have cared): You mustdedicate yourself to the well-being of a living animal, which means sometimes giving up other activities, such as TV, totend to your pet's (p. 7).",
-        "Step 2 (Evidence That You Have Cared): Step 2 (Present evidence that you have cared): Understand thatdifferent pets require different living arrangements (p. 7).",
+        "Step 1 (Evidence That You Have Cared): Step 1 (Present evidence that you have cared): You must dedicate yourself to the well-being of a living animal, which means sometimes giving up other activities, such as TV, to tend to your pet's (p. 7).",
+        "Step 2 (Evidence That You Have Cared): Step 2 (Present evidence that you have cared): Understand that different pets require different living arrangements (p. 7).",
         "Step 3 (Evidence That You Have Cared): Step 3 (Present evidence that you have cared): Municipal laws may restrict the types of pets (p. 7).",
         "Step 4 (Evidence That You Have Cared): Step 4 (Present evidence that you have cared): Give baby canaries all the egg food (available at pet stores) and conditioning food they want (p. 7)."
       ],
@@ -146,7 +148,7 @@
         "title": "Exemplar Technical Analysis: Pets Req 1 (Evidence That You Have Cared)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Evidence That You Have Cared: Present evidence that you have cared: If you are not a pet owner and plan to buy or adopt ananimal to earn this merit badge, first give serious though.",
+          "Core Technical Principle": "Evidence That You Have Cared: Present evidence that you have cared: If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious though.",
           "Applied Field Mechanism": "Evidence That You Have Cared Principle 2: Present evidence that you have cared Principle 2: You must realize what every responsiblepet owner already knows: It takes time, effort.",
           "Real-World Case Example": "Concrete application of Evidence That You Have Cared documented during Pets study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)."
@@ -155,25 +157,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Pets Requirement 1 (Evidence That You Have Cared), which statement accurately reflects the official BSA standard for Present evidence that you have cared for a pet for four months?",
-        "question": "When preparing for your counselor conference on Pets Requirement 1 (Evidence That You Have Cared), which statement accurately reflects the official BSA standard for Present evidence that you have cared for a pet for four months?",
+        "scenario_prompt": "Over the four-month pet care period for Requirement 1, which combination of daily practices is essential for keeping a companion animal healthy?",
+        "question": "Over the four-month pet care period for Requirement 1, which combination of daily practices is essential for keeping a companion animal healthy?",
         "options": [
-          "A. Memorizing a one-line definition of Evidence That You Have Cared without explaining how it works in practice satisfies Pets.",
-          "B. Skip the Pets Pamphlet technical criteria for Evidence That You Have Cared and use rules from an unrelated activity.",
-          "C. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence.",
-          "D. Substitute a casual verbal guess about Present evidence that you have cared for a pet for four in place of documented Pets observations."
+          "A. Feeding table scraps once a week, changing water only when the bowl is completely dry, and skipping parasite prevention for indoor pets.",
+          "B. Allowing the pet to roam the neighborhood unsupervised for exercise and cleaning its enclosure once a month.",
+          "C. Providing species-appropriate nutrition, clean fresh water daily, sanitary housing or litter maintenance, regular exercise and socialization, and scheduled veterinary preventive care.",
+          "D. Switching food brands every three days and administering human over-the-counter pain medication whenever the pet seems tired."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Evidence That You Have Cared without explaining how it works in practice satisfies Pets.",
-          "B. Skip the Pets Pamphlet technical criteria for Evidence That You Have Cared and use rules from an unrelated activity.",
-          "C. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence.",
-          "D. Substitute a casual verbal guess about Present evidence that you have cared for a pet for four in place of documented Pets observations."
+          "A. Feeding table scraps once a week, changing water only when the bowl is completely dry, and skipping parasite prevention for indoor pets.",
+          "B. Allowing the pet to roam the neighborhood unsupervised for exercise and cleaning its enclosure once a month.",
+          "C. Providing species-appropriate nutrition, clean fresh water daily, sanitary housing or litter maintenance, regular exercise and socialization, and scheduled veterinary preventive care.",
+          "D. Switching food brands every three days and administering human over-the-counter pain medication whenever the pet seems tired."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence.",
-        "explanation": "Correct Answer (C): The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence That You Have Cared (Evidence That You Have Cared). (Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)).",
-        "pamphlet_page_ref": "p. 7, p. 60"
+        "correct_answer": "C. Providing species-appropriate nutrition, clean fresh water daily, sanitary housing or litter maintenance, regular exercise and socialization, and scheduled veterinary preventive care.",
+        "explanation": "Correct Answer (C): Responsible pet ownership requires consistent daily feeding, fresh water, clean living quarters, appropriate exercise, and preventive veterinary care such as vaccinations and parasite control.",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Pets Workbook organizer table and practical demonstration for Req 1.",
@@ -232,14 +234,16 @@
           "2. Tell some interesting facts about it.",
           "3. Tell why you have this kind of pet.",
           "4. Give local laws, if any, relating to the pet you keep."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Words or More About The without explaining how it works in practice satisfies Pets Requirement 2.",
-        "fact": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or More About The (Words or More About The) (p. 41, p. 47).",
-        "fact_correction": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or More About The (Words or More About The) (p. 41, p. 47).",
-        "pamphlet_page_ref": "p. 41, p. 47",
-        "myth": "Memorizing a one-line definition of Words or More About The without explaining how it works in practice satisfies Pets Requirement 2."
+        "misconception": "Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+        "fact": "Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+        "fact_correction": "Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)",
+        "myth": "Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+        "correction": "Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -263,14 +267,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Words or More About The: Write in 200 Words: Mixingmales andfemales, besidescreating lots ofbaby hamsters, might lead tohamster fights (p. 41).",
-        "Words or More About The Principle 2: Write in 200 Words Principle 2: Diarrhea, sometimes called \"wet tail,\" is aserious condition that requiresveterinary attention (p. 41).",
+        "Words or More About The: Write in 200 Words: Mixing males and females, besides creating lots of baby hamsters, might lead to hamster fights (p. 41).",
+        "Words or More About The Principle 2: Write in 200 Words Principle 2: Diarrhea, sometimes called \"wet tail,\" is aserious condition that requires veterinary attention (p. 41).",
         "Words or More About The Principle 3: Write in 200 Words Principle 3: Feed a commercial hamster diet that contains at least 16 percent protein (p. 41).",
-        "Words or More About The Principle 4: Write in 200 Words Principle 4: Do not feed seed-type pet mixesbecause the hamster will pick out only the foods itwants and hoard (bury) the rest (p. 41)."
+        "Words or More About The Principle 4: Write in 200 Words Principle 4: Do not feed seed-type pet mixes because the hamster will pick out only the foods it wants and hoard (bury) the rest (p. 41)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Words or More About The): Step 1 (Write in 200 Words): Hamsters tend tostuff their cheeks with food and then storeit away (p. 41).",
-        "Step 2 (Words or More About The): Step 2 (Write in 200 Words): Hoarded food will only spoil androt, and you must remove it from the cageregularly (p. 41).",
+        "Step 1 (Words or More About The): Step 1 (Write in 200 Words): Hamsters tend to stuff their cheeks with food and then store it away (p. 41).",
+        "Step 2 (Words or More About The): Step 2 (Write in 200 Words): Hoarded food will only spoil and rot, and you must remove it from the cage regularly (p. 41).",
         "Step 3 (Words or More About The): Step 3 (Write in 200 Words): If this occurs, discontinue these foods for a few days (p. 41).",
         "Step 4 (Words or More About The): Step 4 (Write in 200 Words): A hamster's front teeth grow continuously and normally are worn down by chewing on hard items (p. 41)."
       ],
@@ -315,8 +319,8 @@
         "title": "Exemplar Technical Analysis: Pets Req 2 (Words or More About The)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Words or More About The: Write in 200 Words: Mixingmales andfemales, besidescreating lots ofbaby hamsters, might lead tohamster fights (p. 41).",
-          "Applied Field Mechanism": "Words or More About The Principle 2: Write in 200 Words Principle 2: Diarrhea, sometimes called \"wet tail,\" is aserious condition that requiresveterinary attention (p. 41).",
+          "Core Technical Principle": "Words or More About The: Write in 200 Words: Mixing males and females, besides creating lots of baby hamsters, might lead to hamster fights (p. 41).",
+          "Applied Field Mechanism": "Words or More About The Principle 2: Write in 200 Words Principle 2: Diarrhea, sometimes called \"wet tail,\" is aserious condition that requires veterinary attention (p. 41).",
           "Real-World Case Example": "Concrete application of Words or More About The documented during Pets study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)."
         },
@@ -324,25 +328,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Pets Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Words or More About The: Write in 200 words or more about the care, feeding, and housing of you)?",
-        "question": "How does the Pets Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Words or More About The: Write in 200 words or more about the care, feeding, and housing of you)?",
+        "scenario_prompt": "In Pets Requirement 2 (Write in 200 words or more), what technical standard and procedure does the Scouting America Pets Merit Badge Pamphlet require?",
+        "question": "In Pets Requirement 2 (Write in 200 words or more), what technical standard and procedure does the Scouting America Pets Merit Badge Pamphlet require?",
         "options": [
-          "A. Memorizing a one-line definition of Words or More About The without explaining how it works in practice satisfies Pets Requirement 2.",
-          "B. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or.",
-          "C. Rely on a group summary of Words or More About The instead of individually explaining or demonstrating Write in 200 words or more about the care, feeding, and hous.",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Words or More About The standard."
+          "A. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+          "B. Assuming Present evidence that you have cared in Pets Requirement 1 operates identically across all environmental and technical conditions.",
+          "C. Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+          "D. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Words or More About The without explaining how it works in practice satisfies Pets Requirement 2.",
-          "B. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or.",
-          "C. Rely on a group summary of Words or More About The instead of individually explaining or demonstrating Write in 200 words or more about the care, feeding, and hous.",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Words or More About The standard."
+          "A. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+          "B. Assuming Present evidence that you have cared in Pets Requirement 1 operates identically across all environmental and technical conditions.",
+          "C. Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+          "D. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or.",
-        "explanation": "Correct Answer (B): The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or More About The (Words or More About The). (Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)).",
-        "pamphlet_page_ref": "p. 41, p. 47"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+        "explanation": "Correct Answer (C): Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead. (Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)).",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Pets Workbook organizer table and practical demonstration for Req 2.",
@@ -392,14 +396,16 @@
         "rows": [
           "1. Show that you have read a book or pamphlet, approved by your counselor, about your kind of pet.",
           "2. Discuss with your counselor what you have learned from what you read."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform That you have read a book verbally can substitute for a physical hands-on demonstration in Pets Requirement 3.",
-        "fact": "Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you have read a book with proper technique (p. 26, p. 29).",
-        "fact_correction": "Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you have read a book with proper technique (p. 26, p. 29).",
-        "pamphlet_page_ref": "p. 26, p. 29",
-        "myth": "Describing how to perform That you have read a book verbally can substitute for a physical hands-on demonstration in Pets Requirement 3."
+        "misconception": "Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs.",
+        "fact_correction": "Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs.",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)",
+        "myth": "Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -428,16 +434,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "That you have read a book: Before you buy atype of fish, findout what kind of food it needs (p. 26).",
-        "That you have read a book Principle 2: Flesh-eating andplant-eating fishneed differenttypes of protein (p. 26).",
+        "That you have read a book: Before you buy atype of fish, find out what kind of food it needs (p. 26).",
+        "That you have read a book Principle 2: Flesh-eating and plant-eating fish need different types of protein (p. 26).",
         "That you have read a book Principle 3: The Synodontis courteti, a spotted catfish, comes from West Africa (p. 26).",
         "That you have read a book Principle 4: A filter will help, but it must be cleaned every week (p. 26)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (That you have read a book): Use a siphon to remove the food anddroppings that accumulate in the bottom of the tank (p. 26).",
-        "Step 2 (That you have read a book): Water that is a little green will not harm your fish, but when it getssoupy and opaque, you had better change (p. 26).",
-        "Step 3 (That you have read a book): Additionally, youalso must replace water that evaporates over time (p. 26).",
-        "Step 4 (That you have read a book): Age the newwater overnight before adding it to the tank, or use a chemicaldechlorinator (under the close supervision of an adult) (p. 26)."
+        "Step 1 (That you have read a book): Use a siphon to remove the food and droppings that accumulate in the bottom of the tank (p. 26).",
+        "Step 2 (That you have read a book): Water that is a little green will not harm your fish, but when it gets soupy and opaque, you had better change (p. 26).",
+        "Step 3 (That you have read a book): Additionally, you also must replace water that evaporates over time (p. 26).",
+        "Step 4 (That you have read a book): Age the new water overnight before adding it to the tank, or use a chemicaldechlorinator (under the close supervision of an adult) (p. 26)."
       ],
       "gear_checklist": [
         "Official Pets Merit Badge Pamphlet and Fillable Workbook (open to Req 3: That you have read a book)",
@@ -480,38 +486,38 @@
         "title": "Exemplar Skill Station Walkthrough: Pets Req 3 (That you have read a book)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for That you have read a book.",
-          "Step-by-Step Execution": "That you have read a book: Before you buy atype of fish, findout what kind of food it needs (p. 26).",
-          "Quality & Tolerance Check": "That you have read a book Principle 2: Flesh-eating andplant-eating fishneed differenttypes of protein (p. 26).",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for That you have read a book.",
+          "Step-by-Step Execution": "That you have read a book: Before you buy atype of fish, find out what kind of food it needs (p. 26).",
+          "Quality & Tolerance Check": "That you have read a book Principle 2: Flesh-eating and plant-eating fish need different types of protein (p. 26).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29))"
         },
         "sample_output": "That you have read a book: That you have read a book: Before you buy atype of fish, findout what kind of food it needs (p. 26).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Pets Requirement 3 (You Have Read A Book), what execution standard is required when demonstrating Show that you have read a book or pamphlet, approved by your counselor, abo?",
-        "question": "During the hands-on skill station for Pets Requirement 3 (You Have Read A Book), what execution standard is required when demonstrating Show that you have read a book or pamphlet, approved by your counselor, abo?",
+        "scenario_prompt": "When demonstrating and explaining That you have read a book for Pets Requirement 3, which approach follows the verified Pets Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining That you have read a book for Pets Requirement 3, which approach follows the verified Pets Merit Badge Pamphlet standard?",
         "options": [
-          "A. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you.",
-          "B. Describing how to perform That you have read a book verbally can substitute for a physical hands-on demonstration in Pets.",
-          "C. Focus only on Show that you have read a book or pamphlet, approved by while omitting Discuss with your counselor what you have learned from  and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full You Have Read A Book standard."
+          "A. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+          "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs."
         ],
         "choices": [
-          "A. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you.",
-          "B. Describing how to perform That you have read a book verbally can substitute for a physical hands-on demonstration in Pets.",
-          "C. Focus only on Show that you have read a book or pamphlet, approved by while omitting Discuss with your counselor what you have learned from  and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full You Have Read A Book standard."
+          "A. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+          "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you.",
-        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you have read a book with proper technique. (Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)).",
-        "pamphlet_page_ref": "p. 26, p. 29"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs.",
+        "explanation": "Correct Answer (D): Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs. (Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)).",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Pets Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/pets_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -546,23 +552,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show your pet in a pet show.",
-              "2. Key Pamphlet Facts & Mechanism (Pet in A Pet)",
-              "3. Field Application & Counselor Discussion (Pet in A Pet)"
+              "1. Show your pet in a pet show."
             ],
             "rows": [
-              "1. Show your pet in a pet show.",
-              "2. Key Pamphlet Facts & Mechanism (Pet in A Pet)",
-              "3. Field Application & Counselor Discussion (Pet in A Pet)"
-            ]
+              "1. Show your pet in a pet show."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show Your Pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4a.",
-            "fact": "Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Show Your Pet with proper technique (p. 21, p. 54).",
-            "fact_correction": "Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Show Your Pet with proper technique (p. 21, p. 54).",
-            "pamphlet_page_ref": "p. 21, p. 54",
-            "myth": "Describing how to perform Show Your Pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4a."
+            "misconception": "Performing Your pet in a pet in Pets Requirement 4a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Pets Requirement 4a (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+            "fact_correction": "Hands-on execution of Pets Requirement 4a (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+            "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
+            "myth": "Performing Your pet in a pet in Pets Requirement 4a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Pets Requirement 4a (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -593,7 +597,7 @@
           "pamphlet_excerpts": [
             "Pet in A Pet Show: Your pet in a pet Principle 2: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 21)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/pets_p021_img2.png"
         },
         {
           "sub_id": "4b",
@@ -625,23 +629,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Train a pet in three or more tricks or special abilities.",
-              "2. Key Pamphlet Facts & Mechanism (Train A Pet)",
-              "3. Field Application & Counselor Discussion (Train A Pet)"
+              "1. Train a pet in three or more tricks or special abilities."
             ],
             "rows": [
-              "1. Train a pet in three or more tricks or special abilities.",
-              "2. Key Pamphlet Facts & Mechanism (Train A Pet)",
-              "3. Field Application & Counselor Discussion (Train A Pet)"
-            ]
+              "1. Train a pet in three or more tricks or special abilities."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Train A Pet without explaining how it works in practice satisfies Pets Requirement 4b.",
-            "fact": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Train A Pet (Train A Pet) (p. 21, p. 54).",
-            "fact_correction": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Train A Pet (Train A Pet) (p. 21, p. 54).",
-            "pamphlet_page_ref": "p. 21, p. 54",
-            "myth": "Memorizing a one-line definition of Train A Pet without explaining how it works in practice satisfies Pets Requirement 4b."
+            "misconception": "Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Pets Requirement 4b (Train a pet) depends on precise setup and step-by-step technique: Obedience-trained dogs make better pets, have fewer behavioral problems.",
+            "fact_correction": "Hands-on execution of Pets Requirement 4b (Train a pet) depends on precise setup and step-by-step technique: Obedience-trained dogs make better pets, have fewer behavioral problems.",
+            "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
+            "myth": "Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Pets Requirement 4b (Train a pet) depends on precise setup and step-by-step technique: Obedience-trained dogs make better pets, have fewer behavioral problems."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -719,20 +721,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(4a) Pet in A Pet",
-          "(4b) Train A Pet"
+          "1. (4a) Pet in A Pet",
+          "2. (4b) Train A Pet"
         ],
         "rows": [
-          "(4a) Pet in A Pet",
-          "(4b) Train A Pet"
-        ]
+          "1. (4a) Pet in A Pet",
+          "2. (4b) Train A Pet"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Your pet in a pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4.",
-        "fact": "Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in a pet with proper technique (p. 21, p. 54).",
-        "fact_correction": "Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in a pet with proper technique (p. 21, p. 54).",
-        "pamphlet_page_ref": "p. 21, p. 54",
-        "myth": "Describing how to perform Your pet in a pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4."
+        "misconception": "Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+        "fact_correction": "Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
+        "myth": "Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -756,14 +760,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Pet in A Pet Show: Your pet in a pet: Learning how to respond to basic obedience commands canliterally save a dog's life in today's world of busy streets andfast automobiles (p. 21).",
+        "Pet in A Pet Show: Your pet in a pet: Learning how to respond to basic obedience commands can literally save a dog's life in today's world of busy streets and fast automobiles (p. 21).",
         "Pet in A Pet Show Principle 2: Your pet in a pet Principle 2: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 21).",
         "Pet in A Pet Show Principle 3: Your pet in a pet Principle 3: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 21).",
-        "Pet in A Pet Show Principle 4: Your pet in a pet Principle 4: There are many training methods, some more effectivethan others (p. 21)."
+        "Pet in A Pet Show Principle 4: Your pet in a pet Principle 4: There are many training methods, some more effective than others (p. 21)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Pet in A Pet Show): Step 1 (Your pet in a pet): A good trainer can help you figure out whatworks best with your dog (p. 21).",
-        "Step 2 (Pet in A Pet Show): Step 2 (Your pet in a pet): This can be an excellent way totrain your pet and to improve your own skills (p. 21).",
+        "Step 1 (Pet in A Pet Show): Step 1 (Your pet in a pet): A good trainer can help you figure out what works best with your dog (p. 21).",
+        "Step 2 (Pet in A Pet Show): Step 2 (Your pet in a pet): This can be an excellent way to train your pet and to improve your own skills (p. 21).",
         "Step 3 (Pet in A Pet Show): Step 3 (Your pet in a pet): If you decide todo this, enroll your dog once it has been vaccinated (p. 21).",
         "Step 4 (Pet in A Pet Show): Step 4 (Your pet in a pet): Ask your veterinarian for help in picking a class that matches your dog's abilities (p. 21)."
       ],
@@ -808,8 +812,8 @@
         "title": "Exemplar Skill Station Walkthrough: Pets Req 4 (Pet in A Pet Show)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Pet in A Pet Show.",
-          "Step-by-Step Execution": "Pet in A Pet Show: Your pet in a pet: Learning how to respond to basic obedience commands canliterally save a dog's life in today's world of busy streets andfast automobiles (p. 21)",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Pet in A Pet Show.",
+          "Step-by-Step Execution": "Pet in A Pet Show: Your pet in a pet: Learning how to respond to basic obedience commands can literally save a dog's life in today's world of busy streets and fast automobiles (p. 21)",
           "Quality & Tolerance Check": "Pet in A Pet Show Principle 2: Your pet in a pet Principle 2: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 21).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54))"
         },
@@ -817,29 +821,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Pets Requirement 4 (Pet in A Pet), what execution standard is required when demonstrating Show your pet in a pet show?",
-        "question": "During the hands-on skill station for Pets Requirement 4 (Pet in A Pet), what execution standard is required when demonstrating Show your pet in a pet show?",
+        "scenario_prompt": "When working on Pets Requirement 4 (Your pet in a pet), which principle and field standard is established in the Pets Merit Badge Pamphlet?",
+        "question": "When working on Pets Requirement 4 (Your pet in a pet), which principle and field standard is established in the Pets Merit Badge Pamphlet?",
         "options": [
-          "A. Describing how to perform Your pet in a pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4.",
-          "B. Skip the Pets Pamphlet technical criteria for Pet in A Pet and use rules from an unrelated activity.",
-          "C. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in.",
-          "D. Substitute a casual verbal guess about Show your pet in a pet show in place of documented Pets observations."
+          "A. Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+          "B. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Describing how to perform Your pet in a pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4.",
-          "B. Skip the Pets Pamphlet technical criteria for Pet in A Pet and use rules from an unrelated activity.",
-          "C. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in.",
-          "D. Substitute a casual verbal guess about Show your pet in a pet show in place of documented Pets observations."
+          "A. Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+          "B. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in.",
-        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in a pet with proper technique. (Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)).",
-        "pamphlet_page_ref": "p. 21, p. 54"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+        "explanation": "Correct Answer (A): Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue. (Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)).",
+        "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Pets Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/pets_p021_img2.png"
     },
     {
       "req_id": "5",
@@ -884,15 +888,17 @@
               "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement.",
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a...",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a quick web search satisfies the Pets career exploration requirement.",
-            "fact": "Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "fact_correction": "Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "misconception": "Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Pets (Req 5a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+            "fact_correction": "Pursuing a career or advanced pathway in Pets (Req 5a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
             "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
-            "myth": "Listing three job titles from a quick web search satisfies the Pets career exploration requirement."
+            "myth": "Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Pets (Req 5a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -928,7 +934,7 @@
           "pamphlet_excerpts": [
             "Pets Careers and Pathways: Careers & Professional Pathways Principle 3: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 20)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/pets_p020_img1.png"
         },
         {
           "sub_id": "5b",
@@ -961,15 +967,17 @@
               "2. Research any training needed, expenses, and organizations that promote or support it.",
               "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
               "4. Resource: Animal Hobbies (video)"
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of You Could Use Knowledge and without explaining how it works in practice satisfies Pets Requirement 5b.",
-            "fact": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Could Use Knowledge and (You Could Use Knowledge and) (p. 20, p. 54).",
-            "fact_correction": "The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Could Use Knowledge and (You Could Use Knowledge and) (p. 20, p. 54).",
-            "pamphlet_page_ref": "p. 20, p. 54",
-            "myth": "Memorizing a one-line definition of You Could Use Knowledge and without explaining how it works in practice satisfies Pets Requirement 5b."
+            "misconception": "Casual hobby familiarity with Pets is sufficient to enter a professional Explore how you could use knowledge career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Pets (Req 5b) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+            "fact_correction": "Pursuing a career or advanced pathway in Pets (Req 5b) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+            "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
+            "myth": "Casual hobby familiarity with Pets is sufficient to enter a professional Explore how you could use knowledge career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Pets (Req 5b) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1049,14 +1057,16 @@
           "2. Selected Career: Education, Training & Licensing",
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Pets career exploration requirement.",
-        "fact": "Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
-        "myth": "Listing three job titles from a quick web search satisfies the Pets career exploration requirement."
+        "myth": "Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1085,14 +1095,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers & Professional Pathways: Learning how to respond to basic obedience commands canliterally save a dog's life in today's world of busy streets andfast automobiles (p. 20).",
+        "Careers & Professional Pathways: Learning how to respond to basic obedience commands can literally save a dog's life in today's world of busy streets and fast automobiles (p. 20).",
         "Careers & Professional Pathways Principle 2: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 20).",
         "Careers & Professional Pathways Principle 3: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 20).",
-        "Careers & Professional Pathways Principle 4: There are many training methods, some more effectivethan others (p. 20)."
+        "Careers & Professional Pathways Principle 4: There are many training methods, some more effective than others (p. 20)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways): A good trainer can help you figure out whatworks best with your dog (p. 20).",
-        "Step 2 (Careers & Professional Pathways): This can be an excellent way totrain your pet and to improve your own skills (p. 20).",
+        "Step 1 (Careers & Professional Pathways): A good trainer can help you figure out what works best with your dog (p. 20).",
+        "Step 2 (Careers & Professional Pathways): This can be an excellent way to train your pet and to improve your own skills (p. 20).",
         "Step 3 (Careers & Professional Pathways): If you decide todo this, enroll your dog once it has been vaccinated (p. 20).",
         "Step 4 (Careers & Professional Pathways): Ask your veterinarian for help in picking a class that matches your dog's abilities (p. 20)."
       ],
@@ -1137,8 +1147,8 @@
         "title": "Exemplar Skill Station Walkthrough: Pets Req 5 (Careers & Professional Pathways)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Careers & Professional Pathways.",
-          "Step-by-Step Execution": "Careers & Professional Pathways: Learning how to respond to basic obedience commands canliterally save a dog's life in today's world of busy streets andfast automobiles (p. 20).",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Careers & Professional Pathways.",
+          "Step-by-Step Execution": "Careers & Professional Pathways: Learning how to respond to basic obedience commands can literally save a dog's life in today's world of busy streets and fast automobiles (p. 20).",
           "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 20).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54))"
         },
@@ -1146,29 +1156,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Pets Requirement 5 (Pets Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Pets Requirement 5 (Pets Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "During your patrol's preparation and review for Pets Requirement 5 (Careers & Professional Pathways), which statement accurately reflects the official Pets Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Pets Requirement 5 (Careers & Professional Pathways), which statement accurately reflects the official Pets Merit Badge Pamphlet?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Pets career exploration requirement.",
-          "B. Skip the Pets Pamphlet technical criteria for Pets Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their.",
-          "D. Substitute a casual verbal guess about Explore careers related to this merit badge. Research o in place of documented Pets observations."
+          "A. Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Pets career exploration requirement.",
-          "B. Skip the Pets Pamphlet technical criteria for Pets Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their.",
-          "D. Substitute a casual verbal guess about Explore careers related to this merit badge. Research o in place of documented Pets observations."
+          "A. Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their.",
-        "explanation": "Correct Answer (C): Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (B): Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)).",
         "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Pets Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/pets_p020_img1.png"
     }
   ],
   "badge_slug": "pets",
@@ -1179,116 +1189,116 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "When preparing for your counselor conference on Pets Requirement 1 (Evidence That You Have Cared), which statement accurately reflects the official BSA standard for Present evidence that you have cared for a pet for four months?",
-      "question": "When preparing for your counselor conference on Pets Requirement 1 (Evidence That You Have Cared), which statement accurately reflects the official BSA standard for Present evidence that you have cared for a pet for four months?",
+      "scenario_prompt": "Over the four-month pet care period for Requirement 1, which combination of daily practices is essential for keeping a companion animal healthy?",
+      "question": "Over the four-month pet care period for Requirement 1, which combination of daily practices is essential for keeping a companion animal healthy?",
       "options": [
-        "A. Memorizing a one-line definition of Evidence That You Have Cared without explaining how it works in practice satisfies Pets.",
-        "B. Skip the Pets Pamphlet technical criteria for Evidence That You Have Cared and use rules from an unrelated activity.",
-        "C. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence.",
-        "D. Substitute a casual verbal guess about Present evidence that you have cared for a pet for four in place of documented Pets observations."
+        "A. Feeding table scraps once a week, changing water only when the bowl is completely dry, and skipping parasite prevention for indoor pets.",
+        "B. Allowing the pet to roam the neighborhood unsupervised for exercise and cleaning its enclosure once a month.",
+        "C. Providing species-appropriate nutrition, clean fresh water daily, sanitary housing or litter maintenance, regular exercise and socialization, and scheduled veterinary preventive care.",
+        "D. Switching food brands every three days and administering human over-the-counter pain medication whenever the pet seems tired."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Evidence That You Have Cared without explaining how it works in practice satisfies Pets.",
-        "B. Skip the Pets Pamphlet technical criteria for Evidence That You Have Cared and use rules from an unrelated activity.",
-        "C. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence.",
-        "D. Substitute a casual verbal guess about Present evidence that you have cared for a pet for four in place of documented Pets observations."
+        "A. Feeding table scraps once a week, changing water only when the bowl is completely dry, and skipping parasite prevention for indoor pets.",
+        "B. Allowing the pet to roam the neighborhood unsupervised for exercise and cleaning its enclosure once a month.",
+        "C. Providing species-appropriate nutrition, clean fresh water daily, sanitary housing or litter maintenance, regular exercise and socialization, and scheduled veterinary preventive care.",
+        "D. Switching food brands every three days and administering human over-the-counter pain medication whenever the pet seems tired."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence.",
-      "explanation": "Correct Answer (C): The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Evidence That You Have Cared (Evidence That You Have Cared). (Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)).",
-      "pamphlet_page_ref": "p. 7, p. 60",
+      "correct_answer": "C. Providing species-appropriate nutrition, clean fresh water daily, sanitary housing or litter maintenance, regular exercise and socialization, and scheduled veterinary preventive care.",
+      "explanation": "Correct Answer (C): Responsible pet ownership requires consistent daily feeding, fresh water, clean living quarters, appropriate exercise, and preventive veterinary care such as vaccinations and parasite control.",
+      "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Pets Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Words or More About The: Write in 200 words or more about the care, feeding, and housing of you)?",
-      "question": "How does the Pets Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Words or More About The: Write in 200 words or more about the care, feeding, and housing of you)?",
+      "scenario_prompt": "In Pets Requirement 2 (Write in 200 words or more), what technical standard and procedure does the Scouting America Pets Merit Badge Pamphlet require?",
+      "question": "In Pets Requirement 2 (Write in 200 words or more), what technical standard and procedure does the Scouting America Pets Merit Badge Pamphlet require?",
       "options": [
-        "A. Memorizing a one-line definition of Words or More About The without explaining how it works in practice satisfies Pets Requirement 2.",
-        "B. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or.",
-        "C. Rely on a group summary of Words or More About The instead of individually explaining or demonstrating Write in 200 words or more about the care, feeding, and hous.",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Words or More About The standard."
+        "A. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+        "B. Assuming Present evidence that you have cared in Pets Requirement 1 operates identically across all environmental and technical conditions.",
+        "C. Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+        "D. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Words or More About The without explaining how it works in practice satisfies Pets Requirement 2.",
-        "B. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or.",
-        "C. Rely on a group summary of Words or More About The instead of individually explaining or demonstrating Write in 200 words or more about the care, feeding, and hous.",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Words or More About The standard."
+        "A. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+        "B. Assuming Present evidence that you have cared in Pets Requirement 1 operates identically across all environmental and technical conditions.",
+        "C. Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+        "D. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or.",
-      "explanation": "Correct Answer (B): The Pets pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Words or More About The (Words or More About The). (Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)).",
-      "pamphlet_page_ref": "p. 41, p. 47",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead.",
+      "explanation": "Correct Answer (C): Mastering Pets Requirement 2 (Write in 200 words or more) requires applying the verified pamphlet mechanism: Mixing males and females, besides creating lots of baby hamsters, might lead. (Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)).",
+      "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Pets Requirement 3 (You Have Read A Book), what execution standard is required when demonstrating Show that you have read a book or pamphlet, approved by your counselor, abo?",
-      "question": "During the hands-on skill station for Pets Requirement 3 (You Have Read A Book), what execution standard is required when demonstrating Show that you have read a book or pamphlet, approved by your counselor, abo?",
+      "scenario_prompt": "When demonstrating and explaining That you have read a book for Pets Requirement 3, which approach follows the verified Pets Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining That you have read a book for Pets Requirement 3, which approach follows the verified Pets Merit Badge Pamphlet standard?",
       "options": [
-        "A. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you.",
-        "B. Describing how to perform That you have read a book verbally can substitute for a physical hands-on demonstration in Pets.",
-        "C. Focus only on Show that you have read a book or pamphlet, approved by while omitting Discuss with your counselor what you have learned from  and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full You Have Read A Book standard."
+        "A. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+        "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs."
       ],
       "choices": [
-        "A. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you.",
-        "B. Describing how to perform That you have read a book verbally can substitute for a physical hands-on demonstration in Pets.",
-        "C. Focus only on Show that you have read a book or pamphlet, approved by while omitting Discuss with your counselor what you have learned from  and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full You Have Read A Book standard."
+        "A. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Overlooking how Write in 200 words or more directly affects safety, efficiency, and decision-making in Pets Requirement 2.",
+        "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you.",
-      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate That you have read a book with proper technique. (Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)).",
-      "pamphlet_page_ref": "p. 26, p. 29",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs.",
+      "explanation": "Correct Answer (D): Hands-on execution of Pets Requirement 3 (That you have read a book) depends on precise setup and step-by-step technique: Before you buy atype of fish, find out what kind of food it needs. (Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)).",
+      "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Pets Requirement 4 (Pet in A Pet), what execution standard is required when demonstrating Show your pet in a pet show?",
-      "question": "During the hands-on skill station for Pets Requirement 4 (Pet in A Pet), what execution standard is required when demonstrating Show your pet in a pet show?",
+      "scenario_prompt": "When working on Pets Requirement 4 (Your pet in a pet), which principle and field standard is established in the Pets Merit Badge Pamphlet?",
+      "question": "When working on Pets Requirement 4 (Your pet in a pet), which principle and field standard is established in the Pets Merit Badge Pamphlet?",
       "options": [
-        "A. Describing how to perform Your pet in a pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4.",
-        "B. Skip the Pets Pamphlet technical criteria for Pet in A Pet and use rules from an unrelated activity.",
-        "C. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in.",
-        "D. Substitute a casual verbal guess about Show your pet in a pet show in place of documented Pets observations."
+        "A. Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+        "B. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Describing how to perform Your pet in a pet verbally can substitute for a physical hands-on demonstration in Pets Requirement 4.",
-        "B. Skip the Pets Pamphlet technical criteria for Pet in A Pet and use rules from an unrelated activity.",
-        "C. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in.",
-        "D. Substitute a casual verbal guess about Show your pet in a pet show in place of documented Pets observations."
+        "A. Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+        "B. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Performing That you have read a book in Pets Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in.",
-      "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Pets pamphlet, each Scout must physically execute and demonstrate Your pet in a pet with proper technique. (Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)).",
-      "pamphlet_page_ref": "p. 21, p. 54",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue.",
+      "explanation": "Correct Answer (A): Hands-on execution of Pets Requirement 4 (Your pet in a pet) depends on precise setup and step-by-step technique: Obedience training can begin when dogs are 4 to 6 months old and continue. (Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)).",
+      "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "When evaluating professional pathways for Pets Requirement 5 (Pets Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-      "question": "When evaluating professional pathways for Pets Requirement 5 (Pets Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+      "scenario_prompt": "During your patrol's preparation and review for Pets Requirement 5 (Careers & Professional Pathways), which statement accurately reflects the official Pets Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Pets Requirement 5 (Careers & Professional Pathways), which statement accurately reflects the official Pets Merit Badge Pamphlet?",
       "options": [
-        "A. Listing three job titles from a quick web search satisfies the Pets career exploration requirement.",
-        "B. Skip the Pets Pamphlet technical criteria for Pets Careers and Pathways and use rules from an unrelated activity.",
-        "C. Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their.",
-        "D. Substitute a casual verbal guess about Explore careers related to this merit badge. Research o in place of documented Pets observations."
+        "A. Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "B. Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Listing three job titles from a quick web search satisfies the Pets career exploration requirement.",
-        "B. Skip the Pets Pamphlet technical criteria for Pets Careers and Pathways and use rules from an unrelated activity.",
-        "C. Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their.",
-        "D. Substitute a casual verbal guess about Explore careers related to this merit badge. Research o in place of documented Pets observations."
+        "A. Casual hobby familiarity with Pets is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "B. Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "C. Performing Your pet in a pet in Pets Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing Train a pet in Pets Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their.",
-      "explanation": "Correct Answer (C): Scouts must research specific Pets career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)).",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+      "explanation": "Correct Answer (B): Pursuing a career or advanced pathway in Pets (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)).",
       "pamphlet_page_ref": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
       "req_id": "5",
       "option_id": null

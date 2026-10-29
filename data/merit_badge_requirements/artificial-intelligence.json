@@ -56,14 +56,16 @@
         "rows": [
           "1. Key Concepts.",
           "2. Define the following terms and share the meaning of each with your counselor: artificial intelligence (AI), artificial intelligence..."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Key Concepts without explaining how it works in practice satisfies Artificial Intelligence Requirement 1.",
-        "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Key Concepts (Key Concepts) (p. 6, p. 7).",
-        "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Key Concepts (Key Concepts) (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Memorizing a one-line definition of Key Concepts without explaining how it works in practice satisfies Artificial Intelligence Requirement 1."
+        "misconception": "Treating the technical factors of Key Concepts in Artificial Intelligence Requirement 1 as isolated terms rather than interconnected field mechanisms.",
+        "fact": "In Artificial Intelligence Requirement 1 (Key Concepts), each principle directly governs real-world performance: Define the following terms and share the meaning of each with your counselor.",
+        "fact_correction": "In Artificial Intelligence Requirement 1 (Key Concepts), each principle directly governs real-world performance: Define the following terms and share the meaning of each with your counselor.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Treating the technical factors of Key Concepts in Artificial Intelligence Requirement 1 as isolated terms rather than interconnected field mechanisms.",
+        "correction": "In Artificial Intelligence Requirement 1 (Key Concepts), each principle directly governs real-world performance: Define the following terms and share the meaning of each with your counselor."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -93,7 +95,7 @@
         "Key Concepts Field Application 4: Verify all Artificial Intelligence Requirement 1 measurements, safety controls, and technical criteria with your counselor (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Key Concepts Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 1 (p. 10).",
+        "Step 1 (Key Concepts Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 1 (p. 10).",
         "Step 2 (Key Concepts Execution): Apply the official Artificial Intelligence pamphlet method for Key Concepts while recording observations in your Scout Workbook (p. 10).",
         "Step 3 (Key Concepts Buddy Check): Cross-check your Key Concepts technique, measurements, and results with a patrol buddy using the EDGE method (p. 10).",
         "Step 4 (Key Concepts Verification): Review your completed Key Concepts evidence and demonstrate proficiency during your counselor conference (p. 10)."
@@ -148,25 +150,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Artificial Intelligence Requirement 1 (Key Concepts), which statement accurately reflects the official BSA standard for Key Concepts?",
-        "question": "When preparing for your counselor conference on Artificial Intelligence Requirement 1 (Key Concepts), which statement accurately reflects the official BSA standard for Key Concepts?",
+        "scenario_prompt": "When evaluating how a machine learning model makes predictions in Artificial Intelligence Requirement 1, why can an AI system produce biased or inaccurate outputs even when its software code has no syntax errors?",
+        "question": "When evaluating how a machine learning model makes predictions in Artificial Intelligence Requirement 1, why can an AI system produce biased or inaccurate outputs even when its software code has no syntax errors?",
         "options": [
-          "A. Memorizing a one-line definition of Key Concepts without explaining how it works in practice satisfies Artificial Intelligence.",
-          "B. Reverse the sequence of Key Concepts steps by attempting final sign-off before completing Key Concepts.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Key Concepts.",
-          "D. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world."
+          "A. Because machine learning algorithms physically wear out their silicon transistors after processing more than a thousand queries.",
+          "B. Because AI models never use training data and instead generate answers using purely random voltage fluctuations.",
+          "C. Because computer processors automatically rewrite their own operating systems to ignore human instructions after compilation.",
+          "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete, or historically skewed data will cause the model to reproduce those biases and errors."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Key Concepts without explaining how it works in practice satisfies Artificial Intelligence.",
-          "B. Reverse the sequence of Key Concepts steps by attempting final sign-off before completing Key Concepts.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Key Concepts.",
-          "D. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world."
+          "A. Because machine learning algorithms physically wear out their silicon transistors after processing more than a thousand queries.",
+          "B. Because AI models never use training data and instead generate answers using purely random voltage fluctuations.",
+          "C. Because computer processors automatically rewrite their own operating systems to ignore human instructions after compilation.",
+          "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete, or historically skewed data will cause the model to reproduce those biases and errors."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "explanation": "Correct Answer (D): The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Key Concepts (Key Concepts). (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_answer": "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete, or historically skewed data will cause the model to reproduce those biases and errors.",
+        "explanation": "Correct Answer (D): AI and machine learning systems infer patterns directly from training datasets; if the training data contains gaps or historical biases, the resulting model outputs will reflect those flaws, requiring human verification.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 1.",
@@ -200,23 +202,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify 10 examples of how AI is currently used in everyday life.",
-              "2. Key Pamphlet Facts & Mechanism (Currently Used in Everyday Life)",
-              "3. Field Application & Counselor Discussion (Currently Used in Everyday Life)"
+              "1. Identify 10 examples of how AI is currently used in everyday life."
             ],
             "rows": [
-              "1. Identify 10 examples of how AI is currently used in everyday life.",
-              "2. Key Pamphlet Facts & Mechanism (Currently Used in Everyday Life)",
-              "3. Field Application & Counselor Discussion (Currently Used in Everyday Life)"
-            ]
+              "1. Identify 10 examples of how AI is currently used in everyday life."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Currently Used in Everyday Life without explaining how it works in practice satisfies Artificial Intelligence Requirement 2a.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Currently Used in Everyday Life (Currently Used in Everyday Life) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Currently Used in Everyday Life (Currently Used in Everyday Life) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Currently Used in Everyday Life without explaining how it works in practice satisfies Artificial Intelligence Requirement 2a."
+            "misconception": "Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+            "fact": "Mastering Artificial Intelligence Requirement 2a (10 examples of how AI) requires applying the verified pamphlet mechanism: Artificial Intelligence Basics Principle 4: Artificial Intelligence.",
+            "fact_correction": "Mastering Artificial Intelligence Requirement 2a (10 examples of how AI) requires applying the verified pamphlet mechanism: Artificial Intelligence Basics Principle 4: Artificial Intelligence.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+            "correction": "Mastering Artificial Intelligence Requirement 2a (10 examples of how AI) requires applying the verified pamphlet mechanism: Artificial Intelligence Basics Principle 4: Artificial Intelligence."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -247,7 +247,7 @@
           "pamphlet_excerpts": [
             "Examples of How: 10 Examples of How: Artificial Intelligence Basics Principle 4: Artificial Intelligence Sub-Req 2d: Meet with your counselor and play 10 rounds of the \"AI or Not?\" game to determine if the presented scenario utilizes AI. Discuss your answers (p. 6)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p007_img1.png"
         },
         {
           "sub_id": "2b",
@@ -270,23 +270,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how AI is currently used in the workplace.",
-              "2. Key Pamphlet Facts & Mechanism (Currently Used in The Workplace)",
-              "3. Field Application & Counselor Discussion (Currently Used in The Workplace)"
+              "1. Identify five examples of how AI is currently used in the workplace."
             ],
             "rows": [
-              "1. Identify five examples of how AI is currently used in the workplace.",
-              "2. Key Pamphlet Facts & Mechanism (Currently Used in The Workplace)",
-              "3. Field Application & Counselor Discussion (Currently Used in The Workplace)"
-            ]
+              "1. Identify five examples of how AI is currently used in the workplace."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Currently Used in The Workplace without explaining how it works in practice satisfies Artificial Intelligence Requirement 2b.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Currently Used in The Workplace (Currently Used in The Workplace) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Currently Used in The Workplace (Currently Used in The Workplace) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Currently Used in The Workplace without explaining how it works in practice satisfies Artificial Intelligence Requirement 2b."
+            "misconception": "Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Artificial Intelligence Requirement 2b (Five examples of how AI), each principle directly governs real-world performance: Identify 10 examples of how AI is currently used in everyday life.",
+            "fact_correction": "In Artificial Intelligence Requirement 2b (Five examples of how AI), each principle directly governs real-world performance: Identify 10 examples of how AI is currently used in everyday life.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Artificial Intelligence Requirement 2b (Five examples of how AI), each principle directly governs real-world performance: Identify 10 examples of how AI is currently used in everyday life."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -340,23 +338,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how AI can be used at school or in support of your education.",
-              "2. Key Pamphlet Facts & Mechanism (Can Be Used At School)",
-              "3. Field Application & Counselor Discussion (Can Be Used At School)"
+              "1. Identify five examples of how AI can be used at school or in support of your education."
             ],
             "rows": [
-              "1. Identify five examples of how AI can be used at school or in support of your education.",
-              "2. Key Pamphlet Facts & Mechanism (Can Be Used At School)",
-              "3. Field Application & Counselor Discussion (Can Be Used At School)"
-            ]
+              "1. Identify five examples of how AI can be used at school or in support of your education."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-            "fact": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-            "fact_correction": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification."
+            "misconception": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 2c) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "fact_correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 2c) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 2c) requires researching specific education, apprenticeship or degree credentials, industry certifications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -416,15 +412,17 @@
             "rows": [
               "1. Meet with your counselor and play 10 rounds of the \"AI or Not?\" game to determine if the presented scenario utilizes AI.",
               "2. Discuss your answers."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Meet Rounds Game Presented without explaining how it works in practice satisfies Artificial Intelligence Requirement 2d.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Meet Rounds Game Presented (Meet Rounds Game Presented) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Meet Rounds Game Presented (Meet Rounds Game Presented) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Meet Rounds Game Presented without explaining how it works in practice satisfies Artificial Intelligence Requirement 2d."
+            "misconception": "Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d.",
+            "fact": "Mastering Artificial Intelligence Requirement 2d (Meet with your counselor and play) requires applying the verified pamphlet mechanism: Identify five examples of how AI can be used at school.",
+            "fact_correction": "Mastering Artificial Intelligence Requirement 2d (Meet with your counselor and play) requires applying the verified pamphlet mechanism: Identify five examples of how AI can be used at school.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d.",
+            "correction": "Mastering Artificial Intelligence Requirement 2d (Meet with your counselor and play) requires applying the verified pamphlet mechanism: Identify five examples of how AI can be used at school."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -478,23 +476,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a timeline with five key milestones in the development of artificial intelligence.",
-              "2. Key Pamphlet Facts & Mechanism (Timeline With Five Key Milestones)",
-              "3. Field Application & Counselor Discussion (Timeline With Five Key Milestones)"
+              "1. Create a timeline with five key milestones in the development of artificial intelligence."
             ],
             "rows": [
-              "1. Create a timeline with five key milestones in the development of artificial intelligence.",
-              "2. Key Pamphlet Facts & Mechanism (Timeline With Five Key Milestones)",
-              "3. Field Application & Counselor Discussion (Timeline With Five Key Milestones)"
-            ]
+              "1. Create a timeline with five key milestones in the development of artificial intelligence."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Timeline With Five Key Milestones without explaining how it works in practice satisfies Artificial Intelligence Requirement 2e.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Timeline With Five Key Milestones (Timeline With Five Key Milestones) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Timeline With Five Key Milestones (Timeline With Five Key Milestones) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Timeline With Five Key Milestones without explaining how it works in practice satisfies Artificial Intelligence Requirement 2e."
+            "misconception": "Treating the technical factors of Create a timeline with five key in Artificial Intelligence Requirement 2e as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Artificial Intelligence Requirement 2e (Create a timeline with five key), each principle directly governs real-world performance: Meet with your counselor and play 10 rounds of the \"AI.",
+            "fact_correction": "In Artificial Intelligence Requirement 2e (Create a timeline with five key), each principle directly governs real-world performance: Meet with your counselor and play 10 rounds of the \"AI.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Treating the technical factors of Create a timeline with five key in Artificial Intelligence Requirement 2e as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Artificial Intelligence Requirement 2e (Create a timeline with five key), each principle directly governs real-world performance: Meet with your counselor and play 10 rounds of the \"AI."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -559,26 +555,28 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(2a) Currently Used in Everyday Life",
-          "(2b) Currently Used in The Workplace",
-          "(2c) Can Be Used At School",
-          "(2d) Meet Rounds Game Presented",
-          "(2e) Timeline With Five Key Milestones"
+          "1. (2a) Currently Used in Everyday Life",
+          "2. (2b) Currently Used in The Workplace",
+          "3. (2c) Can Be Used At School",
+          "4. (2d) Meet Rounds Game Presented",
+          "5. (2e) Timeline With Five Key Milestones"
         ],
         "rows": [
-          "(2a) Currently Used in Everyday Life",
-          "(2b) Currently Used in The Workplace",
-          "(2c) Can Be Used At School",
-          "(2d) Meet Rounds Game Presented",
-          "(2e) Timeline With Five Key Milestones"
-        ]
+          "1. (2a) Currently Used in Everyday Life",
+          "2. (2b) Currently Used in The Workplace",
+          "3. (2c) Can Be Used At School",
+          "4. (2d) Meet Rounds Game Presented",
+          "5. (2e) Timeline With Five Key Milestones"
+        ],
+        "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-        "fact": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-        "fact_correction": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification."
+        "misconception": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Artificial Intelligence Basics career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "fact_correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Artificial Intelligence Basics career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -608,7 +606,7 @@
         "Artificial Intelligence Basics Principle 4: Artificial Intelligence Sub-Req 2d: Meet with your counselor and play 10 rounds of the \"AI or Not?\" game to determine if the presented scenario utilizes AI. Discuss your answers (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Artificial Intelligence Basics Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 2 (p. 14).",
+        "Step 1 (Artificial Intelligence Basics Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 2 (p. 14).",
         "Step 2 (Artificial Intelligence Basics Execution): Apply the official Artificial Intelligence pamphlet method for Artificial Intelligence Basics while recording observations in your Scout Workbook (p. 14).",
         "Step 3 (Artificial Intelligence Basics Buddy Check): Cross-check your Artificial Intelligence Basics technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
         "Step 4 (Artificial Intelligence Basics Verification): Review your completed Artificial Intelligence Basics evidence and demonstrate proficiency during your counselor conference (p. 14)."
@@ -663,29 +661,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Artificial Intelligence Requirement 2 (Artificial Intelligence AI Basics), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Artificial Intelligence Requirement 2 (Artificial Intelligence AI Basics), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "During your patrol's preparation and review for Artificial Intelligence Requirement 2 (Artificial Intelligence Basics), which statement accurately reflects the official Artificial Intelligence Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Artificial Intelligence Requirement 2 (Artificial Intelligence Basics), which statement accurately reflects the official Artificial Intelligence Merit Badge Pamphlet?",
         "options": [
-          "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-          "B. Skip the Artificial Intelligence Pamphlet technical criteria for Artificial Intelligence AI Basics and use rules from an unrelated activity.",
-          "C. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Artificial Intelligence AI Basics."
+          "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Artificial Intelligence Basics career without accredited training or licensing.",
+          "B. Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "C. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+          "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
         ],
         "choices": [
-          "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-          "B. Skip the Artificial Intelligence Pamphlet technical criteria for Artificial Intelligence AI Basics and use rules from an unrelated activity.",
-          "C. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Artificial Intelligence AI Basics."
+          "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Artificial Intelligence Basics career without accredited training or licensing.",
+          "B. Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "C. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+          "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-        "explanation": "Correct Answer (C): Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "explanation": "Correct Answer (B): Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p007_img1.png"
     },
     {
       "req_id": "3",
@@ -715,23 +713,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify 10 examples of how automation is currently used in everyday life.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Is Currently Used in)",
-              "3. Field Application & Counselor Discussion (Automation Is Currently Used in)"
+              "1. Identify 10 examples of how automation is currently used in everyday life."
             ],
             "rows": [
-              "1. Identify 10 examples of how automation is currently used in everyday life.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Is Currently Used in)",
-              "3. Field Application & Counselor Discussion (Automation Is Currently Used in)"
-            ]
+              "1. Identify 10 examples of how automation is currently used in everyday life."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Automation Is Currently Used in without explaining how it works in practice satisfies Artificial Intelligence Requirement 3a.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Automation Is Currently Used in (Automation Is Currently Used in) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Automation Is Currently Used in (Automation Is Currently Used in) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Automation Is Currently Used in without explaining how it works in practice satisfies Artificial Intelligence Requirement 3a."
+            "misconception": "Treating the technical factors of 10 examples of how automation in Artificial Intelligence Requirement 3a as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Artificial Intelligence Requirement 3a (10 examples of how automation), each principle directly governs real-world performance: Artificial Intelligence Sub-Req 3a: Identify 10 examples of how.",
+            "fact_correction": "In Artificial Intelligence Requirement 3a (10 examples of how automation), each principle directly governs real-world performance: Artificial Intelligence Sub-Req 3a: Identify 10 examples of how.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Treating the technical factors of 10 examples of how automation in Artificial Intelligence Requirement 3a as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Artificial Intelligence Requirement 3a (10 examples of how automation), each principle directly governs real-world performance: Artificial Intelligence Sub-Req 3a: Identify 10 examples of how."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -762,7 +758,7 @@
           "pamphlet_excerpts": [
             "Examples of How Automation: 10 Examples of How Automation: Artificial Intelligence Sub-Req 3a: Identify 10 examples of how automation is currently used in everyday life (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p012_img1.png"
         },
         {
           "sub_id": "3b",
@@ -785,23 +781,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how automation is currently used in the workplace.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Is Currently)",
-              "3. Field Application & Counselor Discussion (Automation Is Currently)"
+              "1. Identify five examples of how automation is currently used in the workplace."
             ],
             "rows": [
-              "1. Identify five examples of how automation is currently used in the workplace.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Is Currently)",
-              "3. Field Application & Counselor Discussion (Automation Is Currently)"
-            ]
+              "1. Identify five examples of how automation is currently used in the workplace."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Automation Is Currently without explaining how it works in practice satisfies Artificial Intelligence Requirement 3b.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Automation Is Currently (Automation Is Currently) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Automation Is Currently (Automation Is Currently) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Automation Is Currently without explaining how it works in practice satisfies Artificial Intelligence Requirement 3b."
+            "misconception": "Assuming Five examples of how automation in Artificial Intelligence Requirement 3b operates identically across all environmental and technical conditions.",
+            "fact": "Identify five examples of how automation is currently used in the workplace.",
+            "fact_correction": "Identify five examples of how automation is currently used in the workplace.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Assuming Five examples of how automation in Artificial Intelligence Requirement 3b operates identically across all environmental and technical conditions.",
+            "correction": "Identify five examples of how automation is currently used in the workplace."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -855,23 +849,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how automation can be used at school or in support of your education.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Can Be Used At)",
-              "3. Field Application & Counselor Discussion (Automation Can Be Used At)"
+              "1. Identify five examples of how automation can be used at school or in support of your education."
             ],
             "rows": [
-              "1. Identify five examples of how automation can be used at school or in support of your education.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Can Be Used At)",
-              "3. Field Application & Counselor Discussion (Automation Can Be Used At)"
-            ]
+              "1. Identify five examples of how automation can be used at school or in support of your education."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-            "fact": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-            "fact_correction": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification."
+            "misconception": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how automation career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 3c) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "fact_correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 3c) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how automation career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 3c) requires researching specific education, apprenticeship or degree credentials, industry certifications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -925,23 +917,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Performs Repetitive Tasks Without)",
-              "3. Field Application & Counselor Discussion (Automation Performs Repetitive Tasks Without)"
+              "1. Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources."
             ],
             "rows": [
-              "1. Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources.",
-              "2. Key Pamphlet Facts & Mechanism (Automation Performs Repetitive Tasks Without)",
-              "3. Field Application & Counselor Discussion (Automation Performs Repetitive Tasks Without)"
-            ]
+              "1. Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Automation Performs Repetitive Tasks verbally can substitute for a physical hands-on demonstration in Artificial Intelligence Requirement 3d.",
-            "fact": "Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and demonstrate Automation Performs Repetitive Tasks with proper technique (p. 6, p. 7).",
-            "fact_correction": "Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and demonstrate Automation Performs Repetitive Tasks with proper technique (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Describing how to perform Automation Performs Repetitive Tasks verbally can substitute for a physical hands-on demonstration in Artificial Intelligence Requirement 3d."
+            "misconception": "Performing Automation performs repetitive tasks without human in Artificial Intelligence Requirement 3d without pre-inspecting gear alignment, tension.",
+            "fact": "Hands-on execution of Artificial Intelligence Requirement 3d (Automation performs repetitive tasks without human) depends on precise setup and step-by-step technique: Explain how automation.",
+            "fact_correction": "Hands-on execution of Artificial Intelligence Requirement 3d (Automation performs repetitive tasks without human) depends on precise setup and step-by-step technique: Explain how automation.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Performing Automation performs repetitive tasks without human in Artificial Intelligence Requirement 3d without pre-inspecting gear alignment, tension.",
+            "correction": "Hands-on execution of Artificial Intelligence Requirement 3d (Automation performs repetitive tasks without human) depends on precise setup and step-by-step technique: Explain how automation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -995,23 +985,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a timeline with five significant milestones in automation development.",
-              "2. Key Pamphlet Facts & Mechanism (Timeline With Five Significant Milestones)",
-              "3. Field Application & Counselor Discussion (Timeline With Five Significant Milestones)"
+              "1. Create a timeline with five significant milestones in automation development."
             ],
             "rows": [
-              "1. Create a timeline with five significant milestones in automation development.",
-              "2. Key Pamphlet Facts & Mechanism (Timeline With Five Significant Milestones)",
-              "3. Field Application & Counselor Discussion (Timeline With Five Significant Milestones)"
-            ]
+              "1. Create a timeline with five significant milestones in automation development."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Timeline With Five Significant Milestones without explaining how it works in practice satisfies Artificial Intelligence Requirement 3e.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Timeline With Five Significant Milestones (Timeline With Five Significant Milestones) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Timeline With Five Significant Milestones (Timeline With Five Significant Milestones) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Timeline With Five Significant Milestones without explaining how it works in practice satisfies Artificial Intelligence Requirement 3e."
+            "misconception": "Assuming Create a timeline with five significant in Artificial Intelligence Requirement 3e operates identically across all environmental and technical conditions.",
+            "fact": "Identify 10 examples of how automation is currently used in everyday life.",
+            "fact_correction": "Identify 10 examples of how automation is currently used in everyday life.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Assuming Create a timeline with five significant in Artificial Intelligence Requirement 3e operates identically across all environmental and technical conditions.",
+            "correction": "Identify 10 examples of how automation is currently used in everyday life."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1076,26 +1064,28 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(3a) Automation Is Currently Used in",
-          "(3b) Automation Is Currently",
-          "(3c) Automation Can Be Used At",
-          "(3d) Automation Performs Repetitive Tasks Without",
-          "(3e) Timeline With Five Significant Milestones"
+          "1. (3a) Automation Is Currently Used in",
+          "2. (3b) Automation Is Currently",
+          "3. (3c) Automation Can Be Used At",
+          "4. (3d) Automation Performs Repetitive Tasks Without",
+          "5. (3e) Timeline With Five Significant Milestones"
         ],
         "rows": [
-          "(3a) Automation Is Currently Used in",
-          "(3b) Automation Is Currently",
-          "(3c) Automation Can Be Used At",
-          "(3d) Automation Performs Repetitive Tasks Without",
-          "(3e) Timeline With Five Significant Milestones"
-        ]
+          "1. (3a) Automation Is Currently Used in",
+          "2. (3b) Automation Is Currently",
+          "3. (3c) Automation Can Be Used At",
+          "4. (3d) Automation Performs Repetitive Tasks Without",
+          "5. (3e) Timeline With Five Significant Milestones"
+        ],
+        "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-        "fact": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-        "fact_correction": "Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification."
+        "misconception": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "fact_correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1125,7 +1115,7 @@
         "Automation Basics Principle 4: Artificial Intelligence Sub-Req 3d: Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Automation Basics Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 3 (p. 18).",
+        "Step 1 (Automation Basics Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 3 (p. 18).",
         "Step 2 (Automation Basics Execution): Apply the official Artificial Intelligence pamphlet method for Automation Basics while recording observations in your Scout Workbook (p. 18).",
         "Step 3 (Automation Basics Buddy Check): Cross-check your Automation Basics technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
         "Step 4 (Automation Basics Verification): Review your completed Automation Basics evidence and demonstrate proficiency during your counselor conference (p. 18)."
@@ -1180,29 +1170,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Artificial Intelligence Requirement 3 (Automation Basics), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Artificial Intelligence Requirement 3 (Automation Basics), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "In Artificial Intelligence Requirement 3 (Automation Basics), what technical standard and procedure does the Scouting America Artificial Intelligence Merit Badge Pamphlet require?",
+        "question": "In Artificial Intelligence Requirement 3 (Automation Basics), what technical standard and procedure does the Scouting America Artificial Intelligence Merit Badge Pamphlet require?",
         "options": [
-          "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-          "B. Reverse the sequence of Automation Basics steps by attempting final sign-off before completing Identify 10 examples of how automation is currently used in .",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Automation Basics.",
-          "D. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees."
+          "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing.",
+          "B. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+          "C. Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
         ],
         "choices": [
-          "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-          "B. Reverse the sequence of Automation Basics steps by attempting final sign-off before completing Identify 10 examples of how automation is currently used in .",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Automation Basics.",
-          "D. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees."
+          "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing.",
+          "B. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+          "C. Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-        "explanation": "Correct Answer (D): Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -1232,23 +1222,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making.",
-              "2. Key Pamphlet Facts & Mechanism (Ethical Concerns and Responsible)",
-              "3. Field Application & Counselor Discussion (Ethical Concerns and Responsible)"
+              "1. Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making."
             ],
             "rows": [
-              "1. Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making.",
-              "2. Key Pamphlet Facts & Mechanism (Ethical Concerns and Responsible)",
-              "3. Field Application & Counselor Discussion (Ethical Concerns and Responsible)"
-            ]
+              "1. Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Ethical Concerns and Responsible without explaining how it works in practice satisfies Artificial Intelligence Requirement 4a.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ethical Concerns and Responsible (Ethical Concerns and Responsible) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ethical Concerns and Responsible (Ethical Concerns and Responsible) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Ethical Concerns and Responsible without explaining how it works in practice satisfies Artificial Intelligence Requirement 4a."
+            "misconception": "Assuming Ethical concerns and responsible use in Artificial Intelligence Requirement 4a operates identically across all environmental and technical conditions.",
+            "fact": "Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios.",
+            "fact_correction": "Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Assuming Ethical concerns and responsible use in Artificial Intelligence Requirement 4a operates identically across all environmental and technical conditions.",
+            "correction": "Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1279,7 +1267,7 @@
           "pamphlet_excerpts": [
             "Ethical Concerns and Responsible Use: Research Ethical Concerns and Responsible: Artificial Intelligence Core Field Standard Principle 2: Artificial Intelligence Sub-Req 4b: Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png"
         },
         {
           "sub_id": "4b",
@@ -1302,23 +1290,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios.",
-              "2. Key Pamphlet Facts & Mechanism (Meet Discuss Rounds Would)",
-              "3. Field Application & Counselor Discussion (Meet Discuss Rounds Would)"
+              "1. Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios."
             ],
             "rows": [
-              "1. Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios.",
-              "2. Key Pamphlet Facts & Mechanism (Meet Discuss Rounds Would)",
-              "3. Field Application & Counselor Discussion (Meet Discuss Rounds Would)"
-            ]
+              "1. Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Meet Discuss Rounds Would without explaining how it works in practice satisfies Artificial Intelligence Requirement 4b.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Meet Discuss Rounds Would (Meet Discuss Rounds Would) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Meet Discuss Rounds Would (Meet Discuss Rounds Would) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Meet Discuss Rounds Would without explaining how it works in practice satisfies Artificial Intelligence Requirement 4b."
+            "misconception": "Overlooking how Meet with your counselor, play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 4b.",
+            "fact": "Mastering Artificial Intelligence Requirement 4b (Meet with your counselor, play) requires applying the verified pamphlet mechanism: Develop your own ethical guidelines for the use of AI.",
+            "fact_correction": "Mastering Artificial Intelligence Requirement 4b (Meet with your counselor, play) requires applying the verified pamphlet mechanism: Develop your own ethical guidelines for the use of AI.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Overlooking how Meet with your counselor, play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 4b.",
+            "correction": "Mastering Artificial Intelligence Requirement 4b (Meet with your counselor, play) requires applying the verified pamphlet mechanism: Develop your own ethical guidelines for the use of AI."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1372,23 +1358,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Develop your own ethical guidelines for the use of AI.",
-              "2. Key Pamphlet Facts & Mechanism (Develop Your Own Ethical Guidelines)",
-              "3. Field Application & Counselor Discussion (Develop Your Own Ethical Guidelines)"
+              "1. Develop your own ethical guidelines for the use of AI."
             ],
             "rows": [
-              "1. Develop your own ethical guidelines for the use of AI.",
-              "2. Key Pamphlet Facts & Mechanism (Develop Your Own Ethical Guidelines)",
-              "3. Field Application & Counselor Discussion (Develop Your Own Ethical Guidelines)"
-            ]
+              "1. Develop your own ethical guidelines for the use of AI."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Develop Your Own Ethical Guidelines without explaining how it works in practice satisfies Artificial Intelligence Requirement 4c.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Develop Your Own Ethical Guidelines (Develop Your Own Ethical Guidelines) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Develop Your Own Ethical Guidelines (Develop Your Own Ethical Guidelines) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Develop Your Own Ethical Guidelines without explaining how it works in practice satisfies Artificial Intelligence Requirement 4c."
+            "misconception": "Treating the technical factors of Develop your own ethical guidelines in Artificial Intelligence Requirement 4c as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Artificial Intelligence Requirement 4c (Develop your own ethical guidelines), each principle directly governs real-world performance: For Artificial Intelligence Sub-Requirement 4c.",
+            "fact_correction": "In Artificial Intelligence Requirement 4c (Develop your own ethical guidelines), each principle directly governs real-world performance: For Artificial Intelligence Sub-Requirement 4c.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Treating the technical factors of Develop your own ethical guidelines in Artificial Intelligence Requirement 4c as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Artificial Intelligence Requirement 4c (Develop your own ethical guidelines), each principle directly governs real-world performance: For Artificial Intelligence Sub-Requirement 4c."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1442,23 +1426,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What is the Turing test.",
-              "2. Key Pamphlet Facts & Mechanism (Artificial Intelligence Turing Principles)",
-              "3. Field Application & Counselor Discussion (Artificial Intelligence Turing Principles)"
+              "1. What is the Turing test."
             ],
             "rows": [
-              "1. What is the Turing test.",
-              "2. Key Pamphlet Facts & Mechanism (Artificial Intelligence Turing Principles)",
-              "3. Field Application & Counselor Discussion (Artificial Intelligence Turing Principles)"
-            ]
+              "1. What is the Turing test."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Artificial Intelligence Turing Principles without explaining how it works in practice satisfies Artificial Intelligence Requirement 4d.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Artificial Intelligence Turing Principles (Artificial Intelligence Turing Principles) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Artificial Intelligence Turing Principles (Artificial Intelligence Turing Principles) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Artificial Intelligence Turing Principles without explaining how it works in practice satisfies Artificial Intelligence Requirement 4d."
+            "misconception": "Assuming What is the Turing test in Artificial Intelligence Requirement 4d operates identically across all environmental and technical conditions.",
+            "fact": "Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making.",
+            "fact_correction": "Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Assuming What is the Turing test in Artificial Intelligence Requirement 4d operates identically across all environmental and technical conditions.",
+            "correction": "Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1523,24 +1505,26 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(4a) Ethical Concerns and Responsible",
-          "(4b) Meet Discuss Rounds Would",
-          "(4c) Develop Your Own Ethical Guidelines",
-          "(4d) Artificial Intelligence Turing Principles"
+          "1. (4a) Ethical Concerns and Responsible",
+          "2. (4b) Meet Discuss Rounds Would",
+          "3. (4c) Develop Your Own Ethical Guidelines",
+          "4. (4d) Artificial Intelligence Turing Principles"
         ],
         "rows": [
-          "(4a) Ethical Concerns and Responsible",
-          "(4b) Meet Discuss Rounds Would",
-          "(4c) Develop Your Own Ethical Guidelines",
-          "(4d) Artificial Intelligence Turing Principles"
-        ]
+          "1. (4a) Ethical Concerns and Responsible",
+          "2. (4b) Meet Discuss Rounds Would",
+          "3. (4c) Develop Your Own Ethical Guidelines",
+          "4. (4d) Artificial Intelligence Turing Principles"
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Ethics Learned Ethical Concerns without explaining how it works in practice satisfies Artificial Intelligence Requirement 4.",
-        "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ethics Learned Ethical Concerns (Ethics Learned Ethical Concerns) (p. 6, p. 7).",
-        "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ethics Learned Ethical Concerns (Ethics Learned Ethical Concerns) (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Memorizing a one-line definition of Ethics Learned Ethical Concerns without explaining how it works in practice satisfies Artificial Intelligence Requirement 4."
+        "misconception": "Treating the technical factors of Ethics in AI in Artificial Intelligence Requirement 4 as isolated terms rather than interconnected field mechanisms.",
+        "fact": "In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play.",
+        "fact_correction": "In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Treating the technical factors of Ethics in AI in Artificial Intelligence Requirement 4 as isolated terms rather than interconnected field mechanisms.",
+        "correction": "In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1570,7 +1554,7 @@
         "Artificial Intelligence Core Field Standard Principle 4: Artificial Intelligence Sub-Req 4d: What is the Turing test (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Artificial Intelligence Core Field Standard Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 4 (p. 22).",
+        "Step 1 (Artificial Intelligence Core Field Standard Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 4 (p. 22).",
         "Step 2 (Artificial Intelligence Core Field Standard Execution): Apply the official Artificial Intelligence pamphlet method for Artificial Intelligence Core Field Standard while recording observations in your Scout Workbook (p. 22).",
         "Step 3 (Artificial Intelligence Core Field Standard Buddy Check): Cross-check your Artificial Intelligence Core Field Standard technique, measurements, and results with a patrol buddy using the EDGE method (p. 22).",
         "Step 4 (Artificial Intelligence Core Field Standard Verification): Review your completed Artificial Intelligence Core Field Standard evidence and demonstrate proficiency during your counselor conference (p. 22)."
@@ -1625,29 +1609,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Artificial Intelligence Requirement 4 (Ethics Learned Ethical Concerns), which statement accurately reflects the official BSA standard for Research ethical concerns and responsible use in AI, including bias, privac?",
-        "question": "When preparing for your counselor conference on Artificial Intelligence Requirement 4 (Ethics Learned Ethical Concerns), which statement accurately reflects the official BSA standard for Research ethical concerns and responsible use in AI, including bias, privac?",
+        "scenario_prompt": "When demonstrating and explaining Ethics in AI for Artificial Intelligence Requirement 4, which approach follows the verified Artificial Intelligence Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Ethics in AI for Artificial Intelligence Requirement 4, which approach follows the verified Artificial Intelligence Merit Badge Pamphlet standard?",
         "options": [
-          "A. Memorizing a one-line definition of Ethics Learned Ethical Concerns without explaining how it works in practice satisfies.",
-          "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "C. Rely on a group summary of Ethics Learned Ethical Concerns instead of individually explaining or demonstrating Research ethical concerns and responsible use in AI, includi.",
-          "D. Assume Ethics Learned Ethical Concerns applies only to indoor classroom theory and has no effect on real-world Artificial Intelligence practice."
+          "A. Treating the technical factors of Ethics in AI in Artificial Intelligence Requirement 4 as isolated terms rather than interconnected field mechanisms.",
+          "B. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms.",
+          "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+          "D. In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Ethics Learned Ethical Concerns without explaining how it works in practice satisfies.",
-          "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "C. Rely on a group summary of Ethics Learned Ethical Concerns instead of individually explaining or demonstrating Research ethical concerns and responsible use in AI, includi.",
-          "D. Assume Ethics Learned Ethical Concerns applies only to indoor classroom theory and has no effect on real-world Artificial Intelligence practice."
+          "A. Treating the technical factors of Ethics in AI in Artificial Intelligence Requirement 4 as isolated terms rather than interconnected field mechanisms.",
+          "B. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms.",
+          "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+          "D. In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "explanation": "Correct Answer (B): The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ethics Learned Ethical Concerns (Ethics Learned Ethical Concerns). (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play.",
+        "explanation": "Correct Answer (D): In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png"
     },
     {
       "req_id": "5",
@@ -1677,23 +1661,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a deepfake is and how it can affect an individual.",
-              "2. Key Pamphlet Facts & Mechanism (Deepfake Affect Individual)",
-              "3. Field Application & Counselor Discussion (Deepfake Affect Individual)"
+              "1. Explain what a deepfake is and how it can affect an individual."
             ],
             "rows": [
-              "1. Explain what a deepfake is and how it can affect an individual.",
-              "2. Key Pamphlet Facts & Mechanism (Deepfake Affect Individual)",
-              "3. Field Application & Counselor Discussion (Deepfake Affect Individual)"
-            ]
+              "1. Explain what a deepfake is and how it can affect an individual."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Deepfake Affect Individual without explaining how it works in practice satisfies Artificial Intelligence Requirement 5a.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Deepfake Affect Individual (Deepfake Affect Individual) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Deepfake Affect Individual (Deepfake Affect Individual) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Deepfake Affect Individual without explaining how it works in practice satisfies Artificial Intelligence Requirement 5a."
+            "misconception": "Overlooking how A deepfake is and how it directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+            "fact": "Mastering Artificial Intelligence Requirement 5a (A deepfake is and how it) requires applying the verified pamphlet mechanism: For Artificial Intelligence Sub-Requirement.",
+            "fact_correction": "Mastering Artificial Intelligence Requirement 5a (A deepfake is and how it) requires applying the verified pamphlet mechanism: For Artificial Intelligence Sub-Requirement.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Overlooking how A deepfake is and how it directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+            "correction": "Mastering Artificial Intelligence Requirement 5a (A deepfake is and how it) requires applying the verified pamphlet mechanism: For Artificial Intelligence Sub-Requirement."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1724,7 +1706,7 @@
           "pamphlet_excerpts": [
             "Deepfake Is and How: Deepfakes Principle 3: Do the following and share what you learned with your counselor: (a) Explain what a deepfake is and how it can affect an individual (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p005_img1.png"
         },
         {
           "sub_id": "5b",
@@ -1747,23 +1729,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe what actions to take if you or someone you know is impacted by a deepfake.",
-              "2. Key Pamphlet Facts & Mechanism (Actions to Take If You)",
-              "3. Field Application & Counselor Discussion (Actions to Take If You)"
+              "1. Describe what actions to take if you or someone you know is impacted by a deepfake."
             ],
             "rows": [
-              "1. Describe what actions to take if you or someone you know is impacted by a deepfake.",
-              "2. Key Pamphlet Facts & Mechanism (Actions to Take If You)",
-              "3. Field Application & Counselor Discussion (Actions to Take If You)"
-            ]
+              "1. Describe what actions to take if you or someone you know is impacted by a deepfake."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Actions to Take If You without explaining how it works in practice satisfies Artificial Intelligence Requirement 5b.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Actions to Take If You (Actions to Take If You) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Actions to Take If You (Actions to Take If You) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Actions to Take If You without explaining how it works in practice satisfies Artificial Intelligence Requirement 5b."
+            "misconception": "Treating the technical factors of Actions to take if in Artificial Intelligence Requirement 5b as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Artificial Intelligence Requirement 5b (Actions to take if), each principle directly governs real-world performance: (b) Describe what actions to take if you or someone you know is impacted.",
+            "fact_correction": "In Artificial Intelligence Requirement 5b (Actions to take if), each principle directly governs real-world performance: (b) Describe what actions to take if you or someone you know is impacted.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Treating the technical factors of Actions to take if in Artificial Intelligence Requirement 5b as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Artificial Intelligence Requirement 5b (Actions to take if), each principle directly governs real-world performance: (b) Describe what actions to take if you or someone you know is impacted."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1828,20 +1808,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(5a) Deepfake Affect Individual",
-          "(5b) Actions to Take If You"
+          "1. (5a) Deepfake Affect Individual",
+          "2. (5b) Actions to Take If You"
         ],
         "rows": [
-          "(5a) Deepfake Affect Individual",
-          "(5b) Actions to Take If You"
-        ]
+          "1. (5a) Deepfake Affect Individual",
+          "2. (5b) Actions to Take If You"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Deepfakes Learned Deepfake Affect without explaining how it works in practice satisfies Artificial Intelligence Requirement 5.",
-        "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Deepfakes Learned Deepfake Affect (Deepfakes Learned Deepfake Affect) (p. 6, p. 7).",
-        "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Deepfakes Learned Deepfake Affect (Deepfakes Learned Deepfake Affect) (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Memorizing a one-line definition of Deepfakes Learned Deepfake Affect without explaining how it works in practice satisfies Artificial Intelligence Requirement 5."
+        "misconception": "Assuming Deepfakes in Artificial Intelligence Requirement 5 operates identically across all environmental and technical conditions.",
+        "fact": "The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+        "fact_correction": "The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Assuming Deepfakes in Artificial Intelligence Requirement 5 operates identically across all environmental and technical conditions.",
+        "correction": "The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1871,7 +1853,7 @@
         "Deepfakes Learned Deepfake Affect Principle 4: Deepfakes Principle 4: (b) Describe what actions to take if you or someone you know is impacted by a deepfake (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Deepfakes Learned Deepfake Affect Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 5 (p. 26).",
+        "Step 1 (Deepfakes Learned Deepfake Affect Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 5 (p. 26).",
         "Step 2 (Deepfakes Learned Deepfake Affect Execution): Apply the official Artificial Intelligence pamphlet method for Deepfakes Learned Deepfake Affect while recording observations in your Scout Workbook (p. 26).",
         "Step 3 (Deepfakes Learned Deepfake Affect Buddy Check): Cross-check your Deepfakes Learned Deepfake Affect technique, measurements, and results with a patrol buddy using the EDGE method (p. 26).",
         "Step 4 (Deepfakes Learned Deepfake Affect Verification): Review your completed Deepfakes Learned Deepfake Affect evidence and demonstrate proficiency during your counselor conference (p. 26)."
@@ -1926,29 +1908,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Artificial Intelligence Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Deepfakes Learned Deepfake Affect: Explain what a deepfake is and how it can affect an individual)?",
-        "question": "How does the Artificial Intelligence Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Deepfakes Learned Deepfake Affect: Explain what a deepfake is and how it can affect an individual)?",
+        "scenario_prompt": "When working on Artificial Intelligence Requirement 5 (Deepfakes), which principle and field standard is established in the Artificial Intelligence Merit Badge Pamphlet?",
+        "question": "When working on Artificial Intelligence Requirement 5 (Deepfakes), which principle and field standard is established in the Artificial Intelligence Merit Badge Pamphlet?",
         "options": [
-          "A. Memorizing a one-line definition of Deepfakes Learned Deepfake Affect without explaining how it works in practice satisfies.",
-          "B. Skip the Artificial Intelligence Pamphlet technical criteria for Deepfakes Learned Deepfake Affect and use rules from an unrelated activity.",
-          "C. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Deepfakes Learned Deepfake Affect."
+          "A. The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+          "B. Assuming Deepfakes in Artificial Intelligence Requirement 5 operates identically across all environmental and technical conditions.",
+          "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+          "D. Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Deepfakes Learned Deepfake Affect without explaining how it works in practice satisfies.",
-          "B. Skip the Artificial Intelligence Pamphlet technical criteria for Deepfakes Learned Deepfake Affect and use rules from an unrelated activity.",
-          "C. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Deepfakes Learned Deepfake Affect."
+          "A. The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+          "B. Assuming Deepfakes in Artificial Intelligence Requirement 5 operates identically across all environmental and technical conditions.",
+          "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+          "D. Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "explanation": "Correct Answer (C): The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Deepfakes Learned Deepfake Affect (Deepfakes Learned Deepfake Affect). (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+        "explanation": "Correct Answer (A): The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p005_img1.png"
     },
     {
       "req_id": "6",
@@ -1978,23 +1960,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the learning process for AI and its limitations.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss The Learning Process)",
-              "3. Field Application & Counselor Discussion (Discuss The Learning Process)"
+              "1. Discuss the learning process for AI and its limitations."
             ],
             "rows": [
-              "1. Discuss the learning process for AI and its limitations.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss The Learning Process)",
-              "3. Field Application & Counselor Discussion (Discuss The Learning Process)"
-            ]
+              "1. Discuss the learning process for AI and its limitations."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Discuss The Learning Process without explaining how it works in practice satisfies Artificial Intelligence Requirement 6a.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss The Learning Process (Discuss The Learning Process) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss The Learning Process (Discuss The Learning Process) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Discuss The Learning Process without explaining how it works in practice satisfies Artificial Intelligence Requirement 6a."
+            "misconception": "Treating the technical factors of The learning process for AI in Artificial Intelligence Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Artificial Intelligence Requirement 6a (The learning process for AI), each principle directly governs real-world performance: Demonstrate three examples of writing clear instructions.",
+            "fact_correction": "In Artificial Intelligence Requirement 6a (The learning process for AI), each principle directly governs real-world performance: Demonstrate three examples of writing clear instructions.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Treating the technical factors of The learning process for AI in Artificial Intelligence Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Artificial Intelligence Requirement 6a (The learning process for AI), each principle directly governs real-world performance: Demonstrate three examples of writing clear instructions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2025,7 +2005,7 @@
           "pamphlet_excerpts": [
             "Learning Process: Developing AI Skills Principle 4: Artificial Intelligence Sub-Req 6d: Demonstrate three examples of writing clear instructions for a school-related task (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p006_img1.png"
         },
         {
           "sub_id": "6b",
@@ -2048,23 +2028,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five methods of how to effectively communicate with AI.",
-              "2. Key Pamphlet Facts & Mechanism (Effectively Communicate)",
-              "3. Field Application & Counselor Discussion (Effectively Communicate)"
+              "1. Identify five methods of how to effectively communicate with AI."
             ],
             "rows": [
-              "1. Identify five methods of how to effectively communicate with AI.",
-              "2. Key Pamphlet Facts & Mechanism (Effectively Communicate)",
-              "3. Field Application & Counselor Discussion (Effectively Communicate)"
-            ]
+              "1. Identify five methods of how to effectively communicate with AI."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Effectively Communicate without explaining how it works in practice satisfies Artificial Intelligence Requirement 6b.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Effectively Communicate (Effectively Communicate) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Effectively Communicate (Effectively Communicate) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Effectively Communicate without explaining how it works in practice satisfies Artificial Intelligence Requirement 6b."
+            "misconception": "Assuming Five methods of how to effectively in Artificial Intelligence Requirement 6b operates identically across all environmental and technical conditions.",
+            "fact": "Discuss the learning process for AI and its limitations.",
+            "fact_correction": "Discuss the learning process for AI and its limitations.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Assuming Five methods of how to effectively in Artificial Intelligence Requirement 6b operates identically across all environmental and technical conditions.",
+            "correction": "Discuss the learning process for AI and its limitations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2118,23 +2096,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the importance of prompt engineering when using AI to create better output.",
-              "2. Key Pamphlet Facts & Mechanism (Prompt Engineering)",
-              "3. Field Application & Counselor Discussion (Prompt Engineering)"
+              "1. Explain the importance of prompt engineering when using AI to create better output."
             ],
             "rows": [
-              "1. Explain the importance of prompt engineering when using AI to create better output.",
-              "2. Key Pamphlet Facts & Mechanism (Prompt Engineering)",
-              "3. Field Application & Counselor Discussion (Prompt Engineering)"
-            ]
+              "1. Explain the importance of prompt engineering when using AI to create better output."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Prompt Engineering without explaining how it works in practice satisfies Artificial Intelligence Requirement 6c.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Prompt Engineering (Prompt Engineering) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Prompt Engineering (Prompt Engineering) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Prompt Engineering without explaining how it works in practice satisfies Artificial Intelligence Requirement 6c."
+            "misconception": "Overlooking how The importance of prompt engineering directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 6c.",
+            "fact": "Mastering Artificial Intelligence Requirement 6c (The importance of prompt engineering) requires applying the verified pamphlet mechanism: Identify five methods of how to effectively communicate.",
+            "fact_correction": "Mastering Artificial Intelligence Requirement 6c (The importance of prompt engineering) requires applying the verified pamphlet mechanism: Identify five methods of how to effectively communicate.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Overlooking how The importance of prompt engineering directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 6c.",
+            "correction": "Mastering Artificial Intelligence Requirement 6c (The importance of prompt engineering) requires applying the verified pamphlet mechanism: Identify five methods of how to effectively communicate."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2188,23 +2164,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate three examples of writing clear instructions for a school-related task.",
-              "2. Key Pamphlet Facts & Mechanism (Writing Clear Instructions for A)",
-              "3. Field Application & Counselor Discussion (Writing Clear Instructions for A)"
+              "1. Demonstrate three examples of writing clear instructions for a school-related task."
             ],
             "rows": [
-              "1. Demonstrate three examples of writing clear instructions for a school-related task.",
-              "2. Key Pamphlet Facts & Mechanism (Writing Clear Instructions for A)",
-              "3. Field Application & Counselor Discussion (Writing Clear Instructions for A)"
-            ]
+              "1. Demonstrate three examples of writing clear instructions for a school-related task."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Three Examples of Writing Clear verbally can substitute for a physical hands-on demonstration in Artificial Intelligence Requirement 6d.",
-            "fact": "Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and demonstrate Three Examples of Writing Clear with proper technique (p. 6, p. 7).",
-            "fact_correction": "Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and demonstrate Three Examples of Writing Clear with proper technique (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Describing how to perform Three Examples of Writing Clear verbally can substitute for a physical hands-on demonstration in Artificial Intelligence Requirement 6d."
+            "misconception": "Performing Three examples of writing clear instructions in Artificial Intelligence Requirement 6d without pre-inspecting gear alignment, tension.",
+            "fact": "Hands-on execution of Artificial Intelligence Requirement 6d (Three examples of writing clear instructions) depends on precise setup and step-by-step technique: Explain the importance of prompt.",
+            "fact_correction": "Hands-on execution of Artificial Intelligence Requirement 6d (Three examples of writing clear instructions) depends on precise setup and step-by-step technique: Explain the importance of prompt.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Performing Three examples of writing clear instructions in Artificial Intelligence Requirement 6d without pre-inspecting gear alignment, tension.",
+            "correction": "Hands-on execution of Artificial Intelligence Requirement 6d (Three examples of writing clear instructions) depends on precise setup and step-by-step technique: Explain the importance of prompt."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2269,24 +2243,26 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(6a) Discuss The Learning Process",
-          "(6b) Effectively Communicate",
-          "(6c) Prompt Engineering",
-          "(6d) Writing Clear Instructions for A"
+          "1. (6a) Discuss The Learning Process",
+          "2. (6b) Effectively Communicate",
+          "3. (6c) Prompt Engineering",
+          "4. (6d) Writing Clear Instructions for A"
         ],
         "rows": [
-          "(6a) Discuss The Learning Process",
-          "(6b) Effectively Communicate",
-          "(6c) Prompt Engineering",
-          "(6d) Writing Clear Instructions for A"
-        ]
+          "1. (6a) Discuss The Learning Process",
+          "2. (6b) Effectively Communicate",
+          "3. (6c) Prompt Engineering",
+          "4. (6d) Writing Clear Instructions for A"
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Developing AI Skills verbally can substitute for a physical hands-on demonstration in Artificial Intelligence Requirement 6.",
-        "fact": "Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and demonstrate Developing AI Skills with proper technique (p. 6, p. 7).",
-        "fact_correction": "Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and demonstrate Developing AI Skills with proper technique (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Describing how to perform Developing AI Skills verbally can substitute for a physical hands-on demonstration in Artificial Intelligence Requirement 6."
+        "misconception": "Performing Developing AI Skills in Artificial Intelligence Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Artificial Intelligence Requirement 6 (Developing AI Skills) depends on precise setup and step-by-step technique: Demonstrate three examples of writing clear instructions.",
+        "fact_correction": "Hands-on execution of Artificial Intelligence Requirement 6 (Developing AI Skills) depends on precise setup and step-by-step technique: Demonstrate three examples of writing clear instructions.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Performing Developing AI Skills in Artificial Intelligence Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Artificial Intelligence Requirement 6 (Developing AI Skills) depends on precise setup and step-by-step technique: Demonstrate three examples of writing clear instructions."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2316,7 +2292,7 @@
         "Developing AI Skills Principle 4: Artificial Intelligence Sub-Req 6d: Demonstrate three examples of writing clear instructions for a school-related task (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Developing AI Skills Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 6 (p. 30).",
+        "Step 1 (Developing AI Skills Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 6 (p. 30).",
         "Step 2 (Developing AI Skills Execution): Apply the official Artificial Intelligence pamphlet method for Developing AI Skills while recording observations in your Scout Workbook (p. 30).",
         "Step 3 (Developing AI Skills Buddy Check): Cross-check your Developing AI Skills technique, measurements, and results with a patrol buddy using the EDGE method (p. 30).",
         "Step 4 (Developing AI Skills Verification): Review your completed Developing AI Skills evidence and demonstrate proficiency during your counselor conference (p. 30)."
@@ -2362,7 +2338,7 @@
         "title": "Exemplar Skill Station Walkthrough: Artificial Intelligence Req 6 (Developing AI Skills)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Developing AI Skills.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Developing AI Skills.",
           "Step-by-Step Execution": "Developing AI Skills: Artificial Intelligence Sub-Req 6a: Discuss the learning process for AI and its limitations (p. 6).",
           "Quality & Tolerance Check": "Developing AI Skills Principle 2: Artificial Intelligence Sub-Req 6b: Identify five methods of how to effectively communicate with AI (p. 6).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7))"
@@ -2371,29 +2347,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Artificial Intelligence Requirement 6 (Developing AI Skills), what execution standard is required when demonstrating Discuss the learning process for AI and its limitations?",
-        "question": "During the hands-on skill station for Artificial Intelligence Requirement 6 (Developing AI Skills), what execution standard is required when demonstrating Discuss the learning process for AI and its limitations?",
+        "scenario_prompt": "During your patrol's preparation and review for Artificial Intelligence Requirement 6 (Developing AI Skills), which statement accurately reflects the official Artificial Intelligence Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Artificial Intelligence Requirement 6 (Developing AI Skills), which statement accurately reflects the official Artificial Intelligence Merit Badge Pamphlet?",
         "options": [
-          "A. Describing how to perform Developing AI Skills verbally can substitute for a physical hands-on demonstration in Artificial.",
-          "B. Reverse the sequence of Developing AI Skills steps by attempting final sign-off before completing Discuss the learning process for AI and its limitations.",
-          "C. Substitute a casual verbal guess about Discuss the learning process for AI and its limitations in place of documented Artificial Intelligence observations.",
-          "D. Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and."
+          "A. Performing Developing AI Skills in Artificial Intelligence Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Hands-on execution of Artificial Intelligence Requirement 6 (Developing AI Skills) depends on precise setup and step-by-step technique: Demonstrate three examples of writing clear instructions.",
+          "C. Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d.",
+          "D. Treating the technical factors of Create a timeline with five key in Artificial Intelligence Requirement 2e as isolated terms rather than interconnected field mechanisms."
         ],
         "choices": [
-          "A. Describing how to perform Developing AI Skills verbally can substitute for a physical hands-on demonstration in Artificial.",
-          "B. Reverse the sequence of Developing AI Skills steps by attempting final sign-off before completing Discuss the learning process for AI and its limitations.",
-          "C. Substitute a casual verbal guess about Discuss the learning process for AI and its limitations in place of documented Artificial Intelligence observations.",
-          "D. Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and."
+          "A. Performing Developing AI Skills in Artificial Intelligence Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Hands-on execution of Artificial Intelligence Requirement 6 (Developing AI Skills) depends on precise setup and step-by-step technique: Demonstrate three examples of writing clear instructions.",
+          "C. Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d.",
+          "D. Treating the technical factors of Create a timeline with five key in Artificial Intelligence Requirement 2e as isolated terms rather than interconnected field mechanisms."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and.",
-        "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Artificial Intelligence pamphlet, each Scout must physically execute and demonstrate Developing AI Skills with proper technique. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Hands-on execution of Artificial Intelligence Requirement 6 (Developing AI Skills) depends on precise setup and step-by-step technique: Demonstrate three examples of writing clear instructions.",
+        "explanation": "Correct Answer (B): Hands-on execution of Artificial Intelligence Requirement 6 (Developing AI Skills) depends on precise setup and step-by-step technique: Demonstrate three examples of writing clear instructions. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p006_img1.png"
     },
     {
       "req_id": "7",
@@ -2433,15 +2409,17 @@
               "2. Develop a plan outlining the project's objectives, data requirements, and potential ethical considerations.",
               "3. Implement the project utilizing appropriate artificial intelligence tools, languages, or platforms.",
               "4. Share your project with your counselor."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Artificial Intelligence Project Based without explaining how it works in practice satisfies Artificial Intelligence Requirement 7a.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Artificial Intelligence Project Based (Artificial Intelligence Project Based) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Artificial Intelligence Project Based (Artificial Intelligence Project Based) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Artificial Intelligence Project Based without explaining how it works in practice satisfies Artificial Intelligence Requirement 7a."
+            "misconception": "Estimating Artificial Intelligence Project Based figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence.",
+            "fact": "Accurate Artificial Intelligence Requirement 7a (Artificial Intelligence Project Based) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval.",
+            "fact_correction": "Accurate Artificial Intelligence Requirement 7a (Artificial Intelligence Project Based) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Estimating Artificial Intelligence Project Based figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence.",
+            "correction": "Accurate Artificial Intelligence Requirement 7a (Artificial Intelligence Project Based) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2477,7 +2455,7 @@
           "pamphlet_excerpts": [
             "Artificial Intelligence Project Based: Practical Application: Artificial Intelligence Sub-Req 7a: With your counselor's approval, choose an artificial intelligence project based on your personal interest or a community need (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/ai_illustrations/artificial_intelligence_req_7_topic_visual.png"
         },
         {
           "sub_id": "7b",
@@ -2508,15 +2486,17 @@
               "1. With your counselor's approval, design a short lesson plan on AI and teach it to your patrol or a group of Scouts.",
               "2. The lesson should include an AI-generated age-appropriate explanation of AI, examples of how AI is used in both everyday life as...",
               "3. Share information on the development process and teaching experience with your counselor."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Short Lesson without explaining how it works in practice satisfies Artificial Intelligence Requirement 7b.",
-            "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Short Lesson (Short Lesson) (p. 6, p. 7).",
-            "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Short Lesson (Short Lesson) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Short Lesson without explaining how it works in practice satisfies Artificial Intelligence Requirement 7b."
+            "misconception": "Estimating Design a short lesson figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence Requirement 7b.",
+            "fact": "Accurate Artificial Intelligence Requirement 7b (Design a short lesson) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, design a short.",
+            "fact_correction": "Accurate Artificial Intelligence Requirement 7b (Design a short lesson) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, design a short.",
+            "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Estimating Design a short lesson figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence Requirement 7b.",
+            "correction": "Accurate Artificial Intelligence Requirement 7b (Design a short lesson) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, design a short."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2586,20 +2566,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(7a) Artificial Intelligence Project Based",
-          "(7b) Short Lesson"
+          "1. (7a) Artificial Intelligence Project Based",
+          "2. (7b) Short Lesson"
         ],
         "rows": [
-          "(7a) Artificial Intelligence Project Based",
-          "(7b) Short Lesson"
-        ]
+          "1. (7a) Artificial Intelligence Project Based",
+          "2. (7b) Short Lesson"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Practical Application without explaining how it works in practice satisfies Artificial Intelligence Requirement 7.",
-        "fact": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Practical Application (Practical Application) (p. 6, p. 7).",
-        "fact_correction": "The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Practical Application (Practical Application) (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Memorizing a one-line definition of Practical Application without explaining how it works in practice satisfies Artificial Intelligence Requirement 7."
+        "misconception": "Estimating Practical Application figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence Requirement 7.",
+        "fact": "Accurate Artificial Intelligence Requirement 7 (Practical Application) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, choose.",
+        "fact_correction": "Accurate Artificial Intelligence Requirement 7 (Practical Application) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, choose.",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Estimating Practical Application figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence Requirement 7.",
+        "correction": "Accurate Artificial Intelligence Requirement 7 (Practical Application) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, choose."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2634,7 +2616,7 @@
         "Practical Application Principle 4: Do ONE of the following: (a) With your counselor's approval, choose an artificial intelligence project based on your personal interest or a community need (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Practical Application Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 7 (p. 34).",
+        "Step 1 (Practical Application Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 7 (p. 34).",
         "Step 2 (Practical Application Execution): Apply the official Artificial Intelligence pamphlet method for Practical Application while recording observations in your Scout Workbook (p. 34).",
         "Step 3 (Practical Application Buddy Check): Cross-check your Practical Application technique, measurements, and results with a patrol buddy using the EDGE method (p. 34).",
         "Step 4 (Practical Application Verification): Review your completed Practical Application evidence and demonstrate proficiency during your counselor conference (p. 34)."
@@ -2689,29 +2671,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Artificial Intelligence Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Practical Application: With your counselor's approval, choose an artificial intelligence proj)?",
-        "question": "How does the Artificial Intelligence Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Practical Application: With your counselor's approval, choose an artificial intelligence proj)?",
+        "scenario_prompt": "In Artificial Intelligence Requirement 7 (Practical Application), what technical standard and procedure does the Scouting America Artificial Intelligence Merit Badge Pamphlet require?",
+        "question": "In Artificial Intelligence Requirement 7 (Practical Application), what technical standard and procedure does the Scouting America Artificial Intelligence Merit Badge Pamphlet require?",
         "options": [
-          "A. Memorizing a one-line definition of Practical Application without explaining how it works in practice satisfies Artificial.",
-          "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "C. Rely on a group summary of Practical Application instead of individually explaining or demonstrating With your counselor's approval, choose an artificial intelli.",
-          "D. Substitute a casual verbal guess about With your counselor's approval, choose an artificial in in place of documented Artificial Intelligence observations."
+          "A. Estimating Practical Application figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence Requirement 7.",
+          "B. Treating the technical factors of Create a timeline with five key in Artificial Intelligence Requirement 2e as isolated terms rather than interconnected field mechanisms.",
+          "C. Accurate Artificial Intelligence Requirement 7 (Practical Application) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, choose.",
+          "D. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Practical Application without explaining how it works in practice satisfies Artificial.",
-          "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "C. Rely on a group summary of Practical Application instead of individually explaining or demonstrating With your counselor's approval, choose an artificial intelli.",
-          "D. Substitute a casual verbal guess about With your counselor's approval, choose an artificial in in place of documented Artificial Intelligence observations."
+          "A. Estimating Practical Application figures from memory at the end of the project is as accurate as recording real-time measurements for Artificial Intelligence Requirement 7.",
+          "B. Treating the technical factors of Create a timeline with five key in Artificial Intelligence Requirement 2e as isolated terms rather than interconnected field mechanisms.",
+          "C. Accurate Artificial Intelligence Requirement 7 (Practical Application) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, choose.",
+          "D. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "explanation": "Correct Answer (B): The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Practical Application (Practical Application). (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Accurate Artificial Intelligence Requirement 7 (Practical Application) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, choose.",
+        "explanation": "Correct Answer (C): Accurate Artificial Intelligence Requirement 7 (Practical Application) analysis requires contemporaneous data logging and verified measurements: With your counselor's approval, choose. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/artificial_intelligence_req_7_topic_visual.png"
     },
     {
       "req_id": "8",
@@ -2751,15 +2733,17 @@
               "2. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
               "3. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement.",
-            "fact": "Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "fact_correction": "Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "misconception": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8a) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "fact_correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8a) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
             "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
-            "myth": "Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement."
+            "myth": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8a) requires researching specific education, apprenticeship or degree credentials, industry certifications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2790,7 +2774,7 @@
           "pamphlet_excerpts": [
             "Artificial Intelligence Careers and Pathways: Careers & Professional Pathways Principle 2: Artificial Intelligence Sub-Req 8b: Interview an artificial intelligence or automation professional (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/ai_illustrations/artificial_intelligence_req_8_topic_visual.png"
         },
         {
           "sub_id": "8b",
@@ -2823,15 +2807,17 @@
               "2. Learn about their day-to-day work, the challenges they face, and their vision for the future of artificial intelligence or automation.",
               "3. Inquire about training, education, certification requirements, experience, and expenses associated with entering the field.",
               "4. Share what you learned with your counselor."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement.",
-            "fact": "Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "fact_correction": "Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "misconception": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Interview an artificial intelligence or automation career without accredited training.",
+            "fact": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8b) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "fact_correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8b) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
             "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
-            "myth": "Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement."
+            "myth": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Interview an artificial intelligence or automation career without accredited training.",
+            "correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8b) requires researching specific education, apprenticeship or degree credentials, industry certifications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2906,14 +2892,16 @@
           "2. Selected Career: Education, Training & Licensing",
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement.",
-        "fact": "Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "fact_correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
         "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
-        "myth": "Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement."
+        "myth": "Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Artificial Intelligence (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2943,7 +2931,7 @@
         "Careers & Professional Pathways Principle 4: Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in artificial intelligence or automation (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways Preparation): Inspect the workspace, reference materials, and safety controls required for Artificial Intelligence Requirement 8 (p. 38).",
+        "Step 1 (Careers & Professional Pathways Preparation): Inspect the works pace, reference materials, and safety controls required for Artificial Intelligence Requirement 8 (p. 38).",
         "Step 2 (Careers & Professional Pathways Execution): Apply the official Artificial Intelligence pamphlet method for Careers & Professional Pathways while recording observations in your Scout Workbook (p. 38).",
         "Step 3 (Careers & Professional Pathways Buddy Check): Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 38).",
         "Step 4 (Careers & Professional Pathways Verification): Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 38)."
@@ -2998,29 +2986,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Artificial Intelligence Requirement 8 (Artificial Intelligence Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Artificial Intelligence Requirement 8 (Artificial Intelligence Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "When demonstrating and explaining Careers & Professional Pathways for Artificial Intelligence Requirement 8, which approach follows the verified Artificial Intelligence Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Careers & Professional Pathways for Artificial Intelligence Requirement 8, which approach follows the verified Artificial Intelligence Merit Badge Pamphlet standard?",
         "options": [
-          "A. Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and.",
-          "B. Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement.",
-          "C. Focus only on Identify three career opportunities that would use skil while omitting Interview an artificial intelligence or automation prof and its required field verification.",
-          "D. Assume Artificial Intelligence Careers and Pathways applies only to indoor classroom theory and has no effect on real-world Artificial Intelligence practice."
+          "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Treating the technical factors of 10 examples of how automation in Artificial Intelligence Requirement 3a as isolated terms rather than interconnected field mechanisms.",
+          "C. Assuming Five examples of how automation in Artificial Intelligence Requirement 3b operates identically across all environmental and technical conditions.",
+          "D. Pursuing a career or advanced pathway in Artificial Intelligence (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications."
         ],
         "choices": [
-          "A. Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and.",
-          "B. Listing three job titles from a quick web search satisfies the Artificial Intelligence career exploration requirement.",
-          "C. Focus only on Identify three career opportunities that would use skil while omitting Interview an artificial intelligence or automation prof and its required field verification.",
-          "D. Assume Artificial Intelligence Careers and Pathways applies only to indoor classroom theory and has no effect on real-world Artificial Intelligence practice."
+          "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Treating the technical factors of 10 examples of how automation in Artificial Intelligence Requirement 3a as isolated terms rather than interconnected field mechanisms.",
+          "C. Assuming Five examples of how automation in Artificial Intelligence Requirement 3b operates identically across all environmental and technical conditions.",
+          "D. Pursuing a career or advanced pathway in Artificial Intelligence (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and.",
-        "explanation": "Correct Answer (A): Scouts must research specific Artificial Intelligence career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Pursuing a career or advanced pathway in Artificial Intelligence (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "explanation": "Correct Answer (D): Pursuing a career or advanced pathway in Artificial Intelligence (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
         "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Artificial Intelligence Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/artificial_intelligence_req_8_topic_visual.png"
     }
   ],
   "badge_slug": "artificial_intelligence",
@@ -3031,117 +3019,117 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "When preparing for your counselor conference on Artificial Intelligence Requirement 1 (Key Concepts), which statement accurately reflects the official BSA standard for Key Concepts?",
-      "question": "When preparing for your counselor conference on Artificial Intelligence Requirement 1 (Key Concepts), which statement accurately reflects the official BSA standard for Key Concepts?",
+      "scenario_prompt": "When evaluating how a machine learning model makes predictions in Artificial Intelligence Requirement 1, why can an AI system produce biased or inaccurate outputs even when its software code has no syntax errors?",
+      "question": "When evaluating how a machine learning model makes predictions in Artificial Intelligence Requirement 1, why can an AI system produce biased or inaccurate outputs even when its software code has no syntax errors?",
       "options": [
-        "A. Memorizing a one-line definition of Key Concepts without explaining how it works in practice satisfies Artificial Intelligence.",
-        "B. Reverse the sequence of Key Concepts steps by attempting final sign-off before completing Key Concepts.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Key Concepts.",
-        "D. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world."
+        "A. Because machine learning algorithms physically wear out their silicon transistors after processing more than a thousand queries.",
+        "B. Because AI models never use training data and instead generate answers using purely random voltage fluctuations.",
+        "C. Because computer processors automatically rewrite their own operating systems to ignore human instructions after compilation.",
+        "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete, or historically skewed data will cause the model to reproduce those biases and errors."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Key Concepts without explaining how it works in practice satisfies Artificial Intelligence.",
-        "B. Reverse the sequence of Key Concepts steps by attempting final sign-off before completing Key Concepts.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Key Concepts.",
-        "D. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world."
+        "A. Because machine learning algorithms physically wear out their silicon transistors after processing more than a thousand queries.",
+        "B. Because AI models never use training data and instead generate answers using purely random voltage fluctuations.",
+        "C. Because computer processors automatically rewrite their own operating systems to ignore human instructions after compilation.",
+        "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete, or historically skewed data will cause the model to reproduce those biases and errors."
       ],
       "correct_index": 3,
       "correct_letter": "D",
-      "correct_answer": "D. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (D): The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Key Concepts (Key Concepts). (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-      "pamphlet_page_ref": "p. 6, p. 7",
+      "correct_answer": "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete, or historically skewed data will cause the model to reproduce those biases and errors.",
+      "explanation": "Correct Answer (D): AI and machine learning systems infer patterns directly from training datasets; if the training data contains gaps or historical biases, the resulting model outputs will reflect those flaws, requiring human verification.",
+      "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "When evaluating professional pathways for Artificial Intelligence Requirement 2 (Artificial Intelligence AI Basics), what qualification and career-research standard must a Scout verify?",
-      "question": "When evaluating professional pathways for Artificial Intelligence Requirement 2 (Artificial Intelligence AI Basics), what qualification and career-research standard must a Scout verify?",
+      "scenario_prompt": "During your patrol's preparation and review for Artificial Intelligence Requirement 2 (Artificial Intelligence Basics), which statement accurately reflects the official Artificial Intelligence Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Artificial Intelligence Requirement 2 (Artificial Intelligence Basics), which statement accurately reflects the official Artificial Intelligence Merit Badge Pamphlet?",
       "options": [
-        "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-        "B. Skip the Artificial Intelligence Pamphlet technical criteria for Artificial Intelligence AI Basics and use rules from an unrelated activity.",
-        "C. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Artificial Intelligence AI Basics."
+        "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Artificial Intelligence Basics career without accredited training or licensing.",
+        "B. Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "C. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+        "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
       ],
       "choices": [
-        "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-        "B. Skip the Artificial Intelligence Pamphlet technical criteria for Artificial Intelligence AI Basics and use rules from an unrelated activity.",
-        "C. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Artificial Intelligence AI Basics."
+        "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Artificial Intelligence Basics career without accredited training or licensing.",
+        "B. Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "C. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+        "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-      "explanation": "Correct Answer (C): Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-      "pamphlet_page_ref": "p. 6, p. 7",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+      "explanation": "Correct Answer (B): Pursuing a career or advanced pathway in Artificial Intelligence (Req 2) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+      "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "When evaluating professional pathways for Artificial Intelligence Requirement 3 (Automation Basics), what qualification and career-research standard must a Scout verify?",
-      "question": "When evaluating professional pathways for Artificial Intelligence Requirement 3 (Automation Basics), what qualification and career-research standard must a Scout verify?",
+      "scenario_prompt": "In Artificial Intelligence Requirement 3 (Automation Basics), what technical standard and procedure does the Scouting America Artificial Intelligence Merit Badge Pamphlet require?",
+      "question": "In Artificial Intelligence Requirement 3 (Automation Basics), what technical standard and procedure does the Scouting America Artificial Intelligence Merit Badge Pamphlet require?",
       "options": [
-        "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-        "B. Reverse the sequence of Automation Basics steps by attempting final sign-off before completing Identify 10 examples of how automation is currently used in .",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Automation Basics.",
-        "D. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees."
+        "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing.",
+        "B. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+        "C. Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
       ],
       "choices": [
-        "A. Entry into a professional Artificial Intelligence career relies only on hobby experience rather than formal training or certification.",
-        "B. Reverse the sequence of Automation Basics steps by attempting final sign-off before completing Identify 10 examples of how automation is currently used in .",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Automation Basics.",
-        "D. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees."
+        "A. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Automation Basics career without accredited training or licensing.",
+        "B. Overlooking how 10 examples of how AI directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement.",
+        "C. Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "D. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees.",
-      "explanation": "Correct Answer (D): Professional pathways in Artificial Intelligence require documented technical coursework, accredited apprenticeships or degrees, and ongoing industry certification. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-      "pamphlet_page_ref": "p. 6, p. 7",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+      "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Artificial Intelligence (Req 3) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+      "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Artificial Intelligence Requirement 4 (Ethics Learned Ethical Concerns), which statement accurately reflects the official BSA standard for Research ethical concerns and responsible use in AI, including bias, privac?",
-      "question": "When preparing for your counselor conference on Artificial Intelligence Requirement 4 (Ethics Learned Ethical Concerns), which statement accurately reflects the official BSA standard for Research ethical concerns and responsible use in AI, including bias, privac?",
+      "scenario_prompt": "When demonstrating and explaining Ethics in AI for Artificial Intelligence Requirement 4, which approach follows the verified Artificial Intelligence Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Ethics in AI for Artificial Intelligence Requirement 4, which approach follows the verified Artificial Intelligence Merit Badge Pamphlet standard?",
       "options": [
-        "A. Memorizing a one-line definition of Ethics Learned Ethical Concerns without explaining how it works in practice satisfies.",
-        "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "C. Rely on a group summary of Ethics Learned Ethical Concerns instead of individually explaining or demonstrating Research ethical concerns and responsible use in AI, includi.",
-        "D. Assume Ethics Learned Ethical Concerns applies only to indoor classroom theory and has no effect on real-world Artificial Intelligence practice."
+        "A. Treating the technical factors of Ethics in AI in Artificial Intelligence Requirement 4 as isolated terms rather than interconnected field mechanisms.",
+        "B. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms.",
+        "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+        "D. In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Ethics Learned Ethical Concerns without explaining how it works in practice satisfies.",
-        "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "C. Rely on a group summary of Ethics Learned Ethical Concerns instead of individually explaining or demonstrating Research ethical concerns and responsible use in AI, includi.",
-        "D. Assume Ethics Learned Ethical Concerns applies only to indoor classroom theory and has no effect on real-world Artificial Intelligence practice."
+        "A. Treating the technical factors of Ethics in AI in Artificial Intelligence Requirement 4 as isolated terms rather than interconnected field mechanisms.",
+        "B. Treating the technical factors of Five examples of how AI in Artificial Intelligence Requirement 2b as isolated terms rather than interconnected field mechanisms.",
+        "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+        "D. In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (B): The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ethics Learned Ethical Concerns (Ethics Learned Ethical Concerns). (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-      "pamphlet_page_ref": "p. 6, p. 7",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play.",
+      "explanation": "Correct Answer (D): In Artificial Intelligence Requirement 4 (Ethics in AI), each principle directly governs real-world performance: Meet with your counselor, play. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+      "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Artificial Intelligence Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Deepfakes Learned Deepfake Affect: Explain what a deepfake is and how it can affect an individual)?",
-      "question": "How does the Artificial Intelligence Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Deepfakes Learned Deepfake Affect: Explain what a deepfake is and how it can affect an individual)?",
+      "scenario_prompt": "When working on Artificial Intelligence Requirement 5 (Deepfakes), which principle and field standard is established in the Artificial Intelligence Merit Badge Pamphlet?",
+      "question": "When working on Artificial Intelligence Requirement 5 (Deepfakes), which principle and field standard is established in the Artificial Intelligence Merit Badge Pamphlet?",
       "options": [
-        "A. Memorizing a one-line definition of Deepfakes Learned Deepfake Affect without explaining how it works in practice satisfies.",
-        "B. Skip the Artificial Intelligence Pamphlet technical criteria for Deepfakes Learned Deepfake Affect and use rules from an unrelated activity.",
-        "C. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Deepfakes Learned Deepfake Affect."
+        "A. The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+        "B. Assuming Deepfakes in Artificial Intelligence Requirement 5 operates identically across all environmental and technical conditions.",
+        "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+        "D. Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Deepfakes Learned Deepfake Affect without explaining how it works in practice satisfies.",
-        "B. Skip the Artificial Intelligence Pamphlet technical criteria for Deepfakes Learned Deepfake Affect and use rules from an unrelated activity.",
-        "C. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Deepfakes Learned Deepfake Affect."
+        "A. The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+        "B. Assuming Deepfakes in Artificial Intelligence Requirement 5 operates identically across all environmental and technical conditions.",
+        "C. Casual hobby familiarity with Artificial Intelligence is sufficient to enter a professional Five examples of how AI career without accredited training or licensing.",
+        "D. Overlooking how Meet with your counselor and play directly affects safety, efficiency, and decision-making in Artificial Intelligence Requirement 2d."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (C): The Artificial Intelligence pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Deepfakes Learned Deepfake Affect (Deepfakes Learned Deepfake Affect). (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
-      "pamphlet_page_ref": "p. 6, p. 7",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted.",
+      "explanation": "Correct Answer (A): The Artificial Intelligence Merit Badge Pamphlet specifies distinct conditions and criteria for Deepfakes (Req 5): (b) Describe what actions to take if you or someone you know is impacted. (Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)).",
+      "pamphlet_page_ref": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
       "req_id": "5",
       "option_id": null
     }

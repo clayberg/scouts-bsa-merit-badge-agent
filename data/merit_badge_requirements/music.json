@@ -69,15 +69,16 @@
         "rows": [
           "1. Sing or play a simple song or hymn chosen by your counselor, using good technique, phrasing, tone, rhythm, and dynamics.",
           "2. Read all the signs and terms of the score."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Simple Song or Hymn Chosen without explaining how it works in practice satisfies Music Requirement 1.",
-        "fact": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple Song or Hymn Chosen (Simple Song or Hymn Chosen) (p. 12).",
-        "fact_correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple Song or Hymn Chosen (Simple Song or Hymn Chosen) (p. 12).",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Memorizing a one-line definition of Simple Song or Hymn Chosen without explaining how it works in practice satisfies Music Requirement 1.",
-        "correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple Song or Hymn Chosen (Simple Song or Hymn Chosen) (p. 12)."
+        "misconception": "Overlooking how Sing or play a simple song directly affects safety, efficiency, and decision-making in Music Requirement 1.",
+        "fact": "Mastering Music Requirement 1 (Sing or play a simple song) requires applying the verified pamphlet mechanism: Sing or play a simple song or hymn chosen by your counselor, using good technique.",
+        "fact_correction": "Mastering Music Requirement 1 (Sing or play a simple song) requires applying the verified pamphlet mechanism: Sing or play a simple song or hymn chosen by your counselor, using good technique.",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+        "myth": "Overlooking how Sing or play a simple song directly affects safety, efficiency, and decision-making in Music Requirement 1.",
+        "correction": "Mastering Music Requirement 1 (Sing or play a simple song) requires applying the verified pamphlet mechanism: Sing or play a simple song or hymn chosen by your counselor, using good technique."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -107,7 +108,7 @@
         "Sing or play a simple song Field Application 4: Verify all Music Requirement 1 measurements, safety controls, and technical criteria with your counselor (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Sing or play a simple song Preparation): Inspect the workspace, reference materials, and safety controls required for Music Requirement 1 (p. 10).",
+        "Step 1 (Sing or play a simple song Preparation): Inspect the works pace, reference materials, and safety controls required for Music Requirement 1 (p. 10).",
         "Step 2 (Sing or play a simple song Execution): Apply the official Music pamphlet method for Sing or play a simple song while recording observations in your Scout Workbook (p. 10).",
         "Step 3 (Sing or play a simple song Buddy Check): Cross-check your Sing or play a simple song technique, measurements, and results with a patrol buddy using the EDGE method (p. 10).",
         "Step 4 (Sing or play a simple song Verification): Review your completed Sing or play a simple song evidence and demonstrate proficiency during your counselor conference (p. 10)."
@@ -162,25 +163,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Music Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Music Requirement 1 (Simple Song or Hymn Chosen), which statement accurately reflects the official BSA standard for Sing or play a simple song or hymn chosen by your counselor, using good tec?",
-        "question": "When preparing for your counselor conference on Music Requirement 1 (Simple Song or Hymn Chosen), which statement accurately reflects the official BSA standard for Sing or play a simple song or hymn chosen by your counselor, using good tec?",
+        "scenario_prompt": "In standard musical notation, what do the two numbers in a 3/4 time signature tell a performer about the meter of the piece?",
+        "question": "In standard musical notation, what do the two numbers in a 3/4 time signature tell a performer about the meter of the piece?",
         "options": [
-          "A. Memorizing a one-line definition of Simple Song or Hymn Chosen without explaining how it works in practice satisfies Music.",
-          "B. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple.",
-          "C. Rely on a group summary of Simple Song or Hymn Chosen instead of individually explaining or demonstrating Sing or play a simple song or hymn chosen by your counselor,.",
-          "D. Substitute a casual verbal guess about Sing or play a simple song or hymn chosen by your couns in place of documented Music observations."
+          "A. Play three measures per line at a tempo of four beats per second.",
+          "B. Divide the ensemble into three vocal parts and raise the pitch by four half-steps.",
+          "C. There are three beats in each measure, and a quarter note receives one full beat.",
+          "D. There are four beats in each measure, and a dotted half note receives three beats."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Simple Song or Hymn Chosen without explaining how it works in practice satisfies Music.",
-          "B. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple.",
-          "C. Rely on a group summary of Simple Song or Hymn Chosen instead of individually explaining or demonstrating Sing or play a simple song or hymn chosen by your counselor,.",
-          "D. Substitute a casual verbal guess about Sing or play a simple song or hymn chosen by your couns in place of documented Music observations."
+          "A. Play three measures per line at a tempo of four beats per second.",
+          "B. Divide the ensemble into three vocal parts and raise the pitch by four half-steps.",
+          "C. There are three beats in each measure, and a quarter note receives one full beat.",
+          "D. There are four beats in each measure, and a dotted half note receives three beats."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple.",
-        "explanation": "Correct Answer (B): The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple Song or Hymn Chosen (Simple Song or Hymn Chosen). (Official Scouting America Music Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. There are three beats in each measure, and a quarter note receives one full beat.",
+        "explanation": "Correct Answer (C): In a time signature, the top number indicates how many beats are in each measure (three), while the bottom number indicates which note value receives one beat (4 stands for a quarter note).",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Music Workbook organizer table and practical demonstration for Req 1.",
@@ -239,15 +240,16 @@
         "rows": [
           "1. Name the five general groups of musical instruments.",
           "2. Create an illustration that shows how tones are generated and how instruments produce sound."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Name the five general groups verbally can substitute for a physical hands-on demonstration in Music Requirement 2.",
-        "fact": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the five general groups with proper technique (p. 12).",
-        "fact_correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the five general groups with proper technique (p. 12).",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Describing how to perform Name the five general groups verbally can substitute for a physical hands-on demonstration in Music Requirement 2.",
-        "correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the five general groups with proper technique (p. 12)."
+        "misconception": "Performing Name the five general groups in Music Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+        "fact_correction": "Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+        "myth": "Performing Name the five general groups in Music Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -277,7 +279,7 @@
         "General Groups of Musical Instruments Field Application 4: Verify all Music Requirement 2 measurements, safety controls, and technical criteria with your counselor (p. 14)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (General Groups of Musical Instruments Preparation): Inspect the workspace, reference materials, and safety controls required for Music Requirement 2 (p. 14).",
+        "Step 1 (General Groups of Musical Instruments Preparation): Inspect the works pace, reference materials, and safety controls required for Music Requirement 2 (p. 14).",
         "Step 2 (General Groups of Musical Instruments Execution): Apply the official Music pamphlet method for General Groups of Musical Instruments while recording observations in your Scout Workbook (p. 14).",
         "Step 3 (General Groups of Musical Instruments Buddy Check): Cross-check your General Groups of Musical Instruments technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
         "Step 4 (General Groups of Musical Instruments Verification): Review your completed General Groups of Musical Instruments evidence and demonstrate proficiency during your counselor conference (p. 14)."
@@ -323,7 +325,7 @@
         "title": "Exemplar Skill Station Walkthrough: Music Req 2 (General Groups of Musical Instruments)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for General Groups of Musical Instruments.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for General Groups of Musical Instruments.",
           "Step-by-Step Execution": "General Groups of Musical Instruments: Name the five general groups of musical instruments (p. 12).",
           "Quality & Tolerance Check": "General Groups of Musical Instruments Principle 2: Name the five general groups Principle 2: Create an illustration that shows how tones are generated and how instruments produce.",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Music Merit Badge Pamphlet)"
@@ -332,29 +334,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Music Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Music Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (General Groups of Musical Instruments: Name the five general groups of musical instruments)?",
-        "question": "How does the Music Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (General Groups of Musical Instruments: Name the five general groups of musical instruments)?",
+        "scenario_prompt": "In Music Requirement 2 (Name the five general groups), what technical standard and procedure does the Scouting America Music Merit Badge Pamphlet require?",
+        "question": "In Music Requirement 2 (Name the five general groups), what technical standard and procedure does the Scouting America Music Merit Badge Pamphlet require?",
         "options": [
-          "A. Describing how to perform Name the five general groups verbally can substitute for a physical hands-on demonstration in Music.",
-          "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the.",
-          "C. Rely on a group summary of General Groups of Musical Instruments instead of individually explaining or demonstrating Name the five general groups of musical instruments.",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full General Groups of Musical Instruments standard."
+          "A. Performing Name the five general groups in Music Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+          "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
         ],
         "choices": [
-          "A. Describing how to perform Name the five general groups verbally can substitute for a physical hands-on demonstration in Music.",
-          "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the.",
-          "C. Rely on a group summary of General Groups of Musical Instruments instead of individually explaining or demonstrating Name the five general groups of musical instruments.",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full General Groups of Musical Instruments standard."
+          "A. Performing Name the five general groups in Music Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+          "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the.",
-        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the five general groups with proper technique. (Official Scouting America Music Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+        "explanation": "Correct Answer (C): Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments. (Official Scouting America Music Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Music Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/music_p004_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/music_p007_img1.png"
     },
     {
       "req_id": "3",
@@ -394,16 +396,17 @@
               "2. Describe the sound of the music and the instruments used.",
               "3. Identify the composers or songwriters, the performers, and the titles of the pieces you heard.",
               "4. If it was a live performance, describe the setting and the reaction of the audience."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Music Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Music Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Music Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Skipping hands-on verification or partial completion of Music Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Music Requirement  () for counselor verification."
+            "misconception": "Performing Attend a live performance, or listen in Music Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Music Requirement 3a (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance.",
+            "fact_correction": "Hands-on execution of Music Requirement 3a (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Performing Attend a live performance, or listen in Music Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Music Requirement 3a (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -434,7 +437,7 @@
           "pamphlet_excerpts": [
             "Live Performance or Listen: Attend a live performance, or listen: Music Sub-Req 3a: Attend a live performance, or listen to three hours of recordings from any two of the following musical styles: blues, jazz, classical, country, bluegrass, ethnic (p. 12)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/music_p012_img1.png"
         },
         {
           "sub_id": "3b",
@@ -467,16 +470,17 @@
               "2. Find out what the most popular music was when he or she was your age.",
               "3. Find out what his or her favorite music is now, and listen to three of your relative's favorite tunes with him or her.",
               "4. How do those favorites sound to you?"
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the Interview An Adult Member field investigation in Music.",
-            "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Interview An Adult Member, and document specific findings (p. 12).",
-            "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Interview An Adult Member, and document specific findings (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Watching a generic video without preparing questions or counselor approval fulfills the Interview An Adult Member field investigation in Music.",
-            "correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Interview An Adult Member, and document specific findings (p. 12)."
+            "misconception": "Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "fact": "For Music Requirement 3b (Interview an adult member), Scouts obtain advance approval, prepare structured field questions.",
+            "fact_correction": "For Music Requirement 3b (Interview an adult member), Scouts obtain advance approval, prepare structured field questions.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "correction": "For Music Requirement 3b (Interview an adult member), Scouts obtain advance approval, prepare structured field questions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -530,24 +534,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times.",
-              "2. Key Pamphlet Facts & Mechanism (Serve for Six Months)",
-              "3. Field Application & Counselor Discussion (Serve for Six Months)"
+              "1. Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times."
             ],
             "rows": [
-              "1. Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times.",
-              "2. Key Pamphlet Facts & Mechanism (Serve for Six Months)",
-              "3. Field Application & Counselor Discussion (Serve for Six Months)"
-            ]
+              "1. Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Serve for Six Months verbally can substitute for a physical hands-on demonstration in Music Requirement 3c.",
-            "fact": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Serve for Six Months with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Serve for Six Months with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Serve for Six Months verbally can substitute for a physical hands-on demonstration in Music Requirement 3c.",
-            "correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Serve for Six Months with proper technique (p. 12)."
+            "misconception": "Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Music Requirement 3c (Serve for six months) depends on precise setup and step-by-step technique: Serve for six months as a member of a school band, choir.",
+            "fact_correction": "Hands-on execution of Music Requirement 3c (Serve for six months) depends on precise setup and step-by-step technique: Serve for six months as a member of a school band, choir.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Music Requirement 3c (Serve for six months) depends on precise setup and step-by-step technique: Serve for six months as a member of a school band, choir."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -607,16 +608,17 @@
             "rows": [
               "1. List five people who are important in the history of American music and explain to your counselor why they continue to be influential.",
               "2. Include at least one composer, one performer, one innovator, and one person born more than 100 years ago."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Five People Who Are Important verbally can substitute for a physical hands-on demonstration in Music Requirement 3d.",
-            "fact": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Five People Who Are Important with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Five People Who Are Important with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Five People Who Are Important verbally can substitute for a physical hands-on demonstration in Music Requirement 3d.",
-            "correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Five People Who Are Important with proper technique (p. 12)."
+            "misconception": "Performing List five people who are important in Music Requirement 3d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Music Requirement 3d (List five people who are important) depends on precise setup and step-by-step technique: List five people who are important in the history of American.",
+            "fact_correction": "Hands-on execution of Music Requirement 3d (List five people who are important) depends on precise setup and step-by-step technique: List five people who are important in the history of American.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Performing List five people who are important in Music Requirement 3d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Music Requirement 3d (List five people who are important) depends on precise setup and step-by-step technique: List five people who are important in the history of American."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -681,25 +683,26 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(3a) Live Performance",
-          "(3b) Adult Member of Your Family",
-          "(3c) Serve for Six Months",
-          "(3d) People Who Are Important"
+          "1. (3a) Live Performance",
+          "2. (3b) Adult Member of Your Family",
+          "3. (3c) Serve for Six Months",
+          "4. (3d) People Who Are Important"
         ],
         "rows": [
-          "(3a) Live Performance",
-          "(3b) Adult Member of Your Family",
-          "(3c) Serve for Six Months",
-          "(3d) People Who Are Important"
-        ]
+          "1. (3a) Live Performance",
+          "2. (3b) Adult Member of Your Family",
+          "3. (3c) Serve for Six Months",
+          "4. (3d) People Who Are Important"
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Music Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Music Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Music Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Skipping hands-on verification or partial completion of Music Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Music Requirement  () for counselor verification."
+        "misconception": "Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance.",
+        "fact_correction": "Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance.",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+        "myth": "Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -729,7 +732,7 @@
         "Live Performance or Listen Principle 4: Attend a live performance, or listen Principle 4: Music Sub-Req 3d: List five people who are important in the history of American music and explain to your counselor why they continue to be influential (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Live Performance or Listen Preparation): Inspect the workspace, reference materials, and safety controls required for Music Requirement 3 (p. 18).",
+        "Step 1 (Live Performance or Listen Preparation): Inspect the works pace, reference materials, and safety controls required for Music Requirement 3 (p. 18).",
         "Step 2 (Live Performance or Listen Execution): Apply the official Music pamphlet method for Live Performance or Listen while recording observations in your Scout Workbook (p. 18).",
         "Step 3 (Live Performance or Listen Buddy Check): Cross-check your Live Performance or Listen technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
         "Step 4 (Live Performance or Listen Verification): Review your completed Live Performance or Listen evidence and demonstrate proficiency during your counselor conference (p. 18)."
@@ -784,29 +787,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Music Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Music Requirement 3 (Live Performance), what execution standard is required when demonstrating Attend a live performance, or listen to three hours of recordings from any ?",
-        "question": "During the hands-on skill station for Music Requirement 3 (Live Performance), what execution standard is required when demonstrating Attend a live performance, or listen to three hours of recordings from any ?",
+        "scenario_prompt": "When demonstrating and explaining Attend a live performance, or listen for Music Requirement 3, which approach follows the verified Music Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Attend a live performance, or listen for Music Requirement 3, which approach follows the verified Music Merit Badge Pamphlet standard?",
         "options": [
-          "A. Estimating Attend a live performance, or listen entries from memory at the end of the project satisfies the Music Requirement 3.",
-          "B. Reverse the sequence of Live Performance steps by attempting final sign-off before completing Attend a live performance, or listen to three hours of recor.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Live Performance.",
-          "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live."
+          "A. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "C. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance."
         ],
         "choices": [
-          "A. Estimating Attend a live performance, or listen entries from memory at the end of the project satisfies the Music Requirement 3.",
-          "B. Reverse the sequence of Live Performance steps by attempting final sign-off before completing Attend a live performance, or listen to three hours of recor.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Live Performance.",
-          "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live."
+          "A. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "C. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live.",
-        "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live performance, or listen milestone is completed. (Official Scouting America Music Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_answer": "D. Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance.",
+        "explanation": "Correct Answer (D): Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance. (Official Scouting America Music Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Music Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/music_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -842,16 +845,17 @@
             "rows": [
               "1. Teach three songs to a group of people.",
               "2. Lead them in singing the songs, using proper hand motions."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Teach Three Songs without explaining how it works in practice satisfies Music Requirement 4a.",
-            "fact": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Teach Three Songs (Teach Three Songs) (p. 12).",
-            "fact_correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Teach Three Songs (Teach Three Songs) (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Memorizing a one-line definition of Teach Three Songs without explaining how it works in practice satisfies Music Requirement 4a.",
-            "correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Teach Three Songs (Teach Three Songs) (p. 12)."
+            "misconception": "Treating the technical factors of Teach three songs to a group in Music Requirement 4a as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Music Requirement 4a (Teach three songs to a group), each principle directly governs real-world performance: Compose and write the score for a piece of music of 12 measures.",
+            "fact_correction": "In Music Requirement 4a (Teach three songs to a group), each principle directly governs real-world performance: Compose and write the score for a piece of music of 12 measures.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Treating the technical factors of Teach three songs to a group in Music Requirement 4a as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Music Requirement 4a (Teach three songs to a group), each principle directly governs real-world performance: Compose and write the score for a piece of music of 12 measures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -882,7 +886,7 @@
           "pamphlet_excerpts": [
             "Teach three songs to a group Principle 2: Music Sub-Req 4b: Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument (p. 12)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/music_p004_img1.png"
         },
         {
           "sub_id": "4b",
@@ -905,24 +909,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument.",
-              "2. Key Pamphlet Facts & Mechanism (Compose and Write The Score)",
-              "3. Field Application & Counselor Discussion (Compose and Write The Score)"
+              "1. Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument."
             ],
             "rows": [
-              "1. Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument.",
-              "2. Key Pamphlet Facts & Mechanism (Compose and Write The Score)",
-              "3. Field Application & Counselor Discussion (Compose and Write The Score)"
-            ]
+              "1. Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Compose and Write The Score without explaining how it works in practice satisfies Music Requirement 4b.",
-            "fact": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compose and Write The Score (Compose and Write The Score) (p. 12).",
-            "fact_correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compose and Write The Score (Compose and Write The Score) (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Memorizing a one-line definition of Compose and Write The Score without explaining how it works in practice satisfies Music Requirement 4b.",
-            "correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compose and Write The Score (Compose and Write The Score) (p. 12)."
+            "misconception": "Estimating Compose and write the score figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 4b.",
+            "fact": "Accurate Music Requirement 4b (Compose and write the score) analysis requires contemporaneous data logging and verified measurements: Make a traditional instrument and learn to play.",
+            "fact_correction": "Accurate Music Requirement 4b (Compose and write the score) analysis requires contemporaneous data logging and verified measurements: Make a traditional instrument and learn to play.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Estimating Compose and write the score figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 4b.",
+            "correction": "Accurate Music Requirement 4b (Compose and write the score) analysis requires contemporaneous data logging and verified measurements: Make a traditional instrument and learn to play."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -976,24 +977,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a traditional instrument and learn to play.",
-              "2. Key Pamphlet Facts & Mechanism (Traditional Instrument and Learn)",
-              "3. Field Application & Counselor Discussion (Traditional Instrument and Learn)"
+              "1. Make a traditional instrument and learn to play."
             ],
             "rows": [
-              "1. Make a traditional instrument and learn to play.",
-              "2. Key Pamphlet Facts & Mechanism (Traditional Instrument and Learn)",
-              "3. Field Application & Counselor Discussion (Traditional Instrument and Learn)"
-            ]
+              "1. Make a traditional instrument and learn to play."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Make A Traditional Instrument verbally can substitute for a physical hands-on demonstration in Music Requirement 4c.",
-            "fact": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Make A Traditional Instrument with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Make A Traditional Instrument with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Make A Traditional Instrument verbally can substitute for a physical hands-on demonstration in Music Requirement 4c.",
-            "correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Make A Traditional Instrument with proper technique (p. 12)."
+            "misconception": "Performing Traditional instrument and learn to play in Music Requirement 4c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Music Requirement 4c (Traditional instrument and learn to play) depends on precise setup and step-by-step technique: (a) Teach three songs to a group of people.",
+            "fact_correction": "Hands-on execution of Music Requirement 4c (Traditional instrument and learn to play) depends on precise setup and step-by-step technique: (a) Teach three songs to a group of people.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Performing Traditional instrument and learn to play in Music Requirement 4c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Music Requirement 4c (Traditional instrument and learn to play) depends on precise setup and step-by-step technique: (a) Teach three songs to a group of people."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1058,23 +1056,24 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(4a) Teach Three Songs",
-          "(4b) Compose and Write The Score",
-          "(4c) Traditional Instrument and Learn"
+          "1. (4a) Teach Three Songs",
+          "2. (4b) Compose and Write The Score",
+          "3. (4c) Traditional Instrument and Learn"
         ],
         "rows": [
-          "(4a) Teach Three Songs",
-          "(4b) Compose and Write The Score",
-          "(4c) Traditional Instrument and Learn"
-        ]
+          "1. (4a) Teach Three Songs",
+          "2. (4b) Compose and Write The Score",
+          "3. (4c) Traditional Instrument and Learn"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Teach three songs to a group verbally can substitute for a physical hands-on demonstration in Music Requirement 4.",
-        "fact": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three songs to a group with proper technique (p. 12).",
-        "fact_correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three songs to a group with proper technique (p. 12).",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Describing how to perform Teach three songs to a group verbally can substitute for a physical hands-on demonstration in Music Requirement 4.",
-        "correction": "Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three songs to a group with proper technique (p. 12)."
+        "misconception": "Performing Teach three songs to a group in Music Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+        "fact_correction": "Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+        "myth": "Performing Teach three songs to a group in Music Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1104,7 +1103,7 @@
         "Teach Three Songs Principle 4: Teach three songs to a group Principle 4: Do ONE of the following: (a) Teach three songs to a group of people (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Teach Three Songs Preparation): Inspect the workspace, reference materials, and safety controls required for Music Requirement 4 (p. 22).",
+        "Step 1 (Teach Three Songs Preparation): Inspect the works pace, reference materials, and safety controls required for Music Requirement 4 (p. 22).",
         "Step 2 (Teach Three Songs Execution): Apply the official Music pamphlet method for Teach Three Songs while recording observations in your Scout Workbook (p. 22).",
         "Step 3 (Teach Three Songs Buddy Check): Cross-check your Teach Three Songs technique, measurements, and results with a patrol buddy using the EDGE method (p. 22).",
         "Step 4 (Teach Three Songs Verification): Review your completed Teach Three Songs evidence and demonstrate proficiency during your counselor conference (p. 22)."
@@ -1150,7 +1149,7 @@
         "title": "Exemplar Skill Station Walkthrough: Music Req 4 (Teach Three Songs)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Teach Three Songs.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Teach Three Songs.",
           "Step-by-Step Execution": "Teach three songs to a group: Music Sub-Req 4a: Teach three songs to a group of people. Lead them in singing the songs, using proper hand motions (p. 12).",
           "Quality & Tolerance Check": "Teach Three Songs Principle 2: Teach three songs to a group Principle 2: Music Sub-Req 4b: Compose and write the score for a piece of music of 12 measures or more, and play.",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Music Merit Badge Pamphlet)"
@@ -1159,29 +1158,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Music Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Music Requirement 4 (Teach Three Songs), what execution standard is required when demonstrating Teach three songs to a group of people. Lead them in singing the songs, usi?",
-        "question": "During the hands-on skill station for Music Requirement 4 (Teach Three Songs), what execution standard is required when demonstrating Teach three songs to a group of people. Lead them in singing the songs, usi?",
+        "scenario_prompt": "When working on Music Requirement 4 (Teach three songs to a group), which principle and field standard is established in the Music Merit Badge Pamphlet?",
+        "question": "When working on Music Requirement 4 (Teach three songs to a group), which principle and field standard is established in the Music Merit Badge Pamphlet?",
         "options": [
-          "A. Describing how to perform Teach three songs to a group verbally can substitute for a physical hands-on demonstration in Music.",
-          "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three.",
-          "C. Rely on a group summary of Teach Three Songs instead of individually explaining or demonstrating Teach three songs to a group of people. Lead them in singing.",
-          "D. Assume Teach Three Songs applies only to indoor classroom theory and has no effect on real-world Music practice."
+          "A. Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+          "B. Performing Teach three songs to a group in Music Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Performing Attend a live performance, or listen in Music Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
         ],
         "choices": [
-          "A. Describing how to perform Teach three songs to a group verbally can substitute for a physical hands-on demonstration in Music.",
-          "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three.",
-          "C. Rely on a group summary of Teach Three Songs instead of individually explaining or demonstrating Teach three songs to a group of people. Lead them in singing.",
-          "D. Assume Teach Three Songs applies only to indoor classroom theory and has no effect on real-world Music practice."
+          "A. Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+          "B. Performing Teach three songs to a group in Music Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Performing Attend a live performance, or listen in Music Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three.",
-        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three songs to a group with proper technique. (Official Scouting America Music Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+        "explanation": "Correct Answer (A): Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures. (Official Scouting America Music Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Music Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/music_p004_img1.png"
     },
     {
       "req_id": "5",
@@ -1232,15 +1231,16 @@
         "rows": [
           "1. Define for your counselor intellectual property (IP).",
           "2. Explain how to properly obtain and share recorded music."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Intellectual Property without explaining how it works in practice satisfies Music Requirement 5.",
-        "fact": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Intellectual Property (Intellectual Property) (p. 12).",
-        "fact_correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Intellectual Property (Intellectual Property) (p. 12).",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Memorizing a one-line definition of Intellectual Property without explaining how it works in practice satisfies Music Requirement 5.",
-        "correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Intellectual Property (Intellectual Property) (p. 12)."
+        "misconception": "Estimating figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 5.",
+        "fact": "Accurate Music Requirement 5 analysis requires contemporaneous data logging and verified measurements: Define for your counselor intellectual property.",
+        "fact_correction": "Accurate Music Requirement 5 analysis requires contemporaneous data logging and verified measurements: Define for your counselor intellectual property.",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+        "myth": "Estimating figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 5.",
+        "correction": "Accurate Music Requirement 5 analysis requires contemporaneous data logging and verified measurements: Define for your counselor intellectual property."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1270,7 +1270,7 @@
         "Counselor Intellectual Property Field Application 4: Verify all Music Requirement 5 measurements, safety controls, and technical criteria with your counselor (p. 26)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Counselor Intellectual Property Preparation): Inspect the workspace, reference materials, and safety controls required for Music Requirement 5 (p. 26).",
+        "Step 1 (Counselor Intellectual Property Preparation): Inspect the works pace, reference materials, and safety controls required for Music Requirement 5 (p. 26).",
         "Step 2 (Counselor Intellectual Property Execution): Apply the official Music pamphlet method for Counselor Intellectual Property while recording observations in your Scout Workbook (p. 26).",
         "Step 3 (Counselor Intellectual Property Buddy Check): Cross-check your Counselor Intellectual Property technique, measurements, and results with a patrol buddy using the EDGE method (p. 26).",
         "Step 4 (Counselor Intellectual Property Verification): Review your completed Counselor Intellectual Property evidence and demonstrate proficiency during your counselor conference (p. 26)."
@@ -1325,29 +1325,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Music Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Music Requirement 5 (Intellectual Property), which statement accurately reflects the official BSA standard for Define for your counselor intellectual property (IP)?",
-        "question": "When preparing for your counselor conference on Music Requirement 5 (Intellectual Property), which statement accurately reflects the official BSA standard for Define for your counselor intellectual property (IP)?",
+        "scenario_prompt": "During your patrol's preparation and review for Music Requirement 5 (Define for your counselor intellectual property), which statement accurately reflects the official Music Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Music Requirement 5 (Define for your counselor intellectual property), which statement accurately reflects the official Music Merit Badge Pamphlet?",
         "options": [
-          "A. Memorizing a one-line definition of Intellectual Property without explaining how it works in practice satisfies Music Requirement 5.",
-          "B. Skip the Music Pamphlet technical criteria for Intellectual Property and use rules from an unrelated activity.",
-          "C. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Define for your counselor intellectual property (IP) in place of documented Music observations."
+          "A. Estimating figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 5.",
+          "B. Define for your counselor intellectual property.",
+          "C. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Intellectual Property without explaining how it works in practice satisfies Music Requirement 5.",
-          "B. Skip the Music Pamphlet technical criteria for Intellectual Property and use rules from an unrelated activity.",
-          "C. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Define for your counselor intellectual property (IP) in place of documented Music observations."
+          "A. Estimating figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 5.",
+          "B. Define for your counselor intellectual property.",
+          "C. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (C): The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Intellectual Property (Intellectual Property). (Official Scouting America Music Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Define for your counselor intellectual property.",
+        "explanation": "Correct Answer (B): Define for your counselor intellectual property. (Official Scouting America Music Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Music Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/music_req_5_topic_visual.png"
     },
     {
       "req_id": "6",
@@ -1392,16 +1392,17 @@
               "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement.",
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a...",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a quick web search satisfies the Music career exploration requirement.",
-            "fact": "Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "fact_correction": "Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "misconception": "Casual hobby familiarity with Music is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Music (Req 6a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+            "fact_correction": "Pursuing a career or advanced pathway in Music (Req 6a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
             "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
-            "myth": "Listing three job titles from a quick web search satisfies the Music career exploration requirement.",
-            "correction": "Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+            "myth": "Casual hobby familiarity with Music is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Music (Req 6a) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1437,7 +1438,7 @@
           "pamphlet_excerpts": [
             "Music Careers and Pathways: Careers & Professional Pathways Principle 4: Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement (p. 12)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/ai_illustrations/music_req_6_topic_visual.png"
         },
         {
           "sub_id": "6b",
@@ -1473,16 +1474,17 @@
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
               "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of You Could Use Knowledge and without explaining how it works in practice satisfies Music Requirement 6b.",
-            "fact": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Could Use Knowledge and (You Could Use Knowledge and) (p. 12).",
-            "fact_correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Could Use Knowledge and (You Could Use Knowledge and) (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Memorizing a one-line definition of You Could Use Knowledge and without explaining how it works in practice satisfies Music Requirement 6b.",
-            "correction": "The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Could Use Knowledge and (You Could Use Knowledge and) (p. 12)."
+            "misconception": "Casual hobby familiarity with Music is sufficient to enter a professional Explore how you could use knowledge career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Music (Req 6b) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+            "fact_correction": "Pursuing a career or advanced pathway in Music (Req 6b) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+            "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
+            "myth": "Casual hobby familiarity with Music is sufficient to enter a professional Explore how you could use knowledge career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Music (Req 6b) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1566,15 +1568,16 @@
           "2. Selected Career: Education, Training & Licensing",
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Music career exploration requirement.",
-        "fact": "Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Music is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Music (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Music (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
-        "myth": "Listing three job titles from a quick web search satisfies the Music career exploration requirement.",
-        "correction": "Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+        "myth": "Casual hobby familiarity with Music is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Music (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1609,7 +1612,7 @@
         "Careers & Professional Pathways Principle 4: Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways Preparation): Inspect the workspace, reference materials, and safety controls required for Music Requirement 6 (p. 30).",
+        "Step 1 (Careers & Professional Pathways Preparation): Inspect the works pace, reference materials, and safety controls required for Music Requirement 6 (p. 30).",
         "Step 2 (Careers & Professional Pathways Execution): Apply the official Music pamphlet method for Careers & Professional Pathways while recording observations in your Scout Workbook (p. 30).",
         "Step 3 (Careers & Professional Pathways Buddy Check): Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 30).",
         "Step 4 (Careers & Professional Pathways Verification): Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 30)."
@@ -1655,7 +1658,7 @@
         "title": "Exemplar Skill Station Walkthrough: Music Req 6 (Careers & Professional Pathways)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Careers & Professional Pathways.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Careers & Professional Pathways.",
           "Step-by-Step Execution": "Careers & Professional Pathways: Music Sub-Req 6a: Explore careers related to this merit badge (p. 12).",
           "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: Music Sub-Req 6b: Explore how you could use knowledge and skills from this merit badge to pursue a hobby (p. 12).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Music Merit Badge Pamphlet)"
@@ -1664,29 +1667,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Music Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Music Requirement 6 (Music Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Music Requirement 6 (Music Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "In Music Requirement 6 (Careers & Professional Pathways), what technical standard and procedure does the Scouting America Music Merit Badge Pamphlet require?",
+        "question": "In Music Requirement 6 (Careers & Professional Pathways), what technical standard and procedure does the Scouting America Music Merit Badge Pamphlet require?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Music career exploration requirement.",
-          "B. Skip the Music Pamphlet technical criteria for Music Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with.",
-          "D. Assume Music Careers and Pathways applies only to indoor classroom theory and has no effect on real-world Music practice."
+          "A. Casual hobby familiarity with Music is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Pursuing a career or advanced pathway in Music (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "D. Performing List five people who are important in Music Requirement 3d without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Music career exploration requirement.",
-          "B. Skip the Music Pamphlet technical criteria for Music Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with.",
-          "D. Assume Music Careers and Pathways applies only to indoor classroom theory and has no effect on real-world Music practice."
+          "A. Casual hobby familiarity with Music is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Pursuing a career or advanced pathway in Music (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "D. Performing List five people who are important in Music Requirement 3d without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with.",
-        "explanation": "Correct Answer (C): Scouts must research specific Music career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Music Merit Badge Pamphlet).",
+        "correct_answer": "C. Pursuing a career or advanced pathway in Music (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Music (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Music Merit Badge Pamphlet).",
         "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Music Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/music_req_6_topic_visual.png"
     }
   ],
   "badge_slug": "music",
@@ -1697,117 +1700,117 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "When preparing for your counselor conference on Music Requirement 1 (Simple Song or Hymn Chosen), which statement accurately reflects the official BSA standard for Sing or play a simple song or hymn chosen by your counselor, using good tec?",
-      "question": "When preparing for your counselor conference on Music Requirement 1 (Simple Song or Hymn Chosen), which statement accurately reflects the official BSA standard for Sing or play a simple song or hymn chosen by your counselor, using good tec?",
+      "scenario_prompt": "In standard musical notation, what do the two numbers in a 3/4 time signature tell a performer about the meter of the piece?",
+      "question": "In standard musical notation, what do the two numbers in a 3/4 time signature tell a performer about the meter of the piece?",
       "options": [
-        "A. Memorizing a one-line definition of Simple Song or Hymn Chosen without explaining how it works in practice satisfies Music.",
-        "B. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple.",
-        "C. Rely on a group summary of Simple Song or Hymn Chosen instead of individually explaining or demonstrating Sing or play a simple song or hymn chosen by your counselor,.",
-        "D. Substitute a casual verbal guess about Sing or play a simple song or hymn chosen by your couns in place of documented Music observations."
+        "A. Play three measures per line at a tempo of four beats per second.",
+        "B. Divide the ensemble into three vocal parts and raise the pitch by four half-steps.",
+        "C. There are three beats in each measure, and a quarter note receives one full beat.",
+        "D. There are four beats in each measure, and a dotted half note receives three beats."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Simple Song or Hymn Chosen without explaining how it works in practice satisfies Music.",
-        "B. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple.",
-        "C. Rely on a group summary of Simple Song or Hymn Chosen instead of individually explaining or demonstrating Sing or play a simple song or hymn chosen by your counselor,.",
-        "D. Substitute a casual verbal guess about Sing or play a simple song or hymn chosen by your couns in place of documented Music observations."
+        "A. Play three measures per line at a tempo of four beats per second.",
+        "B. Divide the ensemble into three vocal parts and raise the pitch by four half-steps.",
+        "C. There are three beats in each measure, and a quarter note receives one full beat.",
+        "D. There are four beats in each measure, and a dotted half note receives three beats."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple.",
-      "explanation": "Correct Answer (B): The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Simple Song or Hymn Chosen (Simple Song or Hymn Chosen). (Official Scouting America Music Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. There are three beats in each measure, and a quarter note receives one full beat.",
+      "explanation": "Correct Answer (C): In a time signature, the top number indicates how many beats are in each measure (three), while the bottom number indicates which note value receives one beat (4 stands for a quarter note).",
+      "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Music Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (General Groups of Musical Instruments: Name the five general groups of musical instruments)?",
-      "question": "How does the Music Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (General Groups of Musical Instruments: Name the five general groups of musical instruments)?",
+      "scenario_prompt": "In Music Requirement 2 (Name the five general groups), what technical standard and procedure does the Scouting America Music Merit Badge Pamphlet require?",
+      "question": "In Music Requirement 2 (Name the five general groups), what technical standard and procedure does the Scouting America Music Merit Badge Pamphlet require?",
       "options": [
-        "A. Describing how to perform Name the five general groups verbally can substitute for a physical hands-on demonstration in Music.",
-        "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the.",
-        "C. Rely on a group summary of General Groups of Musical Instruments instead of individually explaining or demonstrating Name the five general groups of musical instruments.",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full General Groups of Musical Instruments standard."
+        "A. Performing Name the five general groups in Music Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+        "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
       ],
       "choices": [
-        "A. Describing how to perform Name the five general groups verbally can substitute for a physical hands-on demonstration in Music.",
-        "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the.",
-        "C. Rely on a group summary of General Groups of Musical Instruments instead of individually explaining or demonstrating Name the five general groups of musical instruments.",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full General Groups of Musical Instruments standard."
+        "A. Performing Name the five general groups in Music Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+        "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the.",
-      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Name the five general groups with proper technique. (Official Scouting America Music Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments.",
+      "explanation": "Correct Answer (C): Hands-on execution of Music Requirement 2 (Name the five general groups) depends on precise setup and step-by-step technique: Name the five general groups of musical instruments. (Official Scouting America Music Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Music Requirement 3 (Live Performance), what execution standard is required when demonstrating Attend a live performance, or listen to three hours of recordings from any ?",
-      "question": "During the hands-on skill station for Music Requirement 3 (Live Performance), what execution standard is required when demonstrating Attend a live performance, or listen to three hours of recordings from any ?",
+      "scenario_prompt": "When demonstrating and explaining Attend a live performance, or listen for Music Requirement 3, which approach follows the verified Music Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Attend a live performance, or listen for Music Requirement 3, which approach follows the verified Music Merit Badge Pamphlet standard?",
       "options": [
-        "A. Estimating Attend a live performance, or listen entries from memory at the end of the project satisfies the Music Requirement 3.",
-        "B. Reverse the sequence of Live Performance steps by attempting final sign-off before completing Attend a live performance, or listen to three hours of recor.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Live Performance.",
-        "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live."
+        "A. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "C. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance."
       ],
       "choices": [
-        "A. Estimating Attend a live performance, or listen entries from memory at the end of the project satisfies the Music Requirement 3.",
-        "B. Reverse the sequence of Live Performance steps by attempting final sign-off before completing Attend a live performance, or listen to three hours of recor.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Live Performance.",
-        "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live."
+        "A. Performing Attend a live performance, or listen in Music Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "C. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance."
       ],
       "correct_index": 3,
       "correct_letter": "D",
-      "correct_answer": "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live.",
-      "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Music log as each Attend a live performance, or listen milestone is completed. (Official Scouting America Music Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_answer": "D. Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance.",
+      "explanation": "Correct Answer (D): Hands-on execution of Music Requirement 3 (Attend a live performance, or listen) depends on precise setup and step-by-step technique: Attend a live performance. (Official Scouting America Music Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Music Requirement 4 (Teach Three Songs), what execution standard is required when demonstrating Teach three songs to a group of people. Lead them in singing the songs, usi?",
-      "question": "During the hands-on skill station for Music Requirement 4 (Teach Three Songs), what execution standard is required when demonstrating Teach three songs to a group of people. Lead them in singing the songs, usi?",
+      "scenario_prompt": "When working on Music Requirement 4 (Teach three songs to a group), which principle and field standard is established in the Music Merit Badge Pamphlet?",
+      "question": "When working on Music Requirement 4 (Teach three songs to a group), which principle and field standard is established in the Music Merit Badge Pamphlet?",
       "options": [
-        "A. Describing how to perform Teach three songs to a group verbally can substitute for a physical hands-on demonstration in Music.",
-        "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three.",
-        "C. Rely on a group summary of Teach Three Songs instead of individually explaining or demonstrating Teach three songs to a group of people. Lead them in singing.",
-        "D. Assume Teach Three Songs applies only to indoor classroom theory and has no effect on real-world Music practice."
+        "A. Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+        "B. Performing Teach three songs to a group in Music Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Performing Attend a live performance, or listen in Music Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
       ],
       "choices": [
-        "A. Describing how to perform Teach three songs to a group verbally can substitute for a physical hands-on demonstration in Music.",
-        "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three.",
-        "C. Rely on a group summary of Teach Three Songs instead of individually explaining or demonstrating Teach three songs to a group of people. Lead them in singing.",
-        "D. Assume Teach Three Songs applies only to indoor classroom theory and has no effect on real-world Music practice."
+        "A. Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+        "B. Performing Teach three songs to a group in Music Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Performing Attend a live performance, or listen in Music Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three.",
-      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Music pamphlet, each Scout must physically execute and demonstrate Teach three songs to a group with proper technique. (Official Scouting America Music Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures.",
+      "explanation": "Correct Answer (A): Hands-on execution of Music Requirement 4 (Teach three songs to a group) depends on precise setup and step-by-step technique: Compose and write the score for a piece of music of 12 measures. (Official Scouting America Music Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Music Requirement 5 (Intellectual Property), which statement accurately reflects the official BSA standard for Define for your counselor intellectual property (IP)?",
-      "question": "When preparing for your counselor conference on Music Requirement 5 (Intellectual Property), which statement accurately reflects the official BSA standard for Define for your counselor intellectual property (IP)?",
+      "scenario_prompt": "During your patrol's preparation and review for Music Requirement 5 (Define for your counselor intellectual property), which statement accurately reflects the official Music Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Music Requirement 5 (Define for your counselor intellectual property), which statement accurately reflects the official Music Merit Badge Pamphlet?",
       "options": [
-        "A. Memorizing a one-line definition of Intellectual Property without explaining how it works in practice satisfies Music Requirement 5.",
-        "B. Skip the Music Pamphlet technical criteria for Intellectual Property and use rules from an unrelated activity.",
-        "C. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Substitute a casual verbal guess about Define for your counselor intellectual property (IP) in place of documented Music observations."
+        "A. Estimating figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 5.",
+        "B. Define for your counselor intellectual property.",
+        "C. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Intellectual Property without explaining how it works in practice satisfies Music Requirement 5.",
-        "B. Skip the Music Pamphlet technical criteria for Intellectual Property and use rules from an unrelated activity.",
-        "C. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Substitute a casual verbal guess about Define for your counselor intellectual property (IP) in place of documented Music observations."
+        "A. Estimating figures from memory at the end of the project is as accurate as recording real-time measurements for Music Requirement 5.",
+        "B. Define for your counselor intellectual property.",
+        "C. Conducting a Music Requirement 3b (Interview an adult member) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Performing Serve for six months in Music Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (C): The Music pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Intellectual Property (Intellectual Property). (Official Scouting America Music Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Define for your counselor intellectual property.",
+      "explanation": "Correct Answer (B): Define for your counselor intellectual property. (Official Scouting America Music Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Music Merit Badge Pamphlet",
       "req_id": "5",
       "option_id": null
     }

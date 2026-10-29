@@ -4463,7 +4463,7 @@ body.m3-dark-mode .m3-docs-article-body h5 {
 }
 
 .m3-lightbox-backdrop {
-  z-index: 3200 !important;
+  z-index: 25000 !important;
   background: rgba(2, 6, 23, 0.88) !important;
   backdrop-filter: blur(6px);
   padding: 14px !important;
@@ -10955,15 +10955,15 @@ body.m3-dark-mode .m3-download-bar-track {
 
 .m3-stage-inline-edit-bar {
   position: absolute;
-  bottom: 42px;
-  right: 18px;
+  bottom: 2px;
+  right: 12px;
   z-index: 35;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 12px;
+  padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(15, 23, 42, 0.92);
+  background: rgba(15, 23, 42, 0.94);
   border: 1.5px solid #38BDF8;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(8px);

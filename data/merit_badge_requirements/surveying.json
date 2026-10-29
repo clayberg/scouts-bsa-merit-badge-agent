@@ -77,15 +77,16 @@
         "rows": [
           "1. Show that you know first aid for the types of injuries that could occur while surveying, including cuts, scratches, snake bite,...",
           "2. Explain to your counselor why a surveyor should be able to identify the poisonous plants and animals found in your area."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 15, p. 16",
-        "myth": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification."
+        "misconception": "During Surveying Requirement 1 (First aid for the types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "fact": "Every Surveying outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: As the victim becomes colder, however, the shivering will stop.",
+        "fact_correction": "Every Surveying outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: As the victim becomes colder, however, the shivering will stop.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 15, p. 16)",
+        "myth": "During Surveying Requirement 1 (First aid for the types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "correction": "Every Surveying outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: As the victim becomes colder, however, the shivering will stop."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -116,7 +117,7 @@
       ],
       "step_by_step_procedure": [
         "Step 1 (First aid for the types): Leave them to heal in the air, or cover them lightly with a dry, sterile dressing (p. 15).",
-        "Step 2 (First aid for the types): Unless a cut is serious, bleeding probably will stop on its own or withslight pressure on the wound (p. 15).",
+        "Step 2 (First aid for the types): Unless a cut is serious, bleeding probably will stop on its own or with slight pressure on the wound (p. 15).",
         "Step 3 (First aid for the types): If the bleeding does not stop immediately, apply direct and firm pressure to the wound with a sterile dressing or compress; raise the injured limb (p. 15).",
         "Step 4 (First aid for the types): Clean and disinfect the wound, then cover with a sterile bandage (p. 15)."
       ],
@@ -170,25 +171,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 15, p. 16)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before beginning hands-on work for Surveying Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Surveying Merit Badge Pamphlet require?",
-        "question": "Before beginning hands-on work for Surveying Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Surveying Merit Badge Pamphlet require?",
+        "scenario_prompt": "While conducting a land survey along a brushy roadside utility corridor, what safety precautions apply to setting up your tripod and holding a telescoping leveling rod?",
+        "question": "While conducting a land survey along a brushy roadside utility corridor, what safety precautions apply to setting up your tripod and holding a telescoping leveling rod?",
         "options": [
-          "A. The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-          "B. Experienced Surveying participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "C. Focus only on Show that you know first aid for the types of injuries  while omitting Explain to your counselor why a surveyor should be able and its required field verification.",
-          "D. Assume You Know First Aid applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+          "A. Wear a high-visibility safety vest near traffic, check for ticks and venomous snakes in brush, and never extend a metal or wet leveling rod near overhead electrical lines.",
+          "B. Stand in the active travel lane without warning signs so your line of sight is straight, and use an aluminum leveling rod to push low-hanging wires out of the way.",
+          "C. Leave tripod legs unlatched on steep pavement so one person can carry the mounted total station over their shoulder near power lines.",
+          "D. Apply insect repellent directly onto the optical lenses of the transit to keep gnats away from the crosshairs."
         ],
         "choices": [
-          "A. The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-          "B. Experienced Surveying participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "C. Focus only on Show that you know first aid for the types of injuries  while omitting Explain to your counselor why a surveyor should be able and its required field verification.",
-          "D. Assume You Know First Aid applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+          "A. Wear a high-visibility safety vest near traffic, check for ticks and venomous snakes in brush, and never extend a metal or wet leveling rod near overhead electrical lines.",
+          "B. Stand in the active travel lane without warning signs so your line of sight is straight, and use an aluminum leveling rod to push low-hanging wires out of the way.",
+          "C. Leave tripod legs unlatched on steep pavement so one person can carry the mounted total station over their shoulder near power lines.",
+          "D. Apply insect repellent directly onto the optical lenses of the transit to keep gnats away from the crosshairs."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "explanation": "Correct Answer (A): The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any First aid for the types activity. (Official Scouting America Surveying Merit Badge Pamphlet (p. 15, p. 16)).",
-        "pamphlet_page_ref": "p. 15, p. 16"
+        "correct_answer": "A. Wear a high-visibility safety vest near traffic, check for ticks and venomous snakes in brush, and never extend a metal or wet leveling rod near overhead electrical lines.",
+        "explanation": "Correct Answer (A): Surveyors work around roadway traffic, rough terrain, insects/poisonous plants, and overhead utilities; high-visibility apparel and keeping tall leveling rods well clear of power lines are critical.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 15, p. 16)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 1.",
@@ -235,16 +236,17 @@
             "rows": [
               "1. Set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one of the other corners for...",
               "2. Record the angle and distance to five topographic features (trees, shrubs, rocks, etc.) near your work area."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 19, p. 23",
-            "myth": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification."
+            "misconception": "Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement.",
+            "fact": "Accurate Surveying Requirement 2a (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+            "fact_correction": "Accurate Surveying Requirement 2a (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+            "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
+            "myth": "Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement.",
+            "correction": "Accurate Surveying Requirement 2a (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -303,24 +305,21 @@
               "Comparison Concept / System B"
             ],
             "row_labels": [
-              "1. Measure to three of the same points with GPS measurement and compare the distances between the points measured.",
-              "2. Key Pamphlet Facts & Mechanism (Same Points With GPS Measurement)",
-              "3. Field Application & Counselor Discussion (Same Points With GPS Measurement)"
+              "1. Measure to three of the same points with GPS measurement and compare the distances between the points measured."
             ],
             "rows": [
-              "1. Measure to three of the same points with GPS measurement and compare the distances between the points measured.",
-              "2. Key Pamphlet Facts & Mechanism (Same Points With GPS Measurement)",
-              "3. Field Application & Counselor Discussion (Same Points With GPS Measurement)"
-            ]
+              "1. Measure to three of the same points with GPS measurement and compare the distances between the points measured."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
-            "misconception": "All concepts or systems compared under Same Points With GPS Measurement in Surveying behave identically regardless of operating conditions.",
-            "fact": "Each system or condition in Same Points With GPS Measurement has distinct physical mechanisms, operating limits, and field indicators defined in the Surveying pamphlet (p. 19, p. 23).",
-            "fact_correction": "Each system or condition in Same Points With GPS Measurement has distinct physical mechanisms, operating limits, and field indicators defined in the Surveying pamphlet (p. 19, p. 23).",
-            "pamphlet_page_ref": "p. 19, p. 23",
-            "myth": "All concepts or systems compared under Same Points With GPS Measurement in Surveying behave identically regardless of operating conditions.",
-            "correction": "Each system or condition in Same Points With GPS Measurement has distinct physical mechanisms, operating limits, and field indicators defined in the Surveying pamphlet (p. 19, p. 23)."
+            "misconception": "Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+            "fact": "Accurate Surveying Requirement 2b (Measure to three of the same) analysis requires contemporaneous data logging and verified measurements: Surveying involves measuring horizontal and vertical.",
+            "fact_correction": "Accurate Surveying Requirement 2b (Measure to three of the same) analysis requires contemporaneous data logging and verified measurements: Surveying involves measuring horizontal and vertical.",
+            "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
+            "myth": "Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+            "correction": "Accurate Surveying Requirement 2b (Measure to three of the same) analysis requires contemporaneous data logging and verified measurements: Surveying involves measuring horizontal and vertical."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -394,21 +393,22 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(2a) Instrument Over One of The",
-          "(2b) Same Points With GPS Measurement"
+          "1. (2a) Instrument Over One of The",
+          "2. (2b) Same Points With GPS Measurement"
         ],
         "rows": [
-          "(2a) Instrument Over One of The",
-          "(2b) Same Points With GPS Measurement"
-        ]
+          "1. (2a) Instrument Over One of The",
+          "2. (2b) Same Points With GPS Measurement"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 19, p. 23",
-        "myth": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification."
+        "misconception": "Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+        "fact": "Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+        "fact_correction": "Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
+        "myth": "Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+        "correction": "Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -433,15 +433,15 @@
       ],
       "pamphlet_excerpts": [
         "Set an instrument: Surveying involves measuring horizontal and vertical distances and angles (p. 19).",
-        "Set an instrument Principle 2: It also involves extensive computation (much ofwhich is done with a computer) and map drawing (much ofwhich is done with a computer-controlled printer) (p. 19).",
-        "Set an instrument Principle 3: The Global Positioning System (GPS) uses artificial Earthsatellites and portable computers equipped with receivers (p. 19).",
+        "Set an instrument Principle 2: It also involves extensive computation (much of which is done with a computer) and map drawing (much of which is done with a computer-controlled printer) (p. 19).",
+        "Set an instrument Principle 3: The Global Positioning System (GPS) uses artificial Earth satellites and portable computers equipped with receivers (p. 19).",
         "Set an instrument Principle 4: GPSreceivers process signals from the satellites to calculate location (p. 19)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Set an instrument): This allows you to find your position (latitude, longitude, andelevation) almost anywhere on Earth, quickly and accurately, in almost (p. 19).",
+        "Step 1 (Set an instrument): This allows you to find your position (latitude, longitude, and elevation) almost anywhere on Earth, quickly and accurately, in almost (p. 19).",
         "Step 2 (Set an instrument): Using GPS, latitude and longitude can be measured directly, without having to measure distances and angles between points (p. 19).",
-        "Step 3 (Set an instrument): This is especially useful when thenearest survey monuments are far away (p. 19).",
-        "Step 4 (Set an instrument): Your merit badgecounselor might be able to demonstrate surveying using GPS (p. 19)."
+        "Step 3 (Set an instrument): This is especially useful when the nearest survey monuments are far away (p. 19).",
+        "Step 4 (Set an instrument): Your merit badge counselor might be able to demonstrate surveying using GPS (p. 19)."
       ],
       "gear_checklist": [
         "Official Surveying Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Set an instrument)",
@@ -486,32 +486,32 @@
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Set an instrument.",
           "Tracked Field Data": "Set an instrument: Surveying involves measuring horizontal and vertical distances and angles (p. 19).",
-          "Variance & Outcome Analysis": "Set an instrument Principle 2: It also involves extensive computation (much ofwhich is done with a computer) and map drawing (much ofwhich is done with a computer-controlled printe)",
+          "Variance & Outcome Analysis": "Set an instrument Principle 2: It also involves extensive computation (much of which is done with a computer) and map drawing (much of which is done with a computer-controlled printe)",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23))"
         },
         "sample_output": "Set an instrument: Set an instrument: Surveying involves measuring horizontal and vertical distances and angles (p. 19).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)."
       },
       "quiz_item": {
-        "scenario_prompt": "In Surveying Requirement 2 (Instrument Over One of The), how should a Scout accurately distinguish and explain the key technical differences (Set an instrument over one of the corners of a five-sided lot laid out by y)?",
-        "question": "In Surveying Requirement 2 (Instrument Over One of The), how should a Scout accurately distinguish and explain the key technical differences (Set an instrument over one of the corners of a five-sided lot laid out by y)?",
+        "scenario_prompt": "In Surveying Requirement 2 (Set an instrument), what technical standard and procedure does the Scouting America Surveying Merit Badge Pamphlet require?",
+        "question": "In Surveying Requirement 2 (Set an instrument), what technical standard and procedure does the Scouting America Surveying Merit Badge Pamphlet require?",
         "options": [
-          "A. Estimating Set an instrument entries from memory at the end of the project satisfies the Surveying Requirement 2 standard.",
-          "B. Skip the Surveying Pamphlet technical criteria for Instrument Over One of The and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an.",
-          "D. Assume Instrument Over One of The applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+          "A. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+          "B. During Surveying Requirement 1 (First aid for the types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+          "C. Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+          "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
         ],
         "choices": [
-          "A. Estimating Set an instrument entries from memory at the end of the project satisfies the Surveying Requirement 2 standard.",
-          "B. Skip the Surveying Pamphlet technical criteria for Instrument Over One of The and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an.",
-          "D. Assume Instrument Over One of The applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+          "A. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+          "B. During Surveying Requirement 1 (First aid for the types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+          "C. Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+          "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an.",
-        "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an instrument milestone is completed. (Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)).",
-        "pamphlet_page_ref": "p. 19, p. 23"
+        "correct_answer": "C. Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+        "explanation": "Correct Answer (C): Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate. (Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)).",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 2.",
@@ -566,15 +566,16 @@
         "rows": [
           "1. From the field notes gathered for requirement 2, and using a protractor and scale, plot the points you measured and draw to scale a...",
           "2. Submit a neatly drawn copy."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Field Notes Gathered without explaining how it works in practice satisfies Surveying Requirement 3.",
-        "fact": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field Notes Gathered (Field Notes Gathered) (p. 50, p. 54).",
-        "fact_correction": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field Notes Gathered (Field Notes Gathered) (p. 50, p. 54).",
-        "pamphlet_page_ref": "p. 50, p. 54",
-        "myth": "Memorizing a one-line definition of Field Notes Gathered without explaining how it works in practice satisfies Surveying Requirement 3.",
-        "correction": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field Notes Gathered (Field Notes Gathered) (p. 50, p. 54)."
+        "misconception": "Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+        "fact": "Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you.",
+        "fact_correction": "Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)",
+        "myth": "Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+        "correction": "Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -598,16 +599,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "From the field notes gathered: If you are not quite ready for trigonometry, you will need todraw your map geographically (p. 50).",
+        "From the field notes gathered: If you are not quite ready for trigonometry, you will need to draw your map geographically (p. 50).",
         "From the field notes gathered Principle 2: Use grid-ruled paper if possible, and a separate straightedge, drafting scale, and protractor (p. 50).",
-        "From the field notes gathered Principle 3: Somany versions of drafting scales and protractors are available that your counselor might need to show you how to use theparticular instruments (p. 50).",
-        "From the field notes gathered Principle 4: You can figurewhat scale to use to make the lot fit on your paper (p. 50)."
+        "From the field notes gathered Principle 3: So many versions of drafting scales and protractors are available that your counselor might need to show you how to use the particular instruments (p. 50).",
+        "From the field notes gathered Principle 4: You can figure what scale to use to make the lot fit on your paper (p. 50)."
       ],
       "step_by_step_procedure": [
         "Step 1 (From the field notes gathered): Position the lot so that it fits nicely onto your paper, and leave room for a title block, preferably in the lower right corner of your map (p. 50).",
         "Step 2 (From the field notes gathered): You might want some help from your merit badge counselor the first time (p. 50).",
         "Step 3 (From the field notes gathered): If you did not use trigonometry to survey the lot for requirement 2, you might need to experiment with scales to fit your map to the paper (p. 50).",
-        "Step 4 (From the field notes gathered): Regardless ofhow you draw the map, show your counselor your proposedlayout before you invest a lot of work in drawing the details (p. 50)."
+        "Step 4 (From the field notes gathered): Regardless ofhow you draw the map, show your counselor your proposed layout before you invest a lot of work in drawing the details (p. 50)."
       ],
       "gear_checklist": [
         "Official Surveying Merit Badge Pamphlet and Fillable Workbook (open to Req 3: From the field notes gathered)",
@@ -650,7 +651,7 @@
         "title": "Exemplar Technical Analysis: Surveying Req 3 (From the field notes gathered)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "From the field notes gathered: If you are not quite ready for trigonometry, you will need todraw your map geographically (p. 50).",
+          "Core Technical Principle": "From the field notes gathered: If you are not quite ready for trigonometry, you will need to draw your map geographically (p. 50).",
           "Applied Field Mechanism": "From the field notes gathered Principle 2: Use grid-ruled paper if possible, and a separate straightedge, drafting scale, and protractor (p. 50).",
           "Real-World Case Example": "Concrete application of From the field notes gathered documented during Surveying study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)."
@@ -659,29 +660,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Surveying Requirement 3 (Field Notes Gathered), which statement accurately reflects the official BSA standard for From the field notes gathered for requirement 2, and using a protractor and?",
-        "question": "When preparing for your counselor conference on Surveying Requirement 3 (Field Notes Gathered), which statement accurately reflects the official BSA standard for From the field notes gathered for requirement 2, and using a protractor and?",
+        "scenario_prompt": "When demonstrating and explaining From the field notes gathered for Surveying Requirement 3, which approach follows the verified Surveying Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining From the field notes gathered for Surveying Requirement 3, which approach follows the verified Surveying Merit Badge Pamphlet standard?",
         "options": [
-          "A. Memorizing a one-line definition of Field Notes Gathered without explaining how it works in practice satisfies Surveying Requirement 3.",
-          "B. Skip the Surveying Pamphlet technical criteria for Field Notes Gathered and use rules from an unrelated activity.",
-          "C. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Field Notes Gathered."
+          "A. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+          "B. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+          "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+          "D. Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Field Notes Gathered without explaining how it works in practice satisfies Surveying Requirement 3.",
-          "B. Skip the Surveying Pamphlet technical criteria for Field Notes Gathered and use rules from an unrelated activity.",
-          "C. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Field Notes Gathered."
+          "A. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+          "B. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+          "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+          "D. Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field.",
-        "explanation": "Correct Answer (C): The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field Notes Gathered (Field Notes Gathered). (Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)).",
-        "pamphlet_page_ref": "p. 50, p. 54"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you.",
+        "explanation": "Correct Answer (D): Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you. (Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)).",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/surveying_p050_img1.png"
     },
     {
       "req_id": "4",
@@ -734,15 +735,16 @@
         "rows": [
           "1. Use one of the corner markers from requirement 2 as a benchmark with an assumed elevation of 100 feet.",
           "2. Using a level and rod, collect and record measurements, and determine the elevation of the other four corner markers."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 31, p. 57",
-        "myth": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification."
+        "misconception": "Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+        "fact": "Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+        "fact_correction": "Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)",
+        "myth": "Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+        "correction": "Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -766,16 +768,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Corner Markers: Use one of the corner markers: In requirement 5, an elevation of 100 feet is assumed forone point measured in requirement 2 (p. 31).",
-        "Corner Markers Principle 2: Use one of the corner markers Principle 2: The elevations of the other four corners you measured in requirement 2 are thendetermined (p. 31).",
-        "Corner Markers Principle 3: Use one of the corner markers Principle 3: We have already seen what levels are, andgenerally how they work; we will now use one (p. 31).",
+        "Corner Markers: Use one of the corner markers: In requirement 5, an elevation of 100 feet is assumed for one point measured in requirement 2 (p. 31).",
+        "Corner Markers Principle 2: Use one of the corner markers Principle 2: The elevations of the other four corners you measured in requirement 2 are then determined (p. 31).",
+        "Corner Markers Principle 3: Use one of the corner markers Principle 3: We have already seen what levels are, and generally how they work; we will now use one (p. 31).",
         "Corner Markers Principle 4: Use one of the corner markers Principle 4: If you used a leveling rod when you took measurements for requirement 2, and if you are using the same rod for this leveling requirement, you already know (p. 31)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Corner Markers): Step 1 (Use one of the corner markers): Otherwise, take a close look at the leveling rod (p. 31).",
-        "Step 2 (Corner Markers): Step 2 (Use one of the corner markers): It probablyhas more than one section and may have a movable target forreading the scale at great distances (p. 31).",
+        "Step 2 (Corner Markers): Step 2 (Use one of the corner markers): It probably has more than one section and may have a movable target for reading the scale at great distances (p. 31).",
         "Step 3 (Corner Markers): Step 3 (Use one of the corner markers): Examine the scale on the leveling rod you are using (p. 31).",
-        "Step 4 (Corner Markers): Step 4 (Use one of the corner markers): There are many different types of scales, and you might ask your merit badge counselor to help you understand the scale on theparticular rod (p. 31)."
+        "Step 4 (Corner Markers): Step 4 (Use one of the corner markers): There are many different types of scales, and you might ask your merit badge counselor to help you understand the scale on the particular rod (p. 31)."
       ],
       "gear_checklist": [
         "Official Surveying Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Corner Markers)",
@@ -819,37 +821,37 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Corner Markers.",
-          "Tracked Field Data": "Corner Markers: Use one of the corner markers: In requirement 5, an elevation of 100 feet is assumed forone point measured in requirement 2 (p. 31).",
-          "Variance & Outcome Analysis": "Corner Markers Principle 2: Use one of the corner markers Principle 2: The elevations of the other four corners you measured in requirement 2 are thendetermined (p. 31).",
+          "Tracked Field Data": "Corner Markers: Use one of the corner markers: In requirement 5, an elevation of 100 feet is assumed for one point measured in requirement 2 (p. 31).",
+          "Variance & Outcome Analysis": "Corner Markers Principle 2: Use one of the corner markers Principle 2: The elevations of the other four corners you measured in requirement 2 are then determined (p. 31).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57))"
         },
         "sample_output": "Corner Markers: Corner Markers: Use one of the corner markers: In requirement 5, an elevation of 100 feet is assumed forone point measured in requirement 2 ",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Surveying Requirement 4 (Corner Markers), which statement accurately reflects the official BSA standard for Use one of the corner markers from requirement 2 as a benchmark with an ass?",
-        "question": "When preparing for your counselor conference on Surveying Requirement 4 (Corner Markers), which statement accurately reflects the official BSA standard for Use one of the corner markers from requirement 2 as a benchmark with an ass?",
+        "scenario_prompt": "When working on Surveying Requirement 4 (Use one of the corner markers), which principle and field standard is established in the Surveying Merit Badge Pamphlet?",
+        "question": "When working on Surveying Requirement 4 (Use one of the corner markers), which principle and field standard is established in the Surveying Merit Badge Pamphlet?",
         "options": [
-          "A. Estimating Use one of the corner markers entries from memory at the end of the project satisfies the Surveying Requirement 4 standard.",
-          "B. Skip the Surveying Pamphlet technical criteria for Corner Markers and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Corner Markers."
+          "A. Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+          "B. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+          "C. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement.",
+          "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
         ],
         "choices": [
-          "A. Estimating Use one of the corner markers entries from memory at the end of the project satisfies the Surveying Requirement 4 standard.",
-          "B. Skip the Surveying Pamphlet technical criteria for Corner Markers and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Corner Markers."
+          "A. Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+          "B. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+          "C. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement.",
+          "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the.",
-        "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the corner markers milestone is completed. (Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)).",
-        "pamphlet_page_ref": "p. 31, p. 57"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+        "explanation": "Correct Answer (A): Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed. (Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)).",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/surveying_p031_img1.png"
     },
     {
       "req_id": "5",
@@ -895,15 +897,16 @@
         "rows": [
           "1. Get a copy of the deed to a piece of property approved by your counselor, from the local courthouse or title agency.",
           "2. Discuss with your counselor the different parts of the deed and their importance."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Get A Copy of The without explaining how it works in practice satisfies Surveying Requirement 5.",
-        "fact": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A Copy of The (Get A Copy of The) (p. 11, p. 61).",
-        "fact_correction": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A Copy of The (Get A Copy of The) (p. 11, p. 61).",
-        "pamphlet_page_ref": "p. 11, p. 61",
-        "myth": "Memorizing a one-line definition of Get A Copy of The without explaining how it works in practice satisfies Surveying Requirement 5.",
-        "correction": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A Copy of The (Get A Copy of The) (p. 11, p. 61)."
+        "misconception": "Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "fact": "For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+        "fact_correction": "For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)",
+        "myth": "Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "correction": "For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -934,14 +937,14 @@
       "pamphlet_excerpts": [
         "Get a copy of the deed: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
         "Get a copy of the deed Principle 2: In many ways, surveyors are alot like detectives (p. 11).",
-        "Get a copy of the deed Principle 3: When they make measurements in the field, they are gathering evidence for the survey that they arepreparing (p. 11).",
+        "Get a copy of the deed Principle 3: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
         "Get a copy of the deed Principle 4: Most surveys require more evidence than just the field measurements (p. 11)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Get a copy of the deed): Deeds, wills, and easements describe the land and giveinformation about who owns it and who has rights (p. 11).",
-        "Step 2 (Get a copy of the deed): Thesedocuments usually are found at the records office in the countywhere the land is located (p. 11).",
-        "Step 3 (Get a copy of the deed): Sometimes, the landowner or a localtitle attorney will provide these documents (p. 11).",
-        "Step 4 (Get a copy of the deed): Right-of-way maps, flood maps, and utility maps help toshow what things affect the land (p. 11)."
+        "Step 1 (Get a copy of the deed): Deeds, wills, and easements describe the land and give information about who owns it and who has rights (p. 11).",
+        "Step 2 (Get a copy of the deed): These documents usually are found at the records office in the county where the land is located (p. 11).",
+        "Step 3 (Get a copy of the deed): Sometimes, the landowner or a local title attorney will provide these documents (p. 11).",
+        "Step 4 (Get a copy of the deed): Right-of-way maps, flood maps, and utility maps help to show what things affect the land (p. 11)."
       ],
       "gear_checklist": [
         "Official Surveying Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Get a copy of the deed)",
@@ -993,29 +996,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Get A Copy of The: Get a copy of the deed to a piece of property approved by your counsel)?",
-        "question": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Get A Copy of The: Get a copy of the deed to a piece of property approved by your counsel)?",
+        "scenario_prompt": "During your patrol's preparation and review for Surveying Requirement 5 (Get a copy of the deed), which statement accurately reflects the official Surveying Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Surveying Requirement 5 (Get a copy of the deed), which statement accurately reflects the official Surveying Merit Badge Pamphlet?",
         "options": [
-          "A. Memorizing a one-line definition of Get A Copy of The without explaining how it works in practice satisfies Surveying Requirement 5.",
-          "B. Reverse the sequence of Get A Copy of The steps by attempting final sign-off before completing Get a copy of the deed to a piece of property approved by yo.",
-          "C. Substitute a casual verbal guess about Get a copy of the deed to a piece of property approved  in place of documented Surveying observations.",
-          "D. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A."
+          "A. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "B. For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+          "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+          "D. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Get A Copy of The without explaining how it works in practice satisfies Surveying Requirement 5.",
-          "B. Reverse the sequence of Get A Copy of The steps by attempting final sign-off before completing Get a copy of the deed to a piece of property approved by yo.",
-          "C. Substitute a casual verbal guess about Get a copy of the deed to a piece of property approved  in place of documented Surveying observations.",
-          "D. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A."
+          "A. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "B. For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+          "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+          "D. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A.",
-        "explanation": "Correct Answer (D): The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A Copy of The (Get A Copy of The). (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)).",
-        "pamphlet_page_ref": "p. 11, p. 61"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+        "explanation": "Correct Answer (B): For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions. (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)).",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/surveying_p009_img1.png"
     },
     {
       "req_id": "6",
@@ -1060,23 +1063,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses of each.",
-          "2. Key Pamphlet Facts & Mechanism (Discuss Emerging Surveying Technology)",
-          "3. Field Application & Counselor Discussion (Discuss Emerging Surveying Technology)"
+          "1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses of each."
         ],
         "rows": [
-          "1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses of each.",
-          "2. Key Pamphlet Facts & Mechanism (Discuss Emerging Surveying Technology)",
-          "3. Field Application & Counselor Discussion (Discuss Emerging Surveying Technology)"
-        ]
+          "1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses of each."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 12, p. 40",
-        "myth": "Skipping hands-on verification or partial completion of Surveying Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Surveying Requirement  () for counselor verification."
+        "misconception": "Estimating Emerging surveying technology such as drones figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 6.",
+        "fact": "Accurate Surveying Requirement 6 (Emerging surveying technology such as drones) analysis requires contemporaneous data logging and verified measurements: Each township is divided into 36.",
+        "fact_correction": "Accurate Surveying Requirement 6 (Emerging surveying technology such as drones) analysis requires contemporaneous data logging and verified measurements: Each township is divided into 36.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40)",
+        "myth": "Estimating Emerging surveying technology such as drones figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 6.",
+        "correction": "Accurate Surveying Requirement 6 (Emerging surveying technology such as drones) analysis requires contemporaneous data logging and verified measurements: Each township is divided into 36."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1100,15 +1100,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Emerging surveying technology such as drones: Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagramshown here (p. 12).",
-        "Emerging surveying technology such as drones Principle 2: This diagram shows thenumbering of a township's 36 sections (p. 12).",
-        "Emerging surveying technology such as drones Principle 3: Except in a fewspecial cases, each section isapproximately one mile square and contains approximately 640 acres (p. 12).",
-        "Emerging surveying technology such as drones Principle 4: Each section may be divided into halves, quarters, andsmaller subdivisions, all according to rigidly standardizeddirections from the government (p. 12)."
+        "Emerging surveying technology such as drones: Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagram shown here (p. 12).",
+        "Emerging surveying technology such as drones Principle 2: This diagram shows the numbering of a township's 36 sections (p. 12).",
+        "Emerging surveying technology such as drones Principle 3: Except in a fewspecial cases, each section is approximately one mile square and contains approximately 640 acres (p. 12).",
+        "Emerging surveying technology such as drones Principle 4: Each section may be divided into halves, quarters, and smaller subdivisions, all according to rigidly standardized directions from the government (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Emerging surveying technology such as drones): Irregularly shaped subdivisionsmay be called lots (p. 12).",
-        "Step 2 (Emerging surveying technology such as drones): The following diagram shows how oneparticular section was divided according to the needs of the landowners (p. 12).",
-        "Step 3 (Emerging surveying technology such as drones): This particular sectionis divided into eightapproximately 40-acre 16th sections, threeapproximately 80-acreeighth sections, and twolake (p. 12).",
+        "Step 1 (Emerging surveying technology such as drones): Irregularly shaped subdivisions may be called lots (p. 12).",
+        "Step 2 (Emerging surveying technology such as drones): The following diagram shows how one particular section was divided according to the needs of the landowners (p. 12).",
+        "Step 3 (Emerging surveying technology such as drones): This particular section is divided into eight approximately 40-acre 16th sections, three approximately 80-acre eighth sections, and two lake (p. 12).",
         "Step 4 (Emerging surveying technology such as drones): Old surveys are very helpful because they show what other surveyors have found in past years (p. 12)."
       ],
       "gear_checklist": [
@@ -1153,37 +1153,37 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Emerging surveying technology such as drones.",
-          "Tracked Field Data": "Emerging surveying technology such as drones: Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagramshown here (p. 12).",
-          "Variance & Outcome Analysis": "Emerging surveying technology such as drones Principle 2: This diagram shows thenumbering of a township's 36 sections (p. 12).",
+          "Tracked Field Data": "Emerging surveying technology such as drones: Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagram shown here (p. 12).",
+          "Variance & Outcome Analysis": "Emerging surveying technology such as drones Principle 2: This diagram shows the numbering of a township's 36 sections (p. 12).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40))"
         },
         "sample_output": "Emerging surveying technology such as drones: Emerging surveying technology such as drones: Each township is divided into 36 one-mile squares, called sections, which are numbered as show",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6 (Discuss Emerging Surveying Technology: Discuss emerging surveying technology such as drones and laser scannin)?",
-        "question": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6 (Discuss Emerging Surveying Technology: Discuss emerging surveying technology such as drones and laser scannin)?",
+        "scenario_prompt": "In Surveying Requirement 6 (Emerging surveying technology such as drones), what technical standard and procedure does the Scouting America Surveying Merit Badge Pamphlet require?",
+        "question": "In Surveying Requirement 6 (Emerging surveying technology such as drones), what technical standard and procedure does the Scouting America Surveying Merit Badge Pamphlet require?",
         "options": [
-          "A. Estimating Emerging surveying technology such as drones entries from memory at the end of the project satisfies the Surveying.",
-          "B. Skip the Surveying Pamphlet technical criteria for Discuss Emerging Surveying Technology and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Emerging.",
-          "D. Substitute a casual verbal guess about Discuss emerging surveying technology such as drones an in place of documented Surveying observations."
+          "A. Estimating Emerging surveying technology such as drones figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 6.",
+          "B. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+          "C. Accurate Surveying Requirement 6 (Emerging surveying technology such as drones) analysis requires contemporaneous data logging and verified measurements: Each township is divided into 36.",
+          "D. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4."
         ],
         "choices": [
-          "A. Estimating Emerging surveying technology such as drones entries from memory at the end of the project satisfies the Surveying.",
-          "B. Skip the Surveying Pamphlet technical criteria for Discuss Emerging Surveying Technology and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Emerging.",
-          "D. Substitute a casual verbal guess about Discuss emerging surveying technology such as drones an in place of documented Surveying observations."
+          "A. Estimating Emerging surveying technology such as drones figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 6.",
+          "B. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+          "C. Accurate Surveying Requirement 6 (Emerging surveying technology such as drones) analysis requires contemporaneous data logging and verified measurements: Each township is divided into 36.",
+          "D. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Emerging.",
-        "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Emerging surveying technology such as drones milestone is completed. (Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40)).",
-        "pamphlet_page_ref": "p. 12, p. 40"
+        "correct_answer": "C. Accurate Surveying Requirement 6 (Emerging surveying technology such as drones) analysis requires contemporaneous data logging and verified measurements: Each township is divided into 36.",
+        "explanation": "Correct Answer (C): Accurate Surveying Requirement 6 (Emerging surveying technology such as drones) analysis requires contemporaneous data logging and verified measurements: Each township is divided into 36. (Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40)).",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/surveying_p012_img1.png"
     },
     {
       "req_id": "7",
@@ -1232,23 +1232,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Tell what GPS is; discuss with your counselor the importance of GPS and how it is changing the field of surveying.",
-          "2. Key Pamphlet Facts & Mechanism (Discuss Changing Field Surveying)",
-          "3. Field Application & Counselor Discussion (Discuss Changing Field Surveying)"
+          "1. Tell what GPS is; discuss with your counselor the importance of GPS and how it is changing the field of surveying."
         ],
         "rows": [
-          "1. Tell what GPS is; discuss with your counselor the importance of GPS and how it is changing the field of surveying.",
-          "2. Key Pamphlet Facts & Mechanism (Discuss Changing Field Surveying)",
-          "3. Field Application & Counselor Discussion (Discuss Changing Field Surveying)"
-        ]
+          "1. Tell what GPS is; discuss with your counselor the importance of GPS and how it is changing the field of surveying."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Discuss Changing Field Surveying without explaining how it works in practice satisfies Surveying Requirement 7.",
-        "fact": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Changing Field Surveying (Discuss Changing Field Surveying) (p. 11, p. 12).",
-        "fact_correction": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Changing Field Surveying (Discuss Changing Field Surveying) (p. 11, p. 12).",
-        "pamphlet_page_ref": "p. 11, p. 12",
-        "myth": "Memorizing a one-line definition of Discuss Changing Field Surveying without explaining how it works in practice satisfies Surveying Requirement 7.",
-        "correction": "The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Changing Field Surveying (Discuss Changing Field Surveying) (p. 11, p. 12)."
+        "misconception": "Assuming GPS is in Surveying Requirement 7 operates identically across all environmental and technical conditions.",
+        "fact": "If your answer is, \"Measure things,\" you are only partly correct.",
+        "fact_correction": "If your answer is, \"Measure things,\" you are only partly correct.",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12)",
+        "myth": "Assuming GPS is in Surveying Requirement 7 operates identically across all environmental and technical conditions.",
+        "correction": "If your answer is, \"Measure things,\" you are only partly correct."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1274,14 +1271,14 @@
       "pamphlet_excerpts": [
         "Discuss Changing Field Surveying: Introduction: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
         "Discuss Changing Field Surveying Principle 2: Introduction Principle 2: In many ways, surveyors are alot like detectives (p. 11).",
-        "Discuss Changing Field Surveying Principle 3: Introduction Principle 3: When they make measurements in the field, they are gathering evidence for the survey that they arepreparing (p. 11).",
+        "Discuss Changing Field Surveying Principle 3: Introduction Principle 3: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
         "Discuss Changing Field Surveying Principle 4: Introduction Principle 4: Most surveys require more evidence than just the field measurements (p. 11)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Discuss Changing Field Surveying): Step 1 (Introduction): Deeds, wills, and easements describe the land and giveinformation about who owns it and who has rights (p. 11).",
-        "Step 2 (Discuss Changing Field Surveying): Step 2 (Introduction): Thesedocuments usually are found at the records office in the countywhere the land is located (p. 11).",
-        "Step 3 (Discuss Changing Field Surveying): Step 3 (Introduction): Sometimes, the landowner or a localtitle attorney will provide these documents (p. 11).",
-        "Step 4 (Discuss Changing Field Surveying): Step 4 (Introduction): Right-of-way maps, flood maps, and utility maps help toshow what things affect the land (p. 11)."
+        "Step 1 (Discuss Changing Field Surveying): Step 1 (Introduction): Deeds, wills, and easements describe the land and give information about who owns it and who has rights (p. 11).",
+        "Step 2 (Discuss Changing Field Surveying): Step 2 (Introduction): These documents usually are found at the records office in the county where the land is located (p. 11).",
+        "Step 3 (Discuss Changing Field Surveying): Step 3 (Introduction): Sometimes, the landowner or a local title attorney will provide these documents (p. 11).",
+        "Step 4 (Discuss Changing Field Surveying): Step 4 (Introduction): Right-of-way maps, flood maps, and utility maps help to show what things affect the land (p. 11)."
       ],
       "gear_checklist": [
         "Official Surveying Merit Badge Pamphlet and Fillable Workbook (open to Req 7: Discuss Changing Field Surveying)",
@@ -1333,29 +1330,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Discuss Changing Field Surveying: Tell what GPS is; discuss with your counselor the importance of GPS an)?",
-        "question": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Discuss Changing Field Surveying: Tell what GPS is; discuss with your counselor the importance of GPS an)?",
+        "scenario_prompt": "When demonstrating and explaining GPS is for Surveying Requirement 7, which approach follows the verified Surveying Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining GPS is for Surveying Requirement 7, which approach follows the verified Surveying Merit Badge Pamphlet standard?",
         "options": [
-          "A. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Discuss Changing Field Surveying without explaining how it works in practice satisfies.",
-          "C. Focus only on Tell what GPS is; discuss with your counselor the impor while omitting Discuss Changing Field Surveying: Introduction: If your and its required field verification.",
-          "D. Assume Discuss Changing Field Surveying applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+          "A. Assuming GPS is in Surveying Requirement 7 operates identically across all environmental and technical conditions.",
+          "B. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+          "C. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. If your answer is, \"Measure things,\" you are only partly correct."
         ],
         "choices": [
-          "A. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Discuss Changing Field Surveying without explaining how it works in practice satisfies.",
-          "C. Focus only on Tell what GPS is; discuss with your counselor the impor while omitting Discuss Changing Field Surveying: Introduction: If your and its required field verification.",
-          "D. Assume Discuss Changing Field Surveying applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+          "A. Assuming GPS is in Surveying Requirement 7 operates identically across all environmental and technical conditions.",
+          "B. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+          "C. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. If your answer is, \"Measure things,\" you are only partly correct."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (A): The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Changing Field Surveying (Discuss Changing Field Surveying). (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12)).",
-        "pamphlet_page_ref": "p. 11, p. 12"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. If your answer is, \"Measure things,\" you are only partly correct.",
+        "explanation": "Correct Answer (D): If your answer is, \"Measure things,\" you are only partly correct. (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12)).",
+        "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/surveying_p011_img1.png"
     },
     {
       "req_id": "8",
@@ -1410,15 +1407,16 @@
           "2. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Surveying career exploration requirement.",
-        "fact": "Scouts must research specific Surveying career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Surveying career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Surveying is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Surveying (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Surveying (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)",
-        "myth": "Listing three job titles from a quick web search satisfies the Surveying career exploration requirement.",
-        "correction": "Scouts must research specific Surveying career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+        "myth": "Casual hobby familiarity with Surveying is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Surveying (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1443,15 +1441,15 @@
       ],
       "pamphlet_excerpts": [
         "Careers & Professional Pathways: Surveying principles are used in mapping land features and to lay out the positions for what is to be built on land (buildings, parking lots) (p. 10).",
-        "Careers & Professional Pathways Principle 2: While earning this badge, you will barely scratch thesurface of surveying (p. 10).",
-        "Careers & Professional Pathways Principle 3: Becoming a surveyor generally takesseveral years of study in college and even more years oftraining and experience (p. 10).",
-        "Careers & Professional Pathways Principle 4: Furthermore, surveying involvesextensive knowledge of law as well as measurements andmathematics (p. 10)."
+        "Careers & Professional Pathways Principle 2: While earning this badge, you will barely scratch the surface of surveying (p. 10).",
+        "Careers & Professional Pathways Principle 3: Becoming a surveyor generally takes several years of study in college and even more years of training and experience (p. 10).",
+        "Careers & Professional Pathways Principle 4: Furthermore, surveying involves extensive knowledge of law as well as measurements and mathematics (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways): Your experience might, however, entice you tolearn more about it in college or at a summer job (p. 10).",
+        "Step 1 (Careers & Professional Pathways): Your experience might, however, entice you to learn more about it in college or at a summer job (p. 10).",
         "Step 2 (Careers & Professional Pathways): You also will learn about other fields that use surveying instruments and methods (p. 10).",
         "Step 3 (Careers & Professional Pathways): Best of all, earning the Surveying merit badge will expose you to hand's-on use of surveying instruments and methods (p. 10).",
-        "Step 4 (Careers & Professional Pathways): If you like mathematics, you will enjoy working on this meritbadge (p. 10)."
+        "Step 4 (Careers & Professional Pathways): If you like mathematics, you will enjoy working on this merit badge (p. 10)."
       ],
       "gear_checklist": [
         "Official Surveying Merit Badge Pamphlet and Fillable Workbook (open to Req 8: Careers & Professional Pathways)",
@@ -1495,7 +1493,7 @@
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
           "Core Technical Principle": "Careers & Professional Pathways: Surveying principles are used in mapping land features and to lay out the positions for what is to be built on land (buildings, parking lots (p. 10))",
-          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: While earning this badge, you will barely scratch thesurface of surveying (p. 10).",
+          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: While earning this badge, you will barely scratch the surface of surveying (p. 10).",
           "Real-World Case Example": "Concrete application of Careers & Professional Pathways documented during Surveying study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)."
         },
@@ -1503,29 +1501,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Surveying Requirement 8 (Surveying Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Surveying Requirement 8 (Surveying Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "When working on Surveying Requirement 8 (Careers & Professional Pathways), which principle and field standard is established in the Surveying Merit Badge Pamphlet?",
+        "question": "When working on Surveying Requirement 8 (Careers & Professional Pathways), which principle and field standard is established in the Surveying Merit Badge Pamphlet?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Surveying career exploration requirement.",
-          "B. Skip the Surveying Pamphlet technical criteria for Surveying Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Surveying career pathways and discuss required education, training, licensing, and daily duties with.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Surveying Careers and Pathways."
+          "A. Pursuing a career or advanced pathway in Surveying (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "B. Casual hobby familiarity with Surveying is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Estimating Emerging surveying technology such as drones figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 6."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Surveying career exploration requirement.",
-          "B. Skip the Surveying Pamphlet technical criteria for Surveying Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Surveying career pathways and discuss required education, training, licensing, and daily duties with.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Surveying Careers and Pathways."
+          "A. Pursuing a career or advanced pathway in Surveying (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "B. Casual hobby familiarity with Surveying is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Estimating Emerging surveying technology such as drones figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 6."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Scouts must research specific Surveying career pathways and discuss required education, training, licensing, and daily duties with.",
-        "explanation": "Correct Answer (C): Scouts must research specific Surveying career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Pursuing a career or advanced pathway in Surveying (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (A): Pursuing a career or advanced pathway in Surveying (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)).",
         "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Surveying Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/surveying_p062_img1.png"
     }
   ],
   "badge_slug": "surveying",
@@ -1536,117 +1534,117 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "Before beginning hands-on work for Surveying Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Surveying Merit Badge Pamphlet require?",
-      "question": "Before beginning hands-on work for Surveying Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Surveying Merit Badge Pamphlet require?",
+      "scenario_prompt": "While conducting a land survey along a brushy roadside utility corridor, what safety precautions apply to setting up your tripod and holding a telescoping leveling rod?",
+      "question": "While conducting a land survey along a brushy roadside utility corridor, what safety precautions apply to setting up your tripod and holding a telescoping leveling rod?",
       "options": [
-        "A. The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "B. Experienced Surveying participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "C. Focus only on Show that you know first aid for the types of injuries  while omitting Explain to your counselor why a surveyor should be able and its required field verification.",
-        "D. Assume You Know First Aid applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+        "A. Wear a high-visibility safety vest near traffic, check for ticks and venomous snakes in brush, and never extend a metal or wet leveling rod near overhead electrical lines.",
+        "B. Stand in the active travel lane without warning signs so your line of sight is straight, and use an aluminum leveling rod to push low-hanging wires out of the way.",
+        "C. Leave tripod legs unlatched on steep pavement so one person can carry the mounted total station over their shoulder near power lines.",
+        "D. Apply insect repellent directly onto the optical lenses of the transit to keep gnats away from the crosshairs."
       ],
       "choices": [
-        "A. The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "B. Experienced Surveying participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "C. Focus only on Show that you know first aid for the types of injuries  while omitting Explain to your counselor why a surveyor should be able and its required field verification.",
-        "D. Assume You Know First Aid applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+        "A. Wear a high-visibility safety vest near traffic, check for ticks and venomous snakes in brush, and never extend a metal or wet leveling rod near overhead electrical lines.",
+        "B. Stand in the active travel lane without warning signs so your line of sight is straight, and use an aluminum leveling rod to push low-hanging wires out of the way.",
+        "C. Leave tripod legs unlatched on steep pavement so one person can carry the mounted total station over their shoulder near power lines.",
+        "D. Apply insect repellent directly onto the optical lenses of the transit to keep gnats away from the crosshairs."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-      "explanation": "Correct Answer (A): The Surveying pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any First aid for the types activity. (Official Scouting America Surveying Merit Badge Pamphlet (p. 15, p. 16)).",
-      "pamphlet_page_ref": "p. 15, p. 16",
+      "correct_answer": "A. Wear a high-visibility safety vest near traffic, check for ticks and venomous snakes in brush, and never extend a metal or wet leveling rod near overhead electrical lines.",
+      "explanation": "Correct Answer (A): Surveyors work around roadway traffic, rough terrain, insects/poisonous plants, and overhead utilities; high-visibility apparel and keeping tall leveling rods well clear of power lines are critical.",
+      "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 15, p. 16)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "In Surveying Requirement 2 (Instrument Over One of The), how should a Scout accurately distinguish and explain the key technical differences (Set an instrument over one of the corners of a five-sided lot laid out by y)?",
-      "question": "In Surveying Requirement 2 (Instrument Over One of The), how should a Scout accurately distinguish and explain the key technical differences (Set an instrument over one of the corners of a five-sided lot laid out by y)?",
+      "scenario_prompt": "In Surveying Requirement 2 (Set an instrument), what technical standard and procedure does the Scouting America Surveying Merit Badge Pamphlet require?",
+      "question": "In Surveying Requirement 2 (Set an instrument), what technical standard and procedure does the Scouting America Surveying Merit Badge Pamphlet require?",
       "options": [
-        "A. Estimating Set an instrument entries from memory at the end of the project satisfies the Surveying Requirement 2 standard.",
-        "B. Skip the Surveying Pamphlet technical criteria for Instrument Over One of The and use rules from an unrelated activity.",
-        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an.",
-        "D. Assume Instrument Over One of The applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+        "A. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+        "B. During Surveying Requirement 1 (First aid for the types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "C. Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+        "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
       ],
       "choices": [
-        "A. Estimating Set an instrument entries from memory at the end of the project satisfies the Surveying Requirement 2 standard.",
-        "B. Skip the Surveying Pamphlet technical criteria for Instrument Over One of The and use rules from an unrelated activity.",
-        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an.",
-        "D. Assume Instrument Over One of The applies only to indoor classroom theory and has no effect on real-world Surveying practice."
+        "A. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+        "B. During Surveying Requirement 1 (First aid for the types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "C. Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+        "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an.",
-      "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Set an instrument milestone is completed. (Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)).",
-      "pamphlet_page_ref": "p. 19, p. 23",
+      "correct_answer": "C. Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate.",
+      "explanation": "Correct Answer (C): Accurate Surveying Requirement 2 (Set an instrument) analysis requires contemporaneous data logging and verified measurements: GPSreceivers process signals from the satellites to calculate. (Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)).",
+      "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Surveying Requirement 3 (Field Notes Gathered), which statement accurately reflects the official BSA standard for From the field notes gathered for requirement 2, and using a protractor and?",
-      "question": "When preparing for your counselor conference on Surveying Requirement 3 (Field Notes Gathered), which statement accurately reflects the official BSA standard for From the field notes gathered for requirement 2, and using a protractor and?",
+      "scenario_prompt": "When demonstrating and explaining From the field notes gathered for Surveying Requirement 3, which approach follows the verified Surveying Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining From the field notes gathered for Surveying Requirement 3, which approach follows the verified Surveying Merit Badge Pamphlet standard?",
       "options": [
-        "A. Memorizing a one-line definition of Field Notes Gathered without explaining how it works in practice satisfies Surveying Requirement 3.",
-        "B. Skip the Surveying Pamphlet technical criteria for Field Notes Gathered and use rules from an unrelated activity.",
-        "C. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Field Notes Gathered."
+        "A. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+        "B. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+        "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+        "D. Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Field Notes Gathered without explaining how it works in practice satisfies Surveying Requirement 3.",
-        "B. Skip the Surveying Pamphlet technical criteria for Field Notes Gathered and use rules from an unrelated activity.",
-        "C. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Field Notes Gathered."
+        "A. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3.",
+        "B. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2.",
+        "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+        "D. Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field.",
-      "explanation": "Correct Answer (C): The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Field Notes Gathered (Field Notes Gathered). (Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)).",
-      "pamphlet_page_ref": "p. 50, p. 54",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you.",
+      "explanation": "Correct Answer (D): Accurate Surveying Requirement 3 (From the field notes gathered) analysis requires contemporaneous data logging and verified measurements: If you are not quite ready for trigonometry, you. (Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)).",
+      "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Surveying Requirement 4 (Corner Markers), which statement accurately reflects the official BSA standard for Use one of the corner markers from requirement 2 as a benchmark with an ass?",
-      "question": "When preparing for your counselor conference on Surveying Requirement 4 (Corner Markers), which statement accurately reflects the official BSA standard for Use one of the corner markers from requirement 2 as a benchmark with an ass?",
+      "scenario_prompt": "When working on Surveying Requirement 4 (Use one of the corner markers), which principle and field standard is established in the Surveying Merit Badge Pamphlet?",
+      "question": "When working on Surveying Requirement 4 (Use one of the corner markers), which principle and field standard is established in the Surveying Merit Badge Pamphlet?",
       "options": [
-        "A. Estimating Use one of the corner markers entries from memory at the end of the project satisfies the Surveying Requirement 4 standard.",
-        "B. Skip the Surveying Pamphlet technical criteria for Corner Markers and use rules from an unrelated activity.",
-        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Corner Markers."
+        "A. Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+        "B. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+        "C. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement.",
+        "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
       ],
       "choices": [
-        "A. Estimating Use one of the corner markers entries from memory at the end of the project satisfies the Surveying Requirement 4 standard.",
-        "B. Skip the Surveying Pamphlet technical criteria for Corner Markers and use rules from an unrelated activity.",
-        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Corner Markers."
+        "A. Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+        "B. Estimating Use one of the corner markers figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 4.",
+        "C. Estimating Set an instrument figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement.",
+        "D. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the.",
-      "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Surveying log as each Use one of the corner markers milestone is completed. (Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)).",
-      "pamphlet_page_ref": "p. 31, p. 57",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed.",
+      "explanation": "Correct Answer (A): Accurate Surveying Requirement 4 (Use one of the corner markers) analysis requires contemporaneous data logging and verified measurements: In requirement 5, an elevation of 100 feet is assumed. (Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)).",
+      "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Get A Copy of The: Get a copy of the deed to a piece of property approved by your counsel)?",
-      "question": "How does the Surveying Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Get A Copy of The: Get a copy of the deed to a piece of property approved by your counsel)?",
+      "scenario_prompt": "During your patrol's preparation and review for Surveying Requirement 5 (Get a copy of the deed), which statement accurately reflects the official Surveying Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Surveying Requirement 5 (Get a copy of the deed), which statement accurately reflects the official Surveying Merit Badge Pamphlet?",
       "options": [
-        "A. Memorizing a one-line definition of Get A Copy of The without explaining how it works in practice satisfies Surveying Requirement 5.",
-        "B. Reverse the sequence of Get A Copy of The steps by attempting final sign-off before completing Get a copy of the deed to a piece of property approved by yo.",
-        "C. Substitute a casual verbal guess about Get a copy of the deed to a piece of property approved  in place of documented Surveying observations.",
-        "D. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A."
+        "A. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "B. For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+        "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+        "D. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Get A Copy of The without explaining how it works in practice satisfies Surveying Requirement 5.",
-        "B. Reverse the sequence of Get A Copy of The steps by attempting final sign-off before completing Get a copy of the deed to a piece of property approved by yo.",
-        "C. Substitute a casual verbal guess about Get a copy of the deed to a piece of property approved  in place of documented Surveying observations.",
-        "D. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A."
+        "A. Conducting a Surveying Requirement 5 (Get a copy of the deed) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "B. For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+        "C. Estimating Measure to three of the same figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 2b.",
+        "D. Estimating From the field notes gathered figures from memory at the end of the project is as accurate as recording real-time measurements for Surveying Requirement 3."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A.",
-      "explanation": "Correct Answer (D): The Surveying pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Get A Copy of The (Get A Copy of The). (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)).",
-      "pamphlet_page_ref": "p. 11, p. 61",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions.",
+      "explanation": "Correct Answer (B): For Surveying Requirement 5 (Get a copy of the deed), Scouts obtain advance approval, prepare structured field questions. (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)).",
+      "pamphlet_page_ref": "Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)",
       "req_id": "5",
       "option_id": null
     }

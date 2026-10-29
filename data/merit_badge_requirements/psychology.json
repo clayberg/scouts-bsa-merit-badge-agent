@@ -61,23 +61,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Define psychology in your own words and explain its impact on daily life.",
-              "2. Key Pamphlet Facts & Mechanism (Psychology in Your Own Words)",
-              "3. Field Application & Counselor Discussion (Psychology in Your Own Words)"
+              "1. Define psychology in your own words and explain its impact on daily life."
             ],
             "rows": [
-              "1. Define psychology in your own words and explain its impact on daily life.",
-              "2. Key Pamphlet Facts & Mechanism (Psychology in Your Own Words)",
-              "3. Field Application & Counselor Discussion (Psychology in Your Own Words)"
-            ]
+              "1. Define psychology in your own words and explain its impact on daily life."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 4-9",
           "common_misconception_pair": {
-            "misconception": "Negative reinforcement is just another term for punishment in Req 1a.",
+            "misconception": "Negative reinforcement is just another term for punishment.",
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 4-9",
-            "myth": "Negative reinforcement is just another term for punishment in Req 1a."
+            "myth": "Negative reinforcement is just another term for punishment.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -144,15 +142,12 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify two famous psychologists and describe their contributions to the field.",
-              "2. Key Pamphlet Facts & Mechanism (Famous Psychologists and Describe Their)",
-              "3. Field Application & Counselor Discussion (Famous Psychologists and Describe Their)"
+              "1. Identify two famous psychologists and describe their contributions to the field."
             ],
             "rows": [
-              "1. Identify two famous psychologists and describe their contributions to the field.",
-              "2. Key Pamphlet Facts & Mechanism (Famous Psychologists and Describe Their)",
-              "3. Field Application & Counselor Discussion (Famous Psychologists and Describe Their)"
-            ]
+              "1. Identify two famous psychologists and describe their contributions to the field."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 4-9",
           "common_misconception_pair": {
@@ -160,7 +155,8 @@
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 4-9",
-            "myth": "Negative reinforcement is just another term for punishment in Req 1b."
+            "myth": "Negative reinforcement is just another term for punishment in Req 1b.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -216,20 +212,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(1a) Psychology in Your Own Words",
-          "(1b) Famous Psychologists and Describe Their"
+          "1. (1a) Psychology in Your Own Words",
+          "2. (1b) Famous Psychologists and Describe Their"
         ],
         "rows": [
-          "(1a) Psychology in Your Own Words",
-          "(1b) Famous Psychologists and Describe Their"
-        ]
+          "1. (1a) Psychology in Your Own Words",
+          "2. (1b) Famous Psychologists and Describe Their"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Negative reinforcement is just another term for punishment in Foundations of Psychology & Pioneers of the Field.",
         "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 4-9",
-        "myth": "Negative reinforcement is just another term for punishment in Foundations of Psychology & Pioneers of the Field."
+        "myth": "Negative reinforcement is just another term for punishment in Foundations of Psychology & Pioneers of the Field.",
+        "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -259,7 +257,7 @@
         "Psychology in Your Own Words Principle 4: Define Psychology in Your Own Principle 4: (b) Identify two famous psychologists and describe their contributions to the field (p. 4)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Psychology in Your Own Words Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 1 (p. 10).",
+        "Step 1 (Psychology in Your Own Words Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 1 (p. 10).",
         "Step 2 (Psychology in Your Own Words Execution): Apply the official Psychology pamphlet method for Psychology in Your Own Words while recording observations in your Scout Workbook (p. 10).",
         "Step 3 (Psychology in Your Own Words Buddy Check): Cross-check your Psychology in Your Own Words technique, measurements, and results with a patrol buddy using the EDGE method (p. 10).",
         "Step 4 (Psychology in Your Own Words Verification): Review your completed Psychology in Your Own Words evidence and demonstrate proficiency during your counselor conference (p. 10)."
@@ -314,24 +312,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 4-9."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Psychology in Your Own Words: Define psychology in your own words and explain its impact on daily li)?",
-        "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Psychology in Your Own Words: Define psychology in your own words and explain its impact on daily li)?",
+        "scenario_prompt": "While preparing for a high-adventure trek, a patrol leader notices a Scout becoming overwhelmed when trying to memorize 15 wilderness safety rules all at once. Using cognitive psychology principles of working memory, what teaching strategy works best?",
+        "question": "While preparing for a high-adventure trek, a patrol leader notices a Scout becoming overwhelmed when trying to memorize 15 wilderness safety rules all at once. Using cognitive psychology principles of working memory, what teaching strategy works best?",
         "options": [
-          "A. Negative reinforcement is just another term for punishment in Foundations of Psychology & Pioneers of the Field.",
-          "B. Skip the Psychology Pamphlet technical criteria for Psychology in Your Own Words and use rules from an unrelated activity.",
-          "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Psychology in Your Own Words."
+          "A. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+          "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+          "C. Skip practice and rely only on passive re-reading right before the trek.",
+          "D. Test the Scout on all 15 rules simultaneously while playing loud background distractions."
         ],
         "choices": [
-          "A. Negative reinforcement is just another term for punishment in Foundations of Psychology & Pioneers of the Field.",
-          "B. Skip the Psychology Pamphlet technical criteria for Psychology in Your Own Words and use rules from an unrelated activity.",
-          "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Psychology in Your Own Words."
+          "A. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+          "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+          "C. Skip practice and rely only on passive re-reading right before the trek.",
+          "D. Test the Scout on all 15 rules simultaneously while playing loud background distractions."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "explanation": "Correct Answer (C): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 4-9).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+        "explanation": "Correct Answer (B): Human working memory holds only a few chunks at once; grouping items into meaningful frameworks and practicing active recall builds durable neural pathways.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 4-9"
       },
       "estimated_minutes": 15,
@@ -394,15 +392,17 @@
             "rows": [
               "1. Write a script for a short (1-2 minute) skit that demonstrates how a leader might apply the study of psychology to better lead a group.",
               "2. Share your script with your counselor."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
-            "misconception": "Negative reinforcement is just another term for punishment in Req 2a.",
+            "misconception": "Negative reinforcement is just another term for punishment.",
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 10-15",
-            "myth": "Negative reinforcement is just another term for punishment in Req 2a."
+            "myth": "Negative reinforcement is just another term for punishment.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -433,7 +433,7 @@
           "pamphlet_excerpts": [
             "Script for A Short 1-2: Write A Script Principle 4: Share your script with your counselor (p. 10)."
           ],
-          "workbook_diagram_url": "assets/pamphlet_images/psychology_p004_img1.png"
+          "workbook_diagram_url": "assets/pamphlet_images/psychology_p007_img1.png"
         },
         {
           "sub_id": "2b",
@@ -462,7 +462,8 @@
             "rows": [
               "1. With the help of others, rehearse and perform your skit for your counselor (in-person or by recorded video).",
               "2. Explain to your counselor the plot and discuss the connections between psychology and leadership that are shown in your skit."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
@@ -470,7 +471,8 @@
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 10-15",
-            "myth": "Negative reinforcement is just another term for punishment in Req 2b."
+            "myth": "Negative reinforcement is just another term for punishment in Req 2b.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -526,20 +528,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(2a) Script for A Short 1-2",
-          "(2b) Help of Others Rehearse"
+          "1. (2a) Script for A Short 1-2",
+          "2. (2b) Help of Others Rehearse"
         ],
         "rows": [
-          "(2a) Script for A Short 1-2",
-          "(2b) Help of Others Rehearse"
-        ]
+          "1. (2a) Script for A Short 1-2",
+          "2. (2b) Help of Others Rehearse"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
         "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 10-15",
-        "myth": "Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits."
+        "myth": "Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
+        "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -569,7 +573,7 @@
         "Script for A Short 1-2 Principle 4: Write A Script Principle 4: Share your script with your counselor (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Script for A Short 1-2 Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 2 (p. 14).",
+        "Step 1 (Script for A Short 1-2 Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 2 (p. 14).",
         "Step 2 (Script for A Short 1-2 Execution): Apply the official Psychology pamphlet method for Script for A Short 1-2 while recording observations in your Scout Workbook (p. 14).",
         "Step 3 (Script for A Short 1-2 Buddy Check): Cross-check your Script for A Short 1-2 technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
         "Step 4 (Script for A Short 1-2 Verification): Review your completed Script for A Short 1-2 evidence and demonstrate proficiency during your counselor conference (p. 14)."
@@ -624,29 +628,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 10-15."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Psychology Requirement 2 (Script for A Short 1-2), what execution standard is required when demonstrating Write a script for a short (1-2 minute) skit that demonstrates how a leader?",
-        "question": "During the hands-on skill station for Psychology Requirement 2 (Script for A Short 1-2), what execution standard is required when demonstrating Write a script for a short (1-2 minute) skit that demonstrates how a leader?",
+        "scenario_prompt": "In Psychology Requirement 2 (Write a script for a short), what technical standard and procedure does the Scouting America Psychology Merit Badge Pamphlet require?",
+        "question": "In Psychology Requirement 2 (Write a script for a short), what technical standard and procedure does the Scouting America Psychology Merit Badge Pamphlet require?",
         "options": [
-          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-          "B. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
-          "C. Focus only on Write a script for a short (1-2 minute) skit that demon while omitting With the help of others, rehearse and perform your skit and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Script for A Short 1-2 standard."
+          "A. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
+          "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
         "choices": [
-          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-          "B. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
-          "C. Focus only on Write a script for a short (1-2 minute) skit that demon while omitting With the help of others, rehearse and perform your skit and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Script for A Short 1-2 standard."
+          "A. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
+          "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "explanation": "Correct Answer (A): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 10-15).",
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "explanation": "Correct Answer (C): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 10-15).",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 10-15"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Psychology Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/psychology_p004_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/psychology_p007_img1.png"
     },
     {
       "req_id": "3",
@@ -690,23 +694,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. In your own words, define mental health.",
-              "2. Key Pamphlet Facts & Mechanism (Own Words Define Mental Health)",
-              "3. Field Application & Counselor Discussion (Own Words Define Mental Health)"
+              "1. In your own words, define mental health."
             ],
             "rows": [
-              "1. In your own words, define mental health.",
-              "2. Key Pamphlet Facts & Mechanism (Own Words Define Mental Health)",
-              "3. Field Application & Counselor Discussion (Own Words Define Mental Health)"
-            ]
+              "1. In your own words, define mental health."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
-            "misconception": "Negative reinforcement is just another term for punishment in Req 3a.",
+            "misconception": "Negative reinforcement is just another term for punishment.",
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 16-21",
-            "myth": "Negative reinforcement is just another term for punishment in Req 3a."
+            "myth": "Negative reinforcement is just another term for punishment.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -737,7 +739,7 @@
           "pamphlet_excerpts": [
             "Own Words Define Mental Health: In Your Own Words Define: Psychology Sub-Req 3a: In your own words, define mental health (p. 16)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/psychology_p008_img1.png"
         },
         {
           "sub_id": "3b",
@@ -791,7 +793,8 @@
             "rows": [
               "1. Discuss with your counselor the concepts of protective factors, risk factors, and resilience for the mental health of youth close...",
               "2. Share ideas about how your community could strengthen the resilience of young people."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -799,7 +802,8 @@
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 16-21",
-            "myth": "Negative reinforcement is just another term for punishment in Req 3b."
+            "myth": "Negative reinforcement is just another term for punishment in Req 3b.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -855,20 +859,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(3a) Own Words Define Mental Health",
-          "(3b) Discuss With Your Counselor The"
+          "1. (3a) Own Words Define Mental Health",
+          "2. (3b) Discuss With Your Counselor The"
         ],
         "rows": [
-          "(3a) Own Words Define Mental Health",
-          "(3b) Discuss With Your Counselor The"
-        ]
+          "1. (3a) Own Words Define Mental Health",
+          "2. (3b) Discuss With Your Counselor The"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
         "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 16-21",
-        "myth": "Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience."
+        "myth": "Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
+        "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -898,7 +904,7 @@
         "In Your Own Words Define Principle 4: (b) Discuss with your counselor the concepts of protective factors, risk factors, and resilience for the mental health of youth close to your age (p. 16)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (In Your Own Words Define Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 3 (p. 18).",
+        "Step 1 (In Your Own Words Define Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 3 (p. 18).",
         "Step 2 (In Your Own Words Define Execution): Apply the official Psychology pamphlet method for In Your Own Words Define while recording observations in your Scout Workbook (p. 18).",
         "Step 3 (In Your Own Words Define Buddy Check): Cross-check your In Your Own Words Define technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
         "Step 4 (In Your Own Words Define Verification): Review your completed In Your Own Words Define evidence and demonstrate proficiency during your counselor conference (p. 18)."
@@ -953,29 +959,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 16-21."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Own Words Define Mental Health: In your own words, define mental health)?",
-        "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Own Words Define Mental Health: In your own words, define mental health)?",
+        "scenario_prompt": "When demonstrating and explaining In your own words, define mental for Psychology Requirement 3, which approach follows the verified Psychology Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining In your own words, define mental for Psychology Requirement 3, which approach follows the verified Psychology Merit Badge Pamphlet standard?",
         "options": [
-          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-          "B. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
-          "C. Focus only on In your own words, define mental health while omitting Discuss with your counselor the concepts of protective  and its required field verification.",
-          "D. Assume Own Words Define Mental Health applies only to indoor classroom theory and has no effect on real-world Psychology practice."
+          "A. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
+          "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
         ],
         "choices": [
-          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-          "B. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
-          "C. Focus only on In your own words, define mental health while omitting Discuss with your counselor the concepts of protective  and its required field verification.",
-          "D. Assume Own Words Define Mental Health applies only to indoor classroom theory and has no effect on real-world Psychology practice."
+          "A. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
+          "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "explanation": "Correct Answer (A): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 16-21).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 16-21).",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 16-21"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Psychology Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/psychology_p008_img1.png"
     },
     {
       "req_id": "4",
@@ -1019,15 +1025,17 @@
             "rows": [
               "1. For two weeks, create a tracking log and record daily how you spend your time at school, in Scouting, and at each of your other...",
               "2. Think about how these things made you feel and draw your own emoji next to each entry to summarize your feelings from each experience."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "Negative reinforcement is just another term for punishment in Req 4a.",
+            "misconception": "Negative reinforcement is just another term for punishment.",
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 22-27",
-            "myth": "Negative reinforcement is just another term for punishment in Req 4a."
+            "myth": "Negative reinforcement is just another term for punishment.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1058,7 +1066,7 @@
           "pamphlet_excerpts": [
             "Weeks Create A Tracking Log: Two Weeks Create A Tracking: Two-Week Daily Time Log & Screen-Time Balance Principle 2: Psychology Sub-Req 4b: Review your two-week tracking log with your counselor and discuss the trends you notice about the activities you did and the emotions you felt (p. 22)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/psychology_p004_img1.png"
         },
         {
           "sub_id": "4b",
@@ -1083,15 +1091,12 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Review your two-week tracking log with your counselor and discuss the trends you notice about the activities you did and the emotions...",
-              "2. Key Pamphlet Facts & Mechanism (Two-week Tracking)",
-              "3. Field Application & Counselor Discussion (Two-week Tracking)"
+              "1. Review your two-week tracking log with your counselor and discuss the trends you notice about the activities you did and the emotions..."
             ],
             "rows": [
-              "1. Review your two-week tracking log with your counselor and discuss the trends you notice about the activities you did and the emotions...",
-              "2. Key Pamphlet Facts & Mechanism (Two-week Tracking)",
-              "3. Field Application & Counselor Discussion (Two-week Tracking)"
-            ]
+              "1. Review your two-week tracking log with your counselor and discuss the trends you notice about the activities you did and the emotions..."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -1099,7 +1104,8 @@
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 22-27",
-            "myth": "Negative reinforcement is just another term for punishment in Req 4b."
+            "myth": "Negative reinforcement is just another term for punishment in Req 4b.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1157,20 +1163,22 @@
           "Analysis & Verification"
         ],
         "row_labels": [
-          "(4a) Weeks Create A Tracking",
-          "(4b) Two-week Tracking"
+          "1. (4a) Weeks Create A Tracking",
+          "2. (4b) Two-week Tracking"
         ],
         "rows": [
-          "(4a) Weeks Create A Tracking",
-          "(4b) Two-week Tracking"
-        ]
+          "1. (4a) Weeks Create A Tracking",
+          "2. (4b) Two-week Tracking"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
         "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 22-27",
-        "myth": "Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance."
+        "myth": "Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
+        "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1200,7 +1208,7 @@
         "Two-Week Daily Time Log & Screen-Time Balance Principle 4: Think about how these things made you feel and draw your own emoji next to each entry to summarize your feelings from each experience (p. 22)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Two-Week Daily Time Log & Screen-Time Balance Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 4 (p. 22).",
+        "Step 1 (Two-Week Daily Time Log & Screen-Time Balance Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 4 (p. 22).",
         "Step 2 (Two-Week Daily Time Log & Screen-Time Balance Execution): Apply the official Psychology pamphlet method for Two-Week Daily Time Log & Screen-Time Balance while recording observations in your Scout Workbook (p. 22).",
         "Step 3 (Two-Week Daily Time Log & Screen-Time Balance Buddy Check): Cross-check your Two-Week Daily Time Log & Screen-Time Balance technique, measurements, and results with a patrol buddy using the EDGE method (p. 22).",
         "Step 4 (Two-Week Daily Time Log & Screen-Time Balance Verification): Review your completed Two-Week Daily Time Log & Screen-Time Balance evidence and demonstrate proficiency during your counselor conference (p. 22)."
@@ -1255,29 +1263,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 22-27."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Weeks Create A Tracking: For two weeks, create a tracking log and record daily how you spend yo)?",
-        "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Weeks Create A Tracking: For two weeks, create a tracking log and record daily how you spend yo)?",
+        "scenario_prompt": "When working on Psychology Requirement 4 (For two weeks, create a tracking), which principle and field standard is established in the Psychology Merit Badge Pamphlet?",
+        "question": "When working on Psychology Requirement 4 (For two weeks, create a tracking), which principle and field standard is established in the Psychology Merit Badge Pamphlet?",
         "options": [
-          "A. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
-          "B. Reverse the sequence of Weeks Create A Tracking steps by attempting final sign-off before completing For two weeks, create a tracking log and record daily how yo.",
-          "C. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Weeks Create A Tracking standard.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "B. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
+          "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
         "choices": [
-          "A. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
-          "B. Reverse the sequence of Weeks Create A Tracking steps by attempting final sign-off before completing For two weeks, create a tracking log and record daily how yo.",
-          "C. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Weeks Create A Tracking standard.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "B. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
+          "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 22-27).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "explanation": "Correct Answer (A): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 22-27).",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 22-27"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Psychology Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/psychology_p004_img1.png"
     },
     {
       "req_id": "5",
@@ -1313,23 +1321,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. In your own words, define empathy and give examples of how you might show empathy to others.",
-              "2. Key Pamphlet Facts & Mechanism (Own Words Define Empathy)",
-              "3. Field Application & Counselor Discussion (Own Words Define Empathy)"
+              "1. In your own words, define empathy and give examples of how you might show empathy to others."
             ],
             "rows": [
-              "1. In your own words, define empathy and give examples of how you might show empathy to others.",
-              "2. Key Pamphlet Facts & Mechanism (Own Words Define Empathy)",
-              "3. Field Application & Counselor Discussion (Own Words Define Empathy)"
-            ]
+              "1. In your own words, define empathy and give examples of how you might show empathy to others."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
-            "misconception": "Negative reinforcement is just another term for punishment in Req 5a.",
+            "misconception": "Negative reinforcement is just another term for punishment.",
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 28-33",
-            "myth": "Negative reinforcement is just another term for punishment in Req 5a."
+            "myth": "Negative reinforcement is just another term for punishment.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1360,7 +1366,7 @@
           "pamphlet_excerpts": [
             "Own Words Define Empathy: In Your Own Words Define Principle 3: (a) In your own words, define empathy and give examples of how you might show empathy to others (p. 28)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/psychology_p005_img1.png"
         },
         {
           "sub_id": "5b",
@@ -1396,15 +1402,12 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the importance of resilience and how Scouting experiences develop resilience.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss The Importance of Resilience)",
-              "3. Field Application & Counselor Discussion (Discuss The Importance of Resilience)"
+              "1. Discuss the importance of resilience and how Scouting experiences develop resilience."
             ],
             "rows": [
-              "1. Discuss the importance of resilience and how Scouting experiences develop resilience.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss The Importance of Resilience)",
-              "3. Field Application & Counselor Discussion (Discuss The Importance of Resilience)"
-            ]
+              "1. Discuss the importance of resilience and how Scouting experiences develop resilience."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Psychology Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -1412,7 +1415,8 @@
             "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
             "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 28-33",
-            "myth": "Negative reinforcement is just another term for punishment in Req 5b."
+            "myth": "Negative reinforcement is just another term for punishment in Req 5b.",
+            "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1468,20 +1472,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(5a) Own Words Define Empathy",
-          "(5b) Discuss The Importance of Resilience"
+          "1. (5a) Own Words Define Empathy",
+          "2. (5b) Discuss The Importance of Resilience"
         ],
         "rows": [
-          "(5a) Own Words Define Empathy",
-          "(5b) Discuss The Importance of Resilience"
-        ]
+          "1. (5a) Own Words Define Empathy",
+          "2. (5b) Discuss The Importance of Resilience"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Negative reinforcement is just another term for punishment in Practicing Empathy & Developing Resilience in Scouting.",
         "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 28-33",
-        "myth": "Negative reinforcement is just another term for punishment in Practicing Empathy & Developing Resilience in Scouting."
+        "myth": "Negative reinforcement is just another term for punishment in Practicing Empathy & Developing Resilience in Scouting.",
+        "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1511,7 +1517,7 @@
         "In Your Own Words Define Principle 4: (b) Discuss the importance of resilience and how Scouting experiences develop resilience (p. 28)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (In Your Own Words Define Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 5 (p. 26).",
+        "Step 1 (In Your Own Words Define Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 5 (p. 26).",
         "Step 2 (In Your Own Words Define Execution): Apply the official Psychology pamphlet method for In Your Own Words Define while recording observations in your Scout Workbook (p. 26).",
         "Step 3 (In Your Own Words Define Buddy Check): Cross-check your In Your Own Words Define technique, measurements, and results with a patrol buddy using the EDGE method (p. 26).",
         "Step 4 (In Your Own Words Define Verification): Review your completed In Your Own Words Define evidence and demonstrate proficiency during your counselor conference (p. 26)."
@@ -1557,7 +1563,7 @@
         "title": "Exemplar Skill Station Walkthrough: Psychology Req 5 (In Your Own Words Define)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for In Your Own Words Define.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for In Your Own Words Define.",
           "Step-by-Step Execution": "In Your Own Words Define: Psychology Sub-Req 5a: In your own words, define empathy and give examples of how you might show empathy to others (p. 28).",
           "Quality & Tolerance Check": "In Your Own Words Define Principle 2: Psychology Sub-Req 5b: Discuss the importance of resilience and how Scouting experiences develop resilience (p. 28).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Psychology Test Lab Resource Guide, pp. 28-33)"
@@ -1566,29 +1572,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 28-33."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Psychology Requirement 5 (Own Words Define Empathy), what execution standard is required when demonstrating In your own words, define empathy and give examples of how you might show e?",
-        "question": "During the hands-on skill station for Psychology Requirement 5 (Own Words Define Empathy), what execution standard is required when demonstrating In your own words, define empathy and give examples of how you might show e?",
+        "scenario_prompt": "During your patrol's preparation and review for Psychology Requirement 5 (In your own words, define empathy), which statement accurately reflects the official Psychology Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Psychology Requirement 5 (In your own words, define empathy), which statement accurately reflects the official Psychology Merit Badge Pamphlet?",
         "options": [
           "A. Negative reinforcement is just another term for punishment in Practicing Empathy & Developing Resilience in Scouting.",
-          "B. Reverse the sequence of Own Words Define Empathy steps by attempting final sign-off before completing In your own words, define empathy and give examples of how y.",
-          "C. Substitute a casual verbal guess about In your own words, define empathy and give examples of  in place of documented Psychology observations.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "B. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
         "choices": [
           "A. Negative reinforcement is just another term for punishment in Practicing Empathy & Developing Resilience in Scouting.",
-          "B. Reverse the sequence of Own Words Define Empathy steps by attempting final sign-off before completing In your own words, define empathy and give examples of how y.",
-          "C. Substitute a casual verbal guess about In your own words, define empathy and give examples of  in place of documented Psychology observations.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "B. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 28-33).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "explanation": "Correct Answer (B): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 28-33).",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 28-33"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Psychology Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/psychology_p005_img1.png"
     },
     {
       "req_id": "6",
@@ -1653,14 +1659,16 @@
           "1. Describe how the Scout Oath and Law help create a community of hope and support in Scouting.",
           "2. Write a short personal oath or law that expresses how you can create hope and support in your troop or community.",
           "3. Explain to your counselor why you chose those words."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "Negative reinforcement is just another term for punishment in Community of Hope, Scout Oath & Personal Reflection.",
         "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 34-39",
-        "myth": "Negative reinforcement is just another term for punishment in Community of Hope, Scout Oath & Personal Reflection."
+        "myth": "Negative reinforcement is just another term for punishment in Community of Hope, Scout Oath & Personal Reflection.",
+        "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1690,7 +1698,7 @@
         "Scout Oath and Law Help Field Application 4: Verify all Psychology Requirement 6 measurements, safety controls, and technical criteria with your counselor (p. 30)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Scout Oath and Law Help Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 6 (p. 30).",
+        "Step 1 (Scout Oath and Law Help Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 6 (p. 30).",
         "Step 2 (Scout Oath and Law Help Execution): Apply the official Psychology pamphlet method for Scout Oath and Law Help while recording observations in your Scout Workbook (p. 30).",
         "Step 3 (Scout Oath and Law Help Buddy Check): Cross-check your Scout Oath and Law Help technique, measurements, and results with a patrol buddy using the EDGE method (p. 30).",
         "Step 4 (Scout Oath and Law Help Verification): Review your completed Scout Oath and Law Help evidence and demonstrate proficiency during your counselor conference (p. 30)."
@@ -1745,29 +1753,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 34-39."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6 (Oath and Law Help: Describe how the Scout Oath and Law help create a community of hope an)?",
-        "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 6 (Oath and Law Help: Describe how the Scout Oath and Law help create a community of hope an)?",
+        "scenario_prompt": "In Psychology Requirement 6 (The Scout Oath and Law help), what technical standard and procedure does the Scouting America Psychology Merit Badge Pamphlet require?",
+        "question": "In Psychology Requirement 6 (The Scout Oath and Law help), what technical standard and procedure does the Scouting America Psychology Merit Badge Pamphlet require?",
         "options": [
           "A. Negative reinforcement is just another term for punishment in Community of Hope, Scout Oath & Personal Reflection.",
-          "B. Reverse the sequence of Oath and Law Help steps by attempting final sign-off before completing Describe how the Scout Oath and Law help create a community .",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Oath and Law Help.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
         "choices": [
           "A. Negative reinforcement is just another term for punishment in Community of Hope, Scout Oath & Personal Reflection.",
-          "B. Reverse the sequence of Oath and Law Help steps by attempting final sign-off before completing Describe how the Scout Oath and Law help create a community .",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Oath and Law Help.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 34-39).",
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "explanation": "Correct Answer (C): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 34-39).",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 34-39"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Psychology Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/psychology_p006_img1.png"
     },
     {
       "req_id": "7",
@@ -1826,14 +1834,16 @@
           "2. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
           "3. Research the prospects for employment, starting salary, advancement opportunities, and career goals related to this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Psychology career exploration requirement.",
-        "fact": "Scouts must research specific Psychology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Psychology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Psychology (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Psychology (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 40-45",
-        "myth": "Listing three job titles from a quick web search satisfies the Psychology career exploration requirement."
+        "myth": "Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Psychology (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1863,7 +1873,7 @@
         "Careers and Professional Pathways Principle 4: Discuss what you learned with your counselor and whether you might be interested in this career (p. 40)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers and Professional Pathways Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 7 (p. 34).",
+        "Step 1 (Careers and Professional Pathways Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 7 (p. 34).",
         "Step 2 (Careers and Professional Pathways Execution): Apply the official Psychology pamphlet method for Careers and Professional Pathways while recording observations in your Scout Workbook (p. 34).",
         "Step 3 (Careers and Professional Pathways Buddy Check): Cross-check your Careers and Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 34).",
         "Step 4 (Careers and Professional Pathways Verification): Review your completed Careers and Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 34)."
@@ -1918,29 +1928,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 40-45."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Psychology Requirement 7 (Psychology Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Psychology Requirement 7 (Psychology Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "When demonstrating and explaining Careers & Professional Pathways for Psychology Requirement 7, which approach follows the verified Psychology Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Careers & Professional Pathways for Psychology Requirement 7, which approach follows the verified Psychology Merit Badge Pamphlet standard?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Psychology career exploration requirement.",
-          "B. Scouts must research specific Psychology career pathways and discuss required education, training, licensing, and daily duties with.",
-          "C. Rely on a group summary of Psychology Careers and Pathways instead of individually explaining or demonstrating Identify three career opportunities that would use skills an.",
-          "D. Substitute a casual verbal guess about Identify three career opportunities that would use skil in place of documented Psychology observations."
+          "A. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Negative reinforcement is just another term for punishment in Req 3b.",
+          "C. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+          "D. Pursuing a career or advanced pathway in Psychology (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Psychology career exploration requirement.",
-          "B. Scouts must research specific Psychology career pathways and discuss required education, training, licensing, and daily duties with.",
-          "C. Rely on a group summary of Psychology Careers and Pathways instead of individually explaining or demonstrating Identify three career opportunities that would use skills an.",
-          "D. Substitute a casual verbal guess about Identify three career opportunities that would use skil in place of documented Psychology observations."
+          "A. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Negative reinforcement is just another term for punishment in Req 3b.",
+          "C. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+          "D. Pursuing a career or advanced pathway in Psychology (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Scouts must research specific Psychology career pathways and discuss required education, training, licensing, and daily duties with.",
-        "explanation": "Correct Answer (B): Scouts must research specific Psychology career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Psychology Test Lab Resource Guide, pp. 40-45).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Pursuing a career or advanced pathway in Psychology (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (D): Pursuing a career or advanced pathway in Psychology (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Psychology Test Lab Resource Guide, pp. 40-45).",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 40-45"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Psychology Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/psychology_p013_img1.png"
     },
     {
       "req_id": "8",
@@ -1972,22 +1982,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Complete the survey below to complete the test lab requirements",
-          "2. Key Pamphlet Facts & Mechanism (Survey Below)",
-          "3. Field Application & Counselor Discussion (Survey Below)"
+          "1. Complete the survey below to complete the test lab requirements"
         ],
         "rows": [
-          "1. Complete the survey below to complete the test lab requirements",
-          "2. Key Pamphlet Facts & Mechanism (Survey Below)",
-          "3. Field Application & Counselor Discussion (Survey Below)"
-        ]
+          "1. Complete the survey below to complete the test lab requirements"
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Negative reinforcement is just another term for punishment in Scouting America Test Lab Feedback & Evaluation.",
         "fact": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "fact_correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 46-51",
-        "myth": "Negative reinforcement is just another term for punishment in Scouting America Test Lab Feedback & Evaluation."
+        "myth": "Negative reinforcement is just another term for punishment in Scouting America Test Lab Feedback & Evaluation.",
+        "correction": "Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2017,7 +2025,7 @@
         "Survey Below to Complete Field Application 4: Verify all Psychology Requirement 8 measurements, safety controls, and technical criteria with your counselor (p. 38)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Survey Below to Complete Preparation): Inspect the workspace, reference materials, and safety controls required for Psychology Requirement 8 (p. 38).",
+        "Step 1 (Survey Below to Complete Preparation): Inspect the works pace, reference materials, and safety controls required for Psychology Requirement 8 (p. 38).",
         "Step 2 (Survey Below to Complete Execution): Apply the official Psychology pamphlet method for Survey Below to Complete while recording observations in your Scout Workbook (p. 38).",
         "Step 3 (Survey Below to Complete Buddy Check): Cross-check your Survey Below to Complete technique, measurements, and results with a patrol buddy using the EDGE method (p. 38).",
         "Step 4 (Survey Below to Complete Verification): Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 38)."
@@ -2064,7 +2072,7 @@
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
           "Core Technical Principle": "Survey Below to Complete: Complete the survey below to complete the test lab requirements (p. 46).",
-          "Applied Field Mechanism": "Survey Below to Complete Principle 2: Complete The Survey Below Principle 2: Key Terminology & Evidence: Document specific examples, definitions, and field observations for Scoutin.",
+          "Applied Field Mechanism": "Survey Below to Complete Principle 2: Complete The Survey Below Principle 2: Key Terminology & Evidence: Document specific examples, definitions, and field observations for Scout in.",
           "Real-World Case Example": "Concrete application of Survey Below to Complete documented during Psychology study.",
           "Pamphlet Reference Anchor": "Cross-checked against Psychology Test Lab Resource Guide, pp. 46-51."
         },
@@ -2072,29 +2080,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Psychology Test Lab Resource Guide, pp. 46-51."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 8 (Survey Below: Complete the survey below to complete the test lab requirements)?",
-        "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 8 (Survey Below: Complete the survey below to complete the test lab requirements)?",
+        "scenario_prompt": "When working on Psychology Requirement 8 (Complete the survey below to complete), which principle and field standard is established in the Psychology Merit Badge Pamphlet?",
+        "question": "When working on Psychology Requirement 8 (Complete the survey below to complete), which principle and field standard is established in the Psychology Merit Badge Pamphlet?",
         "options": [
-          "A. Negative reinforcement is just another term for punishment in Scouting America Test Lab Feedback & Evaluation.",
-          "B. Reverse the sequence of Survey Below steps by attempting final sign-off before completing Complete the survey below to complete the test lab requireme.",
-          "C. Complete only a single sub-part of Requirement 8 rather than fulfilling the full Survey Below standard.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "B. Negative reinforcement is just another term for punishment in Scouting America Test Lab Feedback & Evaluation.",
+          "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
         "choices": [
-          "A. Negative reinforcement is just another term for punishment in Scouting America Test Lab Feedback & Evaluation.",
-          "B. Reverse the sequence of Survey Below steps by attempting final sign-off before completing Complete the survey below to complete the test lab requireme.",
-          "C. Complete only a single sub-part of Requirement 8 rather than fulfilling the full Survey Below standard.",
-          "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+          "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+          "B. Negative reinforcement is just another term for punishment in Scouting America Test Lab Feedback & Evaluation.",
+          "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 46-51).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "explanation": "Correct Answer (A): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 46-51).",
         "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 46-51"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Psychology Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/psychology_req_8_topic_visual.png"
     }
   ],
   "badge_slug": "psychology",
@@ -2104,116 +2112,116 @@
   "status": "TEST_LAB_PILOT",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Psychology in Your Own Words: Define psychology in your own words and explain its impact on daily li)?",
-      "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Psychology in Your Own Words: Define psychology in your own words and explain its impact on daily li)?",
+      "scenario_prompt": "While preparing for a high-adventure trek, a patrol leader notices a Scout becoming overwhelmed when trying to memorize 15 wilderness safety rules all at once. Using cognitive psychology principles of working memory, what teaching strategy works best?",
+      "question": "While preparing for a high-adventure trek, a patrol leader notices a Scout becoming overwhelmed when trying to memorize 15 wilderness safety rules all at once. Using cognitive psychology principles of working memory, what teaching strategy works best?",
       "options": [
-        "A. Negative reinforcement is just another term for punishment in Foundations of Psychology & Pioneers of the Field.",
-        "B. Skip the Psychology Pamphlet technical criteria for Psychology in Your Own Words and use rules from an unrelated activity.",
-        "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Psychology in Your Own Words."
+        "A. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+        "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+        "C. Skip practice and rely only on passive re-reading right before the trek.",
+        "D. Test the Scout on all 15 rules simultaneously while playing loud background distractions."
       ],
       "choices": [
-        "A. Negative reinforcement is just another term for punishment in Foundations of Psychology & Pioneers of the Field.",
-        "B. Skip the Psychology Pamphlet technical criteria for Psychology in Your Own Words and use rules from an unrelated activity.",
-        "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Psychology in Your Own Words."
+        "A. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+        "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+        "C. Skip practice and rely only on passive re-reading right before the trek.",
+        "D. Test the Scout on all 15 rules simultaneously while playing loud background distractions."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-      "explanation": "Correct Answer (C): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 4-9).",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+      "explanation": "Correct Answer (B): Human working memory holds only a few chunks at once; grouping items into meaningful frameworks and practicing active recall builds durable neural pathways.",
       "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 4-9",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Psychology Requirement 2 (Script for A Short 1-2), what execution standard is required when demonstrating Write a script for a short (1-2 minute) skit that demonstrates how a leader?",
-      "question": "During the hands-on skill station for Psychology Requirement 2 (Script for A Short 1-2), what execution standard is required when demonstrating Write a script for a short (1-2 minute) skit that demonstrates how a leader?",
+      "scenario_prompt": "In Psychology Requirement 2 (Write a script for a short), what technical standard and procedure does the Scouting America Psychology Merit Badge Pamphlet require?",
+      "question": "In Psychology Requirement 2 (Write a script for a short), what technical standard and procedure does the Scouting America Psychology Merit Badge Pamphlet require?",
       "options": [
-        "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "B. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
-        "C. Focus only on Write a script for a short (1-2 minute) skit that demon while omitting With the help of others, rehearse and perform your skit and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Script for A Short 1-2 standard."
+        "A. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
+        "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
       ],
       "choices": [
-        "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "B. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
-        "C. Focus only on Write a script for a short (1-2 minute) skit that demon while omitting With the help of others, rehearse and perform your skit and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Script for A Short 1-2 standard."
+        "A. Negative reinforcement is just another term for punishment in Applying Psychological Principles in Leadership Skits.",
+        "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-      "explanation": "Correct Answer (A): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 10-15).",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+      "explanation": "Correct Answer (C): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 10-15).",
       "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 10-15",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Own Words Define Mental Health: In your own words, define mental health)?",
-      "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Own Words Define Mental Health: In your own words, define mental health)?",
+      "scenario_prompt": "When demonstrating and explaining In your own words, define mental for Psychology Requirement 3, which approach follows the verified Psychology Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining In your own words, define mental for Psychology Requirement 3, which approach follows the verified Psychology Merit Badge Pamphlet standard?",
       "options": [
-        "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "B. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
-        "C. Focus only on In your own words, define mental health while omitting Discuss with your counselor the concepts of protective  and its required field verification.",
-        "D. Assume Own Words Define Mental Health applies only to indoor classroom theory and has no effect on real-world Psychology practice."
+        "A. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
+        "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "C. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+        "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       ],
       "choices": [
-        "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-        "B. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
-        "C. Focus only on In your own words, define mental health while omitting Discuss with your counselor the concepts of protective  and its required field verification.",
-        "D. Assume Own Words Define Mental Health applies only to indoor classroom theory and has no effect on real-world Psychology practice."
+        "A. Negative reinforcement is just another term for punishment in Mental Health, Protective Factors & Youth Resilience.",
+        "B. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "C. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+        "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-      "explanation": "Correct Answer (A): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 16-21).",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+      "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 16-21).",
       "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 16-21",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Weeks Create A Tracking: For two weeks, create a tracking log and record daily how you spend yo)?",
-      "question": "How does the Psychology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Weeks Create A Tracking: For two weeks, create a tracking log and record daily how you spend yo)?",
+      "scenario_prompt": "When working on Psychology Requirement 4 (For two weeks, create a tracking), which principle and field standard is established in the Psychology Merit Badge Pamphlet?",
+      "question": "When working on Psychology Requirement 4 (For two weeks, create a tracking), which principle and field standard is established in the Psychology Merit Badge Pamphlet?",
       "options": [
-        "A. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
-        "B. Reverse the sequence of Weeks Create A Tracking steps by attempting final sign-off before completing For two weeks, create a tracking log and record daily how yo.",
-        "C. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Weeks Create A Tracking standard.",
-        "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+        "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "B. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
+        "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
       ],
       "choices": [
-        "A. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
-        "B. Reverse the sequence of Weeks Create A Tracking steps by attempting final sign-off before completing For two weeks, create a tracking log and record daily how yo.",
-        "C. Complete only a single sub-part of Requirement 4 rather than fulfilling the full Weeks Create A Tracking standard.",
-        "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+        "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "B. Negative reinforcement is just another term for punishment in Two-Week Daily Time Log & Screen-Time Balance.",
+        "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-      "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 22-27).",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+      "explanation": "Correct Answer (A): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 22-27).",
       "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 22-27",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Psychology Requirement 5 (Own Words Define Empathy), what execution standard is required when demonstrating In your own words, define empathy and give examples of how you might show e?",
-      "question": "During the hands-on skill station for Psychology Requirement 5 (Own Words Define Empathy), what execution standard is required when demonstrating In your own words, define empathy and give examples of how you might show e?",
+      "scenario_prompt": "During your patrol's preparation and review for Psychology Requirement 5 (In your own words, define empathy), which statement accurately reflects the official Psychology Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Psychology Requirement 5 (In your own words, define empathy), which statement accurately reflects the official Psychology Merit Badge Pamphlet?",
       "options": [
         "A. Negative reinforcement is just another term for punishment in Practicing Empathy & Developing Resilience in Scouting.",
-        "B. Reverse the sequence of Own Words Define Empathy steps by attempting final sign-off before completing In your own words, define empathy and give examples of how y.",
-        "C. Substitute a casual verbal guess about In your own words, define empathy and give examples of  in place of documented Psychology observations.",
-        "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+        "B. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
       ],
       "choices": [
         "A. Negative reinforcement is just another term for punishment in Practicing Empathy & Developing Resilience in Scouting.",
-        "B. Reverse the sequence of Own Words Define Empathy steps by attempting final sign-off before completing In your own words, define empathy and give examples of how y.",
-        "C. Substitute a casual verbal guess about In your own words, define empathy and give examples of  in place of documented Psychology observations.",
-        "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth."
+        "B. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+        "C. Casual hobby familiarity with Psychology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. Read all 15 rules faster without pausing so they enter long-term memory immediately."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth.",
-      "explanation": "Correct Answer (D): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 28-33).",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience.",
+      "explanation": "Correct Answer (B): Negative reinforcement strengthens a behavior by removing an aversive stimulus, whereas empathy and protective factors build youth resilience. (Psychology Test Lab Resource Guide, pp. 28-33).",
       "pamphlet_page_ref": "Psychology Test Lab Resource Guide, pp. 28-33",
       "req_id": "5",
       "option_id": null

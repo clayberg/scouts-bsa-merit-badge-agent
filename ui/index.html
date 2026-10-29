@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto+Slab:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/ui/styles.css?v=20261027e" />
+  <link rel="stylesheet" href="/ui/styles.css?v=20261029v33" />
   <!-- Proactively preload all 14 Scout Slide Construction animation frames at startup -->
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_1_blueprint.jpg" />
   <link rel="preload" as="image" href="/assets/construction_anim/iso_heavy_2_header_crane.jpg" />
@@ -489,6 +489,8 @@
                       <option value="wildlife_forestry_conservation">🦌 Wildlife &amp; Forestry Conservation</option>
                       <option value="astronomy_deep_space_observatory">🔭 Deep-Space Observatory &amp; Milky Way</option>
                       <option value="emergency_medical_triage">🚑 Emergency Medical &amp; Disaster Triage</option>
+                      <option value="lake_sunset_dock">🌅 Lake &amp; Sunset Dock</option>
+                      <option value="first_aid_trail_kit">🧰 Wilderness Trail First Aid Kit &amp; Medical Supplies</option>
                     </select>
                   </label>
                   <div class="m3-sub-expander-actions">
@@ -1121,7 +1123,7 @@
                 title="Edit Title, Body Cards, Requirement Text &amp; Caption directly on the slide (Press Esc or click Done Editing to finish)"
                 style="padding:4px 9px; font-size:0.74rem; font-weight:700;"
               >
-                ✏️ Edit Text on Stage
+                ✏️ Edit Text
               </button>
               <!-- OPTION TP1: COMPACT LIVE COUNTDOWN BADGE (SHOWN ONLY WHEN TIMER IS RUNNING/ACTIVE) -->
               <button
@@ -3570,11 +3572,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                     <button type="button" class="m3-btn m3-btn-outlined" id="btn-tpl-ai-sample-guardrail" style="padding:3px 8px; font-size:0.71rem;">🛡️ Test YPT / PII Safety Guardrail</button>
                   </div>
                 </div>
-                <div id="tpl-ai-how-to-callout" style="margin-bottom:7px; padding:8px 10px; border-radius:8px; background:rgb(239, 246, 255); border:1px solid rgb(191, 219, 254); color:rgb(30, 58, 138); font-size:0.72rem; line-height:1.4;">
-                  <div style="font-weight:800; margin-bottom:3px; color:rgb(29, 78, 216);">🪄 How to Generate a Custom AI Washed Backdrop (2 Easy Steps)</div>
-                  <div><strong>Step 1:</strong> Type any scene description in the prompt box below (e.g., <em>"Distance shot of an Apollo rocket launch"</em> or <em>"Canoes on a misty alpine lake at sunrise"</em>).</div>
-                  <div><strong>Step 2:</strong> Click <strong>✨ Synthesize Washed Backdrop from Prompt</strong> (or simply click <strong>Generate &amp; Save AI Template Family</strong> with the dropdown set to <code>✨ Synthesize New Backdrop from Prompt</code>). The Live 16:9 Preview immediately updates with your custom photorealistic washed artwork!</div>
-                </div>
                 <textarea id="tpl-ai-prompt-input" class="m3-input" rows="2" placeholder="Describe scenic camp silhouettes, pine ridges, lake sunsets, Apollo rocket launch, waterfront motifs, or collegiate headers (no youth faces or PII)..." style="font-size:0.76rem; width:100%;">Crisp pine forest and mountain lake shoreline silhouette at dusk with subtle topographic contour lines and classic Scouting outdoor emblem accents.</textarea>
                 <div id="tpl-ai-guardrail-banner" class="hidden" style="margin-top:6px; padding:7px 10px; border-radius:8px; background:var(--md-sys-color-error-container); color:var(--md-sys-color-on-error-container); font-size:0.74rem; font-weight:700;"></div>
               </div>
@@ -3602,6 +3599,11 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
 
             <!-- RIGHT COLUMN: INTERACTIVE LIVE 16:9 SLIDE & COLOR VARIANT PREVIEW -->
             <div class="m3-tpl-ai-preview-col">
+              <div id="tpl-ai-how-to-callout" style="margin-bottom:8px; padding:8px 10px; border-radius:8px; background:rgb(239, 246, 255); border:1px solid rgb(191, 219, 254); color:rgb(30, 58, 138); font-size:0.72rem; line-height:1.4;">
+                <div style="font-weight:800; margin-bottom:3px; color:rgb(29, 78, 216);">🪄 How to Generate a Custom AI Washed Backdrop (2 Easy Steps)</div>
+                <div><strong>Step 1:</strong> Type any scene description in <strong>#5 Custom Theme Prompt</strong> on the left (e.g., <em>"Distance shot of an Apollo rocket launch"</em> or <em>"Canoes on a misty alpine lake at sunrise"</em>).</div>
+                <div><strong>Step 2:</strong> Click <strong>✨ Synthesize Washed Backdrop from Prompt</strong> below (or click <strong>Generate &amp; Save AI Template Family</strong> with the dropdown set to <code>✨ Synthesize New Backdrop from Prompt</code>). The Live 16:9 Preview immediately updates with your custom photorealistic washed artwork!</div>
+              </div>
               <!-- WASHED BACKGROUND DROPDOWN + AI PROMPT SYNTHESIS + CUSTOM IMAGE UPLOAD & DESCRIPTION -->
               <div id="tpl-ai-backdrop-control-bar" style="padding:8px 10px; border-radius:10px; border:1px solid var(--md-sys-color-outline-variant); background:var(--md-sys-color-surface-container-low); margin-bottom:8px; display:flex; flex-direction:column; gap:6px;">
                 <div style="display:flex; align-items:center; justify-content:space-between; gap:6px; flex-wrap:wrap;">
@@ -3620,11 +3622,13 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
                     </optgroup>
                     <optgroup label="Outdoor, Camp &amp; High Adventure Backdrops (Built-In)">
                       <option value="pinewood_campfire">🌲 Pinewood Forest &amp; Campfire Clearing</option>
+                      <option value="lake_sunset_dock">🌅 Lake &amp; Sunset Dock</option>
                       <option value="topographic_adventure">🏔️ High Adventure Alpine Summit Ridge</option>
                       <option value="pioneering_signal_tower">🪢 Pioneering Lashed Signal Tower &amp; Monkey Bridge</option>
                       <option value="archery_target_range">🏹 Archery &amp; Target Sports Timber Range</option>
                       <option value="dutch_oven_camp_cooking">🍳 Campfire Dutch Oven &amp; Backcountry Trail Cooking</option>
                       <option value="first_aid_search_rescue">⛑️ Wilderness First Aid &amp; Search-and-Rescue Basecamp</option>
+                      <option value="first_aid_trail_kit">🧰 Wilderness Trail First Aid Kit &amp; Medical Supplies</option>
                     </optgroup>
                     <optgroup label="Space, Aviation, Waterfront &amp; Nature Backdrops (Built-In)">
                       <option value="apollo_rocket_launch">🚀 Space Exploration &amp; Apollo Rocket Launch</option>
@@ -4307,6 +4311,6 @@ Blue Card Sign-Off Window: Bring your workbook and completed prerequisites to Fr
   <!-- GLOBAL FLOATING TOAST NOTIFICATION -->
   <div id="workbench-toast-notification" class="m3-toast-notification hidden" role="status" aria-live="polite"></div>
 
-  <script src="/ui/app.js?v=20261027e"></script>
+  <script src="/ui/app.js?v=20261029v33"></script>
 </body>
 </html>

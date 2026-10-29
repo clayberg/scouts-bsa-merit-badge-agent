@@ -53,16 +53,17 @@
               "1. Tour your community and list the different types of buildings you see.",
               "2. Try to identify buildings that can be associated with a specific period of history or style of architecture.",
               "3. Make a sketch of the building you most admire."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Tour Your Community and List verbally can substitute for a physical hands-on demonstration in Architecture Requirement 1a.",
-            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour Your Community and List with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour Your Community and List with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Tour Your Community and List verbally can substitute for a physical hands-on demonstration in Architecture Requirement 1a.",
-            "correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour Your Community and List with proper technique (p. 12)."
+            "misconception": "Performing Tour your community and list in Architecture Requirement 1a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Architecture Requirement 1a (Tour your community and list) depends on precise setup and step-by-step technique: (a) Tour your community and list the different types.",
+            "fact_correction": "Hands-on execution of Architecture Requirement 1a (Tour your community and list) depends on precise setup and step-by-step technique: (a) Tour your community and list the different types.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Performing Tour your community and list in Architecture Requirement 1a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Architecture Requirement 1a (Tour your community and list) depends on precise setup and step-by-step technique: (a) Tour your community and list the different types."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -137,16 +138,17 @@
               "1. Select a historical architectural achievement that has had a major impact on society.",
               "2. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this...",
               "3. Tell your counselor what you learned."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Historical Architectural Achievement That Has without explaining how it works in practice satisfies Architecture Requirement 1b.",
-            "fact": "The Architecture pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Historical Architectural Achievement That Has (Historical Architectural Achievement That Has) (p. 12).",
-            "fact_correction": "The Architecture pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Historical Architectural Achievement That Has (Historical Architectural Achievement That Has) (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Memorizing a one-line definition of Historical Architectural Achievement That Has without explaining how it works in practice satisfies Architecture Requirement 1b.",
-            "correction": "The Architecture pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Historical Architectural Achievement That Has (Historical Architectural Achievement That Has) (p. 12)."
+            "misconception": "Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Architecture Requirement 1b (Historical Architectural Achievement That Has), each principle directly governs real-world performance: Try to identify buildings that can be associated.",
+            "fact_correction": "In Architecture Requirement 1b (Historical Architectural Achievement That Has), each principle directly governs real-world performance: Try to identify buildings that can be associated.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Architecture Requirement 1b (Historical Architectural Achievement That Has), each principle directly governs real-world performance: Try to identify buildings that can be associated."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -233,21 +235,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(1a) Tour Your Community",
-          "(1b) Historical Architectural Achievement That Has"
+          "1. (1a) Tour Your Community",
+          "2. (1b) Historical Architectural Achievement That Has"
         ],
         "rows": [
-          "(1a) Tour Your Community",
-          "(1b) Historical Architectural Achievement That Has"
-        ]
+          "1. (1a) Tour Your Community",
+          "2. (1b) Historical Architectural Achievement That Has"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in Architecture Requirement 1.",
-        "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique (p. 12).",
-        "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique (p. 12).",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in Architecture Requirement 1.",
-        "correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique (p. 12)."
+        "misconception": "Performing Tour your community and list in Architecture Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Architecture Requirement 1 (Tour your community and list) depends on precise setup and step-by-step technique: (a) Tour your community and list the different types.",
+        "fact_correction": "Hands-on execution of Architecture Requirement 1 (Tour your community and list) depends on precise setup and step-by-step technique: (a) Tour your community and list the different types.",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+        "myth": "Performing Tour your community and list in Architecture Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Architecture Requirement 1 (Tour your community and list) depends on precise setup and step-by-step technique: (a) Tour your community and list the different types."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -282,7 +285,7 @@
         "Tour your community and list Principle 4: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Tour your community and list Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 1 (p. 10).",
+        "Step 1 (Tour your community and list Preparation): Inspect the works pace, reference materials, and safety controls required for Architecture Requirement 1 (p. 10).",
         "Step 2 (Tour your community and list Execution): Apply the official Architecture pamphlet method for Tour your community and list while recording observations in your Scout Workbook (p. 10).",
         "Step 3 (Tour your community and list Buddy Check): Cross-check your Tour your community and list technique, measurements, and results with a patrol buddy using the EDGE method (p. 10).",
         "Step 4 (Tour your community and list Verification): Review your completed Tour your community and list evidence and demonstrate proficiency during your counselor conference (p. 10)."
@@ -337,25 +340,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Architecture Requirement 1 (Tour Your Community), what execution standard is required when demonstrating Tour your community and list the different types of buildings you see. Try ?",
-        "question": "During the hands-on skill station for Architecture Requirement 1 (Tour Your Community), what execution standard is required when demonstrating Tour your community and list the different types of buildings you see. Try ?",
+        "scenario_prompt": "In Architecture Requirement 1, Roman architect Vitruvius stated that every good building must satisfy three core principles (firmitas, utilitas, venustas). What do these three principles mean in modern architectural practice?",
+        "question": "In Architecture Requirement 1, Roman architect Vitruvius stated that every good building must satisfy three core principles (firmitas, utilitas, venustas). What do these three principles mean in modern architectural practice?",
         "options": [
-          "A. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
-          "B. Reverse the sequence of Tour Your Community steps by attempting final sign-off before completing Tour your community and list the different types of building.",
-          "C. Substitute a casual verbal guess about Tour your community and list the different types of bui in place of documented Architecture observations.",
-          "D. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour."
+          "A. Maximum height, minimal window area, and exclusive use of imported marble facades.",
+          "B. Rapid demolition capability, temporary zoning compliance, and lowest possible construction wages.",
+          "C. Structural soundness and durability (firmness), functional layout for its intended use (commodity), and aesthetic beauty and proportion (delight).",
+          "D. Subterranean foundation depth, solar roof orientation, and cast-iron interior ornamentation."
         ],
         "choices": [
-          "A. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
-          "B. Reverse the sequence of Tour Your Community steps by attempting final sign-off before completing Tour your community and list the different types of building.",
-          "C. Substitute a casual verbal guess about Tour your community and list the different types of bui in place of documented Architecture observations.",
-          "D. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour."
+          "A. Maximum height, minimal window area, and exclusive use of imported marble facades.",
+          "B. Rapid demolition capability, temporary zoning compliance, and lowest possible construction wages.",
+          "C. Structural soundness and durability (firmness), functional layout for its intended use (commodity), and aesthetic beauty and proportion (delight).",
+          "D. Subterranean foundation depth, solar roof orientation, and cast-iron interior ornamentation."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
-        "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique. (Official Scouting America Architecture Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Structural soundness and durability (firmness), functional layout for its intended use (commodity), and aesthetic beauty and proportion (delight).",
+        "explanation": "Correct Answer (C): The Vitruvian triad defines architecture through firmness (structural integrity and durability), commodity (functional utility for occupants), and delight (visual harmony and beauty).",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 1.",
@@ -400,16 +403,17 @@
             "rows": [
               "1. The term sustainable architecture.",
               "2. Identify three features typical of green buildings."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Term Sustainable Architecture verbally can substitute for a physical hands-on demonstration in Architecture Requirement 2a.",
-            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Term Sustainable Architecture with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Term Sustainable Architecture with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Term Sustainable Architecture verbally can substitute for a physical hands-on demonstration in Architecture Requirement 2a.",
-            "correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Term Sustainable Architecture with proper technique (p. 12)."
+            "misconception": "Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Architecture Requirement 2a (The term sustainable architecture) depends on precise setup and step-by-step technique: How entire buildings can be reused rather than torn.",
+            "fact_correction": "Hands-on execution of Architecture Requirement 2a (The term sustainable architecture) depends on precise setup and step-by-step technique: How entire buildings can be reused rather than torn.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Architecture Requirement 2a (The term sustainable architecture) depends on precise setup and step-by-step technique: How entire buildings can be reused rather than torn."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -480,24 +484,21 @@
               "Comparison Concept / System B"
             ],
             "row_labels": [
-              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction.",
-              "2. Key Pamphlet Facts & Mechanism (Renewable Building Materials and Recycled)",
-              "3. Field Application & Counselor Discussion (Renewable Building Materials and Recycled)"
+              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction."
             ],
             "rows": [
-              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction.",
-              "2. Key Pamphlet Facts & Mechanism (Renewable Building Materials and Recycled)",
-              "3. Field Application & Counselor Discussion (Renewable Building Materials and Recycled)"
-            ]
+              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "All concepts or systems compared under Renewable Building Materials and Recycled in Architecture behave identically regardless of operating conditions.",
-            "fact": "Each system or condition in Renewable Building Materials and Recycled has distinct physical mechanisms, operating limits, and field indicators defined in the Architecture pamphlet (p. 12).",
-            "fact_correction": "Each system or condition in Renewable Building Materials and Recycled has distinct physical mechanisms, operating limits, and field indicators defined in the Architecture pamphlet (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "All concepts or systems compared under Renewable Building Materials and Recycled in Architecture behave identically regardless of operating conditions.",
-            "correction": "Each system or condition in Renewable Building Materials and Recycled has distinct physical mechanisms, operating limits, and field indicators defined in the Architecture pamphlet (p. 12)."
+            "misconception": "Performing The difference between renewable building materials in Architecture Requirement 2b without pre-inspecting gear alignment, tension.",
+            "fact": "Hands-on execution of Architecture Requirement 2b (The difference between renewable building materials) depends on precise setup and step-by-step technique: The term sustainable architecture.",
+            "fact_correction": "Hands-on execution of Architecture Requirement 2b (The difference between renewable building materials) depends on precise setup and step-by-step technique: The term sustainable architecture.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Performing The difference between renewable building materials in Architecture Requirement 2b without pre-inspecting gear alignment, tension.",
+            "correction": "Hands-on execution of Architecture Requirement 2b (The difference between renewable building materials) depends on precise setup and step-by-step technique: The term sustainable architecture."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -564,24 +565,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The relationship of architecture with its surrounding environment and the community.",
-              "2. Key Pamphlet Facts & Mechanism (Relationship of Architecture With Its)",
-              "3. Field Application & Counselor Discussion (Relationship of Architecture With Its)"
+              "1. The relationship of architecture with its surrounding environment and the community."
             ],
             "rows": [
-              "1. The relationship of architecture with its surrounding environment and the community.",
-              "2. Key Pamphlet Facts & Mechanism (Relationship of Architecture With Its)",
-              "3. Field Application & Counselor Discussion (Relationship of Architecture With Its)"
-            ]
+              "1. The relationship of architecture with its surrounding environment and the community."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Relationship of Architecture With Its without explaining how it works in practice satisfies Architecture Requirement 2c.",
-            "fact": "The Architecture pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Relationship of Architecture With Its (Relationship of Architecture With Its) (p. 12).",
-            "fact_correction": "The Architecture pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Relationship of Architecture With Its (Relationship of Architecture With Its) (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Memorizing a one-line definition of Relationship of Architecture With Its without explaining how it works in practice satisfies Architecture Requirement 2c.",
-            "correction": "The Architecture pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Relationship of Architecture With Its (Relationship of Architecture With Its) (p. 12)."
+            "misconception": "Overlooking how The relationship of architecture with its directly affects safety, efficiency, and decision-making in Architecture Requirement 2c.",
+            "fact": "Mastering Architecture Requirement 2c (The relationship of architecture with its) requires applying the verified pamphlet mechanism: The difference between renewable building materials.",
+            "fact_correction": "Mastering Architecture Requirement 2c (The relationship of architecture with its) requires applying the verified pamphlet mechanism: The difference between renewable building materials.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Overlooking how The relationship of architecture with its directly affects safety, efficiency, and decision-making in Architecture Requirement 2c.",
+            "correction": "Mastering Architecture Requirement 2c (The relationship of architecture with its) requires applying the verified pamphlet mechanism: The difference between renewable building materials."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -648,24 +646,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose.",
-              "2. Key Pamphlet Facts & Mechanism (Entire Buildings Can Be Reused)",
-              "3. Field Application & Counselor Discussion (Entire Buildings Can Be Reused)"
+              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose."
             ],
             "rows": [
-              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose.",
-              "2. Key Pamphlet Facts & Mechanism (Entire Buildings Can Be Reused)",
-              "3. Field Application & Counselor Discussion (Entire Buildings Can Be Reused)"
-            ]
+              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Entire Buildings Can Be Reused verbally can substitute for a physical hands-on demonstration in Architecture Requirement 2d.",
-            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Entire Buildings Can Be Reused with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Entire Buildings Can Be Reused with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Entire Buildings Can Be Reused verbally can substitute for a physical hands-on demonstration in Architecture Requirement 2d.",
-            "correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Entire Buildings Can Be Reused with proper technique (p. 12)."
+            "misconception": "Performing How entire buildings can be reused in Architecture Requirement 2d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Architecture Requirement 2d (How entire buildings can be reused) depends on precise setup and step-by-step technique: The relationship of architecture with its surrounding.",
+            "fact_correction": "Hands-on execution of Architecture Requirement 2d (How entire buildings can be reused) depends on precise setup and step-by-step technique: The relationship of architecture with its surrounding.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Performing How entire buildings can be reused in Architecture Requirement 2d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Architecture Requirement 2d (How entire buildings can be reused) depends on precise setup and step-by-step technique: The relationship of architecture with its surrounding."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -775,25 +770,26 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(2a) Sustainable Architecture Identify Three Features",
-          "(2b) Renewable Building Materials and Recycled",
-          "(2c) Relationship of Architecture With Its",
-          "(2d) Entire Buildings Can Be Reused"
+          "1. (2a) Sustainable Architecture Identify Three Features",
+          "2. (2b) Renewable Building Materials and Recycled",
+          "3. (2c) Relationship of Architecture With Its",
+          "4. (2d) Entire Buildings Can Be Reused"
         ],
         "rows": [
-          "(2a) Sustainable Architecture Identify Three Features",
-          "(2b) Renewable Building Materials and Recycled",
-          "(2c) Relationship of Architecture With Its",
-          "(2d) Entire Buildings Can Be Reused"
-        ]
+          "1. (2a) Sustainable Architecture Identify Three Features",
+          "2. (2b) Renewable Building Materials and Recycled",
+          "3. (2c) Relationship of Architecture With Its",
+          "4. (2d) Entire Buildings Can Be Reused"
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
         "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
         "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
         "myth": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-        "correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks."
+        "correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -823,7 +819,7 @@
         "Leave No Trace & Outdoor Ethics Principle 4: Architecture Sub-Req 2d: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Leave No Trace & Outdoor Ethics Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 2 (p. 14).",
+        "Step 1 (Leave No Trace & Outdoor Ethics Preparation): Inspect the works pace, reference materials, and safety controls required for Architecture Requirement 2 (p. 14).",
         "Step 2 (Leave No Trace & Outdoor Ethics Execution): Apply the official Architecture pamphlet method for Leave No Trace & Outdoor Ethics while recording observations in your Scout Workbook (p. 14).",
         "Step 3 (Leave No Trace & Outdoor Ethics Buddy Check): Cross-check your Leave No Trace & Outdoor Ethics technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
         "Step 4 (Leave No Trace & Outdoor Ethics Verification): Review your completed Leave No Trace & Outdoor Ethics evidence and demonstrate proficiency during your counselor conference (p. 14)."
@@ -869,7 +865,7 @@
         "title": "Exemplar Skill Station Walkthrough: Architecture Req 2 (Leave No Trace & Outdoor Ethics)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Leave No Trace & Outdoor Ethics.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Leave No Trace & Outdoor Ethics.",
           "Step-by-Step Execution": "Leave No Trace & Outdoor Ethics: Architecture Sub-Req 2a: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
           "Quality & Tolerance Check": "Leave No Trace & Outdoor Ethics Principle 2: Architecture Sub-Req 2b: The difference between renewable building materials and recycled building materials, and how each can be used.",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Architecture Merit Badge Pamphlet)"
@@ -878,24 +874,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "In Architecture Requirement 2 (Leave No Trace and Outdoor Ethics), how should a Scout accurately distinguish and explain the key technical differences (The term sustainable architecture. Identify three features typical of green)?",
-        "question": "In Architecture Requirement 2 (Leave No Trace and Outdoor Ethics), how should a Scout accurately distinguish and explain the key technical differences (The term sustainable architecture. Identify three features typical of green)?",
+        "scenario_prompt": "When demonstrating and explaining Leave No Trace & Outdoor Ethics for Architecture Requirement 2, which approach follows the verified Architecture Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Leave No Trace & Outdoor Ethics for Architecture Requirement 2, which approach follows the verified Architecture Merit Badge Pamphlet standard?",
         "options": [
           "A. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-          "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-          "C. Rely on a group summary of Leave No Trace and Outdoor Ethics instead of individually explaining or demonstrating The term sustainable architecture. Identify three features t.",
-          "D. Substitute a casual verbal guess about The term sustainable architecture. Identify three featu in place of documented Architecture observations."
+          "B. Performing Tour your community and list in Architecture Requirement 1a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+          "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
         ],
         "choices": [
           "A. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-          "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-          "C. Rely on a group summary of Leave No Trace and Outdoor Ethics instead of individually explaining or demonstrating The term sustainable architecture. Identify three features t.",
-          "D. Substitute a casual verbal guess about The term sustainable architecture. Identify three featu in place of documented Architecture observations."
+          "B. Performing Tour your community and list in Architecture Requirement 1a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+          "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-        "explanation": "Correct Answer (B): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks. (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
+        "explanation": "Correct Answer (D): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks. (Official Scouting America Architecture Merit Badge Pamphlet).",
         "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
@@ -940,16 +936,17 @@
               "2. Ask to see the scale model of a building and the drawings that a builder would use to construct this building.",
               "3. Discuss why the different building materials were selected.",
               "4. Look at the details in the drawings and the model to see how the materials and components are attached to each other during..."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Your Parent or Guardian's verbally can substitute for a physical hands-on demonstration in Architecture Requirement 3a.",
-            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Your Parent or Guardian's with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Your Parent or Guardian's with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Your Parent or Guardian's verbally can substitute for a physical hands-on demonstration in Architecture Requirement 3a.",
-            "correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Your Parent or Guardian's with proper technique (p. 12)."
+            "misconception": "Performing With your parent or guardian's in Architecture Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Architecture Requirement 3a (With your parent or guardian's) depends on precise setup and step-by-step technique: With your parent or guardian's and counselor's permission.",
+            "fact_correction": "Hands-on execution of Architecture Requirement 3a (With your parent or guardian's) depends on precise setup and step-by-step technique: With your parent or guardian's and counselor's permission.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Performing With your parent or guardian's in Architecture Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Architecture Requirement 3a (With your parent or guardian's) depends on precise setup and step-by-step technique: With your parent or guardian's and counselor's permission."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -985,7 +982,7 @@
           "pamphlet_excerpts": [
             "Arrange to Meet: Do ONE of The Following: Architecture Sub-Req 3a: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/architecture_p012_img1.png"
         },
         {
           "sub_id": "3b",
@@ -1018,16 +1015,17 @@
               "2. Ask the architect to bring drawings that the builder uses to construct the building.",
               "3. While at the site, discuss why the different building materials being used were selected.",
               "4. Discuss how the different building materials and components are attached to each other during construction."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Architecture Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Architecture Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Architecture Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Skipping hands-on verification or partial completion of Architecture Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Architecture Requirement  () for counselor verification."
+            "misconception": "During Architecture Requirement 3b (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+            "fact": "Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+            "fact_correction": "Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "During Architecture Requirement 3b (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+            "correction": "Every Architecture outing requires proactive hazard screening, proper PPE fit verification."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1099,16 +1097,17 @@
               "1. Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect.",
               "2. Find out what your client's requirements would be for designing a new home or business building.",
               "3. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions..."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Interview Someone verbally can substitute for a physical hands-on demonstration in Architecture Requirement 3c.",
-            "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Interview Someone with proper technique (p. 12).",
-            "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Interview Someone with proper technique (p. 12).",
-            "pamphlet_page_ref": "p. 12",
-            "myth": "Describing how to perform Interview Someone verbally can substitute for a physical hands-on demonstration in Architecture Requirement 3c.",
-            "correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Interview Someone with proper technique (p. 12)."
+            "misconception": "Performing Interview someone who might in Architecture Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Architecture Requirement 3c (Interview someone who might) depends on precise setup and step-by-step technique: Interview someone who might be your client.",
+            "fact_correction": "Hands-on execution of Architecture Requirement 3c (Interview someone who might) depends on precise setup and step-by-step technique: Interview someone who might be your client.",
+            "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+            "myth": "Performing Interview someone who might in Architecture Requirement 3c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Architecture Requirement 3c (Interview someone who might) depends on precise setup and step-by-step technique: Interview someone who might be your client."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1178,23 +1177,24 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(3a) Permission and Approval Arrange to",
-          "(3b) Permission and Approval Arrange to",
-          "(3c) Someone Who Might Be Your"
+          "1. (3a) Permission and Approval Arrange to",
+          "2. (3b) Permission and Approval Arrange to",
+          "3. (3c) Someone Who Might Be Your"
         ],
         "rows": [
-          "(3a) Permission and Approval Arrange to",
-          "(3b) Permission and Approval Arrange to",
-          "(3c) Someone Who Might Be Your"
-        ]
+          "1. (3a) Permission and Approval Arrange to",
+          "2. (3b) Permission and Approval Arrange to",
+          "3. (3c) Someone Who Might Be Your"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Architecture Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Architecture Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Architecture Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Skipping hands-on verification or partial completion of Architecture Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Architecture Requirement  () for counselor verification."
+        "misconception": "During Architecture Requirement 3 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "fact": "Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+        "fact_correction": "Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+        "myth": "During Architecture Requirement 3 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "correction": "Every Architecture outing requires proactive hazard screening, proper PPE fit verification."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1229,7 +1229,7 @@
         "Parent or Guardian's and Counselor's Principle 4: Do ONE of The Following Principle 4: Do ONE of the following: (a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Parent or Guardian's and Counselor's Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 3 (p. 18).",
+        "Step 1 (Parent or Guardian's and Counselor's Preparation): Inspect the works pace, reference materials, and safety controls required for Architecture Requirement 3 (p. 18).",
         "Step 2 (Parent or Guardian's and Counselor's Execution): Apply the official Architecture pamphlet method for Parent or Guardian's and Counselor's while recording observations in your Scout Workbook (p. 18).",
         "Step 3 (Parent or Guardian's and Counselor's Buddy Check): Cross-check your Parent or Guardian's and Counselor's technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
         "Step 4 (Parent or Guardian's and Counselor's Verification): Review your completed Parent or Guardian's and Counselor's evidence and demonstrate proficiency during your counselor conference (p. 18)."
@@ -1284,29 +1284,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Architecture Requirement 3 (Permission and Approval Arrange to), what execution standard is required when demonstrating With your parent or guardian's and counselor's permission and approval, arr?",
-        "question": "During the hands-on skill station for Architecture Requirement 3 (Permission and Approval Arrange to), what execution standard is required when demonstrating With your parent or guardian's and counselor's permission and approval, arr?",
+        "scenario_prompt": "When working on Architecture Requirement 3 (With your parent or guardian's), which principle and field standard is established in the Architecture Merit Badge Pamphlet?",
+        "question": "When working on Architecture Requirement 3 (With your parent or guardian's), which principle and field standard is established in the Architecture Merit Badge Pamphlet?",
         "options": [
-          "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "B. Reverse the sequence of Permission and Approval Arrange to steps by attempting final sign-off before completing With your parent or guardian's and counselor's permission an.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Permission and Approval Arrange to.",
-          "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+          "A. Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+          "B. During Architecture Requirement 3 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+          "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+          "D. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps."
         ],
         "choices": [
-          "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "B. Reverse the sequence of Permission and Approval Arrange to steps by attempting final sign-off before completing With your parent or guardian's and counselor's permission an.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Permission and Approval Arrange to.",
-          "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+          "A. Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+          "B. During Architecture Requirement 3 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+          "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+          "D. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "explanation": "Correct Answer (D): The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity. (Official Scouting America Architecture Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+        "explanation": "Correct Answer (A): Every Architecture outing requires proactive hazard screening, proper PPE fit verification. (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/architecture_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -1365,15 +1365,16 @@
           "2. Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or...",
           "3. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing.",
           "4. (Drawing scale: ¼ inch = 1 foot)"
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
-        "fact": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique (p. 12).",
-        "fact_correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique (p. 12).",
-        "pamphlet_page_ref": "p. 12",
-        "myth": "Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
-        "correction": "Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique (p. 12)."
+        "misconception": "Performing Measure a room in Architecture Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+        "fact_correction": "Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
+        "myth": "Performing Measure a room in Architecture Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1403,7 +1404,7 @@
         "Measure a room Principle 4: (Drawing scale: ¼ inch = 1 foot) (p. 12)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Measure a room Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 4 (p. 22).",
+        "Step 1 (Measure a room Preparation): Inspect the works pace, reference materials, and safety controls required for Architecture Requirement 4 (p. 22).",
         "Step 2 (Measure a room Execution): Apply the official Architecture pamphlet method for Measure a room while recording observations in your Scout Workbook (p. 22).",
         "Step 3 (Measure a room Buddy Check): Cross-check your Measure a room technique, measurements, and results with a patrol buddy using the EDGE method (p. 22).",
         "Step 4 (Measure a room Verification): Review your completed Measure a room evidence and demonstrate proficiency during your counselor conference (p. 22)."
@@ -1449,7 +1450,7 @@
         "title": "Exemplar Skill Station Walkthrough: Architecture Req 4 (Measure a room)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Measure a room.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Measure a room.",
           "Step-by-Step Execution": "Measure a room such as one where you live or where your troop meets (p. 12).",
           "Quality & Tolerance Check": "Measure a room Principle 2: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Architecture Merit Badge Pamphlet)"
@@ -1458,29 +1459,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Architecture Requirement 4 (Room Such As One Where), what execution standard is required when demonstrating Measure a room such as one where you live or where your troop meets?",
-        "question": "During the hands-on skill station for Architecture Requirement 4 (Room Such As One Where), what execution standard is required when demonstrating Measure a room such as one where you live or where your troop meets?",
+        "scenario_prompt": "During your patrol's preparation and review for Architecture Requirement 4 (Measure a room), which statement accurately reflects the official Architecture Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Architecture Requirement 4 (Measure a room), which statement accurately reflects the official Architecture Merit Badge Pamphlet?",
         "options": [
-          "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
-          "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
-          "C. Focus only on Measure a room such as one where you live or where your while omitting Make an accurately scaled drawing of the room's floor p and its required field verification.",
-          "D. Assume Room Such As One Where applies only to indoor classroom theory and has no effect on real-world Architecture practice."
+          "A. Performing Measure a room in Architecture Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+          "C. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+          "D. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
-          "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
-          "C. Focus only on Measure a room such as one where you live or where your while omitting Make an accurately scaled drawing of the room's floor p and its required field verification.",
-          "D. Assume Room Such As One Where applies only to indoor classroom theory and has no effect on real-world Architecture practice."
+          "A. Performing Measure a room in Architecture Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+          "C. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+          "D. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
-        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique. (Official Scouting America Architecture Merit Badge Pamphlet).",
-        "pamphlet_page_ref": "p. 12"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+        "explanation": "Correct Answer (B): Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets. (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/architecture_req_4_topic_visual.png"
     },
     {
       "req_id": "5",
@@ -1553,15 +1554,16 @@
           "1. Find out about three career opportunities in architecture.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
           "3. Discuss this with your counselor, and explain why this profession might interest you."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
-        "fact": "Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Architecture is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "fact_correction": "Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
         "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
-        "myth": "Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
-        "correction": "Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+        "myth": "Casual hobby familiarity with Architecture is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1591,7 +1593,7 @@
         "Careers & Professional Pathways Field Application 4: Verify all Architecture Requirement 5 measurements, safety controls, and technical criteria with your counselor (p. 26)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways Preparation): Inspect the workspace, reference materials, and safety controls required for Architecture Requirement 5 (p. 26).",
+        "Step 1 (Careers & Professional Pathways Preparation): Inspect the works pace, reference materials, and safety controls required for Architecture Requirement 5 (p. 26).",
         "Step 2 (Careers & Professional Pathways Execution): Apply the official Architecture pamphlet method for Careers & Professional Pathways while recording observations in your Scout Workbook (p. 26).",
         "Step 3 (Careers & Professional Pathways Buddy Check): Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 26).",
         "Step 4 (Careers & Professional Pathways Verification): Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 26)."
@@ -1646,29 +1648,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Architecture Merit Badge Pamphlet."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Architecture Requirement 5 (Architecture Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Architecture Requirement 5 (Architecture Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "In Architecture Requirement 5 (Careers & Professional Pathways), what technical standard and procedure does the Scouting America Architecture Merit Badge Pamphlet require?",
+        "question": "In Architecture Requirement 5 (Careers & Professional Pathways), what technical standard and procedure does the Scouting America Architecture Merit Badge Pamphlet require?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
-          "B. Reverse the sequence of Architecture Careers and Pathways steps by attempting final sign-off before completing Find out about three career opportunities in architecture.",
-          "C. Substitute a casual verbal guess about Find out about three career opportunities in architectu in place of documented Architecture observations.",
-          "D. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties."
+          "A. Casual hobby familiarity with Architecture is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Performing The difference between renewable building materials in Architecture Requirement 2b without pre-inspecting gear alignment, tension."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
-          "B. Reverse the sequence of Architecture Careers and Pathways steps by attempting final sign-off before completing Find out about three career opportunities in architecture.",
-          "C. Substitute a casual verbal guess about Find out about three career opportunities in architectu in place of documented Architecture observations.",
-          "D. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties."
+          "A. Casual hobby familiarity with Architecture is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Performing The difference between renewable building materials in Architecture Requirement 2b without pre-inspecting gear alignment, tension."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (D): Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Architecture Merit Badge Pamphlet).",
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Architecture Merit Badge Pamphlet).",
         "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/architecture_req_5_topic_visual.png"
     }
   ],
   "badge_slug": "architecture",
@@ -1679,116 +1681,116 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "During the hands-on skill station for Architecture Requirement 1 (Tour Your Community), what execution standard is required when demonstrating Tour your community and list the different types of buildings you see. Try ?",
-      "question": "During the hands-on skill station for Architecture Requirement 1 (Tour Your Community), what execution standard is required when demonstrating Tour your community and list the different types of buildings you see. Try ?",
+      "scenario_prompt": "In Architecture Requirement 1, Roman architect Vitruvius stated that every good building must satisfy three core principles (firmitas, utilitas, venustas). What do these three principles mean in modern architectural practice?",
+      "question": "In Architecture Requirement 1, Roman architect Vitruvius stated that every good building must satisfy three core principles (firmitas, utilitas, venustas). What do these three principles mean in modern architectural practice?",
       "options": [
-        "A. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
-        "B. Reverse the sequence of Tour Your Community steps by attempting final sign-off before completing Tour your community and list the different types of building.",
-        "C. Substitute a casual verbal guess about Tour your community and list the different types of bui in place of documented Architecture observations.",
-        "D. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour."
+        "A. Maximum height, minimal window area, and exclusive use of imported marble facades.",
+        "B. Rapid demolition capability, temporary zoning compliance, and lowest possible construction wages.",
+        "C. Structural soundness and durability (firmness), functional layout for its intended use (commodity), and aesthetic beauty and proportion (delight).",
+        "D. Subterranean foundation depth, solar roof orientation, and cast-iron interior ornamentation."
       ],
       "choices": [
-        "A. Describing how to perform Tour your community and list verbally can substitute for a physical hands-on demonstration in.",
-        "B. Reverse the sequence of Tour Your Community steps by attempting final sign-off before completing Tour your community and list the different types of building.",
-        "C. Substitute a casual verbal guess about Tour your community and list the different types of bui in place of documented Architecture observations.",
-        "D. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour."
+        "A. Maximum height, minimal window area, and exclusive use of imported marble facades.",
+        "B. Rapid demolition capability, temporary zoning compliance, and lowest possible construction wages.",
+        "C. Structural soundness and durability (firmness), functional layout for its intended use (commodity), and aesthetic beauty and proportion (delight).",
+        "D. Subterranean foundation depth, solar roof orientation, and cast-iron interior ornamentation."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour.",
-      "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Tour your community and list with proper technique. (Official Scouting America Architecture Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Structural soundness and durability (firmness), functional layout for its intended use (commodity), and aesthetic beauty and proportion (delight).",
+      "explanation": "Correct Answer (C): The Vitruvian triad defines architecture through firmness (structural integrity and durability), commodity (functional utility for occupants), and delight (visual harmony and beauty).",
+      "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "In Architecture Requirement 2 (Leave No Trace and Outdoor Ethics), how should a Scout accurately distinguish and explain the key technical differences (The term sustainable architecture. Identify three features typical of green)?",
-      "question": "In Architecture Requirement 2 (Leave No Trace and Outdoor Ethics), how should a Scout accurately distinguish and explain the key technical differences (The term sustainable architecture. Identify three features typical of green)?",
+      "scenario_prompt": "When demonstrating and explaining Leave No Trace & Outdoor Ethics for Architecture Requirement 2, which approach follows the verified Architecture Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Leave No Trace & Outdoor Ethics for Architecture Requirement 2, which approach follows the verified Architecture Merit Badge Pamphlet standard?",
       "options": [
         "A. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-        "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-        "C. Rely on a group summary of Leave No Trace and Outdoor Ethics instead of individually explaining or demonstrating The term sustainable architecture. Identify three features t.",
-        "D. Substitute a casual verbal guess about The term sustainable architecture. Identify three featu in place of documented Architecture observations."
+        "B. Performing Tour your community and list in Architecture Requirement 1a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+        "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
       ],
       "choices": [
         "A. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-        "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-        "C. Rely on a group summary of Leave No Trace and Outdoor Ethics instead of individually explaining or demonstrating The term sustainable architecture. Identify three features t.",
-        "D. Substitute a casual verbal guess about The term sustainable architecture. Identify three featu in place of documented Architecture observations."
+        "B. Performing Tour your community and list in Architecture Requirement 1a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+        "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-      "explanation": "Correct Answer (B): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks. (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
+      "explanation": "Correct Answer (D): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks. (Official Scouting America Architecture Merit Badge Pamphlet).",
       "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Architecture Requirement 3 (Permission and Approval Arrange to), what execution standard is required when demonstrating With your parent or guardian's and counselor's permission and approval, arr?",
-      "question": "During the hands-on skill station for Architecture Requirement 3 (Permission and Approval Arrange to), what execution standard is required when demonstrating With your parent or guardian's and counselor's permission and approval, arr?",
+      "scenario_prompt": "When working on Architecture Requirement 3 (With your parent or guardian's), which principle and field standard is established in the Architecture Merit Badge Pamphlet?",
+      "question": "When working on Architecture Requirement 3 (With your parent or guardian's), which principle and field standard is established in the Architecture Merit Badge Pamphlet?",
       "options": [
-        "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "B. Reverse the sequence of Permission and Approval Arrange to steps by attempting final sign-off before completing With your parent or guardian's and counselor's permission an.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Permission and Approval Arrange to.",
-        "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        "A. Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+        "B. During Architecture Requirement 3 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+        "D. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps."
       ],
       "choices": [
-        "A. Experienced Architecture participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "B. Reverse the sequence of Permission and Approval Arrange to steps by attempting final sign-off before completing With your parent or guardian's and counselor's permission an.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Permission and Approval Arrange to.",
-        "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before."
+        "A. Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+        "B. During Architecture Requirement 3 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "C. Treating the technical factors of Historical Architectural Achievement That Has in Architecture Requirement 1b as isolated terms rather than interconnected field mechanisms.",
+        "D. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-      "explanation": "Correct Answer (D): The Architecture pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Do ONE of The Following activity. (Official Scouting America Architecture Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Every Architecture outing requires proactive hazard screening, proper PPE fit verification.",
+      "explanation": "Correct Answer (A): Every Architecture outing requires proactive hazard screening, proper PPE fit verification. (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Architecture Requirement 4 (Room Such As One Where), what execution standard is required when demonstrating Measure a room such as one where you live or where your troop meets?",
-      "question": "During the hands-on skill station for Architecture Requirement 4 (Room Such As One Where), what execution standard is required when demonstrating Measure a room such as one where you live or where your troop meets?",
+      "scenario_prompt": "During your patrol's preparation and review for Architecture Requirement 4 (Measure a room), which statement accurately reflects the official Architecture Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Architecture Requirement 4 (Measure a room), which statement accurately reflects the official Architecture Merit Badge Pamphlet?",
       "options": [
-        "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
-        "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
-        "C. Focus only on Measure a room such as one where you live or where your while omitting Make an accurately scaled drawing of the room's floor p and its required field verification.",
-        "D. Assume Room Such As One Where applies only to indoor classroom theory and has no effect on real-world Architecture practice."
+        "A. Performing Measure a room in Architecture Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+        "C. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "D. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
-        "B. Describing how to perform Measure a room verbally can substitute for a physical hands-on demonstration in Architecture Requirement 4.",
-        "C. Focus only on Measure a room such as one where you live or where your while omitting Make an accurately scaled drawing of the room's floor p and its required field verification.",
-        "D. Assume Room Such As One Where applies only to indoor classroom theory and has no effect on real-world Architecture practice."
+        "A. Performing Measure a room in Architecture Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+        "C. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
+        "D. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate.",
-      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Architecture pamphlet, each Scout must physically execute and demonstrate Measure a room with proper technique. (Official Scouting America Architecture Merit Badge Pamphlet).",
-      "pamphlet_page_ref": "p. 12",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets.",
+      "explanation": "Correct Answer (B): Hands-on execution of Architecture Requirement 4 (Measure a room) depends on precise setup and step-by-step technique: Measure a room such as one where you live or where your troop meets. (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "When evaluating professional pathways for Architecture Requirement 5 (Architecture Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-      "question": "When evaluating professional pathways for Architecture Requirement 5 (Architecture Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+      "scenario_prompt": "In Architecture Requirement 5 (Careers & Professional Pathways), what technical standard and procedure does the Scouting America Architecture Merit Badge Pamphlet require?",
+      "question": "In Architecture Requirement 5 (Careers & Professional Pathways), what technical standard and procedure does the Scouting America Architecture Merit Badge Pamphlet require?",
       "options": [
-        "A. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
-        "B. Reverse the sequence of Architecture Careers and Pathways steps by attempting final sign-off before completing Find out about three career opportunities in architecture.",
-        "C. Substitute a casual verbal guess about Find out about three career opportunities in architectu in place of documented Architecture observations.",
-        "D. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties."
+        "A. Casual hobby familiarity with Architecture is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "B. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "D. Performing The difference between renewable building materials in Architecture Requirement 2b without pre-inspecting gear alignment, tension."
       ],
       "choices": [
-        "A. Listing three job titles from a quick web search satisfies the Architecture career exploration requirement.",
-        "B. Reverse the sequence of Architecture Careers and Pathways steps by attempting final sign-off before completing Find out about three career opportunities in architecture.",
-        "C. Substitute a casual verbal guess about Find out about three career opportunities in architectu in place of documented Architecture observations.",
-        "D. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties."
+        "A. Casual hobby familiarity with Architecture is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "B. Performing The term sustainable architecture in Architecture Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "D. Performing The difference between renewable building materials in Architecture Requirement 2b without pre-inspecting gear alignment, tension."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties.",
-      "explanation": "Correct Answer (D): Scouts must research specific Architecture career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Architecture Merit Badge Pamphlet).",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+      "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Architecture (Req 5) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Official Scouting America Architecture Merit Badge Pamphlet).",
       "pamphlet_page_ref": "Official Scouting America Architecture Merit Badge Pamphlet",
       "req_id": "5",
       "option_id": null

@@ -69,15 +69,16 @@
         "rows": [
           "1. Tell what archaeology is and explain to your counselor how it differs or relates to other fields of study such as anthropology,...",
           "2. Explain how archaeology is different than artifact collecting or treasure hunting."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 16, p. 79",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+        "fact": "Accurate Archaeology Requirement 1 (Archaeology is) analysis requires contemporaneous data logging and verified measurements: Students of archaeology study a variety of subjects, including.",
+        "fact_correction": "Accurate Archaeology Requirement 1 (Archaeology is) analysis requires contemporaneous data logging and verified measurements: Students of archaeology study a variety of subjects, including.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79)",
+        "myth": "Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+        "correction": "Accurate Archaeology Requirement 1 (Archaeology is) analysis requires contemporaneous data logging and verified measurements: Students of archaeology study a variety of subjects, including."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -102,15 +103,15 @@
       ],
       "pamphlet_excerpts": [
         "Principles of Archaeological Science: Students of archaeology study a variety of subjects, including many sciences (p. 16).",
-        "Principles of Archaeological Science Principle 2: The scientific analysis of sites and artifactsrequires a knowledge of geology, paleontology, physics, chemistry, botany, zoology, and statistics (p. 16).",
-        "Principles of Archaeological Science Principle 3: Interdisciplinary programs that combine archaeology withvarious other fields of study are common (p. 16).",
-        "Principles of Archaeological Science Principle 4: Historical archaeologists usually major in anthropologyor history (p. 16)."
+        "Principles of Archaeological Science Principle 2: The scientific analysis of sites and artifacts requires a knowledge of geology, paleontology, physics, chemistry, botany, zoology, and statistics (p. 16).",
+        "Principles of Archaeological Science Principle 3: Interdisciplinary programs that combine archaeology with various other fields of study are common (p. 16).",
+        "Principles of Archaeological Science Principle 4: Historical archaeologists usually major in anthropology or history (p. 16)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Principles of Archaeological Science): To work as a field archaeologist, previous experience isoften required (usually obtained by spending a summer in anarchaeological field) (p. 16).",
-        "Step 2 (Principles of Archaeological Science): Archaeological field schools provide the best way to learn howto properly excavate and document archaeological sites, andalso to find (p. 16).",
+        "Step 1 (Principles of Archaeological Science): To work as a field archaeologist, previous experience is often required (usually obtained by spending a summer in an archaeological field) (p. 16).",
+        "Step 2 (Principles of Archaeological Science): Archaeological field schools provide the best way to learn howto properly excavate and document archaeological sites, and also to find (p. 16).",
         "Step 3 (Principles of Archaeological Science): You can begin now to prepare for your college courseworkby taking all of the science, history, and language classes (p. 16).",
-        "Step 4 (Principles of Archaeological Science): Strong communication skills are vital to an archaeologist, so you'll need a good grounding in writing, speech, and foreignlanguages (p. 16)."
+        "Step 4 (Principles of Archaeological Science): Strong communication skills are vital to an archaeologist, so you'll need a good grounding in writing, speech, and foreign languages (p. 16)."
       ],
       "gear_checklist": [
         "Official Archaeology Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Principles of Archaeological Science)",
@@ -155,32 +156,32 @@
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Principles of Archaeological Science.",
           "Tracked Field Data": "Principles of Archaeological Science: Students of archaeology study a variety of subjects, including many sciences (p. 16).",
-          "Variance & Outcome Analysis": "Principles of Archaeological Science Principle 2: The scientific analysis of sites and artifactsrequires a knowledge of geology, paleontology, physics, chemistry, botany, zoology.",
+          "Variance & Outcome Analysis": "Principles of Archaeological Science Principle 2: The scientific analysis of sites and artifacts requires a knowledge of geology, paleontology, physics, chemistry, botany, zoology.",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79))"
         },
         "sample_output": "Principles of Archaeological Science: Principles of Archaeological Science: Students of archaeology study a variety of subjects, including many sciences (p. 16).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Principles of Archaeological Science: Tell what archaeology is and explain to your counselor how it differs )?",
-        "question": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Principles of Archaeological Science: Tell what archaeology is and explain to your counselor how it differs )?",
+        "scenario_prompt": "How does archaeology differ from paleontology, and why is recording an artifact's exact three-dimensional context and stratigraphic layer essential before removing it from the ground?",
+        "question": "How does archaeology differ from paleontology, and why is recording an artifact's exact three-dimensional context and stratigraphic layer essential before removing it from the ground?",
         "options": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of.",
-          "B. Estimating Principles of Archaeological Science entries from memory at the end of the project satisfies the Archaeology Requirement.",
-          "C. Focus only on Tell what archaeology is and explain to your counselor  while omitting Explain how archaeology is different than artifact coll and its required field verification.",
-          "D. Assume Principles of Archaeological Science applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+          "A. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+          "B. Archaeology studies past human cultures through material remains, and an artifact's in-situ context and stratum reveal its age, use, and association with surrounding human activity.",
+          "C. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+          "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
         ],
         "choices": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of.",
-          "B. Estimating Principles of Archaeological Science entries from memory at the end of the project satisfies the Archaeology Requirement.",
-          "C. Focus only on Tell what archaeology is and explain to your counselor  while omitting Explain how archaeology is different than artifact coll and its required field verification.",
-          "D. Assume Principles of Archaeological Science applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+          "A. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+          "B. Archaeology studies past human cultures through material remains, and an artifact's in-situ context and stratum reveal its age, use, and association with surrounding human activity.",
+          "C. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+          "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of.",
-        "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of Archaeological Science milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79)).",
-        "pamphlet_page_ref": "p. 16, p. 79"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Archaeology studies past human cultures through material remains, and an artifact's in-situ context and stratum reveal its age, use, and association with surrounding human activity.",
+        "explanation": "Correct Answer (B): Unlike paleontology (which studies fossilized prehistoric life such as dinosaurs), archaeology investigates past human societies through material culture, where provenance and stratigraphic context provide critical scientific data.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 1.",
@@ -253,23 +254,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe the following steps of the archaeological process: site location, development of background research and a research design,...",
-          "2. Key Pamphlet Facts & Mechanism (Archaeological Process Site Location Development)",
-          "3. Field Application & Counselor Discussion (Archaeological Process Site Location Development)"
+          "1. Describe the following steps of the archaeological process: site location, development of background research and a research design,..."
         ],
         "rows": [
-          "1. Describe the following steps of the archaeological process: site location, development of background research and a research design,...",
-          "2. Key Pamphlet Facts & Mechanism (Archaeological Process Site Location Development)",
-          "3. Field Application & Counselor Discussion (Archaeological Process Site Location Development)"
-        ]
+          "1. Describe the following steps of the archaeological process: site location, development of background research and a research design,..."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 33, p. 48",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+        "fact": "Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+        "fact_correction": "Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)",
+        "myth": "Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+        "correction": "Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -295,12 +293,12 @@
       "pamphlet_excerpts": [
         "Of the archaeological process: Archaeologists follow a careful step-by-step process designed to protect resources and obtain the most information possible (p. 33).",
         "Of the archaeological process Principle 2: They sometimes study old letters, maps, journals, and other documents for clues to the locations of historic settlements or American Indian camps (p. 33).",
-        "Of the archaeological process Principle 3: They may use aerial photographs andpictures taken from satellites to homein on the places they are trying to find (p. 33).",
-        "Of the archaeological process Principle 4: They talk to people living in the area, Measuring an obsidian artifact from thewho often have the deepest knowledge (p. 33)."
+        "Of the archaeological process Principle 3: They may use aerial photographs and pictures taken from satellites to home in on the places they are trying to find (p. 33).",
+        "Of the archaeological process Principle 4: They talk to people living in the area, Measuring an obsidian artifact from the who often have the deepest knowledge (p. 33)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Of the archaeological process): Nightfire Island site in Oregon Sites are sometimes found during surveys that may berequired before new roads, dams, apartment houses (p. 33).",
-        "Step 2 (Of the archaeological process): Archaeologists walk the entirearea, looking for anything made by humans that is more than 50 years old (p. 33).",
+        "Step 1 (Of the archaeological process): Night fire Island site in Oregon Sites are sometimes found during surveys that may be required before new roads, dams, apartment houses (p. 33).",
+        "Step 2 (Of the archaeological process): Archaeologists walk the entire area, looking for anything made by humans that is more than 50 years old (p. 33).",
         "Step 3 (Of the archaeological process): They may dig test pits or trenches in the pathway of the proposed construction (p. 33).",
         "Step 4 (Of the archaeological process): If artifacts appear, the site may be excavated before construction machinery disturbs the area (p. 33)."
       ],
@@ -354,25 +352,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Archaeology Requirement 2 (Archaeological Process Site Location Development), which statement accurately reflects the official BSA standard for Describe the following steps of the archaeological process: site location, ?",
-        "question": "When preparing for your counselor conference on Archaeology Requirement 2 (Archaeological Process Site Location Development), which statement accurately reflects the official BSA standard for Describe the following steps of the archaeological process: site location, ?",
+        "scenario_prompt": "During your patrol's preparation and review for Archaeology Requirement 2 (Of the archaeological process), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Archaeology Requirement 2 (Of the archaeological process), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
         "options": [
-          "A. Estimating Of the archaeological process entries from memory at the end of the project satisfies the Archaeology Requirement 2.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the.",
-          "C. Rely on a group summary of Archaeological Process Site Location Development instead of individually explaining or demonstrating Describe the following steps of the archaeological process: .",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Archaeological Process Site Location Development standard."
+          "A. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+          "B. Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+          "C. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+          "D. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried."
         ],
         "choices": [
-          "A. Estimating Of the archaeological process entries from memory at the end of the project satisfies the Archaeology Requirement 2.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the.",
-          "C. Rely on a group summary of Archaeological Process Site Location Development instead of individually explaining or demonstrating Describe the following steps of the archaeological process: .",
-          "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Archaeological Process Site Location Development standard."
+          "A. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+          "B. Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+          "C. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+          "D. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the.",
-        "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the archaeological process milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)).",
-        "pamphlet_page_ref": "p. 33, p. 48"
+        "correct_answer": "B. Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+        "explanation": "Correct Answer (B): Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 2.",
@@ -435,15 +433,16 @@
         "rows": [
           "1. Describe at least two ways in which archaeologists determine the age of sites, structures, or artifacts.",
           "2. Explain what absolute dating and relative dating are."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 52, p. 88",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+        "fact": "Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+        "fact_correction": "Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)",
+        "myth": "Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+        "correction": "Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -468,13 +467,13 @@
       ],
       "pamphlet_excerpts": [
         "At least two ways: Archaeologists have several ways to figure out how old artifacts, structures, and sites (p. 52).",
-        "At least two ways Principle 2: If they know the date of one site, they can assume that another site with the same kinds of artifacts isabout the same age (p. 52).",
-        "At least two ways Principle 3: Stratigraphy (the order of layers in a site) provides anotherdating method (p. 52).",
-        "At least two ways Principle 4: Artifacts buried in deeper levels of a site areusually older than items above them (p. 52)."
+        "At least two ways Principle 2: If they know the date of one site, they can assume that another site with the same kinds of artifacts is about the same age (p. 52).",
+        "At least two ways Principle 3: Stratigraphy (the order of layers in a site) provides another dating method (p. 52).",
+        "At least two ways Principle 4: Artifacts buried in deeper levels of a site are usually older than items above them (p. 52)."
       ],
       "step_by_step_procedure": [
         "Step 1 (At least two ways): If archaeologists know the age of one level, they can determine that artifacts beneath that level were probably left at an earlier date (p. 52).",
-        "Step 2 (At least two ways): These ways of estimating the ages of artifacts are calledrelative dating techniques because the date of one artifact orsite is related to the date (p. 52).",
+        "Step 2 (At least two ways): These ways of estimating the ages of artifacts are called relative dating techniques because the date of one artifact or site is related to the date (p. 52).",
         "Step 3 (At least two ways): Among the most used dating techniques are the following (p. 52).",
         "Step 4 (At least two ways): After a plant or animal dies, its carbon 14 (a type of carbon) slowly decays into carbon 12 (p. 52)."
       ],
@@ -521,36 +520,36 @@
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for At least two ways.",
           "Tracked Field Data": "At least two ways: Archaeologists have several ways to figure out how old artifacts, structures, and sites (p. 52).",
-          "Variance & Outcome Analysis": "At least two ways Principle 2: If they know the date of one site, they can assume that another site with the same kinds of artifacts isabout the same age (p. 52).",
+          "Variance & Outcome Analysis": "At least two ways Principle 2: If they know the date of one site, they can assume that another site with the same kinds of artifacts is about the same age (p. 52).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88))"
         },
         "sample_output": "At least two ways: At least two ways: Archaeologists have several ways to figure out how old artifacts, structures, and sites (p. 52).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Archaeology Requirement 3 (Archaeologists Determine The Age of), which statement accurately reflects the official BSA standard for Describe at least two ways in which archaeologists determine the age of sit?",
-        "question": "When preparing for your counselor conference on Archaeology Requirement 3 (Archaeologists Determine The Age of), which statement accurately reflects the official BSA standard for Describe at least two ways in which archaeologists determine the age of sit?",
+        "scenario_prompt": "In Archaeology Requirement 3 (At least two ways), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
+        "question": "In Archaeology Requirement 3 (At least two ways), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
         "options": [
-          "A. Estimating At least two ways entries from memory at the end of the project satisfies the Archaeology Requirement 3 standard.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two.",
-          "C. Rely on a group summary of Archaeologists Determine The Age of instead of individually explaining or demonstrating Describe at least two ways in which archaeologists determine.",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Archaeologists Determine The Age of standard."
+          "A. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+          "B. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+          "C. Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+          "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
         ],
         "choices": [
-          "A. Estimating At least two ways entries from memory at the end of the project satisfies the Archaeology Requirement 3 standard.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two.",
-          "C. Rely on a group summary of Archaeologists Determine The Age of instead of individually explaining or demonstrating Describe at least two ways in which archaeologists determine.",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Archaeologists Determine The Age of standard."
+          "A. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+          "B. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+          "C. Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+          "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two.",
-        "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two ways milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)).",
-        "pamphlet_page_ref": "p. 52, p. 88"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+        "explanation": "Correct Answer (C): Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -590,16 +589,17 @@
               "2. Describe some of the information about the past that has been found at each site.",
               "3. Explain how the information gained from the study of these sites answers questions that archaeologists are asking and how the...",
               "4. Compare the relative ages of the sites you research."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 14, p. 28",
-            "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+            "misconception": "Estimating For EACH site you research, point figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "fact": "Accurate Archaeology Requirement 4a (For EACH site you research, point) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together.",
+            "fact_correction": "Accurate Archaeology Requirement 4a (For EACH site you research, point) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
+            "myth": "Estimating For EACH site you research, point figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "correction": "Accurate Archaeology Requirement 4a (For EACH site you research, point) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -630,7 +630,7 @@
           "pamphlet_excerpts": [
             "Site You Research Point: EACH Site You Research Point: Learn About A Combined Total Principle 2: Think of all the little parts that go together to make asmartphone (p. 14)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/archaeology_p014_img1.png"
         },
         {
           "sub_id": "4b",
@@ -653,24 +653,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school...",
-              "2. Key Pamphlet Facts & Mechanism (Sites You Picked)",
-              "3. Field Application & Counselor Discussion (Sites You Picked)"
+              "1. Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school..."
             ],
             "rows": [
-              "1. Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school...",
-              "2. Key Pamphlet Facts & Mechanism (Sites You Picked)",
-              "3. Field Application & Counselor Discussion (Sites You Picked)"
-            ]
+              "1. Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school..."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Sites You Picked without explaining how it works in practice satisfies Archaeology Requirement 4b.",
-            "fact": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sites You Picked (Sites You Picked) (p. 14, p. 28).",
-            "fact_correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sites You Picked (Sites You Picked) (p. 14, p. 28).",
-            "pamphlet_page_ref": "p. 14, p. 28",
-            "myth": "Memorizing a one-line definition of Sites You Picked without explaining how it works in practice satisfies Archaeology Requirement 4b.",
-            "correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sites You Picked (Sites You Picked) (p. 14, p. 28)."
+            "misconception": "Assuming Sites You Picked in Archaeology Requirement 4b operates identically across all environmental and technical conditions.",
+            "fact": "If you take the individual parts out of a smartphone and study each one separately, will that tell you how the phone functions.",
+            "fact_correction": "If you take the individual parts out of a smartphone and study each one separately, will that tell you how the phone functions.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
+            "myth": "Assuming Sites You Picked in Archaeology Requirement 4b operates identically across all environmental and technical conditions.",
+            "correction": "If you take the individual parts out of a smartphone and study each one separately, will that tell you how the phone functions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -772,21 +769,22 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(4a) Site You Research Point It",
-          "(4b) Sites You Picked"
+          "1. (4a) Site You Research Point It",
+          "2. (4b) Sites You Picked"
         ],
         "rows": [
-          "(4a) Site You Research Point It",
-          "(4b) Sites You Picked"
-        ]
+          "1. (4a) Site You Research Point It",
+          "2. (4b) Sites You Picked"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 14, p. 28",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+        "fact": "Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together.",
+        "fact_correction": "Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
+        "myth": "Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+        "correction": "Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -812,14 +810,14 @@
       "pamphlet_excerpts": [
         "Combined Total of Five Archaeological: Learn About A Combined Total: This idea of relationships between objects is important (p. 14).",
         "Combined Total of Five Archaeological Principle 2: Learn About A Combined Total Principle 2: Think of all the little parts that go together to make asmartphone (p. 14).",
-        "Combined Total of Five Archaeological Principle 3: Learn About A Combined Total Principle 3: If you take the individual parts out of a smartphone and study each one separately, will that tell you how the phonefunctions (p. 14).",
+        "Combined Total of Five Archaeological Principle 3: Learn About A Combined Total Principle 3: If you take the individual parts out of a smartphone and study each one separately, will that tell you how the phone functions (p. 14).",
         "Combined Total of Five Archaeological Principle 4: Learn About A Combined Total Principle 4: You must look at all of the parts in place inside the phone to see how they work together (p. 14)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Combined Total of Five Archaeological): Step 1 (Learn About A Combined Total): Like a smartphone, an archaeological site is a complicated package that must be opened carefully and studiedas a whole if we are to make sense (p. 14).",
-        "Step 2 (Combined Total of Five Archaeological): Step 2 (Learn About A Combined Total): A researcher who looks at only a few stone tools and afew kernels of corn might find that, by themselves, the artifactsreveal little (p. 14).",
+        "Step 1 (Combined Total of Five Archaeological): Step 1 (Learn About A Combined Total): Like a smartphone, an archaeological site is a complicated package that must be opened carefully and studied as a whole if we are to make sense (p. 14).",
+        "Step 2 (Combined Total of Five Archaeological): Step 2 (Learn About A Combined Total): A researcher who looks at only a few stone tools and afew kernels of corn might find that, by themselves, the artifacts reveal little (p. 14).",
         "Step 3 (Combined Total of Five Archaeological): Step 3 (Learn About A Combined Total): A few kernels of corn found in a space that did not have a hearth or any other artifacts would suggest that the room was probably a storeroom (p. 14).",
-        "Step 4 (Combined Total of Five Archaeological): Step 4 (Learn About A Combined Total): Compared with anisolated find, artifacts foundtogether at a site can provide more information about the people wholived there andeveryday activities (p. 14)."
+        "Step 4 (Combined Total of Five Archaeological): Step 4 (Learn About A Combined Total): Compared with an isolated find, artifacts found together at a site can provide more information about the people who lived there and everyday activities (p. 14)."
       ],
       "gear_checklist": [
         "Official Archaeology Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Combined Total of Five Archaeological)",
@@ -871,29 +869,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)."
       },
       "quiz_item": {
-        "scenario_prompt": "In Archaeology Requirement 4 (Learn About A Combined Total), how should a Scout accurately distinguish and explain the key technical differences (For EACH site you research, point it out on a map and explain how it became)?",
-        "question": "In Archaeology Requirement 4 (Learn About A Combined Total), how should a Scout accurately distinguish and explain the key technical differences (For EACH site you research, point it out on a map and explain how it became)?",
+        "scenario_prompt": "When demonstrating and explaining Learn about a combined total for Archaeology Requirement 4, which approach follows the verified Archaeology Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Learn about a combined total for Archaeology Requirement 4, which approach follows the verified Archaeology Merit Badge Pamphlet standard?",
         "options": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A.",
-          "B. Estimating Learn About A Combined Total entries from memory at the end of the project satisfies the Archaeology Requirement 4 standard.",
-          "C. Focus only on For EACH site you research, point it out on a map and e while omitting Choose ONE of the sites you picked and give a short pre and its required field verification.",
-          "D. Assume Learn About A Combined Total applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+          "A. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+          "B. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms.",
+          "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+          "D. Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together."
         ],
         "choices": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A.",
-          "B. Estimating Learn About A Combined Total entries from memory at the end of the project satisfies the Archaeology Requirement 4 standard.",
-          "C. Focus only on For EACH site you research, point it out on a map and e while omitting Choose ONE of the sites you picked and give a short pre and its required field verification.",
-          "D. Assume Learn About A Combined Total applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+          "A. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+          "B. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms.",
+          "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+          "D. Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A.",
-        "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A Combined Total milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)).",
-        "pamphlet_page_ref": "p. 14, p. 28"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together.",
+        "explanation": "Correct Answer (D): Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p014_img1.png"
     },
     {
       "req_id": "5",
@@ -934,16 +932,17 @@
             "rows": [
               "1. Learn about the federal laws and international conventions that protect archaeological sites.",
               "2. Find out if your state, county, or local government has regulations that apply to archaeological or historic sites."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 26, p. 68",
-            "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+            "misconception": "Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "fact": "Accurate Archaeology Requirement 5a (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas.",
+            "fact_correction": "Accurate Archaeology Requirement 5a (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
+            "myth": "Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "correction": "Accurate Archaeology Requirement 5a (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -974,7 +973,7 @@
           "pamphlet_excerpts": [
             "Federal Laws and International Conventions: Learn About The Federal Laws Principle 3: Parkin Archeological State Park in Arkansas preserves the site of a Mississippian-period American Indian village that is datedat a. d. 1350 to 1550 (p. 26)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/archaeology_p067_img1.png"
         },
         {
           "sub_id": "5b",
@@ -1002,24 +1001,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify a national, international, or local organization that helps to protect archaeological sites.",
-              "2. Key Pamphlet Facts & Mechanism (National International or Local Organization)",
-              "3. Field Application & Counselor Discussion (National International or Local Organization)"
+              "1. Identify a national, international, or local organization that helps to protect archaeological sites."
             ],
             "rows": [
-              "1. Identify a national, international, or local organization that helps to protect archaeological sites.",
-              "2. Key Pamphlet Facts & Mechanism (National International or Local Organization)",
-              "3. Field Application & Counselor Discussion (National International or Local Organization)"
-            ]
+              "1. Identify a national, international, or local organization that helps to protect archaeological sites."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 26, p. 68",
-            "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+            "misconception": "Estimating A national, international, or local organization figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "fact": "Accurate Archaeology Requirement 5b (A national, international, or local organization) analysis requires contemporaneous data logging and verified measurements: This law gives more protection.",
+            "fact_correction": "Accurate Archaeology Requirement 5b (A national, international, or local organization) analysis requires contemporaneous data logging and verified measurements: This law gives more protection.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
+            "myth": "Estimating A national, international, or local organization figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "correction": "Accurate Archaeology Requirement 5b (A national, international, or local organization) analysis requires contemporaneous data logging and verified measurements: This law gives more protection."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1093,21 +1089,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(5a) Learn About The Federal Laws",
-          "(5b) National International or Local Organization"
+          "1. (5a) Learn About The Federal Laws",
+          "2. (5b) National International or Local Organization"
         ],
         "rows": [
-          "(5a) Learn About The Federal Laws",
-          "(5b) National International or Local Organization"
-        ]
+          "1. (5a) Learn About The Federal Laws",
+          "2. (5b) National International or Local Organization"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 26, p. 68",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+        "fact": "Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+        "fact_correction": "Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
+        "myth": "Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+        "correction": "Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1132,15 +1129,15 @@
       ],
       "pamphlet_excerpts": [
         "Learn About The Federal Laws: Learn About The Federal Laws: Invite an archaeologist to speak to your troop or other group (p. 26).",
-        "Learn About The Federal Laws Principle 2: Learn About The Federal Laws Principle 2: Better yet, your troop could arrange an archaeologicalouting (p. 26).",
-        "Learn About The Federal Laws Principle 3: Learn About The Federal Laws Principle 3: Parkin Archeological State Park in Arkansas preserves the site of a Mississippian-period American Indian village that is datedat a. d. 1350 to 1550 (p. 26).",
-        "Learn About The Federal Laws Principle 4: Learn About The Federal Laws Principle 4: Thislaw gives more protection to archaeological resources onpublic and American Indian lands and encourages the sharing of information gathered (p. 26)."
+        "Learn About The Federal Laws Principle 2: Learn About The Federal Laws Principle 2: Better yet, your troop could arrange an archaeological outing (p. 26).",
+        "Learn About The Federal Laws Principle 3: Learn About The Federal Laws Principle 3: Park in Archeological State Park in Arkansas preserves the site of a Mississippian-period American Indian village that is dated at a. d. 1350 to 1550 (p. 26).",
+        "Learn About The Federal Laws Principle 4: Learn About The Federal Laws Principle 4: This law gives more protection to archaeological resources on public and American Indian lands and encourages the sharing of information gathered (p. 26)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Learn About The Federal Laws): Step 1 (Learn About The Federal Laws): It also toughenspenalties for the unauthorized excavation of or damage toarchaeological sites and controls the sale of artifacts (p. 26).",
-        "Step 2 (Learn About The Federal Laws): Step 2 (Learn About The Federal Laws): Since 1979, all construction on federal lands and all construction thatuses federal funds require an archaeological survey (p. 26).",
-        "Step 3 (Learn About The Federal Laws): Step 3 (Learn About The Federal Laws): The surveydetermines whether archaeological sites will be damaged by the construction and how the information from the sites (p. 26).",
-        "Step 4 (Learn About The Federal Laws): Step 4 (Learn About The Federal Laws): All states have similar laws thatprotect archaeological resources on state lands (p. 26)."
+        "Step 1 (Learn About The Federal Laws): Step 1 (Learn About The Federal Laws): It also toughens penalties for the unauthorized excavation of or damage to archaeological sites and controls the sale of artifacts (p. 26).",
+        "Step 2 (Learn About The Federal Laws): Step 2 (Learn About The Federal Laws): Since 1979, all construction on federal lands and all construction that uses federal funds require an archaeological survey (p. 26).",
+        "Step 3 (Learn About The Federal Laws): Step 3 (Learn About The Federal Laws): The survey determines whether archaeological sites will be damaged by the construction and how the information from the sites (p. 26).",
+        "Step 4 (Learn About The Federal Laws): Step 4 (Learn About The Federal Laws): All states have similar laws that protect archaeological resources on state lands (p. 26)."
       ],
       "gear_checklist": [
         "Official Archaeology Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Learn About The Federal Laws)",
@@ -1185,36 +1182,36 @@
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Learn About The Federal Laws.",
           "Tracked Field Data": "Learn About The Federal Laws: Learn About The Federal Laws: Invite an archaeologist to speak to your troop or other group (p. 26).",
-          "Variance & Outcome Analysis": "Learn About The Federal Laws Principle 2: Learn About The Federal Laws Principle 2: Better yet, your troop could arrange an archaeologicalouting (p. 26).",
+          "Variance & Outcome Analysis": "Learn About The Federal Laws Principle 2: Learn About The Federal Laws Principle 2: Better yet, your troop could arrange an archaeological outing (p. 26).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68))"
         },
         "sample_output": "Learn About The Federal Laws: Learn About The Federal Laws: Learn About The Federal Laws: Invite an archaeologist to speak to your troop or other group (p. 26).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Learn About The Federal Laws: Learn about the federal laws and international conventions that protec)?",
-        "question": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Learn About The Federal Laws: Learn about the federal laws and international conventions that protec)?",
+        "scenario_prompt": "When working on Archaeology Requirement 5 (Learn about the federal laws), which principle and field standard is established in the Archaeology Merit Badge Pamphlet?",
+        "question": "When working on Archaeology Requirement 5 (Learn about the federal laws), which principle and field standard is established in the Archaeology Merit Badge Pamphlet?",
         "options": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About.",
-          "B. Estimating Learn About The Federal Laws entries from memory at the end of the project satisfies the Archaeology Requirement 5 standard.",
-          "C. Focus only on Learn about the federal laws and international conventi while omitting Identify a national, international, or local organizati and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Federal Laws."
+          "A. Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+          "B. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+          "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+          "D. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2."
         ],
         "choices": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About.",
-          "B. Estimating Learn About The Federal Laws entries from memory at the end of the project satisfies the Archaeology Requirement 5 standard.",
-          "C. Focus only on Learn about the federal laws and international conventi while omitting Identify a national, international, or local organizati and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Federal Laws."
+          "A. Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+          "B. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+          "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+          "D. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About.",
-        "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About The Federal Laws milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)).",
-        "pamphlet_page_ref": "p. 26, p. 68"
+        "correct_answer": "A. Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+        "explanation": "Correct Answer (A): Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p067_img1.png"
     },
     {
       "req_id": "6",
@@ -1249,24 +1246,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain why it is important to protect archaeological sites.",
-              "2. Key Pamphlet Facts & Mechanism (Important to Protect Archaeological Sites)",
-              "3. Field Application & Counselor Discussion (Important to Protect Archaeological Sites)"
+              "1. Explain why it is important to protect archaeological sites."
             ],
             "rows": [
-              "1. Explain why it is important to protect archaeological sites.",
-              "2. Key Pamphlet Facts & Mechanism (Important to Protect Archaeological Sites)",
-              "3. Field Application & Counselor Discussion (Important to Protect Archaeological Sites)"
-            ]
+              "1. Explain why it is important to protect archaeological sites."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 14, p. 28",
-            "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+            "misconception": "Estimating It is important to protect archaeological figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "fact": "Accurate Archaeology Requirement 6a (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools.",
+            "fact_correction": "Accurate Archaeology Requirement 6a (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
+            "myth": "Estimating It is important to protect archaeological figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+            "correction": "Accurate Archaeology Requirement 6a (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1297,7 +1291,7 @@
           "pamphlet_excerpts": [
             "Important to Protect Archaeological Sites: It is important to protect archaeological Principle 4: Museums, schools, and publicbuildings may also have exhibits that share with everyone the knowledge gained by studying the past (p. 14)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/archaeology_p021_img1.png"
         },
         {
           "sub_id": "6b",
@@ -1325,24 +1319,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what people should do if they think they have found an artifact.",
-              "2. Key Pamphlet Facts & Mechanism (People Should Do If They)",
-              "3. Field Application & Counselor Discussion (People Should Do If They)"
+              "1. Explain what people should do if they think they have found an artifact."
             ],
             "rows": [
-              "1. Explain what people should do if they think they have found an artifact.",
-              "2. Key Pamphlet Facts & Mechanism (People Should Do If They)",
-              "3. Field Application & Counselor Discussion (People Should Do If They)"
-            ]
+              "1. Explain what people should do if they think they have found an artifact."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of People Should Do If They without explaining how it works in practice satisfies Archaeology Requirement 6b.",
-            "fact": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of People Should Do If They (People Should Do If They) (p. 14, p. 28).",
-            "fact_correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of People Should Do If They (People Should Do If They) (p. 14, p. 28).",
-            "pamphlet_page_ref": "p. 14, p. 28",
-            "myth": "Memorizing a one-line definition of People Should Do If They without explaining how it works in practice satisfies Archaeology Requirement 6b.",
-            "correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of People Should Do If They (People Should Do If They) (p. 14, p. 28)."
+            "misconception": "Treating the technical factors of People should do if they think in Archaeology Requirement 6b as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Archaeology Requirement 6b (People should do if they think), each principle directly governs real-world performance: Before yougo online, be sure you have your parent or guardian's permission.",
+            "fact_correction": "In Archaeology Requirement 6b (People should do if they think), each principle directly governs real-world performance: Before yougo online, be sure you have your parent or guardian's permission.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
+            "myth": "Treating the technical factors of People should do if they think in Archaeology Requirement 6b as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Archaeology Requirement 6b (People should do if they think), each principle directly governs real-world performance: Before yougo online, be sure you have your parent or guardian's permission."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1405,24 +1396,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the ways in which you can be a protector of the past.",
-              "2. Key Pamphlet Facts & Mechanism (You Can Be A Protector)",
-              "3. Field Application & Counselor Discussion (You Can Be A Protector)"
+              "1. Describe the ways in which you can be a protector of the past."
             ],
             "rows": [
-              "1. Describe the ways in which you can be a protector of the past.",
-              "2. Key Pamphlet Facts & Mechanism (You Can Be A Protector)",
-              "3. Field Application & Counselor Discussion (You Can Be A Protector)"
-            ]
+              "1. Describe the ways in which you can be a protector of the past."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of You Can Be A Protector without explaining how it works in practice satisfies Archaeology Requirement 6c.",
-            "fact": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Can Be A Protector (You Can Be A Protector) (p. 14, p. 28).",
-            "fact_correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Can Be A Protector (You Can Be A Protector) (p. 14, p. 28).",
-            "pamphlet_page_ref": "p. 14, p. 28",
-            "myth": "Memorizing a one-line definition of You Can Be A Protector without explaining how it works in practice satisfies Archaeology Requirement 6c.",
-            "correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of You Can Be A Protector (You Can Be A Protector) (p. 14, p. 28)."
+            "misconception": "Assuming Ways in in Archaeology Requirement 6c operates identically across all environmental and technical conditions.",
+            "fact": "As you can see, archaeology has become an important science for exploring our past and preserving our heritage.",
+            "fact_correction": "As you can see, archaeology has become an important science for exploring our past and preserving our heritage.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
+            "myth": "Assuming Ways in in Archaeology Requirement 6c operates identically across all environmental and technical conditions.",
+            "correction": "As you can see, archaeology has become an important science for exploring our past and preserving our heritage."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1504,23 +1492,24 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(6a) Important to Protect Archaeological Sites",
-          "(6b) People Should Do If They",
-          "(6c) You Can Be A Protector"
+          "1. (6a) Important to Protect Archaeological Sites",
+          "2. (6b) People Should Do If They",
+          "3. (6c) You Can Be A Protector"
         ],
         "rows": [
-          "(6a) Important to Protect Archaeological Sites",
-          "(6b) People Should Do If They",
-          "(6c) You Can Be A Protector"
-        ]
+          "1. (6a) Important to Protect Archaeological Sites",
+          "2. (6b) People Should Do If They",
+          "3. (6c) You Can Be A Protector"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 14, p. 28",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Estimating It is important to protect archaeological figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 6.",
+        "fact": "Accurate Archaeology Requirement 6 (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools.",
+        "fact_correction": "Accurate Archaeology Requirement 6 (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
+        "myth": "Estimating It is important to protect archaeological figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 6.",
+        "correction": "Accurate Archaeology Requirement 6 (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1544,15 +1533,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "It is important to protect archaeological: Before yougo online, besure you haveyour parentor guardian's permission (p. 14).",
-        "It is important to protect archaeological Principle 2: As you can see, archaeology has become an importantscience for exploring our past and preserving our heritage (p. 14).",
-        "It is important to protect archaeological Principle 3: Visitor centers have been built at many archaeological siteswhere you can view artifacts and learn about the people whomade and used them (p. 14).",
-        "It is important to protect archaeological Principle 4: Museums, schools, and publicbuildings may also have exhibits that share with everyone the knowledge gained by studying the past (p. 14)."
+        "It is important to protect archaeological: Before yougo online, be sure you have your parent or guardian's permission (p. 14).",
+        "It is important to protect archaeological Principle 2: As you can see, archaeology has become an important science for exploring our past and preserving our heritage (p. 14).",
+        "It is important to protect archaeological Principle 3: Visitor centers have been built at many archaeological sites where you can view artifacts and learn about the people who made and used them (p. 14).",
+        "It is important to protect archaeological Principle 4: Museums, schools, and public buildings may also have exhibits that share with everyone the knowledge gained by studying the past (p. 14)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (It is important to protect archaeological): Archaeology clubs andprofessional associations promote the appreciation of the past and help protect cultural resources (p. 14).",
-        "Step 2 (It is important to protect archaeological): Libraries are a rich source of information aboutarchaeology and ancient cultures (p. 14).",
-        "Step 3 (It is important to protect archaeological): Librarians can help you findbooks about the science of archaeology and about the peoples and periods of the past that interest (p. 14).",
+        "Step 1 (It is important to protect archaeological): Archaeology clubs and professional associations promote the appreciation of the past and help protect cultural resources (p. 14).",
+        "Step 2 (It is important to protect archaeological): Libraries are a rich source of information about archaeology and ancient cultures (p. 14).",
+        "Step 3 (It is important to protect archaeological): Librarians can help you find books about the science of archaeology and about the peoples and periods of the past that interest (p. 14).",
         "Step 4 (It is important to protect archaeological): The internet also offers many opportunities for exploring the world of archaeology via computer (p. 14)."
       ],
       "gear_checklist": [
@@ -1597,37 +1586,37 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for It is important to protect archaeological.",
-          "Tracked Field Data": "It is important to protect archaeological: Before yougo online, besure you haveyour parentor guardian's permission (p. 14).",
-          "Variance & Outcome Analysis": "It is important to protect archaeological Principle 2: As you can see, archaeology has become an importantscience for exploring our past and preserving our heritage (p. 14).",
+          "Tracked Field Data": "It is important to protect archaeological: Before yougo online, be sure you have your parent or guardian's permission (p. 14).",
+          "Variance & Outcome Analysis": "It is important to protect archaeological Principle 2: As you can see, archaeology has become an important science for exploring our past and preserving our heritage (p. 14).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28))"
         },
         "sample_output": "It is important to protect archaeological: It is important to protect archaeological: Before yougo online, besure you haveyour parentor guardian's permission (p. 14).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Archaeology Requirement 6 (Important to Protect Archaeological Sites), which statement accurately reflects the official BSA standard for Explain why it is important to protect archaeological sites?",
-        "question": "When preparing for your counselor conference on Archaeology Requirement 6 (Important to Protect Archaeological Sites), which statement accurately reflects the official BSA standard for Explain why it is important to protect archaeological sites?",
+        "scenario_prompt": "During your patrol's preparation and review for Archaeology Requirement 6 (It is important to protect archaeological), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Archaeology Requirement 6 (It is important to protect archaeological), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
         "options": [
-          "A. Estimating It is important to protect archaeological entries from memory at the end of the project satisfies the Archaeology.",
-          "B. Skip the Archaeology Pamphlet technical criteria for Important to Protect Archaeological Sites and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each It is.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Important to Protect Archaeological Sites."
+          "A. Estimating It is important to protect archaeological figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 6.",
+          "B. Accurate Archaeology Requirement 6 (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools.",
+          "C. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+          "D. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3."
         ],
         "choices": [
-          "A. Estimating It is important to protect archaeological entries from memory at the end of the project satisfies the Archaeology.",
-          "B. Skip the Archaeology Pamphlet technical criteria for Important to Protect Archaeological Sites and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each It is.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Important to Protect Archaeological Sites."
+          "A. Estimating It is important to protect archaeological figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 6.",
+          "B. Accurate Archaeology Requirement 6 (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools.",
+          "C. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+          "D. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each It is.",
-        "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each It is important to protect archaeological milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)).",
-        "pamphlet_page_ref": "p. 14, p. 28"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Accurate Archaeology Requirement 6 (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools.",
+        "explanation": "Correct Answer (B): Accurate Archaeology Requirement 6 (It is important to protect archaeological) analysis requires contemporaneous data logging and verified measurements: Museums, schools. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p021_img1.png"
     },
     {
       "req_id": "7",
@@ -1662,24 +1651,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a museum to observe how artifacts aid in conveying history.",
-              "2. Key Pamphlet Facts & Mechanism (Museum to Observe How Artifacts)",
-              "3. Field Application & Counselor Discussion (Museum to Observe How Artifacts)"
+              "1. Visit a museum to observe how artifacts aid in conveying history."
             ],
             "rows": [
-              "1. Visit a museum to observe how artifacts aid in conveying history.",
-              "2. Key Pamphlet Facts & Mechanism (Museum to Observe How Artifacts)",
-              "3. Field Application & Counselor Discussion (Museum to Observe How Artifacts)"
-            ]
+              "1. Visit a museum to observe how artifacts aid in conveying history."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the Visit A Museum to Observe field investigation in Archaeology.",
-            "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit A Museum to Observe, and document specific findings (p. 40, p. 48).",
-            "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit A Museum to Observe, and document specific findings (p. 40, p. 48).",
-            "pamphlet_page_ref": "p. 40, p. 48",
-            "myth": "Watching a generic video without preparing questions or counselor approval fulfills the Visit A Museum to Observe field investigation in Archaeology.",
-            "correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit A Museum to Observe, and document specific findings (p. 40, p. 48)."
+            "misconception": "Conducting a Archaeology Requirement 7a (Visit a museum to observe) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "fact": "For Archaeology Requirement 7a (Visit a museum to observe), Scouts obtain advance approval, prepare structured field questions.",
+            "fact_correction": "For Archaeology Requirement 7a (Visit a museum to observe), Scouts obtain advance approval, prepare structured field questions.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
+            "myth": "Conducting a Archaeology Requirement 7a (Visit a museum to observe) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "correction": "For Archaeology Requirement 7a (Visit a museum to observe), Scouts obtain advance approval, prepare structured field questions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1710,7 +1696,7 @@
           "pamphlet_excerpts": [
             "Museum to Observe How Artifacts: Visit A Museum to Observe: Do ONE of The Following: Once it has been moved from the spot where it was found, an artifact can never be returned to exactly the same place (p. 40)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/archaeology_p040_img1.png"
         },
         {
           "sub_id": "7b",
@@ -1733,24 +1719,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Present to your counselor a significant family artifact/heirloom and discuss its history.",
-              "2. Key Pamphlet Facts & Mechanism (Significant Family Artifact/heirloom and Discuss)",
-              "3. Field Application & Counselor Discussion (Significant Family Artifact/heirloom and Discuss)"
+              "1. Present to your counselor a significant family artifact/heirloom and discuss its history."
             ],
             "rows": [
-              "1. Present to your counselor a significant family artifact/heirloom and discuss its history.",
-              "2. Key Pamphlet Facts & Mechanism (Significant Family Artifact/heirloom and Discuss)",
-              "3. Field Application & Counselor Discussion (Significant Family Artifact/heirloom and Discuss)"
-            ]
+              "1. Present to your counselor a significant family artifact/heirloom and discuss its history."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Significant Family Artifact/heirloom and Discuss without explaining how it works in practice satisfies Archaeology Requirement 7b.",
-            "fact": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Significant Family Artifact/heirloom and Discuss (Significant Family Artifact/heirloom and Discuss) (p. 40, p. 48).",
-            "fact_correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Significant Family Artifact/heirloom and Discuss (Significant Family Artifact/heirloom and Discuss) (p. 40, p. 48).",
-            "pamphlet_page_ref": "p. 40, p. 48",
-            "myth": "Memorizing a one-line definition of Significant Family Artifact/heirloom and Discuss without explaining how it works in practice satisfies Archaeology Requirement 7b.",
-            "correction": "The Archaeology pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Significant Family Artifact/heirloom and Discuss (Significant Family Artifact/heirloom and Discuss) (p. 40, p. 48)."
+            "misconception": "Assuming Present to your counselor a significant in Archaeology Requirement 7b operates identically across all environmental and technical conditions.",
+            "fact": "Excavation destroys a site, so data must be recorded before an artifact and its surroundings are disturbed.",
+            "fact_correction": "Excavation destroys a site, so data must be recorded before an artifact and its surroundings are disturbed.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
+            "myth": "Assuming Present to your counselor a significant in Archaeology Requirement 7b operates identically across all environmental and technical conditions.",
+            "correction": "Excavation destroys a site, so data must be recorded before an artifact and its surroundings are disturbed."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1819,16 +1802,17 @@
             "rows": [
               "1. Make a list of the trash your family throws out during one week.",
               "2. Discuss with your counselor what archaeologists might learn about you and your family if they found your trash a thousand years..."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 40, p. 48",
-            "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+            "misconception": "Performing List of the trash your family in Archaeology Requirement 7c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Archaeology Requirement 7c (List of the trash your family) depends on precise setup and step-by-step technique: The records that archaeologists make include site maps.",
+            "fact_correction": "Hands-on execution of Archaeology Requirement 7c (List of the trash your family) depends on precise setup and step-by-step technique: The records that archaeologists make include site maps.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
+            "myth": "Performing List of the trash your family in Archaeology Requirement 7c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Archaeology Requirement 7c (List of the trash your family) depends on precise setup and step-by-step technique: The records that archaeologists make include site maps."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1906,23 +1890,24 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(7a) Museum to Observe How Artifacts",
-          "(7b) Significant Family Artifact/heirloom and Discuss",
-          "(7c) Trash Your Family Throws Out"
+          "1. (7a) Museum to Observe How Artifacts",
+          "2. (7b) Significant Family Artifact/heirloom and Discuss",
+          "3. (7c) Trash Your Family Throws Out"
         ],
         "rows": [
-          "(7a) Museum to Observe How Artifacts",
-          "(7b) Significant Family Artifact/heirloom and Discuss",
-          "(7c) Trash Your Family Throws Out"
-        ]
+          "1. (7a) Museum to Observe How Artifacts",
+          "2. (7b) Significant Family Artifact/heirloom and Discuss",
+          "3. (7c) Trash Your Family Throws Out"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 40, p. 48",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Performing And discuss your findings in Archaeology Requirement 7 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Archaeology Requirement 7 (And discuss your findings) depends on precise setup and step-by-step technique: Once it has been moved from the spot where it was found.",
+        "fact_correction": "Hands-on execution of Archaeology Requirement 7 (And discuss your findings) depends on precise setup and step-by-step technique: Once it has been moved from the spot where it was found.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
+        "myth": "Performing And discuss your findings in Archaeology Requirement 7 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Archaeology Requirement 7 (And discuss your findings) depends on precise setup and step-by-step technique: Once it has been moved from the spot where it was found."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1947,13 +1932,13 @@
       ],
       "pamphlet_excerpts": [
         "Discuss Your Findings: Do ONE of The Following: Once it has been moved from the spot where it was found, an artifact can never be returned to exactly the same place (p. 40).",
-        "Discuss Your Findings Principle 2: Do ONE of The Following Principle 2: Excavation destroys a site, so data must be recorded before anartifact and its surroundings are disturbed (p. 40).",
-        "Discuss Your Findings Principle 3: Do ONE of The Following Principle 3: The records thatarchaeologists make include site maps, photographs of featureslike houses and pits, and drawings of artifacts (p. 40).",
+        "Discuss Your Findings Principle 2: Do ONE of The Following Principle 2: Excavation destroys a site, so data must be recorded before an artifact and its surroundings are disturbed (p. 40).",
+        "Discuss Your Findings Principle 3: Do ONE of The Following Principle 3: The records that archaeologists make include site maps, photographs of features like houses and pits, and drawings of artifacts (p. 40).",
         "Discuss Your Findings Principle 4: Do ONE of The Following Principle 4: When accurate records are kept, archaeologists will be able to study a site even if they were not present during the excavation (p. 40)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Discuss Your Findings): Step 1 (Do ONE of The Following): Ideally, archaeologists study and write up their findingssoon after a site has been excavated (p. 40).",
-        "Step 2 (Discuss Your Findings): Step 2 (Do ONE of The Following): Researchers of the future, however, might want to use new tools and new methods toreexamine the data from an excavation (p. 40).",
+        "Step 1 (Discuss Your Findings): Step 1 (Do ONE of The Following): Ideally, archaeologists study and write up their findings soon after a site has been excavated (p. 40).",
+        "Step 2 (Discuss Your Findings): Step 2 (Do ONE of The Following): Researchers of the future, however, might want to use new tools and new methods to reexamine the data from an excavation (p. 40).",
         "Step 3 (Discuss Your Findings): Step 3 (Do ONE of The Following): The excavation tools used by archaeologists include shovels, buckets, wheelbarrows, trowels, whisk brooms, brushes, and wire screens (p. 40).",
         "Step 4 (Discuss Your Findings): Step 4 (Do ONE of The Following): Surveyors' instruments are used at large sites that have many excavation areas (p. 40)."
       ],
@@ -2000,36 +1985,36 @@
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Discuss Your Findings.",
           "Tracked Field Data": "Discuss Your Findings: Do ONE of The Following: Once it has been moved from the spot where it was found, an artifact can never be returned to exactly the same place.",
-          "Variance & Outcome Analysis": "Discuss Your Findings Principle 2: Do ONE of The Following Principle 2: Excavation destroys a site, so data must be recorded before anartifact and its surroundings.",
+          "Variance & Outcome Analysis": "Discuss Your Findings Principle 2: Do ONE of The Following Principle 2: Excavation destroys a site, so data must be recorded before an artifact and its surroundings.",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48))"
         },
         "sample_output": "Discuss Your Findings: Discuss Your Findings: Do ONE of The Following: Once it has been moved from the spot where it was found, an artifact can never ",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Archaeology Requirement 7 (Discuss Your Findings), what execution standard is required when demonstrating Visit a museum to observe how artifacts aid in conveying history?",
-        "question": "During the hands-on skill station for Archaeology Requirement 7 (Discuss Your Findings), what execution standard is required when demonstrating Visit a museum to observe how artifacts aid in conveying history?",
+        "scenario_prompt": "In Archaeology Requirement 7 (And discuss your findings), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
+        "question": "In Archaeology Requirement 7 (And discuss your findings), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
         "options": [
-          "A. Estimating Do ONE of The Following entries from memory at the end of the project satisfies the Archaeology Requirement 7 standard.",
-          "B. Skip the Archaeology Pamphlet technical criteria for Discuss Your Findings and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Do ONE of The.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss Your Findings."
+          "A. Performing And discuss your findings in Archaeology Requirement 7 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+          "C. Hands-on execution of Archaeology Requirement 7 (And discuss your findings) depends on precise setup and step-by-step technique: Once it has been moved from the spot where it was found.",
+          "D. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4."
         ],
         "choices": [
-          "A. Estimating Do ONE of The Following entries from memory at the end of the project satisfies the Archaeology Requirement 7 standard.",
-          "B. Skip the Archaeology Pamphlet technical criteria for Discuss Your Findings and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Do ONE of The.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss Your Findings."
+          "A. Performing And discuss your findings in Archaeology Requirement 7 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+          "C. Hands-on execution of Archaeology Requirement 7 (And discuss your findings) depends on precise setup and step-by-step technique: Once it has been moved from the spot where it was found.",
+          "D. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Do ONE of The.",
-        "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Do ONE of The Following milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)).",
-        "pamphlet_page_ref": "p. 40, p. 48"
+        "correct_answer": "C. Hands-on execution of Archaeology Requirement 7 (And discuss your findings) depends on precise setup and step-by-step technique: Once it has been moved from the spot where it was found.",
+        "explanation": "Correct Answer (C): Hands-on execution of Archaeology Requirement 7 (And discuss your findings) depends on precise setup and step-by-step technique: Once it has been moved from the spot where it was found. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p040_img1.png"
     },
     {
       "req_id": "8",
@@ -2079,15 +2064,16 @@
           "2. Find out about their ways of life, including housing, clothing, arts and crafts, tools, trade and markets, rituals and religions,...",
           "3. Describe what you would expect to find at an archaeological site where these people lived.",
           "4. Explain how these people influenced your current community."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 34, p. 56",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Estimating A group of people who lived figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 8.",
+        "fact": "Accurate Archaeology Requirement 8 (A group of people who lived) analysis requires contemporaneous data logging and verified measurements: The environment and changes that took place overtime.",
+        "fact_correction": "Accurate Archaeology Requirement 8 (A group of people who lived) analysis requires contemporaneous data logging and verified measurements: The environment and changes that took place overtime.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 34, p. 56)",
+        "myth": "Estimating A group of people who lived figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 8.",
+        "correction": "Accurate Archaeology Requirement 8 (A group of people who lived) analysis requires contemporaneous data logging and verified measurements: The environment and changes that took place overtime."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2111,14 +2097,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "A group of people who lived: The environment and changes thattook place overtime may posemajor challenges to site and artifactinterpretation (p. 34).",
-        "A group of people who lived Principle 2: Forexample, artifacts can be significantlydecayed if the areais not hospitable toorganic materialpreservation (p. 34).",
-        "A group of people who lived Principle 3: Orthe site may have been exposed tonatural forcessuch as firesor earthquakes (p. 34).",
+        "A group of people who lived: The environment and changes that took place overtime may pose major challenges to site and artifact interpretation (p. 34).",
+        "A group of people who lived Principle 2: For example, artifacts can be significantly decayed if the are ais not hospitable to organic material preservation (p. 34).",
+        "A group of people who lived Principle 3: Orthe site may have been exposed to natural forces such as fires or earthquakes (p. 34).",
         "A group of people who lived Principle 4: From excavating sites and analyzing artifacts, archaeologists getraw data: facts (p. 34)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (A group of people who lived): The next step is interpretation, the process ofgiving meaning to the data (p. 34).",
-        "Step 2 (A group of people who lived): Imagine an arrow point found at Cahokia, the site of alarge and complex prehistoric American Indian community inpresent-day Illinois (p. 34).",
+        "Step 1 (A group of people who lived): The next step is interpretation, the process of giving meaning to the data (p. 34).",
+        "Step 2 (A group of people who lived): Imagine an arrow point found at Cahokia, the site of alarge and complex prehistoric American Indian community in present-day Illinois (p. 34).",
         "Step 3 (A group of people who lived): Analysis shows that the point was made ofchert from Arkansas, but the style of the point indicates that itwas made in Oklahoma (p. 34).",
         "Step 4 (A group of people who lived): One interpretation of this data is that the Cahokians traded over long distances (p. 34)."
       ],
@@ -2164,37 +2150,37 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for A group of people who lived.",
-          "Tracked Field Data": "A group of people who lived: The environment and changes thattook place overtime may posemajor challenges to site and artifactinterpretation (p. 34).",
-          "Variance & Outcome Analysis": "A group of people who lived Principle 2: Forexample, artifacts can be significantlydecayed if the areais not hospitable toorganic materialpreservation (p. 34).",
+          "Tracked Field Data": "A group of people who lived: The environment and changes that took place overtime may pose major challenges to site and artifact interpretation (p. 34).",
+          "Variance & Outcome Analysis": "A group of people who lived Principle 2: For example, artifacts can be significantly decayed if the are ais not hospitable to organic material preservation (p. 34).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Archaeology Merit Badge Pamphlet (p. 34, p. 56))"
         },
         "sample_output": "A group of people who lived: A group of people who lived: The environment and changes thattook place overtime may posemajor challenges to site and artifactinterpretation",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 34, p. 56)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 8 (People Who Lived in Your: Research a group of people who lived in your area more than 100 years )?",
-        "question": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 8 (People Who Lived in Your: Research a group of people who lived in your area more than 100 years )?",
+        "scenario_prompt": "When demonstrating and explaining A group of people who lived for Archaeology Requirement 8, which approach follows the verified Archaeology Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining A group of people who lived for Archaeology Requirement 8, which approach follows the verified Archaeology Merit Badge Pamphlet standard?",
         "options": [
-          "A. Estimating A group of people who lived entries from memory at the end of the project satisfies the Archaeology Requirement 8 standard.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each A group of.",
-          "C. Rely on a group summary of People Who Lived in Your instead of individually explaining or demonstrating Research a group of people who lived in your area more than .",
-          "D. Assume People Who Lived in Your applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+          "A. Estimating A group of people who lived figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 8.",
+          "B. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+          "C. Estimating For EACH site you research, point figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+          "D. Accurate Archaeology Requirement 8 (A group of people who lived) analysis requires contemporaneous data logging and verified measurements: The environment and changes that took place overtime."
         ],
         "choices": [
-          "A. Estimating A group of people who lived entries from memory at the end of the project satisfies the Archaeology Requirement 8 standard.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each A group of.",
-          "C. Rely on a group summary of People Who Lived in Your instead of individually explaining or demonstrating Research a group of people who lived in your area more than .",
-          "D. Assume People Who Lived in Your applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+          "A. Estimating A group of people who lived figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 8.",
+          "B. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+          "C. Estimating For EACH site you research, point figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+          "D. Accurate Archaeology Requirement 8 (A group of people who lived) analysis requires contemporaneous data logging and verified measurements: The environment and changes that took place overtime."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each A group of.",
-        "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each A group of people who lived milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 34, p. 56)).",
-        "pamphlet_page_ref": "p. 34, p. 56"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Accurate Archaeology Requirement 8 (A group of people who lived) analysis requires contemporaneous data logging and verified measurements: The environment and changes that took place overtime.",
+        "explanation": "Correct Answer (D): Accurate Archaeology Requirement 8 (A group of people who lived) analysis requires contemporaneous data logging and verified measurements: The environment and changes that took place overtime. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 34, p. 56)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 34, p. 56)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p034_img1.png"
     },
     {
       "req_id": "9",
@@ -2265,15 +2251,16 @@
           "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement.",
           "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a...",
           "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-        "fact": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Archaeology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Archaeology (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Archaeology (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 79, p. 81)",
-        "myth": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-        "correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+        "myth": "Casual hobby familiarity with Archaeology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Archaeology (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2303,15 +2290,15 @@
       ],
       "pamphlet_excerpts": [
         "Careers & Professional Pathways: Students of archaeology study a variety of subjects, including many sciences (p. 79).",
-        "Careers & Professional Pathways Principle 2: The scientific analysis of sites and artifactsrequires a knowledge of geology, paleontology, physics, chemistry, botany, zoology, and statistics (p. 79).",
-        "Careers & Professional Pathways Principle 3: Interdisciplinary programs that combine archaeology withvarious other fields of study are common (p. 79).",
-        "Careers & Professional Pathways Principle 4: Historical archaeologists usually major in anthropologyor history (p. 79)."
+        "Careers & Professional Pathways Principle 2: The scientific analysis of sites and artifacts requires a knowledge of geology, paleontology, physics, chemistry, botany, zoology, and statistics (p. 79).",
+        "Careers & Professional Pathways Principle 3: Interdisciplinary programs that combine archaeology with various other fields of study are common (p. 79).",
+        "Careers & Professional Pathways Principle 4: Historical archaeologists usually major in anthropology or history (p. 79)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways): To work as a field archaeologist, previous experience isoften required (usually obtained by spending a summer in anarchaeological field) (p. 79).",
-        "Step 2 (Careers & Professional Pathways): Archaeological field schools provide the best way to learn howto properly excavate and document archaeological sites, andalso to find (p. 79).",
+        "Step 1 (Careers & Professional Pathways): To work as a field archaeologist, previous experience is often required (usually obtained by spending a summer in an archaeological field) (p. 79).",
+        "Step 2 (Careers & Professional Pathways): Archaeological field schools provide the best way to learn howto properly excavate and document archaeological sites, and also to find (p. 79).",
         "Step 3 (Careers & Professional Pathways): You can begin now to prepare for your college courseworkby taking all of the science, history, and language classes (p. 79).",
-        "Step 4 (Careers & Professional Pathways): Strong communication skills are vital to an archaeologist, so you'll need a good grounding in writing, speech, and foreignlanguages (p. 79)."
+        "Step 4 (Careers & Professional Pathways): Strong communication skills are vital to an archaeologist, so you'll need a good grounding in writing, speech, and foreign languages (p. 79)."
       ],
       "gear_checklist": [
         "Official Archaeology Merit Badge Pamphlet and Fillable Workbook (open to Req 9: Careers & Professional Pathways)",
@@ -2354,38 +2341,38 @@
         "title": "Exemplar Skill Station Walkthrough: Archaeology Req 9 (Careers & Professional Pathways)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Careers & Professional Pathways.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Careers & Professional Pathways.",
           "Step-by-Step Execution": "Careers & Professional Pathways: Students of archaeology study a variety of subjects, including many sciences (p. 79).",
-          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: The scientific analysis of sites and artifactsrequires a knowledge of geology, paleontology, physics, chemistry, botany, zoology.",
+          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: The scientific analysis of sites and artifacts requires a knowledge of geology, paleontology, physics, chemistry, botany, zoology.",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Archaeology Merit Badge Pamphlet (p. 79, p. 81))"
         },
         "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: Students of archaeology study a variety of subjects, including many sciences (p. 79).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 79, p. 81)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Archaeology Requirement 9 (Archaeology Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Archaeology Requirement 9 (Archaeology Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "When working on Archaeology Requirement 9 (Careers & Professional Pathways), which principle and field standard is established in the Archaeology Merit Badge Pamphlet?",
+        "question": "When working on Archaeology Requirement 9 (Careers & Professional Pathways), which principle and field standard is established in the Archaeology Merit Badge Pamphlet?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-          "B. Reverse the sequence of Archaeology Careers and Pathways steps by attempting final sign-off before completing Explore careers related to this merit badge.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Archaeology Careers and Pathways.",
-          "D. Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties."
+          "A. Pursuing a career or advanced pathway in Archaeology (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "B. Casual hobby familiarity with Archaeology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Estimating For EACH site you research, point figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+          "D. Assuming Sites You Picked in Archaeology Requirement 4b operates identically across all environmental and technical conditions."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-          "B. Reverse the sequence of Archaeology Careers and Pathways steps by attempting final sign-off before completing Explore careers related to this merit badge.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Archaeology Careers and Pathways.",
-          "D. Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties."
+          "A. Pursuing a career or advanced pathway in Archaeology (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "B. Casual hobby familiarity with Archaeology is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "C. Estimating For EACH site you research, point figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement.",
+          "D. Assuming Sites You Picked in Archaeology Requirement 4b operates identically across all environmental and technical conditions."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (D): Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 79, p. 81)).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Pursuing a career or advanced pathway in Archaeology (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (A): Pursuing a career or advanced pathway in Archaeology (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 79, p. 81)).",
         "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 79, p. 81)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 9.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p078_img1.png"
     },
     {
       "req_id": "10",
@@ -2425,16 +2412,17 @@
               "2. Projects may include surveying, site monitoring, site stabilization, surface excavation, laboratory analysis, use of digital...",
               "3. Describe your involvement in the project, what you learned about archaeology, and the steps of archaeological inquiry.",
               "4. Note: Visiting an archaeological site will require advance planning."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-            "fact": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "fact_correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "pamphlet_page_ref": "p. 71, p. 74",
-            "myth": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-            "correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+            "misconception": "During Archaeology Requirement 10a (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+            "fact": "Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site.",
+            "fact_correction": "Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)",
+            "myth": "During Archaeology Requirement 10a (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+            "correction": "Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2470,7 +2458,7 @@
           "pamphlet_excerpts": [
             "Assist A Qualified Archaeologist: Your Parent or Guardian's: Careers and Professional Pathways Principle 3: Then you cananalyze the artifacts in the context of the site (p. 71)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/archaeology_p075_img1.png"
         },
         {
           "sub_id": "10b",
@@ -2503,16 +2491,17 @@
               "2. The project must include the use of a simulated archaeological site including artifacts and features for the site.",
               "3. Using the steps of archaeological inquiry, analyze the artifacts and features and document the spatial relationships of the...",
               "4. Explain how the environment and time can affect the interpretation of an artifact and the overall archaeological site."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-            "fact": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "fact_correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "misconception": "Casual hobby familiarity with Archaeology is sufficient to enter a professional Take part in a simulated archaeological career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Archaeology (Req 10b) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "fact_correction": "Pursuing a career or advanced pathway in Archaeology (Req 10b) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
             "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)",
-            "myth": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-            "correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+            "myth": "Casual hobby familiarity with Archaeology is sufficient to enter a professional Take part in a simulated archaeological career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Archaeology (Req 10b) requires researching specific education, apprenticeship or degree credentials, industry certifications."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2587,21 +2576,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(10a) Permission Assist A Qualified Archaeologist",
-          "(10b) Archaeology Careers and Pathways"
+          "1. (10a) Permission Assist A Qualified Archaeologist",
+          "2. (10b) Archaeology Careers and Pathways"
         ],
         "rows": [
-          "(10a) Permission Assist A Qualified Archaeologist",
-          "(10b) Archaeology Careers and Pathways"
-        ]
+          "1. (10a) Permission Assist A Qualified Archaeologist",
+          "2. (10b) Archaeology Careers and Pathways"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-        "fact": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "During Archaeology Requirement 10 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "fact": "Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site.",
+        "fact_correction": "Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site.",
         "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)",
-        "myth": "Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-        "correction": "Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+        "myth": "During Archaeology Requirement 10 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "correction": "Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2630,16 +2620,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers and Professional Pathways: Dig This. with constructing the simulated site, you'll learn even moreas a result (p. 71).",
-        "Careers and Professional Pathways Principle 2: Archaeologyeducation professionals have found a simulated excavationmay not be as rich an experience as studying authentic data (p. 71).",
-        "Careers and Professional Pathways Principle 3: Then you cananalyze the artifacts in the context of the site (p. 71).",
-        "Careers and Professional Pathways Principle 4: Draw the site map to scale andinclude the location of each artifact and various features at the site (p. 71)."
+        "Careers and Professional Pathways: Dig This. with constructing the simulated site, you'll learn even more as a result (p. 71).",
+        "Careers and Professional Pathways Principle 2: Archaeology education professionals have found a simulated excavation may not be as rich an experience as studying authentic data (p. 71).",
+        "Careers and Professional Pathways Principle 3: Then you can analyze the artifacts in the context of the site (p. 71).",
+        "Careers and Professional Pathways Principle 4: Draw the site map to scale and include the location of each artifact and various features at the site (p. 71)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Careers and Professional Pathways): Again, if artifacts are removed from the site, record the location of each one and return them upon completion of the project (p. 71).",
-        "Step 2 (Careers and Professional Pathways): You have read about archaeology, what it is, and how the workis done (p. 71).",
-        "Step 3 (Careers and Professional Pathways): You've gone to meetings of the local archaeologicalsociety, talked with professionals, and visited sites or museums (p. 71).",
-        "Step 4 (Careers and Professional Pathways): The next step is to get hands-on experience at a professionallysupervised archaeological excavation (p. 71)."
+        "Step 2 (Careers and Professional Pathways): You have read about archaeology, what it is, and how the work is done (p. 71).",
+        "Step 3 (Careers and Professional Pathways): You've gone to meetings of the local archaeological society, talked with professionals, and visited sites or museums (p. 71).",
+        "Step 4 (Careers and Professional Pathways): The next step is to get hands-on experience at a professionally supervised archaeological excavation (p. 71)."
       ],
       "gear_checklist": [
         "Official Archaeology Merit Badge Pamphlet and Fillable Workbook (open to Req 10: Careers and Professional Pathways)",
@@ -2683,37 +2673,37 @@
         "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
           "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Careers and Professional Pathways.",
-          "Preventive Controls & PPE": "Careers and Professional Pathways: Dig This. with constructing the simulated site, you'll learn even moreas a result (p. 71).",
-          "Acute First-Aid Response": "Careers and Professional Pathways Principle 2: Archaeologyeducation professionals have found a simulated excavationmay not be as rich an experience as studying authentic data (p. 7)",
+          "Preventive Controls & PPE": "Careers and Professional Pathways: Dig This. with constructing the simulated site, you'll learn even more as a result (p. 71).",
+          "Acute First-Aid Response": "Careers and Professional Pathways Principle 2: Archaeology education professionals have found a simulated excavation may not be as rich an experience as studying authentic data (p. 7)",
           "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)."
         },
         "sample_output": "Careers and Professional Pathways: Careers and Professional Pathways: Dig This. with constructing the simulated site, you'll learn even moreas a result (p. 71).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Archaeology Requirement 10 (Archaeology Careers and Pathways), what execution standard is required when demonstrating With your parent or guardian's and counselor's permission, assist a qualifi?",
-        "question": "During the hands-on skill station for Archaeology Requirement 10 (Archaeology Careers and Pathways), what execution standard is required when demonstrating With your parent or guardian's and counselor's permission, assist a qualifi?",
+        "scenario_prompt": "During your patrol's preparation and review for Archaeology Requirement 10 (With your parent or guardian's), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Archaeology Requirement 10 (With your parent or guardian's), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
         "options": [
-          "A. Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties.",
-          "B. Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-          "C. Focus only on With your parent or guardian's and counselor's permissi while omitting With your counselor's approval, take part in a simulate and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Archaeology Careers and Pathways."
+          "A. During Archaeology Requirement 10 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+          "B. Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site.",
+          "C. Assuming Sites You Picked in Archaeology Requirement 4b operates identically across all environmental and technical conditions.",
+          "D. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5."
         ],
         "choices": [
-          "A. Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties.",
-          "B. Listing three job titles from a quick web search satisfies the Archaeology career exploration requirement.",
-          "C. Focus only on With your parent or guardian's and counselor's permissi while omitting With your counselor's approval, take part in a simulate and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Archaeology Careers and Pathways."
+          "A. During Archaeology Requirement 10 (With your parent or guardian's), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+          "B. Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site.",
+          "C. Assuming Sites You Picked in Archaeology Requirement 4b operates identically across all environmental and technical conditions.",
+          "D. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (A): Scouts must research specific Archaeology career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site.",
+        "explanation": "Correct Answer (B): Every Archaeology outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: Then you can analyze the artifacts in the context of the site. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)).",
         "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 10.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p075_img1.png"
     },
     {
       "req_id": "11",
@@ -2743,24 +2733,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area.",
-              "2. Key Pamphlet Facts & Mechanism (Help Prepare An Archaeological Exhibit)",
-              "3. Field Application & Counselor Discussion (Help Prepare An Archaeological Exhibit)"
+              "1. Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area."
             ],
             "rows": [
-              "1. Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area.",
-              "2. Key Pamphlet Facts & Mechanism (Help Prepare An Archaeological Exhibit)",
-              "3. Field Application & Counselor Discussion (Help Prepare An Archaeological Exhibit)"
-            ]
+              "1. Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 28, p. 58",
-            "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+            "misconception": "Conducting a Archaeology Requirement 11a (Help prepare an archaeological exhibit) field visit or interview without prepared technical questions or advance counselor approval yields.",
+            "fact": "For Archaeology Requirement 11a (Help prepare an archaeological exhibit), Scouts obtain advance approval, prepare structured field questions.",
+            "fact_correction": "For Archaeology Requirement 11a (Help prepare an archaeological exhibit), Scouts obtain advance approval, prepare structured field questions.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)",
+            "myth": "Conducting a Archaeology Requirement 11a (Help prepare an archaeological exhibit) field visit or interview without prepared technical questions or advance counselor approval yields.",
+            "correction": "For Archaeology Requirement 11a (Help prepare an archaeological exhibit), Scouts obtain advance approval, prepare structured field questions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2791,7 +2778,7 @@
           "pamphlet_excerpts": [
             "Archaeological Exhibit for Display: Help Prepare An Archaeological Exhibit: Under the supervision of a qualified Principle 4: Museums, schools, and publicbuildings may also have exhibits that share with everyone the knowledge gained by studying the past (p. 28)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/archaeology_p029_img1.png"
         },
         {
           "sub_id": "11b",
@@ -2820,16 +2807,17 @@
             "rows": [
               "1. Use the methods of experimental archaeology to re-create an item or to practice a skill from the past.",
               "2. Write a brief report explaining the experiment and its results."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 28, p. 58",
-            "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+            "misconception": "Performing Use the methods of experimental archaeology in Archaeology Requirement 11b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Archaeology Requirement 11b (Use the methods of experimental archaeology) depends on precise setup and step-by-step technique: Before yougo online, be sure you have your.",
+            "fact_correction": "Hands-on execution of Archaeology Requirement 11b (Use the methods of experimental archaeology) depends on precise setup and step-by-step technique: Before yougo online, be sure you have your.",
+            "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)",
+            "myth": "Performing Use the methods of experimental archaeology in Archaeology Requirement 11b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Archaeology Requirement 11b (Use the methods of experimental archaeology) depends on precise setup and step-by-step technique: Before yougo online, be sure you have your."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2894,21 +2882,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(11a) Help Prepare An Archaeological Exhibit",
-          "(11b) Experimental Archaeology to Re-create"
+          "1. (11a) Help Prepare An Archaeological Exhibit",
+          "2. (11b) Experimental Archaeology to Re-create"
         ],
         "rows": [
-          "(11a) Help Prepare An Archaeological Exhibit",
-          "(11b) Experimental Archaeology to Re-create"
-        ]
+          "1. (11a) Help Prepare An Archaeological Exhibit",
+          "2. (11b) Experimental Archaeology to Re-create"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 28, p. 58",
-        "myth": "Skipping hands-on verification or partial completion of Archaeology Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Archaeology Requirement  () for counselor verification."
+        "misconception": "Performing Under the supervision of a qualified in Archaeology Requirement 11 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Archaeology Requirement 11 (Under the supervision of a qualified) depends on precise setup and step-by-step technique: Museums, schools.",
+        "fact_correction": "Hands-on execution of Archaeology Requirement 11 (Under the supervision of a qualified) depends on precise setup and step-by-step technique: Museums, schools.",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)",
+        "myth": "Performing Under the supervision of a qualified in Archaeology Requirement 11 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Archaeology Requirement 11 (Under the supervision of a qualified) depends on precise setup and step-by-step technique: Museums, schools."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2932,15 +2921,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Under the supervision of a qualified: Before yougo online, besure you haveyour parentor guardian's permission (p. 28).",
-        "Under the supervision of a qualified Principle 2: As you can see, archaeology has become an importantscience for exploring our past and preserving our heritage (p. 28).",
-        "Under the supervision of a qualified Principle 3: Visitor centers have been built at many archaeological siteswhere you can view artifacts and learn about the people whomade and used them (p. 28).",
-        "Under the supervision of a qualified Principle 4: Museums, schools, and publicbuildings may also have exhibits that share with everyone the knowledge gained by studying the past (p. 28)."
+        "Under the supervision of a qualified: Before yougo online, be sure you have your parent or guardian's permission (p. 28).",
+        "Under the supervision of a qualified Principle 2: As you can see, archaeology has become an important science for exploring our past and preserving our heritage (p. 28).",
+        "Under the supervision of a qualified Principle 3: Visitor centers have been built at many archaeological sites where you can view artifacts and learn about the people who made and used them (p. 28).",
+        "Under the supervision of a qualified Principle 4: Museums, schools, and public buildings may also have exhibits that share with everyone the knowledge gained by studying the past (p. 28)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Under the supervision of a qualified): Archaeology clubs andprofessional associations promote the appreciation of the past and help protect cultural resources (p. 28).",
-        "Step 2 (Under the supervision of a qualified): Libraries are a rich source of information aboutarchaeology and ancient cultures (p. 28).",
-        "Step 3 (Under the supervision of a qualified): Librarians can help you findbooks about the science of archaeology and about the peoples and periods of the past that interest (p. 28).",
+        "Step 1 (Under the supervision of a qualified): Archaeology clubs and professional associations promote the appreciation of the past and help protect cultural resources (p. 28).",
+        "Step 2 (Under the supervision of a qualified): Libraries are a rich source of information about archaeology and ancient cultures (p. 28).",
+        "Step 3 (Under the supervision of a qualified): Librarians can help you find books about the science of archaeology and about the peoples and periods of the past that interest (p. 28).",
         "Step 4 (Under the supervision of a qualified): The internet also offers many opportunities for exploring the world of archaeology via computer (p. 28)."
       ],
       "gear_checklist": [
@@ -2985,37 +2974,37 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Under the supervision of a qualified.",
-          "Tracked Field Data": "Under the supervision of a qualified: Before yougo online, besure you haveyour parentor guardian's permission (p. 28).",
-          "Variance & Outcome Analysis": "Under the supervision of a qualified Principle 2: As you can see, archaeology has become an importantscience for exploring our past and preserving our heritage (p. 28).",
+          "Tracked Field Data": "Under the supervision of a qualified: Before yougo online, be sure you have your parent or guardian's permission (p. 28).",
+          "Variance & Outcome Analysis": "Under the supervision of a qualified Principle 2: As you can see, archaeology has become an important science for exploring our past and preserving our heritage (p. 28).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58))"
         },
         "sample_output": "Under the supervision of a qualified: Under the supervision of a qualified: Before yougo online, besure you haveyour parentor guardian's permission (p. 28).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Archaeology Requirement 11 (Supervision of A Qualified Archaeologist), what execution standard is required when demonstrating Help prepare an archaeological exhibit for display in a museum, visitor cen?",
-        "question": "During the hands-on skill station for Archaeology Requirement 11 (Supervision of A Qualified Archaeologist), what execution standard is required when demonstrating Help prepare an archaeological exhibit for display in a museum, visitor cen?",
+        "scenario_prompt": "In Archaeology Requirement 11 (Under the supervision of a qualified), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
+        "question": "In Archaeology Requirement 11 (Under the supervision of a qualified), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
         "options": [
-          "A. Estimating Under the supervision of a qualified entries from memory at the end of the project satisfies the Archaeology Requirement.",
-          "B. Skip the Archaeology Pamphlet technical criteria for Supervision of A Qualified Archaeologist and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Under the.",
-          "D. Substitute a casual verbal guess about Help prepare an archaeological exhibit for display in a in place of documented Archaeology observations."
+          "A. Performing Under the supervision of a qualified in Archaeology Requirement 11 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+          "C. Hands-on execution of Archaeology Requirement 11 (Under the supervision of a qualified) depends on precise setup and step-by-step technique: Museums, schools.",
+          "D. Estimating A national, international, or local organization figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement."
         ],
         "choices": [
-          "A. Estimating Under the supervision of a qualified entries from memory at the end of the project satisfies the Archaeology Requirement.",
-          "B. Skip the Archaeology Pamphlet technical criteria for Supervision of A Qualified Archaeologist and use rules from an unrelated activity.",
-          "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Under the.",
-          "D. Substitute a casual verbal guess about Help prepare an archaeological exhibit for display in a in place of documented Archaeology observations."
+          "A. Performing Under the supervision of a qualified in Archaeology Requirement 11 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+          "C. Hands-on execution of Archaeology Requirement 11 (Under the supervision of a qualified) depends on precise setup and step-by-step technique: Museums, schools.",
+          "D. Estimating A national, international, or local organization figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Under the.",
-        "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Under the supervision of a qualified milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)).",
-        "pamphlet_page_ref": "p. 28, p. 58"
+        "correct_answer": "C. Hands-on execution of Archaeology Requirement 11 (Under the supervision of a qualified) depends on precise setup and step-by-step technique: Museums, schools.",
+        "explanation": "Correct Answer (C): Hands-on execution of Archaeology Requirement 11 (Under the supervision of a qualified) depends on precise setup and step-by-step technique: Museums, schools. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)).",
+        "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Archaeology Workbook organizer table and practical demonstration for Req 11.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/archaeology_p029_img1.png"
     }
   ],
   "badge_slug": "archaeology",
@@ -3026,117 +3015,117 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Principles of Archaeological Science: Tell what archaeology is and explain to your counselor how it differs )?",
-      "question": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Principles of Archaeological Science: Tell what archaeology is and explain to your counselor how it differs )?",
+      "scenario_prompt": "How does archaeology differ from paleontology, and why is recording an artifact's exact three-dimensional context and stratigraphic layer essential before removing it from the ground?",
+      "question": "How does archaeology differ from paleontology, and why is recording an artifact's exact three-dimensional context and stratigraphic layer essential before removing it from the ground?",
       "options": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of.",
-        "B. Estimating Principles of Archaeological Science entries from memory at the end of the project satisfies the Archaeology Requirement.",
-        "C. Focus only on Tell what archaeology is and explain to your counselor  while omitting Explain how archaeology is different than artifact coll and its required field verification.",
-        "D. Assume Principles of Archaeological Science applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+        "A. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+        "B. Archaeology studies past human cultures through material remains, and an artifact's in-situ context and stratum reveal its age, use, and association with surrounding human activity.",
+        "C. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+        "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
       ],
       "choices": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of.",
-        "B. Estimating Principles of Archaeological Science entries from memory at the end of the project satisfies the Archaeology Requirement.",
-        "C. Focus only on Tell what archaeology is and explain to your counselor  while omitting Explain how archaeology is different than artifact coll and its required field verification.",
-        "D. Assume Principles of Archaeological Science applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+        "A. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+        "B. Archaeology studies past human cultures through material remains, and an artifact's in-situ context and stratum reveal its age, use, and association with surrounding human activity.",
+        "C. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+        "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of.",
-      "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Principles of Archaeological Science milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79)).",
-      "pamphlet_page_ref": "p. 16, p. 79",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Archaeology studies past human cultures through material remains, and an artifact's in-situ context and stratum reveal its age, use, and association with surrounding human activity.",
+      "explanation": "Correct Answer (B): Unlike paleontology (which studies fossilized prehistoric life such as dinosaurs), archaeology investigates past human societies through material culture, where provenance and stratigraphic context provide critical scientific data.",
+      "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Archaeology Requirement 2 (Archaeological Process Site Location Development), which statement accurately reflects the official BSA standard for Describe the following steps of the archaeological process: site location, ?",
-      "question": "When preparing for your counselor conference on Archaeology Requirement 2 (Archaeological Process Site Location Development), which statement accurately reflects the official BSA standard for Describe the following steps of the archaeological process: site location, ?",
+      "scenario_prompt": "During your patrol's preparation and review for Archaeology Requirement 2 (Of the archaeological process), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Archaeology Requirement 2 (Of the archaeological process), which statement accurately reflects the official Archaeology Merit Badge Pamphlet?",
       "options": [
-        "A. Estimating Of the archaeological process entries from memory at the end of the project satisfies the Archaeology Requirement 2.",
-        "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the.",
-        "C. Rely on a group summary of Archaeological Process Site Location Development instead of individually explaining or demonstrating Describe the following steps of the archaeological process: .",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Archaeological Process Site Location Development standard."
+        "A. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+        "B. Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+        "C. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+        "D. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried."
       ],
       "choices": [
-        "A. Estimating Of the archaeological process entries from memory at the end of the project satisfies the Archaeology Requirement 2.",
-        "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the.",
-        "C. Rely on a group summary of Archaeological Process Site Location Development instead of individually explaining or demonstrating Describe the following steps of the archaeological process: .",
-        "D. Complete only a single sub-part of Requirement 2 rather than fulfilling the full Archaeological Process Site Location Development standard."
+        "A. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2.",
+        "B. Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+        "C. Archaeology studies dinosaur fossils and igneous rock formations, and removing artifacts quickly prevents sunlight from fading their mineral crystals.",
+        "D. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried."
       ],
       "correct_index": 1,
       "correct_letter": "B",
-      "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the.",
-      "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Of the archaeological process milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)).",
-      "pamphlet_page_ref": "p. 33, p. 48",
+      "correct_answer": "B. Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process.",
+      "explanation": "Correct Answer (B): Accurate Archaeology Requirement 2 (Of the archaeological process) analysis requires contemporaneous data logging and verified measurements: Archaeologists follow a careful step-by-step process. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)).",
+      "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Archaeology Requirement 3 (Archaeologists Determine The Age of), which statement accurately reflects the official BSA standard for Describe at least two ways in which archaeologists determine the age of sit?",
-      "question": "When preparing for your counselor conference on Archaeology Requirement 3 (Archaeologists Determine The Age of), which statement accurately reflects the official BSA standard for Describe at least two ways in which archaeologists determine the age of sit?",
+      "scenario_prompt": "In Archaeology Requirement 3 (At least two ways), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
+      "question": "In Archaeology Requirement 3 (At least two ways), what technical standard and procedure does the Scouting America Archaeology Merit Badge Pamphlet require?",
       "options": [
-        "A. Estimating At least two ways entries from memory at the end of the project satisfies the Archaeology Requirement 3 standard.",
-        "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two.",
-        "C. Rely on a group summary of Archaeologists Determine The Age of instead of individually explaining or demonstrating Describe at least two ways in which archaeologists determine.",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Archaeologists Determine The Age of standard."
+        "A. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+        "B. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+        "C. Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+        "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
       ],
       "choices": [
-        "A. Estimating At least two ways entries from memory at the end of the project satisfies the Archaeology Requirement 3 standard.",
-        "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two.",
-        "C. Rely on a group summary of Archaeologists Determine The Age of instead of individually explaining or demonstrating Describe at least two ways in which archaeologists determine.",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Archaeologists Determine The Age of standard."
+        "A. Estimating At least two ways figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 3.",
+        "B. Archaeology focuses exclusively on estimating the cash auction value of ancient coins, which depends on how deep the coin was buried.",
+        "C. Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+        "D. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two.",
-      "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each At least two ways milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)).",
-      "pamphlet_page_ref": "p. 52, p. 88",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts.",
+      "explanation": "Correct Answer (C): Accurate Archaeology Requirement 3 (At least two ways) analysis requires contemporaneous data logging and verified measurements: Archaeologists have several ways to figure out how old artifacts. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)).",
+      "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "In Archaeology Requirement 4 (Learn About A Combined Total), how should a Scout accurately distinguish and explain the key technical differences (For EACH site you research, point it out on a map and explain how it became)?",
-      "question": "In Archaeology Requirement 4 (Learn About A Combined Total), how should a Scout accurately distinguish and explain the key technical differences (For EACH site you research, point it out on a map and explain how it became)?",
+      "scenario_prompt": "When demonstrating and explaining Learn about a combined total for Archaeology Requirement 4, which approach follows the verified Archaeology Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Learn about a combined total for Archaeology Requirement 4, which approach follows the verified Archaeology Merit Badge Pamphlet standard?",
       "options": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A.",
-        "B. Estimating Learn About A Combined Total entries from memory at the end of the project satisfies the Archaeology Requirement 4 standard.",
-        "C. Focus only on For EACH site you research, point it out on a map and e while omitting Choose ONE of the sites you picked and give a short pre and its required field verification.",
-        "D. Assume Learn About A Combined Total applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+        "A. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+        "B. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms.",
+        "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+        "D. Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together."
       ],
       "choices": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A.",
-        "B. Estimating Learn About A Combined Total entries from memory at the end of the project satisfies the Archaeology Requirement 4 standard.",
-        "C. Focus only on For EACH site you research, point it out on a map and e while omitting Choose ONE of the sites you picked and give a short pre and its required field verification.",
-        "D. Assume Learn About A Combined Total applies only to indoor classroom theory and has no effect on real-world Archaeology practice."
+        "A. Estimating Learn about a combined total figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 4.",
+        "B. Archaeology is the study of living insect populations, and stratigraphy measures how fast topsoil erodes during summer rainstorms.",
+        "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+        "D. Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A.",
-      "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About A Combined Total milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)).",
-      "pamphlet_page_ref": "p. 14, p. 28",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together.",
+      "explanation": "Correct Answer (D): Accurate Archaeology Requirement 4 (Learn about a combined total) analysis requires contemporaneous data logging and verified measurements: Think of all the little parts that go together. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)).",
+      "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Learn About The Federal Laws: Learn about the federal laws and international conventions that protec)?",
-      "question": "How does the Archaeology Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Learn About The Federal Laws: Learn about the federal laws and international conventions that protec)?",
+      "scenario_prompt": "When working on Archaeology Requirement 5 (Learn about the federal laws), which principle and field standard is established in the Archaeology Merit Badge Pamphlet?",
+      "question": "When working on Archaeology Requirement 5 (Learn about the federal laws), which principle and field standard is established in the Archaeology Merit Badge Pamphlet?",
       "options": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About.",
-        "B. Estimating Learn About The Federal Laws entries from memory at the end of the project satisfies the Archaeology Requirement 5 standard.",
-        "C. Focus only on Learn about the federal laws and international conventi while omitting Identify a national, international, or local organizati and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Federal Laws."
+        "A. Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+        "B. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+        "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+        "D. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2."
       ],
       "choices": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About.",
-        "B. Estimating Learn About The Federal Laws entries from memory at the end of the project satisfies the Archaeology Requirement 5 standard.",
-        "C. Focus only on Learn about the federal laws and international conventi while omitting Identify a national, international, or local organizati and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Learn About The Federal Laws."
+        "A. Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+        "B. Estimating Learn about the federal laws figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 5.",
+        "C. Estimating Archaeology is figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 1.",
+        "D. Estimating Of the archaeological process figures from memory at the end of the project is as accurate as recording real-time measurements for Archaeology Requirement 2."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About.",
-      "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Archaeology log as each Learn About The Federal Laws milestone is completed. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)).",
-      "pamphlet_page_ref": "p. 26, p. 68",
+      "correct_answer": "A. Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves.",
+      "explanation": "Correct Answer (A): Accurate Archaeology Requirement 5 (Learn about the federal laws) analysis requires contemporaneous data logging and verified measurements: Park in Archeological State Park in Arkansas preserves. (Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)).",
+      "pamphlet_page_ref": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
       "req_id": "5",
       "option_id": null
     }

@@ -61,15 +61,16 @@
         "rows": [
           "1. Discuss with your counselor the importance of signs, signals, and codes, and why people need these different methods of communication.",
           "2. Briefly discuss the history and development of signs, signals, and codes."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Signs, Signals, and Codes Origins and Evolution without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 1.",
-        "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Signs, Signals, and Codes Origins and Evolution (Signs, Signals, and Codes Origins and Evolution) (p. 7, p. 8).",
-        "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Signs, Signals, and Codes Origins and Evolution (Signs, Signals, and Codes Origins and Evolution) (p. 7, p. 8).",
-        "pamphlet_page_ref": "p. 7, p. 8",
-        "myth": "Memorizing a one-line definition of Signs, Signals, and Codes Origins and Evolution without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 1.",
-        "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Signs, Signals, and Codes Origins and Evolution (Signs, Signals, and Codes Origins and Evolution) (p. 7, p. 8)."
+        "misconception": "Overlooking how The importance of signs, signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 1.",
+        "fact": "Mastering Signs, Signals, and Codes Requirement 1 (The importance of signs, signals) requires applying the verified pamphlet mechanism: Discuss the pros and cons of using sound signals versus.",
+        "fact_correction": "Mastering Signs, Signals, and Codes Requirement 1 (The importance of signs, signals) requires applying the verified pamphlet mechanism: Discuss the pros and cons of using sound signals versus.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
+        "myth": "Overlooking how The importance of signs, signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 1.",
+        "correction": "Mastering Signs, Signals, and Codes Requirement 1 (The importance of signs, signals) requires applying the verified pamphlet mechanism: Discuss the pros and cons of using sound signals versus."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -154,25 +155,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Signs, Signals, and Codes Origins and Evolution: Discuss with your counselor the importance of signs, signals, and code)?",
-        "question": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Signs, Signals, and Codes Origins and Evolution: Discuss with your counselor the importance of signs, signals, and code)?",
+        "scenario_prompt": "What is the universal international distress call in Morse code, and what pattern of audible or visual signals is recognized worldwide as an emergency call for help?",
+        "question": "What is the universal international distress call in Morse code, and what pattern of audible or visual signals is recognized worldwide as an emergency call for help?",
         "options": [
-          "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "B. Memorizing a one-line definition of Signs, Signals, and Codes Origins and Evolution without explaining how it works in practice.",
-          "C. Focus only on Discuss with your counselor the importance of signs, si while omitting Briefly discuss the history and development of signs, s and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Signs, Signals, and Codes Origins and Evolution."
+          "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
+          "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+          "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
+          "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
         ],
         "choices": [
-          "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "B. Memorizing a one-line definition of Signs, Signals, and Codes Origins and Evolution without explaining how it works in practice.",
-          "C. Focus only on Discuss with your counselor the importance of signs, si while omitting Briefly discuss the history and development of signs, s and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Signs, Signals, and Codes Origins and Evolution."
+          "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
+          "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+          "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
+          "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "explanation": "Correct Answer (A): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Signs, Signals, and Codes Origins and Evolution (Signs, Signals, and Codes Origins and Evolution). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
-        "pamphlet_page_ref": "p. 7, p. 8"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+        "explanation": "Correct Answer (B): Three of anything (three whistle blasts, three fires or smoke columns, three light flashes) and Morse code SOS (three dots, three dashes, three dots) are universally recognized emergency distress signals.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 1.",
@@ -203,7 +204,7 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Signaling in Emergency Communications Discuss",
+      "topic_title": "Req 2: The importance of signaling in emergency",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Explain & Guide",
@@ -233,15 +234,16 @@
           "1. Explain the importance of signaling in emergency communications.",
           "2. Discuss with your counselor the types of emergency or distress signals one might use to attract airborne search-and-rescue...",
           "3. Illustrate these signaling examples by the use of photos or drawings."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Signs, Signals, and Codes Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Signs, Signals, and Codes Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Signs, Signals, and Codes Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 7, p. 8",
-        "myth": "Skipping hands-on verification or partial completion of Signs, Signals, and Codes Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Signs, Signals, and Codes Requirement  () for counselor verification."
+        "misconception": "During Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), protective equipment checks and hazard mitigation are only needed in severe weather.",
+        "fact": "Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+        "fact_correction": "Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
+        "myth": "During Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), protective equipment checks and hazard mitigation are only needed in severe weather.",
+        "correction": "Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -326,29 +328,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before beginning hands-on work for Signs, Signals, and Codes Requirement 2 (Signaling in Emergency Communications Discuss), what safety and hazard-prevention standard does the Signs, Signals, and Codes Merit Badge Pamphlet require?",
-        "question": "Before beginning hands-on work for Signs, Signals, and Codes Requirement 2 (Signaling in Emergency Communications Discuss), what safety and hazard-prevention standard does the Signs, Signals, and Codes Merit Badge Pamphlet require?",
+        "scenario_prompt": "In Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
+        "question": "In Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
         "options": [
-          "A. Experienced Signs, Signals, and Codes participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Signaling in Emergency Communications Discuss and use rules from an unrelated activity.",
-          "C. The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental.",
-          "D. Assume Signaling in Emergency Communications Discuss applies only to indoor classroom theory and has no effect on real-world Signs, Signals, and Codes practice."
+          "A. During Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), protective equipment checks and hazard mitigation are only needed in severe weather.",
+          "B. Assuming Either by sight or by touch in Signs, Signals, and Codes Requirement 5a operates identically across all environmental and technical conditions.",
+          "C. Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+          "D. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b."
         ],
         "choices": [
-          "A. Experienced Signs, Signals, and Codes participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Signaling in Emergency Communications Discuss and use rules from an unrelated activity.",
-          "C. The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental.",
-          "D. Assume Signaling in Emergency Communications Discuss applies only to indoor classroom theory and has no effect on real-world Signs, Signals, and Codes practice."
+          "A. During Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), protective equipment checks and hazard mitigation are only needed in severe weather.",
+          "B. Assuming Either by sight or by touch in Signs, Signals, and Codes Requirement 5a operates identically across all environmental and technical conditions.",
+          "C. Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+          "D. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental.",
-        "explanation": "Correct Answer (C): The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Signaling in Emergency Communications Discuss activity. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
-        "pamphlet_page_ref": "p. 7, p. 8"
+        "correct_answer": "C. Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+        "explanation": "Correct Answer (C): Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p007_img1.png"
     },
     {
       "req_id": "3",
@@ -395,16 +397,17 @@
               "1. Describe what Morse code is and the various means by which it can be sent.",
               "2. Spell your first name using Morse code.",
               "3. Send or receive a message of six to 10 words using Morse code."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 3a.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The) (p. 6, p. 7).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 3a.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The) (p. 6, p. 7)."
+            "misconception": "Overlooking how Morse code directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement.",
+            "fact": "Mastering Signs, Signals, and Codes Requirement 3a (Morse code) requires applying the verified pamphlet mechanism: (a) Either by sight or by touch, identify the letters of the braille alphabet.",
+            "fact_correction": "Mastering Signs, Signals, and Codes Requirement 3a (Morse code) requires applying the verified pamphlet mechanism: (a) Either by sight or by touch, identify the letters of the braille alphabet.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Overlooking how Morse code directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement.",
+            "correction": "Mastering Signs, Signals, and Codes Requirement 3a (Morse code) requires applying the verified pamphlet mechanism: (a) Either by sight or by touch, identify the letters of the braille alphabet."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -435,7 +438,7 @@
           "pamphlet_excerpts": [
             "Morse code: Then do the following: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p012_img1.png"
         },
         {
           "sub_id": "3b",
@@ -475,16 +478,17 @@
               "1. Describe what American Sign Language (ASL) is and how it is used today.",
               "2. Spell your first name using American Sign Language.",
               "3. Send or receive a message of six to 10 words using ASL."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of American Sign Language ASL without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 3b.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of American Sign Language ASL (American Sign Language ASL) (p. 6, p. 7).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of American Sign Language ASL (American Sign Language ASL) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of American Sign Language ASL without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 3b.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of American Sign Language ASL (American Sign Language ASL) (p. 6, p. 7)."
+            "misconception": "Treating the technical factors of American Sign Language in Signs, Signals, and Codes Requirement 3b as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Signs, Signals, and Codes Requirement 3b (American Sign Language), each principle directly governs real-world performance: By sight or touch, decode a braille message at least six words long.",
+            "fact_correction": "In Signs, Signals, and Codes Requirement 3b (American Sign Language), each principle directly governs real-world performance: By sight or touch, decode a braille message at least six words long.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Treating the technical factors of American Sign Language in Signs, Signals, and Codes Requirement 3b as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Signs, Signals, and Codes Requirement 3b (American Sign Language), each principle directly governs real-world performance: By sight or touch, decode a braille message at least six words long."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -566,21 +570,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(3a) Morse Code Is and The",
-          "(3b) American Sign Language ASL"
+          "1. (3a) Morse Code Is and The",
+          "2. (3b) American Sign Language ASL"
         ],
         "rows": [
-          "(3a) Morse Code Is and The",
-          "(3b) American Sign Language ASL"
-        ]
+          "1. (3a) Morse Code Is and The",
+          "2. (3b) American Sign Language ASL"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 3.",
-        "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The) (p. 6, p. 7).",
-        "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The) (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 3.",
-        "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The) (p. 6, p. 7)."
+        "misconception": "Assuming Morse code in Signs, Signals, and Codes Requirement 3 operates identically across all environmental and technical conditions.",
+        "fact": "The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille.",
+        "fact_correction": "The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Assuming Morse code in Signs, Signals, and Codes Requirement 3 operates identically across all environmental and technical conditions.",
+        "correction": "The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -610,7 +615,7 @@
         "Morse code Principle 4: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Morse code Preparation): Inspect the workspace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 3 (p. 18).",
+        "Step 1 (Morse code Preparation): Inspect the works pace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 3 (p. 18).",
         "Step 2 (Morse code Execution): Apply the official Signs, Signals, and Codes pamphlet method for Morse code while recording observations in your Scout Workbook (p. 18).",
         "Step 3 (Morse code Buddy Check): Cross-check your Morse code technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
         "Step 4 (Morse code Verification): Review your completed Morse code evidence and demonstrate proficiency during your counselor conference (p. 18)."
@@ -665,29 +670,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Morse Code Is and The: Describe what Morse code is and the various means by which it can be s)?",
-        "question": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Morse Code Is and The: Describe what Morse code is and the various means by which it can be s)?",
+        "scenario_prompt": "When demonstrating and explaining Morse code for Signs, Signals, and Codes Requirement 3, which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Morse code for Signs, Signals, and Codes Requirement 3, which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
         "options": [
-          "A. Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Morse Code Is and The and use rules from an unrelated activity.",
-          "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "D. Substitute a casual verbal guess about Describe what Morse code is and the various means by wh in place of documented Signs, Signals, and Codes observations."
+          "A. Assuming Morse code in Signs, Signals, and Codes Requirement 3 operates identically across all environmental and technical conditions.",
+          "B. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b.",
+          "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+          "D. The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Morse Code Is and The and use rules from an unrelated activity.",
-          "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "D. Substitute a casual verbal guess about Describe what Morse code is and the various means by wh in place of documented Signs, Signals, and Codes observations."
+          "A. Assuming Morse code in Signs, Signals, and Codes Requirement 3 operates identically across all environmental and technical conditions.",
+          "B. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b.",
+          "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+          "D. The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "explanation": "Correct Answer (C): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille.",
+        "explanation": "Correct Answer (D): The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -730,24 +735,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Give your counselor a brief explanation about semaphore, why it is used, how it is used, and where it is used.",
-              "2. Key Pamphlet Facts & Mechanism (Brief Explanation About Semaphore)",
-              "3. Field Application & Counselor Discussion (Brief Explanation About Semaphore)"
+              "1. Give your counselor a brief explanation about semaphore, why it is used, how it is used, and where it is used."
             ],
             "rows": [
-              "1. Give your counselor a brief explanation about semaphore, why it is used, how it is used, and where it is used.",
-              "2. Key Pamphlet Facts & Mechanism (Brief Explanation About Semaphore)",
-              "3. Field Application & Counselor Discussion (Brief Explanation About Semaphore)"
-            ]
+              "1. Give your counselor a brief explanation about semaphore, why it is used, how it is used, and where it is used."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Brief Explanation About Semaphore without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4a.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Brief Explanation About Semaphore (Brief Explanation About Semaphore) (p. 6, p. 8).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Brief Explanation About Semaphore (Brief Explanation About Semaphore) (p. 6, p. 8).",
-            "pamphlet_page_ref": "p. 6, p. 8",
-            "myth": "Memorizing a one-line definition of Brief Explanation About Semaphore without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4a.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Brief Explanation About Semaphore (Brief Explanation About Semaphore) (p. 6, p. 8)."
+            "misconception": "Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+            "fact": "Accurate Signs, Signals, and Codes Requirement 4a (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+            "fact_correction": "Accurate Signs, Signals, and Codes Requirement 4a (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
+            "myth": "Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+            "correction": "Accurate Signs, Signals, and Codes Requirement 4a (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -778,7 +780,7 @@
           "pamphlet_excerpts": [
             "Counselor A Brief Explanation: Give Your Counselor A Brief Principle 2: By sight or touch, decode a braille message at least six words long (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png"
         },
         {
           "sub_id": "4b",
@@ -814,24 +816,21 @@
               "Comparison Concept / System B"
             ],
             "row_labels": [
-              "1. Explain to your counselor the difference between semaphore flags and nautical flags.",
-              "2. Key Pamphlet Facts & Mechanism (Semaphore Flags and Nautical Flags)",
-              "3. Field Application & Counselor Discussion (Semaphore Flags and Nautical Flags)"
+              "1. Explain to your counselor the difference between semaphore flags and nautical flags."
             ],
             "rows": [
-              "1. Explain to your counselor the difference between semaphore flags and nautical flags.",
-              "2. Key Pamphlet Facts & Mechanism (Semaphore Flags and Nautical Flags)",
-              "3. Field Application & Counselor Discussion (Semaphore Flags and Nautical Flags)"
-            ]
+              "1. Explain to your counselor the difference between semaphore flags and nautical flags."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
-            "misconception": "All concepts or systems compared under Semaphore Flags and Nautical Flags in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-            "fact": "Each system or condition in Semaphore Flags and Nautical Flags has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 6, p. 8).",
-            "fact_correction": "Each system or condition in Semaphore Flags and Nautical Flags has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 6, p. 8).",
-            "pamphlet_page_ref": "p. 6, p. 8",
-            "myth": "All concepts or systems compared under Semaphore Flags and Nautical Flags in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-            "correction": "Each system or condition in Semaphore Flags and Nautical Flags has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 6, p. 8)."
+            "misconception": "Estimating The difference between semaphore flags figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+            "fact": "Accurate Signs, Signals, and Codes Requirement 4b (The difference between semaphore flags) analysis requires contemporaneous data logging and verified measurements: Either by sight or by touch.",
+            "fact_correction": "Accurate Signs, Signals, and Codes Requirement 4b (The difference between semaphore flags) analysis requires contemporaneous data logging and verified measurements: Either by sight or by touch.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
+            "myth": "Estimating The difference between semaphore flags figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+            "correction": "Accurate Signs, Signals, and Codes Requirement 4b (The difference between semaphore flags) analysis requires contemporaneous data logging and verified measurements: Either by sight or by touch."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -897,16 +896,17 @@
                 "rows": [
                   "1. Spell your first name using semaphore.",
                   "2. Send or receive a message of six to 10 words using semaphore."
-                ]
+                ],
+                "min_rows": 2
               },
               "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
-                "misconception": "Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4c(1).",
-                "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Spell Your First Name Using (Spell Your First Name Using) (p. 6, p. 8).",
-                "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Spell Your First Name Using (Spell Your First Name Using) (p. 6, p. 8).",
-                "pamphlet_page_ref": "p. 6, p. 8",
-                "myth": "Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4c(1).",
-                "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Spell Your First Name Using (Spell Your First Name Using) (p. 6, p. 8)."
+                "misconception": "Estimating Spell your first name using semaphore figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+                "fact": "Accurate Signs, Signals, and Codes Requirement 4c(1) (Spell your first name using semaphore) analysis requires contemporaneous data logging and verified measurements: For Signs, Signals.",
+                "fact_correction": "Accurate Signs, Signals, and Codes Requirement 4c(1) (Spell your first name using semaphore) analysis requires contemporaneous data logging and verified measurements: For Signs, Signals.",
+                "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
+                "myth": "Estimating Spell your first name using semaphore figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+                "correction": "Accurate Signs, Signals, and Codes Requirement 4c(1) (Spell your first name using semaphore) analysis requires contemporaneous data logging and verified measurements: For Signs, Signals."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -960,24 +960,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.",
-                  "2. Key Pamphlet Facts & Mechanism (Illustrations Nautical Flags Discuss)",
-                  "3. Field Application & Counselor Discussion (Illustrations Nautical Flags Discuss)"
+                  "1. Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance."
                 ],
                 "rows": [
-                  "1. Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.",
-                  "2. Key Pamphlet Facts & Mechanism (Illustrations Nautical Flags Discuss)",
-                  "3. Field Application & Counselor Discussion (Illustrations Nautical Flags Discuss)"
-                ]
+                  "1. Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance."
+                ],
+                "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
-                "misconception": "Memorizing a one-line definition of Illustrations Nautical Flags Discuss without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4c(2).",
-                "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Illustrations Nautical Flags Discuss (Illustrations Nautical Flags Discuss) (p. 6, p. 8).",
-                "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Illustrations Nautical Flags Discuss (Illustrations Nautical Flags Discuss) (p. 6, p. 8).",
-                "pamphlet_page_ref": "p. 6, p. 8",
-                "myth": "Memorizing a one-line definition of Illustrations Nautical Flags Discuss without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4c(2).",
-                "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Illustrations Nautical Flags Discuss (Illustrations Nautical Flags Discuss) (p. 6, p. 8)."
+                "misconception": "Assuming Using illustrations or photographs, identify 10 in Signs, Signals, and Codes Requirement 4c(2) operates identically across all environmental and technical conditions.",
+                "fact": "For Signs, Signals, and Codes 4c(2) (Using illustrations or photographs, identify 10), Scouts apply: Using illustrations or photographs, identify 10 examples of nautical.",
+                "fact_correction": "For Signs, Signals, and Codes 4c(2) (Using illustrations or photographs, identify 10), Scouts apply: Using illustrations or photographs, identify 10 examples of nautical.",
+                "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
+                "myth": "Assuming Using illustrations or photographs, identify 10 in Signs, Signals, and Codes Requirement 4c(2) operates identically across all environmental and technical conditions.",
+                "correction": "For Signs, Signals, and Codes 4c(2) (Using illustrations or photographs, identify 10), Scouts apply: Using illustrations or photographs, identify 10 examples of nautical."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1026,22 +1023,23 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "(4c(1)) Spell Your First Name Using",
-              "(4c(2)) Illustrations Nautical Flags Discuss"
+              "1. (4c(1)) Spell Your First Name Using",
+              "2. (4c(2)) Illustrations Nautical Flags Discuss"
             ],
             "rows": [
-              "(4c(1)) Spell Your First Name Using",
-              "(4c(2)) Illustrations Nautical Flags Discuss"
-            ]
+              "1. (4c(1)) Spell Your First Name Using",
+              "2. (4c(2)) Illustrations Nautical Flags Discuss"
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of 4(a and 4(b Have Been without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4c.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 4(a and 4(b Have Been (4(a and 4(b Have Been) (p. 6, p. 8).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 4(a and 4(b Have Been (4(a and 4(b Have Been) (p. 6, p. 8).",
-            "pamphlet_page_ref": "p. 6, p. 8",
-            "myth": "Memorizing a one-line definition of 4(a and 4(b Have Been without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 4c.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 4(a and 4(b Have Been (4(a and 4(b Have Been) (p. 6, p. 8)."
+            "misconception": "Estimating After 4 and 4 figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 4c.",
+            "fact": "Accurate Signs, Signals, and Codes Requirement 4c (After 4 and 4) analysis requires contemporaneous data logging and verified measurements: After 4a and 4b: Give Your Counselor A Brief Principle.",
+            "fact_correction": "Accurate Signs, Signals, and Codes Requirement 4c (After 4 and 4) analysis requires contemporaneous data logging and verified measurements: After 4a and 4b: Give Your Counselor A Brief Principle.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
+            "myth": "Estimating After 4 and 4 figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 4c.",
+            "correction": "Accurate Signs, Signals, and Codes Requirement 4c (After 4 and 4) analysis requires contemporaneous data logging and verified measurements: After 4a and 4b: Give Your Counselor A Brief Principle."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1131,23 +1129,24 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(4a) Brief Explanation About Semaphore",
-          "(4b) Semaphore Flags and Nautical Flags",
-          "(4c) 4(a and 4(b Have Been"
+          "1. (4a) Brief Explanation About Semaphore",
+          "2. (4b) Semaphore Flags and Nautical Flags",
+          "3. (4c) 4(a and 4(b Have Been"
         ],
         "rows": [
-          "(4a) Brief Explanation About Semaphore",
-          "(4b) Semaphore Flags and Nautical Flags",
-          "(4c) 4(a and 4(b Have Been"
-        ]
+          "1. (4a) Brief Explanation About Semaphore",
+          "2. (4b) Semaphore Flags and Nautical Flags",
+          "3. (4c) 4(a and 4(b Have Been"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "All concepts or systems compared under Brief Explanation About Semaphore in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-        "fact": "Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 6, p. 8).",
-        "fact_correction": "Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 6, p. 8).",
-        "pamphlet_page_ref": "p. 6, p. 8",
-        "myth": "All concepts or systems compared under Brief Explanation About Semaphore in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-        "correction": "Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 6, p. 8)."
+        "misconception": "Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "fact": "Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+        "fact_correction": "Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
+        "myth": "Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "correction": "Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1232,29 +1231,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)."
       },
       "quiz_item": {
-        "scenario_prompt": "In Signs, Signals, and Codes Requirement 4 (Brief Explanation About Semaphore), how should a Scout accurately distinguish and explain the key technical differences (Give your counselor a brief explanation about semaphore, why it is used, ho)?",
-        "question": "In Signs, Signals, and Codes Requirement 4 (Brief Explanation About Semaphore), how should a Scout accurately distinguish and explain the key technical differences (Give your counselor a brief explanation about semaphore, why it is used, ho)?",
+        "scenario_prompt": "When working on Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
+        "question": "When working on Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
         "options": [
-          "A. All concepts or systems compared under Brief Explanation About Semaphore in Signs, Signals, and Codes behave identically regardless.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Brief Explanation About Semaphore and use rules from an unrelated activity.",
-          "C. Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field.",
-          "D. Substitute a casual verbal guess about Give your counselor a brief explanation about semaphore in place of documented Signs, Signals, and Codes observations."
+          "A. Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+          "B. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+          "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+          "D. Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement."
         ],
         "choices": [
-          "A. All concepts or systems compared under Brief Explanation About Semaphore in Signs, Signals, and Codes behave identically regardless.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Brief Explanation About Semaphore and use rules from an unrelated activity.",
-          "C. Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field.",
-          "D. Substitute a casual verbal guess about Give your counselor a brief explanation about semaphore in place of documented Signs, Signals, and Codes observations."
+          "A. Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+          "B. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+          "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+          "D. Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field.",
-        "explanation": "Correct Answer (C): Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
-        "pamphlet_page_ref": "p. 6, p. 8"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+        "explanation": "Correct Answer (A): Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png"
     },
     {
       "req_id": "5",
@@ -1295,16 +1294,17 @@
             "rows": [
               "1. Either by sight or by touch, identify the letters of the braille alphabet that spell your name.",
               "2. By sight or touch, decode a braille message at least six words long."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Sight or By Touch without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 5a.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sight or By Touch (Sight or By Touch) (p. 6, p. 7).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sight or By Touch (Sight or By Touch) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Sight or By Touch without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 5a.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sight or By Touch (Sight or By Touch) (p. 6, p. 7)."
+            "misconception": "Assuming Either by sight or by touch in Signs, Signals, and Codes Requirement 5a operates identically across all environmental and technical conditions.",
+            "fact": "Either by sight or by touch, identify the letters of the braille alphabet that spell your name.",
+            "fact_correction": "Either by sight or by touch, identify the letters of the braille alphabet that spell your name.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Assuming Either by sight or by touch in Signs, Signals, and Codes Requirement 5a operates identically across all environmental and technical conditions.",
+            "correction": "Either by sight or by touch, identify the letters of the braille alphabet that spell your name."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1335,7 +1335,7 @@
           "pamphlet_excerpts": [
             "Sight or By Touch Identify: Braille Reading Technique and How Principle 3: Key Pamphlet Study Points: - Signs, Signals, and Codes Sub-Req 5a: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p005_img1.png"
         },
         {
           "sub_id": "5b",
@@ -1358,24 +1358,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a message in braille at least six words long, and share this with your counselor.",
-              "2. Key Pamphlet Facts & Mechanism (Message in Braille)",
-              "3. Field Application & Counselor Discussion (Message in Braille)"
+              "1. Create a message in braille at least six words long, and share this with your counselor."
             ],
             "rows": [
-              "1. Create a message in braille at least six words long, and share this with your counselor.",
-              "2. Key Pamphlet Facts & Mechanism (Message in Braille)",
-              "3. Field Application & Counselor Discussion (Message in Braille)"
-            ]
+              "1. Create a message in braille at least six words long, and share this with your counselor."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Message in Braille without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 5b.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Message in Braille (Message in Braille) (p. 6, p. 7).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Message in Braille (Message in Braille) (p. 6, p. 7).",
-            "pamphlet_page_ref": "p. 6, p. 7",
-            "myth": "Memorizing a one-line definition of Message in Braille without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 5b.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Message in Braille (Message in Braille) (p. 6, p. 7)."
+            "misconception": "Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b.",
+            "fact": "Mastering Signs, Signals, and Codes Requirement 5b (Create a message in braille) requires applying the verified pamphlet mechanism: Discuss the pros and cons of using sound signals versus.",
+            "fact_correction": "Mastering Signs, Signals, and Codes Requirement 5b (Create a message in braille) requires applying the verified pamphlet mechanism: Discuss the pros and cons of using sound signals versus.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
+            "myth": "Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b.",
+            "correction": "Mastering Signs, Signals, and Codes Requirement 5b (Create a message in braille) requires applying the verified pamphlet mechanism: Discuss the pros and cons of using sound signals versus."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1449,21 +1446,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(5a) Sight or By Touch",
-          "(5b) Message in Braille"
+          "1. (5a) Sight or By Touch",
+          "2. (5b) Message in Braille"
         ],
         "rows": [
-          "(5a) Sight or By Touch",
-          "(5b) Message in Braille"
-        ]
+          "1. (5a) Sight or By Touch",
+          "2. (5b) Message in Braille"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Braille Reading Technique without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 5.",
-        "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Braille Reading Technique (Braille Reading Technique) (p. 6, p. 7).",
-        "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Braille Reading Technique (Braille Reading Technique) (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Memorizing a one-line definition of Braille Reading Technique without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 5.",
-        "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Braille Reading Technique (Braille Reading Technique) (p. 6, p. 7)."
+        "misconception": "Treating the technical factors of The braille reading technique in Signs, Signals, and Codes Requirement 5 as isolated terms rather than interconnected field mechanisms.",
+        "fact": "In Signs, Signals, and Codes Requirement 5 (The braille reading technique), each principle directly governs real-world performance: Either by sight or by touch, identify the letters.",
+        "fact_correction": "In Signs, Signals, and Codes Requirement 5 (The braille reading technique), each principle directly governs real-world performance: Either by sight or by touch, identify the letters.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Treating the technical factors of The braille reading technique in Signs, Signals, and Codes Requirement 5 as isolated terms rather than interconnected field mechanisms.",
+        "correction": "In Signs, Signals, and Codes Requirement 5 (The braille reading technique), each principle directly governs real-world performance: Either by sight or by touch, identify the letters."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1548,29 +1546,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Braille Reading Technique: Either by sight or by touch, identify the letters of the braille alpha)?",
-        "question": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (Braille Reading Technique: Either by sight or by touch, identify the letters of the braille alpha)?",
+        "scenario_prompt": "During your patrol's preparation and review for Signs, Signals, and Codes Requirement 5 (The braille reading technique), which statement accurately reflects the official Signs, Signals, and Codes Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Signs, Signals, and Codes Requirement 5 (The braille reading technique), which statement accurately reflects the official Signs, Signals, and Codes Merit Badge Pamphlet?",
         "options": [
-          "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "B. Memorizing a one-line definition of Braille Reading Technique without explaining how it works in practice satisfies Signs, Signals.",
-          "C. Focus only on Either by sight or by touch, identify the letters of th while omitting Create a message in braille at least six words long, an and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Braille Reading Technique standard."
+          "A. Treating the technical factors of The braille reading technique in Signs, Signals, and Codes Requirement 5 as isolated terms rather than interconnected field mechanisms.",
+          "B. In Signs, Signals, and Codes Requirement 5 (The braille reading technique), each principle directly governs real-world performance: Either by sight or by touch, identify the letters.",
+          "C. Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement.",
+          "D. Performing Six different silent Scout signals in Signs, Signals, and Codes Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-          "B. Memorizing a one-line definition of Braille Reading Technique without explaining how it works in practice satisfies Signs, Signals.",
-          "C. Focus only on Either by sight or by touch, identify the letters of th while omitting Create a message in braille at least six words long, an and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Braille Reading Technique standard."
+          "A. Treating the technical factors of The braille reading technique in Signs, Signals, and Codes Requirement 5 as isolated terms rather than interconnected field mechanisms.",
+          "B. In Signs, Signals, and Codes Requirement 5 (The braille reading technique), each principle directly governs real-world performance: Either by sight or by touch, identify the letters.",
+          "C. Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement.",
+          "D. Performing Six different silent Scout signals in Signs, Signals, and Codes Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "explanation": "Correct Answer (A): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Braille Reading Technique (Braille Reading Technique). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. In Signs, Signals, and Codes Requirement 5 (The braille reading technique), each principle directly governs real-world performance: Either by sight or by touch, identify the letters.",
+        "explanation": "Correct Answer (B): In Signs, Signals, and Codes Requirement 5 (The braille reading technique), each principle directly governs real-world performance: Either by sight or by touch, identify the letters. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p005_img1.png"
     },
     {
       "req_id": "6",
@@ -1619,16 +1617,17 @@
             "rows": [
               "1. Describe to your counselor six sound-only signals that are in use today.",
               "2. Discuss the pros and cons of using sound signals versus other types of signals."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
-            "misconception": "All concepts or systems compared under Sound-only Signals in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-            "fact": "Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 7, p. 8).",
-            "fact_correction": "Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 7, p. 8).",
-            "pamphlet_page_ref": "p. 7, p. 8",
-            "myth": "All concepts or systems compared under Sound-only Signals in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-            "correction": "Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 7, p. 8)."
+            "misconception": "Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement.",
+            "fact": "Mastering Signs, Signals, and Codes Requirement 6a (To your counselor six sound-only signals) requires applying the verified pamphlet mechanism: Cover at least one mile in distance.",
+            "fact_correction": "Mastering Signs, Signals, and Codes Requirement 6a (To your counselor six sound-only signals) requires applying the verified pamphlet mechanism: Cover at least one mile in distance.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
+            "myth": "Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement.",
+            "correction": "Mastering Signs, Signals, and Codes Requirement 6a (To your counselor six sound-only signals) requires applying the verified pamphlet mechanism: Cover at least one mile in distance."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1659,7 +1658,7 @@
           "pamphlet_excerpts": [
             "Sound-only Signals: Six Sound-only Signals: Describe to Your Counselor Six Principle 4: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p006_img1.png"
         },
         {
           "sub_id": "6b",
@@ -1697,16 +1696,17 @@
             "rows": [
               "1. Demonstrate to your counselor six different silent Scout signals.",
               "2. Use these Scout signals to direct the movements and actions of your patrol or troop."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Your Counselor Six Different Silent verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 6b.",
-            "fact": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Your Counselor Six Different Silent with proper technique (p. 7, p. 8).",
-            "fact_correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Your Counselor Six Different Silent with proper technique (p. 7, p. 8).",
-            "pamphlet_page_ref": "p. 7, p. 8",
-            "myth": "Describing how to perform Your Counselor Six Different Silent verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 6b.",
-            "correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Your Counselor Six Different Silent with proper technique (p. 7, p. 8)."
+            "misconception": "Performing Six different silent Scout signals in Signs, Signals, and Codes Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Signs, Signals, and Codes Requirement 6b (Six different silent Scout signals) depends on precise setup and step-by-step technique: Discuss the pros and cons of using sound.",
+            "fact_correction": "Hands-on execution of Signs, Signals, and Codes Requirement 6b (Six different silent Scout signals) depends on precise setup and step-by-step technique: Discuss the pros and cons of using sound.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
+            "myth": "Performing Six different silent Scout signals in Signs, Signals, and Codes Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Signs, Signals, and Codes Requirement 6b (Six different silent Scout signals) depends on precise setup and step-by-step technique: Discuss the pros and cons of using sound."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1792,21 +1792,22 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(6a) Sound-only Signals",
-          "(6b) Silent Scout Signals"
+          "1. (6a) Sound-only Signals",
+          "2. (6b) Silent Scout Signals"
         ],
         "rows": [
-          "(6a) Sound-only Signals",
-          "(6b) Silent Scout Signals"
-        ]
+          "1. (6a) Sound-only Signals",
+          "2. (6b) Silent Scout Signals"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "All concepts or systems compared under Sound-only Signals in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-        "fact": "Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 7, p. 8).",
-        "fact_correction": "Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 7, p. 8).",
-        "pamphlet_page_ref": "p. 7, p. 8",
-        "myth": "All concepts or systems compared under Sound-only Signals in Signs, Signals, and Codes behave identically regardless of operating conditions.",
-        "correction": "Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet (p. 7, p. 8)."
+        "misconception": "Performing To your counselor six sound-only signals in Signs, Signals.",
+        "fact": "Hands-on execution of Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals) depends on precise setup and step-by-step technique: Cover at least one mile in distance.",
+        "fact_correction": "Hands-on execution of Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals) depends on precise setup and step-by-step technique: Cover at least one mile in distance.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
+        "myth": "Performing To your counselor six sound-only signals in Signs, Signals.",
+        "correction": "Hands-on execution of Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals) depends on precise setup and step-by-step technique: Cover at least one mile in distance."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1891,29 +1892,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)."
       },
       "quiz_item": {
-        "scenario_prompt": "In Signs, Signals, and Codes Requirement 6 (Sound-only Signals), how should a Scout accurately distinguish and explain the key technical differences (Describe to your counselor six sound-only signals that are in use today. Di)?",
-        "question": "In Signs, Signals, and Codes Requirement 6 (Sound-only Signals), how should a Scout accurately distinguish and explain the key technical differences (Describe to your counselor six sound-only signals that are in use today. Di)?",
+        "scenario_prompt": "In Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
+        "question": "In Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
         "options": [
-          "A. All concepts or systems compared under Sound-only Signals in Signs, Signals, and Codes behave identically regardless of operating.",
-          "B. Reverse the sequence of Sound-only Signals steps by attempting final sign-off before completing Describe to your counselor six sound-only signals that are i.",
-          "C. Complete only a single sub-part of Requirement 6 rather than fulfilling the full Sound-only Signals standard.",
-          "D. Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in."
+          "A. Performing To your counselor six sound-only signals in Signs, Signals.",
+          "B. Performing Six different silent Scout signals in Signs, Signals, and Codes Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Hands-on execution of Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals) depends on precise setup and step-by-step technique: Cover at least one mile in distance.",
+          "D. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps."
         ],
         "choices": [
-          "A. All concepts or systems compared under Sound-only Signals in Signs, Signals, and Codes behave identically regardless of operating.",
-          "B. Reverse the sequence of Sound-only Signals steps by attempting final sign-off before completing Describe to your counselor six sound-only signals that are i.",
-          "C. Complete only a single sub-part of Requirement 6 rather than fulfilling the full Sound-only Signals standard.",
-          "D. Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in."
+          "A. Performing To your counselor six sound-only signals in Signs, Signals.",
+          "B. Performing Six different silent Scout signals in Signs, Signals, and Codes Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Hands-on execution of Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals) depends on precise setup and step-by-step technique: Cover at least one mile in distance.",
+          "D. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in.",
-        "explanation": "Correct Answer (D): Each system or condition in Sound-only Signals has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
-        "pamphlet_page_ref": "p. 7, p. 8"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Hands-on execution of Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals) depends on precise setup and step-by-step technique: Cover at least one mile in distance.",
+        "explanation": "Correct Answer (C): Hands-on execution of Signs, Signals, and Codes Requirement 6 (To your counselor six sound-only signals) depends on precise setup and step-by-step technique: Cover at least one mile in distance. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p006_img1.png"
     },
     {
       "req_id": "7",
@@ -1970,15 +1971,16 @@
           "1. On a Scout outing, lay out a trail for your patrol or troop to follow.",
           "2. Cover at least one mile in distance and use at least six different trail signs and markers.",
           "3. After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or..."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
+        "fact": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
+        "fact_correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
         "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
         "myth": "Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-        "correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks."
+        "correction": "The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2008,7 +2010,7 @@
         "Leave No Trace and Outdoor Ethics Principle 4: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Leave No Trace and Outdoor Ethics Preparation): Inspect the workspace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 7 (p. 34).",
+        "Step 1 (Leave No Trace and Outdoor Ethics Preparation): Inspect the works pace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 7 (p. 34).",
         "Step 2 (Leave No Trace and Outdoor Ethics Execution): Apply the official Signs, Signals, and Codes pamphlet method for Leave No Trace and Outdoor Ethics while recording observations in your Scout Workbook (p. 34).",
         "Step 3 (Leave No Trace and Outdoor Ethics Buddy Check): Cross-check your Leave No Trace and Outdoor Ethics technique, measurements, and results with a patrol buddy using the EDGE method (p. 34).",
         "Step 4 (Leave No Trace and Outdoor Ethics Verification): Review your completed Leave No Trace and Outdoor Ethics evidence and demonstrate proficiency during your counselor conference (p. 34)."
@@ -2063,29 +2065,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 7 (Leave No Trace and Outdoor Ethics), which statement accurately reflects the official BSA standard for On a Scout outing, lay out a trail for your patrol or troop to follow?",
-        "question": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 7 (Leave No Trace and Outdoor Ethics), which statement accurately reflects the official BSA standard for On a Scout outing, lay out a trail for your patrol or troop to follow?",
+        "scenario_prompt": "When demonstrating and explaining On a Scout outing, lay out for Signs, Signals, and Codes Requirement 7, which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining On a Scout outing, lay out for Signs, Signals, and Codes Requirement 7, which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
         "options": [
           "A. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-          "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-          "C. Rely on a group summary of Leave No Trace and Outdoor Ethics instead of individually explaining or demonstrating On a Scout outing, lay out a trail for your patrol or troop .",
-          "D. Complete only a single sub-part of Requirement 7 rather than fulfilling the full Leave No Trace and Outdoor Ethics standard."
+          "B. Performing For THREE of the following activities in Signs, Signals.",
+          "C. Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+          "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
         ],
         "choices": [
           "A. Leave No Trace only applies in remote national parks and wilderness areas, not at local council camps.",
-          "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-          "C. Rely on a group summary of Leave No Trace and Outdoor Ethics instead of individually explaining or demonstrating On a Scout outing, lay out a trail for your patrol or troop .",
-          "D. Complete only a single sub-part of Requirement 7 rather than fulfilling the full Leave No Trace and Outdoor Ethics standard."
+          "B. Performing For THREE of the following activities in Signs, Signals.",
+          "C. Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+          "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks.",
-        "explanation": "Correct Answer (B): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from frontcountry campouts to backcountry treks. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks.",
+        "explanation": "Correct Answer (D): The Leave No Trace Seven Principles and the Outdoor Code govern every Scouting outing, from front country camp outs to back country treks. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
         "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/signs_signals_and_codes_req_7_topic_visual.png"
     },
     {
       "req_id": "8",
@@ -2128,24 +2130,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Sports official's hand signs/signals.",
-              "2. Key Pamphlet Facts & Mechanism (Sports Official's Hand Signs/signals)",
-              "3. Field Application & Counselor Discussion (Sports Official's Hand Signs/signals)"
+              "1. Sports official's hand signs/signals."
             ],
             "rows": [
-              "1. Sports official's hand signs/signals.",
-              "2. Key Pamphlet Facts & Mechanism (Sports Official's Hand Signs/signals)",
-              "3. Field Application & Counselor Discussion (Sports Official's Hand Signs/signals)"
-            ]
+              "1. Sports official's hand signs/signals."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Sports Official's Hand Signs/signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8a.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sports Official's Hand Signs/signals (Sports Official's Hand Signs/signals) (p. 6, p. 9).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sports Official's Hand Signs/signals (Sports Official's Hand Signs/signals) (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Memorizing a one-line definition of Sports Official's Hand Signs/signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8a.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Sports Official's Hand Signs/signals (Sports Official's Hand Signs/signals) (p. 6, p. 9)."
+            "misconception": "Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+            "fact": "By sight or touch, decode a braille message at least six words long.",
+            "fact_correction": "By sight or touch, decode a braille message at least six words long.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+            "correction": "By sight or touch, decode a braille message at least six words long."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2176,7 +2175,7 @@
           "pamphlet_excerpts": [
             "Sports Official's Hand Signs/signals: THREE of The Following Activities Principle 2: By sight or touch, decode a braille message at least six words long (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p008_img1.png"
         },
         {
           "sub_id": "8b",
@@ -2208,24 +2207,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Heavy-equipment operator's hand signals.",
-              "2. Key Pamphlet Facts & Mechanism (Heavy-equipment Operator's Hand Signals)",
-              "3. Field Application & Counselor Discussion (Heavy-equipment Operator's Hand Signals)"
+              "1. Heavy-equipment operator's hand signals."
             ],
             "rows": [
-              "1. Heavy-equipment operator's hand signals.",
-              "2. Key Pamphlet Facts & Mechanism (Heavy-equipment Operator's Hand Signals)",
-              "3. Field Application & Counselor Discussion (Heavy-equipment Operator's Hand Signals)"
-            ]
+              "1. Heavy-equipment operator's hand signals."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Heavy-equipment Operator's Hand Signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8b.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Heavy-equipment Operator's Hand Signals (Heavy-equipment Operator's Hand Signals) (p. 6, p. 9).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Heavy-equipment Operator's Hand Signals (Heavy-equipment Operator's Hand Signals) (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Memorizing a one-line definition of Heavy-equipment Operator's Hand Signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8b.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Heavy-equipment Operator's Hand Signals (Heavy-equipment Operator's Hand Signals) (p. 6, p. 9)."
+            "misconception": "Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b.",
+            "fact": "Mastering Signs, Signals, and Codes Requirement 8b (Heavy-equipment operator's hand signals) requires applying the verified pamphlet mechanism: Either by sight or by touch, identify the letters.",
+            "fact_correction": "Mastering Signs, Signals, and Codes Requirement 8b (Heavy-equipment operator's hand signals) requires applying the verified pamphlet mechanism: Either by sight or by touch, identify the letters.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b.",
+            "correction": "Mastering Signs, Signals, and Codes Requirement 8b (Heavy-equipment operator's hand signals) requires applying the verified pamphlet mechanism: Either by sight or by touch, identify the letters."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2284,24 +2280,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Aircraft carrier catapult crew signals.",
-              "2. Key Pamphlet Facts & Mechanism (Aircraft Carrier Catapult Crew Signals)",
-              "3. Field Application & Counselor Discussion (Aircraft Carrier Catapult Crew Signals)"
+              "1. Aircraft carrier catapult crew signals."
             ],
             "rows": [
-              "1. Aircraft carrier catapult crew signals.",
-              "2. Key Pamphlet Facts & Mechanism (Aircraft Carrier Catapult Crew Signals)",
-              "3. Field Application & Counselor Discussion (Aircraft Carrier Catapult Crew Signals)"
-            ]
+              "1. Aircraft carrier catapult crew signals."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Aircraft Carrier Catapult Crew Signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8c.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Aircraft Carrier Catapult Crew Signals (Aircraft Carrier Catapult Crew Signals) (p. 6, p. 9).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Aircraft Carrier Catapult Crew Signals (Aircraft Carrier Catapult Crew Signals) (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Memorizing a one-line definition of Aircraft Carrier Catapult Crew Signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8c.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Aircraft Carrier Catapult Crew Signals (Aircraft Carrier Catapult Crew Signals) (p. 6, p. 9)."
+            "misconception": "Treating the technical factors of Aircraft carrier catapult crew signals in Signs, Signals, and Codes Requirement 8c as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Signs, Signals, and Codes Requirement 8c (Aircraft carrier catapult crew signals), each principle directly governs real-world performance: Discuss the pros and cons of using sound signals.",
+            "fact_correction": "In Signs, Signals, and Codes Requirement 8c (Aircraft carrier catapult crew signals), each principle directly governs real-world performance: Discuss the pros and cons of using sound signals.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Treating the technical factors of Aircraft carrier catapult crew signals in Signs, Signals, and Codes Requirement 8c as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Signs, Signals, and Codes Requirement 8c (Aircraft carrier catapult crew signals), each principle directly governs real-world performance: Discuss the pros and cons of using sound signals."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2360,24 +2353,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Cyclist's hand signals.",
-              "2. Key Pamphlet Facts & Mechanism (Cyclist's Hand Signals)",
-              "3. Field Application & Counselor Discussion (Cyclist's Hand Signals)"
+              "1. Cyclist's hand signals."
             ],
             "rows": [
-              "1. Cyclist's hand signals.",
-              "2. Key Pamphlet Facts & Mechanism (Cyclist's Hand Signals)",
-              "3. Field Application & Counselor Discussion (Cyclist's Hand Signals)"
-            ]
+              "1. Cyclist's hand signals."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Cyclist's Hand Signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8d.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cyclist's Hand Signals (Cyclist's Hand Signals) (p. 6, p. 9).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cyclist's Hand Signals (Cyclist's Hand Signals) (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Memorizing a one-line definition of Cyclist's Hand Signals without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8d.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cyclist's Hand Signals (Cyclist's Hand Signals) (p. 6, p. 9)."
+            "misconception": "Estimating Cyclist's hand signals figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 8d.",
+            "fact": "Accurate Signs, Signals, and Codes Requirement 8d (Cyclist's hand signals) analysis requires contemporaneous data logging and verified measurements: (a) Either by sight or by touch, identify.",
+            "fact_correction": "Accurate Signs, Signals, and Codes Requirement 8d (Cyclist's hand signals) analysis requires contemporaneous data logging and verified measurements: (a) Either by sight or by touch, identify.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Estimating Cyclist's hand signals figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 8d.",
+            "correction": "Accurate Signs, Signals, and Codes Requirement 8d (Cyclist's hand signals) analysis requires contemporaneous data logging and verified measurements: (a) Either by sight or by touch, identify."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2431,24 +2421,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. An activity selected by you and your counselor.",
-              "2. Key Pamphlet Facts & Mechanism (Activity Selected By You)",
-              "3. Field Application & Counselor Discussion (Activity Selected By You)"
+              "1. An activity selected by you and your counselor."
             ],
             "rows": [
-              "1. An activity selected by you and your counselor.",
-              "2. Key Pamphlet Facts & Mechanism (Activity Selected By You)",
-              "3. Field Application & Counselor Discussion (Activity Selected By You)"
-            ]
+              "1. An activity selected by you and your counselor."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Activity Selected By You without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8e.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Activity Selected By You (Activity Selected By You) (p. 6, p. 9).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Activity Selected By You (Activity Selected By You) (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Memorizing a one-line definition of Activity Selected By You without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 8e.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Activity Selected By You (Activity Selected By You) (p. 6, p. 9)."
+            "misconception": "Overlooking how An activity selected directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8e.",
+            "fact": "Mastering Signs, Signals, and Codes Requirement 8e (An activity selected) requires applying the verified pamphlet mechanism: By sight or touch, decode a braille message at least six words long.",
+            "fact_correction": "Mastering Signs, Signals, and Codes Requirement 8e (An activity selected) requires applying the verified pamphlet mechanism: By sight or touch, decode a braille message at least six words long.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Overlooking how An activity selected directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8e.",
+            "correction": "Mastering Signs, Signals, and Codes Requirement 8e (An activity selected) requires applying the verified pamphlet mechanism: By sight or touch, decode a braille message at least six words long."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2542,27 +2529,28 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(8a) Sports Official's Hand Signs/signals",
-          "(8b) Heavy-equipment Operator's Hand Signals",
-          "(8c) Aircraft Carrier Catapult Crew Signals",
-          "(8d) Cyclist's Hand Signals",
-          "(8e) Activity Selected By You"
+          "1. (8a) Sports Official's Hand Signs/signals",
+          "2. (8b) Heavy-equipment Operator's Hand Signals",
+          "3. (8c) Aircraft Carrier Catapult Crew Signals",
+          "4. (8d) Cyclist's Hand Signals",
+          "5. (8e) Activity Selected By You"
         ],
         "rows": [
-          "(8a) Sports Official's Hand Signs/signals",
-          "(8b) Heavy-equipment Operator's Hand Signals",
-          "(8c) Aircraft Carrier Catapult Crew Signals",
-          "(8d) Cyclist's Hand Signals",
-          "(8e) Activity Selected By You"
-        ]
+          "1. (8a) Sports Official's Hand Signs/signals",
+          "2. (8b) Heavy-equipment Operator's Hand Signals",
+          "3. (8c) Aircraft Carrier Catapult Crew Signals",
+          "4. (8d) Cyclist's Hand Signals",
+          "5. (8e) Activity Selected By You"
+        ],
+        "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform THREE of The Following Activities verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 8.",
-        "fact": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate THREE of The Following Activities with proper technique (p. 6, p. 9).",
-        "fact_correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate THREE of The Following Activities with proper technique (p. 6, p. 9).",
-        "pamphlet_page_ref": "p. 6, p. 9",
-        "myth": "Describing how to perform THREE of The Following Activities verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 8.",
-        "correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate THREE of The Following Activities with proper technique (p. 6, p. 9)."
+        "misconception": "Performing For THREE of the following activities in Signs, Signals.",
+        "fact": "Hands-on execution of Signs, Signals, and Codes Requirement 8 (For THREE of the following activities) depends on precise setup and step-by-step technique: By sight or touch, decode a braille.",
+        "fact_correction": "Hands-on execution of Signs, Signals, and Codes Requirement 8 (For THREE of the following activities) depends on precise setup and step-by-step technique: By sight or touch, decode a braille.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+        "myth": "Performing For THREE of the following activities in Signs, Signals.",
+        "correction": "Hands-on execution of Signs, Signals, and Codes Requirement 8 (For THREE of the following activities) depends on precise setup and step-by-step technique: By sight or touch, decode a braille."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2592,7 +2580,7 @@
         "Activities Demonstrate Five Signals Principle 4: THREE of The Following Activities Principle 4: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Activities Demonstrate Five Signals Preparation): Inspect the workspace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 8 (p. 38).",
+        "Step 1 (Activities Demonstrate Five Signals Preparation): Inspect the works pace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 8 (p. 38).",
         "Step 2 (Activities Demonstrate Five Signals Execution): Apply the official Signs, Signals, and Codes pamphlet method for Activities Demonstrate Five Signals while recording observations in your Scout Workbook (p. 38).",
         "Step 3 (Activities Demonstrate Five Signals Buddy Check): Cross-check your Activities Demonstrate Five Signals technique, measurements, and results with a patrol buddy using the EDGE method (p. 38).",
         "Step 4 (Activities Demonstrate Five Signals Verification): Review your completed Activities Demonstrate Five Signals evidence and demonstrate proficiency during your counselor conference (p. 38)."
@@ -2638,7 +2626,7 @@
         "title": "Exemplar Skill Station Walkthrough: Signs, Signals, and Codes Req 8 (Activities Demonstrate Five Signals)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Activities Demonstrate Five Signals.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Activities Demonstrate Five Signals.",
           "Step-by-Step Execution": "Activities Demonstrate Five Signals: THREE of The Following Activities: Then do the following: (a) Either by sight or by touch, identify the letters of the braille alphabet.",
           "Quality & Tolerance Check": "Activities Demonstrate Five Signals Principle 2: THREE of The Following Activities Principle 2: By sight or touch, decode a braille message at least six words long (p. 6).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9))"
@@ -2647,29 +2635,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Signs, Signals, and Codes Requirement 8 (Activities Demonstrate Five Signals), what execution standard is required when demonstrating Sports official's hand signs/signals?",
-        "question": "During the hands-on skill station for Signs, Signals, and Codes Requirement 8 (Activities Demonstrate Five Signals), what execution standard is required when demonstrating Sports official's hand signs/signals?",
+        "scenario_prompt": "When working on Signs, Signals, and Codes Requirement 8 (For THREE of the following activities), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
+        "question": "When working on Signs, Signals, and Codes Requirement 8 (For THREE of the following activities), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
         "options": [
-          "A. Describing how to perform THREE of The Following Activities verbally can substitute for a physical hands-on demonstration in Signs.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Activities Demonstrate Five Signals and use rules from an unrelated activity.",
-          "C. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and.",
-          "D. Substitute a casual verbal guess about Sports official's hand signs/signals in place of documented Signs, Signals, and Codes observations."
+          "A. Hands-on execution of Signs, Signals, and Codes Requirement 8 (For THREE of the following activities) depends on precise setup and step-by-step technique: By sight or touch, decode a braille.",
+          "B. Performing For THREE of the following activities in Signs, Signals.",
+          "C. Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+          "D. Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b."
         ],
         "choices": [
-          "A. Describing how to perform THREE of The Following Activities verbally can substitute for a physical hands-on demonstration in Signs.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Activities Demonstrate Five Signals and use rules from an unrelated activity.",
-          "C. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and.",
-          "D. Substitute a casual verbal guess about Sports official's hand signs/signals in place of documented Signs, Signals, and Codes observations."
+          "A. Hands-on execution of Signs, Signals, and Codes Requirement 8 (For THREE of the following activities) depends on precise setup and step-by-step technique: By sight or touch, decode a braille.",
+          "B. Performing For THREE of the following activities in Signs, Signals.",
+          "C. Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+          "D. Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and.",
-        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate THREE of The Following Activities with proper technique. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)).",
-        "pamphlet_page_ref": "p. 6, p. 9"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Hands-on execution of Signs, Signals, and Codes Requirement 8 (For THREE of the following activities) depends on precise setup and step-by-step technique: By sight or touch, decode a braille.",
+        "explanation": "Correct Answer (A): Hands-on execution of Signs, Signals, and Codes Requirement 8 (For THREE of the following activities) depends on precise setup and step-by-step technique: By sight or touch, decode a braille. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p008_img1.png"
     },
     {
       "req_id": "9",
@@ -2708,24 +2696,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show examples of 10 traffic signs and explain their meaning.",
-              "2. Key Pamphlet Facts & Mechanism (Traffic Signs)",
-              "3. Field Application & Counselor Discussion (Traffic Signs)"
+              "1. Show examples of 10 traffic signs and explain their meaning."
             ],
             "rows": [
-              "1. Show examples of 10 traffic signs and explain their meaning.",
-              "2. Key Pamphlet Facts & Mechanism (Traffic Signs)",
-              "3. Field Application & Counselor Discussion (Traffic Signs)"
-            ]
+              "1. Show examples of 10 traffic signs and explain their meaning."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show Examples of 10 Traffic verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 9a.",
-            "fact": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Show Examples of 10 Traffic with proper technique (p. 6, p. 9).",
-            "fact_correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Show Examples of 10 Traffic with proper technique (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Describing how to perform Show Examples of 10 Traffic verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 9a.",
-            "correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Show Examples of 10 Traffic with proper technique (p. 6, p. 9)."
+            "misconception": "Performing Examples of 10 traffic signs in Signs, Signals, and Codes Requirement 9a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Signs, Signals, and Codes Requirement 9a (Examples of 10 traffic signs) depends on precise setup and step-by-step technique: Either by sight or by touch, identify.",
+            "fact_correction": "Hands-on execution of Signs, Signals, and Codes Requirement 9a (Examples of 10 traffic signs) depends on precise setup and step-by-step technique: Either by sight or by touch, identify.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Performing Examples of 10 traffic signs in Signs, Signals, and Codes Requirement 9a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Signs, Signals, and Codes Requirement 9a (Examples of 10 traffic signs) depends on precise setup and step-by-step technique: Either by sight or by touch, identify."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2756,7 +2741,7 @@
           "pamphlet_excerpts": [
             "Examples of 10 Traffic Signs: Show Examples of 10 Traffic: Share with your counselor 10 examples Principle 3: Key Pamphlet Study Points: - Signs, Signals, and Codes Sub-Req 5a: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/ai_illustrations/signs_signals_and_codes_req_9_topic_visual.png"
         },
         {
           "sub_id": "9b",
@@ -2790,16 +2775,17 @@
             "rows": [
               "1. Using a topographical map, explain what a map legend is and discuss its importance.",
               "2. Point out 10 map symbols and explain the meaning."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Topographical Legend Discuss Symbols without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 9b.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Topographical Legend Discuss Symbols (Topographical Legend Discuss Symbols) (p. 6, p. 9).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Topographical Legend Discuss Symbols (Topographical Legend Discuss Symbols) (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Memorizing a one-line definition of Topographical Legend Discuss Symbols without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 9b.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Topographical Legend Discuss Symbols (Topographical Legend Discuss Symbols) (p. 6, p. 9)."
+            "misconception": "Estimating Using a topographical map figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 9b.",
+            "fact": "Accurate Signs, Signals, and Codes Requirement 9b (Using a topographical map) analysis requires contemporaneous data logging and verified measurements: Cover at least one mile in distance.",
+            "fact_correction": "Accurate Signs, Signals, and Codes Requirement 9b (Using a topographical map) analysis requires contemporaneous data logging and verified measurements: Cover at least one mile in distance.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Estimating Using a topographical map figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 9b.",
+            "correction": "Accurate Signs, Signals, and Codes Requirement 9b (Using a topographical map) analysis requires contemporaneous data logging and verified measurements: Cover at least one mile in distance."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2866,16 +2852,17 @@
               "1. Discuss text-message symbols and why they are commonly used.",
               "2. Give examples of your favorite 10 text symbols or emoticons.",
               "3. Then see if your parent, guardian, or counselor can identify the meaning or usage of each symbol."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Discuss Text-message Symbols and Why without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 9c.",
-            "fact": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Text-message Symbols and Why (Discuss Text-message Symbols and Why) (p. 6, p. 9).",
-            "fact_correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Text-message Symbols and Why (Discuss Text-message Symbols and Why) (p. 6, p. 9).",
-            "pamphlet_page_ref": "p. 6, p. 9",
-            "myth": "Memorizing a one-line definition of Discuss Text-message Symbols and Why without explaining how it works in practice satisfies Signs, Signals, and Codes Requirement 9c.",
-            "correction": "The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss Text-message Symbols and Why (Discuss Text-message Symbols and Why) (p. 6, p. 9)."
+            "misconception": "Assuming Text-message symbols and why they in Signs, Signals, and Codes Requirement 9c operates identically across all environmental and technical conditions.",
+            "fact": "The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Text-message symbols and why they (Req 9c): (a) Either by sight or by touch, identify.",
+            "fact_correction": "The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Text-message symbols and why they (Req 9c): (a) Either by sight or by touch, identify.",
+            "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+            "myth": "Assuming Text-message symbols and why they in Signs, Signals, and Codes Requirement 9c operates identically across all environmental and technical conditions.",
+            "correction": "The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Text-message symbols and why they (Req 9c): (a) Either by sight or by touch, identify."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2957,23 +2944,24 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(9a) Traffic Signs",
-          "(9b) Topographical Legend Discuss Symbols",
-          "(9c) Discuss Text-message Symbols and Why"
+          "1. (9a) Traffic Signs",
+          "2. (9b) Topographical Legend Discuss Symbols",
+          "3. (9c) Discuss Text-message Symbols and Why"
         ],
         "rows": [
-          "(9a) Traffic Signs",
-          "(9b) Topographical Legend Discuss Symbols",
-          "(9c) Discuss Text-message Symbols and Why"
-        ]
+          "1. (9a) Traffic Signs",
+          "2. (9b) Topographical Legend Discuss Symbols",
+          "3. (9c) Discuss Text-message Symbols and Why"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Share with your counselor 10 examples verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 9.",
-        "fact": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Share with your counselor 10 examples with proper technique (p. 6, p. 9).",
-        "fact_correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Share with your counselor 10 examples with proper technique (p. 6, p. 9).",
-        "pamphlet_page_ref": "p. 6, p. 9",
-        "myth": "Describing how to perform Share with your counselor 10 examples verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 9.",
-        "correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Share with your counselor 10 examples with proper technique (p. 6, p. 9)."
+        "misconception": "Performing Share with your counselor 10 examples in Signs, Signals.",
+        "fact": "Hands-on execution of Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples) depends on precise setup and step-by-step technique: Either by sight or by touch, identify.",
+        "fact_correction": "Hands-on execution of Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples) depends on precise setup and step-by-step technique: Either by sight or by touch, identify.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
+        "myth": "Performing Share with your counselor 10 examples in Signs, Signals.",
+        "correction": "Hands-on execution of Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples) depends on precise setup and step-by-step technique: Either by sight or by touch, identify."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3003,7 +2991,7 @@
         "Examples of Symbols Used Principle 4: Share with your counselor 10 examples Principle 4: Cover at least one mile in distance and use at least six different trail signs and markers (p. 6)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Examples of Symbols Used Preparation): Inspect the workspace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 9 (p. 42).",
+        "Step 1 (Examples of Symbols Used Preparation): Inspect the works pace, reference materials, and safety controls required for Signs, Signals, and Codes Requirement 9 (p. 42).",
         "Step 2 (Examples of Symbols Used Execution): Apply the official Signs, Signals, and Codes pamphlet method for Examples of Symbols Used while recording observations in your Scout Workbook (p. 42).",
         "Step 3 (Examples of Symbols Used Buddy Check): Cross-check your Examples of Symbols Used technique, measurements, and results with a patrol buddy using the EDGE method (p. 42).",
         "Step 4 (Examples of Symbols Used Verification): Review your completed Examples of Symbols Used evidence and demonstrate proficiency during your counselor conference (p. 42)."
@@ -3058,29 +3046,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Signs, Signals, and Codes Requirement 9 (Symbols Used in Everyday Life), what execution standard is required when demonstrating Show examples of 10 traffic signs and explain their meaning?",
-        "question": "During the hands-on skill station for Signs, Signals, and Codes Requirement 9 (Symbols Used in Everyday Life), what execution standard is required when demonstrating Show examples of 10 traffic signs and explain their meaning?",
+        "scenario_prompt": "During your patrol's preparation and review for Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples), which statement accurately reflects the official Signs, Signals, and Codes Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples), which statement accurately reflects the official Signs, Signals, and Codes Merit Badge Pamphlet?",
         "options": [
-          "A. Describing how to perform Share with your counselor 10 examples verbally can substitute for a physical hands-on demonstration in.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Symbols Used in Everyday Life and use rules from an unrelated activity.",
-          "C. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Symbols Used in Everyday Life."
+          "A. Performing Share with your counselor 10 examples in Signs, Signals.",
+          "B. Hands-on execution of Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples) depends on precise setup and step-by-step technique: Either by sight or by touch, identify.",
+          "C. Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+          "D. Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b."
         ],
         "choices": [
-          "A. Describing how to perform Share with your counselor 10 examples verbally can substitute for a physical hands-on demonstration in.",
-          "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Symbols Used in Everyday Life and use rules from an unrelated activity.",
-          "C. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Symbols Used in Everyday Life."
+          "A. Performing Share with your counselor 10 examples in Signs, Signals.",
+          "B. Hands-on execution of Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples) depends on precise setup and step-by-step technique: Either by sight or by touch, identify.",
+          "C. Assuming Sports official's hand signs/signals in Signs, Signals, and Codes Requirement 8a operates identically across all environmental and technical conditions.",
+          "D. Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and.",
-        "explanation": "Correct Answer (C): Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Share with your counselor 10 examples with proper technique. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)).",
-        "pamphlet_page_ref": "p. 6, p. 9"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Hands-on execution of Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples) depends on precise setup and step-by-step technique: Either by sight or by touch, identify.",
+        "explanation": "Correct Answer (B): Hands-on execution of Signs, Signals, and Codes Requirement 9 (Share with your counselor 10 examples) depends on precise setup and step-by-step technique: Either by sight or by touch, identify. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 9.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/signs_signals_and_codes_req_9_topic_visual.png"
     },
     {
       "req_id": "10",
@@ -3143,15 +3131,16 @@
           "2. Make up your own secret code and write a message of up to 25 words using this code.",
           "3. Share the message with a friend or fellow Scout.",
           "4. Then share the message and code key with your counselor and discuss the effectiveness of your code."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Briefly discuss the history of secret verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 10.",
-        "fact": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Briefly discuss the history of secret with proper technique (p. 6, p. 7).",
-        "fact_correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Briefly discuss the history of secret with proper technique (p. 6, p. 7).",
-        "pamphlet_page_ref": "p. 6, p. 7",
-        "myth": "Describing how to perform Briefly discuss the history of secret verbally can substitute for a physical hands-on demonstration in Signs, Signals, and Codes Requirement 10.",
-        "correction": "Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Briefly discuss the history of secret with proper technique (p. 6, p. 7)."
+        "misconception": "Performing Briefly discuss the history of secret in Signs, Signals.",
+        "fact": "Hands-on execution of Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret) depends on precise setup and step-by-step technique: (a) Either by sight or by touch.",
+        "fact_correction": "Hands-on execution of Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret) depends on precise setup and step-by-step technique: (a) Either by sight or by touch.",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
+        "myth": "Performing Briefly discuss the history of secret in Signs, Signals.",
+        "correction": "Hands-on execution of Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret) depends on precise setup and step-by-step technique: (a) Either by sight or by touch."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3227,7 +3216,7 @@
         "title": "Exemplar Skill Station Walkthrough: Signs, Signals, and Codes Req 10 (Briefly discuss the history of secret)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Briefly discuss the history of secret.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Briefly discuss the history of secret.",
           "Step-by-Step Execution": "Briefly discuss the history of secret: Then do the following: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
           "Quality & Tolerance Check": "Briefly discuss the history of secret Principle 2: By sight or touch, decode a braille message at least six words long (p. 6).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7))"
@@ -3236,29 +3225,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Signs, Signals, and Codes Requirement 10 (Signs, Signals, and Codes Origins and Evolution), what execution standard is required when demonstrating Briefly discuss the history of secret code writing ?",
-        "question": "During the hands-on skill station for Signs, Signals, and Codes Requirement 10 (Signs, Signals, and Codes Origins and Evolution), what execution standard is required when demonstrating Briefly discuss the history of secret code writing ?",
+        "scenario_prompt": "In Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
+        "question": "In Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
         "options": [
-          "A. Describing how to perform Briefly discuss the history of secret verbally can substitute for a physical hands-on demonstration in.",
-          "B. Reverse the sequence of Signs, Signals, and Codes Origins and Evolution steps by attempting final sign-off before completing Briefly discuss the history of secret code writing .",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Signs, Signals, and Codes Origins and Evolution.",
-          "D. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and."
+          "A. Performing Briefly discuss the history of secret in Signs, Signals.",
+          "B. Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b.",
+          "C. Hands-on execution of Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret) depends on precise setup and step-by-step technique: (a) Either by sight or by touch.",
+          "D. Treating the technical factors of Aircraft carrier catapult crew signals in Signs, Signals, and Codes Requirement 8c as isolated terms rather than interconnected field mechanisms."
         ],
         "choices": [
-          "A. Describing how to perform Briefly discuss the history of secret verbally can substitute for a physical hands-on demonstration in.",
-          "B. Reverse the sequence of Signs, Signals, and Codes Origins and Evolution steps by attempting final sign-off before completing Briefly discuss the history of secret code writing .",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Signs, Signals, and Codes Origins and Evolution.",
-          "D. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and."
+          "A. Performing Briefly discuss the history of secret in Signs, Signals.",
+          "B. Overlooking how Heavy-equipment operator's hand signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 8b.",
+          "C. Hands-on execution of Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret) depends on precise setup and step-by-step technique: (a) Either by sight or by touch.",
+          "D. Treating the technical factors of Aircraft carrier catapult crew signals in Signs, Signals, and Codes Requirement 8c as isolated terms rather than interconnected field mechanisms."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and.",
-        "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Signs, Signals, and Codes pamphlet, each Scout must physically execute and demonstrate Briefly discuss the history of secret with proper technique. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
-        "pamphlet_page_ref": "p. 6, p. 7"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Hands-on execution of Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret) depends on precise setup and step-by-step technique: (a) Either by sight or by touch.",
+        "explanation": "Correct Answer (C): Hands-on execution of Signs, Signals, and Codes Requirement 10 (Briefly discuss the history of secret) depends on precise setup and step-by-step technique: (a) Either by sight or by touch. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
+        "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Signs, Signals, and Codes Workbook organizer table and practical demonstration for Req 10.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/signs_signals_and_codes_req_10_topic_visual.png"
     }
   ],
   "badge_slug": "signs_signals_and_codes",
@@ -3269,209 +3258,209 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Signs, Signals, and Codes Origins and Evolution: Discuss with your counselor the importance of signs, signals, and code)?",
-      "question": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Signs, Signals, and Codes Origins and Evolution: Discuss with your counselor the importance of signs, signals, and code)?",
+      "scenario_prompt": "What is the universal international distress call in Morse code, and what pattern of audible or visual signals is recognized worldwide as an emergency call for help?",
+      "question": "What is the universal international distress call in Morse code, and what pattern of audible or visual signals is recognized worldwide as an emergency call for help?",
       "options": [
-        "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "B. Memorizing a one-line definition of Signs, Signals, and Codes Origins and Evolution without explaining how it works in practice.",
-        "C. Focus only on Discuss with your counselor the importance of signs, si while omitting Briefly discuss the history and development of signs, s and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Signs, Signals, and Codes Origins and Evolution."
+        "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
+        "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+        "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
+        "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
       ],
       "choices": [
-        "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "B. Memorizing a one-line definition of Signs, Signals, and Codes Origins and Evolution without explaining how it works in practice.",
-        "C. Focus only on Discuss with your counselor the importance of signs, si while omitting Briefly discuss the history and development of signs, s and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Signs, Signals, and Codes Origins and Evolution."
+        "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
+        "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+        "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
+        "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (A): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Signs, Signals, and Codes Origins and Evolution (Signs, Signals, and Codes Origins and Evolution). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
-      "pamphlet_page_ref": "p. 7, p. 8",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+      "explanation": "Correct Answer (B): Three of anything (three whistle blasts, three fires or smoke columns, three light flashes) and Morse code SOS (three dots, three dashes, three dots) are universally recognized emergency distress signals.",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "Before beginning hands-on work for Signs, Signals, and Codes Requirement 2 (Signaling in Emergency Communications Discuss), what safety and hazard-prevention standard does the Signs, Signals, and Codes Merit Badge Pamphlet require?",
-      "question": "Before beginning hands-on work for Signs, Signals, and Codes Requirement 2 (Signaling in Emergency Communications Discuss), what safety and hazard-prevention standard does the Signs, Signals, and Codes Merit Badge Pamphlet require?",
+      "scenario_prompt": "In Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
+      "question": "In Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
       "options": [
-        "A. Experienced Signs, Signals, and Codes participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Signaling in Emergency Communications Discuss and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental.",
-        "D. Assume Signaling in Emergency Communications Discuss applies only to indoor classroom theory and has no effect on real-world Signs, Signals, and Codes practice."
+        "A. During Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), protective equipment checks and hazard mitigation are only needed in severe weather.",
+        "B. Assuming Either by sight or by touch in Signs, Signals, and Codes Requirement 5a operates identically across all environmental and technical conditions.",
+        "C. Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+        "D. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b."
       ],
       "choices": [
-        "A. Experienced Signs, Signals, and Codes participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Signaling in Emergency Communications Discuss and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental.",
-        "D. Assume Signaling in Emergency Communications Discuss applies only to indoor classroom theory and has no effect on real-world Signs, Signals, and Codes practice."
+        "A. During Signs, Signals, and Codes Requirement 2 (The importance of signaling in emergency), protective equipment checks and hazard mitigation are only needed in severe weather.",
+        "B. Assuming Either by sight or by touch in Signs, Signals, and Codes Requirement 5a operates identically across all environmental and technical conditions.",
+        "C. Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+        "D. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental.",
-      "explanation": "Correct Answer (C): The Signs, Signals, and Codes pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Signaling in Emergency Communications Discuss activity. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
-      "pamphlet_page_ref": "p. 7, p. 8",
+      "correct_answer": "C. Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification.",
+      "explanation": "Correct Answer (C): Every Signs, Signals, and Codes outing requires proactive hazard screening, proper PPE fit verification. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Morse Code Is and The: Describe what Morse code is and the various means by which it can be s)?",
-      "question": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Morse Code Is and The: Describe what Morse code is and the various means by which it can be s)?",
+      "scenario_prompt": "When demonstrating and explaining Morse code for Signs, Signals, and Codes Requirement 3, which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Morse code for Signs, Signals, and Codes Requirement 3, which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
       "options": [
-        "A. Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Morse Code Is and The and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Substitute a casual verbal guess about Describe what Morse code is and the various means by wh in place of documented Signs, Signals, and Codes observations."
+        "A. Assuming Morse code in Signs, Signals, and Codes Requirement 3 operates identically across all environmental and technical conditions.",
+        "B. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b.",
+        "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+        "D. The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Morse Code Is and The without explaining how it works in practice satisfies Signs, Signals, and.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Morse Code Is and The and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Substitute a casual verbal guess about Describe what Morse code is and the various means by wh in place of documented Signs, Signals, and Codes observations."
+        "A. Assuming Morse code in Signs, Signals, and Codes Requirement 3 operates identically across all environmental and technical conditions.",
+        "B. Overlooking how Create a message in braille directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement 5b.",
+        "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+        "D. The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (C): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Morse Code Is and The (Morse Code Is and The). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
-      "pamphlet_page_ref": "p. 6, p. 7",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille.",
+      "explanation": "Correct Answer (D): The Signs, Signals, and Codes Merit Badge Pamphlet specifies distinct conditions and criteria for Morse code (Req 3): (a) Either by sight or by touch, identify the letters of the braille. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "In Signs, Signals, and Codes Requirement 4 (Brief Explanation About Semaphore), how should a Scout accurately distinguish and explain the key technical differences (Give your counselor a brief explanation about semaphore, why it is used, ho)?",
-      "question": "In Signs, Signals, and Codes Requirement 4 (Brief Explanation About Semaphore), how should a Scout accurately distinguish and explain the key technical differences (Give your counselor a brief explanation about semaphore, why it is used, ho)?",
+      "scenario_prompt": "When working on Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
+      "question": "When working on Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
       "options": [
-        "A. All concepts or systems compared under Brief Explanation About Semaphore in Signs, Signals, and Codes behave identically regardless.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Brief Explanation About Semaphore and use rules from an unrelated activity.",
-        "C. Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field.",
-        "D. Substitute a casual verbal guess about Give your counselor a brief explanation about semaphore in place of documented Signs, Signals, and Codes observations."
+        "A. Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+        "B. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+        "D. Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement."
       ],
       "choices": [
-        "A. All concepts or systems compared under Brief Explanation About Semaphore in Signs, Signals, and Codes behave identically regardless.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Brief Explanation About Semaphore and use rules from an unrelated activity.",
-        "C. Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field.",
-        "D. Substitute a casual verbal guess about Give your counselor a brief explanation about semaphore in place of documented Signs, Signals, and Codes observations."
+        "A. Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+        "B. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "C. Performing To your counselor six sound-only signals in Signs, Signals.",
+        "D. Overlooking how To your counselor six sound-only signals directly affects safety, efficiency, and decision-making in Signs, Signals, and Codes Requirement."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field.",
-      "explanation": "Correct Answer (C): Each system or condition in Brief Explanation About Semaphore has distinct physical mechanisms, operating limits, and field indicators defined in the Signs, Signals, and Codes pamphlet. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
-      "pamphlet_page_ref": "p. 6, p. 8",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode.",
+      "explanation": "Correct Answer (A): Accurate Signs, Signals, and Codes Requirement 4 (Give your counselor a brief explanation) analysis requires contemporaneous data logging and verified measurements: By sight or touch, decode. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(1)_q1 (Spell Your First Name Using (Check 1): Spell your first name using semaphore)?",
-      "question": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(1)_q1 (Spell Your First Name Using (Check 1): Spell your first name using semaphore)?",
+      "scenario_prompt": "When demonstrating and explaining Give your counselor a brief explanation for Signs, Signals, and Codes Requirement 4c(1), which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Give your counselor a brief explanation for Signs, Signals, and Codes Requirement 4c(1), which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
       "options": [
-        "A. Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Spell Your First Name Using (Check 1) and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Substitute a casual verbal guess about Spell your first name using semaphore in place of documented Signs, Signals, and Codes observations."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name.",
+        "C. Performing Examples of 10 traffic signs in Signs, Signals, and Codes Requirement 9a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Estimating Using a topographical map figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 9b."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Spell Your First Name Using (Check 1) and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Substitute a casual verbal guess about Spell your first name using semaphore in place of documented Signs, Signals, and Codes observations."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name.",
+        "C. Performing Examples of 10 traffic signs in Signs, Signals, and Codes Requirement 9a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Estimating Using a topographical map figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 9b."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (C): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Spell Your First Name Using (Spell Your First Name Using). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
-      "pamphlet_page_ref": "p. 6, p. 8",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name.",
+      "explanation": "Correct Answer (B): (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
       "req_id": "4c(1)",
       "option_id": "4c"
     },
     {
-      "scenario_prompt": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(2)_q2 (Illustrations Nautical Flags Discuss (Check 2): Using illustrations or photographs, identify 10 examples of nautical f)?",
-      "question": "How does the Signs, Signals, and Codes Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(2)_q2 (Illustrations Nautical Flags Discuss (Check 2): Using illustrations or photographs, identify 10 examples of nautical f)?",
+      "scenario_prompt": "When working on Signs, Signals, and Codes Requirement 4c(2) (Give your counselor a brief explanation), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
+      "question": "When working on Signs, Signals, and Codes Requirement 4c(2) (Give your counselor a brief explanation), which principle and field standard is established in the Signs, Signals, and Codes Merit Badge Pamphlet?",
       "options": [
-        "A. Memorizing a one-line definition of Illustrations Nautical Flags Discuss without explaining how it works in practice satisfies.",
-        "B. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "C. Rely on a group summary of Illustrations Nautical Flags Discuss (Check 2) instead of individually explaining or demonstrating Using illustrations or photographs, identify 10 examples of .",
-        "D. Complete only a single sub-part of Requirement 4c(2)_q2 rather than fulfilling the full Illustrations Nautical Flags Discuss (Check 2) standard."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. Estimating Using a topographical map figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 9b.",
+        "C. Cover at least one mile in distance and use at least six different trail signs and markers.",
+        "D. Assuming Text-message symbols and why they in Signs, Signals, and Codes Requirement 9c operates identically across all environmental and technical conditions."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Illustrations Nautical Flags Discuss without explaining how it works in practice satisfies.",
-        "B. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "C. Rely on a group summary of Illustrations Nautical Flags Discuss (Check 2) instead of individually explaining or demonstrating Using illustrations or photographs, identify 10 examples of .",
-        "D. Complete only a single sub-part of Requirement 4c(2)_q2 rather than fulfilling the full Illustrations Nautical Flags Discuss (Check 2) standard."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. Estimating Using a topographical map figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals, and Codes Requirement 9b.",
+        "C. Cover at least one mile in distance and use at least six different trail signs and markers.",
+        "D. Assuming Text-message symbols and why they in Signs, Signals, and Codes Requirement 9c operates identically across all environmental and technical conditions."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (B): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Illustrations Nautical Flags Discuss (Illustrations Nautical Flags Discuss). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
-      "pamphlet_page_ref": "p. 6, p. 8",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Cover at least one mile in distance and use at least six different trail signs and markers.",
+      "explanation": "Correct Answer (C): Cover at least one mile in distance and use at least six different trail signs and markers. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
       "req_id": "4c(2)",
       "option_id": "4c"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 4c(1)_q3 (Spell Your First Name Using (Check 3)), which statement accurately reflects the official BSA standard for Spell your first name using semaphore?",
-      "question": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 4c(1)_q3 (Spell Your First Name Using (Check 3)), which statement accurately reflects the official BSA standard for Spell your first name using semaphore?",
+      "scenario_prompt": "During your patrol's preparation and review for Signs, Signals, and Codes Requirement 4c(1) (Give your counselor a brief explanation), which statement accurately reflects the official Signs, Signals, and Codes Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Signs, Signals, and Codes Requirement 4c(1) (Give your counselor a brief explanation), which statement accurately reflects the official Signs, Signals, and Codes Merit Badge Pamphlet?",
       "options": [
-        "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "B. Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs.",
-        "C. Focus only on Spell your first name using semaphore while omitting Send or receive a message of six to 10 words using sema and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 4c(1)_q3 rather than fulfilling the full Spell Your First Name Using (Check 3) standard."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. Assuming Text-message symbols and why they in Signs, Signals, and Codes Requirement 9c operates identically across all environmental and technical conditions.",
+        "C. Performing Briefly discuss the history of secret in Signs, Signals.",
+        "D. After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail."
       ],
       "choices": [
-        "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "B. Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs.",
-        "C. Focus only on Spell your first name using semaphore while omitting Send or receive a message of six to 10 words using sema and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 4c(1)_q3 rather than fulfilling the full Spell Your First Name Using (Check 3) standard."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. Assuming Text-message symbols and why they in Signs, Signals, and Codes Requirement 9c operates identically across all environmental and technical conditions.",
+        "C. Performing Briefly discuss the history of secret in Signs, Signals.",
+        "D. After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail."
+      ],
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail.",
+      "explanation": "Correct Answer (D): After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
+      "req_id": "4c(1)",
+      "option_id": "4c"
+    },
+    {
+      "scenario_prompt": "In Signs, Signals, and Codes Requirement 4c(2) (Give your counselor a brief explanation), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
+      "question": "In Signs, Signals, and Codes Requirement 4c(2) (Give your counselor a brief explanation), what technical standard and procedure does the Scouting America Signs, Signals, and Codes Merit Badge Pamphlet require?",
+      "options": [
+        "A. Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals.",
+        "B. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "C. Performing Briefly discuss the history of secret in Signs, Signals.",
+        "D. Four short flashes followed by two long whistle blasts, repeated once every hour."
+      ],
+      "choices": [
+        "A. Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals.",
+        "B. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "C. Performing Briefly discuss the history of secret in Signs, Signals.",
+        "D. Four short flashes followed by two long whistle blasts, repeated once every hour."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (A): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Spell Your First Name Using (Spell Your First Name Using). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
-      "pamphlet_page_ref": "p. 6, p. 8",
-      "req_id": "4c(1)",
-      "option_id": "4c"
-    },
-    {
-      "scenario_prompt": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 4c(2)_q4 (Illustrations Nautical Flags Discuss (Check 4)), which statement accurately reflects the official BSA standard for Using illustrations or photographs, identify 10 examples of nautical flags ?",
-      "question": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 4c(2)_q4 (Illustrations Nautical Flags Discuss (Check 4)), which statement accurately reflects the official BSA standard for Using illustrations or photographs, identify 10 examples of nautical flags ?",
-      "options": [
-        "A. Memorizing a one-line definition of Illustrations Nautical Flags Discuss without explaining how it works in practice satisfies.",
-        "B. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "C. Rely on a group summary of Illustrations Nautical Flags Discuss (Check 4) instead of individually explaining or demonstrating Using illustrations or photographs, identify 10 examples of .",
-        "D. Complete only a single sub-part of Requirement 4c(2)_q4 rather than fulfilling the full Illustrations Nautical Flags Discuss (Check 4) standard."
-      ],
-      "choices": [
-        "A. Memorizing a one-line definition of Illustrations Nautical Flags Discuss without explaining how it works in practice satisfies.",
-        "B. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "C. Rely on a group summary of Illustrations Nautical Flags Discuss (Check 4) instead of individually explaining or demonstrating Using illustrations or photographs, identify 10 examples of .",
-        "D. Complete only a single sub-part of Requirement 4c(2)_q4 rather than fulfilling the full Illustrations Nautical Flags Discuss (Check 4) standard."
-      ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (B): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Illustrations Nautical Flags Discuss (Illustrations Nautical Flags Discuss). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
-      "pamphlet_page_ref": "p. 6, p. 8",
+      "correct_answer": "A. Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals.",
+      "explanation": "Correct Answer (A): Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
       "req_id": "4c(2)",
       "option_id": "4c"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 4c(1)_q5 (Spell Your First Name Using (Check 5)), which statement accurately reflects the official BSA standard for Spell your first name using semaphore?",
-      "question": "When preparing for your counselor conference on Signs, Signals, and Codes Requirement 4c(1)_q5 (Spell Your First Name Using (Check 5)), which statement accurately reflects the official BSA standard for Spell your first name using semaphore?",
+      "scenario_prompt": "When demonstrating and explaining Give your counselor a brief explanation for Signs, Signals, and Codes Requirement 4c(1), which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Give your counselor a brief explanation for Signs, Signals, and Codes Requirement 4c(1), which approach follows the verified Signs, Signals, and Codes Merit Badge Pamphlet standard?",
       "options": [
-        "A. Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Spell Your First Name Using (Check 5) and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Substitute a casual verbal guess about Spell your first name using semaphore in place of documented Signs, Signals, and Codes observations."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. Use these Scout signals to direct the movements and actions of your patrol or troop.",
+        "C. Four short flashes followed by two long whistle blasts, repeated once every hour.",
+        "D. A single continuous horn blast lasting ten seconds or waving a green flag overhead."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Spell Your First Name Using without explaining how it works in practice satisfies Signs.",
-        "B. Skip the Signs, Signals, and Codes Pamphlet technical criteria for Spell Your First Name Using (Check 5) and use rules from an unrelated activity.",
-        "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-        "D. Substitute a casual verbal guess about Spell your first name using semaphore in place of documented Signs, Signals, and Codes observations."
+        "A. Estimating Give your counselor a brief explanation figures from memory at the end of the project is as accurate as recording real-time measurements for Signs, Signals.",
+        "B. Use these Scout signals to direct the movements and actions of your patrol or troop.",
+        "C. Four short flashes followed by two long whistle blasts, repeated once every hour.",
+        "D. A single continuous horn blast lasting ten seconds or waving a green flag overhead."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world.",
-      "explanation": "Correct Answer (C): The Signs, Signals, and Codes pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Spell Your First Name Using (Spell Your First Name Using). (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
-      "pamphlet_page_ref": "p. 6, p. 8",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Use these Scout signals to direct the movements and actions of your patrol or troop.",
+      "explanation": "Correct Answer (B): Use these Scout signals to direct the movements and actions of your patrol or troop. (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)).",
+      "pamphlet_page_ref": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
       "req_id": "4c(1)",
       "option_id": "4c"
     }

@@ -69,14 +69,15 @@
           "2. Explain what weather is and what climate is.",
           "3. Discuss how the weather affects farmers, sailors, aviators, and the outdoor construction industry.",
           "4. Tell why weather forecasts are important to each of these groups."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "myth": "Weather and climate mean the same thing—a single freezing winter week disproves long-term climate trends.",
-        "fact": "Weather describes short-term atmospheric conditions (hours to days), whereas climate measures long-term regional averages and extremes over 30 years or more.",
-        "misconception": "Weather and climate mean the same thing—a single freezing winter week disproves long-term climate trends.",
-        "correction": "Weather describes short-term atmospheric conditions (hours to days), whereas climate measures long-term regional averages and extremes over 30 years or more.",
-        "fact_correction": "Weather describes short-term atmospheric conditions (hours to days), whereas climate measures long-term regional averages and extremes over 30 years or more."
+        "myth": "Weather and climate mean the same thing - a single freezing winter week disproves long-term climate trends.",
+        "fact": "Weather describes short-term atmospheric conditions (hours to days), whereas climate measures long-term regional averages and extremes over 30 years.",
+        "misconception": "Weather and climate mean the same thing - a single freezing winter week disproves long-term climate trends.",
+        "correction": "Weather describes short-term atmospheric conditions (hours to days), whereas climate measures long-term regional averages and extremes over 30 years.",
+        "fact_correction": "Weather describes short-term atmospheric conditions (hours to days), whereas climate measures long-term regional averages and extremes over 30 years."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -100,7 +101,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Meteorology vs. Climate & Daily Impact: Define meteorology: A rainy day will keep you from mowing the lawn or playing a baseballgame (p. 72).",
+        "Meteorology vs. Climate & Daily Impact: Define meteorology: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 72).",
         "Meteorology vs. Climate & Daily Impact Principle 2: Define meteorology Principle 2: A serious heat wave could prevent your Scout troop from taking ahiking trip (p. 72).",
         "Meteorology vs. Climate & Daily Impact Principle 3: Define meteorology Principle 3: For people in some occupations, however, the weather forecast is vital (p. 72).",
         "Meteorology vs. Climate & Daily Impact Principle 4: Define meteorology Principle 4: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 72)."
@@ -108,7 +109,7 @@
       "step_by_step_procedure": [
         "Step 1 (Meteorology vs. Climate & Daily Impact): Step 1 (Define meteorology): Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 72).",
         "Step 2 (Meteorology vs. Climate & Daily Impact): Step 2 (Define meteorology): Climate records may be introduced as evidence in court to clarify the causes of accidents on highways, in the air, and at sea (p. 72).",
-        "Step 3 (Meteorology vs. Climate & Daily Impact): Step 3 (Define meteorology): Climate canaffect people's health and social behavior as well as agricultural, commercial, and industrial pursuits the world (p. 72).",
+        "Step 3 (Meteorology vs. Climate & Daily Impact): Step 3 (Define meteorology): Climate can affect people's health and social behavior as well as agricultural, commercial, and industrial pursuits the world (p. 72).",
         "Step 4 (Meteorology vs. Climate & Daily Impact): Step 4 (Define meteorology): Pilots need accurate, up-to-date forecasts to help them make decisions such as whether to land a plane (p. 72)."
       ],
       "gear_checklist": [
@@ -153,7 +154,7 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Meteorology vs. Climate & Daily Impact.",
-          "Tracked Field Data": "Meteorology vs. Climate & Daily Impact: Define meteorology: A rainy day will keep you from mowing the lawn or playing a baseballgame (p. 72).",
+          "Tracked Field Data": "Meteorology vs. Climate & Daily Impact: Define meteorology: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 72).",
           "Variance & Outcome Analysis": "Meteorology vs. Climate & Daily Impact Principle 2: Define meteorology Principle 2: A serious heat wave could prevent your Scout troop from taking ahiking trip (p. 72).",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Weather Merit Badge Pamphlet (p. 72, p. 74))"
         },
@@ -161,29 +162,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Weather Merit Badge Pamphlet (p. 72, p. 74)."
       },
       "quiz_item": {
-        "scenario_prompt": "During a troop trek planning session, a Scout says 'weather' and 'climate' mean the exact same thing when packing gear for High Adventure. How does the Weather Merit Badge Pamphlet distinguish weather from climate?",
-        "question": "During a troop trek planning session, a Scout says 'weather' and 'climate' mean the exact same thing when packing gear for High Adventure. How does the Weather Merit Badge Pamphlet distinguish weather from climate?",
+        "scenario_prompt": "Your patrol is hiking across an open alpine ridgeline when towering cumulonimbus clouds build rapidly and you hear thunder 10 seconds after seeing a lightning flash (roughly 2 miles away). What is the safest immediate action for the patrol?",
+        "question": "Your patrol is hiking across an open alpine ridgeline when towering cumulonimbus clouds build rapidly and you hear thunder 10 seconds after seeing a lightning flash (roughly 2 miles away). What is the safest immediate action for the patrol?",
         "options": [
-          "A. Weather describes the day-to-day state of the atmosphere at a specific time and place, while climate is the long-term average of weather patterns over 30 or more years.",
-          "B. Weather only measures rainfall and snow, whereas climate only measures wind speed and barometric pressure.",
-          "C. Climate changes every hour with passing fronts, while weather remains constant across an entire continent.",
-          "D. Weather only affects sailors and aviators, while climate only affects farmers and outdoor construction crews."
+          "A. Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
+          "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+          "C. Huddle together in a tight circle on top of metal-frame backpacks.",
+          "D. Lie flat on wet granite at the summit so the wind blows over the patrol."
         ],
         "choices": [
-          "A. Weather describes the day-to-day state of the atmosphere at a specific time and place, while climate is the long-term average of weather patterns over 30 or more years.",
-          "B. Weather only measures rainfall and snow, whereas climate only measures wind speed and barometric pressure.",
-          "C. Climate changes every hour with passing fronts, while weather remains constant across an entire continent.",
-          "D. Weather only affects sailors and aviators, while climate only affects farmers and outdoor construction crews."
+          "A. Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
+          "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+          "C. Huddle together in a tight circle on top of metal-frame backpacks.",
+          "D. Lie flat on wet granite at the summit so the wind blows over the patrol."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Weather describes the day-to-day state of the atmosphere at a specific time and place, while climate is the long-term average of weather patterns over 30 or more years.",
-        "explanation": "Correct Answer (A): Meteorology studies day-to-day atmospheric conditions (weather), while climate measures long-term regional averages over decades (Official Scouting America Weather Merit Badge Pamphlet, p. 10).",
-        "pamphlet_page_ref": "p. 72, p. 74"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+        "explanation": "Correct Answer (B): Sound travels about 1 mile every 5 seconds; a 10-second flash-to-bang interval means lightning is within 2 miles and already in strike range, requiring immediate descent from ridges and avoidance of tall isolated objects.",
+        "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 72, p. 74)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 1.",
-      "workbook_diagram_url": "assets/pamphlet_images/weather_p007_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p003_img1.png"
     },
     {
       "req_id": "2",
@@ -248,14 +249,15 @@
           "1. Name five dangerous weather-related conditions.",
           "2. Give the safety rules for each when outdoors and explain the difference between a severe weather watch and a warning.",
           "3. Discuss the safety rules with your family."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
         "myth": "Lightning never strikes the same place twice, and rubber shoe soles protect you from a lightning strike outdoors.",
-        "fact": "Tall structures are struck repeatedly during storms, and thin rubber soles offer zero protection against a 300-million-volt lightning channel—seek an enclosed building or hard-topped vehicle immediately.",
+        "fact": "Tall structures are struck repeatedly during storms.",
         "misconception": "Lightning never strikes the same place twice, and rubber shoe soles protect you from a lightning strike outdoors.",
-        "correction": "Tall structures are struck repeatedly during storms, and thin rubber soles offer zero protection against a 300-million-volt lightning channel—seek an enclosed building or hard-topped vehicle immediately.",
-        "fact_correction": "Tall structures are struck repeatedly during storms, and thin rubber soles offer zero protection against a 300-million-volt lightning channel—seek an enclosed building or hard-topped vehicle immediately."
+        "correction": "Tall structures are struck repeatedly during storms.",
+        "fact_correction": "Tall structures are struck repeatedly during storms."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -280,15 +282,15 @@
       ],
       "pamphlet_excerpts": [
         "Dangerous Weather-related Conditions: Name five dangerous weather-related conditions: People readily adapt to routine weather changes that occur with the passage of air masses (p. 29).",
-        "Dangerous Weather-related Conditions Principle 2: Name five dangerous weather-related conditions Principle 2: Sometimes, however, the weather canbecome so violent or the temperature so extreme that peopleneed to take special precautions (p. 29).",
-        "Dangerous Weather-related Conditions Principle 3: Name five dangerous weather-related conditions Principle 3: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violentor hazardous (p. 29).",
+        "Dangerous Weather-related Conditions Principle 2: Name five dangerous weather-related conditions Principle 2: Sometimes, however, the weather can become so violent or the temperature so extreme that people need to take special precautions (p. 29).",
+        "Dangerous Weather-related Conditions Principle 3: Name five dangerous weather-related conditions Principle 3: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violent or hazardous (p. 29).",
         "Dangerous Weather-related Conditions Principle 4: Name five dangerous weather-related conditions Principle 4: There is an important difference between a watch and a warning (p. 29)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Dangerous Weather-related Conditions): Step 1 (Name five dangerous weather-related conditions): A watch means that hazardous weatheris possible or that conditions are favorable for it to develop (p. 29).",
-        "Step 2 (Dangerous Weather-related Conditions): Step 2 (Name five dangerous weather-related conditions): Awarning is a more urgent notice that hazardous conditions alreadyexist or are heading your way (p. 29).",
+        "Step 1 (Dangerous Weather-related Conditions): Step 1 (Name five dangerous weather-related conditions): A watch means that hazardous weather is possible or that conditions are favorable for it to develop (p. 29).",
+        "Step 2 (Dangerous Weather-related Conditions): Step 2 (Name five dangerous weather-related conditions): Awarning is a more urgent notice that hazardous conditions already exist or are heading your way (p. 29).",
         "Step 3 (Dangerous Weather-related Conditions): Step 3 (Name five dangerous weather-related conditions): Watches and warnings are issued for events such as winter storms, tornadoes, severe thunderstorms, high winds, and flash floods (p. 29).",
-        "Step 4 (Dangerous Weather-related Conditions): Step 4 (Name five dangerous weather-related conditions): The National Weather Service issuesadvisories when conditions are expected to cause serious inconveniences (p. 29)."
+        "Step 4 (Dangerous Weather-related Conditions): Step 4 (Name five dangerous weather-related conditions): The National Weather Service issues advisories when conditions are expected to cause serious inconveniences (p. 29)."
       ],
       "gear_checklist": [
         "Official Weather Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Dangerous Weather-related Conditions)",
@@ -333,7 +335,7 @@
         "fields": {
           "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Dangerous Weather-related Conditions.",
           "Preventive Controls & PPE": "Dangerous Weather-related Conditions: Name five dangerous weather-related conditions: People readily adapt to routine weather changes that occur with the passage of air masses.",
-          "Acute First-Aid Response": "Dangerous Weather-related Conditions Principle 2: Name five dangerous weather-related conditions Principle 2: Sometimes, however, the weather canbecome so violent or the temperatur.",
+          "Acute First-Aid Response": "Dangerous Weather-related Conditions Principle 2: Name five dangerous weather-related conditions Principle 2: Sometimes, however, the weather can become so violent or the temperatur.",
           "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 32)."
         },
         "sample_output": "Dangerous Weather-related Conditions: Dangerous Weather-related Conditions: Name five dangerous weather-related conditions: People readily adapt to routine weather changes that o",
@@ -362,7 +364,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/ai_illustrations/weather_doppler_radar_nano.png"
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p007_img1.png"
     },
     {
       "req_id": "3",
@@ -421,14 +423,15 @@
         "rows": [
           "1. Identify at least two sources of weather forecasts that can be used to prepare for hikes, overnight camping, and other outdoor...",
           "2. Name two sources of emergency weather warnings both at home and during outdoor Scout functions."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "myth": "You can only get struck by lightning when rain is falling directly overhead.",
-        "fact": "'Bolts from the blue' can strike up to 10–15 miles ahead of or behind a storm's rain core; if thunder roars within 30 seconds of a flash, shelter immediately and wait 30 minutes after the last thunder.",
+        "fact": "'Bolts from the blue' can strike up to 10-15 miles ahead of or behind a storm's rain core.",
         "misconception": "You can only get struck by lightning when rain is falling directly overhead.",
-        "correction": "'Bolts from the blue' can strike up to 10–15 miles ahead of or behind a storm's rain core; if thunder roars within 30 seconds of a flash, shelter immediately and wait 30 minutes after the last thunder.",
-        "fact_correction": "'Bolts from the blue' can strike up to 10–15 miles ahead of or behind a storm's rain core; if thunder roars within 30 seconds of a flash, shelter immediately and wait 30 minutes after the last thunder."
+        "correction": "'Bolts from the blue' can strike up to 10-15 miles ahead of or behind a storm's rain core.",
+        "fact_correction": "'Bolts from the blue' can strike up to 10-15 miles ahead of or behind a storm's rain core."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -452,16 +455,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "At least two sources of weather: The first weather satellite, known as TIROS-1, waslaunched in the spring of 1960 (p. 33).",
-        "At least two sources of weather Principle 2: It was highly successfulat giving meteorologists their first overall view of entirestorm systems (p. 33).",
-        "At least two sources of weather Principle 3: Since then, satellites have become muchmore sophisticated, allowing a nearly continuous watchover the entire Earth (p. 33).",
+        "At least two sources of weather: The first weather satellite, known as TIROS-1, was launched in the spring of 1960 (p. 33).",
+        "At least two sources of weather Principle 2: It was highly successful at giving meteorologists their first overall view of entire storm systems (p. 33).",
+        "At least two sources of weather Principle 3: Since then, satellites have become much more sophisticated, allowing a nearly continuous watch over the entire Earth (p. 33).",
         "At least two sources of weather Principle 4: NOAA has two satellite systems: polar-orbiting satellites and geostationary satellites (p. 33)."
       ],
       "step_by_step_procedure": [
         "Step 1 (At least two sources of weather): The satellite systems are named Polar Operational Environmental Satellites (POES) and Geostationary Operational Environmental Satellites (p. 33).",
-        "Step 2 (At least two sources of weather): The polar-orbiting satellites circle Earth, passingover or near the poles at a height of approximately 520 miles (p. 33).",
-        "Step 3 (At least two sources of weather): Theytravel around the globe several times each day (p. 33).",
-        "Step 4 (At least two sources of weather): The polar-orbitingsatellites are placed in sun-synchronous orbits, which means theypass over the same spot at the same time each day (p. 33)."
+        "Step 2 (At least two sources of weather): The polar-orbiting satellites circle Earth, passing over or near the poles at a height of approximately 520 miles (p. 33).",
+        "Step 3 (At least two sources of weather): They travel around the globe several times each day (p. 33).",
+        "Step 4 (At least two sources of weather): The polar-orbiting satellites are placed in sun-synchronous orbits, which means they pass over the same spot at the same time each day (p. 33)."
       ],
       "gear_checklist": [
         "Official Weather Merit Badge Pamphlet and Fillable Workbook (open to Req 3: At least two sources of weather)",
@@ -504,8 +507,8 @@
         "title": "Exemplar Technical Analysis: Weather Req 3 (At least two sources of weather)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "At least two sources of weather: The first weather satellite, known as TIROS-1, waslaunched in the spring of 1960 (p. 33).",
-          "Applied Field Mechanism": "At least two sources of weather Principle 2: It was highly successfulat giving meteorologists their first overall view of entirestorm systems (p. 33).",
+          "Core Technical Principle": "At least two sources of weather: The first weather satellite, known as TIROS-1, was launched in the spring of 1960 (p. 33).",
+          "Applied Field Mechanism": "At least two sources of weather Principle 2: It was highly successful at giving meteorologists their first overall view of entire storm systems (p. 33).",
           "Real-World Case Example": "Concrete application of At least two sources of weather documented during Weather study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Weather Merit Badge Pamphlet (p. 33, p. 66)."
         },
@@ -535,7 +538,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": "assets/ai_illustrations/weather_req_3_nano_hero.png"
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -592,7 +595,8 @@
           "1. Explain the difference between high and low pressure systems in the atmosphere.",
           "2. Tell which is related to good and to poor weather.",
           "3. Draw cross sections of a cold front and a warm front, showing the location and movements of the cold and warm air, the frontal..."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
         "myth": "Cold fronts and warm fronts move at the same speed and produce identical cloud sequences.",
@@ -623,15 +627,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Difference Between High and Low: When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONTwarmer air, the front is FRONTAL MOVEMENTcalled a cold front (p. 29).",
-        "Difference Between High and Low Principle 2: In the United States, cold air usuCOL DFally comes from the north RO CUMULONIMBUS WARM AIR NT COLor northwest of Canada and DA IRfrom the polar regions (p. 29).",
-        "Difference Between High and Low Principle 3: Because cold air is denser STRATOCUMULUSthan warm air, it tends tostay nearer the surface andwedges beneath the warmair (p. 29).",
-        "Difference Between High and Low Principle 4: This tends to make thewarm air rise, as seen in CROSS SECTION OF CLOUDS ON A WARM FRONT the diagram (p. 29)."
+        "Difference Between High and Low: When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONT warmer air, the front is FRONTAL MOVEMENT called a cold front (p. 29).",
+        "Difference Between High and Low Principle 2: In the United States, cold air usu COL DFally comes from the north RO CUMULONIMBUS WARM AIR NT COLor northwest of Canada and DA IR from the polar regions (p. 29).",
+        "Difference Between High and Low Principle 3: Because cold air is denser STRATOCUMULUSthan warm air, it tends to stay nearer the surface and wedges beneath the warmair (p. 29).",
+        "Difference Between High and Low Principle 4: This tends to make the warm air rise, as seen in CROSS SECTION OF CLOUDS ON A WARM FRONT the diagram (p. 29)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Difference Between High and Low): The risingair cools by expansion, AIR FRONTAL MOVEMENT RM WAforming clouds and perhaps precipitation (p. 29).",
-        "Step 2 (Difference Between High and Low): This creates a steepslope along the leading edge of the front (p. 29).",
-        "Step 3 (Difference Between High and Low): The slope can mean that most of the rising motion along the front is confined to anarrow zone near the front (p. 29).",
+        "Step 2 (Difference Between High and Low): This creates a steeps lope along the leading edge of the front (p. 29).",
+        "Step 3 (Difference Between High and Low): The slope can mean that most of the rising motion along the front is confined to an arrow zone near the front (p. 29).",
         "Step 4 (Difference Between High and Low): When warm air replaces cold air, the front is called awarm front (p. 29)."
       ],
       "gear_checklist": [
@@ -675,9 +679,9 @@
         "title": "Exemplar Skill Station Walkthrough: Weather Req 4 (Difference Between High and Low)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Difference Between High and Low.",
-          "Step-by-Step Execution": "Difference Between High and Low: When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONTwarmer air, the front is FRONTAL MOVEMENTcalled a cold front (p. 29).",
-          "Quality & Tolerance Check": "Difference Between High and Low Principle 2: In the United States, cold air usuCOL DFally comes from the north RO CUMULONIMBUS WARM AIR NT COLor northwest of Canada and DA IRfrom.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Difference Between High and Low.",
+          "Step-by-Step Execution": "Difference Between High and Low: When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONT warmer air, the front is FRONTAL MOVEMENT called a cold front (p. 29).",
+          "Quality & Tolerance Check": "Difference Between High and Low Principle 2: In the United States, cold air usu COL DFally comes from the north RO CUMULONIMBUS WARM AIR NT COLor northwest of Canada and DA IR from.",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 30))"
         },
         "sample_output": "Difference Between High and Low: Difference Between High and Low: When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONTwarmer air, the front is FRONTAL MOVEMENTcall",
@@ -706,7 +710,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": "assets/ai_illustrations/weather_warm_front_3d_sidebyside.png"
+      "workbook_diagram_url": "assets/ai_illustrations/weather_req_4_topic_visual.png"
     },
     {
       "req_id": "5",
@@ -759,15 +763,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Tell what causes wind, why it rains, and how lightning and hail are formed.",
-          "2. Key Pamphlet Facts & Mechanism (Wind, Rain, Lightning & Hail Formation)",
-          "3. Field Application & Counselor Discussion (Wind, Rain, Lightning & Hail Formation)"
+          "1. Tell what causes wind, why it rains, and how lightning and hail are formed."
         ],
         "rows": [
-          "1. Tell what causes wind, why it rains, and how lightning and hail are formed.",
-          "2. Key Pamphlet Facts & Mechanism (Wind, Rain, Lightning & Hail Formation)",
-          "3. Field Application & Counselor Discussion (Wind, Rain, Lightning & Hail Formation)"
-        ]
+          "1. Tell what causes wind, why it rains, and how lightning and hail are formed."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "myth": "Air always flows straight from high-pressure centers directly into low-pressure centers.",
@@ -799,14 +800,14 @@
       ],
       "pamphlet_excerpts": [
         "Causes wind, why it rains: Although lightning can be hazardous, it is not all bad (p. 34).",
-        "Causes wind, why it rains Principle 2: It changes theair's nitrogen into a form that can be taken up byplants (p. 34).",
-        "Causes wind, why it rains Principle 3: Thus, athunderstorm can be a natural plantfertilizer as well as a waterer (p. 34).",
-        "Causes wind, why it rains Principle 4: Although the location wherelightning will strike is not predictable, some places are much more likely to be struck than others (p. 34)."
+        "Causes wind, why it rains Principle 2: It changes the air's nitrogen into a form that can be taken up by plants (p. 34).",
+        "Causes wind, why it rains Principle 3: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 34).",
+        "Causes wind, why it rains Principle 4: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 34)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Causes wind, why it rains): Becauselightning follows the path of leastresistance, objects closer to the cloud are more likely to be struck (p. 34).",
-        "Step 2 (Causes wind, why it rains): Trees inan otherwise open space often aretargets for lightning, so trees arenot a good place to take shelter in a thunderstorm (p. 34).",
-        "Step 3 (Causes wind, why it rains): Thunderstorms can becomequite violent, producing large hail, flooding rains, strong winds, andtornadoes (p. 34).",
+        "Step 1 (Causes wind, why it rains): Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 34).",
+        "Step 2 (Causes wind, why it rains): Trees inan otherwise open space often are targets for lightning, so trees are not a good place to take shelter in a thunderstorm (p. 34).",
+        "Step 3 (Causes wind, why it rains): Thunderstorms can become quite violent, producing large hail, flooding rains, strong winds, and tornadoes (p. 34).",
         "Step 4 (Causes wind, why it rains): These severe thunderstorms tend to occur where the air mass is very unstable (p. 34)."
       ],
       "gear_checklist": [
@@ -851,7 +852,7 @@
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
           "Core Technical Principle": "Causes wind, why it rains: Although lightning can be hazardous, it is not all bad (p. 34).",
-          "Applied Field Mechanism": "Causes wind, why it rains Principle 2: It changes theair's nitrogen into a form that can be taken up byplants (p. 34).",
+          "Applied Field Mechanism": "Causes wind, why it rains Principle 2: It changes the air's nitrogen into a form that can be taken up by plants (p. 34).",
           "Real-World Case Example": "Concrete application of Causes wind, why it rains documented during Weather study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Weather Merit Badge Pamphlet (p. 34, p. 37)."
         },
@@ -881,7 +882,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": "assets/ai_illustrations/weather_sea_land_breeze_nano.png"
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p036_img1.png"
     },
     {
       "req_id": "6",
@@ -932,14 +933,15 @@
         "rows": [
           "1. Identify and describe clouds in the low, middle, and upper levels of the atmosphere.",
           "2. Relate these to specific types of weather."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "myth": "All dark clouds produce immediate heavy downpours or tornadoes.",
-        "fact": "Cloud altitude, vertical updraft strength, and stability determine precipitation—flat stratus decks yield light drizzle, while towering cumulonimbus anvils drive severe hail, lightning, and gusts.",
+        "fact": "Cloud altitude, vertical updraft strength, and stability determine precipitation - flat stratus decks yield light drizzle.",
         "misconception": "All dark clouds produce immediate heavy downpours or tornadoes.",
-        "correction": "Cloud altitude, vertical updraft strength, and stability determine precipitation—flat stratus decks yield light drizzle, while towering cumulonimbus anvils drive severe hail, lightning, and gusts.",
-        "fact_correction": "Cloud altitude, vertical updraft strength, and stability determine precipitation—flat stratus decks yield light drizzle, while towering cumulonimbus anvils drive severe hail, lightning, and gusts."
+        "correction": "Cloud altitude, vertical updraft strength, and stability determine precipitation - flat stratus decks yield light drizzle.",
+        "fact_correction": "Cloud altitude, vertical updraft strength, and stability determine precipitation - flat stratus decks yield light drizzle."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -964,15 +966,15 @@
       ],
       "pamphlet_excerpts": [
         "Clouds in The Low Middle: Meteorologists use four main groupings for clouds: low clouds, middle clouds, high clouds, and clouds that develop vertically (p. 8).",
-        "Clouds in The Low Middle Principle 2: Meteorologists also consider the shapes of clouds. clouds are The highest clouds are generally above 20,000 feet and are calledcirrus clouds (p. 8).",
+        "Clouds in The Low Middle Principle 2: Meteorologists also consider the shapes of clouds. clouds are The highest clouds are generally above 20,000 feet and are called cirrus clouds (p. 8).",
         "Clouds in The Low Middle Principle 3: Cirrus clouds are composed entirely of ice crystals because of their lowtemperatures and the heights where they form (p. 8).",
-        "Clouds in The Low Middle Principle 4: Cirrocumulus clouds can be arranged in patchesor aligned in rows. sometimes called \"mare's tails\" because theylook a bit like ahorse's tail (p. 8)."
+        "Clouds in The Low Middle Principle 4: Cirrocumulus clouds can be arranged in patches or aligned in rows. sometimes called \"mare's tails\" because they look a bit like ahorse's tail (p. 8)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Clouds in The Low Middle): Earth's atmosphere can be thought of as an ocean (p. 8).",
-        "Step 2 (Clouds in The Low Middle): Its restless movement is the source of everything people callweather (p. 8).",
-        "Step 3 (Clouds in The Low Middle): The study of the atmosphere and its weather is thescience of meteorology (p. 8).",
-        "Step 4 (Clouds in The Low Middle): Components of the Atmosphere The atmosphere is a mixture of gases, six of which are presentin amounts large enough to be important (p. 8)."
+        "Step 2 (Clouds in The Low Middle): Its restless movement is the source of everything people call weather (p. 8).",
+        "Step 3 (Clouds in The Low Middle): The study of the atmosphere and its weather is the science of meteorology (p. 8).",
+        "Step 4 (Clouds in The Low Middle): Components of the Atmosphere The atmosphere is a mixture of gases, six of which are present in amounts large enough to be important (p. 8)."
       ],
       "gear_checklist": [
         "Official Weather Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Clouds in The Low Middle)",
@@ -1016,7 +1018,7 @@
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
           "Core Technical Principle": "Clouds in The Low Middle: Meteorologists use four main groupings for clouds: low clouds, middle clouds, high clouds, and clouds that develop vertically (p. 8).",
-          "Applied Field Mechanism": "Clouds in The Low Middle Principle 2: Meteorologists also consider the shapes of clouds. clouds are The highest clouds are generally above 20,000 feet and are calledcirrus clouds ()",
+          "Applied Field Mechanism": "Clouds in The Low Middle Principle 2: Meteorologists also consider the shapes of clouds. clouds are The highest clouds are generally above 20,000 feet and are called cirrus clouds",
           "Real-World Case Example": "Concrete application of Clouds in The Low Middle documented during Weather study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Weather Merit Badge Pamphlet (p. 8, p. 23)."
         },
@@ -1046,7 +1048,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": "assets/ai_illustrations/weather_cloud_classification_nano.png"
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p023_img1.png"
     },
     {
       "req_id": "7",
@@ -1101,14 +1103,15 @@
         "rows": [
           "1. Draw a diagram of the water cycle and label its major processes.",
           "2. Explain the water cycle to your counselor."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "myth": "Clouds and fog are made of invisible water vapor gas floating in the sky.",
-        "fact": "Water vapor is completely invisible; visible clouds and fog form only when rising air cools to its dew point and water vapor condenses onto microscopic aerosols into billions of liquid droplets or ice crystals.",
+        "fact": "Water vapor is completely invisible; visible clouds and fog form only when rising air cools to its dew point and water vapor condenses onto microscopic aerosols into billions of liquid droplets.",
         "misconception": "Clouds and fog are made of invisible water vapor gas floating in the sky.",
-        "correction": "Water vapor is completely invisible; visible clouds and fog form only when rising air cools to its dew point and water vapor condenses onto microscopic aerosols into billions of liquid droplets or ice crystals.",
-        "fact_correction": "Water vapor is completely invisible; visible clouds and fog form only when rising air cools to its dew point and water vapor condenses onto microscopic aerosols into billions of liquid droplets or ice crystals."
+        "correction": "Water vapor is completely invisible; visible clouds and fog form only when rising air cools to its dew point and water vapor condenses onto microscopic aerosols into billions of liquid droplets.",
+        "fact_correction": "Water vapor is completely invisible; visible clouds and fog form only when rising air cools to its dew point and water vapor condenses onto microscopic aerosols into billions of liquid droplets."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1132,14 +1135,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Draw a diagram of the water: The most important thing about the weather is the moisture itbrings (p. 16).",
-        "Draw a diagram of the water Principle 2: The wind could blow night and day and the temperature could rise and fall, but if no rain fell, Earth would be inreal trouble (p. 16).",
-        "Draw a diagram of the water Principle 3: Fortunately, in addition to a wonderful air-circulatingsystem, Earth has a wonderful water-circulating system (p. 16).",
+        "Draw a diagram of the water: The most important thing about the weather is the moisture it brings (p. 16).",
+        "Draw a diagram of the water Principle 2: The wind could blow night and day and the temperature could rise and fall, but if no rain fell, Earth would be in real trouble (p. 16).",
+        "Draw a diagram of the water Principle 3: Fortunately, in addition to a wonderful air-circulating system, Earth has a wonderful water-circulating system (p. 16).",
         "Draw a diagram of the water Principle 4: The water vapor that forms clouds and precipitation comes mostly from evaporation from Earth's oceans (p. 16)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Draw a diagram of the water): A small part comes fromlakes, streams, and transpiration, that is, the giving off of waterby the leaves of green plants (p. 16).",
-        "Step 2 (Draw a diagram of the water): Most of the rain that falls over land evaporates and istransported as water vapor by the winds, often many thousands of miles from its source (p. 16).",
+        "Step 1 (Draw a diagram of the water): A small part comes from lakes, streams, and transpiration, that is, the giving off of water by the leaves of green plants (p. 16).",
+        "Step 2 (Draw a diagram of the water): Most of the rain that falls over land evaporates and is transported as water vapor by the winds, often many thousands of miles from its source (p. 16).",
         "Step 3 (Draw a diagram of the water): Water vapor condenses (changes from a gas to a liquid) in clouds and falls back to Earth as rain, snow, and other forms of precipitation (p. 16).",
         "Step 4 (Draw a diagram of the water): Some precipitation forms runoff, the water that flows in rivulets and streams to the rivers (p. 16)."
       ],
@@ -1184,8 +1187,8 @@
         "title": "Exemplar Technical Analysis: Weather Req 7 (Draw a diagram of the water)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Draw a diagram of the water: The most important thing about the weather is the moisture itbrings (p. 16).",
-          "Applied Field Mechanism": "Draw a diagram of the water Principle 2: The wind could blow night and day and the temperature could rise and fall, but if no rain fell, Earth would be inreal trouble (p. 16).",
+          "Core Technical Principle": "Draw a diagram of the water: The most important thing about the weather is the moisture it brings (p. 16).",
+          "Applied Field Mechanism": "Draw a diagram of the water Principle 2: The wind could blow night and day and the temperature could rise and fall, but if no rain fell, Earth would be in real trouble (p. 16).",
           "Real-World Case Example": "Concrete application of Draw a diagram of the water documented during Weather study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Weather Merit Badge Pamphlet (p. 16, p. 18)."
         },
@@ -1215,7 +1218,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": "assets/ai_illustrations/weather_hydrologic_cycle_nano.png"
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p019_img1.png"
     },
     {
       "req_id": "8",
@@ -1264,22 +1267,19 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Identify some human activities that can alter the environment, and describe how they affect the climate and people.",
-          "2. Key Pamphlet Facts & Mechanism (Human Activities, Acid Rain & Climate Impacts)",
-          "3. Field Application & Counselor Discussion (Human Activities, Acid Rain & Climate Impacts)"
+          "1. Identify some human activities that can alter the environment, and describe how they affect the climate and people."
         ],
         "rows": [
-          "1. Identify some human activities that can alter the environment, and describe how they affect the climate and people.",
-          "2. Key Pamphlet Facts & Mechanism (Human Activities, Acid Rain & Climate Impacts)",
-          "3. Field Application & Counselor Discussion (Human Activities, Acid Rain & Climate Impacts)"
-        ]
+          "1. Identify some human activities that can alter the environment, and describe how they affect the climate and people."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "myth": "Pure natural rainwater has a neutral pH of 7.0 unless industrial smokestacks pollute it.",
-        "fact": "Unpolluted rain is naturally slightly acidic (around pH 5.6) because atmospheric carbon dioxide dissolves into carbonic acid; sulfur dioxide and nitrogen oxides lower acid rain below pH 4.5.",
-        "misconception": "Pure natural rainwater has a neutral pH of 7.0 unless industrial smokestacks pollute it.",
-        "correction": "Unpolluted rain is naturally slightly acidic (around pH 5.6) because atmospheric carbon dioxide dissolves into carbonic acid; sulfur dioxide and nitrogen oxides lower acid rain below pH 4.5.",
-        "fact_correction": "Unpolluted rain is naturally slightly acidic (around pH 5.6) because atmospheric carbon dioxide dissolves into carbonic acid; sulfur dioxide and nitrogen oxides lower acid rain below pH 4.5."
+        "myth": "Pure natural rainwater has a neutral p H of 7.0 unless industrial smokestacks pollute it.",
+        "fact": "Unpolluted rain is naturally slightly acidic (around p H 5.6) because atmospheric carbon dioxide dissolves into carbonic acid; sulfur dioxide and nitrogen oxides lower acid rain below p H 4.5.",
+        "misconception": "Pure natural rainwater has a neutral p H of 7.0 unless industrial smokestacks pollute it.",
+        "correction": "Unpolluted rain is naturally slightly acidic (around p H 5.6) because atmospheric carbon dioxide dissolves into carbonic acid; sulfur dioxide and nitrogen oxides lower acid rain below p H 4.5.",
+        "fact_correction": "Unpolluted rain is naturally slightly acidic (around p H 5.6) because atmospheric carbon dioxide dissolves into carbonic acid; sulfur dioxide and nitrogen oxides lower acid rain below p H 4.5."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1303,7 +1303,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Some human activities that can alter: A rainy day will keep you from mowing the lawn or playing a baseballgame (p. 66).",
+        "Some human activities that can alter: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 66).",
         "Some human activities that can alter Principle 2: A serious heat wave could prevent your Scout troop from taking ahiking trip (p. 66).",
         "Some human activities that can alter Principle 3: For people in some occupations, however, the weather forecast is vital (p. 66).",
         "Some human activities that can alter Principle 4: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 66)."
@@ -1311,7 +1311,7 @@
       "step_by_step_procedure": [
         "Step 1 (Some human activities that can alter): Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 66).",
         "Step 2 (Some human activities that can alter): Climate records may be introduced as evidence in court to clarify the causes of accidents on highways, in the air, and at sea (p. 66).",
-        "Step 3 (Some human activities that can alter): Climate canaffect people's health and social behavior as well as agricultural, commercial, and industrial pursuits the world (p. 66).",
+        "Step 3 (Some human activities that can alter): Climate can affect people's health and social behavior as well as agricultural, commercial, and industrial pursuits the world (p. 66).",
         "Step 4 (Some human activities that can alter): Pilots need accurate, up-to-date forecasts to help them make decisions such as whether to land a plane (p. 66)."
       ],
       "gear_checklist": [
@@ -1355,7 +1355,7 @@
         "title": "Exemplar Technical Analysis: Weather Req 8 (Some human activities that can alter)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Some human activities that can alter: A rainy day will keep you from mowing the lawn or playing a baseballgame (p. 66).",
+          "Core Technical Principle": "Some human activities that can alter: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 66).",
           "Applied Field Mechanism": "Some human activities that can alter Principle 2: A serious heat wave could prevent your Scout troop from taking ahiking trip (p. 66).",
           "Real-World Case Example": "Concrete application of Some human activities that can alter documented during Weather study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 72)."
@@ -1386,7 +1386,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p073_img2.png"
     },
     {
       "req_id": "9",
@@ -1435,15 +1435,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe how the tilt of Earth's axis helps determine the climate of a region near the equator, near the poles, and across the area in...",
-          "2. Key Pamphlet Facts & Mechanism (Earth's Axial Tilt & Regional Climate Zones)",
-          "3. Field Application & Counselor Discussion (Earth's Axial Tilt & Regional Climate Zones)"
+          "1. Describe how the tilt of Earth's axis helps determine the climate of a region near the equator, near the poles, and across the area in..."
         ],
         "rows": [
-          "1. Describe how the tilt of Earth's axis helps determine the climate of a region near the equator, near the poles, and across the area in...",
-          "2. Key Pamphlet Facts & Mechanism (Earth's Axial Tilt & Regional Climate Zones)",
-          "3. Field Application & Counselor Discussion (Earth's Axial Tilt & Regional Climate Zones)"
-        ]
+          "1. Describe how the tilt of Earth's axis helps determine the climate of a region near the equator, near the poles, and across the area in..."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "myth": "Earth experiences summer in July because our planet's orbit brings us closer to the Sun in summer.",
@@ -1475,14 +1472,14 @@
       ],
       "pamphlet_excerpts": [
         "Tilt of Earth's Axis Helps: Recall that weather is the condition of the atmosphere over aparticular area for a short time (p. 66).",
-        "Tilt of Earth's Axis Helps Principle 2: Climate is the average of theweather over a region for a longer time, such as 30 years (p. 66).",
-        "Tilt of Earth's Axis Helps Principle 3: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle atwhich the sun strikes Earth largely determines (p. 66).",
+        "Tilt of Earth's Axis Helps Principle 2: Climate is the average of the weather over a region for a longer time, such as 30 years (p. 66).",
+        "Tilt of Earth's Axis Helps Principle 3: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle at which the sun strikes Earth largely determines (p. 66).",
         "Tilt of Earth's Axis Helps Principle 4: At the equator, the sun is nearly straight overhead most of the year, so most of the equatorial region is hot (p. 66)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Tilt of Earth's Axis Helps): Poleward from the equator, theclimate gradually shifts from hot to cold (p. 66).",
-        "Step 2 (Tilt of Earth's Axis Helps): This tilt (about 23.5 degrees from the perpendicular) remains the same allyear as seen from deep space (top) but changes relative to the sun (p. 66).",
-        "Step 3 (Tilt of Earth's Axis Helps): At thesummer solstice (the first day of summer, bottom left), the North Pole tilts toward thesun, and the sun reaches its northernmost point (p. 66).",
+        "Step 1 (Tilt of Earth's Axis Helps): Pole ward from the equator, the climate gradually shifts from hot to cold (p. 66).",
+        "Step 2 (Tilt of Earth's Axis Helps): This tilt (about 23.5 degrees from the perpendicular) remains the same all year as seen from deep space (top) but changes relative to the sun (p. 66).",
+        "Step 3 (Tilt of Earth's Axis Helps): At the summer solstice (the first day of summer, bottom left), the North Pole tilts toward the sun, and the sun reaches its northernmost point (p. 66).",
         "Step 4 (Tilt of Earth's Axis Helps): This is the longest day of the year in the Northern Hemisphere (p. 66)."
       ],
       "gear_checklist": [
@@ -1527,7 +1524,7 @@
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
           "Core Technical Principle": "Tilt of Earth's Axis Helps: Recall that weather is the condition of the atmosphere over aparticular area for a short time (p. 66).",
-          "Applied Field Mechanism": "Tilt of Earth's Axis Helps Principle 2: Climate is the average of theweather over a region for a longer time, such as 30 years (p. 66).",
+          "Applied Field Mechanism": "Tilt of Earth's Axis Helps Principle 2: Climate is the average of the weather over a region for a longer time, such as 30 years (p. 66).",
           "Real-World Case Example": "Concrete application of Tilt of Earth's Axis Helps documented during Weather study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Weather Merit Badge Pamphlet (p. 66, p. 68)."
         },
@@ -1614,16 +1611,17 @@
               "2. Keep a daily weather log for one week using information from this instrument as well as from other sources such as local radio and...",
               "3. Record the following information at the same time every day: wind direction and speed, temperature, precipitation, and types of clouds.",
               "4. Be sure to make a note of any morning dew or frost."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
             "misconception": "Recording weather observations at random times of day still produces a valid 7-day meteorological log.",
-            "fact": "Weather observations must be recorded at the same time every day for 7 consecutive days alongside daily forecasts to accurately compare predicted versus actual conditions (p. 61-62).",
-            "fact_correction": "Weather observations must be recorded at the same time every day for 7 consecutive days alongside daily forecasts to accurately compare predicted versus actual conditions (p. 61-62).",
+            "fact": "Weather observations must be recorded at the same time every day for 7 consecutive days alongside daily forecasts to accurately compare predicted versus actual conditions.",
+            "fact_correction": "Weather observations must be recorded at the same time every day for 7 consecutive days alongside daily forecasts to accurately compare predicted versus actual conditions.",
             "pamphlet_page_ref": "p. 61, p. 62",
             "myth": "Recording weather observations at random times of day still produces a valid 7-day meteorological log.",
-            "correction": "Weather observations must be recorded at the same time every day for 7 consecutive days alongside daily forecasts to accurately compare predicted versus actual conditions (p. 61-62)."
+            "correction": "Weather observations must be recorded at the same time every day for 7 consecutive days alongside daily forecasts to accurately compare predicted versus actual conditions."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1687,24 +1685,25 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a National Weather Service office or talk with a local radio or television weathercaster, private meteorologist, local...",
+              "1. Visit a National Weather Service office or talk with a local radio or television weather caster, private meteorologist, local...",
               "2. Find out what type of weather is most dangerous or damaging to your community.",
               "3. Determine how severe weather and flood warnings reach the homes in your community."
             ],
             "rows": [
-              "1. Visit a National Weather Service office or talk with a local radio or television weathercaster, private meteorologist, local...",
+              "1. Visit a National Weather Service office or talk with a local radio or television weather caster, private meteorologist, local...",
               "2. Find out what type of weather is most dangerous or damaging to your community.",
               "3. Determine how severe weather and flood warnings reach the homes in your community."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
             "misconception": "Only outdoor sirens are used to warn communities of severe weather and flash floods.",
-            "fact": "Modern warning dissemination combines NOAA Weather Radio All Hazards, Wireless Emergency Alerts (WEA), broadcast media, and local emergency management networks (p. 61-62).",
-            "fact_correction": "Modern warning dissemination combines NOAA Weather Radio All Hazards, Wireless Emergency Alerts (WEA), broadcast media, and local emergency management networks (p. 61-62).",
+            "fact": "Modern warning dissemination combines NOAA Weather Radio All Hazards, Wireless Emergency Alerts (WEA), broadcast media, and local emergency management networks.",
+            "fact_correction": "Modern warning dissemination combines NOAA Weather Radio All Hazards, Wireless Emergency Alerts (WEA), broadcast media, and local emergency management networks.",
             "pamphlet_page_ref": "p. 61, p. 62",
             "myth": "Only outdoor sirens are used to warn communities of severe weather and flash floods.",
-            "correction": "Modern warning dissemination combines NOAA Weather Radio All Hazards, Wireless Emergency Alerts (WEA), broadcast media, and local emergency management networks (p. 61-62)."
+            "correction": "Modern warning dissemination combines NOAA Weather Radio All Hazards, Wireless Emergency Alerts (WEA), broadcast media, and local emergency management networks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1790,13 +1789,14 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(10a) Instruments Wind Vane Anemometer Rain",
-          "(10b) National Weather Service Office or"
+          "1. (10a) Instruments Wind Vane Anemometer Rain",
+          "2. (10b) National Weather Service Office or"
         ],
         "rows": [
-          "(10a) Instruments Wind Vane Anemometer Rain",
-          "(10b) National Weather Service Office or"
-        ]
+          "1. (10a) Instruments Wind Vane Anemometer Rain",
+          "2. (10b) National Weather Service Office or"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "myth": "A homemade barometer or weather vane can sit inside a heated room or right next to a building wall and still give accurate readings.",
@@ -1832,15 +1832,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Measuring and Recording the Weather The most obvious way to study theweather is to observe actual events and keep a record of what you see (p. 61).",
-        "Measuring and Recording the Weather Principle 2: Daily observations of temperature, wind, pressure, clouds, andrainfall can help you understand how theatmosphere behaves (p. 61).",
+        "Measuring and Recording the Weather The most obvious way to study the weather is to observe actual events and keep a record of what you see (p. 61).",
+        "Measuring and Recording the Weather Principle 2: Daily observations of temperature, wind, pressure, clouds, and rainfall can help you understand how the atmosphere behaves (p. 61).",
         "Measuring and Recording the Weather Principle 3: Keep a daily weatherlog, similar to the one shown, for at least aweek (p. 61).",
         "Measuring and Recording the Weather Principle 4: If possible, record observations for amonth (p. 61)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Measuring and Recording the Weather): You can obtain readings from your owninstruments, from local television or radio, and from internet sites devoted to meteorology (p. 61).",
-        "Step 2 (Measuring and Recording the Weather): By comparing readings from day to day, you can see how the various weather elementschange at your location in response to passing weather (p. 61).",
-        "Step 3 (Measuring and Recording the Weather): Keep a 30-dayrecord based on local weather forecasts and your own observations (p. 61).",
+        "Step 2 (Measuring and Recording the Weather): By comparing readings from day to day, you can see how the various weather elements change at your location in response to passing weather (p. 61).",
+        "Step 3 (Measuring and Recording the Weather): Keep a 30-day record based on local weather forecasts and your own observations (p. 61).",
         "Step 4 (Measuring and Recording the Weather): Make and record observations at the same time each day (p. 61)."
       ],
       "gear_checklist": [
@@ -1885,8 +1885,8 @@
         "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
           "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Measuring and Recording the Weather.",
-          "Preventive Controls & PPE": "Measuring and Recording the Weather The most obvious way to study theweather is to observe actual events and keep a record of what you see (p. 61).",
-          "Acute First-Aid Response": "Measuring and Recording the Weather Principle 2: Daily observations of temperature, wind, pressure, clouds, andrainfall can help you understand how theatmosphere behaves (p. 61).",
+          "Preventive Controls & PPE": "Measuring and Recording the Weather The most obvious way to study the weather is to observe actual events and keep a record of what you see (p. 61).",
+          "Acute First-Aid Response": "Measuring and Recording the Weather Principle 2: Daily observations of temperature, wind, pressure, clouds, and rainfall can help you understand how the atmosphere behaves (p. 61).",
           "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)."
         },
         "sample_output": "Measuring and Recording the Weather: Measuring and Recording the Weather The most obvious way to study theweather is to observe actual events and keep a record of what you see (",
@@ -1915,7 +1915,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 10.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/weather_p048_img1.png"
     },
     {
       "req_id": "11",
@@ -1961,7 +1961,8 @@
         "rows": [
           "1. Give a talk of at least five minutes to a group (such as your unit or a Cub Scout pack) explaining the outdoor safety rules in the...",
           "2. Before your talk, share your outline with your counselor for approval."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "myth": "Professional meteorologists simply read computer model outputs verbatim without human analysis.",
@@ -1993,14 +1994,14 @@
       ],
       "pamphlet_excerpts": [
         "Talk of At Least Five: Give A Talk: Although lightning can be hazardous, it is not all bad (p. 37).",
-        "Talk of At Least Five Principle 2: Give A Talk Principle 2: It changes theair's nitrogen into a form that can be taken up byplants (p. 37).",
-        "Talk of At Least Five Principle 3: Give A Talk Principle 3: Thus, athunderstorm can be a natural plantfertilizer as well as a waterer (p. 37).",
-        "Talk of At Least Five Principle 4: Give A Talk Principle 4: Although the location wherelightning will strike is not predictable, some places are much more likely to be struck than others (p. 37)."
+        "Talk of At Least Five Principle 2: Give A Talk Principle 2: It changes the air's nitrogen into a form that can be taken up by plants (p. 37).",
+        "Talk of At Least Five Principle 3: Give A Talk Principle 3: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37).",
+        "Talk of At Least Five Principle 4: Give A Talk Principle 4: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 37)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Talk of At Least Five): Step 1 (Give A Talk): Becauselightning follows the path of leastresistance, objects closer to the cloud are more likely to be struck (p. 37).",
-        "Step 2 (Talk of At Least Five): Step 2 (Give A Talk): Trees inan otherwise open space often aretargets for lightning, so trees arenot a good place to take shelter in a thunderstorm (p. 37).",
-        "Step 3 (Talk of At Least Five): Step 3 (Give A Talk): Thunderstorms can becomequite violent, producing large hail, flooding rains, strong winds, andtornadoes (p. 37).",
+        "Step 1 (Talk of At Least Five): Step 1 (Give A Talk): Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 37).",
+        "Step 2 (Talk of At Least Five): Step 2 (Give A Talk): Trees inan otherwise open space often are targets for lightning, so trees are not a good place to take shelter in a thunderstorm (p. 37).",
+        "Step 3 (Talk of At Least Five): Step 3 (Give A Talk): Thunderstorms can become quite violent, producing large hail, flooding rains, strong winds, and tornadoes (p. 37).",
         "Step 4 (Talk of At Least Five): Step 4 (Give A Talk): These severe thunderstorms tend to occur where the air mass is very unstable (p. 37)."
       ],
       "gear_checklist": [
@@ -2046,7 +2047,7 @@
         "fields": {
           "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Talk of At Least Five.",
           "Preventive Controls & PPE": "Talk of At Least Five: Give A Talk: Although lightning can be hazardous, it is not all bad (p. 37).",
-          "Acute First-Aid Response": "Talk of At Least Five Principle 2: Give A Talk Principle 2: It changes theair's nitrogen into a form that can be taken up byplants (p. 37).",
+          "Acute First-Aid Response": "Talk of At Least Five Principle 2: Give A Talk Principle 2: It changes the air's nitrogen into a form that can be taken up by plants (p. 37).",
           "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Weather Merit Badge Pamphlet (p. 37, p. 38)."
         },
         "sample_output": "Talk of At Least Five: Talk of At Least Five: Give A Talk: Although lightning can be hazardous, it is not all bad (p. 37).",
@@ -2075,7 +2076,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 11.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/weather_req_11_topic_visual.png"
     },
     {
       "req_id": "12",
@@ -2142,7 +2143,8 @@
           "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement.",
           "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a...",
           "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
         "myth": "Delivering a 5-minute outdoor weather talk only requires reading a smartphone forecast app aloud.",
@@ -2179,14 +2181,14 @@
       ],
       "pamphlet_excerpts": [
         "Careers & Professional Pathways: The meteorologists you probably are most familiar with are the weather newscasters on television (p. 61).",
-        "Careers & Professional Pathways Principle 2: But there are manyadditional career opportunities for meteorologists (p. 61).",
-        "Careers & Professional Pathways Principle 3: Such researchers work for universities, privateindustry, and the U. S. government (p. 61).",
-        "Careers & Professional Pathways Principle 4: The National Aeronautics and Space Administration (NASA) is just one governmentagency that uses researchers (p. 61)."
+        "Careers & Professional Pathways Principle 2: But there are many additional career opportunities for meteorologists (p. 61).",
+        "Careers & Professional Pathways Principle 3: Such researchers work for universities, private industry, and the U. S. government (p. 61).",
+        "Careers & Professional Pathways Principle 4: The National Aeronautics and Space Administration (NASA) is just one government agency that uses researchers (p. 61)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Careers & Professional Pathways): Many researchers analyze levels of pollution in the oceans and atmosphere (p. 61).",
         "Step 2 (Careers & Professional Pathways): At the National Center for Atmospheric Research (NCAR), climate research is ahigh priority (p. 61).",
-        "Step 3 (Careers & Professional Pathways): At universities, meteorology professors teach andconduct research (p. 61).",
+        "Step 3 (Careers & Professional Pathways): At universities, meteorology professors teach and conduct research (p. 61).",
         "Step 4 (Careers & Professional Pathways): Their research is usually supported by grants from the government or private foundations (p. 61)."
       ],
       "gear_checklist": [
@@ -2230,9 +2232,9 @@
         "title": "Exemplar Skill Station Walkthrough: Weather Req 12 (Careers & Professional Pathways)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Careers & Professional Pathways.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Careers & Professional Pathways.",
           "Step-by-Step Execution": "Careers & Professional Pathways: The meteorologists you probably are most familiar with are the weather newscasters on television (p. 61).",
-          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: But there are manyadditional career opportunities for meteorologists (p. 61).",
+          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: But there are many additional career opportunities for meteorologists (p. 61).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 74))"
         },
         "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: The meteorologists you probably are most familiar with are the weather newscasters on television (p. 61).",
@@ -2261,7 +2263,7 @@
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Weather Workbook organizer table and practical demonstration for Req 12.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/weather_req_12_topic_visual.png"
     }
   ],
   "badge_slug": "weather",
@@ -2272,25 +2274,25 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "During a troop trek planning session, a Scout says 'weather' and 'climate' mean the exact same thing when packing gear for High Adventure. How does the Weather Merit Badge Pamphlet distinguish weather from climate?",
-      "question": "During a troop trek planning session, a Scout says 'weather' and 'climate' mean the exact same thing when packing gear for High Adventure. How does the Weather Merit Badge Pamphlet distinguish weather from climate?",
+      "scenario_prompt": "Your patrol is hiking across an open alpine ridgeline when towering cumulonimbus clouds build rapidly and you hear thunder 10 seconds after seeing a lightning flash (roughly 2 miles away). What is the safest immediate action for the patrol?",
+      "question": "Your patrol is hiking across an open alpine ridgeline when towering cumulonimbus clouds build rapidly and you hear thunder 10 seconds after seeing a lightning flash (roughly 2 miles away). What is the safest immediate action for the patrol?",
       "options": [
-        "A. Weather describes the day-to-day state of the atmosphere at a specific time and place, while climate is the long-term average of weather patterns over 30 or more years.",
-        "B. Weather only measures rainfall and snow, whereas climate only measures wind speed and barometric pressure.",
-        "C. Climate changes every hour with passing fronts, while weather remains constant across an entire continent.",
-        "D. Weather only affects sailors and aviators, while climate only affects farmers and outdoor construction crews."
+        "A. Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
+        "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+        "C. Huddle together in a tight circle on top of metal-frame backpacks.",
+        "D. Lie flat on wet granite at the summit so the wind blows over the patrol."
       ],
       "choices": [
-        "A. Weather describes the day-to-day state of the atmosphere at a specific time and place, while climate is the long-term average of weather patterns over 30 or more years.",
-        "B. Weather only measures rainfall and snow, whereas climate only measures wind speed and barometric pressure.",
-        "C. Climate changes every hour with passing fronts, while weather remains constant across an entire continent.",
-        "D. Weather only affects sailors and aviators, while climate only affects farmers and outdoor construction crews."
+        "A. Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
+        "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+        "C. Huddle together in a tight circle on top of metal-frame backpacks.",
+        "D. Lie flat on wet granite at the summit so the wind blows over the patrol."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Weather describes the day-to-day state of the atmosphere at a specific time and place, while climate is the long-term average of weather patterns over 30 or more years.",
-      "explanation": "Correct Answer (A): Meteorology studies day-to-day atmospheric conditions (weather), while climate measures long-term regional averages over decades (Official Scouting America Weather Merit Badge Pamphlet, p. 10).",
-      "pamphlet_page_ref": "p. 72, p. 74",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+      "explanation": "Correct Answer (B): Sound travels about 1 mile every 5 seconds; a 10-second flash-to-bang interval means lightning is within 2 miles and already in strike range, requiring immediate descent from ridges and avoidance of tall isolated objects.",
+      "pamphlet_page_ref": "Official Scouting America Weather Merit Badge Pamphlet (p. 72, p. 74)",
       "req_id": "1",
       "option_id": null
     },

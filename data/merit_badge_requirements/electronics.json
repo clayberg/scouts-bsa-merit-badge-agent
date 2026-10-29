@@ -55,23 +55,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices.",
-          "2. Key Pamphlet Facts & Mechanism (Safety Precautions You Must Exercise)",
-          "3. Field Application & Counselor Discussion (Safety Precautions You Must Exercise)"
+          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices."
         ],
         "rows": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices.",
-          "2. Key Pamphlet Facts & Mechanism (Safety Precautions You Must Exercise)",
-          "3. Field Application & Counselor Discussion (Safety Precautions You Must Exercise)"
-        ]
+          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 9, p. 54",
-        "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+        "misconception": "During Electronics Requirement 1 (Safety precautions you must exercise), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "fact": "Every Electronics outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: History and Introduction.",
+        "fact_correction": "Every Electronics outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: History and Introduction.",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)",
+        "myth": "During Electronics Requirement 1 (Safety precautions you must exercise), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "correction": "Every Electronics outing requires proactive hazard screening, proper PPE fit verification, and immediate first-aid readiness: History and Introduction."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -96,14 +93,14 @@
       ],
       "pamphlet_excerpts": [
         "Safety precautions you must exercise: History and Introduction. today, including computers, audio equipment, cell phones, appliances, and automobiles (p. 9).",
-        "Safety precautions you must exercise Principle 2: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge is todiscuss the requirements with your merit badge (p. 9).",
+        "Safety precautions you must exercise Principle 2: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge is to discuss the requirements with your merit badge (p. 9).",
         "Safety precautions you must exercise Principle 3: To fulfill requirement 1, learn about the precautions you should take when using, building, altering, or repairing electronic devices (p. 9).",
         "Safety precautions you must exercise Principle 4: Many electronic components (parts) could be Tips for Repairing Electronic Devices 1 (p. 9)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Safety precautions you must exercise): Be sure to turn off and unplug thepower before operating on any electronic circuit. 2 (p. 9).",
-        "Step 2 (Safety precautions you must exercise): Always wear safety goggles when working withelectronic devices, especially when soldering. 3 (p. 9).",
-        "Step 3 (Safety precautions you must exercise): Be careful about electrostatic discharge, that \"zap\" you feel after you run across a carpet insocks and then touch metal (p. 9).",
+        "Step 1 (Safety precautions you must exercise): Be sure to turn off and unplug the power before operating on any electronic circuit. 2 (p. 9).",
+        "Step 2 (Safety precautions you must exercise): Always wear safety goggles when working with electronic devices, especially when soldering. 3 (p. 9).",
+        "Step 3 (Safety precautions you must exercise): Be careful about electrostatic discharge, that \"zap\" you feel after you run across a carpet in socks and then touch metal (p. 9).",
         "Step 4 (Safety precautions you must exercise): This can be a bigproblem in your electronics work (p. 9)."
       ],
       "gear_checklist": [
@@ -149,32 +146,32 @@
         "fields": {
           "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Safety precautions you must exercise.",
           "Preventive Controls & PPE": "Safety precautions you must exercise: History and Introduction. today, including computers, audio equipment, cell phones, appliances, and automobiles (p. 9).",
-          "Acute First-Aid Response": "Safety precautions you must exercise Principle 2: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge is todiscuss the requirements.",
+          "Acute First-Aid Response": "Safety precautions you must exercise Principle 2: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge is to discuss the requirements.",
           "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)."
         },
         "sample_output": "Safety precautions you must exercise: Safety precautions you must exercise: History and Introduction. today, including computers, audio equipment, cell phones, appliances, and au",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 1 (Safety Precautions You Must Exercise), which statement accurately reflects the official BSA standard for Describe the safety precautions you must exercise when using, building, alt?",
-        "question": "When preparing for your counselor conference on Electronics Requirement 1 (Safety Precautions You Must Exercise), which statement accurately reflects the official BSA standard for Describe the safety precautions you must exercise when using, building, alt?",
+        "scenario_prompt": "When soldering electronic components onto a printed circuit board for Electronics Requirement 1, which safety practices protect your eyes, lungs, and static-sensitive integrated circuits?",
+        "question": "When soldering electronic components onto a printed circuit board for Electronics Requirement 1, which safety practices protect your eyes, lungs, and static-sensitive integrated circuits?",
         "options": [
-          "A. The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-          "B. Experienced Electronics participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "C. Focus only on Describe the safety precautions you must exercise when  while omitting Safety precautions you must exercise: History and Intro and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 1 rather than fulfilling the full Safety Precautions You Must Exercise standard."
+          "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
+          "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
+          "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+          "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
         ],
         "choices": [
-          "A. The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-          "B. Experienced Electronics participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "C. Focus only on Describe the safety precautions you must exercise when  while omitting Safety precautions you must exercise: History and Intro and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 1 rather than fulfilling the full Safety Precautions You Must Exercise standard."
+          "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
+          "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
+          "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+          "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "explanation": "Correct Answer (A): The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety precautions you must exercise activity. (Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)).",
-        "pamphlet_page_ref": "p. 9, p. 54"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+        "explanation": "Correct Answer (C): Electronics safety requires eye protection, fume ventilation, always placing the hot iron in its stand, using electrostatic discharge (ESD) protection for sensitive semiconductors, and washing hands after handling solder.",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 1.",
@@ -227,16 +224,17 @@
               "2. It must show resistors, capacitors, and transistors or integrated circuits.",
               "3. Use the correct symbols.",
               "4. Label all parts."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Draw A Simple Schematic Diagram verbally can substitute for a physical hands-on demonstration in Electronics Requirement 2a.",
-            "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw A Simple Schematic Diagram with proper technique (p. 10, p. 38).",
-            "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw A Simple Schematic Diagram with proper technique (p. 10, p. 38).",
-            "pamphlet_page_ref": "p. 10, p. 38",
-            "myth": "Describing how to perform Draw A Simple Schematic Diagram verbally can substitute for a physical hands-on demonstration in Electronics Requirement 2a.",
-            "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw A Simple Schematic Diagram with proper technique (p. 10, p. 38)."
+            "misconception": "Performing Draw a simple schematic diagram in Electronics Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Electronics Requirement 2a (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors.",
+            "fact_correction": "Hands-on execution of Electronics Requirement 2a (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
+            "myth": "Performing Draw a simple schematic diagram in Electronics Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Electronics Requirement 2a (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -299,24 +297,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell the purpose of each part.",
-              "2. Key Pamphlet Facts & Mechanism (Electronics Requirement 2b Techniques)",
-              "3. Field Application & Counselor Discussion (Electronics Requirement 2b Techniques)"
+              "1. Tell the purpose of each part."
             ],
             "rows": [
-              "1. Tell the purpose of each part.",
-              "2. Key Pamphlet Facts & Mechanism (Electronics Requirement 2b Techniques)",
-              "3. Field Application & Counselor Discussion (Electronics Requirement 2b Techniques)"
-            ]
+              "1. Tell the purpose of each part."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Electronics Requirement 2b Techniques without explaining how it works in practice satisfies Electronics Requirement 2b.",
-            "fact": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics Requirement 2b Techniques (Electronics Requirement 2b Techniques) (p. 10, p. 38).",
-            "fact_correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics Requirement 2b Techniques (Electronics Requirement 2b Techniques) (p. 10, p. 38).",
-            "pamphlet_page_ref": "p. 10, p. 38",
-            "myth": "Memorizing a one-line definition of Electronics Requirement 2b Techniques without explaining how it works in practice satisfies Electronics Requirement 2b.",
-            "correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics Requirement 2b Techniques (Electronics Requirement 2b Techniques) (p. 10, p. 38)."
+            "misconception": "Assuming Electronics Requirement 2b Techniques in Electronics Requirement 2b operates identically across all environmental and technical conditions.",
+            "fact": "Here are some basic safety precautions; there are more safety suggestions later in this pamphlet.",
+            "fact_correction": "Here are some basic safety precautions; there are more safety suggestions later in this pamphlet.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
+            "myth": "Assuming Electronics Requirement 2b Techniques in Electronics Requirement 2b operates identically across all environmental and technical conditions.",
+            "correction": "Here are some basic safety precautions; there are more safety suggestions later in this pamphlet."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -398,21 +393,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(2a) Simple Schematic",
-          "(2b) Electronics Requirement 2b Techniques"
+          "1. (2a) Simple Schematic",
+          "2. (2b) Electronics Requirement 2b Techniques"
         ],
         "rows": [
-          "(2a) Simple Schematic",
-          "(2b) Electronics Requirement 2b Techniques"
-        ]
+          "1. (2a) Simple Schematic",
+          "2. (2b) Electronics Requirement 2b Techniques"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Draw a simple schematic diagram verbally can substitute for a physical hands-on demonstration in Electronics Requirement 2.",
-        "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw a simple schematic diagram with proper technique (p. 10, p. 38).",
-        "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw a simple schematic diagram with proper technique (p. 10, p. 38).",
-        "pamphlet_page_ref": "p. 10, p. 38",
-        "myth": "Describing how to perform Draw a simple schematic diagram verbally can substitute for a physical hands-on demonstration in Electronics Requirement 2.",
-        "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw a simple schematic diagram with proper technique (p. 10, p. 38)."
+        "misconception": "Performing Draw a simple schematic diagram in Electronics Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors.",
+        "fact_correction": "Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors.",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
+        "myth": "Performing Draw a simple schematic diagram in Electronics Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -438,14 +434,14 @@
       "pamphlet_excerpts": [
         "Draw a simple schematic diagram: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10).",
         "Draw a simple schematic diagram Principle 2: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
-        "Draw a simple schematic diagram Principle 3: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from thispamphlet, then copy it carefully (p. 10).",
-        "Draw a simple schematic diagram Principle 4: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+        "Draw a simple schematic diagram Principle 3: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
+        "Draw a simple schematic diagram Principle 4: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Draw a simple schematic diagram): Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of eachcomponent (p. 10).",
-        "Step 2 (Draw a simple schematic diagram): Show your drawing to your counselor and tellwhat you have learned (p. 10).",
-        "Step 3 (Draw a simple schematic diagram): For requirement 3, learn how to solder and then practicesoldering and desoldering wires (p. 10).",
-        "Step 4 (Draw a simple schematic diagram): When you think you areready, show your soldering skills to your counselor (p. 10)."
+        "Step 1 (Draw a simple schematic diagram): Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component (p. 10).",
+        "Step 2 (Draw a simple schematic diagram): Show your drawing to your counselor and tell what you have learned (p. 10).",
+        "Step 3 (Draw a simple schematic diagram): For requirement 3, learn how to solder and then practice soldering and desoldering wires (p. 10).",
+        "Step 4 (Draw a simple schematic diagram): When you think you are ready, show your soldering skills to your counselor (p. 10)."
       ],
       "gear_checklist": [
         "Official Electronics Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Draw a simple schematic diagram)",
@@ -488,7 +484,7 @@
         "title": "Exemplar Skill Station Walkthrough: Electronics Req 2 (Draw a simple schematic diagram)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Draw a simple schematic diagram.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Draw a simple schematic diagram.",
           "Step-by-Step Execution": "Draw a simple schematic diagram: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10).",
           "Quality & Tolerance Check": "Draw a simple schematic diagram Principle 2: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38))"
@@ -497,25 +493,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Electronics Requirement 2 (Simple Schematic), what execution standard is required when demonstrating Draw a simple schematic diagram. It must show resistors, capacitors, and tr?",
-        "question": "During the hands-on skill station for Electronics Requirement 2 (Simple Schematic), what execution standard is required when demonstrating Draw a simple schematic diagram. It must show resistors, capacitors, and tr?",
+        "scenario_prompt": "When demonstrating and explaining Draw a simple schematic diagram for Electronics Requirement 2, which approach follows the verified Electronics Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Draw a simple schematic diagram for Electronics Requirement 2, which approach follows the verified Electronics Merit Badge Pamphlet standard?",
         "options": [
-          "A. Describing how to perform Draw a simple schematic diagram verbally can substitute for a physical hands-on demonstration in.",
-          "B. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw.",
-          "C. Rely on a group summary of Simple Schematic instead of individually explaining or demonstrating Draw a simple schematic diagram. It must show resistors, cap.",
-          "D. Assume Simple Schematic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+          "A. Performing Draw a simple schematic diagram in Electronics Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors."
         ],
         "choices": [
-          "A. Describing how to perform Draw a simple schematic diagram verbally can substitute for a physical hands-on demonstration in.",
-          "B. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw.",
-          "C. Rely on a group summary of Simple Schematic instead of individually explaining or demonstrating Draw a simple schematic diagram. It must show resistors, cap.",
-          "D. Assume Simple Schematic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+          "A. Performing Draw a simple schematic diagram in Electronics Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw.",
-        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw a simple schematic diagram with proper technique. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)).",
-        "pamphlet_page_ref": "p. 10, p. 38"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors.",
+        "explanation": "Correct Answer (D): Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)).",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 2.",
@@ -558,24 +554,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show the right way to solder and desolder.",
-              "2. Key Pamphlet Facts & Mechanism (Right Way to Solder and)",
-              "3. Field Application & Counselor Discussion (Right Way to Solder and)"
+              "1. Show the right way to solder and desolder."
             ],
             "rows": [
-              "1. Show the right way to solder and desolder.",
-              "2. Key Pamphlet Facts & Mechanism (Right Way to Solder and)",
-              "3. Field Application & Counselor Discussion (Right Way to Solder and)"
-            ]
+              "1. Show the right way to solder and desolder."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics Requirement 3a.",
-            "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique (p. 13, p. 49).",
-            "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique (p. 13, p. 49).",
-            "pamphlet_page_ref": "p. 13, p. 49",
-            "myth": "Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics Requirement 3a.",
-            "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique (p. 13, p. 49)."
+            "misconception": "Performing The right way to solder in Electronics Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Electronics Requirement 3a (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+            "fact_correction": "Hands-on execution of Electronics Requirement 3a (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
+            "myth": "Performing The right way to solder in Electronics Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Electronics Requirement 3a (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -606,7 +599,7 @@
           "pamphlet_excerpts": [
             "Right Way to Solder: Show The Right Way: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p012_img1.png"
         },
         {
           "sub_id": "3b",
@@ -634,24 +627,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to avoid heat damage to electronic components.",
-              "2. Key Pamphlet Facts & Mechanism (Avoid Heat Damage to Electronic)",
-              "3. Field Application & Counselor Discussion (Avoid Heat Damage to Electronic)"
+              "1. Show how to avoid heat damage to electronic components."
             ],
             "rows": [
-              "1. Show how to avoid heat damage to electronic components.",
-              "2. Key Pamphlet Facts & Mechanism (Avoid Heat Damage to Electronic)",
-              "3. Field Application & Counselor Discussion (Avoid Heat Damage to Electronic)"
-            ]
+              "1. Show how to avoid heat damage to electronic components."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show How to Avoid Heat verbally can substitute for a physical hands-on demonstration in Electronics Requirement 3b.",
-            "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Avoid Heat with proper technique (p. 13, p. 49).",
-            "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Avoid Heat with proper technique (p. 13, p. 49).",
-            "pamphlet_page_ref": "p. 13, p. 49",
-            "myth": "Describing how to perform Show How to Avoid Heat verbally can substitute for a physical hands-on demonstration in Electronics Requirement 3b.",
-            "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Avoid Heat with proper technique (p. 13, p. 49)."
+            "misconception": "Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Electronics Requirement 3b (How to avoid heat damage) depends on precise setup and step-by-step technique: After the solder is well set, pull slightly on the wire.",
+            "fact_correction": "Hands-on execution of Electronics Requirement 3b (How to avoid heat damage) depends on precise setup and step-by-step technique: After the solder is well set, pull slightly on the wire.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
+            "myth": "Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Electronics Requirement 3b (How to avoid heat damage) depends on precise setup and step-by-step technique: After the solder is well set, pull slightly on the wire."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -716,16 +706,17 @@
             "rows": [
               "1. Tell about the function of a printed circuit board.",
               "2. Tell what precautions should be observed when soldering printed circuit boards."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
-            "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the About The Function field investigation in Electronics.",
-            "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on About The Function, and document specific findings (p. 13, p. 49).",
-            "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on About The Function, and document specific findings (p. 13, p. 49).",
-            "pamphlet_page_ref": "p. 13, p. 49",
-            "myth": "Watching a generic video without preparing questions or counselor approval fulfills the About The Function field investigation in Electronics.",
-            "correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on About The Function, and document specific findings (p. 13, p. 49)."
+            "misconception": "Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "fact": "For Electronics Requirement 3c (Function of A Printed Circuit), Scouts obtain advance approval, prepare structured field questions.",
+            "fact_correction": "For Electronics Requirement 3c (Function of A Printed Circuit), Scouts obtain advance approval, prepare structured field questions.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
+            "myth": "Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "correction": "For Electronics Requirement 3c (Function of A Printed Circuit), Scouts obtain advance approval, prepare structured field questions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -807,23 +798,24 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(3a) Right Way to Solder and",
-          "(3b) Avoid Heat Damage to Electronic",
-          "(3c) Function of A Printed Circuit"
+          "1. (3a) Right Way to Solder and",
+          "2. (3b) Avoid Heat Damage to Electronic",
+          "3. (3c) Function of A Printed Circuit"
         ],
         "rows": [
-          "(3a) Right Way to Solder and",
-          "(3b) Avoid Heat Damage to Electronic",
-          "(3c) Function of A Printed Circuit"
-        ]
+          "1. (3a) Right Way to Solder and",
+          "2. (3b) Avoid Heat Damage to Electronic",
+          "3. (3c) Function of A Printed Circuit"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics Requirement 3.",
-        "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique (p. 13, p. 49).",
-        "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique (p. 13, p. 49).",
-        "pamphlet_page_ref": "p. 13, p. 49",
-        "myth": "Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics Requirement 3.",
-        "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique (p. 13, p. 49)."
+        "misconception": "Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+        "fact_correction": "Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
+        "myth": "Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -847,16 +839,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Right Way to Solder and: Show The Right Way: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13).",
+        "Right Way to Solder and: Show The Right Way: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
         "Right Way to Solder and Principle 2: Show The Right Way Principle 2: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
-        "Right Way to Solder and Principle 3: Show The Right Way Principle 3: In case you accidentally make a wrong connection or have tomove a component that has been placed incorrectly, you shouldlearn how to desolder (p. 13).",
+        "Right Way to Solder and Principle 3: Show The Right Way Principle 3: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13).",
         "Right Way to Solder and Principle 4: Show The Right Way Principle 4: Take care when desolderingto avoid breaking or destroying good parts (p. 13)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Right Way to Solder and): Step 1 (Show The Right Way): The leads oncomponents such as resistors or transistors and the lugs on other parts might sometimes break off when desoldering a good, tight (p. 13).",
+        "Step 1 (Right Way to Solder and): Step 1 (Show The Right Way): The leads on components such as resistors or transistors and the lugs on other parts might sometimes break off when desoldering a good, tight (p. 13).",
         "Step 2 (Right Way to Solder and): Step 2 (Show The Right Way): To avoid heat damage, use as much care indesoldering delicate parts as you do in soldering them (p. 13).",
-        "Step 3 (Right Way to Solder and): Step 3 (Show The Right Way): The first and usuallyeasiest way is to use a metal wick or braid on a small dispenserreel to remove the melted solder (p. 13).",
-        "Step 4 (Right Way to Solder and): Step 4 (Show The Right Way): This braid is available at mostelectronics parts stores (p. 13)."
+        "Step 3 (Right Way to Solder and): Step 3 (Show The Right Way): The first and usually easiest way is to use a metal wick or braid on a small dispenser reel to remove the melted solder (p. 13).",
+        "Step 4 (Right Way to Solder and): Step 4 (Show The Right Way): This braid is available at most electronics parts stores (p. 13)."
       ],
       "gear_checklist": [
         "Official Electronics Merit Badge Pamphlet and Fillable Workbook (open to Req 3: Right Way to Solder and)",
@@ -899,8 +891,8 @@
         "title": "Exemplar Skill Station Walkthrough: Electronics Req 3 (Right Way to Solder and)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Right Way to Solder and.",
-          "Step-by-Step Execution": "Right Way to Solder and: Show The Right Way: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13).",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Right Way to Solder and.",
+          "Step-by-Step Execution": "Right Way to Solder and: Show The Right Way: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
           "Quality & Tolerance Check": "Right Way to Solder and Principle 2: Show The Right Way Principle 2: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection.",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49))"
         },
@@ -908,29 +900,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Electronics Requirement 3 (Right Way to Solder and), what execution standard is required when demonstrating Show the right way to solder and desolder?",
-        "question": "During the hands-on skill station for Electronics Requirement 3 (Right Way to Solder and), what execution standard is required when demonstrating Show the right way to solder and desolder?",
+        "scenario_prompt": "When working on Electronics Requirement 3 (The right way to solder), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
+        "question": "When working on Electronics Requirement 3 (The right way to solder), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
         "options": [
-          "A. Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics.",
-          "B. Reverse the sequence of Right Way to Solder and steps by attempting final sign-off before completing Show the right way to solder and desolder.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Right Way to Solder and.",
-          "D. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show."
+          "A. Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+          "B. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics.",
-          "B. Reverse the sequence of Right Way to Solder and steps by attempting final sign-off before completing Show the right way to solder and desolder.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Right Way to Solder and.",
-          "D. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show."
+          "A. Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+          "B. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show.",
-        "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique. (Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)).",
-        "pamphlet_page_ref": "p. 13, p. 49"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+        "explanation": "Correct Answer (A): Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy. (Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)).",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/electronics_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -971,24 +963,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How to use electronics for a control purpose.",
-                  "2. Key Pamphlet Facts & Mechanism (Electronics for A Control)",
-                  "3. Field Application & Counselor Discussion (Electronics for A Control)"
+                  "1. How to use electronics for a control purpose."
                 ],
                 "rows": [
-                  "1. How to use electronics for a control purpose.",
-                  "2. Key Pamphlet Facts & Mechanism (Electronics for A Control)",
-                  "3. Field Application & Counselor Discussion (Electronics for A Control)"
-                ]
+                  "1. How to use electronics for a control purpose."
+                ],
+                "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Memorizing a one-line definition of Electronics for A Control without explaining how it works in practice satisfies Electronics Requirement 4a(1).",
-                "fact": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics for A Control (Electronics for A Control) (p. 10, p. 63).",
-                "fact_correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics for A Control (Electronics for A Control) (p. 10, p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63",
-                "myth": "Memorizing a one-line definition of Electronics for A Control without explaining how it works in practice satisfies Electronics Requirement 4a(1).",
-                "correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics for A Control (Electronics for A Control) (p. 10, p. 63)."
+                "misconception": "Treating the technical factors of How to use electronics in Electronics Requirement 4a(1) as isolated terms rather than interconnected field mechanisms.",
+                "fact": "In Electronics Requirement 4a(1) (How to use electronics), each principle directly governs real-world performance: How to use electronics for a control purpose.",
+                "fact_correction": "In Electronics Requirement 4a(1) (How to use electronics), each principle directly governs real-world performance: How to use electronics for a control purpose.",
+                "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+                "myth": "Treating the technical factors of How to use electronics in Electronics Requirement 4a(1) as isolated terms rather than interconnected field mechanisms.",
+                "correction": "In Electronics Requirement 4a(1) (How to use electronics), each principle directly governs real-world performance: How to use electronics for a control purpose."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1047,24 +1036,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain the basic principles of digital logic.",
-                  "2. Key Pamphlet Facts & Mechanism (Basic Principles of Digital Logic)",
-                  "3. Field Application & Counselor Discussion (Basic Principles of Digital Logic)"
+                  "1. Explain the basic principles of digital logic."
                 ],
                 "rows": [
-                  "1. Explain the basic principles of digital logic.",
-                  "2. Key Pamphlet Facts & Mechanism (Basic Principles of Digital Logic)",
-                  "3. Field Application & Counselor Discussion (Basic Principles of Digital Logic)"
-                ]
+                  "1. Explain the basic principles of digital logic."
+                ],
+                "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-                "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-                "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-                "pamphlet_page_ref": "p. 10, p. 63",
-                "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-                "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+                "misconception": "Estimating The basic principles of digital logic figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+                "fact": "Accurate Electronics Requirement 4a(2) (The basic principles of digital logic) analysis requires contemporaneous data logging and verified measurements: For Electronics.",
+                "fact_correction": "Accurate Electronics Requirement 4a(2) (The basic principles of digital logic) analysis requires contemporaneous data logging and verified measurements: For Electronics.",
+                "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+                "myth": "Estimating The basic principles of digital logic figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+                "correction": "Accurate Electronics Requirement 4a(2) (The basic principles of digital logic) analysis requires contemporaneous data logging and verified measurements: For Electronics."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1118,24 +1104,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How to use electronics for three different analog applications.",
-                  "2. Key Pamphlet Facts & Mechanism (Electronics for Three Different Analog)",
-                  "3. Field Application & Counselor Discussion (Electronics for Three Different Analog)"
+                  "1. How to use electronics for three different analog applications."
                 ],
                 "rows": [
-                  "1. How to use electronics for three different analog applications.",
-                  "2. Key Pamphlet Facts & Mechanism (Electronics for Three Different Analog)",
-                  "3. Field Application & Counselor Discussion (Electronics for Three Different Analog)"
-                ]
+                  "1. How to use electronics for three different analog applications."
+                ],
+                "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-                "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-                "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-                "pamphlet_page_ref": "p. 10, p. 63",
-                "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-                "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+                "misconception": "Estimating How to use electronics figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+                "fact": "Accurate Electronics Requirement 4a(3) (How to use electronics) analysis requires contemporaneous data logging and verified measurements: How to use electronics for three different analog.",
+                "fact_correction": "Accurate Electronics Requirement 4a(3) (How to use electronics) analysis requires contemporaneous data logging and verified measurements: How to use electronics for three different analog.",
+                "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+                "myth": "Estimating How to use electronics figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+                "correction": "Accurate Electronics Requirement 4a(3) (How to use electronics) analysis requires contemporaneous data logging and verified measurements: How to use electronics for three different analog."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1184,24 +1167,25 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "(4a(1)) Electronics for A Control",
-              "(4a(2)) Basic Principles of Digital Logic",
-              "(4a(3)) Electronics for Three Different Analog"
+              "1. (4a(1)) Electronics for A Control",
+              "2. (4a(2)) Basic Principles of Digital Logic",
+              "3. (4a(3)) Electronics for Three Different Analog"
             ],
             "rows": [
-              "(4a(1)) Electronics for A Control",
-              "(4a(2)) Basic Principles of Digital Logic",
-              "(4a(3)) Electronics for Three Different Analog"
-            ]
+              "1. (4a(1)) Electronics for A Control",
+              "2. (4a(2)) Basic Principles of Digital Logic",
+              "3. (4a(3)) Electronics for Three Different Analog"
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 10, p. 63",
-            "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+            "misconception": "Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+            "fact": "Accurate Electronics Requirement 4a (Your counselor) analysis requires contemporaneous data logging and verified measurements: As you read this pamphlet and work on the requirements.",
+            "fact_correction": "Accurate Electronics Requirement 4a (Your counselor) analysis requires contemporaneous data logging and verified measurements: As you read this pamphlet and work on the requirements.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+            "myth": "Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+            "correction": "Accurate Electronics Requirement 4a (Your counselor) analysis requires contemporaneous data logging and verified measurements: As you read this pamphlet and work on the requirements."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1232,7 +1216,7 @@
           "pamphlet_excerpts": [
             "Electronics Applied Field Standard: Each of The Following: Your counselor Principle 2: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png"
         },
         {
           "sub_id": "4b",
@@ -1264,24 +1248,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.",
-              "2. Key Pamphlet Facts & Mechanism (Change Three Decimal Numbers Into)",
-              "3. Field Application & Counselor Discussion (Change Three Decimal Numbers Into)"
+              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers."
             ],
             "rows": [
-              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.",
-              "2. Key Pamphlet Facts & Mechanism (Change Three Decimal Numbers Into)",
-              "3. Field Application & Counselor Discussion (Change Three Decimal Numbers Into)"
-            ]
+              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show How to Change Three verbally can substitute for a physical hands-on demonstration in Electronics Requirement 4b.",
-            "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Change Three with proper technique (p. 10, p. 63).",
-            "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Change Three with proper technique (p. 10, p. 63).",
-            "pamphlet_page_ref": "p. 10, p. 63",
-            "myth": "Describing how to perform Show How to Change Three verbally can substitute for a physical hands-on demonstration in Electronics Requirement 4b.",
-            "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Change Three with proper technique (p. 10, p. 63)."
+            "misconception": "Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Electronics Requirement 4b (How to change three decimal numbers) depends on precise setup and step-by-step technique: For requirement 2, study the chapter called \"Schematic.",
+            "fact_correction": "Hands-on execution of Electronics Requirement 4b (How to change three decimal numbers) depends on precise setup and step-by-step technique: For requirement 2, study the chapter called \"Schematic.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+            "myth": "Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Electronics Requirement 4b (How to change three decimal numbers) depends on precise setup and step-by-step technique: For requirement 2, study the chapter called \"Schematic."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1346,24 +1327,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A control device.",
-                  "2. Key Pamphlet Facts & Mechanism (Control Device)",
-                  "3. Field Application & Counselor Discussion (Control Device)"
+                  "1. A control device."
                 ],
                 "rows": [
-                  "1. A control device.",
-                  "2. Key Pamphlet Facts & Mechanism (Control Device)",
-                  "3. Field Application & Counselor Discussion (Control Device)"
-                ]
+                  "1. A control device."
+                ],
+                "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Memorizing a one-line definition of Control Device without explaining how it works in practice satisfies Electronics Requirement 4c(1).",
-                "fact": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Control Device (Control Device) (p. 10, p. 63).",
-                "fact_correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Control Device (Control Device) (p. 10, p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63",
-                "myth": "Memorizing a one-line definition of Control Device without explaining how it works in practice satisfies Electronics Requirement 4c(1).",
-                "correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Control Device (Control Device) (p. 10, p. 63)."
+                "misconception": "Overlooking how A control device directly affects safety, efficiency, and decision-making in Electronics Requirement 4c(1).",
+                "fact": "Mastering Electronics Requirement 4c(1) (A control device) requires applying the verified pamphlet mechanism: For Electronics 4c(1) (A control device), Scouts apply: A control device.",
+                "fact_correction": "Mastering Electronics Requirement 4c(1) (A control device) requires applying the verified pamphlet mechanism: For Electronics 4c(1) (A control device), Scouts apply: A control device.",
+                "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+                "myth": "Overlooking how A control device directly affects safety, efficiency, and decision-making in Electronics Requirement 4c(1).",
+                "correction": "Mastering Electronics Requirement 4c(1) (A control device) requires applying the verified pamphlet mechanism: For Electronics 4c(1) (A control device), Scouts apply: A control device."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1417,24 +1395,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A digital circuit.",
-                  "2. Key Pamphlet Facts & Mechanism (Digital Circuit)",
-                  "3. Field Application & Counselor Discussion (Digital Circuit)"
+                  "1. A digital circuit."
                 ],
                 "rows": [
-                  "1. A digital circuit.",
-                  "2. Key Pamphlet Facts & Mechanism (Digital Circuit)",
-                  "3. Field Application & Counselor Discussion (Digital Circuit)"
-                ]
+                  "1. A digital circuit."
+                ],
+                "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Memorizing a one-line definition of Digital Circuit without explaining how it works in practice satisfies Electronics Requirement 4c(2).",
-                "fact": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Digital Circuit (Digital Circuit) (p. 10, p. 63).",
-                "fact_correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Digital Circuit (Digital Circuit) (p. 10, p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63",
-                "myth": "Memorizing a one-line definition of Digital Circuit without explaining how it works in practice satisfies Electronics Requirement 4c(2).",
-                "correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Digital Circuit (Digital Circuit) (p. 10, p. 63)."
+                "misconception": "Treating the technical factors of A digital circuit in Electronics Requirement 4c(2) as isolated terms rather than interconnected field mechanisms.",
+                "fact": "In Electronics Requirement 4c(2) (A digital circuit), each principle directly governs real-world performance: For Electronics 4c(2) (A digital circuit), Scouts apply: A digital circuit.",
+                "fact_correction": "In Electronics Requirement 4c(2) (A digital circuit), each principle directly governs real-world performance: For Electronics 4c(2) (A digital circuit), Scouts apply: A digital circuit.",
+                "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+                "myth": "Treating the technical factors of A digital circuit in Electronics Requirement 4c(2) as isolated terms rather than interconnected field mechanisms.",
+                "correction": "In Electronics Requirement 4c(2) (A digital circuit), each principle directly governs real-world performance: For Electronics 4c(2) (A digital circuit), Scouts apply: A digital circuit."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1488,24 +1463,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. An analog circuit.",
-                  "2. Key Pamphlet Facts & Mechanism (Analog Circuit)",
-                  "3. Field Application & Counselor Discussion (Analog Circuit)"
+                  "1. An analog circuit."
                 ],
                 "rows": [
-                  "1. An analog circuit.",
-                  "2. Key Pamphlet Facts & Mechanism (Analog Circuit)",
-                  "3. Field Application & Counselor Discussion (Analog Circuit)"
-                ]
+                  "1. An analog circuit."
+                ],
+                "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-                "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-                "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-                "pamphlet_page_ref": "p. 10, p. 63",
-                "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-                "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+                "misconception": "Estimating An analog circuit figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c(3).",
+                "fact": "Accurate Electronics Requirement 4c(3) (An analog circuit) analysis requires contemporaneous data logging and verified measurements: For Electronics 4c(3) (An analog circuit), Scouts apply.",
+                "fact_correction": "Accurate Electronics Requirement 4c(3) (An analog circuit) analysis requires contemporaneous data logging and verified measurements: For Electronics 4c(3) (An analog circuit), Scouts apply.",
+                "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+                "myth": "Estimating An analog circuit figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c(3).",
+                "correction": "Accurate Electronics Requirement 4c(3) (An analog circuit) analysis requires contemporaneous data logging and verified measurements: For Electronics 4c(3) (An analog circuit), Scouts apply."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1554,24 +1526,25 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "(4c(1)) Control Device",
-              "(4c(2)) Digital Circuit",
-              "(4c(3)) Analog Circuit"
+              "1. (4c(1)) Control Device",
+              "2. (4c(2)) Digital Circuit",
+              "3. (4c(3)) Analog Circuit"
             ],
             "rows": [
-              "(4c(1)) Control Device",
-              "(4c(2)) Digital Circuit",
-              "(4c(3)) Analog Circuit"
-            ]
+              "1. (4c(1)) Control Device",
+              "2. (4c(2)) Digital Circuit",
+              "3. (4c(3)) Analog Circuit"
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 10, p. 63",
-            "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+            "misconception": "Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c.",
+            "fact": "Accurate Electronics Requirement 4c (Projects) analysis requires contemporaneous data logging and verified measurements: Your drawing must show resistors, capacitors.",
+            "fact_correction": "Accurate Electronics Requirement 4c (Projects) analysis requires contemporaneous data logging and verified measurements: Your drawing must show resistors, capacitors.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+            "myth": "Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c.",
+            "correction": "Accurate Electronics Requirement 4c (Projects) analysis requires contemporaneous data logging and verified measurements: Your drawing must show resistors, capacitors."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1657,23 +1630,24 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(4a) Discuss Electronics Control Basic",
-          "(4b) Change Three Decimal Numbers Into",
-          "(4c) Projects For Your Project"
+          "1. (4a) Discuss Electronics Control Basic",
+          "2. (4b) Change Three Decimal Numbers Into",
+          "3. (4c) Projects For Your Project"
         ],
         "rows": [
-          "(4a) Discuss Electronics Control Basic",
-          "(4b) Change Three Decimal Numbers Into",
-          "(4c) Projects For Your Project"
-        ]
+          "1. (4a) Discuss Electronics Control Basic",
+          "2. (4b) Change Three Decimal Numbers Into",
+          "3. (4c) Projects For Your Project"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 10, p. 63",
-        "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+        "misconception": "Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+        "fact_correction": "Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
+        "myth": "Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1699,14 +1673,14 @@
       "pamphlet_excerpts": [
         "Discuss Electronics Control Basic: Your counselor: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10).",
         "Discuss Electronics Control Basic Principle 2: Your counselor Principle 2: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
-        "Discuss Electronics Control Basic Principle 3: Your counselor Principle 3: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from thispamphlet, then copy it carefully (p. 10).",
-        "Discuss Electronics Control Basic Principle 4: Your counselor Principle 4: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+        "Discuss Electronics Control Basic Principle 3: Your counselor Principle 3: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
+        "Discuss Electronics Control Basic Principle 4: Your counselor Principle 4: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Discuss Electronics Control Basic): Step 1 (Your counselor): Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of eachcomponent (p. 10).",
-        "Step 2 (Discuss Electronics Control Basic): Step 2 (Your counselor): Show your drawing to your counselor and tellwhat you have learned (p. 10).",
-        "Step 3 (Discuss Electronics Control Basic): Step 3 (Your counselor): For requirement 3, learn how to solder and then practicesoldering and desoldering wires (p. 10).",
-        "Step 4 (Discuss Electronics Control Basic): Step 4 (Your counselor): When you think you areready, show your soldering skills to your counselor (p. 10)."
+        "Step 1 (Discuss Electronics Control Basic): Step 1 (Your counselor): Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component (p. 10).",
+        "Step 2 (Discuss Electronics Control Basic): Step 2 (Your counselor): Show your drawing to your counselor and tell what you have learned (p. 10).",
+        "Step 3 (Discuss Electronics Control Basic): Step 3 (Your counselor): For requirement 3, learn how to solder and then practice soldering and desoldering wires (p. 10).",
+        "Step 4 (Discuss Electronics Control Basic): Step 4 (Your counselor): When you think you are ready, show your soldering skills to your counselor (p. 10)."
       ],
       "gear_checklist": [
         "Official Electronics Merit Badge Pamphlet and Fillable Workbook (open to Req 4: Discuss Electronics Control Basic)",
@@ -1758,29 +1732,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Electronics Requirement 4 (Discuss Electronics Control Basic), what execution standard is required when demonstrating Discuss each of the following with your counselor: How to use electronics f?",
-        "question": "During the hands-on skill station for Electronics Requirement 4 (Discuss Electronics Control Basic), what execution standard is required when demonstrating Discuss each of the following with your counselor: How to use electronics f?",
+        "scenario_prompt": "During your patrol's preparation and review for Electronics Requirement 4 (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Electronics Requirement 4 (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
         "options": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your.",
-          "B. Estimating Your counselor entries from memory at the end of the project satisfies the Electronics Requirement 4 standard.",
-          "C. Focus only on Discuss each of the following with your counselor: How  while omitting Show how to change three decimal numbers into binary nu and its required field verification.",
-          "D. Assume Discuss Electronics Control Basic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+          "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+          "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+          "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your.",
-          "B. Estimating Your counselor entries from memory at the end of the project satisfies the Electronics Requirement 4 standard.",
-          "C. Focus only on Discuss each of the following with your counselor: How  while omitting Show how to change three decimal numbers into binary nu and its required field verification.",
-          "D. Assume Discuss Electronics Control Basic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+          "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+          "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+          "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your.",
-        "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your counselor milestone is completed. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-        "pamphlet_page_ref": "p. 10, p. 63"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+        "explanation": "Correct Answer (B): Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png"
     },
     {
       "req_id": "5",
@@ -1819,24 +1793,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law.",
-              "2. Key Pamphlet Facts & Mechanism (Simple Problem Involving Current Voltage)",
-              "3. Field Application & Counselor Discussion (Simple Problem Involving Current Voltage)"
+              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law."
             ],
             "rows": [
-              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law.",
-              "2. Key Pamphlet Facts & Mechanism (Simple Problem Involving Current Voltage)",
-              "3. Field Application & Counselor Discussion (Simple Problem Involving Current Voltage)"
-            ]
+              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show How to Solve verbally can substitute for a physical hands-on demonstration in Electronics Requirement 5a.",
-            "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Solve with proper technique (p. 76, p. 78).",
-            "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Solve with proper technique (p. 76, p. 78).",
-            "pamphlet_page_ref": "p. 76, p. 78",
-            "myth": "Describing how to perform Show How to Solve verbally can substitute for a physical hands-on demonstration in Electronics Requirement 5a.",
-            "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show How to Solve with proper technique (p. 76, p. 78)."
+            "misconception": "Performing How to solve a simple problem in Electronics Requirement 5a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Electronics Requirement 5a (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured.",
+            "fact_correction": "Hands-on execution of Electronics Requirement 5a (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
+            "myth": "Performing How to solve a simple problem in Electronics Requirement 5a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Electronics Requirement 5a (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1867,7 +1838,7 @@
           "pamphlet_excerpts": [
             "Solve A Simple Problem Involving: Show How to Solve Principle 3: Thevoltmeter is connected across the voltage to be measured (p. 76)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png"
         },
         {
           "sub_id": "5b",
@@ -1903,16 +1874,17 @@
               "1. Tell about the need for and the use of test equipment in electronics.",
               "2. Name three types of test equipment.",
               "3. Tell how they operate."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Need Equipment Electronics Equipment without explaining how it works in practice satisfies Electronics Requirement 5b.",
-            "fact": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Need Equipment Electronics Equipment (Need Equipment Electronics Equipment) (p. 76, p. 78).",
-            "fact_correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Need Equipment Electronics Equipment (Need Equipment Electronics Equipment) (p. 76, p. 78).",
-            "pamphlet_page_ref": "p. 76, p. 78",
-            "myth": "Memorizing a one-line definition of Need Equipment Electronics Equipment without explaining how it works in practice satisfies Electronics Requirement 5b.",
-            "correction": "The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Need Equipment Electronics Equipment (Need Equipment Electronics Equipment) (p. 76, p. 78)."
+            "misconception": "Assuming Need Equipment Electronics Equipment in Electronics Requirement 5b operates identically across all environmental and technical conditions.",
+            "fact": "To measure voltage between two points, touch the negative lead to the more negative point and the positive lead to the more positive point.",
+            "fact_correction": "To measure voltage between two points, touch the negative lead to the more negative point and the positive lead to the more positive point.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
+            "myth": "Assuming Need Equipment Electronics Equipment in Electronics Requirement 5b operates identically across all environmental and technical conditions.",
+            "correction": "To measure voltage between two points, touch the negative lead to the more negative point and the positive lead to the more positive point."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1971,24 +1943,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value.",
-              "2. Key Pamphlet Facts & Mechanism (Colored Bands of A Resistor)",
-              "3. Field Application & Counselor Discussion (Colored Bands of A Resistor)"
+              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value."
             ],
             "rows": [
-              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value.",
-              "2. Key Pamphlet Facts & Mechanism (Colored Bands of A Resistor)",
-              "3. Field Application & Counselor Discussion (Colored Bands of A Resistor)"
-            ]
+              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Your Counselor How to Read verbally can substitute for a physical hands-on demonstration in Electronics Requirement 5c.",
-            "fact": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Your Counselor How to Read with proper technique (p. 76, p. 78).",
-            "fact_correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Your Counselor How to Read with proper technique (p. 76, p. 78).",
-            "pamphlet_page_ref": "p. 76, p. 78",
-            "myth": "Describing how to perform Your Counselor How to Read verbally can substitute for a physical hands-on demonstration in Electronics Requirement 5c.",
-            "correction": "Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Your Counselor How to Read with proper technique (p. 76, p. 78)."
+            "misconception": "Performing How to read the colored bands in Electronics Requirement 5c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Electronics Requirement 5c (How to read the colored bands) depends on precise setup and step-by-step technique: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT.",
+            "fact_correction": "Hands-on execution of Electronics Requirement 5c (How to read the colored bands) depends on precise setup and step-by-step technique: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
+            "myth": "Performing How to read the colored bands in Electronics Requirement 5c without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Electronics Requirement 5c (How to read the colored bands) depends on precise setup and step-by-step technique: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2047,24 +2016,21 @@
               "Comparison Concept / System B"
             ],
             "row_labels": [
-              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages.",
-              "2. Key Pamphlet Facts & Mechanism (Hole and Surface Mount Assembly)",
-              "3. Field Application & Counselor Discussion (Hole and Surface Mount Assembly)"
+              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages."
             ],
             "rows": [
-              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages.",
-              "2. Key Pamphlet Facts & Mechanism (Hole and Surface Mount Assembly)",
-              "3. Field Application & Counselor Discussion (Hole and Surface Mount Assembly)"
-            ]
+              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
-            "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-            "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-            "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-            "pamphlet_page_ref": "p. 76, p. 78",
-            "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-            "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+            "misconception": "Estimating The differences between Through Hole figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 5d.",
+            "fact": "Accurate Electronics Requirement 5d (The differences between Through Hole) analysis requires contemporaneous data logging and verified measurements: The voltmeter is designed to measure voltage.",
+            "fact_correction": "Accurate Electronics Requirement 5d (The differences between Through Hole) analysis requires contemporaneous data logging and verified measurements: The voltmeter is designed to measure voltage.",
+            "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
+            "myth": "Estimating The differences between Through Hole figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 5d.",
+            "correction": "Accurate Electronics Requirement 5d (The differences between Through Hole) analysis requires contemporaneous data logging and verified measurements: The voltmeter is designed to measure voltage."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2150,25 +2116,26 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(5a) Simple Problem Involving Current Voltage",
-          "(5b) Need Equipment Electronics Equipment",
-          "(5c) Colored Bands of A Resistor",
-          "(5d) Hole and Surface Mount Assembly"
+          "1. (5a) Simple Problem Involving Current Voltage",
+          "2. (5b) Need Equipment Electronics Equipment",
+          "3. (5c) Colored Bands of A Resistor",
+          "4. (5d) Hole and Surface Mount Assembly"
         ],
         "rows": [
-          "(5a) Simple Problem Involving Current Voltage",
-          "(5b) Need Equipment Electronics Equipment",
-          "(5c) Colored Bands of A Resistor",
-          "(5d) Hole and Surface Mount Assembly"
-        ]
+          "1. (5a) Simple Problem Involving Current Voltage",
+          "2. (5b) Need Equipment Electronics Equipment",
+          "3. (5c) Colored Bands of A Resistor",
+          "4. (5d) Hole and Surface Mount Assembly"
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 76, p. 78",
-        "myth": "Skipping hands-on verification or partial completion of Electronics Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Electronics Requirement  () for counselor verification."
+        "misconception": "Performing How to solve a simple problem in Electronics Requirement 5 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Electronics Requirement 5 (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured.",
+        "fact_correction": "Hands-on execution of Electronics Requirement 5 (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured.",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
+        "myth": "Performing How to solve a simple problem in Electronics Requirement 5 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Electronics Requirement 5 (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2192,16 +2159,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Simple Problem Involving Current Voltage: Show How to Solve: Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
-        "Simple Problem Involving Current Voltage Principle 2: Show How to Solve Principle 2: The voltmeter is designed to measure voltage anduses the same type of meter movement as an ammeter (p. 76).",
-        "Simple Problem Involving Current Voltage Principle 3: Show How to Solve Principle 3: Thevoltmeter is connected across the voltage to be measured (p. 76).",
-        "Simple Problem Involving Current Voltage Principle 4: Show How to Solve Principle 4: Tomeasure voltage between two points, touch the negative lead to the more negative point and the positive lead to the morepositive point (p. 76)."
+        "Simple Problem Involving Current Voltage: Show How to Solve: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
+        "Simple Problem Involving Current Voltage Principle 2: Show How to Solve Principle 2: The voltmeter is designed to measure voltage and uses the same type of meter movement as an ammeter (p. 76).",
+        "Simple Problem Involving Current Voltage Principle 3: Show How to Solve Principle 3: The voltmeter is connected across the voltage to be measured (p. 76).",
+        "Simple Problem Involving Current Voltage Principle 4: Show How to Solve Principle 4: To measure voltage between two points, touch the negative lead to the more negative point and the positive lead to the more positive point (p. 76)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Simple Problem Involving Current Voltage): Step 1 (Show How to Solve): The circuit under test need not be broken orinterfered with in any way (p. 76).",
+        "Step 1 (Simple Problem Involving Current Voltage): Step 1 (Show How to Solve): The circuit under test need not be broken or interfered with in any way (p. 76).",
         "Step 2 (Simple Problem Involving Current Voltage): Step 2 (Show How to Solve): A low voltage can be applied directly to the meter movement (p. 76).",
-        "Step 3 (Simple Problem Involving Current Voltage): Step 3 (Show How to Solve): A higher voltage, however, might cause a high enoughcurrent to burn out the delicate coil (p. 76).",
-        "Step 4 (Simple Problem Involving Current Voltage): Step 4 (Show How to Solve): For this reason, a largevalue resistor is connected in series with the meter movement (p. 76)."
+        "Step 3 (Simple Problem Involving Current Voltage): Step 3 (Show How to Solve): A higher voltage, however, might cause a high enough current to burn out the delicate coil (p. 76).",
+        "Step 4 (Simple Problem Involving Current Voltage): Step 4 (Show How to Solve): For this reason, a large value resistor is connected in series with the meter movement (p. 76)."
       ],
       "gear_checklist": [
         "Official Electronics Merit Badge Pamphlet and Fillable Workbook (open to Req 5: Simple Problem Involving Current Voltage)",
@@ -2245,37 +2212,37 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Simple Problem Involving Current Voltage.",
-          "Tracked Field Data": "Simple Problem Involving Current Voltage: Show How to Solve: Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
-          "Variance & Outcome Analysis": "Simple Problem Involving Current Voltage Principle 2: Show How to Solve Principle 2: The voltmeter is designed to measure voltage anduses the same type of meter movement as an ammeter.",
+          "Tracked Field Data": "Simple Problem Involving Current Voltage: Show How to Solve: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
+          "Variance & Outcome Analysis": "Simple Problem Involving Current Voltage Principle 2: Show How to Solve Principle 2: The voltmeter is designed to measure voltage and uses the same type of meter movement as an ammeter.",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78))"
         },
         "sample_output": "Simple Problem Involving Current Voltage: Simple Problem Involving Current Voltage: Show How to Solve: Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schemat",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Electronics Requirement 5 (Simple Problem Involving Current Voltage), what execution standard is required when demonstrating Show how to solve a simple problem involving current, voltage, and resistan?",
-        "question": "During the hands-on skill station for Electronics Requirement 5 (Simple Problem Involving Current Voltage), what execution standard is required when demonstrating Show how to solve a simple problem involving current, voltage, and resistan?",
+        "scenario_prompt": "In Electronics Requirement 5 (How to solve a simple problem), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
+        "question": "In Electronics Requirement 5 (How to solve a simple problem), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
         "options": [
-          "A. Estimating Show How to Solve entries from memory at the end of the project satisfies the Electronics Requirement 5 standard.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Show How to.",
-          "C. Rely on a group summary of Simple Problem Involving Current Voltage instead of individually explaining or demonstrating Show how to solve a simple problem involving current, voltag.",
-          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Simple Problem Involving Current Voltage standard."
+          "A. Performing How to solve a simple problem in Electronics Requirement 5 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+          "C. Hands-on execution of Electronics Requirement 5 (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured.",
+          "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Estimating Show How to Solve entries from memory at the end of the project satisfies the Electronics Requirement 5 standard.",
-          "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Show How to.",
-          "C. Rely on a group summary of Simple Problem Involving Current Voltage instead of individually explaining or demonstrating Show how to solve a simple problem involving current, voltag.",
-          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Simple Problem Involving Current Voltage standard."
+          "A. Performing How to solve a simple problem in Electronics Requirement 5 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+          "C. Hands-on execution of Electronics Requirement 5 (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured.",
+          "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Show How to.",
-        "explanation": "Correct Answer (B): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Show How to Solve milestone is completed. (Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)).",
-        "pamphlet_page_ref": "p. 76, p. 78"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Hands-on execution of Electronics Requirement 5 (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured.",
+        "explanation": "Correct Answer (C): Hands-on execution of Electronics Requirement 5 (How to solve a simple problem) depends on precise setup and step-by-step technique: The voltmeter is connected across the voltage to be measured. (Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)).",
+        "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png"
     },
     {
       "req_id": "6",
@@ -2330,15 +2297,16 @@
           "2. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field.",
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Electronics career exploration requirement.",
-        "fact": "Scouts must research specific Electronics career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Electronics career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Electronics is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Electronics (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Electronics (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)",
-        "myth": "Listing three job titles from a quick web search satisfies the Electronics career exploration requirement.",
-        "correction": "Scouts must research specific Electronics career pathways and discuss required education, training, licensing, and daily duties with their counselor."
+        "myth": "Casual hobby familiarity with Electronics is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Electronics (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2362,16 +2330,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers & Professional Pathways: The electronics industry has several general areas with manytypes of careers available in each area (p. 10).",
-        "Careers & Professional Pathways Principle 2: These areas includemanufacturing, merchandising, operating, servicing ormaintaining, and engineering electronic parts and equipment (p. 10).",
-        "Careers & Professional Pathways Principle 3: Some positionsrequire a college degree, while a degree from a vocationalschool is adequate for othercareers (p. 10).",
-        "Careers & Professional Pathways Principle 4: Some companiesallow on-the-job training, but almost all require at least a high school diploma (p. 10)."
+        "Careers & Professional Pathways: The electronics industry has several general areas with many types of careers available in each area (p. 10).",
+        "Careers & Professional Pathways Principle 2: These areas include manufacturing, merchandising, operating, servicing or maintaining, and engineering electronic parts and equipment (p. 10).",
+        "Careers & Professional Pathways Principle 3: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 10).",
+        "Careers & Professional Pathways Principle 4: Some companies allow on-the-job training, but almost all require at least a high school diploma (p. 10)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Careers & Professional Pathways): In electronics manufacturing, most positions are in factories (p. 10).",
-        "Step 2 (Careers & Professional Pathways): Occupations include assemblers, that is, the people who helpbuild electronic equipment (p. 10).",
-        "Step 3 (Careers & Professional Pathways): Ahigh school education is neededas well as mechanical aptitude (p. 10).",
-        "Step 4 (Careers & Professional Pathways): Merchandising, or sales, is another field for thoseinterested in electronics (p. 10)."
+        "Step 2 (Careers & Professional Pathways): Occupations include assemblers, that is, the people who help build electronic equipment (p. 10).",
+        "Step 3 (Careers & Professional Pathways): Ahigh school education is needed as well as mechanical aptitude (p. 10).",
+        "Step 4 (Careers & Professional Pathways): Merchandising, or sales, is another field for those interested in electronics (p. 10)."
       ],
       "gear_checklist": [
         "Official Electronics Merit Badge Pamphlet and Fillable Workbook (open to Req 6: Careers & Professional Pathways)",
@@ -2414,8 +2382,8 @@
         "title": "Exemplar Technical Analysis: Electronics Req 6 (Careers & Professional Pathways)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Careers & Professional Pathways: The electronics industry has several general areas with manytypes of careers available in each area (p. 10).",
-          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: These areas includemanufacturing, merchandising, operating, servicing ormaintaining, and engineering electronic parts and equipment.",
+          "Core Technical Principle": "Careers & Professional Pathways: The electronics industry has several general areas with many types of careers available in each area (p. 10).",
+          "Applied Field Mechanism": "Careers & Professional Pathways Principle 2: These areas include manufacturing, merchandising, operating, servicing or maintaining, and engineering electronic parts and equipment.",
           "Real-World Case Example": "Concrete application of Careers & Professional Pathways documented during Electronics study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)."
         },
@@ -2423,29 +2391,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Electronics Requirement 6 (Electronics Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Electronics Requirement 6 (Electronics Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "When demonstrating and explaining Careers & Professional Pathways for Electronics Requirement 6, which approach follows the verified Electronics Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Careers & Professional Pathways for Electronics Requirement 6, which approach follows the verified Electronics Merit Badge Pamphlet standard?",
         "options": [
-          "A. Scouts must research specific Electronics career pathways and discuss required education, training, licensing, and daily duties.",
-          "B. Listing three job titles from a quick web search satisfies the Electronics career exploration requirement.",
-          "C. Focus only on Identify three career opportunities that would use skil while omitting Pick one and research the training, education, certific and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Electronics Careers and Pathways."
+          "A. Casual hobby familiarity with Electronics is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c.",
+          "D. Pursuing a career or advanced pathway in Electronics (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
         ],
         "choices": [
-          "A. Scouts must research specific Electronics career pathways and discuss required education, training, licensing, and daily duties.",
-          "B. Listing three job titles from a quick web search satisfies the Electronics career exploration requirement.",
-          "C. Focus only on Identify three career opportunities that would use skil while omitting Pick one and research the training, education, certific and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Electronics Careers and Pathways."
+          "A. Casual hobby familiarity with Electronics is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c.",
+          "D. Pursuing a career or advanced pathway in Electronics (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Scouts must research specific Electronics career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (A): Scouts must research specific Electronics career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Pursuing a career or advanced pathway in Electronics (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (D): Pursuing a career or advanced pathway in Electronics (Req 6) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)).",
         "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/electronics_p084_img1.png"
     }
   ],
   "badge_slug": "electronics",
@@ -2456,324 +2424,324 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 1 (Safety Precautions You Must Exercise), which statement accurately reflects the official BSA standard for Describe the safety precautions you must exercise when using, building, alt?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 1 (Safety Precautions You Must Exercise), which statement accurately reflects the official BSA standard for Describe the safety precautions you must exercise when using, building, alt?",
+      "scenario_prompt": "When soldering electronic components onto a printed circuit board for Electronics Requirement 1, which safety practices protect your eyes, lungs, and static-sensitive integrated circuits?",
+      "question": "When soldering electronic components onto a printed circuit board for Electronics Requirement 1, which safety practices protect your eyes, lungs, and static-sensitive integrated circuits?",
       "options": [
-        "A. The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "B. Experienced Electronics participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "C. Focus only on Describe the safety precautions you must exercise when  while omitting Safety precautions you must exercise: History and Intro and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 1 rather than fulfilling the full Safety Precautions You Must Exercise standard."
+        "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
+        "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
+        "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+        "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
       ],
       "choices": [
-        "A. The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "B. Experienced Electronics participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "C. Focus only on Describe the safety precautions you must exercise when  while omitting Safety precautions you must exercise: History and Intro and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 1 rather than fulfilling the full Safety Precautions You Must Exercise standard."
+        "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
+        "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
+        "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+        "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-      "explanation": "Correct Answer (A): The Electronics pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Safety precautions you must exercise activity. (Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)).",
-      "pamphlet_page_ref": "p. 9, p. 54",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+      "explanation": "Correct Answer (C): Electronics safety requires eye protection, fume ventilation, always placing the hot iron in its stand, using electrostatic discharge (ESD) protection for sensitive semiconductors, and washing hands after handling solder.",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Electronics Requirement 2 (Simple Schematic), what execution standard is required when demonstrating Draw a simple schematic diagram. It must show resistors, capacitors, and tr?",
-      "question": "During the hands-on skill station for Electronics Requirement 2 (Simple Schematic), what execution standard is required when demonstrating Draw a simple schematic diagram. It must show resistors, capacitors, and tr?",
+      "scenario_prompt": "When demonstrating and explaining Draw a simple schematic diagram for Electronics Requirement 2, which approach follows the verified Electronics Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Draw a simple schematic diagram for Electronics Requirement 2, which approach follows the verified Electronics Merit Badge Pamphlet standard?",
       "options": [
-        "A. Describing how to perform Draw a simple schematic diagram verbally can substitute for a physical hands-on demonstration in.",
-        "B. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw.",
-        "C. Rely on a group summary of Simple Schematic instead of individually explaining or demonstrating Draw a simple schematic diagram. It must show resistors, cap.",
-        "D. Assume Simple Schematic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+        "A. Performing Draw a simple schematic diagram in Electronics Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors."
       ],
       "choices": [
-        "A. Describing how to perform Draw a simple schematic diagram verbally can substitute for a physical hands-on demonstration in.",
-        "B. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw.",
-        "C. Rely on a group summary of Simple Schematic instead of individually explaining or demonstrating Draw a simple schematic diagram. It must show resistors, cap.",
-        "D. Assume Simple Schematic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+        "A. Performing Draw a simple schematic diagram in Electronics Requirement 2 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw.",
-      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Draw a simple schematic diagram with proper technique. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)).",
-      "pamphlet_page_ref": "p. 10, p. 38",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors.",
+      "explanation": "Correct Answer (D): Hands-on execution of Electronics Requirement 2 (Draw a simple schematic diagram) depends on precise setup and step-by-step technique: Your drawing must show resistors, capacitors. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Electronics Requirement 3 (Right Way to Solder and), what execution standard is required when demonstrating Show the right way to solder and desolder?",
-      "question": "During the hands-on skill station for Electronics Requirement 3 (Right Way to Solder and), what execution standard is required when demonstrating Show the right way to solder and desolder?",
+      "scenario_prompt": "When working on Electronics Requirement 3 (The right way to solder), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
+      "question": "When working on Electronics Requirement 3 (The right way to solder), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
       "options": [
-        "A. Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics.",
-        "B. Reverse the sequence of Right Way to Solder and steps by attempting final sign-off before completing Show the right way to solder and desolder.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Right Way to Solder and.",
-        "D. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show."
+        "A. Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+        "B. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Describing how to perform Show The Right Way verbally can substitute for a physical hands-on demonstration in Electronics.",
-        "B. Reverse the sequence of Right Way to Solder and steps by attempting final sign-off before completing Show the right way to solder and desolder.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Right Way to Solder and.",
-        "D. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show."
+        "A. Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+        "B. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show.",
-      "explanation": "Correct Answer (D): Under Scouting America advancement standards and the Electronics pamphlet, each Scout must physically execute and demonstrate Show The Right Way with proper technique. (Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)).",
-      "pamphlet_page_ref": "p. 13, p. 49",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy.",
+      "explanation": "Correct Answer (A): Hands-on execution of Electronics Requirement 3 (The right way to solder) depends on precise setup and step-by-step technique: Poor connections look crystalline and grainy. (Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Electronics Requirement 4 (Discuss Electronics Control Basic), what execution standard is required when demonstrating Discuss each of the following with your counselor: How to use electronics f?",
-      "question": "During the hands-on skill station for Electronics Requirement 4 (Discuss Electronics Control Basic), what execution standard is required when demonstrating Discuss each of the following with your counselor: How to use electronics f?",
+      "scenario_prompt": "During your patrol's preparation and review for Electronics Requirement 4 (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Electronics Requirement 4 (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
       "options": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your.",
-        "B. Estimating Your counselor entries from memory at the end of the project satisfies the Electronics Requirement 4 standard.",
-        "C. Focus only on Discuss each of the following with your counselor: How  while omitting Show how to change three decimal numbers into binary nu and its required field verification.",
-        "D. Assume Discuss Electronics Control Basic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your.",
-        "B. Estimating Your counselor entries from memory at the end of the project satisfies the Electronics Requirement 4 standard.",
-        "C. Focus only on Discuss each of the following with your counselor: How  while omitting Show how to change three decimal numbers into binary nu and its required field verification.",
-        "D. Assume Discuss Electronics Control Basic applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your.",
-      "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Your counselor milestone is completed. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+      "explanation": "Correct Answer (B): Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 4a(1)_q1 (Electronics for A Control (Check 1)), which statement accurately reflects the official BSA standard for How to use electronics for a control purpose?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 4a(1)_q1 (Electronics for A Control (Check 1)), which statement accurately reflects the official BSA standard for How to use electronics for a control purpose?",
+      "scenario_prompt": "In Electronics Requirement 4a(1) (Your counselor), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
+      "question": "In Electronics Requirement 4a(1) (Your counselor), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
       "options": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Electronics for A Control without explaining how it works in practice satisfies Electronics.",
-        "C. Focus only on How to use electronics for a control purpose while omitting Electronics for A Control Purpose: Use Electronics for  and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Electronics for A Control (Check 1)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing Draw a simple schematic diagram in Electronics Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Here are some basic safety precautions; there are more safety suggestions later in this pamphlet.",
+        "D. Assuming Electronics Requirement 2b Techniques in Electronics Requirement 2b operates identically across all environmental and technical conditions."
       ],
       "choices": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Electronics for A Control without explaining how it works in practice satisfies Electronics.",
-        "C. Focus only on How to use electronics for a control purpose while omitting Electronics for A Control Purpose: Use Electronics for  and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Electronics for A Control (Check 1)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing Draw a simple schematic diagram in Electronics Requirement 2a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Here are some basic safety precautions; there are more safety suggestions later in this pamphlet.",
+        "D. Assuming Electronics Requirement 2b Techniques in Electronics Requirement 2b operates identically across all environmental and technical conditions."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (A): The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics for A Control (Electronics for A Control). (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Here are some basic safety precautions; there are more safety suggestions later in this pamphlet.",
+      "explanation": "Correct Answer (C): Here are some basic safety precautions; there are more safety suggestions later in this pamphlet. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4a(1)",
       "option_id": "4a"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 4a(2)_q2 (Basic Principles of Digital Logic (Check 2)), which statement accurately reflects the official BSA standard for Explain the basic principles of digital logic?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 4a(2)_q2 (Basic Principles of Digital Logic (Check 2)), which statement accurately reflects the official BSA standard for Explain the basic principles of digital logic?",
+      "scenario_prompt": "When demonstrating and explaining Your counselor for Electronics Requirement 4a(2), which approach follows the verified Electronics Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Your counselor for Electronics Requirement 4a(2), which approach follows the verified Electronics Merit Badge Pamphlet standard?",
       "options": [
-        "A. Estimating Basic Principles of Digital Logic entries from memory at the end of the project satisfies the Electronics Requirement.",
-        "B. Skip the Electronics Pamphlet technical criteria for Basic Principles of Digital Logic (Check 2) and use rules from an unrelated activity.",
-        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic.",
-        "D. Substitute a casual verbal guess about Explain the basic principles of digital logic in place of documented Electronics observations."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Assuming Electronics Requirement 2b Techniques in Electronics Requirement 2b operates identically across all environmental and technical conditions.",
+        "C. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component."
       ],
       "choices": [
-        "A. Estimating Basic Principles of Digital Logic entries from memory at the end of the project satisfies the Electronics Requirement.",
-        "B. Skip the Electronics Pamphlet technical criteria for Basic Principles of Digital Logic (Check 2) and use rules from an unrelated activity.",
-        "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic.",
-        "D. Substitute a casual verbal guess about Explain the basic principles of digital logic in place of documented Electronics observations."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Assuming Electronics Requirement 2b Techniques in Electronics Requirement 2b operates identically across all environmental and technical conditions.",
+        "C. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic.",
-      "explanation": "Correct Answer (C): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic Principles of Digital Logic milestone is completed. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component.",
+      "explanation": "Correct Answer (D): Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4a(2)",
       "option_id": "4a"
     },
     {
-      "scenario_prompt": "How does the Electronics Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4a(3)_q3 (Electronics for Three Different Analog (Check 3): How to use electronics for three different analog applications)?",
-      "question": "How does the Electronics Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4a(3)_q3 (Electronics for Three Different Analog (Check 3): How to use electronics for three different analog applications)?",
+      "scenario_prompt": "When working on Electronics Requirement 4a(3) (Your counselor), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
+      "question": "When working on Electronics Requirement 4a(3) (Your counselor), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
       "options": [
-        "A. Estimating Use Electronics for Three Different entries from memory at the end of the project satisfies the Electronics Requirement.",
-        "B. Reverse the sequence of Electronics for Three Different Analog (Check 3) steps by attempting final sign-off before completing How to use electronics for three different analog applicatio.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Electronics for Three Different Analog (Check 3).",
-        "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Use."
+        "A. Show your drawing to your counselor and tell what you have learned.",
+        "B. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Estimating Use Electronics for Three Different entries from memory at the end of the project satisfies the Electronics Requirement.",
-        "B. Reverse the sequence of Electronics for Three Different Analog (Check 3) steps by attempting final sign-off before completing How to use electronics for three different analog applicatio.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Electronics for Three Different Analog (Check 3).",
-        "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Use."
+        "A. Show your drawing to your counselor and tell what you have learned.",
+        "B. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Performing The right way to solder in Electronics Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Use.",
-      "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Use Electronics for Three Different milestone is completed. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. Show your drawing to your counselor and tell what you have learned.",
+      "explanation": "Correct Answer (A): Show your drawing to your counselor and tell what you have learned. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4a(3)",
       "option_id": "4a"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 4a(1)_q4 (Electronics for A Control (Check 4)), which statement accurately reflects the official BSA standard for How to use electronics for a control purpose?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 4a(1)_q4 (Electronics for A Control (Check 4)), which statement accurately reflects the official BSA standard for How to use electronics for a control purpose?",
+      "scenario_prompt": "During your patrol's preparation and review for Electronics Requirement 4a(1) (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Electronics Requirement 4a(1) (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
       "options": [
-        "A. Memorizing a one-line definition of Electronics for A Control without explaining how it works in practice satisfies Electronics.",
-        "B. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "C. Rely on a group summary of Electronics for A Control (Check 4) instead of individually explaining or demonstrating How to use electronics for a control purpose.",
-        "D. Complete only a single sub-part of Requirement 4a(1)_q4 rather than fulfilling the full Electronics for A Control (Check 4) standard."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. For requirement 3, learn how to solder and then practice soldering and desoldering wires.",
+        "C. Performing The right way to solder in Electronics Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Electronics for A Control without explaining how it works in practice satisfies Electronics.",
-        "B. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "C. Rely on a group summary of Electronics for A Control (Check 4) instead of individually explaining or demonstrating How to use electronics for a control purpose.",
-        "D. Complete only a single sub-part of Requirement 4a(1)_q4 rather than fulfilling the full Electronics for A Control (Check 4) standard."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. For requirement 3, learn how to solder and then practice soldering and desoldering wires.",
+        "C. Performing The right way to solder in Electronics Requirement 3a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "correct_index": 1,
       "correct_letter": "B",
-      "correct_answer": "B. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (B): The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Electronics for A Control (Electronics for A Control). (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_answer": "B. For requirement 3, learn how to solder and then practice soldering and desoldering wires.",
+      "explanation": "Correct Answer (B): For requirement 3, learn how to solder and then practice soldering and desoldering wires. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4a(1)",
       "option_id": "4a"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 4a(2)_q5 (Basic Principles of Digital Logic (Check 5)), which statement accurately reflects the official BSA standard for Explain the basic principles of digital logic?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 4a(2)_q5 (Basic Principles of Digital Logic (Check 5)), which statement accurately reflects the official BSA standard for Explain the basic principles of digital logic?",
+      "scenario_prompt": "In Electronics Requirement 4a(2) (Your counselor), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
+      "question": "In Electronics Requirement 4a(2) (Your counselor), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
       "options": [
-        "A. Estimating Basic Principles of Digital Logic entries from memory at the end of the project satisfies the Electronics Requirement.",
-        "B. Reverse the sequence of Basic Principles of Digital Logic (Check 5) steps by attempting final sign-off before completing Explain the basic principles of digital logic.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Basic Principles of Digital Logic (Check 5).",
-        "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. When you think you are ready, show your soldering skills to your counselor.",
+        "D. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
       ],
       "choices": [
-        "A. Estimating Basic Principles of Digital Logic entries from memory at the end of the project satisfies the Electronics Requirement.",
-        "B. Reverse the sequence of Basic Principles of Digital Logic (Check 5) steps by attempting final sign-off before completing Explain the basic principles of digital logic.",
-        "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Basic Principles of Digital Logic (Check 5).",
-        "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing How to avoid heat damage in Electronics Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. When you think you are ready, show your soldering skills to your counselor.",
+        "D. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic.",
-      "explanation": "Correct Answer (D): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Basic Principles of Digital Logic milestone is completed. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. When you think you are ready, show your soldering skills to your counselor.",
+      "explanation": "Correct Answer (C): When you think you are ready, show your soldering skills to your counselor. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4a(2)",
       "option_id": "4a"
     },
     {
-      "scenario_prompt": "How does the Electronics Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(1)_q1 (Control Device (Check 1): A control device)?",
-      "question": "How does the Electronics Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(1)_q1 (Control Device (Check 1): A control device)?",
+      "scenario_prompt": "When demonstrating and explaining Your counselor for Electronics Requirement 4c(1), which approach follows the verified Electronics Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Your counselor for Electronics Requirement 4c(1), which approach follows the verified Electronics Merit Badge Pamphlet standard?",
       "options": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Control Device without explaining how it works in practice satisfies Electronics Requirement 4c(1).",
-        "C. Focus only on A control device while omitting Control Device: Your counselor Principle 2: As you read and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Control Device (Check 1)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. For Electronics Requirement 4 (Your counselor), Scouts must master and demonstrate: Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic."
       ],
       "choices": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Control Device without explaining how it works in practice satisfies Electronics Requirement 4c(1).",
-        "C. Focus only on A control device while omitting Control Device: Your counselor Principle 2: As you read and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Control Device (Check 1)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Conducting a Electronics Requirement 3c (Function of A Printed Circuit) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. For Electronics Requirement 4 (Your counselor), Scouts must master and demonstrate: Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (A): The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Control Device (Control Device). (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. For Electronics Requirement 4 (Your counselor), Scouts must master and demonstrate: Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic.",
+      "explanation": "Correct Answer (D): For Electronics Requirement 4 (Your counselor), Scouts must master and demonstrate: Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4c(1)",
       "option_id": "4c"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 4c(2)_q2 (Digital Circuit (Check 2)), which statement accurately reflects the official BSA standard for A digital circuit?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 4c(2)_q2 (Digital Circuit (Check 2)), which statement accurately reflects the official BSA standard for A digital circuit?",
+      "scenario_prompt": "When working on Electronics Requirement 4c(2) (Your counselor), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
+      "question": "When working on Electronics Requirement 4c(2) (Your counselor), which principle and field standard is established in the Electronics Merit Badge Pamphlet?",
       "options": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Digital Circuit without explaining how it works in practice satisfies Electronics Requirement.",
-        "C. Focus only on A digital circuit while omitting Digital Circuit: Your counselor Principle 3: For requir and its required field verification.",
-        "D. Assume Digital Circuit (Check 2) applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+        "A. In Electronics Requirement 4 (Your counselor), the pamphlet standard requires Scouts to (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic.",
+        "B. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Digital Circuit without explaining how it works in practice satisfies Electronics Requirement.",
-        "C. Focus only on A digital circuit while omitting Digital Circuit: Your counselor Principle 3: For requir and its required field verification.",
-        "D. Assume Digital Circuit (Check 2) applies only to indoor classroom theory and has no effect on real-world Electronics practice."
+        "A. In Electronics Requirement 4 (Your counselor), the pamphlet standard requires Scouts to (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic.",
+        "B. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (A): The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Digital Circuit (Digital Circuit). (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_answer": "A. In Electronics Requirement 4 (Your counselor), the pamphlet standard requires Scouts to (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic.",
+      "explanation": "Correct Answer (A): In Electronics Requirement 4 (Your counselor), the pamphlet standard requires Scouts to (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4c(2)",
       "option_id": "4c"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 4c(3)_q3 (Analog Circuit (Check 3)), which statement accurately reflects the official BSA standard for An analog circuit?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 4c(3)_q3 (Analog Circuit (Check 3)), which statement accurately reflects the official BSA standard for An analog circuit?",
+      "scenario_prompt": "During your patrol's preparation and review for Electronics Requirement 4c(3) (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Electronics Requirement 4c(3) (Your counselor), which statement accurately reflects the official Electronics Merit Badge Pamphlet?",
       "options": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Analog.",
-        "B. Estimating Analog Circuit entries from memory at the end of the project satisfies the Electronics Requirement 4c(3) standard.",
-        "C. Focus only on An analog circuit while omitting Analog Circuit: Your counselor Principle 4: Your drawin and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Analog Circuit (Check 3)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Analog.",
-        "B. Estimating Analog Circuit entries from memory at the end of the project satisfies the Electronics Requirement 4c(3) standard.",
-        "C. Focus only on An analog circuit while omitting Analog Circuit: Your counselor Principle 4: Your drawin and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Analog Circuit (Check 3)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+        "C. Estimating Your counselor figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement.",
+        "D. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Analog.",
-      "explanation": "Correct Answer (A): Scouts must record contemporaneous measurements, dates, quantities, and observations in their Electronics log as each Analog Circuit milestone is completed. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention.",
+      "explanation": "Correct Answer (B): Hands-on execution of Electronics Requirement 4 (Your counselor) depends on precise setup and step-by-step technique: As you read this pamphlet and work on the requirements, payattention. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4c(3)",
       "option_id": "4c"
     },
     {
-      "scenario_prompt": "How does the Electronics Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(1)_q4 (Control Device (Check 4): A control device)?",
-      "question": "How does the Electronics Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4c(1)_q4 (Control Device (Check 4): A control device)?",
+      "scenario_prompt": "In Electronics Requirement 4c(1) (Your counselor), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
+      "question": "In Electronics Requirement 4c(1) (Your counselor), what technical standard and procedure does the Scouting America Electronics Merit Badge Pamphlet require?",
       "options": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Control Device without explaining how it works in practice satisfies Electronics Requirement 4c(1).",
-        "C. Focus only on A control device while omitting Control Device: Your counselor Principle 2: As you read and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Control Device (Check 4)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list.",
+        "D. Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c."
       ],
       "choices": [
-        "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Control Device without explaining how it works in practice satisfies Electronics Requirement 4c(1).",
-        "C. Focus only on A control device while omitting Control Device: Your counselor Principle 2: As you read and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Control Device (Check 4)."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing How to change three decimal numbers in Electronics Requirement 4b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list.",
+        "D. Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (A): The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Control Device (Control Device). (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list.",
+      "explanation": "Correct Answer (C): As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4c(1)",
       "option_id": "4c"
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Electronics Requirement 4c(2)_q5 (Digital Circuit (Check 5)), which statement accurately reflects the official BSA standard for A digital circuit?",
-      "question": "When preparing for your counselor conference on Electronics Requirement 4c(2)_q5 (Digital Circuit (Check 5)), which statement accurately reflects the official BSA standard for A digital circuit?",
+      "scenario_prompt": "When demonstrating and explaining Your counselor for Electronics Requirement 4c(2), which approach follows the verified Electronics Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining Your counselor for Electronics Requirement 4c(2), which approach follows the verified Electronics Merit Badge Pamphlet standard?",
       "options": [
-        "A. Memorizing a one-line definition of Digital Circuit without explaining how it works in practice satisfies Electronics Requirement.",
-        "B. Reverse the sequence of Digital Circuit (Check 5) steps by attempting final sign-off before completing A digital circuit.",
-        "C. Complete only a single sub-part of Requirement 4c(2)_q5 rather than fulfilling the full Digital Circuit (Check 5) standard.",
-        "D. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c.",
+        "C. Performing How to solve a simple problem in Electronics Requirement 5 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Digital Circuit without explaining how it works in practice satisfies Electronics Requirement.",
-        "B. Reverse the sequence of Digital Circuit (Check 5) steps by attempting final sign-off before completing A digital circuit.",
-        "C. Complete only a single sub-part of Requirement 4c(2)_q5 rather than fulfilling the full Digital Circuit (Check 5) standard.",
-        "D. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+        "A. Performing Your counselor in Electronics Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Estimating Projects figures from memory at the end of the project is as accurate as recording real-time measurements for Electronics Requirement 4c.",
+        "C. Performing How to solve a simple problem in Electronics Requirement 5 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "D. For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully."
       ],
       "correct_index": 3,
       "correct_letter": "D",
-      "correct_answer": "D. The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (D): The Electronics pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Digital Circuit (Digital Circuit). (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
-      "pamphlet_page_ref": "p. 10, p. 63",
+      "correct_answer": "D. For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully.",
+      "explanation": "Correct Answer (D): For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully. (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)).",
+      "pamphlet_page_ref": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "req_id": "4c(2)",
       "option_id": "4c"
     }

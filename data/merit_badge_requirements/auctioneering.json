@@ -56,14 +56,16 @@
         "rows": [
           "1. Discuss with your counselor the history of auctions worldwide.",
           "2. Cite where these auctions were held and the types of items sold."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Auctions are a modern invention that started with online marketplaces in the 1990s.",
         "fact": "Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's live and digital markets.",
         "fact_correction": "Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's live and digital markets.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 4-9",
-        "myth": "Auctions are a modern invention that started with online marketplaces in the 1990s."
+        "myth": "Auctions are a modern invention that started with online marketplaces in the 1990s.",
+        "correction": "Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's live and digital markets."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -93,7 +95,7 @@
         "Worldwide History of Auctions & Asset Markets Field Application 4: Verify all Auctioneering Requirement 1 measurements, safety controls, and technical criteria with your counselor (p. 10)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Worldwide History of Auctions & Asset Markets Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 1 (p. 10).",
+        "Step 1 (Worldwide History of Auctions & Asset Markets Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 1 (p. 10).",
         "Step 2 (Worldwide History of Auctions & Asset Markets Execution): Apply the official Auctioneering pamphlet method for Worldwide History of Auctions & Asset Markets while recording observations in your Scout Workbook (p. 10).",
         "Step 3 (Worldwide History of Auctions & Asset Markets Buddy Check): Cross-check your Worldwide History of Auctions & Asset Markets technique, measurements, and results with a patrol buddy using the EDGE method (p. 10).",
         "Step 4 (Worldwide History of Auctions & Asset Markets Verification): Review your completed Worldwide History of Auctions & Asset Markets evidence and demonstrate proficiency during your counselor conference (p. 10)."
@@ -148,24 +150,24 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 4-9."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Discuss With Your Counselor The: Discuss with your counselor the history of auctions worldwide)?",
-        "question": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Discuss With Your Counselor The: Discuss with your counselor the history of auctions worldwide)?",
+        "scenario_prompt": "During a live charity auction, a bidder raises their hand to place a $100 bid, and simultaneously a collaborator in the crowd places a fake 'shill' bid solely to artificially drive up the price without intending to buy. Under the National Auctioneers Association Code of Ethics, how must the auctioneer handle shill bidding?",
+        "question": "During a live charity auction, a bidder raises their hand to place a $100 bid, and simultaneously a collaborator in the crowd places a fake 'shill' bid solely to artificially drive up the price without intending to buy. Under the National Auctioneers Association Code of Ethics, how must the auctioneer handle shill bidding?",
         "options": [
-          "A. Auctions are a modern invention that started with online marketplaces in the 1990s.",
-          "B. Skip the Auctioneering Pamphlet technical criteria for Discuss With Your Counselor The and use rules from an unrelated activity.",
-          "C. Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss With Your Counselor The."
+          "A. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+          "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+          "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+          "D. Invent phantom bids from the podium after the reserve price has already been met."
         ],
         "choices": [
-          "A. Auctions are a modern invention that started with online marketplaces in the 1990s.",
-          "B. Skip the Auctioneering Pamphlet technical criteria for Discuss With Your Counselor The and use rules from an unrelated activity.",
-          "C. Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss With Your Counselor The."
+          "A. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+          "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+          "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+          "D. Invent phantom bids from the podium after the reserve price has already been met."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's.",
-        "explanation": "Correct Answer (C): Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's live and digital markets. (Auctioneering Test Lab Resource Guide, pp. 4-9).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+        "explanation": "Correct Answer (B): Auctioneering ethics and state licensing laws require complete transparency in bid calling; undisclosed shill bidding is fraudulent and destroys buyer trust.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 4-9"
       },
       "estimated_minutes": 15,
@@ -207,22 +209,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe to your counselor the different roles in an auction.",
-          "2. Key Pamphlet Facts & Mechanism (Roles in An Auction)",
-          "3. Field Application & Counselor Discussion (Roles in An Auction)"
+          "1. Describe to your counselor the different roles in an auction."
         ],
         "rows": [
-          "1. Describe to your counselor the different roles in an auction.",
-          "2. Key Pamphlet Facts & Mechanism (Roles in An Auction)",
-          "3. Field Application & Counselor Discussion (Roles in An Auction)"
-        ]
+          "1. Describe to your counselor the different roles in an auction."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
         "fact": "A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
         "fact_correction": "A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 10-15",
-        "myth": "The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly."
+        "myth": "The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
+        "correction": "A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -252,7 +252,7 @@
         "Professional Roles in an Auction Team Field Application 4: Verify all Auctioneering Requirement 2 measurements, safety controls, and technical criteria with your counselor (p. 14)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Professional Roles in an Auction Team Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 2 (p. 14).",
+        "Step 1 (Professional Roles in an Auction Team Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 2 (p. 14).",
         "Step 2 (Professional Roles in an Auction Team Execution): Apply the official Auctioneering pamphlet method for Professional Roles in an Auction Team while recording observations in your Scout Workbook (p. 14).",
         "Step 3 (Professional Roles in an Auction Team Buddy Check): Cross-check your Professional Roles in an Auction Team technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
         "Step 4 (Professional Roles in an Auction Team Verification): Review your completed Professional Roles in an Auction Team evidence and demonstrate proficiency during your counselor conference (p. 14)."
@@ -307,29 +307,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 10-15."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Auctioneering Requirement 2 (Roles in An Auction), which statement accurately reflects the official BSA standard for Describe to your counselor the different roles in an auction?",
-        "question": "When preparing for your counselor conference on Auctioneering Requirement 2 (Roles in An Auction), which statement accurately reflects the official BSA standard for Describe to your counselor the different roles in an auction?",
+        "scenario_prompt": "When working on Auctioneering Requirement 2 (To your counselor the different roles), which principle and field standard is established in the Auctioneering Merit Badge Pamphlet?",
+        "question": "When working on Auctioneering Requirement 2 (To your counselor the different roles), which principle and field standard is established in the Auctioneering Merit Badge Pamphlet?",
         "options": [
-          "A. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
-          "B. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value.",
-          "C. Rely on a group summary of Roles in An Auction instead of individually explaining or demonstrating Describe to your counselor the different roles in an auction.",
-          "D. Substitute a casual verbal guess about Describe to your counselor the different roles in an au in place of documented Auctioneering observations."
+          "A. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
+          "B. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
+          "C. Informal bidding without clear terms of sale is sufficient for Req 5C.",
+          "D. Fast vocal speed alone makes an effective auction chant."
         ],
         "choices": [
-          "A. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
-          "B. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value.",
-          "C. Rely on a group summary of Roles in An Auction instead of individually explaining or demonstrating Describe to your counselor the different roles in an auction.",
-          "D. Substitute a casual verbal guess about Describe to your counselor the different roles in an au in place of documented Auctioneering observations."
+          "A. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
+          "B. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
+          "C. Informal bidding without clear terms of sale is sufficient for Req 5C.",
+          "D. Fast vocal speed alone makes an effective auction chant."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value.",
-        "explanation": "Correct Answer (B): A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts. (Auctioneering Test Lab Resource Guide, pp. 10-15).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
+        "explanation": "Correct Answer (A): A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts. (Auctioneering Test Lab Resource Guide, pp. 10-15).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 10-15"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 2.",
-      "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p004_img1.png"
+      "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p007_img1.png"
     },
     {
       "req_id": "3",
@@ -366,22 +366,20 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales.",
-          "2. Key Pamphlet Facts & Mechanism (Similarities Between The Auction)",
-          "3. Field Application & Counselor Discussion (Similarities Between The Auction)"
+          "1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales."
         ],
         "rows": [
-          "1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales.",
-          "2. Key Pamphlet Facts & Mechanism (Similarities Between The Auction)",
-          "3. Field Application & Counselor Discussion (Similarities Between The Auction)"
-        ]
+          "1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Traditional fixed-price retail is always faster and yields higher prices than the auction method of marketing.",
         "fact": "Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
         "fact_correction": "Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 16-21",
-        "myth": "Traditional fixed-price retail is always faster and yields higher prices than the auction method of marketing."
+        "myth": "Traditional fixed-price retail is always faster and yields higher prices than the auction method of marketing.",
+        "correction": "Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -411,7 +409,7 @@
         "Auction Price Discovery vs. Fixed-Price Sales Field Application 4: Verify all Auctioneering Requirement 3 measurements, safety controls, and technical criteria with your counselor (p. 18)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Auction Price Discovery vs. Fixed-Price Sales Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 3 (p. 18).",
+        "Step 1 (Auction Price Discovery vs. Fixed-Price Sales Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 3 (p. 18).",
         "Step 2 (Auction Price Discovery vs. Fixed-Price Sales Execution): Apply the official Auctioneering pamphlet method for Auction Price Discovery vs. Fixed-Price Sales while recording observations in your Scout Workbook (p. 18).",
         "Step 3 (Auction Price Discovery vs. Fixed-Price Sales Buddy Check): Cross-check your Auction Price Discovery vs. Fixed-Price Sales technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
         "Step 4 (Auction Price Discovery vs. Fixed-Price Sales Verification): Review your completed Auction Price Discovery vs. Fixed-Price Sales evidence and demonstrate proficiency during your counselor conference (p. 18)."
@@ -466,29 +464,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 16-21."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Similarities Between The Auction: Describe to your counselor the differences and similarities between th)?",
-        "question": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Similarities Between The Auction: Describe to your counselor the differences and similarities between th)?",
+        "scenario_prompt": "During your patrol's preparation and review for Auctioneering Requirement 3 (To your counselor the differences), which statement accurately reflects the official Auctioneering Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Auctioneering Requirement 3 (To your counselor the differences), which statement accurately reflects the official Auctioneering Merit Badge Pamphlet?",
         "options": [
           "A. Traditional fixed-price retail is always faster and yields higher prices than the auction method of marketing.",
-          "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or.",
-          "C. Rely on a group summary of Similarities Between The Auction instead of individually explaining or demonstrating Describe to your counselor the differences and similarities .",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Similarities Between The Auction standard."
+          "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
+          "C. Fast vocal speed alone makes an effective auction chant.",
+          "D. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event."
         ],
         "choices": [
           "A. Traditional fixed-price retail is always faster and yields higher prices than the auction method of marketing.",
-          "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or.",
-          "C. Rely on a group summary of Similarities Between The Auction instead of individually explaining or demonstrating Describe to your counselor the differences and similarities .",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Similarities Between The Auction standard."
+          "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
+          "C. Fast vocal speed alone makes an effective auction chant.",
+          "D. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or.",
+        "correct_answer": "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
         "explanation": "Correct Answer (B): Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets. (Auctioneering Test Lab Resource Guide, pp. 16-21).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 16-21"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -524,23 +522,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer.",
-              "2. Key Pamphlet Facts & Mechanism (Shadow That Auctioneer for A)",
-              "3. Field Application & Counselor Discussion (Shadow That Auctioneer for A)"
+              "1. Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer."
             ],
             "rows": [
-              "1. Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer.",
-              "2. Key Pamphlet Facts & Mechanism (Shadow That Auctioneer for A)",
-              "3. Field Application & Counselor Discussion (Shadow That Auctioneer for A)"
-            ]
+              "1. Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "Informal bidding without clear terms of sale is sufficient for Req 4A.",
-            "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4A.",
-            "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4A.",
+            "misconception": "Informal bidding without clear terms of sale is sufficient.",
+            "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice.",
+            "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 22-27",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 4A."
+            "myth": "Informal bidding without clear terms of sale is sufficient.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -571,7 +567,7 @@
           "pamphlet_excerpts": [
             "Shadow That Auctioneer: Careers and Professional Pathways Principle 2: Auctioneering Sub-Req 4B: Attend a live auction of any type (p. 22)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p004_img1.png"
         },
         {
           "sub_id": "4B",
@@ -600,7 +596,8 @@
             "rows": [
               "1. Attend a live auction of any type.",
               "2. Take notes on what is occurring during the auction and how the auctioneer interacts with the bidders, and discuss them with your..."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -608,7 +605,8 @@
             "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4B.",
             "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4B.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 22-27",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 4B."
+            "myth": "Informal bidding without clear terms of sale is sufficient for Req 4B.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4B."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -662,15 +660,12 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. View an online auction until the sale is concluded and discuss it with your counselor.",
-              "2. Key Pamphlet Facts & Mechanism (View An Online Auction Until)",
-              "3. Field Application & Counselor Discussion (View An Online Auction Until)"
+              "1. View an online auction until the sale is concluded and discuss it with your counselor."
             ],
             "rows": [
-              "1. View an online auction until the sale is concluded and discuss it with your counselor.",
-              "2. Key Pamphlet Facts & Mechanism (View An Online Auction Until)",
-              "3. Field Application & Counselor Discussion (View An Online Auction Until)"
-            ]
+              "1. View an online auction until the sale is concluded and discuss it with your counselor."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -678,7 +673,8 @@
             "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4C.",
             "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4C.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 22-27",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 4C."
+            "myth": "Informal bidding without clear terms of sale is sufficient for Req 4C.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 4C."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -736,22 +732,24 @@
           "Analysis & Verification"
         ],
         "row_labels": [
-          "(4A) Shadow That Auctioneer for A",
-          "(4B) Live Auction",
-          "(4C) View An Online Auction Until"
+          "1. (4A) Shadow That Auctioneer for A",
+          "2. (4B) Live Auction",
+          "3. (4C) View An Online Auction Until"
         ],
         "rows": [
-          "(4A) Shadow That Auctioneer for A",
-          "(4B) Live Auction",
-          "(4C) View An Online Auction Until"
-        ]
+          "1. (4A) Shadow That Auctioneer for A",
+          "2. (4B) Live Auction",
+          "3. (4C) View An Online Auction Until"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-        "fact": "Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Auctioneering is sufficient to enter a professional With permission from your parents career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "fact_correction": "Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 22-27",
-        "myth": "Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement."
+        "myth": "Casual hobby familiarity with Auctioneering is sufficient to enter a professional With permission from your parents career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -786,7 +784,7 @@
         "Careers and Professional Pathways Principle 4: With permission from your parents or Guardian, contact a professional auctioneer and record an interview with the auctioneer that lasts approximately (p. 22)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers and Professional Pathways Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 4 (p. 22).",
+        "Step 1 (Careers and Professional Pathways Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 4 (p. 22).",
         "Step 2 (Careers and Professional Pathways Execution): Apply the official Auctioneering pamphlet method for Careers and Professional Pathways while recording observations in your Scout Workbook (p. 22).",
         "Step 3 (Careers and Professional Pathways Buddy Check): Cross-check your Careers and Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 22).",
         "Step 4 (Careers and Professional Pathways Verification): Review your completed Careers and Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 22)."
@@ -841,29 +839,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 22-27."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Auctioneering Requirement 4 (Auctioneering Careers and Pathways), which statement accurately reflects the official BSA standard for Shadow that auctioneer for a day and discuss with your counselor what you l?",
-        "question": "When preparing for your counselor conference on Auctioneering Requirement 4 (Auctioneering Careers and Pathways), which statement accurately reflects the official BSA standard for Shadow that auctioneer for a day and discuss with your counselor what you l?",
+        "scenario_prompt": "In Auctioneering Requirement 4 (With permission from your parents), what technical standard and procedure does the Scouting America Auctioneering Merit Badge Pamphlet require?",
+        "question": "In Auctioneering Requirement 4 (With permission from your parents), what technical standard and procedure does the Scouting America Auctioneering Merit Badge Pamphlet require?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-          "B. Skip the Auctioneering Pamphlet technical criteria for Auctioneering Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Auctioneering Careers and Pathways."
+          "A. Casual hobby familiarity with Auctioneering is sufficient to enter a professional With permission from your parents career without accredited training or licensing.",
+          "B. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
+          "C. Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-          "B. Skip the Auctioneering Pamphlet technical criteria for Auctioneering Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Auctioneering Careers and Pathways."
+          "A. Casual hobby familiarity with Auctioneering is sufficient to enter a professional With permission from your parents career without accredited training or licensing.",
+          "B. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
+          "C. Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (C): Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Auctioneering Test Lab Resource Guide, pp. 22-27).",
+        "correct_answer": "C. Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Auctioneering Test Lab Resource Guide, pp. 22-27).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 22-27"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p004_img1.png"
     },
     {
       "req_id": "5",
@@ -899,23 +897,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Types of assets sold at auction.",
-              "2. Key Pamphlet Facts & Mechanism (Assets Sold At Auction)",
-              "3. Field Application & Counselor Discussion (Assets Sold At Auction)"
+              "1. Types of assets sold at auction."
             ],
             "rows": [
-              "1. Types of assets sold at auction.",
-              "2. Key Pamphlet Facts & Mechanism (Assets Sold At Auction)",
-              "3. Field Application & Counselor Discussion (Assets Sold At Auction)"
-            ]
+              "1. Types of assets sold at auction."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
-            "misconception": "Informal bidding without clear terms of sale is sufficient for Req 5A.",
-            "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5A.",
-            "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5A.",
+            "misconception": "Informal bidding without clear terms of sale is sufficient.",
+            "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice.",
+            "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 28-33",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 5A."
+            "myth": "Informal bidding without clear terms of sale is sufficient.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -946,7 +942,7 @@
           "pamphlet_excerpts": [
             "Types of Assets Sold: Auction Asset Classes, Sellers & Sale Formats Principle 3: Auctioneering Sub-Req 5C: List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus (p. 28)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p005_img1.png"
         },
         {
           "sub_id": "5B",
@@ -969,15 +965,12 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Types of customers you would be selling these assets.",
-              "2. Key Pamphlet Facts & Mechanism (Customers You Would Be Selling)",
-              "3. Field Application & Counselor Discussion (Customers You Would Be Selling)"
+              "1. Types of customers you would be selling these assets."
             ],
             "rows": [
-              "1. Types of customers you would be selling these assets.",
-              "2. Key Pamphlet Facts & Mechanism (Customers You Would Be Selling)",
-              "3. Field Application & Counselor Discussion (Customers You Would Be Selling)"
-            ]
+              "1. Types of customers you would be selling these assets."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -985,7 +978,8 @@
             "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5B.",
             "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5B.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 28-33",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 5B."
+            "myth": "Informal bidding without clear terms of sale is sufficient for Req 5B.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5B."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1039,15 +1033,12 @@
               "Comparison Concept / System B"
             ],
             "row_labels": [
-              "1. List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a...",
-              "2. Key Pamphlet Facts & Mechanism (Auction Formats and The Benefits)",
-              "3. Field Application & Counselor Discussion (Auction Formats and The Benefits)"
+              "1. List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a..."
             ],
             "rows": [
-              "1. List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a...",
-              "2. Key Pamphlet Facts & Mechanism (Auction Formats and The Benefits)",
-              "3. Field Application & Counselor Discussion (Auction Formats and The Benefits)"
-            ]
+              "1. List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a..."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -1055,7 +1046,8 @@
             "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5C.",
             "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5C.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 28-33",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 5C."
+            "myth": "Informal bidding without clear terms of sale is sufficient for Req 5C.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 5C."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1111,22 +1103,24 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(5A) Assets Sold At Auction",
-          "(5B) Customers You Would Be Selling",
-          "(5C) Auction Formats and The Benefits"
+          "1. (5A) Assets Sold At Auction",
+          "2. (5B) Customers You Would Be Selling",
+          "3. (5C) Auction Formats and The Benefits"
         ],
         "rows": [
-          "(5A) Assets Sold At Auction",
-          "(5B) Customers You Would Be Selling",
-          "(5C) Auction Formats and The Benefits"
-        ]
+          "1. (5A) Assets Sold At Auction",
+          "2. (5B) Customers You Would Be Selling",
+          "3. (5C) Auction Formats and The Benefits"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
         "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats.",
         "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 28-33",
-        "myth": "Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats."
+        "myth": "Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
+        "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1156,7 +1150,7 @@
         "Auction Asset Classes, Sellers & Sale Formats Principle 4: Discuss with your counselor: (A) Types of assets sold at auction (B) Types of customers you would be selling these assets for (C) List the types (p. 28)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Auction Asset Classes, Sellers & Sale Formats Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 5 (p. 26).",
+        "Step 1 (Auction Asset Classes, Sellers & Sale Formats Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 5 (p. 26).",
         "Step 2 (Auction Asset Classes, Sellers & Sale Formats Execution): Apply the official Auctioneering pamphlet method for Auction Asset Classes, Sellers & Sale Formats while recording observations in your Scout Workbook (p. 26).",
         "Step 3 (Auction Asset Classes, Sellers & Sale Formats Buddy Check): Cross-check your Auction Asset Classes, Sellers & Sale Formats technique, measurements, and results with a patrol buddy using the EDGE method (p. 26).",
         "Step 4 (Auction Asset Classes, Sellers & Sale Formats Verification): Review your completed Auction Asset Classes, Sellers & Sale Formats evidence and demonstrate proficiency during your counselor conference (p. 26)."
@@ -1211,29 +1205,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 28-33."
       },
       "quiz_item": {
-        "scenario_prompt": "In Auctioneering Requirement 5 (Discuss Assets Sold Auction), how should a Scout accurately distinguish and explain the key technical differences (Types of assets sold at auction)?",
-        "question": "In Auctioneering Requirement 5 (Discuss Assets Sold Auction), how should a Scout accurately distinguish and explain the key technical differences (Types of assets sold at auction)?",
+        "scenario_prompt": "When demonstrating and explaining With your counselor for Auctioneering Requirement 5, which approach follows the verified Auctioneering Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining With your counselor for Auctioneering Requirement 5, which approach follows the verified Auctioneering Merit Badge Pamphlet standard?",
         "options": [
-          "A. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes.",
-          "B. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
-          "C. Focus only on Types of assets sold at auction while omitting Types of customers you would be selling these assets and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Discuss Assets Sold Auction standard."
+          "A. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
+          "B. Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+          "C. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats."
         ],
         "choices": [
-          "A. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes.",
-          "B. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
-          "C. Focus only on Types of assets sold at auction while omitting Types of customers you would be selling these assets and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Discuss Assets Sold Auction standard."
+          "A. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
+          "B. Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+          "C. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes.",
-        "explanation": "Correct Answer (A): Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats. (Auctioneering Test Lab Resource Guide, pp. 28-33).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats.",
+        "explanation": "Correct Answer (D): Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats. (Auctioneering Test Lab Resource Guide, pp. 28-33).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 28-33"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p005_img1.png"
     },
     {
       "req_id": "6",
@@ -1276,14 +1270,16 @@
         "rows": [
           "1. Develop and practice your auction chant.",
           "2. Perform the auction chant for your counselor and at a unit meeting."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Fast vocal speed alone makes an effective auction chant.",
         "fact": "Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering.",
         "fact_correction": "Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 34-39",
-        "myth": "Fast vocal speed alone makes an effective auction chant."
+        "myth": "Fast vocal speed alone makes an effective auction chant.",
+        "correction": "Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1313,7 +1309,7 @@
         "Developing & Performing an Auction Chant Field Application 4: Verify all Auctioneering Requirement 6 measurements, safety controls, and technical criteria with your counselor (p. 30)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Developing & Performing an Auction Chant Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 6 (p. 30).",
+        "Step 1 (Developing & Performing an Auction Chant Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 6 (p. 30).",
         "Step 2 (Developing & Performing an Auction Chant Execution): Apply the official Auctioneering pamphlet method for Developing & Performing an Auction Chant while recording observations in your Scout Workbook (p. 30).",
         "Step 3 (Developing & Performing an Auction Chant Buddy Check): Cross-check your Developing & Performing an Auction Chant technique, measurements, and results with a patrol buddy using the EDGE method (p. 30).",
         "Step 4 (Developing & Performing an Auction Chant Verification): Review your completed Developing & Performing an Auction Chant evidence and demonstrate proficiency during your counselor conference (p. 30)."
@@ -1368,29 +1364,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 34-39."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Auctioneering Requirement 6 (Develop and Practice Your Auction), what execution standard is required when demonstrating Develop and practice your auction chant?",
-        "question": "During the hands-on skill station for Auctioneering Requirement 6 (Develop and Practice Your Auction), what execution standard is required when demonstrating Develop and practice your auction chant?",
+        "scenario_prompt": "When working on Auctioneering Requirement 6 (Develop and practice your auction chant), which principle and field standard is established in the Auctioneering Merit Badge Pamphlet?",
+        "question": "When working on Auctioneering Requirement 6 (Develop and practice your auction chant), which principle and field standard is established in the Auctioneering Merit Badge Pamphlet?",
         "options": [
-          "A. Fast vocal speed alone makes an effective auction chant.",
-          "B. Reverse the sequence of Develop and Practice Your Auction steps by attempting final sign-off before completing Develop and practice your auction chant.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Develop and Practice Your Auction.",
-          "D. Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw."
+          "A. Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering.",
+          "B. Fast vocal speed alone makes an effective auction chant.",
+          "C. Informal bidding without clear terms of sale is sufficient for Req 8B.",
+          "D. Casual hobby familiarity with Auctioneering is sufficient to enter a professional Future Career Paths career without accredited training or licensing."
         ],
         "choices": [
-          "A. Fast vocal speed alone makes an effective auction chant.",
-          "B. Reverse the sequence of Develop and Practice Your Auction steps by attempting final sign-off before completing Develop and practice your auction chant.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Develop and Practice Your Auction.",
-          "D. Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw."
+          "A. Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering.",
+          "B. Fast vocal speed alone makes an effective auction chant.",
+          "C. Informal bidding without clear terms of sale is sufficient for Req 8B.",
+          "D. Casual hobby familiarity with Auctioneering is sufficient to enter a professional Future Career Paths career without accredited training or licensing."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw.",
-        "explanation": "Correct Answer (D): Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering. (Auctioneering Test Lab Resource Guide, pp. 34-39).",
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering.",
+        "explanation": "Correct Answer (A): Clarity, rhythm, accurate bid increment tracking (`have` vs. `asking`), and ethical disclosure of terms matter far more than raw speed in auctioneering. (Auctioneering Test Lab Resource Guide, pp. 34-39).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 34-39"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p006_img1.png"
     },
     {
       "req_id": "7",
@@ -1427,22 +1423,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish.",
-          "2. Key Pamphlet Facts & Mechanism (Simple Live or Online Auction)",
-          "3. Field Application & Counselor Discussion (Simple Live or Online Auction)"
+          "1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish."
         ],
         "rows": [
-          "1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish.",
-          "2. Key Pamphlet Facts & Mechanism (Simple Live or Online Auction)",
-          "3. Field Application & Counselor Discussion (Simple Live or Online Auction)"
-        ]
+          "1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
         "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event.",
         "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 40-45",
-        "myth": "Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event."
+        "myth": "Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
+        "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1472,7 +1466,7 @@
         "Planning & Running a Unit Auction Event Field Application 4: Verify all Auctioneering Requirement 7 measurements, safety controls, and technical criteria with your counselor (p. 34)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Planning & Running a Unit Auction Event Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 7 (p. 34).",
+        "Step 1 (Planning & Running a Unit Auction Event Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 7 (p. 34).",
         "Step 2 (Planning & Running a Unit Auction Event Execution): Apply the official Auctioneering pamphlet method for Planning & Running a Unit Auction Event while recording observations in your Scout Workbook (p. 34).",
         "Step 3 (Planning & Running a Unit Auction Event Buddy Check): Cross-check your Planning & Running a Unit Auction Event technique, measurements, and results with a patrol buddy using the EDGE method (p. 34).",
         "Step 4 (Planning & Running a Unit Auction Event Verification): Review your completed Planning & Running a Unit Auction Event evidence and demonstrate proficiency during your counselor conference (p. 34)."
@@ -1527,29 +1521,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 40-45."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Auctioneering Requirement 7 (Simple Live or Online Auction), which statement accurately reflects the official BSA standard for Plan a simple live or online auction at your unit meeting and document the ?",
-        "question": "When preparing for your counselor conference on Auctioneering Requirement 7 (Simple Live or Online Auction), which statement accurately reflects the official BSA standard for Plan a simple live or online auction at your unit meeting and document the ?",
+        "scenario_prompt": "During your patrol's preparation and review for Auctioneering Requirement 7 (Plan a simple live or online), which statement accurately reflects the official Auctioneering Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Auctioneering Requirement 7 (Plan a simple live or online), which statement accurately reflects the official Auctioneering Merit Badge Pamphlet?",
         "options": [
           "A. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
-          "B. Reverse the sequence of Simple Live or Online Auction steps by attempting final sign-off before completing Plan a simple live or online auction at your unit meeting an.",
-          "C. Substitute a casual verbal guess about Plan a simple live or online auction at your unit meeti in place of documented Auctioneering observations.",
-          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a."
+          "B. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event.",
+          "C. Casual hobby familiarity with Auctioneering is sufficient to enter a professional Future Career Paths career without accredited training or licensing.",
+          "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
         ],
         "choices": [
           "A. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
-          "B. Reverse the sequence of Simple Live or Online Auction steps by attempting final sign-off before completing Plan a simple live or online auction at your unit meeting an.",
-          "C. Substitute a casual verbal guess about Plan a simple live or online auction at your unit meeti in place of documented Auctioneering observations.",
-          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a."
+          "B. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event.",
+          "C. Casual hobby familiarity with Auctioneering is sufficient to enter a professional Future Career Paths career without accredited training or licensing.",
+          "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a.",
-        "explanation": "Correct Answer (D): Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event. (Auctioneering Test Lab Resource Guide, pp. 40-45).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event.",
+        "explanation": "Correct Answer (B): Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Planning & Running a Unit Auction Event. (Auctioneering Test Lab Resource Guide, pp. 40-45).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 40-45"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/auctioneering_req_7_topic_visual.png"
     },
     {
       "req_id": "8",
@@ -1585,23 +1579,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Auction Schools.",
-              "2. Key Pamphlet Facts & Mechanism (Auction Schools)",
-              "3. Field Application & Counselor Discussion (Auction Schools)"
+              "1. Auction Schools."
             ],
             "rows": [
-              "1. Auction Schools.",
-              "2. Key Pamphlet Facts & Mechanism (Auction Schools)",
-              "3. Field Application & Counselor Discussion (Auction Schools)"
-            ]
+              "1. Auction Schools."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
-            "misconception": "Informal bidding without clear terms of sale is sufficient for Req 8A.",
-            "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 8A.",
-            "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 8A.",
+            "misconception": "Informal bidding without clear terms of sale is sufficient.",
+            "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice.",
+            "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 46-51",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 8A."
+            "myth": "Informal bidding without clear terms of sale is sufficient.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1632,7 +1624,7 @@
           "pamphlet_excerpts": [
             "Auction Schools: Careers and Professional Pathways Principle 2: Auctioneering Sub-Req 8B: Licensing (p. 46)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/ai_illustrations/auctioneering_req_8_topic_visual.png"
         },
         {
           "sub_id": "8B",
@@ -1655,15 +1647,12 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Licensing.",
-              "2. Key Pamphlet Facts & Mechanism (Auctioneering Licensing Principles)",
-              "3. Field Application & Counselor Discussion (Auctioneering Licensing Principles)"
+              "1. Licensing."
             ],
             "rows": [
-              "1. Licensing.",
-              "2. Key Pamphlet Facts & Mechanism (Auctioneering Licensing Principles)",
-              "3. Field Application & Counselor Discussion (Auctioneering Licensing Principles)"
-            ]
+              "1. Licensing."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
@@ -1671,7 +1660,8 @@
             "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 8B.",
             "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 8B.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 46-51",
-            "myth": "Informal bidding without clear terms of sale is sufficient for Req 8B."
+            "myth": "Informal bidding without clear terms of sale is sufficient for Req 8B.",
+            "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Req 8B."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1725,23 +1715,21 @@
               "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Future Career Paths.",
-              "2. Key Pamphlet Facts & Mechanism (Auctioneering Careers and Pathways)",
-              "3. Field Application & Counselor Discussion (Auctioneering Careers and Pathways)"
+              "1. Future Career Paths."
             ],
             "rows": [
-              "1. Future Career Paths.",
-              "2. Key Pamphlet Facts & Mechanism (Auctioneering Careers and Pathways)",
-              "3. Field Application & Counselor Discussion (Auctioneering Careers and Pathways)"
-            ]
+              "1. Future Career Paths."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
-            "misconception": "Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-            "fact": "Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-            "fact_correction": "Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+            "misconception": "Casual hobby familiarity with Auctioneering is sufficient to enter a professional Future Career Paths career without accredited training or licensing.",
+            "fact": "Pursuing a career or advanced pathway in Auctioneering (Req 8C) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+            "fact_correction": "Pursuing a career or advanced pathway in Auctioneering (Req 8C) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
             "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 46-51",
-            "myth": "Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement."
+            "myth": "Casual hobby familiarity with Auctioneering is sufficient to enter a professional Future Career Paths career without accredited training or licensing.",
+            "correction": "Pursuing a career or advanced pathway in Auctioneering (Req 8C) requires researching specific education, apprenticeship or degree credentials, industry certifications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1797,22 +1785,24 @@
           "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "(8A) Auction Schools",
-          "(8B) Auctioneering Licensing Principles",
-          "(8C) Auctioneering Careers and Pathways"
+          "1. (8A) Auction Schools",
+          "2. (8B) Auctioneering Licensing Principles",
+          "3. (8C) Auctioneering Careers and Pathways"
         ],
         "rows": [
-          "(8A) Auction Schools",
-          "(8B) Auctioneering Licensing Principles",
-          "(8C) Auctioneering Careers and Pathways"
-        ]
+          "1. (8A) Auction Schools",
+          "2. (8B) Auctioneering Licensing Principles",
+          "3. (8C) Auctioneering Careers and Pathways"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-        "fact": "Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Auctioneering (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "fact_correction": "Pursuing a career or advanced pathway in Auctioneering (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 46-51",
-        "myth": "Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement."
+        "myth": "Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Auctioneering (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1842,7 +1832,7 @@
         "Careers and Professional Pathways Principle 4: Describe for your counselor the steps you can take to become involved in the auction industry, both as a youth and an adult (p. 46)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers and Professional Pathways Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 8 (p. 38).",
+        "Step 1 (Careers and Professional Pathways Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 8 (p. 38).",
         "Step 2 (Careers and Professional Pathways Execution): Apply the official Auctioneering pamphlet method for Careers and Professional Pathways while recording observations in your Scout Workbook (p. 38).",
         "Step 3 (Careers and Professional Pathways Buddy Check): Cross-check your Careers and Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 38).",
         "Step 4 (Careers and Professional Pathways Verification): Review your completed Careers and Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 38)."
@@ -1897,29 +1887,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 46-51."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Auctioneering Requirement 8 (Auctioneering Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Auctioneering Requirement 8 (Auctioneering Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "In Auctioneering Requirement 8 (For your counselor the steps), what technical standard and procedure does the Scouting America Auctioneering Merit Badge Pamphlet require?",
+        "question": "In Auctioneering Requirement 8 (For your counselor the steps), what technical standard and procedure does the Scouting America Auctioneering Merit Badge Pamphlet require?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-          "B. Skip the Auctioneering Pamphlet technical criteria for Auctioneering Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Auctioneering Careers and Pathways."
+          "A. Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+          "B. Informal bidding without clear terms of sale is sufficient for Scouting America Test Lab Feedback & Evaluation.",
+          "C. Pursuing a career or advanced pathway in Auctioneering (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-          "B. Skip the Auctioneering Pamphlet technical criteria for Auctioneering Careers and Pathways and use rules from an unrelated activity.",
-          "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Auctioneering Careers and Pathways."
+          "A. Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+          "B. Informal bidding without clear terms of sale is sufficient for Scouting America Test Lab Feedback & Evaluation.",
+          "C. Pursuing a career or advanced pathway in Auctioneering (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+          "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (C): Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Auctioneering Test Lab Resource Guide, pp. 46-51).",
+        "correct_answer": "C. Pursuing a career or advanced pathway in Auctioneering (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Auctioneering (Req 8) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Auctioneering Test Lab Resource Guide, pp. 46-51).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 46-51"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/auctioneering_req_8_topic_visual.png"
     },
     {
       "req_id": "9",
@@ -1951,22 +1941,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Complete the survey below to complete the test lab requirements",
-          "2. Key Pamphlet Facts & Mechanism (Survey Below)",
-          "3. Field Application & Counselor Discussion (Survey Below)"
+          "1. Complete the survey below to complete the test lab requirements"
         ],
         "rows": [
-          "1. Complete the survey below to complete the test lab requirements",
-          "2. Key Pamphlet Facts & Mechanism (Survey Below)",
-          "3. Field Application & Counselor Discussion (Survey Below)"
-        ]
+          "1. Complete the survey below to complete the test lab requirements"
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Informal bidding without clear terms of sale is sufficient for Scouting America Test Lab Feedback & Evaluation.",
         "fact": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test Lab Feedback & Evaluation.",
         "fact_correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test Lab Feedback & Evaluation.",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 52-57",
-        "myth": "Informal bidding without clear terms of sale is sufficient for Scouting America Test Lab Feedback & Evaluation."
+        "myth": "Informal bidding without clear terms of sale is sufficient for Scouting America Test Lab Feedback & Evaluation.",
+        "correction": "Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test Lab Feedback & Evaluation."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1996,7 +1984,7 @@
         "Survey Below to Complete Field Application 4: Verify all Auctioneering Requirement 9 measurements, safety controls, and technical criteria with your counselor (p. 42)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Survey Below to Complete Preparation): Inspect the workspace, reference materials, and safety controls required for Auctioneering Requirement 9 (p. 42).",
+        "Step 1 (Survey Below to Complete Preparation): Inspect the works pace, reference materials, and safety controls required for Auctioneering Requirement 9 (p. 42).",
         "Step 2 (Survey Below to Complete Execution): Apply the official Auctioneering pamphlet method for Survey Below to Complete while recording observations in your Scout Workbook (p. 42).",
         "Step 3 (Survey Below to Complete Buddy Check): Cross-check your Survey Below to Complete technique, measurements, and results with a patrol buddy using the EDGE method (p. 42).",
         "Step 4 (Survey Below to Complete Verification): Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42)."
@@ -2043,7 +2031,7 @@
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
           "Core Technical Principle": "Survey Below to Complete: Complete the survey below to complete the test lab requirements (p. 52).",
-          "Applied Field Mechanism": "Survey Below to Complete Principle 2: Complete The Survey Below Principle 2: Key Terminology & Evidence: Document specific examples, definitions, and field observations for Scoutin.",
+          "Applied Field Mechanism": "Survey Below to Complete Principle 2: Complete The Survey Below Principle 2: Key Terminology & Evidence: Document specific examples, definitions, and field observations for Scout in.",
           "Real-World Case Example": "Concrete application of Survey Below to Complete documented during Auctioneering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Auctioneering Test Lab Resource Guide, pp. 52-57."
         },
@@ -2051,29 +2039,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Auctioneering Test Lab Resource Guide, pp. 52-57."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 9 (Survey Below: Complete the survey below to complete the test lab requirements)?",
-        "question": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 9 (Survey Below: Complete the survey below to complete the test lab requirements)?",
+        "scenario_prompt": "When demonstrating and explaining Complete the survey below to complete for Auctioneering Requirement 9, which approach follows the verified Auctioneering Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Complete the survey below to complete for Auctioneering Requirement 9, which approach follows the verified Auctioneering Merit Badge Pamphlet standard?",
         "options": [
           "A. Informal bidding without clear terms of sale is sufficient for Scouting America Test Lab Feedback & Evaluation.",
-          "B. Reverse the sequence of Survey Below steps by attempting final sign-off before completing Complete the survey below to complete the test lab requireme.",
-          "C. Substitute a casual verbal guess about Complete the survey below to complete the test lab requ in place of documented Auctioneering observations.",
-          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test."
+          "B. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+          "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test Lab Feedback & Evaluation."
         ],
         "choices": [
           "A. Informal bidding without clear terms of sale is sufficient for Scouting America Test Lab Feedback & Evaluation.",
-          "B. Reverse the sequence of Survey Below steps by attempting final sign-off before completing Complete the survey below to complete the test lab requireme.",
-          "C. Substitute a casual verbal guess about Complete the survey below to complete the test lab requ in place of documented Auctioneering observations.",
-          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test."
+          "B. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+          "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+          "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test Lab Feedback & Evaluation."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test.",
+        "correct_answer": "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test Lab Feedback & Evaluation.",
         "explanation": "Correct Answer (D): Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Scouting America Test Lab Feedback & Evaluation. (Auctioneering Test Lab Resource Guide, pp. 52-57).",
         "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 52-57"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Auctioneering Workbook organizer table and practical demonstration for Req 9.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/ai_illustrations/auctioneering_req_9_topic_visual.png"
     }
   ],
   "badge_slug": "auctioneering",
@@ -2083,116 +2071,116 @@
   "status": "TEST_LAB_PILOT",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Discuss With Your Counselor The: Discuss with your counselor the history of auctions worldwide)?",
-      "question": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Discuss With Your Counselor The: Discuss with your counselor the history of auctions worldwide)?",
+      "scenario_prompt": "During a live charity auction, a bidder raises their hand to place a $100 bid, and simultaneously a collaborator in the crowd places a fake 'shill' bid solely to artificially drive up the price without intending to buy. Under the National Auctioneers Association Code of Ethics, how must the auctioneer handle shill bidding?",
+      "question": "During a live charity auction, a bidder raises their hand to place a $100 bid, and simultaneously a collaborator in the crowd places a fake 'shill' bid solely to artificially drive up the price without intending to buy. Under the National Auctioneers Association Code of Ethics, how must the auctioneer handle shill bidding?",
       "options": [
-        "A. Auctions are a modern invention that started with online marketplaces in the 1990s.",
-        "B. Skip the Auctioneering Pamphlet technical criteria for Discuss With Your Counselor The and use rules from an unrelated activity.",
-        "C. Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss With Your Counselor The."
+        "A. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+        "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+        "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+        "D. Invent phantom bids from the podium after the reserve price has already been met."
       ],
       "choices": [
-        "A. Auctions are a modern invention that started with online marketplaces in the 1990s.",
-        "B. Skip the Auctioneering Pamphlet technical criteria for Discuss With Your Counselor The and use rules from an unrelated activity.",
-        "C. Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Discuss With Your Counselor The."
+        "A. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+        "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+        "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+        "D. Invent phantom bids from the podium after the reserve price has already been met."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's.",
-      "explanation": "Correct Answer (C): Recorded auctions date back to ancient Babylon and Rome (500 BCE) and evolved through colonial commodity exchanges into today's live and digital markets. (Auctioneering Test Lab Resource Guide, pp. 4-9).",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+      "explanation": "Correct Answer (B): Auctioneering ethics and state licensing laws require complete transparency in bid calling; undisclosed shill bidding is fraudulent and destroys buyer trust.",
       "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 4-9",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Auctioneering Requirement 2 (Roles in An Auction), which statement accurately reflects the official BSA standard for Describe to your counselor the different roles in an auction?",
-      "question": "When preparing for your counselor conference on Auctioneering Requirement 2 (Roles in An Auction), which statement accurately reflects the official BSA standard for Describe to your counselor the different roles in an auction?",
+      "scenario_prompt": "When working on Auctioneering Requirement 2 (To your counselor the different roles), which principle and field standard is established in the Auctioneering Merit Badge Pamphlet?",
+      "question": "When working on Auctioneering Requirement 2 (To your counselor the different roles), which principle and field standard is established in the Auctioneering Merit Badge Pamphlet?",
       "options": [
-        "A. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
-        "B. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value.",
-        "C. Rely on a group summary of Roles in An Auction instead of individually explaining or demonstrating Describe to your counselor the different roles in an auction.",
-        "D. Substitute a casual verbal guess about Describe to your counselor the different roles in an au in place of documented Auctioneering observations."
+        "A. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
+        "B. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
+        "C. Informal bidding without clear terms of sale is sufficient for Req 5C.",
+        "D. Fast vocal speed alone makes an effective auction chant."
       ],
       "choices": [
-        "A. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
-        "B. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value.",
-        "C. Rely on a group summary of Roles in An Auction instead of individually explaining or demonstrating Describe to your counselor the different roles in an auction.",
-        "D. Substitute a casual verbal guess about Describe to your counselor the different roles in an au in place of documented Auctioneering observations."
+        "A. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
+        "B. The auctioneer works alone and handles bidder registration, ring spotting, and settlement single-handedly.",
+        "C. Informal bidding without clear terms of sale is sufficient for Req 5C.",
+        "D. Fast vocal speed alone makes an effective auction chant."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value.",
-      "explanation": "Correct Answer (B): A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts. (Auctioneering Test Lab Resource Guide, pp. 10-15).",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts.",
+      "explanation": "Correct Answer (A): A professional auction relies on a coordinated team: the auctioneer calls bids, ringmen spot bidder signals and communicate value, and clerks/cashiers log lots and settle accounts. (Auctioneering Test Lab Resource Guide, pp. 10-15).",
       "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 10-15",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Similarities Between The Auction: Describe to your counselor the differences and similarities between th)?",
-      "question": "How does the Auctioneering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Similarities Between The Auction: Describe to your counselor the differences and similarities between th)?",
+      "scenario_prompt": "During your patrol's preparation and review for Auctioneering Requirement 3 (To your counselor the differences), which statement accurately reflects the official Auctioneering Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Auctioneering Requirement 3 (To your counselor the differences), which statement accurately reflects the official Auctioneering Merit Badge Pamphlet?",
       "options": [
         "A. Traditional fixed-price retail is always faster and yields higher prices than the auction method of marketing.",
-        "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or.",
-        "C. Rely on a group summary of Similarities Between The Auction instead of individually explaining or demonstrating Describe to your counselor the differences and similarities .",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Similarities Between The Auction standard."
+        "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
+        "C. Fast vocal speed alone makes an effective auction chant.",
+        "D. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event."
       ],
       "choices": [
         "A. Traditional fixed-price retail is always faster and yields higher prices than the auction method of marketing.",
-        "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or.",
-        "C. Rely on a group summary of Similarities Between The Auction instead of individually explaining or demonstrating Describe to your counselor the differences and similarities .",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Similarities Between The Auction standard."
+        "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
+        "C. Fast vocal speed alone makes an effective auction chant.",
+        "D. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event."
       ],
       "correct_index": 1,
       "correct_letter": "B",
-      "correct_answer": "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or.",
+      "correct_answer": "B. Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets.",
       "explanation": "Correct Answer (B): Auctions create time-definite competitive price discovery that establishes true market value quickly for unique, scarce, or time-sensitive assets. (Auctioneering Test Lab Resource Guide, pp. 16-21).",
       "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 16-21",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Auctioneering Requirement 4 (Auctioneering Careers and Pathways), which statement accurately reflects the official BSA standard for Shadow that auctioneer for a day and discuss with your counselor what you l?",
-      "question": "When preparing for your counselor conference on Auctioneering Requirement 4 (Auctioneering Careers and Pathways), which statement accurately reflects the official BSA standard for Shadow that auctioneer for a day and discuss with your counselor what you l?",
+      "scenario_prompt": "In Auctioneering Requirement 4 (With permission from your parents), what technical standard and procedure does the Scouting America Auctioneering Merit Badge Pamphlet require?",
+      "question": "In Auctioneering Requirement 4 (With permission from your parents), what technical standard and procedure does the Scouting America Auctioneering Merit Badge Pamphlet require?",
       "options": [
-        "A. Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-        "B. Skip the Auctioneering Pamphlet technical criteria for Auctioneering Careers and Pathways and use rules from an unrelated activity.",
-        "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Auctioneering Careers and Pathways."
+        "A. Casual hobby familiarity with Auctioneering is sufficient to enter a professional With permission from your parents career without accredited training or licensing.",
+        "B. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
+        "C. Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
       ],
       "choices": [
-        "A. Listing three job titles from a quick web search satisfies the Auctioneering career exploration requirement.",
-        "B. Skip the Auctioneering Pamphlet technical criteria for Auctioneering Careers and Pathways and use rules from an unrelated activity.",
-        "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Auctioneering Careers and Pathways."
+        "A. Casual hobby familiarity with Auctioneering is sufficient to enter a professional With permission from your parents career without accredited training or licensing.",
+        "B. Informal bidding without clear terms of sale is sufficient for Planning & Running a Unit Auction Event.",
+        "C. Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+        "D. Encourage secret shill bidders in the audience so the seller gets a higher commission."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties.",
-      "explanation": "Correct Answer (C): Scouts must research specific Auctioneering career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Auctioneering Test Lab Resource Guide, pp. 22-27).",
+      "correct_answer": "C. Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications.",
+      "explanation": "Correct Answer (C): Pursuing a career or advanced pathway in Auctioneering (Req 4) requires researching specific education, apprenticeship or degree credentials, industry certifications. (Auctioneering Test Lab Resource Guide, pp. 22-27).",
       "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 22-27",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "In Auctioneering Requirement 5 (Discuss Assets Sold Auction), how should a Scout accurately distinguish and explain the key technical differences (Types of assets sold at auction)?",
-      "question": "In Auctioneering Requirement 5 (Discuss Assets Sold Auction), how should a Scout accurately distinguish and explain the key technical differences (Types of assets sold at auction)?",
+      "scenario_prompt": "When demonstrating and explaining With your counselor for Auctioneering Requirement 5, which approach follows the verified Auctioneering Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining With your counselor for Auctioneering Requirement 5, which approach follows the verified Auctioneering Merit Badge Pamphlet standard?",
       "options": [
-        "A. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes.",
-        "B. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
-        "C. Focus only on Types of assets sold at auction while omitting Types of customers you would be selling these assets and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Discuss Assets Sold Auction standard."
+        "A. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
+        "B. Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+        "C. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+        "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats."
       ],
       "choices": [
-        "A. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes.",
-        "B. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
-        "C. Focus only on Types of assets sold at auction while omitting Types of customers you would be selling these assets and its required field verification.",
-        "D. Complete only a single sub-part of Requirement 5 rather than fulfilling the full Discuss Assets Sold Auction standard."
+        "A. Informal bidding without clear terms of sale is sufficient for Auction Asset Classes, Sellers & Sale Formats.",
+        "B. Casual hobby familiarity with Auctioneering is sufficient to enter a professional For your counselor the steps career without accredited training or licensing.",
+        "C. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+        "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes.",
-      "explanation": "Correct Answer (A): Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats. (Auctioneering Test Lab Resource Guide, pp. 28-33).",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats.",
+      "explanation": "Correct Answer (D): Transparent terms of sale, accurate lot cataloging, and clear bid increments govern professional practice in Auction Asset Classes, Sellers & Sale Formats. (Auctioneering Test Lab Resource Guide, pp. 28-33).",
       "pamphlet_page_ref": "Auctioneering Test Lab Resource Guide, pp. 28-33",
       "req_id": "5",
       "option_id": null

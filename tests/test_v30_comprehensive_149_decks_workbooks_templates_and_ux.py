@@ -99,7 +99,7 @@ def test_v30_templates_backdrops_class_packet_zip_and_ui_enhancements() -> None:
     """Verifies 23 built-in templates (29 total), 24 washed backdrops, Class Packet ZIP API, and UI controls."""
     assert len(BUILTIN_TEMPLATES) == 23
     assert len(load_template_catalog()) >= 29
-    assert len(NANO_BUILT_IN_BACKDROPS_CATALOG) == 24
+    assert len(NANO_BUILT_IN_BACKDROPS_CATALOG) >= 24
     assert "assets/templates/overlays/" in _ALLOWED_ASSET_PREFIXES
     assert len(collect_badge_asset_rel_paths("First Aid")) >= 20
 

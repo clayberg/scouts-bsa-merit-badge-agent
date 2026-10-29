@@ -73,15 +73,16 @@
         "rows": [
           "1. Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters,...",
           "2. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Skipping hands-on verification or partial completion of Orienteering Requirement  satisfies the merit badge standard.",
-        "fact": "Scouts must personally complete and document every element of Orienteering Requirement  () for counselor verification.",
-        "fact_correction": "Scouts must personally complete and document every element of Orienteering Requirement  () for counselor verification.",
-        "pamphlet_page_ref": "p. 66, p. 71",
-        "myth": "Skipping hands-on verification or partial completion of Orienteering Requirement  satisfies the merit badge standard.",
-        "correction": "Scouts must personally complete and document every element of Orienteering Requirement  () for counselor verification."
+        "misconception": "During Orienteering Requirement 1 (First aid for the following types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "fact": "Every Orienteering outing requires proactive hazard screening, proper PPE fit verification.",
+        "fact_correction": "Every Orienteering outing requires proactive hazard screening, proper PPE fit verification.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)",
+        "myth": "During Orienteering Requirement 1 (First aid for the following types), protective equipment checks and hazard mitigation are only needed in severe weather or unfamiliar locations.",
+        "correction": "Every Orienteering outing requires proactive hazard screening, proper PPE fit verification."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -105,14 +106,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Orienteering First Aid: Orienteering is a physically demanding activity that takesplace over several kilometers of very mixed and often ruggedterrain (p. 66).",
-        "Orienteering First Aid Principle 2: Hot weather may result in sunburn, heatstroke, heatexhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 66).",
-        "Orienteering First Aid Principle 3: In the hurry to be first, youmight stumble onto dangerous animals or poisonous plants (p. 66).",
-        "Orienteering First Aid Principle 4: Before going out, spend a fewminutes reviewingpossible injuries and their treatment (p. 66)."
+        "Orienteering First Aid: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
+        "Orienteering First Aid Principle 2: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 66).",
+        "Orienteering First Aid Principle 3: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
+        "Orienteering First Aid Principle 4: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Orienteering First Aid): The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteeringcourse (p. 66).",
-        "Step 2 (Orienteering First Aid): A normal night's sleep and healthy meals will helpyou endure the rigors of the course and decrease the possibility of a physical or mental slip (p. 66).",
+        "Step 2 (Orienteering First Aid): A normal night's sleep and healthy meals will help you endure the rigors of the course and decrease the possibility of a physical or mental slip (p. 66).",
         "Step 3 (Orienteering First Aid): If you are not physically fit, you may be particularly vulnerable to heat (p. 66).",
         "Step 4 (Orienteering First Aid): Dehydration is caused by lack of water in the body (p. 66)."
       ],
@@ -158,33 +159,33 @@
         "artifact_type": "SAFETY_AND_HAZARD_MITIGATION_MATRIX",
         "fields": {
           "Primary Field Hazard": "Environmental, equipment, or acute physical risk identified during Orienteering First Aid.",
-          "Preventive Controls & PPE": "Orienteering First Aid: Orienteering is a physically demanding activity that takesplace over several kilometers of very mixed and often ruggedterrain (p. 66).",
-          "Acute First-Aid Response": "Orienteering First Aid Principle 2: Hot weather may result in sunburn, heatstroke, heatexhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 6)",
+          "Preventive Controls & PPE": "Orienteering First Aid: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
+          "Acute First-Aid Response": "Orienteering First Aid Principle 2: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 6)",
           "Field Readiness Check": "Buddy pair inspection and emergency action plan verified per Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)."
         },
         "sample_output": "Orienteering First Aid: Orienteering First Aid: Orienteering is a physically demanding activity that takesplace over several kilometers of very mixed and often rugg",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)."
       },
       "quiz_item": {
-        "scenario_prompt": "Before beginning hands-on work for Orienteering Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Orienteering Merit Badge Pamphlet require?",
-        "question": "Before beginning hands-on work for Orienteering Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Orienteering Merit Badge Pamphlet require?",
+        "scenario_prompt": "When taking a bearing from a topographic map in an area with a 12-degree west magnetic declination, why must you account for declination before following your compass in the field?",
+        "question": "When taking a bearing from a topographic map in an area with a 12-degree west magnetic declination, why must you account for declination before following your compass in the field?",
         "options": [
-          "A. Experienced Orienteering participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "B. Skip the Orienteering Pamphlet technical criteria for You Know First Aid and use rules from an unrelated activity.",
-          "C. The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on You Know First Aid."
+          "A. Because contour lines on a topographic map shift position seasonally as soil moisture changes.",
+          "B. Because a baseplate compass needle always points toward the geographic North Pole rather than magnetic north.",
+          "C. Because map grid lines align with true north while the compass needle points to magnetic north, and ignoring a 12-degree difference will pull you far off course over distance.",
+          "D. Because metal control flags placed at orienteering checkpoints reverse the polarity of the compass housing."
         ],
         "choices": [
-          "A. Experienced Orienteering participants only need to review safety rules and emergency procedures after an incident occurs.",
-          "B. Skip the Orienteering Pamphlet technical criteria for You Know First Aid and use rules from an unrelated activity.",
-          "C. The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on You Know First Aid."
+          "A. Because contour lines on a topographic map shift position seasonally as soil moisture changes.",
+          "B. Because a baseplate compass needle always points toward the geographic North Pole rather than magnetic north.",
+          "C. Because map grid lines align with true north while the compass needle points to magnetic north, and ignoring a 12-degree difference will pull you far off course over distance.",
+          "D. Because metal control flags placed at orienteering checkpoints reverse the polarity of the compass housing."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "explanation": "Correct Answer (C): The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Orienteering First Aid activity. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)).",
-        "pamphlet_page_ref": "p. 66, p. 71"
+        "correct_answer": "C. Because map grid lines align with true north while the compass needle points to magnetic north, and ignoring a 12-degree difference will pull you far off course over distance.",
+        "explanation": "Correct Answer (C): Magnetic declination is the angular difference between true north (shown on the map) and magnetic north (where the compass needle points); failing to adjust for it causes significant navigation errors.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 1.",
@@ -233,23 +234,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what orienteering is.",
-          "2. Key Pamphlet Facts & Mechanism (Map Symbols and Topographic Features)",
-          "3. Field Application & Counselor Discussion (Map Symbols and Topographic Features)"
+          "1. Explain what orienteering is."
         ],
         "rows": [
-          "1. Explain what orienteering is.",
-          "2. Key Pamphlet Facts & Mechanism (Map Symbols and Topographic Features)",
-          "3. Field Application & Counselor Discussion (Map Symbols and Topographic Features)"
-        ]
+          "1. Explain what orienteering is."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Map Symbols and Topographic Features without explaining how it works in practice satisfies Orienteering Requirement 2.",
-        "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Map Symbols and Topographic Features (Map Symbols and Topographic Features) (p. 14).",
-        "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Map Symbols and Topographic Features (Map Symbols and Topographic Features) (p. 14).",
-        "pamphlet_page_ref": "p. 14",
-        "myth": "Memorizing a one-line definition of Map Symbols and Topographic Features without explaining how it works in practice satisfies Orienteering Requirement 2.",
-        "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Map Symbols and Topographic Features (Map Symbols and Topographic Features) (p. 14)."
+        "misconception": "Assuming Orienteering is in Orienteering Requirement 2 operates identically across all environmental and technical conditions.",
+        "fact": "Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+        "fact_correction": "Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)",
+        "myth": "Assuming Orienteering is in Orienteering Requirement 2 operates identically across all environmental and technical conditions.",
+        "correction": "Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -274,14 +272,14 @@
       ],
       "pamphlet_excerpts": [
         "Map Symbols and Topographic Features: Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level (p. 14).",
-        "Map Symbols and Topographic Features Principle 2: On orienteering maps, the index contour line does nothave an elevation number, but is thicker than the others and isused as a guide for the eye (p. 14).",
+        "Map Symbols and Topographic Features Principle 2: On orienteering maps, the index contour line does not have an elevation number, but is thicker than the others and is used as a guide for the eye (p. 14).",
         "Map Symbols and Topographic Features Principle 3: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14).",
-        "Map Symbols and Topographic Features Principle 4: If a mountain is perfectly conicallike a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14)."
+        "Map Symbols and Topographic Features Principle 4: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Map Symbols and Topographic Features): Each contour line will be perfectlycircular, and all will be the same distance apart (p. 14).",
+        "Step 1 (Map Symbols and Topographic Features): Each contour line will be perfectly circular, and all will be the same distance apart (p. 14).",
         "Step 2 (Map Symbols and Topographic Features): At one part of the mountain, the contour line may intersect a valley or a depression (p. 14).",
-        "Step 3 (Map Symbols and Topographic Features): If thecontour line ran into the valley, it would lose elevation andwould no longer be considered the same contour line (p. 14).",
+        "Step 3 (Map Symbols and Topographic Features): If the contour line ran into the valley, it would lose elevation and would no longer be considered the same contour line (p. 14).",
         "Step 4 (Map Symbols and Topographic Features): When a higher point like a ridge is encountered, the contour line will \"V\" downward (p. 14)."
       ],
       "gear_checklist": [
@@ -326,7 +324,7 @@
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
           "Core Technical Principle": "Map Symbols and Topographic Features: Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level (p. 14).",
-          "Applied Field Mechanism": "Map Symbols and Topographic Features Principle 2: On orienteering maps, the index contour line does nothave an elevation number, but is thicker than the others and isused as a guid.",
+          "Applied Field Mechanism": "Map Symbols and Topographic Features Principle 2: On orienteering maps, the index contour line does not have an elevation number, but is thicker than the others and is used as a guid.",
           "Real-World Case Example": "Concrete application of Map Symbols and Topographic Features documented during Orienteering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)."
         },
@@ -334,25 +332,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Orienteering Requirement 2 (Map Symbols and Topographic Features), which statement accurately reflects the official BSA standard for Explain what orienteering is?",
-        "question": "When preparing for your counselor conference on Orienteering Requirement 2 (Map Symbols and Topographic Features), which statement accurately reflects the official BSA standard for Explain what orienteering is?",
+        "scenario_prompt": "In Orienteering Requirement 2 (Orienteering is), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
+        "question": "In Orienteering Requirement 2 (Orienteering is), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
         "options": [
-          "A. Memorizing a one-line definition of Map Symbols and Topographic Features without explaining how it works in practice satisfies.",
-          "B. Skip the Orienteering Pamphlet technical criteria for Map Symbols and Topographic Features and use rules from an unrelated activity.",
-          "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Explain what orienteering is in place of documented Orienteering observations."
+          "A. Assuming Orienteering is in Orienteering Requirement 2 operates identically across all environmental and technical conditions.",
+          "B. Treating the technical factors of 20 international control description symbols in Orienteering Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+          "C. Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+          "D. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Map Symbols and Topographic Features without explaining how it works in practice satisfies.",
-          "B. Skip the Orienteering Pamphlet technical criteria for Map Symbols and Topographic Features and use rules from an unrelated activity.",
-          "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Explain what orienteering is in place of documented Orienteering observations."
+          "A. Assuming Orienteering is in Orienteering Requirement 2 operates identically across all environmental and technical conditions.",
+          "B. Treating the technical factors of 20 international control description symbols in Orienteering Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+          "C. Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+          "D. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (C): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Map Symbols and Topographic Features (Map Symbols and Topographic Features). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)).",
-        "pamphlet_page_ref": "p. 14"
+        "correct_answer": "C. Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+        "explanation": "Correct Answer (C): Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 2.",
@@ -397,16 +395,17 @@
             "rows": [
               "1. Explain how a compass works.",
               "2. Describe the features of an orienteering compass."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Compass Works Describe The Features without explaining how it works in practice satisfies Orienteering Requirement 3a.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compass Works Describe The Features (Compass Works Describe The Features) (p. 10, p. 20).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compass Works Describe The Features (Compass Works Describe The Features) (p. 10, p. 20).",
-            "pamphlet_page_ref": "p. 10, p. 20",
-            "myth": "Memorizing a one-line definition of Compass Works Describe The Features without explaining how it works in practice satisfies Orienteering Requirement 3a.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Compass Works Describe The Features (Compass Works Describe The Features) (p. 10, p. 20)."
+            "misconception": "Treating the technical factors of A compass works in Orienteering Requirement 3a as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Orienteering Requirement 3a (A compass works), each principle directly governs real-world performance: Rotate the bezel until the orienting arrow or north-south lines lie parallel.",
+            "fact_correction": "In Orienteering Requirement 3a (A compass works), each principle directly governs real-world performance: Rotate the bezel until the orienting arrow or north-south lines lie parallel.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
+            "myth": "Treating the technical factors of A compass works in Orienteering Requirement 3a as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Orienteering Requirement 3a (A compass works), each principle directly governs real-world performance: Rotate the bezel until the orienting arrow or north-south lines lie parallel."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -437,7 +436,7 @@
           "pamphlet_excerpts": [
             "Compass Works: A compass works: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction as the magneticnorth-south lines on the map (p. 10)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png"
         },
         {
           "sub_id": "3b",
@@ -465,24 +464,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. In the field, show how to take a compass bearing and follow.",
-              "2. Key Pamphlet Facts & Mechanism (Field Compass Bearing Follow)",
-              "3. Field Application & Counselor Discussion (Field Compass Bearing Follow)"
+              "1. In the field, show how to take a compass bearing and follow."
             ],
             "rows": [
-              "1. In the field, show how to take a compass bearing and follow.",
-              "2. Key Pamphlet Facts & Mechanism (Field Compass Bearing Follow)",
-              "3. Field Application & Counselor Discussion (Field Compass Bearing Follow)"
-            ]
+              "1. In the field, show how to take a compass bearing and follow."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform In The Field Show How verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3b.",
-            "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate In The Field Show How with proper technique (p. 10, p. 20).",
-            "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate In The Field Show How with proper technique (p. 10, p. 20).",
-            "pamphlet_page_ref": "p. 10, p. 20",
-            "myth": "Describing how to perform In The Field Show How verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3b.",
-            "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate In The Field Show How with proper technique (p. 10, p. 20)."
+            "misconception": "Performing In the field in Orienteering Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Orienteering Requirement 3b (In the field) depends on precise setup and step-by-step technique: Read the bearing directly opposite of the bearing index.",
+            "fact_correction": "Hands-on execution of Orienteering Requirement 3b (In the field) depends on precise setup and step-by-step technique: Read the bearing directly opposite of the bearing index.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
+            "myth": "Performing In the field in Orienteering Requirement 3b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Orienteering Requirement 3b (In the field) depends on precise setup and step-by-step technique: Read the bearing directly opposite of the bearing index."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -556,21 +552,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(3a) Compass Works Describe The Features",
-          "(3b) Field Compass Bearing Follow"
+          "1. (3a) Compass Works Describe The Features",
+          "2. (3b) Field Compass Bearing Follow"
         ],
         "rows": [
-          "(3a) Compass Works Describe The Features",
-          "(3b) Field Compass Bearing Follow"
-        ]
+          "1. (3a) Compass Works Describe The Features",
+          "2. (3b) Field Compass Bearing Follow"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform A compass works verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3.",
-        "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A compass works with proper technique (p. 10, p. 20).",
-        "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A compass works with proper technique (p. 10, p. 20).",
-        "pamphlet_page_ref": "p. 10, p. 20",
-        "myth": "Describing how to perform A compass works verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3.",
-        "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A compass works with proper technique (p. 10, p. 20)."
+        "misconception": "Performing A compass works in Orienteering Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie.",
+        "fact_correction": "Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
+        "myth": "Performing A compass works in Orienteering Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -594,16 +591,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "A compass works: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction as the magneticnorth-south lines on the map (p. 10).",
-        "A compass works Principle 2: Read the bearing directlyopposite of the bearing index (p. 10).",
-        "A compass works Principle 3: If the magnetic north-south lines are not drawn on themap, convert the language of the compass to that of the map (p. 10).",
+        "A compass works: Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
+        "A compass works Principle 2: Read the bearing directly opposite of the bearing index (p. 10).",
+        "A compass works Principle 3: If the magnetic north-south lines are not drawn on the map, convert the language of the compass to that of the map (p. 10).",
         "A compass works Principle 4: Always add the number of degrees of error for west declination and subtract for east declination (p. 10)."
       ],
       "step_by_step_procedure": [
         "Step 1 (A compass works): The bearing is 244 degrees from \"A\" to \"B.\" (Points \"A\" and \"B\" can be seen in the top photo on page 21.) (p. 10).",
-        "Step 2 (A compass works): The thumb compassrides on the thumb andsimplifies map orientation and direction finding while you are on the move (p. 10).",
-        "Step 3 (A compass works): Itsuffers a bit in accuracy, however, especially in thehands of a novice (p. 10).",
-        "Step 4 (A compass works): The bearing index and direction-of-travel arrow are located on the baseplate (p. 10)."
+        "Step 2 (A compass works): The thumb compass rides on the thumb and simplifies map orientation and direction finding while you are on the move (p. 10).",
+        "Step 3 (A compass works): It suffers a bit in accuracy, however, especially in the hands of a novice (p. 10).",
+        "Step 4 (A compass works): The bearing index and direction-of-travel arrow are located on the base plate (p. 10)."
       ],
       "gear_checklist": [
         "Official Orienteering Merit Badge Pamphlet and Fillable Workbook (open to Req 3: A compass works)",
@@ -646,38 +643,38 @@
         "title": "Exemplar Skill Station Walkthrough: Orienteering Req 3 (A compass works)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for A compass works.",
-          "Step-by-Step Execution": "A compass works: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction as the magneticnorth-south lines on the map (p. 10).",
-          "Quality & Tolerance Check": "A compass works Principle 2: Read the bearing directlyopposite of the bearing index (p. 10).",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for A compass works.",
+          "Step-by-Step Execution": "A compass works: Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
+          "Quality & Tolerance Check": "A compass works Principle 2: Read the bearing directly opposite of the bearing index (p. 10).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20))"
         },
         "sample_output": "A compass works: A compass works: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction as the magneticnor",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Orienteering Requirement 3 (Compass Works Describe The Features), what execution standard is required when demonstrating Explain how a compass works. Describe the features of an orienteering compa?",
-        "question": "During the hands-on skill station for Orienteering Requirement 3 (Compass Works Describe The Features), what execution standard is required when demonstrating Explain how a compass works. Describe the features of an orienteering compa?",
+        "scenario_prompt": "When demonstrating and explaining A compass works for Orienteering Requirement 3, which approach follows the verified Orienteering Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining A compass works for Orienteering Requirement 3, which approach follows the verified Orienteering Merit Badge Pamphlet standard?",
         "options": [
-          "A. Describing how to perform A compass works verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3.",
-          "B. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-          "C. Rely on a group summary of Compass Works Describe The Features instead of individually explaining or demonstrating Explain how a compass works. Describe the features of an ori.",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Compass Works Describe The Features standard."
+          "A. Performing A compass works in Orienteering Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie."
         ],
         "choices": [
-          "A. Describing how to perform A compass works verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3.",
-          "B. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-          "C. Rely on a group summary of Compass Works Describe The Features instead of individually explaining or demonstrating Explain how a compass works. Describe the features of an ori.",
-          "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Compass Works Describe The Features standard."
+          "A. Performing A compass works in Orienteering Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-        "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A compass works with proper technique. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)).",
-        "pamphlet_page_ref": "p. 10, p. 20"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie.",
+        "explanation": "Correct Answer (D): Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png"
     },
     {
       "req_id": "4",
@@ -713,16 +710,17 @@
             "rows": [
               "1. Explain how a topographic map shows terrain features.",
               "2. Point out and name five terrain features on a map and in the field."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Topographic Map Shows Terrain Features verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4a.",
-            "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Topographic Map Shows Terrain Features with proper technique (p. 19, p. 21).",
-            "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Topographic Map Shows Terrain Features with proper technique (p. 19, p. 21).",
-            "pamphlet_page_ref": "p. 19, p. 21",
-            "myth": "Describing how to perform Topographic Map Shows Terrain Features verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4a.",
-            "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Topographic Map Shows Terrain Features with proper technique (p. 19, p. 21)."
+            "misconception": "Performing A topographic map shows terrain features in Orienteering Requirement 4a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Orienteering Requirement 4a (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+            "fact_correction": "Hands-on execution of Orienteering Requirement 4a (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
+            "myth": "Performing A topographic map shows terrain features in Orienteering Requirement 4a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Orienteering Requirement 4a (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -753,7 +751,7 @@
           "pamphlet_excerpts": [
             "Topographic Map Shows Terrain Features: A topographic map shows terrain features Principle 2: You cando this visually, but it is easier to make errors that way (p. 19)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p021_img1.png"
         },
         {
           "sub_id": "4b",
@@ -776,24 +774,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Point out and name 10 symbols on a topographic map.",
-              "2. Key Pamphlet Facts & Mechanism (Out and Name Symbols)",
-              "3. Field Application & Counselor Discussion (Out and Name Symbols)"
+              "1. Point out and name 10 symbols on a topographic map."
             ],
             "rows": [
-              "1. Point out and name 10 symbols on a topographic map.",
-              "2. Key Pamphlet Facts & Mechanism (Out and Name Symbols)",
-              "3. Field Application & Counselor Discussion (Out and Name Symbols)"
-            ]
+              "1. Point out and name 10 symbols on a topographic map."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Out and Name Symbols without explaining how it works in practice satisfies Orienteering Requirement 4b.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out and Name Symbols (Out and Name Symbols) (p. 19, p. 21).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out and Name Symbols (Out and Name Symbols) (p. 19, p. 21).",
-            "pamphlet_page_ref": "p. 19, p. 21",
-            "myth": "Memorizing a one-line definition of Out and Name Symbols without explaining how it works in practice satisfies Orienteering Requirement 4b.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out and Name Symbols (Out and Name Symbols) (p. 19, p. 21)."
+            "misconception": "Estimating Point out and name 10 symbols figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 4b.",
+            "fact": "Accurate Orienteering Requirement 4b (Point out and name 10 symbols) analysis requires contemporaneous data logging and verified measurements: Amore accurate way of aligning the map and terrain.",
+            "fact_correction": "Accurate Orienteering Requirement 4b (Point out and name 10 symbols) analysis requires contemporaneous data logging and verified measurements: Amore accurate way of aligning the map and terrain.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
+            "myth": "Estimating Point out and name 10 symbols figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 4b.",
+            "correction": "Accurate Orienteering Requirement 4b (Point out and name 10 symbols) analysis requires contemporaneous data logging and verified measurements: Amore accurate way of aligning the map and terrain."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -858,16 +853,17 @@
             "rows": [
               "1. Explain the meaning of declination.",
               "2. Tell why you must consider declination when using map and compass together."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Declination Tell Why You Must without explaining how it works in practice satisfies Orienteering Requirement 4c.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Declination Tell Why You Must (Declination Tell Why You Must) (p. 19, p. 21).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Declination Tell Why You Must (Declination Tell Why You Must) (p. 19, p. 21).",
-            "pamphlet_page_ref": "p. 19, p. 21",
-            "myth": "Memorizing a one-line definition of Declination Tell Why You Must without explaining how it works in practice satisfies Orienteering Requirement 4c.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Declination Tell Why You Must (Declination Tell Why You Must) (p. 19, p. 21)."
+            "misconception": "Estimating The meaning of declination figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 4c.",
+            "fact": "Accurate Orienteering Requirement 4c (The meaning of declination) analysis requires contemporaneous data logging and verified measurements: First, rotate the compass bezel until Nor 360 degrees.",
+            "fact_correction": "Accurate Orienteering Requirement 4c (The meaning of declination) analysis requires contemporaneous data logging and verified measurements: First, rotate the compass bezel until Nor 360 degrees.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
+            "myth": "Estimating The meaning of declination figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 4c.",
+            "correction": "Accurate Orienteering Requirement 4c (The meaning of declination) analysis requires contemporaneous data logging and verified measurements: First, rotate the compass bezel until Nor 360 degrees."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -921,24 +917,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show a topographic map with magnetic north-south lines.",
-              "2. Key Pamphlet Facts & Mechanism (Topographic Map With Magnetic North-south)",
-              "3. Field Application & Counselor Discussion (Topographic Map With Magnetic North-south)"
+              "1. Show a topographic map with magnetic north-south lines."
             ],
             "rows": [
-              "1. Show a topographic map with magnetic north-south lines.",
-              "2. Key Pamphlet Facts & Mechanism (Topographic Map With Magnetic North-south)",
-              "3. Field Application & Counselor Discussion (Topographic Map With Magnetic North-south)"
-            ]
+              "1. Show a topographic map with magnetic north-south lines."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show A Topographic Map verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4d.",
-            "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show A Topographic Map with proper technique (p. 19, p. 21).",
-            "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show A Topographic Map with proper technique (p. 19, p. 21).",
-            "pamphlet_page_ref": "p. 19, p. 21",
-            "myth": "Describing how to perform Show A Topographic Map verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4d.",
-            "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show A Topographic Map with proper technique (p. 19, p. 21)."
+            "misconception": "Performing A topographic map with magnetic north-south in Orienteering Requirement 4d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Orienteering Requirement 4d (A topographic map with magnetic north-south) depends on precise setup and step-by-step technique: Using a Map and Compass Together Orienting.",
+            "fact_correction": "Hands-on execution of Orienteering Requirement 4d (A topographic map with magnetic north-south) depends on precise setup and step-by-step technique: Using a Map and Compass Together Orienting.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
+            "myth": "Performing A topographic map with magnetic north-south in Orienteering Requirement 4d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Orienteering Requirement 4d (A topographic map with magnetic north-south) depends on precise setup and step-by-step technique: Using a Map and Compass Together Orienting."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -992,24 +985,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to measure distances on a map using an orienteering compass.",
-              "2. Key Pamphlet Facts & Mechanism (Distances Orienteering Compass)",
-              "3. Field Application & Counselor Discussion (Distances Orienteering Compass)"
+              "1. Show how to measure distances on a map using an orienteering compass."
             ],
             "rows": [
-              "1. Show how to measure distances on a map using an orienteering compass.",
-              "2. Key Pamphlet Facts & Mechanism (Distances Orienteering Compass)",
-              "3. Field Application & Counselor Discussion (Distances Orienteering Compass)"
-            ]
+              "1. Show how to measure distances on a map using an orienteering compass."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show How to Measure Distances verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4e.",
-            "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show How to Measure Distances with proper technique (p. 19, p. 21).",
-            "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show How to Measure Distances with proper technique (p. 19, p. 21).",
-            "pamphlet_page_ref": "p. 19, p. 21",
-            "myth": "Describing how to perform Show How to Measure Distances verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4e.",
-            "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show How to Measure Distances with proper technique (p. 19, p. 21)."
+            "misconception": "Performing How to measure distances in Orienteering Requirement 4e without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Orienteering Requirement 4e (How to measure distances) depends on precise setup and step-by-step technique: You cando this visually, but it is easier to make errors.",
+            "fact_correction": "Hands-on execution of Orienteering Requirement 4e (How to measure distances) depends on precise setup and step-by-step technique: You cando this visually, but it is easier to make errors.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
+            "myth": "Performing How to measure distances in Orienteering Requirement 4e without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Orienteering Requirement 4e (How to measure distances) depends on precise setup and step-by-step technique: You cando this visually, but it is easier to make errors."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1063,24 +1053,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to orient a map using a compass.",
-              "2. Key Pamphlet Facts & Mechanism (Orient A Map Using A)",
-              "3. Field Application & Counselor Discussion (Orient A Map Using A)"
+              "1. Show how to orient a map using a compass."
             ],
             "rows": [
-              "1. Show how to orient a map using a compass.",
-              "2. Key Pamphlet Facts & Mechanism (Orient A Map Using A)",
-              "3. Field Application & Counselor Discussion (Orient A Map Using A)"
-            ]
+              "1. Show how to orient a map using a compass."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show How to Orient verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4f.",
-            "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show How to Orient with proper technique (p. 19, p. 21).",
-            "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show How to Orient with proper technique (p. 19, p. 21).",
-            "pamphlet_page_ref": "p. 19, p. 21",
-            "myth": "Describing how to perform Show How to Orient verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4f.",
-            "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show How to Orient with proper technique (p. 19, p. 21)."
+            "misconception": "Performing How to orient a map in Orienteering Requirement 4f without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Orienteering Requirement 4f (How to orient a map) depends on precise setup and step-by-step technique: Amore accurate way of aligning the map and terrain is to use acompass.",
+            "fact_correction": "Hands-on execution of Orienteering Requirement 4f (How to orient a map) depends on precise setup and step-by-step technique: Amore accurate way of aligning the map and terrain is to use acompass.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
+            "myth": "Performing How to orient a map in Orienteering Requirement 4f without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Orienteering Requirement 4f (How to orient a map) depends on precise setup and step-by-step technique: Amore accurate way of aligning the map and terrain is to use acompass."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1154,29 +1141,30 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "(4a) Topographic Map Shows Terrain Features",
-          "(4b) Out and Name Symbols",
-          "(4c) Declination Tell Why You Must",
-          "(4d) Topographic Map With Magnetic North-south",
-          "(4e) Distances Orienteering Compass",
-          "(4f) Orient A Map Using A"
+          "1. (4a) Topographic Map Shows Terrain Features",
+          "2. (4b) Out and Name Symbols",
+          "3. (4c) Declination Tell Why You Must",
+          "4. (4d) Topographic Map With Magnetic North-south",
+          "5. (4e) Distances Orienteering Compass",
+          "6. (4f) Orient A Map Using A"
         ],
         "rows": [
-          "(4a) Topographic Map Shows Terrain Features",
-          "(4b) Out and Name Symbols",
-          "(4c) Declination Tell Why You Must",
-          "(4d) Topographic Map With Magnetic North-south",
-          "(4e) Distances Orienteering Compass",
-          "(4f) Orient A Map Using A"
-        ]
+          "1. (4a) Topographic Map Shows Terrain Features",
+          "2. (4b) Out and Name Symbols",
+          "3. (4c) Declination Tell Why You Must",
+          "4. (4d) Topographic Map With Magnetic North-south",
+          "5. (4e) Distances Orienteering Compass",
+          "6. (4f) Orient A Map Using A"
+        ],
+        "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "Describing how to perform A topographic map shows terrain features verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4.",
-        "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A topographic map shows terrain features with proper technique (p. 19, p. 21).",
-        "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A topographic map shows terrain features with proper technique (p. 19, p. 21).",
-        "pamphlet_page_ref": "p. 19, p. 21",
-        "myth": "Describing how to perform A topographic map shows terrain features verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 4.",
-        "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A topographic map shows terrain features with proper technique (p. 19, p. 21)."
+        "misconception": "Performing A topographic map shows terrain features in Orienteering Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+        "fact_correction": "Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
+        "myth": "Performing A topographic map shows terrain features in Orienteering Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1203,13 +1191,13 @@
         "A topographic map shows terrain features: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19).",
         "A topographic map shows terrain features Principle 2: You cando this visually, but it is easier to make errors that way (p. 19).",
         "A topographic map shows terrain features Principle 3: Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
-        "A topographic map shows terrain features Principle 4: First, rotate the compass bezel until Nor 360 degreesis lined up with the direction-of-travel arrow (p. 19)."
+        "A topographic map shows terrain features Principle 4: First, rotate the compass bezel until Nor 360 degrees is lined up with the direction-of-travel arrow (p. 19)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (A topographic map shows terrain features): Next, set thecompass down on the map, with the compass edge along one of the north-south magnetic lines and the direction-of-travelarrow pointing (p. 19).",
-        "Step 2 (A topographic map shows terrain features): Rotate the map and the compass together until the compass needle matches the direction-of-travelarrow (p. 19).",
+        "Step 1 (A topographic map shows terrain features): Next, set the compass down on the map, with the compass edge along one of the north-south magnetic lines and the direction-of-travel arrow pointing (p. 19).",
+        "Step 2 (A topographic map shows terrain features): Rotate the map and the compass together until the compass needle matches the direction-of-travel arrow (p. 19).",
         "Step 3 (A topographic map shows terrain features): Check the terrain around you to ensure that it matches what you see on the map (p. 19).",
-        "Step 4 (A topographic map shows terrain features): You cando this almost constantly while on a course andeven when moving (p. 19)."
+        "Step 4 (A topographic map shows terrain features): You cando this almost constantly while on a course and even when moving (p. 19)."
       ],
       "gear_checklist": [
         "Official Orienteering Merit Badge Pamphlet and Fillable Workbook (open to Req 4: A topographic map shows terrain features)",
@@ -1252,7 +1240,7 @@
         "title": "Exemplar Skill Station Walkthrough: Orienteering Req 4 (A topographic map shows terrain features)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for A topographic map shows terrain features.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for A topographic map shows terrain features.",
           "Step-by-Step Execution": "A topographic map shows terrain features: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19).",
           "Quality & Tolerance Check": "A topographic map shows terrain features Principle 2: You cando this visually, but it is easier to make errors that way (p. 19).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21))"
@@ -1261,29 +1249,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Orienteering Requirement 4 (Topographic Map Shows Terrain Features), what execution standard is required when demonstrating Explain how a topographic map shows terrain features. Point out and name fi?",
-        "question": "During the hands-on skill station for Orienteering Requirement 4 (Topographic Map Shows Terrain Features), what execution standard is required when demonstrating Explain how a topographic map shows terrain features. Point out and name fi?",
+        "scenario_prompt": "When working on Orienteering Requirement 4 (A topographic map shows terrain features), which principle and field standard is established in the Orienteering Merit Badge Pamphlet?",
+        "question": "When working on Orienteering Requirement 4 (A topographic map shows terrain features), which principle and field standard is established in the Orienteering Merit Badge Pamphlet?",
         "options": [
-          "A. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-          "B. Describing how to perform A topographic map shows terrain features verbally can substitute for a physical hands-on demonstration in.",
-          "C. Focus only on Explain how a topographic map shows terrain features. P while omitting Point out and name 10 symbols on a topographic map and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Topographic Map Shows Terrain Features."
+          "A. Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+          "B. Performing A topographic map shows terrain features in Orienteering Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7."
         ],
         "choices": [
-          "A. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-          "B. Describing how to perform A topographic map shows terrain features verbally can substitute for a physical hands-on demonstration in.",
-          "C. Focus only on Explain how a topographic map shows terrain features. P while omitting Point out and name 10 symbols on a topographic map and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Topographic Map Shows Terrain Features."
+          "A. Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+          "B. Performing A topographic map shows terrain features in Orienteering Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "D. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-        "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A topographic map shows terrain features with proper technique. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)).",
-        "pamphlet_page_ref": "p. 19, p. 21"
+        "correct_answer": "A. Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+        "explanation": "Correct Answer (A): Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p021_img1.png"
     },
     {
       "req_id": "5",
@@ -1336,15 +1324,16 @@
           "1. Set up a 100-meter pace course.",
           "2. Determine your walking and running pace for 100 meters.",
           "3. Tell why it is important to pace-count."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of 100-meter Pace Course Determine Your without explaining how it works in practice satisfies Orienteering Requirement 5.",
-        "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 100-meter Pace Course Determine Your (100-meter Pace Course Determine Your) (p. 26, p. 27).",
-        "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 100-meter Pace Course Determine Your (100-meter Pace Course Determine Your) (p. 26, p. 27).",
-        "pamphlet_page_ref": "p. 26, p. 27",
-        "myth": "Memorizing a one-line definition of 100-meter Pace Course Determine Your without explaining how it works in practice satisfies Orienteering Requirement 5.",
-        "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 100-meter Pace Course Determine Your (100-meter Pace Course Determine Your) (p. 26, p. 27)."
+        "misconception": "Assuming Set up a 100-meter pace course in Orienteering Requirement 5 operates identically across all environmental and technical conditions.",
+        "fact": "Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+        "fact_correction": "Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)",
+        "myth": "Assuming Set up a 100-meter pace course in Orienteering Requirement 5 operates identically across all environmental and technical conditions.",
+        "correction": "Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1368,15 +1357,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Set up a 100-meter pace course: Every timeorienteers switch from walking torunning or thereverse, they mustmentally adjust the pace and timeas well (p. 26).",
-        "Set up a 100-meter pace course Principle 2: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces andrecording the time it takes you to reach (p. 26).",
+        "Set up a 100-meter pace course: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
+        "Set up a 100-meter pace course Principle 2: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time it takes you to reach (p. 26).",
         "Set up a 100-meter pace course Principle 3: This is your walking pace and time per 100 meters (p. 26).",
-        "Set up a 100-meter pace course Principle 4: You will get a moreaccurate measure if you walk the course two or more times and then divide the total paces and minutes by the totalmeters walked (p. 26)."
+        "Set up a 100-meter pace course Principle 4: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Set up a 100-meter pace course): This is particularly important if the courseis on uneven ground (p. 26).",
+        "Step 1 (Set up a 100-meter pace course): This is particularly important if the course is on uneven ground (p. 26).",
         "Step 2 (Set up a 100-meter pace course): Judging Distance on the Ground Running Pace/Time Foot speed is important in orienteering, especially for competitiveorienteering (p. 26).",
-        "Step 3 (Set up a 100-meter pace course): As your stride lengthens, the distance you coverincreases (p. 26).",
+        "Step 3 (Set up a 100-meter pace course): As your stride lengthens, the distance you cover increases (p. 26).",
         "Step 4 (Set up a 100-meter pace course): So the number of paces per 100 meters will decrease, as will the time it takes you to cover that distance (p. 26)."
       ],
       "gear_checklist": [
@@ -1420,8 +1409,8 @@
         "title": "Exemplar Technical Analysis: Orienteering Req 5 (Set up a 100-meter pace course)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Set up a 100-meter pace course: Every timeorienteers switch from walking torunning or thereverse, they mustmentally adjust the pace and timeas well (p. 26).",
-          "Applied Field Mechanism": "Set up a 100-meter pace course Principle 2: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces andrecording the time.",
+          "Core Technical Principle": "Set up a 100-meter pace course: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
+          "Applied Field Mechanism": "Set up a 100-meter pace course Principle 2: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time.",
           "Real-World Case Example": "Concrete application of Set up a 100-meter pace course documented during Orienteering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)."
         },
@@ -1429,29 +1418,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Orienteering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (100-meter Pace Course Determine Your: Set up a 100-meter pace course)?",
-        "question": "How does the Orienteering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (100-meter Pace Course Determine Your: Set up a 100-meter pace course)?",
+        "scenario_prompt": "During your patrol's preparation and review for Orienteering Requirement 5 (Set up a 100-meter pace course), which statement accurately reflects the official Orienteering Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Orienteering Requirement 5 (Set up a 100-meter pace course), which statement accurately reflects the official Orienteering Merit Badge Pamphlet?",
         "options": [
-          "A. Memorizing a one-line definition of 100-meter Pace Course Determine Your without explaining how it works in practice satisfies.",
-          "B. Reverse the sequence of 100-meter Pace Course Determine Your steps by attempting final sign-off before completing Set up a 100-meter pace course.",
-          "C. Complete only a single sub-part of Requirement 5 rather than fulfilling the full 100-meter Pace Course Determine Your standard.",
-          "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+          "A. Assuming Set up a 100-meter pace course in Orienteering Requirement 5 operates identically across all environmental and technical conditions.",
+          "B. Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+          "C. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+          "D. Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of 100-meter Pace Course Determine Your without explaining how it works in practice satisfies.",
-          "B. Reverse the sequence of 100-meter Pace Course Determine Your steps by attempting final sign-off before completing Set up a 100-meter pace course.",
-          "C. Complete only a single sub-part of Requirement 5 rather than fulfilling the full 100-meter Pace Course Determine Your standard.",
-          "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+          "A. Assuming Set up a 100-meter pace course in Orienteering Requirement 5 operates identically across all environmental and technical conditions.",
+          "B. Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+          "C. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+          "D. Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (D): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 100-meter Pace Course Determine Your (100-meter Pace Course Determine Your). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)).",
-        "pamphlet_page_ref": "p. 26, p. 27"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+        "explanation": "Correct Answer (B): Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p026_img1.png"
     },
     {
       "req_id": "6",
@@ -1492,16 +1481,17 @@
             "rows": [
               "1. Identify 20 international control description symbols.",
               "2. Tell the meaning of each symbol."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of International Control Description Symbols without explaining how it works in practice satisfies Orienteering Requirement 6a.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of International Control Description Symbols (International Control Description Symbols) (p. 38, p. 42).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of International Control Description Symbols (International Control Description Symbols) (p. 38, p. 42).",
-            "pamphlet_page_ref": "p. 38, p. 42",
-            "myth": "Memorizing a one-line definition of International Control Description Symbols without explaining how it works in practice satisfies Orienteering Requirement 6a.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of International Control Description Symbols (International Control Description Symbols) (p. 38, p. 42)."
+            "misconception": "Treating the technical factors of 20 international control description symbols in Orienteering Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Orienteering Requirement 6a (20 international control description symbols), each principle directly governs real-world performance: Keep a clear mental picture of the terrain that you.",
+            "fact_correction": "In Orienteering Requirement 6a (20 international control description symbols), each principle directly governs real-world performance: Keep a clear mental picture of the terrain that you.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
+            "myth": "Treating the technical factors of 20 international control description symbols in Orienteering Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Orienteering Requirement 6a (20 international control description symbols), each principle directly governs real-world performance: Keep a clear mental picture of the terrain that you."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1532,7 +1522,7 @@
           "pamphlet_excerpts": [
             "International Control Description Symbols: 20 international control description symbols Principle 4: Keep a clear mental picture of the terrain that you will passthrough (p. 38)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png"
         },
         {
           "sub_id": "6b",
@@ -1560,24 +1550,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show a control description sheet and explain the information provided.",
-              "2. Key Pamphlet Facts & Mechanism (Control Description Sheet)",
-              "3. Field Application & Counselor Discussion (Control Description Sheet)"
+              "1. Show a control description sheet and explain the information provided."
             ],
             "rows": [
-              "1. Show a control description sheet and explain the information provided.",
-              "2. Key Pamphlet Facts & Mechanism (Control Description Sheet)",
-              "3. Field Application & Counselor Discussion (Control Description Sheet)"
-            ]
+              "1. Show a control description sheet and explain the information provided."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Show A Control Description Sheet verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 6b.",
-            "fact": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show A Control Description Sheet with proper technique (p. 38, p. 42).",
-            "fact_correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show A Control Description Sheet with proper technique (p. 38, p. 42).",
-            "pamphlet_page_ref": "p. 38, p. 42",
-            "myth": "Describing how to perform Show A Control Description Sheet verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 6b.",
-            "correction": "Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate Show A Control Description Sheet with proper technique (p. 38, p. 42)."
+            "misconception": "Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Orienteering Requirement 6b (A control description sheet) depends on precise setup and step-by-step technique: If you arrive at the linear feature and do not see.",
+            "fact_correction": "Hands-on execution of Orienteering Requirement 6b (A control description sheet) depends on precise setup and step-by-step technique: If you arrive at the linear feature and do not see.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
+            "myth": "Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Orienteering Requirement 6b (A control description sheet) depends on precise setup and step-by-step technique: If you arrive at the linear feature and do not see."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1636,24 +1623,21 @@
               "Comparison Concept / System B"
             ],
             "row_labels": [
-              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off,...",
-              "2. Key Pamphlet Facts & Mechanism (You Would Use Them Attack)",
-              "3. Field Application & Counselor Discussion (You Would Use Them Attack)"
+              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off,..."
             ],
             "rows": [
-              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off,...",
-              "2. Key Pamphlet Facts & Mechanism (You Would Use Them Attack)",
-              "3. Field Application & Counselor Discussion (You Would Use Them Attack)"
-            ]
+              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off,..."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
-            "misconception": "All concepts or systems compared under You Would Use Them Attack in Orienteering behave identically regardless of operating conditions.",
-            "fact": "Each system or condition in You Would Use Them Attack has distinct physical mechanisms, operating limits, and field indicators defined in the Orienteering pamphlet (p. 38, p. 42).",
-            "fact_correction": "Each system or condition in You Would Use Them Attack has distinct physical mechanisms, operating limits, and field indicators defined in the Orienteering pamphlet (p. 38, p. 42).",
-            "pamphlet_page_ref": "p. 38, p. 42",
-            "myth": "All concepts or systems compared under You Would Use Them Attack in Orienteering behave identically regardless of operating conditions.",
-            "correction": "Each system or condition in You Would Use Them Attack has distinct physical mechanisms, operating limits, and field indicators defined in the Orienteering pamphlet (p. 38, p. 42)."
+            "misconception": "Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "fact": "For Orienteering Requirement 6c (And tell when you would use), Scouts obtain advance approval, prepare structured field questions.",
+            "fact_correction": "For Orienteering Requirement 6c (And tell when you would use), Scouts obtain advance approval, prepare structured field questions.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
+            "myth": "Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+            "correction": "For Orienteering Requirement 6c (And tell when you would use), Scouts obtain advance approval, prepare structured field questions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1731,23 +1715,24 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(6a) International Control Description Symbols",
-          "(6b) Control Description Sheet",
-          "(6c) You Would Use Them Attack"
+          "1. (6a) International Control Description Symbols",
+          "2. (6b) Control Description Sheet",
+          "3. (6c) You Would Use Them Attack"
         ],
         "rows": [
-          "(6a) International Control Description Symbols",
-          "(6b) Control Description Sheet",
-          "(6c) You Would Use Them Attack"
-        ]
+          "1. (6a) International Control Description Symbols",
+          "2. (6b) Control Description Sheet",
+          "3. (6c) You Would Use Them Attack"
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "All concepts or systems compared under International Control Description Symbols in Orienteering behave identically regardless of operating conditions.",
-        "fact": "Each system or condition in International Control Description Symbols has distinct physical mechanisms, operating limits, and field indicators defined in the Orienteering pamphlet (p. 38, p. 42).",
-        "fact_correction": "Each system or condition in International Control Description Symbols has distinct physical mechanisms, operating limits, and field indicators defined in the Orienteering pamphlet (p. 38, p. 42).",
-        "pamphlet_page_ref": "p. 38, p. 42",
-        "myth": "All concepts or systems compared under International Control Description Symbols in Orienteering behave identically regardless of operating conditions.",
-        "correction": "Each system or condition in International Control Description Symbols has distinct physical mechanisms, operating limits, and field indicators defined in the Orienteering pamphlet (p. 38, p. 42)."
+        "misconception": "Performing 20 international control description symbols in Orienteering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Orienteering Requirement 6 (20 international control description symbols) depends on precise setup and step-by-step technique: Keep a clear mental picture of the terrain.",
+        "fact_correction": "Hands-on execution of Orienteering Requirement 6 (20 international control description symbols) depends on precise setup and step-by-step technique: Keep a clear mental picture of the terrain.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
+        "myth": "Performing 20 international control description symbols in Orienteering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Orienteering Requirement 6 (20 international control description symbols) depends on precise setup and step-by-step technique: Keep a clear mental picture of the terrain."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1771,14 +1756,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "20 international control description symbols: If you arriveat the linear feature and do not see the control, you will thenknow which way to turn to find (p. 38).",
-        "20 international control description symbols Principle 2: In this map, it would be easy to reach the road and not besure what direction the control lies (p. 38).",
-        "20 international control description symbols Principle 3: To prevent this, you can deliberately aim a few meters south of the control so youknow to turn north when you get to the road (p. 38).",
-        "20 international control description symbols Principle 4: Keep a clear mental picture of the terrain that you will passthrough (p. 38)."
+        "20 international control description symbols: If you arrive at the linear feature and do not see the control, you will then know which way to turn to find (p. 38).",
+        "20 international control description symbols Principle 2: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38).",
+        "20 international control description symbols Principle 3: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north when you get to the road (p. 38).",
+        "20 international control description symbols Principle 4: Keep a clear mental picture of the terrain that you will pass through (p. 38)."
       ],
       "step_by_step_procedure": [
         "Step 1 (20 international control description symbols): Read the map every few seconds, think beyond your location, and plan ahead (p. 38).",
-        "Step 2 (20 international control description symbols): The best way to practice readingahead is to take time at the beginning of the course and aftereach control to make sure you understand (p. 38).",
+        "Step 2 (20 international control description symbols): The best way to practice reading ahead is to take time at the beginning of the course and after each control to make sure you understand (p. 38).",
         "Step 3 (20 international control description symbols): It is just as important to keep oriented every moment while you are traveling and to keep an eye on what lies ahead (p. 38).",
         "Step 4 (20 international control description symbols): The search for the next control point in an orienteering problem often can be divided into two distinct phases: the roughorienteering phase (p. 38)."
       ],
@@ -1823,38 +1808,38 @@
         "title": "Exemplar Skill Station Walkthrough: Orienteering Req 6 (20 international control description symbols)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for 20 international control description symbols.",
-          "Step-by-Step Execution": "20 international control description symbols: If you arriveat the linear feature and do not see the control, you will thenknow which way to turn to find (p. 38).",
-          "Quality & Tolerance Check": "20 international control description symbols Principle 2: In this map, it would be easy to reach the road and not besure what direction the control lies (p. 38).",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for 20 international control description symbols.",
+          "Step-by-Step Execution": "20 international control description symbols: If you arrive at the linear feature and do not see the control, you will then know which way to turn to find (p. 38).",
+          "Quality & Tolerance Check": "20 international control description symbols Principle 2: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42))"
         },
         "sample_output": "20 international control description symbols: 20 international control description symbols: If you arriveat the linear feature and do not see the control, you will thenknow which way to ",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)."
       },
       "quiz_item": {
-        "scenario_prompt": "In Orienteering Requirement 6 (International Control Description Symbols), how should a Scout accurately distinguish and explain the key technical differences (Identify 20 international control description symbols. Tell the meaning of )?",
-        "question": "In Orienteering Requirement 6 (International Control Description Symbols), how should a Scout accurately distinguish and explain the key technical differences (Identify 20 international control description symbols. Tell the meaning of )?",
+        "scenario_prompt": "In Orienteering Requirement 6 (20 international control description symbols), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
+        "question": "In Orienteering Requirement 6 (20 international control description symbols), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
         "options": [
-          "A. All concepts or systems compared under International Control Description Symbols in Orienteering behave identically regardless of.",
-          "B. Each system or condition in International Control Description Symbols has distinct physical mechanisms, operating limits, and field.",
-          "C. Rely on a group summary of International Control Description Symbols instead of individually explaining or demonstrating Identify 20 international control description symbols. Tell .",
-          "D. Assume International Control Description Symbols applies only to indoor classroom theory and has no effect on real-world Orienteering practice."
+          "A. Performing 20 international control description symbols in Orienteering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions.",
+          "C. Hands-on execution of Orienteering Requirement 6 (20 international control description symbols) depends on precise setup and step-by-step technique: Keep a clear mental picture of the terrain.",
+          "D. Estimating After each event, write a report figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7b."
         ],
         "choices": [
-          "A. All concepts or systems compared under International Control Description Symbols in Orienteering behave identically regardless of.",
-          "B. Each system or condition in International Control Description Symbols has distinct physical mechanisms, operating limits, and field.",
-          "C. Rely on a group summary of International Control Description Symbols instead of individually explaining or demonstrating Identify 20 international control description symbols. Tell .",
-          "D. Assume International Control Description Symbols applies only to indoor classroom theory and has no effect on real-world Orienteering practice."
+          "A. Performing 20 international control description symbols in Orienteering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions.",
+          "C. Hands-on execution of Orienteering Requirement 6 (20 international control description symbols) depends on precise setup and step-by-step technique: Keep a clear mental picture of the terrain.",
+          "D. Estimating After each event, write a report figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7b."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Each system or condition in International Control Description Symbols has distinct physical mechanisms, operating limits, and field.",
-        "explanation": "Correct Answer (B): Each system or condition in International Control Description Symbols has distinct physical mechanisms, operating limits, and field indicators defined in the Orienteering pamphlet. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)).",
-        "pamphlet_page_ref": "p. 38, p. 42"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Hands-on execution of Orienteering Requirement 6 (20 international control description symbols) depends on precise setup and step-by-step technique: Keep a clear mental picture of the terrain.",
+        "explanation": "Correct Answer (C): Hands-on execution of Orienteering Requirement 6 (20 international control description symbols) depends on precise setup and step-by-step technique: Keep a clear mental picture of the terrain. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png"
     },
     {
       "req_id": "7",
@@ -1894,16 +1879,17 @@
               "2. One of these must be a cross-country course.",
               "3. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy...",
               "4. Requirement 7(a) can be completed by pairs or groups of Scouts."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Orienteering Events without explaining how it works in practice satisfies Orienteering Requirement 7a.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Orienteering Events (Orienteering Events) (p. 30, p. 56).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Orienteering Events (Orienteering Events) (p. 30, p. 56).",
-            "pamphlet_page_ref": "p. 30, p. 56",
-            "myth": "Memorizing a one-line definition of Orienteering Events without explaining how it works in practice satisfies Orienteering Requirement 7a.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Orienteering Events (Orienteering Events) (p. 30, p. 56)."
+            "misconception": "Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions.",
+            "fact": "Creating a map from scratch requires a little preliminary scouting of the area.",
+            "fact_correction": "Creating a map from scratch requires a little preliminary scouting of the area.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
+            "myth": "Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions.",
+            "correction": "Creating a map from scratch requires a little preliminary scouting of the area."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1934,7 +1920,7 @@
           "pamphlet_excerpts": [
             "Part in Three Orienteering Events: Take part in three orienteering events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p028_img1.png"
         },
         {
           "sub_id": "7b",
@@ -1967,16 +1953,17 @@
               "2. (2) a copy of the route you took on the course,",
               "3. (3) a discussion of how you could improve your time between control points, and",
               "4. (4) a list of your major weaknesses on this course. Describe what you could do to improve."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Event Copy Master Control without explaining how it works in practice satisfies Orienteering Requirement 7b.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Event Copy Master Control (Event Copy Master Control) (p. 30, p. 56).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Event Copy Master Control (Event Copy Master Control) (p. 30, p. 56).",
-            "pamphlet_page_ref": "p. 30, p. 56",
-            "myth": "Memorizing a one-line definition of Event Copy Master Control without explaining how it works in practice satisfies Orienteering Requirement 7b.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Event Copy Master Control (Event Copy Master Control) (p. 30, p. 56)."
+            "misconception": "Estimating After each event, write a report figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7b.",
+            "fact": "Accurate Orienteering Requirement 7b (After each event, write a report) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize.",
+            "fact_correction": "Accurate Orienteering Requirement 7b (After each event, write a report) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
+            "myth": "Estimating After each event, write a report figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7b.",
+            "correction": "Accurate Orienteering Requirement 7b (After each event, write a report) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2041,21 +2028,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(7a) Orienteering Events",
-          "(7b) Event Copy Master Control"
+          "1. (7a) Orienteering Events",
+          "2. (7b) Event Copy Master Control"
         ],
         "rows": [
-          "(7a) Orienteering Events",
-          "(7b) Event Copy Master Control"
-        ]
+          "1. (7a) Orienteering Events",
+          "2. (7b) Event Copy Master Control"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Orienteering Events without explaining how it works in practice satisfies Orienteering Requirement 7.",
-        "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Orienteering Events (Orienteering Events) (p. 30, p. 56).",
-        "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Orienteering Events (Orienteering Events) (p. 30, p. 56).",
-        "pamphlet_page_ref": "p. 30, p. 56",
-        "myth": "Memorizing a one-line definition of Orienteering Events without explaining how it works in practice satisfies Orienteering Requirement 7.",
-        "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Orienteering Events (Orienteering Events) (p. 30, p. 56)."
+        "misconception": "Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+        "fact": "Accurate Orienteering Requirement 7 (Take part in three orienteering events) analysis requires contemporaneous data logging and verified measurements: Creating a map from scratch requires.",
+        "fact_correction": "Accurate Orienteering Requirement 7 (Take part in three orienteering events) analysis requires contemporaneous data logging and verified measurements: Creating a map from scratch requires.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
+        "myth": "Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+        "correction": "Accurate Orienteering Requirement 7 (Take part in three orienteering events) analysis requires contemporaneous data logging and verified measurements: Creating a map from scratch requires."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2079,16 +2067,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Orienteering Events: Take part in three orienteering events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
-        "Orienteering Events Principle 2: Take part in three orienteering events Principle 2: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
+        "Orienteering Events: Take part in three orienteering events: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
+        "Orienteering Events Principle 2: Take part in three orienteering events Principle 2: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
         "Orienteering Events Principle 3: Take part in three orienteering events Principle 3: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
-        "Orienteering Events Principle 4: Take part in three orienteering events Principle 4: This will begin to giveyou ideas about how and where you can lay out the course (p. 30)."
+        "Orienteering Events Principle 4: Take part in three orienteering events Principle 4: This will begin to give you ideas about how and where you can lay out the course (p. 30)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Orienteering Events): Step 1 (Take part in three orienteering events): Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30).",
-        "Step 2 (Orienteering Events): Step 2 (Take part in three orienteering events): You willmodify and fine-tune this working model of your course when you return to map the area (p. 30).",
+        "Step 2 (Orienteering Events): Step 2 (Take part in three orienteering events): You will modify and fine-tune this working model of your course when you return to map the area (p. 30).",
         "Step 3 (Orienteering Events): Step 3 (Take part in three orienteering events): Unless you plan your course, you will waste time mapping areas that the course does not use (p. 30).",
-        "Step 4 (Orienteering Events): Step 4 (Take part in three orienteering events): This little bit of planning allows you to show up at thestart point, ready to map (p. 30)."
+        "Step 4 (Orienteering Events): Step 4 (Take part in three orienteering events): This little bit of planning allows you to show up at the start point, ready to map (p. 30)."
       ],
       "gear_checklist": [
         "Official Orienteering Merit Badge Pamphlet and Fillable Workbook (open to Req 7: Orienteering Events)",
@@ -2131,8 +2119,8 @@
         "title": "Exemplar Technical Analysis: Orienteering Req 7 (Orienteering Events)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Orienteering Events: Take part in three orienteering events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
-          "Applied Field Mechanism": "Orienteering Events Principle 2: Take part in three orienteering events Principle 2: Take a half-day to thoroughly familiarizeyourself with things such as the terra.",
+          "Core Technical Principle": "Orienteering Events: Take part in three orienteering events: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
+          "Applied Field Mechanism": "Orienteering Events Principle 2: Take part in three orienteering events Principle 2: Take a half-day to thoroughly familiarize yourself with things such as the terra.",
           "Real-World Case Example": "Concrete application of Orienteering Events documented during Orienteering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)."
         },
@@ -2140,29 +2128,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Orienteering Requirement 7 (Orienteering Events), which statement accurately reflects the official BSA standard for Take part in three orienteering events. One of these must be a cross-countr?",
-        "question": "When preparing for your counselor conference on Orienteering Requirement 7 (Orienteering Events), which statement accurately reflects the official BSA standard for Take part in three orienteering events. One of these must be a cross-countr?",
+        "scenario_prompt": "When demonstrating and explaining Take part in three orienteering events for Orienteering Requirement 7, which approach follows the verified Orienteering Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining Take part in three orienteering events for Orienteering Requirement 7, which approach follows the verified Orienteering Merit Badge Pamphlet standard?",
         "options": [
-          "A. Memorizing a one-line definition of Orienteering Events without explaining how it works in practice satisfies Orienteering.",
-          "B. Reverse the sequence of Orienteering Events steps by attempting final sign-off before completing Take part in three orienteering events. One of these must be.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Orienteering Events.",
-          "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+          "A. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+          "B. Estimating After each event, write a report figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7b.",
+          "C. Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8.",
+          "D. Accurate Orienteering Requirement 7 (Take part in three orienteering events) analysis requires contemporaneous data logging and verified measurements: Creating a map from scratch requires."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Orienteering Events without explaining how it works in practice satisfies Orienteering.",
-          "B. Reverse the sequence of Orienteering Events steps by attempting final sign-off before completing Take part in three orienteering events. One of these must be.",
-          "C. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Orienteering Events.",
-          "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+          "A. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+          "B. Estimating After each event, write a report figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7b.",
+          "C. Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8.",
+          "D. Accurate Orienteering Requirement 7 (Take part in three orienteering events) analysis requires contemporaneous data logging and verified measurements: Creating a map from scratch requires."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (D): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Orienteering Events (Orienteering Events). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)).",
-        "pamphlet_page_ref": "p. 30, p. 56"
+        "correct_answer": "D. Accurate Orienteering Requirement 7 (Take part in three orienteering events) analysis requires contemporaneous data logging and verified measurements: Creating a map from scratch requires.",
+        "explanation": "Correct Answer (D): Accurate Orienteering Requirement 7 (Take part in three orienteering events) analysis requires contemporaneous data logging and verified measurements: Creating a map from scratch requires. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p028_img1.png"
     },
     {
       "req_id": "8",
@@ -2198,16 +2186,17 @@
             "rows": [
               "1. Set up a cross-country course that is at least 2,000 meters long with at least five control markers.",
               "2. Prepare the master map and control description sheet."
-            ]
+            ],
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Cross-country Course without explaining how it works in practice satisfies Orienteering Requirement 8a.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cross-country Course (Cross-country Course) (p. 30, p. 56).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cross-country Course (Cross-country Course) (p. 30, p. 56).",
-            "pamphlet_page_ref": "p. 30, p. 56",
-            "myth": "Memorizing a one-line definition of Cross-country Course without explaining how it works in practice satisfies Orienteering Requirement 8a.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cross-country Course (Cross-country Course) (p. 30, p. 56)."
+            "misconception": "Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement.",
+            "fact": "Accurate Orienteering Requirement 8a (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself.",
+            "fact_correction": "Accurate Orienteering Requirement 8a (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
+            "myth": "Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement.",
+            "correction": "Accurate Orienteering Requirement 8a (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2238,7 +2227,7 @@
           "pamphlet_excerpts": [
             "Set up a cross-country course Principle 2: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p027_img1.png"
         },
         {
           "sub_id": "8b",
@@ -2274,16 +2263,17 @@
               "1. Set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes.",
               "2. Set point values for each control.",
               "3. Prepare the master map and control description sheet."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Score Orienteering Course without explaining how it works in practice satisfies Orienteering Requirement 8b.",
-            "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Score Orienteering Course (Score Orienteering Course) (p. 30, p. 56).",
-            "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Score Orienteering Course (Score Orienteering Course) (p. 30, p. 56).",
-            "pamphlet_page_ref": "p. 30, p. 56",
-            "myth": "Memorizing a one-line definition of Score Orienteering Course without explaining how it works in practice satisfies Orienteering Requirement 8b.",
-            "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Score Orienteering Course (Score Orienteering Course) (p. 30, p. 56)."
+            "misconception": "Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b.",
+            "fact": "Accurate Orienteering Requirement 8b (Set up a score orienteering course) analysis requires contemporaneous data logging and verified measurements: Take a small notebook along to record.",
+            "fact_correction": "Accurate Orienteering Requirement 8b (Set up a score orienteering course) analysis requires contemporaneous data logging and verified measurements: Take a small notebook along to record.",
+            "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
+            "myth": "Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b.",
+            "correction": "Accurate Orienteering Requirement 8b (Set up a score orienteering course) analysis requires contemporaneous data logging and verified measurements: Take a small notebook along to record."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2353,21 +2343,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(8a) Cross-country Course",
-          "(8b) Score Orienteering Course"
+          "1. (8a) Cross-country Course",
+          "2. (8b) Score Orienteering Course"
         ],
         "rows": [
-          "(8a) Cross-country Course",
-          "(8b) Score Orienteering Course"
-        ]
+          "1. (8a) Cross-country Course",
+          "2. (8b) Score Orienteering Course"
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Cross-country Course without explaining how it works in practice satisfies Orienteering Requirement 8.",
-        "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cross-country Course (Cross-country Course) (p. 30, p. 56).",
-        "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cross-country Course (Cross-country Course) (p. 30, p. 56).",
-        "pamphlet_page_ref": "p. 30, p. 56",
-        "myth": "Memorizing a one-line definition of Cross-country Course without explaining how it works in practice satisfies Orienteering Requirement 8.",
-        "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cross-country Course (Cross-country Course) (p. 30, p. 56)."
+        "misconception": "Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8.",
+        "fact": "Accurate Orienteering Requirement 8 (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself.",
+        "fact_correction": "Accurate Orienteering Requirement 8 (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
+        "myth": "Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8.",
+        "correction": "Accurate Orienteering Requirement 8 (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2391,16 +2382,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Set up a cross-country course: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
-        "Set up a cross-country course Principle 2: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
+        "Set up a cross-country course: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
+        "Set up a cross-country course Principle 2: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
         "Set up a cross-country course Principle 3: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
-        "Set up a cross-country course Principle 4: This will begin to giveyou ideas about how and where you can lay out the course (p. 30)."
+        "Set up a cross-country course Principle 4: This will begin to give you ideas about how and where you can lay out the course (p. 30)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Set up a cross-country course): Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30).",
-        "Step 2 (Set up a cross-country course): You willmodify and fine-tune this working model of your course when you return to map the area (p. 30).",
+        "Step 2 (Set up a cross-country course): You will modify and fine-tune this working model of your course when you return to map the area (p. 30).",
         "Step 3 (Set up a cross-country course): Unless you plan your course, you will waste time mapping areas that the course does not use (p. 30).",
-        "Step 4 (Set up a cross-country course): This little bit of planning allows you to show up at thestart point, ready to map (p. 30)."
+        "Step 4 (Set up a cross-country course): This little bit of planning allows you to show up at the start point, ready to map (p. 30)."
       ],
       "gear_checklist": [
         "Official Orienteering Merit Badge Pamphlet and Fillable Workbook (open to Req 8: Set up a cross-country course)",
@@ -2443,8 +2434,8 @@
         "title": "Exemplar Technical Analysis: Orienteering Req 8 (Set up a cross-country course)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Set up a cross-country course: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
-          "Applied Field Mechanism": "Set up a cross-country course Principle 2: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards.",
+          "Core Technical Principle": "Set up a cross-country course: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
+          "Applied Field Mechanism": "Set up a cross-country course Principle 2: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards.",
           "Real-World Case Example": "Concrete application of Set up a cross-country course documented during Orienteering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)."
         },
@@ -2452,29 +2443,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Orienteering Requirement 8 (Cross-country Course), which statement accurately reflects the official BSA standard for Set up a cross-country course that is at least 2,000 meters long with at le?",
-        "question": "When preparing for your counselor conference on Orienteering Requirement 8 (Cross-country Course), which statement accurately reflects the official BSA standard for Set up a cross-country course that is at least 2,000 meters long with at le?",
+        "scenario_prompt": "When working on Orienteering Requirement 8 (Set up a cross-country course), which principle and field standard is established in the Orienteering Merit Badge Pamphlet?",
+        "question": "When working on Orienteering Requirement 8 (Set up a cross-country course), which principle and field standard is established in the Orienteering Merit Badge Pamphlet?",
         "options": [
-          "A. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Cross-country Course without explaining how it works in practice satisfies Orienteering.",
-          "C. Focus only on Set up a cross-country course that is at least 2,000 me while omitting Set up a score orienteering course with at least 12 con and its required field verification.",
-          "D. Assume Cross-country Course applies only to indoor classroom theory and has no effect on real-world Orienteering practice."
+          "A. Accurate Orienteering Requirement 8 (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself.",
+          "B. Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8.",
+          "C. Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b.",
+          "D. Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9."
         ],
         "choices": [
-          "A. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Cross-country Course without explaining how it works in practice satisfies Orienteering.",
-          "C. Focus only on Set up a cross-country course that is at least 2,000 me while omitting Set up a score orienteering course with at least 12 con and its required field verification.",
-          "D. Assume Cross-country Course applies only to indoor classroom theory and has no effect on real-world Orienteering practice."
+          "A. Accurate Orienteering Requirement 8 (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself.",
+          "B. Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8.",
+          "C. Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b.",
+          "D. Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (A): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Cross-country Course (Cross-country Course). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)).",
-        "pamphlet_page_ref": "p. 30, p. 56"
+        "correct_answer": "A. Accurate Orienteering Requirement 8 (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself.",
+        "explanation": "Correct Answer (A): Accurate Orienteering Requirement 8 (Set up a cross-country course) analysis requires contemporaneous data logging and verified measurements: Take a half-day to thoroughly familiarize yourself. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p027_img1.png"
     },
     {
       "req_id": "9",
@@ -2520,15 +2511,16 @@
         "rows": [
           "1. Act as an official during an orienteering event.",
           "2. This may be during the running of the course you set up for requirement 8."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Official During An Orienteering Event without explaining how it works in practice satisfies Orienteering Requirement 9.",
-        "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Official During An Orienteering Event (Official During An Orienteering Event) (p. 35, p. 53).",
-        "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Official During An Orienteering Event (Official During An Orienteering Event) (p. 35, p. 53).",
-        "pamphlet_page_ref": "p. 35, p. 53",
-        "myth": "Memorizing a one-line definition of Official During An Orienteering Event without explaining how it works in practice satisfies Orienteering Requirement 9.",
-        "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Official During An Orienteering Event (Official During An Orienteering Event) (p. 35, p. 53)."
+        "misconception": "Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9.",
+        "fact": "Mastering Orienteering Requirement 9 (Act as an official) requires applying the verified pamphlet mechanism: Orienteering USA is the ruling body for sanctioned orienteering events in the United.",
+        "fact_correction": "Mastering Orienteering Requirement 9 (Act as an official) requires applying the verified pamphlet mechanism: Orienteering USA is the ruling body for sanctioned orienteering events in the United.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)",
+        "myth": "Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9.",
+        "correction": "Mastering Orienteering Requirement 9 (Act as an official) requires applying the verified pamphlet mechanism: Orienteering USA is the ruling body for sanctioned orienteering events in the United."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2552,16 +2544,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Act as an official: Orienteering USA is the ruling body for sanctioned orienteering eventsin the United States (p. 35).",
-        "Act as an official Principle 2: Its rule book is comprehensive and addresses thetechnicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
+        "Act as an official: Orienteering USA is the ruling body for sanctioned orienteering events in the United States (p. 35).",
+        "Act as an official Principle 2: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
         "Act as an official Principle 3: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA. 1 (p. 35).",
-        "Act as an official Principle 4: Competitors who have prior knowledge of the course that will givethem an unfair advantage should not participate (p. 35)."
+        "Act as an official Principle 4: Competitors who have prior knowledge of the course that will give them an unfair advantage should not participate (p. 35)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Act as an official): Investigation of the course before an event is forbidden. 2 (p. 35).",
-        "Step 2 (Act as an official): The use of any navigational aid other than a compass is prohibited fornavigation during a race (p. 35).",
+        "Step 2 (Act as an official): The use of any navigational aid other than a compass is prohibited for navigation during a race (p. 35).",
         "Step 3 (Act as an official): This includes GPS (global positioning system) units, altimeters, and mobile mapping apps (p. 35).",
-        "Step 4 (Act as an official): Note on post-raceanalysis: Many modern orienteers wear GPS watches solely to recordtheir track for later study (p. 35)."
+        "Step 4 (Act as an official): Note on post-race analysis: Many modern orienteers wear GPS watches solely to record their track for later study (p. 35)."
       ],
       "gear_checklist": [
         "Official Orienteering Merit Badge Pamphlet and Fillable Workbook (open to Req 9: Act as an official)",
@@ -2604,8 +2596,8 @@
         "title": "Exemplar Technical Analysis: Orienteering Req 9 (Act as an official)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Act as an official: Orienteering USA is the ruling body for sanctioned orienteering eventsin the United States (p. 35).",
-          "Applied Field Mechanism": "Act as an official Principle 2: Its rule book is comprehensive and addresses thetechnicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
+          "Core Technical Principle": "Act as an official: Orienteering USA is the ruling body for sanctioned orienteering events in the United States (p. 35).",
+          "Applied Field Mechanism": "Act as an official Principle 2: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
           "Real-World Case Example": "Concrete application of Act as an official documented during Orienteering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)."
         },
@@ -2613,29 +2605,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Orienteering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 9 (Official During An Orienteering Event: Act as an official during an orienteering event)?",
-        "question": "How does the Orienteering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 9 (Official During An Orienteering Event: Act as an official during an orienteering event)?",
+        "scenario_prompt": "During your patrol's preparation and review for Orienteering Requirement 9 (Act as an official), which statement accurately reflects the official Orienteering Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Orienteering Requirement 9 (Act as an official), which statement accurately reflects the official Orienteering Merit Badge Pamphlet?",
         "options": [
-          "A. Memorizing a one-line definition of Official During An Orienteering Event without explaining how it works in practice satisfies.",
-          "B. Skip the Orienteering Pamphlet technical criteria for Official During An Orienteering Event and use rules from an unrelated activity.",
-          "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Act as an official during an orienteering event in place of documented Orienteering observations."
+          "A. Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9.",
+          "B. Mastering Orienteering Requirement 9 (Act as an official) requires applying the verified pamphlet mechanism: Orienteering USA is the ruling body for sanctioned orienteering events in the United.",
+          "C. Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement.",
+          "D. Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Official During An Orienteering Event without explaining how it works in practice satisfies.",
-          "B. Skip the Orienteering Pamphlet technical criteria for Official During An Orienteering Event and use rules from an unrelated activity.",
-          "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Act as an official during an orienteering event in place of documented Orienteering observations."
+          "A. Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9.",
+          "B. Mastering Orienteering Requirement 9 (Act as an official) requires applying the verified pamphlet mechanism: Orienteering USA is the ruling body for sanctioned orienteering events in the United.",
+          "C. Estimating Set up a cross-country course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement.",
+          "D. Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (C): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Official During An Orienteering Event (Official During An Orienteering Event). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)).",
-        "pamphlet_page_ref": "p. 35, p. 53"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Mastering Orienteering Requirement 9 (Act as an official) requires applying the verified pamphlet mechanism: Orienteering USA is the ruling body for sanctioned orienteering events in the United.",
+        "explanation": "Correct Answer (B): Mastering Orienteering Requirement 9 (Act as an official) requires applying the verified pamphlet mechanism: Orienteering USA is the ruling body for sanctioned orienteering events in the United. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 9.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p048_img1.png"
     },
     {
       "req_id": "10",
@@ -2675,23 +2667,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Teach orienteering techniques to your patrol, troop, or crew.",
-          "2. Key Pamphlet Facts & Mechanism (Teach Orienteering Techniques)",
-          "3. Field Application & Counselor Discussion (Teach Orienteering Techniques)"
+          "1. Teach orienteering techniques to your patrol, troop, or crew."
         ],
         "rows": [
-          "1. Teach orienteering techniques to your patrol, troop, or crew.",
-          "2. Key Pamphlet Facts & Mechanism (Teach Orienteering Techniques)",
-          "3. Field Application & Counselor Discussion (Teach Orienteering Techniques)"
-        ]
+          "1. Teach orienteering techniques to your patrol, troop, or crew."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Teach Orienteering Techniques without explaining how it works in practice satisfies Orienteering Requirement 10.",
-        "fact": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Teach Orienteering Techniques (Teach Orienteering Techniques) (p. 41, p. 43).",
-        "fact_correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Teach Orienteering Techniques (Teach Orienteering Techniques) (p. 41, p. 43).",
-        "pamphlet_page_ref": "p. 41, p. 43",
-        "myth": "Memorizing a one-line definition of Teach Orienteering Techniques without explaining how it works in practice satisfies Orienteering Requirement 10.",
-        "correction": "The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Teach Orienteering Techniques (Teach Orienteering Techniques) (p. 41, p. 43)."
+        "misconception": "Treating the technical factors of Teach orienteering techniques to your patrol in Orienteering Requirement 10 as isolated terms rather than interconnected field mechanisms.",
+        "fact": "In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), each principle directly governs real-world performance: More obscure handrails might be ridge lines, valleys, tree.",
+        "fact_correction": "In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), each principle directly governs real-world performance: More obscure handrails might be ridge lines, valleys, tree.",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)",
+        "myth": "Treating the technical factors of Teach orienteering techniques to your patrol in Orienteering Requirement 10 as isolated terms rather than interconnected field mechanisms.",
+        "correction": "In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), each principle directly governs real-world performance: More obscure handrails might be ridge lines, valleys, tree."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2715,16 +2704,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Teach orienteering techniques to your patrol: More obscurehandrails might be ridge lines, valleys, tree lines, forest fireburns, or avalanche scars (p. 41).",
-        "Teach orienteering techniques to your patrol Principle 2: Beginners' courses rely heavily on handrails to help thenovice get to each control (p. 41).",
-        "Teach orienteering techniques to your patrol Principle 3: The route for the easiest coursesmay actually go right down a trail or road, the handrail (p. 41).",
-        "Teach orienteering techniques to your patrol Principle 4: Collecting, Check-Off, and Catching Features Always look around and take note of the features you passas you move toward the next control (p. 41)."
+        "Teach orienteering techniques to your patrol: More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche scars (p. 41).",
+        "Teach orienteering techniques to your patrol Principle 2: Beginners' courses rely heavily on handrails to help the novice get to each control (p. 41).",
+        "Teach orienteering techniques to your patrol Principle 3: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41).",
+        "Teach orienteering techniques to your patrol Principle 4: Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Teach orienteering techniques to your patrol): There may be someobvious features along the route, such as a large pond or smalllake, that will help send you in the right direction (p. 41).",
-        "Step 2 (Teach orienteering techniques to your patrol): These arecollecting features, which lie between you and the control (p. 41).",
+        "Step 1 (Teach orienteering techniques to your patrol): There may be some obvious features along the route, such as a large pond or small lake, that will help send you in the right direction (p. 41).",
+        "Step 2 (Teach orienteering techniques to your patrol): These are collecting features, which lie between you and the control (p. 41).",
         "Step 3 (Teach orienteering techniques to your patrol): Equally important but less obvious are check-off features, which you will see along the way (p. 41).",
-        "Step 4 (Teach orienteering techniques to your patrol): You can constantly verifyyour position by making a mental note as you pass the features and moving your thumb along the map (p. 41)."
+        "Step 4 (Teach orienteering techniques to your patrol): You can constantly verify your position by making a mental note as you pass the features and moving your thumb along the map (p. 41)."
       ],
       "gear_checklist": [
         "Official Orienteering Merit Badge Pamphlet and Fillable Workbook (open to Req 10: Teach orienteering techniques to your patrol)",
@@ -2767,8 +2756,8 @@
         "title": "Exemplar Technical Analysis: Orienteering Req 10 (Teach orienteering techniques to your patrol)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Teach orienteering techniques to your patrol: More obscurehandrails might be ridge lines, valleys, tree lines, forest fireburns, or avalanche scars (p. 41).",
-          "Applied Field Mechanism": "Teach orienteering techniques to your patrol Principle 2: Beginners' courses rely heavily on handrails to help thenovice get to each control (p. 41).",
+          "Core Technical Principle": "Teach orienteering techniques to your patrol: More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche scars (p. 41).",
+          "Applied Field Mechanism": "Teach orienteering techniques to your patrol Principle 2: Beginners' courses rely heavily on handrails to help the novice get to each control (p. 41).",
           "Real-World Case Example": "Concrete application of Teach orienteering techniques to your patrol documented during Orienteering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)."
         },
@@ -2776,29 +2765,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Orienteering Requirement 10 (Teach Orienteering Techniques), which statement accurately reflects the official BSA standard for Teach orienteering techniques to your patrol, troop, or crew?",
-        "question": "When preparing for your counselor conference on Orienteering Requirement 10 (Teach Orienteering Techniques), which statement accurately reflects the official BSA standard for Teach orienteering techniques to your patrol, troop, or crew?",
+        "scenario_prompt": "In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
+        "question": "In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
         "options": [
-          "A. Memorizing a one-line definition of Teach Orienteering Techniques without explaining how it works in practice satisfies.",
-          "B. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "C. Rely on a group summary of Teach Orienteering Techniques instead of individually explaining or demonstrating Teach orienteering techniques to your patrol, troop, or crew.",
-          "D. Assume Teach Orienteering Techniques applies only to indoor classroom theory and has no effect on real-world Orienteering practice."
+          "A. Treating the technical factors of Teach orienteering techniques to your patrol in Orienteering Requirement 10 as isolated terms rather than interconnected field mechanisms.",
+          "B. Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b.",
+          "C. In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), each principle directly governs real-world performance: More obscure handrails might be ridge lines, valleys, tree.",
+          "D. Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Teach Orienteering Techniques without explaining how it works in practice satisfies.",
-          "B. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "C. Rely on a group summary of Teach Orienteering Techniques instead of individually explaining or demonstrating Teach orienteering techniques to your patrol, troop, or crew.",
-          "D. Assume Teach Orienteering Techniques applies only to indoor classroom theory and has no effect on real-world Orienteering practice."
+          "A. Treating the technical factors of Teach orienteering techniques to your patrol in Orienteering Requirement 10 as isolated terms rather than interconnected field mechanisms.",
+          "B. Estimating Set up a score orienteering course figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 8b.",
+          "C. In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), each principle directly governs real-world performance: More obscure handrails might be ridge lines, valleys, tree.",
+          "D. Overlooking how Act as an official directly affects safety, efficiency, and decision-making in Orienteering Requirement 9."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (B): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Teach Orienteering Techniques (Teach Orienteering Techniques). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)).",
-        "pamphlet_page_ref": "p. 41, p. 43"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), each principle directly governs real-world performance: More obscure handrails might be ridge lines, valleys, tree.",
+        "explanation": "Correct Answer (C): In Orienteering Requirement 10 (Teach orienteering techniques to your patrol), each principle directly governs real-world performance: More obscure handrails might be ridge lines, valleys, tree. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)).",
+        "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 10.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/orienteering_p050_img1.png"
     }
   ],
   "badge_slug": "orienteering",
@@ -2809,117 +2798,117 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "Before beginning hands-on work for Orienteering Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Orienteering Merit Badge Pamphlet require?",
-      "question": "Before beginning hands-on work for Orienteering Requirement 1 (You Know First Aid), what safety and hazard-prevention standard does the Orienteering Merit Badge Pamphlet require?",
+      "scenario_prompt": "When taking a bearing from a topographic map in an area with a 12-degree west magnetic declination, why must you account for declination before following your compass in the field?",
+      "question": "When taking a bearing from a topographic map in an area with a 12-degree west magnetic declination, why must you account for declination before following your compass in the field?",
       "options": [
-        "A. Experienced Orienteering participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "B. Skip the Orienteering Pamphlet technical criteria for You Know First Aid and use rules from an unrelated activity.",
-        "C. The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on You Know First Aid."
+        "A. Because contour lines on a topographic map shift position seasonally as soil moisture changes.",
+        "B. Because a baseplate compass needle always points toward the geographic North Pole rather than magnetic north.",
+        "C. Because map grid lines align with true north while the compass needle points to magnetic north, and ignoring a 12-degree difference will pull you far off course over distance.",
+        "D. Because metal control flags placed at orienteering checkpoints reverse the polarity of the compass housing."
       ],
       "choices": [
-        "A. Experienced Orienteering participants only need to review safety rules and emergency procedures after an incident occurs.",
-        "B. Skip the Orienteering Pamphlet technical criteria for You Know First Aid and use rules from an unrelated activity.",
-        "C. The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on You Know First Aid."
+        "A. Because contour lines on a topographic map shift position seasonally as soil moisture changes.",
+        "B. Because a baseplate compass needle always points toward the geographic North Pole rather than magnetic north.",
+        "C. Because map grid lines align with true north while the compass needle points to magnetic north, and ignoring a 12-degree difference will pull you far off course over distance.",
+        "D. Because metal control flags placed at orienteering checkpoints reverse the polarity of the compass housing."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before.",
-      "explanation": "Correct Answer (C): The Orienteering pamphlet requires proactive hazard identification, protective equipment checks, and environmental screening before beginning any Orienteering First Aid activity. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)).",
-      "pamphlet_page_ref": "p. 66, p. 71",
+      "correct_answer": "C. Because map grid lines align with true north while the compass needle points to magnetic north, and ignoring a 12-degree difference will pull you far off course over distance.",
+      "explanation": "Correct Answer (C): Magnetic declination is the angular difference between true north (shown on the map) and magnetic north (where the compass needle points); failing to adjust for it causes significant navigation errors.",
+      "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Orienteering Requirement 2 (Map Symbols and Topographic Features), which statement accurately reflects the official BSA standard for Explain what orienteering is?",
-      "question": "When preparing for your counselor conference on Orienteering Requirement 2 (Map Symbols and Topographic Features), which statement accurately reflects the official BSA standard for Explain what orienteering is?",
+      "scenario_prompt": "In Orienteering Requirement 2 (Orienteering is), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
+      "question": "In Orienteering Requirement 2 (Orienteering is), what technical standard and procedure does the Scouting America Orienteering Merit Badge Pamphlet require?",
       "options": [
-        "A. Memorizing a one-line definition of Map Symbols and Topographic Features without explaining how it works in practice satisfies.",
-        "B. Skip the Orienteering Pamphlet technical criteria for Map Symbols and Topographic Features and use rules from an unrelated activity.",
-        "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Substitute a casual verbal guess about Explain what orienteering is in place of documented Orienteering observations."
+        "A. Assuming Orienteering is in Orienteering Requirement 2 operates identically across all environmental and technical conditions.",
+        "B. Treating the technical factors of 20 international control description symbols in Orienteering Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+        "C. Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+        "D. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Map Symbols and Topographic Features without explaining how it works in practice satisfies.",
-        "B. Skip the Orienteering Pamphlet technical criteria for Map Symbols and Topographic Features and use rules from an unrelated activity.",
-        "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Substitute a casual verbal guess about Explain what orienteering is in place of documented Orienteering observations."
+        "A. Assuming Orienteering is in Orienteering Requirement 2 operates identically across all environmental and technical conditions.",
+        "B. Treating the technical factors of 20 international control description symbols in Orienteering Requirement 6a as isolated terms rather than interconnected field mechanisms.",
+        "C. Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+        "D. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results."
       ],
       "correct_index": 2,
       "correct_letter": "C",
-      "correct_answer": "C. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (C): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Map Symbols and Topographic Features (Map Symbols and Topographic Features). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)).",
-      "pamphlet_page_ref": "p. 14",
+      "correct_answer": "C. Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level.",
+      "explanation": "Correct Answer (C): Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)).",
+      "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Orienteering Requirement 3 (Compass Works Describe The Features), what execution standard is required when demonstrating Explain how a compass works. Describe the features of an orienteering compa?",
-      "question": "During the hands-on skill station for Orienteering Requirement 3 (Compass Works Describe The Features), what execution standard is required when demonstrating Explain how a compass works. Describe the features of an orienteering compa?",
+      "scenario_prompt": "When demonstrating and explaining A compass works for Orienteering Requirement 3, which approach follows the verified Orienteering Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining A compass works for Orienteering Requirement 3, which approach follows the verified Orienteering Merit Badge Pamphlet standard?",
       "options": [
-        "A. Describing how to perform A compass works verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3.",
-        "B. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-        "C. Rely on a group summary of Compass Works Describe The Features instead of individually explaining or demonstrating Explain how a compass works. Describe the features of an ori.",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Compass Works Describe The Features standard."
+        "A. Performing A compass works in Orienteering Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie."
       ],
       "choices": [
-        "A. Describing how to perform A compass works verbally can substitute for a physical hands-on demonstration in Orienteering Requirement 3.",
-        "B. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-        "C. Rely on a group summary of Compass Works Describe The Features instead of individually explaining or demonstrating Explain how a compass works. Describe the features of an ori.",
-        "D. Complete only a single sub-part of Requirement 3 rather than fulfilling the full Compass Works Describe The Features standard."
+        "A. Performing A compass works in Orienteering Requirement 3 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "B. Performing A control description sheet in Orienteering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie."
       ],
-      "correct_index": 1,
-      "correct_letter": "B",
-      "correct_answer": "B. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-      "explanation": "Correct Answer (B): Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A compass works with proper technique. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)).",
-      "pamphlet_page_ref": "p. 10, p. 20",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie.",
+      "explanation": "Correct Answer (D): Hands-on execution of Orienteering Requirement 3 (A compass works) depends on precise setup and step-by-step technique: Rotate the bezel until the orienting arrow or north-south lines lie. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)).",
+      "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "During the hands-on skill station for Orienteering Requirement 4 (Topographic Map Shows Terrain Features), what execution standard is required when demonstrating Explain how a topographic map shows terrain features. Point out and name fi?",
-      "question": "During the hands-on skill station for Orienteering Requirement 4 (Topographic Map Shows Terrain Features), what execution standard is required when demonstrating Explain how a topographic map shows terrain features. Point out and name fi?",
+      "scenario_prompt": "When working on Orienteering Requirement 4 (A topographic map shows terrain features), which principle and field standard is established in the Orienteering Merit Badge Pamphlet?",
+      "question": "When working on Orienteering Requirement 4 (A topographic map shows terrain features), which principle and field standard is established in the Orienteering Merit Badge Pamphlet?",
       "options": [
-        "A. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-        "B. Describing how to perform A topographic map shows terrain features verbally can substitute for a physical hands-on demonstration in.",
-        "C. Focus only on Explain how a topographic map shows terrain features. P while omitting Point out and name 10 symbols on a topographic map and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Topographic Map Shows Terrain Features."
+        "A. Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+        "B. Performing A topographic map shows terrain features in Orienteering Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7."
       ],
       "choices": [
-        "A. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-        "B. Describing how to perform A topographic map shows terrain features verbally can substitute for a physical hands-on demonstration in.",
-        "C. Focus only on Explain how a topographic map shows terrain features. P while omitting Point out and name 10 symbols on a topographic map and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Topographic Map Shows Terrain Features."
+        "A. Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+        "B. Performing A topographic map shows terrain features in Orienteering Requirement 4 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "C. Conducting a Orienteering Requirement 6c (And tell when you would use) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "D. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7."
       ],
       "correct_index": 0,
       "correct_letter": "A",
-      "correct_answer": "A. Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A.",
-      "explanation": "Correct Answer (A): Under Scouting America advancement standards and the Orienteering pamphlet, each Scout must physically execute and demonstrate A topographic map shows terrain features with proper technique. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)).",
-      "pamphlet_page_ref": "p. 19, p. 21",
+      "correct_answer": "A. Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier.",
+      "explanation": "Correct Answer (A): Hands-on execution of Orienteering Requirement 4 (A topographic map shows terrain features) depends on precise setup and step-by-step technique: You cando this visually, but it is easier. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)).",
+      "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Orienteering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (100-meter Pace Course Determine Your: Set up a 100-meter pace course)?",
-      "question": "How does the Orienteering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 5 (100-meter Pace Course Determine Your: Set up a 100-meter pace course)?",
+      "scenario_prompt": "During your patrol's preparation and review for Orienteering Requirement 5 (Set up a 100-meter pace course), which statement accurately reflects the official Orienteering Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Orienteering Requirement 5 (Set up a 100-meter pace course), which statement accurately reflects the official Orienteering Merit Badge Pamphlet?",
       "options": [
-        "A. Memorizing a one-line definition of 100-meter Pace Course Determine Your without explaining how it works in practice satisfies.",
-        "B. Reverse the sequence of 100-meter Pace Course Determine Your steps by attempting final sign-off before completing Set up a 100-meter pace course.",
-        "C. Complete only a single sub-part of Requirement 5 rather than fulfilling the full 100-meter Pace Course Determine Your standard.",
-        "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+        "A. Assuming Set up a 100-meter pace course in Orienteering Requirement 5 operates identically across all environmental and technical conditions.",
+        "B. Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+        "C. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+        "D. Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of 100-meter Pace Course Determine Your without explaining how it works in practice satisfies.",
-        "B. Reverse the sequence of 100-meter Pace Course Determine Your steps by attempting final sign-off before completing Set up a 100-meter pace course.",
-        "C. Complete only a single sub-part of Requirement 5 rather than fulfilling the full 100-meter Pace Course Determine Your standard.",
-        "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of."
+        "A. Assuming Set up a 100-meter pace course in Orienteering Requirement 5 operates identically across all environmental and technical conditions.",
+        "B. Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+        "C. Estimating Take part in three orienteering events figures from memory at the end of the project is as accurate as recording real-time measurements for Orienteering Requirement 7.",
+        "D. Assuming Take part in three orienteering events in Orienteering Requirement 7a operates identically across all environmental and technical conditions."
       ],
-      "correct_index": 3,
-      "correct_letter": "D",
-      "correct_answer": "D. The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (D): The Orienteering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of 100-meter Pace Course Determine Your (100-meter Pace Course Determine Your). (Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)).",
-      "pamphlet_page_ref": "p. 26, p. 27",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well.",
+      "explanation": "Correct Answer (B): Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well. (Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)).",
+      "pamphlet_page_ref": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)",
       "req_id": "5",
       "option_id": null
     }

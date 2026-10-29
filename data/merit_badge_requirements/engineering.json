@@ -63,14 +63,16 @@
           "1. Select a manufactured item in your home (such as a toy or an appliance) and, under adult supervision and with the approval of your...",
           "2. Find out what sort of engineering activities were needed to create it.",
           "3. Discuss with your counselor what you learned and how you got the information."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Manufactured Item in Your Home without explaining how it works in practice satisfies Engineering Requirement 1.",
-        "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Manufactured Item in Your Home (Manufactured Item in Your Home) (p. 19, p. 43).",
-        "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Manufactured Item in Your Home (Manufactured Item in Your Home) (p. 19, p. 43).",
-        "pamphlet_page_ref": "p. 19, p. 43",
-        "myth": "Memorizing a one-line definition of Manufactured Item in Your Home without explaining how it works in practice satisfies Engineering Requirement 1."
+        "misconception": "Performing Manufactured Item in Your Home in Engineering Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Engineering Requirement 1 (Manufactured Item in Your Home) depends on precise setup and step-by-step technique: The adult must always be present and aware of your task.",
+        "fact_correction": "Hands-on execution of Engineering Requirement 1 (Manufactured Item in Your Home) depends on precise setup and step-by-step technique: The adult must always be present and aware of your task.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)",
+        "myth": "Performing Manufactured Item in Your Home in Engineering Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Engineering Requirement 1 (Manufactured Item in Your Home) depends on precise setup and step-by-step technique: The adult must always be present and aware of your task."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -94,16 +96,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Manufactured Item in Your Home: Select a manufactured item: The adultmust always be present and aware of your task while you are operating a power tool (p. 19).",
-        "Manufactured Item in Your Home Principle 2: Select a manufactured item Principle 2: List items you might need, such as a computer for computeraided drafting, drafting tools, voltmeter, measuring scale, orhand tools (p. 19).",
-        "Manufactured Item in Your Home Principle 3: Select a manufactured item Principle 3: This projectmight be a freestanding patrol box for base camping (p. 19).",
-        "Manufactured Item in Your Home Principle 4: Select a manufactured item Principle 4: If thebase camp has electrical power available, you might add alight to the design project (p. 19)."
+        "Manufactured Item in Your Home: Select a manufactured item: The adult must always be present and aware of your task while you are operating a power tool (p. 19).",
+        "Manufactured Item in Your Home Principle 2: Select a manufactured item Principle 2: List items you might need, such as a computer for computer aided drafting, drafting tools, voltmeter, measuring scale, or hand tools (p. 19).",
+        "Manufactured Item in Your Home Principle 3: Select a manufactured item Principle 3: This project might be a freestanding patrol box for base camping (p. 19).",
+        "Manufactured Item in Your Home Principle 4: Select a manufactured item Principle 4: If the base camp has electrical power available, you might add alight to the design project (p. 19)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Manufactured Item in Your Home): Step 1 (Select a manufactured item): You have the multimeter to check the electrical system (p. 19).",
+        "Step 1 (Manufactured Item in Your Home): Step 1 (Select a manufactured item): You have the multi meter to check the electrical system (p. 19).",
         "Step 2 (Manufactured Item in Your Home): Step 2 (Select a manufactured item): Jack Kilby, Inventor of the Integrated Circuit Jack Kilby (1923-2005), an electrical engineer, invented the integrated circuit in 1958 while working (p. 19).",
-        "Step 3 (Manufactured Item in Your Home): Step 3 (Select a manufactured item): Before then, electronic devices such ascomputers were made from individual transistors wiredtogether to form circuits (p. 19).",
-        "Step 4 (Manufactured Item in Your Home): Step 4 (Select a manufactured item): Kilby had the idea of manufacturing multiple electronic components together on the same piece of semiconductor material, with all theconnections (p. 19)."
+        "Step 3 (Manufactured Item in Your Home): Step 3 (Select a manufactured item): Before then, electronic devices such as computers were made from individual transistors wired together to form circuits (p. 19).",
+        "Step 4 (Manufactured Item in Your Home): Step 4 (Select a manufactured item): Kilby had the idea of manufacturing multiple electronic components together on the same piece of semiconductor material, with all the connections (p. 19)."
       ],
       "gear_checklist": [
         "Official Engineering Merit Badge Pamphlet and Fillable Workbook (open to Req 1: Manufactured Item in Your Home)",
@@ -146,8 +148,8 @@
         "title": "Exemplar Technical Analysis: Engineering Req 1 (Manufactured Item in Your Home)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Manufactured Item in Your Home: Select a manufactured item: The adultmust always be present and aware of your task while you are operating a power tool (p. 19).",
-          "Applied Field Mechanism": "Manufactured Item in Your Home Principle 2: Select a manufactured item Principle 2: List items you might need, such as a computer for computeraided drafting, drafting tools, voltme.",
+          "Core Technical Principle": "Manufactured Item in Your Home: Select a manufactured item: The adult must always be present and aware of your task while you are operating a power tool (p. 19).",
+          "Applied Field Mechanism": "Manufactured Item in Your Home Principle 2: Select a manufactured item Principle 2: List items you might need, such as a computer for computer aided drafting, drafting tools, voltme.",
           "Real-World Case Example": "Concrete application of Manufactured Item in Your Home documented during Engineering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)."
         },
@@ -155,25 +157,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Manufactured Item in Your Home: Select a manufactured item in your home (such as a toy or an appliance)?",
-        "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Manufactured Item in Your Home: Select a manufactured item in your home (such as a toy or an appliance)?",
+        "scenario_prompt": "When reverse-engineering a household appliance or mechanical device for Engineering Requirement 1, why do engineers apply the iterative engineering design process rather than building a single final product without testing?",
+        "question": "When reverse-engineering a household appliance or mechanical device for Engineering Requirement 1, why do engineers apply the iterative engineering design process rather than building a single final product without testing?",
         "options": [
-          "A. Memorizing a one-line definition of Manufactured Item in Your Home without explaining how it works in practice satisfies.",
-          "B. Skip the Engineering Pamphlet technical criteria for Manufactured Item in Your Home and use rules from an unrelated activity.",
-          "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Assume Manufactured Item in Your Home applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+          "A. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+          "B. Because defining requirements, modeling subsystems (mechanical, electrical, structural), building prototypes, testing failure modes, and iterating on data reveals trade-offs in safety, efficiency, and manufacturability before mass production.",
+          "C. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate.",
+          "D. Because the engineering design process eliminates the need for mathematics, physics, or safety standards."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Manufactured Item in Your Home without explaining how it works in practice satisfies.",
-          "B. Skip the Engineering Pamphlet technical criteria for Manufactured Item in Your Home and use rules from an unrelated activity.",
-          "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Assume Manufactured Item in Your Home applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+          "A. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+          "B. Because defining requirements, modeling subsystems (mechanical, electrical, structural), building prototypes, testing failure modes, and iterating on data reveals trade-offs in safety, efficiency, and manufacturability before mass production.",
+          "C. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate.",
+          "D. Because the engineering design process eliminates the need for mathematics, physics, or safety standards."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (C): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Manufactured Item in Your Home (Manufactured Item in Your Home). (Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)).",
-        "pamphlet_page_ref": "p. 19, p. 43"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Because defining requirements, modeling subsystems (mechanical, electrical, structural), building prototypes, testing failure modes, and iterating on data reveals trade-offs in safety, efficiency, and manufacturability before mass production.",
+        "explanation": "Correct Answer (B): Engineers analyze how mechanical, electrical, and control subsystems interact and use iterative prototyping and testing to optimize performance, reliability, cost, and safety constraints.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 1.",
@@ -234,14 +236,16 @@
           "1. Select an engineering achievement that has had a major impact on society.",
           "2. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out about the...",
           "3. Tell your counselor what you learned."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Engineering Achievement That Has without explaining how it works in practice satisfies Engineering Requirement 2.",
-        "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Engineering Achievement That Has (Engineering Achievement That Has) (p. 26, p. 32).",
-        "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Engineering Achievement That Has (Engineering Achievement That Has) (p. 26, p. 32).",
-        "pamphlet_page_ref": "p. 26, p. 32",
-        "myth": "Memorizing a one-line definition of Engineering Achievement That Has without explaining how it works in practice satisfies Engineering Requirement 2."
+        "misconception": "Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+        "fact": "Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+        "fact_correction": "Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)",
+        "myth": "Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+        "correction": "Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -270,16 +274,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Engineering Achievement: Select an engineering achievement: Five early fields of engineering emerged to meet the growingneeds of society that were brought about by the industrial revolution in the 1800s (p. 26).",
+        "Engineering Achievement: Select an engineering achievement: Five early fields of engineering emerged to meet the growing needs of society that were brought about by the industrial revolution in the 1800s (p. 26).",
         "Engineering Achievement Principle 2: Select an engineering achievement Principle 2: These engineering fields were civil, mining and metallurgical, mechanical, chemical, and electrical (p. 26).",
-        "Engineering Achievement Principle 3: Select an engineering achievement Principle 3: A critical part of designing these structures ismaking sure they will stay where they are put, that they willnot tilt, shift, or sink into the soil (p. 26).",
-        "Engineering Achievement Principle 4: Select an engineering achievement Principle 4: Therefore, civilengineers often apply knowledge of geology and physics in their work. engineering, and surveying (p. 26)."
+        "Engineering Achievement Principle 3: Select an engineering achievement Principle 3: A critical part of designing these structures is making sure they will stay where they are put, that they will not tilt, shift, or sink into the soil (p. 26).",
+        "Engineering Achievement Principle 4: Select an engineering achievement Principle 4: Therefore, civil engineers often apply knowledge of geology and physics in their work. engineering, and surveying (p. 26)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Engineering Achievement): Step 1 (Select an engineering achievement): In 2006, the largest dam in the worldbuilt to produce electricity was completedin China (p. 26).",
+        "Step 1 (Engineering Achievement): Step 1 (Select an engineering achievement): In 2006, the largest dam in the world built to produce electricity was completed in China (p. 26).",
         "Step 2 (Engineering Achievement): Step 2 (Select an engineering achievement): The Three Gorges Dam stretches 1.4 miles across the massive Yangtze River (p. 26).",
-        "Step 3 (Engineering Achievement): Step 3 (Select an engineering achievement): At 607 feet tall and constructed of some 21 million cubic yards of concrete, it is nearly five times as large as thefamous Hoover Dam (p. 26).",
-        "Step 4 (Engineering Achievement): Step 4 (Select an engineering achievement): The Three Gorges Dam will create a 410-mile-long reservoir up to 574 feet deep, eventuallyproducing 18.2 gigawatts of power, about nine times as much (p. 26)."
+        "Step 3 (Engineering Achievement): Step 3 (Select an engineering achievement): At 607 feet tall and constructed of some 21 million cubic yards of concrete, it is nearly five times as large as the famous Hoover Dam (p. 26).",
+        "Step 4 (Engineering Achievement): Step 4 (Select an engineering achievement): The Three Gorges Dam will create a 410-mile-long reservoir up to 574 feet deep, eventually producing 18.2 gigawatts of power, about nine times as much (p. 26)."
       ],
       "gear_checklist": [
         "Official Engineering Merit Badge Pamphlet and Fillable Workbook (open to Req 2: Engineering Achievement)",
@@ -323,7 +327,7 @@
         "artifact_type": "QUANTITATIVE_FIELD_LOG_EXEMPLAR",
         "fields": {
           "Baseline Measurement / Plan": "Initial benchmark and target parameters recorded for Engineering Achievement.",
-          "Tracked Field Data": "Engineering Achievement: Select an engineering achievement: Five early fields of engineering emerged to meet the growingneeds of society that were brought about by the industrial.",
+          "Tracked Field Data": "Engineering Achievement: Select an engineering achievement: Five early fields of engineering emerged to meet the growing needs of society that were brought about by the industrial.",
           "Variance & Outcome Analysis": "Engineering Achievement Principle 2: Select an engineering achievement Principle 2: These engineering fields were civil, mining and metallurgical, mechanical, chemical, and electri.",
           "Verification Evidence": "Dated log rows, calculations, and evaluation notes completed (Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32))"
         },
@@ -331,25 +335,25 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Engineering Achievement That Has: Select an engineering achievement that has had a major impact on socie)?",
-        "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Engineering Achievement That Has: Select an engineering achievement that has had a major impact on socie)?",
+        "scenario_prompt": "In Engineering Requirement 2 (Engineering Achievement That Has), what technical standard and procedure does the Scouting America Engineering Merit Badge Pamphlet require?",
+        "question": "In Engineering Requirement 2 (Engineering Achievement That Has), what technical standard and procedure does the Scouting America Engineering Merit Badge Pamphlet require?",
         "options": [
-          "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Engineering Achievement That Has without explaining how it works in practice satisfies.",
-          "C. Focus only on Select an engineering achievement that has had a major  while omitting Using resources such as the internet (with your parent  and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Engineering Achievement That Has."
+          "A. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+          "B. Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+          "C. Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+          "D. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8."
         ],
         "choices": [
-          "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Engineering Achievement That Has without explaining how it works in practice satisfies.",
-          "C. Focus only on Select an engineering achievement that has had a major  while omitting Using resources such as the internet (with your parent  and its required field verification.",
-          "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Engineering Achievement That Has."
+          "A. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+          "B. Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+          "C. Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+          "D. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (A): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Engineering Achievement That Has (Engineering Achievement That Has). (Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)).",
-        "pamphlet_page_ref": "p. 26, p. 32"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+        "explanation": "Correct Answer (C): Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs. (Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)).",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 2.",
@@ -408,14 +412,16 @@
         "rows": [
           "1. Explain the work of six types of engineers.",
           "2. Pick two of the six types and explain how their work is related to engineering."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Work of Six Types of without explaining how it works in practice satisfies Engineering Requirement 3.",
-        "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Work of Six Types of (Work of Six Types of) (p. 38, p. 76).",
-        "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Work of Six Types of (Work of Six Types of) (p. 38, p. 76).",
-        "pamphlet_page_ref": "p. 38, p. 76",
-        "myth": "Memorizing a one-line definition of Work of Six Types of without explaining how it works in practice satisfies Engineering Requirement 3."
+        "misconception": "Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms.",
+        "fact": "In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different.",
+        "fact_correction": "In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)",
+        "myth": "Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms.",
+        "correction": "In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -439,14 +445,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Types of Engineers: Work of Six Types: Besides specializing in particular fields, different engineers havedifferent responsibilities (p. 38).",
-        "Types of Engineers Principle 2: Work of Six Types Principle 2: The design engineer uses new and existing ideas tosolve a new problem or to solve an old problem in a new way (p. 38).",
-        "Types of Engineers Principle 3: Work of Six Types Principle 3: These engineers find solutions that work according to theproject's requirements, stay within the budget, and are easy and safe to use (p. 38).",
+        "Types of Engineers: Work of Six Types: Besides specializing in particular fields, different engineers have different responsibilities (p. 38).",
+        "Types of Engineers Principle 2: Work of Six Types Principle 2: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
+        "Types of Engineers Principle 3: Work of Six Types Principle 3: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
         "Types of Engineers Principle 4: Work of Six Types Principle 4: The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe (p. 38)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Types of Engineers): Step 1 (Work of Six Types): The analytical engineer is mainly responsible for creating mathematical models of physical problems (p. 38).",
-        "Step 2 (Types of Engineers): Step 2 (Work of Six Types): Analysis is theprocess of using the methods and tools of mathematics to simulate (mimic) how a physical object will behave in response (p. 38).",
+        "Step 2 (Types of Engineers): Step 2 (Work of Six Types): Analysis is the process of using the methods and tools of mathematics to simulate (mimic) how a physical object will behave in response (p. 38).",
         "Step 3 (Types of Engineers): Step 3 (Work of Six Types): The goal of analysis is to understand the object's behavior without the time and expense of building and testing physical models (p. 38).",
         "Step 4 (Types of Engineers): Step 4 (Work of Six Types): Computer-aided engineering tools are used for simulation and analysis (p. 38)."
       ],
@@ -491,8 +497,8 @@
         "title": "Exemplar Technical Analysis: Engineering Req 3 (Types of Engineers)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Types of Engineers: Work of Six Types: Besides specializing in particular fields, different engineers havedifferent responsibilities (p. 38).",
-          "Applied Field Mechanism": "Types of Engineers Principle 2: Work of Six Types Principle 2: The design engineer uses new and existing ideas tosolve a new problem or to solve an old problem in a new way (p. 38).",
+          "Core Technical Principle": "Types of Engineers: Work of Six Types: Besides specializing in particular fields, different engineers have different responsibilities (p. 38).",
+          "Applied Field Mechanism": "Types of Engineers Principle 2: Work of Six Types Principle 2: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
           "Real-World Case Example": "Concrete application of Types of Engineers documented during Engineering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)."
         },
@@ -500,29 +506,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Work of Six Types of: Explain the work of six types of engineers)?",
-        "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Work of Six Types of: Explain the work of six types of engineers)?",
+        "scenario_prompt": "When demonstrating and explaining The work of six types for Engineering Requirement 3, which approach follows the verified Engineering Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining The work of six types for Engineering Requirement 3, which approach follows the verified Engineering Merit Badge Pamphlet standard?",
         "options": [
-          "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Work of Six Types of without explaining how it works in practice satisfies Engineering.",
-          "C. Focus only on Explain the work of six types of engineers while omitting Pick two of the six types and explain how their work is and its required field verification.",
-          "D. Assume Work of Six Types of applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+          "A. Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms.",
+          "B. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+          "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different."
         ],
         "choices": [
-          "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "B. Memorizing a one-line definition of Work of Six Types of without explaining how it works in practice satisfies Engineering.",
-          "C. Focus only on Explain the work of six types of engineers while omitting Pick two of the six types and explain how their work is and its required field verification.",
-          "D. Assume Work of Six Types of applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+          "A. Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms.",
+          "B. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+          "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (A): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Work of Six Types of (Work of Six Types of). (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)).",
-        "pamphlet_page_ref": "p. 38, p. 76"
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different.",
+        "explanation": "Correct Answer (D): In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different. (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)).",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 3.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/engineering_p012_img1.png"
     },
     {
       "req_id": "4",
@@ -552,23 +558,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the work this engineer does and the tools the engineer uses.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss The Work This Engineer)",
-              "3. Field Application & Counselor Discussion (Discuss The Work This Engineer)"
+              "1. Discuss the work this engineer does and the tools the engineer uses."
             ],
             "rows": [
-              "1. Discuss the work this engineer does and the tools the engineer uses.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss The Work This Engineer)",
-              "3. Field Application & Counselor Discussion (Discuss The Work This Engineer)"
-            ]
+              "1. Discuss the work this engineer does and the tools the engineer uses."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Discuss The Work This Engineer without explaining how it works in practice satisfies Engineering Requirement 4a.",
-            "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss The Work This Engineer (Discuss The Work This Engineer) (p. 38, p. 48).",
-            "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss The Work This Engineer (Discuss The Work This Engineer) (p. 38, p. 48).",
-            "pamphlet_page_ref": "p. 38, p. 48",
-            "myth": "Memorizing a one-line definition of Discuss The Work This Engineer without explaining how it works in practice satisfies Engineering Requirement 4a."
+            "misconception": "Overlooking how The work this engineer does directly affects safety, efficiency, and decision-making in Engineering Requirement.",
+            "fact": "Mastering Engineering Requirement 4a (The work this engineer does) requires applying the verified pamphlet mechanism: The design engineer uses new and existing ideas to solve a new problem.",
+            "fact_correction": "Mastering Engineering Requirement 4a (The work this engineer does) requires applying the verified pamphlet mechanism: The design engineer uses new and existing ideas to solve a new problem.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
+            "myth": "Overlooking how The work this engineer does directly affects safety, efficiency, and decision-making in Engineering Requirement.",
+            "correction": "Mastering Engineering Requirement 4a (The work this engineer does) requires applying the verified pamphlet mechanism: The design engineer uses new and existing ideas to solve a new problem."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -599,7 +603,7 @@
           "pamphlet_excerpts": [
             "Engineer Does and The Tools: Work This Engineer: Visit with an engineer Principle 2: The design engineer uses new and existing ideas tosolve a new problem or to solve an old problem in a new way (p. 38)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png"
         },
         {
           "sub_id": "4b",
@@ -622,23 +626,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with the engineer a current project and the engineer's particular role.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss With The Engineer A)",
-              "3. Field Application & Counselor Discussion (Discuss With The Engineer A)"
+              "1. Discuss with the engineer a current project and the engineer's particular role."
             ],
             "rows": [
-              "1. Discuss with the engineer a current project and the engineer's particular role.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss With The Engineer A)",
-              "3. Field Application & Counselor Discussion (Discuss With The Engineer A)"
-            ]
+              "1. Discuss with the engineer a current project and the engineer's particular role."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Discuss With The Engineer A without explaining how it works in practice satisfies Engineering Requirement 4b.",
-            "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss With The Engineer A (Discuss With The Engineer A) (p. 38, p. 48).",
-            "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Discuss With The Engineer A (Discuss With The Engineer A) (p. 38, p. 48).",
-            "pamphlet_page_ref": "p. 38, p. 48",
-            "myth": "Memorizing a one-line definition of Discuss With The Engineer A without explaining how it works in practice satisfies Engineering Requirement 4b."
+            "misconception": "Treating the technical factors of With the engineer a current project in Engineering Requirement 4b as isolated terms rather than interconnected field mechanisms.",
+            "fact": "In Engineering Requirement 4b (With the engineer a current project), each principle directly governs real-world performance: These engineers find solutions that work according to the project's.",
+            "fact_correction": "In Engineering Requirement 4b (With the engineer a current project), each principle directly governs real-world performance: These engineers find solutions that work according to the project's.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
+            "myth": "Treating the technical factors of With the engineer a current project in Engineering Requirement 4b as isolated terms rather than interconnected field mechanisms.",
+            "correction": "In Engineering Requirement 4b (With the engineer a current project), each principle directly governs real-world performance: These engineers find solutions that work according to the project's."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -692,23 +694,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Find out how the engineer's work is done and how results are achieved.",
-              "2. Key Pamphlet Facts & Mechanism (Out How The Engineer's Work)",
-              "3. Field Application & Counselor Discussion (Out How The Engineer's Work)"
+              "1. Find out how the engineer's work is done and how results are achieved."
             ],
             "rows": [
-              "1. Find out how the engineer's work is done and how results are achieved.",
-              "2. Key Pamphlet Facts & Mechanism (Out How The Engineer's Work)",
-              "3. Field Application & Counselor Discussion (Out How The Engineer's Work)"
-            ]
+              "1. Find out how the engineer's work is done and how results are achieved."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Out How The Engineer's Work without explaining how it works in practice satisfies Engineering Requirement 4c.",
-            "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out How The Engineer's Work (Out How The Engineer's Work) (p. 38, p. 48).",
-            "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Out How The Engineer's Work (Out How The Engineer's Work) (p. 38, p. 48).",
-            "pamphlet_page_ref": "p. 38, p. 48",
-            "myth": "Memorizing a one-line definition of Out How The Engineer's Work without explaining how it works in practice satisfies Engineering Requirement 4c."
+            "misconception": "Assuming Find out how the engineer's work in Engineering Requirement 4c operates identically across all environmental and technical conditions.",
+            "fact": "The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe.",
+            "fact_correction": "The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
+            "myth": "Assuming Find out how the engineer's work in Engineering Requirement 4c operates identically across all environmental and technical conditions.",
+            "correction": "The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -762,23 +762,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Ask to see the reports that the engineer writes concerning the project.",
-              "2. Key Pamphlet Facts & Mechanism (Ask to See)",
-              "3. Field Application & Counselor Discussion (Ask to See)"
+              "1. Ask to see the reports that the engineer writes concerning the project."
             ],
             "rows": [
-              "1. Ask to see the reports that the engineer writes concerning the project.",
-              "2. Key Pamphlet Facts & Mechanism (Ask to See)",
-              "3. Field Application & Counselor Discussion (Ask to See)"
-            ]
+              "1. Ask to see the reports that the engineer writes concerning the project."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Ask to See without explaining how it works in practice satisfies Engineering Requirement 4d.",
-            "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ask to See (Ask to See) (p. 38, p. 48).",
-            "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Ask to See (Ask to See) (p. 38, p. 48).",
-            "pamphlet_page_ref": "p. 38, p. 48",
-            "myth": "Memorizing a one-line definition of Ask to See without explaining how it works in practice satisfies Engineering Requirement 4d."
+            "misconception": "Overlooking how Ask to see the reports directly affects safety, efficiency, and decision-making in Engineering Requirement 4d.",
+            "fact": "Mastering Engineering Requirement 4d (Ask to see the reports) requires applying the verified pamphlet mechanism: Besides specializing in particular fields, different engineers have different.",
+            "fact_correction": "Mastering Engineering Requirement 4d (Ask to see the reports) requires applying the verified pamphlet mechanism: Besides specializing in particular fields, different engineers have different.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
+            "myth": "Overlooking how Ask to see the reports directly affects safety, efficiency, and decision-making in Engineering Requirement 4d.",
+            "correction": "Mastering Engineering Requirement 4d (Ask to see the reports) requires applying the verified pamphlet mechanism: Besides specializing in particular fields, different engineers have different."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -832,23 +830,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor what you learned about engineering from this visit.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss With Your Counselor What)",
-              "3. Field Application & Counselor Discussion (Discuss With Your Counselor What)"
+              "1. Discuss with your counselor what you learned about engineering from this visit."
             ],
             "rows": [
-              "1. Discuss with your counselor what you learned about engineering from this visit.",
-              "2. Key Pamphlet Facts & Mechanism (Discuss With Your Counselor What)",
-              "3. Field Application & Counselor Discussion (Discuss With Your Counselor What)"
-            ]
+              "1. Discuss with your counselor what you learned about engineering from this visit."
+            ],
+            "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the You Learned About Engineering field investigation in Engineering.",
-            "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on You Learned About Engineering, and document specific findings (p. 38, p. 48).",
-            "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on You Learned About Engineering, and document specific findings (p. 38, p. 48).",
-            "pamphlet_page_ref": "p. 38, p. 48",
-            "myth": "Watching a generic video without preparing questions or counselor approval fulfills the You Learned About Engineering field investigation in Engineering."
+            "misconception": "Conducting a Engineering Requirement 4e (What you learned about engineering) field visit or interview without prepared technical questions or advance counselor approval yields complete.",
+            "fact": "For Engineering Requirement 4e (What you learned about engineering), Scouts obtain advance approval, prepare structured field questions.",
+            "fact_correction": "For Engineering Requirement 4e (What you learned about engineering), Scouts obtain advance approval, prepare structured field questions.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
+            "myth": "Conducting a Engineering Requirement 4e (What you learned about engineering) field visit or interview without prepared technical questions or advance counselor approval yields complete.",
+            "correction": "For Engineering Requirement 4e (What you learned about engineering), Scouts obtain advance approval, prepare structured field questions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -913,26 +909,28 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "(4a) Discuss The Work This Engineer",
-          "(4b) Discuss With The Engineer A",
-          "(4c) Out How The Engineer's Work",
-          "(4d) Ask to See",
-          "(4e) Discuss With Your Counselor What"
+          "1. (4a) Discuss The Work This Engineer",
+          "2. (4b) Discuss With The Engineer A",
+          "3. (4c) Out How The Engineer's Work",
+          "4. (4d) Ask to See",
+          "5. (4e) Discuss With Your Counselor What"
         ],
         "rows": [
-          "(4a) Discuss The Work This Engineer",
-          "(4b) Discuss With The Engineer A",
-          "(4c) Out How The Engineer's Work",
-          "(4d) Ask to See",
-          "(4e) Discuss With Your Counselor What"
-        ]
+          "1. (4a) Discuss The Work This Engineer",
+          "2. (4b) Discuss With The Engineer A",
+          "3. (4c) Out How The Engineer's Work",
+          "4. (4d) Ask to See",
+          "5. (4e) Discuss With Your Counselor What"
+        ],
+        "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Watching a generic video without preparing questions or counselor approval fulfills the Visit with an engineer field investigation in Engineering.",
-        "fact": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and document specific findings (p. 38, p. 48).",
-        "fact_correction": "Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and document specific findings (p. 38, p. 48).",
-        "pamphlet_page_ref": "p. 38, p. 48",
-        "myth": "Watching a generic video without preparing questions or counselor approval fulfills the Visit with an engineer field investigation in Engineering."
+        "misconception": "Conducting a Engineering Requirement 4 (Visit with an engineer) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "fact": "For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+        "fact_correction": "For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
+        "myth": "Conducting a Engineering Requirement 4 (Visit with an engineer) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "correction": "For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -961,14 +959,14 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Engineer Discuss Work This: Visit with an engineer: Besides specializing in particular fields, different engineers havedifferent responsibilities (p. 38).",
-        "Engineer Discuss Work This Principle 2: Visit with an engineer Principle 2: The design engineer uses new and existing ideas tosolve a new problem or to solve an old problem in a new way (p. 38).",
-        "Engineer Discuss Work This Principle 3: Visit with an engineer Principle 3: These engineers find solutions that work according to theproject's requirements, stay within the budget, and are easy and safe to use (p. 38).",
+        "Engineer Discuss Work This: Visit with an engineer: Besides specializing in particular fields, different engineers have different responsibilities (p. 38).",
+        "Engineer Discuss Work This Principle 2: Visit with an engineer Principle 2: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
+        "Engineer Discuss Work This Principle 3: Visit with an engineer Principle 3: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
         "Engineer Discuss Work This Principle 4: Visit with an engineer Principle 4: The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe (p. 38)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Engineer Discuss Work This): Step 1 (Visit with an engineer): The analytical engineer is mainly responsible for creating mathematical models of physical problems (p. 38).",
-        "Step 2 (Engineer Discuss Work This): Step 2 (Visit with an engineer): Analysis is theprocess of using the methods and tools of mathematics to simulate (mimic) how a physical object will behave in response (p. 38).",
+        "Step 2 (Engineer Discuss Work This): Step 2 (Visit with an engineer): Analysis is the process of using the methods and tools of mathematics to simulate (mimic) how a physical object will behave in response (p. 38).",
         "Step 3 (Engineer Discuss Work This): Step 3 (Visit with an engineer): The goal of analysis is to understand the object's behavior without the time and expense of building and testing physical models (p. 38).",
         "Step 4 (Engineer Discuss Work This): Step 4 (Visit with an engineer): Computer-aided engineering tools are used for simulation and analysis (p. 38)."
       ],
@@ -1013,8 +1011,8 @@
         "title": "Exemplar Technical Analysis: Engineering Req 4 (Engineer Discuss Work This)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Engineer Discuss Work This: Visit with an engineer: Besides specializing in particular fields, different engineers havedifferent responsibilities (p. 38).",
-          "Applied Field Mechanism": "Engineer Discuss Work This Principle 2: Visit with an engineer Principle 2: The design engineer uses new and existing ideas tosolve a new problem or to solve an old problem.",
+          "Core Technical Principle": "Engineer Discuss Work This: Visit with an engineer: Besides specializing in particular fields, different engineers have different responsibilities (p. 38).",
+          "Applied Field Mechanism": "Engineer Discuss Work This Principle 2: Visit with an engineer Principle 2: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem.",
           "Real-World Case Example": "Concrete application of Engineer Discuss Work This documented during Engineering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)."
         },
@@ -1022,29 +1020,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Engineer Discuss Work This: Discuss the work this engineer does and the tools the engineer uses)?",
-        "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Engineer Discuss Work This: Discuss the work this engineer does and the tools the engineer uses)?",
+        "scenario_prompt": "When working on Engineering Requirement 4 (Visit with an engineer), which principle and field standard is established in the Engineering Merit Badge Pamphlet?",
+        "question": "When working on Engineering Requirement 4 (Visit with an engineer), which principle and field standard is established in the Engineering Merit Badge Pamphlet?",
         "options": [
-          "A. Watching a generic video without preparing questions or counselor approval fulfills the Visit with an engineer field investigation.",
-          "B. Skip the Engineering Pamphlet technical criteria for Engineer Discuss Work This and use rules from an unrelated activity.",
-          "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and.",
-          "D. Substitute a casual verbal guess about Discuss the work this engineer does and the tools the e in place of documented Engineering observations."
+          "A. For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+          "B. Conducting a Engineering Requirement 4 (Visit with an engineer) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public."
         ],
         "choices": [
-          "A. Watching a generic video without preparing questions or counselor approval fulfills the Visit with an engineer field investigation.",
-          "B. Skip the Engineering Pamphlet technical criteria for Engineer Discuss Work This and use rules from an unrelated activity.",
-          "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and.",
-          "D. Substitute a casual verbal guess about Discuss the work this engineer does and the tools the e in place of documented Engineering observations."
+          "A. For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+          "B. Conducting a Engineering Requirement 4 (Visit with an engineer) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+          "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "D. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and.",
-        "explanation": "Correct Answer (C): Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and document specific findings. (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)).",
-        "pamphlet_page_ref": "p. 38, p. 48"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+        "explanation": "Correct Answer (A): For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions. (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)).",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 4.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png"
     },
     {
       "req_id": "5",
@@ -1089,22 +1087,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or...",
-          "2. Key Pamphlet Facts & Mechanism (Systems Engineering Approach)",
-          "3. Field Application & Counselor Discussion (Systems Engineering Approach)"
+          "1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or..."
         ],
         "rows": [
-          "1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or...",
-          "2. Key Pamphlet Facts & Mechanism (Systems Engineering Approach)",
-          "3. Field Application & Counselor Discussion (Systems Engineering Approach)"
-        ]
+          "1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or..."
+        ],
+        "min_rows": 1
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Systems Engineering Approach without explaining how it works in practice satisfies Engineering Requirement 5.",
-        "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Systems Engineering Approach (Systems Engineering Approach) (p. 11, p. 46).",
-        "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Systems Engineering Approach (Systems Engineering Approach) (p. 11, p. 46).",
-        "pamphlet_page_ref": "p. 11, p. 46",
-        "myth": "Memorizing a one-line definition of Systems Engineering Approach without explaining how it works in practice satisfies Engineering Requirement 5."
+        "misconception": "Overlooking how Use the systems engineering approach directly affects safety, efficiency, and decision-making in Engineering Requirement 5.",
+        "fact": "Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+        "fact_correction": "Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)",
+        "myth": "Overlooking how Use the systems engineering approach directly affects safety, efficiency, and decision-making in Engineering Requirement 5.",
+        "correction": "Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1128,13 +1124,13 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Systems Engineering Approach to Design: Use the systems engineering approach: Engineers devise all sorts ofthings, ranging from a tiny, low-costbattery for your cellphone to agigantic dam across the mighty Yangtze River in China (p. 11).",
-        "Systems Engineering Approach to Design Principle 2: Use the systems engineering approach Principle 2: The work of engineers affectsevery part of our lives, at home, at school, and at work (p. 11).",
-        "Systems Engineering Approach to Design Principle 3: Use the systems engineering approach Principle 3: Engineering touches so manyparts of our lives that it has beendivided into many different specialties (p. 11).",
+        "Systems Engineering Approach to Design: Use the systems engineering approach: Engineers devise all sorts of things, ranging from a tiny, low-cost battery for your cell phone to agigantic dam across the mighty Yangtze River in China (p. 11).",
+        "Systems Engineering Approach to Design Principle 2: Use the systems engineering approach Principle 2: The work of engineers affects every part of our lives, at home, at school, and at work (p. 11).",
+        "Systems Engineering Approach to Design Principle 3: Use the systems engineering approach Principle 3: Engineering touches so many parts of our lives that it has been divided into many different specialties (p. 11).",
         "Systems Engineering Approach to Design Principle 4: Use the systems engineering approach Principle 4: Civil engineers create the dams, bridges, and roadways on which we rely every day (p. 11)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Systems Engineering Approach to Design): Step 1 (Use the systems engineering approach): Mechanicalengineers develop machines and engines (p. 11).",
+        "Step 1 (Systems Engineering Approach to Design): Step 1 (Use the systems engineering approach): Mechanical engineers develop machines and engines (p. 11).",
         "Step 2 (Systems Engineering Approach to Design): Step 2 (Use the systems engineering approach): Biomedical engineers develop newmedical devices to help us live longer and healthier lives (p. 11).",
         "Step 3 (Systems Engineering Approach to Design): Step 3 (Use the systems engineering approach): Aerospace engineers develop new aircraft and spacecraft (p. 11).",
         "Step 4 (Systems Engineering Approach to Design): Step 4 (Use the systems engineering approach): Petroleum engineers help discover and extract new sources of oil (p. 11)."
@@ -1180,8 +1176,8 @@
         "title": "Exemplar Technical Analysis: Engineering Req 5 (Systems Engineering Approach to Design)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Systems Engineering Approach to Design: Use the systems engineering approach: Engineers devise all sorts ofthings, ranging from a tiny, low-costbattery for your cellphone to agigan.",
-          "Applied Field Mechanism": "Systems Engineering Approach to Design Principle 2: Use the systems engineering approach Principle 2: The work of engineers affectsevery part of our lives, at home, at school.",
+          "Core Technical Principle": "Systems Engineering Approach to Design: Use the systems engineering approach: Engineers devise all sorts of things, ranging from a tiny, low-cost battery for your cell phone to agigan.",
+          "Applied Field Mechanism": "Systems Engineering Approach to Design Principle 2: Use the systems engineering approach Principle 2: The work of engineers affects every part of our lives, at home, at school.",
           "Real-World Case Example": "Concrete application of Systems Engineering Approach to Design documented during Engineering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)."
         },
@@ -1189,29 +1185,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)."
       },
       "quiz_item": {
-        "scenario_prompt": "When preparing for your counselor conference on Engineering Requirement 5 (Systems Engineering Approach), which statement accurately reflects the official BSA standard for Use the systems engineering approach to design an original piece of patrol ?",
-        "question": "When preparing for your counselor conference on Engineering Requirement 5 (Systems Engineering Approach), which statement accurately reflects the official BSA standard for Use the systems engineering approach to design an original piece of patrol ?",
+        "scenario_prompt": "During your patrol's preparation and review for Engineering Requirement 5 (Use the systems engineering approach), which statement accurately reflects the official Engineering Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Engineering Requirement 5 (Use the systems engineering approach), which statement accurately reflects the official Engineering Merit Badge Pamphlet?",
         "options": [
-          "A. Memorizing a one-line definition of Systems Engineering Approach without explaining how it works in practice satisfies Engineering.",
-          "B. Skip the Engineering Pamphlet technical criteria for Systems Engineering Approach and use rules from an unrelated activity.",
-          "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Use the systems engineering approach to design an origi in place of documented Engineering observations."
+          "A. Overlooking how Use the systems engineering approach directly affects safety, efficiency, and decision-making in Engineering Requirement 5.",
+          "B. Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+          "C. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+          "D. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Systems Engineering Approach without explaining how it works in practice satisfies Engineering.",
-          "B. Skip the Engineering Pamphlet technical criteria for Systems Engineering Approach and use rules from an unrelated activity.",
-          "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Substitute a casual verbal guess about Use the systems engineering approach to design an origi in place of documented Engineering observations."
+          "A. Overlooking how Use the systems engineering approach directly affects safety, efficiency, and decision-making in Engineering Requirement 5.",
+          "B. Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+          "C. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+          "D. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (C): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Systems Engineering Approach (Systems Engineering Approach). (Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)).",
-        "pamphlet_page_ref": "p. 11, p. 46"
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+        "explanation": "Correct Answer (B): Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost. (Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)).",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 5.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/engineering_p011_img1.png"
     },
     {
       "req_id": "6",
@@ -1256,15 +1252,17 @@
               "2. Using common materials or a construction set, make a simple model that will demonstrate motion.",
               "3. Explain how the model uses basic mechanical elements like levers and inclined planes to demonstrate motion.",
               "4. Describe an example where this mechanism is used in a real product."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Transforming Motion verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6a.",
-            "fact": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Transforming Motion with proper technique (p. 30, p. 86).",
-            "fact_correction": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Transforming Motion with proper technique (p. 30, p. 86).",
-            "pamphlet_page_ref": "p. 30, p. 86",
-            "myth": "Describing how to perform Transforming Motion verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6a."
+            "misconception": "Performing Transforming Motion in Engineering Requirement 6a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Engineering Requirement 6a (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+            "fact_correction": "Hands-on execution of Engineering Requirement 6a (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+            "myth": "Performing Transforming Motion in Engineering Requirement 6a without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Engineering Requirement 6a (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1295,7 +1293,7 @@
           "pamphlet_excerpts": [
             "Transforming Motion Principle 4: It would be great if we could always find the \"best\" solution (p. 30)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png"
         },
         {
           "sub_id": "6b",
@@ -1337,15 +1335,17 @@
               "2. Make a list of 10 electrical appliances in your home.",
               "3. Find out approximately how much electricity each uses in one month.",
               "4. Learn how to find out the amount and cost of electricity used in your home during periods of light and heavy use."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Using Electricity verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6b.",
-            "fact": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Using Electricity with proper technique (p. 30, p. 86).",
-            "fact_correction": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Using Electricity with proper technique (p. 30, p. 86).",
-            "pamphlet_page_ref": "p. 30, p. 86",
-            "myth": "Describing how to perform Using Electricity verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6b."
+            "misconception": "Performing Using Electricity in Engineering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Engineering Requirement 6b (Using Electricity) depends on precise setup and step-by-step technique: Your research tools should include the World Wide Web, libraries.",
+            "fact_correction": "Hands-on execution of Engineering Requirement 6b (Using Electricity) depends on precise setup and step-by-step technique: Your research tools should include the World Wide Web, libraries.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+            "myth": "Performing Using Electricity in Engineering Requirement 6b without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Engineering Requirement 6b (Using Electricity) depends on precise setup and step-by-step technique: Your research tools should include the World Wide Web, libraries."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1412,15 +1412,17 @@
               "1. Understanding Electronics.",
               "2. Using an electronic device such as a smartphone or tablet computer, find out how sound, video, text or images travel from one...",
               "3. Explain how the device was designed for ease of use, function, and durability."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Memorizing a one-line definition of Understanding Electronics Using An Electronic without explaining how it works in practice satisfies Engineering Requirement 6c.",
-            "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Understanding Electronics Using An Electronic (Understanding Electronics Using An Electronic) (p. 30, p. 86).",
-            "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Understanding Electronics Using An Electronic (Understanding Electronics Using An Electronic) (p. 30, p. 86).",
-            "pamphlet_page_ref": "p. 30, p. 86",
-            "myth": "Memorizing a one-line definition of Understanding Electronics Using An Electronic without explaining how it works in practice satisfies Engineering Requirement 6c."
+            "misconception": "Estimating Understanding Electronics figures from memory at the end of the project is as accurate as recording real-time measurements for Engineering Requirement 6c.",
+            "fact": "Accurate Engineering Requirement 6c (Understanding Electronics) analysis requires contemporaneous data logging and verified measurements: Ask your science teacher and merit badge counselor.",
+            "fact_correction": "Accurate Engineering Requirement 6c (Understanding Electronics) analysis requires contemporaneous data logging and verified measurements: Ask your science teacher and merit badge counselor.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+            "myth": "Estimating Understanding Electronics figures from memory at the end of the project is as accurate as recording real-time measurements for Engineering Requirement 6c.",
+            "correction": "Accurate Engineering Requirement 6c (Understanding Electronics) analysis requires contemporaneous data logging and verified measurements: Ask your science teacher and merit badge counselor."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1487,15 +1489,17 @@
               "1. Using Materials.",
               "2. Do experiments to show the differences in strength and heat conductivity in wood, metal, and plastic.",
               "3. Discuss with your counselor what you have learned."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "All concepts or systems compared under Materials Do Experiments in Engineering behave identically regardless of operating conditions.",
-            "fact": "Each system or condition in Materials Do Experiments has distinct physical mechanisms, operating limits, and field indicators defined in the Engineering pamphlet (p. 30, p. 86).",
-            "fact_correction": "Each system or condition in Materials Do Experiments has distinct physical mechanisms, operating limits, and field indicators defined in the Engineering pamphlet (p. 30, p. 86).",
-            "pamphlet_page_ref": "p. 30, p. 86",
-            "myth": "All concepts or systems compared under Materials Do Experiments in Engineering behave identically regardless of operating conditions."
+            "misconception": "Performing Using Materials in Engineering Requirement 6d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Engineering Requirement 6d (Using Materials) depends on precise setup and step-by-step technique: Planning, developing, organizing.",
+            "fact_correction": "Hands-on execution of Engineering Requirement 6d (Using Materials) depends on precise setup and step-by-step technique: Planning, developing, organizing.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+            "myth": "Performing Using Materials in Engineering Requirement 6d without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Engineering Requirement 6d (Using Materials) depends on precise setup and step-by-step technique: Planning, developing, organizing."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1576,15 +1580,17 @@
               "2. Do an experiment to show how mechanical, heat, chemical, solar, and/or electrical energy may be converted from one or more types of...",
               "3. Explain your results.",
               "4. Describe to your counselor what energy is and how energy is converted and used in your surroundings."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Converting Energy verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6e.",
-            "fact": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Converting Energy with proper technique (p. 30, p. 86).",
-            "fact_correction": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Converting Energy with proper technique (p. 30, p. 86).",
-            "pamphlet_page_ref": "p. 30, p. 86",
-            "myth": "Describing how to perform Converting Energy verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6e."
+            "misconception": "Performing Converting Energy in Engineering Requirement 6e without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Engineering Requirement 6e (Converting Energy) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+            "fact_correction": "Hands-on execution of Engineering Requirement 6e (Converting Energy) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+            "myth": "Performing Converting Energy in Engineering Requirement 6e without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Engineering Requirement 6e (Converting Energy) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1657,15 +1663,17 @@
               "2. Find out the different ways people in your community get to work.",
               "3. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods.",
               "4. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need."
-            ]
+            ],
+            "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Moving People verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6f.",
-            "fact": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Moving People with proper technique (p. 30, p. 86).",
-            "fact_correction": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Moving People with proper technique (p. 30, p. 86).",
-            "pamphlet_page_ref": "p. 30, p. 86",
-            "myth": "Describing how to perform Moving People verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6f."
+            "misconception": "Performing Moving People in Engineering Requirement 6f without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Engineering Requirement 6f (Moving People) depends on precise setup and step-by-step technique: Your research tools should include the World Wide Web, libraries.",
+            "fact_correction": "Hands-on execution of Engineering Requirement 6f (Moving People) depends on precise setup and step-by-step technique: Your research tools should include the World Wide Web, libraries.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+            "myth": "Performing Moving People in Engineering Requirement 6f without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Engineering Requirement 6f (Moving People) depends on precise setup and step-by-step technique: Your research tools should include the World Wide Web, libraries."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1727,15 +1735,17 @@
               "1. Building an Engineering Project.",
               "2. Enter a project in a science or engineering fair or similar competition.",
               "3. (This requirement may be met by participation on an engineering competition project team.) Discuss with your counselor what your..."
-            ]
+            ],
+            "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Describing how to perform Building An Engineering Project verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6g.",
-            "fact": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Building An Engineering Project with proper technique (p. 30, p. 86).",
-            "fact_correction": "Under Scouting America advancement standards and the Engineering pamphlet, each Scout must physically execute and demonstrate Building An Engineering Project with proper technique (p. 30, p. 86).",
-            "pamphlet_page_ref": "p. 30, p. 86",
-            "myth": "Describing how to perform Building An Engineering Project verbally can substitute for a physical hands-on demonstration in Engineering Requirement 6g."
+            "misconception": "Performing Building an Engineering Project in Engineering Requirement 6g without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "fact": "Hands-on execution of Engineering Requirement 6g (Building an Engineering Project) depends on precise setup and step-by-step technique: Ask your science teacher and merit badge counselor.",
+            "fact_correction": "Hands-on execution of Engineering Requirement 6g (Building an Engineering Project) depends on precise setup and step-by-step technique: Ask your science teacher and merit badge counselor.",
+            "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+            "myth": "Performing Building an Engineering Project in Engineering Requirement 6g without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+            "correction": "Hands-on execution of Engineering Requirement 6g (Building an Engineering Project) depends on precise setup and step-by-step technique: Ask your science teacher and merit badge counselor."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1845,30 +1855,32 @@
           "Comparison Concept / System B"
         ],
         "row_labels": [
-          "(6a) Transforming Motion Using Common Materials",
-          "(6b) Electricity Make A List of",
-          "(6c) Understanding Electronics Using An Electronic",
-          "(6d) Materials Do Experiments",
-          "(6e) Converting Energy Do An Experiment",
-          "(6f) Moving People Find Out",
-          "(6g) Building An Engineering Project Enter"
+          "1. (6a) Transforming Motion Using Common Materials",
+          "2. (6b) Electricity Make A List of",
+          "3. (6c) Understanding Electronics Using An Electronic",
+          "4. (6d) Materials Do Experiments",
+          "5. (6e) Converting Energy Do An Experiment",
+          "6. (6f) Moving People Find Out",
+          "7. (6g) Building An Engineering Project Enter"
         ],
         "rows": [
-          "(6a) Transforming Motion Using Common Materials",
-          "(6b) Electricity Make A List of",
-          "(6c) Understanding Electronics Using An Electronic",
-          "(6d) Materials Do Experiments",
-          "(6e) Converting Energy Do An Experiment",
-          "(6f) Moving People Find Out",
-          "(6g) Building An Engineering Project Enter"
-        ]
+          "1. (6a) Transforming Motion Using Common Materials",
+          "2. (6b) Electricity Make A List of",
+          "3. (6c) Understanding Electronics Using An Electronic",
+          "4. (6d) Materials Do Experiments",
+          "5. (6e) Converting Energy Do An Experiment",
+          "6. (6f) Moving People Find Out",
+          "7. (6g) Building An Engineering Project Enter"
+        ],
+        "min_rows": 7
       },
       "common_misconception_pair": {
-        "misconception": "All concepts or systems compared under Transforming Motion Using Common Materials in Engineering behave identically regardless of operating conditions.",
-        "fact": "Each system or condition in Transforming Motion Using Common Materials has distinct physical mechanisms, operating limits, and field indicators defined in the Engineering pamphlet (p. 30, p. 86).",
-        "fact_correction": "Each system or condition in Transforming Motion Using Common Materials has distinct physical mechanisms, operating limits, and field indicators defined in the Engineering pamphlet (p. 30, p. 86).",
-        "pamphlet_page_ref": "p. 30, p. 86",
-        "myth": "All concepts or systems compared under Transforming Motion Using Common Materials in Engineering behave identically regardless of operating conditions."
+        "misconception": "Performing Transforming Motion in Engineering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "fact": "Hands-on execution of Engineering Requirement 6 (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+        "fact_correction": "Hands-on execution of Engineering Requirement 6 (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
+        "myth": "Performing Transforming Motion in Engineering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+        "correction": "Hands-on execution of Engineering Requirement 6 (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1893,14 +1905,14 @@
       ],
       "pamphlet_excerpts": [
         "Transforming Motion: Your research tools should include the World Wide Web, libraries, and related industries (p. 30).",
-        "Transforming Motion Principle 2: Ask your science teacher and merit badge counselor forguidance (p. 30).",
+        "Transforming Motion Principle 2: Ask your science teacher and merit badge counselor for guidance (p. 30).",
         "Transforming Motion Principle 3: Planning, developing, organizing, and building your entry into a project that will meet the particular requirements of a fair or competition (p. 30).",
         "Transforming Motion Principle 4: It would be great if we could always find the \"best\" solution (p. 30)."
       ],
       "step_by_step_procedure": [
         "Step 1 (Transforming Motion): Engineers, however, must work within limitations imposed on them by available materials, supplies, money, and tools (p. 30).",
-        "Step 2 (Transforming Motion): Theymust be sensitive to environmental concerns, politics, and theculture of their company and the community (p. 30).",
-        "Step 3 (Transforming Motion): With every failure comes the chance to learn how to improvedesign and technique (p. 30).",
+        "Step 2 (Transforming Motion): They must be sensitive to environmental concerns, politics, and the culture of their company and the community (p. 30).",
+        "Step 3 (Transforming Motion): With every failure comes the chance to learn how to improve design and technique (p. 30).",
         "Step 4 (Transforming Motion): The engineer seeks the proper balance of quality of construction and acceptable cost, while not compromising function or safety (p. 30)."
       ],
       "gear_checklist": [
@@ -1944,38 +1956,38 @@
         "title": "Exemplar Skill Station Walkthrough: Engineering Req 6 (Transforming Motion)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Transforming Motion.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Transforming Motion.",
           "Step-by-Step Execution": "Transforming Motion: Your research tools should include the World Wide Web, libraries, and related industries (p. 30).",
-          "Quality & Tolerance Check": "Transforming Motion Principle 2: Ask your science teacher and merit badge counselor forguidance (p. 30).",
+          "Quality & Tolerance Check": "Transforming Motion Principle 2: Ask your science teacher and merit badge counselor for guidance (p. 30).",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86))"
         },
         "sample_output": "Transforming Motion: Transforming Motion: Your research tools should include the World Wide Web, libraries, and related industries (p. 30).",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)."
       },
       "quiz_item": {
-        "scenario_prompt": "During the hands-on skill station for Engineering Requirement 6 (Transforming Motion Using Common Materials), what execution standard is required when demonstrating Transforming Motion. Using common materials or a construction set, make a s?",
-        "question": "During the hands-on skill station for Engineering Requirement 6 (Transforming Motion Using Common Materials), what execution standard is required when demonstrating Transforming Motion. Using common materials or a construction set, make a s?",
+        "scenario_prompt": "In Engineering Requirement 6 (Transforming Motion), what technical standard and procedure does the Scouting America Engineering Merit Badge Pamphlet require?",
+        "question": "In Engineering Requirement 6 (Transforming Motion), what technical standard and procedure does the Scouting America Engineering Merit Badge Pamphlet require?",
         "options": [
-          "A. Each system or condition in Transforming Motion Using Common Materials has distinct physical mechanisms, operating limits, and.",
-          "B. All concepts or systems compared under Transforming Motion Using Common Materials in Engineering behave identically regardless of.",
-          "C. Focus only on Transforming Motion. Using common materials or a constr while omitting Using Electricity. Make a list of 10 electrical applian and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 6 rather than fulfilling the full Transforming Motion Using Common Materials standard."
+          "A. Performing Transforming Motion in Engineering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate.",
+          "C. Hands-on execution of Engineering Requirement 6 (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+          "D. Because the engineering design process eliminates the need for mathematics, physics, or safety standards."
         ],
         "choices": [
-          "A. Each system or condition in Transforming Motion Using Common Materials has distinct physical mechanisms, operating limits, and.",
-          "B. All concepts or systems compared under Transforming Motion Using Common Materials in Engineering behave identically regardless of.",
-          "C. Focus only on Transforming Motion. Using common materials or a constr while omitting Using Electricity. Make a list of 10 electrical applian and its required field verification.",
-          "D. Complete only a single sub-part of Requirement 6 rather than fulfilling the full Transforming Motion Using Common Materials standard."
+          "A. Performing Transforming Motion in Engineering Requirement 6 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "B. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate.",
+          "C. Hands-on execution of Engineering Requirement 6 (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+          "D. Because the engineering design process eliminates the need for mathematics, physics, or safety standards."
         ],
-        "correct_index": 0,
-        "correct_letter": "A",
-        "correct_answer": "A. Each system or condition in Transforming Motion Using Common Materials has distinct physical mechanisms, operating limits, and.",
-        "explanation": "Correct Answer (A): Each system or condition in Transforming Motion Using Common Materials has distinct physical mechanisms, operating limits, and field indicators defined in the Engineering pamphlet. (Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)).",
-        "pamphlet_page_ref": "p. 30, p. 86"
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Hands-on execution of Engineering Requirement 6 (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution.",
+        "explanation": "Correct Answer (C): Hands-on execution of Engineering Requirement 6 (Transforming Motion) depends on precise setup and step-by-step technique: It would be great if we could always find the \"best\" solution. (Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)).",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)"
       },
       "estimated_minutes": 20,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 6.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png"
     },
     {
       "req_id": "7",
@@ -2028,14 +2040,16 @@
           "1. Explain what it means to be a registered Professional Engineer (P.",
           "2. E.).",
           "3. Name the types of engineering work for which registration is most important."
-        ]
+        ],
+        "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Engineering career exploration requirement.",
-        "fact": "Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Engineering (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Engineering (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)",
-        "myth": "Listing three job titles from a quick web search satisfies the Engineering career exploration requirement."
+        "myth": "Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Engineering (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2059,16 +2073,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "It means to be a registered: The Engineer's Code of Ethics has three fundamentalprinciples that guide the work of the engineeringprofession (p. 94).",
+        "It means to be a registered: The Engineer's Code of Ethics has three fundamental principles that guide the work of the engineering profession (p. 94).",
         "It means to be a registered Principle 2: Engineers uphold and advance the integrity, honor, and dignity of their profession by 1 (p. 94).",
         "It means to be a registered Principle 3: Using their knowledge and skill for the enhancement of human welfare 2 (p. 94).",
         "It means to be a registered Principle 4: Being honest and impartial, and faithfully serving the public, their employers, and their clients 3 (p. 94)."
       ],
       "step_by_step_procedure": [
         "Step 1 (It means to be a registered): Some firms require engineers to be licensed before they can move up to engineering management positions (p. 94).",
-        "Step 2 (It means to be a registered): Requirements vary from state to state, but for mostengineers, obtaining a license is a four-step process (p. 94).",
-        "Step 3 (It means to be a registered): Earn a four-year engineering degree in a programapproved by the state engineering licensure board. 2 (p. 94).",
-        "Step 4 (It means to be a registered): Complete four years of qualifying engineeringwork experience. 3 (p. 94)."
+        "Step 2 (It means to be a registered): Requirements vary from state to state, but for most engineers, obtaining a license is a four-step process (p. 94).",
+        "Step 3 (It means to be a registered): Earn a four-year engineering degree in a program approved by the state engineering licensure board. 2 (p. 94).",
+        "Step 4 (It means to be a registered): Complete four years of qualifying engineering work experience. 3 (p. 94)."
       ],
       "gear_checklist": [
         "Official Engineering Merit Badge Pamphlet and Fillable Workbook (open to Req 7: It means to be a registered)",
@@ -2111,7 +2125,7 @@
         "title": "Exemplar Technical Analysis: Engineering Req 7 (It means to be a registered)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "It means to be a registered: The Engineer's Code of Ethics has three fundamentalprinciples that guide the work of the engineeringprofession (p. 94).",
+          "Core Technical Principle": "It means to be a registered: The Engineer's Code of Ethics has three fundamental principles that guide the work of the engineering profession (p. 94).",
           "Applied Field Mechanism": "It means to be a registered Principle 2: Engineers uphold and advance the integrity, honor, and dignity of their profession by 1 (p. 94).",
           "Real-World Case Example": "Concrete application of It means to be a registered documented during Engineering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)."
@@ -2120,29 +2134,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Engineering Careers and Pathways: Explain what it means to be a registered Professional Engineer (P)?",
-        "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 7 (Engineering Careers and Pathways: Explain what it means to be a registered Professional Engineer (P)?",
+        "scenario_prompt": "When demonstrating and explaining It means to be a registered for Engineering Requirement 7, which approach follows the verified Engineering Merit Badge Pamphlet standard?",
+        "question": "When demonstrating and explaining It means to be a registered for Engineering Requirement 7, which approach follows the verified Engineering Merit Badge Pamphlet standard?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Engineering career exploration requirement.",
-          "B. Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties.",
-          "C. Rely on a group summary of Engineering Careers and Pathways instead of individually explaining or demonstrating Explain what it means to be a registered Professional Engine.",
-          "D. Substitute a casual verbal guess about Explain what it means to be a registered Professional E in place of documented Engineering observations."
+          "A. Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+          "B. Because the engineering design process eliminates the need for mathematics, physics, or safety standards.",
+          "C. Performing Manufactured Item in Your Home in Engineering Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Pursuing a career or advanced pathway in Engineering (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Engineering career exploration requirement.",
-          "B. Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties.",
-          "C. Rely on a group summary of Engineering Careers and Pathways instead of individually explaining or demonstrating Explain what it means to be a registered Professional Engine.",
-          "D. Substitute a casual verbal guess about Explain what it means to be a registered Professional E in place of documented Engineering observations."
+          "A. Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+          "B. Because the engineering design process eliminates the need for mathematics, physics, or safety standards.",
+          "C. Performing Manufactured Item in Your Home in Engineering Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Pursuing a career or advanced pathway in Engineering (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
         ],
-        "correct_index": 1,
-        "correct_letter": "B",
-        "correct_answer": "B. Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (B): Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)).",
+        "correct_index": 3,
+        "correct_letter": "D",
+        "correct_answer": "D. Pursuing a career or advanced pathway in Engineering (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (D): Pursuing a career or advanced pathway in Engineering (Req 7) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)).",
         "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 7.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/engineering_p093_img1.png"
     },
     {
       "req_id": "8",
@@ -2201,14 +2215,16 @@
         "rows": [
           "1. Study the Engineer's Code of Ethics.",
           "2. Explain how it is like the Scout Oath and Law."
-        ]
+        ],
+        "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Memorizing a one-line definition of Engineer's Code of Ethics without explaining how it works in practice satisfies Engineering Requirement 8.",
-        "fact": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Engineer's Code of Ethics (Engineer's Code of Ethics) (p. 21, p. 30).",
-        "fact_correction": "The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Engineer's Code of Ethics (Engineer's Code of Ethics) (p. 21, p. 30).",
-        "pamphlet_page_ref": "p. 21, p. 30",
-        "myth": "Memorizing a one-line definition of Engineer's Code of Ethics without explaining how it works in practice satisfies Engineering Requirement 8."
+        "misconception": "Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+        "fact": "Mastering Engineering Requirement 8 (Study the Engineer's Code of Ethics) requires applying the verified pamphlet mechanism: As important as engineering is in the home, it is even more important.",
+        "fact_correction": "Mastering Engineering Requirement 8 (Study the Engineer's Code of Ethics) requires applying the verified pamphlet mechanism: As important as engineering is in the home, it is even more important.",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)",
+        "myth": "Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+        "correction": "Mastering Engineering Requirement 8 (Study the Engineer's Code of Ethics) requires applying the verified pamphlet mechanism: As important as engineering is in the home, it is even more important."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2232,16 +2248,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Study the Engineer's Code of Ethics: As important as engineering is in thehome, it is even more important in theworkplace (p. 21).",
-        "Study the Engineer's Code of Ethics Principle 2: Advances in engineeringincrease productivity, the amount ofproduct that results from a givenamount of energy or cost (p. 21).",
-        "Study the Engineer's Code of Ethics Principle 3: Shaving just a few pennies off the cost of making aproduct, through better design orcheaper materials, could make thedifference between profit and loss (p. 21).",
-        "Study the Engineer's Code of Ethics Principle 4: In factories, engineers can designsystems and operating methods toreduce waste (p. 21)."
+        "Study the Engineer's Code of Ethics: As important as engineering is in the home, it is even more important in the workplace (p. 21).",
+        "Study the Engineer's Code of Ethics Principle 2: Advances in engineering increase productivity, the amount of product that results from a given amount of energy or cost (p. 21).",
+        "Study the Engineer's Code of Ethics Principle 3: Shaving just a few pennies off the cost of making aproduct, through better design or cheaper materials, could make the difference between profit and loss (p. 21).",
+        "Study the Engineer's Code of Ethics Principle 4: In factories, engineers can design systems and operating methods to reduce waste (p. 21)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Study the Engineer's Code of Ethics): They can devise specialized software to control productionprocesses and manage inventory (p. 21).",
+        "Step 1 (Study the Engineer's Code of Ethics): They can devise specialized software to control production processes and manage inventory (p. 21).",
         "Step 2 (Study the Engineer's Code of Ethics): They can help plan the best use of salespeople in the field and can design layouts for retail stores (p. 21).",
-        "Step 3 (Study the Engineer's Code of Ethics): They can even help set up storefronts on theinternet, figure out how much product to keep in inventory, anddecide how best to ship products (p. 21).",
-        "Step 4 (Study the Engineer's Code of Ethics): If you enjoy computer games, you can thank the softwareengineers for writing the code that makes those gamespossible (p. 21)."
+        "Step 3 (Study the Engineer's Code of Ethics): They can even help set up storefronts on the internet, figure out how much product to keep in inventory, and decide how best to ship products (p. 21).",
+        "Step 4 (Study the Engineer's Code of Ethics): If you enjoy computer games, you can thank the software engineers for writing the code that makes those games possible (p. 21)."
       ],
       "gear_checklist": [
         "Official Engineering Merit Badge Pamphlet and Fillable Workbook (open to Req 8: Study the Engineer's Code of Ethics)",
@@ -2284,8 +2300,8 @@
         "title": "Exemplar Technical Analysis: Engineering Req 8 (Study the Engineer's Code of Ethics)",
         "artifact_type": "TECHNICAL_CONCEPT_BRIEFING",
         "fields": {
-          "Core Technical Principle": "Study the Engineer's Code of Ethics: As important as engineering is in thehome, it is even more important in theworkplace (p. 21).",
-          "Applied Field Mechanism": "Study the Engineer's Code of Ethics Principle 2: Advances in engineeringincrease productivity, the amount ofproduct that results from a givenamount of energy or cost (p. 21).",
+          "Core Technical Principle": "Study the Engineer's Code of Ethics: As important as engineering is in the home, it is even more important in the workplace (p. 21).",
+          "Applied Field Mechanism": "Study the Engineer's Code of Ethics Principle 2: Advances in engineering increase productivity, the amount of product that results from a given amount of energy or cost (p. 21).",
           "Real-World Case Example": "Concrete application of Study the Engineer's Code of Ethics documented during Engineering study.",
           "Pamphlet Reference Anchor": "Cross-checked against Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)."
         },
@@ -2293,29 +2309,29 @@
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)."
       },
       "quiz_item": {
-        "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 8 (Engineer's Code of Ethics: Study the Engineer's Code of Ethics)?",
-        "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 8 (Engineer's Code of Ethics: Study the Engineer's Code of Ethics)?",
+        "scenario_prompt": "When working on Engineering Requirement 8 (Study the Engineer's Code of Ethics), which principle and field standard is established in the Engineering Merit Badge Pamphlet?",
+        "question": "When working on Engineering Requirement 8 (Study the Engineer's Code of Ethics), which principle and field standard is established in the Engineering Merit Badge Pamphlet?",
         "options": [
-          "A. Memorizing a one-line definition of Engineer's Code of Ethics without explaining how it works in practice satisfies Engineering.",
-          "B. Skip the Engineering Pamphlet technical criteria for Engineer's Code of Ethics and use rules from an unrelated activity.",
-          "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Assume Engineer's Code of Ethics applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+          "A. Mastering Engineering Requirement 8 (Study the Engineer's Code of Ethics) requires applying the verified pamphlet mechanism: As important as engineering is in the home, it is even more important.",
+          "B. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+          "C. Performing Manufactured Item in Your Home in Engineering Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2."
         ],
         "choices": [
-          "A. Memorizing a one-line definition of Engineer's Code of Ethics without explaining how it works in practice satisfies Engineering.",
-          "B. Skip the Engineering Pamphlet technical criteria for Engineer's Code of Ethics and use rules from an unrelated activity.",
-          "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-          "D. Assume Engineer's Code of Ethics applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+          "A. Mastering Engineering Requirement 8 (Study the Engineer's Code of Ethics) requires applying the verified pamphlet mechanism: As important as engineering is in the home, it is even more important.",
+          "B. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+          "C. Performing Manufactured Item in Your Home in Engineering Requirement 1 without pre-inspecting gear alignment, tension, or field conditions produces reliable results.",
+          "D. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2."
         ],
-        "correct_index": 2,
-        "correct_letter": "C",
-        "correct_answer": "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "explanation": "Correct Answer (C): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Engineer's Code of Ethics (Engineer's Code of Ethics). (Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)).",
-        "pamphlet_page_ref": "p. 21, p. 30"
+        "correct_index": 0,
+        "correct_letter": "A",
+        "correct_answer": "A. Mastering Engineering Requirement 8 (Study the Engineer's Code of Ethics) requires applying the verified pamphlet mechanism: As important as engineering is in the home, it is even more important.",
+        "explanation": "Correct Answer (A): Mastering Engineering Requirement 8 (Study the Engineer's Code of Ethics) requires applying the verified pamphlet mechanism: As important as engineering is in the home, it is even more important. (Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)).",
+        "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 8.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/engineering_p021_img1.png"
     },
     {
       "req_id": "9",
@@ -2370,14 +2386,16 @@
           "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement.",
           "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a...",
           "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
-        ]
+        ],
+        "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Listing three job titles from a quick web search satisfies the Engineering career exploration requirement.",
-        "fact": "Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
-        "fact_correction": "Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties with their counselor.",
+        "misconception": "Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "fact": "Pursuing a career or advanced pathway in Engineering (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "fact_correction": "Pursuing a career or advanced pathway in Engineering (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
         "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)",
-        "myth": "Listing three job titles from a quick web search satisfies the Engineering career exploration requirement."
+        "myth": "Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "correction": "Pursuing a career or advanced pathway in Engineering (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2406,15 +2424,15 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Careers & Professional Pathways: Engineering qualifies as a profession because it requiresspecialized knowledge and often long and intensive academicpreparation (p. 91).",
-        "Careers & Professional Pathways Principle 2: Engineers are also professionals because theymake their living in an activity that conforms to the technical and ethical standards of a profession (p. 91).",
+        "Careers & Professional Pathways: Engineering qualifies as a profession because it requires specialized knowledge and often long and intensive academic preparation (p. 91).",
+        "Careers & Professional Pathways Principle 2: Engineers are also professionals because they make their living in an activity that conforms to the technical and ethical standards of a profession (p. 91).",
         "Careers & Professional Pathways Principle 3: Ethics are an important part of the engineering profession, especially as science and technology continue to evolve rapidly (p. 91).",
         "Careers & Professional Pathways Principle 4: An engineer's ethical standards are similar to those expected of other professionals in the well-established areas of medicine, business, and law (p. 91)."
       ],
       "step_by_step_procedure": [
-        "Step 1 (Careers & Professional Pathways): Their work is for the good of the public and the clients theyrepresent, and in no way should result in harm to people orthe environment (p. 91).",
-        "Step 2 (Careers & Professional Pathways): A Scout who commits to the Scout Oath and the Scout Law already has some understanding of ethics and is practicingthem in his everyday life (p. 91).",
-        "Step 3 (Careers & Professional Pathways): These are the same principles thatguide the careers of engineers and other professionals (p. 91).",
+        "Step 1 (Careers & Professional Pathways): Their work is for the good of the public and the clients they represent, and in no way should result in harm to people orthe environment (p. 91).",
+        "Step 2 (Careers & Professional Pathways): A Scout who commits to the Scout Oath and the Scout Law already has some understanding of ethics and is practicing them in his everyday life (p. 91).",
+        "Step 3 (Careers & Professional Pathways): These are the same principles that guide the careers of engineers and other professionals (p. 91).",
         "Step 4 (Careers & Professional Pathways): Engineering as a Career Other Things to Ask Yourself You have read that engineers create new things to meet needs and solve problems (p. 91)."
       ],
       "gear_checklist": [
@@ -2458,38 +2476,38 @@
         "title": "Exemplar Skill Station Walkthrough: Engineering Req 9 (Careers & Professional Pathways)",
         "artifact_type": "HANDS_ON_SKILL_DEMONSTRATION_RECORD",
         "fields": {
-          "Equipment & Station Setup": "Calibrated tools, materials, and workspace prepared for Careers & Professional Pathways.",
-          "Step-by-Step Execution": "Careers & Professional Pathways: Engineering qualifies as a profession because it requiresspecialized knowledge and often long and intensive academicpreparation (p. 91).",
-          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: Engineers are also professionals because theymake their living in an activity that conforms to the technical and ethical standards.",
+          "Equipment & Station Setup": "Calibrated tools, materials, and works pace prepared for Careers & Professional Pathways.",
+          "Step-by-Step Execution": "Careers & Professional Pathways: Engineering qualifies as a profession because it requires specialized knowledge and often long and intensive academic preparation (p. 91).",
+          "Quality & Tolerance Check": "Careers & Professional Pathways Principle 2: Engineers are also professionals because they make their living in an activity that conforms to the technical and ethical standards.",
           "Observed Performance": "Independent execution demonstrated using BSA EDGE method (Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94))"
         },
         "sample_output": "Careers & Professional Pathways: Careers & Professional Pathways: Engineering qualifies as a profession because it requiresspecialized knowledge and often long and intensive",
         "counselor_tip": "Check that the Scout's entry includes specific technical details from Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)."
       },
       "quiz_item": {
-        "scenario_prompt": "When evaluating professional pathways for Engineering Requirement 9 (Engineering Careers and Pathways), what qualification and career-research standard must a Scout verify?",
-        "question": "When evaluating professional pathways for Engineering Requirement 9 (Engineering Careers and Pathways), what qualification and career-research standard must a Scout verify?",
+        "scenario_prompt": "During your patrol's preparation and review for Engineering Requirement 9 (Careers & Professional Pathways), which statement accurately reflects the official Engineering Merit Badge Pamphlet?",
+        "question": "During your patrol's preparation and review for Engineering Requirement 9 (Careers & Professional Pathways), which statement accurately reflects the official Engineering Merit Badge Pamphlet?",
         "options": [
-          "A. Listing three job titles from a quick web search satisfies the Engineering career exploration requirement.",
-          "B. Reverse the sequence of Engineering Careers and Pathways steps by attempting final sign-off before completing Explore careers related to this merit badge.",
-          "C. Substitute a casual verbal guess about Explore careers related to this merit badge in place of documented Engineering observations.",
-          "D. Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties."
+          "A. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Pursuing a career or advanced pathway in Engineering (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "C. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+          "D. Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms."
         ],
         "choices": [
-          "A. Listing three job titles from a quick web search satisfies the Engineering career exploration requirement.",
-          "B. Reverse the sequence of Engineering Careers and Pathways steps by attempting final sign-off before completing Explore careers related to this merit badge.",
-          "C. Substitute a casual verbal guess about Explore careers related to this merit badge in place of documented Engineering observations.",
-          "D. Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties."
+          "A. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+          "B. Pursuing a career or advanced pathway in Engineering (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+          "C. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+          "D. Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms."
         ],
-        "correct_index": 3,
-        "correct_letter": "D",
-        "correct_answer": "D. Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties.",
-        "explanation": "Correct Answer (D): Scouts must research specific Engineering career pathways and discuss required education, training, licensing, and daily duties with their counselor. (Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)).",
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Pursuing a career or advanced pathway in Engineering (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties.",
+        "explanation": "Correct Answer (B): Pursuing a career or advanced pathway in Engineering (Req 9) requires researching specific education, apprenticeship or degree credentials, industry certifications, and daily professional duties. (Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)).",
         "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)"
       },
       "estimated_minutes": 15,
       "homework_verification_note": "Verify completed Engineering Workbook organizer table and practical demonstration for Req 9.",
-      "workbook_diagram_url": ""
+      "workbook_diagram_url": "assets/pamphlet_images/engineering_p092_img1.png"
     }
   ],
   "badge_slug": "engineering",
@@ -2500,117 +2518,117 @@
   "status": "OFFICIAL",
   "patrol_quiz_bank": [
     {
-      "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Manufactured Item in Your Home: Select a manufactured item in your home (such as a toy or an appliance)?",
-      "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 1 (Manufactured Item in Your Home: Select a manufactured item in your home (such as a toy or an appliance)?",
+      "scenario_prompt": "When reverse-engineering a household appliance or mechanical device for Engineering Requirement 1, why do engineers apply the iterative engineering design process rather than building a single final product without testing?",
+      "question": "When reverse-engineering a household appliance or mechanical device for Engineering Requirement 1, why do engineers apply the iterative engineering design process rather than building a single final product without testing?",
       "options": [
-        "A. Memorizing a one-line definition of Manufactured Item in Your Home without explaining how it works in practice satisfies.",
-        "B. Skip the Engineering Pamphlet technical criteria for Manufactured Item in Your Home and use rules from an unrelated activity.",
-        "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Assume Manufactured Item in Your Home applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+        "A. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+        "B. Because defining requirements, modeling subsystems (mechanical, electrical, structural), building prototypes, testing failure modes, and iterating on data reveals trade-offs in safety, efficiency, and manufacturability before mass production.",
+        "C. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate.",
+        "D. Because the engineering design process eliminates the need for mathematics, physics, or safety standards."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Manufactured Item in Your Home without explaining how it works in practice satisfies.",
-        "B. Skip the Engineering Pamphlet technical criteria for Manufactured Item in Your Home and use rules from an unrelated activity.",
-        "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Assume Manufactured Item in Your Home applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+        "A. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+        "B. Because defining requirements, modeling subsystems (mechanical, electrical, structural), building prototypes, testing failure modes, and iterating on data reveals trade-offs in safety, efficiency, and manufacturability before mass production.",
+        "C. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate.",
+        "D. Because the engineering design process eliminates the need for mathematics, physics, or safety standards."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (C): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Manufactured Item in Your Home (Manufactured Item in Your Home). (Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)).",
-      "pamphlet_page_ref": "p. 19, p. 43",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Because defining requirements, modeling subsystems (mechanical, electrical, structural), building prototypes, testing failure modes, and iterating on data reveals trade-offs in safety, efficiency, and manufacturability before mass production.",
+      "explanation": "Correct Answer (B): Engineers analyze how mechanical, electrical, and control subsystems interact and use iterative prototyping and testing to optimize performance, reliability, cost, and safety constraints.",
+      "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)",
       "req_id": "1",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Engineering Achievement That Has: Select an engineering achievement that has had a major impact on socie)?",
-      "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 2 (Engineering Achievement That Has: Select an engineering achievement that has had a major impact on socie)?",
+      "scenario_prompt": "In Engineering Requirement 2 (Engineering Achievement That Has), what technical standard and procedure does the Scouting America Engineering Merit Badge Pamphlet require?",
+      "question": "In Engineering Requirement 2 (Engineering Achievement That Has), what technical standard and procedure does the Scouting America Engineering Merit Badge Pamphlet require?",
       "options": [
-        "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Engineering Achievement That Has without explaining how it works in practice satisfies.",
-        "C. Focus only on Select an engineering achievement that has had a major  while omitting Using resources such as the internet (with your parent  and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Engineering Achievement That Has."
+        "A. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+        "B. Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+        "C. Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+        "D. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8."
       ],
       "choices": [
-        "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Engineering Achievement That Has without explaining how it works in practice satisfies.",
-        "C. Focus only on Select an engineering achievement that has had a major  while omitting Using resources such as the internet (with your parent  and its required field verification.",
-        "D. Ignore environmental conditions, safety boundaries, and counselor approval requirements when working on Engineering Achievement That Has."
+        "A. Overlooking how Engineering Achievement That Has directly affects safety, efficiency, and decision-making in Engineering Requirement 2.",
+        "B. Casual hobby familiarity with Engineering is sufficient to enter a professional It means to be a registered career without accredited training or licensing.",
+        "C. Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+        "D. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (A): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Engineering Achievement That Has (Engineering Achievement That Has). (Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)).",
-      "pamphlet_page_ref": "p. 26, p. 32",
+      "correct_index": 2,
+      "correct_letter": "C",
+      "correct_answer": "C. Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs.",
+      "explanation": "Correct Answer (C): Mastering Engineering Requirement 2 (Engineering Achievement That Has) requires applying the verified pamphlet mechanism: Five early fields of engineering emerged to meet the growing needs. (Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)).",
+      "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)",
       "req_id": "2",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Work of Six Types of: Explain the work of six types of engineers)?",
-      "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 3 (Work of Six Types of: Explain the work of six types of engineers)?",
+      "scenario_prompt": "When demonstrating and explaining The work of six types for Engineering Requirement 3, which approach follows the verified Engineering Merit Badge Pamphlet standard?",
+      "question": "When demonstrating and explaining The work of six types for Engineering Requirement 3, which approach follows the verified Engineering Merit Badge Pamphlet standard?",
       "options": [
-        "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Work of Six Types of without explaining how it works in practice satisfies Engineering.",
-        "C. Focus only on Explain the work of six types of engineers while omitting Pick two of the six types and explain how their work is and its required field verification.",
-        "D. Assume Work of Six Types of applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+        "A. Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms.",
+        "B. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+        "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different."
       ],
       "choices": [
-        "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "B. Memorizing a one-line definition of Work of Six Types of without explaining how it works in practice satisfies Engineering.",
-        "C. Focus only on Explain the work of six types of engineers while omitting Pick two of the six types and explain how their work is and its required field verification.",
-        "D. Assume Work of Six Types of applies only to indoor classroom theory and has no effect on real-world Engineering practice."
+        "A. Treating the technical factors of The work of six types in Engineering Requirement 3 as isolated terms rather than interconnected field mechanisms.",
+        "B. Overlooking how Study the Engineer's Code of Ethics directly affects safety, efficiency, and decision-making in Engineering Requirement 8.",
+        "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different."
       ],
-      "correct_index": 0,
-      "correct_letter": "A",
-      "correct_answer": "A. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (A): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Work of Six Types of (Work of Six Types of). (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)).",
-      "pamphlet_page_ref": "p. 38, p. 76",
+      "correct_index": 3,
+      "correct_letter": "D",
+      "correct_answer": "D. In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different.",
+      "explanation": "Correct Answer (D): In Engineering Requirement 3 (The work of six types), each principle directly governs real-world performance: Besides specializing in particular fields, different engineers have different. (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)).",
+      "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)",
       "req_id": "3",
       "option_id": null
     },
     {
-      "scenario_prompt": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Engineer Discuss Work This: Discuss the work this engineer does and the tools the engineer uses)?",
-      "question": "How does the Engineering Merit Badge Pamphlet guide Scouts on fulfilling Requirement 4 (Engineer Discuss Work This: Discuss the work this engineer does and the tools the engineer uses)?",
+      "scenario_prompt": "When working on Engineering Requirement 4 (Visit with an engineer), which principle and field standard is established in the Engineering Merit Badge Pamphlet?",
+      "question": "When working on Engineering Requirement 4 (Visit with an engineer), which principle and field standard is established in the Engineering Merit Badge Pamphlet?",
       "options": [
-        "A. Watching a generic video without preparing questions or counselor approval fulfills the Visit with an engineer field investigation.",
-        "B. Skip the Engineering Pamphlet technical criteria for Engineer Discuss Work This and use rules from an unrelated activity.",
-        "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and.",
-        "D. Substitute a casual verbal guess about Discuss the work this engineer does and the tools the e in place of documented Engineering observations."
+        "A. For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+        "B. Conducting a Engineering Requirement 4 (Visit with an engineer) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public."
       ],
       "choices": [
-        "A. Watching a generic video without preparing questions or counselor approval fulfills the Visit with an engineer field investigation.",
-        "B. Skip the Engineering Pamphlet technical criteria for Engineer Discuss Work This and use rules from an unrelated activity.",
-        "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and.",
-        "D. Substitute a casual verbal guess about Discuss the work this engineer does and the tools the e in place of documented Engineering observations."
+        "A. For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+        "B. Conducting a Engineering Requirement 4 (Visit with an engineer) field visit or interview without prepared technical questions or advance counselor approval yields complete data.",
+        "C. Casual hobby familiarity with Engineering is sufficient to enter a professional Careers & Professional Pathways career without accredited training or licensing.",
+        "D. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and.",
-      "explanation": "Correct Answer (C): Scouts must obtain counselor and parent approval ahead of time, prepare targeted technical questions on Visit with an engineer, and document specific findings. (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)).",
-      "pamphlet_page_ref": "p. 38, p. 48",
+      "correct_index": 0,
+      "correct_letter": "A",
+      "correct_answer": "A. For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions.",
+      "explanation": "Correct Answer (A): For Engineering Requirement 4 (Visit with an engineer), Scouts obtain advance approval, prepare structured field questions. (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)).",
+      "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
       "req_id": "4",
       "option_id": null
     },
     {
-      "scenario_prompt": "When preparing for your counselor conference on Engineering Requirement 5 (Systems Engineering Approach), which statement accurately reflects the official BSA standard for Use the systems engineering approach to design an original piece of patrol ?",
-      "question": "When preparing for your counselor conference on Engineering Requirement 5 (Systems Engineering Approach), which statement accurately reflects the official BSA standard for Use the systems engineering approach to design an original piece of patrol ?",
+      "scenario_prompt": "During your patrol's preparation and review for Engineering Requirement 5 (Use the systems engineering approach), which statement accurately reflects the official Engineering Merit Badge Pamphlet?",
+      "question": "During your patrol's preparation and review for Engineering Requirement 5 (Use the systems engineering approach), which statement accurately reflects the official Engineering Merit Badge Pamphlet?",
       "options": [
-        "A. Memorizing a one-line definition of Systems Engineering Approach without explaining how it works in practice satisfies Engineering.",
-        "B. Skip the Engineering Pamphlet technical criteria for Systems Engineering Approach and use rules from an unrelated activity.",
-        "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Substitute a casual verbal guess about Use the systems engineering approach to design an origi in place of documented Engineering observations."
+        "A. Overlooking how Use the systems engineering approach directly affects safety, efficiency, and decision-making in Engineering Requirement 5.",
+        "B. Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+        "C. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+        "D. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate."
       ],
       "choices": [
-        "A. Memorizing a one-line definition of Systems Engineering Approach without explaining how it works in practice satisfies Engineering.",
-        "B. Skip the Engineering Pamphlet technical criteria for Systems Engineering Approach and use rules from an unrelated activity.",
-        "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-        "D. Substitute a casual verbal guess about Use the systems engineering approach to design an origi in place of documented Engineering observations."
+        "A. Overlooking how Use the systems engineering approach directly affects safety, efficiency, and decision-making in Engineering Requirement 5.",
+        "B. Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+        "C. Because engineers are prohibited from calculating loads, materials, or costs until after the product is sold to the public.",
+        "D. Because reverse engineering means copying only the exterior paint color of a product while ignoring how its internal gears and circuits operate."
       ],
-      "correct_index": 2,
-      "correct_letter": "C",
-      "correct_answer": "C. The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of.",
-      "explanation": "Correct Answer (C): The Engineering pamphlet requires Scouts to explain the underlying mechanism, practical criteria, and real-world application of Systems Engineering Approach (Systems Engineering Approach). (Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)).",
-      "pamphlet_page_ref": "p. 11, p. 46",
+      "correct_index": 1,
+      "correct_letter": "B",
+      "correct_answer": "B. Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost.",
+      "explanation": "Correct Answer (B): Mastering Engineering Requirement 5 (Use the systems engineering approach) requires applying the verified pamphlet mechanism: Engineers devise all sorts of things, ranging from a tiny, low-cost. (Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)).",
+      "pamphlet_page_ref": "Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)",
       "req_id": "5",
       "option_id": null
     }

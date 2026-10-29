@@ -2607,225 +2607,511 @@ def decompose_requirement_into_topic_slides(
 _CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
     "first_aid": {
         "scenario_prompt": "During a woodland trail hike, your patrol discovers an adult hiker lying at the base of a wet rock ledge with bright red blood spurting from a lower-leg wound and a downed power line 25 feet uphill. What is your patrol's immediate first-aid sequence?",
+        "question": "During a woodland trail hike, your patrol discovers an adult hiker lying at the base of a wet rock ledge with bright red blood spurting from a lower-leg wound and a downed power line 25 feet uphill. What is your patrol's immediate first-aid sequence?",
         "options": [
-            "Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
-            "Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
-            "Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
+            "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
+            "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+            "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
+            "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards.",
         ],
-        "correct_answer": "Option B — Verify scene safety first, don personal protective gloves, activate EMS (911), and control life-threatening bleeding with firm direct pressure.",
-        "explanation": "Under the First Aid Merit Badge Pamphlet emergency action sequence (Check-Call-Care), rescuers must first verify scene safety so they do not become a second victim, apply Universal Precautions (BSI barriers), summon EMS immediately, and treat life-threatening conditions (airway, breathing, severe bleeding) before minor injuries.",
+        "choices": [
+            "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
+            "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+            "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
+            "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+        "explanation": "Correct Answer (B): Under the First Aid Merit Badge Pamphlet emergency action sequence (Check-Call-Care), rescuers must first verify scene safety so they do not become a second victim, apply Universal Precautions (BSI barriers), summon EMS immediately, and treat life-threatening conditions (airway, breathing, severe bleeding) before minor injuries.",
     },
     "athletics": {
         "scenario_prompt": "During a warm afternoon track practice for the 1,500-meter run, a Scout stops sweating, becomes confused and unsteady, and has hot, flushed skin. What is your patrol's immediate first-aid action?",
+        "question": "During a warm afternoon track practice for the 1,500-meter run, a Scout stops sweating, becomes confused and unsteady, and has hot, flushed skin. What is your patrol's immediate first-aid action?",
         "options": [
-            "Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
-            "Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
-            "Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
+            "A. Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
+            "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+            "C. Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
+            "D. Give the confused Scout salt tablets and hot tea while keeping their track warm-up jacket zipped.",
         ],
-        "correct_answer": "Option B — Call 911 immediately and begin rapid active cooling in the shade.",
-        "explanation": "Hot skin combined with altered mental status (confusion or dizziness) during exertion indicates heatstroke, a medical emergency requiring immediate EMS activation and aggressive cooling per the Athletics Merit Badge Pamphlet.",
+        "choices": [
+            "A. Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
+            "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+            "C. Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
+            "D. Give the confused Scout salt tablets and hot tea while keeping their track warm-up jacket zipped.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+        "explanation": "Correct Answer (B): Hot skin combined with altered mental status (confusion or dizziness) during exertion indicates heatstroke, a medical emergency requiring immediate EMS activation and aggressive cooling per the Athletics Merit Badge Pamphlet.",
     },
     "skating": {
         "scenario_prompt": "While skating on an outdoor winter pond, a skater breaks through thin ice into frigid water 30 feet from shore. How should your patrol respond safely?",
+        "question": "While skating on an outdoor winter pond, a skater breaks through thin ice into frigid water 30 feet from shore. How should your patrol respond safely?",
         "options": [
-            "Skate out to the edge of the ice hole in a group to pull the skater up by both hands.",
-            "Stay off the thin ice, call for emergency help, lie flat near shore to spread weight, and extend a long reach/throw aid (branch, hockey stick, or rope) while coaching the skater to kick horizontally onto firm ice and roll away from the hole.",
-            "Instruct the skater to remove their skates and winter jacket in the water before trying to climb out.",
+            "A. Skate out to the edge of the ice hole in a group to pull the skater up by both hands.",
+            "B. Stay off the thin ice, call for emergency help, lie flat near shore to spread weight, and extend a long reach/throw aid (branch, hockey stick, or rope) while coaching the skater to kick horizontally onto firm ice and roll away from the hole.",
+            "C. Instruct the skater to remove their skates and winter jacket in the water before trying to climb out.",
+            "D. Have one Scout walk upright to the rim of the broken ice hole carrying a heavy wooden bench.",
         ],
-        "correct_answer": "Option B — Stay off the weak ice, extend a reach/throw rescue aid from shore, and have the skater kick horizontally and roll away from the edge.",
-        "explanation": "Walking or skating up to an ice breakthrough hole causes the ice edge to collapse under rescuers; follow Reach-Throw protocol and keep clothing/skates on for buoyancy and traction.",
+        "choices": [
+            "A. Skate out to the edge of the ice hole in a group to pull the skater up by both hands.",
+            "B. Stay off the thin ice, call for emergency help, lie flat near shore to spread weight, and extend a long reach/throw aid (branch, hockey stick, or rope) while coaching the skater to kick horizontally onto firm ice and roll away from the hole.",
+            "C. Instruct the skater to remove their skates and winter jacket in the water before trying to climb out.",
+            "D. Have one Scout walk upright to the rim of the broken ice hole carrying a heavy wooden bench.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Stay off the thin ice, call for emergency help, lie flat near shore to spread weight, and extend a long reach/throw aid (branch, hockey stick, or rope) while coaching the skater to kick horizontally onto firm ice and roll away from the hole.",
+        "explanation": "Correct Answer (B): Walking or skating up to an ice breakthrough hole causes the ice edge to collapse under rescuers; follow Reach-Throw protocol and keep clothing/skates on for buoyancy and traction.",
     },
     "golf": {
         "scenario_prompt": "Your patrol is on the 6th fairway when dark thunderclouds build and you hear thunder 20 seconds after seeing a lightning flash. What must your group do immediately?",
+        "question": "Your patrol is on the 6th fairway when dark thunderclouds build and you hear thunder 20 seconds after seeing a lightning flash. What must your group do immediately?",
         "options": [
-            "Finish playing the current hole quickly while holding metal golf umbrellas overhead.",
-            "Take shelter together under the tallest oak tree along the fairway edge until the rain passes.",
-            "Suspend play immediately under the 30/30 lightning rule, leave golf bags/metal clubs behind if needed, and move to the clubhouse or a designated lightning-safe building, waiting 30 minutes after the last thunder before resuming.",
+            "A. Finish playing the current hole quickly while holding metal golf umbrellas overhead.",
+            "B. Take shelter together under the tallest oak tree along the fairway edge until the rain passes.",
+            "C. Suspend play immediately under the 30/30 lightning rule, leave golf bags/metal clubs behind if needed, and move to the clubhouse or a designated lightning-safe building, waiting 30 minutes after the last thunder before resuming.",
+            "D. Sit inside an open-sided golf cart parked on the elevated 7th tee box while holding a 1-iron.",
         ],
-        "correct_answer": "Option C — Suspend play immediately (flash-to-bang under 30 seconds) and seek a substantial lightning-safe building for at least 30 minutes after the last thunder.",
-        "explanation": "A 20-second flash-to-bang count means lightning is 4 miles away (within the 6-mile / 30-second strike zone); isolated trees and metal clubs/umbrellas are acute lightning hazards.",
+        "choices": [
+            "A. Finish playing the current hole quickly while holding metal golf umbrellas overhead.",
+            "B. Take shelter together under the tallest oak tree along the fairway edge until the rain passes.",
+            "C. Suspend play immediately under the 30/30 lightning rule, leave golf bags/metal clubs behind if needed, and move to the clubhouse or a designated lightning-safe building, waiting 30 minutes after the last thunder before resuming.",
+            "D. Sit inside an open-sided golf cart parked on the elevated 7th tee box while holding a 1-iron.",
+        ],
+        "correct_index": 2,
+        "correct_letter": "C",
+        "correct_answer": "C. Suspend play immediately under the 30/30 lightning rule, leave golf bags/metal clubs behind if needed, and move to the clubhouse or a designated lightning-safe building, waiting 30 minutes after the last thunder before resuming.",
+        "explanation": "Correct Answer (C): A 20-second flash-to-bang count means lightning is 4 miles away (within the 6-mile / 30-second strike zone); isolated trees and metal clubs/umbrellas are acute lightning hazards.",
     },
     "snow_sports": {
         "scenario_prompt": "While skiing down an intermediate alpine trail, you approach a slower snowboarder ahead of you who suddenly begins a wide turn across the run. Under the Alpine Responsibility Code, who has the right-of-way and what must you do?",
+        "question": "While skiing down an intermediate alpine trail, you approach a slower snowboarder ahead of you who suddenly begins a wide turn across the run. Under the Alpine Responsibility Code, who has the right-of-way and what must you do?",
         "options": [
-            "Shout 'On your left!' and pass at high speed since uphill skiers have momentum.",
-            "The downhill rider ahead always has the right-of-way; you must adjust your speed and steer clear to avoid them regardless of their turn.",
-            "Stop in the middle of a blind rollover just above the snowboarder and wait.",
+            "A. Shout 'On your left!' and pass at high speed since uphill skiers have momentum.",
+            "B. The downhill rider ahead always has the right-of-way; you must adjust your speed and steer clear to avoid them regardless of their turn.",
+            "C. Stop in the middle of a blind rollover just above the snowboarder and wait.",
+            "D. Cut sharply across the tips of the snowboarder's board to claim the center line of the groomer.",
         ],
-        "correct_answer": "Option B — People ahead of you always have the right-of-way; the overtaking uphill skier must stay in control and avoid them.",
-        "explanation": "Under Your Responsibility Code in the Snow Sports Merit Badge Pamphlet, downhill skiers/riders cannot see behind them, so uphill traffic bears full responsibility for avoiding collisions and must never stop where obstructed from above.",
+        "choices": [
+            "A. Shout 'On your left!' and pass at high speed since uphill skiers have momentum.",
+            "B. The downhill rider ahead always has the right-of-way; you must adjust your speed and steer clear to avoid them regardless of their turn.",
+            "C. Stop in the middle of a blind rollover just above the snowboarder and wait.",
+            "D. Cut sharply across the tips of the snowboarder's board to claim the center line of the groomer.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. The downhill rider ahead always has the right-of-way; you must adjust your speed and steer clear to avoid them regardless of their turn.",
+        "explanation": "Correct Answer (B): Under Your Responsibility Code in the Snow Sports Merit Badge Pamphlet, downhill skiers/riders cannot see behind them, so uphill traffic bears full responsibility for avoiding collisions and must never stop where obstructed from above.",
     },
     "cycling": {
         "scenario_prompt": "Before departing on a 25-mile troop road ride, you check a Scout's helmet and notice the front rim sits high on the forehead (4 fingers above the eyebrows) and the side straps form a loose loop below the chin. How must the helmet be adjusted?",
+        "question": "Before departing on a 25-mile troop road ride, you check a Scout's helmet and notice the front rim sits high on the forehead (4 fingers above the eyebrows) and the side straps form a loose loop below the chin. How must the helmet be adjusted?",
         "options": [
-            "Tilt the helmet back further so the Scout can see traffic lights more easily.",
-            "Apply the 2-V-1 helmet fit rule: level the rim 1 to 2 finger-widths above the eyebrows, adjust side sliders to form a snug 'V' right under each ear, and tighten the chin buckle until only 1 finger fits underneath.",
-            "Wear a thick winter beanie underneath the loose straps without tightening the retention dial.",
+            "A. Tilt the helmet back further so the Scout can see traffic lights more easily.",
+            "B. Apply the 2-V-1 helmet fit rule: level the rim 1 to 2 finger-widths above the eyebrows, adjust side sliders to form a snug 'V' right under each ear, and tighten the chin buckle until only 1 finger fits underneath.",
+            "C. Wear a thick winter beanie underneath the loose straps without tightening the retention dial.",
+            "D. Unbuckle the chin strap during uphill climbs and refasten it only on downhill segments.",
         ],
-        "correct_answer": "Option B — Level the helmet 1-2 fingers above the eyebrows, form a 'V' under the ears, and snug the chin strap to 1 finger width.",
-        "explanation": "A helmet tilted back exposes the frontal skull in a forward crash; the BSA Cycling Pamphlet's 2-V-1 fit check keeps the helmet level and secure during impact.",
+        "choices": [
+            "A. Tilt the helmet back further so the Scout can see traffic lights more easily.",
+            "B. Apply the 2-V-1 helmet fit rule: level the rim 1 to 2 finger-widths above the eyebrows, adjust side sliders to form a snug 'V' right under each ear, and tighten the chin buckle until only 1 finger fits underneath.",
+            "C. Wear a thick winter beanie underneath the loose straps without tightening the retention dial.",
+            "D. Unbuckle the chin strap during uphill climbs and refasten it only on downhill segments.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Apply the 2-V-1 helmet fit rule: level the rim 1 to 2 finger-widths above the eyebrows, adjust side sliders to form a snug 'V' right under each ear, and tighten the chin buckle until only 1 finger fits underneath.",
+        "explanation": "Correct Answer (B): A helmet tilted back exposes the frontal skull in a forward crash; the BSA Cycling Pamphlet's 2-V-1 fit check keeps the helmet level and secure during impact.",
     },
     "archery": {
         "scenario_prompt": "While shooting on the archery range, an arrow slips off your bow rest and lands on the ground 4 feet in front of the shooting line while other archers are still at full draw. What must you do?",
+        "question": "While shooting on the archery range, an arrow slips off your bow rest and lands on the ground 4 feet in front of the shooting line while other archers are still at full draw. What must you do?",
         "options": [
-            "Lean forward across the shooting line and grab the arrow quickly before anyone notices.",
-            "Leave the arrow on the ground, never reach or step across the shooting line while the range is hot, and wait for the Range Officer's three-whistle 'Retrieve Arrows' command.",
-            "Signal your buddy in the next lane to kick the arrow back behind the waiting line.",
+            "A. Lean forward across the shooting line and grab the arrow quickly before anyone notices.",
+            "B. Leave the arrow on the ground, never reach or step across the shooting line while the range is hot, and wait for the Range Officer's three-whistle 'Retrieve Arrows' command.",
+            "C. Signal your buddy in the next lane to kick the arrow back behind the waiting line.",
+            "D. Use the tip of your unstrung bow limbs to hook the dropped arrow shaft while adjacent archers are releasing.",
         ],
-        "correct_answer": "Option B — Leave the dropped arrow untouched in front of the shooting line until the Range Officer blows three whistles to retrieve arrows.",
-        "explanation": "Stepping or reaching across an active shooting line puts you directly in the path of adjacent bows; any arrow forward of the line is retrieved only after all bows are racked on the 3-whistle signal.",
+        "choices": [
+            "A. Lean forward across the shooting line and grab the arrow quickly before anyone notices.",
+            "B. Leave the arrow on the ground, never reach or step across the shooting line while the range is hot, and wait for the Range Officer's three-whistle 'Retrieve Arrows' command.",
+            "C. Signal your buddy in the next lane to kick the arrow back behind the waiting line.",
+            "D. Use the tip of your unstrung bow limbs to hook the dropped arrow shaft while adjacent archers are releasing.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Leave the dropped arrow untouched in front of the shooting line until the Range Officer blows three whistles to retrieve arrows.",
+        "explanation": "Correct Answer (B): Stepping or reaching across an active shooting line puts you directly in the path of adjacent bows; any arrow forward of the line is retrieved only after all bows are racked on the 3-whistle signal.",
     },
     "rifle_shooting": {
         "scenario_prompt": "On the firing line, you squeeze the trigger on a loaded .22 rimfire rifle and hear an audible 'click' with no discharge. What is the mandatory misfire safety procedure?",
+        "question": "On the firing line, you squeeze the trigger on a loaded .22 rimfire rifle and hear an audible 'click' with no discharge. What is the mandatory misfire safety procedure?",
         "options": [
-            "Immediately open the bolt to eject the cartridge and inspect the firing pin indent.",
-            "Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire.",
-            "Lay the closed rifle down on the shooting mat pointed toward the waiting bench and walk over to the instructor.",
+            "A. Immediately open the bolt to eject the cartridge and inspect the firing pin indent.",
+            "B. Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire.",
+            "C. Lay the closed rifle down on the shooting mat pointed toward the waiting bench and walk over to the instructor.",
+            "D. Look down the muzzle end of the barrel to verify whether a bullet is lodged in the bore.",
         ],
-        "correct_answer": "Option B — Keep the muzzle pointed downrange for at least 30 seconds and summon the Range Safety Officer before opening the action.",
-        "explanation": "A delayed ignition (hangfire) can detonate seconds after the trigger pull; opening the breech immediately exposes the shooter's face and hands to a live rupture outside the chamber.",
+        "choices": [
+            "A. Immediately open the bolt to eject the cartridge and inspect the firing pin indent.",
+            "B. Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire.",
+            "C. Lay the closed rifle down on the shooting mat pointed toward the waiting bench and walk over to the instructor.",
+            "D. Look down the muzzle end of the barrel to verify whether a bullet is lodged in the bore.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Keep the rifle muzzle pointed safely downrange, raise your non-shooting hand to notify the Range Safety Officer, and wait at least 30 seconds before opening the action in case of a hangfire.",
+        "explanation": "Correct Answer (B): A delayed ignition (hangfire) can detonate seconds after the trigger pull; opening the breech immediately exposes the shooter's face and hands to a live rupture outside the chamber.",
     },
     "swimming": {
         "scenario_prompt": "While swimming at an ocean beach, a Scout feels a narrow, fast-moving current pulling them straight offshore through a break in the sandbar. What is the safest way to escape this rip current?",
+        "question": "While swimming at an ocean beach, a Scout feels a narrow, fast-moving current pulling them straight offshore through a break in the sandbar. What is the safest way to escape this rip current?",
         "options": [
-            "Sprint-swim straight back toward the beach directly against the outgoing current.",
-            "Stay calm to conserve energy, swim parallel to the shoreline until out of the narrow seaward pull, and then angle back to the beach with the breaking waves.",
-            "Dive to the sandy bottom and try to crawl toward shore underwater.",
+            "A. Sprint-swim straight back toward the beach directly against the outgoing current.",
+            "B. Stay calm to conserve energy, swim parallel to the shoreline until out of the narrow seaward pull, and then angle back to the beach with the breaking waves.",
+            "C. Dive to the sandy bottom and try to crawl toward shore underwater.",
+            "D. Remove your swim goggles and tread water while pulling another swimmer into the center of the rip channel.",
         ],
-        "correct_answer": "Option B — Swim parallel to shore until clear of the narrow rip current channel, then swim diagonally back to shore.",
-        "explanation": "Rip currents are narrow channels that quickly exhaust swimmers who fight them head-on; swimming parallel to the beach moves you out of the current within 50 to 100 feet.",
+        "choices": [
+            "A. Sprint-swim straight back toward the beach directly against the outgoing current.",
+            "B. Stay calm to conserve energy, swim parallel to the shoreline until out of the narrow seaward pull, and then angle back to the beach with the breaking waves.",
+            "C. Dive to the sandy bottom and try to crawl toward shore underwater.",
+            "D. Remove your swim goggles and tread water while pulling another swimmer into the center of the rip channel.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Stay calm to conserve energy, swim parallel to the shoreline until out of the narrow seaward pull, and then angle back to the beach with the breaking waves.",
+        "explanation": "Correct Answer (B): Rip currents are narrow channels that quickly exhaust swimmers who fight them head-on; swimming parallel to the beach moves you out of the current within 50 to 100 feet.",
     },
     "lifesaving": {
         "scenario_prompt": "A tired non-swimmer slips off a camp dock into 8-foot-deep water about 6 feet from the dock edge and begins thrashing in panic. Following the BSA Order of Water Rescue, what should your patrol attempt FIRST?",
+        "question": "A tired non-swimmer slips off a camp dock into 8-foot-deep water about 6 feet from the dock edge and begins thrashing in panic. Following the BSA Order of Water Rescue, what should your patrol attempt FIRST?",
         "options": [
-            "Dive straight in without equipment and grab the thrashing victim around the shoulders.",
-            "Use a Reach or Throw rescue from the dock first — lie flat on the dock and extend a rescue pole, paddle, towel, or ring buoy so the rescuer stays out of the water.",
-            "Launch a motorboat from the far side of the lake before offering any assistance from the dock.",
+            "A. Dive straight in without equipment and grab the thrashing victim around the shoulders.",
+            "B. Use a Reach or Throw rescue from the dock first - lie flat on the dock and extend a rescue pole, paddle, towel, or ring buoy so the rescuer stays out of the water.",
+            "C. Launch a motorboat from the far side of the lake before offering any assistance from the dock.",
+            "D. Have two non-swimmer buddies form a human chain in 8-foot water without wearing PFDs.",
         ],
-        "correct_answer": "Option B — Follow Reach -> Throw -> Row -> Go with Gear: extend a reaching pole/paddle or throw a flotation aid from the dock first.",
-        "explanation": "A panicked drowning victim can submerge an unequipped swimming rescuer; Reach and Throw rescues from shore/dock deliver immediate buoyancy with zero contact risk to the rescuer.",
+        "choices": [
+            "A. Dive straight in without equipment and grab the thrashing victim around the shoulders.",
+            "B. Use a Reach or Throw rescue from the dock first - lie flat on the dock and extend a rescue pole, paddle, towel, or ring buoy so the rescuer stays out of the water.",
+            "C. Launch a motorboat from the far side of the lake before offering any assistance from the dock.",
+            "D. Have two non-swimmer buddies form a human chain in 8-foot water without wearing PFDs.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Use a Reach or Throw rescue from the dock first - lie flat on the dock and extend a rescue pole, paddle, towel, or ring buoy so the rescuer stays out of the water.",
+        "explanation": "Correct Answer (B): A panicked drowning victim can submerge an unequipped swimming rescuer; Reach and Throw rescues from shore/dock deliver immediate buoyancy with zero contact risk to the rescuer.",
     },
     "kayaking": {
         "scenario_prompt": "Your kayak capsizes in calm lake water during a practice paddle. After performing a wet exit, what is your immediate priority in the water?",
+        "question": "Your kayak capsizes in calm lake water during a practice paddle. After performing a wet exit, what is your immediate priority in the water?",
         "options": [
-            "Abandon the kayak and paddle and try to swim 300 yards to the nearest shoreline.",
-            "Maintain physical contact with your capsized kayak and paddle, signal your buddy boat, and position yourself at the bow/stern for a T-rescue or heel-hook re-entry.",
-            "Unbuckle and remove your PFD life jacket so you can swim faster.",
+            "A. Abandon the kayak and paddle and try to swim 300 yards to the nearest shoreline.",
+            "B. Maintain physical contact with your capsized kayak and paddle, signal your buddy boat, and position yourself at the bow/stern for a T-rescue or heel-hook re-entry.",
+            "C. Unbuckle and remove your PFD life jacket so you can swim faster.",
+            "D. Dive underneath the overturned cockpit to untie the stern painter line with your feet inside the hull.",
         ],
-        "correct_answer": "Option B — Hold onto your kayak and paddle, keep your PFD fastened, and coordinate a buddy T-rescue.",
-        "explanation": "A swamped kayak provides massive flotation and high visibility for rescuers, whereas swimming away in open water risks cold-water exhaustion and separation.",
+        "choices": [
+            "A. Abandon the kayak and paddle and try to swim 300 yards to the nearest shoreline.",
+            "B. Maintain physical contact with your capsized kayak and paddle, signal your buddy boat, and position yourself at the bow/stern for a T-rescue or heel-hook re-entry.",
+            "C. Unbuckle and remove your PFD life jacket so you can swim faster.",
+            "D. Dive underneath the overturned cockpit to untie the stern painter line with your feet inside the hull.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Maintain physical contact with your capsized kayak and paddle, signal your buddy boat, and position yourself at the bow/stern for a T-rescue or heel-hook re-entry.",
+        "explanation": "Correct Answer (B): A swamped kayak provides massive flotation and high visibility for rescuers, whereas swimming away in open water risks cold-water exhaustion and separation.",
     },
     "canoeing": {
         "scenario_prompt": "Two Scouts capsize their canoe in the middle of a breezy lake a quarter-mile from shore. Both Scouts are wearing PFDs and the canoe floats upside down. What should they do?",
+        "question": "Two Scouts capsize their canoe in the middle of a breezy lake a quarter-mile from shore. Both Scouts are wearing PFDs and the canoe floats upside down. What should they do?",
         "options": [
-            "Leave the canoe behind and race each other swimming to shore.",
-            "Stay with the floating canoe (which has built-in foam flotation blocks), move to the upwind side, and perform a canoe-over-canoe rescue with their buddy boat or flip/paddle the swamped canoe to shore.",
-            "Stand up on top of the overturned hull to wave both arms.",
+            "A. Leave the canoe behind and race each other swimming to shore.",
+            "B. Stay with the floating canoe (which has built-in foam flotation blocks), move to the upwind side, and perform a canoe-over-canoe rescue with their buddy boat or flip/paddle the swamped canoe to shore.",
+            "C. Stand up on top of the overturned hull to wave both arms.",
+            "D. Tie the bow painter line around their waists while floating on the downwind side of the hull.",
         ],
-        "correct_answer": "Option B — Always stay with the floating canoe on its upwind side and perform a buddy canoe-over-canoe rescue or swamped-canoe recovery.",
-        "explanation": "Shorelines look much closer than they are across open water; staying with the buoyant canoe prevents wind drift separation and enables rapid buddy recovery.",
+        "choices": [
+            "A. Leave the canoe behind and race each other swimming to shore.",
+            "B. Stay with the floating canoe (which has built-in foam flotation blocks), move to the upwind side, and perform a canoe-over-canoe rescue with their buddy boat or flip/paddle the swamped canoe to shore.",
+            "C. Stand up on top of the overturned hull to wave both arms.",
+            "D. Tie the bow painter line around their waists while floating on the downwind side of the hull.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Stay with the floating canoe (which has built-in foam flotation blocks), move to the upwind side, and perform a canoe-over-canoe rescue with their buddy boat or flip/paddle the swamped canoe to shore.",
+        "explanation": "Correct Answer (B): Shorelines look much closer than they are across open water; staying with the buoyant canoe on the upwind side prevents wind drift separation and enables rapid buddy recovery.",
     },
     "camping": {
         "scenario_prompt": "During a freezing rainstorm at camp, a patrol asks if they can bring their liquid-fuel or canister camp stove inside the tent vestibule to boil water and warm up the tent before sleeping. How should the patrol leader respond?",
+        "question": "During a freezing rainstorm at camp, a patrol asks if they can bring their liquid-fuel or canister camp stove inside the tent vestibule to boil water and warm up the tent before sleeping. How should the patrol leader respond?",
         "options": [
-            "Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
-            "Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
-            "Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
+            "A. Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
+            "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+            "C. Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
+            "D. Hang a lit propane mantle lantern from the interior ridge loop of the tent fly.",
         ],
-        "correct_answer": "Option B — Never operate any stove, lantern, or charcoal heater inside or near a tent due to lethal Carbon Monoxide poisoning and fire hazards.",
-        "explanation": "BSA Guide to Safe Scouting and the Camping Pamphlet mandate 'No Flames in Tents'; carbon monoxide is colorless and odorless and causes fatal hypoxia in enclosed shelters.",
+        "choices": [
+            "A. Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
+            "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+            "C. Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
+            "D. Hang a lit propane mantle lantern from the interior ridge loop of the tent fly.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+        "explanation": "Correct Answer (B): BSA Guide to Safe Scouting and the Camping Pamphlet mandate 'No Flames in Tents'; carbon monoxide is colorless and odorless and causes fatal hypoxia in enclosed shelters.",
     },
     "cooking": {
         "scenario_prompt": "While preparing chicken fajitas at camp, a Scout uses a plastic cutting board and chef's knife to slice raw chicken breast, and then reaches for fresh bell peppers and tortillas to slice for a cold side salad. What food-safety step is required first?",
+        "question": "While preparing chicken fajitas at camp, a Scout uses a plastic cutting board and chef's knife to slice raw chicken breast, and then reaches for fresh bell peppers and tortillas to slice for a cold side salad. What food-safety step is required first?",
         "options": [
-            "Wipe the knife blade on a dry camp towel and slice the raw vegetables on the same board.",
-            "Prevent cross-contamination by using a separate cutting board for produce, or washing, rinsing, and sanitizing the board, knife, and hands thoroughly with hot soapy water and sanitizer solution before touching ready-to-eat food.",
-            "Leave the raw chicken sitting in the sun at 75°F for 4 hours before cooking.",
+            "A. Wipe the knife blade on a dry camp towel and slice the raw vegetables on the same board.",
+            "B. Prevent cross-contamination by using a separate cutting board for produce, or washing, rinsing, and sanitizing the board, knife, and hands thoroughly with hot soapy water and sanitizer solution before touching ready-to-eat food.",
+            "C. Leave the raw chicken sitting in the sun at 75°F for 4 hours before cooking.",
+            "D. Rinse the cutting board briefly in cold creek water without soap or sanitizer.",
         ],
-        "correct_answer": "Option B — Use separate prep surfaces or wash, rinse, and sanitize all utensils, boards, and hands after handling raw poultry.",
-        "explanation": "Raw poultry carries Salmonella and Campylobacter; transferring raw juices to ready-to-eat produce causes acute foodborne illness unless surfaces are sanitized and perishables stay out of the 40°F-140°F danger zone.",
+        "choices": [
+            "A. Wipe the knife blade on a dry camp towel and slice the raw vegetables on the same board.",
+            "B. Prevent cross-contamination by using a separate cutting board for produce, or washing, rinsing, and sanitizing the board, knife, and hands thoroughly with hot soapy water and sanitizer solution before touching ready-to-eat food.",
+            "C. Leave the raw chicken sitting in the sun at 75°F for 4 hours before cooking.",
+            "D. Rinse the cutting board briefly in cold creek water without soap or sanitizer.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Prevent cross-contamination by using a separate cutting board for produce, or washing, rinsing, and sanitizing the board, knife, and hands thoroughly with hot soapy water and sanitizer solution before touching ready-to-eat food.",
+        "explanation": "Correct Answer (B): Raw poultry carries Salmonella and Campylobacter; transferring raw juices to ready-to-eat produce causes acute foodborne illness unless surfaces are sanitized and perishables stay out of the 40°F-140°F danger zone.",
     },
     "wilderness_survival": {
         "scenario_prompt": "While hiking back from a peak at dusk, your buddy pair realizes you missed a trail junction and are no longer sure where the main trail is. Following the BSA S.T.O.P. survival protocol, what should you do?",
+        "question": "While hiking back from a peak at dusk, your buddy pair realizes you missed a trail junction and are no longer sure where the main trail is. Following the BSA S.T.O.P. survival protocol, what should you do?",
         "options": [
-            "Run downhill through the woods before total darkness falls to look for a road.",
-            "Stop immediately in place, Think calmly without panic, Observe your surroundings/weather/daylight/gear, and Plan shelter and signaling while staying together so searchers can find you.",
-            "Split up and hike in opposite directions to cover twice as much ground.",
+            "A. Run downhill through the woods before total darkness falls to look for a road.",
+            "B. Stop immediately in place, Think calmly without panic, Observe your surroundings/weather/daylight/gear, and Plan shelter and signaling while staying together so searchers can find you.",
+            "C. Split up and hike in opposite directions to cover twice as much ground.",
+            "D. Climb an exposed cliff face after dark to check for distant highway lights.",
         ],
-        "correct_answer": "Option B — Apply S.T.O.P. (Stop, Think, Observe, Plan), stay together in one visible location, prepare shelter before dark, and use 3-blast whistle signals.",
-        "explanation": "Moving randomly after losing the trail increases search radius exponentially and risks injury after dark; staying put with S.T.O.P., shelter, and 3-signal distress calls maximizes rapid rescue.",
+        "choices": [
+            "A. Run downhill through the woods before total darkness falls to look for a road.",
+            "B. Stop immediately in place, Think calmly without panic, Observe your surroundings/weather/daylight/gear, and Plan shelter and signaling while staying together so searchers can find you.",
+            "C. Split up and hike in opposite directions to cover twice as much ground.",
+            "D. Climb an exposed cliff face after dark to check for distant highway lights.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Stop immediately in place, Think calmly without panic, Observe your surroundings/weather/daylight/gear, and Plan shelter and signaling while staying together so searchers can find you.",
+        "explanation": "Correct Answer (B): Moving randomly after losing the trail increases search radius exponentially and risks injury after dark; staying put with S.T.O.P., shelter, and 3-signal distress calls maximizes rapid rescue.",
     },
     "citizenship_in_society": {
         "scenario_prompt": "During a troop campsite assignment, a new Scout from a different background is excluded from a patrol cooking group and overheard being mocked. As an upstander living the Scout Oath and Scout Law, what should you do first?",
+        "question": "During a troop campsite assignment, a new Scout from a different background is excluded from a patrol cooking group and overheard being mocked. As an upstander living the Scout Oath and Scout Law, what should you do first?",
         "options": [
-            "Stay quiet so you do not create awkwardness with the older Scouts in the patrol.",
-            "Step in respectfully as an upstander, invite the new Scout into your group, make sure they feel welcomed and heard, and involve your Patrol Leader or adult leadership if harassment continues.",
-            "Post about the argument on social media after the campout.",
+            "A. Stay quiet so you do not create awkwardness with the older Scouts in the patrol.",
+            "B. Step in respectfully as an upstander, invite the new Scout into your group, make sure they feel welcomed and heard, and involve your Patrol Leader or adult leadership if harassment continues.",
+            "C. Post about the argument on social media after the campout.",
+            "D. Tell the new Scout to camp alone at the edge of the site so the patrol does not argue.",
         ],
-        "correct_answer": "Option B — Act as an ethical upstander: interrupt exclusion respectfully, include the Scout in patrol activities, and uphold the Scout Law.",
-        "explanation": "Citizenship in Society emphasizes ethical leadership, welcoming others, and acting as an upstander rather than a passive bystander when a fellow Scout is excluded.",
+        "choices": [
+            "A. Stay quiet so you do not create awkwardness with the older Scouts in the patrol.",
+            "B. Step in respectfully as an upstander, invite the new Scout into your group, make sure they feel welcomed and heard, and involve your Patrol Leader or adult leadership if harassment continues.",
+            "C. Post about the argument on social media after the campout.",
+            "D. Tell the new Scout to camp alone at the edge of the site so the patrol does not argue.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Step in respectfully as an upstander, invite the new Scout into your group, make sure they feel welcomed and heard, and involve your Patrol Leader or adult leadership if harassment continues.",
+        "explanation": "Correct Answer (B): Citizenship in Society emphasizes ethical leadership, welcoming others, and acting as an upstander rather than a passive bystander when a fellow Scout is excluded.",
     },
     "auctioneering": {
         "scenario_prompt": "During a live charity auction, a bidder raises their hand to place a $100 bid, and simultaneously a collaborator in the crowd places a fake 'shill' bid solely to artificially drive up the price without intending to buy. Under the National Auctioneers Association Code of Ethics, how must the auctioneer handle shill bidding?",
+        "question": "During a live charity auction, a bidder raises their hand to place a $100 bid, and simultaneously a collaborator in the crowd places a fake 'shill' bid solely to artificially drive up the price without intending to buy. Under the National Auctioneers Association Code of Ethics, how must the auctioneer handle shill bidding?",
         "options": [
-            "Encourage secret shill bidders in the audience so the seller gets a higher commission.",
-            "Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
-            "Change the auction terms from Absolute to Reserve after the gavel falls.",
+            "A. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+            "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+            "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+            "D. Invent phantom bids from the podium after the reserve price has already been met.",
         ],
-        "correct_answer": "Option B — Prohibit deceptive shill bidding and clearly state all terms (Absolute vs. Reserve and buyer's premium) before opening the lot.",
-        "explanation": "Auctioneering ethics and state licensing laws require complete transparency in bid calling; undisclosed shill bidding is fraudulent and destroys buyer trust.",
+        "choices": [
+            "A. Encourage secret shill bidders in the audience so the seller gets a higher commission.",
+            "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+            "C. Change the auction terms from Absolute to Reserve after the gavel falls.",
+            "D. Invent phantom bids from the podium after the reserve price has already been met.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Strictly prohibit fake or shill bidding, disclose whether an item is Absolute or Reserve before bidding opens, and recognize only bona fide transparent bids.",
+        "explanation": "Correct Answer (B): Auctioneering ethics and state licensing laws require complete transparency in bid calling; undisclosed shill bidding is fraudulent and destroys buyer trust.",
     },
     "dance": {
         "scenario_prompt": "Before starting an energetic 45-minute rehearsal involving jumps, turns, and partner lifts on a studio floor, a dancer notices a wet water spill near the center of the floor and skips warm-ups to save time. What two safety steps must happen before dancing begins?",
+        "question": "Before starting an energetic 45-minute rehearsal involving jumps, turns, and partner lifts on a studio floor, a dancer notices a wet water spill near the center of the floor and skips warm-ups to save time. What two safety steps must happen before dancing begins?",
         "options": [
-            "Dance around the wet spot at full speed and stretch only after rehearsal ends.",
-            "Dry and inspect the studio floor for slip and trip hazards first, wear proper footwear, and complete a progressive cardiovascular warm-up and dynamic mobility routine.",
-            "Practice high-impact jumps immediately on cold muscles to warm up faster.",
+            "A. Dance around the wet spot at full speed and stretch only after rehearsal ends.",
+            "B. Dry and inspect the studio floor for slip and trip hazards first, wear proper footwear, and complete a progressive cardiovascular warm-up and dynamic mobility routine.",
+            "C. Practice high-impact jumps immediately on cold muscles to warm up faster.",
+            "D. Sprinkle talcum powder over the wet puddle and attempt overhead partner lifts without a spotter.",
         ],
-        "correct_answer": "Option B — Clear and dry the dance floor surface first and complete a structured warm-up and alignment check before high-impact choreography.",
-        "explanation": "Dynamic warm-ups increase muscle elasticity and joint synovial fluid, while a clean, dry sprung floor prevents ankle sprains and falls.",
+        "choices": [
+            "A. Dance around the wet spot at full speed and stretch only after rehearsal ends.",
+            "B. Dry and inspect the studio floor for slip and trip hazards first, wear proper footwear, and complete a progressive cardiovascular warm-up and dynamic mobility routine.",
+            "C. Practice high-impact jumps immediately on cold muscles to warm up faster.",
+            "D. Sprinkle talcum powder over the wet puddle and attempt overhead partner lifts without a spotter.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Dry and inspect the studio floor for slip and trip hazards first, wear proper footwear, and complete a progressive cardiovascular warm-up and dynamic mobility routine.",
+        "explanation": "Correct Answer (B): Dynamic warm-ups increase muscle elasticity and joint synovial fluid, while a clean, dry sprung floor prevents ankle sprains and falls.",
     },
     "physics": {
         "scenario_prompt": "Your patrol rolls two solid spheres of the exact same size and shape down an inclined ramp from rest: one made of aluminum and one made of heavy brass. Neglecting air resistance, how do their accelerations down the ramp compare?",
+        "question": "Your patrol rolls two solid spheres of the exact same size and shape down an inclined ramp from rest: one made of aluminum and one made of heavy brass. Neglecting air resistance, how do their accelerations down the ramp compare?",
         "options": [
-            "The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
-            "Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
-            "The lighter aluminum sphere reaches the bottom first because it has less friction.",
+            "A. The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
+            "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+            "C. The lighter aluminum sphere reaches the bottom first because it has less friction.",
+            "D. Neither sphere rolls unless the ramp angle exceeds 45 degrees.",
         ],
-        "correct_answer": "Option B — Both solid spheres accelerate at the same rate (a = 5/7 g sin theta) regardless of mass when shape and radius match.",
-        "explanation": "Since both gravitational force and moment of inertia are proportional to mass (I = 2/5 m r^2), mass cancels out of the equation of motion on an incline.",
+        "choices": [
+            "A. The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
+            "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+            "C. The lighter aluminum sphere reaches the bottom first because it has less friction.",
+            "D. Neither sphere rolls unless the ramp angle exceeds 45 degrees.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Both spheres accelerate at the same rate (a = 5/7 g sin theta) regardless of mass when shape and radius match.",
+        "explanation": "Correct Answer (B): Since both gravitational force and moment of inertia are proportional to mass (I = 2/5 m r^2), mass cancels out of the equation of motion on an incline.",
     },
     "psychology": {
         "scenario_prompt": "While preparing for a high-adventure trek, a patrol leader notices a Scout becoming overwhelmed when trying to memorize 15 wilderness safety rules all at once. Using cognitive psychology principles of working memory, what teaching strategy works best?",
+        "question": "While preparing for a high-adventure trek, a patrol leader notices a Scout becoming overwhelmed when trying to memorize 15 wilderness safety rules all at once. Using cognitive psychology principles of working memory, what teaching strategy works best?",
         "options": [
-            "Read all 15 rules faster without pausing so they enter long-term memory immediately.",
-            "Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
-            "Skip practice and rely only on passive re-reading right before the trek.",
+            "A. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+            "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+            "C. Skip practice and rely only on passive re-reading right before the trek.",
+            "D. Test the Scout on all 15 rules simultaneously while playing loud background distractions.",
         ],
-        "correct_answer": "Option B — Apply chunking and active spaced retrieval to organize information within human working-memory limits (4 to 7 items) and consolidate long-term recall.",
-        "explanation": "Human working memory holds only a few chunks at once; grouping items into meaningful frameworks and practicing active recall builds durable neural pathways.",
+        "choices": [
+            "A. Read all 15 rules faster without pausing so they enter long-term memory immediately.",
+            "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+            "C. Skip practice and rely only on passive re-reading right before the trek.",
+            "D. Test the Scout on all 15 rules simultaneously while playing loud background distractions.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Use chunking and spaced practice: group the 15 rules into 3 meaningful categories (such as S.T.O.P. or ABCDE) and practice retrieving them across multiple hands-on scenarios.",
+        "explanation": "Correct Answer (B): Human working memory holds only a few chunks at once; grouping items into meaningful frameworks and practicing active recall builds durable neural pathways.",
     },
     "sewing_and_needlework": {
         "scenario_prompt": "While sewing a heavy canvas Merit Badge sash repair on a sewing machine, the needle hits a thick seam and snaps. What is the mandatory safety and machine procedure before replacing the needle?",
+        "question": "While sewing a heavy canvas Merit Badge sash repair on a sewing machine, the needle hits a thick seam and snaps. What is the mandatory safety and machine procedure before replacing the needle?",
         "options": [
-            "Keep your foot on the presser-foot speed controller while reaching into the needle bar.",
-            "Turn off and unplug the sewing machine first, locate all broken needle fragments so none remain in the fabric, and insert a fresh heavy-duty needle with the flat shank side facing the correct direction.",
-            "Leave the broken needle tip inside the canvas and sew over it.",
+            "A. Keep your foot on the presser-foot speed controller while reaching into the needle bar.",
+            "B. Turn off and unplug the sewing machine first, locate all broken needle fragments so none remain in the fabric, and insert a fresh heavy-duty needle with the flat shank side facing the correct direction.",
+            "C. Leave the broken needle tip inside the canvas and sew over it.",
+            "D. Hold the replacement needle between your lips while loosening the needle clamp screw with power on.",
         ],
-        "correct_answer": "Option B — Power off the sewing machine before touching the needle clamp, account for all sharp needle pieces, and install the proper needle size.",
-        "explanation": "Turning off power prevents accidental foot-pedal activation while fingers are near the needle bar, and recovering broken needle tips prevents puncture injuries.",
+        "choices": [
+            "A. Keep your foot on the presser-foot speed controller while reaching into the needle bar.",
+            "B. Turn off and unplug the sewing machine first, locate all broken needle fragments so none remain in the fabric, and insert a fresh heavy-duty needle with the flat shank side facing the correct direction.",
+            "C. Leave the broken needle tip inside the canvas and sew over it.",
+            "D. Hold the replacement needle between your lips while loosening the needle clamp screw with power on.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Turn off and unplug the sewing machine first, locate all broken needle fragments so none remain in the fabric, and insert a fresh heavy-duty needle with the flat shank side facing the correct direction.",
+        "explanation": "Correct Answer (B): Turning off power prevents accidental foot-pedal activation while fingers are near the needle bar, and recovering broken needle tips prevents puncture injuries.",
     },
     "weather": {
         "scenario_prompt": "Your patrol is hiking across an open alpine ridgeline when towering cumulonimbus clouds build rapidly and you hear thunder 10 seconds after seeing a lightning flash (roughly 2 miles away). What is the safest immediate action for the patrol?",
+        "question": "Your patrol is hiking across an open alpine ridgeline when towering cumulonimbus clouds build rapidly and you hear thunder 10 seconds after seeing a lightning flash (roughly 2 miles away). What is the safest immediate action for the patrol?",
         "options": [
-            "Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
-            "Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
-            "Huddle together in a tight circle on top of metal-frame backpacks.",
+            "A. Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
+            "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+            "C. Huddle together in a tight circle on top of metal-frame backpacks.",
+            "D. Lie flat on wet granite at the summit so the wind blows over the patrol.",
         ],
-        "correct_answer": "Option B — Descend immediately off exposed high ground, avoid isolated trees and water, and use lower shelter or spread out in lightning position.",
-        "explanation": "Sound travels about 1 mile every 5 seconds; a 10-second flash-to-bang interval means lightning is within 2 miles and already in strike range, requiring immediate descent from ridges and avoidance of tall isolated objects.",
+        "choices": [
+            "A. Stay on the ridgeline under a tall isolated pine tree to keep dry until the rain passes.",
+            "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+            "C. Huddle together in a tight circle on top of metal-frame backpacks.",
+            "D. Lie flat on wet granite at the summit so the wind blows over the patrol.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Apply the 30/30 lightning rule: immediately descend off the exposed ridge and away from tall isolated trees or water, move into lower dense timber or a substantial building, and spread patrol members at least 50 feet apart if caught in the open.",
+        "explanation": "Correct Answer (B): Sound travels about 1 mile every 5 seconds; a 10-second flash-to-bang interval means lightning is within 2 miles and already in strike range, requiring immediate descent from ridges and avoidance of tall isolated objects.",
+    },
+    "robotics": {
+        "scenario_prompt": "While adjusting a jammed spur-gear drive train in the robotics lab, a Scout notices white dry residue from a damaged battery cell and has a minor sheet-metal cut on a forearm. What safety and first-aid procedure does the Robotics Merit Badge Pamphlet require?",
+        "question": "While adjusting a jammed spur-gear drive train in the robotics lab, a Scout notices white dry residue from a damaged battery cell and has a minor sheet-metal cut on a forearm. What safety and first-aid procedure does the Robotics Merit Badge Pamphlet require?",
+        "options": [
+            "A. Leave the battery connected so the servo motors hold torque while clearing the jammed gear teeth with bare fingers.",
+            "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+            "C. Pour water directly onto dry battery powder with bare hands and wrap the unwashed cut with electrical tape.",
+            "D. Remove safety glasses for a closer view of the spinning pinion gear while toggling the transmitter stick.",
+        ],
+        "choices": [
+            "A. Leave the battery connected so the servo motors hold torque while clearing the jammed gear teeth with bare fingers.",
+            "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+            "C. Pour water directly onto dry battery powder with bare hands and wrap the unwashed cut with electrical tape.",
+            "D. Remove safety glasses for a closer view of the spinning pinion gear while toggling the transmitter stick.",
+        ],
+        "correct_index": 1,
+        "correct_letter": "B",
+        "correct_answer": "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+        "explanation": "Correct Answer (B): Per the Robotics Merit Badge Pamphlet (pp. 9-12), always wear ANSI Z87.1 eye protection, disconnect battery power before mechanical adjustments, brush dry chemical residue away with a gloved hand before flushing with water, and flush minor cuts with soap and water for 5 minutes before applying a sterile bandage.",
     },
 }
+
+_CURATED_REQ1_JSON_PATH = ASSETS_DIR.parent / "data" / "curated_req1_quizzes_149.json"
+if _CURATED_REQ1_JSON_PATH.exists():
+    try:
+        _loaded_curated_149 = json.loads(_CURATED_REQ1_JSON_PATH.read_text(encoding="utf-8"))
+        if isinstance(_loaded_curated_149, dict):
+            for _k, _v in _loaded_curated_149.items():
+                if isinstance(_v, dict) and _k not in _CURATED_REQ1_SAFETY_QUIZZES:
+                    _CURATED_REQ1_SAFETY_QUIZZES[_k] = _v
+    except Exception:
+        pass
+
+
+_BOILERPLATE_QUIZ_REJECTION_SUBSTRINGS = (
+    "rely on guesswork",
+    "sign off the requirement before completing",
+    "sign off the requirement without",
+    "unverified shortcuts",
+    "claim partial credit",
+    "encounters a decision point on proper procedure",
+    "defer all ",
+    "substitute uncalibrated equipment",
+    "requires proactive hazard identification, protective equipment checks, and environmental screening",
+    "only need to review safety rules and emergency procedures after an incident occurs",
+    "while omitting",
+    "applies only to indoor classroom theory and has no effect on real-world",
+    "and use rules from an unrelated activity",
+    "ignore environmental conditions, safety boundaries, and counselor approval requirements",
+    "complete only a single sub-part of requirement",
+    "reverse the sequence of",
+    "steps and skip the post-activity review with your merit badge counselor",
+    "rely on a group summary instead of personally demonstrating",
+    "rely on a group summary of",
+    "substitute a casual verbal guess",
+    "under scouting america advancement standards for",
+    "requires scouts to explain the underlying principles of",
+    "before beginning hands-on field work for",
+    "activity immediately before inspecting equipment",
+    "skip the pre-activity safety briefing and complete only half of",
+    "confuse the primary mechanism of",
+    "using only a single unverified observation",
+    "delay protective gear adjustments",
+    "rely solely on post-activity cleanup",
+    "execute ",
+    "apply the setup parameters from",
+)
 
 
 def _get_selective_safety_quiz_for_requirement(
@@ -2855,52 +3141,61 @@ def _get_selective_safety_quiz_for_requirement(
     if isinstance(explicit_quiz, dict):
         raw_opts = [str(o).strip() for o in (explicit_quiz.get("options") or []) if str(o).strip()]
         prompt = str(explicit_quiz.get("scenario_prompt") or explicit_quiz.get("question") or "").strip()
-        opts_blob = (prompt + " " + " ".join(raw_opts)).lower()
+        ans = str(explicit_quiz.get("correct_answer") or explicit_quiz.get("correct_option") or "").strip()
+        exp = str(explicit_quiz.get("explanation") or "").strip()
+        opts_blob = (prompt + " " + " ".join(raw_opts) + " " + ans + " " + exp).lower()
         if (
-            raw_opts
-            and "rely on guesswork" not in opts_blob
-            and "sign off the requirement before completing" not in opts_blob
-            and "sign off the requirement without" not in opts_blob
-            and "unverified shortcuts" not in opts_blob
-            and "claim partial credit" not in opts_blob
-            and "encounters a decision point on proper procedure" not in opts_blob
-            and "defer all " not in opts_blob
-            and "substitute uncalibrated equipment" not in opts_blob
+            len(raw_opts) >= 4
+            and prompt
+            and not any(marker in opts_blob for marker in _BOILERPLATE_QUIZ_REJECTION_SUBSTRINGS)
         ):
-            clean_opts = [
+            clean_bodies = [
                 re.sub(r"^(?:Option\s+[A-D]\s*[:.\-—–]\s*|\(?[A-D]\)\s*|[A-D]\.\s*)", "", o, flags=re.IGNORECASE).strip()
-                for o in raw_opts
+                for o in raw_opts[:4]
             ]
-            ans = str(explicit_quiz.get("correct_answer") or explicit_quiz.get("correct_option") or "").strip()
-            exp = str(explicit_quiz.get("explanation") or "").strip()
-            if prompt and len(clean_opts) >= 2:
-                return {
-                    "scenario_prompt": prompt,
-                    "options": clean_opts,
-                    "correct_answer": ans,
-                    "explanation": exp,
-                }
+            labeled_opts = [f"{chr(65 + i)}. {b}" for i, b in enumerate(clean_bodies)]
+            c_idx = explicit_quiz.get("correct_index")
+            if not isinstance(c_idx, int) or not (0 <= c_idx < 4):
+                m_let = re.match(r"^\s*(?:Option\s+)?([A-D])\b", ans, flags=re.IGNORECASE)
+                c_idx = (ord(m_let.group(1).upper()) - 65) if m_let else 1
+            c_let = chr(65 + c_idx)
+            c_ans = f"{c_let}. {clean_bodies[c_idx]}"
+            return {
+                "scenario_prompt": prompt,
+                "question": str(explicit_quiz.get("question") or prompt).strip(),
+                "options": labeled_opts,
+                "choices": list(labeled_opts),
+                "correct_index": c_idx,
+                "correct_letter": c_let,
+                "correct_answer": c_ans,
+                "explanation": exp,
+            }
 
     if req_index == 0:
         clean_t = re.sub(r"\s*\(Reqs?\s+[^)]+\)", "", str(base_title or f"{badge_name} Fundamentals")).strip()
         short_req = re.sub(r"\s+", " ", str(req_text or clean_t)).strip().rstrip(".")
         if len(short_req) > 130:
             short_req = short_req[:127].rsplit(" ", 1)[0].rstrip(" ,;:-")
+        q_prompt = (
+            f"When your patrol prepares for {badge_name} Requirement {req_num} ({clean_t}), "
+            f"which field procedure satisfies the official {badge_name} Merit Badge Pamphlet?"
+        )
+        opts = [
+            f"A. Use uninspected gear from a previous outing without verifying sizing, protective ratings, or site conditions for {clean_t}.",
+            f"B. Complete the {badge_name} Pamphlet safety and preparation checklist for {clean_t} ({short_req}) with your buddy and counselor.",
+            f"C. Improvise a shortcut technique for {clean_t} without checking tool condition or environmental hazards.",
+            f"D. Split away from your buddy group to attempt {clean_t} outside the designated practice area.",
+        ]
         return {
-            "scenario_prompt": (
-                f"Before beginning hands-on field work for {badge_name} Requirement {req_num} ({clean_t}), "
-                f"your patrol reviews the required preparation and safety standards. Which action best satisfies the BSA {badge_name} Pamphlet standard?"
-            ),
-            "options": [
-                f"Begin the {clean_t} activity immediately before inspecting equipment, workspace hazards, or buddy readiness.",
-                f"Review the official {badge_name} Pamphlet guidance for {clean_t} ({short_req}), verify scene and equipment safety with your buddy, and confirm counselor expectations before starting.",
-                f"Skip the pre-activity safety briefing and complete only half of the {clean_t} steps on your own.",
-            ],
-            "correct_answer": (
-                f"Option B — Verify scene and equipment safety with your buddy and follow the {badge_name} Pamphlet standard for {clean_t}."
-            ),
+            "scenario_prompt": q_prompt,
+            "question": q_prompt,
+            "options": opts,
+            "choices": list(opts),
+            "correct_index": 1,
+            "correct_letter": "B",
+            "correct_answer": opts[1],
             "explanation": (
-                f"Under the BSA Guide to Safe Scouting and the {badge_name} Merit Badge Pamphlet, Scouts must establish scene safety, "
+                f"Correct Answer (B): Under the BSA Guide to Safe Scouting and the {badge_name} Merit Badge Pamphlet, Scouts must inspect equipment, "
                 f"use the Buddy System, and apply the verified technical steps for {clean_t} ({short_req})."
             ),
         }
