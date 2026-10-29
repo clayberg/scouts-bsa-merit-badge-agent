@@ -9138,6 +9138,21 @@ body.high-contrast-sunlight .m3-stage-live-timer-pill {
   opacity: 1;
 }
 
+#widescreen-slide-stage[data-is-cover="true"] #stage-right-visual #btn-stage-zoom-image,
+#widescreen-slide-stage[data-is-cover="true"] #stage-right-visual .m3-stage-zoom-pill {
+  display: none !important;
+}
+
+#widescreen-slide-stage[data-is-cover="true"] #stage-right-visual #stage-visual-source-badge,
+#widescreen-slide-stage[data-is-cover="true"] #stage-right-visual .m3-stage-visual-pill.is-cover-backdrop-pill {
+  opacity: 0.94;
+}
+
+#widescreen-slide-stage[data-is-cover="true"] #stage-right-visual:hover #stage-visual-source-badge,
+#widescreen-slide-stage[data-is-cover="true"] #stage-right-visual:has(#stage-visual-pill-popover:not(.hidden)) #stage-visual-source-badge {
+  opacity: 1;
+}
+
 /* 7. Typography Scale Rules (data-typography-scale) */
 #widescreen-slide-stage[data-typography-scale="COMFORTABLE"] .m3-slide-card,
 #widescreen-slide-stage[data-typography-scale="COMFORTABLE"] .m3-slide-bullet-row {

@@ -4933,8 +4933,9 @@ function renderActiveSlide(idx) {
     }
     document.getElementById("stage-patrol-scoreboard")?.classList.add("hidden");
     if (typeof window.renderSlideTemplateOverlay === "function") {
-      window.renderSlideTemplateOverlay(true, null);
+      window.renderSlideTemplateOverlay(true, coverTokens);
     }
+    renderCoverBackdropPillAndPopover(coverTokens);
     syncPresenterViewWindow();
     fitActiveSlideToStage();
     return;
@@ -6574,6 +6575,8 @@ function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualFor
 
   if (visPopover) {
     visPopover.classList.add("hidden");
+    visPopover.style.overflowY = "";
+    visPopover.style.maxHeight = "";
     visPopover.innerHTML = "";
   }
 
@@ -6757,6 +6760,345 @@ function renderStageVisualPillAndPopover(slide, tokens, hasVisual, hideVisualFor
       ev.stopPropagation();
       const isHidden = visPopover.classList.toggle("hidden");
       mainBtn.setAttribute("aria-expanded", isHidden ? "false" : "true");
+    });
+  }
+}
+
+const COVER_BACKDROP_DESCRIPTIONS = {
+  pinewood_campfire: "Sunlit pinewood forest clearing and warm campfire glow for outdoor Scouting cover slides.",
+  topographic_adventure: "High-adventure alpine summit ridge and topographic contour elevation lines.",
+  heritage_embroidery: "Rustic timber council lodge and stone hearth inspired by classic Scout camp craft.",
+  collegiate_mbc: "Collegiate brick quadrangle and historic bell cupola for Merit Badge College events.",
+  aquatics_nautical: "Coastal lighthouse, waterfront dock, and calm bay waters for aquatics and boating badges.",
+  stem_blueprint: "STEM robotics laboratory, engineering schematics, and observatory dome.",
+  bsa_emblem_color: "Washed full-color Scouting America universal emblem watermark across a warm canvas.",
+  apollo_rocket_launch: "Space exploration launchpad, Saturn/Apollo rocket plume, and orbital telemetry.",
+  archery_target_range: "Outdoor timber archery and shooting sports range with target lanes.",
+  pioneering_signal_tower: "Lashed timber pioneering signal tower, trestles, and ropework monkey bridge.",
+  whitewater_kayak_rapids: "Canyon river rapids, whitewater kayak, and swiftwater paddle craft.",
+  first_aid_search_rescue: "Wilderness first aid triage basecamp, rescue pack, and backcountry medical station.",
+  eagle_court_of_honor: "Eagle Scout Court of Honor ceremony amphitheater with flags and timber stage.",
+  environmental_wetlands: "Environmental science wetland boardwalk, marsh habitat, and meteorological sky.",
+  aviation_glider_airfield: "Airfield runway, sailplane glider flight line, and cumulus thermal sky.",
+  dutch_oven_camp_cooking: "Cast-iron Dutch oven over glowing camp coals and patrol chuck-box kitchen.",
+  citizenship_capitol_civic: "Capitol dome architecture, constitutional parchment, and civic heritage.",
+  personal_management_ledger: "Financial planning ledger, brass navigation compass, and project timeline.",
+  fitness_cycling_trail: "Athletic running track, scenic cycling trail, and endurance training course.",
+  communications_studio: "Broadcast studio microphone, press notebook, and council speaker podium.",
+  trades_welding_workshop: "Craftsman shop workbench, welding arc sparks, and precision hand tools.",
+  wildlife_forestry_conservation: "Old-growth forest canopy, wildlife habitat, and conservation trail.",
+  astronomy_deep_space_observatory: "Night sky observatory dome, refractor telescope, and Milky Way starfield.",
+  emergency_medical_triage: "Emergency preparedness medical kit, rescue litter, and incident command post.",
+};
+
+const CANONICAL_COVER_BACKDROP_KEYS = [
+  "pinewood_campfire",
+  "topographic_adventure",
+  "heritage_embroidery",
+  "collegiate_mbc",
+  "aquatics_nautical",
+  "stem_blueprint",
+  "bsa_emblem_color",
+  "apollo_rocket_launch",
+  "archery_target_range",
+  "pioneering_signal_tower",
+  "whitewater_kayak_rapids",
+  "first_aid_search_rescue",
+  "eagle_court_of_honor",
+  "environmental_wetlands",
+  "aviation_glider_airfield",
+  "dutch_oven_camp_cooking",
+  "citizenship_capitol_civic",
+  "personal_management_ledger",
+  "fitness_cycling_trail",
+  "communications_studio",
+  "trades_welding_workshop",
+  "wildlife_forestry_conservation",
+  "astronomy_deep_space_observatory",
+  "emergency_medical_triage",
+];
+
+function getCoverBackdropChoices() {
+  const urlsMap = window.BUILTIN_BACKDROP_URLS || {};
+  const labelsMap = window.BUILTIN_BACKDROP_LABELS || {};
+  const curBadge =
+    state.currentResult?.badge_name ||
+    state.currentBadge ||
+    document.getElementById("badge-select")?.value ||
+    "First Aid";
+  const prof = getActiveTemplateProfile();
+  const matchedKey =
+    typeof window.matchBackdropIdFromPrompt === "function"
+      ? window.matchBackdropIdFromPrompt(prof?.template_id || "", curBadge)
+      : "pinewood_campfire";
+
+  const choices = [];
+  const seenUrls = new Set();
+
+  // 1. Put the badge-recommended built-in backdrop first so [1/N] is the badge's signature backdrop
+  const orderedKeys = [
+    ...(CANONICAL_COVER_BACKDROP_KEYS.includes(matchedKey) ? [matchedKey] : []),
+    ...CANONICAL_COVER_BACKDROP_KEYS.filter((k) => k !== matchedKey),
+  ];
+
+  // 2. Custom synthesized or uploaded backdrops from Nano Banana AI Template Studio in this session
+  if (Array.isArray(state.customCoverBackdrops)) {
+    state.customCoverBackdrops.forEach((cb) => {
+      if (cb && cb.backdrop_id && cb.image_url && !seenUrls.has(cb.image_url)) {
+        seenUrls.add(cb.image_url);
+        choices.push({
+          backdrop_id: cb.backdrop_id,
+          image_url: cb.image_url,
+          title: cb.title || "✨ Custom Nano Banana Backdrop",
+          caption: cb.caption || "Custom washed cover backdrop synthesized in Nano Banana AI Template Studio.",
+          source_type: "CUSTOM_NANO_BACKDROP",
+        });
+      }
+    });
+  }
+
+  orderedKeys.forEach((key) => {
+    const u = urlsMap[key];
+    if (!u || seenUrls.has(u)) return;
+    seenUrls.add(u);
+    const lbl = labelsMap[key] || key;
+    const isRecommended = key === matchedKey;
+    choices.push({
+      backdrop_id: key,
+      image_url: u,
+      title: lbl,
+      caption:
+        (isRecommended ? `★ Recommended for ${curBadge} • ` : "") +
+        (COVER_BACKDROP_DESCRIPTIONS[key] || "Washed 16:9 Nano Banana cover backdrop for Slide 1."),
+      source_type: isRecommended ? "RECOMMENDED_BACKDROP" : "BUILTIN_NANO_BACKDROP",
+    });
+  });
+
+  return choices;
+}
+window.getCoverBackdropChoices = getCoverBackdropChoices;
+
+function resolveActiveCoverBackdropChoiceIdx(choices) {
+  if (!Array.isArray(choices) || choices.length === 0) return 0;
+  const prof = getActiveTemplateProfile();
+  const coverBackdropSelVal =
+    document.getElementById("style-cover-backdrop")?.value ||
+    state.deckStyle?.cover_backdrop_id ||
+    "AUTO_TEMPLATE";
+  if (
+    coverBackdropSelVal &&
+    !["AUTO", "AUTO_TEMPLATE", "NONE"].includes(String(coverBackdropSelVal).toUpperCase())
+  ) {
+    const exactIdx = choices.findIndex((c) => c.backdrop_id === coverBackdropSelVal);
+    if (exactIdx >= 0) return exactIdx;
+  }
+  const curBadge =
+    state.currentResult?.badge_name ||
+    state.currentBadge ||
+    document.getElementById("badge-select")?.value ||
+    "First Aid";
+  const effectiveUrl =
+    prof?.cover_bg_url ||
+    (typeof window.resolveDefaultCoverBackdropForBadge === "function"
+      ? window.resolveDefaultCoverBackdropForBadge(curBadge, prof?.template_id || "")
+      : "");
+  const cleanEff = stripUrlQuery(effectiveUrl);
+  if (cleanEff) {
+    const urlIdx = choices.findIndex((c) => stripUrlQuery(c.image_url) === cleanEff);
+    if (urlIdx >= 0) return urlIdx;
+  }
+  return 0;
+}
+
+async function selectCoverBackdropChoice(choice, { keepPopoverOpen = false } = {}) {
+  if (!choice) return;
+  const bdId = choice.backdrop_id || "AUTO_TEMPLATE";
+  if (choice.image_url && bdId !== "NONE" && window.BUILTIN_BACKDROP_URLS) {
+    window.BUILTIN_BACKDROP_URLS[bdId] = choice.image_url;
+  }
+  if (choice.title && bdId !== "NONE" && window.BUILTIN_BACKDROP_LABELS) {
+    window.BUILTIN_BACKDROP_LABELS[bdId] = choice.title;
+  }
+  const selEl = document.getElementById("style-cover-backdrop");
+  if (selEl) {
+    if (!Array.from(selEl.options).some((o) => o.value === bdId)) {
+      const opt = document.createElement("option");
+      opt.value = bdId;
+      opt.textContent = choice.title || bdId;
+      selEl.appendChild(opt);
+    }
+    selEl.value = bdId;
+  }
+  state.deckStyle = state.deckStyle || getCurrentDeckStyleConfig();
+  state.deckStyle.cover_backdrop_id = bdId;
+  await applyDeckStyleToActiveDeck(false);
+  if (keepPopoverOpen) {
+    const visPopover = document.getElementById("stage-visual-pill-popover");
+    const mainBtn = document.getElementById("stage-pill-main");
+    visPopover?.classList.remove("hidden");
+    mainBtn?.setAttribute("aria-expanded", "true");
+  }
+  showToast(`🏞️ Slide 1 Washed Backdrop: ${choice.title}`, "info");
+}
+window.selectCoverBackdropChoice = selectCoverBackdropChoice;
+
+async function cycleCoverBackdropChoice(delta) {
+  const choices = getCoverBackdropChoices();
+  if (!choices.length) return;
+  const currIdx = resolveActiveCoverBackdropChoiceIdx(choices);
+  const nextIdx = (currIdx + delta + choices.length) % choices.length;
+  const target = choices[nextIdx];
+  if (target) {
+    await selectCoverBackdropChoice(target);
+  }
+}
+window.cycleCoverBackdropChoice = cycleCoverBackdropChoice;
+
+function openNanoBananaTemplateStudioFromStagePill() {
+  const visPopover = document.getElementById("stage-visual-pill-popover");
+  const mainBtn = document.getElementById("stage-pill-main");
+  visPopover?.classList.add("hidden");
+  mainBtn?.setAttribute("aria-expanded", "false");
+  const modal = document.getElementById("template-studio-modal");
+  if (modal) {
+    syncDeckStyleSelectorsUi();
+    renderTemplateCatalogGrid();
+    modal.classList.remove("hidden");
+    modal.classList.add("open");
+  }
+  const aiTabBtn = document.getElementById("btn-tpl-open-ai-tab");
+  if (aiTabBtn) {
+    aiTabBtn.click();
+  } else if (typeof window.switchTemplateStudioTab === "function") {
+    window.switchTemplateStudioTab("ai");
+  }
+}
+window.openNanoBananaTemplateStudioFromStagePill = openNanoBananaTemplateStudioFromStagePill;
+
+function renderCoverBackdropPillAndPopover(tokens) {
+  ensurePillPopoverOutsideListener();
+  const visSourceBadge = document.getElementById("stage-visual-source-badge");
+  const visPopover = document.getElementById("stage-visual-pill-popover");
+  if (!visSourceBadge) return;
+
+  if (visPopover) {
+    visPopover.classList.add("hidden");
+    visPopover.style.overflowY = "";
+    visPopover.style.maxHeight = "";
+    visPopover.innerHTML = "";
+  }
+
+  const choices = getCoverBackdropChoices();
+  if (!choices.length) {
+    visSourceBadge.classList.add("hidden");
+    return;
+  }
+
+  const activeChoiceIdx = resolveActiveCoverBackdropChoiceIdx(choices);
+  const activeEntry = choices[activeChoiceIdx] || choices[0];
+  const isNoneSelected =
+    String(document.getElementById("style-cover-backdrop")?.value || state.deckStyle?.cover_backdrop_id || "").toUpperCase() ===
+    "NONE";
+
+  visSourceBadge.classList.remove("hidden");
+  visSourceBadge.style.background = tokens?.badgeBg || "#EFF6FF";
+  visSourceBadge.style.color = tokens?.badgeFg || "#003F87";
+  visSourceBadge.style.border = `1px solid ${tokens?.accentHex || "#003F87"}`;
+  visSourceBadge.className = "m3-stage-visual-pill is-interactive is-cover-backdrop-pill";
+
+  const shortTitle = isNoneSelected
+    ? "🚫 NO COVER BACKDROP"
+    : `🏞️ WASHED COVER BACKDROP`;
+  const countLabel = isNoneSelected
+    ? `(Off/${choices.length}) ▾`
+    : `(${activeChoiceIdx + 1}/${choices.length}) ▾`;
+
+  visSourceBadge.innerHTML = `
+    <button type="button" class="m3-stage-pill-arrow" id="stage-pill-prev" title="Previous washed background image for Slide 1 (${choices.length} available)" aria-label="Previous Slide 1 washed background">◀</button>
+    <button type="button" class="m3-stage-pill-label-btn" id="stage-pill-main" title="Switch Slide 1 washed background image (${activeEntry?.title || "24 Nano Banana backdrops"}) or open Nano Banana AI Template Studio" aria-expanded="false">
+      <span>${escapeHtml(shortTitle)}</span>
+      <span class="m3-stage-pill-count">${escapeHtml(countLabel)}</span>
+    </button>
+    <button type="button" class="m3-stage-pill-arrow" id="stage-pill-next" title="Next washed background image for Slide 1 (${choices.length} available)" aria-label="Next Slide 1 washed background">▶</button>
+  `;
+
+  const prevArrow = document.getElementById("stage-pill-prev");
+  const nextArrow = document.getElementById("stage-pill-next");
+  const mainBtn = document.getElementById("stage-pill-main");
+
+  prevArrow?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    cycleCoverBackdropChoice(-1);
+  });
+  nextArrow?.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    cycleCoverBackdropChoice(1);
+  });
+
+  if (visPopover) {
+    const itemsHtml = choices
+      .map((c, i) => {
+        const isCurrent = !isNoneSelected && i === activeChoiceIdx;
+        return `
+          <button type="button" class="m3-pill-popover-item ${isCurrent ? "active" : ""}" data-cover-backdrop-idx="${i}" role="option" aria-selected="${isCurrent ? "true" : "false"}">
+            <img class="m3-pill-popover-thumb" src="${escapeHtml(c.image_url || "")}" alt="${escapeHtml(c.title || "Washed Backdrop")}" loading="lazy" />
+            <div class="m3-pill-popover-meta">
+              <div class="m3-pill-popover-role">
+                <span>[${i + 1}/${choices.length}] ${escapeHtml(c.title || "Washed Backdrop")}</span>
+                ${
+                  isCurrent
+                    ? '<span style="color:#15803D; font-weight:900;">✓ Active</span>'
+                    : '<span style="color:#64748B; font-weight:600;">Select</span>'
+                }
+              </div>
+              <div class="m3-pill-popover-caption">${escapeHtml(c.caption || "")}</div>
+            </div>
+          </button>
+        `;
+      })
+      .join("");
+
+    visPopover.style.overflowY = "hidden";
+    visPopover.style.maxHeight = "310px";
+    visPopover.innerHTML = `
+      <div class="m3-pill-popover-header" style="flex-shrink:0;">
+        <span>Washed Cover Backdrops (${choices.length})</span>
+        <span>Slide 1 &bull; Cover</span>
+      </div>
+      <div id="cover-backdrop-popover-list" style="flex:1 1 auto; min-height:0; max-height:205px; overflow-y:auto; display:flex; flex-direction:column; gap:6px; padding-right:2px;">
+        ${itemsHtml}
+      </div>
+      <button type="button" class="m3-pill-popover-footer-btn" id="stage-pill-open-nano-template-studio-btn" style="flex-shrink:0; margin-top:2px; background:#FFFBEB; color:#92400E; border-color:#F59E0B; font-weight:800;">
+        🍌 Nano Banana AI Template Studio…
+      </button>
+    `;
+
+    visPopover.querySelectorAll("[data-cover-backdrop-idx]").forEach((btn) => {
+      btn.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const cIdx = parseInt(btn.getAttribute("data-cover-backdrop-idx"), 10);
+        const chosen = choices[cIdx];
+        if (chosen) {
+          selectCoverBackdropChoice(chosen);
+        }
+      });
+    });
+
+    document.getElementById("stage-pill-open-nano-template-studio-btn")?.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      openNanoBananaTemplateStudioFromStagePill();
+    });
+
+    mainBtn?.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const isHidden = visPopover.classList.toggle("hidden");
+      mainBtn.setAttribute("aria-expanded", isHidden ? "false" : "true");
+      if (!isHidden) {
+        const activeRow = visPopover.querySelector(".m3-pill-popover-item.active");
+        if (activeRow && typeof activeRow.scrollIntoView === "function") {
+          activeRow.scrollIntoView({ block: "nearest" });
+        }
+      }
     });
   }
 }
@@ -14676,11 +15018,43 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
 
   const isDarkSlide = Boolean(tokens?.isStudio || document.getElementById("beautification-select")?.value === "STUDIO");
   const headerBandEl = document.getElementById("stage-header-band");
+  const withTplVer = (u) => {
+    if (!u) return "";
+    return u.includes("?") ? u : `${u}?v=20261019h`;
+  };
+  const coverBackdropSelVal =
+    document.getElementById("style-cover-backdrop")?.value ||
+    state.deckStyle?.cover_backdrop_id ||
+    "AUTO_TEMPLATE";
+  const curBadgeForCover =
+    state.currentResult?.badge_name ||
+    state.currentBadge ||
+    document.getElementById("badge-select")?.value ||
+    "First Aid";
+  let effectiveCoverBgUrl = prof.cover_bg_url || "";
+  if (String(coverBackdropSelVal).toUpperCase() === "NONE") {
+    effectiveCoverBgUrl = "";
+  } else if (
+    coverBackdropSelVal &&
+    !["AUTO", "AUTO_TEMPLATE"].includes(String(coverBackdropSelVal).toUpperCase()) &&
+    window.BUILTIN_BACKDROP_URLS?.[coverBackdropSelVal]
+  ) {
+    effectiveCoverBgUrl = window.BUILTIN_BACKDROP_URLS[coverBackdropSelVal];
+  } else if (!effectiveCoverBgUrl && prof.template_id !== "default_workbench") {
+    if (typeof window.resolveDefaultCoverBackdropForBadge === "function") {
+      effectiveCoverBgUrl = window.resolveDefaultCoverBackdropForBadge(curBadgeForCover, prof.template_id);
+    }
+  }
 
   // 2. Default Workbench Classic: Reset responsive geometry overrides & keep slide footer locked to Slide Theme (never flipping with UI Dark Mode)
   if (!isCustomGeometry) {
-    overlayEl.classList.add("hidden");
-    overlayEl.innerHTML = "";
+    if (isCover && effectiveCoverBgUrl) {
+      overlayEl.classList.remove("hidden");
+      overlayEl.innerHTML = `<img src="${escapeHtml(withTplVer(effectiveCoverBgUrl))}" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:${isDarkSlide ? "0.28" : "0.26"}; pointer-events:none;" />`;
+    } else {
+      overlayEl.classList.add("hidden");
+      overlayEl.innerHTML = "";
+    }
     if (stageEl) {
       stageEl.classList.remove("has-custom-template-geometry");
       stageEl.style.removeProperty("--tpl-bottom-reserve-pct");
@@ -14755,34 +15129,6 @@ window.renderSlideTemplateOverlay = function renderSlideTemplateOverlay(isCover 
     if (safetyBar) safetyBar.style.marginBottom = "";
     if (misconceptionBar) misconceptionBar.style.marginBottom = "";
     bodySplit.style.paddingBottom = `${Math.max(3.8, bottomReserveWidthPct).toFixed(2)}%`;
-  }
-
-  const withTplVer = (u) => {
-    if (!u) return "";
-    return u.includes("?") ? u : `${u}?v=20261019h`;
-  };
-  const coverBackdropSelVal =
-    document.getElementById("style-cover-backdrop")?.value ||
-    state.deckStyle?.cover_backdrop_id ||
-    "AUTO_TEMPLATE";
-  const curBadgeForCover =
-    state.currentResult?.badge_name ||
-    state.currentBadge ||
-    document.getElementById("badge-select")?.value ||
-    "First Aid";
-  let effectiveCoverBgUrl = prof.cover_bg_url || "";
-  if (String(coverBackdropSelVal).toUpperCase() === "NONE") {
-    effectiveCoverBgUrl = "";
-  } else if (
-    coverBackdropSelVal &&
-    !["AUTO", "AUTO_TEMPLATE"].includes(String(coverBackdropSelVal).toUpperCase()) &&
-    window.BUILTIN_BACKDROP_URLS?.[coverBackdropSelVal]
-  ) {
-    effectiveCoverBgUrl = window.BUILTIN_BACKDROP_URLS[coverBackdropSelVal];
-  } else if (!effectiveCoverBgUrl && prof.template_id !== "default_workbench") {
-    if (typeof window.resolveDefaultCoverBackdropForBadge === "function") {
-      effectiveCoverBgUrl = window.resolveDefaultCoverBackdropForBadge(curBadgeForCover, prof.template_id);
-    }
   }
 
   const parts = [];
@@ -16095,6 +16441,7 @@ async function initPowerPointTemplateStudio() {
       updateNanoBananaLivePreview();
     }
   };
+  window.switchTemplateStudioTab = switchTemplateStudioTab;
 
   document.querySelectorAll("[data-tpl-studio-tab]").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -16198,6 +16545,7 @@ async function initPowerPointTemplateStudio() {
     astronomy_deep_space_observatory: "🔭 Night Sky Observatory Dome, Telescope & Milky Way",
     emergency_medical_triage: "🚑 Emergency First Aid Kit, Rescue Litter & Field Triage",
   };
+  window.BUILTIN_BACKDROP_LABELS = BUILTIN_BACKDROP_LABELS;
 
   const matchBackdropIdFromPrompt = (styleFamily, promptText) => {
     const customLower = `${promptText || ""}`.toLowerCase();
@@ -16272,6 +16620,7 @@ async function initPowerPointTemplateStudio() {
     }
     return BUILTIN_BACKDROP_URLS[styleFamily] ? styleFamily : "pinewood_campfire";
   };
+  window.matchBackdropIdFromPrompt = matchBackdropIdFromPrompt;
 
   const resolveDefaultCoverBackdropForBadge = (badgeName, templateId = "") => {
     const cleanBadge = String(badgeName || "").trim();
@@ -16722,6 +17071,17 @@ async function initPowerPointTemplateStudio() {
         state.tplAiSynthesizedPromptBgUrl = data.backdrop_url;
         state.tplAiSynthesizedBackdropPrompt = promptText;
         state.tplAiSynthesizedBackdropLabel = data.source_label || "✨ Custom AI Synthesized Backdrop";
+        state.customCoverBackdrops = state.customCoverBackdrops || [];
+        const customId = `custom_synth_${Date.now()}`;
+        const customTitle = `✨ ${promptVal.slice(0, 42)}${promptVal.length > 42 ? "…" : ""}`;
+        window.BUILTIN_BACKDROP_URLS[customId] = data.backdrop_url;
+        window.BUILTIN_BACKDROP_LABELS[customId] = customTitle;
+        state.customCoverBackdrops.unshift({
+          backdrop_id: customId,
+          image_url: data.backdrop_url,
+          title: customTitle,
+          caption: `${data.source_label || "Nano Banana"} • Prompt: "${promptVal.slice(0, 90)}"`,
+        });
         const bdSel = document.getElementById("tpl-ai-backdrop-select");
         if (bdSel && !state.tplAiCustomBgDataUrl) {
           bdSel.value = "ai_prompt";

@@ -53,7 +53,7 @@
     "req_number": "6",
     "slide_title": "Cloud Classification by Altitude Level & Vertical Development",
     "title": "Cloud Classification by Altitude Level & Vertical Development",
-    "description": "Atmospheric cloud classification chart showing Low (<6,500 ft), Middle (6,500\u201320,000 ft), High (>20,000 ft).",
+    "description": "Atmospheric cloud classification chart showing Low (<6,500 ft), Middle (6,500-20,000 ft), High (>20,000 ft).",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/weather_ec2020_s44_img1.png",
@@ -61,7 +61,7 @@
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "Atmospheric cloud classification chart showing Low (<6,500 ft), Middle (6,500\u201320,000 ft), High (>20,000 ft)."
+    "caption": "Atmospheric cloud classification chart showing Low (<6,500 ft), Middle (6,500-20,000 ft), High (>20,000 ft)."
   },
   {
     "image_id": "00489d0e5a0772",
@@ -99,7 +99,7 @@
     "image_id": "5d57214a3585b3",
     "badge_name": "Weather",
     "req_number": "1",
-    "slide_title": "Measuring Temperature & Relative Humidity",
+    "slide_title": "Meteorology & Core Atmospheric Variables",
     "title": "Measuring Temperature & Relative Humidity",
     "description": "Analog dial thermometer (\u00b0C) and relative humidity hygrometer (%) used to measure core atmospheric variables.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
@@ -181,7 +181,7 @@
     "req_number": "4",
     "slide_title": "Cold Front 3D Cross Section & Cloud Sequence",
     "title": "Cold Front 3D Cross Section & Cloud Sequence",
-    "description": "3D Cold Front profile illustrating the steep 150\u20131100 frontal slope, towering cumulonimbus anvil, and wind shift.",
+    "description": "3D Cold Front profile illustrating the steep 150-1100 frontal slope, towering cumulonimbus anvil, and wind shift.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udd04 Official Pamphlet Alternate #1 (Req 4)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/weather_ec2020_s27_img1.png",
@@ -189,7 +189,7 @@
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "3D Cold Front profile illustrating the steep 150\u20131100 frontal slope, towering cumulonimbus anvil, and wind shift."
+    "caption": "3D Cold Front profile illustrating the steep 150-1100 frontal slope, towering cumulonimbus anvil, and wind shift."
   },
   {
     "image_id": "61300a059a540a",
@@ -566,7 +566,7 @@
     "req_number": "7",
     "slide_title": "Weather Req 7 Visual",
     "title": "Weather Req 7 Visual",
-    "description": "Uniformed Scouts at a forest camp table demonstrating a tabletop terrarium water-cycle model and hydrologic chart.",
+    "description": "Field reference diagram showing Weather Req 7 Visual equipment, technique, and verification milestones for Weather Requirement 7 (hero).",
     "source_type": "NANO_BANANA_HERO",
     "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_7_nano_hero.png",
@@ -574,7 +574,7 @@
     "custom_prompt": "Weather hands-on demonstration of The Earth's Water (Hydrologic) Cycle, showing The total amount of water on Earth does not change significantly; it is continuously recycled betwee",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "Uniformed Scouts at a forest camp table demonstrating a tabletop terrarium water-cycle model and hydrologic chart.",
+    "caption": "Field reference diagram showing Weather Req 7 Visual equipment, technique, and verification milestones for Weather Requirement 7 (hero).",
     "vision_verified": true
   },
   {
@@ -732,9 +732,9 @@
     "image_id": "4519464a58a9d9",
     "badge_name": "Weather",
     "req_number": "1",
-    "slide_title": "Weather Requirement 1 Field Reference Figure",
+    "slide_title": "Meteorology & Core Atmospheric Variables",
     "title": "Weather Requirement 1 Field Reference Figure",
-    "description": "Scouts and counselor demonstrate Weather Requirement 1 field procedures and safety checks.",
+    "description": "Field reference diagram showing Weather Requirement 1 equipment, technique, and verification milestones for Weather Requirement 1 (img1).",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/weather_p003_img1.png",
@@ -742,7 +742,7 @@
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "Scouts and counselor demonstrate Weather Requirement 1 field procedures and safety checks."
+    "caption": "Field reference diagram showing Weather Requirement 1 equipment, technique, and verification milestones for Weather Requirement 1 (img1)."
   },
   {
     "image_id": "1b088d6a9d4024",
@@ -750,7 +750,7 @@
     "req_number": "2",
     "slide_title": "Weather Requirement 2 Field Reference Figure",
     "title": "Weather Requirement 2 Field Reference Figure",
-    "description": "Scouts and counselor demonstrate Weather Requirement 2 field procedures and safety checks.",
+    "description": "Field reference diagram showing Weather Requirement 2 equipment, technique, and verification milestones for Weather Requirement 2 (img1).",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/weather_p007_img1.png",
@@ -758,7 +758,7 @@
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "Scouts and counselor demonstrate Weather Requirement 2 field procedures and safety checks."
+    "caption": "Field reference diagram showing Weather Requirement 2 equipment, technique, and verification milestones for Weather Requirement 2 (img1)."
   },
   {
     "image_id": "d5702150abac64",
@@ -766,7 +766,7 @@
     "req_number": "3",
     "slide_title": "Weather Requirement 3 Field Reference Figure",
     "title": "Weather Requirement 3 Field Reference Figure",
-    "description": "Scouts and counselor demonstrate Weather Requirement 3 field procedures and safety checks.",
+    "description": "Field reference diagram showing Weather Requirement 3 equipment, technique, and verification milestones for Weather Requirement 3 (img1).",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
     "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/weather_p012_img1.png",
@@ -774,6 +774,102 @@
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "Scouts and counselor demonstrate Weather Requirement 3 field procedures and safety checks."
+    "caption": "Field reference diagram showing Weather Requirement 3 equipment, technique, and verification milestones for Weather Requirement 3 (img1)."
+  },
+  {
+    "image_id": "c052dc0f23f22a",
+    "badge_name": "Weather",
+    "req_number": "1",
+    "slide_title": "Weather Req 1 Define meteorology",
+    "title": "Weather Req 1 Define meteorology",
+    "description": "Four-panel instructional diagram illustrating Define meteorology procedures and verification checkpoints for Weather Requirement 1.",
+    "source_type": "NANO_BANANA_AI",
+    "source_label": "\ud83c\udf4c Nano Banana Visual",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_1_topic_visual.png",
+    "image_url": "/assets/ai_illustrations/weather_req_1_topic_visual.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Four-panel instructional diagram illustrating Define meteorology procedures and verification checkpoints for Weather Requirement 1."
+  },
+  {
+    "image_id": "8bc5c52c5d24ab",
+    "badge_name": "Weather",
+    "req_number": "3",
+    "slide_title": "Weather Req 3 At least two sources of weather",
+    "title": "Weather Req 3 At least two sources of weather",
+    "description": "Four-panel instructional diagram illustrating At least two sources of weather procedures and verification checkpoints for Weather Requirement 3.",
+    "source_type": "NANO_BANANA_AI",
+    "source_label": "\ud83c\udf4c Nano Banana Visual",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_3_topic_visual.png",
+    "image_url": "/assets/ai_illustrations/weather_req_3_topic_visual.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Four-panel instructional diagram illustrating At least two sources of weather procedures and verification checkpoints for Weather Requirement 3."
+  },
+  {
+    "image_id": "3509cabcd381ad",
+    "badge_name": "Weather",
+    "req_number": "4",
+    "slide_title": "Weather Req 4 Difference Between High and Low",
+    "title": "Weather Req 4 Difference Between High and Low",
+    "description": "Four-panel instructional diagram illustrating Difference Between High and Low procedures and verification checkpoints for Weather Requirement 4.",
+    "source_type": "NANO_BANANA_AI",
+    "source_label": "\ud83c\udf4c Nano Banana Visual",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_4_topic_visual.png",
+    "image_url": "/assets/ai_illustrations/weather_req_4_topic_visual.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Four-panel instructional diagram illustrating Difference Between High and Low procedures and verification checkpoints for Weather Requirement 4."
+  },
+  {
+    "image_id": "79b0969dd15b65",
+    "badge_name": "Weather",
+    "req_number": "6",
+    "slide_title": "Weather Req 6 Clouds in The Low Middle",
+    "title": "Weather Req 6 Clouds in The Low Middle",
+    "description": "Four-panel instructional diagram illustrating Clouds in The Low Middle procedures and verification checkpoints for Weather Requirement 6.",
+    "source_type": "NANO_BANANA_AI",
+    "source_label": "\ud83c\udf4c Nano Banana Visual",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_6_topic_visual.png",
+    "image_url": "/assets/ai_illustrations/weather_req_6_topic_visual.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Four-panel instructional diagram illustrating Clouds in The Low Middle procedures and verification checkpoints for Weather Requirement 6."
+  },
+  {
+    "image_id": "6a5ac272b41254",
+    "badge_name": "Weather",
+    "req_number": "10",
+    "slide_title": "Weather Req 10 Measuring and Recording the Weather",
+    "title": "Weather Req 10 Measuring and Recording the Weather",
+    "description": "Four-panel instructional diagram illustrating Measuring and Recording the Weather procedures and verification checkpoints for Weather Requirement 10.",
+    "source_type": "NANO_BANANA_AI",
+    "source_label": "\ud83c\udf4c Nano Banana Visual",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_10_topic_visual.png",
+    "image_url": "/assets/ai_illustrations/weather_req_10_topic_visual.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Four-panel instructional diagram illustrating Measuring and Recording the Weather procedures and verification checkpoints for Weather Requirement 10."
+  },
+  {
+    "image_id": "410a9a4b67d043",
+    "badge_name": "Weather",
+    "req_number": "12",
+    "slide_title": "Weather Req 12 Careers & Professional Pathways",
+    "title": "Weather Req 12 Careers & Professional Pathways",
+    "description": "Four-panel instructional diagram illustrating Careers & Professional Pathways procedures and verification checkpoints for Weather Requirement 12.",
+    "source_type": "NANO_BANANA_AI",
+    "source_label": "\ud83c\udf4c Nano Banana Visual",
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/weather_req_12_topic_visual.png",
+    "image_url": "/assets/ai_illustrations/weather_req_12_topic_visual.png",
+    "custom_prompt": "",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "caption": "Four-panel instructional diagram illustrating Careers & Professional Pathways procedures and verification checkpoints for Weather Requirement 12."
   }
 ]

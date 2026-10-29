@@ -546,7 +546,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                     {
                         "title": "Direct Pressure & Pressure Bandages for Severe Bleeding (Req 4c)",
                         "layout": "SPLIT_VISUAL_EXPLAINER",
-                        "image_path": "assets/diagrams/first_aid_bleeding_diagram.png",
+                        "image_path": "assets/ai_illustrations/first_aid_tourniquet_shock_visual.png",
                         "caption": "Applying firm direct pressure with sterile gauze, wrapping a pressure bandage, and positioning a windlass tourniquet 2 inches above a severe limb wound.",
                         "bullets": [
                             "Continuous Firm Pressure: Hold uninterrupted direct pressure with a sterile gauze pad for at least 5 full minutes without lifting to peek.",
@@ -5633,6 +5633,10 @@ def _sanitize_misconception_pair_runtime(
         if "(" in val and ")" not in val:
             val = re.sub(r"\s*\([^)]*?(?=\s+using\s+verified|\.\s*$)", "", val)
         out[k] = val
+    if not out.get("misconception") and out.get("myth"):
+        out["misconception"] = out["myth"]
+    if not out.get("myth") and out.get("misconception"):
+        out["myth"] = out["misconception"]
     return out
 
 
@@ -5708,10 +5712,10 @@ def _resolve_workbook_diagram_url(
             "1a": "assets/ai_illustrations/first_aid_triage_scene_visual.png",
             "2b(1)": "assets/ai_illustrations/first_aid_kit_21_items_visual.png",
             "3i": "assets/ai_illustrations/first_aid_wound_cleaning_blister_visual.png",
-            "4c": "assets/diagrams/first_aid_bleeding_diagram.png",
+            "4c": "assets/ai_illustrations/first_aid_tourniquet_shock_visual.png",
             "5a": "assets/ai_illustrations/first_aid_choking_5and5_visual.png",
             "6b": "assets/ai_illustrations/first_aid_burns_epi_visual.png",
-            "7d": "assets/diagrams/cpr_steps_diagram.png",
+            "7d": "assets/ai_illustrations/first_aid_cpr_aed_visual.png",
             "8d(1)": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
             "10a": "assets/ai_illustrations/first_aid_bites_stings_ticks_visual.png",
             "11c": "assets/ai_illustrations/first_aid_heat_hypothermia_visual.png",
@@ -5727,10 +5731,11 @@ def _resolve_workbook_diagram_url(
         weather_exact_map = {
             "1": "assets/pamphlet_images/weather_p007_img1.png",
             "2": "assets/ai_illustrations/weather_doppler_radar_nano.png",
+            "3": "assets/ai_illustrations/weather_req_3_nano_hero.png",
             "4": "assets/ai_illustrations/weather_warm_front_3d_sidebyside.png",
             "5": "assets/ai_illustrations/weather_sea_land_breeze_nano.png",
             "6": "assets/ai_illustrations/weather_cloud_classification_nano.png",
-            "7": "assets/diagrams/water_cycle_diagram.png",
+            "7": "assets/ai_illustrations/weather_hydrologic_cycle_nano.png",
             "9": "assets/ai_illustrations/weather_earth_orbit_seasons_nano.png",
         }
         w_cand = weather_exact_map.get(r_clean, "")
@@ -5744,18 +5749,20 @@ def _resolve_workbook_diagram_url(
         if (Path(__file__).resolve().parents[2] / exp_s).exists():
             return exp_s
 
-    # 4. Curated subject-matter diagrams in assets/diagrams/ and assets/ai_illustrations/
+    # 4. Curated subject-matter diagrams in assets/ai_illustrations/
     if b_low == "cooking":
         if r_clean in ("2", "2a"):
-            return "assets/diagrams/myplate_cooking_diagram.png"
+            return "assets/ai_illustrations/cooking_myplate_nutrition_visual.png"
     elif b_low in ("camping", "hiking", "backpacking", "wilderness survival"):
         if b_low == "camping" and r_clean == "9b":
             return "assets/ai_illustrations/camping_req_9_topic_visual.png"
+        if r_clean in ("7", "7a") and b_low == "camping":
+            return "assets/ai_illustrations/camping_req_7_nano_hero.png"
         if r_clean in ("2", "2a", "7", "7a") and ("leave no trace" in tl or "outdoor code" in tl or b_low == "camping"):
-            return "assets/diagrams/leave_no_trace_diagram.png"
+            return "assets/ai_illustrations/camping_req_2_nano_hero.png"
     elif b_low in ("environmental science", "sustainability", "soil and water conservation"):
         if r_clean in ("1", "1a", "2", "2a", "3", "3a") and ("water cycle" in tl or "hydrologic" in tl):
-            return "assets/diagrams/water_cycle_diagram.png"
+            return "assets/ai_illustrations/weather_hydrologic_cycle_nano.png"
 
     # 4. Authentic BSA Pamphlet figure for Req 1 (and Req 2 when available)
     if r_clean in ("1", "1a", "2", "2a"):
