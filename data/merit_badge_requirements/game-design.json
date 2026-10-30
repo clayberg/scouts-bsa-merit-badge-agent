@@ -200,7 +200,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "When analyzing outdoor physical games, establish clear playing boundaries free of trip hazards, obstacles, and vehicular traffic.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 38, p. 45)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 38, p. 45)",
       "syllabus_bucket": "In-Class Concept",
@@ -265,7 +265,6 @@
         "Step 4 - Experience Review: Compare personal engagement levels across mediums during a structured counselor discussion session."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 1.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Game Analysis and Play Value."
@@ -274,10 +273,12 @@
         "left_header": "Req 1a: Four Medium Comparative Analysis",
         "right_header": "Req 1b: Core Play Value Systems",
         "left_points": [
-          "(1a) Four Medium Comparative Analysis: Analyzing four games from different mediums reveals how platforms dictate user interaction, pacing, and rule clarity. Designers evaluate player format, goals, and resources to understand how distinct delivery systems shape player choices."
+          "(1a) Four Medium Comparative Analysis: Analyzing four games from different mediums reveals how platforms dictate user interaction, pacing, and rule clarity. Designers evaluate player format, goals, and resources to understand how distinct delivery systems shape player choices.",
+          "Medium Distinction: Tabletop, electronic, card, and live outdoor games each provide unique mechanical constraints."
         ],
         "right_points": [
-          "(1b) Core Play Value Systems: Play value describes the core emotional, physical, intellectual, or social reward that motivates continued engagement. Identifying these values helps designers target specific audiences and craft compelling player feedback loops."
+          "(1b) Core Play Value Systems: Play value describes the core emotional, physical, intellectual, or social reward that motivates continued engagement. Identifying these values helps designers target specific audiences and craft compelling player feedback loops.",
+          "Player Dynamics: Competitive formats create direct opposition while cooperative formats unite players against mechanics."
         ],
         "rows": [
           {
@@ -287,25 +288,27 @@
           },
           {
             "attribute": "Resource Accounting",
-            "left": "Req 1a: Four Medium Comparative: Analyzing four games from different mediums reveals how platforms dictate user interaction, pacing, and rule clarity. Designers evaluate player format, goals, and resources to understand how distinct delivery systems shape player choices.",
-            "right": "Req 1b: Core Play Value Systems: Play value describes the core emotional, physical, intellectual, or social reward that motivates continued engagement. Identifying these values helps designers target specific audiences and craft compelling player feedback loops."
+            "left": "Medium Distinction: Tabletop, electronic, card, and live outdoor games each provide unique mechanical constraints.",
+            "right": "Player Dynamics: Competitive formats create direct opposition while cooperative formats unite players against mechanics."
           },
           {
             "attribute": "Player Dynamics",
-            "left": "Medium Distinction: Tabletop, electronic, card, and live outdoor games each provide unique mechanical constraints.",
-            "right": "Resource Accounting: Games limit currency, territory, health, and turn actions to establish strategic tension."
+            "left": "Player Dynamics: Competitive formats create direct opposition while cooperative formats unite players against mechanics.",
+            "right": "Play Motivations: Designers target diverse engagement patterns including social bonding, mastery, immersion, and discovery."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 1 Exemplar Workbook Entry: Game Analysis",
+        "title": "Game Design Req 1 Worked Example: Game Mediums and Play Value",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 1a - Four Medium Comparative": "Analyzing four games from different mediums reveals how platforms dictate user interaction, pacing, and rule clarity. Designers evaluate player format, goals, and resources to understand how distinct delivery systems shape player choices.",
-          "Req 1b - Core Play Value Systems": "Play value describes the core emotional, physical, intellectual, or social reward that motivates continued engagement. Identifying these values helps designers target specific audiences and craft compelling player feedback loops."
+          "Phase 1 - Medium Selection": "Select four finished titles representing electronic, board, card, and live athletic categories.",
+          "Phase 2 - Component Decomposition": "Document the player count, win condition, core mechanics, and resource management systems.",
+          "Phase 3 - Value Categorization": "Identify the primary play value delivering emotional satisfaction during each game session.",
+          "Phase 4 - Experience Review": "Compare personal engagement levels across mediums during a structured counselor discussion session."
         },
-        "sample_output": "Game Analysis and Play Value: Tension, danger, provocation, and humiliation all are ways that players experience threat (p. 38).",
-        "counselor_tip": "For Game Design Requirement 1 (Game Analysis and Play Value), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 38, p. 45))."
+        "sample_output": "Game designers must categorize play experiences across diverse media including tabletop, electronic, traditional card, and outdoor physical environments. Every successful design balances structural rules, resource tracking, player formats, and targeted psychological play values.",
+        "counselor_tip": "During the Game Design Requirement 1 conference on Game Mediums and Play Value, verify that the Scout can explain medium distinction and demonstrate experience review: Compare personal engagement levels across mediums during a structured counselor discussion session."
       },
       "quiz_item": {
         "scenario_prompt": "In Game Design Requirement 1, how do a game's core mechanics, theme, medium, and victory conditions work together, and why do designers distinguish between games of emergence and games of progression?",
@@ -372,8 +375,8 @@
       "req_id": "2",
       "req_number": "2",
       "topic_heading": null,
-      "lead_text": "Discuss with your counselor FIVE of the following 17 game design terms. For each term that you pick, describe how it relates to a specific game: story, setting, characters, play sequence, level design, interface design, difficulty, balance, depth, pace, replay value, age appropriateness, single-player vs. multiplayer, cooperative vs. competitive, turn-based vs. real-time, strategy vs. reflex vs. chance, or abstract vs. thematic.",
-      "req_text": "Discuss with your counselor FIVE of the following 17 game design terms. For each term that you pick, describe how it relates to a specific game: story, setting, characters, play sequence, level design, interface design, difficulty, balance, depth, pace, replay value, age appropriateness, single-player vs. multiplayer, cooperative vs. competitive, turn-based vs. real-time, strategy vs. reflex vs. chance, or abstract vs. thematic.",
+      "lead_text": "Discuss with your counselor FIVE of the following 17 game design terms. For each term that you pick, describe how it relates to a specific game: story, setting, characters, play sequence, level design, interface design, difficulty, balance, depth, pace, replay value, age appropriateness, single-player vs. multiplayer, cooperative vs.competitive, turn-based vs. real-time, strategy vs. reflex vs. chance, or abstract vs. thematic.",
+      "req_text": "Discuss with your counselor FIVE of the following 17 game design terms. For each term that you pick, describe how it relates to a specific game: story, setting, characters, play sequence, level design, interface design, difficulty, balance, depth, pace, replay value, age appropriateness, single-player vs. multiplayer, cooperative vs.competitive, turn-based vs. real-time, strategy vs. reflex vs. chance, or abstract vs. thematic.",
       "sub_requirements": [],
       "resources": [
         {
@@ -397,7 +400,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain comfortable ambient lighting and proper ergonomic seating during extended analysis sessions to prevent eye strain and posture fatigue.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 51)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 51)",
       "syllabus_bucket": "In-Class Concept",
@@ -462,53 +465,50 @@
         "Step 4 - Concept Discussion: Explain each term and real game example clearly to your merit badge counselor."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 2.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Essential Game Design Vocabulary."
       ],
       "comparison_data": {
-        "left_header": "Req 2: Role of Game Tutorials",
-        "right_header": "Req 2: Compare Different Games",
+        "left_header": "Core Game Design Vocabulary: Core Principles",
+        "right_header": "Core Game Design Vocabulary: Field Execution",
         "left_points": [
-          "Role of Game Tutorials: A tutorial is apart of a game that introduces new rules or mechanics and gives the player a chance to practice them before using the min combination (p. 49).",
-          "Play Experience Descriptors: The following terms, difficulty, balance, depth, complexity, pace, replay value, and age appropriateness, describe the nature of the play experience (p. 49).",
-          "Framework for Comparing Games: They are useful tools for comparing different games (p. 49)."
+          "Interface Clarity: User interfaces communicate game state and action options through clean visual feedback.",
+          "Balance Architecture: Game balance prevents dominant strategies while preserving meaningful decision paths for players."
         ],
         "right_points": [
-          "Compare Different Games: They are useful tools for comparing different games (p. 49).",
-          "Assess Objective Difficulty: Difficulty describes how easy or hard it is for a player to complete a game objective (p. 49).",
-          "Tune Gameplay Challenge: As a designer, you can adjust game difficulty in many ways (p. 49)."
+          "Level Structure: Intentional level design guides player navigation, introduces new obstacles, and controls pacing.",
+          "Play Sequencing: Turn structures establish order, resolution timing, and information availability between competing participants."
         ],
         "rows": [
           {
             "attribute": "Interface Clarity",
-            "left": "Role of Game Tutorials: A tutorial is apart of a game that introduces new rules or mechanics and gives the player a chance to practice them before using the min combination (p. 49).",
-            "right": "Compare Different Games: They are useful tools for comparing different games (p. 49)."
+            "left": "Interface Clarity: User interfaces communicate game state and action options through clean visual feedback.",
+            "right": "Level Structure: Intentional level design guides player navigation, introduces new obstacles, and controls pacing."
           },
           {
             "attribute": "Balance Architecture",
-            "left": "Play Experience Descriptors: The following terms, difficulty, balance, depth, complexity, pace, replay value, and age appropriateness, describe the nature of the play experience (p. 49).",
-            "right": "Assess Objective Difficulty: Difficulty describes how easy or hard it is for a player to complete a game objective (p. 49)."
+            "left": "Balance Architecture: Game balance prevents dominant strategies while preserving meaningful decision paths for players.",
+            "right": "Play Sequencing: Turn structures establish order, resolution timing, and information availability between competing participants."
           },
           {
             "attribute": "Level Structure",
-            "left": "Framework for Comparing Games: They are useful tools for comparing different games (p. 49).",
-            "right": "Tune Gameplay Challenge: As a designer, you can adjust game difficulty in many ways (p. 49)."
+            "left": "Level Structure: Intentional level design guides player navigation, introduces new obstacles, and controls pacing.",
+            "right": "Play Sequencing: Turn structures establish order, resolution timing, and information availability between competing participants."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 2 Exemplar Workbook Entry: Essential",
+        "title": "Game Design Req 2 Worked Example: Core Game Design Vocabulary",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Role of Game Tutorials": "A tutorial is apart of a game that introduces new rules or mechanics and gives the player a chance to practice them before using the min combination (p. 49).",
-          "Play Experience Descriptors": "The following terms, difficulty, balance, depth, complexity, pace, replay value, and age appropriateness, describe the nature of the play experience (p. 49).",
-          "Framework for Comparing Games": "They are useful tools for comparing different games (p. 49).",
-          "Measuring Objective Difficulty": "Difficulty describes how easy or hard it is for a player to complete a game objective (p. 49)."
+          "Phase 1 - Term Selection": "Select five specific terms from the seventeen options listed in the requirements.",
+          "Phase 2 - Game Pairing": "Pair each chosen design term with a specific published game you know.",
+          "Phase 3 - Mechanical Demonstration": "Outline the precise mechanism where each concept directly impacts player decision making.",
+          "Phase 4 - Concept Discussion": "Explain each term and real game example clearly to your merit badge counselor."
         },
-        "sample_output": "Essential Game Design Vocabulary: A tutorial is apart of a game that introduces new rules or mechanics and gives the player a chance to practice them before using the min combination (p. 49).",
-        "counselor_tip": "For Game Design Requirement 2 (Essential Game Design Vocabulary), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 51))."
+        "sample_output": "Mastering formal game design terminology allows creators to critique interactive mechanics, narrative structures, and player interfaces precisely. Designers employ these terms to isolate mechanical imbalances, interface friction, and pacing defects within specific games.",
+        "counselor_tip": "During the Game Design Requirement 2 conference on Core Game Design Vocabulary, verify that the Scout can explain interface clarity and demonstrate concept discussion: Explain each term and real game example clearly to your merit badge counselor."
       },
       "quiz_item": {
         "scenario_prompt": "How does a game designer distinguish between a game's difficulty and its depth?",
@@ -536,7 +536,7 @@
       "workbook_diagram_url": "assets/ai_illustrations/game_design_req_2_nano_hero.png",
       "workbook_diagram_caption": "Scouts and their leader sit around an outdoor wooden picnic table playtesting a custom strategy board game with tokens.",
       "number": "2",
-      "description": "Discuss with your counselor FIVE of the following 17 game design terms. For each term that you pick, describe how it relates to a specific game: story, setting, characters, play sequence, level design, interface design, difficulty, balance, depth, pace, replay value, age appropriateness, single-player vs. multiplayer, cooperative vs. competitive, turn-based vs. real-time, strategy vs. reflex vs. chance, or abstract vs. thematic.",
+      "description": "Discuss with your counselor FIVE of the following 17 game design terms. For each term that you pick, describe how it relates to a specific game: story, setting, characters, play sequence, level design, interface design, difficulty, balance, depth, pace, replay value, age appropriateness, single-player vs. multiplayer, cooperative vs.competitive, turn-based vs. real-time, strategy vs. reflex vs. chance, or abstract vs. thematic.",
       "workbook_visual_caption": "Scouts and their leader sit around an outdoor wooden picnic table playtesting a custom strategy board game with tokens.",
       "pamphlet_summary": "Mastering formal game design terminology allows creators to critique interactive mechanics, narrative structures, and player interfaces precisely. Designers employ these terms to isolate mechanical imbalances, interface friction, and pacing defects within specific games.",
       "socratic_questions": [
@@ -608,7 +608,7 @@
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Respect intellectual property and privacy laws by using legally licensed software tools and open assets on personal computers.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 48, p. 63)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 48, p. 63)",
       "syllabus_bucket": "In-Class Concept",
@@ -677,53 +677,50 @@
         "Step 4 - Licensing Review: Examine an existing licensed franchise game to explain owner permissions and obligations."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 3.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Intellectual Property and Game Licensing."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Commercializing Original Games",
-        "right_header": "Req 3: Write Original Source Code",
+        "left_header": "Intellectual Property Protection Systems: Core Principles",
+        "right_header": "Intellectual Property Protection Systems: Field Execution",
         "left_points": [
-          "Commercializing Original Games: Justin will be programming the game and might want to commercialize, or be able to sell the game in the future (p. 48).",
-          "Created Game Assets: Let's say Justin creates a game, an instruction manual, and a name for the game (p. 48).",
-          "Game Development Source Code: In particular, Justin has created computer source code as part of the game development process (p. 48)."
+          "Copyright Boundaries: Copyright protects original artistic assets, music, code, and dialogue, but not mechanics.",
+          "Trademark Function: Trademarks protect studio brands, franchise logos, game titles, and commercial merchandising identities."
         ],
         "right_points": [
-          "Write Original Source Code: In particular, Justin has created computer source code as part of the game development process (p. 48).",
-          "Edit Program Instructions: Source code is computer instructions that people can write and edit (p. 48).",
-          "Apply Analytical Game Terms: In addition to the core game elements, many other terms are useful for analyzing games (p. 48)."
+          "Patent Utility: Patents protect novel mechanical innovations, physical hardware controllers, and specialized technical systems.",
+          "Licensing Rights: Licensing contracts permit developers to build games using external proprietary story worlds."
         ],
         "rows": [
           {
             "attribute": "Copyright Boundaries",
-            "left": "Commercializing Original Games: Justin will be programming the game and might want to commercialize, or be able to sell the game in the future (p. 48).",
-            "right": "Write Original Source Code: In particular, Justin has created computer source code as part of the game development process (p. 48)."
+            "left": "Copyright Boundaries: Copyright protects original artistic assets, music, code, and dialogue, but not mechanics.",
+            "right": "Patent Utility: Patents protect novel mechanical innovations, physical hardware controllers, and specialized technical systems."
           },
           {
             "attribute": "Trademark Function",
-            "left": "Created Game Assets: Let's say Justin creates a game, an instruction manual, and a name for the game (p. 48).",
-            "right": "Edit Program Instructions: Source code is computer instructions that people can write and edit (p. 48)."
+            "left": "Trademark Function: Trademarks protect studio brands, franchise logos, game titles, and commercial merchandising identities.",
+            "right": "Licensing Rights: Licensing contracts permit developers to build games using external proprietary story worlds."
           },
           {
             "attribute": "Patent Utility",
-            "left": "Game Development Source Code: In particular, Justin has created computer source code as part of the game development process (p. 48).",
-            "right": "Apply Analytical Game Terms: In addition to the core game elements, many other terms are useful for analyzing games (p. 48)."
+            "left": "Patent Utility: Patents protect novel mechanical innovations, physical hardware controllers, and specialized technical systems.",
+            "right": "Licensing Rights: Licensing contracts permit developers to build games using external proprietary story worlds."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 3 Exemplar Workbook Entry: Intellectual",
+        "title": "Game Design Req 3 Worked Example: Intellectual Property Protection Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Commercializing Original Games": "Justin will be programming the game and might want to commercialize, or be able to sell the game in the future (p. 48).",
-          "Created Game Assets": "Let's say Justin creates a game, an instruction manual, and a name for the game (p. 48).",
-          "Game Development Source Code": "In particular, Justin has created computer source code as part of the game development process (p. 48).",
-          "Human-Readable Computer Instructions": "Source code is computer instructions that people can write and edit (p. 48)."
+          "Phase 1 - Legal Definition": "Define intellectual property as proprietary creations of the mind recognized by law.",
+          "Phase 2 - Category Classification": "Differentiate copyright, trademark, trade secret, and patent protections within game development.",
+          "Phase 3 - Protection Analysis": "Detail why developers require legal protections to secure financial returns on investments.",
+          "Phase 4 - Licensing Review": "Examine an existing licensed franchise game to explain owner permissions and obligations."
         },
-        "sample_output": "Intellectual Property and Game Licensing: Justin will be programming the game and might want to commercialize, or be able to sell the game in the future (p. 48).",
-        "counselor_tip": "For Game Design Requirement 3 (Intellectual Property and Game Licensing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 48, p. 63))."
+        "sample_output": "Intellectual property laws safeguard creative expressions, trade secrets, patented hardware, and commercial trademarks across the entertainment industry. Licensing agreements grant legal permission to adapt established fictional universes, character designs, or proprietary engines into novel gaming titles.",
+        "counselor_tip": "During the Game Design Requirement 3 conference on Intellectual Property Protection Systems, verify that the Scout can explain copyright boundaries and demonstrate licensing review: Examine an existing licensed franchise game to explain owner permissions and obligations."
       },
       "quiz_item": {
         "scenario_prompt": "When a game studio pays a film company for the legal right to build a board game featuring characters and locations from a popular movie franchise, what is that movie franchise called?",
@@ -1118,7 +1115,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure participants do not engage in overly aggressive physical contact when modifying rules in athletic or field games.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)",
       "syllabus_bucket": "In-Class Concept",
@@ -1187,14 +1184,13 @@
         "Step 4 - Counselor Debrief: Review player observations, emotional shifts, and prediction accuracy with your counselor."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 4.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Modifying Rules and Testing Gameplay."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Standard Game Baseline",
-        "right_header": "Req 4c: Controlled Rule Variation",
+        "left_header": "Req 4a: Standard Game Baseline Evaluation",
+        "right_header": "Req 4c: Controlled Rule Variation Playtesting",
         "left_points": [
           "(4a) Standard Game Baseline Evaluation: Selecting an established customizable game provides a known control environment for testing. Documenting its standard rules and completing a full playthrough records reference data on game length and decision points.",
           "(4b) Predictive Rule Change Formulation: Designers formulate formal hypotheses predicting how altered constraints, victory conditions, or resources will shift strategy. Writing down expected player reactions prevents hindsight bias after observing surprising playtest results."
@@ -1216,22 +1212,22 @@
           },
           {
             "attribute": "Single Variable Testing",
-            "left": "Req 4a: Standard Game Baseline: Selecting an established customizable game provides a known control environment for testing. Documenting its standard rules and completing a full playthrough records reference data on game length and decision points.",
-            "right": "Req 4b: Predictive Rule Change: Designers formulate formal hypotheses predicting how altered constraints, victory conditions, or resources will shift strategy. Writing down expected player reactions prevents hindsight bias after observing surprising playtest results."
+            "left": "Single Variable Testing: Testing one rule change at a time isolates direct behavioral causation reliably.",
+            "right": "Outcome Verification: Comparing actual play results against initial predictions reveals subtle emergent player behaviors."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 4 Exemplar Workbook Entry: Modifying",
+        "title": "Game Design Req 4 Worked Example: Rule Modification and Gameplay Testing",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Standard Game Baseline": "Selecting an established customizable game provides a known control environment for testing. Documenting its standard rules and completing a full playthrough records reference data on game length and decision points.",
-          "Req 4b - Predictive Rule Change": "Designers formulate formal hypotheses predicting how altered constraints, victory conditions, or resources will shift strategy. Writing down expected player reactions prevents hindsight bias after observing surprising playtest results.",
-          "Req 4c - Controlled Rule Variation": "Executing separate playtests for three distinct rule changes isolates variables and measures human emotional reactions. Observers note changes in player frustration, excitement, decision speed, and strategic cooperation.",
-          "Req 4d - Comparative Prediction": "Comparing pre-game predictions against observed player behavior demonstrates the unpredictable nature of human agency. Discussing discrepancies with a counselor builds critical analytical insight into emergent system dynamics."
+          "Phase 1 - Baseline Execution": "Select an adaptable game, summarize official rules, and complete a normal playthrough.",
+          "Phase 2 - Change Proposal": "Draft three distinct rule adjustments and record written predictions regarding gameplay impact.",
+          "Phase 3 - Iterative Playtesting": "Conduct three separate play sessions implementing only one proposed rule modification each.",
+          "Phase 4 - Counselor Debrief": "Review player observations, emotional shifts, and prediction accuracy with your counselor."
         },
-        "sample_output": "Modifying Rules and Testing Gameplay: Changing the play sequence can have a big impact on the play experience (p. 49).",
-        "counselor_tip": "For Game Design Requirement 4 (Modifying Rules and Testing Gameplay), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78))."
+        "sample_output": "Modifying existing games allows designers to isolate how individual mechanical adjustments alter pacing, strategy, and player emotions. Documenting controlled variations demonstrates how minor parameter shifts ripple through complex game economies and decision trees.",
+        "counselor_tip": "During the Game Design Requirement 4 conference on Rule Modification and Gameplay Testing, verify that the Scout can explain baseline testing and demonstrate counselor debrief: Review player observations, emotional shifts, and prediction accuracy with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you play a familiar game under its standard rules first and then test only one rule or objective change at a time?",
@@ -1621,7 +1617,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Store sharp crafting tools, scissors, and utility knives safely in protective sheaths when sketching and cutting notebook templates.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)",
       "syllabus_bucket": "In-Class Concept",
@@ -1690,7 +1686,6 @@
         "Step 4 - Element Sketching: Render hand-drawn diagrams illustrating boards, tokens, cards, user interfaces, or physical arenas."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 5.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Designing an Original Game Concept."
@@ -1719,22 +1714,22 @@
           },
           {
             "attribute": "Resource Definition",
-            "left": "Req 5a: Game Vision Statement: The vision statement establishes the foundational roadmap for the game, identifying medium, player format, objectives, and setting. It keeps the designer focused on a unified creative target throughout the iterative development process.",
-            "right": "Req 5b: Target Play Value: Defining why someone would want to play highlights the game's unique selling proposition and emotional draw. Identifying the intended psychological hook helps evaluate whether prototypes deliver the promised fun."
+            "left": "Resource Definition: Resources encompass cards, tokens, currency, time, and physical board spaces within games.",
+            "right": "Element Rendering: Sketching game elements clarifies scale, board layout, card iconography, and user interactions."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 5 Exemplar Workbook Entry: Designing",
+        "title": "Game Design Req 5 Worked Example: Game Concept Document Development",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Game Vision Statement": "The vision statement establishes the foundational roadmap for the game, identifying medium, player format, objectives, and setting. It keeps the designer focused on a unified creative target throughout the iterative development process.",
-          "Req 5b - Target Play Value": "Defining why someone would want to play highlights the game's unique selling proposition and emotional draw. Identifying the intended psychological hook helps evaluate whether prototypes deliver the promised fun.",
-          "Req 5c - Preliminary Rules": "Drafting preliminary rules establishes turn order, action economy, and win conditions while defining every tracked resource. Clear resource boundaries prevent runaway leaders and establish meaningful operational scarcity.",
-          "Req 5d - Game Element Visual": "Drawing visual schematics of game boards, components, interfaces, or playing spaces exposes mechanical bottlenecks early. Rough dimensional sketches reveal whether cards, tokens, or layouts fit ergonomically on the play surface."
+          "Phase 1 - Vision Formulation": "Compose a clear vision statement detailing medium, format, objective, and narrative theme.",
+          "Phase 2 - Motivation Definition": "Articulate the compelling play value driving player interest and sustained emotional engagement.",
+          "Phase 3 - Rules Drafting": "Formulate a preliminary rules sheet defining player turns, resources, and victory conditions.",
+          "Phase 4 - Element Sketching": "Render hand-drawn diagrams illustrating boards, tokens, cards, user interfaces, or physical arenas."
         },
-        "sample_output": "Designing an Original Game Concept: A GM cooks the food, sets the table, and provides different choices for entertainment (p. 20).",
-        "counselor_tip": "For Game Design Requirement 5 (Designing an Original Game Concept), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22))."
+        "sample_output": "Designing a new game begins with conceptualizing the vision statement, player format, theme, and mechanical framework in a design notebook. Establishing clear resources, preliminary rules, and visual element sketches ensures the project has actionable technical direction.",
+        "counselor_tip": "During the Game Design Requirement 5 conference on Game Concept Document Development, verify that the Scout can explain vision statement and demonstrate element sketching: Render hand-drawn diagrams illustrating boards, tokens, cards, user interfaces, or physical arenas."
       },
       "quiz_item": {
         "scenario_prompt": "What is the main purpose of writing a vision statement in your game design notebook before building your game?",
@@ -2057,7 +2052,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Inspect all physical prototype materials for sharp edges, non-toxic glues, choking hazards, and durable construction.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -2129,19 +2124,20 @@
         "Step 4 - Iterative Modification: Revise flawed rules and execute at least two additional complete playtest sessions."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 6.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Building and Playtesting Your Prototype."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Safe Prototype Component",
-        "right_header": "Req 6b: Initial Playtest Session",
+        "left_header": "Req 6a: Safe Prototype Component Fabrication",
+        "right_header": "Req 6b: Initial Playtest Session Execution",
         "left_points": [
-          "(6a) Safe Prototype Component Fabrication: Creating a physical prototype requires transforming notebook sketches into playable cards, boards, code, or athletic equipment. Designers must evaluate physical safety, ensuring components have no sharp burrs, toxic residues, or ballistic hazards."
+          "(6a) Safe Prototype Component Fabrication: Creating a physical prototype requires transforming notebook sketches into playable cards, boards, code, or athletic equipment. Designers must evaluate physical safety, ensuring components have no sharp burrs, toxic residues, or ballistic hazards.",
+          "Counselor Approval: Counselor concept approval ensures design safety, appropriate themes, and realistic project feasibility."
         ],
         "right_points": [
-          "(6b) Initial Playtest Session Execution: Running the first playtest tests whether human players experience the emotional engagement promised in the vision statement. The designer observes where players hesitate, ask for rule clarifications, or exploit unpredicted imbalances."
+          "(6b) Initial Playtest Session Execution: Running the first playtest tests whether human players experience the emotional engagement promised in the vision statement. The designer observes where players hesitate, ask for rule clarifications, or exploit unpredicted imbalances.",
+          "(6c) Multi-Round Iterative Playtesting: Iterating through at least two additional playtest sessions verifies that rule tweaks solved original issues without creating new bugs. Logging each session in the design notebook documents the evolution of balanced game mechanics."
         ],
         "rows": [
           {
@@ -2151,26 +2147,27 @@
           },
           {
             "attribute": "Rapid Prototyping",
-            "left": "Req 6a: Safe Prototype Component: Creating a physical prototype requires transforming notebook sketches into playable cards, boards, code, or athletic equipment. Designers must evaluate physical safety, ensuring components have no sharp burrs, toxic residues, or ballistic hazards.",
-            "right": "Req 6b: Initial Playtest Session: Running the first playtest tests whether human players experience the emotional engagement promised in the vision statement. The designer observes where players hesitate, ask for rule clarifications, or exploit unpredicted imbalances."
+            "left": "Counselor Approval: Counselor concept approval ensures design safety, appropriate themes, and realistic project feasibility.",
+            "right": "(6c) Multi-Round Iterative Playtesting: Iterating through at least two additional playtest sessions verifies that rule tweaks solved original issues without creating new bugs. Logging each session in the design notebook documents the evolution of balanced game mechanics."
           },
           {
             "attribute": "Iterative Refinement",
-            "left": "Req 6c: Multi-Round Iterative: Iterating through at least two additional playtest sessions verifies that rule tweaks solved original issues without creating new bugs. Logging each session in the design notebook documents the evolution of balanced game mechanics.",
-            "right": "Rapid Prototyping: Construct prototypes using inexpensive cardstock, index cards, markers, and repurposed game pieces."
+            "left": "Iterative Refinement: Playtesting exposes ambiguous rules, unbalance, and downtime that demand immediate mechanical adjustments.",
+            "right": "Multi-session Testing: Repeating playtests across multiple sessions confirms whether rule corrections successfully resolve problems."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 6 Exemplar Workbook Entry: Building",
+        "title": "Game Design Req 6 Worked Example: Iterative Prototype Playtesting Process",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a - Safe Prototype Component": "Creating a physical prototype requires transforming notebook sketches into playable cards, boards, code, or athletic equipment. Designers must evaluate physical safety, ensuring components have no sharp burrs, toxic residues, or ballistic hazards.",
-          "Req 6b - Initial Playtest Session": "Running the first playtest tests whether human players experience the emotional engagement promised in the vision statement. The designer observes where players hesitate, ask for rule clarifications, or exploit unpredicted imbalances.",
-          "Req 6c - Multi-Round Iterative": "Iterating through at least two additional playtest sessions verifies that rule tweaks solved original issues without creating new bugs. Logging each session in the design notebook documents the evolution of balanced game mechanics."
+          "Phase 1 - Concept Authorization": "Present the design notebook to your counselor and obtain formal concept approval.",
+          "Phase 2 - Prototype Construction": "Build a functional, low-fidelity prototype addressing all physical and participant safety requirements.",
+          "Phase 3 - Initial Playtest": "Conduct an initial playtest with target player numbers, recording confusion and breakdowns.",
+          "Phase 4 - Iterative Modification": "Revise flawed rules and execute at least two additional complete playtest sessions."
         },
-        "sample_output": "Building and Playtesting Your Prototype: The game designer is acrucial participant in the first stage of testing (p. 69).",
-        "counselor_tip": "For Game Design Requirement 6 (Building and Playtesting Your Prototype), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78))."
+        "sample_output": "Building a rapid prototype enables physical playtesting where mechanics face actual human interpretation and stress. Conducting multiple iterative playtest cycles reveals edge cases, confusing rules, and balance flaws that require design notebook revisions.",
+        "counselor_tip": "During the Game Design Requirement 6 conference on Iterative Prototype Playtesting Process, verify that the Scout can explain counselor approval and demonstrate iterative modification: Revise flawed rules and execute at least two additional complete playtest sessions."
       },
       "quiz_item": {
         "scenario_prompt": "Why should a game designer build an initial prototype out of inexpensive materials like index cards, paper, and spare tokens?",
@@ -2478,7 +2475,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure the blind testing play space is well ventilated, clutter-free, and comfortable for extended sitting or movement.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)",
       "syllabus_bucket": "In-Class Concept",
@@ -2547,19 +2544,20 @@
         "Step 4 - Counselor Debriefing: Review player feedback, notebook documentation, and design process lessons with your counselor."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 7.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Blind Playtesting and Written Instructions."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Comprehensive Instruction Manual",
-        "right_header": "Req 7b: Unassisted Blind Playtest",
+        "left_header": "Req 7a: Comprehensive Instruction Manual Drafting",
+        "right_header": "Req 7b: Unassisted Blind Playtest Administration",
         "left_points": [
-          "(7a) Comprehensive Instruction Manual Drafting: Writing an instruction manual requires clear technical communication of component inventories, board setup, turn mechanics, and endgame triggers. Formatting rules with numbered lists, headings, and visual diagrams prevents reader confusion during unassisted play."
+          "(7a) Comprehensive Instruction Manual Drafting: Writing an instruction manual requires clear technical communication of component inventories, board setup, turn mechanics, and endgame triggers. Formatting rules with numbered lists, headings, and visual diagrams prevents reader confusion during unassisted play.",
+          "Unassisted Learning: Blind playtesting measures rulebook clarity by eliminating verbal designer assistance entirely."
         ],
         "right_points": [
-          "(7b) Unassisted Blind Playtest Administration: Providing the prototype to fresh players who have never seen the game tests the manual under real-world conditions. The designer steps back completely, taking observational notes on player body language, confusion, and rule adherence."
+          "(7b) Unassisted Blind Playtest Administration: Providing the prototype to fresh players who have never seen the game tests the manual under real-world conditions. The designer steps back completely, taking observational notes on player body language, confusion, and rule adherence.",
+          "(7c) Design Notebook Final Review: Sharing the cumulative game design notebook with the counselor displays the progression from vision statement to refined product. Debriefing player feedback highlights personal growth in systems thinking, empathy, and technical communication."
         ],
         "rows": [
           {
@@ -2569,26 +2567,27 @@
           },
           {
             "attribute": "Rulebook Structure",
-            "left": "Req 7a: Comprehensive Instruction: Writing an instruction manual requires clear technical communication of component inventories, board setup, turn mechanics, and endgame triggers. Formatting rules with numbered lists, headings, and visual diagrams prevents reader confusion during unassisted play.",
-            "right": "Req 7b: Unassisted Blind Playtest: Providing the prototype to fresh players who have never seen the game tests the manual under real-world conditions. The designer steps back completely, taking observational notes on player body language, confusion, and rule adherence."
+            "left": "Unassisted Learning: Blind playtesting measures rulebook clarity by eliminating verbal designer assistance entirely.",
+            "right": "(7c) Design Notebook Final Review: Sharing the cumulative game design notebook with the counselor displays the progression from vision statement to refined product. Debriefing player feedback highlights personal growth in systems thinking, empathy, and technical communication."
           },
           {
             "attribute": "Observer Silence",
-            "left": "Req 7c: Design Notebook Final Review: Sharing the cumulative game design notebook with the counselor displays the progression from vision statement to refined product. Debriefing player feedback highlights personal growth in systems thinking, empathy, and technical communication.",
-            "right": "Rulebook Structure: Comprehensive instructions outline component inventory, exact setup steps, turn order, and victory."
+            "left": "Observer Silence: Designers must remain completely silent during blind tests while taking detailed notes.",
+            "right": "Notebook Presentation: Presenting the complete design notebook demonstrates the entire iterative engineering development lifecycle."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 7 Exemplar Workbook Entry: Blind",
+        "title": "Game Design Req 7 Worked Example: Blind Testing and Evaluation",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 7a - Comprehensive Instruction": "Writing an instruction manual requires clear technical communication of component inventories, board setup, turn mechanics, and endgame triggers. Formatting rules with numbered lists, headings, and visual diagrams prevents reader confusion during unassisted play.",
-          "Req 7b - Unassisted Blind Playtest": "Providing the prototype to fresh players who have never seen the game tests the manual under real-world conditions. The designer steps back completely, taking observational notes on player body language, confusion, and rule adherence.",
-          "Req 7c - Design Notebook Final Review": "Sharing the cumulative game design notebook with the counselor displays the progression from vision statement to refined product. Debriefing player feedback highlights personal growth in systems thinking, empathy, and technical communication."
+          "Phase 1 - Rulebook Drafting": "Write an exhaustive manual detailing component manifests, initial setup, gameplay, and scoring.",
+          "Phase 2 - Blind Hand-off": "Deliver the prototype and printed manual to fresh players without verbal hints.",
+          "Phase 3 - Silent Observation": "Observe the unassisted test quietly, recording setup errors, ambiguities, and rule misinterpretations.",
+          "Phase 4 - Counselor Debriefing": "Review player feedback, notebook documentation, and design process lessons with your counselor."
         },
-        "sample_output": "Blind Playtesting and Written Instructions: In addition to tracking game actions, watch body language to help you understand the players' emotional state during the test (p. 82).",
-        "counselor_tip": "For Game Design Requirement 7 (Blind Playtesting and Written Instructions), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84))."
+        "sample_output": "Blind testing requires an unfamiliar group of players to learn and execute the game exclusively from written instructions without creator intervention. Analyzing their unassisted play session proves whether the rule sheet communicates setup, gameplay flow, and victory conditions unambiguously.",
+        "counselor_tip": "During the Game Design Requirement 7 conference on Blind Testing and Evaluation, verify that the Scout can explain unassisted learning and demonstrate counselor debriefing: Review player feedback, notebook documentation, and design process lessons with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "What makes a blind playtest different from the earlier prototype playtests conducted in Requirement 6?",
@@ -2828,7 +2827,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Adhere to Youth Protection guidelines during interviews by including a parent or second registered adult at all times.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 23, p. 90)",
       "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 23, p. 90)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2898,19 +2897,20 @@
         "Step 4 - Career Debrief: Share career insights, educational prerequisites, and industry observations with your counselor."
       ],
       "gear_checklist": [
-        "Official Game Design merit badge pamphlet and workbook organizer for Req 8.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Game Industry Careers and Education."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Studio Developer Industry",
-        "right_header": "Req 8b: Game Design Educator",
+        "left_header": "Req 8a: Studio Developer Industry Interview",
+        "right_header": "Req 8b: Game Design Educator Consultation",
         "left_points": [
-          "(8a) Studio Developer Industry Interview: Interviewing a practicing game professional reveals how specialized disciplines collaborate within modern production pipelines. Scouts examine daily responsibilities, toolchains, milestone deadlines, and the realities of commercial product delivery."
+          "(8a) Studio Developer Industry Interview: Interviewing a practicing game professional reveals how specialized disciplines collaborate within modern production pipelines. Scouts examine daily responsibilities, toolchains, milestone deadlines, and the realities of commercial product delivery.",
+          "Industry Roles: Production pipelines unite programmers, narrative writers, 3D artists, sound designers, and QA testers."
         ],
         "right_points": [
-          "(8b) Game Design Educator Consultation: Consulting with a game design educator highlights foundational skills taught in academic curricula and vocational programs. Discussions focus on portfolio preparation, iterative prototyping techniques, and essential interdisciplinary coursework."
+          "(8b) Game Design Educator Consultation: Consulting with a game design educator highlights foundational skills taught in academic curricula and vocational programs. Discussions focus on portfolio preparation, iterative prototyping techniques, and essential interdisciplinary coursework.",
+          "Collaborative Pipelines: Commercial titles require strict milestone schedules, version control systems, and cross-discipline coordination."
         ],
         "rows": [
           {
@@ -2920,25 +2920,27 @@
           },
           {
             "attribute": "Academic Foundations",
-            "left": "Req 8a: Studio Developer Industry: Interviewing a practicing game professional reveals how specialized disciplines collaborate within modern production pipelines. Scouts examine daily responsibilities, toolchains, milestone deadlines, and the realities of commercial product delivery.",
-            "right": "Req 8b: Game Design Educator: Consulting with a game design educator highlights foundational skills taught in academic curricula and vocational programs. Discussions focus on portfolio preparation, iterative prototyping techniques, and essential interdisciplinary coursework."
+            "left": "Industry Roles: Production pipelines unite programmers, narrative writers, 3D artists, sound designers, and QA testers.",
+            "right": "Collaborative Pipelines: Commercial titles require strict milestone schedules, version control systems, and cross-discipline coordination."
           },
           {
             "attribute": "Collaborative Pipelines",
-            "left": "Industry Roles: Production pipelines unite programmers, narrative writers, 3D artists, sound designers, and QA testers.",
-            "right": "Academic Foundations: Game design degree programs cultivate mathematics, programming, creative writing, and systems engineering."
+            "left": "Collaborative Pipelines: Commercial titles require strict milestone schedules, version control systems, and cross-discipline coordination.",
+            "right": "Portfolio Development: Career advancement in game development relies on demonstrated playable prototypes and collaborative projects."
           }
         ]
       },
       "worked_example": {
-        "title": "Game Design Req 8 Exemplar Workbook Entry: Game Industry",
+        "title": "Game Design Req 8 Worked Example: Game Development Career Exploration",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Studio Developer Industry": "Interviewing a practicing game professional reveals how specialized disciplines collaborate within modern production pipelines. Scouts examine daily responsibilities, toolchains, milestone deadlines, and the realities of commercial product delivery.",
-          "Req 8b - Game Design Educator": "Consulting with a game design educator highlights foundational skills taught in academic curricula and vocational programs. Discussions focus on portfolio preparation, iterative prototyping techniques, and essential interdisciplinary coursework."
+          "Phase 1 - Career Track Selection": "Choose between interviewing a commercial studio developer or a post-secondary game design educator.",
+          "Phase 2 - Approval Verification": "Obtain written parental permission and merit badge counselor approval prior to scheduling.",
+          "Phase 3 - Professional Interview": "Conduct the structured interview discussing technical tools, team workflows, and career milestones.",
+          "Phase 4 - Career Debrief": "Share career insights, educational prerequisites, and industry observations with your counselor."
         },
-        "sample_output": "Game Industry Careers and Education: Coming up with a fun, exciting, and balanced ruleset is a good skill to have in almost any career (p. 23).",
-        "counselor_tip": "For Game Design Requirement 8 (Game Industry Careers and Education), verify the Scout's own observations and specific pamphlet details (Official Scouting America Game Design Merit Badge Pamphlet (p. 23, p. 90))."
+        "sample_output": "Investigating professional game development connects recreational hobbyist creation to commercial production pipelines and academic programs. Interviewing industry developers or specialized educators illuminates career pathways, technical competencies, and cross-functional team collaboration.",
+        "counselor_tip": "During the Game Design Requirement 8 conference on Game Development Career Exploration, verify that the Scout can explain industry roles and demonstrate career debrief: Share career insights, educational prerequisites, and industry observations with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Game Design merit badge pamphlet, how can game design principles be used outside of the commercial entertainment industry?",

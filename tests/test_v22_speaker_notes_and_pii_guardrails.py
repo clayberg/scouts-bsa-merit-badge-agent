@@ -130,11 +130,14 @@ def test_v22_first_aid_speaker_notes_non_repetitive_and_archetype_aware() -> Non
 
     for idx, s in enumerate(slides):
         notes = str(s.get("presenter_notes") or "")
+        s_arch = str(s.get("archetype") or "")
         assert "[PACING & MODALITY]" in notes, f"Slide {idx} missing [PACING & MODALITY]"
-        assert "[ASK SCOUTS FIRST]" in notes, f"Slide {idx} missing [ASK SCOUTS FIRST]"
-        assert "[EXPECTED PAMPHLET ANSWER KEY]" in notes, f"Slide {idx} missing [EXPECTED PAMPHLET ANSWER KEY]"
-        assert "[COMMON MISCONCEPTION TO CORRECT]" in notes, f"Slide {idx} missing [COMMON MISCONCEPTION TO CORRECT]"
         assert "[DEMONSTRATION & SIGN-OFF RUBRIC]" in notes, f"Slide {idx} missing [DEMONSTRATION & SIGN-OFF RUBRIC]"
+        if s_arch != "SOURCES_AND_REFERENCES":
+            assert "[ASK SCOUTS FIRST]" in notes, f"Slide {idx} missing [ASK SCOUTS FIRST]"
+            assert "[EXPECTED PAMPHLET ANSWER KEY]" in notes, f"Slide {idx} missing [EXPECTED PAMPHLET ANSWER KEY]"
+        if s_arch in ("REQUIREMENTS_TRIAGE_MATRIX", "SOURCES_AND_REFERENCES", "SOCRATIC_CHECKPOINT_QUIZ", "WORKED_EXAMPLE_TEMPLATE", "GEAR_CHECKLIST_GRID"):
+            assert "[COMMON MISCONCEPTION TO CORRECT]" not in notes
 
         # Banned generic meta-fallbacks and grammatical glitches
         assert "Assuming a quick verbal summary is enough" not in notes, f"Slide {idx} has generic verbal summary myth"
@@ -166,14 +169,15 @@ def test_v22_first_aid_speaker_notes_non_repetitive_and_archetype_aware() -> Non
             pacing_lines.append(lines_by_section["[PACING & MODALITY]"])
             ask_lines.append(lines_by_section["[ASK SCOUTS FIRST]"])
             key_lines.append(lines_by_section["[EXPECTED PAMPHLET ANSWER KEY]"])
-            misc_lines.append(lines_by_section["[COMMON MISCONCEPTION TO CORRECT]"])
+            if "[COMMON MISCONCEPTION TO CORRECT]" in lines_by_section:
+                misc_lines.append(lines_by_section["[COMMON MISCONCEPTION TO CORRECT]"])
             demo_lines.append(lines_by_section["[DEMONSTRATION & SIGN-OFF RUBRIC]"])
 
-    # Every slide in Requirement 1 must have distinct Pacing, Ask, Answer Key, Misconception, and Rubric blocks
+    # Every slide in Requirement 1 must have distinct Pacing, Ask, Answer Key, and Rubric blocks, and all included Misconceptions must be distinct
     assert len(set(pacing_lines)) == len(req1_slides), "Req 1 slides must have distinct [PACING & MODALITY] lines"
     assert len(set(ask_lines)) == len(req1_slides), "Req 1 slides must have distinct [ASK SCOUTS FIRST] lines"
     assert len(set(key_lines)) == len(req1_slides), "Req 1 slides must have distinct [EXPECTED PAMPHLET ANSWER KEY] lines"
-    assert len(set(misc_lines)) == len(req1_slides), "Req 1 slides must have distinct [COMMON MISCONCEPTION TO CORRECT] lines"
+    assert len(misc_lines) >= 2 and len(set(misc_lines)) == len(misc_lines), "Req 1 included [COMMON MISCONCEPTION TO CORRECT] lines must be unique"
     assert len(set(demo_lines)) == len(req1_slides), "Req 1 slides must have distinct [DEMONSTRATION & SIGN-OFF RUBRIC] lines"
 
     # Verify Sub-Requirement Deep Dive (1a-1d) and (1e-1g) scope to their own sub-requirements
@@ -187,8 +191,8 @@ def test_v22_first_aid_speaker_notes_non_repetitive_and_archetype_aware() -> Non
     assert len(deep_dive_slides) >= 2
     dd_1_notes = str(deep_dive_slides[0].get("presenter_notes") or "")
     dd_2_notes = str(deep_dive_slides[1].get("presenter_notes") or "")
-    dd_1_key = dd_1_notes.split("[EXPECTED PAMPHLET ANSWER KEY]")[1].split("[COMMON")[0]
-    dd_2_key = dd_2_notes.split("[EXPECTED PAMPHLET ANSWER KEY]")[1].split("[COMMON")[0]
+    dd_1_key = dd_1_notes.split("[EXPECTED PAMPHLET ANSWER KEY]")[1].splitlines()[0]
+    dd_2_key = dd_2_notes.split("[EXPECTED PAMPHLET ANSWER KEY]")[1].splitlines()[0]
     assert "(1a)" in dd_1_key and "(1e)" not in dd_1_key
     assert "(1e)" in dd_2_key and "(1a)" not in dd_2_key
 
@@ -202,10 +206,12 @@ def test_v22_first_aid_speaker_notes_non_repetitive_and_archetype_aware() -> Non
     b_slides = beautified["storyboard"]["slides"]
     b_req1 = [s for s in b_slides if str(s.get("req_number")) == "1"]
     b_misc = [
-        next(ln.strip() for ln in str(s.get("presenter_notes") or "").splitlines() if ln.strip().startswith("[COMMON MISCONCEPTION TO CORRECT]"))
+        ln.strip()
         for s in b_req1
+        for ln in str(s.get("presenter_notes") or "").splitlines()
+        if ln.strip().startswith("[COMMON MISCONCEPTION TO CORRECT]")
     ]
-    assert len(set(b_misc)) == len(b_req1)
+    assert len(b_misc) >= 2 and len(set(b_misc)) == len(b_misc)
     for m_ln in b_misc:
         assert "Assuming a quick verbal summary is enough" not in m_ln
         assert "Reading a short definition of" not in m_ln

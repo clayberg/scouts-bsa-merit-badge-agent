@@ -46,10 +46,8 @@
 #### Req 1a: Family Health and Plumbing Systems
 **Official Requirement 1a:** Describe how a properly working plumbing system protects your family's health and safety.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Working Plumbing System Protects Your)
-- **Common Myth:** Clean supply water and black drain water run through separate chambers within the same pipe.
-- **Pamphlet Fact:** Potable supply and sanitary drainage are physically isolated networks with dedicated air gaps preventing cross-contamination.
 
-![Plumbing Requirement 1 figure showing pressurized incoming pipes deliver clean water while preventing contaminated waste.](/assets/pamphlet_images/plumbing_p003_img1.png)
+![Pressurized incoming pipes deliver clean water while preventing contaminated waste water from mingling.](/assets/pamphlet_images/plumbing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -60,8 +58,6 @@
 #### Req 1b: Local Plumbing Health Regulations
 **Official Requirement 1b:** List five important local health regulations related to plumbing and tell how they protect health and safety.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Important Local Health Regulations)
-- **Common Myth:** Plumbing codes are optional suggestions meant to help homeowners save money on piping repairs.
-- **Pamphlet Fact:** Plumbing codes carry legal authority to prevent waterborne disease epidemics and hazardous structural gas leaks.
 
 ![An apprentice plumber wears required personal safety gear including a hard hat and protective eyewear.](/assets/pamphlet_images/plumbing_p021_img1.png)
 
@@ -74,10 +70,8 @@
 #### Req 1c: Home Plumbing Repair Precautions
 **Official Requirement 1c:** Describe the safety precautions you must take when making home plumbing repairs.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Safety Precautions You)
-- **Common Myth:** Turning off a sink faucet valve provides complete safety when cutting adjacent supply branch lines.
-- **Pamphlet Fact:** Upstream isolation at the fixture stop or main shutoff valve is required before cutting lines.
 
-![Plumbing Requirement 3 figure showing align jaw opening towards the direction of pull so serrated teeth grip firmly.](/assets/pamphlet_images/plumbing_p012_img1.png)
+![Align jaw opening towards the direction of pull so serrated teeth grip firmly.](/assets/pamphlet_images/plumbing_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -101,8 +95,6 @@
 #### Req 2a: Supply System Winterization Architecture
 **Official Requirement 2a:** Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Drawing and Explain How A)
-- **Common Myth:** Expanding ice causes pipe ruptures only at the exact point where the ice freezes solid.
-- **Pamphlet Fact:** Freezing ice traps water downstream and builds extreme hydraulic pressure that bursts the pipe elsewhere.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
@@ -130,8 +122,6 @@
 #### Req 2b: Drain Waste and Vent Architecture
 **Official Requirement 2b:** Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Drawing and Explain the Drainage)
-- **Common Myth:** Vent pipes carry liquid sewage up to the roof to evaporate outside.
-- **Pamphlet Fact:** Vent pipes convey only air and sewer gases, balancing system pressure so drain water flows freely.
 
 ![A heavy-duty pipe wrench provides strong leverage and serrated jaws for gripping threaded metal pipes.](/assets/pamphlet_images/plumbing_p023_img1.png)
 
@@ -236,8 +226,6 @@
 #### Req 6a: Store Plumbing Component Survey
 **Official Requirement 6a:** Visit the plumbing section of a hardware store or home center and identify: (1) PVC pipe and fittings (2) CPVC pipe and fittings (3) PEX pipe and fittings (4) Copper pipe and fittings (5) Steel pipe and fittings (6) Specialty plumbing tools.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Plumbing Section of A Hardware)
-- **Common Myth:** Fittings designed for PEX tubing can be directly glued onto standard rigid CPVC pipes.
-- **Pamphlet Fact:** Each piping family requires manufacturer-certified fittings engineered for that specific material's outside diameter and joining method.
 
 ![A boy cuts a white plastic pipe secured in a workbench vise using a handsaw under adult supervision.](/assets/pamphlet_images/plumbing_p032_img1.png)
 
@@ -255,8 +243,6 @@
 #### Req 6b: Plastic Solvent Cement Welding
 **Official Requirement 6b:** Cut, clean (deburr), PVC or CPVC pipe; solvent weld at least three connections to include a coupling, tee, and elbow.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Cut Clean Deburr PVC or)
-- **Common Myth:** Solvent cement acts as a glue that sticks two separate pieces of plastic together like tape.
-- **Pamphlet Fact:** Solvent cement chemically dissolves and fuses the pipe and fitting walls into one solid piece of plastic.
 
 ![A homeowner works beneath a kitchen sink to inspect and repair drain pipes and watertight trap connections.](/assets/pamphlet_images/plumbing_p024_img1.png)
 
@@ -270,8 +256,6 @@
 #### Req 6c: PEX Crimp Connection Assembly
 **Official Requirement 6c:** Cut PEX pipe; make at least one connection using either a quick-connect fitting or a crimp fitting (using specialized tools)
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Cut PEX Pipe)
-- **Common Myth:** A standard pair of slip-joint pliers can adequately compress copper PEX crimp rings.
-- **Pamphlet Fact:** Only a calibrated PEX crimp tool with a go/no-go gauge can create code-compliant watertight seals.
 
 | Req 6c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -283,8 +267,6 @@
 #### Req 6d: Copper Torch Sweat Soldering
 **Official Requirement 6d:** Solder a copper connection using a gas torch.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Copper Connection Using A Gas)
-- **Common Myth:** Directing the open torch flame straight at the solder wire ensures the strongest joint bond.
-- **Pamphlet Fact:** The copper fitting itself must heat the solder, drawing molten metal inward via capillary action.
 
 | Req 6d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -295,8 +277,6 @@
 #### Req 6e: Sink Faucet Fixture Replacement
 **Official Requirement 6e:** Replace a kitchen or lavatory faucet.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Replace A Kitchen or Lavatory)
-- **Common Myth:** Old crusty supply riser hoses should be reused whenever installing a brand-new faucet body.
-- **Pamphlet Fact:** Old supply risers degrade internally and must be replaced with new braided stainless steel lines.
 
 | Req 6e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -307,8 +287,6 @@
 #### Req 6f: Drain Trap Removal Servicing
 **Official Requirement 6f:** Remove, clean or replace, and reinstall a sink or lavatory drain trap.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix (Remove Clean or Replace and)
-- **Common Myth:** Slip joint nuts on sink traps require excessive tightening with a heavy pipe wrench.
-- **Pamphlet Fact:** Over-tightening slip nuts cracks plastic threads and pinches rubber washers, causing chronic leaks.
 
 | Req 6f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -319,8 +297,6 @@
 #### Req 6g: Thread Tape Sealant Application
 **Official Requirement 6g:** Properly apply pipe thread tape to a pipe or a plumbing connector.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6g Structured Technical Study & Explanation Matrix (Pipe Thread Tape to A)
-- **Common Myth:** Wrapping thread tape counterclockwise provides the exact same sealing performance as clockwise wrapping.
-- **Pamphlet Fact:** Counterclockwise wrapping bunches up and shreds off as the male fitting threads into the female socket.
 
 | Req 6g Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

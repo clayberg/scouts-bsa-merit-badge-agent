@@ -424,13 +424,15 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Paddling Hazard Mitigation",
+        "left_header": "Req 1a: Paddling Hazard Mitigation Planning",
         "right_header": "Req 1b: Paddling Injury Field Care",
         "left_points": [
-          "(1a) Paddling Hazard Mitigation Planning: Environmental hazards on moving water include river sweepers, low dams, and hydraulic reversals. Paddlers must scout rapids from shore and plot safe passage around submerged obstructions."
+          "(1a) Paddling Hazard Mitigation Planning: Environmental hazards on moving water include river sweepers, low dams, and hydraulic reversals. Paddlers must scout rapids from shore and plot safe passage around submerged obstructions.",
+          "Weather Assessment: Check local forecasts for wind velocity and approaching squalls before launching any craft."
         ],
         "right_points": [
-          "(1b) Paddling Injury Field Care: Immersion in cold water demands rapid first aid to prevent shock and progressive hypothermia. Dehydration and friction blisters also require prompt treatment through hydration and protective taping."
+          "(1b) Paddling Injury Field Care: Immersion in cold water demands rapid first aid to prevent shock and progressive hypothermia. Dehydration and friction blisters also require prompt treatment through hydration and protective taping.",
+          "(1c) Safety Afloat Protocol Standards: Safety Afloat establishes nine specific points ensuring participant physical fitness and constant supervision on the water. Proper adherence guarantees designated buddy pairs and emergency response readiness across all paddling activities."
         ],
         "rows": [
           {
@@ -439,27 +441,28 @@
             "right": "(1b) Paddling Injury Field Care: Immersion in cold water demands rapid first aid to prevent shock and progressive hypothermia. Dehydration and friction blisters also require prompt treatment through hydration and protective taping."
           },
           {
-            "attribute": "Strainers And Obstacles",
-            "left": "Req 1a: Paddling Hazard Mitigation: Environmental hazards on moving water include river sweepers, low dams, and hydraulic reversals. Paddlers must scout rapids from shore and plot safe passage around submerged obstructions.",
-            "right": "Req 1b: Paddling Injury Field Care: Immersion in cold water demands rapid first aid to prevent shock and progressive hypothermia. Dehydration and friction blisters also require prompt treatment through hydration and protective taping."
+            "attribute": "Strainers and Obstacles",
+            "left": "Weather Assessment: Check local forecasts for wind velocity and approaching squalls before launching any craft.",
+            "right": "(1c) Safety Afloat Protocol Standards: Safety Afloat establishes nine specific points ensuring participant physical fitness and constant supervision on the water. Proper adherence guarantees designated buddy pairs and emergency response readiness across all paddling activities."
           },
           {
             "attribute": "Cold Water Protocol",
-            "left": "Req 1c: Safety Afloat Protocol: Safety Afloat establishes nine specific points ensuring participant physical fitness and constant supervision on the water. Proper adherence guarantees designated buddy pairs and emergency response readiness across all paddling activities.",
-            "right": "Strainers And Obstacles: Fallen trees and river sweepers trap paddlers against fast current through suction."
+            "left": "Cold Water Protocol: Immersion in water below seventy degrees triggers involuntary gasping and rapid hypothermia.",
+            "right": "Lightning Precautions: Exit the water immediately and seek low ground during sudden electrical storms."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 1 Exemplar Workbook Entry: Canoeing Hazards",
+        "title": "Canoeing Req 1 Worked Example: Paddling Hazard Response Protocols",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Paddling Hazard Mitigation": "Environmental hazards on moving water include river sweepers, low dams, and hydraulic reversals. Paddlers must scout rapids from shore and plot safe passage around submerged obstructions.",
-          "Req 1b - Paddling Injury Field Care": "Immersion in cold water demands rapid first aid to prevent shock and progressive hypothermia. Dehydration and friction blisters also require prompt treatment through hydration and protective taping.",
-          "Req 1c - Safety Afloat Protocol": "Safety Afloat establishes nine specific points ensuring participant physical fitness and constant supervision on the water. Proper adherence guarantees designated buddy pairs and emergency response readiness across all paddling activities."
+          "Phase 1 - Hazard Audit": "Review local weather forecasts and identify potential water hazards along the route.",
+          "Phase 2 - Gear Check": "Confirm every paddler wears a properly fitted coast guard approved lifejacket.",
+          "Phase 3 - First Aid Review": "Discuss symptoms and field treatments for hypothermia, blisters, and severe dehydration.",
+          "Phase 4 - Float Plan Filing": "Submit a detailed route schedule and emergency contacts to responsible adult leaders."
         },
-        "sample_output": "Canoeing Hazards and First Aid: First aid for some of the temperature-related injuries can be lifesaving while treatment for other conditions is less urgent (p. 16).",
-        "counselor_tip": "For Canoeing Requirement 1 (Canoeing Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17))."
+        "sample_output": "Canoeing safety requires proactive recognition of environmental hazards including strainers, cold water shock, and severe weather changes. Paddlers must implement Scouting America Safety Afloat protocols by assigning qualified adult supervision and wearing lifejackets at all times.",
+        "counselor_tip": "During the Canoeing Requirement 1 conference on Paddling Hazard Response Protocols, verify that the Scout can explain weather assessment and demonstrate float plan filing: Submit a detailed route schedule and emergency contacts to responsible adult leaders."
       },
       "quiz_item": {
         "scenario_prompt": "Two Scouts capsize their canoe in the middle of a breezy lake a quarter-mile from shore. Both Scouts are wearing PFDs and the canoe floats upside down. What should they do?",
@@ -611,47 +614,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Mandatory Participant Health",
-        "right_header": "Req 2: Ask About Recent Illnesses",
+        "left_header": "Swimmer Classification Test Verification: Core Principles",
+        "right_header": "Swimmer Classification Test Verification: Field Execution",
         "left_points": [
-          "Mandatory Participant Health History: A complete health history is required of all participants as evidence of fitness for boating activities (p. 9).",
-          "Parent or Guardian Signatures: Forms for minors must be signed by a parent or legal guardian (p. 9).",
-          "Disclosing Recent Health Incidents: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 9)."
+          "Jump Entry: Enter water feet first over the head to prove recovery and orientation.",
+          "Forward Stroke: Swim seventy five yards using strong crawl or breaststroke with rhythmic breathing."
         ],
         "right_points": [
-          "Ask About Recent Illnesses: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 9).",
-          "Adjust Protection for Medical Needs: Supervision and protection should be adjusted to anticipate any potential risks associated with individual health conditions (p. 9).",
-          "Verify Swimmer Test Completion: Operation of any canoe is limited to youth and adults who have completed the Scouting America swimmer classification test, Jump feet first (p. 9)."
+          "Resting Stroke: Complete twenty five yards using an easy resting elementary backstroke for recovery.",
+          "Survival Float: Float calmly on your back for one minute while conserving physical energy."
         ],
         "rows": [
           {
             "attribute": "Jump Entry",
-            "left": "Mandatory Participant Health History: A complete health history is required of all participants as evidence of fitness for boating activities (p. 9).",
-            "right": "Ask About Recent Illnesses: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 9)."
+            "left": "Jump Entry: Enter water feet first over the head to prove recovery and orientation.",
+            "right": "Resting Stroke: Complete twenty five yards using an easy resting elementary backstroke for recovery."
           },
           {
             "attribute": "Forward Stroke",
-            "left": "Parent or Guardian Signatures: Forms for minors must be signed by a parent or legal guardian (p. 9).",
-            "right": "Adjust Protection for Medical Needs: Supervision and protection should be adjusted to anticipate any potential risks associated with individual health conditions (p. 9)."
+            "left": "Forward Stroke: Swim seventy five yards using strong crawl or breaststroke with rhythmic breathing.",
+            "right": "Survival Float: Float calmly on your back for one minute while conserving physical energy."
           },
           {
             "attribute": "Resting Stroke",
-            "left": "Disclosing Recent Health Incidents: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 9).",
-            "right": "Verify Swimmer Test Completion: Operation of any canoe is limited to youth and adults who have completed the Scouting America swimmer classification test, Jump feet first (p. 9)."
+            "left": "Resting Stroke: Complete twenty five yards using an easy resting elementary backstroke for recovery.",
+            "right": "Survival Float: Float calmly on your back for one minute while conserving physical energy."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 2 Exemplar Workbook Entry: Swimmer Test",
+        "title": "Canoeing Req 2 Worked Example: Swimmer Classification Test Verification",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Mandatory Participant Health History": "A complete health history is required of all participants as evidence of fitness for boating activities (p. 9).",
-          "Parent or Guardian Signatures": "Forms for minors must be signed by a parent or legal guardian (p. 9).",
-          "Disclosing Recent Health Incidents": "Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 9).",
-          "Adjusting Supervision for Health Risks": "Supervision and protection should be adjusted to anticipate any potential risks associated with individual health conditions (p. 9)."
+          "Phase 1 - Deep Water Entry": "Jump feet first into deep water and level off without assistance.",
+          "Phase 2 - Distance Swim": "Swim seventy five yards using a continuous and strong forward swimming stroke.",
+          "Phase 3 - Stroke Transition": "Switch immediately to an elementary backstroke and swim an additional twenty five yards.",
+          "Phase 4 - Resting Float": "Rest motionlessly on the water surface for one minute without touching edges."
         },
-        "sample_output": "Swimmer Test and Health Screening: A complete health history is required of all participants as evidence of fitness for boating activities (p. 9).",
-        "counselor_tip": "For Canoeing Requirement 2 (Swimmer Test and Health Screening), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 9, p. 13))."
+        "sample_output": "The swimmer classification test validates essential water stamina and aquatic self rescue skills before boat operation. Candidates must complete one hundred yards of uninterrupted swimming followed by a resting float.",
+        "counselor_tip": "During the Canoeing Requirement 2 conference on Swimmer Classification Test Verification, verify that the Scout can explain jump entry and demonstrate resting float: Rest motionlessly on the water surface for one minute without touching edges."
       },
       "quiz_item": {
         "scenario_prompt": "What is required during the 100-yard portion of the Scouting America swimmer classification test before operating a canoe?",
@@ -982,13 +983,15 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Canoe Structural Component",
-        "right_header": "Req 3b: Hull Hydrodynamic Performance",
+        "left_header": "Req 3a: Canoe Structural Component Identification",
+        "right_header": "Req 3b: Hull Hydrodynamic Performance Dynamics",
         "left_points": [
-          "(3a) Canoe Structural Component Identification: Scouts must locate key components including stems, ribs, gunwales, and structural cross thwarts across the craft. Identifying proper seat placement ensures correct trim and stable boat operation on water."
+          "(3a) Canoe Structural Component Identification: Scouts must locate key components including stems, ribs, gunwales, and structural cross thwarts across the craft. Identifying proper seat placement ensures correct trim and stable boat operation on water.",
+          "Hull Terminology: The bow points forward while the stern sits at the rear section."
         ],
         "right_points": [
-          "(3b) Hull Hydrodynamic Performance Dynamics: Canoe performance depends on the balance between waterline length, hull flare, and bottom curvature. Symmetrical hulls behave identically when moving forward or backward during complex paddling maneuvers."
+          "(3b) Hull Hydrodynamic Performance Dynamics: Canoe performance depends on the balance between waterline length, hull flare, and bottom curvature. Symmetrical hulls behave identically when moving forward or backward during complex paddling maneuvers.",
+          "Keel Impact: A full external keel aids tracking but impedes quick sideways river turns."
         ],
         "rows": [
           {
@@ -998,25 +1001,27 @@
           },
           {
             "attribute": "Gunwale Structure",
-            "left": "Req 3a: Canoe Structural Component: Scouts must locate key components including stems, ribs, gunwales, and structural cross thwarts across the craft. Identifying proper seat placement ensures correct trim and stable boat operation on water.",
-            "right": "Req 3b: Hull Hydrodynamic: Canoe performance depends on the balance between waterline length, hull flare, and bottom curvature. Symmetrical hulls behave identically when moving forward or backward during complex paddling maneuvers."
+            "left": "Hull Terminology: The bow points forward while the stern sits at the rear section.",
+            "right": "Keel Impact: A full external keel aids tracking but impedes quick sideways river turns."
           },
           {
             "attribute": "Keel Impact",
-            "left": "Hull Terminology: The bow points forward while the stern sits at the rear section.",
-            "right": "Gunwale Structure: Gunwales run along top edges to provide rigidity and support wooden thwarts."
+            "left": "Keel Impact: A full external keel aids tracking but impedes quick sideways river turns.",
+            "right": "Rocker Profile: Upward curvature at hull ends improves maneuverability but sacrifices straight tracking speed."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 3 Exemplar Workbook Entry: Canoe Anatomy",
+        "title": "Canoeing Req 3 Worked Example: Canoe Anatomy Performance Characteristics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Canoe Structural Component": "Scouts must locate key components including stems, ribs, gunwales, and structural cross thwarts across the craft. Identifying proper seat placement ensures correct trim and stable boat operation on water.",
-          "Req 3b - Hull Hydrodynamic Performance": "Canoe performance depends on the balance between waterline length, hull flare, and bottom curvature. Symmetrical hulls behave identically when moving forward or backward during complex paddling maneuvers."
+          "Phase 1 - Hull Orientation": "Identify the bow, stern, port gunwale, and starboard gunwale on the canoe.",
+          "Phase 2 - Internal Inspection": "Locate the thwart crossbars, deck plates, and properly mounted tandem bench seats.",
+          "Phase 3 - Rocker Examination": "Observe the upward curve from center keel toward the bow and stern stems.",
+          "Phase 4 - Width Measurement": "Compare beam width to overall waterline length to evaluate expected tracking performance."
         },
-        "sample_output": "Canoe Anatomy and Hull Design: Gunwales (pronounced \"gunnels\") are rails that run along the top edge of both sides of the canoe (p. 27).",
-        "counselor_tip": "For Canoeing Requirement 3 (Canoe Anatomy and Hull Design), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28))."
+        "sample_output": "A canoe consists of structural elements including gunwales, thwarts, decks, and molded seat platforms. Hull length, beam width, and bottom arch directly dictate hull stability and tracking efficiency.",
+        "counselor_tip": "During the Canoeing Requirement 3 conference on Canoe Anatomy Performance Characteristics, verify that the Scout can explain hull terminology and demonstrate width measurement: Compare beam width to overall waterline length to evaluate expected tracking performance."
       },
       "quiz_item": {
         "scenario_prompt": "How does a centerline keel on the bottom of a canoe affect its handling on the water?",
@@ -1317,10 +1322,12 @@
         "left_header": "Req 4a: Canoe Paddle Component Anatomy",
         "right_header": "Req 4b: Ergonomic Paddle Sizing Methods",
         "left_points": [
-          "(4a) Canoe Paddle Component Anatomy: A paddle features specific zones designed for control, power transmission, and hydrodynamic blade entry. Understanding these parts allows paddlers to maintain equipment and execute precise steering strokes."
+          "(4a) Canoe Paddle Component Anatomy: A paddle features specific zones designed for control, power transmission, and hydrodynamic blade entry. Understanding these parts allows paddlers to maintain equipment and execute precise steering strokes.",
+          "Grip Anatomy: The top grip fits naturally into the palm for maximum steering leverage."
         ],
         "right_points": [
-          "(4b) Ergonomic Paddle Sizing Methods: Accurate paddle fitting ensures ergonomic power application and prevents shoulder fatigue while paddling tandem canoes. Measuring the shaft while sitting or kneeling ensures optimal blade depth in the water."
+          "(4b) Ergonomic Paddle Sizing Methods: Accurate paddle fitting ensures ergonomic power application and prevents shoulder fatigue while paddling tandem canoes. Measuring the shaft while sitting or kneeling ensures optimal blade depth in the water.",
+          "Blade Face: The broad blade surface transfers muscular power directly into forward water thrust."
         ],
         "rows": [
           {
@@ -1330,25 +1337,27 @@
           },
           {
             "attribute": "Shaft Section",
-            "left": "Req 4a: Canoe Paddle Component: A paddle features specific zones designed for control, power transmission, and hydrodynamic blade entry. Understanding these parts allows paddlers to maintain equipment and execute precise steering strokes.",
-            "right": "Req 4b: Ergonomic Paddle Sizing: Accurate paddle fitting ensures ergonomic power application and prevents shoulder fatigue while paddling tandem canoes. Measuring the shaft while sitting or kneeling ensures optimal blade depth in the water."
+            "left": "Grip Anatomy: The top grip fits naturally into the palm for maximum steering leverage.",
+            "right": "Blade Face: The broad blade surface transfers muscular power directly into forward water thrust."
           },
           {
             "attribute": "Blade Face",
-            "left": "Grip Anatomy: The top grip fits naturally into the palm for maximum steering leverage.",
-            "right": "Shaft Section: The round shaft connects the hand grip down to the blade throat."
+            "left": "Blade Face: The broad blade surface transfers muscular power directly into forward water thrust.",
+            "right": "Kneeling Sizing: Measure shaft length from water level up to the nose when kneeling."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 4 Exemplar Workbook Entry: Paddle Anatomy",
+        "title": "Canoeing Req 4 Worked Example: Paddle Nomenclature Sizing Standards",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Canoe Paddle Component": "A paddle features specific zones designed for control, power transmission, and hydrodynamic blade entry. Understanding these parts allows paddlers to maintain equipment and execute precise steering strokes.",
-          "Req 4b - Ergonomic Paddle Sizing": "Accurate paddle fitting ensures ergonomic power application and prevents shoulder fatigue while paddling tandem canoes. Measuring the shaft while sitting or kneeling ensures optimal blade depth in the water."
+          "Phase 1 - Part Identification": "Point out the grip, shaft, throat, blade, and tip on the paddle.",
+          "Phase 2 - Seated Measurement": "Sit erect and measure from bridge of nose down to the floor.",
+          "Phase 3 - Kneeling Fit": "Kneel on padding and verify the paddle throat aligns with your chin.",
+          "Phase 4 - Blade Immersion": "Check that the entire blade enters water without submerging lower shaft excessively."
         },
-        "sample_output": "Paddle Anatomy and Proper Sizing: This puts the paddler in a more stable position in the boat (p. 38).",
-        "counselor_tip": "For Canoeing Requirement 4 (Paddle Anatomy and Proper Sizing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43))."
+        "sample_output": "A standard canoe paddle consists of a grip, shaft, throat, blade, and protective tip. Correct paddle sizing depends on torso height and whether the paddler sits or kneels.",
+        "counselor_tip": "During the Canoeing Requirement 4 conference on Paddle Nomenclature Sizing Standards, verify that the Scout can explain grip anatomy and demonstrate blade immersion: Check that the entire blade enters water without submerging lower shaft excessively."
       },
       "quiz_item": {
         "scenario_prompt": "Why do experienced canoeists kneel with their buttocks resting against the seat or thwart rather than sitting high on the seat in rough water?",
@@ -1738,13 +1747,15 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Lifejacket Function Buoyancy",
-        "right_header": "Req 5b: Flotation Device Fitting",
+        "left_header": "Req 5a: Lifejacket Function Buoyancy Requirements",
+        "right_header": "Req 5b: Flotation Device Fitting Procedures",
         "left_points": [
-          "(5a) Lifejacket Function Buoyancy Requirements: Wearing an approved personal flotation device provides continuous buoyancy during accidental capsizes or medical emergencies. Canoeists select low-profile designs that prevent chafing while allowing complete torso and arm mobility."
+          "(5a) Lifejacket Function Buoyancy Requirements: Wearing an approved personal flotation device provides continuous buoyancy during accidental capsizes or medical emergencies. Canoeists select low-profile designs that prevent chafing while allowing complete torso and arm mobility.",
+          "Vest Selection: Choose a comfortable Type III lifejacket designed for unrestricted arm paddling motion."
         ],
         "right_points": [
-          "(5b) Flotation Device Fitting Procedures: Paddlers must select lifejackets corresponding to their weight class and adjust straps from waist to shoulders. Testing fit ensures the garment will not slip upward over the head in water."
+          "(5b) Flotation Device Fitting Procedures: Paddlers must select lifejackets corresponding to their weight class and adjust straps from waist to shoulders. Testing fit ensures the garment will not slip upward over the head in water.",
+          "(5c) Auxiliary Safety Gear Readiness: Canoeing expeditions require auxiliary safety tools including audible signaling devices, bailers, sponges, and rescue ropes. Stow rescue gear securely where paddlers can reach it instantly during an emergency."
         ],
         "rows": [
           {
@@ -1754,26 +1765,27 @@
           },
           {
             "attribute": "Proper Fastening",
-            "left": "Req 5a: Lifejacket Function Buoyancy: Wearing an approved personal flotation device provides continuous buoyancy during accidental capsizes or medical emergencies. Canoeists select low-profile designs that prevent chafing while allowing complete torso and arm mobility.",
-            "right": "Req 5b: Flotation Device Fitting: Paddlers must select lifejackets corresponding to their weight class and adjust straps from waist to shoulders. Testing fit ensures the garment will not slip upward over the head in water."
+            "left": "Vest Selection: Choose a comfortable Type III lifejacket designed for unrestricted arm paddling motion.",
+            "right": "(5c) Auxiliary Safety Gear Readiness: Canoeing expeditions require auxiliary safety tools including audible signaling devices, bailers, sponges, and rescue ropes. Stow rescue gear securely where paddlers can reach it instantly during an emergency."
           },
           {
             "attribute": "Shoulder Test",
-            "left": "Req 5c: Auxiliary Safety Gear: Canoeing expeditions require auxiliary safety tools including audible signaling devices, bailers, sponges, and rescue ropes. Stow rescue gear securely where paddlers can reach it instantly during an emergency.",
-            "right": "Proper Fastening: Zip front zippers and buckle all adjustment straps starting from the bottom."
+            "left": "Shoulder Test: Pull upward on shoulder straps to confirm the vest does not slide.",
+            "right": "Bailing Tools: Carry sponges and cut plastic jugs to remove water from inside hulls."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 5 Exemplar Workbook Entry: Life Jackets",
+        "title": "Canoeing Req 5 Worked Example: Personal Flotation Rescue Equipment",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Lifejacket Function Buoyancy": "Wearing an approved personal flotation device provides continuous buoyancy during accidental capsizes or medical emergencies. Canoeists select low-profile designs that prevent chafing while allowing complete torso and arm mobility.",
-          "Req 5b - Flotation Device Fitting": "Paddlers must select lifejackets corresponding to their weight class and adjust straps from waist to shoulders. Testing fit ensures the garment will not slip upward over the head in water.",
-          "Req 5c - Auxiliary Safety Gear": "Canoeing expeditions require auxiliary safety tools including audible signaling devices, bailers, sponges, and rescue ropes. Stow rescue gear securely where paddlers can reach it instantly during an emergency."
+          "Phase 1 - Label Check": "Verify the Coast Guard approval label and intended user weight on vest.",
+          "Phase 2 - Secure Buckles": "Put on vest, zip front closure, and tighten all side tension straps.",
+          "Phase 3 - Fit Verification": "Have a buddy pull upward on shoulder straps to test vertical slip.",
+          "Phase 4 - Gear Staging": "Secure the bailer, sponge, whistle, spare paddle, and throw bag inside hull."
         },
-        "sample_output": "Life Jackets and Safety Gear: Sound Signal Device (p. 15).",
-        "counselor_tip": "For Canoeing Requirement 5 (Life Jackets and Safety Gear), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79))."
+        "sample_output": "Scouting America mandates that every canoeist wear an appropriately sized, coast guard approved lifejacket at all times. Essential safety gear includes sound signaling devices, spare paddles, bailers, and water rescue throw bags.",
+        "counselor_tip": "During the Canoeing Requirement 5 conference on Personal Flotation Rescue Equipment, verify that the Scout can explain vest selection and demonstrate gear staging: Secure the bailer, sponge, whistle, spare paddle, and throw bag inside hull."
       },
       "quiz_item": {
         "scenario_prompt": "Which type of whistle is recommended as a sound signal device for canoeing?",
@@ -1938,47 +1950,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 6: Covered Upside-Down Canoe Storage",
-        "right_header": "Req 6: Lift Instead of Dragging Hulls",
+        "left_header": "Canoeing Gear Care Maintenance: Core Principles",
+        "right_header": "Canoeing Gear Care Maintenance: Field Execution",
         "left_points": [
-          "Covered Upside-Down Canoe Storage: Store canoes out of the water and upside down in acovered area away from direct sunlight and extreme heat or cold (p. 30).",
-          "Protecting Wooden Canoe Gunwales: Do not store canoes with wooden gunwales on the ground (p. 30).",
-          "Preventing Hull Abrasion Damage: To prevent damage, do not drag a canoe across the ground or run it up onto the shore or into trees or rocks (p. 30)."
+          "Hull Cleaning: Wash dirt and grit from hull surfaces with fresh water after paddling.",
+          "Storage Position: Store canoes upside down on padded crossbars away from direct ground contact."
         ],
         "right_points": [
-          "Lift Instead of Dragging Hulls: To prevent damage, do not drag a canoe across the ground or run it up onto the shore or into trees or rocks (p. 30).",
-          "Wipe Out Sand and Mud: Make sure to wipe sand, mud, and other debris out of the canoe after each trip, and make repairs as needed (p. 30).",
-          "Oil Wooden Trim Twice Yearly: Oil wooden gunwales, seats, and thwarts of a canoe at least twice a year (p. 30)."
+          "Thwart Fasteners: Check thwart bolts and seat fasteners regularly to ensure they remain tight.",
+          "Wood Preservation: Apply marine varnish or oil to protect wooden gunwales from moisture decay."
         ],
         "rows": [
           {
             "attribute": "Hull Cleaning",
-            "left": "Covered Upside-Down Canoe Storage: Store canoes out of the water and upside down in acovered area away from direct sunlight and extreme heat or cold (p. 30).",
-            "right": "Lift Instead of Dragging Hulls: To prevent damage, do not drag a canoe across the ground or run it up onto the shore or into trees or rocks (p. 30)."
+            "left": "Hull Cleaning: Wash dirt and grit from hull surfaces with fresh water after paddling.",
+            "right": "Thwart Fasteners: Check thwart bolts and seat fasteners regularly to ensure they remain tight."
           },
           {
             "attribute": "Storage Position",
-            "left": "Protecting Wooden Canoe Gunwales: Do not store canoes with wooden gunwales on the ground (p. 30).",
-            "right": "Wipe Out Sand and Mud: Make sure to wipe sand, mud, and other debris out of the canoe after each trip, and make repairs as needed (p. 30)."
+            "left": "Storage Position: Store canoes upside down on padded crossbars away from direct ground contact.",
+            "right": "Wood Preservation: Apply marine varnish or oil to protect wooden gunwales from moisture decay."
           },
           {
             "attribute": "Thwart Fasteners",
-            "left": "Preventing Hull Abrasion Damage: To prevent damage, do not drag a canoe across the ground or run it up onto the shore or into trees or rocks (p. 30).",
-            "right": "Oil Wooden Trim Twice Yearly: Oil wooden gunwales, seats, and thwarts of a canoe at least twice a year (p. 30)."
+            "left": "Thwart Fasteners: Check thwart bolts and seat fasteners regularly to ensure they remain tight.",
+            "right": "Wood Preservation: Apply marine varnish or oil to protect wooden gunwales from moisture decay."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 6 Exemplar Workbook Entry: Canoe",
+        "title": "Canoeing Req 6 Worked Example: Canoeing Gear Care Maintenance",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Covered Upside-Down Canoe Storage": "Store canoes out of the water and upside down in acovered area away from direct sunlight and extreme heat or cold (p. 30).",
-          "Protecting Wooden Canoe Gunwales": "Do not store canoes with wooden gunwales on the ground (p. 30).",
-          "Preventing Hull Abrasion Damage": "To prevent damage, do not drag a canoe across the ground or run it up onto the shore or into trees or rocks (p. 30).",
-          "Cleaning Debris After Every Trip": "Make sure to wipe sand, mud, and other debris out of the canoe after each trip, and make repairs as needed (p. 30)."
+          "Phase 1 - Hull Washdown": "Hose down the interior and exterior hull using clean water and sponges.",
+          "Phase 2 - Hardware Check": "Tighten all loose screws and bolts on seats, thwarts, and deck plates.",
+          "Phase 3 - Paddle Inspection": "Inspect wooden and composite paddle blades for chips, splits, or structural cracks.",
+          "Phase 4 - Proper Rack Storage": "Place the canoe upside down on parallel storage racks under sheltered shade."
         },
-        "sample_output": "Canoe and Equipment Maintenance: Store canoes out of the water and upside down in acovered area away from direct sunlight and extreme heat or cold (p. 30).",
-        "counselor_tip": "For Canoeing Requirement 6 (Canoe and Equipment Maintenance), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 30, p. 34))."
+        "sample_output": "Routine maintenance protects canoes, paddles, and lifejackets from ultraviolet degradation and structural fastener failure. Proper storage off the ground and thorough cleanings extend equipment lifespan and ensure safety.",
+        "counselor_tip": "During the Canoeing Requirement 6 conference on Canoeing Gear Care Maintenance, verify that the Scout can explain hull cleaning and demonstrate proper rack storage: Place the canoe upside down on parallel storage racks under sheltered shade."
       },
       "quiz_item": {
         "scenario_prompt": "How often should wooden gunwales, seats, and thwarts on a canoe be oiled as part of routine maintenance?",
@@ -2432,7 +2442,7 @@
       ],
       "comparison_data": {
         "left_header": "Req 7a: Safe Canoe Launching Protocols",
-        "right_header": "Req 7c: Paddler Kneeling Seating",
+        "right_header": "Req 7c: Paddler Kneeling Seating Postures",
         "left_points": [
           "(7a) Safe Canoe Launching Protocols: Entering a canoe from a dock or shoreline requires holding gunwales and stepping along the bottom centerline. One paddler steadies the canoe against the shore while the second crew member enters.",
           "(7b) Controlled Dock Shoreline Landings: Approaching docks or shorelines requires gentle braking and controlled deceleration within two boat lengths. Once alongside, paddlers disembark one at a time and lift the hull to storage."
@@ -2454,22 +2464,22 @@
           },
           {
             "attribute": "Kneeling Stability",
-            "left": "Req 7a: Safe Canoe Launching: Entering a canoe from a dock or shoreline requires holding gunwales and stepping along the bottom centerline. One paddler steadies the canoe against the shore while the second crew member enters.",
-            "right": "Req 7b: Controlled Dock Shoreline: Approaching docks or shorelines requires gentle braking and controlled deceleration within two boat lengths. Once alongside, paddlers disembark one at a time and lift the hull to storage."
+            "left": "Kneeling Stability: Kneel with knees spread wide against bilge chins for rough water balance.",
+            "right": "Centerline Movement: Move along the middle floor while crouched and holding gunwales for balance."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 7 Exemplar Workbook Entry: Launching",
+        "title": "Canoeing Req 7 Worked Example: Canoe Boarding Trim Maneuvers",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Safe Canoe Launching": "Entering a canoe from a dock or shoreline requires holding gunwales and stepping along the bottom centerline. One paddler steadies the canoe against the shore while the second crew member enters.",
-          "Req 7b - Controlled Dock Shoreline": "Approaching docks or shorelines requires gentle braking and controlled deceleration within two boat lengths. Once alongside, paddlers disembark one at a time and lift the hull to storage.",
-          "Req 7c - Paddler Kneeling Seating": "Paddlers utilize sitting positions for comfortable distance cruising in calm flatwater conditions. Kneeling against the bottom bilge secures body weight low, improving stability during rough water.",
-          "Req 7d - In-Flight Paddler Position": "Changing places afloat requires one paddler to crouch low in the center while the second moves past. Maintaining continuous three-point contact and low body positioning keeps the boat balanced."
+          "Phase 1 - Shoreline Positioning": "Float the canoe parallel to shore in water deep enough to clear.",
+          "Phase 2 - Stabilized Boarding": "Hold gunwales while stepping along centerline as your partner steadies the craft.",
+          "Phase 3 - Seating Adjustment": "Transition into a kneeling position with knees wide against the hull bilge.",
+          "Phase 4 - Centerline Pass": "Stay crouched along bottom center while carefully switching positions with your partner."
         },
-        "sample_output": "Launching, Landing, and Boarding: Moving a canoe from where it is stored on land to where it is to be launched and then safely getting into it requires teamwork and good communication (p. 37).",
-        "counselor_tip": "For Canoeing Requirement 7 (Launching, Landing, and Boarding), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45))."
+        "sample_output": "Safe launching and landing require controlled foot placement and constant three-point contact along the centerline. Tandem crews maintain stability by lowering their center of gravity and stabilizing the hull.",
+        "counselor_tip": "During the Canoeing Requirement 7 conference on Canoe Boarding Trim Maneuvers, verify that the Scout can explain low center gravity and demonstrate centerline pass: Stay crouched along bottom center while carefully switching positions with your partner."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you never step into a canoe that has one end resting on the shore or dock and the other end floating in the water?",
@@ -3126,17 +3136,15 @@
         "right_header": "Req 8d: Deep Water Boat Rescue",
         "left_points": [
           "(8a) Deep Water Self Reentry: Deep water reentry demands that the in-boat paddler counterbalances weight while the swimmer kicks flat. The swimmer slides chest-first across the gunwale and rolls into the bottom center.",
-          "(8b) Controlled Capsize Flotation Support: Demonstrating a controlled capsize proves that swamped canoes provide ample flotation for both paddlers. Holding the hull ends keeps heads above water without risking trapping beneath inverted thwarts.",
-          "(8c) Swamped Canoe Shore Transport: Towing or pushing a waterlogged canoe fifty feet requires steady kicking while holding the craft stem. Once in shallow water, paddlers invert and lift the hull to drain contents."
+          "(8b) Controlled Capsize Flotation Support: Demonstrating a controlled capsize proves that swamped canoes provide ample flotation for both paddlers. Holding the hull ends keeps heads above water without risking trapping beneath inverted thwarts."
         ],
         "right_points": [
           "(8d) Deep Water Boat Rescue: Performing a canoe-over-canoe rescue in deep water empties a swamped boat without shore assistance. Rescuers pull the inverted hull across their gunwales, drain it, and launch it right-side up.",
-          "(8e) Conscious Swimmer Water Rescue: Approaching a conscious swimmer requires presenting the canoe stem or an extended paddle blade. The swimmer holds the gunwale while being moved to shore or assisted aboard.",
-          "(8f) Rescue Throw Bag Deployment: Throw bags provide rapid shore-based rescue capability for swimmers trapped in moving or open water. Rescuers toss the bag past the target and repack rope without coiling."
+          "(8e) Conscious Swimmer Water Rescue: Approaching a conscious swimmer requires presenting the canoe stem or an extended paddle blade. The swimmer holds the gunwale while being moved to shore or assisted aboard."
         ],
         "rows": [
           {
-            "attribute": "Stay With Craft",
+            "attribute": "Stay with Craft",
             "left": "(8a) Deep Water Self Reentry: Deep water reentry demands that the in-boat paddler counterbalances weight while the swimmer kicks flat. The swimmer slides chest-first across the gunwale and rolls into the bottom center.",
             "right": "(8d) Deep Water Boat Rescue: Performing a canoe-over-canoe rescue in deep water empties a swamped boat without shore assistance. Rescuers pull the inverted hull across their gunwales, drain it, and launch it right-side up."
           },
@@ -3147,22 +3155,22 @@
           },
           {
             "attribute": "Controlled Deep Reentry",
-            "left": "(8c) Swamped Canoe Shore Transport: Towing or pushing a waterlogged canoe fifty feet requires steady kicking while holding the craft stem. Once in shallow water, paddlers invert and lift the hull to drain contents.",
-            "right": "(8f) Rescue Throw Bag Deployment: Throw bags provide rapid shore-based rescue capability for swimmers trapped in moving or open water. Rescuers toss the bag past the target and repack rope without coiling."
+            "left": "Controlled Deep Reentry: Enter over the side gunwale while your partner counterbalances the opposite side.",
+            "right": "Throw Bag Precision: Aim the rescue throw bag past the victim shoulder and pull steadily."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 8 Exemplar Workbook Entry: Capsize Recovery",
+        "title": "Canoeing Req 8 Worked Example: Deep Water Capsize Rescues",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Deep Water Self Reentry": "Deep water reentry demands that the in-boat paddler counterbalances weight while the swimmer kicks flat. The swimmer slides chest-first across the gunwale and rolls into the bottom center.",
-          "Req 8b - Controlled Capsize Flotation": "Demonstrating a controlled capsize proves that swamped canoes provide ample flotation for both paddlers. Holding the hull ends keeps heads above water without risking trapping beneath inverted thwarts.",
-          "Req 8c - Swamped Canoe Shore Transport": "Towing or pushing a waterlogged canoe fifty feet requires steady kicking while holding the craft stem. Once in shallow water, paddlers invert and lift the hull to drain contents.",
-          "Req 8d - Deep Water Boat Rescue": "Performing a canoe-over-canoe rescue in deep water empties a swamped boat without shore assistance. Rescuers pull the inverted hull across their gunwales, drain it, and launch it right-side up."
+          "Phase 1 - Controlled Capsize": "Roll the canoe smoothly while holding your paddle and surfacing alongside hull.",
+          "Phase 2 - Deep Water Reentry": "Grip opposite gunwales and kick vigorously to slide your body across midships.",
+          "Phase 3 - Canoe Drainage": "Lift the swamped bow upside down across the rescue boat center gunwales.",
+          "Phase 4 - Throw Bag Deployment": "Toss the throw line beyond the swimmer shoulder and pull them alongside."
         },
-        "sample_output": "Capsize Recovery and Water Rescues: Canoe Rescue of a Conscious Swimmer Sometimes a swimmer is beyond the reach of a rope thrown from shore (p. 86).",
-        "counselor_tip": "For Canoeing Requirement 8 (Capsize Recovery and Water Rescues), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94))."
+        "sample_output": "Deep water rescues require staying with the swamped craft and utilizing partner counterbalancing for safe hull reentry. Tandem crews execute canoe-over-canoe rescues and deploy throw bags to recover swimmers safely.",
+        "counselor_tip": "During the Canoeing Requirement 8 conference on Deep Water Capsize Rescues, verify that the Scout can explain stay with craft and demonstrate throw bag deployment: Toss the throw line beyond the swimmer shoulder and pull them alongside."
       },
       "quiz_item": {
         "scenario_prompt": "What should paddlers bring along when launching a canoe from shore to rescue a distressed swimmer who is beyond the reach of a throw bag?",
@@ -3922,13 +3930,11 @@
         "right_header": "Req 9e: Tandem Forward Straight Cruising",
         "left_points": [
           "(9a) Stationary Pivot Hull Rotation: Pivoting one hundred eighty degrees requires tandem partners to coordinate opposing lateral strokes. The bow executes a draw while the stern executes a pushaway to spin the craft.",
-          "(9b) Lateral Abeam Maneuver Execution: Moving abeam ten feet sideways requires synchronized draw strokes executed perpendicular to the keel line. Crew members feather blades underwater between power phases to maintain a continuous lateral traverse.",
-          "(9c) Controlled Forward Motion Stop: Stopping within two boat lengths requires immediate, synchronized backstrokes by both paddlers. Applying firm backward resistance counteracts forward momentum without causing the canoe to yaw."
+          "(9b) Lateral Abeam Maneuver Execution: Moving abeam ten feet sideways requires synchronized draw strokes executed perpendicular to the keel line. Crew members feather blades underwater between power phases to maintain a continuous lateral traverse."
         ],
         "right_points": [
           "(9e) Tandem Forward Straight Cruising: Tandem straight-line cruising requires the bow paddler to set cadence while the stern corrects heading. Both partners apply efficient forward power strokes while keeping the hull trimmed flat.",
-          "(9f) Moving Arc Turn Execution: Executing a ninety-degree turn while maintaining forward motion requires coordinated sweeping and drawing actions. The bow applies a wide forward sweep or draw while the stern maintains momentum.",
-          "(9g) Reverse Straight Line Travel: Moving in reverse three to four boat lengths requires synchronized backstrokes and reverse sweeps. Paddlers check behind their path while maintaining heading control without switching paddle sides."
+          "(9f) Moving Arc Turn Execution: Executing a ninety-degree turn while maintaining forward motion requires coordinated sweeping and drawing actions. The bow applies a wide forward sweep or draw while the stern maintains momentum."
         ],
         "rows": [
           {
@@ -3943,22 +3949,22 @@
           },
           {
             "attribute": "Pushaway Execution",
-            "left": "(9c) Controlled Forward Motion Stop: Stopping within two boat lengths requires immediate, synchronized backstrokes by both paddlers. Applying firm backward resistance counteracts forward momentum without causing the canoe to yaw.",
-            "right": "(9g) Reverse Straight Line Travel: Moving in reverse three to four boat lengths requires synchronized backstrokes and reverse sweeps. Paddlers check behind their path while maintaining heading control without switching paddle sides."
+            "left": "Pushaway Execution: Rotate blade parallel to gunwale and push water firmly away from hull.",
+            "right": "J-Stroke Mastery: Hook the paddle thumb downward at stroke end to counteract natural turning."
           }
         ]
       },
       "worked_example": {
-        "title": "Canoeing Req 9 Exemplar Workbook Entry: Tandem Strokes",
+        "title": "Canoeing Req 9 Worked Example: Tandem Canoe Stroke Maneuvers",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 9a - Stationary Pivot Hull": "Pivoting one hundred eighty degrees requires tandem partners to coordinate opposing lateral strokes. The bow executes a draw while the stern executes a pushaway to spin the craft.",
-          "Req 9b - Lateral Abeam Maneuver": "Moving abeam ten feet sideways requires synchronized draw strokes executed perpendicular to the keel line. Crew members feather blades underwater between power phases to maintain a continuous lateral traverse.",
-          "Req 9c - Controlled Forward Motion": "Stopping within two boat lengths requires immediate, synchronized backstrokes by both paddlers. Applying firm backward resistance counteracts forward momentum without causing the canoe to yaw.",
-          "Req 9d - Stern Solo Directional": "The stern paddler maintains straight travel for twenty boat lengths using corrective steering strokes. Executing J-strokes or Canadian strokes counteracts the turning force generated by forward propulsion."
+          "Phase 1 - Stationary Pivot": "Execute opposing draw and pushaway strokes to rotate the hull one hundred eighty degrees.",
+          "Phase 2 - Lateral Abeam Move": "Use synchronized draw strokes to move the canoe ten feet directly sideways.",
+          "Phase 3 - Emergency Stopping": "Apply firm backstrokes in unison to bring forward momentum to complete rest.",
+          "Phase 4 - Figure Eight Course": "Navigate around markers using coordinated forward sweeps, reverse sweeps, and steering J-strokes."
         },
-        "sample_output": "Tandem Strokes and Maneuvers: It is also the safest way to paddle because staying in the box protects your shoulder joints from being put in unstable positions (p. 51).",
-        "counselor_tip": "For Canoeing Requirement 9 (Tandem Strokes and Maneuvers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71))."
+        "sample_output": "Tandem canoeing relies on synchronized paddling on opposite sides using specific propulsion and steering strokes. Mastery of the forward stroke, backstroke, draw, pushaway, sweeps, and J-stroke enables precise directional control.",
+        "counselor_tip": "During the Canoeing Requirement 9 conference on Tandem Canoe Stroke Maneuvers, verify that the Scout can explain opposite sides and demonstrate figure eight course: Navigate around markers using coordinated forward sweeps, reverse sweeps, and steering J-strokes."
       },
       "quiz_item": {
         "scenario_prompt": "Why should a canoeist keep their hands within the imaginary 'paddler's box' and rotate their torso during each stroke?",

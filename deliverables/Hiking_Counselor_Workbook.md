@@ -44,10 +44,8 @@
 #### Req 1a: Trail Hazard Risk Management
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while hiking, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Hiking Hazards and First Aid)
-- **Common Myth:** Clear morning skies guarantee safe mountain weather for an entire day of trekking.
-- **Pamphlet Fact:** Mountain weather systems deteriorate rapidly by early afternoon, producing unexpected lightning and precipitation.
 
-![Hiking Requirement 1 figure showing hikers caught in exposed terrain must seek low ground and assume lightning crouch.](/assets/pamphlet_images/hiking_p003_img1.png)
+![Hikers caught in exposed terrain must seek low ground and assume lightning crouch.](/assets/pamphlet_images/hiking_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -58,8 +56,6 @@
 #### Req 1b: Wilderness Medical Emergency Care
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while hiking, including hypothermia, frostbite, dehydration, heat exhaustion, heatstroke, sunburn, hyperventilation, altitude sickness, sprained ankle, blisters, insect stings, tick bites, and snakebite.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Rubbing frostbitten fingers vigorously with snow restores normal blood circulation safely.
-- **Pamphlet Fact:** Friction on frozen tissue causes cellular damage, requiring gentle passive rewarming in tepid water.
 
 ![A well-equipped first aid kit supplies essential treatments for trail injuries.](/assets/pamphlet_images/hiking_p048_img1.png)
 
@@ -85,10 +81,8 @@
 #### Req 2a: Trail Practices and Etiquette
 **Official Requirement 2a:** Explain and, where possible, show the points of good hiking practices including proper outdoor ethics, hiking safety in the daytime and at night, courtesy to others, choice of footwear, and proper care of feet and footwear.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Possible Hiking Outdoor Ethics)
-- **Common Myth:** Stepping off trail onto fragile flora to let other hikers pass creates minimal ecological impact.
-- **Pamphlet Fact:** Stepping off trail damages delicate plants, so hikers should seek durable rock or bare dirt when yielding.
 
-![Hiking Requirement 2 figure showing walking directly through trail center puddles prevents widening pathways and trampling.](/assets/pamphlet_images/hiking_p007_img1.png)
+![Walking directly through trail center puddles prevents widening pathways and trampling fragile vegetation.](/assets/pamphlet_images/hiking_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -99,8 +93,6 @@
 #### Req 2b: Leave No Trace Principles
 **Official Requirement 2b:** Read aloud or recite the Leave No Trace Seven Principles, and discuss why each is important while hiking.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** Organic waste like apple cores and banana peels decomposes quickly enough to discard along trails.
-- **Pamphlet Fact:** Fruit peels persist for months, attract wildlife unnaturally, and disrupt native foraging behaviors.
 
 ![Preserving streamside wildflowers demonstrates responsible outdoor ethics.](/assets/pamphlet_images/hiking_p028_img1.png)
 
@@ -113,10 +105,8 @@
 #### Req 2c: Outdoor Code Trail Application
 **Official Requirement 2c:** Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** Following the Outdoor Code only matters when camping inside designated state or national parks.
-- **Pamphlet Fact:** The Outdoor Code applies across all municipal, private, and public lands during any outdoor trek.
 
-![Hiking Requirement 3 figure showing aerobic respiration provides steady oxygen delivery to working leg muscles.](/assets/pamphlet_images/hiking_p012_img1.png)
+![Aerobic respiration provides steady oxygen delivery to working leg muscles during continuous hiking miles.](/assets/pamphlet_images/hiking_p012_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -162,8 +152,6 @@
 #### Req 4a: First Ten Mile Hike
 **Official Requirement 4a:** 10-mile hike #1.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (10-mile Hike)
-- **Common Myth:** A ten-mile hike can be completed casually without carrying formal navigation tools or extra layers.
-- **Pamphlet Fact:** Ten miles on foot exposes hikers to changing wilderness conditions requiring full Scout Basic Essentials.
 
 ![Spotting wildlife such as quail enriches long-distance conditioning hikes.](/assets/pamphlet_images/hiking_p041_img1.png)
 
@@ -176,8 +164,6 @@
 #### Req 4b: Second Ten Mile Hike
 **Official Requirement 4b:** 10-mile hike #2.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (10-mile Hike)
-- **Common Myth:** Using identical pack weight and shoes guarantees the second hike will feel easier automatically.
-- **Pamphlet Fact:** Different trail surfaces, humidity, and elevation profiles challenge muscle groups in novel ways.
 
 ![Observing bird nests without disturbance protects sensitive woodland wildlife.](/assets/pamphlet_images/hiking_p029_img1.png)
 
@@ -190,8 +176,6 @@
 #### Req 4c: Third Ten Mile Hike
 **Official Requirement 4c:** 10-mile hike #3.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (10-mile Hike)
-- **Common Myth:** Stopping for water only during meal breaks provides sufficient hydration on rolling backcountry trails.
-- **Pamphlet Fact:** Sustained elevation changes demand continuous sips of water every fifteen to twenty minutes.
 
 ![Leaving cultural artifacts undisturbed preserves archaeological history on trails.](/assets/pamphlet_images/hiking_p029_img2.png)
 
@@ -204,8 +188,6 @@
 #### Req 4d: Fourth Ten Mile Hike
 **Official Requirement 4d:** 10-mile hike #4.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (10-mile Hike)
-- **Common Myth:** Finishing four ten-mile hikes proves readiness for twenty miles without additional physical preparation.
-- **Pamphlet Fact:** Twenty continuous miles doubles physical wear on joints and requires deliberate mental and pacing discipline.
 
 ![A hiker brushes dried mud off leather trail boots to maintain hiking footwear.](/assets/pamphlet_images/hiking_p034_img1.png)
 
@@ -218,8 +200,6 @@
 #### Req 4e: Twenty Mile Endurance Trek
 **Official Requirement 4e:** 20-mile hike.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (20-mile Hike)
-- **Common Myth:** Hiking at a rapid sprint in the morning banks extra time for afternoon exhaustion.
-- **Pamphlet Fact:** Early sprinting drains glycogen stores rapidly, causing severe late afternoon fatigue and muscle cramps.
 
 ![Hikers navigate an undulating mountain trail during a daylong wilderness trek.](/assets/pamphlet_images/hiking_p043_img1.png)
 

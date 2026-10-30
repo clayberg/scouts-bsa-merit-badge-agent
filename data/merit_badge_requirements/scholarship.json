@@ -185,7 +185,7 @@
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain proper posture and twenty minute screen rest intervals during extended homework study sessions.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
       "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
       "syllabus_bucket": "In-Class Concept",
@@ -249,19 +249,17 @@
         "Step 3 - Improvement Audit: Compare current term final marks directly against preceding quarter course evaluations systematically.",
         "Step 4 - Counselor Presentation: Submit verified grade records directly to the badge counselor during personal conference."
       ],
-      "gear_checklist": [
-        "Official Scholarship Merit Badge: That you have had an average.",
-        "Field notebook, verification log sheet, and demonstration materials for That you have had an average.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 1a: Sustained Academic Grade Average",
-        "right_header": "Req 1b: Measurable Academic Grade",
+        "right_header": "Req 1b: Measurable Academic Grade Improvement",
         "left_points": [
-          "(1a) Sustained Academic Grade Average: Scouts document an overall B average or eighty percent benchmark across all registered subjects during a full school term. Counselors review cumulative score sheets rather than isolated test papers."
+          "(1a) Sustained Academic Grade Average: Scouts document an overall B average or eighty percent benchmark across all registered subjects during a full school term. Counselors review cumulative score sheets rather than isolated test papers.",
+          "Transcript Verification: Official school report cards substantiate academic achievement across a complete marking grading period."
         ],
         "right_points": [
-          "(1b) Measurable Academic Grade Improvement: Scouts track progress across consecutive academic terms to display significant upward grade movement. Evidence includes grade point gains or raised individual course standings verified by report cards."
+          "(1b) Measurable Academic Grade Improvement: Scouts track progress across consecutive academic terms to display significant upward grade movement. Evidence includes grade point gains or raised individual course standings verified by report cards.",
+          "Progress Measurement: Upward trends across consecutive academic quarters satisfy merit badge advancement achievement standards."
         ],
         "rows": [
           {
@@ -271,25 +269,27 @@
           },
           {
             "attribute": "Grading Scale Standards",
-            "left": "Req 1a: Sustained Academic Grade: Scouts document an overall B average or eighty percent benchmark across all registered subjects during a full school term. Counselors review cumulative score sheets rather than isolated test papers.",
-            "right": "Req 1b: Measurable Academic Grade: Scouts track progress across consecutive academic terms to display significant upward grade movement. Evidence includes grade point gains or raised individual course standings verified by report cards."
+            "left": "Transcript Verification: Official school report cards substantiate academic achievement across a complete marking grading period.",
+            "right": "Progress Measurement: Upward trends across consecutive academic quarters satisfy merit badge advancement achievement standards."
           },
           {
             "attribute": "Progress Measurement",
-            "left": "Transcript Verification: Official school report cards substantiate academic achievement across a complete marking grading period.",
-            "right": "Grading Scale Standards: A grade point average of B corresponds to an eighty percent minimum."
+            "left": "Progress Measurement: Upward trends across consecutive academic quarters satisfy merit badge advancement achievement standards.",
+            "right": "Term Duration Requirement: Evaluation periods must span at least one standard semester or trimester term."
           }
         ]
       },
       "worked_example": {
-        "title": "Scholarship Req 1 Exemplar Workbook Entry: Academic",
+        "title": "Scholarship Req 1 Worked Example: Academic Grade Performance Tracking",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Sustained Academic Grade": "Scouts document an overall B average or eighty percent benchmark across all registered subjects during a full school term. Counselors review cumulative score sheets rather than isolated test papers.",
-          "Req 1b - Measurable Academic Grade": "Scouts track progress across consecutive academic terms to display significant upward grade movement. Evidence includes grade point gains or raised individual course standings verified by report cards."
+          "Phase 1 - Record Retrieval": "Request an official printed report card or sealed grade transcript from school.",
+          "Phase 2 - Average Calculation": "Tabulate course marks to establish an overall grade point average above eighty.",
+          "Phase 3 - Improvement Audit": "Compare current term final marks directly against preceding quarter course evaluations systematically.",
+          "Phase 4 - Counselor Presentation": "Submit verified grade records directly to the badge counselor during personal conference."
         },
-        "sample_output": "Academic Achievement and Study Habits: The place you select should be well-lighted and relatively quiet at the time of day you will be doing your homework (p. 19).",
-        "counselor_tip": "For Scholarship Requirement 1 (Academic Achievement and Study Habits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21))."
+        "sample_output": "Academic records demonstrate consistent personal discipline through authenticated report cards or official portal transcripts. Counselors evaluate either sustained honors marks across full terms or measurable upward grade trends.",
+        "counselor_tip": "During the Scholarship Requirement 1 conference on Academic Grade Performance Tracking, verify that the Scout can explain transcript verification and demonstrate counselor presentation: Submit verified grade records directly to the badge counselor during personal conference."
       },
       "quiz_item": {
         "scenario_prompt": "Which study strategy best supports long-term comprehension and strong academic performance across school subjects?",
@@ -705,7 +705,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Travel with a buddy or parent when visiting unfamiliar municipal venues or conducting off campus interviews.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -778,14 +778,10 @@
         "Step 3 - Finding Documentation: Compile field notes, interview transcripts, planner pages, and bibliographic source comparison charts.",
         "Step 4 - Discussion Summary: Present comprehensive inquiry findings to the counselor during an oral review session."
       ],
-      "gear_checklist": [
-        "Official Scholarship Merit Badge: Scholarship Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Scholarship Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Community Learning Center",
-        "right_header": "Req 2c: Personal Daily Schedule",
+        "left_header": "Req 2a: Community Learning Center Visitation",
+        "right_header": "Req 2c: Personal Daily Schedule Management",
         "left_points": [
           "(2a) Community Learning Center Visitation: Scouts identify cultural and scientific institutions outside their school district, such as botanical gardens or public archives. The Scout visits one site to study a specific topic independently.",
           "(2b) Career Professional Field Interview: Scouts secure parental and counselor approval before questioning two experienced professionals outside their school faculty. The interviews explore educational preparation, career paths, and technical knowledge necessary for professional success."
@@ -807,22 +803,22 @@
           },
           {
             "attribute": "Time Ledger Utility",
-            "left": "Req 2a: Community Learning Center: Scouts identify cultural and scientific institutions outside their school district, such as botanical gardens or public archives. The Scout visits one site to study a specific topic independently.",
-            "right": "Req 2b: Career Professional Field: Scouts secure parental and counselor approval before questioning two experienced professionals outside their school faculty. The interviews explore educational preparation, career paths, and technical knowledge necessary for professional success."
+            "left": "Time Ledger Utility: Maintaining written assignment agendas prevents overdue projects and organizes personal weekly commitments.",
+            "right": "Research Media Comparison: Critical analysis separates peer reviewed journal material from unverified digital online posts."
           }
         ]
       },
       "worked_example": {
-        "title": "Scholarship Req 2 Exemplar Workbook Entry: Community",
+        "title": "Scholarship Req 2 Worked Example: Independent Scholastic Exploration Methods",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 2a - Community Learning Center": "Scouts identify cultural and scientific institutions outside their school district, such as botanical gardens or public archives. The Scout visits one site to study a specific topic independently.",
-          "Req 2b - Career Professional Field": "Scouts secure parental and counselor approval before questioning two experienced professionals outside their school faculty. The interviews explore educational preparation, career paths, and technical knowledge necessary for professional success.",
-          "Req 2c - Personal Daily Schedule": "Scouts maintain a daily calendar or planner application to balance class deadlines, extracurriculars, and personal responsibilities. Demonstrating time blocking techniques shows how intentional scheduling prevents procrastination.",
-          "Req 2d - Academic Research Methodology": "Scouts compare traditional print references against digital search engines, evaluating speed, depth, and information reliability. The discussion contrasts open internet claims with curated academic databases and peer reviewed texts."
+          "Phase 1 - Option Selection": "Review the four scholastic inquiry options and select two preferred investigation tasks.",
+          "Phase 2 - Activity Execution": "Conduct designated site visits, career interviews, planner logging, or research comparisons.",
+          "Phase 3 - Finding Documentation": "Compile field notes, interview transcripts, planner pages, and bibliographic source comparison charts.",
+          "Phase 4 - Discussion Summary": "Present comprehensive inquiry findings to the counselor during an oral review session."
         },
-        "sample_output": "Community Resources and Research Tools: Do not open emails or files you receive from people you don'tknow or trust (p. 41).",
-        "counselor_tip": "For Scholarship Requirement 2 (Community Resources and Research Tools), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47))."
+        "sample_output": "Scholastic achievement extends beyond classroom walls into community learning centers, structured interviews, planner workflows, and rigorous source research. Scouts choose two complementary modalities to develop self directed research and disciplined organization skills.",
+        "counselor_tip": "During the Scholarship Requirement 2 conference on Independent Scholastic Exploration Methods, verify that the Scout can explain informal learning sites and demonstrate discussion summary: Present comprehensive inquiry findings to the counselor during an oral review session."
       },
       "quiz_item": {
         "scenario_prompt": "How can a public library's reference librarian help you strengthen a school research project?",
@@ -905,7 +901,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Protect student identification numbers and personal contact information when handling official school correspondence.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)",
       "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)",
       "syllabus_bucket": "In-Class Concept",
@@ -976,47 +972,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Punctuality and Neat Attire",
-        "right_header": "Req 3: Share Classroom Teamwork Examples",
+        "left_header": "School Citizenship Official Certification: Core Principles",
+        "right_header": "School Citizenship Official Certification: Field Execution",
         "left_points": [
-          "Punctuality and Neat Attire: Dress neatly for your appointment, and arrive on time (p. 49).",
-          "Preparing Notes and Index Cards: Have the note ready for the principal to sign and your index cards handy (p. 49).",
-          "Highlighting Academic Teamwork Examples: I've been involved in class projects in both history and English that have required teamwork and academic leadership skills (p. 49)."
+          "Administrator Endorsement: School principals certify that student character, leadership, and conduct meet institutional standards.",
+          "Alternative Educator Authority: Designated guidance counselors or homeschool educators provide valid behavioral certification notes when needed."
         ],
         "right_points": [
-          "Share Classroom Teamwork Examples: I've been involved in class projects in both history and English that have required teamwork and academic leadership skills (p. 49).",
-          "Explain Your Time Management System: I have learned to manage my time effectively by using a pocket organizer and turning in my homework on time (p. 49).",
-          "Request the Principal's Signature Politely: In conclusion, politely ask your principal to sign the note you have prepared (p. 49)."
+          "Service Evaluation Scope: School citizenship encompasses classroom courtesy, helpful peer support, and active campus service.",
+          "Document Submission Process: Signed administrative letters must be delivered directly to the merit badge counselor."
         ],
         "rows": [
           {
             "attribute": "Administrator Endorsement",
-            "left": "Punctuality and Neat Attire: Dress neatly for your appointment, and arrive on time (p. 49).",
-            "right": "Share Classroom Teamwork Examples: I've been involved in class projects in both history and English that have required teamwork and academic leadership skills (p. 49)."
+            "left": "Administrator Endorsement: School principals certify that student character, leadership, and conduct meet institutional standards.",
+            "right": "Service Evaluation Scope: School citizenship encompasses classroom courtesy, helpful peer support, and active campus service."
           },
           {
             "attribute": "Alternative Educator Authority",
-            "left": "Preparing Notes and Index Cards: Have the note ready for the principal to sign and your index cards handy (p. 49).",
-            "right": "Explain Your Time Management System: I have learned to manage my time effectively by using a pocket organizer and turning in my homework on time (p. 49)."
+            "left": "Alternative Educator Authority: Designated guidance counselors or homeschool educators provide valid behavioral certification notes when needed.",
+            "right": "Document Submission Process: Signed administrative letters must be delivered directly to the merit badge counselor."
           },
           {
             "attribute": "Service Evaluation Scope",
-            "left": "Highlighting Academic Teamwork Examples: I've been involved in class projects in both history and English that have required teamwork and academic leadership skills (p. 49).",
-            "right": "Request the Principal's Signature Politely: In conclusion, politely ask your principal to sign the note you have prepared (p. 49)."
+            "left": "Service Evaluation Scope: School citizenship encompasses classroom courtesy, helpful peer support, and active campus service.",
+            "right": "Document Submission Process: Signed administrative letters must be delivered directly to the merit badge counselor."
           }
         ]
       },
       "worked_example": {
-        "title": "Scholarship Req 3 Exemplar Workbook Entry: School",
+        "title": "Scholarship Req 3 Worked Example: School Citizenship Official Certification",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Punctuality and Neat Attire": "Dress neatly for your appointment, and arrive on time (p. 49).",
-          "Preparing Notes and Index Cards": "Have the note ready for the principal to sign and your index cards handy (p. 49).",
-          "Highlighting Academic Teamwork": "I've been involved in class projects in both history and English that have required teamwork and academic leadership skills (p. 49).",
-          "Demonstrating Time Management Habits": "I have learned to manage my time effectively by using a pocket organizer and turning in my homework on time (p. 49)."
+          "Phase 1 - Official Contact": "Schedule an appointment with your principal, vice principal, or headmaster office.",
+          "Phase 2 - Action Phase 2": "Explain the Scholarship merit badge character, service, and leadership verification criteria clearly.",
+          "Phase 3 - Statement Collection": "Obtain a signed letter or official statement confirming satisfactory past year standing.",
+          "Phase 4 - Counselor Submission": "Present the original signed statement to your counselor during badge review session."
         },
-        "sample_output": "School Behavior, Leadership, and Service: Dress neatly for your appointment, and arrive on time (p. 49).",
-        "counselor_tip": "For Scholarship Requirement 3 (School Behavior, Leadership, and Service), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51))."
+        "sample_output": "Good scholarship encompasses moral conduct, leadership initiative, and unselfish service throughout the academic community. Principals or designated educational administrators provide written testimony verifying that the candidate maintains satisfactory conduct standards.",
+        "counselor_tip": "During the Scholarship Requirement 3 conference on School Citizenship Official Certification, verify that the Scout can explain administrator endorsement and demonstrate counselor submission: Present the original signed statement to your counselor during badge review session."
       },
       "quiz_item": {
         "scenario_prompt": "What should you bring with you to your appointment when asking your school principal to verify your behavior, leadership, and service?",
@@ -1262,7 +1256,7 @@
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Adhere to school laboratory, athletic, and shop safety regulations during group activity sessions.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
       "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
       "syllabus_bucket": "In-Class Concept",
@@ -1326,19 +1320,17 @@
         "Step 3 - Teamwork Analysis: Assess how collaboration helped resolve unexpected obstacles during club or project activities.",
         "Step 4 - Counselor Discussion: Share insights regarding teamwork dynamics and personal growth during merit badge interview."
       ],
-      "gear_checklist": [
-        "Official Scholarship Merit Badge: That you have taken part.",
-        "Field notebook, verification log sheet, and demonstration materials for That you have taken part.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Extracurricular Activity Team",
-        "right_header": "Req 4b: Academic Team Project",
+        "left_header": "Req 4a: Extracurricular Activity Team Participation",
+        "right_header": "Req 4b: Academic Team Project Contribution",
         "left_points": [
-          "(4a) Extracurricular Activity Team Participation: Scouts participate actively in school athletics, music, debate, or specialized academic clubs. The Scout discusses with the counselor how joint effort and shared practice raise overall group performance."
+          "(4a) Extracurricular Activity Team Participation: Scouts participate actively in school athletics, music, debate, or specialized academic clubs. The Scout discusses with the counselor how joint effort and shared practice raise overall group performance.",
+          "Extracurricular Team Dynamics: Student organizations build communication, mutual reliance, and unified execution toward shared organizational goals."
         ],
         "right_points": [
-          "(4b) Academic Team Project Contribution: Scouts evaluate their role within a multi student curricular assignment completed over the previous semester. Discussion highlights tangible project deliverables and how individual contributions supported peer team members."
+          "(4b) Academic Team Project Contribution: Scouts evaluate their role within a multi student curricular assignment completed over the previous semester. Discussion highlights tangible project deliverables and how individual contributions supported peer team members.",
+          "Individual Contribution Value: Every team participant brings specialized capabilities that enhance the overall finished project."
         ],
         "rows": [
           {
@@ -1348,25 +1340,27 @@
           },
           {
             "attribute": "Academic Project Collaboration",
-            "left": "Req 4a: Extracurricular Activity: Scouts participate actively in school athletics, music, debate, or specialized academic clubs. The Scout discusses with the counselor how joint effort and shared practice raise overall group performance.",
-            "right": "Req 4b: Academic Team Project: Scouts evaluate their role within a multi student curricular assignment completed over the previous semester. Discussion highlights tangible project deliverables and how individual contributions supported peer team members."
+            "left": "Extracurricular Team Dynamics: Student organizations build communication, mutual reliance, and unified execution toward shared organizational goals.",
+            "right": "Individual Contribution Value: Every team participant brings specialized capabilities that enhance the overall finished project."
           },
           {
             "attribute": "Individual Contribution Value",
-            "left": "Extracurricular Team Dynamics: Student organizations build communication, mutual reliance, and unified execution toward shared organizational goals.",
-            "right": "Academic Project Collaboration: Group assignments require balanced work distribution and constructive peer review among members."
+            "left": "Individual Contribution Value: Every team participant brings specialized capabilities that enhance the overall finished project.",
+            "right": "Leadership Growth Opportunities: Navigating team disagreements constructively builds emotional maturity and effective listening capabilities."
           }
         ]
       },
       "worked_example": {
-        "title": "Scholarship Req 4 Exemplar Workbook Entry",
+        "title": "Scholarship Req 4 Worked Example: Collaborative School Group Participation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Extracurricular Activity Team": "Scouts participate actively in school athletics, music, debate, or specialized academic clubs. The Scout discusses with the counselor how joint effort and shared practice raise overall group performance.",
-          "Req 4b - Academic Team Project": "Scouts evaluate their role within a multi student curricular assignment completed over the previous semester. Discussion highlights tangible project deliverables and how individual contributions supported peer team members."
+          "Phase 1 - Team Selection": "Identify an extracurricular club, sports team, or collaborative classroom semester project.",
+          "Phase 2 - Role Evaluation": "Document your personal responsibilities, tasks completed, and specific contributions to group objectives.",
+          "Phase 3 - Teamwork Analysis": "Assess how collaboration helped resolve unexpected obstacles during club or project activities.",
+          "Phase 4 - Counselor Discussion": "Share insights regarding teamwork dynamics and personal growth during merit badge interview."
         },
-        "sample_output": "Extracurricular Activities and Group Teamwork: When everyone pitches in and lends positive thoughts and action to a team effort, it is amazing how quickly and efficiently things get done (p. 52).",
-        "counselor_tip": "For Scholarship Requirement 4 (Extracurricular Activities and Group Teamwork), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54))."
+        "sample_output": "Scholastic excellence flourishes when students collaborate in structured clubs, athletics, or rigorous group class projects. Scouts reflect on shared accountability, conflict resolution, and communication dynamics that drive team accomplishments.",
+        "counselor_tip": "During the Scholarship Requirement 4 conference on Collaborative School Group Participation, verify that the Scout can explain extracurricular team dynamics and demonstrate counselor discussion: Share insights regarding teamwork dynamics and personal growth during merit badge interview."
       },
       "quiz_item": {
         "scenario_prompt": "Why does a collaborative group often achieve better results on a complex school challenge than one person working in isolation?",
@@ -1601,7 +1595,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use ergonomic seating and maintain ambient room lighting to prevent physical fatigue while typing.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
       "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -1671,13 +1665,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Lifelong Personal Education",
+        "left_header": "Req 5a: Lifelong Personal Education Reflection",
         "right_header": "Req 5b: Career Goals Academic Alignment",
         "left_points": [
-          "(5a) Lifelong Personal Education Reflection: Scouts write an analytical essay on how foundational schooling prepares them for adult citizenship and professional life. The text details deliberate strategies for continuing personal education through reading and independent study."
+          "(5a) Lifelong Personal Education Reflection: Scouts write an analytical essay on how foundational schooling prepares them for adult citizenship and professional life. The text details deliberate strategies for continuing personal education through reading and independent study.",
+          "Lifelong Learning Discipline: Developing critical thinking and reading skills prepares students for evolving professional demands."
         ],
         "right_points": [
-          "(5b) Career Goals Academic Alignment: Scouts research two careers of personal interest and map required coursework and scholarship habits to those vocations. The essay demonstrates how mastery in specific academic subjects supports long term occupational success."
+          "(5b) Career Goals Academic Alignment: Scouts research two careers of personal interest and map required coursework and scholarship habits to those vocations. The essay demonstrates how mastery in specific academic subjects supports long term occupational success.",
+          "Career Pathway Preparation: Specialized academic subjects provide foundational math, science, and communication tools for professions."
         ],
         "rows": [
           {
@@ -1687,25 +1683,27 @@
           },
           {
             "attribute": "Essay Length Parameters",
-            "left": "Req 5a: Lifelong Personal Education: Scouts write an analytical essay on how foundational schooling prepares them for adult citizenship and professional life. The text details deliberate strategies for continuing personal education through reading and independent study.",
-            "right": "Req 5b: Career Goals Academic: Scouts research two careers of personal interest and map required coursework and scholarship habits to those vocations. The essay demonstrates how mastery in specific academic subjects supports long term occupational success."
+            "left": "Lifelong Learning Discipline: Developing critical thinking and reading skills prepares students for evolving professional demands.",
+            "right": "Career Pathway Preparation: Specialized academic subjects provide foundational math, science, and communication tools for professions."
           },
           {
             "attribute": "Career Pathway Preparation",
-            "left": "Lifelong Learning Discipline: Developing critical thinking and reading skills prepares students for evolving professional demands.",
-            "right": "Essay Length Parameters: The written report must contain between two hundred fifty and three hundred words."
+            "left": "Career Pathway Preparation: Specialized academic subjects provide foundational math, science, and communication tools for professions.",
+            "right": "Independent Self Direction: Post graduate education relies on personal curiosity, technical reading, and continuous self study."
           }
         ]
       },
       "worked_example": {
-        "title": "Scholarship Req 5 Exemplar Workbook Entry: Lifelong",
+        "title": "Scholarship Req 5 Worked Example: Future Education Value Essay",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 5a - Lifelong Personal Education": "Scouts write an analytical essay on how foundational schooling prepares them for adult citizenship and professional life. The text details deliberate strategies for continuing personal education through reading and independent study.",
-          "Req 5b - Career Goals Academic": "Scouts research two careers of personal interest and map required coursework and scholarship habits to those vocations. The essay demonstrates how mastery in specific academic subjects supports long term occupational success."
+          "Phase 1 - Topic Choice": "Select either future educational value or two specific prospective career interests.",
+          "Phase 2 - Outline Draft": "Structure three distinct paragraphs connecting school coursework directly to prospective life goals.",
+          "Phase 3 - Word Count": "Compose the report and verify total text length remains within specified limits.",
+          "Phase 4 - Counselor Review": "Submit your finished typed essay to the counselor for review and discussion."
         },
-        "sample_output": "Lifelong Learning and Career Reports: For instance, you might begin, \"I am a seventh grade student at Rock land Junior High School (p. 61).",
-        "counselor_tip": "For Scholarship Requirement 5 (Lifelong Learning and Career Reports), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63))."
+        "sample_output": "Written essays encourage thoughtful introspection regarding how current coursework builds long term career competency and life skills. Scouts articulate specific methods for lifelong self education or analyze academic pathways leading toward prospective vocations.",
+        "counselor_tip": "During the Scholarship Requirement 5 conference on Future Education Value Essay, verify that the Scout can explain lifelong learning discipline and demonstrate counselor review: Submit your finished typed essay to the counselor for review and discussion."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Scholarship merit badge pamphlet, what should the final paragraph of your Requirement 5a report explain?",

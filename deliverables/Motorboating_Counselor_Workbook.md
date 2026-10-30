@@ -46,10 +46,8 @@
 #### Req 1a: Vessel Hazard Mitigation Principles
 **Official Requirement 1a:** Discuss with your counselor the following hazards you might encounter while motorboating: flammable fuel; carbon monoxide; propellers; collisions; falls overboard; capsize; or running aground. Explain what you should do to anticipate, prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Motorboating Hazards and First Aid)
-- **Common Myth:** Open air motorboating completely eliminates the risk of toxic exhaust inhalation.
-- **Pamphlet Fact:** Carbon monoxide accumulates under swim platforms and canvas enclosures even in open air.
 
-![Motorboating Requirement 1 figure showing gasoline vapors sink rapidly into lowest bilge compartments creating severe explosion.](/assets/pamphlet_images/motorboating_p003_img1.png)
+![Gasoline vapors sink rapidly into lowest bilge compartments creating severe explosion hazards.](/assets/pamphlet_images/motorboating_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -64,8 +62,6 @@
 #### Req 1b: Boating First Aid Management
 **Official Requirement 1b:** Explain first aid for injuries or illnesses that could occur while motorboating, including hypothermia, heat reactions, dehydration, motion sickness, bug bites, and blisters.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Hypothermia only threatens boaters during subfreezing winter conditions.
-- **Pamphlet Fact:** Cold water immersion initiates an involuntary gasp reflex that causes drowning within seconds.
 
 ![Official state registration numbers and validation decals are displayed on a motorboat hull.](/assets/pamphlet_images/motorboating_p009_img1.png)
 
@@ -78,8 +74,6 @@
 #### Req 1c: Safety Afloat Policy Application
 **Official Requirement 1c:** Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating activities.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** Safety Afloat guidelines apply only to human powered craft like canoes and kayaks.
-- **Pamphlet Fact:** Safety Afloat demands continuous supervision by qualified adult leaders trained in water rescue.
 
 ![Scouts examine an instructional boating safety display to learn critical maritime rules.](/assets/pamphlet_images/motorboating_p012_img1.png)
 
@@ -108,8 +102,6 @@
 **Official Requirement 2a:** Before doing requirement 5, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification and Safety)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Floating calmly in the shallow end qualifies a scout for deep water motorboating activities.
-- **Pamphlet Fact:** The test requires swimming one hundred yards using strong strokes followed by resting floats.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -117,7 +109,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
-![Motorboating Requirement 2 figure showing strong swimming skills provide essential confidence during accidental water entries.](/assets/pamphlet_images/motorboating_p007_img1.png)
+![Strong swimming skills provide essential confidence during accidental water entries from moving vessels.](/assets/pamphlet_images/motorboating_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -129,8 +121,6 @@
 #### Req 2b: Personal Flotation Device Selection
 **Official Requirement 2b:** Name the different types of personal flotation devices (PFDs), and explain when each type should be used. Show how to choose and properly fit a PFD.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Personal Flotation Devices PFDs)
-- **Common Myth:** All Coast Guard approved personal flotation devices turn unconscious wearers face up automatically.
-- **Pamphlet Fact:** Type III vests allow active mobility but lack self turning capabilities for unconscious wearers.
 
 ![A compact marine signal flare provides emergency visual signaling for disabled boats.](/assets/pamphlet_images/motorboating_p018_img1.png)
 
@@ -157,8 +147,6 @@
 #### Req 3a: Marine Engine Drive Configurations
 **Official Requirement 3a:** Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Inboard Outboard and Inboard/outboard Motors)
-- **Common Myth:** Inboard engines steer by turning the entire engine assembly rather than a separate rudder.
-- **Pamphlet Fact:** Outboard engines mount externally on the transom to free interior cockpit floor space.
 
 ![A young skier secures his water skis at the dock edge before being towed by a motorboat.](/assets/pamphlet_images/motorboating_p036_img1.png)
 
@@ -171,8 +159,6 @@
 #### Req 3b: Fuel Handling Equipment Placement
 **Official Requirement 3b:** Explain the safety procedures and precautions involving handling fuel and engine servicing, and equipment storage and placement.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Safety Procedures and Precautions Involving)
-- **Common Myth:** Fuel tanks can safely be filled while resting inside enclosed boat cockpit spaces.
-- **Pamphlet Fact:** Portable fuel tanks must be removed from the boat and grounded on the dock before filling.
 
 ![A reusable water bottle helps boaters stay hydrated during long hours in warm conditions.](/assets/pamphlet_images/motorboating_p014_img1.png)
 
@@ -185,8 +171,6 @@
 #### Req 3c: Motor Winterization Maintenance Procedure
 **Official Requirement 3c:** Explain how to winterize a boat motor and tell why this procedure is necessary.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Winterize A Boat Motor)
-- **Common Myth:** Draining exterior engine water without running non toxic antifreeze adequately protects blocks.
-- **Pamphlet Fact:** Freezing water expands inside the engine block and cracks heavy cast iron housings.
 
 ![A Coast Guard approval label details flotation capacity and safety ratings on a life jacket.](/assets/pamphlet_images/motorboating_p020_img1.png)
 
@@ -199,8 +183,6 @@
 #### Req 3d: Swimmer Wake Safety Protocols
 **Official Requirement 3d:** Explain the safety procedures and precautions involving swimmers and skiers in the water, passenger positions underway, and boat wakes.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Safety Procedures and Precautions Involving)
-- **Common Myth:** Shifting an idling engine into neutral guarantees swimmer safety near the stern.
-- **Pamphlet Fact:** A spinning propeller causes catastrophic lacerations even while the gearcase idles in neutral.
 
 ![A scout wears a properly fastened personal flotation device while preparing to swim safely.](/assets/pamphlet_images/motorboating_p020_img2.png)
 
@@ -226,8 +208,6 @@
 #### Req 4a: Safety Afloat Operational Review
 **Official Requirement 4a:** Review how each item of the Scouting America Safety Afloat policy applies, including checking the weather prior to and during time on the water, confirming all required equipment is present and functional, and following a float plan.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** Following Safety Afloat allows skipping regular marine weather tracking during calm sunny mornings.
-- **Pamphlet Fact:** Safety Afloat requires a minimum ratio of one certified adult per ten scouts.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -246,8 +226,6 @@
 #### Req 4b: Recreational Boating Regulations Mandates
 **Official Requirement 4b:** Explain the rules or laws that apply to recreational boating in your area or state. Have a permit to operate a motorboat, if required by the laws of your state. Discuss how you would find information regarding the boating laws in different states.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Laws That Apply to Recreational)
-- **Common Myth:** Driver licenses permit teenagers to operate high powered motorboats without marine certifications.
-- **Pamphlet Fact:** Most states mandate boater safety education certificates for youth operating motorized recreational vessels.
 
 ![A boat owner inspects mechanical components inside an inboard motorboat engine compartment.](/assets/pamphlet_images/motorboating_p070_img1.png)
 
@@ -262,8 +240,6 @@
 #### Req 4c: Marine Weather Condition Hazards
 **Official Requirement 4c:** Discuss how hazards of weather and heavy water conditions can affect safety and performance in motorboating.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Discuss How Hazards of Weather)
-- **Common Myth:** Planing hulls handle steep following waves safely without any throttle adjustments.
-- **Pamphlet Fact:** Steep chop reduces hull steerage and increases the danger of shipping water over bows.
 
 ![Boaters examine live radar weather maps and storm forecasts on a computer before departure.](/assets/pamphlet_images/motorboating_p072_img1.png)
 
@@ -276,8 +252,6 @@
 #### Req 4d: Safety Afloat Pledge Principles
 **Official Requirement 4d:** Promise that you will follow Scouting America Safety Afloat guidelines. Explain the meaning of each point.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** Promising to follow Safety Afloat is merely an optional safety suggestion for skippers.
-- **Pamphlet Fact:** The commitment requires enforcing strict life jacket compliance and water buddy coverage.
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -289,8 +263,6 @@
 #### Req 4e: Mandatory Vessel Equipment Inventory
 **Official Requirement 4e:** Explain and show the correct use of equipment required by both state and federal regulations to be carried aboard a motorboat.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Equipment Required by Both State)
-- **Common Myth:** Carrying life jackets satisfies all federal safety equipment mandates for powerboats.
-- **Pamphlet Fact:** Federal law mandates USCG approved fire extinguishers, visual signals, and sound signaling devices.
 
 | Req 4e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -301,8 +273,6 @@
 #### Req 4f: Bilge Ventilation Regulatory Systems
 **Official Requirement 4f:** Explain federal and state rules for a ventilation system, and tell why these rules are required.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix (Federal and State)
-- **Common Myth:** Bilge ventilation is unnecessary on boats using modern fuel injected inboard engines.
-- **Pamphlet Fact:** Natural ventilation ducts combined with powered exhaust fans prevent dangerous combustible vapor buildup.
 
 | Req 4f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -313,8 +283,6 @@
 #### Req 4g: Vessel Lights Sound Signals
 **Official Requirement 4g:** Explain the use of lights (sight signals) and sound signals on motorboats.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4g Structured Technical Study & Explanation Matrix (Sight Signals and Sound Signals)
-- **Common Myth:** Vessel navigation lights exist primarily to illuminate the water ahead like car headlights.
-- **Pamphlet Fact:** One short blast signals an intention to leave an oncoming vessel on port side.
 
 | Req 4g Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -325,8 +293,6 @@
 #### Req 4h: Ground Tackle Anchoring Mechanics
 **Official Requirement 4h:** Discuss the common types of anchors used in motorboating and under what conditions each would be preferred. Explain proper anchoring techniques.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4h Structured Technical Study & Explanation Matrix (Discuss the Common Types of)
-- **Common Myth:** Tying an anchor line to the stern stabilizes the boat against wind and waves.
-- **Pamphlet Fact:** A scope ratio of seven to one provides maximum holding power during heavy weather.
 
 | Req 4h Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -351,8 +317,6 @@
 #### Req 5a: Safe Boarding Lifejacket Check
 **Official Requirement 5a:** Board and assist others in boarding. Confirm that all passengers on board are wearing properly fitted life jackets.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Board and Assist Others in)
-- **Common Myth:** Stepping directly onto the gunwale is a safe convenient method for boarding motorboats.
-- **Pamphlet Fact:** Boarding passengers must step into the boat centerline one person at a time.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -372,8 +336,6 @@
 #### Req 5b: Fueling Safety Pretrip Check
 **Official Requirement 5b:** Fuel the boat and complete a safety check.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Fuel the Boat)
-- **Common Myth:** Passengers may remain inside the cabin while the boat refuels at the fuel dock.
-- **Pamphlet Fact:** Turn off all engines and close cabin doors before pumping fuel into tanks.
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -384,8 +346,6 @@
 #### Req 5c: Engine Startup Departure Execution
 **Official Requirement 5c:** If equipped, attach the engine cut-off switch link and safely start the motor. Get underway from dockside or from a beach launch.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Equipped Attach the Engine Cut-off)
-- **Common Myth:** Engine cut off lanyards are only required on high performance racing powerboats.
-- **Pamphlet Fact:** The cut off switch lanyard kills ignition if the driver falls from the helm.
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -397,8 +357,6 @@
 #### Req 5d: Course Navigation Maneuvering Protocol
 **Official Requirement 5d:** Run a course for at least a mile, showing procedures for overtaking and passing slower vessels, yielding right-of-way, passing oncoming traffic, making turns, reversing direction, and using navigation aids.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Run A Course)
-- **Common Myth:** The faster motorboat automatically holds the right of way in all crossing situations.
-- **Pamphlet Fact:** The give way vessel must take early and substantial action to keep well clear.
 
 | Req 5d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -409,8 +367,6 @@
 #### Req 5e: Open Water Anchoring Recovery
 **Official Requirement 5e:** Stop and secure the boat in position on the open water using anchors. Raise and stow the anchor and get underway.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Stop and Secure the Boat)
-- **Common Myth:** Throwing an anchor far from the bow ensures superior bottom penetration and hold.
-- **Pamphlet Fact:** Lowering an anchor by hand prevents rode fouling and guarantees controlled bottom purchase.
 
 | Req 5e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -422,8 +378,6 @@
 #### Req 5f: Docking Landing Disembarking Technique
 **Official Requirement 5f:** Land or dock the boat, disembark, and assist others in doing the same.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Land or Dock the Boat)
-- **Common Myth:** Powering hard into a dock slip before reversing creates safe routine docking stops.
-- **Pamphlet Fact:** Approaching a dock against the wind provides greater control over vessel forward momentum.
 
 | Req 5f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -434,8 +388,6 @@
 #### Req 5g: Vessel Mooring Gear Stowage
 **Official Requirement 5g:** Moor, dock, or beach the boat and secure all gear.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5g Structured Technical Study & Explanation Matrix (Moor Dock or Beach the)
-- **Common Myth:** Tying a single bow line provides complete security for a docked motorboat.
-- **Pamphlet Fact:** Spring lines prevent a docked vessel from surging forward and aft in slips.
 
 | Req 5g Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -446,8 +398,6 @@
 #### Req 5h: Marine Knots Hitches Demonstration
 **Official Requirement 5h:** Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Skill Demonstration Checklist):** Req 5h Hands-On Skill Station & EDGE Verification Checklist (Knots Used in Boating Cleating)
-- **Common Myth:** Piling hitches randomly around a dock cleat provides reliable holding strength for boats.
-- **Pamphlet Fact:** A cleat hitch requires a round turn, figure eights, and an inverted locking half hitch.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

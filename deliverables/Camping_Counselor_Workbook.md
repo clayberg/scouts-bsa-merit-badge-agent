@@ -54,8 +54,6 @@
 #### Req 1a: Campground Environmental Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Camping Hazards and First Aid)
-- **Common Myth:** Campers assume wild animals only enter campsites if food remains unattended inside cooking kettles.
-- **Pamphlet Fact:** Micro-scents on unwashed clothing or scented lip balm attract bears and rodents into tents.
 
 ![Scouts and counselor demonstrate Camping Requirement 1 field procedures and safety checks.](/assets/pamphlet_images/camping_p003_img1.png)
 
@@ -68,8 +66,6 @@
 #### Req 1b: Wilderness Weather Awareness and Preparation
 **Official Requirement 1b:** Discuss with your counselor why it is important to be aware of weather conditions before and during your camping activities. Tell how you can prepare should the weather turn bad during your campouts.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss Important Aware Weather)
-- **Common Myth:** Scouts believe lightning danger passes as soon as torrential rain stops falling overhead.
-- **Pamphlet Fact:** Lightning strikes can impact ground targets more than ten miles away from active rain clouds.
 
 ![A dome tent stands pitched on an open hillside beneath sunny skies and distant hills.](/assets/pamphlet_images/camping_p011_img1.png)
 
@@ -83,8 +79,6 @@
 #### Req 1c: Wilderness First Aid Medical Response
 **Official Requirement 1c:** Show that you know first aid for and how to prevent injuries or illnesses that could occur while camping, including hypothermia, frostbite, heat reactions, dehydration, altitude sickness, insect stings, tick bites, snakebite, blisters, and hyperventilation.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Scouts often think vigorous rubbing warms up frostbitten extremities quickly and safely.
-- **Pamphlet Fact:** Rubbing frozen tissue creates microscopic ice crystals that destroy underlying skin cells permanently.
 
 ![A camper curls into a tight posture to conserve body heat when hypothermia strikes.](/assets/pamphlet_images/camping_p015_img1.png)
 
@@ -132,8 +126,6 @@
 #### Req 3a: Magnetic Compass Wilderness Orientation
 **Official Requirement 3a:** Compass.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Camping Compass Principles)
-- **Common Myth:** Beginners believe a compass needle always points toward true geographic North Pole coordinates.
-- **Pamphlet Fact:** Magnetic needles align toward Earth's magnetic north pole, which shifts from true geographic north.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -152,8 +144,6 @@
 #### Req 3b: Handheld GPS Receiver Navigation
 **Official Requirement 3b:** GPS receiver.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Camping Receiver Principles)
-- **Common Myth:** Users assume satellite navigation receivers maintain precision accuracy under dense rainforest canopies.
-- **Pamphlet Fact:** Thick wet tree canopies and narrow granite canyons reflect satellite signals, introducing significant positioning error.
 
 ![An orienteering compass rests upon a detailed topographic map for route navigation.](/assets/pamphlet_images/camping_p045_img1.png)
 
@@ -166,8 +156,6 @@
 #### Req 3c: Smartphone GPS Application Trekking
 **Official Requirement 3c:** Smartphone with a GPS app.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Smartphone with A GPS App)
-- **Common Myth:** Campers assume mobile phone navigation apps work automatically without pre-downloading topographical basemaps.
-- **Pamphlet Fact:** Mobile phones lose cellular tower connectivity in backcountry areas, rendering online streaming maps useless.
 
 ![A bright meadow filled with wildflowers illustrates outdoor conservation principles.](/assets/pamphlet_images/camping_p017_img1.png)
 
@@ -193,8 +181,6 @@
 #### Req 4a: Patrol Campout Duty Roster
 **Official Requirement 4a:** Make a duty roster showing how your patrol is organized for an actual overnight campout. List assignments for each member.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Duty Roster Showing)
-- **Common Myth:** Scouts think a verbal agreement is sufficient for organizing patrol camp chores smoothly.
-- **Pamphlet Fact:** Verbal chore agreements lead to missed meals and unsanitized cookware due to diffused responsibility.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -214,8 +200,6 @@
 #### Req 4b: Webelos Campout Mentorship Planning
 **Official Requirement 4b:** Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout, including creating the duty roster, menu planning, equipment needs, general planning, and setting up camp.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Help Webelos Unit Area)
-- **Common Myth:** Older Scouts assume younger Webelos already understand how to manage individual backcountry gear.
-- **Pamphlet Fact:** Younger Scouts require guided hands-on practice packing bags properly to avoid missing essential gear.
 
 ![Scouts gather outside their tent to prepare meals on a compact portable camp stove.](/assets/pamphlet_images/camping_p023_img1.png)
 
@@ -241,8 +225,6 @@
 #### Req 5a: Thermal Layering Clothing System
 **Official Requirement 5a:** Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term "layering.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Clothing You Would Need for)
-- **Common Myth:** Campers believe wearing the thickest single jacket is warmer than layering three lighter garments.
-- **Pamphlet Fact:** Multiple lighter layers trap dead air space between fabric barriers, providing superior modular insulation.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -262,8 +244,6 @@
 #### Req 5b: Camp Footwear and Blister Protection
 **Official Requirement 5b:** Discuss footwear for different kinds of weather and how the right footwear is important for protecting your feet.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss Footwear)
-- **Common Myth:** Scouts think brand-new rigid leather boots can be worn directly on extended hiking treks.
-- **Pamphlet Fact:** Unconditioned leather boots lack flexibility and create severe skin abrasions on unadapted heels.
 
 ![Campers haul gear sleds along a snowy trail while dressed in warm winter outerwear.](/assets/pamphlet_images/camping_p028_img1.png)
 
@@ -276,8 +256,6 @@
 #### Req 5c: Camping Equipment Storage and Maintenance
 **Official Requirement 5c:** Explain the proper care and storage of camping equipment (clothing, footwear, bedding)
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Care and Storage of Camping)
-- **Common Myth:** Campers believe storing slightly damp tents inside zipped bags does not cause permanent damage.
-- **Pamphlet Fact:** Damp stored fabrics develop mildew fungus that degrades polyurethane waterproof coatings within several weeks.
 
 ![An insulated jacket, beanie, and gloves illustrate proper cold-weather outdoor layering.](/assets/pamphlet_images/camping_p031_img2.png)
 
@@ -290,8 +268,6 @@
 #### Req 5d: Scout Basic Essentials Kit
 **Official Requirement 5d:** List the Scout Basic Essentials necessary for any campout, and explain why each item is needed.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Basic Essentials Necessary for Any)
-- **Common Myth:** Scouts think basic essentials are only necessary on remote multi-day wilderness backpacking expeditions.
-- **Pamphlet Fact:** Short day hikes experience sudden microclimate shifts and disorientation requiring immediate emergency essentials.
 
 ![A liquid fuel stove connects to a red pressurized fuel bottle for wilderness cooking.](/assets/pamphlet_images/camping_p039_img1.png)
 
@@ -304,8 +280,6 @@
 #### Req 5e: Overnight Pack Readiness Inspection
 **Official Requirement 5e:** Present yourself to your Scoutmaster with your pack for inspection. Be correctly clothed and equipped for an overnight campout.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Yourself to Your Scoutmaster)
-- **Common Myth:** Scouts assume pack inspections only check whether the pack contains a sleeping bag.
-- **Pamphlet Fact:** Inspections evaluate personal layering, emergency gear accessibility, pack balance, and foul-weather readiness.
 
 ![Backpacking gear including cookware, pad, and essentials is organized before packing.](/assets/pamphlet_images/camping_p043_img1.png)
 
@@ -332,8 +306,6 @@
 #### Req 6a: Tent Types Pitching and Care
 **Official Requirement 6a:** Describe the features of four types of tents, when and where they could be used, and how to care for tents. Working with another Scout, pitch a tent.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Features of Four Types of)
-- **Common Myth:** Scouts assume all four-season tents function comfortably during hot summer camping trips.
-- **Pamphlet Fact:** Heavy four-season expedition tents lack sufficient mesh ventilation, causing massive interior summer condensation.
 
 ![A pitched canvas wall tent provides spacious and durable group shelter at summer camp.](/assets/pamphlet_images/camping_p037_img1.png)
 
@@ -347,8 +319,6 @@
 #### Req 6b: Camp Sanitation and Water Treatment
 **Official Requirement 6b:** Discuss the importance of camp sanitation and tell why water treatment is essential. Then demonstrate two ways to treat water.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Discuss the Importance of Camp)
-- **Common Myth:** Campers believe ceramic microfiltration filters remove all environmental viral particles from backcountry water.
-- **Pamphlet Fact:** Most portable backpacking microfilters have 0.2 micron pores, which let smaller viruses pass.
 
 ![Two Scouts with full packs check equipment next to their pitched dome tent in camp.](/assets/pamphlet_images/camping_p043_img2.png)
 
@@ -362,8 +332,6 @@
 #### Req 6c: Campsite Terrain Selection Factors
 **Official Requirement 6c:** Describe the factors to be considered in deciding where to pitch your tent.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Factors to Be Considered in)
-- **Common Myth:** Scouts believe hollow depression basins offer the most protected spots for pitching tents.
-- **Pamphlet Fact:** Depression basins collect draining rainwater and cold pooling air, flooding tents during nocturnal downpours.
 
 ![A hiker operates a handheld GPS unit to determine coordinates along the trek route.](/assets/pamphlet_images/camping_p046_img1.png)
 
@@ -376,8 +344,6 @@
 #### Req 6d: Backpack Frame System Selection
 **Official Requirement 6d:** Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Organizer (2-Column Comparison Table):** Req 6d Technical Comparison Matrix (Internal- and External-frame Packs Discuss)
-- **Common Myth:** Scouts assume external-frame packs are inherently superior for traversing steep, off-trail mountain scrambles.
-- **Pamphlet Fact:** External frames hold the load away from the body, shifting center of gravity dangerously on scrambles.
 
 ![A young camper stretches outside her tent as fellow Scouts gather at the morning camp.](/assets/pamphlet_images/camping_p047_img1.png)
 
@@ -391,8 +357,6 @@
 #### Req 6e: Sleeping Bag Selection and Care
 **Official Requirement 6e:** Discuss the types of sleeping bags and what kind would be suitable for different conditions. Explain the proper care of your sleeping bag and how to keep it dry. Make a comfortable ground bed.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6e Hands-On Skill Station & EDGE Verification Checklist (Discuss the Types of Sleeping)
-- **Common Myth:** Campers believe a thick sleeping bag alone keeps them warm without a ground pad.
-- **Pamphlet Fact:** Compressed sleeping bag insulation beneath a body conducts body heat directly into cold ground.
 
 ![Scouts wearing waterproof hooded jackets trek through pouring rain along the trail.](/assets/pamphlet_images/camping_p055_img1.png)
 
@@ -420,8 +384,6 @@
 #### Req 7a: Personal and Patrol Gear Checklists
 **Official Requirement 7a:** Make a checklist of personal and patrol gear that will be needed.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)* • **Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Checklist of Personal and Patrol)
-- **Common Myth:** Scouts assume packing from casual memory is as reliable as using written checklists.
-- **Pamphlet Fact:** Memory packing frequently leads to missing essential essentials like headlamp batteries or water purification tablets.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -440,8 +402,6 @@
 #### Req 7b: Backpack Loading and Weight Balance
 **Official Requirement 7b:** Pack your own gear and your share of the patrol equipment and food for proper carrying. Show that your pack is right for quickly getting what is needed first, and that it has been assembled properly for comfort, weight, balance, size, and neatness.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Own Gear)
-- **Common Myth:** Scouts believe strapping heavy tents to the outside bottom of packs creates ideal balance.
-- **Pamphlet Fact:** Heavy bottom-mounted loads swing with each stride, disrupting natural gait and wasting physical energy.
 
 ![Powerful lightning bolts strike the desert landscape, showing severe weather risks.](/assets/pamphlet_images/camping_p056_img1.png)
 
@@ -468,8 +428,6 @@
 #### Req 8a: Stove Operation and Fuel Safety
 **Official Requirement 8a:** Explain the safety procedures for: (1) Using a propane or butane/propane stove (2) Using a liquid fuel stove (3) Proper storage of extra fuel.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Safety Procedures for Using A)
-- **Common Myth:** Campers believe tightening canister stove threads with tools ensures a safer connection.
-- **Pamphlet Fact:** Overtightening with tools crushes soft neoprene valve gaskets, causing catastrophic pressurized fuel leaks.
 
 ![Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.](/assets/pamphlet_images/camping_p024_img1.png)
 
@@ -484,8 +442,6 @@
 #### Req 8b: Lightweight Backpacking Stove Selection
 **Official Requirement 8b:** Discuss the advantages and disadvantages of different types of lightweight cooking stoves.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)* • **Organizer (2-Column Comparison Table):** Req 8b Technical Comparison Matrix (Discuss the Advantages and Disadvantages)
-- **Common Myth:** Scouts assume isobutane canister stoves perform with equal high efficiency in sub-freezing winter snow.
-- **Pamphlet Fact:** Freezing temperatures drop vapor pressure inside fuel canisters, causing burners to sputter and fail.
 
 ![Leather hiking boots sit beside wax polish and a brush for waterproof maintenance.](/assets/pamphlet_images/camping_p057_img1.png)
 
@@ -498,8 +454,6 @@
 #### Req 8c: Patrol Meal Planning and Nutrition
 **Official Requirement 8c:** Prepare a camp menu. Explain how the menu would differ from a menu for a backpacking or float trip. Give recipes and make a food list for your patrol. Plan two breakfasts, three lunches, and two suppers. Discuss how to protect your food against bad weather, animals, and contamination.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)* • **Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist (Camp Menu Explain How the)
-- **Common Myth:** Scouts think packing heavy canned foods is ideal for high-mileage mountain backpacking treks.
-- **Pamphlet Fact:** Canned foods contain heavy water weight and produce sharp empty metal waste that must be hauled out.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -513,8 +467,6 @@
 #### Req 8d: Outdoor Meal Preparation and Cooking
 **Official Requirement 8d:** While camping in the outdoors, cook at least one breakfast, one lunch, and one dinner for your patrol from the meals you have planned for requirement 8(c). At least one of those meals must be a trail meal requiring the use of a lightweight stove.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Camping in the Outdoors)
-- **Common Myth:** Scouts believe scraping food scraps into camp bushes is acceptable if pots look clean.
-- **Pamphlet Fact:** Discarded food remnants attract wild pests to campsites and contaminate local ground water sources.
 
 | Req 8d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -539,8 +491,6 @@
 #### Req 9a: Twenty Camping Nights Requirement
 **Official Requirement 9a:** Camp for at least 20 nights at designated Scouting activities or events. One long-term camping experience of up to six consecutive nights may be applied toward this requirement. Two nights may be counted toward the total for each additional long-term camping trip. Each night must be spent either under the sky, in a tent you have pitched yourself (if a tent is provided and already set up, you do not need to pitch your own), in a hammock that is safely strung outdoors, in a lean-to, or other three-sided shelter with an open front. Nights spent in indoor lock-in events, cabin camping, hotel stays, or other covered accommodations do not count toward the 20 nights.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (20-Night Camping Experience Log):** Req 9a 20-Night Scouting Camping Log (Up to 6 Consecutive Long-Term Camp Nights)
-- **Common Myth:** Scouts think sleeping indoors at a commercial lodge during a troop retreat qualifies.
-- **Pamphlet Fact:** Requirement nights mandate sleeping in tents, lean-tos, or under the open sky on campouts.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -578,8 +528,6 @@
 ### Req 9b: Backcountry Outdoor Adventure Challenges
 **Official Requirement 9b (Parent Overview):** On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up a mountain, gaining at least 1,000 vertical feet. (2) Backpack, snowshoe, or cross-country ski for at least 4 miles. (3) Take a bike trip of at least 15 miles or at least four hours. (4) Take a nonmotorized trip on the water of at least four hours or 5 miles. (5) Plan and carry out an overnight snow camping experience. (6) Rappel down a rappel route of 30 feet.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** Scouts assume any routine nature stroll fulfills the outdoor adventure challenge requirement.
-- **Pamphlet Fact:** The requirement specifies rigorous milestones like ascending one thousand vertical feet or four-mile treks.
 
 **Official Pamphlet Summary:**
 - Completing two outdoor adventure options involves undertaking strenuous backcountry treks like mountain summits, canoe voyages, or snowshoe hikes. Proper physical training, route reconnaissance, and qualified adult leadership ensure safe execution of high-adventure elements.
@@ -588,8 +536,6 @@
 #### Req 9b(1): Mountain Summit Elevation Gain Hike
 **Official Requirement 9b(1):** Hike up a mountain, gaining at least 1,000 vertical feet.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(1) Structured Technical Study & Explanation Matrix (Hike Up A Mountain Gaining)
-- **Common Myth:** Hiking four miles along a rolling mountain ridge fulfills the vertical gain requirement as long as the trail sits at high altitude.
-- **Pamphlet Fact:** The requirement demands climbing at least one thousand net vertical feet from the trailhead to the summit or turnaround point.
 
 | Req 9b(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -600,8 +546,6 @@
 #### Req 9b(2): Four Mile Backcountry Trek Options
 **Official Requirement 9b(2):** Backpack, snowshoe, or cross-country ski for at least 4 miles.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(2) Structured Technical Study & Explanation Matrix (Backpack Snowshoe or Cross-country Ski)
-- **Common Myth:** Dividing four miles across short day strolls over several campouts satisfies this backcountry trek requirement.
-- **Pamphlet Fact:** The trek must occur as a continuous four-mile journey across wilderness terrain while carrying trail gear.
 
 | Req 9b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -612,8 +556,6 @@
 #### Req 9b(3): Fifteen Mile Bicycle Touring Journey
 **Official Requirement 9b(3):** Take a bike trip of at least 15 miles or at least four hours.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(3) Structured Technical Study & Explanation Matrix (Bike Trip of at Least)
-- **Common Myth:** Riding a bicycle around a paved campground loop for several short intervals counts toward the touring trip requirement.
-- **Pamphlet Fact:** The bicycle trip requires a planned touring route covering fifteen continuous miles or four active hours with appropriate route navigation and trail tools.
 
 | Req 9b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -624,8 +566,6 @@
 #### Req 9b(4): Five Mile Nonmotorized Water Trek
 **Official Requirement 9b(4):** Take a nonmotorized trip on the water of at least four hours or 5 miles.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(4) Structured Technical Study & Explanation Matrix (Nonmotorized Trip on the Water)
-- **Common Myth:** Sitting inside a canoe or kayak without fastening a life jacket is acceptable on calm lakes during mild summer weather.
-- **Pamphlet Fact:** BSA Safety Afloat rules require every person aboard a nonmotorized craft to wear a securely fastened life jacket at all times on the water.
 
 | Req 9b(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -636,8 +576,6 @@
 #### Req 9b(5): Overnight Snow Camping Winter Expedition
 **Official Requirement 9b(5):** Plan and carry out an overnight snow camping experience.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(5) Structured Technical Study & Explanation Matrix (Out An Overnight Snow Camping)
-- **Common Myth:** Wearing all available daytime clothing inside a sleeping bag keeps a camper warmest during subfreezing nights.
-- **Pamphlet Fact:** Wearing tight, damp layers restricts blood circulation and traps perspiration, which causes rapid body cooling inside a sleeping bag.
 
 | Req 9b(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -648,8 +586,6 @@
 #### Req 9b(6): Thirty Foot Supervised Backcountry Rappel
 **Official Requirement 9b(6):** Rappel down a rappel route of 30 feet.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(6) Structured Technical Study & Explanation Matrix (Rappel Down A Rappel Route)
-- **Common Myth:** Holding the rappel brake line tightly eliminates the need for an independent safety belay line during a descent.
-- **Pamphlet Fact:** Scouting America climbing standards mandate a separate belay system managed by a qualified instructor to arrest any uncontrolled fall.
 
 | Req 9b(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -660,8 +596,6 @@
 #### Req 9c: Landowner Approved Conservation Projects
 **Official Requirement 9c:** On any of these camping experiences, perform a conservation project approved by the landowner or land managing agency. This can be done alone or with others.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Camping Experiences Perform A Conservation)
-- **Common Myth:** Scouts think picking up casual trail litter fulfills the formal conservation project requirement.
-- **Pamphlet Fact:** Conservation projects require structured habitat restoration or erosion management approved by the land authority.
 
 | Req 9c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

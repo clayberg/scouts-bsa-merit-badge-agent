@@ -106,47 +106,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1: Safe Swim Defense Standards",
-        "right_header": "Req 1: Prioritize Accident Prevention",
+        "left_header": "Safe Swim Defense Principles: Core Principles",
+        "right_header": "Safe Swim Defense Principles: Field Execution",
         "left_points": [
-          "Safe Swim Defense Standards: Safe Swim Defense All swimming activity in Scouting is conducted according to the following Scouting America Safe Swim Defense standards (p. 25).",
-          "Understanding Drowning Prevention: The drowning situations just discussed should help you understand why each item is important (p. 25).",
-          "Accident Prevention Priority: As a lifesaver, you should consider accident prevention as important as rescue skills (p. 25)."
+          "Qualified Leadership: Adult supervisors must hold current certifications in Safe Swim Defense and basic CPR.",
+          "Safe Water Depth: Maximum swimming area depth must match the verified ability of the participants."
         ],
         "right_points": [
-          "Prioritize Accident Prevention: As a lifesaver, you should consider accident prevention as important as rescue skills (p. 25).",
-          "Watch Training Video: Ideally, your merit badge counselor should arrange for you to view the same video used for adult leader training (p. 25).",
-          "Consult Safe Scouting Guide: For a full description of the standards, see the Guide to Safe Scouting (p. 25)."
+          "Buddy System Pairing: Swimmers must remain paired and respond immediately to periodic buddy check whistles.",
+          "Response Team Readiness: Dedicated rescue personnel must remain alert and equipped beside active swimming zones."
         ],
         "rows": [
           {
             "attribute": "Qualified Leadership",
-            "left": "Safe Swim Defense Standards: Safe Swim Defense All swimming activity in Scouting is conducted according to the following Scouting America Safe Swim Defense standards (p. 25).",
-            "right": "Prioritize Accident Prevention: As a lifesaver, you should consider accident prevention as important as rescue skills (p. 25)."
+            "left": "Qualified Leadership: Adult supervisors must hold current certifications in Safe Swim Defense and basic CPR.",
+            "right": "Buddy System Pairing: Swimmers must remain paired and respond immediately to periodic buddy check whistles."
           },
           {
             "attribute": "Safe Water Depth",
-            "left": "Understanding Drowning Prevention: The drowning situations just discussed should help you understand why each item is important (p. 25).",
-            "right": "Watch Training Video: Ideally, your merit badge counselor should arrange for you to view the same video used for adult leader training (p. 25)."
+            "left": "Safe Water Depth: Maximum swimming area depth must match the verified ability of the participants.",
+            "right": "Response Team Readiness: Dedicated rescue personnel must remain alert and equipped beside active swimming zones."
           },
           {
             "attribute": "Buddy System Pairing",
-            "left": "Accident Prevention Priority: As a lifesaver, you should consider accident prevention as important as rescue skills (p. 25).",
-            "right": "Consult Safe Scouting Guide: For a full description of the standards, see the Guide to Safe Scouting (p. 25)."
+            "left": "Buddy System Pairing: Swimmers must remain paired and respond immediately to periodic buddy check whistles.",
+            "right": "Response Team Readiness: Dedicated rescue personnel must remain alert and equipped beside active swimming zones."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 1 Exemplar Workbook Entry: Safe Swim",
+        "title": "Lifesaving Req 1 Worked Example: Safe Swim Defense Principles",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Safe Swim Defense Standards": "Safe Swim Defense All swimming activity in Scouting is conducted according to the following Scouting America Safe Swim Defense standards (p. 25).",
-          "Understanding Drowning Prevention": "The drowning situations just discussed should help you understand why each item is important (p. 25).",
-          "Accident Prevention Priority": "As a lifesaver, you should consider accident prevention as important as rescue skills (p. 25).",
-          "Leader Training Video Review": "Ideally, your merit badge counselor should arrange for you to view the same video used for adult leader training (p. 25)."
+          "Phase 1 - Area Inspection": "Check water clarity and bottom hazards across the designated swimming boundary line.",
+          "Phase 2 - Ability Classification": "Administer standard swim tests before assigning participants to distinct activity areas.",
+          "Phase 3 - Lifeguard Positioning": "Post trained rescuers equipped with rescue tubes at elevated surveillance stations.",
+          "Phase 4 - Buddy Assembly": "Conduct frequent accountability roll calls to confirm paired swimmer presence and safety."
         },
-        "sample_output": "Safe Swim Defense Principles: Safe Swim Defense All swimming activity in Scouting is conducted according to the following Scouting America Safe Swim Defense standards (p. 25).",
-        "counselor_tip": "For Lifesaving Requirement 1 (Safe Swim Defense Principles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 25, p. 27))."
+        "sample_output": "Safe Swim Defense establishes eight mandatory operational points for troop water outings. Supervisors maintain water surveillance and enforce buddy checks at ten minute intervals.",
+        "counselor_tip": "During the Lifesaving Requirement 1 conference on Safe Swim Defense Principles, verify that the Scout can explain qualified leadership and demonstrate buddy assembly: Conduct frequent accountability roll calls to confirm paired swimmer presence and safety."
       },
       "quiz_item": {
         "scenario_prompt": "A tired non-swimmer slips off a camp dock into 8-foot-deep water about 6 feet from the dock edge and begins thrashing in panic. Following the BSA Order of Water Rescue, what should your patrol attempt FIRST?",
@@ -449,12 +447,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Swimming Merit Badge Completion",
-        "right_header": "Req 2b: Continuous Endurance Swim",
+        "right_header": "Req 2b: Continuous Endurance Swim Testing",
         "left_points": [
-          "(2a) Swimming Merit Badge Completion: The Swimming merit badge confirms core stroke competence and aquatic safety foundations. Candidates must complete all badge components before enrolling in advanced rescue training."
+          "(2a) Swimming Merit Badge Completion: The Swimming merit badge confirms core stroke competence and aquatic safety foundations. Candidates must complete all badge components before enrolling in advanced rescue training.",
+          "Prerequisite Badge Completion: Candidates must complete every requirement for the Swimming merit badge first."
         ],
         "right_points": [
-          "(2b) Continuous Endurance Swim Testing: Candidates must sustain rhythmic breathing across four distinct competitive and resting strokes. Continuous movement builds the cardiovascular reserve needed for demanding towing maneuvers."
+          "(2b) Continuous Endurance Swim Testing: Candidates must sustain rhythmic breathing across four distinct competitive and resting strokes. Continuous movement builds the cardiovascular reserve needed for demanding towing maneuvers.",
+          "Rhythmic Breathing Integration: Swimmers must inhale cleanly above water without stopping during stroke transitions."
         ],
         "rows": [
           {
@@ -464,25 +464,27 @@
           },
           {
             "attribute": "Stroke Form Maintenance",
-            "left": "Req 2a: Swimming Merit Badge: The Swimming merit badge confirms core stroke competence and aquatic safety foundations. Candidates must complete all badge components before enrolling in advanced rescue training.",
-            "right": "Req 2b: Continuous Endurance Swim: Candidates must sustain rhythmic breathing across four distinct competitive and resting strokes. Continuous movement builds the cardiovascular reserve needed for demanding towing maneuvers."
+            "left": "Prerequisite Badge Completion: Candidates must complete every requirement for the Swimming merit badge first.",
+            "right": "Rhythmic Breathing Integration: Swimmers must inhale cleanly above water without stopping during stroke transitions."
           },
           {
             "attribute": "Rhythmic Breathing Integration",
-            "left": "Prerequisite Badge Completion: Candidates must complete every requirement for the Swimming merit badge first.",
-            "right": "Stroke Form Maintenance: Swimmers must demonstrate continuous forward progress using correct body position mechanics."
+            "left": "Rhythmic Breathing Integration: Swimmers must inhale cleanly above water without stopping during stroke transitions.",
+            "right": "Continuous Distance Standard: Candidates must complete four hundred yards without resting against pool perimeter edges."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 2 Exemplar Workbook Entry: Prerequisite",
+        "title": "Lifesaving Req 2 Worked Example: Aquatic Prerequisites and Assessment",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Swimming Merit Badge": "The Swimming merit badge confirms core stroke competence and aquatic safety foundations. Candidates must complete all badge components before enrolling in advanced rescue training.",
-          "Req 2b - Continuous Endurance Swim": "Candidates must sustain rhythmic breathing across four distinct competitive and resting strokes. Continuous movement builds the cardiovascular reserve needed for demanding towing maneuvers."
+          "Phase 1 - Record Verification": "Confirm official troop advancement records showing completion of the Swimming merit badge.",
+          "Phase 2 - Stroke Demonstration": "Execute continuous front crawl and sidestroke segments over fifty yards each.",
+          "Phase 3 - Form Evaluation": "Maintain horizontal body alignment while completing the remaining breaststroke and elementary backstroke.",
+          "Phase 4 - Distance Completion": "Finish the full four hundred yard sequence without grasping walls or lane ropes."
         },
-        "sample_output": "Prerequisite Swimming Endurance and Strokes: When landing a conscious victim, lower your legs to check the water depth if you can do so without causing the victim to lose support (p. 57).",
-        "counselor_tip": "For Lifesaving Requirement 2 (Prerequisite Swimming Endurance and Strokes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63))."
+        "sample_output": "Rescuers must possess foundational swimming badges before attempting dangerous open water contact rescues. The four hundred yard swim proves continuous cardiovascular fitness and technical mastery across four strokes.",
+        "counselor_tip": "During the Lifesaving Requirement 2 conference on Aquatic Prerequisites and Assessment, verify that the Scout can explain prerequisite badge completion and demonstrate distance completion: Finish the full four hundred yard sequence without grasping walls or lane ropes."
       },
       "quiz_item": {
         "scenario_prompt": "Which four strokes must be performed for at least 50 continuous yards each during the 400-yard prerequisite swim?",
@@ -1015,22 +1017,22 @@
           },
           {
             "attribute": "Rip Current Navigation",
-            "left": "Req 3a: Aquatic Hazards: Sudden drop offs, river hydraulics, and residential pool gates present unique environmental hazards. Recognizing dynamic water movement helps swimmers avoid dangerous entrapment zones.",
-            "right": "Req 3b: Swimmer Distress Recognition: Distressed swimmers can call for help while drowning victims focus entirely on breathing. Rescuers monitor head position and arm movements to identify active suffocation struggles."
+            "left": "Rip Current Navigation: Swimmers caught in rip currents must move parallel to shore until free.",
+            "right": "Environmental Assessment Rules: Fast river currents and low head dams require shoreline land based operations."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 3 Exemplar Workbook Entry: Drowning",
+        "title": "Lifesaving Req 3 Worked Example: Drowning Prevention and Recognition",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Aquatic Hazards": "Sudden drop offs, river hydraulics, and residential pool gates present unique environmental hazards. Recognizing dynamic water movement helps swimmers avoid dangerous entrapment zones.",
-          "Req 3b - Swimmer Distress Recognition": "Distressed swimmers can call for help while drowning victims focus entirely on breathing. Rescuers monitor head position and arm movements to identify active suffocation struggles.",
-          "Req 3c - Water Rescue Order Sequence": "Rescuers must prioritize reach and throw tactics before launching watercraft or swimming. Direct contact rescues represent the highest risk and must remain the final alternative.",
-          "Req 3d - Contextual Rescue Method": "Rescuers adjust equipment choices according to surf conditions, river currents, and victim awareness. High current environments necessitate tethered land based throwing bags instead of wading approaches."
+          "Phase 1 - Victim Assessment": "Identify signs of distressed, active drowning, or passive unconscious swimmer conditions.",
+          "Phase 2 - Setting Evaluation": "Gauge water current speed, submerged debris, and shoreline footing stability before acting.",
+          "Phase 3 - Method Selection": "Choose reaching or throwing gear before considering boat craft or swimming options.",
+          "Phase 4 - Resource Mobilization": "Summon emergency medical support while deploying the least hazardous shoreline rescue technique."
         },
-        "sample_output": "Drowning Recognition and Rescue Order: In-water contact rescues of active victims can be dangerous (p. 19).",
-        "counselor_tip": "For Lifesaving Requirement 3 (Drowning Recognition and Rescue Order), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59))."
+        "sample_output": "Victims experiencing active drowning remain upright with arms pressing down in the instinctive drowning response. Rescuers follow a strict tactical hierarchy that prioritizes shoreline assists over direct contact rescues.",
+        "counselor_tip": "During the Lifesaving Requirement 3 conference on Drowning Prevention and Recognition, verify that the Scout can explain silent distress recognition and demonstrate resource mobilization: Summon emergency medical support while deploying the least hazardous shoreline rescue technique."
       },
       "quiz_item": {
         "scenario_prompt": "What is the standard sequence of water rescue methods from lowest risk to highest risk for the rescuer?",
@@ -1191,47 +1193,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 4: Boating Drowning Statistics",
-        "right_header": "Req 4: Wear Approved Life Jackets",
+        "left_header": "Reaching Assist Field Techniques: Core Principles",
+        "right_header": "Reaching Assist Field Techniques: Field Execution",
         "left_points": [
-          "Boating Drowning Statistics: Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-          "Small Craft Capsize Risks: Numerous boating incidents in small open motorboats on inland waters involve capsize or passengers falling overboard (p. 41).",
-          "Missing Life Jacket Fatalities: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41)."
+          "Rescuer Stance Anchoring: Rescuers must lie flat or stay low before extending any reaching aid.",
+          "Rigid Tool Extension: Shepherd crooks and long poles provide sturdy support for struggling swimmers."
         ],
         "right_points": [
-          "Wear Approved Life Jackets: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41).",
-          "Maintain Strong Swimming Skills: Unfortunately, they could not swim well enough at the time to save themselves (p. 41).",
-          "Recognize Craft Skill Limits: Small-boat skills are not included in the Lifesaving requirements (p. 41)."
+          "Improvised Reaching Gear: Towels and clothing create extended grips when rigid poles are unavailable.",
+          "Targeted Aid Placement: Rescuers must place reaching devices directly into the victim grasp zone."
         ],
         "rows": [
           {
             "attribute": "Rescuer Stance Anchoring",
-            "left": "Boating Drowning Statistics: Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-            "right": "Wear Approved Life Jackets: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41)."
+            "left": "Rescuer Stance Anchoring: Rescuers must lie flat or stay low before extending any reaching aid.",
+            "right": "Improvised Reaching Gear: Towels and clothing create extended grips when rigid poles are unavailable."
           },
           {
             "attribute": "Rigid Tool Extension",
-            "left": "Small Craft Capsize Risks: Numerous boating incidents in small open motorboats on inland waters involve capsize or passengers falling overboard (p. 41).",
-            "right": "Maintain Strong Swimming Skills: Unfortunately, they could not swim well enough at the time to save themselves (p. 41)."
+            "left": "Rigid Tool Extension: Shepherd crooks and long poles provide sturdy support for struggling swimmers.",
+            "right": "Targeted Aid Placement: Rescuers must place reaching devices directly into the victim grasp zone."
           },
           {
             "attribute": "Improvised Reaching Gear",
-            "left": "Missing Life Jacket Fatalities: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41).",
-            "right": "Recognize Craft Skill Limits: Small-boat skills are not included in the Lifesaving requirements (p. 41)."
+            "left": "Improvised Reaching Gear: Towels and clothing create extended grips when rigid poles are unavailable.",
+            "right": "Targeted Aid Placement: Rescuers must place reaching devices directly into the victim grasp zone."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 4 Exemplar Workbook Entry: Shore and Deck",
+        "title": "Lifesaving Req 4 Worked Example: Reaching Assist Field Techniques",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Boating Drowning Statistics": "Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-          "Small Craft Capsize Risks": "Numerous boating incidents in small open motorboats on inland waters involve capsize or passengers falling overboard (p. 41).",
-          "Missing Life Jacket Fatalities": "According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41).",
-          "Inadequate Swimming Ability": "Unfortunately, they could not swim well enough at the time to save themselves (p. 41)."
+          "Phase 1 - Body Anchoring": "Drop onto knees or lie prone on the solid deck or shoreline.",
+          "Phase 2 - Equipment Securement": "Grasp the reaching aid firmly with one hand anchored behind your body.",
+          "Phase 3 - Aid Extension": "Push the pole or paddle across the water surface toward the victim.",
+          "Phase 4 - Controlled Retrieval": "Pull the grasping subject slowly to the safety edge using smooth motions."
         },
-        "sample_output": "Shore and Deck Reaching Rescues: Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-        "counselor_tip": "For Lifesaving Requirement 4 (Shore and Deck Reaching Rescues), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45))."
+        "sample_output": "Reaching rescues provide the safest response for victims struggling near docks or pool walls. Rescuers must lower their center of gravity to prevent being pulled into the water.",
+        "counselor_tip": "During the Lifesaving Requirement 4 conference on Reaching Assist Field Techniques, verify that the Scout can explain rescuer stance anchoring and demonstrate controlled retrieval: Pull the grasping subject slowly to the safety edge using smooth motions."
       },
       "quiz_item": {
         "scenario_prompt": "How should a rescuer position their body when extending an arm or pole from a dock to a struggling swimmer?",
@@ -1390,47 +1390,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 5: Shoreline Throwing Rescue Range",
-        "right_header": "Req 5: Select Available Throwing Aid",
+        "left_header": "Throwing Device Deployment Methods: Core Principles",
+        "right_header": "Throwing Device Deployment Methods: Field Execution",
         "left_points": [
-          "Shoreline Throwing Rescue Range: For victims beyond your reach, an aid may be thrown from shore (p. 41).",
-          "Attached Line Float Advantage: A floating aid with a line attached is best because it provides support and allows you to pull the victim (p. 41).",
-          "Unattached Float and Line Options: However, floats and lines may also be used by themselves (p. 41)."
+          "Line Foot Anchor: Rescuers must step on the nonworking rope end before throwing any aid.",
+          "Downwind Throw Targeting: Rescuers must account for wind drift when tossing buoyant rings or bags."
         ],
         "right_points": [
-          "Select Available Throwing Aid: However, floats and lines may also be used by themselves (p. 41).",
-          "Keep Eyes on Victim: Always keep track of a victim'slocation, especially if the water is murky or the person is far from shore (p. 41).",
-          "Mark Submersion Sight Line: If the victim submerges, you need to THROW know where he or she went (p. 41)."
+          "Overhand Target Clearance: Aim throws slightly past the victim shoulder to drop line across arms.",
+          "Controlled Rope Retrieval: Pull the rope hand over hand while maintaining low stable footing."
         ],
         "rows": [
           {
             "attribute": "Line Foot Anchor",
-            "left": "Shoreline Throwing Rescue Range: For victims beyond your reach, an aid may be thrown from shore (p. 41).",
-            "right": "Select Available Throwing Aid: However, floats and lines may also be used by themselves (p. 41)."
+            "left": "Line Foot Anchor: Rescuers must step on the nonworking rope end before throwing any aid.",
+            "right": "Overhand Target Clearance: Aim throws slightly past the victim shoulder to drop line across arms."
           },
           {
             "attribute": "Downwind Throw Targeting",
-            "left": "Attached Line Float Advantage: A floating aid with a line attached is best because it provides support and allows you to pull the victim (p. 41).",
-            "right": "Keep Eyes on Victim: Always keep track of a victim'slocation, especially if the water is murky or the person is far from shore (p. 41)."
+            "left": "Downwind Throw Targeting: Rescuers must account for wind drift when tossing buoyant rings or bags.",
+            "right": "Controlled Rope Retrieval: Pull the rope hand over hand while maintaining low stable footing."
           },
           {
             "attribute": "Overhand Target Clearance",
-            "left": "Unattached Float and Line Options: However, floats and lines may also be used by themselves (p. 41).",
-            "right": "Mark Submersion Sight Line: If the victim submerges, you need to THROW know where he or she went (p. 41)."
+            "left": "Overhand Target Clearance: Aim throws slightly past the victim shoulder to drop line across arms.",
+            "right": "Controlled Rope Retrieval: Pull the rope hand over hand while maintaining low stable footing."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 5 Exemplar Workbook Entry: Throwing",
+        "title": "Lifesaving Req 5 Worked Example: Throwing Device Deployment Methods",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Shoreline Throwing Rescue Range": "For victims beyond your reach, an aid may be thrown from shore (p. 41).",
-          "Attached Line Float Advantage": "A floating aid with a line attached is best because it provides support and allows you to pull the victim (p. 41).",
-          "Unattached Float and Line Options": "However, floats and lines may also be used by themselves (p. 41).",
-          "Continuous Victim Sight Tracking": "Always keep track of a victim'slocation, especially if the water is murky or the person is far from shore (p. 41)."
+          "Phase 1 - Stance Preparation": "Place the nonworking rope end securely under your forward foot on shore.",
+          "Phase 2 - Device Preparation": "Hold the coiled line loosely or open the throw bag drawstring cleanly.",
+          "Phase 3 - Aim Delivery": "Cast the buoyant device past the subject so line crosses their torso.",
+          "Phase 4 - Hand Recovery": "Retrieve the rope hand over hand while reeling the subject to shore."
         },
-        "sample_output": "Throwing Rescues and Line Accuracy: For victims beyond your reach, an aid may be thrown from shore (p. 41).",
-        "counselor_tip": "For Lifesaving Requirement 5 (Throwing Rescues and Line Accuracy), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 43))."
+        "sample_output": "Throwing rescues bridge distance when victims struggle beyond arm or pole reach from shore. Stepping on the rope bitter end prevents losing the safety line during long throws.",
+        "counselor_tip": "During the Lifesaving Requirement 5 conference on Throwing Device Deployment Methods, verify that the Scout can explain line foot anchor and demonstrate hand recovery: Retrieve the rope hand over hand while reeling the subject to shore."
       },
       "quiz_item": {
         "scenario_prompt": "Where should you aim when throwing a ring buoy with an attached line to a conscious swimmer 25 feet from shore?",
@@ -1594,47 +1592,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 6: Watercraft Incident Overview",
-        "right_header": "Req 6: Verify Rescuer Life Jacket",
+        "left_header": "Watercraft Rescue Demonstration Analysis: Core Principles",
+        "right_header": "Watercraft Rescue Demonstration Analysis: Field Execution",
         "left_points": [
-          "Watercraft Incident Overview: Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-          "Overboard and Capsize Events: Numerous boating incidents in small open motorboats on inland waters involve capsize or passengers falling overboard (p. 41).",
-          "Paddles port Life Jacket Data: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41)."
+          "Stern Approach Vector: Back the craft stern toward the victim to avoid capsize from struggling.",
+          "Victim Grasp Protocol: Instruct the conscious swimmer to hold the watercraft stern or paddle blade."
         ],
         "right_points": [
-          "Verify Rescuer Life Jacket: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41).",
-          "Stabilize Exhausted Victims First: Unfortunately, they could not swim well enough at the time to save themselves (p. 41).",
-          "Observe Proper Craft Handling: Small-boat skills are not included in the Lifesaving requirements (p. 41)."
+          "Craft Balance Preservation: Keep passenger weight centered low along the boat keel during passenger recovery.",
+          "Shore Transit Rowing: Row smoothly toward shallow water while the subject holds the stern securely."
         ],
         "rows": [
           {
             "attribute": "Stern Approach Vector",
-            "left": "Watercraft Incident Overview: Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-            "right": "Verify Rescuer Life Jacket: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41)."
+            "left": "Stern Approach Vector: Back the craft stern toward the victim to avoid capsize from struggling.",
+            "right": "Craft Balance Preservation: Keep passenger weight centered low along the boat keel during passenger recovery."
           },
           {
             "attribute": "Victim Grasp Protocol",
-            "left": "Overboard and Capsize Events: Numerous boating incidents in small open motorboats on inland waters involve capsize or passengers falling overboard (p. 41).",
-            "right": "Stabilize Exhausted Victims First: Unfortunately, they could not swim well enough at the time to save themselves (p. 41)."
+            "left": "Victim Grasp Protocol: Instruct the conscious swimmer to hold the watercraft stern or paddle blade.",
+            "right": "Shore Transit Rowing: Row smoothly toward shallow water while the subject holds the stern securely."
           },
           {
             "attribute": "Craft Balance Preservation",
-            "left": "Paddles port Life Jacket Data: According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41).",
-            "right": "Observe Proper Craft Handling: Small-boat skills are not included in the Lifesaving requirements (p. 41)."
+            "left": "Craft Balance Preservation: Keep passenger weight centered low along the boat keel during passenger recovery.",
+            "right": "Shore Transit Rowing: Row smoothly toward shallow water while the subject holds the stern securely."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 6 Exemplar Workbook Entry: Watercraft",
+        "title": "Lifesaving Req 6 Worked Example: Watercraft Rescue Demonstration Analysis",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Watercraft Incident Overview": "Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-          "Overboard and Capsize Events": "Numerous boating incidents in small open motorboats on inland waters involve capsize or passengers falling overboard (p. 41).",
-          "Paddles port Life Jacket Data": "According to the American Canoe Association, 85 percent of canoeing victims and 48 percent of kayaking victims were not wearing lifejackets (p. 41).",
-          "Swimmer Self-Rescue Limits": "Unfortunately, they could not swim well enough at the time to save themselves (p. 41)."
+          "Phase 1 - Craft Positioning": "Row or paddle swiftly toward the subject while observing water surface conditions.",
+          "Phase 2 - Stern Alignment": "Pivot the watercraft to present the stern directly within the victim reach.",
+          "Phase 3 - Victim Instruction": "Direct the conscious swimmer to grasp the stern handle without climbing aboard.",
+          "Phase 4 - Tow Execution": "Row steadily toward shallow shoreline water while towing the supported subject."
         },
-        "sample_output": "Watercraft and Paddleboard Rowing Rescues: Boating incidents contribute significantly to drowning and other injuries in the United States (p. 41).",
-        "counselor_tip": "For Lifesaving Requirement 6 (Watercraft and Paddleboard Rowing Rescues), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45))."
+        "sample_output": "Small craft enable rapid transit across wide distances while providing substantial flotation support for victims. Rescuers back the stern toward the victim to maintain vessel stability and prevent capsize.",
+        "counselor_tip": "During the Lifesaving Requirement 6 conference on Watercraft Rescue Demonstration Analysis, verify that the Scout can explain stern approach vector and demonstrate tow execution: Row steadily toward shallow shoreline water while towing the supported subject."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary danger when a rescuer in a small canoe or rowboat attempts to haul a tired swimmer over the side gunwale in deep water?",
@@ -1788,47 +1784,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 7: Presenting the Flotation Aid",
-        "right_header": "Req 7: Drape Victim Arms Over Float",
+        "left_header": "Buoyant Swimming Rescue Aids: Core Principles",
+        "right_header": "Buoyant Swimming Rescue Aids: Field Execution",
         "left_points": [
-          "Presenting the Flotation Aid: You may need to push the float under the victim's arms, into the chest, or into contact with the hands (p. 53).",
-          "Long Float Presentation Angles: If the float is long and narrow, like a rescue tube, noodle, or surfboard, swing it to the victim from one end or push it to the victim sideways (p. 53).",
-          "Cross-Body Arm Drape Stability: Victims are more stable with their arms draped over such a device than trying to hold it in line with their body (p. 53)."
+          "Physical Barrier Safety: Buoyant devices prevent direct victim contact and defend the rescuer personal space.",
+          "Rescue Tube Utility: Foam rescue tubes bend around victims to support positive floating airway elevation."
         ],
         "right_points": [
-          "Drape Victim Arms Over Float: Victims are more stable with their arms draped over such a device than trying to hold it in line with their body (p. 53).",
-          "Keep Victim Head Upright: The victim will generally be more comfortable with his or her head up rather than on the back (p. 53).",
-          "Tow Using One-Hand Sidestroke: Use a sidestroke for the tow if you can control the float with one hand (p. 53)."
+          "Kickboard Flotation Aids: Kickboards provide rigid flotation barriers when specialized rescue tubes are not available.",
+          "Buoyant Cushion Handling: Life jackets and buoyant cushions give victims immediate buoyancy during water approaches."
         ],
         "rows": [
           {
             "attribute": "Physical Barrier Safety",
-            "left": "Presenting the Flotation Aid: You may need to push the float under the victim's arms, into the chest, or into contact with the hands (p. 53).",
-            "right": "Drape Victim Arms Over Float: Victims are more stable with their arms draped over such a device than trying to hold it in line with their body (p. 53)."
+            "left": "Physical Barrier Safety: Buoyant devices prevent direct victim contact and defend the rescuer personal space.",
+            "right": "Kickboard Flotation Aids: Kickboards provide rigid flotation barriers when specialized rescue tubes are not available."
           },
           {
             "attribute": "Rescue Tube Utility",
-            "left": "Long Float Presentation Angles: If the float is long and narrow, like a rescue tube, noodle, or surfboard, swing it to the victim from one end or push it to the victim sideways (p. 53).",
-            "right": "Keep Victim Head Upright: The victim will generally be more comfortable with his or her head up rather than on the back (p. 53)."
+            "left": "Rescue Tube Utility: Foam rescue tubes bend around victims to support positive floating airway elevation.",
+            "right": "Buoyant Cushion Handling: Life jackets and buoyant cushions give victims immediate buoyancy during water approaches."
           },
           {
             "attribute": "Kickboard Flotation Aids",
-            "left": "Cross-Body Arm Drape Stability: Victims are more stable with their arms draped over such a device than trying to hold it in line with their body (p. 53).",
-            "right": "Tow Using One-Hand Sidestroke: Use a sidestroke for the tow if you can control the float with one hand (p. 53)."
+            "left": "Kickboard Flotation Aids: Kickboards provide rigid flotation barriers when specialized rescue tubes are not available.",
+            "right": "Buoyant Cushion Handling: Life jackets and buoyant cushions give victims immediate buoyancy during water approaches."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 7 Exemplar Workbook Entry: Buoyant Aids",
+        "title": "Lifesaving Req 7 Worked Example: Buoyant Swimming Rescue Aids",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Presenting the Flotation Aid": "You may need to push the float under the victim's arms, into the chest, or into contact with the hands (p. 53).",
-          "Long Float Presentation Angles": "If the float is long and narrow, like a rescue tube, noodle, or surfboard, swing it to the victim from one end or push it to the victim sideways (p. 53).",
-          "Cross-Body Arm Drape Stability": "Victims are more stable with their arms draped over such a device than trying to hold it in line with their body (p. 53).",
-          "Comfortable Head-Up Posture": "The victim will generally be more comfortable with his or her head up rather than on the back (p. 53)."
+          "Phase 1 - Equipment Selection": "Inspect available rescue tubes, ring buoys, kickboards, and certified flotation vests.",
+          "Phase 2 - Flotation Assessment": "Confirm the selected device provides sufficient buoyancy to support two adult swimmers.",
+          "Phase 3 - Harness Attachment": "Secure the rescue tube towline harness across your chest before water entry.",
+          "Phase 4 - Defensive Positioning": "Keep the buoyant device extended forward as a barrier during swimming approaches."
         },
-        "sample_output": "Buoyant Aids for Swimming Rescues: You may need to push the float under the victim's arms, into the chest, or into contact with the hands (p. 53).",
-        "counselor_tip": "For Lifesaving Requirement 7 (Buoyant Aids for Swimming Rescues), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 53, p. 57))."
+        "sample_output": "Buoyant aids provide positive flotation that supports both victim airway elevation and rescuer safety margins. Placing an object between rescuer and victim prevents sudden panic holds during open water approaches.",
+        "counselor_tip": "During the Lifesaving Requirement 7 conference on Buoyant Swimming Rescue Aids, verify that the Scout can explain physical barrier safety and demonstrate defensive positioning: Keep the buoyant device extended forward as a barrier during swimming approaches."
       },
       "quiz_item": {
         "scenario_prompt": "Why are buoyant aids preferred over nonbuoyant extensions like shirts or poles when performing a swimming \"go\" rescue?",
@@ -2128,10 +2122,12 @@
         "left_header": "Req 8a: Push Assist Device Deployment",
         "right_header": "Req 8b: Buoyant Aid Subject Tow",
         "left_points": [
-          "(8a) Push Assist Device Deployment: Pushing a buoyant aid gives responsive swimmers immediate support so they can kick toward safety. The rescuer swims at a safe distance while providing verbal direction and encouragement."
+          "(8a) Push Assist Device Deployment: Pushing a buoyant aid gives responsive swimmers immediate support so they can kick toward safety. The rescuer swims at a safe distance while providing verbal direction and encouragement.",
+          "Compact Jump Entry: Enter deep water with a compact jump while keeping head above surface."
         ],
         "right_points": [
-          "(8b) Buoyant Aid Subject Tow: The rescuer extends the buoyant device and commands the subject to lock both arms over it. Once secured, the rescuer turns forward and uses powerful kicks to tow the tube to safety."
+          "(8b) Buoyant Aid Subject Tow: The rescuer extends the buoyant device and commands the subject to lock both arms over it. Once secured, the rescuer turns forward and uses powerful kicks to tow the tube to safety.",
+          "Push Assist Release: Push the float forward and back away while the subject kicks independently."
         ],
         "rows": [
           {
@@ -2141,25 +2137,27 @@
           },
           {
             "attribute": "Calm Vocal Instructions",
-            "left": "Req 8a: Push Assist Device: Pushing a buoyant aid gives responsive swimmers immediate support so they can kick toward safety. The rescuer swims at a safe distance while providing verbal direction and encouragement.",
-            "right": "Req 8b: Buoyant Aid Subject Tow: The rescuer extends the buoyant device and commands the subject to lock both arms over it. Once secured, the rescuer turns forward and uses powerful kicks to tow the tube to safety."
+            "left": "Compact Jump Entry: Enter deep water with a compact jump while keeping head above surface.",
+            "right": "Push Assist Release: Push the float forward and back away while the subject kicks independently."
           },
           {
             "attribute": "Push Assist Release",
-            "left": "Compact Jump Entry: Enter deep water with a compact jump while keeping head above surface.",
-            "right": "Calm Vocal Instructions: Reassure the victim continuously while ordering them to grasp the buoyant aid."
+            "left": "Push Assist Release: Push the float forward and back away while the subject kicks independently.",
+            "right": "Towed Flotation Support: Tow the subject while they rest their chest over the secure tube."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 8 Exemplar Workbook Entry: Conscious",
+        "title": "Lifesaving Req 8 Worked Example: Conscious Victim Buoyant Rescues",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Push Assist Device Deployment": "Pushing a buoyant aid gives responsive swimmers immediate support so they can kick toward safety. The rescuer swims at a safe distance while providing verbal direction and encouragement.",
-          "Req 8b - Buoyant Aid Subject Tow": "The rescuer extends the buoyant device and commands the subject to lock both arms over it. Once secured, the rescuer turns forward and uses powerful kicks to tow the tube to safety."
+          "Phase 1 - Stride Entry": "Execute a stride entry while keeping eyes locked onto the distant subject.",
+          "Phase 2 - Swimming Approach": "Swim rapidly using head up crawl stroke while pushing the buoyant aid.",
+          "Phase 3 - Vocal Contact": "Command the subject to grab the float while stopping outside arm reach.",
+          "Phase 4 - Safe Transport": "Tow the buoyed subject to the shore edge using strong breaststroke kicks."
         },
-        "sample_output": "Conscious Victim Buoyant Aid Rescues: If the float is long and narrow, like a rescue tube, noodle, or surfboard, swing it to the victim from one end or push it to the victim sideways (p. 57).",
-        "counselor_tip": "For Lifesaving Requirement 8 (Conscious Victim Buoyant Aid Rescues), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71))."
+        "sample_output": "Rescuers enter deep water using safe entries that keep eyes focused on the victim. Approaching with a buoyant aid allows the rescuer to execute push assists or secure tows without physical contact.",
+        "counselor_tip": "During the Lifesaving Requirement 8 conference on Conscious Victim Buoyant Rescues, verify that the Scout can explain compact jump entry and demonstrate safe transport: Tow the buoyed subject to the shore edge using strong breaststroke kicks."
       },
       "quiz_item": {
         "scenario_prompt": "What should a rescuer do if they need both hands to hold onto a buoyant aid while towing a conscious victim to shore?",
@@ -2315,47 +2313,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 9: Assisted Victim Shoreline Exit",
-        "right_header": "Req 9: Request Shore Team Assistance",
+        "left_header": "Emergency Clothing Stripping Procedure: Core Principles",
+        "right_header": "Emergency Clothing Stripping Procedure: Field Execution",
         "left_points": [
-          "Assisted Victim Shoreline Exit: Conscious victims probably can remove themselves from the water once they have sure footing on the bottom or a firm hold on a ladder (p. 54).",
-          "Pre-Entry Landing Planning: Choose a safe landing site before entering the water (p. 54).",
-          "Steep Bank Rescue Support: In exceptional cases, such as in a steep-sided quarry, you may both need help from others onshore (p. 54)."
+          "Rapid Garment Stripping: Shed outer jackets and heavy boots in under twenty seconds before entering.",
+          "Heel Kicking Method: Kick shoes off rapidly by using opposing feet against alternate heel counters."
         ],
         "right_points": [
-          "Request Shore Team Assistance: In exceptional cases, such as in a steep-sided quarry, you may both need help from others onshore (p. 54).",
-          "Lower Legs to Check Depth: When landing a conscious victim, lower your legs to check the water depth if you can do so without causing the victim to lose support (p. 54).",
-          "Identify Gradual Bottom Slopes: Natural bodies of water can be shallow for long distances from shore (p. 54)."
+          "Button Release Sequence: Open jacket zippers and waist buttons while running toward the water margin.",
+          "Head High Approach: Swim with eyes above water to track victim status after rapid shedding."
         ],
         "rows": [
           {
             "attribute": "Rapid Garment Stripping",
-            "left": "Assisted Victim Shoreline Exit: Conscious victims probably can remove themselves from the water once they have sure footing on the bottom or a firm hold on a ladder (p. 54).",
-            "right": "Request Shore Team Assistance: In exceptional cases, such as in a steep-sided quarry, you may both need help from others onshore (p. 54)."
+            "left": "Rapid Garment Stripping: Shed outer jackets and heavy boots in under twenty seconds before entering.",
+            "right": "Button Release Sequence: Open jacket zippers and waist buttons while running toward the water margin."
           },
           {
             "attribute": "Heel Kicking Method",
-            "left": "Pre-Entry Landing Planning: Choose a safe landing site before entering the water (p. 54).",
-            "right": "Lower Legs to Check Depth: When landing a conscious victim, lower your legs to check the water depth if you can do so without causing the victim to lose support (p. 54)."
+            "left": "Heel Kicking Method: Kick shoes off rapidly by using opposing feet against alternate heel counters.",
+            "right": "Head High Approach: Swim with eyes above water to track victim status after rapid shedding."
           },
           {
             "attribute": "Button Release Sequence",
-            "left": "Steep Bank Rescue Support: In exceptional cases, such as in a steep-sided quarry, you may both need help from others onshore (p. 54).",
-            "right": "Identify Gradual Bottom Slopes: Natural bodies of water can be shallow for long distances from shore (p. 54)."
+            "left": "Button Release Sequence: Open jacket zippers and waist buttons while running toward the water margin.",
+            "right": "Head High Approach: Swim with eyes above water to track victim status after rapid shedding."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 9 Exemplar Workbook Entry: Rapid",
+        "title": "Lifesaving Req 9 Worked Example: Emergency Clothing Stripping Procedure",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Assisted Victim Shoreline Exit": "Conscious victims probably can remove themselves from the water once they have sure footing on the bottom or a firm hold on a ladder (p. 54).",
-          "Pre-Entry Landing Planning": "Choose a safe landing site before entering the water (p. 54).",
-          "Steep Bank Rescue Support": "In exceptional cases, such as in a steep-sided quarry, you may both need help from others onshore (p. 54).",
-          "Checking Shallow Water Footing": "When landing a conscious victim, lower your legs to check the water depth if you can do so without causing the victim to lose support (p. 54)."
+          "Phase 1 - Footwear Shedding": "Kick off boots or heavy walking shoes by leveraging opposite foot toes.",
+          "Phase 2 - Outerwear Release": "Shuck jackets and trousers smoothly down your limbs in single fluid motions.",
+          "Phase 3 - Safe Water Entry": "Jump cleanly into deep water without submerging your head or losing sight.",
+          "Phase 4 - Rapid Stroke Approach": "Swim thirty feet to the subject using head high breaststroke or crawl."
         },
-        "sample_output": "Rapid Disrobing and Clothing Tows: Conscious victims probably can remove themselves from the water once they have sure footing on the bottom or a firm hold on a ladder (p. 54).",
-        "counselor_tip": "For Lifesaving Requirement 9 (Rapid Disrobing and Clothing Tows), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 54, p. 63))."
+        "sample_output": "Shedding heavy clothing prevents water weight from dragging rescuers under during emergency swims. Rescuers kick off shoes and peel away trousers rapidly before executing safe water entries.",
+        "counselor_tip": "During the Lifesaving Requirement 9 conference on Emergency Clothing Stripping Procedure, verify that the Scout can explain rapid garment stripping and demonstrate rapid stroke approach: Swim thirty feet to the subject using head high breaststroke or crawl."
       },
       "quiz_item": {
         "scenario_prompt": "Why is a removed shirt or towel useful during a swimming rescue when no buoyant aid is available?",
@@ -2516,47 +2512,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 10: Backing Off and Waiting",
-        "right_header": "Req 10: Assess Environmental Safety",
+        "left_header": "Active Swimmer Avoidance Protocols: Core Principles",
+        "right_header": "Active Swimmer Avoidance Protocols: Field Execution",
         "left_points": [
-          "Backing Off and Waiting: If an active victim will not follow you to shore, back off and wait (p. 59).",
-          "Waiting for Victim Cooperation: The person may become more cooperative as he orshe tires (p. 59).",
-          "Safe Waiting Conditions: As long as the victim can keep his or her head above water, the water is warm, and no currents are carrying you toward danger, you are not forced to act (p. 59)."
+          "Defensive Stop Distance: Halt swimming approaches six to eight feet away from active panicking subjects.",
+          "Lead and Wait: Back away calmly while directing the subject to turn toward shallow margins."
         ],
         "right_points": [
-          "Assess Environmental Safety Factors: As long as the victim can keep his or her head above water, the water is warm, and no currents are carrying you toward danger, you are not forced to act (p. 59).",
-          "Hold Safe Standby Position: Stay close enough to place the victim in a tow if it becomes necessary (p. 59).",
-          "Prepare for Contact Support: In rare cases you may need to provide assistance to someone by supporting them without a flotation device (p. 59)."
+          "Reversal Body Positioning: Keep legs tucked forward ready to push away from sudden lunging grasps.",
+          "Verbal Control Commands: Issue sharp loud directions telling the subject to breathe and remain calm."
         ],
         "rows": [
           {
             "attribute": "Defensive Stop Distance",
-            "left": "Backing Off and Waiting: If an active victim will not follow you to shore, back off and wait (p. 59).",
-            "right": "Assess Environmental Safety Factors: As long as the victim can keep his or her head above water, the water is warm, and no currents are carrying you toward danger, you are not forced to act (p. 59)."
+            "left": "Defensive Stop Distance: Halt swimming approaches six to eight feet away from active panicking subjects.",
+            "right": "Reversal Body Positioning: Keep legs tucked forward ready to push away from sudden lunging grasps."
           },
           {
             "attribute": "Lead and Wait",
-            "left": "Waiting for Victim Cooperation: The person may become more cooperative as he orshe tires (p. 59).",
-            "right": "Hold Safe Standby Position: Stay close enough to place the victim in a tow if it becomes necessary (p. 59)."
+            "left": "Lead and Wait: Back away calmly while directing the subject to turn toward shallow margins.",
+            "right": "Verbal Control Commands: Issue sharp loud directions telling the subject to breathe and remain calm."
           },
           {
             "attribute": "Reversal Body Positioning",
-            "left": "Safe Waiting Conditions: As long as the victim can keep his or her head above water, the water is warm, and no currents are carrying you toward danger, you are not forced to act (p. 59).",
-            "right": "Prepare for Contact Support: In rare cases you may need to provide assistance to someone by supporting them without a flotation device (p. 59)."
+            "left": "Reversal Body Positioning: Keep legs tucked forward ready to push away from sudden lunging grasps.",
+            "right": "Verbal Control Commands: Issue sharp loud directions telling the subject to breathe and remain calm."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 10 Exemplar Workbook Entry: Contact",
+        "title": "Lifesaving Req 10 Worked Example: Active Swimmer Avoidance Protocols",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Backing Off and Waiting": "If an active victim will not follow you to shore, back off and wait (p. 59).",
-          "Waiting for Victim Cooperation": "The person may become more cooperative as he orshe tires (p. 59).",
-          "Safe Waiting Conditions": "As long as the victim can keep his or her head above water, the water is warm, and no currents are carrying you toward danger, you are not forced to act (p. 59).",
-          "Maintaining Close Standby Distance": "Stay close enough to place the victim in a tow if it becomes necessary (p. 59)."
+          "Phase 1 - Approach Cessation": "Stop forward swimming momentum six feet before entering the subject reach envelope.",
+          "Phase 2 - Defensive Tucking": "Tuck legs beneath your torso with feet facing forward toward the subject.",
+          "Phase 3 - Directional Prompting": "Instruct the subject firmly to rotate their body toward the safe shoreline.",
+          "Phase 4 - Escorted Follow": "Swim backward while leading the calming subject toward safety without physical contact."
         },
-        "sample_output": "Contact Avoidance and Standby Tactics: If an active victim will not follow you to shore, back off and wait (p. 59).",
-        "counselor_tip": "For Lifesaving Requirement 10 (Contact Avoidance and Standby Tactics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 59, p. 60))."
+        "sample_output": "Active subjects exhibit wild grasping reflexes that can easily overwhelm and submerge an unwary rescuer. Rescuers stop six feet away in a defensive posture, commanding the subject to turn toward safety.",
+        "counselor_tip": "During the Lifesaving Requirement 10 conference on Active Swimmer Avoidance Protocols, verify that the Scout can explain defensive stop distance and demonstrate escorted follow: Swim backward while leading the calming subject toward safety without physical contact."
       },
       "quiz_item": {
         "scenario_prompt": "When using the lead-and-wait technique for an active, uncooperative swimmer when no flotation aid is available, what should the rescuer do?",
@@ -2849,12 +2843,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 11a: Calm Swimmer Armpit Tow",
-        "right_header": "Req 11b: Exhausted Subject Cross-Chest",
+        "right_header": "Req 11b: Exhausted Subject Cross-Chest Carry",
         "left_points": [
-          "(11a) Calm Swimmer Armpit Tow: The armpit tow supports a calm swimmer who can maintain a relaxed back float. The rescuer grasps both armpits from behind and glides backward using elementary backstroke kicks."
+          "(11a) Calm Swimmer Armpit Tow: The armpit tow supports a calm swimmer who can maintain a relaxed back float. The rescuer grasps both armpits from behind and glides backward using elementary backstroke kicks.",
+          "Tired Swimmer Support: Support calm swimmers by grasping armpits while swimming on your back."
         ],
         "right_points": [
-          "(11b) Exhausted Subject Cross-Chest Carry: The cross-chest carry secures an exhausted subject tightly against the rescuer side and hip. One arm locks across the chest beneath the armpit while sidestroke kicks provide propulsion."
+          "(11b) Exhausted Subject Cross-Chest Carry: The cross-chest carry secures an exhausted subject tightly against the rescuer side and hip. One arm locks across the chest beneath the armpit while sidestroke kicks provide propulsion.",
+          "Hip Clearance Mechanics: Keep the victim hips elevated against your body to reduce hydrodynamic drag."
         ],
         "rows": [
           {
@@ -2864,25 +2860,27 @@
           },
           {
             "attribute": "Cross-Chest Securement",
-            "left": "Req 11a: Calm Swimmer Armpit Tow: The armpit tow supports a calm swimmer who can maintain a relaxed back float. The rescuer grasps both armpits from behind and glides backward using elementary backstroke kicks.",
-            "right": "Req 11b: Exhausted Subject: The cross-chest carry secures an exhausted subject tightly against the rescuer side and hip. One arm locks across the chest beneath the armpit while sidestroke kicks provide propulsion."
+            "left": "Tired Swimmer Support: Support calm swimmers by grasping armpits while swimming on your back.",
+            "right": "Hip Clearance Mechanics: Keep the victim hips elevated against your body to reduce hydrodynamic drag."
           },
           {
             "attribute": "Hip Clearance Mechanics",
-            "left": "Tired Swimmer Support: Support calm swimmers by grasping armpits while swimming on your back.",
-            "right": "Cross-Chest Securement: Lock an arm over the victim shoulder and across their upper chest."
+            "left": "Hip Clearance Mechanics: Keep the victim hips elevated against your body to reduce hydrodynamic drag.",
+            "right": "Sidestroke Power Kick: Deliver powerful scissor kicks to propel both bodies through deep water chop."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 11 Exemplar Workbook Entry: Nonequipment",
+        "title": "Lifesaving Req 11 Worked Example: Direct Contact Swimming Carries",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 11a - Calm Swimmer Armpit Tow": "The armpit tow supports a calm swimmer who can maintain a relaxed back float. The rescuer grasps both armpits from behind and glides backward using elementary backstroke kicks.",
-          "Req 11b - Exhausted Subject": "The cross-chest carry secures an exhausted subject tightly against the rescuer side and hip. One arm locks across the chest beneath the armpit while sidestroke kicks provide propulsion."
+          "Phase 1 - Subject Reassurance": "Approach the subject calmly while explaining the exact support hold you will provide.",
+          "Phase 2 - Grip Establishment": "Secure the designated armpit or cross-chest hold without compressing the victim neck.",
+          "Phase 3 - Airway Elevation": "Level the subject body horizontally while keeping their nose and mouth elevated.",
+          "Phase 4 - Shoreward Propulsion": "Execute rhythmic scissor or inverted breaststroke kicks to reach the pool edge."
         },
-        "sample_output": "Nonequipment Towing and Control Carries: However, both of those maybe ineffective in some cases (p. 30).",
-        "counselor_tip": "For Lifesaving Requirement 11 (Nonequipment Towing and Control Carries), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70))."
+        "sample_output": "Non-equipment rescues require precise contact holds to manage calm or exhausted swimmers safely. Rescuers utilize powerful scissor kicks and hip support to maintain victim airway elevation during towing.",
+        "counselor_tip": "During the Lifesaving Requirement 11 conference on Direct Contact Swimming Carries, verify that the Scout can explain tired swimmer support and demonstrate shoreward propulsion: Execute rhythmic scissor or inverted breaststroke kicks to reach the pool edge."
       },
       "quiz_item": {
         "scenario_prompt": "How does the rescuer position their holding arm during a proper cross-chest carry?",
@@ -3041,47 +3039,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 12: Suck, Tuck, and Duck",
-        "right_header": "Req 12: Refuse to Wrestle Victim",
+        "left_header": "Aquatic Grasp Escape Techniques: Core Principles",
+        "right_header": "Aquatic Grasp Escape Techniques: Field Execution",
         "left_points": [
-          "Suck, Tuck, and Duck: This action is also known as suck, tuck, and duck (p. 31).",
-          "Upward Elbow Shove Release: If you don't pull the victim under enough for him or her to let go, grasp the person's upper arms near the elbows and shove upward and away while twisting (p. 31).",
-          "Avoiding Surface Wrestling: Do not struggle with him or her or try to place the person in a hold (p. 31)."
+          "Submersion Release Principle: Submerge immediately when grabbed because drowning victims instinctively pull upward toward air.",
+          "Wrist Hold Counter: Rotate your wrist against the victim thumb line to break their grip."
         ],
         "right_points": [
-          "Refuse to Wrestle Victim: Do not struggle with him or her or try to place the person in a hold (p. 31).",
-          "Swim Clear and Reassess: Back off and wait while you review your options and the person's condition (p. 31).",
-          "Anticipate Panicked Grasps: Be aware that active victims may try to stay afloat by grasping would-be rescuers (p. 31)."
+          "Front Head Escape: Push the subject chin upward while submerging to slide out downward.",
+          "Rear Hold Defense: Turn your head sideways, tuck your chin, and slide downward out underneath."
         ],
         "rows": [
           {
             "attribute": "Submersion Release Principle",
-            "left": "Suck, Tuck, and Duck: This action is also known as suck, tuck, and duck (p. 31).",
-            "right": "Refuse to Wrestle Victim: Do not struggle with him or her or try to place the person in a hold (p. 31)."
+            "left": "Submersion Release Principle: Submerge immediately when grabbed because drowning victims instinctively pull upward toward air.",
+            "right": "Front Head Escape: Push the subject chin upward while submerging to slide out downward."
           },
           {
             "attribute": "Wrist Hold Counter",
-            "left": "Upward Elbow Shove Release: If you don't pull the victim under enough for him or her to let go, grasp the person's upper arms near the elbows and shove upward and away while twisting (p. 31).",
-            "right": "Swim Clear and Reassess: Back off and wait while you review your options and the person's condition (p. 31)."
+            "left": "Wrist Hold Counter: Rotate your wrist against the victim thumb line to break their grip.",
+            "right": "Rear Hold Defense: Turn your head sideways, tuck your chin, and slide downward out underneath."
           },
           {
             "attribute": "Front Head Escape",
-            "left": "Avoiding Surface Wrestling: Do not struggle with him or her or try to place the person in a hold (p. 31).",
-            "right": "Anticipate Panicked Grasps: Be aware that active victims may try to stay afloat by grasping would-be rescuers (p. 31)."
+            "left": "Front Head Escape: Push the subject chin upward while submerging to slide out downward.",
+            "right": "Rear Hold Defense: Turn your head sideways, tuck your chin, and slide downward out underneath."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 12 Exemplar Workbook Entry: Escaping",
+        "title": "Lifesaving Req 12 Worked Example: Aquatic Grasp Escape Techniques",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Suck, Tuck, and Duck": "This action is also known as suck, tuck, and duck (p. 31).",
-          "Upward Elbow Shove Release": "If you don't pull the victim under enough for him or her to let go, grasp the person's upper arms near the elbows and shove upward and away while twisting (p. 31).",
-          "Avoiding Surface Wrestling": "Do not struggle with him or her or try to place the person in a hold (p. 31).",
-          "Retreating to Safe Distance": "Back off and wait while you review your options and the person's condition (p. 31)."
+          "Phase 1 - Immediate Submersion": "Inhale sharply, tuck your chin tight, and submerge beneath the water surface.",
+          "Phase 2 - Mechanical Break": "Leverage your hands against the victim thumbs or chin to break contact.",
+          "Phase 3 - Downward Extraction": "Push up against the subject while sliding your body down and clear.",
+          "Phase 4 - Defensive Re-emergence": "Surface six feet away in a defensive posture facing the conscious subject."
         },
-        "sample_output": "Escaping Wrist and Head Holds: This action is also known as suck, tuck, and duck (p. 31).",
-        "counselor_tip": "For Lifesaving Requirement 12 (Escaping Wrist and Head Holds), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 62))."
+        "sample_output": "Drowning victims reflexively climb rescuers to keep their own airways above the water surface. Rescuers break panic grips by submerging, pushing against the victim thumbs, and ducking downward.",
+        "counselor_tip": "During the Lifesaving Requirement 12 conference on Aquatic Grasp Escape Techniques, verify that the Scout can explain submersion release principle and demonstrate defensive re-emergence: Surface six feet away in a defensive posture facing the conscious subject."
       },
       "quiz_item": {
         "scenario_prompt": "What does the phrase \"suck, tuck, and duck\" describe when escaping a panicked victim's front or rear head hold?",
@@ -3436,13 +3432,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 13a: Unconscious Subject Equipment",
+        "left_header": "Req 13a: Unconscious Subject Equipment Assist",
         "right_header": "Req 13b: Front Approach Wrist Tow",
         "left_points": [
-          "(13a) Unconscious Subject Equipment Assist: Buoyant aids provide rapid airway elevation without exhausting the rescuer during transport. The rescuer wedges the tube beneath the subject shoulders to keep water away from breathing passages."
+          "(13a) Unconscious Subject Equipment Assist: Buoyant aids provide rapid airway elevation without exhausting the rescuer during transport. The rescuer wedges the tube beneath the subject shoulders to keep water away from breathing passages.",
+          "Responsiveness Check Splash: Splash water onto the subject face from safe distance to verify unresponsiveness."
         ],
         "right_points": [
-          "(13b) Front Approach Wrist Tow: The front approach requires grabbing the subject opposite wrist and pulling firmly forward. This rotational force flips the subject from facedown to faceup while towing begins."
+          "(13b) Front Approach Wrist Tow: The front approach requires grabbing the subject opposite wrist and pulling firmly forward. This rotational force flips the subject from facedown to faceup while towing begins.",
+          "(13c) Rear Approach Armpit Tow: Rescuers slide both hands beneath the subject armpits from behind the shoulders. Grasping the shoulders allows smooth towing while the rescuer kicks backwards toward land."
         ],
         "rows": [
           {
@@ -3452,26 +3450,27 @@
           },
           {
             "attribute": "Equipment Tube Roll",
-            "left": "Req 13a: Unconscious Subject: Buoyant aids provide rapid airway elevation without exhausting the rescuer during transport. The rescuer wedges the tube beneath the subject shoulders to keep water away from breathing passages.",
-            "right": "Req 13b: Front Approach Wrist Tow: The front approach requires grabbing the subject opposite wrist and pulling firmly forward. This rotational force flips the subject from facedown to faceup while towing begins."
+            "left": "Responsiveness Check Splash: Splash water onto the subject face from safe distance to verify unresponsiveness.",
+            "right": "(13c) Rear Approach Armpit Tow: Rescuers slide both hands beneath the subject armpits from behind the shoulders. Grasping the shoulders allows smooth towing while the rescuer kicks backwards toward land."
           },
           {
             "attribute": "Wrist Tow Rotation",
-            "left": "Req 13c: Rear Approach Armpit Tow: Rescuers slide both hands beneath the subject armpits from behind the shoulders. Grasping the shoulders allows smooth towing while the rescuer kicks backwards toward land.",
-            "right": "Equipment Tube Roll: Place the rescue tube under the subject chest to raise their airway."
+            "left": "Wrist Tow Rotation: Grasp the wrist, pull forward, and rotate the subject onto their back.",
+            "right": "Rear Armpit Towing: Grasp both armpits from behind while pulling the floating body toward shore."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 13 Exemplar Workbook Entry: Unconscious",
+        "title": "Lifesaving Req 13 Worked Example: Unconscious Victim Surface Rescues",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 13a - Unconscious Subject": "Buoyant aids provide rapid airway elevation without exhausting the rescuer during transport. The rescuer wedges the tube beneath the subject shoulders to keep water away from breathing passages.",
-          "Req 13b - Front Approach Wrist Tow": "The front approach requires grabbing the subject opposite wrist and pulling firmly forward. This rotational force flips the subject from facedown to faceup while towing begins.",
-          "Req 13c - Rear Approach Armpit Tow": "Rescuers slide both hands beneath the subject armpits from behind the shoulders. Grasping the shoulders allows smooth towing while the rescuer kicks backwards toward land."
+          "Phase 1 - Rapid Assessment": "Approach quickly and splash water across the subject face to test responsiveness.",
+          "Phase 2 - Position Rotation": "Reach across the floating body to roll the subject into faceup alignment.",
+          "Phase 3 - Airway Elevation": "Support the neck and chin to maintain open mouth exposure above surface.",
+          "Phase 4 - Shoreward Extraction": "Tow the floating unconscious body rapidly toward waiting emergency personnel on shore."
         },
-        "sample_output": "Unconscious Surface Victim Rescues: The person may become more cooperative as he orshe tires (p. 60).",
-        "counselor_tip": "For Lifesaving Requirement 13 (Unconscious Surface Victim Rescues), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61))."
+        "sample_output": "Unconscious victims require immediate surface approaches that prioritize rapid airway clearance and breathing verification. Rescuers roll facedown victims faceup using wrist grips, armpit holds, or buoyant equipment.",
+        "counselor_tip": "During the Lifesaving Requirement 13 conference on Unconscious Victim Surface Rescues, verify that the Scout can explain responsiveness check splash and demonstrate shoreward extraction: Tow the floating unconscious body rapidly toward waiting emergency personnel on shore."
       },
       "quiz_item": {
         "scenario_prompt": "Why must a rescuer speak to and splash water on a motionless surface subject before touching them?",
@@ -3780,10 +3779,12 @@
         "left_header": "Req 14a: Feetfirst Surface Dive Recovery",
         "right_header": "Req 14b: Headfirst Surface Dive Recovery",
         "left_points": [
-          "(14a) Feetfirst Surface Dive Recovery: The feetfirst surface dive begins with a strong upward breaststroke kick to lift shoulders. As momentum stops, the rescuer sweeps arms upward, driving the body straight down."
+          "(14a) Feetfirst Surface Dive Recovery: The feetfirst surface dive begins with a strong upward breaststroke kick to lift shoulders. As momentum stops, the rescuer sweeps arms upward, driving the body straight down.",
+          "Feetfirst Search Safety: Descend feetfirst when water depth or bottom obstruction hazards remain unknown."
         ],
         "right_points": [
-          "(14b) Headfirst Surface Dive Recovery: Headfirst surface dives utilize tuck or pike positions to direct body weight downward. The rescuer pulls downward with arms and kicks forcefully toward bottom targets."
+          "(14b) Headfirst Surface Dive Recovery: Headfirst surface dives utilize tuck or pike positions to direct body weight downward. The rescuer pulls downward with arms and kicks forcefully toward bottom targets.",
+          "Bottom Weight Retrieval: Grasp submerged objects with one hand while pushing upward with powerful kicks."
         ],
         "rows": [
           {
@@ -3793,25 +3794,27 @@
           },
           {
             "attribute": "Headfirst Dive Depth",
-            "left": "Req 14a: Feetfirst Surface Dive: The feetfirst surface dive begins with a strong upward breaststroke kick to lift shoulders. As momentum stops, the rescuer sweeps arms upward, driving the body straight down.",
-            "right": "Req 14b: Headfirst Surface Dive: Headfirst surface dives utilize tuck or pike positions to direct body weight downward. The rescuer pulls downward with arms and kicks forcefully toward bottom targets."
+            "left": "Feetfirst Search Safety: Descend feetfirst when water depth or bottom obstruction hazards remain unknown.",
+            "right": "Bottom Weight Retrieval: Grasp submerged objects with one hand while pushing upward with powerful kicks."
           },
           {
             "attribute": "Bottom Weight Retrieval",
-            "left": "Feetfirst Search Safety: Descend feetfirst when water depth or bottom obstruction hazards remain unknown.",
-            "right": "Headfirst Dive Depth: Pike or tuck headfirst dives provide rapid descent to deep pool bottoms."
+            "left": "Bottom Weight Retrieval: Grasp submerged objects with one hand while pushing upward with powerful kicks.",
+            "right": "Vertical Ascent Posture: Keep one arm extended upward toward the surface while ascending from depth."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 14 Exemplar Workbook Entry: Surface Dives",
+        "title": "Lifesaving Req 14 Worked Example: Submerged Subject Dive Recovery",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 14a - Feetfirst Surface Dive": "The feetfirst surface dive begins with a strong upward breaststroke kick to lift shoulders. As momentum stops, the rescuer sweeps arms upward, driving the body straight down.",
-          "Req 14b - Headfirst Surface Dive": "Headfirst surface dives utilize tuck or pike positions to direct body weight downward. The rescuer pulls downward with arms and kicks forcefully toward bottom targets."
+          "Phase 1 - Dive Execution": "Perform a crisp feetfirst or headfirst surface dive directly above the target.",
+          "Phase 2 - Descent Stabilization": "Equalize inner ear pressure while swimming down toward the ten pound weight.",
+          "Phase 3 - Weight Securement": "Grasp the bottom weight securely against your hip using your dominant hand.",
+          "Phase 4 - Overhead Ascent": "Push forcefully off the bottom with free arm extended upward toward surface."
         },
-        "sample_output": "Surface Dives and Submerged Recovery: It may be some time before they return to a normal state of mind and behavior (p. 31).",
-        "counselor_tip": "For Lifesaving Requirement 14 (Surface Dives and Submerged Recovery), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72))."
+        "sample_output": "Submerged subjects require rapid recovery using vertical feetfirst or headfirst surface dives. Rescuers keep one hand extended overhead while ascending to protect against surface collisions.",
+        "counselor_tip": "During the Lifesaving Requirement 14 conference on Submerged Subject Dive Recovery, verify that the Scout can explain feetfirst search safety and demonstrate overhead ascent: Push forcefully off the bottom with free arm extended upward toward surface."
       },
       "quiz_item": {
         "scenario_prompt": "When should a rescuer choose a feetfirst surface dive instead of a headfirst surface dive to search for a submerged victim?",
@@ -4187,13 +4190,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 15a: Spinal Injury Symptom",
+        "left_header": "Req 15a: Spinal Injury Symptom Recognition",
         "right_header": "Req 15b: Faceup Subject Spinal Support",
         "left_points": [
-          "(15a) Spinal Injury Symptom Recognition: Cervical trauma results from diving into shallow pools, boating collisions, or heavy surf impacts. Rescuers monitor for tingling, loss of motor control, and midline vertebral tenderness."
+          "(15a) Spinal Injury Symptom Recognition: Cervical trauma results from diving into shallow pools, boating collisions, or heavy surf impacts. Rescuers monitor for tingling, loss of motor control, and midline vertebral tenderness.",
+          "Spinal Trauma Indicators: Suspect spinal injury whenever swimmers dive into shallow water or strike obstacles."
         ],
         "right_points": [
-          "(15b) Faceup Subject Spinal Support: Rescuers maintain continuous head and neck alignment for faceup subjects in standing depth water. Squeezing the upper arms against the ears immobilizes the cervical vertebrae reliably."
+          "(15b) Faceup Subject Spinal Support: Rescuers maintain continuous head and neck alignment for faceup subjects in standing depth water. Squeezing the upper arms against the ears immobilizes the cervical vertebrae reliably.",
+          "(15c) Facedown Spinal Subject Rotation: Facedown victims must be rolled into a faceup position to clear the airway. The rescuer glides the subject forward while rotating their body under an extended arm."
         ],
         "rows": [
           {
@@ -4203,26 +4208,27 @@
           },
           {
             "attribute": "Head Splint Support",
-            "left": "Req 15a: Spinal Injury Symptom: Cervical trauma results from diving into shallow pools, boating collisions, or heavy surf impacts. Rescuers monitor for tingling, loss of motor control, and midline vertebral tenderness.",
-            "right": "Req 15b: Faceup Subject Spinal: Rescuers maintain continuous head and neck alignment for faceup subjects in standing depth water. Squeezing the upper arms against the ears immobilizes the cervical vertebrae reliably."
+            "left": "Spinal Trauma Indicators: Suspect spinal injury whenever swimmers dive into shallow water or strike obstacles.",
+            "right": "(15c) Facedown Spinal Subject Rotation: Facedown victims must be rolled into a faceup position to clear the airway. The rescuer glides the subject forward while rotating their body under an extended arm."
           },
           {
             "attribute": "In-Line Body Rotation",
-            "left": "Req 15c: Facedown Spinal Subject: Facedown victims must be rolled into a faceup position to clear the airway. The rescuer glides the subject forward while rotating their body under an extended arm.",
-            "right": "Head Splint Support: Clamp the subject upper arms firmly against their ears to stabilize cervical vertebrae."
+            "left": "In-Line Body Rotation: Roll the subject slowly toward the surface while keeping torso and neck aligned.",
+            "right": "Calm Shallow Stabilization: Maintain continuous manual head splint stabilization until dedicated backboard teams arrive."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 15 Exemplar Workbook Entry: Aquatic",
+        "title": "Lifesaving Req 15 Worked Example: Spinal Injury Water Management",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 15a - Spinal Injury Symptom": "Cervical trauma results from diving into shallow pools, boating collisions, or heavy surf impacts. Rescuers monitor for tingling, loss of motor control, and midline vertebral tenderness.",
-          "Req 15b - Faceup Subject Spinal": "Rescuers maintain continuous head and neck alignment for faceup subjects in standing depth water. Squeezing the upper arms against the ears immobilizes the cervical vertebrae reliably.",
-          "Req 15c - Facedown Spinal Subject": "Facedown victims must be rolled into a faceup position to clear the airway. The rescuer glides the subject forward while rotating their body under an extended arm."
+          "Phase 1 - Gentle Approach": "Wade carefully toward the subject without generating disruptive surface wake or waves.",
+          "Phase 2 - Arm Splint Placement": "Grasp the subject upper arms and press them firmly against their ears.",
+          "Phase 3 - Rotational Roll": "Turn the facedown subject into a faceup posture while maintaining firm arm clamping.",
+          "Phase 4 - Airway Maintenance": "Hold the stabilized subject mouth above water while waiting for backboard arrival."
         },
-        "sample_output": "Aquatic Spinal Injury Management: In lakes and rivers, diving injuries are caused by misjudging the depth of the water or hitting rocks or trees unseen from the surface (p. 85).",
-        "counselor_tip": "For Lifesaving Requirement 15 (Aquatic Spinal Injury Management), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87))."
+        "sample_output": "Suspected spinal injuries require immediate in-line stabilization using the head splint technique in standing water. Rescuers clamp the victim upper arms against their head to prevent cervical movement.",
+        "counselor_tip": "During the Lifesaving Requirement 15 conference on Spinal Injury Water Management, verify that the Scout can explain spinal trauma indicators and demonstrate airway maintenance: Hold the stabilized subject mouth above water while waiting for backboard arrival."
       },
       "quiz_item": {
         "scenario_prompt": "How should a rescuer roll a facedown victim with a suspected spinal injury onto their back in chest-deep water?",
@@ -4515,13 +4521,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 16a: Resuscitation Need Clinical",
-        "right_header": "Req 16b: Mannequin CPR Skill",
+        "left_header": "Req 16a: Resuscitation Need Clinical Assessment",
+        "right_header": "Req 16b: Mannequin CPR Skill Demonstration",
         "left_points": [
-          "(16a) Resuscitation Need Clinical Assessment: Rescuers identify cardiac and respiratory arrest by checking responsiveness and observing chest rise. Gasping or absent respirations mandate immediate activation of emergency medical services and CPR."
+          "(16a) Resuscitation Need Clinical Assessment: Rescuers identify cardiac and respiratory arrest by checking responsiveness and observing chest rise. Gasping or absent respirations mandate immediate activation of emergency medical services and CPR.",
+          "Agonal Breathing Recognition: Infrequent gasping breaths represent cardiac arrest and require immediate cardiopulmonary resuscitation."
         ],
         "right_points": [
-          "(16b) Mannequin CPR Skill Demonstration: Scouts demonstrate thirty compressions and two breaths on training mannequins under certified guidance. Proper hand placement and complete chest recoil ensure adequate coronary perfusion pressure."
+          "(16b) Mannequin CPR Skill Demonstration: Scouts demonstrate thirty compressions and two breaths on training mannequins under certified guidance. Proper hand placement and complete chest recoil ensure adequate coronary perfusion pressure.",
+          "Airway Opening Mechanics: Tilt head and lift chin to open airways before delivering rescue breaths."
         ],
         "rows": [
           {
@@ -4531,25 +4539,27 @@
           },
           {
             "attribute": "Compression Depth Standard",
-            "left": "Req 16a: Resuscitation Need Clinical: Rescuers identify cardiac and respiratory arrest by checking responsiveness and observing chest rise. Gasping or absent respirations mandate immediate activation of emergency medical services and CPR.",
-            "right": "Req 16b: Mannequin CPR Skill: Scouts demonstrate thirty compressions and two breaths on training mannequins under certified guidance. Proper hand placement and complete chest recoil ensure adequate coronary perfusion pressure."
+            "left": "Agonal Breathing Recognition: Infrequent gasping breaths represent cardiac arrest and require immediate cardiopulmonary resuscitation.",
+            "right": "Airway Opening Mechanics: Tilt head and lift chin to open airways before delivering rescue breaths."
           },
           {
             "attribute": "Airway Opening Mechanics",
-            "left": "Agonal Breathing Recognition: Infrequent gasping breaths represent cardiac arrest and require immediate cardiopulmonary resuscitation.",
-            "right": "Compression Depth Standard: Deliver compressions two inches deep at one hundred twenty beats per minute."
+            "left": "Airway Opening Mechanics: Tilt head and lift chin to open airways before delivering rescue breaths.",
+            "right": "AED Pad Application: Attach automated external defibrillator pads to bare dry skin without interrupting compressions."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 16 Exemplar Workbook Entry: Rescue",
+        "title": "Lifesaving Req 16 Worked Example: Resuscitation and CPR Protocols",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 16a - Resuscitation Need Clinical": "Rescuers identify cardiac and respiratory arrest by checking responsiveness and observing chest rise. Gasping or absent respirations mandate immediate activation of emergency medical services and CPR.",
-          "Req 16b - Mannequin CPR Skill": "Scouts demonstrate thirty compressions and two breaths on training mannequins under certified guidance. Proper hand placement and complete chest recoil ensure adequate coronary perfusion pressure."
+          "Phase 1 - Response Verification": "Tap shoulders and shout loudly to determine consciousness and normal breathing status.",
+          "Phase 2 - Help Summoning": "Direct a specific bystander to call emergency services and retrieve an AED.",
+          "Phase 3 - CPR Delivery": "Deliver cycles of thirty rapid chest compressions followed by two gentle rescue breaths.",
+          "Phase 4 - Defibrillator Operation": "Power on the AED, attach pads, and follow voice prompts to deliver shocks."
         },
-        "sample_output": "Rescue Breathing and CPR Procedures: Resuscitation and First Aid for Water Rescue It is important to provide ventilations as soon as possible to a person who is not breathing (p. 79).",
-        "counselor_tip": "For Lifesaving Requirement 16 (Rescue Breathing and CPR Procedures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83))."
+        "sample_output": "Cardiopulmonary resuscitation provides artificial circulation and ventilation for nonbreathing victims pulled from water. Rescuers deliver high quality chest compressions combined with effective barrier mask rescue breaths.",
+        "counselor_tip": "During the Lifesaving Requirement 16 conference on Resuscitation and CPR Protocols, verify that the Scout can explain agonal breathing recognition and demonstrate defibrillator operation: Power on the AED, attach pads, and follow voice prompts to deliver shocks."
       },
       "quiz_item": {
         "scenario_prompt": "Why must an unresponsive drowning victim generally be removed from the water as quickly as possible before beginning full CPR?",
@@ -4701,47 +4711,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 17: Heat Exhaustion Warning Signs",
-        "right_header": "Req 17: Move Victim to Shade",
+        "left_header": "Aquatic Illness and Injury Management: Core Principles",
+        "right_header": "Aquatic Illness and Injury Management: Field Execution",
         "left_points": [
-          "Heat Exhaustion Warning Signs: Symptoms of heat exhaustion may include dizziness, faintness, nausea, and a severe lack of energy (p. 82).",
-          "Pale Skin and Heavy Sweating: A person with heat exhaustion also may develop a headache, experience muscle cramps, have a rapid pulse, look pale, and be sweating heavily (p. 82).",
-          "Shade and Cooling Treatment: To treat heat exhaustion, have the victim liedown in a cool, shady spot (p. 82)."
+          "Hypothermia Rewarming Protocol: Remove wet clothing and insulate core body areas with dry warm blankets.",
+          "Dehydration Prevention Discipline: Drink water frequently during aquatic outings to prevent debilitating muscle cramps."
         ],
         "right_points": [
-          "Move Victim to Shade: To treat heat exhaustion, have the victim liedown in a cool, shady spot (p. 82).",
-          "Monitor Core Temperature Rise: This extreme, life-threatening heat reaction occurs when dehydration (water loss) has caused a very high body temperature (p. 82).",
-          "Recognize Cooling System Failure: The victim's cooling system has started to fail, and the person's core temperature is at a dangerously high level (p. 82)."
+          "Heat Exhaustion Recognition: Move pale dizzy victims with clammy skin into cool shaded rest environments.",
+          "Hyperventilation Blackout Hazard: Avoid repeated deep breathing before underwater swims to prevent sudden blackout."
         ],
         "rows": [
           {
             "attribute": "Hypothermia Rewarming Protocol",
-            "left": "Heat Exhaustion Warning Signs: Symptoms of heat exhaustion may include dizziness, faintness, nausea, and a severe lack of energy (p. 82).",
-            "right": "Move Victim to Shade: To treat heat exhaustion, have the victim liedown in a cool, shady spot (p. 82)."
+            "left": "Hypothermia Rewarming Protocol: Remove wet clothing and insulate core body areas with dry warm blankets.",
+            "right": "Heat Exhaustion Recognition: Move pale dizzy victims with clammy skin into cool shaded rest environments."
           },
           {
             "attribute": "Dehydration Prevention Discipline",
-            "left": "Pale Skin and Heavy Sweating: A person with heat exhaustion also may develop a headache, experience muscle cramps, have a rapid pulse, look pale, and be sweating heavily (p. 82).",
-            "right": "Monitor Core Temperature Rise: This extreme, life-threatening heat reaction occurs when dehydration (water loss) has caused a very high body temperature (p. 82)."
+            "left": "Dehydration Prevention Discipline: Drink water frequently during aquatic outings to prevent debilitating muscle cramps.",
+            "right": "Hyperventilation Blackout Hazard: Avoid repeated deep breathing before underwater swims to prevent sudden blackout."
           },
           {
             "attribute": "Heat Exhaustion Recognition",
-            "left": "Shade and Cooling Treatment: To treat heat exhaustion, have the victim liedown in a cool, shady spot (p. 82).",
-            "right": "Recognize Cooling System Failure: The victim's cooling system has started to fail, and the person's core temperature is at a dangerously high level (p. 82)."
+            "left": "Heat Exhaustion Recognition: Move pale dizzy victims with clammy skin into cool shaded rest environments.",
+            "right": "Hyperventilation Blackout Hazard: Avoid repeated deep breathing before underwater swims to prevent sudden blackout."
           }
         ]
       },
       "worked_example": {
-        "title": "Lifesaving Req 17 Exemplar Workbook Entry: Aquatics",
+        "title": "Lifesaving Req 17 Worked Example: Aquatic Illness and Injury Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Heat Exhaustion Warning Signs": "Symptoms of heat exhaustion may include dizziness, faintness, nausea, and a severe lack of energy (p. 82).",
-          "Pale Skin and Heavy Sweating": "A person with heat exhaustion also may develop a headache, experience muscle cramps, have a rapid pulse, look pale, and be sweating heavily (p. 82).",
-          "Shade and Cooling Treatment": "To treat heat exhaustion, have the victim liedown in a cool, shady spot (p. 82).",
-          "Life-Threatening Heatstroke Onset": "This extreme, life-threatening heat reaction occurs when dehydration (water loss) has caused a very high body temperature (p. 82)."
+          "Phase 1 - Hazard Assessment": "Identify physical signs of shivering, pale skin, cramping, or severe heat exhaustion.",
+          "Phase 2 - Environment Removal": "Remove the casualty from cold water, hot sun, or marine sting hazards.",
+          "Phase 3 - Supportive Care": "Provide dry clothing, shade, electrolyte fluids, or marine sting rinses as appropriate.",
+          "Phase 4 - Medical Escalation": "Monitor airway stability and transport deteriorating patients to professional emergency facilities."
         },
-        "sample_output": "Aquatics First Aid and Illnesses: Symptoms of heat exhaustion may include dizziness, faintness, nausea, and a severe lack of energy (p. 82).",
-        "counselor_tip": "For Lifesaving Requirement 17 (Aquatics First Aid and Illnesses), verify the Scout's own observations and specific pamphlet details (Official Scouting America Lifesaving Merit Badge Pamphlet (p. 82, p. 83))."
+        "sample_output": "Aquatic activities expose participants to hypothermia, dehydration, severe heat illness, and hazardous marine stings. Prompt recognition, passive rewarming, oral hydration, and avoidance of hyperventilation prevent life threatening emergencies.",
+        "counselor_tip": "During the Lifesaving Requirement 17 conference on Aquatic Illness and Injury Management, verify that the Scout can explain hypothermia rewarming protocol and demonstrate medical escalation: Monitor airway stability and transport deteriorating patients to professional emergency facilities."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do the symptoms of life-threatening heatstroke differ from those of heat exhaustion?",

@@ -275,13 +275,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Stinging Insect Hazard",
+        "left_header": "Req 1a: Stinging Insect Hazard Assessment",
         "right_header": "Req 1b: Insect Bite Medical Treatment",
         "left_points": [
-          "(1a) Stinging Insect Hazard Assessment: Identifying subterranean and aerial nests prevents catastrophic defensive swarming during field expeditions. Maintaining situational awareness allows observers to retreat safely before defensive chemical pheromones recruit nestmates."
+          "(1a) Stinging Insect Hazard Assessment: Identifying subterranean and aerial nests prevents catastrophic defensive swarming during field expeditions. Maintaining situational awareness allows observers to retreat safely before defensive chemical pheromones recruit nestmates.",
+          "Venom Apparatus: Female worker bees inject venom through a modified egg laying ovipositor stinger structure."
         ],
         "right_points": [
-          "(1b) Insect Bite Medical Treatment: Localized reactions require cleansing, cold compresses, and antihistamines to reduce acute inflammation. Systemic anaphylactic emergencies demand instantaneous administration of prescribed autoinjector epinephrine and emergency evacuation."
+          "(1b) Insect Bite Medical Treatment: Localized reactions require cleansing, cold compresses, and antihistamines to reduce acute inflammation. Systemic anaphylactic emergencies demand instantaneous administration of prescribed autoinjector epinephrine and emergency evacuation.",
+          "Anaphylaxis Symptoms: Systemic reactions cause respiratory constriction, facial hives, drop in blood pressure, and shock."
         ],
         "rows": [
           {
@@ -291,25 +293,27 @@
           },
           {
             "attribute": "Stinger Removal",
-            "left": "Req 1a: Stinging Insect Hazard: Identifying subterranean and aerial nests prevents catastrophic defensive swarming during field expeditions. Maintaining situational awareness allows observers to retreat safely before defensive chemical pheromones recruit nestmates.",
-            "right": "Req 1b: Insect Bite Medical: Localized reactions require cleansing, cold compresses, and antihistamines to reduce acute inflammation. Systemic anaphylactic emergencies demand instantaneous administration of prescribed autoinjector epinephrine and emergency evacuation."
+            "left": "Venom Apparatus: Female worker bees inject venom through a modified egg laying ovipositor stinger structure.",
+            "right": "Anaphylaxis Symptoms: Systemic reactions cause respiratory constriction, facial hives, drop in blood pressure, and shock."
           },
           {
             "attribute": "Anaphylaxis Symptoms",
-            "left": "Venom Apparatus: Female worker bees inject venom through a modified egg laying ovipositor stinger structure.",
-            "right": "Stinger Removal: Scraping honeybee stingers immediately with fingernails prevents additional venom injection into tissue."
+            "left": "Anaphylaxis Symptoms: Systemic reactions cause respiratory constriction, facial hives, drop in blood pressure, and shock.",
+            "right": "Colony Defenses: Disturbed yellowjacket ground nests trigger aggressive mass swarm attacks against nearby intruders."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 1 Exemplar Workbook Entry: Field Safety",
+        "title": "Insect Study Req 1 Worked Example: Hymenoptera Safety and Envenomation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Stinging Insect Hazard": "Identifying subterranean and aerial nests prevents catastrophic defensive swarming during field expeditions. Maintaining situational awareness allows observers to retreat safely before defensive chemical pheromones recruit nestmates.",
-          "Req 1b - Insect Bite Medical Treatment": "Localized reactions require cleansing, cold compresses, and antihistamines to reduce acute inflammation. Systemic anaphylactic emergencies demand instantaneous administration of prescribed autoinjector epinephrine and emergency evacuation."
+          "Phase 1 - Area Survey": "Survey the immediate brush perimeter for active stinging insect nests before entry.",
+          "Phase 2 - PPE Check": "Don light colored clothing, high socks, and protective leather gloves for surveying.",
+          "Phase 3 - Evacuation Protocol": "Walk backward smoothly without flailing arms when aggressive hornets emerge from nests.",
+          "Phase 4 - Wound Care": "Wash sting sites thoroughly with soap, applying ice packs to reduce swelling."
         },
-        "sample_output": "Field Safety and Bite Prevention: You can start by dressing appropriately, for instance, jeans, boots, gloves, and a long-sleeved shirt for protection (p. 36).",
-        "counselor_tip": "For Insect Study Requirement 1 (Field Safety and Bite Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 36, p. 72))."
+        "sample_output": "Scouts studying social insects must recognize stinging species and prepare for rapid emergency field interventions. Fieldwork protocol requires carrying injectable epinephrine for diagnosed scouts and monitoring bite sites for infection.",
+        "counselor_tip": "During the Insect Study Requirement 1 conference on Hymenoptera Safety and Envenomation, verify that the Scout can explain venom apparatus and demonstrate wound care: Wash sting sites thoroughly with soap, applying ice packs to reduce swelling."
       },
       "quiz_item": {
         "scenario_prompt": "While observing insects in the field for Insect Study Requirement 1, what morphological traits distinguish true insects (Class Insecta) from spiders and ticks (Class Arachnida), and how should you treat a honeybee sting?",
@@ -703,7 +707,7 @@
       "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Use blunt forceps rather than fingers when handling delicate specimens or potentially biting arthropods.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -778,7 +782,7 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Arthropod Distinguishing",
+        "left_header": "Req 2a: Arthropod Distinguishing Diagnostic Characteristics",
         "right_header": "Req 2c: Insect Anatomical Body Parts",
         "left_points": [
           "(2a) Arthropod Distinguishing Diagnostic Characteristics: Insects differ from vertebrates by possessing an external cuticle composed of chitin rather than internal bones. Their open circulatory system uses hemolymph instead of closed hemoglobin blood vessels.",
@@ -801,22 +805,22 @@
           },
           {
             "attribute": "Arachnid Comparison",
-            "left": "Req 2a: Arthropod Distinguishing: Insects differ from vertebrates by possessing an external cuticle composed of chitin rather than internal bones. Their open circulatory system uses hemolymph instead of closed hemoglobin blood vessels.",
-            "right": "Req 2b: Arachnid and Myriapod: Comparing bodily segmentation separates insects from millipedes which bear dozens of legs across repeated trunk rings. Spiders fuse the head and thorax into a cephalothorax while bearing eight legs and chelicerae."
+            "left": "Arachnid Comparison: Spiders exhibit two body sections, eight walking legs, and lack sensory antennal structures.",
+            "right": "Myriapod Anatomy: Millipedes feature segmented diplosegments bearing two distinct pairs of ambulatory limbs per segment."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 2 Exemplar Workbook Entry: Insect",
+        "title": "Insect Study Req 2 Worked Example: Insect Morphology and Taxonomy",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Arthropod Distinguishing": "Insects differ from vertebrates by possessing an external cuticle composed of chitin rather than internal bones. Their open circulatory system uses hemolymph instead of closed hemoglobin blood vessels.",
-          "Req 2b - Arachnid and Myriapod": "Comparing bodily segmentation separates insects from millipedes which bear dozens of legs across repeated trunk rings. Spiders fuse the head and thorax into a cephalothorax while bearing eight legs and chelicerae.",
-          "Req 2c - Insect Anatomical Body Parts": "The head houses the compound eyes, ocelli, and mouthparts while the thorax coordinates movement through attached wings and legs. The abdomen contains digestive organs, excretory Malpighian tubules, and reproductive genitalia.",
-          "Req 2d - Major Insect Taxonomic Orders": "Entomologists classify insects by wing architecture, mouthparts, and developmental transformations across orders like Coleoptera, Lepidoptera, and Diptera. Hymenoptera, Odonata, and Hemiptera exhibit distinct venation and specialized adaptations."
+          "Phase 1 - Specimen Placement": "Position the preserved arthropod specimen carefully beneath a ten power stereoscopic field loupe.",
+          "Phase 2 - Tagmata Count": "Identify boundaries between the cephalic capsule, three thoracic segments, and the posterior abdomen.",
+          "Phase 3 - Limb Examination": "Count the total number of articulated walking limbs emerging from the ventral thorax.",
+          "Phase 4 - Key Classification": "Match observed mouthparts and wing veining patterns against dichotomous insect taxonomic family keys."
         },
-        "sample_output": "Insect Anatomy and Major Orders: The damsel fly depends on sight to guide it; the cecropia, flying in darkness, follows its feelers along faint odor trails through the night (p. 16).",
-        "counselor_tip": "For Insect Study Requirement 2 (Insect Anatomy and Major Orders), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23))."
+        "sample_output": "True insects possess a chitinous exoskeleton divided into three distinct tagmata consisting of head, thorax, and abdomen. Six articulated legs and sensory antennae differentiate class Insecta from other arthropod classes like Arachnida and Diplopoda.",
+        "counselor_tip": "During the Insect Study Requirement 2 conference on Insect Morphology and Taxonomy, verify that the Scout can explain tagmata division and demonstrate key classification: Match observed mouthparts and wing veining patterns against dichotomous insect taxonomic family keys."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do the sensory organs of a daytime damsel fly differ from those of a nocturnal cecropia moth?",
@@ -1060,7 +1064,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never rear protected or endangered caterpillars, and wash hands thoroughly after handling poisonous milkweed sap.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 60)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 60)",
       "syllabus_bucket": "In-Class Concept",
@@ -1129,10 +1133,12 @@
         "left_header": "Req 3a: Comparative Life Cycle Analysis",
         "right_header": "Req 3b: Larval Rearing and Metamorphosis",
         "left_points": [
-          "(3a) Comparative Life Cycle Analysis: Butterflies exhibit four life stages where caterpillars feed voraciously before restructuring within a pupa. Grasshoppers emerge as nymphs that molt through several instars directly into winged adults without pupating."
+          "(3a) Comparative Life Cycle Analysis: Butterflies exhibit four life stages where caterpillars feed voraciously before restructuring within a pupa. Grasshoppers emerge as nymphs that molt through several instars directly into winged adults without pupating.",
+          "Complete Metamorphosis: Lepidoptera pass through egg, feeding larva, stationary pupa, and winged reproductive adult life stages."
         ],
         "right_points": [
-          "(3b) Larval Rearing and Metamorphosis: Rearing non-endangered caterpillars requires providing fresh, pesticide-free host leaves and sufficient humidity until pupation occurs. Adult emergence requires vertical perches where the imago pumps hemolymph into damp wing veins."
+          "(3b) Larval Rearing and Metamorphosis: Rearing non-endangered caterpillars requires providing fresh, pesticide-free host leaves and sufficient humidity until pupation occurs. Adult emergence requires vertical perches where the imago pumps hemolymph into damp wing veins.",
+          "Pupal Histolysis: During chrysalis formation larval tissues dissolve into imaginal discs that construct adult organs."
         ],
         "rows": [
           {
@@ -1142,25 +1148,27 @@
           },
           {
             "attribute": "Incomplete Metamorphosis",
-            "left": "Req 3a: Comparative Life Cycle: Butterflies exhibit four life stages where caterpillars feed voraciously before restructuring within a pupa. Grasshoppers emerge as nymphs that molt through several instars directly into winged adults without pupating.",
-            "right": "Req 3b: Larval Rearing: Rearing non-endangered caterpillars requires providing fresh, pesticide-free host leaves and sufficient humidity until pupation occurs. Adult emergence requires vertical perches where the imago pumps hemolymph into damp wing veins."
+            "left": "Complete Metamorphosis: Lepidoptera pass through egg, feeding larva, stationary pupa, and winged reproductive adult life stages.",
+            "right": "Pupal Histolysis: During chrysalis formation larval tissues dissolve into imaginal discs that construct adult organs."
           },
           {
             "attribute": "Pupal Histolysis",
-            "left": "Complete Metamorphosis: Lepidoptera pass through egg, feeding larva, stationary pupa, and winged reproductive adult life stages.",
-            "right": "Incomplete Metamorphosis: Orthoptera nymphs hatch directly from eggs resembling adults, lacking functional wings and mature genitalia."
+            "left": "Pupal Histolysis: During chrysalis formation larval tissues dissolve into imaginal discs that construct adult organs.",
+            "right": "Host Plants: Caterpillars feed strictly on specific host flora required for healthy larval nutrition."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 3 Exemplar Workbook Entry: Insect",
+        "title": "Insect Study Req 3 Worked Example: Insect Development and Metamorphosis",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Comparative Life Cycle": "Butterflies exhibit four life stages where caterpillars feed voraciously before restructuring within a pupa. Grasshoppers emerge as nymphs that molt through several instars directly into winged adults without pupating.",
-          "Req 3b - Larval Rearing": "Rearing non-endangered caterpillars requires providing fresh, pesticide-free host leaves and sufficient humidity until pupation occurs. Adult emergence requires vertical perches where the imago pumps hemolymph into damp wing veins."
+          "Phase 1 - Habitat Setup": "Prepare a ventilated mesh rearing cage lined with damp paper towels for moisture.",
+          "Phase 2 - Food Collection": "Gather fresh host plant leaves daily, keeping stems in sealed water reservoirs.",
+          "Phase 3 - Larval Monitoring": "Record molting instar stages and larval frass volume in an observational field notebook.",
+          "Phase 4 - Imago Emergence": "Provide vertical twigs so newly emerged adult butterflies can expand their wings."
         },
-        "sample_output": "Insect Metamorphosis and Life Cycles: The most accurate observation of an insect in nature comes from watching it undisturbed (p. 35).",
-        "counselor_tip": "For Insect Study Requirement 3 (Insect Metamorphosis and Life Cycles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 60))."
+        "sample_output": "Holometabolous insects undergo four distinct developmental phases including egg, larva, pupa, and reproductive adult. Hemimetabolous insects undergo incomplete metamorphosis where hatched nymphs resemble miniature adults that molt repeatedly without a pupal stage.",
+        "counselor_tip": "During the Insect Study Requirement 3 conference on Insect Development and Metamorphosis, verify that the Scout can explain complete metamorphosis and demonstrate imago emergence: Provide vertical twigs so newly emerged adult butterflies can expand their wings."
       },
       "quiz_item": {
         "scenario_prompt": "What is the main difference between the life cycle of a butterfly and the life cycle of a grasshopper?",
@@ -1578,7 +1586,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Watch for venomous snakes, thorny underbrush, and blacklegged ticks when overturning decayed forest logs.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)",
       "syllabus_bucket": "In-Class Concept",
@@ -1676,22 +1684,22 @@
           },
           {
             "attribute": "Binomial Nomenclature",
-            "left": "Req 4a: Ethical Outdoor Field Ethics: Applying the Outdoor Code and Leave No Trace principles protects fragile insect habitats from destructive sampling. Scouts leave natural objects undisturbed, prevent vegetation trampling, and respect wildlife microhabitats.",
-            "right": "Req 4b: Live Habitat Species Survey: Observing twenty live insect species across four taxonomic orders highlights anatomical variation across terrestrial and aquatic ecosystems. Searching riparian zones, meadows, and tree canopies reveals specialized niche adaptations."
+            "left": "Binomial Nomenclature: Scientific scrapbooks record italicized genus and species names alongside recognized standard common names.",
+            "right": "Ecological Roles: Insects function as primary consumers, detritivores, hyperparasitoids, predators, and essential cross pollinators."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 4 Exemplar Workbook Entry: Field",
+        "title": "Insect Study Req 4 Worked Example: Field Observation and Scrapbook Analysis",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Ethical Outdoor Field Ethics": "Applying the Outdoor Code and Leave No Trace principles protects fragile insect habitats from destructive sampling. Scouts leave natural objects undisturbed, prevent vegetation trampling, and respect wildlife microhabitats.",
-          "Req 4b - Live Habitat Species Survey": "Observing twenty live insect species across four taxonomic orders highlights anatomical variation across terrestrial and aquatic ecosystems. Searching riparian zones, meadows, and tree canopies reveals specialized niche adaptations.",
-          "Req 4c - Taxonomic Scrapbook": "Constructing an organized scrapbook integrates field photography, anatomical sketches, and binomial scientific naming conventions. Detailed records track observation dates, microhabitat parameters, and geographical locations.",
-          "Req 4d - Ecosystem Functional Role": "Evaluating eight selected species highlights critical ecosystem services including pollination, predation, herbivory, and organic decomposition. Understanding food web connections clarifies how insect populations maintain healthy ecological stability."
+          "Phase 1 - Habitat Exploration": "Search varied microhabitats including tree bark, flowering borders, leaf litter, and stream edges.",
+          "Phase 2 - Photographic Documentation": "Capture clear macro photos showing diagnostic dorsal and lateral anatomical features of specimens.",
+          "Phase 3 - Scrapbook Cataloging": "Mount images into a field album alongside common, family, and binomial scientific names.",
+          "Phase 4 - Niche Assignment": "Document whether each chosen species functions as a decomposer, pollinator, herbivore, or predator."
         },
-        "sample_output": "Field Observation and Insect Scrapbook: If you use a three-ring binder and devote one scrapbook page to each insect you observe, you can add to the book as you observe more insects (p. 35).",
-        "counselor_tip": "For Insect Study Requirement 4 (Field Observation and Insect Scrapbook), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47))."
+        "sample_output": "Scouts record live insects in their natural microhabitats while upholding ethical outdoor conservation standards. Compiling documentation of twenty species across four orders demonstrates biological biodiversity and ecosystem functional roles.",
+        "counselor_tip": "During the Insect Study Requirement 4 conference on Field Observation and Scrapbook Analysis, verify that the Scout can explain outdoor code and demonstrate niche assignment: Document whether each chosen species functions as a decomposer, pollinator, herbivore, or predator."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Insect Study pamphlet recommend sketching insects and recording details like host plants in your scrapbook?",
@@ -2097,7 +2105,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure formicarium vents are tightly sealed with fine stainless mesh to prevent invasive ant escapes indoors.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
       "syllabus_bucket": "In-Class Concept",
@@ -2168,13 +2176,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Eusocial Versus Solitary",
-        "right_header": "Req 5b: Formicarium Colony Architecture",
+        "left_header": "Req 5a: Eusocial Versus Solitary Behaviors",
+        "right_header": "Req 5b: Formicarium Colony Architecture Observation",
         "left_points": [
-          "(5a) Eusocial Versus Solitary Behaviors: Eusocial insects cooperate to raise offspring while solitary insects lay eggs and abandon them without parental care. Solitary bees and wasps provision individual cells and live without reproductive caste specialization."
+          "(5a) Eusocial Versus Solitary Behaviors: Eusocial insects cooperate to raise offspring while solitary insects lay eggs and abandon them without parental care. Solitary bees and wasps provision individual cells and live without reproductive caste specialization.",
+          "Eusociality Traits: True social insects share cooperative nursery care, overlapping generations, and reproductive caste differentiation."
         ],
         "right_points": [
-          "(5b) Formicarium Colony Architecture Observation: Observing an artificial ant nest reveals the morphological division between the queen, minor workers, and soldiers. Scouts identify specific subterranean chambers dedicated to nursery brood, seed granaries, and cemetery refuse piles."
+          "(5b) Formicarium Colony Architecture Observation: Observing an artificial ant nest reveals the morphological division between the queen, minor workers, and soldiers. Scouts identify specific subterranean chambers dedicated to nursery brood, seed granaries, and cemetery refuse piles.",
+          "Formicarium Architecture: Ant nests maintain separate specialized chambers for brood rearing, seed storage, and refuse disposal."
         ],
         "rows": [
           {
@@ -2184,25 +2194,27 @@
           },
           {
             "attribute": "Colony Castes",
-            "left": "Req 5a: Eusocial Versus Solitary: Eusocial insects cooperate to raise offspring while solitary insects lay eggs and abandon them without parental care. Solitary bees and wasps provision individual cells and live without reproductive caste specialization.",
-            "right": "Req 5b: Formicarium Colony: Observing an artificial ant nest reveals the morphological division between the queen, minor workers, and soldiers. Scouts identify specific subterranean chambers dedicated to nursery brood, seed granaries, and cemetery refuse piles."
+            "left": "Eusociality Traits: True social insects share cooperative nursery care, overlapping generations, and reproductive caste differentiation.",
+            "right": "Formicarium Architecture: Ant nests maintain separate specialized chambers for brood rearing, seed storage, and refuse disposal."
           },
           {
             "attribute": "Formicarium Architecture",
-            "left": "Eusociality Traits: True social insects share cooperative nursery care, overlapping generations, and reproductive caste differentiation.",
-            "right": "Colony Castes: Queens lay eggs while sterile female workers manage foraging, chamber excavation, and defense."
+            "left": "Formicarium Architecture: Ant nests maintain separate specialized chambers for brood rearing, seed storage, and refuse disposal.",
+            "right": "Pheromone Trails: Worker ants deposit volatile hydrocarbon scent paths to guide nestmates toward newly discovered food."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 5 Exemplar Workbook Entry: Social",
+        "title": "Insect Study Req 5 Worked Example: Social Insect Colony Dynamics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Eusocial Versus Solitary": "Eusocial insects cooperate to raise offspring while solitary insects lay eggs and abandon them without parental care. Solitary bees and wasps provision individual cells and live without reproductive caste specialization.",
-          "Req 5b - Formicarium Colony": "Observing an artificial ant nest reveals the morphological division between the queen, minor workers, and soldiers. Scouts identify specific subterranean chambers dedicated to nursery brood, seed granaries, and cemetery refuse piles."
+          "Phase 1 - Farm Setup": "Assemble an escape proof acrylic formicarium with moistened plaster and sand nesting substrate.",
+          "Phase 2 - Queen Location": "Locate the enlarged dealate queen surrounded by attendant workers in the brood chamber.",
+          "Phase 3 - Chamber Mapping": "Sketch the spatial arrangement of nursery galleries, food granaries, and waste disposal middens.",
+          "Phase 4 - Colony Maintenance": "Administer sugar water and protein droplets while maintaining proper nesting humidity gradients."
         },
-        "sample_output": "Social Insect Colonies and Castes: If it turns outyou are allergic to bee stings, you should choose another option (p. 67).",
-        "counselor_tip": "For Insect Study Requirement 5 (Social Insect Colonies and Castes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75))."
+        "sample_output": "Eusocial insects display overlapping adult generations, cooperative brood care, and a reproductive division of labor into distinct castes. Observing an artificial formicarium illuminates architectural specialization, queen care, and worker foraging behavior.",
+        "counselor_tip": "During the Insect Study Requirement 5 conference on Social Insect Colony Dynamics, verify that the Scout can explain eusociality traits and demonstrate colony maintenance: Administer sugar water and protein droplets while maintaining proper nesting humidity gradients."
       },
       "quiz_item": {
         "scenario_prompt": "What mandatory safety step must you take before choosing to observe a live honeybee hive with a beekeeper for Requirement 5?",
@@ -2437,7 +2449,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Avoid stepping into dense aquatic vegetation or deep wetland mud when sampling shoreline insect larvae.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)",
       "syllabus_bucket": "In-Class Concept",
@@ -2504,12 +2516,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 6a: Trophic Food Web Linkages",
-        "right_header": "Req 6b: Insect Plant Pollination",
+        "right_header": "Req 6b: Insect Plant Pollination Services",
         "left_points": [
-          "(6a) Trophic Food Web Linkages: Insects occupy multiple consumer levels, serving as primary herbivores, fierce predators, and scavengers. Their vast biomass sustains higher trophic predators including amphibians, reptiles, freshwater fish, and insectivorous mammals."
+          "(6a) Trophic Food Web Linkages: Insects occupy multiple consumer levels, serving as primary herbivores, fierce predators, and scavengers. Their vast biomass sustains higher trophic predators including amphibians, reptiles, freshwater fish, and insectivorous mammals.",
+          "Trophic Foundations: Insects convert botanical cellulose into high protein nutrition supporting freshwater fisheries and songbirds."
         ],
         "right_points": [
-          "(6b) Insect Plant Pollination Services: Bees, flies, beetles, and butterflies transport pollen between blossoms, enabling sexual fertilization and seed set in angiosperms. Without insect cross-pollination, fruit production and wild plant regeneration would collapse dramatically."
+          "(6b) Insect Plant Pollination Services: Bees, flies, beetles, and butterflies transport pollen between blossoms, enabling sexual fertilization and seed set in angiosperms. Without insect cross-pollination, fruit production and wild plant regeneration would collapse dramatically.",
+          "Decomposer Guilds: Carrion beetles and wood roaches break down organic debris into nutrient rich humic soils."
         ],
         "rows": [
           {
@@ -2519,25 +2533,27 @@
           },
           {
             "attribute": "Pollination Mutualism",
-            "left": "Req 6a: Trophic Food Web Linkages: Insects occupy multiple consumer levels, serving as primary herbivores, fierce predators, and scavengers. Their vast biomass sustains higher trophic predators including amphibians, reptiles, freshwater fish, and insectivorous mammals.",
-            "right": "Req 6b: Insect Plant Pollination: Bees, flies, beetles, and butterflies transport pollen between blossoms, enabling sexual fertilization and seed set in angiosperms. Without insect cross-pollination, fruit production and wild plant regeneration would collapse dramatically."
+            "left": "Trophic Foundations: Insects convert botanical cellulose into high protein nutrition supporting freshwater fisheries and songbirds.",
+            "right": "Decomposer Guilds: Carrion beetles and wood roaches break down organic debris into nutrient rich humic soils."
           },
           {
             "attribute": "Decomposer Guilds",
-            "left": "Trophic Foundations: Insects convert botanical cellulose into high protein nutrition supporting freshwater fisheries and songbirds.",
-            "right": "Pollination Mutualism: Foraging insects transfer pollen grains between flower stigmas while collecting nectar carbohydrates and proteins."
+            "left": "Decomposer Guilds: Carrion beetles and wood roaches break down organic debris into nutrient rich humic soils.",
+            "right": "Predatory Regulation: Mantids, dragonflies, and lady beetles regulate herbivorous pest outbreaks across terrestrial biomes."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 6 Exemplar Workbook Entry: Food Webs",
+        "title": "Insect Study Req 6 Worked Example: Ecosystem Energetics and Pollination",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Trophic Food Web Linkages": "Insects occupy multiple consumer levels, serving as primary herbivores, fierce predators, and scavengers. Their vast biomass sustains higher trophic predators including amphibians, reptiles, freshwater fish, and insectivorous mammals.",
-          "Req 6b - Insect Plant Pollination": "Bees, flies, beetles, and butterflies transport pollen between blossoms, enabling sexual fertilization and seed set in angiosperms. Without insect cross-pollination, fruit production and wild plant regeneration would collapse dramatically."
+          "Phase 1 - Flower Observation": "Watch a patch of native wildflowers for fifteen minutes, recording visiting pollinator orders.",
+          "Phase 2 - Pollen Tracking": "Examine anthers and stigmas with a hand lens to locate transferred pollen dust.",
+          "Phase 3 - Web Diagramming": "Construct a food web diagram connecting local caterpillars, warblers, and predatory raptor species.",
+          "Phase 4 - Impact Analysis": "Quantify how decline in insect biomass cascades upward into local river trout populations."
         },
-        "sample_output": "Food Webs and Plant Pollination: Some people say insects make tasty snacks, like thesemealworm larvae (p. 46).",
-        "counselor_tip": "For Insect Study Requirement 6 (Food Webs and Plant Pollination), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80))."
+        "sample_output": "Insects form fundamental trophic links by converting plant biomass into accessible protein for fish, birds, and mammals. Furthermore, entomophilous mutualisms drive flowering plant reproduction and agricultural crop yields through flower pollination.",
+        "counselor_tip": "During the Insect Study Requirement 6 conference on Ecosystem Energetics and Pollination, verify that the Scout can explain trophic foundations and demonstrate impact analysis: Quantify how decline in insect biomass cascades upward into local river trout populations."
       },
       "quiz_item": {
         "scenario_prompt": "Beyond pollinating plants and feeding birds and fish, how do insects contribute to human science and global nutrition?",
@@ -2788,7 +2804,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear protective veiled suits when inspecting apiaries, and avoid handling synthetic pesticide concentrates.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 75, p. 90)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 75, p. 90)",
       "syllabus_bucket": "In-Class Concept",
@@ -2854,13 +2870,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Honeybee Symbiosis and Colony",
-        "right_header": "Req 7b: Ecological Pest Management",
+        "left_header": "Req 7a: Honeybee Symbiosis and Colony Collapse",
+        "right_header": "Req 7b: Ecological Pest Management Alternatives",
         "left_points": [
-          "(7a) Honeybee Symbiosis and Colony Collapse: Bees provide agricultural pollination while humans construct protective hives and supply supplemental winter nutrition. Colony collapse disorder stems from multifaceted stresses including Varroa mites, poor forage nutrition, pathogens, and systemic pesticides."
+          "(7a) Honeybee Symbiosis and Colony Collapse: Bees provide agricultural pollination while humans construct protective hives and supply supplemental winter nutrition. Colony collapse disorder stems from multifaceted stresses including Varroa mites, poor forage nutrition, pathogens, and systemic pesticides.",
+          "Commercial Pollination: Migratory beekeepers transport millions of honeybee hives across country orchards to pollinate crops."
         ],
         "right_points": [
-          "(7b) Ecological Pest Management Alternatives: Integrated pest management utilizes biological control agents, crop rotation, and mating disruption pheromone traps to limit pest outbreaks. These cultural and biological methods protect waterways and prevent pest resistance while reducing reliance on chemical insecticides."
+          "(7b) Ecological Pest Management Alternatives: Integrated pest management utilizes biological control agents, crop rotation, and mating disruption pheromone traps to limit pest outbreaks. These cultural and biological methods protect waterways and prevent pest resistance while reducing reliance on chemical insecticides.",
+          "Parasitic Mites: Varroa destructor mites vector lethal RNA viruses that debilitate honeybee immune function and flight."
         ],
         "rows": [
           {
@@ -2870,25 +2888,27 @@
           },
           {
             "attribute": "Colony Collapse",
-            "left": "Req 7a: Honeybee Symbiosis: Bees provide agricultural pollination while humans construct protective hives and supply supplemental winter nutrition. Colony collapse disorder stems from multifaceted stresses including Varroa mites, poor forage nutrition, pathogens, and systemic pesticides.",
-            "right": "Req 7b: Ecological Pest Management: Integrated pest management utilizes biological control agents, crop rotation, and mating disruption pheromone traps to limit pest outbreaks. These cultural and biological methods protect waterways and prevent pest resistance while reducing reliance on chemical insecticides."
+            "left": "Commercial Pollination: Migratory beekeepers transport millions of honeybee hives across country orchards to pollinate crops.",
+            "right": "Parasitic Mites: Varroa destructor mites vector lethal RNA viruses that debilitate honeybee immune function and flight."
           },
           {
             "attribute": "Parasitic Mites",
-            "left": "Commercial Pollination: Migratory beekeepers transport millions of honeybee hives across country orchards to pollinate crops.",
-            "right": "Colony Collapse: Colony collapse disorder causes worker bees to abandon the hive despite plentiful stored honey."
+            "left": "Parasitic Mites: Varroa destructor mites vector lethal RNA viruses that debilitate honeybee immune function and flight.",
+            "right": "Biological Controls: Beneficial predators like lacewings suppress aphid infestations without leaving persistent toxic chemical residues."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 7 Exemplar Workbook Entry: Pollinator",
+        "title": "Insect Study Req 7 Worked Example: Apiculture and Integrated Pest Management",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 7a - Honeybee Symbiosis and Colony": "Bees provide agricultural pollination while humans construct protective hives and supply supplemental winter nutrition. Colony collapse disorder stems from multifaceted stresses including Varroa mites, poor forage nutrition, pathogens, and systemic pesticides.",
-          "Req 7b - Ecological Pest Management": "Integrated pest management utilizes biological control agents, crop rotation, and mating disruption pheromone traps to limit pest outbreaks. These cultural and biological methods protect waterways and prevent pest resistance while reducing reliance on chemical insecticides."
+          "Phase 1 - Disorder Research": "Investigate peer reviewed entomology bulletins documenting Varroa mites, pathogens, and systemic pesticide interactions.",
+          "Phase 2 - Crop Assessment": "List three major regional food crops that depend entirely upon managed insect pollination.",
+          "Phase 3 - Control Comparison": "Compare predatory beneficial insects, mating disruption pheromones, and crop rotation against chemical sprays.",
+          "Phase 4 - Cost Benefit Evaluation": "Chart financial costs, non target mortality risks, and pest resistance timelines for management methods."
         },
-        "sample_output": "Pollinator Health and Pest Management: The work of entomologists can prevent the spread of disease, help farmers grow crops, save endangered species, and help solve crimes (p. 75).",
-        "counselor_tip": "For Insect Study Requirement 7 (Pollinator Health and Pest Management), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 75, p. 90))."
+        "sample_output": "Human agriculture relies heavily on managed European honeybee hives for cross pollination of fruits, nuts, and vegetables. Addressing challenges like colony collapse disorder requires adopting integrated pest management strategies that replace chemical sprays with biological controls.",
+        "counselor_tip": "During the Insect Study Requirement 7 conference on Apiculture and Integrated Pest Management, verify that the Scout can explain commercial pollination and demonstrate cost benefit evaluation: Chart financial costs, non target mortality risks, and pest resistance timelines for management methods."
       },
       "quiz_item": {
         "scenario_prompt": "Which group of strategies offers effective alternatives to chemical insecticides for preventing crop injury and yield loss?",
@@ -3127,7 +3147,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use eye protection and gardening gloves when planting prickly native vegetation or weeding waystation gardens.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 22, p. 62)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 22, p. 62)",
       "syllabus_bucket": "In-Class Concept",
@@ -3193,13 +3213,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: Monarch Butterfly Migration",
-        "right_header": "Req 8b: Endangered Insect Species",
+        "left_header": "Req 8a: Monarch Butterfly Migration Biology",
+        "right_header": "Req 8b: Endangered Insect Species Conservation",
         "left_points": [
-          "(8a) Monarch Butterfly Migration Biology: Eastern monarchs undertake an extraordinary international migration between Canadian summer breeding grounds and central Mexican mountain forests. Scouts support their survival by establishing pollinator waystations filled with native milkweeds and autumnal nectar sources."
+          "(8a) Monarch Butterfly Migration Biology: Eastern monarchs undertake an extraordinary international migration between Canadian summer breeding grounds and central Mexican mountain forests. Scouts support their survival by establishing pollinator waystations filled with native milkweeds and autumnal nectar sources.",
+          "Multigenerational Migration: Monarch butterflies require four successive generations to complete their annual migration journey north."
         ],
         "right_points": [
-          "(8b) Endangered Insect Species Conservation: Human activities have driven rare insects like the American burying beetle and Mitchell's satyr butterfly toward extinction. Protecting contiguous wetlands, managing native grasslands, and eliminating light pollution provide vital refuges for vanishing species."
+          "(8b) Endangered Insect Species Conservation: Human activities have driven rare insects like the American burying beetle and Mitchell's satyr butterfly toward extinction. Protecting contiguous wetlands, managing native grasslands, and eliminating light pollution provide vital refuges for vanishing species.",
+          "Endangered Insects: The rusty patched bumblebee faces extinction due to pathogen spillover and grassland habitat degradation."
         ],
         "rows": [
           {
@@ -3209,25 +3231,27 @@
           },
           {
             "attribute": "Overwintering Microclimates",
-            "left": "Req 8a: Monarch Butterfly Migration: Eastern monarchs undertake an extraordinary international migration between Canadian summer breeding grounds and central Mexican mountain forests. Scouts support their survival by establishing pollinator waystations filled with native milkweeds and autumnal nectar sources.",
-            "right": "Req 8b: Endangered Insect Species: Human activities have driven rare insects like the American burying beetle and Mitchell's satyr butterfly toward extinction. Protecting contiguous wetlands, managing native grasslands, and eliminating light pollution provide vital refuges for vanishing species."
+            "left": "Multigenerational Migration: Monarch butterflies require four successive generations to complete their annual migration journey north.",
+            "right": "Endangered Insects: The rusty patched bumblebee faces extinction due to pathogen spillover and grassland habitat degradation."
           },
           {
             "attribute": "Endangered Insects",
-            "left": "Multigenerational Migration: Monarch butterflies require four successive generations to complete their annual migration journey north.",
-            "right": "Overwintering Microclimates: Supergeneration monarchs roost together in high altitude Mexican oyamel fir forests for winter."
+            "left": "Endangered Insects: The rusty patched bumblebee faces extinction due to pathogen spillover and grassland habitat degradation.",
+            "right": "Habitat Restoration: Planting pesticide free native milkweed provides essential larval food for declining monarch populations."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 8 Exemplar Workbook Entry: Insect",
+        "title": "Insect Study Req 8 Worked Example: Insect Conservation and Monarch Migration",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Monarch Butterfly Migration": "Eastern monarchs undertake an extraordinary international migration between Canadian summer breeding grounds and central Mexican mountain forests. Scouts support their survival by establishing pollinator waystations filled with native milkweeds and autumnal nectar sources.",
-          "Req 8b - Endangered Insect Species": "Human activities have driven rare insects like the American burying beetle and Mitchell's satyr butterfly toward extinction. Protecting contiguous wetlands, managing native grasslands, and eliminating light pollution provide vital refuges for vanishing species."
+          "Phase 1 - Flyway Mapping": "Map the spring and fall monarch migration flyways spanning Canada, the United States, and Mexico.",
+          "Phase 2 - Threat Identification": "Identify key survival threats including logging in overwintering forests and herbicide depletion of milkweed.",
+          "Phase 3 - Species Case Study": "Research a federally protected insect species using the official United States Fish and Wildlife database.",
+          "Phase 4 - Conservation Action": "Plant a registered native wildflower and milkweed waystation in a local community green space."
         },
-        "sample_output": "Insect Migration and Species Conservation: It hangs from the leaf for several days to about three weeks, depending on the weather (p. 22).",
-        "counselor_tip": "For Insect Study Requirement 8 (Insect Migration and Species Conservation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 22, p. 62))."
+        "sample_output": "Migratory and endangered insects face severe survival pressures from habitat loss, invasive species, climate change, and widespread pesticide use. Establishing native nectar corridors, planting milkweed, and supporting habitat conservation preserves threatened insect populations.",
+        "counselor_tip": "During the Insect Study Requirement 8 conference on Insect Conservation and Monarch Migration, verify that the Scout can explain multigenerational migration and demonstrate conservation action: Plant a registered native wildflower and milkweed waystation in a local community green space."
       },
       "quiz_item": {
         "scenario_prompt": "What happens inside a monarch butterfly's green and gold chrysalis just before the adult butterfly emerges?",
@@ -3465,7 +3489,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Adhere to laboratory biosafety level protocols when culturing insect vectors or handling diagnostic chemical reagents.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 91, p. 93)",
       "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 91, p. 93)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -3535,13 +3559,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Entomological Career",
-        "right_header": "Req 9b: Vocational Qualifications",
+        "left_header": "Req 9a: Entomological Career Identification",
+        "right_header": "Req 9b: Vocational Qualifications and Education",
         "left_points": [
-          "(9a) Entomological Career Identification: Entomology offers diverse career paths in agricultural pest consulting, municipal vector disease control, and academic biodiversity research. Each profession leverages insect physiology and behavioral ecology to solve real-world problems."
+          "(9a) Entomological Career Identification: Entomology offers diverse career paths in agricultural pest consulting, municipal vector disease control, and academic biodiversity research. Each profession leverages insect physiology and behavioral ecology to solve real-world problems.",
+          "Agricultural Entomologist: Crop consultants monitor beneficial predators and pest populations to protect orchard and farm yields."
         ],
         "right_points": [
-          "(9b) Vocational Qualifications and Education: Becoming a professional research entomologist requires obtaining a bachelor of science degree in biology or entomology. Advanced roles often demand graduate degrees, board certification by the Entomological Society of America, and published research."
+          "(9b) Vocational Qualifications and Education: Becoming a professional research entomologist requires obtaining a bachelor of science degree in biology or entomology. Advanced roles often demand graduate degrees, board certification by the Entomological Society of America, and published research.",
+          "Public Health Vector: Vector control specialists trap and analyze mosquitoes to prevent outbreaks of West Nile virus."
         ],
         "rows": [
           {
@@ -3551,25 +3577,27 @@
           },
           {
             "attribute": "Forensic Entomologist",
-            "left": "Req 9a: Entomological Career: Entomology offers diverse career paths in agricultural pest consulting, municipal vector disease control, and academic biodiversity research. Each profession leverages insect physiology and behavioral ecology to solve real-world problems.",
-            "right": "Req 9b: Vocational Qualifications: Becoming a professional research entomologist requires obtaining a bachelor of science degree in biology or entomology. Advanced roles often demand graduate degrees, board certification by the Entomological Society of America, and published research."
+            "left": "Agricultural Entomologist: Crop consultants monitor beneficial predators and pest populations to protect orchard and farm yields.",
+            "right": "Public Health Vector: Vector control specialists trap and analyze mosquitoes to prevent outbreaks of West Nile virus."
           },
           {
             "attribute": "Public Health Vector",
-            "left": "Agricultural Entomologist: Crop consultants monitor beneficial predators and pest populations to protect orchard and farm yields.",
-            "right": "Forensic Entomologist: Legal death investigators study blowfly colonization rates on tissue to calculate postmortem intervals."
+            "left": "Public Health Vector: Vector control specialists trap and analyze mosquitoes to prevent outbreaks of West Nile virus.",
+            "right": "Educational Credentials: Professional entomologists earn degrees in biology, completing coursework in taxonomy, physiology, and ecology."
           }
         ]
       },
       "worked_example": {
-        "title": "Insect Study Req 9 Exemplar Workbook Entry: Entomology",
+        "title": "Insect Study Req 9 Worked Example: Entomological Careers and Vocational Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Entomological Career": "Entomology offers diverse career paths in agricultural pest consulting, municipal vector disease control, and academic biodiversity research. Each profession leverages insect physiology and behavioral ecology to solve real-world problems.",
-          "Req 9b - Vocational Qualifications": "Becoming a professional research entomologist requires obtaining a bachelor of science degree in biology or entomology. Advanced roles often demand graduate degrees, board certification by the Entomological Society of America, and published research."
+          "Phase 1 - Career Exploration": "Identify three distinct career tracks applying insect biology in agriculture, healthcare, or crime investigation.",
+          "Phase 2 - Role Selection": "Select one specific entomological vocation to investigate educational requirements, licensing, and day-to-day duties.",
+          "Phase 3 - Academic Pathway": "Research undergraduate biological degree programs, required chemistry courses, and graduate entomology research options.",
+          "Phase 4 - Career Interview": "Conduct an informational interview with a university entomologist or municipal vector control officer."
         },
-        "sample_output": "Entomology Careers and Insect Hobbies: Forensic entomologists help in police investigations by examining insects that inhabit decomposing remains (p. 91).",
-        "counselor_tip": "For Insect Study Requirement 9 (Entomology Careers and Insect Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Insect Study Merit Badge Pamphlet (p. 91, p. 93))."
+        "sample_output": "Entomologists apply insect science across agricultural food production, public health vector management, and forensic legal investigations. Pursuing these careers requires university coursework in biological sciences, laboratory certification, and extensive field internship experience.",
+        "counselor_tip": "During the Insect Study Requirement 9 conference on Entomological Careers and Vocational Pathways, verify that the Scout can explain agricultural entomologist and demonstrate career interview: Conduct an informational interview with a university entomologist or municipal vector control officer."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do forensic entomologists assist law enforcement investigators at a crime scene?",

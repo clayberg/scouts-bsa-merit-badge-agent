@@ -214,7 +214,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain pedestrian awareness on active sidewalks, avoid trespassing onto private parcels, and remain behind marked public boundaries during field observations.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -283,19 +283,17 @@
         "Step 3 - Elevation Sketching: Draw the chosen building profile showing accurate roof pitch and window proportions.",
         "Step 4 - Historical Research: Document how a major historic landmark altered municipal engineering and public life."
       ],
-      "gear_checklist": [
-        "Official Architecture Merit Badge: Tour Your Community.",
-        "Field notebook, verification log sheet, and demonstration materials for Tour Your Community.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Neighborhood Architectural Field",
-        "right_header": "Req 1b: Historic Landmark Societal",
+        "left_header": "Req 1a: Neighborhood Architectural Field Survey",
+        "right_header": "Req 1b: Historic Landmark Societal Evaluation",
         "left_points": [
-          "(1a) Neighborhood Architectural Field Survey: Scouts walk local streets to inventory civic, residential, and commercial building typologies. Measured visual notes highlight distinctive masonry patterns, rooflines, and era-specific ornamental flourishes."
+          "(1a) Neighborhood Architectural Field Survey: Scouts walk local streets to inventory civic, residential, and commercial building typologies. Measured visual notes highlight distinctive masonry patterns, rooflines, and era-specific ornamental flourishes.",
+          "Historic Style Identification: Exterior moldings and window pediments reveal specific construction eras in regional neighborhoods."
         ],
         "right_points": [
-          "(1b) Historic Landmark Societal Evaluation: Evaluating landmark structures demonstrates how master builders solved major spatial and civic challenges. Scouts investigate archival drawings, engineering innovations, and the societal shifts sparked by monumental construction."
+          "(1b) Historic Landmark Societal Evaluation: Evaluating landmark structures demonstrates how master builders solved major spatial and civic challenges. Scouts investigate archival drawings, engineering innovations, and the societal shifts sparked by monumental construction.",
+          "Field Sketching Method: Proportional grid guidelines help draft accurate elevations before recording fine decorative details."
         ],
         "rows": [
           {
@@ -305,25 +303,27 @@
           },
           {
             "attribute": "Structural Load Distribution",
-            "left": "Req 1a: Neighborhood Architectural: Scouts walk local streets to inventory civic, residential, and commercial building typologies. Measured visual notes highlight distinctive masonry patterns, rooflines, and era-specific ornamental flourishes.",
-            "right": "Req 1b: Historic Landmark Societal: Evaluating landmark structures demonstrates how master builders solved major spatial and civic challenges. Scouts investigate archival drawings, engineering innovations, and the societal shifts sparked by monumental construction."
+            "left": "Historic Style Identification: Exterior moldings and window pediments reveal specific construction eras in regional neighborhoods.",
+            "right": "Field Sketching Method: Proportional grid guidelines help draft accurate elevations before recording fine decorative details."
           },
           {
             "attribute": "Field Sketching Method",
-            "left": "Historic Style Identification: Exterior moldings and window pediments reveal specific construction eras in regional neighborhoods.",
-            "right": "Structural Load Distribution: Heavy stone arches redirect gravity forces downward through stout supporting masonry piers."
+            "left": "Field Sketching Method: Proportional grid guidelines help draft accurate elevations before recording fine decorative details.",
+            "right": "Aqueduct Civil Infrastructure: Durable Roman water channels transformed continental urban settlement density and public health."
           }
         ]
       },
       "worked_example": {
-        "title": "Architecture Req 1 Exemplar Workbook Entry",
+        "title": "Architecture Req 1 Worked Example: Community Architectural Style Survey",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 1a - Neighborhood Architectural": "Scouts walk local streets to inventory civic, residential, and commercial building typologies. Measured visual notes highlight distinctive masonry patterns, rooflines, and era-specific ornamental flourishes.",
-          "Req 1b - Historic Landmark Societal": "Evaluating landmark structures demonstrates how master builders solved major spatial and civic challenges. Scouts investigate archival drawings, engineering innovations, and the societal shifts sparked by monumental construction."
+          "Phase 1 - Route Planning": "Map walking routes through historic districts to observe varied commercial and residential facades.",
+          "Phase 2 - Style Classification": "Categorize observed buildings into Gothic, Classical, Colonial, or Modernist architectural structural traditions.",
+          "Phase 3 - Elevation Sketching": "Draw the chosen building profile showing accurate roof pitch and window proportions.",
+          "Phase 4 - Historical Research": "Document how a major historic landmark altered municipal engineering and public life."
         },
-        "sample_output": "Architectural Styles and Historical Achievements: (a) Tour your community and list the different types of buildings you see (p. 12).",
-        "counselor_tip": "For Architecture Requirement 1 (Architectural Styles and Historical Achievements), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
+        "sample_output": "Architectural surveys document local built structures across distinct historic periods and structural movements. Systematic field sketching captures ornamental facades, masonry bonds, roof pitches, and fenestration patterns.",
+        "counselor_tip": "During the Architecture Requirement 1 conference on Community Architectural Style Survey, verify that the Scout can explain historic style identification and demonstrate historical research: Document how a major historic landmark altered municipal engineering and public life."
       },
       "quiz_item": {
         "scenario_prompt": "In Architecture Requirement 1, Roman architect Vitruvius stated that every good building must satisfy three core principles (firmitas, utilitas, venustas). What do these three principles mean in modern architectural practice?",
@@ -767,7 +767,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Examine older structures slated for renovation from safe perimeters to avoid airborne asbestos fibers, mold spores, or peeling lead paint.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
@@ -837,8 +837,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Green Building System",
-        "right_header": "Req 2c: Environmental and Community",
+        "left_header": "Req 2a: Green Building System Fundamentals",
+        "right_header": "Req 2c: Environmental and Community Context",
         "left_points": [
           "(2a) Green Building System Fundamentals: Sustainable architecture balances energy efficiency, occupant health, and natural resource stewardship. Standard green building features include rainwater catchment cisterns, daylighting light shelves, and high-performance continuous exterior insulation.",
           "(2b) Renewable and Recycled Materials: Renewable materials regenerate through biological processes within short harvesting rotations like timber and straw. Recycled materials repurpose post-consumer or post-industrial waste streams like crushed concrete aggregates and reclaimed copper roofing."
@@ -860,22 +860,22 @@
           },
           {
             "attribute": "Environmental Topography Integration",
-            "left": "Req 2a: Green Building System: Sustainable architecture balances energy efficiency, occupant health, and natural resource stewardship. Standard green building features include rainwater catchment cisterns, daylighting light shelves, and high-performance continuous exterior insulation.",
-            "right": "Req 2b: Renewable and Recycled: Renewable materials regenerate through biological processes within short harvesting rotations like timber and straw. Recycled materials repurpose post-consumer or post-industrial waste streams like crushed concrete aggregates and reclaimed copper roofing."
+            "left": "Environmental Topography Integration: Bermed earth construction tempers indoor temperatures by using ground thermal mass effectively.",
+            "right": "Adaptive Building Preservation: Converting obsolete industrial brick warehouses into modern residential apartments saves embodied energy."
           }
         ]
       },
       "worked_example": {
-        "title": "Architecture Req 2 Exemplar Workbook Entry: Sustainable",
+        "title": "Architecture Req 2 Worked Example: Sustainable Design and Conservation",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Green Building System": "Sustainable architecture balances energy efficiency, occupant health, and natural resource stewardship. Standard green building features include rainwater catchment cisterns, daylighting light shelves, and high-performance continuous exterior insulation.",
-          "Req 2b - Renewable and Recycled": "Renewable materials regenerate through biological processes within short harvesting rotations like timber and straw. Recycled materials repurpose post-consumer or post-industrial waste streams like crushed concrete aggregates and reclaimed copper roofing.",
-          "Req 2c - Environmental and Community": "Contextual architecture responds directly to surrounding landscape contours, wind patterns, and civic traffic flows. Thoughtful public plazas and pedestrian pathways connect private interior spaces to wider community neighborhoods.",
-          "Req 2d - Adaptive Reuse": "Adaptive reuse repurposes disused architectural structures for modern residential, commercial, or educational functions. Retaining foundational masonry walls keeps immense volumes of demolition debris out of local landfills."
+          "Phase 1 - Green Feature Audit": "Identify three active or passive ecological design features on a local building.",
+          "Phase 2 - Material Lifecycle Comparison": "Compare structural timber harvesting renewal rates against recycled steel beam reprocessing requirements.",
+          "Phase 3 - Contextual Site Analysis": "Evaluate how prevailing winds, sun paths, and natural drainage dictate building placement.",
+          "Phase 4 - Adaptive Reuse Review": "Document structural modifications required to transform an abandoned station into public market."
         },
-        "sample_output": "Sustainable Architecture and Adaptive Reuse: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
-        "counselor_tip": "For Architecture Requirement 2 (Sustainable Architecture and Adaptive Reuse), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
+        "sample_output": "Sustainable architecture minimizes environmental degradation across the complete construction lifecycle through passive climate controls and resource stewardship. Designing with site topography preserves native vegetation and reduces lifetime energy consumption.",
+        "counselor_tip": "During the Architecture Requirement 2 conference on Sustainable Design and Conservation, verify that the Scout can explain passive solar orientation and demonstrate adaptive reuse review: Document structural modifications required to transform an abandoned station into public market."
       },
       "quiz_item": {
         "scenario_prompt": "What is the architectural practice of converting an old warehouse or factory into apartments or offices instead of tearing it down?",
@@ -1196,7 +1196,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Wear an OSHA-approved hard hat, high-visibility vest, safety glasses, and steel-toed work boots when visiting an active construction site.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1267,19 +1267,17 @@
         "Step 3 - Model Analysis: Review three-dimensional physical or digital computer models showing spatial volumes and daylighting.",
         "Step 4 - Technical Discussion: Discuss how municipal building codes and client budget constraints govern final design."
       ],
-      "gear_checklist": [
-        "Official Architecture Merit Badge: With your parent or guardian's.",
-        "Field notebook, verification log sheet, and demonstration materials for With your parent or guardian's.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Architect Office Studio",
-        "right_header": "Req 3b: Construction Jobsite Drawing",
+        "left_header": "Req 3a: Architect Office Studio Consultation",
+        "right_header": "Req 3b: Construction Jobsite Drawing Review",
         "left_points": [
-          "(3a) Architect Office Studio Consultation: Visiting an architectural studio reveals the transition from preliminary creative concept to technical building documentation. Architects display physical foam-board models, computer-aided drafting software, and comprehensive project specification binders."
+          "(3a) Architect Office Studio Consultation: Visiting an architectural studio reveals the transition from preliminary creative concept to technical building documentation. Architects display physical foam-board models, computer-aided drafting software, and comprehensive project specification binders.",
+          "Contract Document Packages: Working drawings detail dimensions, wall cross-sections, and finish schedules for trade contractors."
         ],
         "right_points": [
-          "(3b) Construction Jobsite Drawing Review: Meeting on an active jobsite connects two-dimensional construction blueprints with three-dimensional physical framing. The architect explains how builders interpret foundation details, structural steel joints, and mechanical rough-ins on site."
+          "(3b) Construction Jobsite Drawing Review: Meeting on an active jobsite connects two-dimensional construction blueprints with three-dimensional physical framing. The architect explains how builders interpret foundation details, structural steel joints, and mechanical rough-ins on site.",
+          "(3c) Client Program Interview Process: Interviewing a prospective building owner establishes the architectural program by cataloging functional requirements and aesthetic goals. Architects assess budget limits, square footage targets, accessibility guidelines, and anticipated family or business growth."
         ],
         "rows": [
           {
@@ -1289,26 +1287,27 @@
           },
           {
             "attribute": "Physical Scale Prototyping",
-            "left": "Req 3a: Architect Office Studio: Visiting an architectural studio reveals the transition from preliminary creative concept to technical building documentation. Architects display physical foam-board models, computer-aided drafting software, and comprehensive project specification binders.",
-            "right": "Req 3b: Construction Jobsite Drawing: Meeting on an active jobsite connects two-dimensional construction blueprints with three-dimensional physical framing. The architect explains how builders interpret foundation details, structural steel joints, and mechanical rough-ins on site."
+            "left": "Contract Document Packages: Working drawings detail dimensions, wall cross-sections, and finish schedules for trade contractors.",
+            "right": "(3c) Client Program Interview Process: Interviewing a prospective building owner establishes the architectural program by cataloging functional requirements and aesthetic goals. Architects assess budget limits, square footage targets, accessibility guidelines, and anticipated family or business growth."
           },
           {
             "attribute": "Jobsite Field Coordination",
-            "left": "Req 3c: Client Program Interview: Interviewing a prospective building owner establishes the architectural program by cataloging functional requirements and aesthetic goals. Architects assess budget limits, square footage targets, accessibility guidelines, and anticipated family or business growth.",
-            "right": "Physical Scale Prototyping: Three-dimensional massing models allow clients to evaluate volume, shadow casting, and sightlines."
+            "left": "Jobsite Field Coordination: Architects conduct site visits to confirm that construction aligns with stamped specifications.",
+            "right": "Client Program Development: Architectural programming identifies spatial square footage, occupant headcount, and accessibility requirements."
           }
         ]
       },
       "worked_example": {
-        "title": "Architecture Req 3 Exemplar Workbook Entry: Architect",
+        "title": "Architecture Req 3 Worked Example: Professional Architectural Practice Exploration",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Architect Office Studio": "Visiting an architectural studio reveals the transition from preliminary creative concept to technical building documentation. Architects display physical foam-board models, computer-aided drafting software, and comprehensive project specification binders.",
-          "Req 3b - Construction Jobsite Drawing": "Meeting on an active jobsite connects two-dimensional construction blueprints with three-dimensional physical framing. The architect explains how builders interpret foundation details, structural steel joints, and mechanical rough-ins on site.",
-          "Req 3c - Client Program Interview": "Interviewing a prospective building owner establishes the architectural program by cataloging functional requirements and aesthetic goals. Architects assess budget limits, square footage targets, accessibility guidelines, and anticipated family or business growth."
+          "Phase 1 - Professional Consultation": "Schedule a formal interview with a licensed architect or a prospective client.",
+          "Phase 2 - Drawing Interpretation": "Examine structural plans, building elevations, sectional details, and finish schedules in detail.",
+          "Phase 3 - Model Analysis": "Review three-dimensional physical or digital computer models showing spatial volumes and daylighting.",
+          "Phase 4 - Technical Discussion": "Discuss how municipal building codes and client budget constraints govern final design."
         },
-        "sample_output": "Architect Visits and Client Interviews: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
-        "counselor_tip": "For Architecture Requirement 3 (Architect Visits and Client Interviews), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
+        "sample_output": "Architects translate client requirements into physical structures using iterative drawings, physical scale models, and digital building information models. Construction documents coordinate structural, mechanical, plumbing, and electrical subsystems for field contractors.",
+        "counselor_tip": "During the Architecture Requirement 3 conference on Professional Architectural Practice Exploration, verify that the Scout can explain contract document packages and demonstrate technical discussion: Discuss how municipal building codes and client budget constraints govern final design."
       },
       "quiz_item": {
         "scenario_prompt": "When you interview a prospective homeowner or business owner as an architect in Requirement 3c, what is your primary objective?",
@@ -1400,7 +1399,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Control spring-loaded steel tape rule blade retraction slowly to prevent sharp metal edge lacerations and finger cuts.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
@@ -1468,53 +1467,47 @@
         "Step 3 - Scaled Grid Drafting: Transfer measured dimensions onto grid paper using an architect scale ruler neatly.",
         "Step 4 - Symbol and Dimension Labeling: Draw door swing arcs, window openings, built-in cabinets, and clear dimension strings."
       ],
-      "gear_checklist": [
-        "Official Architecture Merit Badge: Measure a room.",
-        "Field notebook, verification log sheet, and demonstration materials for Measure a room.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Measuring an Existing Room",
-        "right_header": "Req 4: Measure Room Walls and Openings",
+        "left_header": "Measured Room Floor Plan: Core Principles",
+        "right_header": "Measured Room Floor Plan: Field Execution",
         "left_points": [
-          "Measuring an Existing Room Accurately: Measure a room such as one where you live or where your troop meets (p. 12).",
-          "Drafting a Scaled Floor Plan: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
-          "Required Title Block Labels: Your name, the date, what room you drew, and the scale of the drawing (p. 12)."
+          "Plan Cut Height: Floor plans depict horizontal building sections sliced roughly four feet above finished floors.",
+          "Architectural Scale Ratio: Standard residential drafting represents one foot of actual room distance as one-quarter inch."
         ],
         "right_points": [
-          "Measure Room Walls and Openings: Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-          "Convert Dimensions to Drawing Scale: ¼ inch = 1 foot (p. 12).",
-          "Measuring Rooms and Scaled Floor Plans: Review the Architecture pamphlet standards for measuring rooms and scaled floor plans, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22)."
+          "Standard Symbol Conventions: Curved quarter-circle arcs show door swing direction while double lines mark window openings.",
+          "Dimension String Accuracy: Continuous dimension lines running along walls show overall exterior and interior room bounds."
         ],
         "rows": [
           {
             "attribute": "Plan Cut Height",
-            "left": "Measuring an Existing Room Accurately: Measure a room such as one where you live or where your troop meets (p. 12).",
-            "right": "Measure Room Walls and Openings: Your name, the date, what room you drew, and the scale of the drawing (p. 12)."
+            "left": "Plan Cut Height: Floor plans depict horizontal building sections sliced roughly four feet above finished floors.",
+            "right": "Standard Symbol Conventions: Curved quarter-circle arcs show door swing direction while double lines mark window openings."
           },
           {
             "attribute": "Architectural Scale Ratio",
-            "left": "Drafting a Scaled Floor Plan: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
-            "right": "Convert Dimensions to Drawing Scale: ¼ inch = 1 foot (p. 12)."
+            "left": "Architectural Scale Ratio: Standard residential drafting represents one foot of actual room distance as one-quarter inch.",
+            "right": "Dimension String Accuracy: Continuous dimension lines running along walls show overall exterior and interior room bounds."
           },
           {
             "attribute": "Standard Symbol Conventions",
-            "left": "Required Title Block Labels: Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-            "right": "Measuring Rooms and Scaled Floor Plans: Review the Architecture pamphlet standards for measuring rooms and scaled floor plans, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22)."
+            "left": "Standard Symbol Conventions: Curved quarter-circle arcs show door swing direction while double lines mark window openings.",
+            "right": "Dimension String Accuracy: Continuous dimension lines running along walls show overall exterior and interior room bounds."
           }
         ]
       },
       "worked_example": {
-        "title": "Architecture Req 4 Exemplar Workbook Entry: Measuring",
+        "title": "Architecture Req 4 Worked Example: Measured Room Floor Plan",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Measuring an Existing Room Accurately": "Measure a room such as one where you live or where your troop meets (p. 12).",
-          "Drafting a Scaled Floor Plan": "Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
-          "Required Title Block Labels": "Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-          "Quarter-Inch to One-Foot Scale": "¼ inch = 1 foot (p. 12)."
+          "Phase 1 - Rough Perimeter Sketch": "Draft a rough proportional outline of the room walls on blank paper.",
+          "Phase 2 - Running Tape Measurements": "Measure overall wall lengths, window casing widths, and door openings using steel tape.",
+          "Phase 3 - Scaled Grid Drafting": "Transfer measured dimensions onto grid paper using an architect scale ruler neatly.",
+          "Phase 4 - Symbol and Dimension Labeling": "Draw door swing arcs, window openings, built-in cabinets, and clear dimension strings."
         },
-        "sample_output": "Measuring Rooms and Scaled Floor Plans: Measure a room such as one where you live or where your troop meets (p. 12).",
-        "counselor_tip": "For Architecture Requirement 4 (Measuring Rooms and Scaled Floor Plans), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
+        "sample_output": "Floor plans provide a horizontal architectural cut through a room viewed from above, typically drafted at quarter-inch scale. Accurate tape measurements record wall lengths, door swings, window openings, and permanent built-in cabinetry.",
+        "counselor_tip": "During the Architecture Requirement 4 conference on Measured Room Floor Plan, verify that the Scout can explain plan cut height and demonstrate symbol and dimension labeling: Draw door swing arcs, window openings, built-in cabinets, and clear dimension strings."
       },
       "quiz_item": {
         "scenario_prompt": "Which four pieces of information must be neatly labeled on the scaled room floor plan you draw for Requirement 4?",
@@ -1622,7 +1615,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain ergonomic posture, proper monitor eye level, and take scheduled wrist breaks to prevent repetitive strain injury during drafting.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "Make-Up Eligible",
@@ -1690,47 +1683,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Exploring Three Architecture",
-        "right_header": "Req 5: Research Three Architecture",
+        "left_header": "Architectural Career Pathway Analysis: Core Principles",
+        "right_header": "Architectural Career Pathway Analysis: Field Execution",
         "left_points": [
-          "Exploring Three Architecture Careers: Find out about three career opportunities in architecture (p. 12).",
-          "Education, Training, and Experience Requirements: Pick one and find out the education, training, and experience required for this profession (p. 12).",
-          "Counselor Career Discussion and Reflection: Discuss this with your counselor, and explain why this profession might interest (p. 12)."
+          "Accredited Degree Foundations: Professional architectural licensure candidates must complete an accredited Bachelor or Master of Architecture.",
+          "Practical Experience Documentation: Interns document thousands of diverse professional training hours through the Architectural Experience Program."
         ],
         "right_points": [
-          "Research Three Architecture Career Paths: Discuss this with your counselor, and explain why this profession might interest (p. 12).",
-          "Investigate Degree and Internship Rules: Cross-check your Careers & Professional Pathways technique, measurements, and results (p. 26).",
-          "Evaluate Personal Career Interests: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 26)."
+          "National Licensure Examination: Aspiring practitioners must pass all divisions of the rigorous Architect Registration Examination.",
+          "Multidisciplinary Career Specialization: Architectural professionals can specialize in historic preservation, sustainable design, or municipal urban planning."
         ],
         "rows": [
           {
             "attribute": "Accredited Degree Foundations",
-            "left": "Exploring Three Architecture Careers: Find out about three career opportunities in architecture (p. 12).",
-            "right": "Research Three Architecture Career Paths: Discuss this with your counselor, and explain why this profession might interest (p. 12)."
+            "left": "Accredited Degree Foundations: Professional architectural licensure candidates must complete an accredited Bachelor or Master of Architecture.",
+            "right": "National Licensure Examination: Aspiring practitioners must pass all divisions of the rigorous Architect Registration Examination."
           },
           {
             "attribute": "Practical Experience Documentation",
-            "left": "Education, Training, and Experience Requirements: Pick one and find out the education, training, and experience required for this profession (p. 12).",
-            "right": "Investigate Degree and Internship Rules: Cross-check your Careers & Professional Pathways technique, measurements, and results (p. 26)."
+            "left": "Practical Experience Documentation: Interns document thousands of diverse professional training hours through the Architectural Experience Program.",
+            "right": "Multidisciplinary Career Specialization: Architectural professionals can specialize in historic preservation, sustainable design, or municipal urban planning."
           },
           {
             "attribute": "National Licensure Examination",
-            "left": "Counselor Career Discussion and Reflection: Discuss this with your counselor, and explain why this profession might interest (p. 12).",
-            "right": "Evaluate Personal Career Interests: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 26)."
+            "left": "National Licensure Examination: Aspiring practitioners must pass all divisions of the rigorous Architect Registration Examination.",
+            "right": "Multidisciplinary Career Specialization: Architectural professionals can specialize in historic preservation, sustainable design, or municipal urban planning."
           }
         ]
       },
       "worked_example": {
-        "title": "Architecture Req 5 Exemplar Workbook Entry",
+        "title": "Architecture Req 5 Worked Example: Architectural Career Pathway Analysis",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Exploring Three Architecture Careers": "Find out about three career opportunities in architecture (p. 12).",
-          "Education, Training, and Experience": "Pick one and find out the education, training, and experience required for this profession (p. 12).",
-          "Counselor Career Discussion": "Discuss this with your counselor, and explain why this profession might interest (p. 12).",
-          "Verifying Professional Licensure": "Architectural Careers and Professional Licensure: Architectural careers and professional licensure, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26)."
+          "Phase 1 - Career Field Survey": "Research three distinct architectural career specializations such as landscape, structural, or restoration.",
+          "Phase 2 - Education Pathway Review": "Examine university curricula requirements for National Architectural Accrediting Board accredited degree programs.",
+          "Phase 3 - Internship Requirements": "Investigate required hours across project management, design, and construction documentation training areas.",
+          "Phase 4 - Career Reflection Discussion": "Discuss educational requirements and personal interest in the selected architectural career path."
         },
-        "sample_output": "Architectural Careers and Professional Licensure: Find out about three career opportunities in architecture (p. 12).",
-        "counselor_tip": "For Architecture Requirement 5 (Architectural Careers and Professional Licensure), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
+        "sample_output": "Architecture encompasses diverse specializations including urban planning, landscape architecture, structural preservation, and commercial project management. Becoming a licensed architect requires an accredited professional degree, documented internship hours, and passing comprehensive national registration examinations.",
+        "counselor_tip": "During the Architecture Requirement 5 conference on Architectural Career Pathway Analysis, verify that the Scout can explain accredited degree foundations and demonstrate career reflection discussion: Discuss educational requirements and personal interest in the selected architectural career path."
       },
       "quiz_item": {
         "scenario_prompt": "What combination of education, training, and testing is typically required to become a licensed architect?",
@@ -1750,7 +1741,7 @@
         "correct_index": 2,
         "correct_letter": "C",
         "correct_answer": "C. An accredited architecture degree, structured internship hours, and passing the licensing exam",
-        "explanation": "Correct Answer (C): In addition to earning an accredited professional degree (such as a B.Arch. or M.Arch.), candidates must complete structured internship experience and pass the national licensing examination to become a licensed architect (p. 26).",
+        "explanation": "Correct Answer (C): In addition to earning an accredited professional degree (such as a B.Arch. Or M.Arch.), candidates must complete structured internship experience and pass the national licensing examination to become a licensed architect (p. 26).",
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
@@ -1911,7 +1902,7 @@
       "correct_index": 2,
       "correct_letter": "C",
       "correct_answer": "C. An accredited architecture degree, structured internship hours, and passing the licensing exam",
-      "explanation": "Correct Answer (C): In addition to earning an accredited professional degree (such as a B.Arch. or M.Arch.), candidates must complete structured internship experience and pass the national licensing examination to become a licensed architect (p. 26).",
+      "explanation": "Correct Answer (C): In addition to earning an accredited professional degree (such as a B.Arch. Or M.Arch.), candidates must complete structured internship experience and pass the national licensing examination to become a licensed architect (p. 26).",
       "pamphlet_page_ref": "p. 12",
       "req_id": "5",
       "option_id": null

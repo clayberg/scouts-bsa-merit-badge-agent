@@ -258,10 +258,12 @@
         "left_header": "Req 1a: Welding Shop Hazard Mitigation",
         "right_header": "Req 1b: Welding Injury First Aid",
         "left_points": [
-          "(1a) Welding Shop Hazard Mitigation: Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc."
+          "(1a) Welding Shop Hazard Mitigation: Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.",
+          "Radiation Burn Danger: Arc flash creates ultraviolet radiation that causes painful corneal burns without immediate noticeable symptoms."
         ],
         "right_points": [
-          "(1b) Welding Injury First Aid: First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals."
+          "(1b) Welding Injury First Aid: First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals.",
+          "Metal Fume Control: Inhaling vaporized zinc oxides from galvanized steel causes severe systemic metal fume fever."
         ],
         "rows": [
           {
@@ -271,25 +273,27 @@
           },
           {
             "attribute": "Electric Shock Hazards",
-            "left": "Req 1a: Welding Shop Hazard: Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.",
-            "right": "Req 1b: Welding Injury First Aid: First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals."
+            "left": "Radiation Burn Danger: Arc flash creates ultraviolet radiation that causes painful corneal burns without immediate noticeable symptoms.",
+            "right": "Metal Fume Control: Inhaling vaporized zinc oxides from galvanized steel causes severe systemic metal fume fever."
           },
           {
             "attribute": "Metal Fume Control",
-            "left": "Radiation Burn Danger: Arc flash creates ultraviolet radiation that causes painful corneal burns without immediate noticeable symptoms.",
-            "right": "Electric Shock Hazards: Damp work gloves drastically decrease electrical resistance between the welder and live electrode holders."
+            "left": "Metal Fume Control: Inhaling vaporized zinc oxides from galvanized steel causes severe systemic metal fume fever.",
+            "right": "Combustible Gas Buildup: Shielding gas displacement in unventilated confined areas creates an immediate oxygen deficiency hazard."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 1 Exemplar Workbook Entry: Welding Hazards",
+        "title": "Welding Req 1 Worked Example: Welding Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Welding Shop Hazard": "Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.",
-          "Req 1b - Welding Injury First Aid": "First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals."
+          "Phase 1 - Exhaust System Check": "Turn on local exhaust hoods to draw plumes directly away from breathing zones.",
+          "Phase 2 - Fire Hazard Clearance": "Remove combustible debris within a thirty-five foot radius around the hot work area.",
+          "Phase 3 - Insulation Barrier Placement": "Position nonconductive dry rubber mats across damp floor surfaces before energizing welding equipment.",
+          "Phase 4 - Emergency Power Isolation": "Hit the red emergency disconnect switch immediately when electrical contact occurs with operators."
         },
-        "sample_output": "Welding Hazards and First Aid: Treat them by holding the burn under cold water or applying cool, wet compresses until the pain eases (p. 21).",
-        "counselor_tip": "For Welding Requirement 1 (Welding Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22))."
+        "sample_output": "Electric arc radiation produces intense ultraviolet energy that burns exposed skin and damages unprotected retinas within seconds. Proper ventilation combined with dry leather personal gear prevents electric shock and metal fume fever during hot work.",
+        "counselor_tip": "During the Welding Requirement 1 conference on Welding Hazards and First Aid, verify that the Scout can explain radiation burn danger and demonstrate emergency power isolation: Hit the red emergency disconnect switch immediately when electrical contact occurs with operators."
       },
       "quiz_item": {
         "scenario_prompt": "Why must a welder wear a properly shaded welding helmet (such as Shade 10 to 13 for arc welding) and flame-resistant leather or heavy cotton clothing rather than synthetic polyester or fleece?",
@@ -688,10 +692,12 @@
         "left_header": "Req 2a: Safety Data Sheet Evaluation",
         "right_header": "Req 2b: Welding Apparel and Gear",
         "left_points": [
-          "(2a) Safety Data Sheet Evaluation: Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes."
+          "(2a) Safety Data Sheet Evaluation: Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes.",
+          "Chemical Data Reference: Safety Data Sheets document hazardous decomposition products generated during thermal decomposition of fluxes."
         ],
         "right_points": [
-          "(2b) Welding Apparel and Gear: Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat."
+          "(2b) Welding Apparel and Gear: Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat.",
+          "(2c) Equipment Maintenance and Storage: Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections."
         ],
         "rows": [
           {
@@ -701,26 +707,27 @@
           },
           {
             "attribute": "Natural Fiber Selection",
-            "left": "Req 2a: Safety Data Sheet Evaluation: Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes.",
-            "right": "Req 2b: Welding Apparel and Gear: Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat."
+            "left": "Chemical Data Reference: Safety Data Sheets document hazardous decomposition products generated during thermal decomposition of fluxes.",
+            "right": "(2c) Equipment Maintenance and Storage: Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections."
           },
           {
             "attribute": "High Top Footwear",
-            "left": "Req 2c: Equipment Maintenance: Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections.",
-            "right": "Natural Fiber Selection: Heavy weight cotton denim resists sparks while synthetic polyester melts into severe burns."
+            "left": "High Top Footwear: Leather work boots with eight-inch uppers prevent falling sparks from entering shoe collars.",
+            "right": "Electrode Storing Practice: Low hydrogen stick electrodes require heated holding ovens to prevent moisture contamination."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 2 Exemplar Workbook Entry: Safety Data",
+        "title": "Welding Req 2 Worked Example: Welding Safety and Protective Equipment",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Safety Data Sheet Evaluation": "Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes.",
-          "Req 2b - Welding Apparel and Gear": "Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat.",
-          "Req 2c - Equipment Maintenance": "Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections."
+          "Phase 1 - Safety Sheet Review": "Check the specific Safety Data Sheet for chemical hazards of parent metals.",
+          "Phase 2 - Protective Garment Donning": "Fasten heavyweight leather jackets, flameproof split cowhide gauntlets, and cuffless denim pants securely.",
+          "Phase 3 - Helmet Shade Adjustment": "Set auto-darkening filter helmets to shade ten or eleven according to amperage.",
+          "Phase 4 - Cable Coil Storing": "Hang welding leads and ground cables neatly on nonconductive wall storage brackets."
         },
-        "sample_output": "Safety Data Sheets and Protective Gear: This section provides guidance on safe handling and storage practices (p. 13).",
-        "counselor_tip": "For Welding Requirement 2 (Safety Data Sheets and Protective Gear), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29))."
+        "sample_output": "Safety Data Sheets provide chemical composition, exposure limits, and required fire suppression methods for base metals and fluxes. Proper personal protective equipment made from heavy split cowhide leather protects the operator from molten spatter and arc radiation.",
+        "counselor_tip": "During the Welding Requirement 2 conference on Welding Safety and Protective Equipment, verify that the Scout can explain chemical data reference and demonstrate cable coil storing: Hang welding leads and ground cables neatly on nonconductive wall storage brackets."
       },
       "quiz_item": {
         "scenario_prompt": "Which section of a Safety Data Sheet (SDS) specifies the exposure limits and personal protective equipment required when working with welding consumables?",
@@ -874,47 +881,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Workpiece Ground Cable Connection",
-        "right_header": "Req 3: Melt Electrode and Base",
+        "left_header": "Welding Metallurgy and Principles: Core Principles",
+        "right_header": "Welding Metallurgy and Principles: Field Execution",
         "left_points": [
-          "Workpiece Ground Cable Connection: One of the two cables from the power source is attached to the work (p. 32).",
-          "Striking the Welding Arc: When the arc strikes between the electrode and the work piece, welding begins (p. 32).",
-          "Extreme Arc Heat Generation: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32)."
+          "Coalescence Bond Definition: Welding fuses metallic parts together through atomic bonding across liquid or solid interfaces.",
+          "Electrode Core Purpose: The electrode conducts electrical current while frequently depositing necessary filler metal into joints."
         ],
         "right_points": [
-          "Melt Electrode and Base: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32).",
-          "Maintain Proper Arc Gap: The amount of electric current needed at the arc depends on the size of the electrode and the gap between the electrode tip and the base metal (p. 32).",
-          "Set Voltage and Amperage: The sizes and types of electrodes for shielded metal arc welding define the arc voltage and amperage requirements (p. 32)."
+          "Slag Impurity Trapping: Solidified flux floats upward to shield hot beads and collect surface metal oxides.",
+          "Atmospheric Oxidation Prevention: Gaseous argon envelopes molten pools to prevent air from forming brittle weld porosity."
         ],
         "rows": [
           {
             "attribute": "Coalescence Bond Definition",
-            "left": "Workpiece Ground Cable Connection: One of the two cables from the power source is attached to the work (p. 32).",
-            "right": "Melt Electrode and Base: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32)."
+            "left": "Coalescence Bond Definition: Welding fuses metallic parts together through atomic bonding across liquid or solid interfaces.",
+            "right": "Slag Impurity Trapping: Solidified flux floats upward to shield hot beads and collect surface metal oxides."
           },
           {
             "attribute": "Electrode Core Purpose",
-            "left": "Striking the Welding Arc: When the arc strikes between the electrode and the work piece, welding begins (p. 32).",
-            "right": "Maintain Proper Arc Gap: The amount of electric current needed at the arc depends on the size of the electrode and the gap between the electrode tip and the base metal (p. 32)."
+            "left": "Electrode Core Purpose: The electrode conducts electrical current while frequently depositing necessary filler metal into joints.",
+            "right": "Atmospheric Oxidation Prevention: Gaseous argon envelopes molten pools to prevent air from forming brittle weld porosity."
           },
           {
             "attribute": "Slag Impurity Trapping",
-            "left": "Extreme Arc Heat Generation: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32).",
-            "right": "Set Voltage and Amperage: The sizes and types of electrodes for shielded metal arc welding define the arc voltage and amperage requirements (p. 32)."
+            "left": "Slag Impurity Trapping: Solidified flux floats upward to shield hot beads and collect surface metal oxides.",
+            "right": "Atmospheric Oxidation Prevention: Gaseous argon envelopes molten pools to prevent air from forming brittle weld porosity."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 3 Exemplar Workbook Entry: Core Welding",
+        "title": "Welding Req 3 Worked Example: Welding Metallurgy and Principles",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Workpiece Ground Cable Connection": "One of the two cables from the power source is attached to the work (p. 32).",
-          "Striking the Welding Arc": "When the arc strikes between the electrode and the work piece, welding begins (p. 32).",
-          "Extreme Arc Heat Generation": "The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32).",
-          "Electrode Size and Current": "The amount of electric current needed at the arc depends on the size of the electrode and the gap between the electrode tip and the base metal (p. 32)."
+          "Phase 1 - Surface Rust Removal": "Grind mill scale and surface rust off parent plate edges using abrasive wheels.",
+          "Phase 2 - Electric Arc Initiation": "Strike the electrode tip against base steel to create an electric arc column.",
+          "Phase 3 - Molten Puddle Manipulation": "Guide the molten puddle forward while feeding filler wire into the leading edge.",
+          "Phase 4 - Solidified Slag Chipping": "Chip glassy slag off the cooled bead using a pointed chipping hammer."
         },
-        "sample_output": "Core Welding Terms and Principles: One of the two cables from the power source is attached to the work (p. 32).",
-        "counselor_tip": "For Welding Requirement 3 (Core Welding Terms and Principles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 32, p. 64))."
+        "sample_output": "Welding coalesces metal workpieces by applying localized heat above the melting point with or without filler metal. Shielding gases or flux compositions protect the liquid weld puddle from atmospheric oxygen and nitrogen contamination.",
+        "counselor_tip": "During the Welding Requirement 3 conference on Welding Metallurgy and Principles, verify that the Scout can explain coalescence bond definition and demonstrate solidified slag chipping: Chip glassy slag off the cooled bead using a pointed chipping hammer."
       },
       "quiz_item": {
         "scenario_prompt": "Approximately how hot does the electric arc get to melt both the electrode tip and the base metal during arc welding?",
@@ -1070,47 +1075,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Covered Electrode Arc Heat",
-        "right_header": "Req 4: Choose Portable Power Source",
+        "left_header": "Mechanical and Thermal Cutting: Core Principles",
+        "right_header": "Mechanical and Thermal Cutting: Field Execution",
         "left_points": [
-          "Covered Electrode Arc Heat: It involves using the heat of an electric arc between a covered metal electrode and the work (p. 39).",
-          "Inexpensive Remote Field Equipment: SMAW equipment is also inexpensive and can be used in remote areas (p. 39).",
-          "Portable Generator Power Sources: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39)."
+          "Mechanical Shearing Precision: Cold mechanical saws produce clean edges without heat affected zones or hardened edge margins.",
+          "Oxyfuel Exothermic Combustion: Oxyfuel torches direct high pressure oxygen streams to burn preheated steel in exothermic reactions."
         ],
         "right_points": [
-          "Choose Portable Power Source: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39).",
-          "Account for Outdoor Drafts: The process is less sensitive to wind and draft than gas-shielded arc processes, making it more suitable to the outdoors than other methods (p. 39).",
-          "Weigh Process Advantages Carefully: Compared with its advantages, shielded arc welding has few disadvantages (p. 39)."
+          "Plasma Cutting Versatility: Constricted plasma arcs sever both ferrous and nonferrous conductors including stainless steel and aluminum.",
+          "Thermal Kerf Allowance: Thermal cutting torches consume plate width through a kerf gap requiring measurement compensation."
         ],
         "rows": [
           {
             "attribute": "Mechanical Shearing Precision",
-            "left": "Covered Electrode Arc Heat: It involves using the heat of an electric arc between a covered metal electrode and the work (p. 39).",
-            "right": "Choose Portable Power Source: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39)."
+            "left": "Mechanical Shearing Precision: Cold mechanical saws produce clean edges without heat affected zones or hardened edge margins.",
+            "right": "Plasma Cutting Versatility: Constricted plasma arcs sever both ferrous and nonferrous conductors including stainless steel and aluminum."
           },
           {
             "attribute": "Oxyfuel Exothermic Combustion",
-            "left": "Inexpensive Remote Field Equipment: SMAW equipment is also inexpensive and can be used in remote areas (p. 39).",
-            "right": "Account for Outdoor Drafts: The process is less sensitive to wind and draft than gas-shielded arc processes, making it more suitable to the outdoors than other methods (p. 39)."
+            "left": "Oxyfuel Exothermic Combustion: Oxyfuel torches direct high pressure oxygen streams to burn preheated steel in exothermic reactions.",
+            "right": "Thermal Kerf Allowance: Thermal cutting torches consume plate width through a kerf gap requiring measurement compensation."
           },
           {
             "attribute": "Plasma Cutting Versatility",
-            "left": "Portable Generator Power Sources: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39).",
-            "right": "Weigh Process Advantages Carefully: Compared with its advantages, shielded arc welding has few disadvantages (p. 39)."
+            "left": "Plasma Cutting Versatility: Constricted plasma arcs sever both ferrous and nonferrous conductors including stainless steel and aluminum.",
+            "right": "Thermal Kerf Allowance: Thermal cutting torches consume plate width through a kerf gap requiring measurement compensation."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 4 Exemplar Workbook Entry: Mechanical",
+        "title": "Welding Req 4 Worked Example: Mechanical and Thermal Cutting",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Covered Electrode Arc Heat": "It involves using the heat of an electric arc between a covered metal electrode and the work (p. 39).",
-          "Inexpensive Remote Field Equipment": "SMAW equipment is also inexpensive and can be used in remote areas (p. 39).",
-          "Portable Generator Power Sources": "Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39).",
-          "Outdoor Wind Resistance Advantage": "The process is less sensitive to wind and draft than gas-shielded arc processes, making it more suitable to the outdoors than other methods (p. 39)."
+          "Phase 1 - Gas Pressure Regulation": "Adjust oxygen and acetylene regulators to manufacturer recommended pressures on dual gauges.",
+          "Phase 2 - Neutral Flame Ignition": "Light the tip with a friction striker and adjust valves to neutral flame.",
+          "Phase 3 - Edge Preheating Technique": "Hold the flame cones slightly above plate edges until steel reaches cherry red.",
+          "Phase 4 - Cutting Lever Depress": "Depress the high-pressure oxygen cutting lever smoothly to blow out molten kerf metal."
         },
-        "sample_output": "Mechanical and Thermal Cutting Methods: It involves using the heat of an electric arc between a covered metal electrode and the work (p. 39).",
-        "counselor_tip": "For Welding Requirement 4 (Mechanical and Thermal Cutting Methods), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 39, p. 43))."
+        "sample_output": "Mechanical cutting utilizes shear blades, horizontal band saws, and abrasive cut-off wheels to sever cold metal without thermal distortion. Thermal cutting uses oxyfuel combustion or concentrated plasma arcs to rapidly melt and sever thick plate steel.",
+        "counselor_tip": "During the Welding Requirement 4 conference on Mechanical and Thermal Cutting, verify that the Scout can explain mechanical shearing precision and demonstrate cutting lever depress: Depress the high-pressure oxygen cutting lever smoothly to blow out molten kerf metal."
       },
       "quiz_item": {
         "scenario_prompt": "Why is shielded metal arc equipment particularly well-suited for outdoor construction and remote repair work?",
@@ -1414,13 +1417,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Comparative Welding Process",
-        "right_header": "Req 5b: Welding Station Setup",
+        "left_header": "Req 5a: Comparative Welding Process Analysis",
+        "right_header": "Req 5b: Welding Station Setup Configuration",
         "left_points": [
-          "(5a) Comparative Welding Process Analysis: Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks."
+          "(5a) Comparative Welding Process Analysis: Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.",
+          "GMAW Continuous Feeding: Gas Metal Arc Welding continuously feeds spool wire to yield high production speeds."
         ],
         "right_points": [
-          "(5b) Welding Station Setup Configuration: Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds."
+          "(5b) Welding Station Setup Configuration: Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds.",
+          "Work Clamp Attachment: Attaching work clamps to bright unpainted steel completes low-resistance return current loops."
         ],
         "rows": [
           {
@@ -1430,25 +1435,27 @@
           },
           {
             "attribute": "SMAW Outdoor Capability",
-            "left": "Req 5a: Comparative Welding Process: Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.",
-            "right": "Req 5b: Welding Station Setup: Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds."
+            "left": "GMAW Continuous Feeding: Gas Metal Arc Welding continuously feeds spool wire to yield high production speeds.",
+            "right": "Work Clamp Attachment: Attaching work clamps to bright unpainted steel completes low-resistance return current loops."
           },
           {
             "attribute": "Work Clamp Attachment",
-            "left": "GMAW Continuous Feeding: Gas Metal Arc Welding continuously feeds spool wire to yield high production speeds.",
-            "right": "SMAW Outdoor Capability: Shielded Metal Arc Welding functions reliably outdoors in wind where gas diffusers fail."
+            "left": "Work Clamp Attachment: Attaching work clamps to bright unpainted steel completes low-resistance return current loops.",
+            "right": "Flowmeter Regulation Purpose: Shielding gas flowmeters meter cubic feet per hour to prevent turbulent air intake."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 5 Exemplar Workbook Entry: Welding Processes",
+        "title": "Welding Req 5 Worked Example: Welding Processes and Equipment Setup",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Comparative Welding Process": "Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.",
-          "Req 5b - Welding Station Setup": "Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds."
+          "Phase 1 - Cylinder Chain Securing": "Secure high pressure shielding gas cylinders firmly against the wall with safety chains.",
+          "Phase 2 - Dual Gauge Attachment": "Attach the two-stage flowmeter regulator onto cylinder valves using correct brass wrenches.",
+          "Phase 3 - Ground Lead Fastening": "Fasten the heavy ground clamp directly onto clean bare base metal workpieces.",
+          "Phase 4 - Machine Parameter Calibration": "Select correct wire feed speed and direct current reverse polarity voltage on dials."
         },
-        "sample_output": "Welding Processes and Equipment Setup: Always follow the manufacturer'srecommended procedures (p. 21).",
-        "counselor_tip": "For Welding Requirement 5 (Welding Processes and Equipment Setup), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69))."
+        "sample_output": "Comparing Shielded Metal Arc Welding and Gas Metal Arc Welding highlights differences in duty cycle, shielding methods, and metal deposition rates. Setting up wire-feed or stick equipment requires calibrating open-circuit voltage, wire drive roll tension, and cylinder delivery pressure.",
+        "counselor_tip": "During the Welding Requirement 5 conference on Welding Processes and Equipment Setup, verify that the Scout can explain gmaw continuous feeding and demonstrate machine parameter calibration: Select correct wire feed speed and direct current reverse polarity voltage on dials."
       },
       "quiz_item": {
         "scenario_prompt": "Why must you inspect oxygen regulators, hoses, and torch fittings to ensure they are completely free of oil and grease before connecting them?",
@@ -2063,13 +2070,11 @@
         "right_header": "Req 6d: Square Groove Butt Welding",
         "left_points": [
           "(6a) Initial Letter Bead Execution: Scribing and tracing personal initials teaches precise hand-eye coordination and consistent arc travel speed along curved contours. Operators maintain a uniform standoff distance to prevent arc extinguishing or sudden wire burnback.",
-          "(6b) Surface Padding Plate Buildup: Covering a three-inch square plate with parallel stringer beads demonstrates overlay welding used for surface rebuilding and wear surfacing. Each overlapping pass must tie into the previous bead crown by approximately one-third to one-half width.",
-          "(6c) Square Groove Butt Tacking: Aligning two flat plates with a uniform root opening prepares a square groove butt joint for structural fusion. Placing robust tack welds at both ends arrests transverse shrinkage and preserves joint spacing under thermal contraction."
+          "(6b) Surface Padding Plate Buildup: Covering a three-inch square plate with parallel stringer beads demonstrates overlay welding used for surface rebuilding and wear surfacing. Each overlapping pass must tie into the previous bead crown by approximately one-third to one-half width."
         ],
         "right_points": [
           "(6d) Square Groove Butt Welding: Depositing full-length beads on both sides of a butt joint produces complete joint penetration through the plate cross-section. Cleaning root pass slag or oxides before welding the reverse side prevents internal solid slag entrapment.",
-          "(6e) Tee Joint Fillet Welding: Positioning plates perpendicular to each other forms a tee joint requiring balanced fillet welds on both vertical-horizontal corners. Maintaining a forty-five degree work angle directs arc force equally into both base plates to prevent uneven undercut.",
-          "(6f) Lap Joint Fillet Welding: Overlapping two flat plates creates dual corner seams where fillet welds join top and bottom edges. The welder directs the arc slightly away from the top edge to prevent melting down the exposed plate corner."
+          "(6e) Tee Joint Fillet Welding: Positioning plates perpendicular to each other forms a tee joint requiring balanced fillet welds on both vertical-horizontal corners. Maintaining a forty-five degree work angle directs arc force equally into both base plates to prevent uneven undercut."
         ],
         "rows": [
           {
@@ -2084,22 +2089,22 @@
           },
           {
             "attribute": "Tack Welding Restraint",
-            "left": "(6c) Square Groove Butt Tacking: Aligning two flat plates with a uniform root opening prepares a square groove butt joint for structural fusion. Placing robust tack welds at both ends arrests transverse shrinkage and preserves joint spacing under thermal contraction.",
-            "right": "(6f) Lap Joint Fillet Welding: Overlapping two flat plates creates dual corner seams where fillet welds join top and bottom edges. The welder directs the arc slightly away from the top edge to prevent melting down the exposed plate corner."
+            "left": "Tack Welding Restraint: Placing small tack welds at opposing edges maintains alignment during subsequent weld shrinkage.",
+            "right": "Fillet Leg Symmetry: Balanced fillet welds have equal leg lengths with flat or slightly convex faces."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 6 Exemplar Workbook Entry: Practical Bead",
+        "title": "Welding Req 6 Worked Example: Joint Assembly and Weld Execution",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Initial Letter Bead Execution": "Scribing and tracing personal initials teaches precise hand-eye coordination and consistent arc travel speed along curved contours. Operators maintain a uniform standoff distance to prevent arc extinguishing or sudden wire burnback.",
-          "Req 6b - Surface Padding Plate Buildup": "Covering a three-inch square plate with parallel stringer beads demonstrates overlay welding used for surface rebuilding and wear surfacing. Each overlapping pass must tie into the previous bead crown by approximately one-third to one-half width.",
-          "Req 6c - Square Groove Butt Tacking": "Aligning two flat plates with a uniform root opening prepares a square groove butt joint for structural fusion. Placing robust tack welds at both ends arrests transverse shrinkage and preserves joint spacing under thermal contraction.",
-          "Req 6d - Square Groove Butt Welding": "Depositing full-length beads on both sides of a butt joint produces complete joint penetration through the plate cross-section. Cleaning root pass slag or oxides before welding the reverse side prevents internal solid slag entrapment."
+          "Phase 1 - Plate Surface Layout": "Scribe initial letters onto the steel plate face using triangular soapstone pencils.",
+          "Phase 2 - Strategic Tack Alignment": "Place solid tack welds at joint ends to lock plates in position.",
+          "Phase 3 - Torch Angle Maintenance": "Hold the welding gun at forty-five degrees work angle along fillet joint corners.",
+          "Phase 4 - Dual Sided Completion": "Turn the tack welded assembly over and run the second reinforcing fillet bead."
         },
-        "sample_output": "Practical Bead and Joint Welding: Open the torch-fuel valve to drain fuel gas, and then close (p. 71).",
-        "counselor_tip": "For Welding Requirement 6 (Practical Bead and Joint Welding), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72))."
+        "sample_output": "Practical welding builds muscle memory for arc length control, travel speed regulation, and torch gun work angles. Fabricating square groove butt joints, tee joints, and lap joints requires solid tack welds to prevent thermal joint distortion.",
+        "counselor_tip": "During the Welding Requirement 6 conference on Joint Assembly and Weld Execution, verify that the Scout can explain soapstone pattern layout and demonstrate dual sided completion: Turn the tack welded assembly over and run the second reinforcing fillet bead."
       },
       "quiz_item": {
         "scenario_prompt": "During oxy-fuel equipment shutdown, what should you do after closing the main cylinder valves and draining the gas from each hose?",
@@ -2413,13 +2418,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Welding Career Pathways",
+        "left_header": "Req 7a: Welding Career Pathways Exploration",
         "right_header": "Req 7b: American Welding Society Role",
         "left_points": [
-          "(7a) Welding Career Pathways Exploration: Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders."
+          "(7a) Welding Career Pathways Exploration: Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.",
+          "Certified Welding Inspector: Certified Welding Inspectors evaluate weld quality according to structural fabrication codes and standards."
         ],
         "right_points": [
-          "(7b) American Welding Society Role: The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification."
+          "(7b) American Welding Society Role: The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification.",
+          "AWS Code Development: The American Welding Society publishes D1.1 structural welding standards governing building construction."
         ],
         "rows": [
           {
@@ -2429,25 +2436,27 @@
           },
           {
             "attribute": "Pipeline Welder Demands",
-            "left": "Req 7a: Welding Career Pathways: Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.",
-            "right": "Req 7b: American Welding Society: The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification."
+            "left": "Certified Welding Inspector: Certified Welding Inspectors evaluate weld quality according to structural fabrication codes and standards.",
+            "right": "AWS Code Development: The American Welding Society publishes D1.1 structural welding standards governing building construction."
           },
           {
             "attribute": "AWS Code Development",
-            "left": "Certified Welding Inspector: Certified Welding Inspectors evaluate weld quality according to structural fabrication codes and standards.",
-            "right": "Pipeline Welder Demands: Pipeline welders travel to remote sites to weld high-pressure cross-country petroleum transmission lines."
+            "left": "AWS Code Development: The American Welding Society publishes D1.1 structural welding standards governing building construction.",
+            "right": "Welder Certification Rigor: Standardized AWS performance qualification tests verify a welder's technical capability in specific positions."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 7 Exemplar Workbook Entry: Welding Careers",
+        "title": "Welding Req 7 Worked Example: Welding Careers and Professional Organizations",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Welding Career Pathways": "Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.",
-          "Req 7b - American Welding Society Role": "The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification."
+          "Phase 1 - Career Field Exploration": "Research technical specialties including aerospace welding, naval shipbuilding, and automated robotic programming.",
+          "Phase 2 - Credential Path Mapping": "Identify vocational apprenticeship programs and associate degree requirements for desired welding careers.",
+          "Phase 3 - AWS Standard Research": "Study the structural steel welding code handbook to understand certified inspection criteria.",
+          "Phase 4 - Career Plan Presentation": "Present required certifications, training timelines, and career goals directly to the counselor."
         },
-        "sample_output": "Welding Careers and Professional Standards: Manufacturing businesses are experiencing a shortage of skilled welders (p. 36).",
-        "counselor_tip": "For Welding Requirement 7 (Welding Careers and Professional Standards), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82))."
+        "sample_output": "Welding career paths encompass structural ironworking, certified welding inspection, pipeline construction, and robotic automation engineering. The American Welding Society establishes universal fabrication codes, certifies welding inspectors, and advances research across global metalworking industries.",
+        "counselor_tip": "During the Welding Requirement 7 conference on Welding Careers and Professional Organizations, verify that the Scout can explain certified welding inspector and demonstrate career plan presentation: Present required certifications, training timelines, and career goals directly to the counselor."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary mission of the American Welding Society (AWS) within the welding profession?",

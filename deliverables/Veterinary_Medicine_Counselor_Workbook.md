@@ -46,10 +46,8 @@
 #### Req 1a: Companion and Equine Medicine
 **Official Requirement 1a:** Companion or small animal medicine, and equine medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Companion or Small Animal Medicine)
-- **Common Myth:** Equine veterinarians use identical surgical tools and anesthesia protocols as small animal veterinary clinics.
-- **Pamphlet Fact:** Equine medicine incorporates athletic performance evaluations, reproductive ultrasound, and specialized field surgery protocols.
 
-![Veterinary Medicine Requirement 1 figure showing small animal clinicians provide diagnostic imaging, surgical intervention.](/assets/pamphlet_images/veterinary_medicine_p003_img1.png)
+![Small animal clinicians provide diagnostic imaging, surgical intervention, and preventive vaccination protocols.](/assets/pamphlet_images/veterinary_medicine_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -60,8 +58,6 @@
 #### Req 1b: Food Animal Herd Medicine
 **Official Requirement 1b:** Food animal or large animal medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Food Animal or Large Animal)
-- **Common Myth:** Livestock veterinarians spend their time treating individual farm animals rather than whole commercial herds.
-- **Pamphlet Fact:** Food animal medicine emphasizes epidemiological herd management and residue prevention over individual pet treatments.
 
 ![A Scout watches a marine veterinarian conduct a physical checkup on a dolphin in a pool.](/assets/pamphlet_images/veterinary_medicine_p022_img1.png)
 
@@ -74,10 +70,8 @@
 #### Req 1c: Exotic Animal Practice Specialties
 **Official Requirement 1c:** Exotic animal medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Exotic Animal Medicine)
-- **Common Myth:** Exotic pets can receive standard canine and feline pharmaceutical dosages without specialized species modifications.
-- **Pamphlet Fact:** Exotic medicine demands specialized knowledge of divergent metabolic pathways, nutritional requirements, and safe handling techniques.
 
-![Veterinary Medicine Requirement 3 figure showing undergraduate candidates must master organic chemistry, biochemistry, physics.](/assets/pamphlet_images/veterinary_medicine_p012_img1.png)
+![Undergraduate candidates must master organic chemistry, biochemistry, physics, genetics, and calculus.](/assets/pamphlet_images/veterinary_medicine_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -88,8 +82,6 @@
 #### Req 1d: Marine Mammal and Fish Medicine
 **Official Requirement 1d:** Marine animal medicine (mammal and fish)
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Marine Animal Medicine Mammal and)
-- **Common Myth:** Marine animal veterinarians only administer medical care to stranded whales and seals on beaches.
-- **Pamphlet Fact:** Marine veterinary medicine requires ongoing water chemistry analysis alongside specialized ultrasonography and blood collection methods.
 
 ![A sea lion rests on rocks at a marine facility where aquatic veterinarians monitor animal health.](/assets/pamphlet_images/veterinary_medicine_p022_img2.png)
 
@@ -102,8 +94,6 @@
 #### Req 1e: Poultry Flock Health Management
 **Official Requirement 1e:** Poultry medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Poultry Medicine)
-- **Common Myth:** Poultry veterinarians treat backyard chickens using individual clinical examinations rather than flock population diagnostics.
-- **Pamphlet Fact:** Poultry veterinarians prioritize flock-wide necropsies and environmental air quality over individual bird medical therapies.
 
 ![Speckled bird eggs represent the poultry and avian species studied in veterinary medicine.](/assets/pamphlet_images/veterinary_medicine_p024_img1.png)
 
@@ -116,8 +106,6 @@
 #### Req 1f: Wildlife and Aquaculture Medicine
 **Official Requirement 1f:** Wildlife medicine and aquaculture medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Wildlife Medicine and Aquaculture Medicine)
-- **Common Myth:** Wildlife veterinarians and aquaculture specialists rely exclusively on tranquilizer darts for all medical interventions.
-- **Pamphlet Fact:** Aquaculture medicine balances finfish stocking densities with antimicrobial water treatments and chemical bath protocols.
 
 ![Wildlife specialists examine a sedated bighorn sheep in the field to assess herd health.](/assets/pamphlet_images/veterinary_medicine_p025_img1.png)
 
@@ -143,10 +131,8 @@
 #### Req 2a: Public Health Disease Surveillance
 **Official Requirement 2a:** Public health medicine and zoonotic disease surveillance and control.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Public Health Medicine and Zoonotic)
-- **Common Myth:** Zoonotic diseases are easily managed without tracking pathogen mutations within wild animal reservoir populations.
-- **Pamphlet Fact:** Veterinary epidemiologists track viral mutations in animal reservoirs before transmission reaches human communities.
 
-![Veterinary Medicine Requirement 2 figure showing public health veterinarians track rabies outbreaks and avian influenza vectors.](/assets/pamphlet_images/veterinary_medicine_p007_img1.png)
+![Public health veterinarians track rabies outbreaks and avian influenza vectors across populations.](/assets/pamphlet_images/veterinary_medicine_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -157,8 +143,6 @@
 #### Req 2b: Military Veterinary Corps Roles
 **Official Requirement 2b:** The military.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Veterinary Medicine Military Principles)
-- **Common Myth:** Military veterinarians only treat the mascots and companion pets of service members on bases.
-- **Pamphlet Fact:** Military veterinarians manage theater-wide food procurement standards and chemical defense readiness alongside canine trauma care.
 
 ![Veterinary medical journals provide current research and clinical studies for practitioners.](/assets/pamphlet_images/veterinary_medicine_p030_img1.png)
 
@@ -171,8 +155,6 @@
 #### Req 2c: Food Safety Inspection Oversight
 **Official Requirement 2c:** Food safety and inspection.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Food Safety and Inspection)
-- **Common Myth:** Meat inspectors only observe packaged meat products after butchering and packaging are finished.
-- **Pamphlet Fact:** Antemortem inspections detect systemic neurological and toxicological conditions that postmortem carcass dressing might obscure completely.
 
 ![Veterinary students examine a sea turtle in an aquatic research tank under instructor guidance.](/assets/pamphlet_images/veterinary_medicine_p026_img1.png)
 
@@ -185,8 +167,6 @@
 #### Req 2d: Laboratory Animal Research Oversight
 **Official Requirement 2d:** Laboratory animal medicine and research.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Laboratory Animal Medicine)
-- **Common Myth:** Biomedical laboratory researchers determine all animal housing and pain relief standards without veterinary consultation.
-- **Pamphlet Fact:** Laboratory animal veterinarians possess legal authority to stop experimental procedures that compromise animal welfare protocols.
 
 ![Veterinary staff prepare an animal patient for diagnostic imaging inside a clinical CT scanner.](/assets/pamphlet_images/veterinary_medicine_p031_img1.png)
 
@@ -199,8 +179,6 @@
 #### Req 2e: Veterinary Education and Governance
 **Official Requirement 2e:** Teaching and government.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Teaching and Government)
-- **Common Myth:** Government veterinarians work exclusively as classroom teachers without managing real agricultural or regulatory emergencies.
-- **Pamphlet Fact:** Veterinary professors publish clinical research papers that directly transform standard medical practices in private clinics.
 
 ![A trained detection dog sniffs open luggage at an airport terminal to identify contraband.](/assets/pamphlet_images/veterinary_medicine_p033_img1.png)
 
@@ -295,8 +273,6 @@
 #### Req 6a: Clinical Practice Facility Visit
 **Official Requirement 6a:** Visit a veterinary clinic, hospital, or veterinary referral teaching hospital that does work in one of the practices listed in requirement 1. Spend as much time as you can observing the veterinarians and their staff. Prepare a presentation on what you observed and learned at the facility and share with your counselor.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 16, p. 30)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Veterinary Clinic Hospital or Veterinary)
-- **Common Myth:** Private veterinary clinics operate identically without any variation in diagnostic equipment or surgical capabilities.
-- **Pamphlet Fact:** Companion animal practices emphasize client education, preventive wellness exams, and elective soft-tissue surgery protocols.
 
 ![A mobile veterinary service truck is parked outside a barn for on-site livestock treatment.](/assets/pamphlet_images/veterinary_medicine_p016_img1.png)
 
@@ -311,8 +287,6 @@
 #### Req 6b: Specialized Nonclinical Field Mentorship
 **Official Requirement 6b:** Spend as much time as possible with a veterinarian who works in one of the fields listed in requirement 2. Learn what special training beyond veterinary medical school may have been required for that position. Learn about any special or unusual activities required of this position. Prepare a presentation and share what you have learned about this field of veterinary medicine with your counselor. Include how this field serves the needs of the general public.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 16, p. 30)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Spend As Much Time As)
-- **Common Myth:** Non-clinical veterinarians complete shorter educational programs because they do not manage private animal clinics.
-- **Pamphlet Fact:** Specialized non-clinical veterinarians complete post-doctoral fellowships or board residencies in pathology, toxicology, or epidemiology.
 
 ![A veterinary surgical team performs an operation using sterile instruments in an operating room.](/assets/pamphlet_images/veterinary_medicine_p038_img1.png)
 
@@ -328,7 +302,6 @@
 ### Req 7: Veterinary Career Exploration Pathways
 **Official Requirement 7 (Parent Overview):** Select one career from any of the lists in requirements 1 or 2. Discuss the following with your counselor: (a) Why would one choose this particular career field? (b) What would you like about this job? (c) What would be the biggest challenges in doing this job? (d) What to you has been the most surprising aspect of this job? (e) What continuing education requirements are required to maintain certification for this job?
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Maintain strong physical ergonomics and mental health wellness habits to mitigate occupational strain and compassion fatigue.
 - **Common Myth:** Veterinarians complete their formal scientific education upon graduation without needing ongoing professional training or license renewals.
 - **Pamphlet Fact:** Choosing a veterinary specialty requires balancing personal interests with rigorous educational demands and mandatory lifetime licensing requirements.
 
@@ -341,8 +314,6 @@
 #### Req 7a: Career Pathway Selection Factors
 **Official Requirement 7a:** Why would one choose this particular career field.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
-- **Common Myth:** All veterinarians choose the profession solely because they enjoyed playing with domestic family puppies.
-- **Pamphlet Fact:** Veterinary students frequently select career tracks based on specific scientific passions for surgery, pathology, or herd management.
 
 ![Veterinary research scientists examine laboratory test samples to study animal diseases.](/assets/pamphlet_images/veterinary_medicine_p032_img1.png)
 
@@ -355,8 +326,6 @@
 #### Req 7b: Veterinary Career Professional Rewards
 **Official Requirement 7b:** What would you like about this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Would You Like About This)
-- **Common Myth:** The primary satisfaction in veterinary medicine comes from avoiding human social interactions during workday shifts.
-- **Pamphlet Fact:** Veterinarians often cite saving critically ill patients and building lasting client relationships as the most rewarding job elements.
 
 ![A boy smiles with a colorful companion parrot perched closely on his shoulder outdoors.](/assets/pamphlet_images/veterinary_medicine_p042_img1.png)
 
@@ -369,8 +338,6 @@
 #### Req 7c: Veterinary Profession Daily Challenges
 **Official Requirement 7c:** What would be the biggest challenges in doing this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Would Be the Biggest Challenges)
-- **Common Myth:** The primary difficulty in veterinary medicine is simply memorizing pharmaceutical names and anatomy terms.
-- **Pamphlet Fact:** Veterinary medicine carries significant emotional burdens including client grief, difficult financial constraints, and physical strain.
 
 ![A young woman holds her small pet terrier, illustrating the close bond between pets and owners.](/assets/pamphlet_images/veterinary_medicine_p043_img1.png)
 
@@ -383,8 +350,6 @@
 #### Req 7d: Surprising Professional Career Aspects
 **Official Requirement 7d:** What to you has been the most surprising aspect of this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (You Has Been the Most)
-- **Common Myth:** Veterinarians work almost entirely in isolation with animals without needing human interpersonal skills.
-- **Pamphlet Fact:** Veterinarians spend substantial daily time educating human clients, managing business operations, and directing clinic staff.
 
 ![A veterinarian wearing scrubs and a mask carefully examines a domestic cat on an exam table.](/assets/pamphlet_images/veterinary_medicine_p045_img1.png)
 
@@ -397,8 +362,6 @@
 #### Req 7e: Mandatory Continuing Professional Education
 **Official Requirement 7e:** What continuing education requirements are required to maintain certification for this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Continuing Education)
-- **Common Myth:** Once a veterinarian obtains their doctoral diploma, their formal scientific education is finished for life.
-- **Pamphlet Fact:** State veterinary medical boards require between fifteen and thirty continuing education hours annually for license renewal.
 
 | Req 7e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

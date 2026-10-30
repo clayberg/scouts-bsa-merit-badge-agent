@@ -55,8 +55,6 @@
 **Official Requirement 1a:** Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Canoeing Hazards and First Aid)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** River strainers act like simple barriers that can be safely bumped by a canoe.
-- **Pamphlet Fact:** Downed trees allow water to pass while pinning hulls and paddlers under massive hydrostatic pressure.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -64,7 +62,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
-![Canoeing Requirement 1 figure showing check local forecasts for wind velocity and approaching squalls before launching any craft.](/assets/pamphlet_images/canoeing_p003_img1.png)
+![Check local forecasts for wind velocity and approaching squalls before launching any craft.](/assets/pamphlet_images/canoeing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -75,8 +73,6 @@
 #### Req 1b: Paddling Injury Field Care
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while canoeing: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** Hypothermia occurs only when air temperatures drop below freezing levels during winter paddling excursions.
-- **Pamphlet Fact:** Cold water shock triggers immediate involuntary gasping and hyperventilation within the first minute of immersion.
 
 ![A hand holds a medical record form required before participating in aquatic events.](/assets/pamphlet_images/canoeing_p013_img1.png)
 
@@ -95,10 +91,8 @@
 #### Req 1c: Safety Afloat Protocol Standards
 **Official Requirement 1c:** Discuss the Scouting America Safety Afloat policy. Tell how it applies to canoeing activities.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** Safety Afloat guidelines apply only to moving whitewater trips and unorganized open lake crossings.
-- **Pamphlet Fact:** Scouting America Safety Afloat policy requires trained adult supervision and dedicated rescue craft for youth trips.
 
-![Canoeing Requirement 2 figure showing enter water feet first over the head to prove recovery and orientation.](/assets/pamphlet_images/canoeing_p007_img1.png)
+![Enter water feet first over the head to prove recovery and orientation.](/assets/pamphlet_images/canoeing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -145,8 +139,6 @@
 #### Req 3a: Canoe Structural Component Identification
 **Official Requirement 3a:** Name and point out the major parts of a canoe.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Out the Major)
-- **Common Myth:** The bow and stern decks have identical designs and identical internal flotation volumes.
-- **Pamphlet Fact:** Thwarts brace the gunwales against water pressure and must never serve as passenger seating.
 
 ![Dark thunderhead clouds rolling over the horizon signal incoming squalls for paddlers.](/assets/pamphlet_images/canoeing_p025_img1.png)
 
@@ -159,8 +151,6 @@
 #### Req 3b: Hull Hydrodynamic Performance Dynamics
 **Official Requirement 3b:** Describe how the length and shape of a canoe affect its performance.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Length and Shape of A)
-- **Common Myth:** Hull length has no direct relationship with forward speed or water resistance while paddling.
-- **Pamphlet Fact:** Longer canoes have greater hull speed and glide whereas shorter canoes turn much faster.
 
 ![A top-down view shows the interior layout, ribs, thwarts, and seats of a wooden canoe.](/assets/pamphlet_images/canoeing_p011_img1.png)
 
@@ -186,8 +176,6 @@
 #### Req 4a: Canoe Paddle Component Anatomy
 **Official Requirement 4a:** Name and point out the parts of a paddle.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Canoeing Requirement 4a Techniques)
-- **Common Myth:** The blade and the paddle shaft are always manufactured as two entirely separate components.
-- **Pamphlet Fact:** The throat is the tapered junction where the cylindrical shaft flares into the flat blade.
 
 ![A paddler keeps his center of gravity low and grasps both gunwales while boarding safely.](/assets/pamphlet_images/canoeing_p038_img1.png)
 
@@ -200,8 +188,6 @@
 #### Req 4b: Ergonomic Paddle Sizing Methods
 **Official Requirement 4b:** Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)* • **Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist (Size A Paddle for A)
-- **Common Myth:** Taller individuals always require significantly wider blades to propel a tandem canoe efficiently.
-- **Pamphlet Fact:** Proper paddle sizing aligns shaft length directly with the distance between eye level and water.
 
 ![The Safety Afloat emblem emphasizes water safety guidelines for paddle excursions.](/assets/pamphlet_images/canoeing_p012_img1.png)
 
@@ -227,8 +213,6 @@
 #### Req 5a: Lifejacket Function Buoyancy Requirements
 **Official Requirement 5a:** Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Characteristics of Life Jackets)
-- **Common Myth:** A lifejacket is only necessary when navigating whitewater rapids or rough ocean surf.
-- **Pamphlet Fact:** Inherent buoyancy vests prevent drowning when cold water shock causes rapid muscular failure.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -247,8 +231,6 @@
 #### Req 5b: Flotation Device Fitting Procedures
 **Official Requirement 5b:** Demonstrate how to select and properly fit the correct size life jacket.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)* • **Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist (Size Life Jacket)
-- **Common Myth:** Sizing lifejackets depends on chest circumference alone without considering user body weight ratings.
-- **Pamphlet Fact:** A properly fitted lifejacket remains below the chin when lifted firmly by shoulder straps.
 
 ![Assorted dry bags and waterproof containers protect gear from swamping and water leaks.](/assets/pamphlet_images/canoeing_p015_img1.png)
 
@@ -261,8 +243,6 @@
 #### Req 5c: Auxiliary Safety Gear Readiness
 **Official Requirement 5c:** Review the importance of safety and rescue equipment such as a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropes, and throw bag.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Safety and Rescue Equipment)
-- **Common Myth:** An extra paddle is unnecessary on short trips when both paddlers maintain good grips.
-- **Pamphlet Fact:** Rescue throw bags must remain accessible and never tied to canoe thwarts with knots.
 
 ![A Scout wearing a personal flotation device sits in a blue canoe holding a paddle.](/assets/pamphlet_images/canoeing_p033_img1.png)
 
@@ -309,8 +289,6 @@
 #### Req 7a: Safe Canoe Launching Protocols
 **Official Requirement 7a:** Safely carry and launch the canoe from a dock or shore (both, if possible)
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Launch the Canoe from A)
-- **Common Myth:** The stern paddler should push the canoe perpendicular into deep water before boarding.
-- **Pamphlet Fact:** Boarding one person at a time while maintaining gunwale contact prevents shoreline tipping accidents.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -329,8 +307,6 @@
 #### Req 7b: Controlled Dock Shoreline Landings
 **Official Requirement 7b:** Safely land the canoe on a dock or shore (both, if possible) and return it to its proper storage location.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Land the Canoe on A)
-- **Common Myth:** Canoes should ram directly into mud or sand shores at full forward paddling speed.
-- **Pamphlet Fact:** Landing parallel to shore in shallow water prevents grounding damage to the bow stem.
 
 ![A row of canoe paddles illustrates distinct blade shapes, widths, and construction materials.](/assets/pamphlet_images/canoeing_p034_img1.png)
 
@@ -343,8 +319,6 @@
 #### Req 7c: Paddler Kneeling Seating Postures
 **Official Requirement 7c:** Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each position.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Kneeling and Sitting Positions)
-- **Common Myth:** Sitting on the seat bench provides superior hull stability in rough choppy waves.
-- **Pamphlet Fact:** Kneeling lowers the paddlers center of mass and anchors the body to the hull.
 
 ![Four Scouts in life vests stand on shore measuring paddle lengths against their shoulders.](/assets/pamphlet_images/canoeing_p035_img2.png)
 
@@ -357,8 +331,6 @@
 #### Req 7d: In-Flight Paddler Position Switching
 **Official Requirement 7d:** Change places while afloat in the canoe.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Change Places While Afloat)
-- **Common Myth:** Both paddlers can stand up simultaneously to walk past each other in midships.
-- **Pamphlet Fact:** One paddler stays low and centered while the other crawls carefully overhead between seats.
 
 ![A paddler stabilizes the canoe by bracing a paddle shaft firmly across the gunwales.](/assets/pamphlet_images/canoeing_p039_img1.png)
 
@@ -384,8 +356,6 @@
 #### Req 8a: Deep Water Self Reentry
 **Official Requirement 8a:** Safely exit the canoe in deep water without losing contact with the canoe. Reenter the canoe with the assistance of the other paddler without capsizing the boat.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Exit the Canoe in Deep)
-- **Common Myth:** Reentering a canoe requires pulling down forcefully with arms without kicking the legs.
-- **Pamphlet Fact:** Kicking your feet to horizontal enables sliding your chest smoothly across the gunwale edge.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -405,8 +375,6 @@
 #### Req 8b: Controlled Capsize Flotation Support
 **Official Requirement 8b:** Safely perform a controlled capsize of the canoe and demonstrate how staying with a capsized canoe will support both paddlers.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist (Controlled Capsize of the Canoe)
-- **Common Myth:** A fully swamped aluminum or composite canoe will sink straight to lake bottoms.
-- **Pamphlet Fact:** Holding onto opposing ends of a capsized canoe keeps paddlers afloat and visible.
 
 ![A paddler kneels on the bottom of a canoe to lower his center of gravity for stability.](/assets/pamphlet_images/canoeing_p043_img2.png)
 
@@ -419,8 +387,6 @@
 #### Req 8c: Swamped Canoe Shore Transport
 **Official Requirement 8c:** Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Tow or Push A Swamped)
-- **Common Myth:** Swimmers should attempt to swim beside the canoe rather than pushing from ends.
-- **Pamphlet Fact:** Pushing from the stern while flutter kicking maintains forward progress toward shallow lake shores.
 
 ![A solo paddler kneels near the center thwart to maintain balance during water strokes.](/assets/pamphlet_images/canoeing_p043_img3.png)
 
@@ -434,8 +400,6 @@
 #### Req 8d: Deep Water Boat Rescue
 **Official Requirement 8d:** In deep water, rescue a swamped canoe and its paddlers. After checking that those in the water do not need immediate assistance, empty the swamped canoe and help the paddlers safely reenter their boat without capsizing.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Deep Water Rescue A Swamped)
-- **Common Myth:** Bailing with a small cup is the fastest method to empty flooded canoes.
-- **Pamphlet Fact:** Rolling the swamped canoe upside down breaks surface tension and dumps trapped water quickly.
 
 ![Two young paddlers pull their canoe onto the sandy beach after completing their run.](/assets/pamphlet_images/canoeing_p045_img1.png)
 
@@ -449,8 +413,6 @@
 #### Req 8e: Conscious Swimmer Water Rescue
 **Official Requirement 8e:** Perform a canoe rescue of a conscious swimmer.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Canoe Rescue of A Conscious)
-- **Common Myth:** A panicking swimmer should be pulled aboard directly over the center side gunwale.
-- **Pamphlet Fact:** Rescuing over the bow or stern prevents the swimmer from capsizing the rescue canoe.
 
 ![Directional arrows illustrate how synchronized draw strokes turn a tandem canoe smoothly.](/assets/pamphlet_images/canoeing_p052_img1.png)
 
@@ -463,8 +425,6 @@
 #### Req 8f: Rescue Throw Bag Deployment
 **Official Requirement 8f:** Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30 feet away. Show how to repack the bag when done.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 8f Hands-On Skill Station & EDGE Verification Checklist (Rescue Throw Bag from Shore)
-- **Common Myth:** Coiling rescue rope in loops before throwing delivers greater distance and accuracy.
-- **Pamphlet Fact:** Stuffing throw rope loosely into the bag by hand prevents knots during subsequent deployments.
 
 ![Bow and stern paddlers coordinate strokes to guide their canoe across open water.](/assets/pamphlet_images/canoeing_p071_img1.png)
 
@@ -491,8 +451,6 @@
 #### Req 9a: Stationary Pivot Hull Rotation
 **Official Requirement 9a:** Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to the left using draw and pushaway strokes or using forward and reverse sweeps staying within 2 boat lengths of the starting position.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9a Structured Technical Study & Explanation Matrix (Pivot Spin the Canoe Half)
-- **Common Myth:** Pivoting a canoe requires moving forward through a large wide steering circle.
-- **Pamphlet Fact:** Simultaneous draw and pushaway strokes by bow and stern spin the canoe in place.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -519,8 +477,6 @@
 #### Req 9b: Lateral Abeam Maneuver Execution
 **Official Requirement 9b:** Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting position using the draw and pushaway strokes.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9b Structured Technical Study & Explanation Matrix (Move A Canoe Sideways Abeam)
-- **Common Myth:** Moving sideways requires angled diagonal forward paddling strokes into dock edges.
-- **Pamphlet Fact:** Matching parallel draw strokes moves the hull broadside through water without twisting the heading.
 
 ![A manual piston bilge pump quickly clears standing water from an open canoe hull.](/assets/pamphlet_images/canoeing_p080_img2.png)
 
@@ -541,8 +497,6 @@
 #### Req 9c: Controlled Forward Motion Stop
 **Official Requirement 9c:** While in forward motion, stop the canoe within two boat lengths using the backstroke.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Forward Motion Stop the Canoe)
-- **Common Myth:** Dragging paddles flat alongside the gunwale stops a moving canoe faster than backstroking.
-- **Pamphlet Fact:** Placing blade faces square against forward water flow arrests hull glide within two lengths.
 
 ![A rescuer heaves a floating throw bag across the water to reach a distressed swimmer.](/assets/pamphlet_images/canoeing_p082_img1.png)
 
@@ -555,8 +509,6 @@
 #### Req 9d: Stern Solo Directional Steering
 **Official Requirement 9d:** While in the stern position and without assistance from the bow paddler, paddle in a straight line 15-20 boat lengths using an appropriate steering stroke, e. g., the J-stroke or thumb-down rudder stroke with or without a stern pry.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Stern Position and Without Assistance)
-- **Common Myth:** Steering straight from the stern requires constantly switching paddle sides every few strokes.
-- **Pamphlet Fact:** Rotating the top thumb downward during the power phase corrects natural boat yawing.
 
 ![Two paddlers demonstrate that a completely waterlogged canoe retains positive buoyancy.](/assets/pamphlet_images/canoeing_p087_img1.png)
 
@@ -569,8 +521,6 @@
 #### Req 9e: Tandem Forward Straight Cruising
 **Official Requirement 9e:** Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as necessary the forward stroke, draw stroke or forward sweep and the stern paddler using an appropriate steering stroke, e. g., the J-stroke or thumb-down rudder stroke with or without a stern pry.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9e Structured Technical Study & Explanation Matrix (Move the Canoe in A)
-- **Common Myth:** The stern paddler should dictate the stroke rate and cadence for tandem crews.
-- **Pamphlet Fact:** Setting a steady rhythm in the bow enables the stern paddler to match cadence.
 
 ![Swimmers hold the gunwales and kick toward shore to move their flooded canoe safely.](/assets/pamphlet_images/canoeing_p088_img1.png)
 
@@ -591,8 +541,6 @@
 #### Req 9f: Moving Arc Turn Execution
 **Official Requirement 9f:** While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat lengths with the bow paddler using as necessary either the draw stroke or forward sweep and the stern paddler using only the forward stroke. Repeat the maneuver turning the canoe 90° to the left.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9f Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn the)
-- **Common Myth:** Turning right always requires both paddlers to backpaddle furiously on the right side.
-- **Pamphlet Fact:** A forward sweep in the bow swings the nose across water through an arc.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -612,8 +560,6 @@
 #### Req 9g: Reverse Straight Line Travel
 **Official Requirement 9g:** Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back stroke, reverse sweep or draw stroke in the bow or the stern.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9g Structured Technical Study & Explanation Matrix (Move the Canoe Backwards)
-- **Common Myth:** Backing up requires paddlers to turn their bodies completely around in seats.
-- **Pamphlet Fact:** Reversing paddle orientation while keeping blade faces vertical propels the canoe backwards in line.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -632,8 +578,6 @@
 #### Req 9h: Figure Eight Course Navigation
 **Official Requirement 9h:** Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate strokes including the draw stroke, and the forward and reverse sweeps.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9h Structured Technical Study & Explanation Matrix (Figure of Course Around Markers)
-- **Common Myth:** A figure eight course can be completed using only basic forward paddling strokes.
-- **Pamphlet Fact:** Combining wide sweeping strokes with precise inward draws weaves the canoe cleanly around buoys.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |

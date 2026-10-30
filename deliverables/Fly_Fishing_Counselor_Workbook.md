@@ -53,10 +53,8 @@
 #### Req 1a: River Current Environmental Hazards
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in fly-fishing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Name and explain five safety practices you should always follow while fly-fishing.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Fly-Fishing Hazards and First Aid)
-- **Common Myth:** Smooth rubber soles provide sufficient traction on wet, mossy river rocks during heavy spring currents.
-- **Pamphlet Fact:** Studded rubber or felt soles bite through algal slime to maintain contact with river bedrock.
 
-![Fly-Fishing Requirement 1 figure showing tight neoprene belts prevent river water from rapidly filling lower wader legs during falls.](/assets/pamphlet_images/fly_fishing_p003_img1.png)
+![Tight neoprene belts prevent river water from rapidly filling lower wader legs during falls.](/assets/pamphlet_images/fly_fishing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -68,8 +66,6 @@
 #### Req 1b: Angler Medical Concern Management
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fly-fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
-- **Common Myth:** Drinking clear mountain creek water directly from the stream is completely safe while wading.
-- **Pamphlet Fact:** Untreated surface stream water often carries Giardia lamblia cysts that cause severe gastrointestinal illness.
 
 ![An engorged tick represents a common insect hazard encountered outdoors.](/assets/pamphlet_images/fly_fishing_p078_img2.png)
 
@@ -82,10 +78,8 @@
 #### Req 1c: Embedded Hook Extraction Methods
 **Official Requirement 1c:** Explain how to remove a hook that has lodged in someone's arm.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Remove A Hook That Has)
-- **Common Myth:** Yanking a barbed hook straight out backward causes minimal tissue damage to an angler.
-- **Pamphlet Fact:** Backing out an unsnipped barb tears muscle tissue unless pushed through or disengaged with string.
 
-![Fly-Fishing Requirement 2 figure showing match the designated line weight printed on the rod blank to your line.](/assets/pamphlet_images/fly_fishing_p007_img1.png)
+![Match the designated line weight printed on the rod blank to your line.](/assets/pamphlet_images/fly_fishing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -132,8 +126,6 @@
 #### Req 3a: Arbor Knot Spool Attachment
 **Official Requirement 3a:** Tie backing to the arbor of a fly reel spool using an arbor knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Backing to the Arbor)
-- **Common Myth:** Tying backing to a reel spool with a single loose overhand loop prevents spinning.
-- **Pamphlet Fact:** Smooth metal spools require a sliding jam knot to prevent the entire spool bundle from spinning.
 
 **Gear & Readiness Checklist:**
 - [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.
@@ -152,8 +144,6 @@
 #### Req 3b: Backing to Line Connection
 **Official Requirement 3b:** Tie backing to the fly line using a nail (tube) knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Backing to the Fly Line)
-- **Common Myth:** Looping bulky overhand knots between backing and fly line travels smoothly through narrow guides.
-- **Pamphlet Fact:** Bulky knots catch on rod guides during blistering fish runs, breaking light leaders instantly.
 
 ![Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.](/assets/pamphlet_images/fly_fishing_p025_img1.png)
 
@@ -166,8 +156,6 @@
 #### Req 3c: Leader Fly Line Connections
 **Official Requirement 3c:** Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Attach A Leader)
-- **Common Myth:** Tying a thick leader butt to fly line with an arbitrary granny knot transfers energy.
-- **Pamphlet Fact:** Abrupt diameter transitions and crooked knots cause the leader to hinge and collapse mid-air.
 
 ![Founder Robert Baden-Powell wades into a river with a fly rod, illustrating early Scouting lore.](/assets/pamphlet_images/fly_fishing_p011_img1.png)
 
@@ -180,8 +168,6 @@
 #### Req 3d: Tippet Extension Knots
 **Official Requirement 3d:** Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Add A Tippet to A)
-- **Common Myth:** A surgeon knot requires five full line twists to hold light tippet sections securely.
-- **Pamphlet Fact:** Two simple passes through the loop create full rated strength for monofilament tippet junctions.
 
 ![A fly rod section, fly reel, and spool of fly line illustrate key components of a balanced rig.](/assets/pamphlet_images/fly_fishing_p013_img1.png)
 
@@ -194,8 +180,6 @@
 #### Req 3e: Terminal Fly Attachment Knots
 **Official Requirement 3e:** Tie a fly onto the terminal end of the leader using an improved clinch knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Onto the Terminal End)
-- **Common Myth:** Standard clinch knots without the final tag tuck never slip under strong trout strikes.
-- **Pamphlet Fact:** Without the final tag loop lock, slick monofilament pulls through hook eyes under sudden load.
 
 ![Commercial fly line packaging indicates line weight, taper, and floating characteristics.](/assets/pamphlet_images/fly_fishing_p017_img1.png)
 
@@ -293,8 +277,6 @@
 #### Req 7a: Leave No Trace Principles
 **Official Requirement 7a:** Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of the Leave No Trace Seven Principles and the Outdoor Code on fly-fishing resources.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** Small bits of clipped monofilament tippet degrade naturally and harmlessly along riverbanks within weeks.
-- **Pamphlet Fact:** Discarded nylon monofilament persists in river environments for centuries, fatally entangling birds and mammals.
 
 ![A pristine natural lake shows the clean waterways preserved by outdoorsmen.](/assets/pamphlet_images/fly_fishing_p086_img1.png)
 
@@ -308,8 +290,6 @@
 #### Req 7b: Catch Release Revival Techniques
 **Official Requirement 7b:** Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Discuss Fish Water)
-- **Common Myth:** Moving a tired fish rapidly back and forth in river current speeds up gill revival.
-- **Pamphlet Fact:** Forcing fish backward pushes gill covers shut and suffocates them; face them upstream in gentle flow.
 
 ![A fly fisherman wades in a river while loading the rod to cast line onto the water surface.](/assets/pamphlet_images/fly_fishing_p026_img1.png)
 

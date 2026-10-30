@@ -31,7 +31,6 @@
 ### Req 1: Personal Introduction Speech Delivery
 **Official Requirement 1:** Give a three- to five-minute introduction of yourself to an audience such as your troop, class at school, or some other group.
 **Source:** *Official Scouting America Public Speaking Merit Badge Pamphlet (p. 7, p. 10)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Three- to Five-minute Introduction of)
-> **Guide to Safe Scouting Warning:** Clear the speaker staging zone of loose backpack straps and extension cords to prevent trip hazards.
 - **Common Myth:** Speakers believe a self-introduction requires reciting a complete chronological list of personal accomplishments and hobbies.
 - **Pamphlet Fact:** An effective introduction highlights a single defining narrative or core value that builds genuine audience connection.
 
@@ -52,14 +51,8 @@
 ### Req 2: Visual Aid Demonstration Talk
 **Official Requirement 2:** Prepare a three- to five-minute talk on a topic of your choice that incorporates body language and visual aids.
 **Source:** *Official Scouting America Public Speaking Merit Badge Pamphlet (p. 19, p. 31)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Three- to Five-minute Talk)
-> **Guide to Safe Scouting Warning:** Secure easel legs with locking crossbars and tape down projector power cables across walkways.
 - **Common Myth:** Speakers assume visual aids should contain dense explanatory text so the audience can read along.
 - **Pamphlet Fact:** Visual aids must rely on bold graphics or minimal text to support the speaker rather than compete for attention.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Public Speaking Merit Badge: Three- to Five-minute Talk.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Three- to Five-minute Talk.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A Scout presents a formal speech to his patrol during a meeting.](/assets/pamphlet_images/public_speaking_p007_img1.png)
 
@@ -78,7 +71,6 @@
 ### Req 3: Impromptu Speech Organization Strategy
 **Official Requirement 3:** Give an impromptu talk of at least two minutes, either as part of a group discussion or before your counselor. Use a subject selected by your counselor that is interesting to you but that is not known to you in advance and for which you do not have time to prepare.
 **Source:** *Official Scouting America Public Speaking Merit Badge Pamphlet (p. 43, p. 46)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Public Speaking Patrol Safety Briefing)
-> **Guide to Safe Scouting Warning:** Regulate diaphragmatic breathing during adrenaline surges to prevent hyperventilation and maintain vocal control.
 - **Common Myth:** Beginners believe impromptu speaking requires speaking instantaneously without taking several seconds to construct an internal roadmap.
 - **Pamphlet Fact:** Taking five to ten seconds of composed silence to choose an organizational structure yields a coherent, confident speech.
 
@@ -100,7 +92,6 @@
 ### Req 4: Audience Centered Speech Development
 **Official Requirement 4:** Select a topic of interest to your audience. Collect and organize information about the topic and prepare an outline. Write an eight- to 10-minute speech, practice it, then deliver it in a conversational way.
 **Source:** *Official Scouting America Public Speaking Merit Badge Pamphlet (p. 31, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Topic of Interest to Your)
-> **Guide to Safe Scouting Warning:** Drink room-temperature water before extended presentations to lubricate vocal folds and prevent voice strain.
 - **Common Myth:** Speakers believe writing a complete manuscript and memorizing every sentence produces the most professional delivery.
 - **Pamphlet Fact:** Speaking extemporaneously from an outline produces natural vocal inflection and preserves authentic connection with listeners.
 
@@ -123,14 +114,8 @@
 ### Req 5: Parliamentary Procedure Meeting Leadership
 **Official Requirement 5:** Show you know parliamentary procedure by leading a discussion or meeting according to accepted rules of order; or by answering questions on the rules of order.
 **Source:** *Official Scouting America Public Speaking Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (You Know Parliamentary Procedure by)
-> **Guide to Safe Scouting Warning:** Set adequate aisle clearance in meeting halls so participants can move safely to microphones.
 - **Common Myth:** Members think anyone can shout out an opinion at any moment during a formal meeting.
 - **Pamphlet Fact:** Members must be recognized by the presiding officer and speak only to the pending motion.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Public Speaking Merit Badge: You know parliamentary procedure by leading.
-- [ ] Field notebook, verification log sheet, and demonstration materials for You know parliamentary procedure by leading.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A girl holds a microphone to practice clear speech projection.](/assets/pamphlet_images/public_speaking_p048_img1.png)
 

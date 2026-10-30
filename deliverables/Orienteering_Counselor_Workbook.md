@@ -100,8 +100,6 @@
 #### Req 3a: Compass Design and Mechanics
 **Official Requirement 3a:** Explain how a compass works. Describe the features of an orienteering compass.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Compass Works Describe the Features)
-- **Common Myth:** Orienteering compasses function identically to standard military lensatic compasses in map plotting workflows.
-- **Pamphlet Fact:** Baseplates provide directional travel arrows and scaled edges specifically designed for direct map plot calculations.
 
 ![Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.](/assets/pamphlet_images/orienteering_p009_img1.png)
 
@@ -115,10 +113,8 @@
 #### Req 3b: Field Bearing Navigation Technique
 **Official Requirement 3b:** In the field, show how to take a compass bearing and follow.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Field Compass Bearing Follow)
-- **Common Myth:** A navigator must walk with eyes fixed continuously on the compass dial.
-- **Pamphlet Fact:** Following a bearing requires sighting intermediate visual landmarks along the azimuth rather than staring downward at the needle.
 
-![Orienteering Requirement 1 figure showing apply moleskin directly over red friction hotspots before dermal layers separate.](/assets/pamphlet_images/orienteering_p003_img1.png)
+![Apply moleskin directly over red friction hotspots before dermal layers separate.](/assets/pamphlet_images/orienteering_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -142,8 +138,6 @@
 #### Req 4a: Topographic Terrain Feature Analysis
 **Official Requirement 4a:** Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in the field.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Topographic Map Shows Terrain Features)
-- **Common Myth:** Closely spaced contour lines indicate flat open ground suitable for fast running speeds.
-- **Pamphlet Fact:** Concentric closed contours indicate hills, while V shapes pointing uphill represent stream valleys and reentrants.
 
 ![A compass rests over elevation contour lines helping navigators interpret terrain slope.](/assets/pamphlet_images/orienteering_p021_img1.png)
 
@@ -165,10 +159,8 @@
 #### Req 4b: Topographic Cartographic Symbol Identification
 **Official Requirement 4b:** Point out and name 10 symbols on a topographic map.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Out and Name Symbols)
-- **Common Myth:** Colors on topographic maps are decorative and vary according to the individual cartographer whim.
-- **Pamphlet Fact:** Topographic symbols use strict standardization: blue marks water, green marks vegetation, and black marks human structures.
 
-![Orienteering Requirement 2 figure showing point to point navigation across unfamiliar wilderness using specialized map features.](/assets/pamphlet_images/orienteering_p007_img1.png)
+![Point to point navigation across unfamiliar wilderness using specialized map features.](/assets/pamphlet_images/orienteering_p007_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -187,8 +179,6 @@
 #### Req 4c: Magnetic Declination Principles
 **Official Requirement 4c:** Explain the meaning of declination. Tell why you must consider declination when using map and compass together.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Declination Tell Why You Must)
-- **Common Myth:** Magnetic compass needles point directly toward the geographic North Pole axis.
-- **Pamphlet Fact:** Earth magnetic north pole drifts continuously and sits hundreds of miles away from geographic true north.
 
 ![A top view shows the magnetized needle, ruler edges, and rotating bezel of a compass.](/assets/pamphlet_images/orienteering_p010_img2.png)
 
@@ -210,10 +200,8 @@
 #### Req 4d: Magnetic North Meridian Alignment
 **Official Requirement 4d:** Show a topographic map with magnetic north-south lines.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Topographic Map with Magnetic North-south)
-- **Common Myth:** Maps cannot be altered by drawing custom grid lines across the surveyed cartography.
-- **Pamphlet Fact:** Parallel magnetic meridian lines drawn across the sheet eliminate mathematical mental conversions in high speed competition.
 
-![Orienteering Requirement 3 figure showing liquid filled capsule dampens needle oscillation for steady readings while moving.](/assets/pamphlet_images/orienteering_p012_img1.png)
+![Liquid filled capsule dampens needle oscillation for steady readings while moving.](/assets/pamphlet_images/orienteering_p012_img1.png)
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -232,8 +220,6 @@
 #### Req 4e: Map Scale Distance Measurement
 **Official Requirement 4e:** Show how to measure distances on a map using an orienteering compass.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Skill Demonstration Checklist):** Req 4e Hands-On Skill Station & EDGE Verification Checklist (Distances Orienteering Compass)
-- **Common Myth:** Straight map measurements accurately reflect the actual foot distance traversed across mountain slopes.
-- **Pamphlet Fact:** Baseplate rulers calculate horizontal map distances that do not account for slope distance gained during climbs.
 
 ![A baseplate compass rests directly on a detailed topographic map to determine bearings.](/assets/pamphlet_images/orienteering_p018_img1.png)
 
@@ -254,8 +240,6 @@
 #### Req 4f: Field Map Compass Orientation
 **Official Requirement 4f:** Show how to orient a map using a compass.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Skill Demonstration Checklist):** Req 4f Hands-On Skill Station & EDGE Verification Checklist (Orient A Map Using A)
-- **Common Myth:** Topographic maps must always be held with the printed north text facing upright.
-- **Pamphlet Fact:** An oriented map aligns all cartographic representations directly with their actual physical orientations on the ground.
 
 ![A technical diagram illustrates the angular difference between magnetic north and true north.](/assets/pamphlet_images/orienteering_p019_img1.png)
 
@@ -312,8 +296,6 @@
 #### Req 6a: International Control Description Symbols
 **Official Requirement 6a:** Identify 20 international control description symbols. Tell the meaning of each symbol.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (International Control Description Symbols)
-- **Common Myth:** Orienteering control symbols match standard United States Geological Survey map topographic symbols.
-- **Pamphlet Fact:** IOF symbols represent precise physical features like boulders, reentrants, pits, crags, and marsh boundaries globally.
 
 ![Two scouts navigate through dense woodland using an official course map and compass lanyard.](/assets/pamphlet_images/orienteering_p046_img1.png)
 
@@ -327,8 +309,6 @@
 #### Req 6b: Control Description Sheet Interpretation
 **Official Requirement 6b:** Show a control description sheet and explain the information provided.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Control Description Sheet)
-- **Common Myth:** Control description sheets only provide the sequential control number and the three digit flag code.
-- **Pamphlet Fact:** Column C identifies which feature holds the marker when multiple identical landforms appear within a circle.
 
 ![A baseplate compass aligns with map grid lines to plot an accurate cross-country bearing.](/assets/pamphlet_images/orienteering_p020_img1.png)
 
@@ -341,8 +321,6 @@
 #### Req 6c: Navigational Strategies and Terminology
 **Official Requirement 6c:** Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)* • **Organizer (2-Column Comparison Table):** Req 6c Technical Comparison Matrix (You Would Use Them Attack)
-- **Common Myth:** Aiming off indicates poor compass handling and inaccurate straight line navigation habits.
-- **Pamphlet Fact:** Aiming off intentionally targets one side of a feature so the direction to turn along it is known.
 
 ![A well-stocked first aid kit provides supplies needed during an orienteering event.](/assets/pamphlet_images/orienteering_p052_img1.png)
 
@@ -368,8 +346,6 @@
 #### Req 7a: Sanctioned Orienteering Event Participation
 **Official Requirement 7a:** Take part in three orienteering events. One of these must be a cross-country course. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system. Requirement 7(a) can be completed by pairs or groups of Scouts.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Orienteering Events)
-- **Common Myth:** Cross country courses permit visiting assigned control markers in any random preferred order.
-- **Pamphlet Fact:** Cross country orienteering requires visiting flags in predetermined numerical sequence without skipping any checkpoints.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -391,8 +367,6 @@
 #### Req 7b: Post Race Route Analysis Report
 **Official Requirement 7b:** After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3) a discussion of how you could improve your time between control points, and (4) a list of your major weaknesses on this course. Describe what you could do to improve.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Event Copy Master Control)
-- **Common Myth:** A post race report only requires recording the final elapsed finish time.
-- **Pamphlet Fact:** Documenting errors like parallel mistakes or overshoot distances produces actionable technical insights for future races.
 
 ![Scouts inspect detailed navigation maps before setting out on the orienteering course.](/assets/pamphlet_images/orienteering_p059_img1.png)
 
@@ -427,8 +401,6 @@
 #### Req 8a: Cross Country Course Design
 **Official Requirement 8a:** Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare the master map and control description sheet.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Cross-country Course)
-- **Common Myth:** Control markers may be hidden inside hollow trees or buried beneath brush piles.
-- **Pamphlet Fact:** Control circles must center exactly on the mapped feature, with numbers oriented toward magnetic north.
 
 ![Two scouts in uniform check an orienteering map and point along their plotted course route.](/assets/pamphlet_images/orienteering_p027_img1.png)
 
@@ -450,8 +422,6 @@
 #### Req 8b: Score Course Setup Strategy
 **Official Requirement 8b:** Set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes. Set point values for each control. Prepare the master map and control description sheet.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Score Orienteering Course)
-- **Common Myth:** All checkpoints on a score orienteering course must carry identical point values.
-- **Pamphlet Fact:** Distribute high point markers across distant terrain to force trade offs between speed and point acquisition.
 
 ![A venomous black widow spider displays the red hourglass marking on its abdomen.](/assets/pamphlet_images/orienteering_p072_img1.png)
 

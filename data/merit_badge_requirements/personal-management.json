@@ -657,7 +657,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Guard family financial records and online banking credentials against identity theft during purchase research.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)",
       "syllabus_bucket": "In-Class Concept",
@@ -723,19 +723,17 @@
         "Step 3 - Counselor Review: Present the savings timeline to your counselor for structured financial feedback.",
         "Step 4 - Market Research: Compare consumer testing reports across three competitive brands to identify optimum durability."
       ],
-      "gear_checklist": [
-        "Official Personal Management Merit Badge: Family Might Want to Purchase.",
-        "Field notebook, verification log sheet, and demonstration materials for Family Might Want to Purchase.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 1a: Major Family Expense Selection",
         "right_header": "Req 1b: Family Savings Plan Development",
         "left_points": [
-          "(1a) Major Family Expense Selection: Major purchases represent substantial financial investments that impact the overall household operating budget. Families must distinguish between routine consumer goods and significant capital commitments."
+          "(1a) Major Family Expense Selection: Major purchases represent substantial financial investments that impact the overall household operating budget. Families must distinguish between routine consumer goods and significant capital commitments.",
+          "Major Expense Assessment: Family purchases require evaluating initial retail pricing against ongoing operational maintenance costs."
         ],
         "right_points": [
-          "(1b) Family Savings Plan Development: Creating a savings roadmap requires calculating exact periodic contributions toward a fixed target sum. Reviewing this plan with family members ensures mutual accountability and shared sacrifice."
+          "(1b) Family Savings Plan Development: Creating a savings roadmap requires calculating exact periodic contributions toward a fixed target sum. Reviewing this plan with family members ensures mutual accountability and shared sacrifice.",
+          "(1c) Consumer Shopping Strategy Formulation: A disciplined shopping strategy incorporates independent laboratory ratings, warranty analysis, and competitive price matching. Comparing merchant return policies guards against financial losses from defective merchandise."
         ],
         "rows": [
           {
@@ -745,26 +743,27 @@
           },
           {
             "attribute": "Dedicated Savings Plan",
-            "left": "Req 1a: Major Family Expense: Major purchases represent substantial financial investments that impact the overall household operating budget. Families must distinguish between routine consumer goods and significant capital commitments.",
-            "right": "Req 1b: Family Savings Plan: Creating a savings roadmap requires calculating exact periodic contributions toward a fixed target sum. Reviewing this plan with family members ensures mutual accountability and shared sacrifice."
+            "left": "Major Expense Assessment: Family purchases require evaluating initial retail pricing against ongoing operational maintenance costs.",
+            "right": "(1c) Consumer Shopping Strategy Formulation: A disciplined shopping strategy incorporates independent laboratory ratings, warranty analysis, and competitive price matching. Comparing merchant return policies guards against financial losses from defective merchandise."
           },
           {
             "attribute": "Consumer Comparison Research",
-            "left": "Req 1c: Consumer Shopping Strategy: A disciplined shopping strategy incorporates independent laboratory ratings, warranty analysis, and competitive price matching. Comparing merchant return policies guards against financial losses from defective merchandise.",
-            "right": "Dedicated Savings Plan: Establishing scheduled bank deposits ensures accumulated capital covers big ticket household expenses."
+            "left": "Consumer Comparison Research: Objective product testing reports protect households from substandard materials and poor warranties.",
+            "right": "Family Financial Discussion: Collaborative budget meetings help align household priorities before committing substantial financial resources."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 1 Exemplar Workbook Entry",
+        "title": "Personal Management Req 1 Worked Example: Major Family Expense Planning",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Major Family Expense": "Major purchases represent substantial financial investments that impact the overall household operating budget. Families must distinguish between routine consumer goods and significant capital commitments.",
-          "Req 1b - Family Savings Plan": "Creating a savings roadmap requires calculating exact periodic contributions toward a fixed target sum. Reviewing this plan with family members ensures mutual accountability and shared sacrifice.",
-          "Req 1c - Consumer Shopping Strategy": "A disciplined shopping strategy incorporates independent laboratory ratings, warranty analysis, and competitive price matching. Comparing merchant return policies guards against financial losses from defective merchandise."
+          "Phase 1 - Selection Protocol": "Identify one essential household appliance or vehicle needing replacement within the coming year.",
+          "Phase 2 - Savings Timetable": "Calculate the monthly cash allocation needed to accumulate purchase funds without borrowing.",
+          "Phase 3 - Counselor Review": "Present the savings timeline to your counselor for structured financial feedback.",
+          "Phase 4 - Market Research": "Compare consumer testing reports across three competitive brands to identify optimum durability."
         },
-        "sample_output": "Planning Major Family Purchases: Many factors must be considered before making a big purchase (p. 15).",
-        "counselor_tip": "For Personal Management Requirement 1 (Planning Major Family Purchases), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16))."
+        "sample_output": "Planning a major family expenditure requires calculating both the initial purchase price and ongoing maintenance costs over time. A written savings schedule combined with objective consumer quality ratings prevents impulsive household debt.",
+        "counselor_tip": "During the Personal Management Requirement 1 conference on Major Family Expense Planning, verify that the Scout can explain major expense assessment and demonstrate market research: Compare consumer testing reports across three competitive brands to identify optimum durability."
       },
       "quiz_item": {
         "scenario_prompt": "When planning a major family purchase under Requirement 1, why should you compare total cost of ownership and financing options across multiple retailers rather than looking only at the monthly payment?",
@@ -1283,7 +1282,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Store physical cash receipts and transaction logs securely to protect personal spending data from loss.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1351,17 +1350,13 @@
         "Step 3 - Ledger Recording: Enter every purchase receipt into your personal financial log at day end.",
         "Step 4 - Variance Comparison: Calculate the exact mathematical difference between projected allocations and actual thirteen week spending."
       ],
-      "gear_checklist": [
-        "Official Personal Management Merit Badge: Budget Reflecting Your Expected Income.",
-        "Field notebook, verification log sheet, and demonstration materials for Budget Reflecting Your Expected Income.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Thirteen Week Budget Preparation",
         "right_header": "Req 2c: Actual Expense Record Keeping",
         "left_points": [
           "(2a) Thirteen Week Budget Preparation: Projecting income and expenses over thirteen weeks provides a clear picture of short term cash flow. Balancing savings alongside fixed obligations prevents reliance on debt.",
-          "(2b) Income And Expense Balancing: Comparing projected income against anticipated outflows identifies upcoming deficits before obligations come due. Reallocating discretionary dollars into emergency reserves keeps personal finances stable."
+          "(2b) Income and Expense Balancing: Comparing projected income against anticipated outflows identifies upcoming deficits before obligations come due. Reallocating discretionary dollars into emergency reserves keeps personal finances stable."
         ],
         "right_points": [
           "(2c) Actual Expense Record Keeping: Maintaining an unbroken ledger of every receipt over thirteen weeks builds financial awareness. Systematically categorizing every expenditure highlights trends in discretionary cash usage.",
@@ -1375,27 +1370,27 @@
           },
           {
             "attribute": "Balanced Cash Flow",
-            "left": "(2b) Income And Expense Balancing: Comparing projected income against anticipated outflows identifies upcoming deficits before obligations come due. Reallocating discretionary dollars into emergency reserves keeps personal finances stable.",
+            "left": "(2b) Income and Expense Balancing: Comparing projected income against anticipated outflows identifies upcoming deficits before obligations come due. Reallocating discretionary dollars into emergency reserves keeps personal finances stable.",
             "right": "(2d) Budget Performance Variance Evaluation: Evaluating variances between projections and actual numbers reveals systemic underestimation of daily costs. Discussing discrepancies with a counselor identifies behavioral modifications needed for financial solvency."
           },
           {
             "attribute": "Daily Expense Logging",
-            "left": "Req 2a: Thirteen Week Budget: Projecting income and expenses over thirteen weeks provides a clear picture of short term cash flow. Balancing savings alongside fixed obligations prevents reliance on debt.",
-            "right": "Req 2b: Income And Expense Balancing: Comparing projected income against anticipated outflows identifies upcoming deficits before obligations come due. Reallocating discretionary dollars into emergency reserves keeps personal finances stable."
+            "left": "Daily Expense Logging: Recording every cash and digital transaction guarantees accurate thirteen week financial reconciliation.",
+            "right": "Periodic Variance Analysis: Comparing budgeted targets against actual receipts reveals hidden personal consumption patterns."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 2 Exemplar Workbook Entry",
+        "title": "Personal Management Req 2 Worked Example: Personal Budget and Expense Tracking",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Thirteen Week Budget": "Projecting income and expenses over thirteen weeks provides a clear picture of short term cash flow. Balancing savings alongside fixed obligations prevents reliance on debt.",
-          "Req 2b - Income and Expense Balancing": "Comparing projected income against anticipated outflows identifies upcoming deficits before obligations come due. Reallocating discretionary dollars into emergency reserves keeps personal finances stable.",
-          "Req 2c - Actual Expense Record Keeping": "Maintaining an unbroken ledger of every receipt over thirteen weeks builds financial awareness. Systematically categorizing every expenditure highlights trends in discretionary cash usage.",
-          "Req 2d - Budget Performance Variance": "Evaluating variances between projections and actual numbers reveals systemic underestimation of daily costs. Discussing discrepancies with a counselor identifies behavioral modifications needed for financial solvency."
+          "Phase 1 - Income Forecasting": "List all expected earnings, allowances, and monetary gifts across thirteen consecutive calendar weeks.",
+          "Phase 2 - Outflow Allocation": "Assign specific dollar limits to essential obligations, discretionary recreation, and designated savings.",
+          "Phase 3 - Ledger Recording": "Enter every purchase receipt into your personal financial log at day end.",
+          "Phase 4 - Variance Comparison": "Calculate the exact mathematical difference between projected allocations and actual thirteen week spending."
         },
-        "sample_output": "Thirteen Week Personal Budgeting: You can add any money left over at the end of a month to savings or keep it to spend the next month (p. 22).",
-        "counselor_tip": "For Personal Management Requirement 2 (Thirteen Week Personal Budgeting), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23))."
+        "sample_output": "Constructing a thirteen week budget establishes a baseline for managing personal cash flow and savings goals. Logging all actual expenditures enables accurate variance analysis to correct personal spending imbalances.",
+        "counselor_tip": "During the Personal Management Requirement 2 conference on Personal Budget and Expense Tracking, verify that the Scout can explain weekly budget construction and demonstrate variance comparison: Calculate the exact mathematical difference between projected allocations and actual thirteen week spending."
       },
       "quiz_item": {
         "scenario_prompt": "What should you do if your 13-week budget shows that your expected expenses are higher than your expected income?",
@@ -2043,7 +2038,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Avoid carrying large sums of physical cash in public environments to prevent theft or robbery.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)",
       "syllabus_bucket": "In-Class Concept",
@@ -2121,17 +2116,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Monetary Inflow Emotional",
-        "right_header": "Req 3e: Commercial Advertising Product",
+        "left_header": "Req 3a: Monetary Inflow Emotional Responses",
+        "right_header": "Req 3e: Commercial Advertising Product Reality",
         "left_points": [
           "(3a) Monetary Inflow Emotional Responses: Sudden cash windfalls trigger dopamine surges that compromise rational financial planning. Learning to pause before spending allows analytical thinking to override impulsive behavior.",
-          "(3b) Carried Currency Spending Habits: Keeping surplus currency in a wallet creates a false sense of discretionary wealth. Limiting pocket money establishes natural spending limits during routine daily activities.",
-          "(3c) Post Purchase Regret Analysis: The excitement of purchasing novel consumer items typically evaporates within several weeks. Understanding buyer remorse prevents repetitive cycles of wasteful discretionary spending."
+          "(3b) Carried Currency Spending Habits: Keeping surplus currency in a wallet creates a false sense of discretionary wealth. Limiting pocket money establishes natural spending limits during routine daily activities."
         ],
         "right_points": [
           "(3e) Commercial Advertising Product Reality: Commercial advertising employs targeted psychological appeals to manufacture perceived consumer necessity. Comparing promotional promises against authentic consumer reviews reveals real product limitations.",
-          "(3f) Savings Account Banking Mechanics: Commercial banks lend deposited capital to borrowers while crediting account holders compound interest. Federal deposit insurance safeguards individual account balances against institutional commercial insolvency.",
-          "(3g) Charitable Contribution Stewardship Principles: Allocating funds to non-profit organizations supports essential community assistance programs and civic institutions. Practicing charitable stewardship builds gratitude and tempers excessive personal consumer materialism."
+          "(3f) Savings Account Banking Mechanics: Commercial banks lend deposited capital to borrowers while crediting account holders compound interest. Federal deposit insurance safeguards individual account balances against institutional commercial insolvency."
         ],
         "rows": [
           {
@@ -2146,22 +2139,22 @@
           },
           {
             "attribute": "Post Purchase Evaluation",
-            "left": "(3c) Post Purchase Regret Analysis: The excitement of purchasing novel consumer items typically evaporates within several weeks. Understanding buyer remorse prevents repetitive cycles of wasteful discretionary spending.",
-            "right": "(3g) Charitable Contribution Stewardship Principles: Allocating funds to non-profit organizations supports essential community assistance programs and civic institutions. Practicing charitable stewardship builds gratitude and tempers excessive personal consumer materialism."
+            "left": "Post Purchase Evaluation: Buyer remorse occurs when the initial excitement of acquiring novel goods fades.",
+            "right": "Commercial Advertising Influence: Marketing campaigns exploit psychological desires rather than presenting objective product utility facts."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 3 Exemplar Workbook Entry",
+        "title": "Personal Management Req 3 Worked Example: Consumer Psychology and Spending Behavior",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Monetary Inflow Emotional": "Sudden cash windfalls trigger dopamine surges that compromise rational financial planning. Learning to pause before spending allows analytical thinking to override impulsive behavior.",
-          "Req 3b - Carried Currency Spending": "Keeping surplus currency in a wallet creates a false sense of discretionary wealth. Limiting pocket money establishes natural spending limits during routine daily activities.",
-          "Req 3c - Post Purchase Regret Analysis": "The excitement of purchasing novel consumer items typically evaporates within several weeks. Understanding buyer remorse prevents repetitive cycles of wasteful discretionary spending.",
-          "Req 3d - Hunger Impact on Purchasing": "Physiological hunger impairs executive function and increases vulnerability to marketing displays. Preparing strict grocery lists prior to shopping mitigates unplanned spending spikes."
+          "Phase 1 - Emotion Journaling": "Write down feelings experienced immediately upon receiving cash gifts or hourly wages.",
+          "Phase 2 - Cash Audit": "Track personal spending velocity when carrying paper currency versus leaving money home.",
+          "Phase 3 - Item Reflection": "Revisit a past purchase to evaluate satisfaction levels after three full months.",
+          "Phase 4 - Advertising Critique": "Analyze a television commercial to identify specific emotional manipulation techniques used."
         },
-        "sample_output": "Psychology of Spending Habits: Always take time to consider whether you really need or want the item (p. 14).",
-        "counselor_tip": "For Personal Management Requirement 3 (Psychology of Spending Habits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16))."
+        "sample_output": "Consumer behavior reflects psychological triggers, advertising exposure, and emotional responses to receiving funds. Recognizing buyer remorse and peer spending pressure builds deliberate, rational financial self control.",
+        "counselor_tip": "During the Personal Management Requirement 3 conference on Consumer Psychology and Spending Behavior, verify that the Scout can explain emotional receipt response and demonstrate advertising critique: Analyze a television commercial to identify specific emotional manipulation techniques used."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Personal Management pamphlet recommend waiting before buying a newly released item like a video game?",
@@ -2630,7 +2623,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Verify that investment platforms utilize two factor authentication and encrypted communication to prevent account takeover.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)",
       "syllabus_bucket": "In-Class Concept",
@@ -2702,21 +2695,21 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Saving Versus Investing",
+        "left_header": "Req 4a: Saving Versus Investing Differences",
         "right_header": "Req 4c: Simple and Compound Interest",
         "left_points": [
           "(4a) Saving Versus Investing Differences: Saving focuses on safeguarding principal for near term needs through secure banking institutions. Investing commits capital to income producing assets to outpace consumer price inflation.",
           "(4b) Investment Risk Return Dynamics: Expected investment return correlates directly with the magnitude of financial risk undertaken. Balancing risk tolerance against growth objectives prevents panic selling during market contractions."
         ],
         "right_points": [
-          "(4c) Simple And Compound Interest: Simple interest computes earnings solely on the original principal balance deposited. Compound interest reinvests accrued earnings, producing dramatic exponential expansion over multi decade spans.",
+          "(4c) Simple and Compound Interest: Simple interest computes earnings solely on the original principal balance deposited. Compound interest reinvests accrued earnings, producing dramatic exponential expansion over multi decade spans.",
           "(4d) Investment Portfolio Diversification: Diversification distributes financial capital across uncorrelated industries, sectors, and asset classes. This risk management technique insulates investors against catastrophic single company bankruptcy risks."
         ],
         "rows": [
           {
             "attribute": "Capital Preservation Objectives",
             "left": "(4a) Saving Versus Investing Differences: Saving focuses on safeguarding principal for near term needs through secure banking institutions. Investing commits capital to income producing assets to outpace consumer price inflation.",
-            "right": "(4c) Simple And Compound Interest: Simple interest computes earnings solely on the original principal balance deposited. Compound interest reinvests accrued earnings, producing dramatic exponential expansion over multi decade spans."
+            "right": "(4c) Simple and Compound Interest: Simple interest computes earnings solely on the original principal balance deposited. Compound interest reinvests accrued earnings, producing dramatic exponential expansion over multi decade spans."
           },
           {
             "attribute": "Risk Return Correlation",
@@ -2725,22 +2718,22 @@
           },
           {
             "attribute": "Compound Growth Acceleration",
-            "left": "Req 4a: Saving Versus Investing: Saving focuses on safeguarding principal for near term needs through secure banking institutions. Investing commits capital to income producing assets to outpace consumer price inflation.",
-            "right": "Req 4b: Investment Risk Return: Expected investment return correlates directly with the magnitude of financial risk undertaken. Balancing risk tolerance against growth objectives prevents panic selling during market contractions."
+            "left": "Compound Growth Acceleration: Reinvested earnings generate exponential returns over multi decade investment time horizons.",
+            "right": "Portfolio Asset Allocation: Spreading investment capital across distinct asset classes protects portfolios from single sector downturns."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 4 Exemplar Workbook Entry",
+        "title": "Personal Management Req 4 Worked Example: Principles of Saving and Investing",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Saving Versus Investing": "Saving focuses on safeguarding principal for near term needs through secure banking institutions. Investing commits capital to income producing assets to outpace consumer price inflation.",
-          "Req 4b - Investment Risk Return": "Expected investment return correlates directly with the magnitude of financial risk undertaken. Balancing risk tolerance against growth objectives prevents panic selling during market contractions.",
-          "Req 4c - Simple and Compound Interest": "Simple interest computes earnings solely on the original principal balance deposited. Compound interest reinvests accrued earnings, producing dramatic exponential expansion over multi decade spans.",
-          "Req 4d - Investment Portfolio": "Diversification distributes financial capital across uncorrelated industries, sectors, and asset classes. This risk management technique insulates investors against catastrophic single company bankruptcy risks."
+          "Phase 1 - Objective Distinction": "Differentiate short term cash emergency savings goals from multi decade wealth creation investments.",
+          "Phase 2 - Risk Calibration": "Assess your personal risk tolerance against potential market price downturns before buying assets.",
+          "Phase 3 - Interest Calculation": "Compute simple interest returns against compounded interest growth on a thousand dollar principal.",
+          "Phase 4 - Asset Diversification": "Model a diversified portfolio allocating capital across domestic equities, index funds, and bonds."
         },
-        "sample_output": "Saving and Investing Principles: The value of investments with higher risk, such as stocks, will tend to go up and down a lot (p. 29).",
-        "counselor_tip": "For Personal Management Requirement 4 (Saving and Investing Principles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31))."
+        "sample_output": "Saving prioritizes capital preservation and immediate liquidity, whereas investing accepts calculated market risks for compound growth. Understanding compound interest and broad asset diversification prepares individuals to build multi decade retirement wealth.",
+        "counselor_tip": "During the Personal Management Requirement 4 conference on Principles of Saving and Investing, verify that the Scout can explain capital preservation objectives and demonstrate asset diversification: Model a diversified portfolio allocating capital across domestic equities, index funds, and bonds."
       },
       "quiz_item": {
         "scenario_prompt": "How does diversification help protect an investor's portfolio over time?",
@@ -3225,7 +3218,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Verify federal deposit insurance coverage limits before transferring funds to non-bank investment intermediaries.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)",
       "syllabus_bucket": "In-Class Concept",
@@ -3303,19 +3296,17 @@
         "right_header": "Req 5d: Certificate of Deposit Accounts",
         "left_points": [
           "(5a) Common Stock Equity Ownership: Common stocks represent fractional equity ownership in public corporations, conveying voting rights and dividend eligibility. Share prices fluctuate daily based on corporate earnings, investor sentiment, and general macroeconomic conditions.",
-          "(5b) Mutual Fund Investment Structures: Mutual funds pool resources from numerous individual investors to build broadly diversified portfolios of assets. Professional fund managers rebalance assets according to stated investment objectives, charging ongoing expense ratios.",
-          "(5c) Life Insurance Financial Mechanics: Life insurance contracts provide financial compensation to designated beneficiaries upon the policyholder death. Certain permanent policies accumulate cash value, functioning as conservative long term wealth preservation vehicles."
+          "(5b) Mutual Fund Investment Structures: Mutual funds pool resources from numerous individual investors to build broadly diversified portfolios of assets. Professional fund managers rebalance assets according to stated investment objectives, charging ongoing expense ratios."
         ],
         "right_points": [
-          "(5d) Certificate Of Deposit Accounts: A certificate of deposit commits deposited funds to a bank for a designated maturity timeframe. In exchange for illiquidity, banks pay higher fixed interest rates backed by federal deposit insurance.",
-          "(5e) Commercial Bank Savings Accounts: Savings accounts offer secure depositories for cash reserves with immediate liquidity for emergency expenses. Modest interest rates preserve nominal capital while federal guarantees ensure safety against bank defaults.",
-          "(5f) United States Savings Bonds: United States savings bonds are debt instruments issued by the Treasury to fund federal obligations. They provide conservative, non-marketable investments that accrue interest until reaching their designated maturity date."
+          "(5d) Certificate of Deposit Accounts: A certificate of deposit commits deposited funds to a bank for a designated maturity timeframe. In exchange for illiquidity, banks pay higher fixed interest rates backed by federal deposit insurance.",
+          "(5e) Commercial Bank Savings Accounts: Savings accounts offer secure depositories for cash reserves with immediate liquidity for emergency expenses. Modest interest rates preserve nominal capital while federal guarantees ensure safety against bank defaults."
         ],
         "rows": [
           {
             "attribute": "Corporate Equity Ownership",
             "left": "(5a) Common Stock Equity Ownership: Common stocks represent fractional equity ownership in public corporations, conveying voting rights and dividend eligibility. Share prices fluctuate daily based on corporate earnings, investor sentiment, and general macroeconomic conditions.",
-            "right": "(5d) Certificate Of Deposit Accounts: A certificate of deposit commits deposited funds to a bank for a designated maturity timeframe. In exchange for illiquidity, banks pay higher fixed interest rates backed by federal deposit insurance."
+            "right": "(5d) Certificate of Deposit Accounts: A certificate of deposit commits deposited funds to a bank for a designated maturity timeframe. In exchange for illiquidity, banks pay higher fixed interest rates backed by federal deposit insurance."
           },
           {
             "attribute": "Pooled Investment Structures",
@@ -3324,22 +3315,22 @@
           },
           {
             "attribute": "Time Deposit Security",
-            "left": "(5c) Life Insurance Financial Mechanics: Life insurance contracts provide financial compensation to designated beneficiaries upon the policyholder death. Certain permanent policies accumulate cash value, functioning as conservative long term wealth preservation vehicles.",
-            "right": "(5f) United States Savings Bonds: United States savings bonds are debt instruments issued by the Treasury to fund federal obligations. They provide conservative, non-marketable investments that accrue interest until reaching their designated maturity date."
+            "left": "Time Deposit Security: Certificates of deposit guarantee fixed interest yields in exchange for locking up capital.",
+            "right": "Sovereign Debt Guarantees: United States savings bonds provide government backed principal security with fixed maturity schedules."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 5 Exemplar Workbook Entry",
+        "title": "Personal Management Req 5 Worked Example: Investment Vehicles and Financial Instruments",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Common Stock Equity Ownership": "Common stocks represent fractional equity ownership in public corporations, conveying voting rights and dividend eligibility. Share prices fluctuate daily based on corporate earnings, investor sentiment, and general macroeconomic conditions.",
-          "Req 5b - Mutual Fund Investment": "Mutual funds pool resources from numerous individual investors to build broadly diversified portfolios of assets. Professional fund managers rebalance assets according to stated investment objectives, charging ongoing expense ratios.",
-          "Req 5c - Life Insurance Financial": "Life insurance contracts provide financial compensation to designated beneficiaries upon the policyholder death. Certain permanent policies accumulate cash value, functioning as conservative long term wealth preservation vehicles.",
-          "Req 5d - Certificate of Deposit": "A certificate of deposit commits deposited funds to a bank for a designated maturity timeframe. In exchange for illiquidity, banks pay higher fixed interest rates backed by federal deposit insurance."
+          "Phase 1 - Equity Mechanics": "Analyze how corporate revenue growth translates into common stock appreciation and dividends.",
+          "Phase 2 - Fund Evaluation": "Examine a mutual fund prospectus to determine expense ratios and underlying holdings.",
+          "Phase 3 - Fixed Income Comparison": "Compare certificate of deposit annual yields against standard commercial bank savings rates.",
+          "Phase 4 - Bond Analysis": "Review the maturity schedule and backing of a United States savings bond."
         },
-        "sample_output": "Common Financial Investment Vehicles: The value of less risky investments, such as bonds, will rise and fall less dramatically (p. 30).",
-        "counselor_tip": "For Personal Management Requirement 5 (Common Financial Investment Vehicles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31))."
+        "sample_output": "Common stocks offer fractional corporate ownership with price volatility, whereas mutual funds provide immediate collective portfolio diversification. Fixed income instruments like certificates of deposit and savings bonds trade market upside for guaranteed return of principal.",
+        "counselor_tip": "During the Personal Management Requirement 5 conference on Investment Vehicles and Financial Instruments, verify that the Scout can explain corporate equity ownership and demonstrate bond analysis: Review the maturity schedule and backing of a United States savings bond."
       },
       "quiz_item": {
         "scenario_prompt": "What is the main difference between buying a single company's common stock and investing in a mutual fund?",
@@ -3692,7 +3683,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain active automobile liability coverage documentation in vehicle glove compartments for roadside emergency inspections.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)",
       "syllabus_bucket": "In-Class Concept",
@@ -3762,21 +3753,21 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Automobile Insurance Coverage",
+        "left_header": "Req 6a: Automobile Insurance Coverage Analysis",
         "right_header": "Req 6c: Property and Renter Insurance",
         "left_points": [
           "(6a) Automobile Insurance Coverage Analysis: Automobile insurance provides financial indemnity against vehicular damage, medical costs, and civil liability claims. Policies divide coverage across bodily injury, property damage, collision, and comprehensive hazard clauses.",
           "(6b) Health Insurance Policy Structures: Health insurance mitigates exorbitant costs associated with illnesses, emergency hospitalizations, and specialized pharmaceutical treatments. Co-payments, deductibles, and annual out of pocket maximums dictate the insured direct financial exposure."
         ],
         "right_points": [
-          "(6c) Property And Renter Insurance: Homeowner policies cover structural dwellings, external outbuildings, and personal liability for injuries on premises. Renter insurance protects personal property within leased residences against peril, theft, and water leaks.",
+          "(6c) Property and Renter Insurance: Homeowner policies cover structural dwellings, external outbuildings, and personal liability for injuries on premises. Renter insurance protects personal property within leased residences against peril, theft, and water leaks.",
           "(6d) Life Insurance Structure Comparison: Term insurance provides pure death benefit protection over a specified duration at low cost. Whole life policies combine life coverage with permanent cash surrender value, requiring substantial premiums."
         ],
         "rows": [
           {
             "attribute": "Risk Transfer Mechanism",
             "left": "(6a) Automobile Insurance Coverage Analysis: Automobile insurance provides financial indemnity against vehicular damage, medical costs, and civil liability claims. Policies divide coverage across bodily injury, property damage, collision, and comprehensive hazard clauses.",
-            "right": "(6c) Property And Renter Insurance: Homeowner policies cover structural dwellings, external outbuildings, and personal liability for injuries on premises. Renter insurance protects personal property within leased residences against peril, theft, and water leaks."
+            "right": "(6c) Property and Renter Insurance: Homeowner policies cover structural dwellings, external outbuildings, and personal liability for injuries on premises. Renter insurance protects personal property within leased residences against peril, theft, and water leaks."
           },
           {
             "attribute": "Motor Vehicle Coverage",
@@ -3785,22 +3776,22 @@
           },
           {
             "attribute": "Medical Expense Protection",
-            "left": "Req 6a: Automobile Insurance: Automobile insurance provides financial indemnity against vehicular damage, medical costs, and civil liability claims. Policies divide coverage across bodily injury, property damage, collision, and comprehensive hazard clauses.",
-            "right": "Req 6b: Health Insurance Policy: Health insurance mitigates exorbitant costs associated with illnesses, emergency hospitalizations, and specialized pharmaceutical treatments. Co-payments, deductibles, and annual out of pocket maximums dictate the insured direct financial exposure."
+            "left": "Medical Expense Protection: Health insurance caps maximum out of pocket expenses for major surgical care.",
+            "right": "Property Hazard Indemnity: Homeowner policies indemnify structural replacement costs while renter coverage protects interior personal property."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 6 Exemplar Workbook Entry",
+        "title": "Personal Management Req 6 Worked Example: Insurance Fundamentals and Risk Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Automobile Insurance Coverage": "Automobile insurance provides financial indemnity against vehicular damage, medical costs, and civil liability claims. Policies divide coverage across bodily injury, property damage, collision, and comprehensive hazard clauses.",
-          "Req 6b - Health Insurance Policy": "Health insurance mitigates exorbitant costs associated with illnesses, emergency hospitalizations, and specialized pharmaceutical treatments. Co-payments, deductibles, and annual out of pocket maximums dictate the insured direct financial exposure.",
-          "Req 6c - Property and Renter Insurance": "Homeowner policies cover structural dwellings, external outbuildings, and personal liability for injuries on premises. Renter insurance protects personal property within leased residences against peril, theft, and water leaks.",
-          "Req 6d - Life Insurance Structure": "Term insurance provides pure death benefit protection over a specified duration at low cost. Whole life policies combine life coverage with permanent cash surrender value, requiring substantial premiums."
+          "Phase 1 - Risk Identification": "Catalog potential household liabilities including medical emergencies, vehicle accidents, and property losses.",
+          "Phase 2 - Policy Comparison": "Review automobile liability minimums against recommended umbrella limits to protect personal assets.",
+          "Phase 3 - Deductible Calculation": "Calculate how deductible selections alter monthly insurance premiums versus out of pocket risks.",
+          "Phase 4 - Policy Term Evaluation": "Compare low cost term life protection against cash value whole life premiums."
         },
-        "sample_output": "Personal and Family Insurance: Whole life insurance pays a specified amount regardless of when you die (p. 58).",
-        "counselor_tip": "For Personal Management Requirement 6 (Personal and Family Insurance), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59))."
+        "sample_output": "Insurance products transfer catastrophic financial liabilities from individuals to collective risk-pooling corporations. Selecting appropriate coverage limits for health, property, and life safeguards households against unexpected insolvency.",
+        "counselor_tip": "During the Personal Management Requirement 6 conference on Insurance Fundamentals and Risk Management, verify that the Scout can explain risk transfer mechanism and demonstrate policy term evaluation: Compare low cost term life protection against cash value whole life premiums."
       },
       "quiz_item": {
         "scenario_prompt": "How does term life insurance differ from whole life insurance according to the Personal Management pamphlet?",
@@ -4261,7 +4252,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Shred physical credit card offers and pre-approved loan letters to prevent fraudulent account origination.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)",
       "syllabus_bucket": "In-Class Concept",
@@ -4334,44 +4325,44 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 7a: Loan Mechanics and APR",
-        "right_header": "Req 7c: Payment Card Structural",
+        "right_header": "Req 7c: Payment Card Structural Differences",
         "left_points": [
-          "(7a) Loan Mechanics And APR: A loan represents borrowed principal that must be repaid alongside accrued interest charges over time. The Annual Percentage Rate standardizes borrowing expenses by combining interest rates with mandatory upfront fees.",
+          "(7a) Loan Mechanics and APR: A loan represents borrowed principal that must be repaid alongside accrued interest charges over time. The Annual Percentage Rate standardizes borrowing expenses by combining interest rates with mandatory upfront fees.",
           "(7b) Consumer Borrowing Method Categories: Borrowing methods range from secured mortgages and personal bank loans to peer lending and credit. Understanding collateral requirements and default penalties protects borrowers from predatory lending practices and foreclosures."
         ],
         "right_points": [
           "(7c) Payment Card Structural Differences: Debit cards withdraw settled bank funds, whereas credit and charge cards extend revolving credit. Making only minimum monthly payments triggers compounding finance charges that trap consumers in debt.",
-          "(7d) Credit Reporting And Responsibility: Credit bureaus compile consumer repayment histories into formal reports used to compute credit scores. Maintaining low credit utilization and paying bills punctually builds creditworthiness, unlocking lower loan rates."
+          "(7d) Credit Reporting and Responsibility: Credit bureaus compile consumer repayment histories into formal reports used to compute credit scores. Maintaining low credit utilization and paying bills punctually builds creditworthiness, unlocking lower loan rates."
         ],
         "rows": [
           {
             "attribute": "Borrowing Cost Metrics",
-            "left": "(7a) Loan Mechanics And APR: A loan represents borrowed principal that must be repaid alongside accrued interest charges over time. The Annual Percentage Rate standardizes borrowing expenses by combining interest rates with mandatory upfront fees.",
+            "left": "(7a) Loan Mechanics and APR: A loan represents borrowed principal that must be repaid alongside accrued interest charges over time. The Annual Percentage Rate standardizes borrowing expenses by combining interest rates with mandatory upfront fees.",
             "right": "(7c) Payment Card Structural Differences: Debit cards withdraw settled bank funds, whereas credit and charge cards extend revolving credit. Making only minimum monthly payments triggers compounding finance charges that trap consumers in debt."
           },
           {
             "attribute": "Card Processing Differences",
             "left": "(7b) Consumer Borrowing Method Categories: Borrowing methods range from secured mortgages and personal bank loans to peer lending and credit. Understanding collateral requirements and default penalties protects borrowers from predatory lending practices and foreclosures.",
-            "right": "(7d) Credit Reporting And Responsibility: Credit bureaus compile consumer repayment histories into formal reports used to compute credit scores. Maintaining low credit utilization and paying bills punctually builds creditworthiness, unlocking lower loan rates."
+            "right": "(7d) Credit Reporting and Responsibility: Credit bureaus compile consumer repayment histories into formal reports used to compute credit scores. Maintaining low credit utilization and paying bills punctually builds creditworthiness, unlocking lower loan rates."
           },
           {
             "attribute": "Credit Bureau History",
-            "left": "Req 7a: Loan Mechanics And APR: A loan represents borrowed principal that must be repaid alongside accrued interest charges over time. The Annual Percentage Rate standardizes borrowing expenses by combining interest rates with mandatory upfront fees.",
-            "right": "Req 7b: Consumer Borrowing Method: Borrowing methods range from secured mortgages and personal bank loans to peer lending and credit. Understanding collateral requirements and default penalties protects borrowers from predatory lending practices and foreclosures."
+            "left": "Credit Bureau History: Timely debt repayments build positive credit scores, lowering lifetime personal borrowing costs.",
+            "right": "Debt Elimination Hierarchy: Paying down high interest balances first reduces total finance charges over time."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 7 Exemplar Workbook Entry",
+        "title": "Personal Management Req 7 Worked Example: Credit, Loans, and Debt Management",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 7a - Loan Mechanics and APR": "A loan represents borrowed principal that must be repaid alongside accrued interest charges over time. The Annual Percentage Rate standardizes borrowing expenses by combining interest rates with mandatory upfront fees.",
-          "Req 7b - Consumer Borrowing Method": "Borrowing methods range from secured mortgages and personal bank loans to peer lending and credit. Understanding collateral requirements and default penalties protects borrowers from predatory lending practices and foreclosures.",
-          "Req 7c - Payment Card Structural": "Debit cards withdraw settled bank funds, whereas credit and charge cards extend revolving credit. Making only minimum monthly payments triggers compounding finance charges that trap consumers in debt.",
-          "Req 7d - Credit Reporting": "Credit bureaus compile consumer repayment histories into formal reports used to compute credit scores. Maintaining low credit utilization and paying bills punctually builds creditworthiness, unlocking lower loan rates."
+          "Phase 1 - APR Calculation": "Compare nominal interest rates and mandatory loan origination fees across two lenders.",
+          "Phase 2 - Payment Modeling": "Calculate the total interest paid on a revolving balance using minimum payments.",
+          "Phase 3 - Card Feature Audit": "Differentiate transaction mechanics between checking debit cards, retail charge cards, and credit cards.",
+          "Phase 4 - Debt Payoff Strategy": "Construct a debt reduction schedule targeting the highest interest rate balance first."
         },
-        "sample_output": "Borrowing Credit and Debt: By the time you reach your late teens, you probably will have received numerous offers from credit card companies to apply for their cards (p. 39).",
-        "counselor_tip": "For Personal Management Requirement 7 (Borrowing Credit and Debt), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40))."
+        "sample_output": "Borrowing money incurs interest and loan fees that compound over time, making Annual Percentage Rate the benchmark for comparing loans. Responsible management of revolving credit cards protects credit ratings and shields consumers from debt traps.",
+        "counselor_tip": "During the Personal Management Requirement 7 conference on Credit, Loans, and Debt Management, verify that the Scout can explain borrowing cost metrics and demonstrate debt payoff strategy: Construct a debt reduction schedule targeting the highest interest rate balance first."
       },
       "quiz_item": {
         "scenario_prompt": "What are you legally agreeing to every time you purchase something with a credit card?",
@@ -4756,7 +4747,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Schedule sufficient sleep and rest breaks into daily calendars to prevent fatigue during transport.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -4824,27 +4815,23 @@
         "Step 3 - Calendar Blocking: Map fixed classes, athletic practices, and dedicated study periods onto a seven day grid.",
         "Step 4 - Execution Logging: Record the exact start and completion times for every scheduled activity daily."
       ],
-      "gear_checklist": [
-        "Official Personal Management Merit Badge: Understanding of Time Management.",
-        "Field notebook, verification log sheet, and demonstration materials for Understanding of Time Management.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: Prioritized to-Do List",
+        "left_header": "Req 8a: Prioritized to-Do List Formulation",
         "right_header": "Req 8c: Schedule Execution and Logging",
         "left_points": [
-          "(8a) Prioritized To-Do List Formulation: Drafting a comprehensive to-do list externalizes mental commitments, reducing anxiety and cognitive overload. Sorting obligations into hierarchical tiers of importance ensures primary academic and personal duties receive focus.",
+          "(8a) Prioritized to-Do List Formulation: Drafting a comprehensive to-do list externalizes mental commitments, reducing anxiety and cognitive overload. Sorting obligations into hierarchical tiers of importance ensures primary academic and personal duties receive focus.",
           "(8b) Seven Day Schedule Design: Constructing a seven day calendar visualizes weekly commitments across school, sports, family, and scouting. Blocking dedicated time slots for fixed obligations establishes realistic boundaries for discretionary free time."
         ],
         "right_points": [
-          "(8c) Schedule Execution And Logging: Executing a planned schedule requires tracking actual completion times against projected blocks in a journal. Documenting disruptions and task durations creates factual data for analyzing personal productivity patterns.",
+          "(8c) Schedule Execution and Logging: Executing a planned schedule requires tracking actual completion times against projected blocks in a journal. Documenting disruptions and task durations creates factual data for analyzing personal productivity patterns.",
           "(8d) Time Management Performance Review: Reviewing schedules alongside activity logs identifies time sinks, unrealistic estimates, and common distractions. Partnering with a counselor allows refinement of planning habits to balance productivity and wellness."
         ],
         "rows": [
           {
             "attribute": "Task Prioritization Protocols",
-            "left": "(8a) Prioritized To-Do List Formulation: Drafting a comprehensive to-do list externalizes mental commitments, reducing anxiety and cognitive overload. Sorting obligations into hierarchical tiers of importance ensures primary academic and personal duties receive focus.",
-            "right": "(8c) Schedule Execution And Logging: Executing a planned schedule requires tracking actual completion times against projected blocks in a journal. Documenting disruptions and task durations creates factual data for analyzing personal productivity patterns."
+            "left": "(8a) Prioritized to-Do List Formulation: Drafting a comprehensive to-do list externalizes mental commitments, reducing anxiety and cognitive overload. Sorting obligations into hierarchical tiers of importance ensures primary academic and personal duties receive focus.",
+            "right": "(8c) Schedule Execution and Logging: Executing a planned schedule requires tracking actual completion times against projected blocks in a journal. Documenting disruptions and task durations creates factual data for analyzing personal productivity patterns."
           },
           {
             "attribute": "Fixed Activity Scheduling",
@@ -4853,22 +4840,22 @@
           },
           {
             "attribute": "Real Time Activity Tracking",
-            "left": "Req 8a: Prioritized To-Do List: Drafting a comprehensive to-do list externalizes mental commitments, reducing anxiety and cognitive overload. Sorting obligations into hierarchical tiers of importance ensures primary academic and personal duties receive focus.",
-            "right": "Req 8b: Seven Day Schedule Design: Constructing a seven day calendar visualizes weekly commitments across school, sports, family, and scouting. Blocking dedicated time slots for fixed obligations establishes realistic boundaries for discretionary free time."
+            "left": "Real Time Activity Tracking: Keeping hourly activity journals exposes unacknowledged digital distractions and schedule slippage.",
+            "right": "Schedule Variance Review: Evaluating completed weekly routines identifies structural bottlenecks to improve future productivity."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 8 Exemplar Workbook Entry",
+        "title": "Personal Management Req 8 Worked Example: Time Management and Scheduling Systems",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Prioritized to-Do List": "Drafting a comprehensive to-do list externalizes mental commitments, reducing anxiety and cognitive overload. Sorting obligations into hierarchical tiers of importance ensures primary academic and personal duties receive focus.",
-          "Req 8b - Seven Day Schedule Design": "Constructing a seven day calendar visualizes weekly commitments across school, sports, family, and scouting. Blocking dedicated time slots for fixed obligations establishes realistic boundaries for discretionary free time.",
-          "Req 8c - Schedule Execution": "Executing a planned schedule requires tracking actual completion times against projected blocks in a journal. Documenting disruptions and task durations creates factual data for analyzing personal productivity patterns.",
-          "Req 8d - Time Management Performance": "Reviewing schedules alongside activity logs identifies time sinks, unrealistic estimates, and common distractions. Partnering with a counselor allows refinement of planning habits to balance productivity and wellness."
+          "Phase 1 - Task Inventory": "Compile all upcoming academic, household, and extracurricular obligations onto a master list.",
+          "Phase 2 - Priority Ranking": "Assign numerical priority ranks to each task based on approaching deadlines and importance.",
+          "Phase 3 - Calendar Blocking": "Map fixed classes, athletic practices, and dedicated study periods onto a seven day grid.",
+          "Phase 4 - Execution Logging": "Record the exact start and completion times for every scheduled activity daily."
         },
-        "sample_output": "Prioritized Weekly Time Management: Estimate how long it might take in hours and how you are going to accomplish it, such as setting aside a set number of hours each day or each weekend (p. 45).",
-        "counselor_tip": "For Personal Management Requirement 8 (Prioritized Weekly Time Management), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46))."
+        "sample_output": "Structuring time through ranked to-do lists and visual weekly schedules establishes control over competing priorities. Comparing actual daily activity logs against planned commitments reveals productivity drains and sharpens personal scheduling habits.",
+        "counselor_tip": "During the Personal Management Requirement 8 conference on Time Management and Scheduling Systems, verify that the Scout can explain task prioritization protocols and demonstrate execution logging: Record the exact start and completion times for every scheduled activity daily."
       },
       "quiz_item": {
         "scenario_prompt": "When planning how to complete a goal by a specific date, what technique does the pamphlet recommend?",
@@ -5295,7 +5282,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Incorporate personal protective equipment and site safety protocols into all project resource planning lists.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -5367,51 +5354,47 @@
         "Step 3 - Resource Auditing: Catalog all necessary personnel, physical equipment, consumable materials, and required venue spaces.",
         "Step 4 - Budget Formulation: Price every material line item and allocate a ten percent emergency contingency reserve."
       ],
-      "gear_checklist": [
-        "Official Personal Management Merit Badge: Written Project Plan Demonstrating.",
-        "Field notebook, verification log sheet, and demonstration materials for Written Project Plan Demonstrating.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Project Scope and Goal",
-        "right_header": "Req 9c: Project Overview Narrative",
+        "left_header": "Req 9a: Project Scope and Goal Definition",
+        "right_header": "Req 9c: Project Overview Narrative Description",
         "left_points": [
-          "(9a) Project Scope And Goal Definition: Defining a project requires establishing concrete, measurable goals that specify the ultimate intended outcome. Clearly bounded scopes prevent mission creep and establish benchmarks for evaluating project completion.",
+          "(9a) Project Scope and Goal Definition: Defining a project requires establishing concrete, measurable goals that specify the ultimate intended outcome. Clearly bounded scopes prevent mission creep and establish benchmarks for evaluating project completion.",
           "(9b) Project Timeline Milestone Development: Building a project timeline establishes chronological order and assigns realistic timeframes to each phase. Identifying task dependencies prevents idle time and ensures preparation steps precede on site execution."
         ],
         "right_points": [
           "(9c) Project Overview Narrative Description: A detailed project description outlines the operational narrative, target beneficiaries, and execution environment. Articulating the purpose and procedural methodology aligns team members and external stakeholders around common standards.",
-          "(9d) Resource Identification And Allocation: Identifying resources involves cataloging all tools, materials, facilities, and personnel needed for implementation. Linking specific assets to distinct tasks ensures supplies are secured before execution commences."
+          "(9d) Resource Identification and Allocation: Identifying resources involves cataloging all tools, materials, facilities, and personnel needed for implementation. Linking specific assets to distinct tasks ensures supplies are secured before execution commences."
         ],
         "rows": [
           {
             "attribute": "Objective Scope Definition",
-            "left": "(9a) Project Scope And Goal Definition: Defining a project requires establishing concrete, measurable goals that specify the ultimate intended outcome. Clearly bounded scopes prevent mission creep and establish benchmarks for evaluating project completion.",
+            "left": "(9a) Project Scope and Goal Definition: Defining a project requires establishing concrete, measurable goals that specify the ultimate intended outcome. Clearly bounded scopes prevent mission creep and establish benchmarks for evaluating project completion.",
             "right": "(9c) Project Overview Narrative Description: A detailed project description outlines the operational narrative, target beneficiaries, and execution environment. Articulating the purpose and procedural methodology aligns team members and external stakeholders around common standards."
           },
           {
             "attribute": "Sequential Phase Scheduling",
             "left": "(9b) Project Timeline Milestone Development: Building a project timeline establishes chronological order and assigns realistic timeframes to each phase. Identifying task dependencies prevents idle time and ensures preparation steps precede on site execution.",
-            "right": "(9d) Resource Identification And Allocation: Identifying resources involves cataloging all tools, materials, facilities, and personnel needed for implementation. Linking specific assets to distinct tasks ensures supplies are secured before execution commences."
+            "right": "(9d) Resource Identification and Allocation: Identifying resources involves cataloging all tools, materials, facilities, and personnel needed for implementation. Linking specific assets to distinct tasks ensures supplies are secured before execution commences."
           },
           {
             "attribute": "Resource Allocation Mapping",
-            "left": "Req 9a: Project Scope And Goal: Defining a project requires establishing concrete, measurable goals that specify the ultimate intended outcome. Clearly bounded scopes prevent mission creep and establish benchmarks for evaluating project completion.",
-            "right": "Req 9b: Project Timeline Milestone: Building a project timeline establishes chronological order and assigns realistic timeframes to each phase. Identifying task dependencies prevents idle time and ensures preparation steps precede on site execution."
+            "left": "Resource Allocation Mapping: Identifying human labor, physical tools, and community facilities guarantees operational capability.",
+            "right": "Fiscal Constraint Modeling: Formulating itemized project budgets accounts for unexpected price inflation and emergency contingencies."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 9 Exemplar Workbook Entry",
+        "title": "Personal Management Req 9 Worked Example: Written Project Planning Methodology",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 9a - Project Scope and Goal": "Defining a project requires establishing concrete, measurable goals that specify the ultimate intended outcome. Clearly bounded scopes prevent mission creep and establish benchmarks for evaluating project completion.",
-          "Req 9b - Project Timeline Milestone": "Building a project timeline establishes chronological order and assigns realistic timeframes to each phase. Identifying task dependencies prevents idle time and ensures preparation steps precede on site execution.",
-          "Req 9c - Project Overview Narrative": "A detailed project description outlines the operational narrative, target beneficiaries, and execution environment. Articulating the purpose and procedural methodology aligns team members and external stakeholders around common standards.",
-          "Req 9d - Resource Identification": "Identifying resources involves cataloging all tools, materials, facilities, and personnel needed for implementation. Linking specific assets to distinct tasks ensures supplies are secured before execution commences."
+          "Phase 1 - Scope Articulation": "Write a concise project charter defining specific measurable goals and final deliverable outcomes.",
+          "Phase 2 - Milestone Mapping": "Sequence all required preparation and execution tasks into a chronological progress timeline.",
+          "Phase 3 - Resource Auditing": "Catalog all necessary personnel, physical equipment, consumable materials, and required venue spaces.",
+          "Phase 4 - Budget Formulation": "Price every material line item and allocate a ten percent emergency contingency reserve."
         },
-        "sample_output": "Written Project Planning Fundamentals: One day, overnight, or longer (p. 45).",
-        "counselor_tip": "For Personal Management Requirement 9 (Written Project Planning Fundamentals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49))."
+        "sample_output": "Creating an effective project plan demands establishing clear goals, sequencing interdependent tasks, and cataloging necessary resources. Developing itemized operational budgets ensures activities achieve their desired outcomes without exceeding available resources.",
+        "counselor_tip": "During the Personal Management Requirement 9 conference on Written Project Planning Methodology, verify that the Scout can explain objective scope definition and demonstrate budget formulation: Price every material line item and allocate a ten percent emergency contingency reserve."
       },
       "quiz_item": {
         "scenario_prompt": "Which of the following is true about the project plan you prepare for Personal Management Requirement 9?",
@@ -5665,7 +5648,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Adhere to occupational safety gear regulations and professional credentialing requirements in technical trade environments.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53)",
       "pamphlet_page_citation": "Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53)",
       "syllabus_bucket": "In-Class Concept",
@@ -5733,47 +5716,47 @@
         "Step 3 - Cost Estimation: Calculate the four year expenses for tuition, technical supplies, and student housing.",
         "Step 4 - Financing Strategy: Identify specific grant awards, scholarship competitions, and work study options to fund training."
       ],
-      "gear_checklist": [
-        "Official Personal Management Merit Badge: Personal Management Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Personal Management Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 10a: Career Selection",
-        "right_header": "Req 10b: Career Education Cost",
+        "left_header": "Req 10a: Career Selection and Qualifications",
+        "right_header": "Req 10b: Career Education Cost Preparation",
         "left_points": [
-          "(10a) Career Selection And Qualifications: Selecting a career path requires investigating mandatory educational degrees, certifications, and practical workplace competencies. Discussing requirements with a counselor clarifies prerequisite coursework and timeline commitments for career entry."
+          "(10a) Career Selection and Qualifications: Selecting a career path requires investigating mandatory educational degrees, certifications, and practical workplace competencies. Discussing requirements with a counselor clarifies prerequisite coursework and timeline commitments for career entry.",
+          "Career Qualification Pathways: Professional careers demand specialized academic coursework, accredited degrees, and technical certification licenses."
         ],
         "right_points": [
-          "(10b) Career Education Cost Preparation: Pursuing career education incurs substantial expenditures including tuition, laboratory fees, books, housing, and food. Preparing viable funding strategies using savings, scholarships, and employment minimizes long term student loan obligations."
+          "(10b) Career Education Cost Preparation: Pursuing career education incurs substantial expenditures including tuition, laboratory fees, books, housing, and food. Preparing viable funding strategies using savings, scholarships, and employment minimizes long term student loan obligations.",
+          "Educational Funding Planning: Researching scholarships, grants, and work study opportunities reduces reliance on high student debt."
         ],
         "rows": [
           {
             "attribute": "Career Qualification Pathways",
-            "left": "(10a) Career Selection And Qualifications: Selecting a career path requires investigating mandatory educational degrees, certifications, and practical workplace competencies. Discussing requirements with a counselor clarifies prerequisite coursework and timeline commitments for career entry.",
+            "left": "(10a) Career Selection and Qualifications: Selecting a career path requires investigating mandatory educational degrees, certifications, and practical workplace competencies. Discussing requirements with a counselor clarifies prerequisite coursework and timeline commitments for career entry.",
             "right": "(10b) Career Education Cost Preparation: Pursuing career education incurs substantial expenditures including tuition, laboratory fees, books, housing, and food. Preparing viable funding strategies using savings, scholarships, and employment minimizes long term student loan obligations."
           },
           {
             "attribute": "Training Expense Accounting",
-            "left": "Req 10a: Career Selection: Selecting a career path requires investigating mandatory educational degrees, certifications, and practical workplace competencies. Discussing requirements with a counselor clarifies prerequisite coursework and timeline commitments for career entry.",
-            "right": "Req 10b: Career Education Cost: Pursuing career education incurs substantial expenditures including tuition, laboratory fees, books, housing, and food. Preparing viable funding strategies using savings, scholarships, and employment minimizes long term student loan obligations."
+            "left": "Career Qualification Pathways: Professional careers demand specialized academic coursework, accredited degrees, and technical certification licenses.",
+            "right": "Educational Funding Planning: Researching scholarships, grants, and work study opportunities reduces reliance on high student debt."
           },
           {
             "attribute": "Educational Funding Planning",
-            "left": "Career Qualification Pathways: Professional careers demand specialized academic coursework, accredited degrees, and technical certification licenses.",
-            "right": "Training Expense Accounting: Career preparation costs include postsecondary tuition, books, technical tools, and living expenses."
+            "left": "Educational Funding Planning: Researching scholarships, grants, and work study opportunities reduces reliance on high student debt.",
+            "right": "Return on Education: Evaluating future career earning trajectories against training debt prevents long term financial hardship."
           }
         ]
       },
       "worked_example": {
-        "title": "Personal Management Req 10 Exemplar Workbook Entry",
+        "title": "Personal Management Req 10 Worked Example: Career Preparation and Educational Financing",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 10a - Career Selection": "Selecting a career path requires investigating mandatory educational degrees, certifications, and practical workplace competencies. Discussing requirements with a counselor clarifies prerequisite coursework and timeline commitments for career entry.",
-          "Req 10b - Career Education Cost": "Pursuing career education incurs substantial expenditures including tuition, laboratory fees, books, housing, and food. Preparing viable funding strategies using savings, scholarships, and employment minimizes long term student loan obligations."
+          "Phase 1 - Career Exploration": "Select one prospective vocational or professional occupation matching your personal talents and interests.",
+          "Phase 2 - Qualification Auditing": "List the required academic degrees, technical certifications, and apprentice experience needed for entry.",
+          "Phase 3 - Cost Estimation": "Calculate the four year expenses for tuition, technical supplies, and student housing.",
+          "Phase 4 - Financing Strategy": "Identify specific grant awards, scholarship competitions, and work study options to fund training."
         },
-        "sample_output": "Career Exploration and Education Costs: But a career should be more than a way to make a living (p. 52).",
-        "counselor_tip": "For Personal Management Requirement 10 (Career Exploration and Education Costs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53))."
+        "sample_output": "Pursuing a professional vocation demands identifying necessary academic credentials, licenses, and specialized operational skills. Calculating the total educational costs against projected starting wages ensures career training remains economically viable.",
+        "counselor_tip": "During the Personal Management Requirement 10 conference on Career Preparation and Educational Financing, verify that the Scout can explain career qualification pathways and demonstrate financing strategy: Identify specific grant awards, scholarship competitions, and work study options to fund training."
       },
       "quiz_item": {
         "scenario_prompt": "According to career experts cited in the Personal Management pamphlet, how many positions and careers does the average person go through during their working life?",

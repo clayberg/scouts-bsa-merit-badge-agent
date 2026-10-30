@@ -35,7 +35,6 @@
 ### Req 1: Foundational Genealogical Terminology and Records
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor what the words genealogy, ancestor, and descendant mean. (b) Explain what a family tree is and what information would be kept there. (c) Explain what a family group record is and what information would be kept there.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Store fragile historical paper records away from open flames, direct sunlight, and liquid containers.
 - **Common Myth:** Beginners often think genealogy consists solely of collecting interesting folklore and unverified family stories.
 - **Pamphlet Fact:** Genealogical research demands documentary proof from civil, ecclesiastical, or historical records for every connection.
 
@@ -48,10 +47,8 @@
 #### Req 1a: Core Lineage Vocabulary Definitions
 **Official Requirement 1a:** Explain to your counselor what the words genealogy, ancestor, and descendant mean.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Words Genealogy Ancestor and Descendant)
-- **Common Myth:** Scouts sometimes believe a great-uncle qualifies technically as a direct ancestral forebear.
-- **Pamphlet Fact:** An ancestor is strictly someone from whom an individual descends in a direct line.
 
-![Genealogy Requirement 1 figure showing genealogy systematically traces bloodlines and legal relationships across multiple.](/assets/pamphlet_images/genealogy_p003_img1.png)
+![Genealogy systematically traces bloodlines and legal relationships across multiple successive historical eras.](/assets/pamphlet_images/genealogy_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -62,8 +59,6 @@
 #### Req 1b: Pedigree Chart Data Architecture
 **Official Requirement 1b:** Explain what a family tree is and what information would be kept there.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Family Tree Is and What)
-- **Common Myth:** Amateur researchers assume family trees should display all siblings, cousins, aunts, and uncles.
-- **Pamphlet Fact:** Standard pedigree charts display only direct-line ancestors, omitting siblings and collateral relatives entirely.
 
 ![Vintage community newspapers offer genealogical obituaries and announcements.](/assets/pamphlet_images/genealogy_p027_img1.png)
 
@@ -76,8 +71,6 @@
 #### Req 1c: Family Group Record Organization
 **Official Requirement 1c:** Explain what a family group record is and what information would be kept there.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)* • **Organizer (Activity & Observation Log):** Req 1c Quantitative Field Observation & Activity Log (Family Information Would Kept)
-- **Common Myth:** Novices believe one family group sheet contains an entire multi-generational surname history.
-- **Pamphlet Fact:** Each family group sheet isolates one couple and their immediate children to prevent generational confusion.
 
 ![Two men examine historic keepsakes and family photos during an interview.](/assets/pamphlet_images/genealogy_p011_img1.png)
 
@@ -90,7 +83,6 @@
 ### Req 2: Biographical Timelines and Journaling
 **Official Requirement 2 (Parent Overview):** Do ONE of the following: (a) Create a timeline for yourself or for a relative. Then write a short biography based on that timeline. (b) Keep a journal for six weeks. You must write in it at least once a week.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Protect digital journals and personal biographical notes by securing physical notebooks and using encrypted drives.
 - **Common Myth:** Writers often think personal biographies require extensive speculation about ancestors' secret inner feelings.
 - **Pamphlet Fact:** Genealogical biographies ground every narrative statement in documented dates, residences, occupations, and historical records.
 
@@ -103,10 +95,8 @@
 #### Req 2a: Chronological Life Milestone Synthesis
 **Official Requirement 2a:** Create a timeline for yourself or for a relative. Then write a short biography based on that timeline.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Timeline for Yourself)
-- **Common Myth:** Scouts presume biographies must read like fictional novels filled with unrecorded conversational dialogue.
-- **Pamphlet Fact:** Genealogical biographies rely strictly on documented facts, dates, places, and historical context without invention.
 
-![Genealogy Requirement 2 figure showing structured timelines reveal geographic migrations and historical context.](/assets/pamphlet_images/genealogy_p007_img1.png)
+![Structured timelines reveal geographic migrations and historical context across an individual human life.](/assets/pamphlet_images/genealogy_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -118,8 +108,6 @@
 #### Req 2b: Six-Week Journal Documentation
 **Official Requirement 2b:** Keep a journal for six weeks. You must write in it at least once a week.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)* • **Organizer (Activity & Observation Log):** Req 2b Quantitative Field Observation & Activity Log (Journal for Six Weeks You)
-- **Common Myth:** Students believe daily mundane activities are too unimportant to record in a genealogical journal.
-- **Pamphlet Fact:** Everyday routines, technology choices, and local events provide invaluable social history for future genealogists.
 
 ![A family silhouette at the beach represents generations and family lineage.](/assets/pamphlet_images/genealogy_p010_img1.png)
 
@@ -133,7 +121,6 @@
 ### Req 3: Oral History Interview Techniques
 **Official Requirement 3:** With your parent or guardian's help, choose a relative or a family acquaintance you can interview in person, by telephone, or by email or letter. Record the information you collect so you do not forget it.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)* • **Organizer (Activity & Observation Log):** Req 3 Quantitative Field Observation & Activity Log (Help Choose A Relative)
-> **Guide to Safe Scouting Warning:** Follow youth protection guidelines by ensuring a parent or guardian is present during interviews.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Genealogy Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Interviewers assume oral recollections are always completely accurate regarding specific historical dates and spellings.
 - **Pamphlet Fact:** Oral history provides valuable leads and personal context, but dates and places require documentary verification.
@@ -156,7 +143,6 @@
 ### Req 4: Genealogical Source Analysis and Evaluation
 **Official Requirement 4 (Parent Overview):** Do the following: (a) Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree. (b) Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree. (c) Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record. (d) Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c). (e) Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Handle original archival documents with clean, dry hands without applying ink pens, adhesives, or tapes.
 - **Common Myth:** Researchers assume that digitized online family trees represent verified, flawless primary source evidence.
 - **Pamphlet Fact:** User-submitted online trees often contain unverified transcription errors and must be corroborated with original documents.
 
@@ -169,8 +155,6 @@
 #### Req 4a: Physical Historical Resource Identification
 **Official Requirement 4a:** Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Physical Genealogical Resources and Where)
-- **Common Myth:** Beginners assume all historical documents have been scanned and placed on the internet.
-- **Pamphlet Fact:** The majority of county courthouse records and local manuscript collections remain exclusively on paper.
 
 ![A death certificate provides primary vital statistics for ancestral research.](/assets/pamphlet_images/genealogy_p020_img1.png)
 
@@ -183,10 +167,8 @@
 #### Req 4b: Digital Database Resource Applications
 **Official Requirement 4b:** Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Digital Genealogical Resources and Where)
-- **Common Myth:** Scouts believe digital searches always return complete, error-free transcripts of historical documents.
-- **Pamphlet Fact:** Optical character recognition and automated indexing frequently produce spelling errors in digitized historical record sets.
 
-![Genealogy Requirement 3 figure showing parental consent ensures proper safety and coordination before interviewing relatives.](/assets/pamphlet_images/genealogy_p012_img1.png)
+![Parental consent ensures proper safety and coordination before interviewing relatives or family acquaintances.](/assets/pamphlet_images/genealogy_p012_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -197,8 +179,6 @@
 #### Req 4c: Evidentiary Document Acquisition Methods
 **Official Requirement 4c:** Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Organizer (Activity & Observation Log):** Req 4c Quantitative Field Observation & Activity Log (Obtain at Least One Genealogical)
-- **Common Myth:** Novices think any printed certificate from a web page proves ancestral relationships conclusively.
-- **Pamphlet Fact:** A valid supporting document must directly name individuals and explicitly describe the relevant life event.
 
 ![A vintage scrapbook displays ancestral photographs and personal histories.](/assets/pamphlet_images/genealogy_p018_img1.png)
 
@@ -211,8 +191,6 @@
 #### Req 4d: Source Provenance and Reliability Analysis
 **Official Requirement 4d:** Tell how you found it and how you would evaluate the genealogical information you found for requirement.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (You Found It and How)
-- **Common Myth:** People assume that government documents never contain factual errors regarding ages or birthplaces.
-- **Pamphlet Fact:** Informants sometimes provided false ages or birthplaces to census marshals, clerks, or military recruiters.
 
 ![A preserved family scrapbook documents travel memories and relative history.](/assets/pamphlet_images/genealogy_p018_img3.png)
 
@@ -225,8 +203,6 @@
 #### Req 4e: Vital Record Repository Mapping
 **Official Requirement 4e:** Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Organizer (Activity & Observation Log):** Req 4e Quantitative Field Observation & Activity Log (Likely Place)
-- **Common Myth:** Scouts expect to find local burial registers filed inside state vital statistics bureaus.
-- **Pamphlet Fact:** Burial details generally reside in private cemetery office ledgers, church vestry books, or funeral homes.
 
 ![A county marriage index lists names, license numbers, and wedding years.](/assets/pamphlet_images/genealogy_p027_img2.png)
 
@@ -239,7 +215,6 @@
 ### Req 5: Professional Institutions and Repositories
 **Official Requirement 5 (Parent Overview):** Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides, and report the results: (a) A genealogical or lineage society (b) A professional genealogist (someone who gets paid for doing genealogical research) (c) A surname organization, such as your family's organization (d) A genealogical educational facility or institution (e) A genealogical record repository of any type (courthouse, genealogical library, state or national archive, state library, etc.)
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** When communicating with external institutions, include a parent or leader on all correspondence.
 - **Common Myth:** Inquirers expect archival staff to conduct free, comprehensive family tree research upon request.
 - **Pamphlet Fact:** Archivists guide patrons toward relevant catalog collections but rarely conduct extensive personal lineage lookups.
 
@@ -252,8 +227,6 @@
 #### Req 5a: Lineage Society Service Evaluation
 **Official Requirement 5a:** A genealogical or lineage society.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Genealogical or Lineage Society)
-- **Common Myth:** Scouts assume lineage societies accept verbal family claims without requiring original supporting records.
-- **Pamphlet Fact:** Lineage societies mandate strict primary source documentation for every parent-child link on an application.
 
 ![A federal census schedule provides household names, ages, and relationships.](/assets/pamphlet_images/genealogy_p025_img1.png)
 
@@ -266,8 +239,6 @@
 #### Req 5b: Professional Genealogist Practice Standards
 **Official Requirement 5b:** A professional genealogist (someone who gets paid for doing genealogical research)
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Genealogy Careers and Pathways)
-- **Common Myth:** People think professional genealogists simply search online subscription databases that anyone can access.
-- **Pamphlet Fact:** Professionals analyze original foreign manuscripts, archaic legal scripts, and complex jurisdictional land records.
 
 ![Inscribed cemetery headstones provide vital birth and death dates of kin.](/assets/pamphlet_images/genealogy_p028_img1.png)
 
@@ -280,8 +251,6 @@
 #### Req 5c: Surname Organization Network Collaboration
 **Official Requirement 5c:** A surname organization, such as your family's organization.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Surname Organization Such As Your)
-- **Common Myth:** Scouts believe all individuals sharing an identical surname descend from one common biological ancestor.
-- **Pamphlet Fact:** Many unrelated families independently adopted identical surnames based on common occupations, locations, or patronymics.
 
 ![A vintage portrait photograph documents an ancestor posing with an axe tool.](/assets/pamphlet_images/genealogy_p033_img1.png)
 
@@ -294,8 +263,6 @@
 #### Req 5d: Educational Institution Research Offerings
 **Official Requirement 5d:** A genealogical educational facility or institution.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Genealogical Educational Facility or Institution)
-- **Common Myth:** Beginners think genealogical education focuses only on software tutorials rather than historical analysis.
-- **Pamphlet Fact:** Genealogical education emphasizes critical evidence analysis, historical context, paleography, and advanced methodology.
 
 ![A restored family photograph preserves visual records of ancestral youth.](/assets/pamphlet_images/genealogy_p033_img2.png)
 
@@ -308,8 +275,6 @@
 #### Req 5e: Archival Record Repository Functions
 **Official Requirement 5e:** A genealogical record repository of any type (courthouse, genealogical library, state or national archive, state library, etc.)
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Organizer (Activity & Observation Log):** Req 5e Quantitative Field Observation & Activity Log (Genealogical Record Repository)
-- **Common Myth:** Researchers assume local courthouses discard records that are older than one hundred years.
-- **Pamphlet Fact:** Courthouses and regional archives permanently maintain historic deeds, estate files, and court dockets indefinitely.
 
 ![A vintage archival photograph captures the daily labor of rural ancestors.](/assets/pamphlet_images/genealogy_p044_img1.png)
 
@@ -322,7 +287,6 @@
 ### Req 6: Pedigree Chart Generational Construction
 **Official Requirement 6:** Begin your family tree by listing yourself and include at least two additional generations. You may complete this requirement by using the chart provided in the Genealogy merit badge pamphlet or the genealogy software program of your choice.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Begin Your Family Tree by)
-> **Guide to Safe Scouting Warning:** Do not publicly publish living individuals' birth dates or social security numbers online.
 - **Common Myth:** Beginners often write married surnames on pedigree charts instead of the mother's maiden surname.
 - **Pamphlet Fact:** Genealogists always record women under their biological maiden surnames to preserve maternal lineage continuity.
 
@@ -344,7 +308,6 @@
 ### Req 7: Family Group Record Construction
 **Official Requirement 7:** Complete a family group record form, listing yourself and your brothers and sisters as the children. On another family group record form, show your parent or guardian and his or her brothers and sisters as the children. This requirement may be completed using the chart provided or the genealogy software program of your choice.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Activity & Observation Log):** Req 7 Quantitative Field Observation & Activity Log (Family Group Record Form Listing)
-> **Guide to Safe Scouting Warning:** Ensure sensitive personal family details like adoptions remain private unless family members consent.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Genealogy Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Novices often omit siblings who died young from family group sheets, thinking they do not matter.
 - **Pamphlet Fact:** Recording every child who was born prevents misidentifying surviving siblings and clarifies census household tallies.
@@ -368,7 +331,6 @@
 ### Req 8: Technological Advancements in Genealogy
 **Official Requirement 8 (Parent Overview):** Do the following: (a) Explain the effect computers and the internet are having on the world of genealogy. (b) Explain how photography (including microfilming) has influenced genealogy. (c) Explain how record indexing works and how that has influenced genealogy.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Exercise digital hygiene by using strong passwords and avoiding unvetted downloads from unfamiliar genealogical sites.
 - **Common Myth:** Scouts assume artificial intelligence and computers can automatically build a 100 percent accurate family tree.
 - **Pamphlet Fact:** Computers only index and retrieve records; human genealogists must evaluate evidence and resolve record discrepancies.
 
@@ -381,8 +343,6 @@
 #### Req 8a: Computer and Internet Paradigm Shift
 **Official Requirement 8a:** Explain the effect computers and the internet are having on the world of genealogy.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Computers and the Internet)
-- **Common Myth:** Scouts believe computer databases have completely replaced the need for visiting physical archives.
-- **Pamphlet Fact:** Computers provide access to millions of digitized collections, but vast numbers of records remain un-scanned.
 
 ![A handwritten church christening log preserves historical baptism records.](/assets/pamphlet_images/genealogy_p021_img1.png)
 
@@ -395,8 +355,6 @@
 #### Req 8b: Photography and Microfilm Preservation
 **Official Requirement 8b:** Explain how photography (including microfilming) has influenced genealogy.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Photography Including Microfilming Has Influenced)
-- **Common Myth:** Beginners assume microfilm is an obsolete, useless technology that genealogists no longer utilize.
-- **Pamphlet Fact:** Microfilm rolls still contain rare collections that have not yet been digitized or uploaded online.
 
 ![The entrance to a genealogical library welcomes family history researchers.](/assets/pamphlet_images/genealogy_p048_img1.png)
 
@@ -409,8 +367,6 @@
 #### Req 8c: Crowdsourced Record Indexing Mechanics
 **Official Requirement 8c:** Explain how record indexing works and how that has influenced genealogy.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Organizer (Activity & Observation Log):** Req 8c Quantitative Field Observation & Activity Log (Indexing Works and How That)
-- **Common Myth:** Scouts think computer software easily transcribes historical nineteenth-century cursive without human assistance.
-- **Pamphlet Fact:** Archaic handwriting and faded ink require human volunteers to decipher and index names accurately.
 
 ![A researcher reads census data projected onto a desktop microfilm reader.](/assets/pamphlet_images/genealogy_p049_img1.png)
 
@@ -423,7 +379,6 @@
 ### Req 9: Family Heritage Reflection and Synthesis
 **Official Requirement 9:** Discuss what you have learned about your family and your family members through your genealogical research.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Discuss What You Have Learned)
-> **Guide to Safe Scouting Warning:** Treat sensitive family discoveries, such as historical trauma or family disputes, with empathy and confidentiality.
 - **Common Myth:** Scouts think genealogical research is finished as soon as names and dates fill every blank.
 - **Pamphlet Fact:** True genealogy connects names and dates to real human lives, social history, and family character.
 

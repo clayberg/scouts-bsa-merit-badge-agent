@@ -51,10 +51,8 @@
 #### Req 1a: Societal Purpose of Criminal Law
 **Official Requirement 1a:** Why we have criminal laws.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Have Criminal Laws)
-- **Common Myth:** Laws exist merely to generate governmental fine revenue through arbitrary public behavioral restrictions.
-- **Pamphlet Fact:** Criminal statutes protect society by establishing standard rules of conduct and deterring dangerous behavior.
 
-![Crime Prevention Requirement 1 figure showing criminal statutes preserve orderly civilization by defining clear behavioral standards.](/assets/pamphlet_images/crime_prevention_p003_img1.png)
+![Criminal statutes preserve orderly civilization by defining clear behavioral standards for community safety.](/assets/pamphlet_images/crime_prevention_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -65,8 +63,6 @@
 #### Req 1b: Major Categories of Criminal Offenses
 **Official Requirement 1b:** The types of crimes, including property crimes, crimes against people, white collar crime, and environmental crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Crimes Including Property Crimes Crimes)
-- **Common Myth:** True criminal behavior exclusively involves physical violence or overt burglary against residential property.
-- **Pamphlet Fact:** White collar fraud and toxic dumping carry severe economic and environmental tolls across entire communities.
 
 ![A blank notepad and pen symbolize taking notes on crime laws and community safety.](/assets/pamphlet_images/crime_prevention_p011_img1.png)
 
@@ -79,8 +75,6 @@
 #### Req 1c: Root Causes of Criminal Behavior
 **Official Requirement 1c:** Why people commit crimes.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (People Commit Crimes)
-- **Common Myth:** People commit crimes solely because of inherent bad nature rather than preventable social conditions.
-- **Pamphlet Fact:** Criminogenic behavior stems from complex interactions among opportunity, social alienation, peer pressure, and economic distress.
 
 ![A person hides stolen clothing inside a jacket to illustrate retail shoplifting.](/assets/pamphlet_images/crime_prevention_p015_img1.png)
 
@@ -93,8 +87,6 @@
 #### Req 1d: Ethics of Voluntary Legal Adherence
 **Official Requirement 1d:** Why everyone should follow the law even when no one is watching.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Everyone Should Follow the Law)
-- **Common Myth:** Laws only carry binding authority when active law enforcement patrols monitor immediate individual conduct.
-- **Pamphlet Fact:** Unseen civic integrity creates trust and prevents social breakdown in democratic self-governing neighborhoods.
 
 ![A reference card lists vital phone numbers for police, fire, and medical aid.](/assets/pamphlet_images/crime_prevention_p021_img1.png)
 
@@ -107,8 +99,6 @@
 #### Req 1e: Proactive Principles of Crime Prevention
 **Official Requirement 1e:** The meaning of crime prevention.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Crime Prevention)
-- **Common Myth:** Crime prevention consists entirely of rapid police response times following an emergency call.
-- **Pamphlet Fact:** Crime prevention proactively addresses environmental conditions and social triggers before unlawful incidents occur.
 
 ![Uniformed Scouts inspect exterior bushes around a home for security vulnerabilities.](/assets/pamphlet_images/crime_prevention_p022_img1.png)
 
@@ -134,10 +124,8 @@
 #### Req 2a: Citizen and Youth Crime Deterrence
 **Official Requirement 2a:** Citizens, including youth.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Citizens Including Youth)
-- **Common Myth:** Individual residents lack meaningful authority to alter localized crime patterns without personal enforcement powers.
-- **Pamphlet Fact:** Observant citizens who promptly report suspicious activity deter neighborhood property offenses without confronting suspects.
 
-![Crime Prevention Requirement 2 figure showing active neighborhood surveillance and prompt reporting eliminate opportunistic burglary.](/assets/pamphlet_images/crime_prevention_p007_img1.png)
+![Active neighborhood surveillance and prompt reporting eliminate opportunistic burglary conditions around residential streets.](/assets/pamphlet_images/crime_prevention_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -148,8 +136,6 @@
 #### Req 2b: Institutional School Safety Frameworks
 **Official Requirement 2b:** Schools.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Crime Prevention Schools Principles)
-- **Common Myth:** Educational institutions contribute to public safety solely by punishing students after classroom infractions happen.
-- **Pamphlet Fact:** Structured campus safety programs and peer mediation resolve interpersonal conflicts before physical violence emerges.
 
 ![Youths walk through their neighborhood as part of an active community watch patrol.](/assets/pamphlet_images/crime_prevention_p019_img1.png)
 
@@ -162,8 +148,6 @@
 #### Req 2c: Community and Youth Civic Organizations
 **Official Requirement 2c:** Neighborhood, social, and civic groups, including youth groups.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Neighborhood Social and Civic)
-- **Common Myth:** Social service organizations duplicate law enforcement functions without producing measurable reductions in local crime.
-- **Pamphlet Fact:** Civic clubs provide mentorship and productive extracurricular outlets that buffer youth against criminal recruitment.
 
 ![Youth use an electric engraver tool to mark serial numbers on home electronics.](/assets/pamphlet_images/crime_prevention_p023_img1.png)
 
@@ -176,8 +160,6 @@
 #### Req 2d: Private Security Operational Scope
 **Official Requirement 2d:** Private security.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Private Security)
-- **Common Myth:** Private security personnel possess identical statutory arrest authority and search powers as municipal police.
-- **Pamphlet Fact:** Private security guards provide focused asset protection and access control across proprietary commercial facilities.
 
 ![Volunteers stencil house address numbers on a curb to help emergency responders.](/assets/pamphlet_images/crime_prevention_p026_img1.png)
 
@@ -190,8 +172,6 @@
 #### Req 2e: Sworn Law Enforcement Functions
 **Official Requirement 2e:** Law enforcement agencies.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Law Enforcement Agencies)
-- **Common Myth:** Police work revolves almost exclusively around high speed vehicle pursuits and dramatic tactical arrests.
-- **Pamphlet Fact:** Modern policing balances rapid emergency response with proactive community engagement to resolve neighborhood vulnerabilities.
 
 ![A child shouts loudly to attract attention and deter a potential perpetrator.](/assets/pamphlet_images/crime_prevention_p043_img1.png)
 
@@ -204,8 +184,6 @@
 #### Req 2f: Judicial Adjudication and Sentencing
 **Official Requirement 2f:** Courts.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix (Crime Prevention Courts Principles)
-- **Common Myth:** The judicial court system serves only to rubber stamp charges brought by prosecuting attorneys.
-- **Pamphlet Fact:** Courts safeguard constitutional protections while adjudicating statutory guilt and determining equitable sentencing remedies.
 
 ![Scouts interview a retail store manager about local shoplifting prevention measures.](/assets/pamphlet_images/crime_prevention_p047_img1.png)
 
@@ -218,8 +196,6 @@
 #### Req 2g: Correctional Rehabilitation and Reentry
 **Official Requirement 2g:** Corrections and rehabilitation programs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2g Structured Technical Study & Explanation Matrix (Corrections and Rehabilitation)
-- **Common Myth:** Correctional facilities exist purely for punitive warehousing rather than behavioral reform or vocational education.
-- **Pamphlet Fact:** Comprehensive rehabilitative vocational programs substantially decrease post-release criminal reoffending rates in communities.
 
 ![Handwritten cards share holiday safety advice and watch tips with local neighbors.](/assets/pamphlet_images/crime_prevention_p048_img1.png)
 
@@ -247,10 +223,8 @@
 **Official Requirement 3a:** With your parent or guardian's permission and the approval of your counselor, research local, state, or national news coverage of three crimes of different types. Research how common these types of crimes are in your state or in the United States.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Local State or National News)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Crime Prevention Req 3a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Local television headlines accurately mirror the true statistical proportions of community crime types.
-- **Pamphlet Fact:** Public crime dashboards provide objective geographic crime counts that counter sensationalized commercial headline bias.
 
-![Crime Prevention Requirement 3 figure showing commercial news outlets prioritize sensational violent offenses over statistically.](/assets/pamphlet_images/crime_prevention_p012_img1.png)
+![Commercial news outlets prioritize sensational violent offenses over statistically frequent petty property crimes.](/assets/pamphlet_images/crime_prevention_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -262,8 +236,6 @@
 #### Req 3b: Criminal Justice Case Tracking
 **Official Requirement 3b:** Record notes on which law enforcement agencies and courts were involved in the pursuit of justice for the victims and the accused person, why you think these crimes were committed, and what could be done to prevent similar crimes. Review your research with your counselor.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)* • **Organizer (Activity & Observation Log):** Req 3b Quantitative Field Observation & Activity Log (Notes on Which Law Enforcement)
-- **Common Myth:** A single responding patrol officer manages every step from crime scene processing through trial sentencing.
-- **Pamphlet Fact:** Inter-agency task forces combine municipal investigators, county prosecutors, and victim service advocates during major trials.
 
 ![A uniformed police officer answers a telephone call at an administrative desk.](/assets/pamphlet_images/crime_prevention_p020_img1.png)
 
@@ -293,8 +265,6 @@
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Conduct residential security walkthroughs during daylight hours accompanied by a parent or adult guardian.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Crime Prevention Req 4 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Organized social gatherings and youth sports clubs exert no measurable impact on local property crime.
-- **Pamphlet Fact:** Active community groups create natural neighborhood surveillance that deters criminal operations in public spaces.
 
 **Official Pamphlet Summary:**
 - Community engagement through civic clubs, churches, and athletic teams builds social bonds that resist neighborhood disorder. Cohesive social networks notice unfamiliar activities and quickly intervene through official reporting channels.
@@ -303,8 +273,6 @@
 #### Req 4a(1): Community Organizations and Crime Prevention
 **Official Requirement 4a(1):** How participation in activities of families, churches, sports teams, and clubs prevents crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a(1) Structured Technical Study & Explanation Matrix (Participation in Activities of Families)
-- **Common Myth:** Youth clubs and sports teams reduce crime solely by filling up free time on the calendar.
-- **Pamphlet Fact:** Group participation builds lasting ethical values, adult mentorship, and mutual social responsibility that guide positive choices even when youths are unsupervised.
 
 ![Residents paint over wall graffiti to maintain pride and prevent neighborhood decay.](/assets/pamphlet_images/crime_prevention_p014_img1.png)
 
@@ -317,8 +285,6 @@
 #### Req 4a(2): Crime Prevention Through Environmental Design
 **Official Requirement 4a(2):** How designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (Houses Neighborhoods Public Buildings Stores)
-- **Common Myth:** Tall privacy fences and overgrown perimeter hedges provide the best defense against residential burglary.
-- **Pamphlet Fact:** Concealing barriers and high shrubbery actually aid burglars by blocking sightlines from the street and providing hidden areas to force entry undetected.
 
 ![A colorful cartoon poster warns youth against illicit substance abuse dangers.](/assets/pamphlet_images/crime_prevention_p054_img1.png)
 
@@ -332,8 +298,6 @@
 **Official Requirement 4b:** Conduct a security survey of a home, a neighborhood, a park, or a camp building with adult supervision and following youth protection guidelines using a security checklist in the Crime Prevention merit badge pamphlet or one approved by your counselor.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Security Survey of A Home)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Crime Prevention Req 4b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Home security surveys merely involve verifying that front door key locks turn smoothly inside cylinders.
-- **Pamphlet Fact:** Standard home audits evaluate physical strike plates, exterior lumens, address visibility, and window locking mechanisms.
 
 ![A judge's gavel rests upon a law volume representing the legal justice system.](/assets/pamphlet_images/crime_prevention_p059_img1.png)
 
@@ -346,8 +310,6 @@
 #### Req 4c: EDGE Method Security Instruction
 **Official Requirement 4c:** Use information from your survey for requirement 4(b) and the EDGE method to develop a lesson about how a family or Scouts can protect themselves from crime. Review your teaching plan with your counselor, then present your lesson to your family or to Scouts.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Information from Your Survey)
-- **Common Myth:** Scouts master personal safety techniques merely by reading printed checklist pamphlets without practical demonstration.
-- **Pamphlet Fact:** Effective safety training requires demonstrations, hands-on practice, and clear practical feedback using the EDGE method.
 
 ![Airport security personnel examine passenger luggage at a checkpoint during screening operations.](/assets/pamphlet_images/crime_prevention_p061_img2.png)
 
@@ -374,8 +336,6 @@
 #### Req 5a: Retail Shrinkage Economic Impact
 **Official Requirement 5a:** The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention on retail finances, customer service, and reputation.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Impact of Shoplifting and Employee)
-- **Common Myth:** Corporate retailers absorb merchandise theft easily without passing costs onto honest paying household consumers.
-- **Pamphlet Fact:** Shrinkage inflates consumer costs, eliminates hourly employee bonuses, and forces retailers to close struggling urban locations.
 
 ![Two teens browse the internet together while practicing online safety habits.](/assets/pamphlet_images/crime_prevention_p008_img1.png)
 
@@ -388,8 +348,6 @@
 #### Req 5b: Retail Loss Prevention Methodologies
 **Official Requirement 5b:** Techniques used by retail stores to prevent shoplifting.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Techniques Used by Retail)
-- **Common Myth:** Retailers rely exclusively on uniformed security guards chasing suspects down public sidewalks to prevent theft.
-- **Pamphlet Fact:** Strategic merchandise placement, convex mirrors, and attentive customer service deter shoplifting without physical force.
 
 ![A police officer interviews a person while examining evidence during an investigation.](/assets/pamphlet_images/crime_prevention_p061_img3.png)
 
@@ -415,8 +373,6 @@
 #### Req 6a: Emergency Crime Reporting Protocols
 **Official Requirement 6a:** When and how to report a crime or an impending crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Crime or An Impending Crime)
-- **Common Myth:** Calling 911 is only necessary after a violent physical crime has already been completely executed.
-- **Pamphlet Fact:** Immediate reporting enables 911 dispatchers to deploy perimeter patrol units before fleeing suspects leave the area.
 
 ![A mobile phone displays a one-touch emergency calling screen for reporting crime.](/assets/pamphlet_images/crime_prevention_p042_img1.png)
 
@@ -429,8 +385,6 @@
 #### Req 6b: Abuse Recognition and Reporting Pathways
 **Official Requirement 6b:** The warning signs for child abuse and domestic violence and how to report these situations.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Warning Signs for Child Abuse)
-- **Common Myth:** Family privacy boundaries prohibit reporting suspected child abuse or domestic violence to certified welfare authorities.
-- **Pamphlet Fact:** Unexplained injuries, radical withdrawal, and fearful avoidance of caregivers serve as vital warning indicators of abuse.
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -441,8 +395,6 @@
 #### Req 6c: Personal Safety Three R Framework
 **Official Requirement 6c:** The three R's of personal safety and protection and how to apply them.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Personal Safety and Protection)
-- **Common Myth:** The three R's of personal protection instruct youth to physically fight adult attackers in every situation.
-- **Pamphlet Fact:** Recognizing hazards, resisting compromise, and reporting threats form the essential defensive foundation for personal safety.
 
 | Req 6c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -453,8 +405,6 @@
 #### Req 6d: Victim Advocacy Resource Mobilization
 **Official Requirement 6d:** How reporting a crime can help law enforcement provide resources for crime victims.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Reporting A Crime Can Help)
-- **Common Myth:** Police crime reports serve merely as statistical records without offering practical assistance to injured crime victims.
-- **Pamphlet Fact:** Filing official police reports connects victims with crisis counselors, emergency shelters, and state restitution funds.
 
 | Req 6d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -478,8 +428,6 @@
 #### Req 7a: Peer Influence Dynamics in Criminology
 **Official Requirement 7a:** The role that peers play in crime, crime prevention, and experiencing crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Role That Peers Play in)
-- **Common Myth:** Peer pressure exclusively exerts negative influences that draw young people toward illegal or dangerous conduct.
-- **Pamphlet Fact:** Supportive peer groups establish protective social norms that discourage experimentation with shoplifting or vandalism.
 
 | Req 7a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -490,8 +438,6 @@
 #### Req 7b: Assertive Peer Resistance Strategies
 **Official Requirement 7b:** How to resist peer influence.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Resist Peer Influence)
-- **Common Myth:** Resisting peer pressure requires aggressive verbal confrontation that publicly insults the person making illegal suggestions.
-- **Pamphlet Fact:** Using delayed exit strategies and clear verbal refusals neutralizes coercive pressure without provoking aggressive peer retaliation.
 
 | Req 7b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -502,8 +448,6 @@
 #### Req 7c: Bullying and Hazing Identification
 **Official Requirement 7c:** Bullying and hazing behaviors and signs that a friend may be bullying you or someone else.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Bullying and Hazing Behaviors and)
-- **Common Myth:** Hazing represents a harmless, traditional bonding ritual necessary to build loyalty within sports teams.
-- **Pamphlet Fact:** Repeated power imbalances, intentional exclusion, and cyber harassment distinguish dangerous bullying from occasional interpersonal arguments.
 
 | Req 7c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -514,8 +458,6 @@
 #### Req 7d: Community Gang Impact and Disruption
 **Official Requirement 7d:** The impact of gangs on communities.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Impact of Gangs on Communities)
-- **Common Myth:** Youth street gangs operate primarily as protective social clubs defending neighborhood residents from outside threats.
-- **Pamphlet Fact:** Gangs destroy neighborhood business vitality, escalate firearm homicides, and exploit juveniles as low level narcotics couriers.
 
 | Req 7d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -539,8 +481,6 @@
 #### Req 8a: Legal and Health Substance Consequences
 **Official Requirement 8a:** The legal and health consequences of using alcohol, tobacco and vaping products, illegal drugs, and diverted prescription drugs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Legal and Health Consequences)
-- **Common Myth:** Vaping flavored liquids and consuming diverted prescription stimulants carry zero criminal legal consequences for juveniles.
-- **Pamphlet Fact:** Possessing controlled substances or diverted prescription pills carries serious misdemeanor and felony criminal penalties.
 
 ![Hands firmly push away an offered cigarette to demonstrate resisting peer pressure.](/assets/pamphlet_images/crime_prevention_p050_img1.png)
 
@@ -553,8 +493,6 @@
 #### Req 8b: Substance Impairment and Victimization Vulnerability
 **Official Requirement 8b:** How substance use contributes to violence and property crime and increases a person's risk of becoming a victim of crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Substance Use Contributes to Violence)
-- **Common Myth:** Substance intoxication only leads to nonviolent traffic offenses without raising risk for violent crime victimization.
-- **Pamphlet Fact:** Intoxication impairs situational awareness and physical coordination, making impaired individuals primary targets for muggers.
 
 | Req 8b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -565,8 +503,6 @@
 #### Req 8c: Addiction Treatment and Crime Reduction
 **Official Requirement 8c:** How drug abuse awareness, prevention, and recovery programs help prevent crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Drug Abuse Awareness Prevention and)
-- **Common Myth:** Substance abuse rehabilitation facilities only benefit affluent individuals while failing to reduce broader neighborhood crime.
-- **Pamphlet Fact:** Comprehensive drug diversion courts combine judicial monitoring with clinical therapy to dramatically reduce offender recidivism.
 
 | Req 8c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -577,8 +513,6 @@
 #### Req 8d: Substance Intervention and Support Pipelines
 **Official Requirement 8d:** How to get help if you or someone you know needs help with drugs or alcohol.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Get Help If You or)
-- **Common Myth:** Seeking professional help for substance dependency automatically triggers immediate criminal arrest and juvenile detention.
-- **Pamphlet Fact:** Confidential national hotlines like SAMHSA provide round-the-clock free guidance for individuals seeking addiction recovery.
 
 | Req 8d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -602,8 +536,6 @@
 #### Req 9a: Online Crime Avoidance Strategies
 **Official Requirement 9a:** How to avoid being the victim of online crimes.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Avoid Being the Victim of)
-- **Common Myth:** Browsing the internet on a smartphone is inherently immune to malicious malware and credential harvesting.
-- **Pamphlet Fact:** Verifying sender domain addresses and avoiding public Wi-Fi transactions protects personal data from network snooping.
 
 ![Young volunteers pick up litter to deter crime by improving neighborhood spaces.](/assets/pamphlet_images/crime_prevention_p013_img1.png)
 
@@ -616,8 +548,6 @@
 #### Req 9b: Online Financial Fraud and Scams
 **Official Requirement 9b:** Common online financial scams.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (Common Online Financial Scams)
-- **Common Myth:** Financial investment scams online are obvious and only fool people who lack basic technical literacy.
-- **Pamphlet Fact:** Legitimate government agencies and banks never demand instantaneous payment via gift cards or peer-to-peer apps.
 
 | Req 9b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -628,8 +558,6 @@
 #### Req 9c: Personal Cybersecurity Architecture
 **Official Requirement 9c:** Effective online security.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Effective Online Security)
-- **Common Myth:** Reusing a complex password across multiple banking and entertainment websites provides sufficient digital security.
-- **Pamphlet Fact:** Unique complex passphrases paired with authenticator app tokens prevent account takeovers during credential stuffing attacks.
 
 | Req 9c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -640,8 +568,6 @@
 #### Req 9d: Identity Theft Prevention Protocols
 **Official Requirement 9d:** Identity theft and how to prevent.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Identity Theft and How to)
-- **Common Myth:** Identity theft only impacts wealthy adults who own multiple real estate properties and credit cards.
-- **Pamphlet Fact:** Freezing consumer credit files at major bureaus blocks criminals from opening fraudulent loan accounts using your SSN.
 
 | Req 9d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -652,8 +578,6 @@
 #### Req 9e: Social Media Operational Security
 **Official Requirement 9e:** How criminals use social media to target victims.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix (Criminals Use Social Media to)
-- **Common Myth:** Setting social media profiles to private completely shields personal information from predatory commercial scrapers.
-- **Pamphlet Fact:** Burglars scan public social media posts to identify vacant residences during announced family holiday vacations.
 
 | Req 9e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -664,8 +588,6 @@
 #### Req 9f: Digital Harassment and Legal Boundaries
 **Official Requirement 9f:** How bullying, texting, and sharing photos can become crimes.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9f Structured Technical Study & Explanation Matrix (Bullying Texting and Sharing Photos)
-- **Common Myth:** Sharing hurtful memes or unauthorized photos of classmates is merely harmless adolescent teasing outside legal jurisdiction.
-- **Pamphlet Fact:** Transmitting sexually explicit photos of minors constitutes a federal felony offense carrying mandatory sex offender registry.
 
 | Req 9f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

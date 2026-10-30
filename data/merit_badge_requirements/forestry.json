@@ -240,7 +240,7 @@
       "action_verb": "Prepare",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear high-top boots and scan low vegetation to avoid toxic foliage such as poison ivy and venomous snakes.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 24, p. 25)",
       "pamphlet_page_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 24, p. 25)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -313,13 +313,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Diagnostic Vegetative Anatomical",
+        "left_header": "Req 1a: Diagnostic Vegetative Anatomical Features",
         "right_header": "Req 1b: Forest Habitat Ecological Strata",
         "left_points": [
-          "(1a) Diagnostic Vegetative Anatomical Features: Twig anatomy provides year-round identification characteristics through bud arrangement, lenticels, and pith architecture. Cones and fruit capsules confirm species within difficult genera."
+          "(1a) Diagnostic Vegetative Anatomical Features: Twig anatomy provides year-round identification characteristics through bud arrangement, lenticels, and pith architecture. Cones and fruit capsules confirm species within difficult genera.",
+          "Leaf Arrangement: Alternate or opposite twig attachments provide immediate diagnostic separation between major tree families."
         ],
         "right_points": [
-          "(1b) Forest Habitat Ecological Strata: Forest microclimates dictate specific plant associations based on aspect, slope position, and drainage class. Certain indicator species delineate wetlands, rocky ridges, or deep alluvial soils."
+          "(1b) Forest Habitat Ecological Strata: Forest microclimates dictate specific plant associations based on aspect, slope position, and drainage class. Certain indicator species delineate wetlands, rocky ridges, or deep alluvial soils.",
+          "(1c) Ecological Value and Provenance: Native species supply critical forage and nesting cavities tailored to indigenous wildlife life cycles. Non-native trees often escape cultivation and aggressively displace diverse native understory communities."
         ],
         "rows": [
           {
@@ -329,26 +331,27 @@
           },
           {
             "attribute": "Terminal Bud Anatomy",
-            "left": "Req 1a: Diagnostic Vegetative: Twig anatomy provides year-round identification characteristics through bud arrangement, lenticels, and pith architecture. Cones and fruit capsules confirm species within difficult genera.",
-            "right": "Req 1b: Forest Habitat Ecological: Forest microclimates dictate specific plant associations based on aspect, slope position, and drainage class. Certain indicator species delineate wetlands, rocky ridges, or deep alluvial soils."
+            "left": "Leaf Arrangement: Alternate or opposite twig attachments provide immediate diagnostic separation between major tree families.",
+            "right": "(1c) Ecological Value and Provenance: Native species supply critical forage and nesting cavities tailored to indigenous wildlife life cycles. Non-native trees often escape cultivation and aggressively displace diverse native understory communities."
           },
           {
             "attribute": "Fruiting Structures",
-            "left": "Req 1c: Ecological Value: Native species supply critical forage and nesting cavities tailored to indigenous wildlife life cycles. Non-native trees often escape cultivation and aggressively displace diverse native understory communities.",
-            "right": "Terminal Bud Anatomy: True terminal buds feature distinct scales and vascular scars that identify dormant hardwoods."
+            "left": "Fruiting Structures: Hardwood nut mast and conifer seed cones confirm specific genus and species designations.",
+            "right": "Bark Architecture: Mature bark furrow depth and color distinguish older specimens lacking reachable lower foliage."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 1 Exemplar Workbook Entry: Tree and Shrub",
+        "title": "Forestry Req 1 Worked Example: Forest Plant Field Identification",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 1a - Diagnostic Vegetative": "Twig anatomy provides year-round identification characteristics through bud arrangement, lenticels, and pith architecture. Cones and fruit capsules confirm species within difficult genera.",
-          "Req 1b - Forest Habitat Ecological": "Forest microclimates dictate specific plant associations based on aspect, slope position, and drainage class. Certain indicator species delineate wetlands, rocky ridges, or deep alluvial soils.",
-          "Req 1c - Ecological Value": "Native species supply critical forage and nesting cavities tailored to indigenous wildlife life cycles. Non-native trees often escape cultivation and aggressively displace diverse native understory communities."
+          "Phase 1 - Area Reconnaissance": "Walk designated forest transects while recording canopy dominant species within your waterproof notebook.",
+          "Phase 2 - Specimen Sampling": "Collect intact compound leaves showing attached petioles and clear twig node attachment points.",
+          "Phase 3 - Key Navigation": "Follow couplets in a regional dichotomous key to confirm family and genus.",
+          "Phase 4 - Notebook Cataloging": "Record scientific names alongside sketch drawings of reproductive cones and margin serrations."
         },
-        "sample_output": "Tree and Shrub Field Identification: Needlelike leaves or broad-leaf leaves (p. 24).",
-        "counselor_tip": "For Forestry Requirement 1 (Tree and Shrub Field Identification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 24, p. 25))."
+        "sample_output": "Forest botanists utilize multi-season morphological markers to classify woody perennials within regional ecological zones. Accurate field identification combines dichotomous leaf keys with winter twig traits and reproductive structures.",
+        "counselor_tip": "During the Forestry Requirement 1 conference on Forest Plant Field Identification, verify that the Scout can explain leaf arrangement and demonstrate notebook cataloging: Record scientific names alongside sketch drawings of reproductive cones and margin serrations."
       },
       "quiz_item": {
         "scenario_prompt": "When preparing a field notebook of local trees for Forestry Requirement 1, which combination of botanical characteristics allows you to accurately identify a tree species in the field?",
@@ -368,7 +371,7 @@
         "correct_index": 3,
         "correct_letter": "D",
         "correct_answer": "D. Examining whether branching and leaf arrangement are opposite (such as maple, ash, dogwood) or alternate.",
-        "explanation": "Correct Answer (D): Dendrology (tree identification) relies on systematic keys comparing opposite vs. alternate twig arrangement, simple vs. compound leaf structure, leaf margins, bark patterns, buds, and reproductive structures (acorns, samaras, or cones).",
+        "explanation": "Correct Answer (D): Dendrology (tree identification) relies on systematic keys comparing opposite vs. alternate twig arrangement, simple vs.compound leaf structure, leaf margins, bark patterns, buds, and reproductive structures (acorns, samaras, or cones).",
         "pamphlet_page_ref": "p. 24, p. 25"
       },
       "estimated_minutes": 15,
@@ -702,7 +705,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear leather work gloves and eye protection when handling rough timber samples or sharp increment borers.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 28, p. 36)",
       "pamphlet_page_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 28, p. 36)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -778,10 +781,12 @@
         "left_header": "Req 2a: Wood Anatomy and Utilization",
         "right_header": "Req 2b: Annual Radial Growth Variations",
         "left_points": [
-          "(2a) Wood Anatomy and Utilization: Wood identification relies on cell porosity, ray width, color, and grain patterns. Commercial utilization separates dense construction lumber from pulpwood, veneer, and specialty furniture woods."
+          "(2a) Wood Anatomy and Utilization: Wood identification relies on cell porosity, ray width, color, and grain patterns. Commercial utilization separates dense construction lumber from pulpwood, veneer, and specialty furniture woods.",
+          "Growth Ring Formation: Early springwood cells have large lumens whereas dense latewood cells provide mechanical strength."
         ],
         "right_points": [
-          "(2b) Annual Radial Growth Variations: Cross-sectional ring patterns reflect competition dynamics, sudden canopy releases, and climatic moisture extremes. Analyzing ring cores reveals suppression periods followed by thinning releases."
+          "(2b) Annual Radial Growth Variations: Cross-sectional ring patterns reflect competition dynamics, sudden canopy releases, and climatic moisture extremes. Analyzing ring cores reveals suppression periods followed by thinning releases.",
+          "(2c) Forest Pathology and Insect Injuries: Forest pathogens include primary borers, defoliating caterpillars, heartwood decay fungi, and parasitic cankers. Evaluating vascular injury reveals whether the tree can compartmentalize the structural infection."
         ],
         "rows": [
           {
@@ -791,26 +796,27 @@
           },
           {
             "attribute": "Cambium Functionality",
-            "left": "Req 2a: Wood Anatomy and Utilization: Wood identification relies on cell porosity, ray width, color, and grain patterns. Commercial utilization separates dense construction lumber from pulpwood, veneer, and specialty furniture woods.",
-            "right": "Req 2b: Annual Radial Growth: Cross-sectional ring patterns reflect competition dynamics, sudden canopy releases, and climatic moisture extremes. Analyzing ring cores reveals suppression periods followed by thinning releases."
+            "left": "Growth Ring Formation: Early springwood cells have large lumens whereas dense latewood cells provide mechanical strength.",
+            "right": "(2c) Forest Pathology and Insect Injuries: Forest pathogens include primary borers, defoliating caterpillars, heartwood decay fungi, and parasitic cankers. Evaluating vascular injury reveals whether the tree can compartmentalize the structural infection."
           },
           {
             "attribute": "Pathological Staining",
-            "left": "Req 2c: Forest Pathology and Insect: Forest pathogens include primary borers, defoliating caterpillars, heartwood decay fungi, and parasitic cankers. Evaluating vascular injury reveals whether the tree can compartmentalize the structural infection.",
-            "right": "Cambium Functionality: Vascular cambium generates xylem tissue internally while adding thin phloem layers externally."
+            "left": "Pathological Staining: Internal fungal mycelium creates distinct heartwood discoloration visible in cut log sections.",
+            "right": "Wood Grain Utility: Distinct ring porosity dictates timber selection for furniture, framing, or paper production."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 2 Exemplar Workbook Entry: Wood Samples",
+        "title": "Forestry Req 2 Worked Example: Wood Structure and Growth",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Wood Anatomy and Utilization": "Wood identification relies on cell porosity, ray width, color, and grain patterns. Commercial utilization separates dense construction lumber from pulpwood, veneer, and specialty furniture woods.",
-          "Req 2b - Annual Radial Growth": "Cross-sectional ring patterns reflect competition dynamics, sudden canopy releases, and climatic moisture extremes. Analyzing ring cores reveals suppression periods followed by thinning releases.",
-          "Req 2c - Forest Pathology and Insect": "Forest pathogens include primary borers, defoliating caterpillars, heartwood decay fungi, and parasitic cankers. Evaluating vascular injury reveals whether the tree can compartmentalize the structural infection."
+          "Phase 1 - Surface Preparation": "Sand cut log ends with fine abrasive paper to expose clean cell boundaries.",
+          "Phase 2 - Ring Measurement": "Measure annual ring increments along two perpendicular radii using a millimeter ruler.",
+          "Phase 3 - Damage Assessment": "Document boring insect tunnels and fungal rot pockets within exposed stump wood.",
+          "Phase 4 - Wood Characterization": "Classify timber density and radial grain figure to establish ideal commercial applications."
         },
-        "sample_output": "Wood Samples, Growth Rings, and Damage: Each year during the spring and summer, most trees increase their diameter by adding two new layers of wood (p. 28).",
-        "counselor_tip": "For Forestry Requirement 2 (Wood Samples, Growth Rings, and Damage), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 28, p. 36))."
+        "sample_output": "Dendrochronology examines xylem ring variations to decipher environmental conditions and past forest disturbances. Wood density and anatomical structure determine structural performance and commercial manufacturing applications.",
+        "counselor_tip": "During the Forestry Requirement 2 conference on Wood Structure and Growth, verify that the Scout can explain growth ring formation and demonstrate wood characterization: Classify timber density and radial grain figure to establish ideal commercial applications."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the wood formed by the cambium in the spring look lighter in color than the wood formed later in the summer?",
@@ -1614,7 +1620,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Stay back from unstable stream banks and wear traction footwear when assessing riparian forest corridors.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 45, p. 74)",
       "pamphlet_page_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 45, p. 74)",
       "syllabus_bucket": "In-Class Concept",
@@ -1686,12 +1692,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 3a: Forest Ecosystem Economic Values",
-        "right_header": "Req 3b: Municipal Watershed Supply",
+        "right_header": "Req 3b: Municipal Watershed Supply Sources",
         "left_points": [
-          "(3a) Forest Ecosystem Economic Values: Forests yield lumber, chemical cellulose, clean recreation, and essential carbon sinks that moderate regional climates. Intact forest canopies retain water, reducing the severity of downstream flooding events."
+          "(3a) Forest Ecosystem Economic Values: Forests yield lumber, chemical cellulose, clean recreation, and essential carbon sinks that moderate regional climates. Intact forest canopies retain water, reducing the severity of downstream flooding events.",
+          "Watershed Filtration: Forest litter slows precipitation runoff, facilitating natural percolation into pristine subterranean aquifers."
         ],
         "right_points": [
-          "(3b) Municipal Watershed Supply Sources: Forested watersheds naturally scrub nutrients, sediments, and organic contaminants from precipitation. Identifying local water reservoirs highlights the municipal importance of protecting upstream headwater forests."
+          "(3b) Municipal Watershed Supply Sources: Forested watersheds naturally scrub nutrients, sediments, and organic contaminants from precipitation. Identifying local water reservoirs highlights the municipal importance of protecting upstream headwater forests.",
+          "Economic Products: Working woodlands supply sustainable timber, paper pulp, chemical resins, and renewable bioenergy."
         ],
         "rows": [
           {
@@ -1701,25 +1709,27 @@
           },
           {
             "attribute": "Carbon Sequestration",
-            "left": "Req 3a: Forest Ecosystem Economic: Forests yield lumber, chemical cellulose, clean recreation, and essential carbon sinks that moderate regional climates. Intact forest canopies retain water, reducing the severity of downstream flooding events.",
-            "right": "Req 3b: Municipal Watershed Supply: Forested watersheds naturally scrub nutrients, sediments, and organic contaminants from precipitation. Identifying local water reservoirs highlights the municipal importance of protecting upstream headwater forests."
+            "left": "Watershed Filtration: Forest litter slows precipitation runoff, facilitating natural percolation into pristine subterranean aquifers.",
+            "right": "Economic Products: Working woodlands supply sustainable timber, paper pulp, chemical resins, and renewable bioenergy."
           },
           {
             "attribute": "Economic Products",
-            "left": "Watershed Filtration: Forest litter slows precipitation runoff, facilitating natural percolation into pristine subterranean aquifers.",
-            "right": "Carbon Sequestration: Actively growing trees convert atmospheric carbon dioxide into durable cellulosic structural biomass."
+            "left": "Economic Products: Working woodlands supply sustainable timber, paper pulp, chemical resins, and renewable bioenergy.",
+            "right": "Soil Stabilization: Extensive fibrous root networks anchor steep embankments against torrential stormwater debris flows."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 3 Exemplar Workbook Entry: Forest Ecosystem",
+        "title": "Forestry Req 3 Worked Example: Forest Economic and Environmental Services",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Forest Ecosystem Economic": "Forests yield lumber, chemical cellulose, clean recreation, and essential carbon sinks that moderate regional climates. Intact forest canopies retain water, reducing the severity of downstream flooding events.",
-          "Req 3b - Municipal Watershed Supply": "Forested watersheds naturally scrub nutrients, sediments, and organic contaminants from precipitation. Identifying local water reservoirs highlights the municipal importance of protecting upstream headwater forests."
+          "Phase 1 - Watershed Mapping": "Trace local topographic contours to delineate your municipal water drainage basin boundaries.",
+          "Phase 2 - Economic Tally": "List renewable wood commodities processed in your home state from harvested timber.",
+          "Phase 3 - Soil Evaluation": "Compare erosion evidence between bare road cuts and undisturbed forested hillsides.",
+          "Phase 4 - Ecosystem Synthesis": "Document carbon sequestration metrics for commercial timber stands in your field notebook."
         },
-        "sample_output": "Forest Ecosystem Services and Watersheds: Forests are among Earth's great filters for cleansing the atmosphere and replenishing it with oxygen (p. 45).",
-        "counselor_tip": "For Forestry Requirement 3 (Forest Ecosystem Services and Watersheds), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 45, p. 74))."
+        "sample_output": "Forest ecosystems provide tangible commodities alongside invaluable hydrological filtration and regional carbon cycling services. Forested watersheds yield clean municipal drinking water while preventing topsoil sedimentation in downstream riverways.",
+        "counselor_tip": "During the Forestry Requirement 3 conference on Forest Economic and Environmental Services, verify that the Scout can explain watershed filtration and demonstrate ecosystem synthesis: Document carbon sequestration metrics for commercial timber stands in your field notebook."
       },
       "quiz_item": {
         "scenario_prompt": "During photosynthesis, what raw materials does a tree combine using sunlight and chlorophyll to produce simple sugars and release oxygen?",
@@ -2187,7 +2197,7 @@
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never enter active prescribed fire units without flame-resistant Nomex clothing, hardhat, and professional supervision.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58)",
       "pamphlet_page_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58)",
       "syllabus_bucket": "In-Class Concept",
@@ -2260,7 +2270,7 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 4a: Multiple-Use Resource Management",
-        "right_header": "Req 4c: Silvicultural Regeneration",
+        "right_header": "Req 4c: Silvicultural Regeneration Systems",
         "left_points": [
           "(4a) Multiple-Use Resource Management: Multiple-use principles harmonize recreation, range forage, timber, watershed health, and wildlife habitat across forested tracts. Land managers zone specific forest parcels to resolve competing resource demands.",
           "(4b) Sustainable Forest Yield Principles: Sustainable forestry balances present wood consumption with the regenerative capacity of future timber cohorts. It conserves topsoil integrity, genetic diversity, and hydrological cycles across multiple rotations."
@@ -2282,22 +2292,22 @@
           },
           {
             "attribute": "Intermediate Cuttings",
-            "left": "Req 4a: Multiple-Use Resource: Multiple-use principles harmonize recreation, range forage, timber, watershed health, and wildlife habitat across forested tracts. Land managers zone specific forest parcels to resolve competing resource demands.",
-            "right": "Req 4b: Sustainable Forest Yield: Sustainable forestry balances present wood consumption with the regenerative capacity of future timber cohorts. It conserves topsoil integrity, genetic diversity, and hydrological cycles across multiple rotations."
+            "left": "Intermediate Cuttings: Stand thinnings allocate water and crown space toward elite high-value timber crop trees.",
+            "right": "Prescribed Burning: Controlled low-intensity surface fires eliminate explosive dead fuels while releasing critical soil minerals."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 4 Exemplar Workbook Entry: Silvicultural",
+        "title": "Forestry Req 4 Worked Example: Forest Management and Silviculture",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Multiple-Use Resource": "Multiple-use principles harmonize recreation, range forage, timber, watershed health, and wildlife habitat across forested tracts. Land managers zone specific forest parcels to resolve competing resource demands.",
-          "Req 4b - Sustainable Forest Yield": "Sustainable forestry balances present wood consumption with the regenerative capacity of future timber cohorts. It conserves topsoil integrity, genetic diversity, and hydrological cycles across multiple rotations.",
-          "Req 4c - Silvicultural Regeneration": "Even-aged systems include clearcutting, seed-tree, and shelterwood methods tailored for shade-intolerant species. Uneven-aged systems use single-tree or group selection to build continuous, multi-tiered canopy cover.",
-          "Req 4d - Intermediate Stand Cuttings": "Intermediate treatments include cleanings, liberations, thinnings, and improvement cuts applied between regeneration and final harvest. These entries enhance overall timber quality, reduce pest vulnerability, and accelerate merchantable stem diameters."
+          "Phase 1 - Management Evaluation": "Contrast multiple-use stewardship goals against single-objective industrial short-rotation timber plantation models.",
+          "Phase 2 - Silviculture Selection": "Identify whether local tree stands require even-aged clearcutting or uneven-aged individual-tree selection.",
+          "Phase 3 - Thinning Prescription": "Mark suppressed and diseased trees for removal during intermediate forest thinning operations.",
+          "Phase 4 - Burn Planning": "Draft fireline boundaries and fuel moisture parameters for a mock prescribed burn."
         },
-        "sample_output": "Silvicultural Systems and Forest Management: Systems that result in trees of approximately the same age are called even-aged systems (p. 55).",
-        "counselor_tip": "For Forestry Requirement 4 (Silvicultural Systems and Forest Management), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58))."
+        "sample_output": "Professional silviculture applies ecological principles to cultivate sustainable timber crops while safeguarding long-term biodiversity. Silvicultural tools include regeneration cuts, commercial thinnings, and controlled ground fires to balance stand vigor.",
+        "counselor_tip": "During the Forestry Requirement 4 conference on Forest Management and Silviculture, verify that the Scout can explain multiple-use forestry and demonstrate burn planning: Draft fireline boundaries and fuel moisture parameters for a mock prescribed burn."
       },
       "quiz_item": {
         "scenario_prompt": "Which silvicultural approach is designed to regenerate tree species that require full, direct sunlight and grow best alongside trees of approximately the same age?",
@@ -3108,7 +3118,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Wear steel-toed boots, eye protection, and high-visibility vests at active mills or logging landings.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)",
       "pamphlet_page_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3187,12 +3197,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 5a: Managed Forest Field Tour",
-        "right_header": "Req 5b: Timber Processing Facility",
+        "right_header": "Req 5b: Timber Processing Facility Inspection",
         "left_points": [
-          "(5a) Managed Forest Field Tour: Managed forest tours reveal how silvicultural prescriptions achieve landowner goals like wildlife hunting or timber revenue. Foresters balance canopy density, invasive plant suppression, and natural seedling regeneration across stands."
+          "(5a) Managed Forest Field Tour: Managed forest tours reveal how silvicultural prescriptions achieve landowner goals like wildlife hunting or timber revenue. Foresters balance canopy density, invasive plant suppression, and natural seedling regeneration across stands.",
+          "Forester Consultations: Professional timber cruisers assess stand volume, stocking levels, and dominant species composition."
         ],
         "right_points": [
-          "(5b) Timber Processing Facility Inspection: Visiting logging operations or sawmills demonstrates the conversion of raw sawlogs into graded structural lumber. Advanced processing facilities utilize bark for boiler fuel and woodchips for paper manufacturing."
+          "(5b) Timber Processing Facility Inspection: Visiting logging operations or sawmills demonstrates the conversion of raw sawlogs into graded structural lumber. Advanced processing facilities utilize bark for boiler fuel and woodchips for paper manufacturing.",
+          "(5c) Wildfire Prevention Campaign Participation: Community wildfire prevention campaigns teach homeowners how to maintain defensible buffer zones clear of dry vegetation. Working with forestry wardens empowers Scouts to distribute essential wildfire awareness materials."
         ],
         "rows": [
           {
@@ -3202,26 +3214,27 @@
           },
           {
             "attribute": "Processing Efficiency",
-            "left": "Req 5a: Managed Forest Field Tour: Managed forest tours reveal how silvicultural prescriptions achieve landowner goals like wildlife hunting or timber revenue. Foresters balance canopy density, invasive plant suppression, and natural seedling regeneration across stands.",
-            "right": "Req 5b: Timber Processing Facility: Visiting logging operations or sawmills demonstrates the conversion of raw sawlogs into graded structural lumber. Advanced processing facilities utilize bark for boiler fuel and woodchips for paper manufacturing."
+            "left": "Forester Consultations: Professional timber cruisers assess stand volume, stocking levels, and dominant species composition.",
+            "right": "(5c) Wildfire Prevention Campaign Participation: Community wildfire prevention campaigns teach homeowners how to maintain defensible buffer zones clear of dry vegetation. Working with forestry wardens empowers Scouts to distribute essential wildfire awareness materials."
           },
           {
             "attribute": "Byproduct Utilization",
-            "left": "Req 5c: Wildfire Prevention Campaign: Community wildfire prevention campaigns teach homeowners how to maintain defensible buffer zones clear of dry vegetation. Working with forestry wardens empowers Scouts to distribute essential wildfire awareness materials.",
-            "right": "Processing Efficiency: Modern sawmill bandsaws utilize kerf-minimizing blades to maximize usable commercial structural boards."
+            "left": "Byproduct Utilization: Debarked slabs and residual sawdust produce wood pellets, paper pulp, and particleboard.",
+            "right": "Prevention Education: Community wildfire programs establish defensible spaces around structures within wildland-urban interfaces."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 5 Exemplar Workbook Entry: Field Visits",
+        "title": "Forestry Req 5 Worked Example: Field Forestry and Operations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Managed Forest Field Tour": "Managed forest tours reveal how silvicultural prescriptions achieve landowner goals like wildlife hunting or timber revenue. Foresters balance canopy density, invasive plant suppression, and natural seedling regeneration across stands.",
-          "Req 5b - Timber Processing Facility": "Visiting logging operations or sawmills demonstrates the conversion of raw sawlogs into graded structural lumber. Advanced processing facilities utilize bark for boiler fuel and woodchips for paper manufacturing.",
-          "Req 5c - Wildfire Prevention Campaign": "Community wildfire prevention campaigns teach homeowners how to maintain defensible buffer zones clear of dry vegetation. Working with forestry wardens empowers Scouts to distribute essential wildfire awareness materials."
+          "Phase 1 - Site Coordination": "Schedule a technical guided walk with a district forester or mill manager.",
+          "Phase 2 - Operational Observation": "Document log scaling methods, sorting crane operations, and computerized debarking equipment lines.",
+          "Phase 3 - Interview Logging": "Record professional forest stewardship objectives, replanting cycles, and local fire management challenges.",
+          "Phase 4 - Report Drafting": "Summarize observed harvest practices or fire prevention activities in your final report."
         },
-        "sample_output": "Field Visits and Wildfire Prevention: You also will have opportunities to visit with forestry professionals and learn more about their backgrounds, training, and responsibilities (p. 71).",
-        "counselor_tip": "For Forestry Requirement 5 (Field Visits and Wildfire Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77))."
+        "sample_output": "Field visits connect silvicultural classroom theory to real-world industrial timber processing and active forest operations. Industrial facilities optimize raw log utilization while conservation campaigns engage communities in wildfire prevention.",
+        "counselor_tip": "During the Forestry Requirement 5 conference on Field Forestry and Operations, verify that the Scout can explain forester consultations and demonstrate report drafting: Summarize observed harvest practices or fire prevention activities in your final report."
       },
       "quiz_item": {
         "scenario_prompt": "What should you do before visiting a managed forest, logging operation, or wood-using manufacturing plant for Requirement 5?",
@@ -3518,13 +3531,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Recreational Hazard Tree",
-        "right_header": "Req 6b: Professional Hazard Report",
+        "left_header": "Req 6a: Recreational Hazard Tree Inventory",
+        "right_header": "Req 6b: Professional Hazard Report Review",
         "left_points": [
-          "(6a) Recreational Hazard Tree Inventory: Hazard tree inventories document specific structural defects including co-dominant stems, root decay, and dead limbs. Scouts map targets such as buildings, roadways, or camping zones beneath defective trees."
+          "(6a) Recreational Hazard Tree Inventory: Hazard tree inventories document specific structural defects including co-dominant stems, root decay, and dead limbs. Scouts map targets such as buildings, roadways, or camping zones beneath defective trees.",
+          "Target Assessment: Hazardous tree evaluations require identifying potential targets such as campsites, cabins, or trails."
         ],
         "right_points": [
-          "(6b) Professional Hazard Report Review: Reviewing certified arborist reports demonstrates professional hazard rating systems and risk mitigation prescriptions. Visiting treated trees verifies whether crown reduction, cabling, or felling mitigated the target hazard."
+          "(6b) Professional Hazard Report Review: Reviewing certified arborist reports demonstrates professional hazard rating systems and risk mitigation prescriptions. Visiting treated trees verifies whether crown reduction, cabling, or felling mitigated the target hazard.",
+          "Crown Dieback: Extensive dead branches within the upper canopy pose immediate falling limb danger."
         ],
         "rows": [
           {
@@ -3534,25 +3549,27 @@
           },
           {
             "attribute": "Structural Defects",
-            "left": "Req 6a: Recreational Hazard Tree: Hazard tree inventories document specific structural defects including co-dominant stems, root decay, and dead limbs. Scouts map targets such as buildings, roadways, or camping zones beneath defective trees.",
-            "right": "Req 6b: Professional Hazard Report: Reviewing certified arborist reports demonstrates professional hazard rating systems and risk mitigation prescriptions. Visiting treated trees verifies whether crown reduction, cabling, or felling mitigated the target hazard."
+            "left": "Target Assessment: Hazardous tree evaluations require identifying potential targets such as campsites, cabins, or trails.",
+            "right": "Crown Dieback: Extensive dead branches within the upper canopy pose immediate falling limb danger."
           },
           {
             "attribute": "Crown Dieback",
-            "left": "Target Assessment: Hazardous tree evaluations require identifying potential targets such as campsites, cabins, or trails.",
-            "right": "Structural Defects: Fungal conks, basal cavities, and severe trunk cracks indicate dangerous internal structural rot."
+            "left": "Crown Dieback: Extensive dead branches within the upper canopy pose immediate falling limb danger.",
+            "right": "Mitigation Prescriptions: Certified arborists prune dangerous deadwood or cable weak crotches to preserve trees."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 6 Exemplar Workbook Entry: Hazard Tree",
+        "title": "Forestry Req 6 Worked Example: Hazard Tree Risk Assessment",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Recreational Hazard Tree": "Hazard tree inventories document specific structural defects including co-dominant stems, root decay, and dead limbs. Scouts map targets such as buildings, roadways, or camping zones beneath defective trees.",
-          "Req 6b - Professional Hazard Report": "Reviewing certified arborist reports demonstrates professional hazard rating systems and risk mitigation prescriptions. Visiting treated trees verifies whether crown reduction, cabling, or felling mitigated the target hazard."
+          "Phase 1 - Zone Demarcation": "Map high-use campsite areas containing permanent picnic pavilions, tent pads, or restrooms.",
+          "Phase 2 - Visual Inspection": "Inspect tree root zones, trunks, and overhead crowns for cavities or cracks.",
+          "Phase 3 - Defect Scoring": "Classify severity of structural decay and quantify target exposure for each specimen.",
+          "Phase 4 - Hazard Reporting": "Submit prioritized pruning and removal recommendations to park authorities in writing."
         },
-        "sample_output": "Hazard Tree Inventory and Assessment: You can identify a beech tree by its smooth, pale gray bark (p. 20).",
-        "counselor_tip": "For Forestry Requirement 6 (Hazard Tree Inventory and Assessment), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 20, p. 65))."
+        "sample_output": "Hazard tree inspections systematically balance tree structural integrity against valuable property targets and visitor traffic areas. Certified risk assessments recommend targeted crown pruning or directional felling to ensure public recreation safety.",
+        "counselor_tip": "During the Forestry Requirement 6 conference on Hazard Tree Risk Assessment, verify that the Scout can explain target assessment and demonstrate hazard reporting: Submit prioritized pruning and removal recommendations to park authorities in writing."
       },
       "quiz_item": {
         "scenario_prompt": "When conducting a hazard tree inventory in a camp or park, what two factors determine whether a defective tree poses an actual hazard?",
@@ -3903,7 +3920,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never attempt to fight wildland fires; immediately evacuate uphill and report smoke coordinates to dispatchers.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 36, p. 71)",
       "pamphlet_page_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 36, p. 71)",
       "syllabus_bucket": "In-Class Concept",
@@ -3976,13 +3993,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Forest Degradation Ecological",
-        "right_header": "Req 7b: Ecological Threat Mitigation",
+        "left_header": "Req 7a: Forest Degradation Ecological Threats",
+        "right_header": "Req 7b: Ecological Threat Mitigation Strategies",
         "left_points": [
-          "(7a) Forest Degradation Ecological Threats: Forests face severe threats from invasive borers, root rots, overgrazing, acid precipitation, and catastrophic crown fires. Understanding ecological disturbance agents enables foresters to implement proactive cultural and silvicultural countermeasures."
+          "(7a) Forest Degradation Ecological Threats: Forests face severe threats from invasive borers, root rots, overgrazing, acid precipitation, and catastrophic crown fires. Understanding ecological disturbance agents enables foresters to implement proactive cultural and silvicultural countermeasures.",
+          "Fuel Ladder Hazards: Dense brush allows ground fires to climb into crowns, creating catastrophic infernos."
         ],
         "right_points": [
-          "(7b) Ecological Threat Mitigation Strategies: Mitigating forest health threats requires targeted thinning, planting disease-resistant tree cultivars, and enforcing international timber quarantines. Controlled burns consume heavy fuel accumulations, mitigating catastrophic wildfire potential across landscapes."
+          "(7b) Ecological Threat Mitigation Strategies: Mitigating forest health threats requires targeted thinning, planting disease-resistant tree cultivars, and enforcing international timber quarantines. Controlled burns consume heavy fuel accumulations, mitigating catastrophic wildfire potential across landscapes.",
+          "(7c) Wildfire Discovery and Suppression: Anyone spotting a wildland fire must immediately evacuate to safety and report coordinates to authorities. Professional crews deploy Pulaskis, bulldozers, water-dropping aircraft, and backburns to starve flames at bare firelines."
         ],
         "rows": [
           {
@@ -3992,26 +4011,27 @@
           },
           {
             "attribute": "Invasive Insect Outbreaks",
-            "left": "Req 7a: Forest Degradation: Forests face severe threats from invasive borers, root rots, overgrazing, acid precipitation, and catastrophic crown fires. Understanding ecological disturbance agents enables foresters to implement proactive cultural and silvicultural countermeasures.",
-            "right": "Req 7b: Ecological Threat Mitigation: Mitigating forest health threats requires targeted thinning, planting disease-resistant tree cultivars, and enforcing international timber quarantines. Controlled burns consume heavy fuel accumulations, mitigating catastrophic wildfire potential across landscapes."
+            "left": "Fuel Ladder Hazards: Dense brush allows ground fires to climb into crowns, creating catastrophic infernos.",
+            "right": "(7c) Wildfire Discovery and Suppression: Anyone spotting a wildland fire must immediately evacuate to safety and report coordinates to authorities. Professional crews deploy Pulaskis, bulldozers, water-dropping aircraft, and backburns to starve flames at bare firelines."
           },
           {
             "attribute": "Pathological Blights",
-            "left": "Req 7c: Wildfire Discovery: Anyone spotting a wildland fire must immediately evacuate to safety and report coordinates to authorities. Professional crews deploy Pulaskis, bulldozers, water-dropping aircraft, and backburns to starve flames at bare firelines.",
-            "right": "Invasive Insect Outbreaks: Non-native boring beetles lack local natural predators, devastating vulnerable homogeneous tree stands."
+            "left": "Pathological Blights: Fungal rusts and vascular wilts spread rapidly through stressed or injured timber.",
+            "right": "Initial Fire Attack: Rapid response crews cut bare mineral firelines to starve oncoming wildfire flames."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 7 Exemplar Workbook Entry: Forest Threats",
+        "title": "Forestry Req 7 Worked Example: Forest Disturbances and Health",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Forest Degradation Ecological": "Forests face severe threats from invasive borers, root rots, overgrazing, acid precipitation, and catastrophic crown fires. Understanding ecological disturbance agents enables foresters to implement proactive cultural and silvicultural countermeasures.",
-          "Req 7b - Ecological Threat Mitigation": "Mitigating forest health threats requires targeted thinning, planting disease-resistant tree cultivars, and enforcing international timber quarantines. Controlled burns consume heavy fuel accumulations, mitigating catastrophic wildfire potential across landscapes.",
-          "Req 7c - Wildfire Discovery": "Anyone spotting a wildland fire must immediately evacuate to safety and report coordinates to authorities. Professional crews deploy Pulaskis, bulldozers, water-dropping aircraft, and backburns to starve flames at bare firelines."
+          "Phase 1 - Stressor Analysis": "Select five forest disturbance vectors including wildfire, invasive insects, and plant blights.",
+          "Phase 2 - Impact Documentation": "Describe canopy mortality, erosion hazards, and habitat losses caused by these vectors.",
+          "Phase 3 - Prevention Strategy": "Outline management interventions including fuel thinnings, quarantine zones, and biological pest controls.",
+          "Phase 4 - Wildfire Protocol": "Memorize 911 reporting procedures and identify your state wildland fire control bureau."
         },
-        "sample_output": "Forest Threats, Wildfire, and Protection: Whatever its origins, damage from certain insects, diseases, fires, and invasive species often can be reduced if the forest is healthy (p. 36).",
-        "counselor_tip": "For Forestry Requirement 7 (Forest Threats, Wildfire, and Protection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 36, p. 71))."
+        "sample_output": "Forest ecosystems suffer severe degradation from unchecked insect blights, invasive pathogens, and unnatural catastrophic wildfires. Implementing integrated pest management, fuel breaks, and emergency suppression protects public resources from permanent ecological damage.",
+        "counselor_tip": "During the Forestry Requirement 7 conference on Forest Disturbances and Health, verify that the Scout can explain fuel ladder hazards and demonstrate wildfire protocol: Memorize 911 reporting procedures and identify your state wildland fire control bureau."
       },
       "quiz_item": {
         "scenario_prompt": "How does carefully planned prescribed burning help protect a forest ecosystem?",
@@ -4103,7 +4123,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Verify credentials and establish meeting checkpoints in advance when shadowing resource professionals in the field.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 75, p. 77)",
       "pamphlet_page_citation": "Official Scouting America Forestry Merit Badge Pamphlet (p. 75, p. 77)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -4172,47 +4192,45 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 8: Connecting with Local Foresters",
-        "right_header": "Req 8: Discuss Education",
+        "left_header": "Professional Forestry Career Pathways: Core Principles",
+        "right_header": "Professional Forestry Career Pathways: Field Execution",
         "left_points": [
-          "Connecting with Local Foresters: Your merit badge counselor and parents can help you arrange a visit to a managed forest, a logging operation, or a manufacturing plant that uses wood (p. 75).",
-          "Watching Forestry in Action: You can see for yourself how the work of forestry is carried (p. 75).",
-          "Exploring Training and Duties: You also will have opportunities to visit with forestry professionals and learn more about their backgrounds, training, and responsibilities (p. 75)."
+          "Academic Rigor: Professional forester credentialing requires rigorous collegiate coursework in biology, chemistry, and calculus.",
+          "Spatial Technology: Modern forest management relies on satellite imagery, LiDAR mapping, and spatial GIS databases."
         ],
         "right_points": [
-          "Discuss Education and Qualifications: You also will have opportunities to visit with forestry professionals and learn more about their backgrounds, training, and responsibilities (p. 75).",
-          "Coordinate Interview Schedules Early: Plan the trip well in advance so that the forestry professionals will have time to prepare for your visit (p. 75).",
-          "Confirm Site Photography Rules: Get permission in advance if you want to take photographs during your visit (p. 75)."
+          "Public Interface: Foresters collaborate with private landowners, timber corporations, conservation groups, and recreationists.",
+          "Career Diversity: Employment ranges from urban arboriculture to industrial timber procurement and public agency regulation."
         ],
         "rows": [
           {
             "attribute": "Academic Rigor",
-            "left": "Connecting with Local Foresters: Your merit badge counselor and parents can help you arrange a visit to a managed forest, a logging operation, or a manufacturing plant that uses wood (p. 75).",
-            "right": "Discuss Education and Qualifications: You also will have opportunities to visit with forestry professionals and learn more about their backgrounds, training, and responsibilities (p. 75)."
+            "left": "Academic Rigor: Professional forester credentialing requires rigorous collegiate coursework in biology, chemistry, and calculus.",
+            "right": "Public Interface: Foresters collaborate with private landowners, timber corporations, conservation groups, and recreationists."
           },
           {
             "attribute": "Spatial Technology",
-            "left": "Watching Forestry in Action: You can see for yourself how the work of forestry is carried (p. 75).",
-            "right": "Coordinate Interview Schedules Early: Plan the trip well in advance so that the forestry professionals will have time to prepare for your visit (p. 75)."
+            "left": "Spatial Technology: Modern forest management relies on satellite imagery, LiDAR mapping, and spatial GIS databases.",
+            "right": "Career Diversity: Employment ranges from urban arboriculture to industrial timber procurement and public agency regulation."
           },
           {
             "attribute": "Public Interface",
-            "left": "Exploring Training and Duties: You also will have opportunities to visit with forestry professionals and learn more about their backgrounds, training, and responsibilities (p. 75).",
-            "right": "Confirm Site Photography Rules: Get permission in advance if you want to take photographs during your visit (p. 75)."
+            "left": "Public Interface: Foresters collaborate with private landowners, timber corporations, conservation groups, and recreationists.",
+            "right": "Career Diversity: Employment ranges from urban arboriculture to industrial timber procurement and public agency regulation."
           }
         ]
       },
       "worked_example": {
-        "title": "Forestry Req 8 Exemplar Workbook Entry: Forestry Careers",
+        "title": "Forestry Req 8 Worked Example: Professional Forestry Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Connecting with Local Foresters": "Your merit badge counselor and parents can help you arrange a visit to a managed forest, a logging operation, or a manufacturing plant that uses wood (p. 75).",
-          "Watching Forestry in Action": "You can see for yourself how the work of forestry is carried (p. 75).",
-          "Exploring Training and Duties": "You also will have opportunities to visit with forestry professionals and learn more about their backgrounds, training, and responsibilities (p. 75).",
-          "Preparing for Professional Interviews": "Plan the trip well in advance so that the forestry professionals will have time to prepare for your visit (p. 75)."
+          "Phase 1 - Career Research": "Review degree programs accredited by the Society of American Foresters online.",
+          "Phase 2 - Professional Interview": "Contact a state or consulting forester to discuss daily field responsibilities.",
+          "Phase 3 - Qualification Review": "Identify required state licensing exams, continuing education credits, and GIS certifications.",
+          "Phase 4 - Career Profiling": "Write a detailed summary outlining forestry career paths and contemporary technological requirements."
         },
-        "sample_output": "Forestry Careers and Professional Duties: Your merit badge counselor and parents can help you arrange a visit to a managed forest, a logging operation, or a manufacturing plant that uses wood (p. 75).",
-        "counselor_tip": "For Forestry Requirement 8 (Forestry Careers and Professional Duties), verify the Scout's own observations and specific pamphlet details (Official Scouting America Forestry Merit Badge Pamphlet (p. 75, p. 77))."
+        "sample_output": "Professional forestry integrates silvicultural science, spatial economics, and public resource policy to manage forest landscapes sustainably. Foresters hold bachelor degrees accredited by the Society of American Foresters and often earn professional licensing.",
+        "counselor_tip": "During the Forestry Requirement 8 conference on Professional Forestry Career Pathways, verify that the Scout can explain academic rigor and demonstrate career profiling: Write a detailed summary outlining forestry career paths and contemporary technological requirements."
       },
       "quiz_item": {
         "scenario_prompt": "Which combination of subjects and skills is central to the education and daily duties of a professional forester?",
@@ -4301,7 +4319,7 @@
       "correct_index": 3,
       "correct_letter": "D",
       "correct_answer": "D. Examining whether branching and leaf arrangement are opposite (such as maple, ash, dogwood) or alternate (such as oak, birch, hickory), whether leaves are simple or compound with lobed or toothed margins, along with bark texture, winter buds, and seeds/cones.",
-      "explanation": "Correct Answer (D): Dendrology (tree identification) relies on systematic keys comparing opposite vs. alternate twig arrangement, simple vs. compound leaf structure, leaf margins, bark patterns, buds, and reproductive structures (acorns, samaras, or cones).",
+      "explanation": "Correct Answer (D): Dendrology (tree identification) relies on systematic keys comparing opposite vs. alternate twig arrangement, simple vs.compound leaf structure, leaf margins, bark patterns, buds, and reproductive structures (acorns, samaras, or cones).",
       "pamphlet_page_ref": "p. 24, p. 25",
       "req_id": "1",
       "option_id": null

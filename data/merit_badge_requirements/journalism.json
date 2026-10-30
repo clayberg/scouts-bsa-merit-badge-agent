@@ -53,7 +53,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "When covering controversial disputes, conduct public interviews in designated neutral locations and exit hostile situations promptly.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)",
       "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)",
       "syllabus_bucket": "In-Class Concept",
@@ -121,47 +121,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1: Avoiding Reckless False Reporting",
-        "right_header": "Req 1: Prevent False Defamatory",
+        "left_header": "First Amendment Press Freedoms: Core Principles",
+        "right_header": "First Amendment Press Freedoms: Field Execution",
         "left_points": [
-          "Avoiding Reckless False Reporting: Journalists should never write something they know in advance to be false, nor should they write something carelessly, with reckless disregard for the truth (p. 20).",
-          "Civil Court Malice Evidence: Doing so can be used in a civil court as evidence of malice, the intention of doing someone harm (p. 20).",
-          "Preventing Defamation of Reputation: Journalists must be careful to avoid committing defamation, or damaging someone's reputation with false statements (p. 20)."
+          "Constitutional Protection: The First Amendment shields independent reporting from government prior restraint and political censorship.",
+          "Defamation Standards: Published false written statements that harm personal reputation constitute legally actionable civil libel."
         ],
         "right_points": [
-          "Prevent False Defamatory Statements: Journalists must be careful to avoid committing defamation, or damaging someone's reputation with false statements (p. 20).",
-          "Identify Written Libel Risks: When the damage comes from written words or photographs, it is called libel (p. 20).",
-          "Distinguish Slander From Libel: When the offending words are spoken, it is called slander (p. 20)."
+          "Slander Liability: Spoken false statements damaging professional reputation create grounds for immediate civil slander lawsuits.",
+          "Fair Comment Defense: Editorial opinions regarding matters of public interest receive protection under common law doctrines."
         ],
         "rows": [
           {
             "attribute": "Constitutional Protection",
-            "left": "Avoiding Reckless False Reporting: Journalists should never write something they know in advance to be false, nor should they write something carelessly, with reckless disregard for the truth (p. 20).",
-            "right": "Prevent False Defamatory Statements: Journalists must be careful to avoid committing defamation, or damaging someone's reputation with false statements (p. 20)."
+            "left": "Constitutional Protection: The First Amendment shields independent reporting from government prior restraint and political censorship.",
+            "right": "Slander Liability: Spoken false statements damaging professional reputation create grounds for immediate civil slander lawsuits."
           },
           {
             "attribute": "Defamation Standards",
-            "left": "Civil Court Malice Evidence: Doing so can be used in a civil court as evidence of malice, the intention of doing someone harm (p. 20).",
-            "right": "Identify Written Libel Risks: When the damage comes from written words or photographs, it is called libel (p. 20)."
+            "left": "Defamation Standards: Published false written statements that harm personal reputation constitute legally actionable civil libel.",
+            "right": "Fair Comment Defense: Editorial opinions regarding matters of public interest receive protection under common law doctrines."
           },
           {
             "attribute": "Slander Liability",
-            "left": "Preventing Defamation of Reputation: Journalists must be careful to avoid committing defamation, or damaging someone's reputation with false statements (p. 20).",
-            "right": "Distinguish Slander From Libel: When the offending words are spoken, it is called slander (p. 20)."
+            "left": "Slander Liability: Spoken false statements damaging professional reputation create grounds for immediate civil slander lawsuits.",
+            "right": "Fair Comment Defense: Editorial opinions regarding matters of public interest receive protection under common law doctrines."
           }
         ]
       },
       "worked_example": {
-        "title": "Journalism Req 1 Exemplar Workbook Entry: Press Freedom",
+        "title": "Journalism Req 1 Worked Example: First Amendment Press Freedoms",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Avoiding Reckless False Reporting": "Journalists should never write something they know in advance to be false, nor should they write something carelessly, with reckless disregard for the truth (p. 20).",
-          "Civil Court Malice Evidence": "Doing so can be used in a civil court as evidence of malice, the intention of doing someone harm (p. 20).",
-          "Preventing Defamation of Reputation": "Journalists must be careful to avoid committing defamation, or damaging someone's reputation with false statements (p. 20).",
-          "Written and Photographic Libel": "When the damage comes from written words or photographs, it is called libel (p. 20)."
+          "Phase 1 - Source Verification": "Cross check controversial claims across two independent documentary records before publication.",
+          "Phase 2 - Statement Classification": "Mark subjective value judgements separately from objectively verifiable statements in your draft.",
+          "Phase 3 - Defamation Review": "Scan manuscript copy to eliminate unverified claims damaging individual character or business standing.",
+          "Phase 4 - Legal Consultation": "Submit disputed investigative findings to legal counsel to confirm fair comment protections."
         },
-        "sample_output": "Press Freedom, Media Law, and Ethics: Journalists should never write something they know in advance to be false, nor should they write something carelessly, with reckless disregard for the truth (p. 20).",
-        "counselor_tip": "For Journalism Requirement 1 (Press Freedom, Media Law, and Ethics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62))."
+        "sample_output": "The First Amendment protects journalists from government censorship through prior restraint prohibitions while maintaining civil accountability for defamation. Reporters establish strict boundaries between provable factual statements and protected editorial commentary to avoid liability under libel and slander statutes.",
+        "counselor_tip": "During the Journalism Requirement 1 conference on First Amendment Press Freedoms, verify that the Scout can explain constitutional protection and demonstrate legal consultation: Submit disputed investigative findings to legal counsel to confirm fair comment protections."
       },
       "quiz_item": {
         "scenario_prompt": "In Journalism Requirement 1, why does the First Amendment protect freedom of the press in a democracy, and how must a responsible journalist distinguish straight news reporting from an editorial or opinion column?",
@@ -700,7 +698,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Follow cybersecurity protocols by securing adult permission before visiting unfamiliar external news websites and message forums.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
       "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -769,47 +767,47 @@
         "Step 3 - Bias Evaluation: Note differences in adjective usage and photo framing between competing publication channels.",
         "Step 4 - Synthesis Documentation: Write comparative notes detailing differences in depth and pacing across the examined formats."
       ],
-      "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet: Newspaper Magazine and Online Journalism.",
-        "Field notebook, verification log sheet, and demonstration materials for Newspaper Magazine and Online Journalism.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Print and Digital Analysis",
         "right_header": "Req 2b: Broadcast Media Content Analysis",
         "left_points": [
-          "(2a) Print And Digital Analysis: Print and digital journalism contrast spatial layout constraints against fluid real time publishing updates. Readers analyze headline hierarchy and hyperlink provenance to evaluate source transparency."
+          "(2a) Print and Digital Analysis: Print and digital journalism contrast spatial layout constraints against fluid real time publishing updates. Readers analyze headline hierarchy and hyperlink provenance to evaluate source transparency.",
+          "Print Depth: Daily newspapers provide extensive background documentation and detailed quotes lacking in broadcast segments."
         ],
         "right_points": [
-          "(2b) Broadcast Media Content Analysis: Radio and television journalism compress complex civic events into brief spoken sound bites paired with compelling audio or video footage. Broadcasters structure scripts for spoken clarity, immediate listener comprehension, and strict broadcast clock timing."
+          "(2b) Broadcast Media Content Analysis: Radio and television journalism compress complex civic events into brief spoken sound bites paired with compelling audio or video footage. Broadcasters structure scripts for spoken clarity, immediate listener comprehension, and strict broadcast clock timing.",
+          "Digital Velocity: Online news sites offer continuous real time updates alongside interactive multimedia data displays."
         ],
         "rows": [
           {
             "attribute": "Print Depth",
-            "left": "(2a) Print And Digital Analysis: Print and digital journalism contrast spatial layout constraints against fluid real time publishing updates. Readers analyze headline hierarchy and hyperlink provenance to evaluate source transparency.",
+            "left": "(2a) Print and Digital Analysis: Print and digital journalism contrast spatial layout constraints against fluid real time publishing updates. Readers analyze headline hierarchy and hyperlink provenance to evaluate source transparency.",
             "right": "(2b) Broadcast Media Content Analysis: Radio and television journalism compress complex civic events into brief spoken sound bites paired with compelling audio or video footage. Broadcasters structure scripts for spoken clarity, immediate listener comprehension, and strict broadcast clock timing."
           },
           {
             "attribute": "Broadcast Constraints",
-            "left": "Req 2a: Print And Digital Analysis: Print and digital journalism contrast spatial layout constraints against fluid real time publishing updates. Readers analyze headline hierarchy and hyperlink provenance to evaluate source transparency.",
-            "right": "Req 2b: Broadcast Media Content: Radio and television journalism compress complex civic events into brief spoken sound bites paired with compelling audio or video footage. Broadcasters structure scripts for spoken clarity, immediate listener comprehension, and strict broadcast clock timing."
+            "left": "Print Depth: Daily newspapers provide extensive background documentation and detailed quotes lacking in broadcast segments.",
+            "right": "Digital Velocity: Online news sites offer continuous real time updates alongside interactive multimedia data displays."
           },
           {
             "attribute": "Digital Velocity",
-            "left": "Print Depth: Daily newspapers provide extensive background documentation and detailed quotes lacking in broadcast segments.",
-            "right": "Broadcast Constraints: Television newscasts rely on concise audio clips and dynamic visual footage under tight schedules."
+            "left": "Digital Velocity: Online news sites offer continuous real time updates alongside interactive multimedia data displays.",
+            "right": "Editorial Placement: Front page positioning indicates relative news value assigned by experienced managing editorial staff."
           }
         ]
       },
       "worked_example": {
-        "title": "Journalism Req 2 Exemplar Workbook Entry: Analyzing",
+        "title": "Journalism Req 2 Worked Example: Multiplatform News Media Comparison",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Print and Digital Analysis": "Print and digital journalism contrast spatial layout constraints against fluid real time publishing updates. Readers analyze headline hierarchy and hyperlink provenance to evaluate source transparency.",
-          "Req 2b - Broadcast Media Content": "Radio and television journalism compress complex civic events into brief spoken sound bites paired with compelling audio or video footage. Broadcasters structure scripts for spoken clarity, immediate listener comprehension, and strict broadcast clock timing."
+          "Phase 1 - Publication Selection": "Gather local and national print, digital, and broadcast reports released on one day.",
+          "Phase 2 - Content Comparison": "Record lead story topics, headline wording, and source citations across all selected media.",
+          "Phase 3 - Bias Evaluation": "Note differences in adjective usage and photo framing between competing publication channels.",
+          "Phase 4 - Synthesis Documentation": "Write comparative notes detailing differences in depth and pacing across the examined formats."
         },
-        "sample_output": "Analyzing Print, Online, and Broadcast News: Radio ranks second only to television in how much time people use it each day (p. 27).",
-        "counselor_tip": "For Journalism Requirement 2 (Analyzing Print, Online, and Broadcast News), verify the Scout's own observations and specific pamphlet details (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37))."
+        "sample_output": "Comparative media analysis requires evaluating coverage depth, headline framing, and editorial priorities across print, broadcast, and digital formats on identical publishing dates. Journalists track how different channel constraints alter the delivery speed, photographic evidence, and investigative context of identical breaking stories.",
+        "counselor_tip": "During the Journalism Requirement 2 conference on Multiplatform News Media Comparison, verify that the Scout can explain print depth and demonstrate synthesis documentation: Write comparative notes detailing differences in depth and pacing across the examined formats."
       },
       "quiz_item": {
         "scenario_prompt": "What happened after the Federal Communications Commission (FCC) repealed the Fairness Doctrine in 1987?",
@@ -1202,7 +1200,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Never approach moving machinery or restricted emergency perimeters while collecting field notes at active news events.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)",
       "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1275,14 +1273,10 @@
         "Step 3 - Narrative Selection: Choose either an inverted pyramid news style or a descriptive chronological feature approach.",
         "Step 4 - Copy Polish: Trim redundant descriptive adjectives and confirm every direct quotation matches source interview audio."
       ],
-      "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet: Journalism Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Journalism Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 3a: Event Coverage Article Drafting",
-        "right_header": "Req 3c: Journalist Autobiography",
+        "right_header": "Req 3c: Journalist Autobiography Research Review",
         "left_points": [
           "(3a) Event Coverage Article Drafting: Writing an event article requires selecting an appropriate style suited to either breaking news urgency or feature depth. Reporters tailor sentence structure and descriptive pacing to match the target print, audio, or digital publication format.",
           "(3b) Community Leader Profiling Interview: Profile interviews require preparing open ended questions that prompt insightful responses about community service, professional milestones, and leadership philosophy. Interviewers take precise shorthand notes and confirm direct quotations before publication."
@@ -1304,22 +1298,22 @@
           },
           {
             "attribute": "Core Elements",
-            "left": "Req 3a: Event Coverage Article: Writing an event article requires selecting an appropriate style suited to either breaking news urgency or feature depth. Reporters tailor sentence structure and descriptive pacing to match the target print, audio, or digital publication format.",
-            "right": "Req 3b: Community Leader Profiling: Profile interviews require preparing open ended questions that prompt insightful responses about community service, professional milestones, and leadership philosophy. Interviewers take precise shorthand notes and confirm direct quotations before publication."
+            "left": "Core Elements: Every effective news lead addresses who, what, when, where, why, and how.",
+            "right": "Inverted Pyramid: Lead paragraphs present vital facts first, followed by supporting details in descending order."
           }
         ]
       },
       "worked_example": {
-        "title": "Journalism Req 3 Exemplar Workbook Entry: Hard News",
+        "title": "Journalism Req 3 Worked Example: News Story Structure Mechanics",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 3a - Event Coverage Article": "Writing an event article requires selecting an appropriate style suited to either breaking news urgency or feature depth. Reporters tailor sentence structure and descriptive pacing to match the target print, audio, or digital publication format.",
-          "Req 3b - Community Leader Profiling": "Profile interviews require preparing open ended questions that prompt insightful responses about community service, professional milestones, and leadership philosophy. Interviewers take precise shorthand notes and confirm direct quotations before publication.",
-          "Req 3c - Journalist Autobiography": "Analyzing an autobiography written by a veteran journalist reveals historical ethics dilemmas, investigative methods, and newsroom operational pressures. Scouts write reflective summaries highlighting how the author navigated censorship, personal danger, and source verification challenges.",
-          "Req 3d - Scouting Event Article": "Covering a Scouting event demands accurate reporting of troop activities, competitive outcomes, and leadership recognitions within a concise word limit. Authors select between chronological storytelling and inverted pyramid structure, submitting copy for editorial review."
+          "Phase 1 - Information Gathering": "Identify the six core reporting questions before drafting your opening news story lead.",
+          "Phase 2 - Lead Composition": "Draft a concise thirty word sentence containing the most compelling breaking news development.",
+          "Phase 3 - Narrative Selection": "Choose either an inverted pyramid news style or a descriptive chronological feature approach.",
+          "Phase 4 - Copy Polish": "Trim redundant descriptive adjectives and confirm every direct quotation matches source interview audio."
         },
-        "sample_output": "Hard News, Features, and Reporting Practice: Careers in Journalism. the internet, be Above all, journalists should be good communicators (p. 68).",
-        "counselor_tip": "For Journalism Requirement 3 (Hard News, Features, and Reporting Practice), verify the Scout's own observations and specific pamphlet details (Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74))."
+        "sample_output": "Professional journalists differentiate hard news stories from human interest features by analyzing writing urgency, narrative structure, and thematic depth. Writers structure hard news around the essential who, what, when, where, why, and how to deliver urgent facts efficiently.",
+        "counselor_tip": "During the Journalism Requirement 3 conference on News Story Structure Mechanics, verify that the Scout can explain hard news and demonstrate copy polish: Trim redundant descriptive adjectives and confirm every direct quotation matches source interview audio."
       },
       "quiz_item": {
         "scenario_prompt": "What core skill does the Journalism merit badge pamphlet emphasize as being at the heart of many journalism positions across both traditional and grassroots digital media?",
@@ -1624,7 +1618,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Maintain clear awareness of venue exits, avoid tripping hazards from audiovisual cables, and stay within designated media zones.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)",
       "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1690,19 +1684,17 @@
         "Step 3 - Draft Execution: Write the event story using either dual structural styles or multimedia broadcast scripts.",
         "Step 4 - Fact Verification: Confirm correct name spellings, timestamps, and factual figures against official published event agendas."
       ],
-      "gear_checklist": [
-        "Official Journalism Merit Badge Pamphlet: Public Event.",
-        "Field notebook, verification log sheet, and demonstration materials for Public Event.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Dual Structure Article",
-        "right_header": "Req 4b: Multimedia Broadcast Event",
+        "left_header": "Req 4a: Dual Structure Article Production",
+        "right_header": "Req 4b: Multimedia Broadcast Event Scripting",
         "left_points": [
-          "(4a) Dual Structure Article Production: Producing both inverted pyramid and chronological articles on the same event demonstrates how structural choices alter narrative pacing. Inverted pyramid highlights immediate outcomes, whereas chronological structure tracks the unfolding timeline."
+          "(4a) Dual Structure Article Production: Producing both inverted pyramid and chronological articles on the same event demonstrates how structural choices alter narrative pacing. Inverted pyramid highlights immediate outcomes, whereas chronological structure tracks the unfolding timeline.",
+          "Public Access: Reporters attend municipal meetings and civic ceremonies to record government actions for citizens."
         ],
         "right_points": [
-          "(4b) Multimedia Broadcast Event Scripting: Broadcast journalists write distinct scripts for hard news updates, descriptive feature segments, and critical arts or event reviews. Scripts incorporate technical production cues, speaker timings, and integrated audio actualities."
+          "(4b) Multimedia Broadcast Event Scripting: Broadcast journalists write distinct scripts for hard news updates, descriptive feature segments, and critical arts or event reviews. Scripts incorporate technical production cues, speaker timings, and integrated audio actualities.",
+          "(4c) Photojournalism Storytelling and Captions: Photojournalism uses unposed visual compositions to convey narrative truth alongside informative newspaper cutlines. Photographers balance wide establishing scenes with expressive close up shots of key participants."
         ],
         "rows": [
           {
@@ -1712,26 +1704,27 @@
           },
           {
             "attribute": "Structural Contrasts",
-            "left": "Req 4a: Dual Structure Article: Producing both inverted pyramid and chronological articles on the same event demonstrates how structural choices alter narrative pacing. Inverted pyramid highlights immediate outcomes, whereas chronological structure tracks the unfolding timeline.",
-            "right": "Req 4b: Multimedia Broadcast Event: Broadcast journalists write distinct scripts for hard news updates, descriptive feature segments, and critical arts or event reviews. Scripts incorporate technical production cues, speaker timings, and integrated audio actualities."
+            "left": "Public Access: Reporters attend municipal meetings and civic ceremonies to record government actions for citizens.",
+            "right": "(4c) Photojournalism Storytelling and Captions: Photojournalism uses unposed visual compositions to convey narrative truth alongside informative newspaper cutlines. Photographers balance wide establishing scenes with expressive close up shots of key participants."
           },
           {
             "attribute": "Broadcast Formatting",
-            "left": "Req 4c: Photojournalism Storytelling: Photojournalism uses unposed visual compositions to convey narrative truth alongside informative newspaper cutlines. Photographers balance wide establishing scenes with expressive close up shots of key participants.",
-            "right": "Structural Contrasts: Inverted pyramid drafts lead with outcomes, while chronological reports recount events sequentially."
+            "left": "Broadcast Formatting: Radio packages combine concise anchor voice tracks with authentic ambient audio sound bites.",
+            "right": "Visual Storytelling: Press photography captures authentic candid action rather than staged poses to record history."
           }
         ]
       },
       "worked_example": {
-        "title": "Journalism Req 4 Exemplar Workbook Entry: Covering",
+        "title": "Journalism Req 4 Worked Example: Public Event News Reporting",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Dual Structure Article": "Producing both inverted pyramid and chronological articles on the same event demonstrates how structural choices alter narrative pacing. Inverted pyramid highlights immediate outcomes, whereas chronological structure tracks the unfolding timeline.",
-          "Req 4b - Multimedia Broadcast Event": "Broadcast journalists write distinct scripts for hard news updates, descriptive feature segments, and critical arts or event reviews. Scripts incorporate technical production cues, speaker timings, and integrated audio actualities.",
-          "Req 4c - Photojournalism Storytelling": "Photojournalism uses unposed visual compositions to convey narrative truth alongside informative newspaper cutlines. Photographers balance wide establishing scenes with expressive close up shots of key participants."
+          "Phase 1 - Advance Logistics": "Arrive early at the event venue to secure press seating and press materials.",
+          "Phase 2 - Field Documentation": "Record precise chronological notes, speaker titles, attendance counts, and audio recordings during proceedings.",
+          "Phase 3 - Draft Execution": "Write the event story using either dual structural styles or multimedia broadcast scripts.",
+          "Phase 4 - Fact Verification": "Confirm correct name spellings, timestamps, and factual figures against official published event agendas."
         },
-        "sample_output": "Covering Public Events Across Media Styles: The writer begins with the most substantial details, followed by less important details that can be trimmed, if necessary, without losing the gist (p. 25).",
-        "counselor_tip": "For Journalism Requirement 4 (Covering Public Events Across Media Styles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51))."
+        "sample_output": "Covering public civic gatherings requires capturing accurate on the record remarks, attendance figures, and key policy decisions under real time deadlines. Journalists translate field observations into structured articles, broadcast packages, or documentary photo essays that inform the community.",
+        "counselor_tip": "During the Journalism Requirement 4 conference on Public Event News Reporting, verify that the Scout can explain public access and demonstrate fact verification: Confirm correct name spellings, timestamps, and factual figures against official published event agendas."
       },
       "quiz_item": {
         "scenario_prompt": "Why do journalists typically use the inverted pyramid structure when writing a news story?",
@@ -1831,7 +1824,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Always research local safety conditions and travel with reliable communications gear when planning field reporting assignments.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77)",
       "pamphlet_page_citation": "Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -1901,47 +1894,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Carrying Cameras While Traveling",
-        "right_header": "Req 5: Submit Breaking News Photos",
+        "left_header": "Professional Journalism Career Pathways: Core Principles",
+        "right_header": "Professional Journalism Career Pathways: Field Execution",
         "left_points": [
-          "Carrying Cameras While Traveling: Take your still or video camera with you when you travel (p. 75).",
-          "Submitting Breaking Visuals Quickly: If you see a newsworthy event, click away and get the images to a local newspaper or TV station as quickly as possible (p. 75).",
-          "Earning Freelance Credit and Pay: They may buy your pictures or footage and give you credit (p. 75)."
+          "Investigative Reporting: Investigative journalists conduct deep public records research to uncover institutional waste and corruption.",
+          "Photojournalism Portfolios: Professional press photographers build diverse portfolios demonstrating news, sports, and portrait versatility."
         ],
         "right_points": [
-          "Submit Breaking News Photos: They may buy your pictures or footage and give you credit (p. 75).",
-          "Join School Print Publications: Most high schools have a newspaper or literary magazine (p. 75).",
-          "Explore School Broadcast Studios: Some have websites, radio facilities, and even TV studios (p. 75)."
+          "Copy Desk: Skilled copy editors verify facts, correct grammar, and write engaging headline copy.",
+          "Digital Specialization: Data journalists analyze public datasets using code to build interactive investigative graphic maps."
         ],
         "rows": [
           {
             "attribute": "Investigative Reporting",
-            "left": "Carrying Cameras While Traveling: Take your still or video camera with you when you travel (p. 75).",
-            "right": "Submit Breaking News Photos: They may buy your pictures or footage and give you credit (p. 75)."
+            "left": "Investigative Reporting: Investigative journalists conduct deep public records research to uncover institutional waste and corruption.",
+            "right": "Copy Desk: Skilled copy editors verify facts, correct grammar, and write engaging headline copy."
           },
           {
             "attribute": "Photojournalism Portfolios",
-            "left": "Submitting Breaking Visuals Quickly: If you see a newsworthy event, click away and get the images to a local newspaper or TV station as quickly as possible (p. 75).",
-            "right": "Join School Print Publications: Most high schools have a newspaper or literary magazine (p. 75)."
+            "left": "Photojournalism Portfolios: Professional press photographers build diverse portfolios demonstrating news, sports, and portrait versatility.",
+            "right": "Digital Specialization: Data journalists analyze public datasets using code to build interactive investigative graphic maps."
           },
           {
             "attribute": "Copy Desk",
-            "left": "Earning Freelance Credit and Pay: They may buy your pictures or footage and give you credit (p. 75).",
-            "right": "Explore School Broadcast Studios: Some have websites, radio facilities, and even TV studios (p. 75)."
+            "left": "Copy Desk: Skilled copy editors verify facts, correct grammar, and write engaging headline copy.",
+            "right": "Digital Specialization: Data journalists analyze public datasets using code to build interactive investigative graphic maps."
           }
         ]
       },
       "worked_example": {
-        "title": "Journalism Req 5 Exemplar Workbook Entry: Exploring",
+        "title": "Journalism Req 5 Worked Example: Professional Journalism Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Carrying Cameras While Traveling": "Take your still or video camera with you when you travel (p. 75).",
-          "Submitting Breaking Visuals Quickly": "If you see a newsworthy event, click away and get the images to a local newspaper or TV station as quickly as possible (p. 75).",
-          "Earning Freelance Credit and Pay": "They may buy your pictures or footage and give you credit (p. 75).",
-          "High School Newspapers and Magazines": "Most high schools have a newspaper or literary magazine (p. 75)."
+          "Phase 1 - Career Research": "Select three distinct journalism specializations such as photojournalism, investigative reporting, or broadcasting.",
+          "Phase 2 - Deep Exploration": "Investigate undergraduate degree options, professional certification requirements, and entry level equipment expenses.",
+          "Phase 3 - Interview Preparation": "Speak with a practicing media professional about daily deadlines, career mobility, and salary.",
+          "Phase 4 - Career Synthesis": "Compile a written summary comparing industry challenges against personal creative and civic rewards."
         },
-        "sample_output": "Exploring Journalism Careers and Training: Take your still or video camera with you when you travel (p. 75).",
-        "counselor_tip": "For Journalism Requirement 5 (Exploring Journalism Careers and Training), verify the Scout's own observations and specific pamphlet details (Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77))."
+        "sample_output": "Modern journalism careers span print reporting, broadcast production, digital data investigation, photojournalism, and copy editing across news agencies. Aspiring journalists evaluate required academic degrees, technical portfolio development, internships, equipment costs, and evolving industry compensation models.",
+        "counselor_tip": "During the Journalism Requirement 5 conference on Professional Journalism Career Pathways, verify that the Scout can explain investigative reporting and demonstrate career synthesis: Compile a written summary comparing industry challenges against personal creative and civic rewards."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Journalism merit badge pamphlet, how can a Scout begin gaining practical journalism experience while still in high school?",

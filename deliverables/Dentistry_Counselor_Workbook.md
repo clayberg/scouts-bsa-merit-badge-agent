@@ -34,7 +34,6 @@
 ### Req 1: Dental Radiographs and Anatomy
 **Official Requirement 1 (Parent Overview):** Using X-ray (radiographic) films or images and with your counselor's guidance, do the following: (a) Study the tooth structure and look for decay. (b) Draw a lower molar, using the radiographs as a guide. Label its parts and surfaces. Show surrounding structures such as bone and gum tissues. (c) Show on your drawing where the nerves and blood vessels enter and leave the tooth. (d) Show on your drawing where bacterial plaque is most likely to be found.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Wear lead aprons with thyroid collars and maintain six feet distance during diagnostic radiographic exposures.
 - **Common Myth:** Scouts often believe tooth decay is visible on outer enamel before appearing on radiographs.
 - **Pamphlet Fact:** Subsurface demineralization often creates internal radiolucent decay cavities before enamel surface collapse occurs.
 
@@ -47,10 +46,8 @@
 #### Req 1a: Tooth Structure and Decay
 **Official Requirement 1a:** Study the tooth structure and look for decay.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Tooth Structure and Look for)
-- **Common Myth:** A tooth surface must have an obvious dark brown hole to contain active decay.
-- **Pamphlet Fact:** Interproximal decay appears on X-rays as subtle triangular radiolucent lesions within enamel long before cavitating.
 
-![Dentistry Requirement 1 figure showing mineralized enamel blocks radiation effectively to create bright radiopaque outlines.](/assets/pamphlet_images/dentistry_p003_img1.png)
+![Mineralized enamel blocks radiation effectively to create bright radiopaque outlines on processed film.](/assets/pamphlet_images/dentistry_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -61,8 +58,6 @@
 #### Req 1b: Lower Molar Anatomical Diagram
 **Official Requirement 1b:** Draw a lower molar, using the radiographs as a guide. Label its parts and surfaces. Show surrounding structures such as bone and gum tissues.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 1b Structured Technical Study & Explanation Matrix (Lower Molar Using the Radiographs)
-- **Common Myth:** Lower molars contain a single conical root identical to front incisors.
-- **Pamphlet Fact:** Mandibular molars feature two distinct roots separated by a furcation and anchored by alveolar bone.
 
 ![A human skull demonstrates the anatomical alignment of teeth within the jawbones.](/assets/pamphlet_images/dentistry_p014_img1.png)
 
@@ -85,10 +80,8 @@
 #### Req 1c: Neurovascular Pulp Entry Pathways
 **Official Requirement 1c:** Show on your drawing where the nerves and blood vessels enter and leave the tooth.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Drawing Where the Nerves and)
-- **Common Myth:** Teeth receive their blood supply through tiny pores spread across the outer enamel surface.
-- **Pamphlet Fact:** All blood vessels and nerve fibers enter exclusively through microscopic apical foramina at the root tips.
 
-![Dentistry Requirement 3 figure showing calibrated periodontal probes measure sulcular depths to evaluate gingival health.](/assets/pamphlet_images/dentistry_p012_img1.png)
+![Calibrated periodontal probes measure sulcular depths to evaluate gingival health and bone levels.](/assets/pamphlet_images/dentistry_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -99,8 +92,6 @@
 #### Req 1d: Bacterial Plaque Accumulation Sites
 **Official Requirement 1d:** Show on your drawing where bacterial plaque is most likely to be found.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Drawing Where Bacterial Plaque)
-- **Common Myth:** Plaque collects evenly across flat, smooth outer surfaces of the tooth crown.
-- **Pamphlet Fact:** Plaque concentrates in sheltered anatomical areas like occlusal developmental grooves and subgingival cervical margins.
 
 ![A close clinical view displays upper and lower dental arches to evaluate tooth alignment.](/assets/pamphlet_images/dentistry_p016_img1.png)
 
@@ -113,7 +104,6 @@
 ### Req 2: Oral Pathology and Trauma
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Tell or write about what causes dental decay and gum disease. Tell how each of the following contributes to dental decay and gum disease: bacterial plaque, sugars, and acid. (b) Tell the possible causes for traumatic tooth loss, describe the types of mouth guards used to help prevent tooth trauma, and list the athletic activities during which a person should wear a mouth guard. (c) Explain the first-aid procedure for saving a tooth that has been knocked out. (d) Discuss how the use of tobacco products can negatively affect your oral health.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Never store an avulsed tooth dry or scrape dirt off root surfaces during first aid handling.
 - **Common Myth:** Gum disease only damages soft tissue margins without affecting underlying jawbone support.
 - **Pamphlet Fact:** Untreated periodontitis causes irreversible destruction of the alveolar bone and periodontal ligament fibers.
 
@@ -126,10 +116,8 @@
 #### Req 2a: Caries and Periodontal Etiology
 **Official Requirement 2a:** Tell or write about what causes dental decay and gum disease. Tell how each of the following contributes to dental decay and gum disease: bacterial plaque, sugars, and acid.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Dental Decay and Gum Disease)
-- **Common Myth:** Sugar alone causes cavities by directly dissolving enamel without bacterial involvement.
-- **Pamphlet Fact:** Bacterial plaque must actively metabolize sugars to generate the acid that drives demineralization.
 
-![Dentistry Requirement 2 figure showing streptococcus mutans ferments sucrose into lactic acid within twenty minutes of feeding.](/assets/pamphlet_images/dentistry_p007_img1.png)
+![Streptococcus mutans ferments sucrose into lactic acid within twenty minutes of feeding.](/assets/pamphlet_images/dentistry_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -141,8 +129,6 @@
 #### Req 2b: Sports Dentistry Mouthguard Protection
 **Official Requirement 2b:** Tell the possible causes for traumatic tooth loss, describe the types of mouth guards used to help prevent tooth trauma, and list the athletic activities during which a person should wear a mouth guard.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Possible Causes for Traumatic Tooth)
-- **Common Myth:** Stock unformed mouthguards provide identical shock absorption compared to custom-fitted dental appliances.
-- **Pamphlet Fact:** Custom-fitted mouthguards offer superior force distribution, retention, and airway maintenance during high-impact athletic collisions.
 
 ![An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.](/assets/pamphlet_images/dentistry_p009_img1.png)
 
@@ -155,8 +141,6 @@
 #### Req 2c: Avulsed Tooth First Aid
 **Official Requirement 2c:** Explain the first-aid procedure for saving a tooth that has been knocked.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (First-aid Procedure for Saving A)
-- **Common Myth:** A knocked tooth should be scrubbed with soap and water to sterilize root surfaces.
-- **Pamphlet Fact:** Scrubbing kills fragile periodontal ligament cells essential for successful reattachment inside the alveolar socket.
 
 ![A frontal dental photograph demonstrates healthy teeth alignment and normal occlusion.](/assets/pamphlet_images/dentistry_p016_img2.png)
 
@@ -169,8 +153,6 @@
 #### Req 2d: Tobacco Oral Health Consequences
 **Official Requirement 2d:** Discuss how the use of tobacco products can negatively affect your oral health.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Discuss How the Use of)
-- **Common Myth:** Chewing tobacco is safer for teeth and gums than smoking combustible cigarettes.
-- **Pamphlet Fact:** Smokeless tobacco delivers concentrated carcinogens directly to oral mucosa, causing severe recession and precancerous leukoplakia.
 
 ![Angling toothbrush bristles toward the gumline cleans plaque along the gingival margin.](/assets/pamphlet_images/dentistry_p027_img2.png)
 
@@ -183,14 +165,8 @@
 ### Req 3: Dental Office Clinical Visit
 **Official Requirement 3:** Arrange for a visit with a dentist. Before you go, ask whether your visit can include a dental examination and a plaque-control demonstration. Afterward, ask questions about things you want to know. Then tell your counselor what the dentist does during a checkup examination.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Arrange Dentist Whether Include)
-> **Guide to Safe Scouting Warning:** Adhere to universal clinical precautions including safety eyewear and hand sanitization inside operatory areas.
 - **Common Myth:** Dental visits are only necessary when a tooth aches or bleeds during brushing.
 - **Pamphlet Fact:** Routine examinations detect early stage caries and asymptomatic periodontal pocketing before painful symptoms manifest.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Dentistry Merit Badge Pamphlet: Arrange for a visit.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Arrange for a visit.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A dental hygienist demonstrates correct brushing angles on an oversized teeth model to a group of attentive Scouts.](/assets/ai_illustrations/dentistry_req_3_nano_hero.png)
 
@@ -212,7 +188,6 @@
 ### Req 4: Dental Tools and Stone Casting
 **Official Requirement 4 (Parent Overview):** Do TWO of the following: (a) Name at least five instruments and five pieces of equipment a dentist uses. (b) With the help of a dentist, prepare a dental stone cast using a dental vibrator, a mixing bowl, a water measure, a plastic measure, model stone, and a spatula. (c) Keep a record of everything you eat for three days. Circle those items that may provide the sugars that bacterial plaque needs to make acid. List snacks that you should avoid to help maintain the best oral health.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Wear safety goggles and dust masks when measuring dry gypsum powder and operating model trimmers.
 - **Common Myth:** Adding extra water to thick dental stone mixtures makes casts set faster and stronger.
 - **Pamphlet Fact:** Excess water weakens the crystalline gypsum matrix, creating chalky, fragile casts with low compressive strength.
 
@@ -225,8 +200,6 @@
 #### Req 4a: Dental Instruments and Equipment
 **Official Requirement 4a:** Name at least five instruments and five pieces of equipment a dentist uses.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Instruments and Five Pieces of)
-- **Common Myth:** Dental instruments serve interchangeable purposes across clinical procedures.
-- **Pamphlet Fact:** Each instrument possesses a specific shank angle and working blade designed for particular tooth surfaces.
 
 ![Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay.](/assets/pamphlet_images/dentistry_p033_img4.png)
 
@@ -239,8 +212,6 @@
 #### Req 4b: Gypsum Stone Cast Preparation
 **Official Requirement 4b:** With the help of a dentist, prepare a dental stone cast using a dental vibrator, a mixing bowl, a water measure, a plastic measure, model stone, and a spatula.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Help of A Dentist)
-- **Common Myth:** Dental stone and household plaster of Paris share identical strength and dimensional properties.
-- **Pamphlet Fact:** Dental stone undergoes calcination under steam pressure, creating dense prismatic crystals far stronger than plaster.
 
 ![Proper toothbrush placement reaches posterior molars to remove bacteria and prevent decay.](/assets/pamphlet_images/dentistry_p027_img3.png)
 
@@ -253,8 +224,6 @@
 #### Req 4c: Dietary Sugar Plaque Log
 **Official Requirement 4c:** Keep a record of everything you eat for three days. Circle those items that may provide the sugars that bacterial plaque needs to make acid. List snacks that you should avoid to help maintain the best oral health.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Activity & Observation Log):** Req 4c Quantitative Field Observation & Activity Log (Everything You Eat for Three)
-- **Common Myth:** Total sugar quantity eaten at once causes more tooth decay than snacking frequency.
-- **Pamphlet Fact:** Repeated snacking causes recurrent acid spikes that prevent saliva from remineralizing softened enamel surfaces.
 
 ![A young girl displays healthy teeth resulting from regular brushing and dental care.](/assets/pamphlet_images/dentistry_p031_img2.png)
 
@@ -269,7 +238,6 @@
 ### Req 5: Fluoride Actions and Systemic Health
 **Official Requirement 5 (Parent Overview):** Discuss with your counselor the following: (a) How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth. (b) How the mouth is related to the rest of the body. Topics might include chewing, saliva, enzymes, nutrition, and speech.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Supervise young children with fluoridated products to prevent ingestion and mild dental fluorosis.
 - **Common Myth:** Fluoride works only by coating teeth like a physical waterproof paint.
 - **Pamphlet Fact:** Fluoride chemically integrates into the molecular crystal lattice of enamel to resist acid demineralization.
 
@@ -282,8 +250,6 @@
 #### Req 5a: Fluoride Mechanisms and Delivery
 **Official Requirement 5a:** How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Fluorides Help Prevent Tooth Decay)
-- **Common Myth:** Swallowing fluoridated toothpaste provides superior decay protection compared to spitting it out.
-- **Pamphlet Fact:** Topical contact on outer enamel provides primary protection for erupted teeth, while swallowing risks fluorosis.
 
 ![A magnified view shows bacterial plaque deposits forming along the gingival tooth margin.](/assets/pamphlet_images/dentistry_p024_img1.png)
 
@@ -296,8 +262,6 @@
 #### Req 5b: Oral Systemic Health Relations
 **Official Requirement 5b:** How the mouth is related to the rest of the body. Topics might include chewing, saliva, enzymes, nutrition, and speech.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Mouth Is Related to the)
-- **Common Myth:** Mouth bacteria remain strictly confined within the oral cavity without entering systemic circulation.
-- **Pamphlet Fact:** Periodontal bacteria can enter capillary beds during chewing and brushing, triggering systemic inflammatory cascades.
 
 ![Various athletic mouthguards protect teeth from trauma and fractures during contact sports.](/assets/pamphlet_images/dentistry_p034_img1.png)
 
@@ -311,7 +275,6 @@
 ### Req 6: Oral Health Education Demonstrations
 **Official Requirement 6 (Parent Overview):** Do TWO of the following: (a) Make a model tooth out of soap, clay, paper-mâché, or wax. Using a string and a large hand brush, show your troop or a school class proper tooth-brushing and flossing procedures. (b) Make a poster on the prevention of dental disease. Show the importance of good oral health. (c) Collect at least five advertisements for different toothpastes. List the claims that each one makes. Tell about the accuracy of the advertisements. (d) Write a feature story for your school newspaper on the proper care of teeth and gums. Include in your story how the use of tobacco products can negatively affect a person's oral health. (e) Make drawings and write about the progress of dental decay. Describe the types of dental filling and treatments a dentist can use to repair dental decay problems.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Use blunt carving tools on wax or clay models to prevent lacerations during model fabrication.
 - **Common Myth:** Brushing harder with stiff bristles removes plaque biofilms more thoroughly without causing harm.
 - **Pamphlet Fact:** Vigorous scrubbing with hard bristles abrades cervical enamel and causes irreversible gingival recession.
 
@@ -324,8 +287,6 @@
 #### Req 6a: Tooth Model Brushing Demonstration
 **Official Requirement 6a:** Make a model tooth out of soap, clay, paper-mâché, or wax. Using a string and a large hand brush, show your troop or a school class proper tooth-brushing and flossing procedures.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6a Hands-On Skill Station & EDGE Verification Checklist (Model Tooth Out of Soap)
-- **Common Myth:** Flossing requires snapping the thread straight downward into the gums to dislodge debris.
-- **Pamphlet Fact:** Snapping floss cuts delicate interdental papillae; floss must wrap around tooth curves gently.
 
 ![A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.](/assets/pamphlet_images/dentistry_p027_img1.png)
 
@@ -339,8 +300,6 @@
 #### Req 6b: Dental Disease Prevention Poster
 **Official Requirement 6b:** Make a poster on the prevention of dental disease. Show the importance of good oral health.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Poster on the Prevention of)
-- **Common Myth:** Effective health posters rely solely on long technical text paragraphs to educate viewers.
-- **Pamphlet Fact:** Impactful health posters use bold anatomical illustrations and concise callouts to communicate key prevention messages.
 
 ![A youth baseball catcher wears a protective helmet and mask to prevent facial and dental injury.](/assets/pamphlet_images/dentistry_p035_img1.png)
 
@@ -354,8 +313,6 @@
 #### Req 6c: Toothpaste Advertisement Fact Analysis
 **Official Requirement 6c:** Collect at least five advertisements for different toothpastes. List the claims that each one makes. Tell about the accuracy of the advertisements.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Advertisements for Different Toothpastes)
-- **Common Myth:** All toothpastes sold in stores provide identical therapeutic tartar and enamel protection benefits.
-- **Pamphlet Fact:** Formulations vary widely; only products earning the ADA Seal demonstrate independently verified safety and efficacy.
 
 ![Severe dental crowding and misalignment illustrate malocclusion requiring orthodontic care.](/assets/pamphlet_images/dentistry_p058_img1.png)
 
@@ -370,8 +327,6 @@
 #### Req 6d: Oral Health Feature Journalism
 **Official Requirement 6d:** Write a feature story for your school newspaper on the proper care of teeth and gums. Include in your story how the use of tobacco products can negatively affect a person's oral health.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Feature Story for Your School)
-- **Common Myth:** School newspaper articles about hygiene should preach opinions rather than report verifiable clinical facts.
-- **Pamphlet Fact:** Engaging science journalism highlights scientific evidence, student interviews, and actionable hygiene steps to change behaviors.
 
 ![A human skull displays bone structure and dentition studied in dental and forensic careers.](/assets/pamphlet_images/dentistry_p060_img1.png)
 
@@ -385,8 +340,6 @@
 #### Req 6e: Caries Progression and Restorations
 **Official Requirement 6e:** Make drawings and write about the progress of dental decay. Describe the types of dental filling and treatments a dentist can use to repair dental decay problems.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Drawings and Write About the)
-- **Common Myth:** Once a cavity starts forming in outer enamel, drilling and filling is the only option.
-- **Pamphlet Fact:** Incipient white-spot lesions confined to outer enamel can be reversed through intensive topical fluoride remineralization.
 
 ![A dental professional examines a panoramic radiograph to assess oral health and bone structure.](/assets/pamphlet_images/dentistry_p062_img1.png)
 
@@ -400,7 +353,6 @@
 ### Req 7: Dental Career Pathways Exploration
 **Official Requirement 7:** Identify three career opportunities that would use skills and knowledge in dentistry. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62)* • **Organizer (Career & Profession Exploration Card):** Req 7 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Dental professionals must complete mandatory bloodborne pathogen training and maintain hepatitis B vaccinations.
 - **Common Myth:** All personnel working inside a dental office complete identical four-year graduate dental programs.
 - **Pamphlet Fact:** Dental teams include diverse specialized roles with training pathways ranging from certificate programs to doctoral degrees.
 

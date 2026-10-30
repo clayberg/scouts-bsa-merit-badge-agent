@@ -15,7 +15,7 @@
 | **1** | Req 1: Dramatic Literature and Performance Critique | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Theater Merit Badge Pamphlet (p. 12, p. 17) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: One Act Script Composition | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Theater Merit Badge Pamphlet (p. 24, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Theater Safety and Production Specialization | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Physical Characterization and Pantomime Routine | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Physical Characterization and Pantomime | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Theatrical Terminology and Technical Architecture | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Theater Merit Badge Pamphlet (p. 19, p. 76) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -31,7 +31,6 @@
 ### Req 1: Dramatic Literature and Performance Critique
 **Official Requirement 1:** See or read three full-length plays. Write a review of each. Discuss with your counselor the plot or story. If you chose to watch the plays, comment on the acting and the staging. Note: Watching plays on television, video, or as a movie is not permitted.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 12, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (See or Read Three Full-length)
-> **Guide to Safe Scouting Warning:** Auditorium safety requires keeping aisles completely clear of bags and locating emergency exit paths before curtain time.
 - **Common Myth:** A play review simply summarizes the plot without analyzing technical elements or performances.
 - **Pamphlet Fact:** Live theater reviews evaluate dramatic structure, vocal projection, spatial blocking, and technical stagecraft.
 
@@ -56,7 +55,6 @@
 ### Req 2: One Act Script Composition
 **Official Requirement 2:** Write a one-act play that will take at least 10 minutes to perform. The play must have a main character, conflict, and a climax.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 24, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (One-act Will Minutes Must)
-> **Guide to Safe Scouting Warning:** Scripted stage actions must avoid real weapons, open flames, or hazardous physical combat without professional choreography.
 - **Common Myth:** Writing a short one-act play does not require defined conflict or structured character motivation.
 - **Pamphlet Fact:** A dramatic one-act play requires focused characters, clear stakes, and immediate rising action leading to a climax.
 
@@ -93,10 +91,8 @@
 **Official Requirement 3a:** Act a major part in a full-length play; or act a part in three one-act plays.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Major Part in A Full-length)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Theater Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Stage acting merely requires memorizing dialogue and reciting lines loudly toward the audience.
-- **Pamphlet Fact:** Vocal projection relies on diaphragmatic breath support rather than straining the throat muscles.
 
-![Theater Requirement 3 figure showing technicians must keep wings free of cables, loose lumber, and unweighted scenic flats.](/assets/pamphlet_images/theater_p012_img1.png)
+![Technicians must keep wings free of cables, loose lumber, and unweighted scenic flats.](/assets/pamphlet_images/theater_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -108,8 +104,6 @@
 #### Req 3b: Stage Direction and Production Leadership
 **Official Requirement 3b:** Direct a play. Cast, rehearse, and stage it. The play must be at least 10 minutes long.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Rehearse and Stage)
-- **Common Myth:** A theater director simply tells actors where to stand without shaping theme or rhythm.
-- **Pamphlet Fact:** Stage directors harmonize acting, scenic rhythm, technical timing, and unified artistic vision across departments.
 
 ![A student director enthusiastically directs cast members in rehearsal.](/assets/pamphlet_images/theater_p048_img1.png)
 
@@ -124,10 +118,8 @@
 #### Req 3c: Scenic Design and Scale Modeling
 **Official Requirement 3c:** Design the set for a play or a theatrical production. Make a model.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Theatrical Production Make A Model)
-- **Common Myth:** A set design model is decorative rather than a precise engineering and spatial tool.
-- **Pamphlet Fact:** Scale models provide three-dimensional spatial validation for director blocking and lighting angle feasibility.
 
-![Theater Requirement 1 figure showing reading full scripts reveals internal character motivations and thematic structure.](/assets/pamphlet_images/theater_p003_img1.png)
+![Reading full scripts reveals internal character motivations and thematic structure before performance.](/assets/pamphlet_images/theater_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -139,10 +131,8 @@
 #### Req 3d: Historical Costume Design and Palette
 **Official Requirement 3d:** Design the costumes for five characters in a theatrical production set in a historical time.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Costumes for Five Characters)
-- **Common Myth:** Costume design involves pulling random historical garments from storage without color or character palette.
-- **Pamphlet Fact:** Historical stage costumes must communicate period accuracy while withstanding rapid backstage garment changes.
 
-![Theater Requirement 2 figure showing central characters must pursue clear, urgent objectives that encounter immediate resistance.](/assets/pamphlet_images/theater_p007_img1.png)
+![Central characters must pursue clear, urgent objectives that encounter immediate resistance.](/assets/pamphlet_images/theater_p007_img1.png)
 
 | Req 3d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -153,8 +143,6 @@
 #### Req 3e: Theatrical Makeup and Character Transformation
 **Official Requirement 3e:** Show skill in hair and makeup design. Make up yourself or a friend as a historical figure, a clown, an extraterrestrial, or a monster as directed.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Skill in Hair and Makeup)
-- **Common Myth:** Theatrical makeup application is identical to everyday street cosmetic application techniques.
-- **Pamphlet Fact:** Stage makeup relies on strong highlights and deep shadows to counter intense overhead stage lighting.
 
 ![An actor operates vintage lighting machinery to create theatrical effects.](/assets/pamphlet_images/theater_p017_img1.png)
 
@@ -169,8 +157,6 @@
 **Official Requirement 3f:** With your counselor's approval, help with the building and painting of the scenery for a theatrical production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix (Help with the Building and)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Theater Req 3f preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Flats and platforms can be assembled with light hobby glue instead of structural fasteners.
-- **Pamphlet Fact:** Scenery construction demands plumb framing, secure bracing, and flame-retardant paint treatments for fire safety.
 
 ![A Scout writes dialogue for an original one-act drama at summer camp.](/assets/pamphlet_images/theater_p024_img1.png)
 
@@ -184,8 +170,6 @@
 **Official Requirement 3g:** With your counselor's approval, design the lighting for a play; or help install, focus, color, program, and operate the lighting for a theatrical production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix (Lighting for A Play or)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Theater Req 3g preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Stage lighting merely illuminates the stage so the audience can see the actors clearly.
-- **Pamphlet Fact:** Lighting designers blend key, fill, and backlight angles to sculpt performers and reveal texture.
 
 ![An aspiring playwright rehearses emotional character acting outdoors.](/assets/pamphlet_images/theater_p026_img1.png)
 
@@ -200,8 +184,6 @@
 **Official Requirement 3h:** With your counselor's approval, help install, focus, equalize, program, and operate the sound for a theatrical production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix (Help Install Focus Equalize)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Theater Req 3h preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Live theater sound simply involves turning up speaker volume without frequency equalization.
-- **Pamphlet Fact:** Sound engineering balances dynamic vocal microphone equalization with atmospheric soundscapes and rapid cue playback.
 
 ![A printed one-act play script illustrates proper title page formatting.](/assets/pamphlet_images/theater_p029_img1.png)
 
@@ -214,8 +196,6 @@
 #### Req 3i: Stage Management and Cue Calling
 **Official Requirement 3i:** Serve as the stage manager for a theatrical production. Document all cues and stage setups in your calling script.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3i Structured Technical Study & Explanation Matrix (Serve As the Stage Manager)
-- **Common Myth:** The stage manager only tracks attendance and does not oversee live technical operations.
-- **Pamphlet Fact:** Stage managers coordinate every department, maintain rehearsal logs, and call every live technical cue.
 
 ![A student types out character dialogue and stage directions on a laptop.](/assets/pamphlet_images/theater_p032_img2.png)
 
@@ -229,8 +209,6 @@
 #### Req 3j: Musical Direction and Score Conduction
 **Official Requirement 3j:** Serve as musical director for a musical theater production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3j Structured Technical Study & Explanation Matrix (Serve As Musical Director)
-- **Common Myth:** The musical director only plays piano accompaniments during initial vocal auditions.
-- **Pamphlet Fact:** Musical directors teach complex vocal harmonies, conduct pit orchestras, and maintain musical tempo throughout shows.
 
 ![An actor uses expressive facial gestures and body language in pantomime.](/assets/pamphlet_images/theater_p037_img1.png)
 
@@ -240,10 +218,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Physical Characterization and Pantomime Routine
+### Req 4: Physical Characterization and Pantomime
 **Official Requirement 4 (Parent Overview):** Mime or pantomime any ONE of the following, chosen by your counselor. (a) You have come into a large room. It is full of pictures, furniture, and other things of interest. (b) As you are getting on a bus, your books fall into a puddle. By the time you pick them up, the bus has driven off. (c) You have failed a school test. You are talking with your teacher, who does not buy your story. (d) You are at camp with a new Scout. You try to help them pass a cooking test. The Scout learns very slowly. (e) You are at a banquet. The meat is good. You don't like the vegetable. The dessert is ice cream. (f) You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Warm up muscles thoroughly before pantomime routines to prevent joint sprains, hyperextension, or muscle tears.
 - **Common Myth:** Pantomime is random arm waving without specific object dimensions, fixed points, or physical weight.
 - **Pamphlet Fact:** Effective pantomime establishes tangible imaginary objects through precise physical muscular resistance, consistent weight, and fixed spatial placement.
 
@@ -256,8 +233,6 @@
 #### Req 4a: Large Gallery Exploration Pantomime
 **Official Requirement 4a:** You have come into a large room. It is full of pictures, furniture, and other things of interest.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (You Have Come Into A)
-- **Common Myth:** A silent observer in a gallery can walk around without reacting to specific items.
-- **Pamphlet Fact:** Establishing a large gallery requires distinct eye tracking, consistent object heights, and expressive spatial reactions.
 
 ![A youth performs pantomime gestures without props during drama practice.](/assets/pamphlet_images/theater_p027_img1.png)
 
@@ -271,8 +246,6 @@
 #### Req 4b: Mishap at the Bus Stop
 **Official Requirement 4b:** As you are getting on a bus, your books fall into a puddle. By the time you pick them up, the bus has driven off.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (You Are Getting on A)
-- **Common Myth:** Rushing for a bus can be shown by running frantically without defining the dropped books.
-- **Pamphlet Fact:** Dropping items demands crisp physical release, immediate panic, and clear visual tracking of the departing bus.
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -284,8 +257,6 @@
 #### Req 4c: Academic Examination Confrontation Pantomime
 **Official Requirement 4c:** You have failed a school test. You are talking with your teacher, who does not buy your story.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (You Have Failed A School)
-- **Common Myth:** A silent academic confrontation works without showing the physical presence of the unseen teacher.
-- **Pamphlet Fact:** Contrasting nervous excuses with a defensive physical posture visually communicates student guilt and teacher skepticism.
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -297,8 +268,6 @@
 #### Req 4d: Camp Cooking Instruction Pantomime
 **Official Requirement 4d:** You are at camp with a new Scout. You try to help them pass a cooking test. The Scout learns very slowly.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (You Are at Camp)
-- **Common Myth:** Teaching cooking silently only requires stirring a pot without establishing relational dynamics.
-- **Pamphlet Fact:** Patience and frustration emerge through exaggerated instructional gestures contrasted with heavy sighing body posture.
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -311,8 +280,6 @@
 #### Req 4e: Formal Banquet Feast Pantomime
 **Official Requirement 4e:** You are at a banquet. The meat is good. You don't like the vegetable. The dessert is ice cream.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (You Are at A Banquet)
-- **Common Myth:** Eating a meal silently looks identical regardless of food taste, temperature, or texture.
-- **Pamphlet Fact:** Tasting different foods requires varied mouth movements, expressive throat swallowing, and distinct facial reactions.
 
 | Req 4e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -326,8 +293,6 @@
 #### Req 4f: Circus Feat Performance Pantomime
 **Official Requirement 4f:** You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix (You Are A Circus Performer)
-- **Common Myth:** Circus skills can be faked without showing physical strain, balance, or danger.
-- **Pamphlet Fact:** Circus performances depend on exaggerated physical balance, theatrical flourishes, and focused physical suspense.
 
 | Req 4f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -338,7 +303,6 @@
 ### Req 5: Theatrical Terminology and Technical Architecture
 **Official Requirement 5:** Explain the following: proscenium arch, central or arena staging, center stage, stage right, stage left, downstage, upstage, stage crew, flies, portal, cyclorama, stage brace, spotlight, floodlight, lighting control board, sound mixing desk, thrust staging, ground plans, and sightlines.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 19, p. 76)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Proscenium Arch Central or Arena)
-> **Guide to Safe Scouting Warning:** Call out overhead rigging movement loudly before operating counterweight fly lines across stage areas.
 - **Common Myth:** Stage directions are based on the audience's point of view rather than the actor's perspective.
 - **Pamphlet Fact:** Standardized theatrical terminology ensures immediate, clear communication between directors, actors, designers, and running crews.
 

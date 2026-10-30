@@ -400,42 +400,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Waterway Hazards and Weather",
-        "right_header": "Req 1b: Rowing Injuries and Thermal",
+        "left_header": "Req 1a: Waterway Hazards and Weather Risks",
+        "right_header": "Req 1b: Rowing Injuries and Thermal Illnesses",
         "left_points": [
-          "(1a) Waterway Hazards And Weather Risks: Rowers encounter sudden weather shifts, river obstacles, and turbulent currents that threaten small craft stability. Crews mitigate these hazards by tracking meteorological alerts and maintaining defensive lookout headings."
+          "(1a) Waterway Hazards and Weather Risks: Rowers encounter sudden weather shifts, river obstacles, and turbulent currents that threaten small craft stability. Crews mitigate these hazards by tracking meteorological alerts and maintaining defensive lookout headings.",
+          "Lightning Protocol: Move the craft immediately to shore whenever thunder rumbles across the water."
         ],
         "right_points": [
-          "(1b) Rowing Injuries And Thermal Illnesses: Repetitive friction and extreme temperature exposure cause painful skin blisters, dehydration, heat syndromes, and rapid hypothermia. Rowers manage these conditions through proper hydration, insulating clothing, and early wound care."
+          "(1b) Rowing Injuries and Thermal Illnesses: Repetitive friction and extreme temperature exposure cause painful skin blisters, dehydration, heat syndromes, and rapid hypothermia. Rowers manage these conditions through proper hydration, insulating clothing, and early wound care.",
+          "(1c) Safety Afloat Operational Compliance: Scouting America Safety Afloat mandates qualified supervision, personal flotation devices, swimming ability classification, and buddy systems during all boating activities. Compliance ensures safe rowing operations under tested emergency protocols."
         ],
         "rows": [
           {
             "attribute": "Lightning Protocol",
-            "left": "(1a) Waterway Hazards And Weather Risks: Rowers encounter sudden weather shifts, river obstacles, and turbulent currents that threaten small craft stability. Crews mitigate these hazards by tracking meteorological alerts and maintaining defensive lookout headings.",
-            "right": "(1b) Rowing Injuries And Thermal Illnesses: Repetitive friction and extreme temperature exposure cause painful skin blisters, dehydration, heat syndromes, and rapid hypothermia. Rowers manage these conditions through proper hydration, insulating clothing, and early wound care."
+            "left": "(1a) Waterway Hazards and Weather Risks: Rowers encounter sudden weather shifts, river obstacles, and turbulent currents that threaten small craft stability. Crews mitigate these hazards by tracking meteorological alerts and maintaining defensive lookout headings.",
+            "right": "(1b) Rowing Injuries and Thermal Illnesses: Repetitive friction and extreme temperature exposure cause painful skin blisters, dehydration, heat syndromes, and rapid hypothermia. Rowers manage these conditions through proper hydration, insulating clothing, and early wound care."
           },
           {
             "attribute": "Cold Water Shock",
-            "left": "Req 1a: Waterway Hazards And Weather: Rowers encounter sudden weather shifts, river obstacles, and turbulent currents that threaten small craft stability. Crews mitigate these hazards by tracking meteorological alerts and maintaining defensive lookout headings.",
-            "right": "Req 1b: Rowing Injuries And Thermal: Repetitive friction and extreme temperature exposure cause painful skin blisters, dehydration, heat syndromes, and rapid hypothermia. Rowers manage these conditions through proper hydration, insulating clothing, and early wound care."
+            "left": "Lightning Protocol: Move the craft immediately to shore whenever thunder rumbles across the water.",
+            "right": "(1c) Safety Afloat Operational Compliance: Scouting America Safety Afloat mandates qualified supervision, personal flotation devices, swimming ability classification, and buddy systems during all boating activities. Compliance ensures safe rowing operations under tested emergency protocols."
           },
           {
-            "attribute": "Strainers And Obstacles",
-            "left": "Req 1c: Safety Afloat Operational: Scouting America Safety Afloat mandates qualified supervision, personal flotation devices, swimming ability classification, and buddy systems during all boating activities. Compliance ensures safe rowing operations under tested emergency protocols.",
-            "right": "Cold Water Shock: Sudden immersion initiates an involuntary gasp reflex that leads to immediate drowning."
+            "attribute": "Strainers and Obstacles",
+            "left": "Strainers and Obstacles: River currents force small rowboats against submerged trees causing rapid swamping.",
+            "right": "Blister Mitigation: Friction tape applied to tender palm pressure points prevents severe skin tears."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 1 Exemplar Workbook Entry: Rowing Hazards",
+        "title": "Rowing Req 1 Worked Example: Rowing Hazards and Emergency Preparedness",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Waterway Hazards and Weather": "Rowers encounter sudden weather shifts, river obstacles, and turbulent currents that threaten small craft stability. Crews mitigate these hazards by tracking meteorological alerts and maintaining defensive lookout headings.",
-          "Req 1b - Rowing Injuries and Thermal": "Repetitive friction and extreme temperature exposure cause painful skin blisters, dehydration, heat syndromes, and rapid hypothermia. Rowers manage these conditions through proper hydration, insulating clothing, and early wound care.",
-          "Req 1c - Safety Afloat Operational": "Scouting America Safety Afloat mandates qualified supervision, personal flotation devices, swimming ability classification, and buddy systems during all boating activities. Compliance ensures safe rowing operations under tested emergency protocols."
+          "Phase 1 - Weather Assessment": "Check local marine forecasts and atmospheric pressure trends before launching the craft.",
+          "Phase 2 - Shore Reconnaissance": "Identify designated emergency egress points along the planned navigational route on water.",
+          "Phase 3 - First Aid Check": "Pack waterproof medical supplies for treating abrasions, blisters, hypothermia, and heat exhaustion.",
+          "Phase 4 - Float Plan Filing": "Deliver a detailed route schedule and passenger manifest to onshore leadership personnel."
         },
-        "sample_output": "Rowing Hazards and Safety Afloat: You may be able to adjust or relax your grip to avoid friction on the sensitive area (p. 13).",
-        "counselor_tip": "For Rowing Requirement 1 (Rowing Hazards and Safety Afloat), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14))."
+        "sample_output": "Rowers must continuously evaluate dynamic atmospheric changes and swift water hazards to maintain vessel stability. Proper preparedness requires establishing clear communication protocols and mastering immediate first aid responses for thermal stress.",
+        "counselor_tip": "During the Rowing Requirement 1 conference on Rowing Hazards and Emergency Preparedness, verify that the Scout can explain lightning protocol and demonstrate float plan filing: Deliver a detailed route schedule and passenger manifest to onshore leadership personnel."
       },
       "quiz_item": {
         "scenario_prompt": "Because a rower in a fixed-seat rowboat faces the stern while propelling the boat bow-first, how should you navigate safely and handle a swamped boat if it fills with water?",
@@ -594,47 +597,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: The Swimming Buddy Rule",
-        "right_header": "Req 2: Complete the Swimmer Test",
+        "left_header": "Scouting America Swimmer Classification Test: Core Principles",
+        "right_header": "Scouting America Swimmer Classification Test: Field Execution",
         "left_points": [
-          "The Swimming Buddy Rule: Whenever yougo swimming, make sure you have a buddy (p. 15).",
-          "Buddy Boats Afloat: If you go afloat, the same rule applies, make sure you have a buddy either with you or nearby in another boat (p. 15).",
-          "Mandatory Swimmer Qualification: All rowers must have passed the Scouting America swimmer test (p. 15)."
+          "Continuous Swim Distance: Complete one hundred yards continuously with seventy-five yards using strong forward strokes.",
+          "Resting Backstroke Stage: Finish the final twenty-five yards using an easy, restful elementary backstroke."
         ],
         "right_points": [
-          "Complete the Swimmer Test: All rowers must have passed the Scouting America swimmer test (p. 15).",
-          "Demonstrate Deep-Water Endurance: All rowers must have passed the Scouting America swimmer test (p. 15).",
-          "Meet All Swimmer Standards: To qualify as a \"swimmer,\" you must pass the following swimmer test (p. 15)."
+          "Deep Water Entry: Jump feet first into deep water and submerge before starting the swim.",
+          "Floating Endurance Demonstration: Maintain a stationary floating or resting position for sixty seconds without forward movement."
         ],
         "rows": [
           {
             "attribute": "Continuous Swim Distance",
-            "left": "The Swimming Buddy Rule: Whenever yougo swimming, make sure you have a buddy (p. 15).",
-            "right": "Complete the Swimmer Test: All rowers must have passed the Scouting America swimmer test (p. 15)."
+            "left": "Continuous Swim Distance: Complete one hundred yards continuously with seventy-five yards using strong forward strokes.",
+            "right": "Deep Water Entry: Jump feet first into deep water and submerge before starting the swim."
           },
           {
             "attribute": "Resting Backstroke Stage",
-            "left": "Buddy Boats Afloat: If you go afloat, the same rule applies, make sure you have a buddy either with you or nearby in another boat (p. 15).",
-            "right": "Demonstrate Deep-Water Endurance: All rowers must have passed the Scouting America swimmer test (p. 15)."
+            "left": "Resting Backstroke Stage: Finish the final twenty-five yards using an easy, restful elementary backstroke.",
+            "right": "Floating Endurance Demonstration: Maintain a stationary floating or resting position for sixty seconds without forward movement."
           },
           {
             "attribute": "Deep Water Entry",
-            "left": "Mandatory Swimmer Qualification: All rowers must have passed the Scouting America swimmer test (p. 15).",
-            "right": "Meet All Swimmer Standards: To qualify as a \"swimmer,\" you must pass the following swimmer test (p. 15)."
+            "left": "Deep Water Entry: Jump feet first into deep water and submerge before starting the swim.",
+            "right": "Floating Endurance Demonstration: Maintain a stationary floating or resting position for sixty seconds without forward movement."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 2 Exemplar Workbook Entry: Scouting America",
+        "title": "Rowing Req 2 Worked Example: Scouting America Swimmer Classification Test",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "The Swimming Buddy Rule": "Whenever yougo swimming, make sure you have a buddy (p. 15).",
-          "Buddy Boats Afloat": "If you go afloat, the same rule applies, make sure you have a buddy either with you or nearby in another boat (p. 15).",
-          "Mandatory Swimmer Qualification": "All rowers must have passed the Scouting America swimmer test (p. 15).",
-          "Deep-Water Swimming Readiness": "All rowers must have passed the Scouting America swimmer test (p. 15)."
+          "Phase 1 - Feet First Jump": "Plunge feet first into water over head height and surface smoothly.",
+          "Phase 2 - Forward Propulsion": "Swim seventy-five yards continuously using an effective side, breast, or crawl stroke.",
+          "Phase 3 - Backstroke Recovery": "Complete the final twenty-five yards using a relaxed and restful elementary backstroke.",
+          "Phase 4 - Stationary Float": "Rest motionlessly on your back for one full minute without paddling feet."
         },
-        "sample_output": "Scouting America Swimmer Test Qualification: Whenever yougo swimming, make sure you have a buddy (p. 15).",
-        "counselor_tip": "For Rowing Requirement 2 (Scouting America Swimmer Test Qualification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 15, p. 16))."
+        "sample_output": "Rowing candidates must demonstrate advanced aquatic competence by passing the standard swimmer classification test in clear water. This prerequisite confirms that rowers possess the physical stamina and water confidence needed to survive an accidental capsize.",
+        "counselor_tip": "During the Rowing Requirement 2 conference on Scouting America Swimmer Classification Test, verify that the Scout can explain continuous swim distance and demonstrate stationary float: Rest motionlessly on your back for one full minute without paddling feet."
       },
       "quiz_item": {
         "scenario_prompt": "Which qualification and safety rule must every Scout meet before participating in deep-water rowing activities?",
@@ -793,47 +794,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Paddle Craft Safety Planning",
-        "right_header": "Req 3: Collect Signed Health Forms",
+        "left_header": "Personal Flotation Device Selection: Core Principles",
+        "right_header": "Personal Flotation Device Selection: Field Execution",
         "left_points": [
-          "Paddle Craft Safety Planning: Paddle Craft Safety to assist in the planning and conduct of all rowing activities (p. 16).",
-          "Participant Health History Records: A complete health history is required of all participants as evidence of fitness for rowing activities (p. 16).",
-          "Parental Consent Signatures: Forms for minors must be signed by a parent or legal guardian (p. 16)."
+          "Type Three Approval: Choose inherently buoyant vest designs that permit unrestricted arm and shoulder motion.",
+          "Strap Tensioning Sequence: Tighten lower torso straps first before snugging shoulder adjusters to anchor foam."
         ],
         "right_points": [
-          "Collect Signed Health Forms: Forms for minors must be signed by a parent or legal guardian (p. 16).",
-          "Ask About Recent Illnesses: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 16).",
-          "Adjust Supervision for Risks: Supervision and protection should be adjusted to anticipate any potential risks associated with individual health conditions (p. 16)."
+          "Shoulder Lift Test: Pull upward on vest shoulder panels to confirm the neckline stays below ears.",
+          "Permanent Wear Rule: Fasten the life jacket securely before stepping off docks into any rowboat."
         ],
         "rows": [
           {
             "attribute": "Type Three Approval",
-            "left": "Paddle Craft Safety Planning: Paddle Craft Safety to assist in the planning and conduct of all rowing activities (p. 16).",
-            "right": "Collect Signed Health Forms: Forms for minors must be signed by a parent or legal guardian (p. 16)."
+            "left": "Type Three Approval: Choose inherently buoyant vest designs that permit unrestricted arm and shoulder motion.",
+            "right": "Shoulder Lift Test: Pull upward on vest shoulder panels to confirm the neckline stays below ears."
           },
           {
             "attribute": "Strap Tensioning Sequence",
-            "left": "Participant Health History Records: A complete health history is required of all participants as evidence of fitness for rowing activities (p. 16).",
-            "right": "Ask About Recent Illnesses: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 16)."
+            "left": "Strap Tensioning Sequence: Tighten lower torso straps first before snugging shoulder adjusters to anchor foam.",
+            "right": "Permanent Wear Rule: Fasten the life jacket securely before stepping off docks into any rowboat."
           },
           {
             "attribute": "Shoulder Lift Test",
-            "left": "Parental Consent Signatures: Forms for minors must be signed by a parent or legal guardian (p. 16).",
-            "right": "Adjust Supervision for Risks: Supervision and protection should be adjusted to anticipate any potential risks associated with individual health conditions (p. 16)."
+            "left": "Shoulder Lift Test: Pull upward on vest shoulder panels to confirm the neckline stays below ears.",
+            "right": "Permanent Wear Rule: Fasten the life jacket securely before stepping off docks into any rowboat."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 3 Exemplar Workbook Entry: Life Jacket",
+        "title": "Rowing Req 3 Worked Example: Personal Flotation Device Selection",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Paddle Craft Safety Planning": "Paddle Craft Safety to assist in the planning and conduct of all rowing activities (p. 16).",
-          "Participant Health History Records": "A complete health history is required of all participants as evidence of fitness for rowing activities (p. 16).",
-          "Parental Consent Signatures": "Forms for minors must be signed by a parent or legal guardian (p. 16).",
-          "Pre-Rowing Health Check": "Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 16)."
+          "Phase 1 - Label Examination": "Check the manufacturer label for United States Coast Guard approval and user weight.",
+          "Phase 2 - Vest Loosening": "Loosen all adjustment webbing before placing your arms through the armholes properly.",
+          "Phase 3 - Buckle Fastening": "Close the front zipper and buckle all torso straps starting from waist level.",
+          "Phase 4 - Snugness Check": "Have a buddy pull upward on shoulder straps to test proper torso retention."
         },
-        "sample_output": "Life Jacket Selection and Fitting: Paddle Craft Safety to assist in the planning and conduct of all rowing activities (p. 16).",
-        "counselor_tip": "For Rowing Requirement 3 (Life Jacket Selection and Fitting), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 16, p. 18))."
+        "sample_output": "Rowers must select Coast Guard approved life jackets that provide unrestricted arm rotation and torso movement while seated at the oarlocks. Proper fit requires snug adjustment of all buckles and side straps to prevent the vest from riding over the chin.",
+        "counselor_tip": "During the Rowing Requirement 3 conference on Personal Flotation Device Selection, verify that the Scout can explain type three approval and demonstrate snugness check: Have a buddy pull upward on shoulder straps to test proper torso retention."
       },
       "quiz_item": {
         "scenario_prompt": "What type of lifejacket is most appropriate for rowing activities?",
@@ -1528,41 +1527,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Fixed Seat Maneuvering",
-        "right_header": "Req 4b: Competitive Rowing Regatta",
+        "left_header": "Req 4a: Fixed Seat Maneuvering and Backing",
+        "right_header": "Req 4b: Competitive Rowing Regatta Participation",
         "left_points": [
-          "(4a) Fixed Seat Maneuvering And Backing: Fixed-seat rowers rely on torso swing and arm levering to propel the hull through calm or turbulent water. Mastering straight tracking, emergency stops, and reversing strokes ensures complete vessel command in crowded harbor waters."
+          "(4a) Fixed Seat Maneuvering and Backing: Fixed-seat rowers rely on torso swing and arm levering to propel the hull through calm or turbulent water. Mastering straight tracking, emergency stops, and reversing strokes ensures complete vessel command in crowded harbor waters.",
+          "Catch Blade Angle: Enter oar blades into water vertically at right angles to boat centerline."
         ],
         "right_points": [
-          "(4b) Competitive Rowing Regatta Participation: Competitive crew rowing demands synchronized stroke ratings, precise leg drive timing, and disciplined obedience to coxswain commands. Participating in organized regattas teaches team pacing, tactical race lane discipline, and sportsmanship."
+          "(4b) Competitive Rowing Regatta Participation: Competitive crew rowing demands synchronized stroke ratings, precise leg drive timing, and disciplined obedience to coxswain commands. Participating in organized regattas teaches team pacing, tactical race lane discipline, and sportsmanship.",
+          "Pivot Maneuver Execution: Pull one oar forward while simultaneously pushing the opposite oar in reverse."
         ],
         "rows": [
           {
             "attribute": "Catch Blade Angle",
-            "left": "(4a) Fixed Seat Maneuvering And Backing: Fixed-seat rowers rely on torso swing and arm levering to propel the hull through calm or turbulent water. Mastering straight tracking, emergency stops, and reversing strokes ensures complete vessel command in crowded harbor waters.",
+            "left": "(4a) Fixed Seat Maneuvering and Backing: Fixed-seat rowers rely on torso swing and arm levering to propel the hull through calm or turbulent water. Mastering straight tracking, emergency stops, and reversing strokes ensures complete vessel command in crowded harbor waters.",
             "right": "(4b) Competitive Rowing Regatta Participation: Competitive crew rowing demands synchronized stroke ratings, precise leg drive timing, and disciplined obedience to coxswain commands. Participating in organized regattas teaches team pacing, tactical race lane discipline, and sportsmanship."
           },
           {
             "attribute": "Drive Phase Power",
-            "left": "Req 4a: Fixed Seat Maneuvering: Fixed-seat rowers rely on torso swing and arm levering to propel the hull through calm or turbulent water. Mastering straight tracking, emergency stops, and reversing strokes ensures complete vessel command in crowded harbor waters.",
-            "right": "Req 4b: Competitive Rowing Regatta: Competitive crew rowing demands synchronized stroke ratings, precise leg drive timing, and disciplined obedience to coxswain commands. Participating in organized regattas teaches team pacing, tactical race lane discipline, and sportsmanship."
+            "left": "Catch Blade Angle: Enter oar blades into water vertically at right angles to boat centerline.",
+            "right": "Pivot Maneuver Execution: Pull one oar forward while simultaneously pushing the opposite oar in reverse."
           },
           {
             "attribute": "Pivot Maneuver Execution",
-            "left": "Catch Blade Angle: Enter oar blades into water vertically at right angles to boat centerline.",
-            "right": "Drive Phase Power: Push firmly against the foot stretcher while levering shoulders and back smoothly."
+            "left": "Pivot Maneuver Execution: Pull one oar forward while simultaneously pushing the opposite oar in reverse.",
+            "right": "Backing Down Method: Push oar handles away from your chest to drive the boat astern."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 4 Exemplar Workbook Entry: Fundamental Boat",
+        "title": "Rowing Req 4 Worked Example: Basic Rowing Strokes and Maneuvers",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Fixed Seat Maneuvering": "Fixed-seat rowers rely on torso swing and arm levering to propel the hull through calm or turbulent water. Mastering straight tracking, emergency stops, and reversing strokes ensures complete vessel command in crowded harbor waters.",
-          "Req 4b - Competitive Rowing Regatta": "Competitive crew rowing demands synchronized stroke ratings, precise leg drive timing, and disciplined obedience to coxswain commands. Participating in organized regattas teaches team pacing, tactical race lane discipline, and sportsmanship."
+          "Phase 1 - Stable Launch": "Step into the boat center and ship oars securely in their oarlocks.",
+          "Phase 2 - Straight Rowing": "Pull rhythmic power strokes for one hundred yards maintaining a straight compass track.",
+          "Phase 3 - Pivot Turn": "Hold water on one side while backing the other to turn completely.",
+          "Phase 4 - Backwater Course": "Push both oars together to back the rowboat fifty yards along a line."
         },
-        "sample_output": "Fundamental Boat Handling and Maneuvers: Dragging heavy craft onto the bank or dock will damage the boat's hull (p. 40).",
-        "counselor_tip": "For Rowing Requirement 4 (Fundamental Boat Handling and Maneuvers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67))."
+        "sample_output": "Rowers master boat control by coordinating the catch, drive, finish, and recovery phases of the rowing cycle. Precision handling requires maintaining equal blade pressure, executing controlled pivots, and executing backing strokes in confined channels.",
+        "counselor_tip": "During the Rowing Requirement 4 conference on Basic Rowing Strokes and Maneuvers, verify that the Scout can explain catch blade angle and demonstrate backwater course: Push both oars together to back the rowboat fifty yards along a line."
       },
       "quiz_item": {
         "scenario_prompt": "How should lightweight rowing shells, sculling craft, and canoes with drop-in units be stored when not in use?",
@@ -1859,13 +1862,15 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Fixed Seat Passenger Transfer",
-        "right_header": "Req 5b: Sliding Seat Pier Docking",
+        "left_header": "Req 5a: Fixed Seat Passenger Transfer Operations",
+        "right_header": "Req 5b: Sliding Seat Pier Docking Exchanges",
         "left_points": [
-          "(5a) Fixed Seat Passenger Transfer Operations: Operators of fixed-seat rowboats must stabilize the craft against docks and supervise balanced passenger movement between seats. Single-oar sculling over the transom provides essential auxiliary propulsion when maneuvering through narrow marina slips."
+          "(5a) Fixed Seat Passenger Transfer Operations: Operators of fixed-seat rowboats must stabilize the craft against docks and supervise balanced passenger movement between seats. Single-oar sculling over the transom provides essential auxiliary propulsion when maneuvering through narrow marina slips.",
+          "Pier Approach Angle: Angle the bow toward the dock slowly before shipping the dockside oar."
         ],
         "right_points": [
-          "(5b) Sliding Seat Pier Docking Exchanges: Sliding-seat craft have delicate outriggers and narrow shells that require specialized docking techniques and buddy assistance. Rowers must secure the dockside rigger and step cleanly onto the pier without placing weight on thin hull skin."
+          "(5b) Sliding Seat Pier Docking Exchanges: Sliding-seat craft have delicate outriggers and narrow shells that require specialized docking techniques and buddy assistance. Rowers must secure the dockside rigger and step cleanly onto the pier without placing weight on thin hull skin.",
+          "Position Change Sequence: Move past each other by keeping low centers of gravity along keel."
         ],
         "rows": [
           {
@@ -1875,25 +1880,27 @@
           },
           {
             "attribute": "Passenger Boarding Contact",
-            "left": "Req 5a: Fixed Seat Passenger: Operators of fixed-seat rowboats must stabilize the craft against docks and supervise balanced passenger movement between seats. Single-oar sculling over the transom provides essential auxiliary propulsion when maneuvering through narrow marina slips.",
-            "right": "Req 5b: Sliding Seat Pier Docking: Sliding-seat craft have delicate outriggers and narrow shells that require specialized docking techniques and buddy assistance. Rowers must secure the dockside rigger and step cleanly onto the pier without placing weight on thin hull skin."
+            "left": "Pier Approach Angle: Angle the bow toward the dock slowly before shipping the dockside oar.",
+            "right": "Position Change Sequence: Move past each other by keeping low centers of gravity along keel."
           },
           {
             "attribute": "Position Change Sequence",
-            "left": "Pier Approach Angle: Angle the bow toward the dock slowly before shipping the dockside oar.",
-            "right": "Passenger Boarding Contact: Step into the centerline of the rowboat while keeping both hands low."
+            "left": "Position Change Sequence: Move past each other by keeping low centers of gravity along keel.",
+            "right": "Figure Eight Sculling: Sweep a single stern oar back and forth changing blade angles continuously."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 5 Exemplar Workbook Entry: Pier Transfers",
+        "title": "Rowing Req 5 Worked Example: Docking Passenger Transfers and Sculling",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Fixed Seat Passenger Transfer": "Operators of fixed-seat rowboats must stabilize the craft against docks and supervise balanced passenger movement between seats. Single-oar sculling over the transom provides essential auxiliary propulsion when maneuvering through narrow marina slips.",
-          "Req 5b - Sliding Seat Pier Docking": "Sliding-seat craft have delicate outriggers and narrow shells that require specialized docking techniques and buddy assistance. Rowers must secure the dockside rigger and step cleanly onto the pier without placing weight on thin hull skin."
+          "Phase 1 - Dock Approach": "Glide slowly alongside the pier into wind or current before shipping oars.",
+          "Phase 2 - Passenger Loading": "Steady the gunwale against the pier while assisting your passenger aboard safely.",
+          "Phase 3 - Centerline Exchange": "Crouch low and slide past your partner along the boat bottom boards.",
+          "Phase 4 - Stern Sculling": "Work a single oar in figure-eight strokes over the transom for propulsion."
         },
-        "sample_output": "Pier Transfers and Stern Sculling: The person assisting will play the role of the passenger, except that instead of getting in when you are ready, he or she will give you a gentle push (p. 67).",
-        "counselor_tip": "For Rowing Requirement 5 (Pier Transfers and Stern Sculling), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79))."
+        "sample_output": "Coming alongside a pier requires gentle deceleration and fender placement to prevent hull damage from impact. Transferring passengers safely demands centered body weight, firm three-point contact, and skilled sculling technique with a single oar.",
+        "counselor_tip": "During the Rowing Requirement 5 conference on Docking Passenger Transfers and Sculling, verify that the Scout can explain pier approach angle and demonstrate stern sculling: Work a single oar in figure-eight strokes over the transom for propulsion."
       },
       "quiz_item": {
         "scenario_prompt": "How does your seating position change when rowing a fixed-seat rowboat alone compared to rowing with a passenger?",
@@ -2042,47 +2049,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Oars in Safety Position",
-        "right_header": "Req 6: Hold on to Craft",
+        "left_header": "Swamped Boat Recovery Drill: Core Principles",
+        "right_header": "Swamped Boat Recovery Drill: Field Execution",
         "left_points": [
-          "Oars in Safety Position: Rescue Procedures. his or her midship with one hand while maintaining the oars in the safety position (p. 29).",
-          "Safety Boat Escort Support: Even experienced rowers may occasionally capsize in shells, so you should always have someone in a fixed-seat rowboat or powerboat on the water to assist (p. 29).",
-          "Stay With Swamped Craft: If you capsize in a canoe rowing rig and the craft swamps, remember to stay with the boat, hang on, do not lose contact with the canoe (p. 29)."
+          "Flotation in Swamping: Wooden and aluminum rowboats retain inherent buoyancy that supports full crew weight.",
+          "Gunwale Stabilization Hold: Grasp opposite gunwales firmly to prevent the swamped hull from rolling over."
         ],
         "right_points": [
-          "Hold On to Craft: If you capsize in a canoe rowing rig and the craft swamps, remember to stay with the boat, hang on, do not lose contact with the canoe (p. 29).",
-          "Slide Over the Gunwale: Slide over the gunwale into an open area of the craft (p. 29).",
-          "Paddle Ashore Sitting Low: Sit flat on the bottom and use one oar to paddle to shore where you can empty the canoe and relaunch (p. 29)."
+          "Deep Water Entry: Kick strongly with legs while pulling torso across the rowboat stern transom.",
+          "Hand Paddling Propulsion: Paddle with hands while seated inside waterlogged hull to reach safe shorelines."
         ],
         "rows": [
           {
-            "attribute": "Flotation In Swamping",
-            "left": "Oars in Safety Position: Rescue Procedures. his or her midship with one hand while maintaining the oars in the safety position (p. 29).",
-            "right": "Hold On to Craft: If you capsize in a canoe rowing rig and the craft swamps, remember to stay with the boat, hang on, do not lose contact with the canoe (p. 29)."
+            "attribute": "Flotation in Swamping",
+            "left": "Flotation in Swamping: Wooden and aluminum rowboats retain inherent buoyancy that supports full crew weight.",
+            "right": "Deep Water Entry: Kick strongly with legs while pulling torso across the rowboat stern transom."
           },
           {
             "attribute": "Gunwale Stabilization Hold",
-            "left": "Safety Boat Escort Support: Even experienced rowers may occasionally capsize in shells, so you should always have someone in a fixed-seat rowboat or powerboat on the water to assist (p. 29).",
-            "right": "Slide Over the Gunwale: Slide over the gunwale into an open area of the craft (p. 29)."
+            "left": "Gunwale Stabilization Hold: Grasp opposite gunwales firmly to prevent the swamped hull from rolling over.",
+            "right": "Hand Paddling Propulsion: Paddle with hands while seated inside waterlogged hull to reach safe shorelines."
           },
           {
             "attribute": "Deep Water Entry",
-            "left": "Stay With Swamped Craft: If you capsize in a canoe rowing rig and the craft swamps, remember to stay with the boat, hang on, do not lose contact with the canoe (p. 29).",
-            "right": "Paddle Ashore Sitting Low: Sit flat on the bottom and use one oar to paddle to shore where you can empty the canoe and relaunch (p. 29)."
+            "left": "Deep Water Entry: Kick strongly with legs while pulling torso across the rowboat stern transom.",
+            "right": "Hand Paddling Propulsion: Paddle with hands while seated inside waterlogged hull to reach safe shorelines."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 6 Exemplar Workbook Entry: Swamped Boat",
+        "title": "Rowing Req 6 Worked Example: Swamped Boat Recovery Drill",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Oars in Safety Position": "Rescue Procedures. his or her midship with one hand while maintaining the oars in the safety position (p. 29).",
-          "Safety Boat Escort Support": "Even experienced rowers may occasionally capsize in shells, so you should always have someone in a fixed-seat rowboat or powerboat on the water to assist (p. 29).",
-          "Stay with Swamped Craft": "If you capsize in a canoe rowing rig and the craft swamps, remember to stay with the boat, hang on, do not lose contact with the canoe (p. 29).",
-          "Gunwale Reboarding Entry": "Slide over the gunwale into an open area of the craft (p. 29)."
+          "Phase 1 - Capsize Check": "Surface calmly next to the swamped hull and confirm all buddies accounted.",
+          "Phase 2 - Craft Righting": "Roll the inverted hull upright while holding gunwales from deep water positions.",
+          "Phase 3 - Stern Reboarding": "Kick legs to horizontal and slide stomach forward over the stern transom.",
+          "Phase 4 - Bilge Paddling": "Sit on the bottom boards and paddle with oars toward shallow water."
         },
-        "sample_output": "Swamped Boat Recovery Drills: Rescue Procedures. his or her midship with one hand while maintaining the oars in the safety position (p. 29).",
-        "counselor_tip": "For Rowing Requirement 6 (Swamped Boat Recovery Drills), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 29, p. 83))."
+        "sample_output": "A swamped rowboat retains significant positive flotation capable of supporting all passengers even when completely filled with water. Rowers must remain with the craft, stabilize the gunwales, and coordinate deep-water re-entry without causing inverted rollover.",
+        "counselor_tip": "During the Rowing Requirement 6 conference on Swamped Boat Recovery Drill, verify that the Scout can explain flotation in swamping and demonstrate bilge paddling: Sit on the bottom boards and paddle with oars toward shallow water."
       },
       "quiz_item": {
         "scenario_prompt": "What is the correct procedure if your canoe rowing rig or rowboat capsizes and swamps in deep water?",
@@ -2240,47 +2245,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Two-Person Counterbalance",
-        "right_header": "Req 7: Roll Onto Your Backside",
+        "left_header": "Rowing Rescue of Swimmers: Core Principles",
+        "right_header": "Rowing Rescue of Swimmers: Field Execution",
         "left_points": [
-          "Two-Person Counterbalance Reboarding: If you are with a friend and your boat capsizes, pull yourself up over the side of the swamped boat while your friend holds down the other side (p. 65).",
-          "Hip-Level Gunwale Press: Push down on the gunwale with both hands so that you bring yourself up to where your hips are about level with the gunwale (p. 65).",
-          "Roll Onto Boat Bottom: Then roll over so that you fall into the bottom of the swamped boat, landing on your backside (p. 65)."
+          "Rowing Approach Line: Row directly toward the distressed swimmer while checking position over your shoulder.",
+          "Stern Pivot Position: Backwater one oar to swing the boat stern directly toward the victim."
         ],
         "right_points": [
-          "Roll Onto Your Backside: Then roll over so that you fall into the bottom of the swamped boat, landing on your backside (p. 65).",
-          "Lean Over to Counterbalance: You can then lean over the side to counterbalance as your friend follows the same steps to come in over the opposite side (p. 65).",
-          "Press the Gunwale: Remember that when you pull yourself up on the gunwale, the gunwale will be forced down into the water (p. 65)."
+          "Transom Grip Direction: Instruct the exhausted swimmer to grasp the stern transom with both hands.",
+          "Gentle Tow Speed: Row smoothly toward shore maintaining gentle forward momentum without dislodging the swimmer."
         ],
         "rows": [
           {
             "attribute": "Rowing Approach Line",
-            "left": "Two-Person Counterbalance Reboarding: If you are with a friend and your boat capsizes, pull yourself up over the side of the swamped boat while your friend holds down the other side (p. 65).",
-            "right": "Roll Onto Your Backside: Then roll over so that you fall into the bottom of the swamped boat, landing on your backside (p. 65)."
+            "left": "Rowing Approach Line: Row directly toward the distressed swimmer while checking position over your shoulder.",
+            "right": "Transom Grip Direction: Instruct the exhausted swimmer to grasp the stern transom with both hands."
           },
           {
             "attribute": "Stern Pivot Position",
-            "left": "Hip-Level Gunwale Press: Push down on the gunwale with both hands so that you bring yourself up to where your hips are about level with the gunwale (p. 65).",
-            "right": "Lean Over to Counterbalance: You can then lean over the side to counterbalance as your friend follows the same steps to come in over the opposite side (p. 65)."
+            "left": "Stern Pivot Position: Backwater one oar to swing the boat stern directly toward the victim.",
+            "right": "Gentle Tow Speed: Row smoothly toward shore maintaining gentle forward momentum without dislodging the swimmer."
           },
           {
             "attribute": "Transom Grip Direction",
-            "left": "Roll Onto Boat Bottom: Then roll over so that you fall into the bottom of the swamped boat, landing on your backside (p. 65).",
-            "right": "Press the Gunwale: Remember that when you pull yourself up on the gunwale, the gunwale will be forced down into the water (p. 65)."
+            "left": "Transom Grip Direction: Instruct the exhausted swimmer to grasp the stern transom with both hands.",
+            "right": "Gentle Tow Speed: Row smoothly toward shore maintaining gentle forward momentum without dislodging the swimmer."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 7 Exemplar Workbook Entry: Swimmer Rescue",
+        "title": "Rowing Req 7 Worked Example: Rowing Rescue of Swimmers",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Two-Person Counterbalance Reboarding": "If you are with a friend and your boat capsizes, pull yourself up over the side of the swamped boat while your friend holds down the other side (p. 65).",
-          "Hip-Level Gunwale Press": "Push down on the gunwale with both hands so that you bring yourself up to where your hips are about level with the gunwale (p. 65).",
-          "Roll Onto Boat Bottom": "Then roll over so that you fall into the bottom of the swamped boat, landing on your backside (p. 65).",
-          "Counterbalancing Your Partner": "You can then lean over the side to counterbalance as your friend follows the same steps to come in over the opposite side (p. 65)."
+          "Phase 1 - Shore Launch": "Push off the pier rapidly and establish a strong forward rowing cadence.",
+          "Phase 2 - Visual Tracking": "Glance over your shoulder repeatedly to maintain direct alignment with the swimmer.",
+          "Phase 3 - Transom Presentation": "Pivot the boat so the stern approaches within reach of the swimmer.",
+          "Phase 4 - Steady Towing": "Command the swimmer to hold the transom firmly while rowing to shore."
         },
-        "sample_output": "Swimmer Rescue and Stern Tow: If you are with a friend and your boat capsizes, pull yourself up over the side of the swamped boat while your friend holds down the other side (p. 65).",
-        "counselor_tip": "For Rowing Requirement 7 (Swimmer Rescue and Stern Tow), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79))."
+        "sample_output": "Rowers can execute rapid, efficient rescues of distressed swimmers by deploying their craft as a floating rescue platform. The rescuer rows swiftly toward the victim, pivots to present the stern transom, and tows the individual safely to shore.",
+        "counselor_tip": "During the Rowing Requirement 7 conference on Rowing Rescue of Swimmers, verify that the Scout can explain rowing approach line and demonstrate steady towing: Command the swimmer to hold the transom firmly while rowing to shore."
       },
       "quiz_item": {
         "scenario_prompt": "How should you position your rowboat to rescue and tow a tired swimmer 20 yards from shore?",
@@ -2662,42 +2665,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: Commercial Competitive",
-        "right_header": "Req 8b: Boatbuilding Material Properties",
+        "left_header": "Req 8a: Commercial Competitive Recreational Craft",
+        "right_header": "Req 8b: Boatbuilding Material Properties and Tradeoffs",
         "left_points": [
-          "(8a) Commercial Competitive Recreational Craft: Commercial rowboats emphasize load capacity, competitive shells prioritize hydrodynamic velocity, and recreational skiffs balance stability with ease of use. Each hull design optimizes waterline length, beam width, and freeboard for specific aquatic environments."
+          "(8a) Commercial Competitive Recreational Craft: Commercial rowboats emphasize load capacity, competitive shells prioritize hydrodynamic velocity, and recreational skiffs balance stability with ease of use. Each hull design optimizes waterline length, beam width, and freeboard for specific aquatic environments.",
+          "Commercial Dory Craft: Heavy wooden dories carry substantial cargo and withstand punishing open sea breakers."
         ],
         "right_points": [
-          "(8b) Boatbuilding Material Properties And Tradeoffs: Builders construct rowing hulls using wood, aluminum, fiberglass, or modern carbon fiber composites. Selecting hull materials involves balancing weight, structural rigidity, production cost, weather resilience, and repair complexity."
+          "(8b) Boatbuilding Material Properties and Tradeoffs: Builders construct rowing hulls using wood, aluminum, fiberglass, or modern carbon fiber composites. Selecting hull materials involves balancing weight, structural rigidity, production cost, weather resilience, and repair complexity.",
+          "(8c) Competitive and Recreational Oarlock Mechanisms: Recreational rowboats often feature open horn or pinned oarlocks that simplify storage and basic handling. Competitive rowing utilizes precision swivel gates mounted on outriggers to adjust pitch angle and lock oars securely."
         ],
         "rows": [
           {
             "attribute": "Commercial Dory Craft",
             "left": "(8a) Commercial Competitive Recreational Craft: Commercial rowboats emphasize load capacity, competitive shells prioritize hydrodynamic velocity, and recreational skiffs balance stability with ease of use. Each hull design optimizes waterline length, beam width, and freeboard for specific aquatic environments.",
-            "right": "(8b) Boatbuilding Material Properties And Tradeoffs: Builders construct rowing hulls using wood, aluminum, fiberglass, or modern carbon fiber composites. Selecting hull materials involves balancing weight, structural rigidity, production cost, weather resilience, and repair complexity."
+            "right": "(8b) Boatbuilding Material Properties and Tradeoffs: Builders construct rowing hulls using wood, aluminum, fiberglass, or modern carbon fiber composites. Selecting hull materials involves balancing weight, structural rigidity, production cost, weather resilience, and repair complexity."
           },
           {
             "attribute": "Competitive Racing Shells",
-            "left": "Req 8a: Commercial Competitive: Commercial rowboats emphasize load capacity, competitive shells prioritize hydrodynamic velocity, and recreational skiffs balance stability with ease of use. Each hull design optimizes waterline length, beam width, and freeboard for specific aquatic environments.",
-            "right": "Req 8b: Boatbuilding Material: Builders construct rowing hulls using wood, aluminum, fiberglass, or modern carbon fiber composites. Selecting hull materials involves balancing weight, structural rigidity, production cost, weather resilience, and repair complexity."
+            "left": "Commercial Dory Craft: Heavy wooden dories carry substantial cargo and withstand punishing open sea breakers.",
+            "right": "(8c) Competitive and Recreational Oarlock Mechanisms: Recreational rowboats often feature open horn or pinned oarlocks that simplify storage and basic handling. Competitive rowing utilizes precision swivel gates mounted on outriggers to adjust pitch angle and lock oars securely."
           },
           {
             "attribute": "Hull Material Tradeoffs",
-            "left": "Req 8c: Competitive And Recreational: Recreational rowboats often feature open horn or pinned oarlocks that simplify storage and basic handling. Competitive rowing utilizes precision swivel gates mounted on outriggers to adjust pitch angle and lock oars securely.",
-            "right": "Competitive Racing Shells: Lightweight composite shells maximize speed through narrow beam dimensions and sliding seats."
+            "left": "Hull Material Tradeoffs: Aluminum provides low maintenance durability but dents easily and creates loud noise.",
+            "right": "Oarlock Swivel Mechanics: Closed horn and pin oarlocks prevent accidental blade loss during heavy chop."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 8 Exemplar Workbook Entry: Rowing Craft",
+        "title": "Rowing Req 8 Worked Example: Rowing Craft Materials and Oarlocks",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Commercial Competitive": "Commercial rowboats emphasize load capacity, competitive shells prioritize hydrodynamic velocity, and recreational skiffs balance stability with ease of use. Each hull design optimizes waterline length, beam width, and freeboard for specific aquatic environments.",
-          "Req 8b - Boatbuilding Material": "Builders construct rowing hulls using wood, aluminum, fiberglass, or modern carbon fiber composites. Selecting hull materials involves balancing weight, structural rigidity, production cost, weather resilience, and repair complexity.",
-          "Req 8c - Competitive and Recreational": "Recreational rowboats often feature open horn or pinned oarlocks that simplify storage and basic handling. Competitive rowing utilizes precision swivel gates mounted on outriggers to adjust pitch angle and lock oars securely."
+          "Phase 1 - Vessel Inspection": "Examine hull designs distinguishing wide recreational skiffs from narrow competitive rowing shells.",
+          "Phase 2 - Material Comparison": "Evaluate wood, aluminum, fiberglass, and carbon fiber for weight and structural durability.",
+          "Phase 3 - Oarlock Classification": "Identify open horn, pinned, Davis, and modern swivel racing gate oarlock assemblies.",
+          "Phase 4 - Socket Alignment": "Check oarlock sockets and pins for proper lubrication, fit, and retention keepers."
         },
-        "sample_output": "Rowing Craft, Hulls, and Oarlocks: This lightweight, durable metal needs little maintenance (p. 25).",
-        "counselor_tip": "For Rowing Requirement 8 (Rowing Craft, Hulls, and Oarlocks), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29))."
+        "sample_output": "Rowing craft vary widely across commercial dories, sleek racing shells, and rugged recreational utility skiffs. Construction materials and specialized oarlock designs determine vessel durability, hull hydrodynamic performance, and oar retention in rough water.",
+        "counselor_tip": "During the Rowing Requirement 8 conference on Rowing Craft Materials and Oarlocks, verify that the Scout can explain commercial dory craft and demonstrate socket alignment: Check oarlock sockets and pins for proper lubrication, fit, and retention keepers."
       },
       "quiz_item": {
         "scenario_prompt": "Which statement accurately compares common rowboat hull materials?",
@@ -3384,13 +3390,11 @@
         "right_header": "Req 9d: Proper Oar Length Determination",
         "left_points": [
           "(9a) Oar Blade Feathering Mechanics: Feathering rotates the oar blade horizontal to the water surface during the recovery stroke. This aerodynamic maneuver minimizes wind resistance and reduces the hazard of blades catching wave crests.",
-          "(9b) Heavy Weather Boat Handling Precautions: High winds and crashing waves can rapidly overwhelm small rowboats through windward drifting or swamping. Rowers preserve stability by quartering into seas, ballasting weight low, and heading toward leeward shores.",
-          "(9c) Seasonal Boat Maintenance And Storage: Spring fitting out requires checking hardware tightness, repairing hull gelcoat, and oiling moving oarlock sockets. Winter storage demands thorough cleaning, drying, and sheltering the hull inverted off bare soil."
+          "(9b) Heavy Weather Boat Handling Precautions: High winds and crashing waves can rapidly overwhelm small rowboats through windward drifting or swamping. Rowers preserve stability by quartering into seas, ballasting weight low, and heading toward leeward shores."
         ],
         "right_points": [
           "(9d) Proper Oar Length Determination: Oar length must match the rowboat beam width between oarlocks to ensure proper mechanical leverage. Handbooks recommend dividing the beam by two, adding two inches, and multiplying by seven-fifths.",
-          "(9e) Fixed Versus Sliding Seat Rowing: Fixed-seat craft utilize stationary thwarts that rely on back and arm power for hull propulsion. Sliding-seat shells feature rolling seats and foot stretchers that recruit major leg muscle groups.",
-          "(9f) Dual Meanings Of Sculling Terminology: In traditional boating, sculling refers to propelling a craft with a single stern oar. In competitive rowing, sculling describes rowing with two individual oars per person simultaneously."
+          "(9e) Fixed Versus Sliding Seat Rowing: Fixed-seat craft utilize stationary thwarts that rely on back and arm power for hull propulsion. Sliding-seat shells feature rolling seats and foot stretchers that recruit major leg muscle groups."
         ],
         "rows": [
           {
@@ -3405,22 +3409,22 @@
           },
           {
             "attribute": "Oar Sizing Formula",
-            "left": "(9c) Seasonal Boat Maintenance And Storage: Spring fitting out requires checking hardware tightness, repairing hull gelcoat, and oiling moving oarlock sockets. Winter storage demands thorough cleaning, drying, and sheltering the hull inverted off bare soil.",
-            "right": "(9f) Dual Meanings Of Sculling Terminology: In traditional boating, sculling refers to propelling a craft with a single stern oar. In competitive rowing, sculling describes rowing with two individual oars per person simultaneously."
+            "left": "Oar Sizing Formula: Calculate proper oar length using half the boat beam width plus leverage.",
+            "right": "Full Body Conditioning: Rowing engages quadriceps, gluteals, latissimus dorsi, and core muscles in rhythmic cycles."
           }
         ]
       },
       "worked_example": {
-        "title": "Rowing Req 9 Exemplar Workbook Entry: Feathering, Rough",
+        "title": "Rowing Req 9 Worked Example: Rowing Physics Maintenance and Health",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 9a - Oar Blade Feathering": "Feathering rotates the oar blade horizontal to the water surface during the recovery stroke. This aerodynamic maneuver minimizes wind resistance and reduces the hazard of blades catching wave crests.",
-          "Req 9b - Heavy Weather Boat Handling": "High winds and crashing waves can rapidly overwhelm small rowboats through windward drifting or swamping. Rowers preserve stability by quartering into seas, ballasting weight low, and heading toward leeward shores.",
-          "Req 9c - Seasonal Boat Maintenance": "Spring fitting out requires checking hardware tightness, repairing hull gelcoat, and oiling moving oarlock sockets. Winter storage demands thorough cleaning, drying, and sheltering the hull inverted off bare soil.",
-          "Req 9d - Proper Oar Length": "Oar length must match the rowboat beam width between oarlocks to ensure proper mechanical leverage. Handbooks recommend dividing the beam by two, adding two inches, and multiplying by seven-fifths."
+          "Phase 1 - Feathering Drill": "Rotate wrists downward at stroke completion to turn the blade horizontal smoothly.",
+          "Phase 2 - Rough Water Heading": "Steer the hull into wave troughs at a steady forty-five degree angle.",
+          "Phase 3 - Winterizing Hull": "Clean bilge debris, wash salt deposits, and store the boat inverted undercover.",
+          "Phase 4 - Ergometer Session": "Row twenty minutes maintaining target heart rates to develop aerobic stamina and endurance."
         },
-        "sample_output": "Feathering, Rough Water, and Fitness: Use this forward momentum to your advantage while you getin position and prepare to row (p. 67).",
-        "counselor_tip": "For Rowing Requirement 9 (Feathering, Rough Water, and Fitness), verify the Scout's own observations and specific pamphlet details (Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87))."
+        "sample_output": "Efficient rowing combines aerodynamic feathering techniques, proactive heavy weather seamanship, and strict vessel hull maintenance. Regular participation in sliding-seat or fixed-seat rowing builds cardiovascular endurance, muscular power, and joint flexibility.",
+        "counselor_tip": "During the Rowing Requirement 9 conference on Rowing Physics Maintenance and Health, verify that the Scout can explain blade feathering benefit and demonstrate ergometer session: Row twenty minutes maintaining target heart rates to develop aerobic stamina and endurance."
       },
       "quiz_item": {
         "scenario_prompt": "From which direction should you always make your final approach to a swimmer in the water?",

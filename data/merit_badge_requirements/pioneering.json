@@ -276,10 +276,12 @@
         "left_header": "Req 1a: Pioneering Hazard Analysis",
         "right_header": "Req 1b: Field Injury Treatment Protocols",
         "left_points": [
-          "(1a) Pioneering Hazard Analysis: Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site."
+          "(1a) Pioneering Hazard Analysis: Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site.",
+          "Drop Zone Clearance: Establish perimeter ropes around active construction to keep bystanders clear of falling spars."
         ],
         "right_points": [
-          "(1b) Field Injury Treatment Protocols: Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing."
+          "(1b) Field Injury Treatment Protocols: Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing.",
+          "Hydration Protocols: Drink water at regular intervals to prevent heat cramps during heavy timber handling."
         ],
         "rows": [
           {
@@ -289,25 +291,27 @@
           },
           {
             "attribute": "Personal Protective Equipment",
-            "left": "Req 1a: Pioneering Hazard Analysis: Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site.",
-            "right": "Req 1b: Field Injury Treatment: Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing."
+            "left": "Drop Zone Clearance: Establish perimeter ropes around active construction to keep bystanders clear of falling spars.",
+            "right": "Hydration Protocols: Drink water at regular intervals to prevent heat cramps during heavy timber handling."
           },
           {
             "attribute": "Hydration Protocols",
-            "left": "Drop Zone Clearance: Establish perimeter ropes around active construction to keep bystanders clear of falling spars.",
-            "right": "Personal Protective Equipment: Hard hats protect builders underneath overhead spars while leather gloves prevent friction burns."
+            "left": "Hydration Protocols: Drink water at regular intervals to prevent heat cramps during heavy timber handling.",
+            "right": "Tool Radius Rules: Maintain a clear blood circle before swinging axes or cutting heavy lashing ropes."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 1 Exemplar Workbook Entry: Pioneering",
+        "title": "Pioneering Req 1 Worked Example: Pioneering Safety and Hazard Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Pioneering Hazard Analysis": "Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site.",
-          "Req 1b - Field Injury Treatment": "Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing."
+          "Phase 1 - Site Survey": "Mark boundary stakes thirty feet clear of the planned bridge drop perimeter.",
+          "Phase 2 - Gear Inspection": "Check all wooden poles for internal dry rot and split longitudinal grain.",
+          "Phase 3 - Perimeter Flagging": "String bright boundary line flags around the assembly area to stop unauthorized visitors.",
+          "Phase 4 - Crew Briefing": "Assign distinct lifting jobs to every Scout before raising any heavy timber."
         },
-        "sample_output": "Pioneering Hazards and First Aid: Making splices is not really all that hard (p. 11).",
-        "counselor_tip": "For Pioneering Requirement 1 (Pioneering Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50))."
+        "sample_output": "Pioneering safety demands structured job site risk assessments before handling timber or running cordage. Crews establish perimeter safety zones, wear personal protective equipment, and monitor weather conditions continuously.",
+        "counselor_tip": "During the Pioneering Requirement 1 conference on Pioneering Safety and Hazard Management, verify that the Scout can explain drop zone clearance and demonstrate crew briefing: Assign distinct lifting jobs to every Scout before raising any heavy timber."
       },
       "quiz_item": {
         "scenario_prompt": "When tensioning a pioneering structure with a block-and-tackle or rope tackle under heavy load, why must Scouts never stand inside the bight of a rope or in the line of pull?",
@@ -782,10 +786,12 @@
         "left_header": "Req 2a: West Country Whipping Technique",
         "right_header": "Req 2b: Mechanical Knots and Tackle",
         "left_points": [
-          "(2a) West Country Whipping Technique: The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place."
+          "(2a) West Country Whipping Technique: The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place.",
+          "West Country Whipping: Alternating overhand knots around the strand prevent rope unraveling under field tension."
         ],
         "right_points": [
-          "(2b) Mechanical Knots and Tackle: Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely."
+          "(2b) Mechanical Knots and Tackle: Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely.",
+          "(2c) Structural Lashing Applications: Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs."
         ],
         "rows": [
           {
@@ -795,26 +801,27 @@
           },
           {
             "attribute": "Butterfly Loop Function",
-            "left": "Req 2a: West Country Whipping: The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place.",
-            "right": "Req 2b: Mechanical Knots and Tackle: Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely."
+            "left": "West Country Whipping: Alternating overhand knots around the strand prevent rope unraveling under field tension.",
+            "right": "(2c) Structural Lashing Applications: Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs."
           },
           {
             "attribute": "Frapping Turn Tension",
-            "left": "Req 2c: Structural Lashing: Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs.",
-            "right": "Butterfly Loop Function: Form a midline loop in tensioned line without reducing primary rope strength."
+            "left": "Frapping Turn Tension: Frapping turns pull binding wraps together to lock the lashing joint tight.",
+            "right": "Diagonal Lashing Use: Diagonal lashings bind cross braces where poles spring apart under structural loads."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 2 Exemplar Workbook Entry: Essential",
+        "title": "Pioneering Req 2 Worked Example: Essential Whippings Knots and Lashings",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - West Country Whipping": "The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place.",
-          "Req 2b - Mechanical Knots and Tackle": "Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely.",
-          "Req 2c - Structural Lashing": "Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs."
+          "Phase 1 - Strand Preparation": "Unlay frayed fibers and burn synthetic cord tips before winding binding twine.",
+          "Phase 2 - Hitch Foundation": "Tie a firm clove hitch around the static post to anchor lashing wraps.",
+          "Phase 3 - Frapping Compression": "Pull two snug frapping passes between poles to cinch binding cordage tightly.",
+          "Phase 4 - Terminal Hitch": "Finish the joint with a clove hitch tied around the cross pole."
         },
-        "sample_output": "Essential Pioneering Knots and Lashings: Form another right underhand loop and place it over the pole (on top of the pervious one) (p. 20).",
-        "counselor_tip": "For Pioneering Requirement 2 (Essential Pioneering Knots and Lashings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36))."
+        "sample_output": "Pioneer construction relies on properly finished rope ends, secure friction knots, and tight timber bindings. Applying correct tension and proper frapping turns ensures that structural joints never slip.",
+        "counselor_tip": "During the Pioneering Requirement 2 conference on Essential Whippings Knots and Lashings, verify that the Scout can explain west country whipping and demonstrate terminal hitch: Finish the joint with a clove hitch tied around the cross pole."
       },
       "quiz_item": {
         "scenario_prompt": "When tying a clove hitch on a bight to drop over an open-ended pole while working from left to right, how should you form the loops?",
@@ -1200,10 +1207,12 @@
         "left_header": "Req 3a: Tripod Wash Station Assembly",
         "right_header": "Req 3b: Scout Stave Flagpole Rigging",
         "left_points": [
-          "(3a) Tripod Wash Station Assembly: A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights."
+          "(3a) Tripod Wash Station Assembly: A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights.",
+          "Tripod Leg Spread: Spreading tripod butt ends sixty degrees apart creates stable equilibrium for washbowls."
         ],
         "right_points": [
-          "(3b) Scout Stave Flagpole Rigging: Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds."
+          "(3b) Scout Stave Flagpole Rigging: Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds.",
+          "(3c) Camp Table Framework Assembly: Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface."
         ],
         "rows": [
           {
@@ -1213,26 +1222,27 @@
           },
           {
             "attribute": "Flagpole Overlap Rule",
-            "left": "Req 3a: Tripod Wash Station Assembly: A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights.",
-            "right": "Req 3b: Scout Stave Flagpole Rigging: Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds."
+            "left": "Tripod Leg Spread: Spreading tripod butt ends sixty degrees apart creates stable equilibrium for washbowls.",
+            "right": "(3c) Camp Table Framework Assembly: Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface."
           },
           {
             "attribute": "Shear Leg Binding",
-            "left": "Req 3c: Camp Table Framework: Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface.",
-            "right": "Flagpole Overlap Rule: Overlap stave joints at least two feet to ensure maximum bending resistance."
+            "left": "Shear Leg Binding: Leave slight space between shear legs during wrapping to allow leg spreading.",
+            "right": "Table Surface Lashing: Floor lashings weave cross branches tightly across side rails using single cordage."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 3 Exemplar Workbook Entry: Camp Gadgets",
+        "title": "Pioneering Req 3 Worked Example: Camp Gadget Project Construction",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Tripod Wash Station Assembly": "A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights.",
-          "Req 3b - Scout Stave Flagpole Rigging": "Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds.",
-          "Req 3c - Camp Table Framework Assembly": "Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface."
+          "Phase 1 - Timber Selection": "Select straight, seasoned hardwood poles matching specified lengths for the planned gadget.",
+          "Phase 2 - Frame Assembly": "Lay main structural poles flat on level turf to align binding points.",
+          "Phase 3 - Lashing Execution": "Wrap and frap all structural intersections using correctly sized natural fiber cordage.",
+          "Phase 4 - Load Testing": "Apply downward hand pressure on horizontal rails to confirm joint stability before use."
         },
-        "sample_output": "Camp Gadgets and Small Structures: This small table is functional and provides a convenient raised surface for personal or patrol use (p. 67).",
-        "counselor_tip": "For Pioneering Requirement 3 (Camp Gadgets and Small Structures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68))."
+        "sample_output": "Camp gadgets demonstrate practical lashing mechanics on functional, lightweight campsite utility equipment. Constructing wash stations, flagpoles, and tables reinforces proper rope tensioning and timber alignment principles.",
+        "counselor_tip": "During the Pioneering Requirement 3 conference on Camp Gadget Project Construction, verify that the Scout can explain tripod leg spread and demonstrate load testing: Apply downward hand pressure on horizontal rails to confirm joint stability before use."
       },
       "quiz_item": {
         "scenario_prompt": "How should anchor stakes be driven into the ground when rigging the guylines for the A-frame camp table?",
@@ -1388,47 +1398,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Finger Safety During Frapping",
-        "right_header": "Req 4: Swing Heavy Mallets Safely",
+        "left_header": "Cordage Characteristics and Selection: Core Principles",
+        "right_header": "Cordage Characteristics and Selection: Field Execution",
         "left_points": [
-          "Finger Safety During Frapping: When lifting a spar to facilitate the frapping of atripod or shear lashing, always ensure the person working the rope doesn't injure their fingers (p. 9).",
-          "Scheduled Crew Alignment Breaks: Take regular breaks to discuss the work in progress and ensure everyone understands what is required of them (p. 9).",
-          "Heavy Mallet Handling Caution: Use extra care when using heavy mallets to pound in pioneering stakes (p. 9)."
+          "Manila Fiber Grip: Natural manila fibers bite together under load, preventing lashing wraps from slipping.",
+          "Nylon Elasticity Danger: Synthetic nylon stretches thirty percent, storing kinetic energy that causes sudden whiplash."
         ],
         "right_points": [
-          "Swing Heavy Mallets Safely: Use extra care when using heavy mallets to pound in pioneering stakes (p. 9).",
-          "Dig Four-Inch Footing Holes: For safety, heel in the legs of a structure by setting them in holes approximately 4 to 6 inches deep (p. 9).",
-          "Follow Specified Material Strengths: If the design calls for a certain size and type of rope or spar, do not substitute anything of lesser strength (p. 9)."
+          "Working Load Limit: Safe working loads must remain below one fifth of total breaking strength.",
+          "Cordage Storage Care: Store natural fiber ropes coiled in dry, well ventilated lockers to stop mildew."
         ],
         "rows": [
           {
             "attribute": "Manila Fiber Grip",
-            "left": "Finger Safety During Frapping: When lifting a spar to facilitate the frapping of atripod or shear lashing, always ensure the person working the rope doesn't injure their fingers (p. 9).",
-            "right": "Swing Heavy Mallets Safely: Use extra care when using heavy mallets to pound in pioneering stakes (p. 9)."
+            "left": "Manila Fiber Grip: Natural manila fibers bite together under load, preventing lashing wraps from slipping.",
+            "right": "Working Load Limit: Safe working loads must remain below one fifth of total breaking strength."
           },
           {
             "attribute": "Nylon Elasticity Danger",
-            "left": "Scheduled Crew Alignment Breaks: Take regular breaks to discuss the work in progress and ensure everyone understands what is required of them (p. 9).",
-            "right": "Dig Four-Inch Footing Holes: For safety, heel in the legs of a structure by setting them in holes approximately 4 to 6 inches deep (p. 9)."
+            "left": "Nylon Elasticity Danger: Synthetic nylon stretches thirty percent, storing kinetic energy that causes sudden whiplash.",
+            "right": "Cordage Storage Care: Store natural fiber ropes coiled in dry, well ventilated lockers to stop mildew."
           },
           {
             "attribute": "Working Load Limit",
-            "left": "Heavy Mallet Handling Caution: Use extra care when using heavy mallets to pound in pioneering stakes (p. 9).",
-            "right": "Follow Specified Material Strengths: If the design calls for a certain size and type of rope or spar, do not substitute anything of lesser strength (p. 9)."
+            "left": "Working Load Limit: Safe working loads must remain below one fifth of total breaking strength.",
+            "right": "Cordage Storage Care: Store natural fiber ropes coiled in dry, well ventilated lockers to stop mildew."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 4 Exemplar Workbook Entry: Rope Selection",
+        "title": "Pioneering Req 4 Worked Example: Cordage Characteristics and Selection",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Finger Safety During Frapping": "When lifting a spar to facilitate the frapping of atripod or shear lashing, always ensure the person working the rope doesn't injure their fingers (p. 9).",
-          "Scheduled Crew Alignment Breaks": "Take regular breaks to discuss the work in progress and ensure everyone understands what is required of them (p. 9).",
-          "Heavy Mallet Handling Caution": "Use extra care when using heavy mallets to pound in pioneering stakes (p. 9).",
-          "Heeling in Structure Legs": "For safety, heel in the legs of a structure by setting them in holes approximately 4 to 6 inches deep (p. 9)."
+          "Phase 1 - Material Assessment": "Check rope tags to verify natural manila construction before rigging structural joints.",
+          "Phase 2 - Load Calculation": "Divide catalog breaking strength by five to establish the safe working limit.",
+          "Phase 3 - Strand Examination": "Untwist outer strands gently to check internal fibers for discoloration or grit.",
+          "Phase 4 - Proper Coiling": "Coil working lines clockwise into clean loops to prevent kinks during storage."
         },
-        "sample_output": "Rope Selection Strength and Care: When lifting a spar to facilitate the frapping of atripod or shear lashing, always ensure the person working the rope doesn't injure their fingers (p. 9).",
-        "counselor_tip": "For Pioneering Requirement 4 (Rope Selection Strength and Care), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 9, p. 10))."
+        "sample_output": "Pioneering projects require manila cordage because natural fibers provide predictable grip and minimal elastic stretch under load. Synthetic nylon ropes stretch excessively and can slip dangerously when friction hitches or lashings bear weight.",
+        "counselor_tip": "During the Pioneering Requirement 4 conference on Cordage Characteristics and Selection, verify that the Scout can explain manila fiber grip and demonstrate proper coiling: Coil working lines clockwise into clean loops to prevent kinks during storage."
       },
       "quiz_item": {
         "scenario_prompt": "How deep should you heel in the legs of a pioneering structure to prevent the base from kicking out under load?",
@@ -1595,47 +1603,45 @@
         "Scale model spars and elastic bands or cord for pre-build engineering layout."
       ],
       "comparison_data": {
-        "left_header": "Req 5: Unlaying Sufficient Rope Strands",
-        "right_header": "Req 5: Tie Initial Crown Knot",
+        "left_header": "Permanent Rope Splicing Techniques: Core Principles",
+        "right_header": "Permanent Rope Splicing Techniques: Field Execution",
         "left_points": [
-          "Unlaying Sufficient Rope Strands: Unlay more than sufficient to make the splice and spread the strands evenly (p. 52).",
-          "Temporary Strand End Whipping: With pieces of string or some tape, temporarily whip the ends of each strand (p. 52).",
-          "Forming the Crown Knot: Make a crown knot by bending each end over its neighbor in turn, going the same way round as the lay of the rope (p. 52)."
+          "Eye Splice Durability: Eye splices retain ninety percent of rope strength while forming permanent terminal loops.",
+          "Crown Knot Base: Back splices begin with a crown knot to redirect strands down the line."
         ],
         "right_points": [
-          "Tie Initial Crown Knot: Make a crown knot by bending each end over its neighbor in turn, going the same way round as the lay of the rope (p. 52).",
-          "Tuck Strands: Tuck each end in turn over the adjoining main strand and under the next (p. 52).",
-          "Complete Three Full Tucks: Continue over and under one in turn at least three times (p. 52)."
+          "Short Splice Bulk: Short splices double rope diameter at the joint, preventing passage through standard blocks.",
+          "Strand Tucking Rule: Three full tucks against rope lay ensure maximum friction against strand pullout."
         ],
         "rows": [
           {
             "attribute": "Eye Splice Durability",
-            "left": "Unlaying Sufficient Rope Strands: Unlay more than sufficient to make the splice and spread the strands evenly (p. 52).",
-            "right": "Tie Initial Crown Knot: Make a crown knot by bending each end over its neighbor in turn, going the same way round as the lay of the rope (p. 52)."
+            "left": "Eye Splice Durability: Eye splices retain ninety percent of rope strength while forming permanent terminal loops.",
+            "right": "Short Splice Bulk: Short splices double rope diameter at the joint, preventing passage through standard blocks."
           },
           {
             "attribute": "Crown Knot Base",
-            "left": "Temporary Strand End Whipping: With pieces of string or some tape, temporarily whip the ends of each strand (p. 52).",
-            "right": "Tuck Strands: Tuck each end in turn over the adjoining main strand and under the next (p. 52)."
+            "left": "Crown Knot Base: Back splices begin with a crown knot to redirect strands down the line.",
+            "right": "Strand Tucking Rule: Three full tucks against rope lay ensure maximum friction against strand pullout."
           },
           {
             "attribute": "Short Splice Bulk",
-            "left": "Forming the Crown Knot: Make a crown knot by bending each end over its neighbor in turn, going the same way round as the lay of the rope (p. 52).",
-            "right": "Complete Three Full Tucks: Continue over and under one in turn at least three times (p. 52)."
+            "left": "Short Splice Bulk: Short splices double rope diameter at the joint, preventing passage through standard blocks.",
+            "right": "Strand Tucking Rule: Three full tucks against rope lay ensure maximum friction against strand pullout."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 5 Exemplar Workbook Entry: Back Eye",
+        "title": "Pioneering Req 5 Worked Example: Permanent Rope Splicing Techniques",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Unlaying Sufficient Rope Strands": "Unlay more than sufficient to make the splice and spread the strands evenly (p. 52).",
-          "Temporary Strand End Whipping": "With pieces of string or some tape, temporarily whip the ends of each strand (p. 52).",
-          "Forming the Crown Knot": "Make a crown knot by bending each end over its neighbor in turn, going the same way round as the lay of the rope (p. 52).",
-          "Over-and-Under Strand Tucking": "Tuck each end in turn over the adjoining main strand and under the next (p. 52)."
+          "Phase 1 - Strand Unlaying": "Unlay three strand ends five turns and tape tips to prevent unravelling.",
+          "Phase 2 - Core Positioning": "Form the desired eye diameter and marry working strands across standing lines.",
+          "Phase 3 - Friction Weaving": "Tuck each working strand over one standing strand and under the next.",
+          "Phase 4 - Joint Tapering": "Complete three tuck cycles, roll underfoot, and trim excess strand ends neatly."
         },
-        "sample_output": "Back Eye and Short Splices: Unlay more than sufficient to make the splice and spread the strands evenly (p. 52).",
-        "counselor_tip": "For Pioneering Requirement 5 (Back Eye and Short Splices), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 52, p. 53))."
+        "sample_output": "Splicing weaves individual rope strands back into the body of the line to create permanent terminations or splices. An eye splice creates a durable loop, a short splice joins two ropes, and a back splice finishes ends.",
+        "counselor_tip": "During the Pioneering Requirement 5 conference on Permanent Rope Splicing Techniques, verify that the Scout can explain eye splice durability and demonstrate joint tapering: Complete three tuck cycles, roll underfoot, and trim excess strand ends neatly."
       },
       "quiz_item": {
         "scenario_prompt": "When forming a back splice on a three-strand twisted rope, what is the minimum number of times each strand should be tucked over and under after tying the crown knot?",
@@ -1789,47 +1795,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Proper Whipping Length Ratio",
-        "right_header": "Req 6: Repeat Tight Half Knots",
+        "left_header": "Three Strand Rope Fabrication: Core Principles",
+        "right_header": "Three Strand Rope Fabrication: Field Execution",
         "left_points": [
-          "Proper Whipping Length Ratio: Make the whipping as long as the diameter of the rope (p. 13).",
-          "Alternating Front-and-Back Half Knots: Continue by taking the two ends of the whipping cord around the back of the rope (away from you), and tie another half knot identical to the first (see) (p. 13).",
-          "Tight Repeated Half Knots: Keep repeating the half knots, front and back, pulling each one tight, until the whipping has been formed (p. 13)."
+          "Yarn Strand Ratio: Twist three individual binder twine yarns clockwise to create each uniform strand.",
+          "Counter Twist Lay: Laying finished strands counterclockwise locks the internal twists through opposing torsional friction."
         ],
         "right_points": [
-          "Repeat Tight Half Knots: Keep repeating the half knots, front and back, pulling each one tight, until the whipping has been formed (p. 13).",
-          "Finish with Square Knot: The West Country whipping is finished with a square knot and the excess cord is trimmed (p. 13).",
-          "Align Knots Snugly Together: Tie each half knot either right over left or left over right so that the knots lay neatly together and snug against the previous knot to form a smooth (p. 13)."
+          "Rope Wrench Function: Move the wooden guide wrench slowly forward to regulate uniform strand twist density.",
+          "Terminal Whipping Duty: Whip rope ends immediately upon release to stop instantaneous strand unlaying."
         ],
         "rows": [
           {
             "attribute": "Yarn Strand Ratio",
-            "left": "Proper Whipping Length Ratio: Make the whipping as long as the diameter of the rope (p. 13).",
-            "right": "Repeat Tight Half Knots: Keep repeating the half knots, front and back, pulling each one tight, until the whipping has been formed (p. 13)."
+            "left": "Yarn Strand Ratio: Twist three individual binder twine yarns clockwise to create each uniform strand.",
+            "right": "Rope Wrench Function: Move the wooden guide wrench slowly forward to regulate uniform strand twist density."
           },
           {
             "attribute": "Counter Twist Lay",
-            "left": "Alternating Front-and-Back Half Knots: Continue by taking the two ends of the whipping cord around the back of the rope (away from you), and tie another half knot identical to the first (see) (p. 13).",
-            "right": "Finish with Square Knot: The West Country whipping is finished with a square knot and the excess cord is trimmed (p. 13)."
+            "left": "Counter Twist Lay: Laying finished strands counterclockwise locks the internal twists through opposing torsional friction.",
+            "right": "Terminal Whipping Duty: Whip rope ends immediately upon release to stop instantaneous strand unlaying."
           },
           {
             "attribute": "Rope Wrench Function",
-            "left": "Tight Repeated Half Knots: Keep repeating the half knots, front and back, pulling each one tight, until the whipping has been formed (p. 13).",
-            "right": "Align Knots Snugly Together: Tie each half knot either right over left or left over right so that the knots lay neatly together and snug against the previous knot to form a smooth (p. 13)."
+            "left": "Rope Wrench Function: Move the wooden guide wrench slowly forward to regulate uniform strand twist density.",
+            "right": "Terminal Whipping Duty: Whip rope ends immediately upon release to stop instantaneous strand unlaying."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 6 Exemplar Workbook Entry: Making",
+        "title": "Pioneering Req 6 Worked Example: Three Strand Rope Fabrication",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Proper Whipping Length Ratio": "Make the whipping as long as the diameter of the rope (p. 13).",
-          "Alternating Front-and-Back Half Knots": "Continue by taking the two ends of the whipping cord around the back of the rope (away from you), and tie another half knot identical to the first (see) (p. 13).",
-          "Tight Repeated Half Knots": "Keep repeating the half knots, front and back, pulling each one tight, until the whipping has been formed (p. 13).",
-          "Square Knot Finishing Trim": "The West Country whipping is finished with a square knot and the excess cord is trimmed (p. 13)."
+          "Phase 1 - Yarn Setup": "Hook three sets of three binder twine yarns between twisting crank hooks.",
+          "Phase 2 - Strand Twisting": "Turn the crank clockwise until yarns twist tightly into kinked, firm strands.",
+          "Phase 3 - Wrench Insertion": "Place the grooved wooden wrench between strands to control the closing lay rate.",
+          "Phase 4 - Counter Laying": "Rotate the single hook counterclockwise while advancing the wrench smoothly along cordage."
         },
-        "sample_output": "Making and Whipping Three-Strand Rope: Make the whipping as long as the diameter of the rope (p. 13).",
-        "counselor_tip": "For Pioneering Requirement 6 (Making and Whipping Three-Strand Rope), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 13, p. 47))."
+        "sample_output": "Making custom rope involves twisting individual yarns into strands before counter-twisting three strands together into a finished cord. A grooved rope wrench maintains uniform tension and controls the pitch of the closing twist.",
+        "counselor_tip": "During the Pioneering Requirement 6 conference on Three Strand Rope Fabrication, verify that the Scout can explain yarn strand ratio and demonstrate counter laying: Rotate the single hook counterclockwise while advancing the wrench smoothly along cordage."
       },
       "quiz_item": {
         "scenario_prompt": "How long should a finished whipping be in relation to the rope it is protecting, and how is a West Country whipping secured at the end?",
@@ -1985,47 +1989,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Single-Trestle Dual-Walkway",
-        "right_header": "Req 7: Select Three-Inch Leg Spars",
+        "left_header": "Structural Guy Line Anchoring Systems: Core Principles",
+        "right_header": "Structural Guy Line Anchoring Systems: Field Execution",
         "left_points": [
-          "Single-Trestle Dual-Walkway Bridge: This simple bridge uses a single trestle and two walkways (p. 84).",
-          "Extended Trestle Handrail Legs: The legs of the trestle are extended above the walkways to provide away to attach handrails (p. 84).",
-          "Trestle Leg Spar Dimensions: The legs for the trestle are spars that are about 3 inches in diameter and 8 to 10 feet long (p. 84)."
+          "Picket Drive Angle: Drive anchoring stakes at sixty degree angles leaning away from structural tension.",
+          "Three Two One Stacking: Picket groupings of three, two, and one stake distribute pull across soil."
         ],
         "right_points": [
-          "Select Three-Inch Leg Spars: The legs for the trestle are spars that are about 3 inches in diameter and 8 to 10 feet long (p. 84).",
-          "Measure Creek Crossing Depth: When choosing these spars, take into account the depth of the creek you're crossing (p. 84).",
-          "Set Transom Above Banks: The distance from the base of the legs to the top ledger (transom) on the trestle should be about 1 foot higher than the level of the banks (p. 84)."
+          "Spanish Windlass Cinch: Spanish windlasses tighten picket lashing lines, locking adjacent stakes into rigid units.",
+          "Log and Stake Depth: Bury cross logs three feet deep against driven retaining stakes for deadman anchors."
         ],
         "rows": [
           {
             "attribute": "Picket Drive Angle",
-            "left": "Single-Trestle Dual-Walkway Bridge: This simple bridge uses a single trestle and two walkways (p. 84).",
-            "right": "Select Three-Inch Leg Spars: The legs for the trestle are spars that are about 3 inches in diameter and 8 to 10 feet long (p. 84)."
+            "left": "Picket Drive Angle: Drive anchoring stakes at sixty degree angles leaning away from structural tension.",
+            "right": "Spanish Windlass Cinch: Spanish windlasses tighten picket lashing lines, locking adjacent stakes into rigid units."
           },
           {
             "attribute": "Three Two One Stacking",
-            "left": "Extended Trestle Handrail Legs: The legs of the trestle are extended above the walkways to provide away to attach handrails (p. 84).",
-            "right": "Measure Creek Crossing Depth: When choosing these spars, take into account the depth of the creek you're crossing (p. 84)."
+            "left": "Three Two One Stacking: Picket groupings of three, two, and one stake distribute pull across soil.",
+            "right": "Log and Stake Depth: Bury cross logs three feet deep against driven retaining stakes for deadman anchors."
           },
           {
             "attribute": "Spanish Windlass Cinch",
-            "left": "Trestle Leg Spar Dimensions: The legs for the trestle are spars that are about 3 inches in diameter and 8 to 10 feet long (p. 84).",
-            "right": "Set Transom Above Banks: The distance from the base of the legs to the top ledger (transom) on the trestle should be about 1 foot higher than the level of the banks (p. 84)."
+            "left": "Spanish Windlass Cinch: Spanish windlasses tighten picket lashing lines, locking adjacent stakes into rigid units.",
+            "right": "Log and Stake Depth: Bury cross logs three feet deep against driven retaining stakes for deadman anchors."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 7 Exemplar Workbook Entry: Pioneering",
+        "title": "Pioneering Req 7 Worked Example: Structural Guy Line Anchoring Systems",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Single-Trestle Dual-Walkway Bridge": "This simple bridge uses a single trestle and two walkways (p. 84).",
-          "Extended Trestle Handrail Legs": "The legs of the trestle are extended above the walkways to provide away to attach handrails (p. 84).",
-          "Trestle Leg Spar Dimensions": "The legs for the trestle are spars that are about 3 inches in diameter and 8 to 10 feet long (p. 84).",
-          "Accounting for Creek Depth": "When choosing these spars, take into account the depth of the creek you're crossing (p. 84)."
+          "Phase 1 - Ground Testing": "Drive a test rod to verify soil density before establishing structural anchor lines.",
+          "Phase 2 - Picket Driving": "Sledge three wooden stakes into firm ground at sixty degree reverse angles.",
+          "Phase 3 - Picket Binding": "Wrap heavy cordage from the top of front stakes to rear bases.",
+          "Phase 4 - Windlass Cinch": "Insert a stout stick to twist the binding cordage into rigid alignment."
         },
-        "sample_output": "Pioneering Project Anchoring Systems: This simple bridge uses a single trestle and two walkways (p. 84).",
-        "counselor_tip": "For Pioneering Requirement 7 (Pioneering Project Anchoring Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 84, p. 88))."
+        "sample_output": "Pioneers rely on ground anchors to absorb immense lateral forces generated by bridges and elevated observation towers. The 3-2-1 picketed system and log-and-stake deadman configurations transfer rope tension deep into undisturbed soil.",
+        "counselor_tip": "During the Pioneering Requirement 7 conference on Structural Guy Line Anchoring Systems, verify that the Scout can explain picket drive angle and demonstrate windlass cinch: Insert a stout stick to twist the binding cordage into rigid alignment."
       },
       "quiz_item": {
         "scenario_prompt": "When building a single-trestle bridge across a creek, where should the top ledger (transom) be positioned relative to the creek banks?",
@@ -2177,47 +2179,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Core Bridge Building Component",
-        "right_header": "Req 8: Identify Top Bridge Transom",
+        "left_header": "Trestle Framework and Bracing Mechanics: Core Principles",
+        "right_header": "Trestle Framework and Bracing Mechanics: Field Execution",
         "left_points": [
-          "Core Bridge Building Component: A trestle is the basic component for building a variety of bridges (p. 70).",
-          "Six-Spar Trestle Frame Anatomy: The overall shape The most basic and most often-used form of a trestle consists of two legs, two ledgers, and two cross braces (p. 70).",
-          "Bridge Top Transom Ledger: When building abridge, the top ledger is also called a transom (p. 70)."
+          "Trestle Leg Symmetry: Legs must form an isosceles trapezoid to distribute downward weight evenly across ground.",
+          "Ledger Attachment Points: Square lashings secure horizontal ledgers firmly beneath the trestle legs to bear loads."
         ],
         "right_points": [
-          "Identify Top Bridge Transom: When building abridge, the top ledger is also called a transom (p. 70).",
-          "Tie Nine Trestle Lashings: Eight of them are square lashings and one is a diagonal lashing, which is used to lash the two cross braces together where they cross in the center (p. 70).",
-          "Size Spars to Structure: These spars can be most any length, depending on the type and height of the structure you're building (p. 70)."
+          "Diagonal Cross Bracing: X braces attached to opposite pole faces prevent racking and torsional frame twisting.",
+          "Center Intersection Binding: A diagonal lashing binds crossing X braces where they spring apart under stress."
         ],
         "rows": [
           {
             "attribute": "Trestle Leg Symmetry",
-            "left": "Core Bridge Building Component: A trestle is the basic component for building a variety of bridges (p. 70).",
-            "right": "Identify Top Bridge Transom: When building abridge, the top ledger is also called a transom (p. 70)."
+            "left": "Trestle Leg Symmetry: Legs must form an isosceles trapezoid to distribute downward weight evenly across ground.",
+            "right": "Diagonal Cross Bracing: X braces attached to opposite pole faces prevent racking and torsional frame twisting."
           },
           {
             "attribute": "Ledger Attachment Points",
-            "left": "Six-Spar Trestle Frame Anatomy: The overall shape The most basic and most often-used form of a trestle consists of two legs, two ledgers, and two cross braces (p. 70).",
-            "right": "Tie Nine Trestle Lashings: Eight of them are square lashings and one is a diagonal lashing, which is used to lash the two cross braces together where they cross in the center (p. 70)."
+            "left": "Ledger Attachment Points: Square lashings secure horizontal ledgers firmly beneath the trestle legs to bear loads.",
+            "right": "Center Intersection Binding: A diagonal lashing binds crossing X braces where they spring apart under stress."
           },
           {
             "attribute": "Diagonal Cross Bracing",
-            "left": "Bridge Top Transom Ledger: When building abridge, the top ledger is also called a transom (p. 70).",
-            "right": "Size Spars to Structure: These spars can be most any length, depending on the type and height of the structure you're building (p. 70)."
+            "left": "Diagonal Cross Bracing: X braces attached to opposite pole faces prevent racking and torsional frame twisting.",
+            "right": "Center Intersection Binding: A diagonal lashing binds crossing X braces where they spring apart under stress."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 8 Exemplar Workbook Entry: Trestle",
+        "title": "Pioneering Req 8 Worked Example: Trestle Framework and Bracing Mechanics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Core Bridge Building Component": "A trestle is the basic component for building a variety of bridges (p. 70).",
-          "Six-Spar Trestle Frame Anatomy": "The overall shape The most basic and most often-used form of a trestle consists of two legs, two ledgers, and two cross braces (p. 70).",
-          "Bridge Top Transom Ledger": "When building abridge, the top ledger is also called a transom (p. 70).",
-          "Eight Square One Diagonal": "Eight of them are square lashings and one is a diagonal lashing, which is used to lash the two cross braces together where they cross in the center (p. 70)."
+          "Phase 1 - Spar Alignment": "Lay two trestle legs parallel, spacing them wider at the base than top.",
+          "Phase 2 - Ledger Lashing": "Secure top and bottom horizontal ledgers across legs using tight square lashings.",
+          "Phase 3 - Diagonal Positioning": "Place two cross braces diagonally across opposite sides of the rectangular frame.",
+          "Phase 4 - Joint Locking": "Lash four brace ends with square lashings and the center with diagonal lashing."
         },
-        "sample_output": "Trestle Framing and Cross Bracing: A trestle is the basic component for building a variety of bridges (p. 70).",
-        "counselor_tip": "For Pioneering Requirement 8 (Trestle Framing and Cross Bracing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 70, p. 88))."
+        "sample_output": "A pioneering trestle forms the fundamental rigid modular frame for bridges, signal towers, and large camp gateways. Cross braces arranged in an X configuration resist diagonal shearing loads and prevent rectangular frame collapse.",
+        "counselor_tip": "During the Pioneering Requirement 8 conference on Trestle Framework and Bracing Mechanics, verify that the Scout can explain trestle leg symmetry and demonstrate joint locking: Lash four brace ends with square lashings and the center with diagonal lashing."
       },
       "quiz_item": {
         "scenario_prompt": "How many total lashings are used on a standard pioneering trestle, and which types are required?",
@@ -2392,47 +2392,45 @@
         "Scale model spars and elastic bands or cord for pre-build engineering layout."
       ],
       "comparison_data": {
-        "left_header": "Req 9: Simple Strop Lashing Method",
-        "right_header": "Req 9: Assemble Four Matching A-Frames",
+        "left_header": "Full Scale Pioneering Structure Construction: Core Principles",
+        "right_header": "Full Scale Pioneering Structure Construction: Field Execution",
         "left_points": [
-          "Simple Strop Lashing Method: A strop lashing is easy to tie (p. 10).",
-          "Midpoint Wraps and Knot: Halve the rope, place the midpoint behind what you'relashing, wrap both ends around the spars a few times and finish with asquare knot (p. 10).",
-          "Four Identical A-Frame Subassemblies: Build four identical A-frames using the 8-foot spars for the two legs and 6-foot spars for the ledger (p. 10)."
+          "A Frame Angle: A frames must tilt outward fifteen degrees to establish stable guy rope geometry.",
+          "Foot Rope Tensioning: Tension main bridge cables using double rope tackles tied to primary log anchors."
         ],
         "right_points": [
-          "Assemble Four Matching A-Frames: Build four identical A-frames using the 8-foot spars for the two legs and 6-foot spars for the ledger (p. 10).",
-          "Align Ledgers and Tips: Make sure the ledgers of each A-frame cross the legs at the same height and that the tips of the legs intersect at an equal distance from the tops (p. 10).",
-          "Tie Three Square Lashings: Lash each A-frame together with three tight square lashings (p. 10)."
+          "Handrail Stringer Spacing: Tie vertical stringers between foot and hand ropes every three feet for safety.",
+          "Safe Crossing Capacity: Limit monkey bridge traffic to one single crossing Scout at any given time."
         ],
         "rows": [
           {
             "attribute": "A Frame Angle",
-            "left": "Simple Strop Lashing Method: A strop lashing is easy to tie (p. 10).",
-            "right": "Assemble Four Matching A-Frames: Build four identical A-frames using the 8-foot spars for the two legs and 6-foot spars for the ledger (p. 10)."
+            "left": "A Frame Angle: A frames must tilt outward fifteen degrees to establish stable guy rope geometry.",
+            "right": "Handrail Stringer Spacing: Tie vertical stringers between foot and hand ropes every three feet for safety."
           },
           {
             "attribute": "Foot Rope Tensioning",
-            "left": "Midpoint Wraps and Knot: Halve the rope, place the midpoint behind what you'relashing, wrap both ends around the spars a few times and finish with asquare knot (p. 10).",
-            "right": "Align Ledgers and Tips: Make sure the ledgers of each A-frame cross the legs at the same height and that the tips of the legs intersect at an equal distance from the tops (p. 10)."
+            "left": "Foot Rope Tensioning: Tension main bridge cables using double rope tackles tied to primary log anchors.",
+            "right": "Safe Crossing Capacity: Limit monkey bridge traffic to one single crossing Scout at any given time."
           },
           {
             "attribute": "Handrail Stringer Spacing",
-            "left": "Four Identical A-Frame Subassemblies: Build four identical A-frames using the 8-foot spars for the two legs and 6-foot spars for the ledger (p. 10).",
-            "right": "Tie Three Square Lashings: Lash each A-frame together with three tight square lashings (p. 10)."
+            "left": "Handrail Stringer Spacing: Tie vertical stringers between foot and hand ropes every three feet for safety.",
+            "right": "Safe Crossing Capacity: Limit monkey bridge traffic to one single crossing Scout at any given time."
           }
         ]
       },
       "worked_example": {
-        "title": "Pioneering Req 9 Exemplar Workbook Entry: Full-Size",
+        "title": "Pioneering Req 9 Worked Example: Full Scale Pioneering Structure Construction",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Simple Strop Lashing Method": "A strop lashing is easy to tie (p. 10).",
-          "Midpoint Wraps and Knot": "Halve the rope, place the midpoint behind what you'relashing, wrap both ends around the spars a few times and finish with asquare knot (p. 10).",
-          "Four Identical A-Frame Subassemblies": "Build four identical A-frames using the 8-foot spars for the two legs and 6-foot spars for the ledger (p. 10).",
-          "Matching Ledger Height Alignment": "Make sure the ledgers of each A-frame cross the legs at the same height and that the tips of the legs intersect at an equal distance from the tops (p. 10)."
+          "Phase 1 - Component Prefabrication": "Lash all modular A frames and trestles flat on ground before final erection.",
+          "Phase 2 - Anchor Installation": "Drive three pickets or bury deadman logs at both bridge approach ends.",
+          "Phase 3 - Cable Rigging": "Thread main foot rope and hand ropes over shear legs to anchor points.",
+          "Phase 4 - Staged Testing": "Test structural ropes with ground level weight bags before permitting Scout crossing."
         },
-        "sample_output": "Full-Size Pioneering Structure Construction: A strop lashing is easy to tie (p. 10).",
-        "counselor_tip": "For Pioneering Requirement 9 (Full-Size Pioneering Structure Construction), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 10, p. 79))."
+        "sample_output": "Building large pioneering structures like monkey bridges or signal towers requires unified teamwork, staged assembly, and rigid anchoring. Scouts must follow engineered project drawings, observe safety perimeters, and rigorously test foot ropes before crossing.",
+        "counselor_tip": "During the Pioneering Requirement 9 conference on Full Scale Pioneering Structure Construction, verify that the Scout can explain a frame angle and demonstrate staged testing: Test structural ropes with ground level weight bags before permitting Scout crossing."
       },
       "quiz_item": {
         "scenario_prompt": "When constructing the four identical A-frames described on page 10, how are the two 8-foot legs and the 6-foot ledger of each individual A-frame lashed together?",

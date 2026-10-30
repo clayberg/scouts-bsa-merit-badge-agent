@@ -47,15 +47,8 @@
 #### Req 1a: Safety Data Sheet Comparison
 **Official Requirement 1a:** Obtain safety data sheets (SDS) for sucrose (sugar), isopropyl alcohol (rubbing alcohol), and a waterproofing spray. Compare their properties and potential hazard(s), including handling and disposal guidelines and toxicity information.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (5-Column Hazard Assessment Matrix):** Req 1a Hazard Anticipation, Prevention, Mitigation & First-Aid Matrix
-- **Common Myth:** Beginners often consider pure white crystalline sugar harmless under all physical storage conditions.
-- **Pamphlet Fact:** Suspended airborne sugar dust creates severe deflagration hazards despite sucrose being nontoxic to touch.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Chemistry Merit Badge Pamphlet: Chemistry and Safety.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Chemistry and Safety.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Chemistry Requirement 1 figure showing section two outlines specific physical and health hazards alongside standardized.](/assets/pamphlet_images/chemistry_p003_img1.png)
+![Section two outlines specific physical and health hazards alongside standardized precautionary statements.](/assets/pamphlet_images/chemistry_p003_img1.png)
 
 | Hazard / Risk Factor | How to Anticipate & Spot Early | Preventive Controls & PPE | Acute First-Aid Response |
 | :--- | :--- | :--- | :--- |
@@ -67,8 +60,6 @@
 #### Req 1b: Personal Protective Equipment Selection
 **Official Requirement 1b:** What types of personal protective equipment (PPE) are recommended for each, and why? How does the recommended PPE change with toxicity and route of exposure.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Personal Protective Equipment PPE Are)
-- **Common Myth:** Disposable latex gloves provide universal protection against all liquid solvents and aerosolized compounds.
-- **Pamphlet Fact:** Nitrile or specialized butyl rubber is required because alcohols rapidly penetrate thin latex barriers.
 
 ![A product label displays corrosive warnings, active ingredients, and first-aid instructions.](/assets/pamphlet_images/chemistry_p021_img1.png)
 
@@ -82,8 +73,6 @@
 #### Req 1c: Hazard Communication Pictogram Meanings
 **Official Requirement 1c:** Review the pictograms in Section 2 of each SDS. What do they mean, and how do you see them used in your community.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Pictograms in Section of Each)
-- **Common Myth:** A skull and crossbones icon appears on every container that holds dangerous chemicals.
-- **Pamphlet Fact:** Specific distinct pictograms denote flammability, corrosive destruction, gas cylinders, and long term health toxicity.
 
 ![Rapid gas generation creates thick white foam overflowing from two glass test tubes.](/assets/pamphlet_images/chemistry_p009_img2.png)
 
@@ -97,8 +86,6 @@
 #### Req 1d: Safe Chemical Storage Strategies
 **Official Requirement 1d:** Discuss the safe storage of chemicals. How does the safe storage of chemicals apply to your home, school, community, and the environment.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Discuss the Safe Storage of)
-- **Common Myth:** Storing household cleaning agents together alphabetically inside one utility closet is completely safe.
-- **Pamphlet Fact:** Mixing incompatible oxidizers like bleach with ammonia produces lethal chloramine gas clouds instantaneously.
 
 ![Modern ice skates display advanced polymers and treated steel engineered for friction.](/assets/pamphlet_images/chemistry_p017_img2.png)
 
@@ -125,10 +112,8 @@
 #### Req 2a: Antiseptic Action Hypothesis Formulation
 **Official Requirement 2a:** Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Why)
-- **Common Myth:** Stinging sensations prove that an antiseptic solution is effectively eradicating infectious bacterial contamination.
-- **Pamphlet Fact:** Pain stems from chemical irritation of exposed nerve endings rather than the antiseptic eradication process.
 
-![Chemistry Requirement 2 figure showing hydrophobic tails bind nonpolar oils while hydrophilic heads interact directly.](/assets/pamphlet_images/chemistry_p007_img1.png)
+![Hydrophobic tails bind nonpolar oils while hydrophilic heads interact directly with water molecules.](/assets/pamphlet_images/chemistry_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -140,8 +125,6 @@
 #### Req 2b: Soap Emulsification Washing Demonstration
 **Official Requirement 2b:** Coat your hands with a mixture of cooking oil and a nontoxic powder, such as sand or cocoa. Wash your hands with water and observe what happens. Coat your hands again, then wash with soap and water. Discuss the differences with your counselor.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Coat Your Hands with A)
-- **Common Myth:** Hot running water alone can strip vegetable oil completely from human skin without soap.
-- **Pamphlet Fact:** Surfactant molecules are chemically necessary to emulsify nonpolar oils into water soluble micelle structures.
 
 ![A Scout carefully slices ingredients while conducting a kitchen food experiment.](/assets/pamphlet_images/chemistry_p040_img1.png)
 
@@ -157,8 +140,6 @@
 #### Req 2c: Alcohol Yeast Growth Inhibition
 **Official Requirement 2c:** Perform an experiment to demonstrate how rubbing alcohol affects microbial growth using baker's yeast. Discuss the results with your counselor. Resource: Watching How Alcohol Kills Virus and Bacteria Under a Microscope (video)
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist (Experiment to Demonstrate How Rubbing)
-- **Common Myth:** Yeast cells resume normal carbon dioxide production once isopropyl alcohol evaporates from the solution.
-- **Pamphlet Fact:** Alcohol causes irreversible protein denaturation and membrane disruption that permanently kills active yeast cells.
 
 ![Protective splash goggles shield eyes during chemical laboratory experiments.](/assets/pamphlet_images/chemistry_p027_img1.png)
 
@@ -186,10 +167,8 @@
 #### Req 3a: Maillard Browning Reaction Analysis
 **Official Requirement 3a:** Perform a Maillard, or browning, reaction. Discuss with your counselor whether a physical or chemical change has occurred, and what happened to molecules in the food during the cooking process.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Maillard or Browning Reaction Discuss)
-- **Common Myth:** Caramelizing onions is chemically identical to the Maillard browning observed on seared steaks.
-- **Pamphlet Fact:** Caramelization involves pure sugar pyrolysis, whereas Maillard browning requires both sugars and amino acids.
 
-![Chemistry Requirement 3 figure showing reducing sugars react with amino acids to generate complex aromatic melanoidin polymer.](/assets/pamphlet_images/chemistry_p012_img1.png)
+![Reducing sugars react with amino acids to generate complex aromatic melanoidin polymer pigments.](/assets/pamphlet_images/chemistry_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -201,8 +180,6 @@
 #### Req 3b: Anthocyanin Household pH Testing
 **Official Requirement 3b:** Prepare and use red cabbage indicator to measure the pH of five common household liquids, including water. Discuss your observations with your counselor.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Red Cabbage Indicator)
-- **Common Myth:** Pure water always registers as slightly acidic when tested with natural cabbage juice indicator.
-- **Pamphlet Fact:** Neutral pure water leaves cabbage extract purple because the hydronium and hydroxide ions balance.
 
 ![Scouts wearing safety goggles carefully monitor a reaction heated over a laboratory burner.](/assets/pamphlet_images/chemistry_p016_img1.png)
 
@@ -229,8 +206,6 @@
 #### Req 4a: Waterproofing Textile Coating Evaluation
 **Official Requirement 4a:** Design and conduct an experiment to compare at least two different types of waterproofing. Discuss with your counselor which one you would prefer to use on your tent and which one you would prefer to use on your boots.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix (Experiment Waterproofing Discuss Would)
-- **Common Myth:** Heavier coatings of waterproofing spray always provide superior protection on outdoor tent fabrics.
-- **Pamphlet Fact:** Excessive spray clogs fabric pores, trapping interior condensation and ruining the breathability of camping gear.
 
 ![Insulated cloth oven mitts protect hands from heat during cooking experiments.](/assets/pamphlet_images/chemistry_p040_img2.png)
 
@@ -244,8 +219,6 @@
 #### Req 4b: Combustion Classes and Extinguishing
 **Official Requirement 4b:** Describe the four classes of fires, and the four classes of fire extinguishers. Discuss with your counselor how sand, baking soda, and the four classes of extinguishers work to put out fires.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Classes of Fires)
-- **Common Myth:** Carbon dioxide fire extinguishers operate primarily by freezing the fuel source down below ignition.
-- **Pamphlet Fact:** Carbon dioxide smothers combustion primarily by displacing ambient atmospheric oxygen around the fire plume.
 
 ![Technicians inspect settling tanks and filtration equipment at a water treatment plant.](/assets/pamphlet_images/chemistry_p052_img2.png)
 
@@ -259,8 +232,6 @@
 #### Req 4c: Atomic Emission Flame Testing
 **Official Requirement 4c:** Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, conduct flame tests of at least five elements using a kitchen or propane torch.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Supervision and/or the Supervision)
-- **Common Myth:** The flame color changes because the metal itself is undergoing rapid chemical oxidation reactions.
-- **Pamphlet Fact:** Excited atomic electrons emit characteristic light as they fall back to ground energy states.
 
 ![A clear plastic bottle displays separated liquid layers during a density experiment.](/assets/pamphlet_images/chemistry_p058_img1.png)
 
@@ -273,8 +244,6 @@
 #### Req 4d: Interfacial Nylon Polymerization Synthesis
 **Official Requirement 4d:** Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, synthesize nylon (may be from a kit)
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Supervision and/or the Supervision)
-- **Common Myth:** Nylon forms because two liquids mix together into one uniform solid chemical gel mass.
-- **Pamphlet Fact:** Polymerization occurs exclusively at the liquid interface boundary where the immiscible solutions make contact.
 
 ![A thick twisted vine demonstrates complex organic structures grown in natural habitats.](/assets/pamphlet_images/chemistry_p067_img1.png)
 
@@ -364,8 +333,6 @@
 #### Req 8a: Research Laboratory Facility Tour
 **Official Requirement 8a:** Visit a research laboratory, and discuss the research performed there with a chemist or chemical technician. Learn what education and training they received.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Laboratory and Discuss the Research)
-- **Common Myth:** Research chemists spend most of their workday performing explosive reactions in glass beakers.
-- **Pamphlet Fact:** Modern research centers on computational modeling, meticulous spectroscopic characterization, and careful data analysis.
 
 ![Piled fragments of broken glass illustrate silica materials and recyclable matter.](/assets/pamphlet_images/chemistry_p090_img1.png)
 
@@ -379,8 +346,6 @@
 #### Req 8b: Chemical Manufacturing Plant Exploration
 **Official Requirement 8b:** Visit a company or plant that makes chemical products or uses chemical processes. Learn about their products or processes, and talk with someone who works there. Learn what they do, and what education and training they received.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Company or Plant That Makes)
-- **Common Myth:** Chemical production plants operate identically to oversized school chemistry classrooms with large glass containers.
-- **Pamphlet Fact:** Industrial manufacturing uses automated stainless steel continuous flow reactors, pressure vessels, and computer telemetry.
 
 ![A view of planet Earth highlights the atmospheric layers studied in chemistry.](/assets/pamphlet_images/chemistry_p080_img1.png)
 
@@ -395,8 +360,6 @@
 #### Req 8c: Chemistry Career Path Investigation
 **Official Requirement 8c:** Identify three career opportunities that would use skills and knowledge in chemistry. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)* • **Organizer (Career & Profession Exploration Card):** Req 8c Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Entering a chemistry related career requires completing a medical doctoral degree or doctorate.
-- **Pamphlet Fact:** Many vital chemical roles such as quality assurance analyst require an associate or bachelor degree.
 
 ![A scientist wearing eye protection uses a pipette to mix laboratory solutions.](/assets/pamphlet_images/chemistry_p091_img1.png)
 

@@ -46,7 +46,7 @@
       "action_verb": "Prepare",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Store sharp or fragile specimens securely in padded enclosures during preparation and transport.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 9, p. 14)",
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 9, p. 14)",
       "syllabus_bucket": "In-Class Concept",
@@ -110,53 +110,47 @@
         "Step 3 - Detail Lessons: Summarize technical skills, preservation methods, and historical insights gained through research.",
         "Step 4 - Review Draft: Proofread the written narrative for clarity, accurate terminology, and thematic depth."
       ],
-      "gear_checklist": [
-        "Official Collections Merit Badge: Short Written Report or Outline.",
-        "Field notebook, verification log sheet, and demonstration materials for Short Written Report or Outline.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1: Nature Specimen Collecting Ideas",
-        "right_header": "Req 1: Explore Toy Collecting",
+        "left_header": "Curatorial Overview and History: Core Principles",
+        "right_header": "Curatorial Overview and History: Field Execution",
         "left_points": [
-          "Nature Specimen Collecting Ideas: If you enjoy nature, you might collect rocks, fossils, shells, or leaves (p. 9).",
-          "Sports Memorabilia Card Options: If you enjoy sports, you might collect sports cards, baseballs, caps, uniforms, pennants, hockey pucks, or bumpers tickers (p. 9).",
-          "Toy and Model Collectibles: If toys interest you, so might super hero or action figures, cars, or model airplanes or trains (p. 9)."
+          "Provenance Records: Detailed documentation preserves the historical origin and chain of ownership for artifacts.",
+          "Motivation Context: Explaining personal interest highlights educational value derived from studying curated material culture."
         ],
         "right_points": [
-          "Explore Toy Collecting Specialties: If toys interest you, so might super hero or action figures, cars, or model airplanes or trains (p. 9).",
-          "Consider Historical Military Artifacts: If military history piques your curiosity, you might collect uniforms, helmets, insignia, medals, flags, or maps (p. 9).",
-          "Review General Collecting Tips: This pamphlet will give you specific ideas and tips for collecting (p. 9)."
+          "Learning Objectives: Systematic study reveals manufacturing history, geographic origins, and cultural significance across time.",
+          "Scope Definition: Defined collection boundaries prevent aimless acquisition and maintain focus on specific categories."
         ],
         "rows": [
           {
             "attribute": "Provenance Records",
-            "left": "Nature Specimen Collecting Ideas: If you enjoy nature, you might collect rocks, fossils, shells, or leaves (p. 9).",
-            "right": "Explore Toy Collecting Specialties: If toys interest you, so might super hero or action figures, cars, or model airplanes or trains (p. 9)."
+            "left": "Provenance Records: Detailed documentation preserves the historical origin and chain of ownership for artifacts.",
+            "right": "Learning Objectives: Systematic study reveals manufacturing history, geographic origins, and cultural significance across time."
           },
           {
             "attribute": "Motivation Context",
-            "left": "Sports Memorabilia Card Options: If you enjoy sports, you might collect sports cards, baseballs, caps, uniforms, pennants, hockey pucks, or bumpers tickers (p. 9).",
-            "right": "Consider Historical Military Artifacts: If military history piques your curiosity, you might collect uniforms, helmets, insignia, medals, flags, or maps (p. 9)."
+            "left": "Motivation Context: Explaining personal interest highlights educational value derived from studying curated material culture.",
+            "right": "Scope Definition: Defined collection boundaries prevent aimless acquisition and maintain focus on specific categories."
           },
           {
             "attribute": "Learning Objectives",
-            "left": "Toy and Model Collectibles: If toys interest you, so might super hero or action figures, cars, or model airplanes or trains (p. 9).",
-            "right": "Review General Collecting Tips: This pamphlet will give you specific ideas and tips for collecting (p. 9)."
+            "left": "Learning Objectives: Systematic study reveals manufacturing history, geographic origins, and cultural significance across time.",
+            "right": "Scope Definition: Defined collection boundaries prevent aimless acquisition and maintain focus on specific categories."
           }
         ]
       },
       "worked_example": {
-        "title": "Collections Req 1 Exemplar Workbook Entry: Describing",
+        "title": "Collections Req 1 Worked Example: Curatorial Overview and History",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Nature Specimen Collecting Ideas": "If you enjoy nature, you might collect rocks, fossils, shells, or leaves (p. 9).",
-          "Sports Memorabilia Card Options": "If you enjoy sports, you might collect sports cards, baseballs, caps, uniforms, pennants, hockey pucks, or bumpers tickers (p. 9).",
-          "Toy and Model Collectibles": "If toys interest you, so might super hero or action figures, cars, or model airplanes or trains (p. 9).",
-          "Military History Artifact Categories": "If military history piques your curiosity, you might collect uniforms, helmets, insignia, medals, flags, or maps (p. 9)."
+          "Phase 1 - Select Scope": "Identify primary focus areas, key themes, and boundaries for the curated items.",
+          "Phase 2 - Outline History": "Draft a chronological narrative documenting when and how acquisitions initially began.",
+          "Phase 3 - Detail Lessons": "Summarize technical skills, preservation methods, and historical insights gained through research.",
+          "Phase 4 - Review Draft": "Proofread the written narrative for clarity, accurate terminology, and thematic depth."
         },
-        "sample_output": "Describing Your Collection and Purpose: If you enjoy nature, you might collect rocks, fossils, shells, or leaves (p. 9).",
-        "counselor_tip": "For Collections Requirement 1 (Describing Your Collection and Purpose), verify the Scout's own observations and specific pamphlet details (Official Scouting America Collections Merit Badge Pamphlet (p. 9, p. 14))."
+        "sample_output": "The collections handbook emphasizes creating a structured report detailing specimen history and thematic significance. Scouts document their initial curiosity, historical context, and the educational disciplines discovered through curating.",
+        "counselor_tip": "During the Collections Requirement 1 conference on Curatorial Overview and History, verify that the Scout can explain provenance records and demonstrate review draft: Proofread the written narrative for clarity, accurate terminology, and thematic depth."
       },
       "quiz_item": {
         "scenario_prompt": "In Collections Requirement 1, what practices protect a physical collection (such as stamps, postcards, patches, or historical ephemera) from long-term deterioration while maintaining its provenance?",
@@ -256,7 +250,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Evaluate field acquisition sites for physical hazards, environmental contaminants, and biological risks before collecting.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 8, p. 9)",
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 8, p. 9)",
       "syllabus_bucket": "In-Class Concept",
@@ -320,47 +314,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Aristocratic Fine Art Collecting",
-        "right_header": "Req 2: Trace Consumer Goods Expansion",
+        "left_header": "Collection Evolution and Expansion: Core Principles",
+        "right_header": "Collection Evolution and Expansion: Field Execution",
         "left_points": [
-          "Aristocratic Fine Art Collecting: Many well-to-do people collected fine art, musical instruments, ancient coins, and rare books (p. 8).",
-          "Industrial Revolution Mass Production: But with the Industrial Revolution in the early 1800s came mass production (p. 8).",
-          "Consumer Society Goods Expansion: Suddenly the new consumer society could afford to buy all kinds of goods (p. 8)."
+          "Curatorial Selection: Thoughtful collectors upgrade individual specimen condition rather than merely accumulating redundant items.",
+          "Thematic Refinement: Mature collections evolve from broad miscellaneous items into tightly specialized subject areas."
         ],
         "right_points": [
-          "Trace Consumer Goods Expansion: Suddenly the new consumer society could afford to buy all kinds of goods (p. 8).",
-          "Discover Ancient Egyptian Marbles: A collection is Don't Lose Your Marbles things, but a Marbles have been found in strange places, including ancient Egyptian tombs (p. 8).",
-          "Date Modern Collectible Marbles: However, most collectible marbles have been produced within the last 160 years (p. 8)."
+          "Milestone Tracking: Documenting notable additions marks major shifts in personal knowledge and curatorial interests.",
+          "Acquisition Channels: Expanding sourcing networks introduces rare specimens through peer exchanges and field visits."
         ],
         "rows": [
           {
             "attribute": "Curatorial Selection",
-            "left": "Aristocratic Fine Art Collecting: Many well-to-do people collected fine art, musical instruments, ancient coins, and rare books (p. 8).",
-            "right": "Trace Consumer Goods Expansion: Suddenly the new consumer society could afford to buy all kinds of goods (p. 8)."
+            "left": "Curatorial Selection: Thoughtful collectors upgrade individual specimen condition rather than merely accumulating redundant items.",
+            "right": "Milestone Tracking: Documenting notable additions marks major shifts in personal knowledge and curatorial interests."
           },
           {
             "attribute": "Thematic Refinement",
-            "left": "Industrial Revolution Mass Production: But with the Industrial Revolution in the early 1800s came mass production (p. 8).",
-            "right": "Discover Ancient Egyptian Marbles: A collection is Don't Lose Your Marbles things, but a Marbles have been found in strange places, including ancient Egyptian tombs (p. 8)."
+            "left": "Thematic Refinement: Mature collections evolve from broad miscellaneous items into tightly specialized subject areas.",
+            "right": "Acquisition Channels: Expanding sourcing networks introduces rare specimens through peer exchanges and field visits."
           },
           {
             "attribute": "Milestone Tracking",
-            "left": "Consumer Society Goods Expansion: Suddenly the new consumer society could afford to buy all kinds of goods (p. 8).",
-            "right": "Date Modern Collectible Marbles: However, most collectible marbles have been produced within the last 160 years (p. 8)."
+            "left": "Milestone Tracking: Documenting notable additions marks major shifts in personal knowledge and curatorial interests.",
+            "right": "Acquisition Channels: Expanding sourcing networks introduces rare specimens through peer exchanges and field visits."
           }
         ]
       },
       "worked_example": {
-        "title": "Collections Req 2 Exemplar Workbook Entry: Collection",
+        "title": "Collections Req 2 Worked Example: Collection Evolution and Expansion",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Aristocratic Fine Art Collecting": "Many well-to-do people collected fine art, musical instruments, ancient coins, and rare books (p. 8).",
-          "Industrial Revolution Mass Production": "But with the Industrial Revolution in the early 1800s came mass production (p. 8).",
-          "Consumer Society Goods Expansion": "Suddenly the new consumer society could afford to buy all kinds of goods (p. 8).",
-          "Ancient and Modern Marbles": "A collection is Don't Lose Your Marbles things, but a Marbles have been found in strange places, including ancient Egyptian tombs (p. 8)."
+          "Phase 1 - Track Acquisitions": "Map the chronological addition of specimens from the earliest to recent acquisitions.",
+          "Phase 2 - Identify Transitions": "Note major points where your collecting criteria shifted toward higher quality specimens.",
+          "Phase 3 - Contrast Examples": "Compare early beginner specimens directly with advanced pieces acquired later in time.",
+          "Phase 4 - Summarize Milestones": "Prepare a timeline explaining key acquisitions that altered your overall collecting path."
         },
-        "sample_output": "Collection Growth and Historical Origins: Many well-to-do people collected fine art, musical instruments, ancient coins, and rare books (p. 8).",
-        "counselor_tip": "For Collections Requirement 2 (Collection Growth and Historical Origins), verify the Scout's own observations and specific pamphlet details (Official Scouting America Collections Merit Badge Pamphlet (p. 8, p. 9))."
+        "sample_output": "Handbooks document how mature collections transition from accidental gathering toward methodical curation over time. Collectors track acquisition milestones, selective upgrading of item quality, and refined criteria for additions.",
+        "counselor_tip": "During the Collections Requirement 2 conference on Collection Evolution and Expansion, verify that the Scout can explain curatorial selection and demonstrate summarize milestones: Prepare a timeline explaining key acquisitions that altered your overall collecting path."
       },
       "quiz_item": {
         "scenario_prompt": "How did the Industrial Revolution in the early 1800s transform the hobby of collecting?",
@@ -823,7 +815,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Wear nitrile gloves and work in ventilated areas when handling chemically unstable or dusty specimens.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)",
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -891,14 +883,10 @@
         "Step 3 - Implement Security: Mount specimens securely behind protective glass using non-damaging mechanical support mounts.",
         "Step 4 - Establish Monitoring: Schedule quarterly inspections to identify pest intrusion, chemical deterioration, or moisture."
       ],
-      "gear_checklist": [
-        "Official Collections Merit Badge: Knowledge of Preserving and Displaying.",
-        "Field notebook, verification log sheet, and demonstration materials for Knowledge of Preserving and Displaying.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Preservation and Storage",
-        "right_header": "Req 3c: Collector Community Event",
+        "left_header": "Req 3a: Preservation and Storage Protocols",
+        "right_header": "Req 3c: Collector Community Event Participation",
         "left_points": [
           "(3a) Preservation and Storage Protocols: Collectors employ conservation-grade supplies, such as archival polyethylene containers, silica gel desiccant packs, and lint-free microfiber cloths. Cleaning must remain minimal to avoid stripping original patinas, coatings, or delicate surface treatments.",
           "(3b) Display and Exhibition Techniques: Display techniques require museum-grade presentation cases equipped with ultraviolet-filtering acrylic shields and inert mounting stands. Lighting sources should utilize low-heat light-emitting diodes positioned at safe distances from vulnerable surfaces."
@@ -920,22 +908,22 @@
           },
           {
             "attribute": "Photodegradation Defense",
-            "left": "Req 3a: Preservation and Storage: Collectors employ conservation-grade supplies, such as archival polyethylene containers, silica gel desiccant packs, and lint-free microfiber cloths. Cleaning must remain minimal to avoid stripping original patinas, coatings, or delicate surface treatments.",
-            "right": "Req 3b: Display and Exhibition: Display techniques require museum-grade presentation cases equipped with ultraviolet-filtering acrylic shields and inert mounting stands. Lighting sources should utilize low-heat light-emitting diodes positioned at safe distances from vulnerable surfaces."
+            "left": "Photodegradation Defense: Filtering ultraviolet light prevents irreversible pigment fading and material embrittlement over time.",
+            "right": "Handling Hygiene: Clean cotton or nitrile gloves prevent skin oils from etching sensitive surfaces."
           }
         ]
       },
       "worked_example": {
-        "title": "Collections Req 3 Exemplar Workbook Entry: Preserving",
+        "title": "Collections Req 3 Worked Example: Preservation Display and Management",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Preservation and Storage": "Collectors employ conservation-grade supplies, such as archival polyethylene containers, silica gel desiccant packs, and lint-free microfiber cloths. Cleaning must remain minimal to avoid stripping original patinas, coatings, or delicate surface treatments.",
-          "Req 3b - Display and Exhibition": "Display techniques require museum-grade presentation cases equipped with ultraviolet-filtering acrylic shields and inert mounting stands. Lighting sources should utilize low-heat light-emitting diodes positioned at safe distances from vulnerable surfaces.",
-          "Req 3c - Collector Community Event": "Organized hobby events encompass regional trade conventions, museum workshops, academic symposiums, and competitive exhibitions. These gatherings allow enthusiasts to study museum-loan displays, attend educational panels, and engage in peer review.",
-          "Req 3d - Cataloging Systems": "A comprehensive catalog system assigns unique accession codes to individual specimens linked to digital databases or ledger cards. Documentation captures physical dimensions, provenance data, condition notes, purchase costs, and precise storage locations."
+          "Phase 1 - Environmental Audit": "Measure ambient temperature, relative humidity, and daylight exposure in storage areas.",
+          "Phase 2 - Select Materials": "Obtain archival mylar sleeves, acid-free backing boards, and sealed display cases.",
+          "Phase 3 - Implement Security": "Mount specimens securely behind protective glass using non-damaging mechanical support mounts.",
+          "Phase 4 - Establish Monitoring": "Schedule quarterly inspections to identify pest intrusion, chemical deterioration, or moisture."
         },
-        "sample_output": "Preserving, Cataloging, and Displaying Collections: Properly cataloging your collection is very important for several reasons (p. 11).",
-        "counselor_tip": "For Collections Requirement 3 (Preserving, Cataloging, and Displaying Collections), verify the Scout's own observations and specific pamphlet details (Official Scouting America Collections Merit Badge Pamphlet (p. 11, p. 13))."
+        "sample_output": "Preservation guidelines prioritize archival-grade storage containers, climate stability, and physical shielding against solar degradation. Displays must balance viewer visibility against environmental risks like moisture, fluctuating temperatures, and pests.",
+        "counselor_tip": "During the Collections Requirement 3 conference on Preservation Display and Management, verify that the Scout can explain microclimate control and demonstrate establish monitoring: Schedule quarterly inspections to identify pest intrusion, chemical deterioration, or moisture."
       },
       "quiz_item": {
         "scenario_prompt": "Which of the following is NOT one of the main reasons cited in the pamphlet for maintaining a master catalog of your collection?",
@@ -1254,7 +1242,7 @@
       "action_verb": "Discuss",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Exercise caution when transporting high-value items by securing trusted adult accompaniment and private transit.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)",
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1320,19 +1308,17 @@
         "Step 3 - Assess Liquidity: Determine the speed and difficulty of converting specific collectibles into cash assets.",
         "Step 4 - Formulate Strategy: Establish strict budget limits for acquisitions rather than speculating on future prices."
       ],
-      "gear_checklist": [
-        "Official Collections Merit Badge: Knowledge of Collecting and Investing.",
-        "Field notebook, verification log sheet, and demonstration materials for Knowledge of Collecting and Investing.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Investment and Speculation",
-        "right_header": "Req 4b: Bulk Acquisition Assessment",
+        "left_header": "Req 4a: Investment and Speculation Principles",
+        "right_header": "Req 4b: Bulk Acquisition Assessment Strategies",
         "left_points": [
-          "(4a) Investment and Speculation Principles: Investment analysis distinguishes between genuine historical assets and commercially manufactured artificial rarities. Scouts analyze how inflation, holding fees, and shifting popular tastes heavily erode speculative profits."
+          "(4a) Investment and Speculation Principles: Investment analysis distinguishes between genuine historical assets and commercially manufactured artificial rarities. Scouts analyze how inflation, holding fees, and shifting popular tastes heavily erode speculative profits.",
+          "Market Volatility: Secondary collectible markets fluctuate based on changing economic conditions and shifting popular interest."
         ],
         "right_points": [
-          "(4b) Bulk Acquisition Assessment Strategies: Purchasing external collections requires verifying unbroken provenance, inspecting each item for hidden flaws, and evaluating overall condition. Collectors assess whether lot pricing justifies acquiring unwanted duplicates or uncataloged common items."
+          "(4b) Bulk Acquisition Assessment Strategies: Purchasing external collections requires verifying unbroken provenance, inspecting each item for hidden flaws, and evaluating overall condition. Collectors assess whether lot pricing justifies acquiring unwanted duplicates or uncataloged common items.",
+          "(4c) Liquidation and Net Return Expectations: Realizing cash value requires understanding wholesale versus retail pricing spreads, auction consignment percentages, and local sales taxes. Net returns depend on current buyer demand, seller patience, and the physical state of preservation."
         ],
         "rows": [
           {
@@ -1342,26 +1328,27 @@
           },
           {
             "attribute": "Condition Influence",
-            "left": "Req 4a: Investment and Speculation: Investment analysis distinguishes between genuine historical assets and commercially manufactured artificial rarities. Scouts analyze how inflation, holding fees, and shifting popular tastes heavily erode speculative profits.",
-            "right": "Req 4b: Bulk Acquisition Assessment: Purchasing external collections requires verifying unbroken provenance, inspecting each item for hidden flaws, and evaluating overall condition. Collectors assess whether lot pricing justifies acquiring unwanted duplicates or uncataloged common items."
+            "left": "Market Volatility: Secondary collectible markets fluctuate based on changing economic conditions and shifting popular interest.",
+            "right": "(4c) Liquidation and Net Return Expectations: Realizing cash value requires understanding wholesale versus retail pricing spreads, auction consignment percentages, and local sales taxes. Net returns depend on current buyer demand, seller patience, and the physical state of preservation."
           },
           {
             "attribute": "Authenticity Verification",
-            "left": "Req 4c: Liquidation and Net Return: Realizing cash value requires understanding wholesale versus retail pricing spreads, auction consignment percentages, and local sales taxes. Net returns depend on current buyer demand, seller patience, and the physical state of preservation.",
-            "right": "Condition Influence: Minor structural flaws dramatically reduce the resale price of high grade collectible pieces."
+            "left": "Authenticity Verification: Verified provenance and certificates of authenticity protect investors against widespread deceptive counterfeit reproductions.",
+            "right": "Liquidity Constraints: Converting specialized collectibles into immediate cash assets often requires paying substantial consignor fees."
           }
         ]
       },
       "worked_example": {
-        "title": "Collections Req 4 Exemplar Workbook Entry: Collecting",
+        "title": "Collections Req 4 Worked Example: Collector Economics and Valuation",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Investment and Speculation": "Investment analysis distinguishes between genuine historical assets and commercially manufactured artificial rarities. Scouts analyze how inflation, holding fees, and shifting popular tastes heavily erode speculative profits.",
-          "Req 4b - Bulk Acquisition Assessment": "Purchasing external collections requires verifying unbroken provenance, inspecting each item for hidden flaws, and evaluating overall condition. Collectors assess whether lot pricing justifies acquiring unwanted duplicates or uncataloged common items.",
-          "Req 4c - Liquidation and Net Return": "Realizing cash value requires understanding wholesale versus retail pricing spreads, auction consignment percentages, and local sales taxes. Net returns depend on current buyer demand, seller patience, and the physical state of preservation."
+          "Phase 1 - Research Trends": "Review historical transaction records across auction databases over multiple past market cycles.",
+          "Phase 2 - Calculate Overhead": "Factor in insurance costs, protective enclosures, storage fees, and dealer sales commissions.",
+          "Phase 3 - Assess Liquidity": "Determine the speed and difficulty of converting specific collectibles into cash assets.",
+          "Phase 4 - Formulate Strategy": "Establish strict budget limits for acquisitions rather than speculating on future prices."
         },
-        "sample_output": "Collecting Versus Financial Speculation: In your own notebook, record the specimen's number and name, date you collected the rock, description of the collection site, and other relevant data (p. 15).",
-        "counselor_tip": "For Collections Requirement 4 (Collecting Versus Financial Speculation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Collections Merit Badge Pamphlet (p. 15, p. 57))."
+        "sample_output": "The merit badge literature warns against confusing personal collecting hobbies with sound financial investment programs. Scouts evaluate market liquidity, transactional overhead, storage costs, and the volatile nature of speculative trends.",
+        "counselor_tip": "During the Collections Requirement 4 conference on Collector Economics and Valuation, verify that the Scout can explain market volatility and demonstrate formulate strategy: Establish strict budget limits for acquisitions rather than speculating on future prices."
       },
       "quiz_item": {
         "scenario_prompt": "Why is it difficult to look up the exact monetary value of a nonprecious rock or mineral collection in a book?",
@@ -1893,7 +1880,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use padded support trays and clean hand placement when lifting fragile grouped specimens.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)",
       "syllabus_bucket": "In-Class Concept",
@@ -1965,23 +1952,17 @@
         "Step 3 - Examine Marks: Use a lighted magnifying glass to locate manufacturer series marks and serials.",
         "Step 4 - Correlate Data: Match physical markings against reference price guides, condition standards, and club journals."
       ],
-      "gear_checklist": [
-        "Official Collections Merit Badge: At least 10 terms commonly.",
-        "Field notebook, verification log sheet, and demonstration materials for At least 10 terms commonly.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Hobby Terminology",
-        "right_header": "Req 5d: Condition Grading",
+        "left_header": "Req 5a: Hobby Terminology and Definitions",
+        "right_header": "Req 5d: Condition Grading and Classification Standards",
         "left_points": [
           "(5a) Hobby Terminology and Definitions: Mastering industry vocabulary enables accurate communication between collectors, dealers, and accredited curators. Scouts learn ten specialized terms detailing manufacturing methods, physical states, and material defects.",
-          "(5b) Classification and Grouping Methodologies: Exhibiting distinct sub-groups demonstrates taxonomic ordering principles such as chronological periods or functional categories. Scouts explain how their chosen grouping method preserves contextual relationships between related items.",
-          "(5c) Market Valuation and Pricing Sources: Monetary valuation requires consulting completed auction records, verified dealer sales, and specialized numismatic or philatelic price guides. Scouts discover how rarity, collector demand, and physical condition interact to dictate market value."
+          "(5b) Classification and Grouping Methodologies: Exhibiting distinct sub-groups demonstrates taxonomic ordering principles such as chronological periods or functional categories. Scouts explain how their chosen grouping method preserves contextual relationships between related items."
         ],
         "right_points": [
           "(5d) Condition Grading and Classification Standards: Grading frameworks evaluate microscopic wear, manufacturing centering, surface tears, fading, and structural integrity. Standard rating rubrics establish objective criteria that separate mint condition specimens from compromised examples.",
-          "(5e) Collector Guilds and Associations: Affiliation with regional or national collecting organizations connects hobbyists to experienced mentors and scholarly journals. These non-profit associations host conventions, sponsor educational youth programs, and maintain formal code-of-ethics standards.",
-          "(5f) Identification Numbers and Authenticity Marks: Identification numbers, series marks, and maker trademarks authenticate legitimate factory production runs. These physical markers enable collectors to detect counterfeits, verify manufacturing plants, and trace historical issuance dates."
+          "(5e) Collector Guilds and Associations: Affiliation with regional or national collecting organizations connects hobbyists to experienced mentors and scholarly journals. These non-profit associations host conventions, sponsor educational youth programs, and maintain formal code-of-ethics standards."
         ],
         "rows": [
           {
@@ -1996,22 +1977,22 @@
           },
           {
             "attribute": "Grading Standards",
-            "left": "(5c) Market Valuation and Pricing Sources: Monetary valuation requires consulting completed auction records, verified dealer sales, and specialized numismatic or philatelic price guides. Scouts discover how rarity, collector demand, and physical condition interact to dictate market value.",
-            "right": "(5f) Identification Numbers and Authenticity Marks: Identification numbers, series marks, and maker trademarks authenticate legitimate factory production runs. These physical markers enable collectors to detect counterfeits, verify manufacturing plants, and trace historical issuance dates."
+            "left": "Grading Standards: Third party certification services assign objective numeric grades based on microscopic physical inspection.",
+            "right": "Manufacturing Marks: Production stamps and serial numbers verify authorized factories, release dates, and authentic origins."
           }
         ]
       },
       "worked_example": {
-        "title": "Collections Req 5 Exemplar Workbook Entry: Terminology",
+        "title": "Collections Req 5 Worked Example: Technical Terminology and Classification",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Hobby Terminology": "Mastering industry vocabulary enables accurate communication between collectors, dealers, and accredited curators. Scouts learn ten specialized terms detailing manufacturing methods, physical states, and material defects.",
-          "Req 5b - Classification and Grouping": "Exhibiting distinct sub-groups demonstrates taxonomic ordering principles such as chronological periods or functional categories. Scouts explain how their chosen grouping method preserves contextual relationships between related items.",
-          "Req 5c - Market Valuation and Pricing": "Monetary valuation requires consulting completed auction records, verified dealer sales, and specialized numismatic or philatelic price guides. Scouts discover how rarity, collector demand, and physical condition interact to dictate market value.",
-          "Req 5d - Condition Grading": "Grading frameworks evaluate microscopic wear, manufacturing centering, surface tears, fading, and structural integrity. Standard rating rubrics establish objective criteria that separate mint condition specimens from compromised examples."
+          "Phase 1 - Compile Glossary": "Select ten technical terms defining attributes, materials, and production flaws in collections.",
+          "Phase 2 - Segment Groups": "Divide collection specimens into two distinct categories based on date, type, or origin.",
+          "Phase 3 - Examine Marks": "Use a lighted magnifying glass to locate manufacturer series marks and serials.",
+          "Phase 4 - Correlate Data": "Match physical markings against reference price guides, condition standards, and club journals."
         },
-        "sample_output": "Terminology, Grading, and Hobby Organizations: Remember, it is illegal to collect rocks in state parks, national parks, or national monuments (p. 35).",
-        "counselor_tip": "For Collections Requirement 5 (Terminology, Grading, and Hobby Organizations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53))."
+        "sample_output": "Handbook chapters detail standard taxonomic systems, specialized grading vocabulary, and official collector terminology. Scouts master precise nomenclature, organizational taxonomies, condition assessment metrics, and organizational registry affiliations.",
+        "counselor_tip": "During the Collections Requirement 5 conference on Technical Terminology and Classification, verify that the Scout can explain standardized jargon and demonstrate correlate data: Match physical markings against reference price guides, condition standards, and club journals."
       },
       "quiz_item": {
         "scenario_prompt": "What rule must rock collectors follow regarding state parks, national parks, and private property?",
@@ -2094,7 +2075,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Budget personal finances responsibly to ensure hobby pursuits never compromise essential living expenses.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 49, p. 62)",
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 49, p. 62)",
       "syllabus_bucket": "In-Class Concept",
@@ -2158,47 +2139,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Athlete Image Licensing Payments",
-        "right_header": "Req 6: Understand Card Company Revenue",
+        "left_header": "Future Curatorial Planning: Core Principles",
+        "right_header": "Future Curatorial Planning: Field Execution",
         "left_points": [
-          "Athlete Image Licensing Payments: Players earn money for having their pictures featured (p. 49).",
-          "Sports League Logo Royalties: The sports leagues in which they play get royalties for the use of the league names and logos (p. 49).",
-          "Card Company Sales Revenue: Card companies make money producing and selling cards (p. 49)."
+          "Goal Setting: Structured acquisition goals prevent impulse purchases and maintain focused thematic boundaries within collections.",
+          "Budget Planning: Allocating funds for conservation supplies ensures existing holdings remain preserved during future growth."
         ],
         "right_points": [
-          "Understand Card Company Revenue: Card companies make money producing and selling cards (p. 49).",
-          "Review Honus Wagner Dispute: In 1909, Pittsburgh Pirates shortstop Honus Wagner created a ruckus about his image being used on a sports card (p. 49).",
-          "Examine Anti-Tobacco Card Objections: One story claims he demanded his image be removed from tobacco sponsored cards because he believed the cards encouraged children to use tobacco (p. 49)."
+          "Deaccession Policies: Selling redundant or lower grade specimens provides financial capital to acquire superior quality examples.",
+          "Exhibition Aspirations: Planning competitive displays encourages deeper research into historical context and curatorial presentation techniques."
         ],
         "rows": [
           {
             "attribute": "Goal Setting",
-            "left": "Athlete Image Licensing Payments: Players earn money for having their pictures featured (p. 49).",
-            "right": "Understand Card Company Revenue: Card companies make money producing and selling cards (p. 49)."
+            "left": "Goal Setting: Structured acquisition goals prevent impulse purchases and maintain focused thematic boundaries within collections.",
+            "right": "Deaccession Policies: Selling redundant or lower grade specimens provides financial capital to acquire superior quality examples."
           },
           {
             "attribute": "Budget Planning",
-            "left": "Sports League Logo Royalties: The sports leagues in which they play get royalties for the use of the league names and logos (p. 49).",
-            "right": "Review Honus Wagner Dispute: In 1909, Pittsburgh Pirates shortstop Honus Wagner created a ruckus about his image being used on a sports card (p. 49)."
+            "left": "Budget Planning: Allocating funds for conservation supplies ensures existing holdings remain preserved during future growth.",
+            "right": "Exhibition Aspirations: Planning competitive displays encourages deeper research into historical context and curatorial presentation techniques."
           },
           {
             "attribute": "Deaccession Policies",
-            "left": "Card Company Sales Revenue: Card companies make money producing and selling cards (p. 49).",
-            "right": "Examine Anti-Tobacco Card Objections: One story claims he demanded his image be removed from tobacco sponsored cards because he believed the cards encouraged children to use tobacco (p. 49)."
+            "left": "Deaccession Policies: Selling redundant or lower grade specimens provides financial capital to acquire superior quality examples.",
+            "right": "Exhibition Aspirations: Planning competitive displays encourages deeper research into historical context and curatorial presentation techniques."
           }
         ]
       },
       "worked_example": {
-        "title": "Collections Req 6 Exemplar Workbook Entry: Planning",
+        "title": "Collections Req 6 Worked Example: Future Curatorial Planning",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Athlete Image Licensing Payments": "Players earn money for having their pictures featured (p. 49).",
-          "Sports League Logo Royalties": "The sports leagues in which they play get royalties for the use of the league names and logos (p. 49).",
-          "Card Company Sales Revenue": "Card companies make money producing and selling cards (p. 49).",
-          "Honus Wagner Card Dispute": "In 1909, Pittsburgh Pirates shortstop Honus Wagner created a ruckus about his image being used on a sports card (p. 49)."
+          "Phase 1 - Identify Gaps": "Review current inventory records to discover missing chronological eras or key variants.",
+          "Phase 2 - Prioritize Wishlist": "Rank desired future specimens based on historical significance, availability, and realistic cost.",
+          "Phase 3 - Budget Resources": "Calculate anticipated expenses for upcoming purchases, archival containers, and exhibit frame upgrades.",
+          "Phase 4 - Set Milestones": "Establish a three-year schedule for attending major regional conventions and completing projects."
         },
-        "sample_output": "Planning Your Future Collecting Goals: Players earn money for having their pictures featured (p. 49).",
-        "counselor_tip": "For Collections Requirement 6 (Planning Your Future Collecting Goals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Collections Merit Badge Pamphlet (p. 49, p. 62))."
+        "sample_output": "Curatorial planning outlines future thematic acquisitions, conservation supply upgrades, and potential exhibition opportunities. Scouts identify specific milestone specimens required to fill historical gaps within their curated holdings.",
+        "counselor_tip": "During the Collections Requirement 6 conference on Future Curatorial Planning, verify that the Scout can explain goal setting and demonstrate set milestones: Establish a three-year schedule for attending major regional conventions and completing projects."
       },
       "quiz_item": {
         "scenario_prompt": "Why did the 1909 Honus Wagner baseball card become one of the scarcest and most famous sports cards in history?",
@@ -2290,7 +2269,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow workplace safety protocols and wear chemical respirators when handling historic preservation solvents professionally.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 60, p. 62)",
       "pamphlet_page_citation": "Official Scouting America Collections Merit Badge Pamphlet (p. 60, p. 62)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2358,47 +2337,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Collectibles Support Industry",
-        "right_header": "Req 7: Specialize in Collectible",
+        "left_header": "Professional Curatorial Career Pathways: Core Principles",
+        "right_header": "Professional Curatorial Career Pathways: Field Execution",
         "left_points": [
-          "Collectibles Support Industry Overview: A whole industry exists to support the buying, selling, and display and preservation of collectibles (p. 60).",
-          "Museum and Auction Roles: Auction houses, galleries, and museums employ auctioneers, appraisers, curators, and conservators (p. 60).",
-          "Specialized Subject-Matter Expertise: People hired for these positions often specialize in one area, such as pottery and porcelain or prints and paintings (p. 60)."
+          "Museum Curation: Museum curators hold advanced academic degrees in history, art history, or specialized sciences.",
+          "Conservation Science: Professional conservators utilize organic chemistry principles to arrest physical decay without damaging artifacts."
         ],
         "right_points": [
-          "Specialize in Collectible Categories: People hired for these positions often specialize in one area, such as pottery and porcelain or prints and paintings (p. 60).",
-          "Connect Hobbies to Professions: You can turn any collecting interest into a related career (p. 60).",
-          "Build Focused Collector Expertise: A collector is a narrowly focused expert, and that is sometimes enough to get started (p. 60)."
+          "Appraisal Certification: Independent appraisers complete formal training in valuation methodologies, market analytics, and ethical standards.",
+          "Archival Management: Archivists organize institutional historical records using systematic cataloging and environmentally controlled storage facilities."
         ],
         "rows": [
           {
             "attribute": "Museum Curation",
-            "left": "Collectibles Support Industry Overview: A whole industry exists to support the buying, selling, and display and preservation of collectibles (p. 60).",
-            "right": "Specialize in Collectible Categories: People hired for these positions often specialize in one area, such as pottery and porcelain or prints and paintings (p. 60)."
+            "left": "Museum Curation: Museum curators hold advanced academic degrees in history, art history, or specialized sciences.",
+            "right": "Appraisal Certification: Independent appraisers complete formal training in valuation methodologies, market analytics, and ethical standards."
           },
           {
             "attribute": "Conservation Science",
-            "left": "Museum and Auction Roles: Auction houses, galleries, and museums employ auctioneers, appraisers, curators, and conservators (p. 60).",
-            "right": "Connect Hobbies to Professions: You can turn any collecting interest into a related career (p. 60)."
+            "left": "Conservation Science: Professional conservators utilize organic chemistry principles to arrest physical decay without damaging artifacts.",
+            "right": "Archival Management: Archivists organize institutional historical records using systematic cataloging and environmentally controlled storage facilities."
           },
           {
             "attribute": "Appraisal Certification",
-            "left": "Specialized Subject-Matter Expertise: People hired for these positions often specialize in one area, such as pottery and porcelain or prints and paintings (p. 60).",
-            "right": "Build Focused Collector Expertise: A collector is a narrowly focused expert, and that is sometimes enough to get started (p. 60)."
+            "left": "Appraisal Certification: Independent appraisers complete formal training in valuation methodologies, market analytics, and ethical standards.",
+            "right": "Archival Management: Archivists organize institutional historical records using systematic cataloging and environmentally controlled storage facilities."
           }
         ]
       },
       "worked_example": {
-        "title": "Collections Req 7 Exemplar Workbook Entry: Careers",
+        "title": "Collections Req 7 Worked Example: Professional Curatorial Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Collectibles Support Industry Overview": "A whole industry exists to support the buying, selling, and display and preservation of collectibles (p. 60).",
-          "Museum and Auction Roles": "Auction houses, galleries, and museums employ auctioneers, appraisers, curators, and conservators (p. 60).",
-          "Specialized Subject-Matter Expertise": "People hired for these positions often specialize in one area, such as pottery and porcelain or prints and paintings (p. 60).",
-          "Turning Hobbies into Careers": "You can turn any collecting interest into a related career (p. 60)."
+          "Phase 1 - Research Roles": "Investigate job duties for museum curators, archival conservators, and professional appraisers.",
+          "Phase 2 - Identify Qualifications": "Document required college degrees, technical certifications, internships, and laboratory skills needed.",
+          "Phase 3 - Interview Professionals": "Contact a local museum worker or certified appraiser to ask about daily tasks.",
+          "Phase 4 - Synthesize Reflections": "Prepare notes explaining how your personal collecting background aligns with that career."
         },
-        "sample_output": "Careers in the Collectibles Industry: A whole industry exists to support the buying, selling, and display and preservation of collectibles (p. 60).",
-        "counselor_tip": "For Collections Requirement 7 (Careers in the Collectibles Industry), verify the Scout's own observations and specific pamphlet details (Official Scouting America Collections Merit Badge Pamphlet (p. 60, p. 62))."
+        "sample_output": "Career paths include museum curators, professional appraisers, archival conservators, and specialist auction house department heads. These professions demand formal education in art history, chemistry, or library science, along with hands-on apprenticeship.",
+        "counselor_tip": "During the Collections Requirement 7 conference on Professional Curatorial Career Pathways, verify that the Scout can explain museum curation and demonstrate synthesize reflections: Prepare notes explaining how your personal collecting background aligns with that career."
       },
       "quiz_item": {
         "scenario_prompt": "Why do professional positions at museums, galleries, and auction houses usually require formal education and specialized training beyond hobbyist experience?",

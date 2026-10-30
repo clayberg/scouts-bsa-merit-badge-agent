@@ -467,7 +467,7 @@
         "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Aquatic Hazard Identification",
+        "left_header": "Req 1a: Aquatic Hazard Identification and Mitigation",
         "right_header": "Req 1c: Barbed Hook Extraction Methods",
         "left_points": [
           "(1a) Aquatic Hazard Identification and Mitigation: Angling environments present rapid current changes, submerged debris, and sudden electrical storms. Scouts reduce danger by monitoring weather reports and surveying shorelines prior to rigging tackle.",
@@ -490,22 +490,22 @@
           },
           {
             "attribute": "Deep Wading Protocol",
-            "left": "Req 1a: Aquatic Hazard: Angling environments present rapid current changes, submerged debris, and sudden electrical storms. Scouts reduce danger by monitoring weather reports and surveying shorelines prior to rigging tackle.",
-            "right": "Req 1b: Waterfront First Aid: Fishing injuries include fish spine punctures, dehydration, hypothermia, and insect bites. Cleaning punctures with clean water and seeking professional care prevents aquatic bacterial infections."
+            "left": "Deep Wading Protocol: Fasten a secure wading belt around waders to prevent catastrophic water flooding.",
+            "right": "Lightning Strike Safety: Exit the water immediately when distant thunder rumbles across open waterways."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 1 Exemplar Workbook Entry: Fishing Hazards",
+        "title": "Fishing Req 1 Worked Example: Angling Hazards and Emergency Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Aquatic Hazard Identification": "Angling environments present rapid current changes, submerged debris, and sudden electrical storms. Scouts reduce danger by monitoring weather reports and surveying shorelines prior to rigging tackle.",
-          "Req 1b - Waterfront First Aid": "Fishing injuries include fish spine punctures, dehydration, hypothermia, and insect bites. Cleaning punctures with clean water and seeking professional care prevents aquatic bacterial infections.",
-          "Req 1c - Barbed Hook Extraction": "A hook barb lodged below the skin requires careful string yank extraction or surgical advancement. If the hook is lodged near eyes or arteries, immediate medical transport is required.",
-          "Req 1d - Essential Waterfront Safety": "Anglers maintain casting buffers, wear protective eyewear, store lures securely, use flotation gear, and monitor weather. Adhering to these five protocols prevents common hook and water accidents."
+          "Phase 1 - Perimeter Scan": "Survey the bank for loose gravel, slippery mud, and overhead utility lines.",
+          "Phase 2 - Gear Preparation": "Don polarized safety glasses and secure an approved life jacket before casting.",
+          "Phase 3 - Distance Check": "Maintain at least one rod length of clearance between all neighboring anglers.",
+          "Phase 4 - Hook Securing": "Fasten the exposed hook to the rod keeper ring during trail travel."
         },
-        "sample_output": "Fishing Hazards and First Aid: Cool the victim any way you can (cover the person with cool, wet towels, or sponge the person with cool water; fan the person; place the victim in a stream) (p. 15).",
-        "counselor_tip": "For Fishing Requirement 1 (Fishing Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17))."
+        "sample_output": "Anglers face specific environmental hazards including sudden immersion, severe weather shifts, hook punctures, and biting insects near waterways. Prepared scouts mitigate these risks through situational awareness, personal flotation devices, protective eyewear, and prompt wound care.",
+        "counselor_tip": "During the Fishing Requirement 1 conference on Angling Hazards and Emergency Safety, verify that the Scout can explain overhead line hazards and demonstrate hook securing: Fasten the exposed hook to the rod keeper ring during trail travel."
       },
       "quiz_item": {
         "scenario_prompt": "While fishing from a dock for Fishing Requirement 1, a barbless hook embeds past the bend into a companion's forearm (nowhere near the eye or major arteries), or a barbed hook catches in the skin. What safe practices prevent and treat hook injuries?",
@@ -667,47 +667,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Caudal Fin Propulsion",
-        "right_header": "Req 2: Inspect Jaw and Teeth",
+        "left_header": "Tackle Outfits and Rod Maintenance: Core Principles",
+        "right_header": "Tackle Outfits and Rod Maintenance: Field Execution",
         "left_points": [
-          "Caudal Fin Propulsion: Used in swimming, particularly when a fish needs aquick thrust of speed (p. 20).",
-          "Monocular Fish Vision: Most fish have monocular vision, each eye sees separately, offering a wide field of view (p. 20).",
-          "Prey Gripping Jaw Teeth: They may be equipped with teeth so that a fish can grip its prey while feeding (p. 20)."
+          "Spincast Reel Design: Enclosed spools prevent line tangles, making spincast gear ideal for novice anglers.",
+          "Open Face Mechanics: Spinning reels feature fixed external spools that allow long casts with light lures."
         ],
         "right_points": [
-          "Inspect Jaw and Teeth: They may be equipped with teeth so that a fish can grip its prey while feeding (p. 20).",
-          "Preserve Protective Body Scales: Transparent protective plates growing from the skin that can be replaced if lost (p. 20).",
-          "Note Dorsal Fin Balance: The forward fin, supported by sharp spines, is used for balance (p. 20)."
+          "Baitcasting Spool Control: Revolving spools demand thumb braking pressure to prevent severe line overrun tangles.",
+          "Freshwater Rod Wash: Rinse ceramic line guides and reel seats with clean water after fishing."
         ],
         "rows": [
           {
             "attribute": "Spincast Reel Design",
-            "left": "Caudal Fin Propulsion: Used in swimming, particularly when a fish needs aquick thrust of speed (p. 20).",
-            "right": "Inspect Jaw and Teeth: They may be equipped with teeth so that a fish can grip its prey while feeding (p. 20)."
+            "left": "Spincast Reel Design: Enclosed spools prevent line tangles, making spincast gear ideal for novice anglers.",
+            "right": "Baitcasting Spool Control: Revolving spools demand thumb braking pressure to prevent severe line overrun tangles."
           },
           {
             "attribute": "Open Face Mechanics",
-            "left": "Monocular Fish Vision: Most fish have monocular vision, each eye sees separately, offering a wide field of view (p. 20).",
-            "right": "Preserve Protective Body Scales: Transparent protective plates growing from the skin that can be replaced if lost (p. 20)."
+            "left": "Open Face Mechanics: Spinning reels feature fixed external spools that allow long casts with light lures.",
+            "right": "Freshwater Rod Wash: Rinse ceramic line guides and reel seats with clean water after fishing."
           },
           {
             "attribute": "Baitcasting Spool Control",
-            "left": "Prey Gripping Jaw Teeth: They may be equipped with teeth so that a fish can grip its prey while feeding (p. 20).",
-            "right": "Note Dorsal Fin Balance: The forward fin, supported by sharp spines, is used for balance (p. 20)."
+            "left": "Baitcasting Spool Control: Revolving spools demand thumb braking pressure to prevent severe line overrun tangles.",
+            "right": "Freshwater Rod Wash: Rinse ceramic line guides and reel seats with clean water after fishing."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 2 Exemplar Workbook Entry: Fishing Outfits",
+        "title": "Fishing Req 2 Worked Example: Tackle Outfits and Rod Maintenance",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Caudal Fin Propulsion": "Used in swimming, particularly when a fish needs aquick thrust of speed (p. 20).",
-          "Monocular Fish Vision": "Most fish have monocular vision, each eye sees separately, offering a wide field of view (p. 20).",
-          "Prey Gripping Jaw Teeth": "They may be equipped with teeth so that a fish can grip its prey while feeding (p. 20).",
-          "Regenerating Protective Scales": "Transparent protective plates growing from the skin that can be replaced if lost (p. 20)."
+          "Phase 1 - Outfit Comparison": "Compare the revolving spool baitcaster against the stationary spool spinning reel mechanics.",
+          "Phase 2 - Component Identification": "Point out the reel seat, line guides, blank, handle, and drag knob.",
+          "Phase 3 - Freshwater Rinsing": "Flush exterior reel surfaces with a gentle spray of fresh clean water.",
+          "Phase 4 - Drag Loosening": "Back off the drag tension knob completely before placing rods in storage."
         },
-        "sample_output": "Fishing Outfits and Tackle Care: Used in swimming, particularly when a fish needs aquick thrust of speed (p. 20).",
-        "counselor_tip": "For Fishing Requirement 2 (Fishing Outfits and Tackle Care), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 20, p. 50))."
+        "sample_output": "Spincasting, spinning, baitcasting, and fly outfits feature distinct reel mechanics, line release methods, and rod actions. Regular rinsing with fresh water and annual drag disassembly protect internal gears from corrosion.",
+        "counselor_tip": "During the Fishing Requirement 2 conference on Tackle Outfits and Rod Maintenance, verify that the Scout can explain spincast reel design and demonstrate drag loosening: Back off the drag tension knob completely before placing rods in storage."
       },
       "quiz_item": {
         "scenario_prompt": "How should you clean and store your fishing rod and reel after fishing in freshwater or saltwater?",
@@ -872,47 +870,45 @@
         "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Specialized Fishing Line",
-        "right_header": "Req 3: Select Appropriate Line Color",
+        "left_header": "Tackle Operation and Casting Technique: Core Principles",
+        "right_header": "Tackle Operation and Casting Technique: Field Execution",
         "left_points": [
-          "Specialized Fishing Line Varieties: Varieties of lines of different weights, diameters, and construction are available, made for different types of fishing, fly-fishing, spin-fishing (p. 54).",
-          "Nylon Versus Fluorocarbon Buoyancy: Mono filament lines come labeled as nylon, which floats, and fluorocarbon, which sinks. allowing for different delivery of lures and baits (p. 54).",
-          "Clear and Tinted Visibility: These lines come in clear, which is almost invisible to fish, and in colored lines for different conditions (p. 54)."
+          "Spincast Release Timing: Press the thumb button firmly, swing smoothly overhead, and release forward.",
+          "Spinning Finger Release: Trap the line against the rod grip with index finger before opening bail."
         ],
         "right_points": [
-          "Select Appropriate Line Color: These lines come in clear, which is almost invisible to fish, and in colored lines for different conditions (p. 54).",
-          "Spool Monofilament on Reels: Nylon and fluorocarbon monofilament lines are used when using a fixed-line pole, a closed-face spin casting reel, or an open-faced spinning reel (p. 54).",
-          "Pair Braid With Reels: Low-stretch braided lines are generally used in bait-casting and open-faced spin fishing (p. 54)."
+          "Target Distance Control: Feather the exiting line with index finger pressure to land lures softly.",
+          "Sidearm Obstacle Casting: Deliver sidearm casts under overhanging shoreline tree branches to avoid limb snags."
         ],
         "rows": [
           {
             "attribute": "Spincast Release Timing",
-            "left": "Specialized Fishing Line Varieties: Varieties of lines of different weights, diameters, and construction are available, made for different types of fishing, fly-fishing, spin-fishing (p. 54).",
-            "right": "Select Appropriate Line Color: These lines come in clear, which is almost invisible to fish, and in colored lines for different conditions (p. 54)."
+            "left": "Spincast Release Timing: Press the thumb button firmly, swing smoothly overhead, and release forward.",
+            "right": "Target Distance Control: Feather the exiting line with index finger pressure to land lures softly."
           },
           {
             "attribute": "Spinning Finger Release",
-            "left": "Nylon Versus Fluorocarbon Buoyancy: Mono filament lines come labeled as nylon, which floats, and fluorocarbon, which sinks. allowing for different delivery of lures and baits (p. 54).",
-            "right": "Spool Monofilament on Reels: Nylon and fluorocarbon monofilament lines are used when using a fixed-line pole, a closed-face spin casting reel, or an open-faced spinning reel (p. 54)."
+            "left": "Spinning Finger Release: Trap the line against the rod grip with index finger before opening bail.",
+            "right": "Sidearm Obstacle Casting: Deliver sidearm casts under overhanging shoreline tree branches to avoid limb snags."
           },
           {
             "attribute": "Target Distance Control",
-            "left": "Clear and Tinted Visibility: These lines come in clear, which is almost invisible to fish, and in colored lines for different conditions (p. 54).",
-            "right": "Pair Braid With Reels: Low-stretch braided lines are generally used in bait-casting and open-faced spin fishing (p. 54)."
+            "left": "Target Distance Control: Feather the exiting line with index finger pressure to land lures softly.",
+            "right": "Sidearm Obstacle Casting: Deliver sidearm casts under overhanging shoreline tree branches to avoid limb snags."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 3 Exemplar Workbook Entry: Operating Two",
+        "title": "Fishing Req 3 Worked Example: Tackle Operation and Casting Technique",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Specialized Fishing Line Varieties": "Varieties of lines of different weights, diameters, and construction are available, made for different types of fishing, fly-fishing, spin-fishing (p. 54).",
-          "Nylon Versus Fluorocarbon Buoyancy": "Mono filament lines come labeled as nylon, which floats, and fluorocarbon, which sinks. allowing for different delivery of lures and baits (p. 54).",
-          "Clear and Tinted Visibility": "These lines come in clear, which is almost invisible to fish, and in colored lines for different conditions (p. 54).",
-          "Monofilament Reel Applications": "Nylon and fluorocarbon monofilament lines are used when using a fixed-line pole, a closed-face spin casting reel, or an open-faced spinning reel (p. 54)."
+          "Phase 1 - Backcast Verification": "Turn head fully to confirm the rear casting sector remains completely clear.",
+          "Phase 2 - Grip Alignment": "Position the reel foot between middle fingers while securing line firmly.",
+          "Phase 3 - Smooth Stroke": "Bring the rod back to ten oclock and accelerate toward two oclock.",
+          "Phase 4 - Feathered Touchdown": "Place index finger lightly against the spool edge as the lure lands."
         },
-        "sample_output": "Operating Two Fishing Outfits: Varieties of lines of different weights, diameters, and construction are available, made for different types of fishing, fly-fishing, spin-fishing (p. 54).",
-        "counselor_tip": "For Fishing Requirement 3 (Operating Two Fishing Outfits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70))."
+        "sample_output": "Mastering different outfits requires coordinating spool release timing, rod tip acceleration, and accurate trajectory control. Scouts practice both overhead and sidearm casts to place lures accurately without snagging shoreline brush.",
+        "counselor_tip": "During the Fishing Requirement 3 conference on Tackle Operation and Casting Technique, verify that the Scout can explain spincast release timing and demonstrate feathered touchdown: Place index finger lightly against the spool edge as the lure lands."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do nylon monofilament and fluorocarbon fishing lines differ in how they behave in the water?",
@@ -1091,47 +1087,45 @@
         "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit."
       ],
       "comparison_data": {
-        "left_header": "Req 4: Loop-to-Loop Leader Connection",
-        "right_header": "Req 4: Overlap Opposing Line Ends",
+        "left_header": "Terminal Tackle Knots and Rigging: Core Principles",
+        "right_header": "Terminal Tackle Knots and Rigging: Field Execution",
         "left_points": [
-          "Loop-to-Loop Leader Connection: This knot combines two leaders, each with a double surgeon's loop (p. 56).",
-          "Quick Leader Swapping: The leaders can be changed easily with this connection (p. 56).",
-          "Overlapping Opposing Tag Ends: Start by laying the two lines to be joined with tagends in opposite directions, overlapping by six-plus inches (p. 56)."
+          "Friction Heat Reduction: Lubricate line with water before pulling knot wraps tight to prevent weakening.",
+          "Palomar Knot Strength: Double the line through the hook eye to produce near hundred percent strength."
         ],
         "right_points": [
-          "Overlap Opposing Line Ends: Start by laying the two lines to be joined with tagends in opposite directions, overlapping by six-plus inches (p. 56).",
-          "Pass Through Loop Twice: Now take the overlapping lines and form a double overhand knot, passing the tag end and the entire shorter line through the loop twice (p. 56).",
-          "Moisten and Cinch Tight: Finish by moistening the knot and pulling both ends tight (p. 56)."
+          "Line Joining Connection: Form interlocking uni knots to splice braided main line to monofilament leaders securely.",
+          "Spool Backing Anchor: Wrap arbor knots around the reel arbor to prevent line slipping under tension."
         ],
         "rows": [
           {
             "attribute": "Friction Heat Reduction",
-            "left": "Loop-to-Loop Leader Connection: This knot combines two leaders, each with a double surgeon's loop (p. 56).",
-            "right": "Overlap Opposing Line Ends: Start by laying the two lines to be joined with tagends in opposite directions, overlapping by six-plus inches (p. 56)."
+            "left": "Friction Heat Reduction: Lubricate line with water before pulling knot wraps tight to prevent weakening.",
+            "right": "Line Joining Connection: Form interlocking uni knots to splice braided main line to monofilament leaders securely."
           },
           {
             "attribute": "Palomar Knot Strength",
-            "left": "Quick Leader Swapping: The leaders can be changed easily with this connection (p. 56).",
-            "right": "Pass Through Loop Twice: Now take the overlapping lines and form a double overhand knot, passing the tag end and the entire shorter line through the loop twice (p. 56)."
+            "left": "Palomar Knot Strength: Double the line through the hook eye to produce near hundred percent strength.",
+            "right": "Spool Backing Anchor: Wrap arbor knots around the reel arbor to prevent line slipping under tension."
           },
           {
             "attribute": "Line Joining Connection",
-            "left": "Overlapping Opposing Tag Ends: Start by laying the two lines to be joined with tagends in opposite directions, overlapping by six-plus inches (p. 56).",
-            "right": "Moisten and Cinch Tight: Finish by moistening the knot and pulling both ends tight (p. 56)."
+            "left": "Line Joining Connection: Form interlocking uni knots to splice braided main line to monofilament leaders securely.",
+            "right": "Spool Backing Anchor: Wrap arbor knots around the reel arbor to prevent line slipping under tension."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 4 Exemplar Workbook Entry: Tying Five",
+        "title": "Fishing Req 4 Worked Example: Terminal Tackle Knots and Rigging",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Loop-to-Loop Leader Connection": "This knot combines two leaders, each with a double surgeon's loop (p. 56).",
-          "Quick Leader Swapping": "The leaders can be changed easily with this connection (p. 56).",
-          "Overlapping Opposing Tag Ends": "Start by laying the two lines to be joined with tagends in opposite directions, overlapping by six-plus inches (p. 56).",
-          "Double Overhand Loop Pass": "Now take the overlapping lines and form a double overhand knot, passing the tag end and the entire shorter line through the loop twice (p. 56)."
+          "Phase 1 - Line Threading": "Pass the working line tag end through the eyelet of the hook.",
+          "Phase 2 - Wrap Formation": "Twist five neat wraps around the standing line without overlapping adjacent turns.",
+          "Phase 3 - Surface Lubrication": "Moisten all line wraps thoroughly with saliva or freshwater before pulling tight.",
+          "Phase 4 - Tag Trimming": "Snip the tag end cleanly leaving one eighth inch of standing buffer."
         },
-        "sample_output": "Tying Five Essential Fishing Knots: This knot combines two leaders, each with a double surgeon's loop (p. 56).",
-        "counselor_tip": "For Fishing Requirement 4 (Tying Five Essential Fishing Knots), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58))."
+        "sample_output": "Anglers rely on specialized knots to attach hooks, join lines of unequal diameter, and anchor backing to spools. Wetting line with water or saliva before cinching reduces friction heat and preserves monofilament breaking strength.",
+        "counselor_tip": "During the Fishing Requirement 4 conference on Terminal Tackle Knots and Rigging, verify that the Scout can explain friction heat reduction and demonstrate tag trimming: Snip the tag end cleanly leaving one eighth inch of standing buffer."
       },
       "quiz_item": {
         "scenario_prompt": "Which knot is specifically designed to tie two separate fishing lines of similar or slightly different diameters together?",
@@ -1297,47 +1291,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Slow Bottom Worm Presentation",
-        "right_header": "Req 5: Work Soft Plastic Lures",
+        "left_header": "Lures Baits and Aquatic Ecology: Core Principles",
+        "right_header": "Lures Baits and Aquatic Ecology: Field Execution",
         "left_points": [
-          "Slow Bottom Worm Presentation: Plastic worms are fished slowly, on or near the bottom (p. 66).",
-          "Weedless Texas Rig Hook set: With the Texas rig or weedless rig, the fish is allowed to mouth the bait before the hook is set (p. 66).",
-          "Lifelike Soft Plastic Action: These soft, pliable lures in varying styles and shapes can be made to swim, wiggle, and dance underwater with an action the fish cannot resist (p. 66)."
+          "Spoon Wobble Action: Curved metal spoons wobble through the water column to imitate injured forage minnows.",
+          "Spinnerbait Blade Flash: Revolving metal blades generate intense underwater thumping vibrations that draw predatory strikes."
         ],
         "right_points": [
-          "Work Soft Plastic Lures: These soft, pliable lures in varying styles and shapes can be made to swim, wiggle, and dance underwater with an action the fish cannot resist (p. 66).",
-          "Rig Hooks and Jigs: They are used plain on abare hook, impaled on a jig, or effectively utilized with several popular rigs (p. 66).",
-          "Select Bass Worm Styles: Bass are particularly attracted to these artificial worms, which the industry provides in different styles, shapes, and colors (p. 66)."
+          "Natural Scent Appeal: Earthworms and nightcrawlers release natural amino acids that attract bottom feeding species.",
+          "Baitfish Disposal Law: Dispose of unused live minnows on land or in municipal trash cans."
         ],
         "rows": [
           {
             "attribute": "Spoon Wobble Action",
-            "left": "Slow Bottom Worm Presentation: Plastic worms are fished slowly, on or near the bottom (p. 66).",
-            "right": "Work Soft Plastic Lures: These soft, pliable lures in varying styles and shapes can be made to swim, wiggle, and dance underwater with an action the fish cannot resist (p. 66)."
+            "left": "Spoon Wobble Action: Curved metal spoons wobble through the water column to imitate injured forage minnows.",
+            "right": "Natural Scent Appeal: Earthworms and nightcrawlers release natural amino acids that attract bottom feeding species."
           },
           {
             "attribute": "Spinnerbait Blade Flash",
-            "left": "Weedless Texas Rig Hook set: With the Texas rig or weedless rig, the fish is allowed to mouth the bait before the hook is set (p. 66).",
-            "right": "Rig Hooks and Jigs: They are used plain on abare hook, impaled on a jig, or effectively utilized with several popular rigs (p. 66)."
+            "left": "Spinnerbait Blade Flash: Revolving metal blades generate intense underwater thumping vibrations that draw predatory strikes.",
+            "right": "Baitfish Disposal Law: Dispose of unused live minnows on land or in municipal trash cans."
           },
           {
             "attribute": "Natural Scent Appeal",
-            "left": "Lifelike Soft Plastic Action: These soft, pliable lures in varying styles and shapes can be made to swim, wiggle, and dance underwater with an action the fish cannot resist (p. 66).",
-            "right": "Select Bass Worm Styles: Bass are particularly attracted to these artificial worms, which the industry provides in different styles, shapes, and colors (p. 66)."
+            "left": "Natural Scent Appeal: Earthworms and nightcrawlers release natural amino acids that attract bottom feeding species.",
+            "right": "Baitfish Disposal Law: Dispose of unused live minnows on land or in municipal trash cans."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 5 Exemplar Workbook Entry: Artificial Lures",
+        "title": "Fishing Req 5 Worked Example: Lures Baits and Aquatic Ecology",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Slow Bottom Worm Presentation": "Plastic worms are fished slowly, on or near the bottom (p. 66).",
-          "Weedless Texas Rig Hook set": "With the Texas rig or weedless rig, the fish is allowed to mouth the bait before the hook is set (p. 66).",
-          "Lifelike Soft Plastic Action": "These soft, pliable lures in varying styles and shapes can be made to swim, wiggle, and dance underwater with an action the fish cannot resist (p. 66).",
-          "Versatile Soft Bait Rigging": "They are used plain on abare hook, impaled on a jig, or effectively utilized with several popular rigs (p. 66)."
+          "Phase 1 - Lure Selection": "Match artificial lure profile and color to local forage fish swimming nearby.",
+          "Phase 2 - Natural Hooking": "Thread the live bait through tough lip or collar tissue to preserve movement.",
+          "Phase 3 - Retrieve Cadence": "Impart twitches and pauses to lure retrieves to simulate wounded forage prey.",
+          "Phase 4 - Responsible Disposal": "Place unused bait minnows in sealed bags for proper shore disposal."
         },
-        "sample_output": "Artificial Lures and Natural Baits: Plastic worms are fished slowly, on or near the bottom (p. 66).",
-        "counselor_tip": "For Fishing Requirement 5 (Artificial Lures and Natural Baits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 66, p. 69))."
+        "sample_output": "Lures mimic prey through flash, vibration, and erratic swimming action, while live baits stimulate fish olfaction and taste. Anglers must never release baitfish into wild waters to protect native species from invasive competition and disease.",
+        "counselor_tip": "During the Fishing Requirement 5 conference on Lures Baits and Aquatic Ecology, verify that the Scout can explain spoon wobble action and demonstrate responsible disposal: Place unused bait minnows in sealed bags for proper shore disposal."
       },
       "quiz_item": {
         "scenario_prompt": "Why should anglers never dump leftover live baitfish from their bait bucket into the water at the end of a fishing trip?",
@@ -1666,10 +1658,12 @@
         "left_header": "Req 6a: Riparian Leave No Trace Ethics",
         "right_header": "Req 6b: Catch and Release Techniques",
         "left_points": [
-          "(6a) Riparian Leave No Trace Ethics: Anglers protect fragile riverbank soils and surrounding vegetation by treading on durable surfaces and packing out discarded tackle. Adhering to the Outdoor Code ensures that clean waterways and undisturbed habitats endure for future generations."
+          "(6a) Riparian Leave No Trace Ethics: Anglers protect fragile riverbank soils and surrounding vegetation by treading on durable surfaces and packing out discarded tackle. Adhering to the Outdoor Code ensures that clean waterways and undisturbed habitats endure for future generations.",
+          "Monofilament Litter Hazard: Discarded nylon line entangles birds, small mammals, and boat propellers for decades."
         ],
         "right_points": [
-          "(6b) Catch and Release Techniques: Safe catch and release demands quick landing times, barbless hooks, wet hands, and minimal exposure to air. Reviving an exhausted fish in moving water replenishes oxygen levels before the fish swims free."
+          "(6b) Catch and Release Techniques: Safe catch and release demands quick landing times, barbless hooks, wet hands, and minimal exposure to air. Reviving an exhausted fish in moving water replenishes oxygen levels before the fish swims free.",
+          "Barbless Hook Benefits: Crush hook barbs with pliers to facilitate rapid hook removal without tissue damage."
         ],
         "rows": [
           {
@@ -1679,25 +1673,27 @@
           },
           {
             "attribute": "Wet Hand Handling",
-            "left": "Req 6a: Riparian Leave No Trace: Anglers protect fragile riverbank soils and surrounding vegetation by treading on durable surfaces and packing out discarded tackle. Adhering to the Outdoor Code ensures that clean waterways and undisturbed habitats endure for future generations.",
-            "right": "Req 6b: Catch and Release Techniques: Safe catch and release demands quick landing times, barbless hooks, wet hands, and minimal exposure to air. Reviving an exhausted fish in moving water replenishes oxygen levels before the fish swims free."
+            "left": "Monofilament Litter Hazard: Discarded nylon line entangles birds, small mammals, and boat propellers for decades.",
+            "right": "Barbless Hook Benefits: Crush hook barbs with pliers to facilitate rapid hook removal without tissue damage."
           },
           {
             "attribute": "Barbless Hook Benefits",
-            "left": "Monofilament Litter Hazard: Discarded nylon line entangles birds, small mammals, and boat propellers for decades.",
-            "right": "Wet Hand Handling: Wet bare hands before touching fish to prevent rubbing away protective body slime."
+            "left": "Barbless Hook Benefits: Crush hook barbs with pliers to facilitate rapid hook removal without tissue damage.",
+            "right": "Upstream Resuscitation Hold: Hold exhausted fish facing upstream into gentle current until strong tail kicks return."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 6 Exemplar Workbook Entry: Leave No Trace",
+        "title": "Fishing Req 6 Worked Example: Aquatic Conservation and Catch Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Riparian Leave No Trace": "Anglers protect fragile riverbank soils and surrounding vegetation by treading on durable surfaces and packing out discarded tackle. Adhering to the Outdoor Code ensures that clean waterways and undisturbed habitats endure for future generations.",
-          "Req 6b - Catch and Release Techniques": "Safe catch and release demands quick landing times, barbless hooks, wet hands, and minimal exposure to air. Reviving an exhausted fish in moving water replenishes oxygen levels before the fish swims free."
+          "Phase 1 - Camp Selection": "Establish angling staging areas on durable rock, gravel, or established sand bars.",
+          "Phase 2 - Net Landing": "Cradle the hooked fish gently in a knotless rubber landing net bag.",
+          "Phase 3 - Submerged Unhooking": "Back the hook barb out carefully with forceps while keeping fish submerged.",
+          "Phase 4 - Water Resuscitation": "Support the fish upright facing current until it swims away under self power."
         },
-        "sample_output": "Leave No Trace and Conservation: Along with the Outdoor Code, the seven Leave No Trace principles offer guidelines to follow at all times (p. 45).",
-        "counselor_tip": "For Fishing Requirement 6 (Leave No Trace and Conservation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88))."
+        "sample_output": "Practicing Leave No Trace principles along waterways preserves pristine riparian vegetation, eliminates deadly monofilament litter, and guards wild fish stocks. Responsible catch and release minimizes air exposure, protects delicate slime coats, and ensures fish survival upon return.",
+        "counselor_tip": "During the Fishing Requirement 6 conference on Aquatic Conservation and Catch Management, verify that the Scout can explain monofilament litter hazard and demonstrate water resuscitation: Support the fish upright facing current until it swims away under self power."
       },
       "quiz_item": {
         "scenario_prompt": "What should you do when practicing catch and release if a fish has swallowed the hook deep into its throat?",
@@ -1851,47 +1847,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Essential Angling Terminology",
-        "right_header": "Req 7: Decide Your Fishing Goal",
+        "left_header": "Fisheries Regulations and Conservation Laws: Core Principles",
+        "right_header": "Fisheries Regulations and Conservation Laws: Field Execution",
         "left_points": [
-          "Essential Angling Terminology: Words shown in bold print appear in the glossary near the back of this pamphlet (p. 8).",
-          "Understanding Fish and Tactics: This pamphlet will tell you a lot about fish and how to catch them (p. 8).",
-          "Sport and Table Fare: You might catch them for fun and \"sport,\" or to eat (p. 8)."
+          "Slot Limit Purpose: Slot limits protect mature breeding fish while permitting harvest of abundant smaller yearlings.",
+          "Creel Limit Enforcement: Daily bag limits prevent overharvesting and distribute fish resources equitably across all anglers."
         ],
         "right_points": [
-          "Decide Your Fishing Goal: You might catch them for fun and \"sport,\" or to eat (p. 8).",
-          "Build Lifelong Angling Skills: Fishing can become a lifetime pursuit, like golf or tennis (p. 8).",
-          "Study Diverse Fish Species: Many kinds of fish are described here, along with many ways to catch them, there are always new challenges in fishing, and always more to learn (p. 8)."
+          "Closed Spawning Seasons: Fishing closures during spring protect spawning game fish while laying vulnerable fertile eggs.",
+          "License Revenue Allocation: State fishing license fees directly fund fish hatcheries, public boat ramps, and research."
         ],
         "rows": [
           {
             "attribute": "Slot Limit Purpose",
-            "left": "Essential Angling Terminology: Words shown in bold print appear in the glossary near the back of this pamphlet (p. 8).",
-            "right": "Decide Your Fishing Goal: You might catch them for fun and \"sport,\" or to eat (p. 8)."
+            "left": "Slot Limit Purpose: Slot limits protect mature breeding fish while permitting harvest of abundant smaller yearlings.",
+            "right": "Closed Spawning Seasons: Fishing closures during spring protect spawning game fish while laying vulnerable fertile eggs."
           },
           {
             "attribute": "Creel Limit Enforcement",
-            "left": "Understanding Fish and Tactics: This pamphlet will tell you a lot about fish and how to catch them (p. 8).",
-            "right": "Build Lifelong Angling Skills: Fishing can become a lifetime pursuit, like golf or tennis (p. 8)."
+            "left": "Creel Limit Enforcement: Daily bag limits prevent overharvesting and distribute fish resources equitably across all anglers.",
+            "right": "License Revenue Allocation: State fishing license fees directly fund fish hatcheries, public boat ramps, and research."
           },
           {
             "attribute": "Closed Spawning Seasons",
-            "left": "Sport and Table Fare: You might catch them for fun and \"sport,\" or to eat (p. 8).",
-            "right": "Study Diverse Fish Species: Many kinds of fish are described here, along with many ways to catch them, there are always new challenges in fishing, and always more to learn (p. 8)."
+            "left": "Closed Spawning Seasons: Fishing closures during spring protect spawning game fish while laying vulnerable fertile eggs.",
+            "right": "License Revenue Allocation: State fishing license fees directly fund fish hatcheries, public boat ramps, and research."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 7 Exemplar Workbook Entry: Local Game",
+        "title": "Fishing Req 7 Worked Example: Fisheries Regulations and Conservation Laws",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Essential Angling Terminology": "Words shown in bold print appear in the glossary near the back of this pamphlet (p. 8).",
-          "Understanding Fish and Tactics": "This pamphlet will tell you a lot about fish and how to catch them (p. 8).",
-          "Sport and Table Fare": "You might catch them for fun and \"sport,\" or to eat (p. 8).",
-          "A Lifetime Outdoor Pursuit": "Fishing can become a lifetime pursuit, like golf or tennis (p. 8)."
+          "Phase 1 - Rulebook Review": "Read state wildlife agency regulations regarding the target waterbody before going fishing.",
+          "Phase 2 - Species Measurement": "Lay the fish flat along an approved measuring board from snout to tail.",
+          "Phase 3 - Creel Counting": "Tally all harvested fish against the daily legal species possession limits immediately.",
+          "Phase 4 - License Stowing": "Secure the valid state fishing license and identification inside a waterproof pouch."
         },
-        "sample_output": "Local Game Fishing Regulations: Words shown in bold print appear in the glossary near the back of this pamphlet (p. 8).",
-        "counselor_tip": "For Fishing Requirement 7 (Local Game Fishing Regulations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63))."
+        "sample_output": "State fisheries departments establish creel limits, size minimums, and seasonal closures to maintain balanced fish age classes. Following published wildlife agency rules prevents resource depletion and finances aquatic conservation through license revenues.",
+        "counselor_tip": "During the Fishing Requirement 7 conference on Fisheries Regulations and Conservation Laws, verify that the Scout can explain slot limit purpose and demonstrate license stowing: Secure the valid state fishing license and identification inside a waterproof pouch."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary biological purpose of minimum length limits and closed spawning seasons in state game fishing regulations?",
@@ -2045,47 +2039,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Stewardship Beyond Litter Pickup",
-        "right_header": "Req 8: Practice Ethical Sportsmanship",
+        "left_header": "Sportsmanship and Outdoor Angling Ethics: Core Principles",
+        "right_header": "Sportsmanship and Outdoor Angling Ethics: Field Execution",
         "left_points": [
-          "Stewardship Beyond Litter Pickup: To ensure a healthy future for ourselves and our environment, we must do more than simply pick up litter (p. 84).",
-          "Protecting Natural Character: We must learn how to maintain the integrity and character of the outdoors (p. 84).",
-          "Ethical Angler Attitude: Leave No Trace is a set of rules, but it is also an awareness and an attitude (p. 84)."
+          "Property Boundary Respect: Ask private landowners for permission before crossing shoreline fences or docking watercraft.",
+          "Water Sharing Courtesy: Avoid casting into water pools already occupied by stationary shoreline or wade anglers."
         ],
         "right_points": [
-          "Practice Ethical Sportsmanship: Leave No Trace is a set of rules, but it is also an awareness and an attitude (p. 84).",
-          "Uphold the Seven Principles: Along with the Outdoor Code, the seven Leave No Trace principles offer guidelines to follow at all times (p. 84).",
-          "Respect Private Property Boundaries: These guidelines apply to fishing as well as hiking, camping, or any other outdoor activity (p. 84)."
+          "Wake Reduction Etiquette: Slow motorized boats to idle speed when passing anchored fishing vessels or docks.",
+          "Shoreline Clean Sweep: Pick up abandoned monofilament and beverage containers before leaving every fishing location."
         ],
         "rows": [
           {
             "attribute": "Property Boundary Respect",
-            "left": "Stewardship Beyond Litter Pickup: To ensure a healthy future for ourselves and our environment, we must do more than simply pick up litter (p. 84).",
-            "right": "Practice Ethical Sportsmanship: Leave No Trace is a set of rules, but it is also an awareness and an attitude (p. 84)."
+            "left": "Property Boundary Respect: Ask private landowners for permission before crossing shoreline fences or docking watercraft.",
+            "right": "Wake Reduction Etiquette: Slow motorized boats to idle speed when passing anchored fishing vessels or docks."
           },
           {
             "attribute": "Water Sharing Courtesy",
-            "left": "Protecting Natural Character: We must learn how to maintain the integrity and character of the outdoors (p. 84).",
-            "right": "Uphold the Seven Principles: Along with the Outdoor Code, the seven Leave No Trace principles offer guidelines to follow at all times (p. 84)."
+            "left": "Water Sharing Courtesy: Avoid casting into water pools already occupied by stationary shoreline or wade anglers.",
+            "right": "Shoreline Clean Sweep: Pick up abandoned monofilament and beverage containers before leaving every fishing location."
           },
           {
             "attribute": "Wake Reduction Etiquette",
-            "left": "Ethical Angler Attitude: Leave No Trace is a set of rules, but it is also an awareness and an attitude (p. 84).",
-            "right": "Respect Private Property Boundaries: These guidelines apply to fishing as well as hiking, camping, or any other outdoor activity (p. 84)."
+            "left": "Wake Reduction Etiquette: Slow motorized boats to idle speed when passing anchored fishing vessels or docks.",
+            "right": "Shoreline Clean Sweep: Pick up abandoned monofilament and beverage containers before leaving every fishing location."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 8 Exemplar Workbook Entry: Outdoor Ethics",
+        "title": "Fishing Req 8 Worked Example: Sportsmanship and Outdoor Angling Ethics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Stewardship Beyond Litter Pickup": "To ensure a healthy future for ourselves and our environment, we must do more than simply pick up litter (p. 84).",
-          "Protecting Natural Character": "We must learn how to maintain the integrity and character of the outdoors (p. 84).",
-          "Ethical Angler Attitude": "Leave No Trace is a set of rules, but it is also an awareness and an attitude (p. 84).",
-          "Outdoor Code Field Standards": "Along with the Outdoor Code, the seven Leave No Trace principles offer guidelines to follow at all times (p. 84)."
+          "Phase 1 - Access Verification": "Confirm public access rights or obtain landowner permission before crossing shoreline boundaries.",
+          "Phase 2 - Courteous Spacing": "Maintain a wide buffer when approaching pools where other anglers are actively fishing.",
+          "Phase 3 - Low Profile": "Keep movement and sound minimal along banks to avoid spooking resting game fish.",
+          "Phase 4 - Litter Evacuation": "Inspect the fishing site and carry out all human trash in a bag."
         },
-        "sample_output": "Outdoor Ethics and Sportsmanship: To ensure a healthy future for ourselves and our environment, we must do more than simply pick up litter (p. 84).",
-        "counselor_tip": "For Fishing Requirement 8 (Outdoor Ethics and Sportsmanship), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 84, p. 88))."
+        "sample_output": "True sportsmanship requires courtesy toward fellow boaters, strict respect for private landowners, and quiet shoreline conduct. Anglers embody the Outdoor Code by leaving banks cleaner than found and sharing productive water generously.",
+        "counselor_tip": "During the Fishing Requirement 8 conference on Sportsmanship and Outdoor Angling Ethics, verify that the Scout can explain property boundary respect and demonstrate litter evacuation: Inspect the fishing site and carry out all human trash in a bag."
       },
       "quiz_item": {
         "scenario_prompt": "How should an ethical angler handle access when a promising fishing pond or stream is bordered by private land?",
@@ -2245,47 +2237,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Baden-Powell's Favorite Pastime",
-        "right_header": "Req 9: Appreciate Quiet Stream Patience",
+        "left_header": "Fish Capture and Species Identification: Core Principles",
+        "right_header": "Fish Capture and Species Identification: Field Execution",
         "left_points": [
-          "Baden-Powell's Favorite Pastime: Baden-Powell, the founder of the Scouting movement, claimed fishing as one of his favorite pastimes (p. 9).",
-          "Always Ready to Fish: Everywhere he went, his fishing rods, reels, and fishing kit went with him (p. 9).",
-          "Trout Fishing Rest Cure: In his book Lessons From the Varsity of Life, Baden-Powell declares, \"Trout fishing is the best rest-cure in the world (p. 9)."
+          "Dorsal Fin Structures: Count the spiny versus soft dorsal fin rays to distinguish perch from sunfish.",
+          "Mouth Jaw Anatomy: Examine the upper jaw extension past the eye to distinguish bass species accurately."
         ],
         "right_points": [
-          "Appreciate Quiet Stream Patience: In his book Lessons From the Varsity of Life, Baden-Powell declares, \"Trout fishing is the best rest-cure in the world (p. 9).",
-          "Observe Anatomical Field Marks: Fish are highly specialized aquatic creatures, amazingly constructed for living in water (p. 9).",
-          "Protect Scales During Handling: When a scale is lost, its \"pocket\" can become infected before the skin heals and a new scale develops (p. 9)."
+          "Body Marking Patterns: Check for vertical bars or horizontal lateral stripes to confirm specific gamefish identification.",
+          "Safe Net Landing: Lead the exhausted fish over a submerged net without lifting line out early."
         ],
         "rows": [
           {
             "attribute": "Dorsal Fin Structures",
-            "left": "Baden-Powell's Favorite Pastime: Baden-Powell, the founder of the Scouting movement, claimed fishing as one of his favorite pastimes (p. 9).",
-            "right": "Appreciate Quiet Stream Patience: In his book Lessons From the Varsity of Life, Baden-Powell declares, \"Trout fishing is the best rest-cure in the world (p. 9)."
+            "left": "Dorsal Fin Structures: Count the spiny versus soft dorsal fin rays to distinguish perch from sunfish.",
+            "right": "Body Marking Patterns: Check for vertical bars or horizontal lateral stripes to confirm specific gamefish identification."
           },
           {
             "attribute": "Mouth Jaw Anatomy",
-            "left": "Always Ready to Fish: Everywhere he went, his fishing rods, reels, and fishing kit went with him (p. 9).",
-            "right": "Observe Anatomical Field Marks: Fish are highly specialized aquatic creatures, amazingly constructed for living in water (p. 9)."
+            "left": "Mouth Jaw Anatomy: Examine the upper jaw extension past the eye to distinguish bass species accurately.",
+            "right": "Safe Net Landing: Lead the exhausted fish over a submerged net without lifting line out early."
           },
           {
             "attribute": "Body Marking Patterns",
-            "left": "Trout Fishing Rest Cure: In his book Lessons From the Varsity of Life, Baden-Powell declares, \"Trout fishing is the best rest-cure in the world (p. 9).",
-            "right": "Protect Scales During Handling: When a scale is lost, its \"pocket\" can become infected before the skin heals and a new scale develops (p. 9)."
+            "left": "Body Marking Patterns: Check for vertical bars or horizontal lateral stripes to confirm specific gamefish identification.",
+            "right": "Safe Net Landing: Lead the exhausted fish over a submerged net without lifting line out early."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 9 Exemplar Workbook Entry: Catching",
+        "title": "Fishing Req 9 Worked Example: Fish Capture and Species Identification",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Baden-Powell's Favorite Pastime": "Baden-Powell, the founder of the Scouting movement, claimed fishing as one of his favorite pastimes (p. 9).",
-          "Always Ready to Fish": "Everywhere he went, his fishing rods, reels, and fishing kit went with him (p. 9).",
-          "Trout Fishing Rest Cure": "In his book Lessons From the Varsity of Life, Baden-Powell declares, \"Trout fishing is the best rest-cure in the world (p. 9).",
-          "Specialized Aquatic Adaptations": "Fish are highly specialized aquatic creatures, amazingly constructed for living in water (p. 9)."
+          "Phase 1 - Strike Detection": "Detect the line vibration and set hook with crisp upward rod motion.",
+          "Phase 2 - Controlled Retrieval": "Keep the rod tip elevated while reeling steadily against light drag resistance.",
+          "Phase 3 - Net Cradling": "Scoop the fish into a knotless mesh net while keeping head submerged.",
+          "Phase 4 - Trait Verification": "Count dorsal spines and examine mouth shape against an authoritative species key."
         },
-        "sample_output": "Catching and Identifying One Fish: Baden-Powell, the founder of the Scouting movement, claimed fishing as one of his favorite pastimes (p. 9).",
-        "counselor_tip": "For Fishing Requirement 9 (Catching and Identifying One Fish), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 9, p. 19))."
+        "sample_output": "Catching a fish demonstrates successful terminal tackle rigging, appropriate bait presentation, and controlled landing technique. Anglers identify their catch using dorsal fin structure, coloration patterns, mouth shape, and lateral line characteristics.",
+        "counselor_tip": "During the Fishing Requirement 9 conference on Fish Capture and Species Identification, verify that the Scout can explain dorsal fin structures and demonstrate trait verification: Count dorsal spines and examine mouth shape against an authoritative species key."
       },
       "quiz_item": {
         "scenario_prompt": "Which anatomical feature is most reliable for distinguishing a large mouth bass from a small mouth bass?",
@@ -2458,47 +2448,45 @@
         "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit."
       ],
       "comparison_data": {
-        "left_header": "Req 10: Choosing Whole Versus Filleted",
-        "right_header": "Req 10: Cut Behind the Gills",
+        "left_header": "Fish Preparation and Camp Cooking: Core Principles",
+        "right_header": "Fish Preparation and Camp Cooking: Field Execution",
         "left_points": [
-          "Choosing Whole Versus Filleted: Keep in mind that not all fish should be filleted (p. 79).",
-          "Boneless Skinless Fillet Benefits: Removing the meat of some fish from the bones and skin makes it easier to cook and to eat (p. 79).",
-          "Initial Behind-the-Gill Cut: Lay the fish on its side and make a cut just behind the gills down to the backbone (p. 79)."
+          "Knife Blade Sharpness: Maintain a razor sharp flexible blade to slice meat cleanly without tearing flesh.",
+          "Entrail Removal Protocol: Slice along the belly slit without puncturing internal organs or the bitter gall bladder."
         ],
         "right_points": [
-          "Cut Behind the Gills: Lay the fish on its side and make a cut just behind the gills down to the backbone (p. 79).",
-          "Slice Along the Backbone: Start at the cut made in step 1 and run the point of the knife alongside the backbone, down to where it starts to click along the tops of the ribs (p. 79).",
-          "Free Meat From Ribs: Cut alongside the ribs, working back toward the tail until the entire side of the fish is free from the ribs and backbone, but leave it attached (p. 79)."
+          "Cold Storage Maintenance: Store cleaned fish flesh on ice immediately to prevent bacterial growth and spoilage.",
+          "Core Temperature Cooking: Cook fish fillets until flesh turns opaque and flakes easily with a fork."
         ],
         "rows": [
           {
             "attribute": "Knife Blade Sharpness",
-            "left": "Choosing Whole Versus Filleted: Keep in mind that not all fish should be filleted (p. 79).",
-            "right": "Cut Behind the Gills: Lay the fish on its side and make a cut just behind the gills down to the backbone (p. 79)."
+            "left": "Knife Blade Sharpness: Maintain a razor sharp flexible blade to slice meat cleanly without tearing flesh.",
+            "right": "Cold Storage Maintenance: Store cleaned fish flesh on ice immediately to prevent bacterial growth and spoilage."
           },
           {
             "attribute": "Entrail Removal Protocol",
-            "left": "Boneless Skinless Fillet Benefits: Removing the meat of some fish from the bones and skin makes it easier to cook and to eat (p. 79).",
-            "right": "Slice Along the Backbone: Start at the cut made in step 1 and run the point of the knife alongside the backbone, down to where it starts to click along the tops of the ribs (p. 79)."
+            "left": "Entrail Removal Protocol: Slice along the belly slit without puncturing internal organs or the bitter gall bladder.",
+            "right": "Core Temperature Cooking: Cook fish fillets until flesh turns opaque and flakes easily with a fork."
           },
           {
             "attribute": "Cold Storage Maintenance",
-            "left": "Initial Behind-the-Gill Cut: Lay the fish on its side and make a cut just behind the gills down to the backbone (p. 79).",
-            "right": "Free Meat From Ribs: Cut alongside the ribs, working back toward the tail until the entire side of the fish is free from the ribs and backbone, but leave it attached (p. 79)."
+            "left": "Cold Storage Maintenance: Store cleaned fish flesh on ice immediately to prevent bacterial growth and spoilage.",
+            "right": "Core Temperature Cooking: Cook fish fillets until flesh turns opaque and flakes easily with a fork."
           }
         ]
       },
       "worked_example": {
-        "title": "Fishing Req 10 Exemplar Workbook Entry: Cleaning",
+        "title": "Fishing Req 10 Worked Example: Fish Preparation and Camp Cooking",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Choosing Whole Versus Filleted": "Keep in mind that not all fish should be filleted (p. 79).",
-          "Boneless Skinless Fillet Benefits": "Removing the meat of some fish from the bones and skin makes it easier to cook and to eat (p. 79).",
-          "Initial Behind-the-Gill Cut": "Lay the fish on its side and make a cut just behind the gills down to the backbone (p. 79).",
-          "Tracing the Backbone Line": "Start at the cut made in step 1 and run the point of the knife alongside the backbone, down to where it starts to click along the tops of the ribs (p. 79)."
+          "Phase 1 - Surface Washing": "Rinse the whole fish under cold potable water to remove exterior lake sediment.",
+          "Phase 2 - Belly Incision": "Insert the knife tip into the vent and cut forward toward the gills.",
+          "Phase 3 - Cavity Scraping": "Remove entrails and scrape away the dark kidney line along the exposed backbone.",
+          "Phase 4 - Skillet Searing": "Cook the seasoned fillets in a hot oiled camp skillet until thoroughly opaque."
         },
-        "sample_output": "Cleaning and Cooking Your Catch: Keep in mind that not all fish should be filleted (p. 79).",
-        "counselor_tip": "For Fishing Requirement 10 (Cleaning and Cooking Your Catch), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fishing Merit Badge Pamphlet (p. 79, p. 81))."
+        "sample_output": "Cleaning a fish requires filleting or gutting with a sharp fillet knife, removing entrails cleanly, and chilling the meat. Cooking over a camp stove or campfire ensures food safety while demonstrating self reliance in outdoor sustenance.",
+        "counselor_tip": "During the Fishing Requirement 10 conference on Fish Preparation and Camp Cooking, verify that the Scout can explain knife blade sharpness and demonstrate skillet searing: Cook the seasoned fillets in a hot oiled camp skillet until thoroughly opaque."
       },
       "quiz_item": {
         "scenario_prompt": "Why do you leave the side of the fish attached to a small strip of skin near the tail at the end of Step 2 when filleting?",

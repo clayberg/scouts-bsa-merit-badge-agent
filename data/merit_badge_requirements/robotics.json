@@ -252,13 +252,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Robotic Hazard Mitigation",
+        "left_header": "Req 1a: Robotic Hazard Mitigation Protocols",
         "right_header": "Req 1b: Robotics First Aid Preparedness",
         "left_points": [
-          "(1a) Robotic Hazard Mitigation Protocols: Robotics workspaces present chemical, electrical, and kinetic hazards that require structured mitigation protocols. Scouts must identify potential failure points including runaway code loops and overloaded power circuits."
+          "(1a) Robotic Hazard Mitigation Protocols: Robotics workspaces present chemical, electrical, and kinetic hazards that require structured mitigation protocols. Scouts must identify potential failure points including runaway code loops and overloaded power circuits.",
+          "Pinch Point Hazards: Rotating gears and exposed chain drives trap loose clothing during active system tests."
         ],
         "right_points": [
-          "(1b) Robotics First Aid Preparedness: First aid preparedness addresses lacerations from sheet metal edges, thermal burns from soldering irons, and eye injuries. Work areas require stocked trauma supplies and clear routes to clean eye rinse stations."
+          "(1b) Robotics First Aid Preparedness: First aid preparedness addresses lacerations from sheet metal edges, thermal burns from soldering irons, and eye injuries. Work areas require stocked trauma supplies and clear routes to clean eye rinse stations.",
+          "Eye Hazard Controls: Standard polycarbonate safety glasses protect retinas against snapped structural drive belts."
         ],
         "rows": [
           {
@@ -268,25 +270,27 @@
           },
           {
             "attribute": "Battery Short Prevention",
-            "left": "Req 1a: Robotic Hazard Mitigation: Robotics workspaces present chemical, electrical, and kinetic hazards that require structured mitigation protocols. Scouts must identify potential failure points including runaway code loops and overloaded power circuits.",
-            "right": "Req 1b: Robotics First Aid: First aid preparedness addresses lacerations from sheet metal edges, thermal burns from soldering irons, and eye injuries. Work areas require stocked trauma supplies and clear routes to clean eye rinse stations."
+            "left": "Pinch Point Hazards: Rotating gears and exposed chain drives trap loose clothing during active system tests.",
+            "right": "Eye Hazard Controls: Standard polycarbonate safety glasses protect retinas against snapped structural drive belts."
           },
           {
             "attribute": "Eye Hazard Controls",
-            "left": "Pinch Point Hazards: Rotating gears and exposed chain drives trap loose clothing during active system tests.",
-            "right": "Battery Short Prevention: Damaged lithium polymer casing materials release caustic electrolyte liquids upon sudden impact."
+            "left": "Eye Hazard Controls: Standard polycarbonate safety glasses protect retinas against snapped structural drive belts.",
+            "right": "Emergency Stop Operation: Dedicated mechanical kill switches instantly isolate motor controllers from chemical battery packs."
           }
         ]
       },
       "worked_example": {
-        "title": "Robotics Req 1 Exemplar Workbook Entry: Workshop Safety",
+        "title": "Robotics Req 1 Worked Example: Robotics Workshop Safety Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Robotic Hazard Mitigation": "Robotics workspaces present chemical, electrical, and kinetic hazards that require structured mitigation protocols. Scouts must identify potential failure points including runaway code loops and overloaded power circuits.",
-          "Req 1b - Robotics First Aid": "First aid preparedness addresses lacerations from sheet metal edges, thermal burns from soldering irons, and eye injuries. Work areas require stocked trauma supplies and clear routes to clean eye rinse stations."
+          "Phase 1 - Eye Protection Deployment": "Don certified polycarbonate eyewear before entering the mechanical fabrication staging zone.",
+          "Phase 2 - Electrical Harness Audit": "Examine exposed battery wiring harnesses for torn insulation jackets or frayed solder joints.",
+          "Phase 3 - Mechanical Clearance": "Check gear meshing zones for clear space before connecting main system power.",
+          "Phase 4 - Emergency Disconnect Test": "Trigger physical toggle disconnects to confirm immediate cessation of actuator drive torque."
         },
-        "sample_output": "Workshop Safety Hazards and First Aid: Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
-        "counselor_tip": "For Robotics Requirement 1 (Workshop Safety Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55))."
+        "sample_output": "Robotic prototyping introduces mechanical pinch points, sharp metal chassis edges, electrical short circuits, and chemical battery hazards. Handlers must disconnect power sources before adjusting mechanical linkages and wear ANSI rated safety glasses during all live testing.",
+        "counselor_tip": "During the Robotics Requirement 1 conference on Robotics Workshop Safety Systems, verify that the Scout can explain pinch point hazards and demonstrate emergency disconnect test: Trigger physical toggle disconnects to confirm immediate cessation of actuator drive torque."
       },
       "quiz_item": {
         "scenario_prompt": "While adjusting a jammed spur-gear drive train in the robotics lab, a Scout notices white dry residue from a damaged battery cell and has a minor sheet-metal cut on a forearm. What safety and first-aid procedure does the Robotics Merit Badge Pamphlet require?",
@@ -675,13 +679,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Current Industrial Robotic",
-        "right_header": "Req 2b: Robotic Autonomous Control",
+        "left_header": "Req 2a: Current Industrial Robotic Applications",
+        "right_header": "Req 2b: Robotic Autonomous Control Spectrum",
         "left_points": [
-          "(2a) Current Industrial Robotic Applications: Robots provide immense societal value across extreme environments where human presence poses severe safety risks. Modern automation focuses on dirty, dull, and dangerous tasks ranging from warehouse sorting to pipeline inspection."
+          "(2a) Current Industrial Robotic Applications: Robots provide immense societal value across extreme environments where human presence poses severe safety risks. Modern automation focuses on dirty, dull, and dangerous tasks ranging from warehouse sorting to pipeline inspection.",
+          "Industrial Work Cells: Articulated robot arms weld automotive chassis assemblies with consistent submillimeter positional repeatability."
         ],
         "right_points": [
-          "(2b) Robotic Autonomous Control Spectrum: Remote control vehicles respond purely to direct operator joystick inputs without local sensor interpretation. Telerobots combine remote human commands with sensory feedback arrays, while autonomous units execute onboard decision routines."
+          "(2b) Robotic Autonomous Control Spectrum: Remote control vehicles respond purely to direct operator joystick inputs without local sensor interpretation. Telerobots combine remote human commands with sensory feedback arrays, while autonomous units execute onboard decision routines.",
+          "(2c) Alternative Non Wheeled Locomotion: Alternative locomotion includes biomimetic legged walkers, peristaltic pipe crawlers, undulating snake forms, and underwater buoyancy thrusters. These non wheeled methods navigate steep climbs, granular sand, liquid conduits, and pipe networks."
         ],
         "rows": [
           {
@@ -691,26 +697,27 @@
           },
           {
             "attribute": "Hazardous Environment Deployment",
-            "left": "Req 2a: Current Industrial Robotic: Robots provide immense societal value across extreme environments where human presence poses severe safety risks. Modern automation focuses on dirty, dull, and dangerous tasks ranging from warehouse sorting to pipeline inspection.",
-            "right": "Req 2b: Robotic Autonomous Control: Remote control vehicles respond purely to direct operator joystick inputs without local sensor interpretation. Telerobots combine remote human commands with sensory feedback arrays, while autonomous units execute onboard decision routines."
+            "left": "Industrial Work Cells: Articulated robot arms weld automotive chassis assemblies with consistent submillimeter positional repeatability.",
+            "right": "(2c) Alternative Non Wheeled Locomotion: Alternative locomotion includes biomimetic legged walkers, peristaltic pipe crawlers, undulating snake forms, and underwater buoyancy thrusters. These non wheeled methods navigate steep climbs, granular sand, liquid conduits, and pipe networks."
           },
           {
             "attribute": "Agricultural Harvesting Systems",
-            "left": "Req 2c: Alternative Non Wheeled: Alternative locomotion includes biomimetic legged walkers, peristaltic pipe crawlers, undulating snake forms, and underwater buoyancy thrusters. These non wheeled methods navigate steep climbs, granular sand, liquid conduits, and pipe networks.",
-            "right": "Hazardous Environment Deployment: Remote bomb disposal units isolate human operators from lethal blast overpressure zones."
+            "left": "Agricultural Harvesting Systems: Vision guided automated pickers harvest ripe soft fruits without bruising delicate crops.",
+            "right": "Telerobotic Surgical Platforms: Console controlled robotic instruments translate human hand motions into micro scale incisions."
           }
         ]
       },
       "worked_example": {
-        "title": "Robotics Req 2 Exemplar Workbook Entry: Robot",
+        "title": "Robotics Req 2 Worked Example: Robotics Industry System Classifications",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Current Industrial Robotic": "Robots provide immense societal value across extreme environments where human presence poses severe safety risks. Modern automation focuses on dirty, dull, and dangerous tasks ranging from warehouse sorting to pipeline inspection.",
-          "Req 2b - Robotic Autonomous Control": "Remote control vehicles respond purely to direct operator joystick inputs without local sensor interpretation. Telerobots combine remote human commands with sensory feedback arrays, while autonomous units execute onboard decision routines.",
-          "Req 2c - Alternative Non Wheeled": "Alternative locomotion includes biomimetic legged walkers, peristaltic pipe crawlers, undulating snake forms, and underwater buoyancy thrusters. These non wheeled methods navigate steep climbs, granular sand, liquid conduits, and pipe networks."
+          "Phase 1 - Application Parameter Mapping": "Map operational payload weights and precision requirements for the targeted industrial task.",
+          "Phase 2 - Locomotion Mode Selection": "Compare terrain roughness against track, leg, and thruster mobility power budgets.",
+          "Phase 3 - Control Architecture": "Determine communication latency thresholds to classify teleoperation versus closed loop autonomous needs.",
+          "Phase 4 - System Boundary Validation": "Document physical environmental barriers required to prevent unintended human and robot collisions."
         },
-        "sample_output": "Robot Applications, Autonomy, and Locomotion: A common computer and robot interface is a keyboard (p. 16).",
-        "counselor_tip": "For Robotics Requirement 2 (Robot Applications, Autonomy, and Locomotion), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81))."
+        "sample_output": "Modern robots handle repetitive manufacturing, precision surgical procedures, deep ocean exploration, and toxic environmental remediation. Choosing a robotic architecture depends heavily on environmental predictability and required autonomous decision thresholds.",
+        "counselor_tip": "During the Robotics Requirement 2 conference on Robotics Industry System Classifications, verify that the Scout can explain industrial work cells and demonstrate system boundary validation: Document physical environmental barriers required to prevent unintended human and robot collisions."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Robotics merit badge pamphlet compare an autonomous robot system to the human autonomic nervous system?",
@@ -868,47 +875,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Multidisciplinary Engineering",
-        "right_header": "Req 3: Identify Human-Robot Interface",
+        "left_header": "Core Robotics Engineering Disciplines: Core Principles",
+        "right_header": "Core Robotics Engineering Disciplines: Field Execution",
         "left_points": [
-          "Multidisciplinary Engineering Teams: Sophisticated robot design typically requires the talents and expertise of teams of engineers (p. 15).",
-          "Human-Robot Communication Needs: A robot must be able to communicate with its human controller (p. 15).",
-          "Role of the Interface: The interface is the mechanism of communication between the person and the robot (p. 15)."
+          "Sensor Signal Processing: Ultrasonic transducers calculate obstacle distances by measuring acoustic wave round trip travel intervals.",
+          "Human Robot Interface: Visual graphical touchscreens let operators adjust motion parameters without rewriting low level code."
         ],
         "right_points": [
-          "Identify Human-Robot Interface: The interface is the mechanism of communication between the person and the robot (p. 15).",
-          "Examine Robot Locomotion Method: Locomotion is how the robot gets from place to place, how it moves in its environment (p. 15).",
-          "Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers (p. 15)."
+          "Kinematic Linkage Manipulation: Multi axis end effectors utilize proportional grip pressure sensors to grasp irregular objects.",
+          "Mobility Drive Systems: Differential steering architectures permit tight turns by rotating opposite drive wheels inversely."
         ],
         "rows": [
           {
             "attribute": "Sensor Signal Processing",
-            "left": "Multidisciplinary Engineering Teams: Sophisticated robot design typically requires the talents and expertise of teams of engineers (p. 15).",
-            "right": "Identify Human-Robot Interface: The interface is the mechanism of communication between the person and the robot (p. 15)."
+            "left": "Sensor Signal Processing: Ultrasonic transducers calculate obstacle distances by measuring acoustic wave round trip travel intervals.",
+            "right": "Kinematic Linkage Manipulation: Multi axis end effectors utilize proportional grip pressure sensors to grasp irregular objects."
           },
           {
             "attribute": "Human Robot Interface",
-            "left": "Human-Robot Communication Needs: A robot must be able to communicate with its human controller (p. 15).",
-            "right": "Examine Robot Locomotion Method: Locomotion is how the robot gets from place to place, how it moves in its environment (p. 15)."
+            "left": "Human Robot Interface: Visual graphical touchscreens let operators adjust motion parameters without rewriting low level code.",
+            "right": "Mobility Drive Systems: Differential steering architectures permit tight turns by rotating opposite drive wheels inversely."
           },
           {
             "attribute": "Kinematic Linkage Manipulation",
-            "left": "Role of the Interface: The interface is the mechanism of communication between the person and the robot (p. 15).",
-            "right": "Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers (p. 15)."
+            "left": "Kinematic Linkage Manipulation: Multi axis end effectors utilize proportional grip pressure sensors to grasp irregular objects.",
+            "right": "Mobility Drive Systems: Differential steering architectures permit tight turns by rotating opposite drive wheels inversely."
           }
         ]
       },
       "worked_example": {
-        "title": "Robotics Req 3 Exemplar Workbook Entry: Five Core Fields",
+        "title": "Robotics Req 3 Worked Example: Core Robotics Engineering Disciplines",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Multidisciplinary Engineering Teams": "Sophisticated robot design typically requires the talents and expertise of teams of engineers (p. 15).",
-          "Human-Robot Communication Needs": "A robot must be able to communicate with its human controller (p. 15).",
-          "Role of the Interface": "The interface is the mechanism of communication between the person and the robot (p. 15).",
-          "Principles of Robot Locomotion": "Locomotion is how the robot gets from place to place, how it moves in its environment (p. 15)."
+          "Phase 1 - Core Domain Analysis": "Select three target robotics fields matching the proposed mechanical demonstration prototype.",
+          "Phase 2 - Hardware Interface Mapping": "Chart digital and analog pin connections linking sensors directly to microcontroller boards.",
+          "Phase 3 - Kinematic Geometry Review": "Calculate necessary gear ratios and motor torque curves for selected manipulator joints.",
+          "Phase 4 - Functional Integration": "Trace control loop pathways connecting raw sensor readings to final motor reactions."
         },
-        "sample_output": "Five Core Fields of Robotics: Sophisticated robot design typically requires the talents and expertise of teams of engineers (p. 15).",
-        "counselor_tip": "For Robotics Requirement 3 (Five Core Fields of Robotics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 15, p. 17))."
+        "sample_output": "The primary robotics domains encompass human robot interface, mobility, manipulation, programming, and physical sensors. Successful field deployment requires harmonious integration between mechanical actuation, electronic sensing, and real time algorithmic processing.",
+        "counselor_tip": "During the Robotics Requirement 3 conference on Core Robotics Engineering Disciplines, verify that the Scout can explain sensor signal processing and demonstrate functional integration: Trace control loop pathways connecting raw sensor readings to final motor reactions."
       },
       "quiz_item": {
         "scenario_prompt": "Which major field of robotics focuses on how a robot physically interacts with objects, such as picking them up, placing them in containers, or spraying them with paint?",
@@ -1609,8 +1614,8 @@
         "Hex drivers, needle-nose pliers, zip ties, and marked competition test field."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Robotic Task Specification",
-        "right_header": "Req 4c: Mechanical Subsystem Chassis",
+        "left_header": "Req 4a: Robotic Task Specification Selection",
+        "right_header": "Req 4c: Mechanical Subsystem Chassis Fabrication",
         "left_points": [
           "(4a) Robotic Task Specification Selection: Task selection establishes objective functional parameters that guide structural choices, sensor selection, and software logic. The chosen assignment must integrate sensor inputs to alter actuator output actions during runtime.",
           "(4b) Kinematic Design Engineering Documentation: Robot design requires establishing kinematic envelopes, calculating gear ratios, and planning sensor placement. Scouts draw detailed diagrams and flowcharts in an engineering notebook before assembling hardware components."
@@ -1626,28 +1631,28 @@
             "right": "(4c) Mechanical Subsystem Chassis Fabrication: Mechanical construction translates engineering schematics into rigid hardware using brackets, shafts, fasteners, and drivetrains. Proper assembly ensures reliable power transfer, minimal friction losses, and secure wire routing."
           },
           {
-            "attribute": "Degree Of Freedom",
+            "attribute": "Degree of Freedom",
             "left": "(4b) Kinematic Design Engineering Documentation: Robot design requires establishing kinematic envelopes, calculating gear ratios, and planning sensor placement. Scouts draw detailed diagrams and flowcharts in an engineering notebook before assembling hardware components.",
             "right": "(4d) Embedded Controller Software Development: Programming translates logical decision trees into machine instructions that read sensors and control motor drivers. Scouts evaluate options like block environments or C based syntax to execute conditional logic loops."
           },
           {
             "attribute": "Closed Loop Sensing",
-            "left": "Req 4a: Robotic Task Specification: Task selection establishes objective functional parameters that guide structural choices, sensor selection, and software logic. The chosen assignment must integrate sensor inputs to alter actuator output actions during runtime.",
-            "right": "Req 4b: Kinematic Design Engineering: Robot design requires establishing kinematic envelopes, calculating gear ratios, and planning sensor placement. Scouts draw detailed diagrams and flowcharts in an engineering notebook before assembling hardware components."
+            "left": "Closed Loop Sensing: Infrared reflectivity sensors detect boundary lines by measuring reflected optical beam absorption.",
+            "right": "Iterative Firmware Refinement: Incremental code modifications isolate logic bugs more effectively than monolithic firmware rewrites."
           }
         ]
       },
       "worked_example": {
-        "title": "Robotics Req 4 Exemplar Workbook Entry: Robot Design",
+        "title": "Robotics Req 4 Worked Example: Robotic System Engineering Lifecycle",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Robotic Task Specification": "Task selection establishes objective functional parameters that guide structural choices, sensor selection, and software logic. The chosen assignment must integrate sensor inputs to alter actuator output actions during runtime.",
-          "Req 4b - Kinematic Design Engineering": "Robot design requires establishing kinematic envelopes, calculating gear ratios, and planning sensor placement. Scouts draw detailed diagrams and flowcharts in an engineering notebook before assembling hardware components.",
-          "Req 4c - Mechanical Subsystem Chassis": "Mechanical construction translates engineering schematics into rigid hardware using brackets, shafts, fasteners, and drivetrains. Proper assembly ensures reliable power transfer, minimal friction losses, and secure wire routing.",
-          "Req 4d - Embedded Controller Software": "Programming translates logical decision trees into machine instructions that read sensors and control motor drivers. Scouts evaluate options like block environments or C based syntax to execute conditional logic loops."
+          "Phase 1 - Task Parameter Selection": "Define measurable physical goals involving sensor triggers and mechanical payload relocation tasks.",
+          "Phase 2 - Notebook Design Drafting": "Sketch structural orthographic projections and schematic wiring layouts inside the engineering notebook.",
+          "Phase 3 - Mechanical Subsystem Assembly": "Fasten structural brackets, drive motors, and sensor brackets to the rigid chassis plate.",
+          "Phase 4 - Sensor Feedback Programming": "Write conditional control loops that trigger motor state shifts upon receiving sensor thresholds."
         },
-        "sample_output": "Robot Design, Construction, and Testing: Describe the type of robot you want to build (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32).",
-        "counselor_tip": "For Robotics Requirement 4 (Robot Design, Construction, and Testing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33))."
+        "sample_output": "Scouts must design, assemble, program, and rigorously test an original robotic mechanism possessing at least two degrees of freedom. Complete documentation in an engineering notebook must chronicle design calculations, wiring diagrams, testing logs, and mechanical modifications.",
+        "counselor_tip": "During the Robotics Requirement 4 conference on Robotic System Engineering Lifecycle, verify that the Scout can explain engineering notebook records and demonstrate sensor feedback programming: Write conditional control loops that trigger motor state shifts upon receiving sensor thresholds."
       },
       "quiz_item": {
         "scenario_prompt": "What should you do in your robot engineering notebook regarding designs and tests that did not work during requirement 4?",
@@ -1936,13 +1941,15 @@
         "Hex drivers, needle-nose pliers, zip ties, and marked competition test field."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Live Operational Robot",
-        "right_header": "Req 5b: Engineering Notebook Design",
+        "left_header": "Req 5a: Live Operational Robot Demonstration",
+        "right_header": "Req 5b: Engineering Notebook Design Defense",
         "left_points": [
-          "(5a) Live Operational Robot Demonstration: The physical demonstration shows the robot completing its approved task through active sensor feedback and programmed decision branches. Scouts explain each operational phase to the counselor as the robot moves."
+          "(5a) Live Operational Robot Demonstration: The physical demonstration shows the robot completing its approved task through active sensor feedback and programmed decision branches. Scouts explain each operational phase to the counselor as the robot moves.",
+          "Live Mission Execution: Operating prototypes under live conditions reveals mechanical flex undetected during bench testing."
         ],
         "right_points": [
-          "(5b) Engineering Notebook Design Defense: The notebook review provides a transparent view of the engineering design process from initial concept to completed build. Scouts discuss lessons learned, structural bottlenecks, and concrete upgrades planned for subsequent robot iterations."
+          "(5b) Engineering Notebook Design Defense: The notebook review provides a transparent view of the engineering design process from initial concept to completed build. Scouts discuss lessons learned, structural bottlenecks, and concrete upgrades planned for subsequent robot iterations.",
+          "Failure Mode Analysis: Documenting unexpected motor stalls identifies critical gear reduction changes needed for future prototypes."
         ],
         "rows": [
           {
@@ -1952,25 +1959,27 @@
           },
           {
             "attribute": "Technical Log Sharing",
-            "left": "Req 5a: Live Operational Robot: The physical demonstration shows the robot completing its approved task through active sensor feedback and programmed decision branches. Scouts explain each operational phase to the counselor as the robot moves.",
-            "right": "Req 5b: Engineering Notebook Design: The notebook review provides a transparent view of the engineering design process from initial concept to completed build. Scouts discuss lessons learned, structural bottlenecks, and concrete upgrades planned for subsequent robot iterations."
+            "left": "Live Mission Execution: Operating prototypes under live conditions reveals mechanical flex undetected during bench testing.",
+            "right": "Failure Mode Analysis: Documenting unexpected motor stalls identifies critical gear reduction changes needed for future prototypes."
           },
           {
             "attribute": "Failure Mode Analysis",
-            "left": "Live Mission Execution: Operating prototypes under live conditions reveals mechanical flex undetected during bench testing.",
-            "right": "Technical Log Sharing: Detailed engineering notebooks provide tangible proof of methodical troubleshooting and revision history."
+            "left": "Failure Mode Analysis: Documenting unexpected motor stalls identifies critical gear reduction changes needed for future prototypes.",
+            "right": "Reflective Engineering Review: Articulating learned technical concepts confirms deep comprehension of underlying robotics principles."
           }
         ]
       },
       "worked_example": {
-        "title": "Robotics Req 5 Exemplar Workbook Entry: Robot",
+        "title": "Robotics Req 5 Worked Example: Operational Demonstration Technical Defense",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Live Operational Robot": "The physical demonstration shows the robot completing its approved task through active sensor feedback and programmed decision branches. Scouts explain each operational phase to the counselor as the robot moves.",
-          "Req 5b - Engineering Notebook Design": "The notebook review provides a transparent view of the engineering design process from initial concept to completed build. Scouts discuss lessons learned, structural bottlenecks, and concrete upgrades planned for subsequent robot iterations."
+          "Phase 1 - Test Arena Setup": "Establish bounded demonstration surfaces matching dimensions recorded in the engineering notebook.",
+          "Phase 2 - Pre Demonstration Checkout": "Inspect battery voltages and ensure sensor lenses remain free of dust particles.",
+          "Phase 3 - Autonomous Routine Execution": "Trigger system start commands to demonstrate automated task completion using sensor feedback.",
+          "Phase 4 - Notebook Defense Presentation": "Walk the counselor through design iterations, failure logs, and future improvement plans."
         },
-        "sample_output": "Robot Demonstration and Notebook Review: The purpose of the notebook is to document the design process for your robot (p. 32).",
-        "counselor_tip": "For Robotics Requirement 5 (Robot Demonstration and Notebook Review), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33))."
+        "sample_output": "Scouts run a live functional demonstration of their robotic mechanism for the merit badge counselor. Following the run, the Scout reviews their engineering notebook to explain design trade offs, unforeseen challenges, and prospective revisions.",
+        "counselor_tip": "During the Robotics Requirement 5 conference on Operational Demonstration Technical Defense, verify that the Scout can explain live mission execution and demonstrate notebook defense presentation: Walk the counselor through design iterations, failure logs, and future improvement plans."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Robotics merit badge pamphlet recommend using a notebook with graph paper for your robot engineering notebook?",
@@ -2268,13 +2277,15 @@
         "Hex drivers, needle-nose pliers, zip ties, and marked competition test field."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Live Tournament Field",
-        "right_header": "Req 6b: Youth Robotics League",
+        "left_header": "Req 6a: Live Tournament Field Observation",
+        "right_header": "Req 6b: Youth Robotics League Comparisons",
         "left_points": [
-          "(6a) Live Tournament Field Observation: Observing a live competition reveals tournament pacing, field reset logistics, and real time pit troubleshooting strategies. Scouts analyze how team captains organize pit crews, maintain tool accountability, and strategize with match allies."
+          "(6a) Live Tournament Field Observation: Observing a live competition reveals tournament pacing, field reset logistics, and real time pit troubleshooting strategies. Scouts analyze how team captains organize pit crews, maintain tool accountability, and strategize with match allies.",
+          "Tournament Alliance Dynamics: Modern competition formats require strategic tactical coordination between paired partner team robots."
         ],
         "right_points": [
-          "(6b) Youth Robotics League Comparisons: Youth robotics programs provide distinct competition frameworks with varying time commitments, team sizes, and engineering freedoms. Researching multiple leagues highlights different design philosophies across custom fabrication and spec kit environments."
+          "(6b) Youth Robotics League Comparisons: Youth robotics programs provide distinct competition frameworks with varying time commitments, team sizes, and engineering freedoms. Researching multiple leagues highlights different design philosophies across custom fabrication and spec kit environments.",
+          "Multi Disciplinary Team Roles: Competitive organizations divide responsibilities across programming, mechanical fabrication, scouting, and outreach."
         ],
         "rows": [
           {
@@ -2284,25 +2295,27 @@
           },
           {
             "attribute": "Pit Area Management",
-            "left": "Req 6a: Live Tournament Field: Observing a live competition reveals tournament pacing, field reset logistics, and real time pit troubleshooting strategies. Scouts analyze how team captains organize pit crews, maintain tool accountability, and strategize with match allies.",
-            "right": "Req 6b: Youth Robotics League: Youth robotics programs provide distinct competition frameworks with varying time commitments, team sizes, and engineering freedoms. Researching multiple leagues highlights different design philosophies across custom fabrication and spec kit environments."
+            "left": "Tournament Alliance Dynamics: Modern competition formats require strategic tactical coordination between paired partner team robots.",
+            "right": "Multi Disciplinary Team Roles: Competitive organizations divide responsibilities across programming, mechanical fabrication, scouting, and outreach."
           },
           {
             "attribute": "Multi Disciplinary Team Roles",
-            "left": "Tournament Alliance Dynamics: Modern competition formats require strategic tactical coordination between paired partner team robots.",
-            "right": "Pit Area Management: Dedicated pit crews maintain charging stations and execute rapid mechanical field repairs."
+            "left": "Multi Disciplinary Team Roles: Competitive organizations divide responsibilities across programming, mechanical fabrication, scouting, and outreach.",
+            "right": "Engineering Rubric Judging: Independent technical panels evaluate team engineering notebooks against rigorous standardized rubrics."
           }
         ]
       },
       "worked_example": {
-        "title": "Robotics Req 6 Exemplar Workbook Entry: Youth Robotics",
+        "title": "Robotics Req 6 Worked Example: Competitive Robotics Program Operations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Live Tournament Field": "Observing a live competition reveals tournament pacing, field reset logistics, and real time pit troubleshooting strategies. Scouts analyze how team captains organize pit crews, maintain tool accountability, and strategize with match allies.",
-          "Req 6b - Youth Robotics League": "Youth robotics programs provide distinct competition frameworks with varying time commitments, team sizes, and engineering freedoms. Researching multiple leagues highlights different design philosophies across custom fabrication and spec kit environments."
+          "Phase 1 - Competition Structure Research": "Identify major youth robotics organizations including FIRST Tech Challenge and VEX Robotics.",
+          "Phase 2 - Team Organization Review": "Map standard team functional subteams including mechanical engineering, programming, and drive operations.",
+          "Phase 3 - Tournament Observation Logging": "Document tournament game rules, match cycle timing, and field scoring penalty structures.",
+          "Phase 4 - Engineering Interview Analysis": "Interview student competitors regarding season time commitments, robot budgets, and troubleshooting workflows."
         },
-        "sample_output": "Youth Robotics Competitions and Teams: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71).",
-        "counselor_tip": "For Robotics Requirement 6 (Youth Robotics Competitions and Teams), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75))."
+        "sample_output": "Competitive robotics platforms like FIRST, VEX, and Best Robotics build teamwork, rapid prototyping, and engineering rigor under constraints. Participating in or observing tournaments exposes Scouts to real time troubleshooting and multidisciplinary project management.",
+        "counselor_tip": "During the Robotics Requirement 6 conference on Competitive Robotics Program Operations, verify that the Scout can explain tournament alliance dynamics and demonstrate engineering interview analysis: Interview student competitors regarding season time commitments, robot budgets, and troubleshooting workflows."
       },
       "quiz_item": {
         "scenario_prompt": "Which characteristic defines the robots competing in the Botball Educational Robotics Program described in the pamphlet?",
@@ -2650,13 +2663,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Professional Robotics Career",
-        "right_header": "Req 7b: Amateur Robotics Hobby",
+        "left_header": "Req 7a: Professional Robotics Career Pathways",
+        "right_header": "Req 7b: Amateur Robotics Hobby Development",
         "left_points": [
-          "(7a) Professional Robotics Career Pathways: Robotics careers span mechanical design, embedded firmware programming, computer vision, and industrial automation maintenance. Scouts research educational requirements, industry certifications, expected salary ranges, and necessary technical competencies."
+          "(7a) Professional Robotics Career Pathways: Robotics careers span mechanical design, embedded firmware programming, computer vision, and industrial automation maintenance. Scouts research educational requirements, industry certifications, expected salary ranges, and necessary technical competencies.",
+          "Controls Engineering Roles: Controls engineers design real time stability algorithms for autonomous industrial mobile equipment."
         ],
         "right_points": [
-          "(7b) Amateur Robotics Hobby Development: Robotics as a personal hobby leverages open source hardware, desktop three dimensional printers, and online hobbyist communities. Scouts explore affordable entry points, local maker clubs, and safety guidelines for home workshops."
+          "(7b) Amateur Robotics Hobby Development: Robotics as a personal hobby leverages open source hardware, desktop three dimensional printers, and online hobbyist communities. Scouts explore affordable entry points, local maker clubs, and safety guidelines for home workshops.",
+          "Mechatronic Technician Tasks: Certified technicians diagnose complex wiring faults and hydraulic leaks on factory floors."
         ],
         "rows": [
           {
@@ -2666,25 +2681,27 @@
           },
           {
             "attribute": "Computer Vision Specialists",
-            "left": "Req 7a: Professional Robotics Career: Robotics careers span mechanical design, embedded firmware programming, computer vision, and industrial automation maintenance. Scouts research educational requirements, industry certifications, expected salary ranges, and necessary technical competencies.",
-            "right": "Req 7b: Amateur Robotics Hobby: Robotics as a personal hobby leverages open source hardware, desktop three dimensional printers, and online hobbyist communities. Scouts explore affordable entry points, local maker clubs, and safety guidelines for home workshops."
+            "left": "Controls Engineering Roles: Controls engineers design real time stability algorithms for autonomous industrial mobile equipment.",
+            "right": "Mechatronic Technician Tasks: Certified technicians diagnose complex wiring faults and hydraulic leaks on factory floors."
           },
           {
             "attribute": "Mechatronic Technician Tasks",
-            "left": "Controls Engineering Roles: Controls engineers design real time stability algorithms for autonomous industrial mobile equipment.",
-            "right": "Computer Vision Specialists: Vision engineers train neural networks to identify objects in cluttered warehouse bins."
+            "left": "Mechatronic Technician Tasks: Certified technicians diagnose complex wiring faults and hydraulic leaks on factory floors.",
+            "right": "Open Source Ecosystems: Hobbyists contribute software libraries and three dimensional printed hardware to global repositories."
           }
         ]
       },
       "worked_example": {
-        "title": "Robotics Req 7 Exemplar Workbook Entry: Robotics",
+        "title": "Robotics Req 7 Worked Example: Robotics Career and Avocation",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Professional Robotics Career": "Robotics careers span mechanical design, embedded firmware programming, computer vision, and industrial automation maintenance. Scouts research educational requirements, industry certifications, expected salary ranges, and necessary technical competencies.",
-          "Req 7b - Amateur Robotics Hobby": "Robotics as a personal hobby leverages open source hardware, desktop three dimensional printers, and online hobbyist communities. Scouts explore affordable entry points, local maker clubs, and safety guidelines for home workshops."
+          "Phase 1 - Career Field Exploration": "Investigate three distinct vocational paths such as automation engineering, controls, and mechatronics.",
+          "Phase 2 - Educational Requirement Mapping": "Document degree options, vocational apprenticeship programs, and industrial vendor certification paths.",
+          "Phase 3 - Financial Investment": "Calculate anticipated tuition costs, specialized tool expenses, and laboratory hardware investments required.",
+          "Phase 4 - Professional Society": "Locate recognized engineering associations like IEEE Robotics and Automation Society for networking."
         },
-        "sample_output": "Robotics Careers, Education, and Hobbies: From deep seas to deep space to your closet at home, robots are everywhere (p. 31).",
-        "counselor_tip": "For Robotics Requirement 7 (Robotics Careers, Education, and Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77))."
+        "sample_output": "Robotics competencies translate into thriving professional careers across controls engineering, computer vision, mechatronics, and autonomous vehicle design. Outside industry, robotics serves as a rich personal hobby supported by open source electronics and local maker spaces.",
+        "counselor_tip": "During the Robotics Requirement 7 conference on Robotics Career and Avocation, verify that the Scout can explain controls engineering roles and demonstrate professional society: Locate recognized engineering associations like IEEE Robotics and Automation Society for networking."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Robotics merit badge pamphlet, what educational pathway is commonly available at junior or community colleges for someone who wants to become a robotics technician?",

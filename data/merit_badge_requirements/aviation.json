@@ -803,47 +803,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Aircraft Categories",
-        "right_header": "Req 1e: Equilibrium of Four Aerodynamic",
+        "left_header": "Req 1a: Aircraft Categories and Operational Missions",
+        "right_header": "Req 1e: Equilibrium of Four Aerodynamic Forces",
         "left_points": [
-          "(1a) Aircraft Categories And Operational Missions: An aircraft is any device used or intended for flight in the air. Modern categories include airplanes, rotorcraft, and gliders adapted for transport, defense, and recreational tasks.",
-          "(1b) Historical Milestones In Aviation Development: Aviation history progressed from early gliders to engine-driven flight and modern high-speed air transportation. Notable milestones include the 1903 Wright flight, Lindbergh transatlantic crossing, and the moon landing.",
-          "(1c) Fixed And Rotary Wing Comparison: Fixed-wing airplanes require forward airspeed over stationary wings to generate aerodynamic lift for long-distance transit. Rotary-wing aircraft spin dynamic airfoils around a central mast to hover and operate without runways."
+          "(1a) Aircraft Categories and Operational Missions: An aircraft is any device used or intended for flight in the air. Modern categories include airplanes, rotorcraft, and gliders adapted for transport, defense, and recreational tasks.",
+          "(1b) Historical Milestones in Aviation Development: Aviation history progressed from early gliders to engine-driven flight and modern high-speed air transportation. Notable milestones include the 1903 Wright flight, Lindbergh transatlantic crossing, and the moon landing."
         ],
         "right_points": [
-          "(1e) Equilibrium Of Four Aerodynamic Forces: Every aircraft in unaccelerated flight maintains equilibrium between lift, weight, thrust, and aerodynamic drag. Changes in engine power or angle of attack disrupt this balance to alter altitude.",
-          "(1f) Airfoil Lift And Bernoulli Principle: Curved airfoil surfaces cause air to accelerate over the cambered upper wing area. This accelerated airflow causes a localized drop in static air pressure according to Bernoulli principle.",
-          "(1g) Primary Aerodynamic Flight Control Surfaces: Ailerons control roll along the longitudinal axis, elevators control pitch along the lateral axis, and rudders control yaw along the vertical axis. Coordinating these movable surfaces enables smooth changes in flight path."
+          "(1e) Equilibrium of Four Aerodynamic Forces: Every aircraft in unaccelerated flight maintains equilibrium between lift, weight, thrust, and aerodynamic drag. Changes in engine power or angle of attack disrupt this balance to alter altitude.",
+          "(1f) Airfoil Lift and Bernoulli Principle: Curved airfoil surfaces cause air to accelerate over the cambered upper wing area. This accelerated airflow causes a localized drop in static air pressure according to Bernoulli principle."
         ],
         "rows": [
           {
             "attribute": "Airfoil Pressure Differential",
-            "left": "(1a) Aircraft Categories And Operational Missions: An aircraft is any device used or intended for flight in the air. Modern categories include airplanes, rotorcraft, and gliders adapted for transport, defense, and recreational tasks.",
-            "right": "(1e) Equilibrium Of Four Aerodynamic Forces: Every aircraft in unaccelerated flight maintains equilibrium between lift, weight, thrust, and aerodynamic drag. Changes in engine power or angle of attack disrupt this balance to alter altitude."
+            "left": "(1a) Aircraft Categories and Operational Missions: An aircraft is any device used or intended for flight in the air. Modern categories include airplanes, rotorcraft, and gliders adapted for transport, defense, and recreational tasks.",
+            "right": "(1e) Equilibrium of Four Aerodynamic Forces: Every aircraft in unaccelerated flight maintains equilibrium between lift, weight, thrust, and aerodynamic drag. Changes in engine power or angle of attack disrupt this balance to alter altitude."
           },
           {
             "attribute": "Opposing Aerodynamic Forces",
-            "left": "(1b) Historical Milestones In Aviation Development: Aviation history progressed from early gliders to engine-driven flight and modern high-speed air transportation. Notable milestones include the 1903 Wright flight, Lindbergh transatlantic crossing, and the moon landing.",
-            "right": "(1f) Airfoil Lift And Bernoulli Principle: Curved airfoil surfaces cause air to accelerate over the cambered upper wing area. This accelerated airflow causes a localized drop in static air pressure according to Bernoulli principle."
+            "left": "(1b) Historical Milestones in Aviation Development: Aviation history progressed from early gliders to engine-driven flight and modern high-speed air transportation. Notable milestones include the 1903 Wright flight, Lindbergh transatlantic crossing, and the moon landing.",
+            "right": "(1f) Airfoil Lift and Bernoulli Principle: Curved airfoil surfaces cause air to accelerate over the cambered upper wing area. This accelerated airflow causes a localized drop in static air pressure according to Bernoulli principle."
           },
           {
             "attribute": "Three Axis Motion",
-            "left": "(1c) Fixed And Rotary Wing Comparison: Fixed-wing airplanes require forward airspeed over stationary wings to generate aerodynamic lift for long-distance transit. Rotary-wing aircraft spin dynamic airfoils around a central mast to hover and operate without runways.",
-            "right": "(1g) Primary Aerodynamic Flight Control Surfaces: Ailerons control roll along the longitudinal axis, elevators control pitch along the lateral axis, and rudders control yaw along the vertical axis. Coordinating these movable surfaces enables smooth changes in flight path."
+            "left": "Three Axis Motion: Deflecting flight surfaces rotates the airplane along lateral, longitudinal, and vertical axes.",
+            "right": "Pitot Static Instrumentation: Ram air pressure from the pitot tube directly powers standard airspeed indicators."
           }
         ]
       },
       "worked_example": {
-        "title": "Aviation Req 1 Exemplar Workbook Entry: Aviation Basics",
+        "title": "Aviation Req 1 Worked Example: Fundamentals of Aerodynamics and Flight",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 1a - Aircraft Categories": "An aircraft is any device used or intended for flight in the air. Modern categories include airplanes, rotorcraft, and gliders adapted for transport, defense, and recreational tasks.",
-          "Req 1b - Historical Milestones": "Aviation history progressed from early gliders to engine-driven flight and modern high-speed air transportation. Notable milestones include the 1903 Wright flight, Lindbergh transatlantic crossing, and the moon landing.",
-          "Req 1c - Fixed and Rotary Wing": "Fixed-wing airplanes require forward airspeed over stationary wings to generate aerodynamic lift for long-distance transit. Rotary-wing aircraft spin dynamic airfoils around a central mast to hover and operate without runways.",
-          "Req 1d - Aviation Powerplant": "Piston engines convert internal fuel combustion into crankshaft rotation to turn aircraft propellers. Turbine and jet engines compress intake air, burn fuel continuously, and produce high-velocity exhaust thrust."
+          "Phase 1 - Model Axis Demonstration": "Position the miniature aircraft along the pitch, roll, and yaw geometric axes.",
+          "Phase 2 - Control Surface Manipulation": "Deflect the elevator, rudder, and ailerons to demonstrate attitude changes in flight.",
+          "Phase 3 - Pitot System Examination": "Trace the pitot tube ram line directly to the pilot airspeed indicator.",
+          "Phase 4 - Gyroscopic Instrument Review": "Observe the attitude indicator gimbal mechanism responding to simulated bank angle changes."
         },
-        "sample_output": "Aviation Basics and Flight Mechanics: Attached to a gyroscope is a face with acontrasting horizon line (p. 28).",
-        "counselor_tip": "For Aviation Requirement 1 (Aviation Basics and Flight Mechanics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34))."
+        "sample_output": "Airplanes produce lift across specialized cambered airfoils while balancing thrust, drag, weight, and aerodynamic forces in steady flight. Pilots manage aircraft orientation across three spatial axes using flight controls and standard cockpit flight instruments.",
+        "counselor_tip": "During the Aviation Requirement 1 conference on Fundamentals of Aerodynamics and Flight, verify that the Scout can explain airfoil pressure differential and demonstrate gyroscopic instrument review: Observe the attitude indicator gimbal mechanism responding to simulated bank angle changes."
       },
       "quiz_item": {
         "scenario_prompt": "In Aviation Requirement 1, how do the four aerodynamic forces act on an airplane in steady, level, unaccelerated flight, and how does the wing generate lift?",
@@ -1248,42 +1246,45 @@
         "Engineering logbook and technical specification sheet for Aviation Requirement 2."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Foam Plate Glider Competition",
-        "right_header": "Req 2b: Rubber Powered Balsa Aircraft",
+        "left_header": "Req 2a: Foam Plate Glider Competition Organization",
+        "right_header": "Req 2b: Rubber Powered Balsa Aircraft Construction",
         "left_points": [
-          "(2a) Foam Plate Glider Competition Organization: Scouts build the FPG-9 glider from standard foam plates to study basic wing geometry and balance. Organizing a patrol competition tests flight distance, precision spot landing, and stability under uniform rules."
+          "(2a) Foam Plate Glider Competition Organization: Scouts build the FPG-9 glider from standard foam plates to study basic wing geometry and balance. Organizing a patrol competition tests flight distance, precision spot landing, and stability under uniform rules.",
+          "Center of Gravity Balance: Proper ballast placement ensures longitudinal stability during unpowered gliding flight."
         ],
         "right_points": [
-          "(2b) Rubber Powered Balsa Aircraft Construction: Assembling a balsa wood model airplane teaches structural airframe assembly and propeller mechanics. Scouts wind the rubber motor and adjust wing incidence to achieve straight, sustained flight."
+          "(2b) Rubber Powered Balsa Aircraft Construction: Assembling a balsa wood model airplane teaches structural airframe assembly and propeller mechanics. Scouts wind the rubber motor and adjust wing incidence to achieve straight, sustained flight.",
+          "(2c) Electric Drone Safety and Operations: Small unmanned aircraft systems rely on multiple electric motors and onboard flight controllers for stability. Passing the FAA TRUST safety exam prepares operators for safe airspace integration."
         ],
         "rows": [
           {
-            "attribute": "Center Of Gravity Balance",
+            "attribute": "Center of Gravity Balance",
             "left": "(2a) Foam Plate Glider Competition Organization: Scouts build the FPG-9 glider from standard foam plates to study basic wing geometry and balance. Organizing a patrol competition tests flight distance, precision spot landing, and stability under uniform rules.",
             "right": "(2b) Rubber Powered Balsa Aircraft Construction: Assembling a balsa wood model airplane teaches structural airframe assembly and propeller mechanics. Scouts wind the rubber motor and adjust wing incidence to achieve straight, sustained flight."
           },
           {
             "attribute": "Wing Dihedral Angle",
-            "left": "Req 2a: Foam Plate Glider: Scouts build the FPG-9 glider from standard foam plates to study basic wing geometry and balance. Organizing a patrol competition tests flight distance, precision spot landing, and stability under uniform rules.",
-            "right": "Req 2b: Rubber Powered Balsa: Assembling a balsa wood model airplane teaches structural airframe assembly and propeller mechanics. Scouts wind the rubber motor and adjust wing incidence to achieve straight, sustained flight."
+            "left": "Center of Gravity Balance: Proper ballast placement ensures longitudinal stability during unpowered gliding flight.",
+            "right": "(2c) Electric Drone Safety and Operations: Small unmanned aircraft systems rely on multiple electric motors and onboard flight controllers for stability. Passing the FAA TRUST safety exam prepares operators for safe airspace integration."
           },
           {
             "attribute": "Rubber Motor Potential",
-            "left": "Req 2c: Electric Drone Safety: Small unmanned aircraft systems rely on multiple electric motors and onboard flight controllers for stability. Passing the FAA TRUST safety exam prepares operators for safe airspace integration.",
-            "right": "Wing Dihedral Angle: Upward wing angling provides natural lateral stability during unexpected gust upsets."
+            "left": "Rubber Motor Potential: Winding rubber strands stores elastic potential energy that turns model propellers.",
+            "right": "Trim Tab Adjustments: Minor bends in trailing edge surfaces correct persistent turning or stalling tendencies."
           }
         ]
       },
       "worked_example": {
-        "title": "Aviation Req 2 Exemplar Workbook Entry: Model Aircraft",
+        "title": "Aviation Req 2 Worked Example: Model Aircraft Construction and Flight",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Foam Plate Glider Competition": "Scouts build the FPG-9 glider from standard foam plates to study basic wing geometry and balance. Organizing a patrol competition tests flight distance, precision spot landing, and stability under uniform rules.",
-          "Req 2b - Rubber Powered Balsa Aircraft": "Assembling a balsa wood model airplane teaches structural airframe assembly and propeller mechanics. Scouts wind the rubber motor and adjust wing incidence to achieve straight, sustained flight.",
-          "Req 2c - Electric Drone Safety": "Small unmanned aircraft systems rely on multiple electric motors and onboard flight controllers for stability. Passing the FAA TRUST safety exam prepares operators for safe airspace integration."
+          "Phase 1 - Material Cutting Preparation": "Cut the foam plate wing pattern accurately along the printed template lines.",
+          "Phase 2 - Ballast Attachment Check": "Attach copper weight to the model nose until balance rests at quarter-chord.",
+          "Phase 3 - Test Glide Launch": "Release the model into the wind with a smooth, level hand motion.",
+          "Phase 4 - Flight Control Trimming": "Bend elevons slightly upward if the glider pitches downward into the ground."
         },
-        "sample_output": "Model Aircraft and Flight Principles: Arrange to be uninterrupted during your time at the controls, and be aware of what you are thinking and feeling as you perform the flight (p. 78).",
-        "counselor_tip": "For Aviation Requirement 2 (Model Aircraft and Flight Principles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82))."
+        "sample_output": "Scouts assemble flying models to explore weight distribution, center of gravity, and aerodynamic trim adjustments firsthand. Flight trials require systematic launch technique and careful observation of glide trajectories.",
+        "counselor_tip": "During the Aviation Requirement 2 conference on Model Aircraft Construction and Flight, verify that the Scout can explain center of gravity balance and demonstrate flight control trimming: Bend elevons slightly upward if the glider pitches downward into the ground."
       },
       "quiz_item": {
         "scenario_prompt": "What happens when you bend both elevons slightly upward on an FPG-9 foam plate glider before launching it?",
@@ -1820,27 +1821,26 @@
         "Step 4 - Cockpit Instrument Crosscheck: Scan the attitude indicator and altimeter during simulated climb to cruising altitude."
       ],
       "gear_checklist": [
-        "Official Aviation merit badge pamphlet and workbook organizer for Req 3.",
         "Aviation field toolkit, inspection gauge, and protective eyewear for Practical Aircraft Flight Operations Management.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 3."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Flight Simulator Heading",
-        "right_header": "Req 3c: Aircraft Maintenance Inspections",
+        "left_header": "Req 3a: Flight Simulator Heading and Navigation",
+        "right_header": "Req 3c: Aircraft Maintenance Inspections and Schedules",
         "left_points": [
-          "(3a) Flight Simulator Heading And Navigation: Simulators allow pilots to practice instrument scans, compass headings, and traffic patterns in a controlled environment. Pilots fly established magnetic headings from takeoff through cruise and approach to a stabilized landing.",
+          "(3a) Flight Simulator Heading and Navigation: Simulators allow pilots to practice instrument scans, compass headings, and traffic patterns in a controlled environment. Pilots fly established magnetic headings from takeoff through cruise and approach to a stabilized landing.",
           "(3b) Supervised Aircraft Preflight Inspection Walkaround: The preflight walkaround is a systematic physical examination of the airframe, fuel system, engine, and controls before flight. Scouts verify pitot covers are removed, fuel caps are secure, and control cables are intact."
         ],
         "right_points": [
-          "(3c) Aircraft Maintenance Inspections And Schedules: Civil aircraft undergo mandatory annual inspections, 100-hour commercial checks, and progressive maintenance to remain airworthy. Certified mechanics inspect logbooks, replace worn parts, and comply with Airworthiness Directives.",
+          "(3c) Aircraft Maintenance Inspections and Schedules: Civil aircraft undergo mandatory annual inspections, 100-hour commercial checks, and progressive maintenance to remain airworthy. Certified mechanics inspect logbooks, replace worn parts, and comply with Airworthiness Directives.",
           "(3d) Aeronautical Sectional Chart Navigation Planning: VFR sectional charts depict airspace classes, navigational aids, topography, and radio communication frequencies. Navigators plot true courses and apply variation, wind drift, and deviation to determine compass headings."
         ],
         "rows": [
           {
             "attribute": "Exterior Preflight Walkaround",
-            "left": "(3a) Flight Simulator Heading And Navigation: Simulators allow pilots to practice instrument scans, compass headings, and traffic patterns in a controlled environment. Pilots fly established magnetic headings from takeoff through cruise and approach to a stabilized landing.",
-            "right": "(3c) Aircraft Maintenance Inspections And Schedules: Civil aircraft undergo mandatory annual inspections, 100-hour commercial checks, and progressive maintenance to remain airworthy. Certified mechanics inspect logbooks, replace worn parts, and comply with Airworthiness Directives."
+            "left": "(3a) Flight Simulator Heading and Navigation: Simulators allow pilots to practice instrument scans, compass headings, and traffic patterns in a controlled environment. Pilots fly established magnetic headings from takeoff through cruise and approach to a stabilized landing.",
+            "right": "(3c) Aircraft Maintenance Inspections and Schedules: Civil aircraft undergo mandatory annual inspections, 100-hour commercial checks, and progressive maintenance to remain airworthy. Certified mechanics inspect logbooks, replace worn parts, and comply with Airworthiness Directives."
           },
           {
             "attribute": "Magnetic Variation Calculations",
@@ -1849,22 +1849,22 @@
           },
           {
             "attribute": "Compass Deviation Card",
-            "left": "Req 3a: Flight Simulator Heading: Simulators allow pilots to practice instrument scans, compass headings, and traffic patterns in a controlled environment. Pilots fly established magnetic headings from takeoff through cruise and approach to a stabilized landing.",
-            "right": "Req 3b: Supervised Aircraft: The preflight walkaround is a systematic physical examination of the airframe, fuel system, engine, and controls before flight. Scouts verify pitot covers are removed, fuel caps are secure, and control cables are intact."
+            "left": "Compass Deviation Card: Cockpit magnetic compass readings require corrections for internal electrical equipment interference.",
+            "right": "Flight Simulator Stabilization: Cross-checking cockpit instruments maintains established altitude and heading throughout simulated flight."
           }
         ]
       },
       "worked_example": {
-        "title": "Aviation Req 3 Exemplar Workbook Entry: Flight",
+        "title": "Aviation Req 3 Worked Example: Practical Aircraft Flight Operations Management",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 3a - Flight Simulator Heading": "Simulators allow pilots to practice instrument scans, compass headings, and traffic patterns in a controlled environment. Pilots fly established magnetic headings from takeoff through cruise and approach to a stabilized landing.",
-          "Req 3b - Supervised Aircraft Preflight": "The preflight walkaround is a systematic physical examination of the airframe, fuel system, engine, and controls before flight. Scouts verify pitot covers are removed, fuel caps are secure, and control cables are intact.",
-          "Req 3c - Aircraft Maintenance": "Civil aircraft undergo mandatory annual inspections, 100-hour commercial checks, and progressive maintenance to remain airworthy. Certified mechanics inspect logbooks, replace worn parts, and comply with Airworthiness Directives.",
-          "Req 3d - Aeronautical Sectional Chart": "VFR sectional charts depict airspace classes, navigational aids, topography, and radio communication frequencies. Navigators plot true courses and apply variation, wind drift, and deviation to determine compass headings."
+          "Phase 1 - Sectional Chart Plotting": "Draw a true course line connecting departure and destination aeronautical waypoints.",
+          "Phase 2 - Magnetic Variation Application": "Subtract easterly variation or add westerly variation to calculate magnetic course.",
+          "Phase 3 - Fuel Contamination Sump": "Drain fuel sumps into a transparent cup to inspect for water sediment.",
+          "Phase 4 - Cockpit Instrument Crosscheck": "Scan the attitude indicator and altimeter during simulated climb to cruising altitude."
         },
-        "sample_output": "Flight Operations and Navigation: Technicians can calculate closely just how much the deviation will be for any airplane (p. 50).",
-        "counselor_tip": "For Aviation Requirement 3 (Flight Operations and Navigation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54))."
+        "sample_output": "Flight operations encompass preflight inspections, navigation planning, simulator maneuvers, and cockpit observation under certified supervision. Rigorous checklists and chart reading ensure navigation accuracy and mechanical airworthiness.",
+        "counselor_tip": "During the Aviation Requirement 3 conference on Practical Aircraft Flight Operations Management, verify that the Scout can explain exterior preflight walkaround and demonstrate cockpit instrument crosscheck: Scan the attitude indicator and altimeter during simulated climb to cruising altitude."
       },
       "quiz_item": {
         "scenario_prompt": "While planning a flight from Indianapolis International to Crawfordsville Airport with a magnetic course of 300 degrees, where do you look to find the final compass heading of 301 degrees?",
@@ -2352,51 +2352,50 @@
         "Step 4 - Airspace Classification Check: Identify controlled airspace boundaries surrounding the facility on an aeronautical sectional chart."
       ],
       "gear_checklist": [
-        "Official Aviation merit badge pamphlet and workbook organizer for Req 4.",
         "Aviation field toolkit, inspection gauge, and protective eyewear for Airport Infrastructure And Airspace Systems.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 4."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Airport Layout and Runway",
-        "right_header": "Req 4c: Military Aviation Facility",
+        "left_header": "Req 4a: Airport Layout and Runway Designation",
+        "right_header": "Req 4c: Military Aviation Facility Defense Missions",
         "left_points": [
-          "(4a) Airport Layout And Runway Designation: Airports feature runways, taxiways, ramps, and hangars arranged for safe aircraft traffic flow. Runway numbers reflect magnetic compass orientation, and wind indicators determine which runway is currently active.",
+          "(4a) Airport Layout and Runway Designation: Airports feature runways, taxiways, ramps, and hangars arranged for safe aircraft traffic flow. Runway numbers reflect magnetic compass orientation, and wind indicators determine which runway is currently active.",
           "(4b) Air Traffic Control Facility Functions: The air traffic system relies on tower controllers, TRACON approach radar, and en-route centers to maintain aircraft separation. Flight Service Stations provide weather briefings, flight plan filing, and inflight notices."
         ],
         "right_points": [
           "(4c) Military Aviation Facility Defense Missions: Military air bases maintain specialized runways, maintenance depots, and tactical squadrons to support national defense and humanitarian missions. Visiting these installations highlights joint airspace integration and specialized logistics support.",
-          "(4d) Aviation Museum And Airshow Observation: Aviation museums preserve historical aircraft and experimental airframes to educate the public on aeronautical engineering. Airshows highlight aerobatic precision, aircraft performance envelopes, and flight line safety protocols."
+          "(4d) Aviation Museum and Airshow Observation: Aviation museums preserve historical aircraft and experimental airframes to educate the public on aeronautical engineering. Airshows highlight aerobatic precision, aircraft performance envelopes, and flight line safety protocols."
         ],
         "rows": [
           {
             "attribute": "Runway Magnetic Orientation",
-            "left": "(4a) Airport Layout And Runway Designation: Airports feature runways, taxiways, ramps, and hangars arranged for safe aircraft traffic flow. Runway numbers reflect magnetic compass orientation, and wind indicators determine which runway is currently active.",
+            "left": "(4a) Airport Layout and Runway Designation: Airports feature runways, taxiways, ramps, and hangars arranged for safe aircraft traffic flow. Runway numbers reflect magnetic compass orientation, and wind indicators determine which runway is currently active.",
             "right": "(4c) Military Aviation Facility Defense Missions: Military air bases maintain specialized runways, maintenance depots, and tactical squadrons to support national defense and humanitarian missions. Visiting these installations highlights joint airspace integration and specialized logistics support."
           },
           {
             "attribute": "Active Runway Selection",
             "left": "(4b) Air Traffic Control Facility Functions: The air traffic system relies on tower controllers, TRACON approach radar, and en-route centers to maintain aircraft separation. Flight Service Stations provide weather briefings, flight plan filing, and inflight notices.",
-            "right": "(4d) Aviation Museum And Airshow Observation: Aviation museums preserve historical aircraft and experimental airframes to educate the public on aeronautical engineering. Airshows highlight aerobatic precision, aircraft performance envelopes, and flight line safety protocols."
+            "right": "(4d) Aviation Museum and Airshow Observation: Aviation museums preserve historical aircraft and experimental airframes to educate the public on aeronautical engineering. Airshows highlight aerobatic precision, aircraft performance envelopes, and flight line safety protocols."
           },
           {
             "attribute": "Terminal Radar Management",
-            "left": "Req 4a: Airport Layout And Runway: Airports feature runways, taxiways, ramps, and hangars arranged for safe aircraft traffic flow. Runway numbers reflect magnetic compass orientation, and wind indicators determine which runway is currently active.",
-            "right": "Req 4b: Air Traffic Control Facility: The air traffic system relies on tower controllers, TRACON approach radar, and en-route centers to maintain aircraft separation. Flight Service Stations provide weather briefings, flight plan filing, and inflight notices."
+            "left": "Terminal Radar Management: TRACON facilities sequence arriving and departing aircraft within thirty miles of busy airports.",
+            "right": "Rotating Airport Beacon: Civilian land airports display alternating white and green flashes during night operations."
           }
         ]
       },
       "worked_example": {
-        "title": "Aviation Req 4 Exemplar Workbook Entry: Airport",
+        "title": "Aviation Req 4 Worked Example: Airport Infrastructure and Airspace Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Airport Layout and Runway": "Airports feature runways, taxiways, ramps, and hangars arranged for safe aircraft traffic flow. Runway numbers reflect magnetic compass orientation, and wind indicators determine which runway is currently active.",
-          "Req 4b - Air Traffic Control Facility": "The air traffic system relies on tower controllers, TRACON approach radar, and en-route centers to maintain aircraft separation. Flight Service Stations provide weather briefings, flight plan filing, and inflight notices.",
-          "Req 4c - Military Aviation Facility": "Military air bases maintain specialized runways, maintenance depots, and tactical squadrons to support national defense and humanitarian missions. Visiting these installations highlights joint airspace integration and specialized logistics support.",
-          "Req 4d - Aviation Museum and Airshow": "Aviation museums preserve historical aircraft and experimental airframes to educate the public on aeronautical engineering. Airshows highlight aerobatic precision, aircraft performance envelopes, and flight line safety protocols."
+          "Phase 1 - Airport Layout Review": "Examine the published airport diagram to identify active runways, taxiways, and aprons.",
+          "Phase 2 - Wind Indicator Assessment": "Check the segmented circle and windsock to determine prevailing ground wind direction.",
+          "Phase 3 - Air Traffic Monitoring": "Listen to local control tower radio transmissions on a public radio scanner.",
+          "Phase 4 - Airspace Classification Check": "Identify controlled airspace boundaries surrounding the facility on an aeronautical sectional chart."
         },
-        "sample_output": "Airport Facilities and Air Traffic: As its name suggests, a control tower is an elevated structure from which airport controllers operate (p. 73).",
-        "counselor_tip": "For Aviation Requirement 4 (Airport Facilities and Air Traffic), verify the Scout's own observations and specific pamphlet details (Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74))."
+        "sample_output": "Airports provide organized movement areas, lighting systems, and air traffic services to coordinate ground and airborne operations. Active runways align with prevailing winds, while air traffic control facilities manage airspace separation.",
+        "counselor_tip": "During the Aviation Requirement 4 conference on Airport Infrastructure and Airspace Systems, verify that the Scout can explain runway magnetic orientation and demonstrate airspace classification check: Identify controlled airspace boundaries surrounding the facility on an aeronautical sectional chart."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary responsibility of an FAA Flight Service Station?",
@@ -3047,45 +3046,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Basic Pilot Certificates",
-        "right_header": "Req 5c: Advanced Commercial",
+        "left_header": "Req 5a: Basic Pilot Certificates and Ratings",
+        "right_header": "Req 5c: Advanced Commercial and Professional Certifications",
         "left_points": [
-          "(5a) Basic Pilot Certificates And Ratings: The FAA issues student, recreational, private, and remote pilot certificates with distinct privileges and training minimums. Each certificate level builds foundational aeronautical knowledge, flight safety discipline, and legal operational limits.",
-          "(5b) Benefits Of The Instrument Rating: An instrument rating qualifies pilots to navigate and land in low visibility and clouds using instrument flight rules. This certification prevents spatial disorientation and dramatically improves operational utility and flight safety."
+          "(5a) Basic Pilot Certificates and Ratings: The FAA issues student, recreational, private, and remote pilot certificates with distinct privileges and training minimums. Each certificate level builds foundational aeronautical knowledge, flight safety discipline, and legal operational limits.",
+          "(5b) Benefits of the Instrument Rating: An instrument rating qualifies pilots to navigate and land in low visibility and clouds using instrument flight rules. This certification prevents spatial disorientation and dramatically improves operational utility and flight safety."
         ],
         "right_points": [
-          "(5c) Advanced Commercial And Professional Certifications: Commercial and Airline Transport Pilot certificates qualify aviators for revenue operations, cargo hauling, and airline service. Certified Flight Instructors provide primary flight training to train future generations of pilots.",
-          "(5d) Youth Aviation Organizations And Programs: Civil Air Patrol squadrons and Aviation Exploring Posts offer youth orientation flights, aerospace education, and leadership training. Participating in these programs provides hands-on flight experience, airport tours, and mentorship."
+          "(5c) Advanced Commercial and Professional Certifications: Commercial and Airline Transport Pilot certificates qualify aviators for revenue operations, cargo hauling, and airline service. Certified Flight Instructors provide primary flight training to train future generations of pilots.",
+          "(5d) Youth Aviation Organizations and Programs: Civil Air Patrol squadrons and Aviation Exploring Posts offer youth orientation flights, aerospace education, and leadership training. Participating in these programs provides hands-on flight experience, airport tours, and mentorship."
         ],
         "rows": [
           {
             "attribute": "Private Pilot Privileges",
-            "left": "(5a) Basic Pilot Certificates And Ratings: The FAA issues student, recreational, private, and remote pilot certificates with distinct privileges and training minimums. Each certificate level builds foundational aeronautical knowledge, flight safety discipline, and legal operational limits.",
-            "right": "(5c) Advanced Commercial And Professional Certifications: Commercial and Airline Transport Pilot certificates qualify aviators for revenue operations, cargo hauling, and airline service. Certified Flight Instructors provide primary flight training to train future generations of pilots."
+            "left": "(5a) Basic Pilot Certificates and Ratings: The FAA issues student, recreational, private, and remote pilot certificates with distinct privileges and training minimums. Each certificate level builds foundational aeronautical knowledge, flight safety discipline, and legal operational limits.",
+            "right": "(5c) Advanced Commercial and Professional Certifications: Commercial and Airline Transport Pilot certificates qualify aviators for revenue operations, cargo hauling, and airline service. Certified Flight Instructors provide primary flight training to train future generations of pilots."
           },
           {
             "attribute": "Instrument Rating Capability",
-            "left": "(5b) Benefits Of The Instrument Rating: An instrument rating qualifies pilots to navigate and land in low visibility and clouds using instrument flight rules. This certification prevents spatial disorientation and dramatically improves operational utility and flight safety.",
-            "right": "(5d) Youth Aviation Organizations And Programs: Civil Air Patrol squadrons and Aviation Exploring Posts offer youth orientation flights, aerospace education, and leadership training. Participating in these programs provides hands-on flight experience, airport tours, and mentorship."
+            "left": "(5b) Benefits of the Instrument Rating: An instrument rating qualifies pilots to navigate and land in low visibility and clouds using instrument flight rules. This certification prevents spatial disorientation and dramatically improves operational utility and flight safety.",
+            "right": "(5d) Youth Aviation Organizations and Programs: Civil Air Patrol squadrons and Aviation Exploring Posts offer youth orientation flights, aerospace education, and leadership training. Participating in these programs provides hands-on flight experience, airport tours, and mentorship."
           },
           {
             "attribute": "Remote Pilot Operations",
-            "left": "Req 5a: Basic Pilot Certificates: The FAA issues student, recreational, private, and remote pilot certificates with distinct privileges and training minimums. Each certificate level builds foundational aeronautical knowledge, flight safety discipline, and legal operational limits.",
-            "right": "Req 5b: Benefits Of The Instrument: An instrument rating qualifies pilots to navigate and land in low visibility and clouds using instrument flight rules. This certification prevents spatial disorientation and dramatically improves operational utility and flight safety."
+            "left": "Remote Pilot Operations: Commercial drone operators must earn an FAA Part 107 remote pilot certificate.",
+            "right": "Airline Transport Threshold: Major airline first officers typically require an airline transport pilot certificate qualification."
           }
         ]
       },
       "worked_example": {
-        "title": "Aviation Req 5 Exemplar Workbook Entry: Pilot",
+        "title": "Aviation Req 5 Worked Example: Aviation Pilot Certification and Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 5a - Basic Pilot Certificates": "The FAA issues student, recreational, private, and remote pilot certificates with distinct privileges and training minimums. Each certificate level builds foundational aeronautical knowledge, flight safety discipline, and legal operational limits.",
-          "Req 5b - Benefits of the Instrument": "An instrument rating qualifies pilots to navigate and land in low visibility and clouds using instrument flight rules. This certification prevents spatial disorientation and dramatically improves operational utility and flight safety.",
-          "Req 5c - Advanced Commercial": "Commercial and Airline Transport Pilot certificates qualify aviators for revenue operations, cargo hauling, and airline service. Certified Flight Instructors provide primary flight training to train future generations of pilots.",
-          "Req 5d - Youth Aviation Organizations": "Civil Air Patrol squadrons and Aviation Exploring Posts offer youth orientation flights, aerospace education, and leadership training. Participating in these programs provides hands-on flight experience, airport tours, and mentorship."
+          "Phase 1 - Airman Certificate Comparison": "Compare flight hour requirements across recreational, private, commercial, and transport pilot licenses.",
+          "Phase 2 - Medical Exam Criteria": "Review FAA class medical certificate standards required for various civilian pilot privileges.",
+          "Phase 3 - Instrument Rating Evaluation": "Identify how flight in low visibility conditions requires specialized instrument avionics training.",
+          "Phase 4 - Career Pathway Research": "Map out required education, flight hours, and ratings for a chosen aviation profession."
         },
-        "sample_output": "Pilot Certificates and Aviation Careers: Of all the certificates and ratings, the recreational pilot certificate is the easiest to obtain (p. 57).",
-        "counselor_tip": "For Aviation Requirement 5 (Pilot Certificates and Aviation Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58))."
+        "sample_output": "Aviation offers pathways from student and private pilot certificates through commercial airline careers and technical aerospace professions. Advanced training, such as the instrument rating, increases operational safety and career flexibility.",
+        "counselor_tip": "During the Aviation Requirement 5 conference on Aviation Pilot Certification and Careers, verify that the Scout can explain private pilot privileges and demonstrate career pathway research: Map out required education, flight hours, and ratings for a chosen aviation profession."
       },
       "quiz_item": {
         "scenario_prompt": "What operating restriction applies to a basic Recreational Pilot certificate?",

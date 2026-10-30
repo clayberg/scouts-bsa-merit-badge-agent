@@ -50,10 +50,8 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Action Sports Hazards and First Aid)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Action Sports Req 1 inspection prior to hands-on station work.
-- **Common Myth:** Novices think hazards exist only within terrain features rather than in traffic flow and perimeter obstacles.
-- **Pamphlet Fact:** Collisions with other park users, erratic spectators, and fixed boundary fencing represent primary sources of severe injury.
 
-![Action Sports Requirement 1 figure showing multi-impact helmets absorb direct kinetic forces to protect vulnerable skull plates.](/assets/pamphlet_images/action_sports_p003_img1.png)
+![Multi-impact helmets absorb direct kinetic forces to protect vulnerable skull plates and intracranial tissue.](/assets/pamphlet_images/action_sports_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -64,10 +62,8 @@
 #### Req 1b: Sports First Aid Protocols
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat exhaustion, heatstroke, blisters, sprains, strains, fractures, head/concussion injuries, and spinal injuries.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** Scouts believe vigorous rubbing of frostbitten fingers effectively restores capillary blood circulation in freezing weather.
-- **Pamphlet Fact:** Friction damages frozen epidermal tissue, requiring passive skin-to-skin contact or warm water immersion without mechanical rubbing.
 
-![Action Sports Requirement 3 figure showing adjusting the central kingpin nut alters truck turning resistance and high-speed.](/assets/pamphlet_images/action_sports_p012_img1.png)
+![Adjusting the central kingpin nut alters truck turning resistance and high-speed directional stability.](/assets/pamphlet_images/action_sports_p012_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -85,8 +81,6 @@
 **Official Requirement 1c:** Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to inspect and fit them properly.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Helmet Wrist Guards Knee/elbow Pads)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Action Sports Req 1c inspection prior to hands-on station work.
-- **Common Myth:** Riders assume loose wrist guards and unbuckled chinstraps still absorb fall forces during sudden wipeouts.
-- **Pamphlet Fact:** Loose protective equipment twists out of alignment during deceleration, concentrating impacts onto bare joints and bones.
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -110,10 +104,8 @@
 #### Req 2a: Responsibility Codes and Etiquette
 **Official Requirement 2a:** Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Skier/Snowboarder Responsibility Code or Skatepark)
-- **Common Myth:** Skatepark users believe that standing on the transition flat bottom is acceptable if they are resting briefly.
-- **Pamphlet Fact:** The flat bottom and transition walls must remain completely clear for athletes actively completing drop-in lines.
 
-![Action Sports Requirement 2 figure showing downhill riders possess primary clearance, requiring trailing individuals to navigate.](/assets/pamphlet_images/action_sports_p007_img1.png)
+![Downhill riders possess primary clearance, requiring trailing individuals to navigate safely around them.](/assets/pamphlet_images/action_sports_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,8 +116,6 @@
 #### Req 2b: Rider Conditioning and Mobility
 **Official Requirement 2b:** Demonstrate a warm-up, stretching, and conditioning routine for action sports.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Warm-up Stretching and Conditioning Routine)
-- **Common Myth:** Athletes think muscle soreness following a session stems solely from impact rather than inadequate conditioning.
-- **Pamphlet Fact:** Eccentric quad fatigue causes micro-tears and reduces knee stabilization, greatly raising anterior cruciate ligament tear risks.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -250,8 +240,6 @@
 **Official Requirement 5a:** Demonstrate three intermediate maneuvers or tricks approved by your counselor in a supervised skatepark or snow terrain park.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Intermediate Maneuvers or Tricks Approved)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Action Sports Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Athletes think leaning backward during a grind or rail slide prevents slipping forward off the obstacle.
-- **Pamphlet Fact:** Leaning back removes weight from the front foot, kicking the board out and causing direct hip-to-rail impacts.
 
 **Gear & Readiness Checklist:**
 - [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear).
@@ -270,8 +258,6 @@
 #### Req 5b: Resort Stewardship and Careers
 **Official Requirement 5b:** Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Career & Profession Exploration Card):** Req 5b Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Visitors assume municipal parks and ski resorts have dedicated maintenance crews that handle all trash left.
-- **Pamphlet Fact:** Neglected trash attracts wildlife into active zones, while litter on skate ramps creates severe wheel-stop collision hazards.
 
 ![Two skateboarders wearing safety helmets practice balancing techniques and rail slides across a low metal grind bar.](/assets/ai_illustrations/action_sports_req_5_nano_hero.png)
 

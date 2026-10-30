@@ -315,10 +315,12 @@
         "left_header": "Req 1a: Action Sports Hazard Recognition",
         "right_header": "Req 1b: Sports First Aid Protocols",
         "left_points": [
-          "(1a) Action Sports Hazard Recognition: Riders evaluate blind corners, surface debris, and weather swings to prevent high-velocity collisions before dropping into bowls or runs. Early recognition of environmental hazards allows timely evasion and controlled bailout maneuvers."
+          "(1a) Action Sports Hazard Recognition: Riders evaluate blind corners, surface debris, and weather swings to prevent high-velocity collisions before dropping into bowls or runs. Early recognition of environmental hazards allows timely evasion and controlled bailout maneuvers.",
+          "Impact Attenuation: Multi-impact helmets absorb direct kinetic forces to protect vulnerable skull plates and intracranial tissue."
         ],
         "right_points": [
-          "(1b) Sports First Aid Protocols: Prompt identification of core body temperature changes and musculoskeletal trauma prevents secondary systemic shock. Initial field care focuses on stabilizing the cervical spine, immobilizing injured limbs, and controlling ambient exposure."
+          "(1b) Sports First Aid Protocols: Prompt identification of core body temperature changes and musculoskeletal trauma prevents secondary systemic shock. Initial field care focuses on stabilizing the cervical spine, immobilizing injured limbs, and controlling ambient exposure.",
+          "(1c) Protective Gear Inspection Protocol: Personal protective gear must meet certified impact standards and maintain structural integrity across straps, plastic shells, and buckles. Proper sizing ensures foam padding sits firmly over joints without shifting during hard falls."
         ],
         "rows": [
           {
@@ -328,26 +330,27 @@
           },
           {
             "attribute": "Surface Evaluation",
-            "left": "Req 1a: Action Sports Hazard: Riders evaluate blind corners, surface debris, and weather swings to prevent high-velocity collisions before dropping into bowls or runs. Early recognition of environmental hazards allows timely evasion and controlled bailout maneuvers.",
-            "right": "Req 1b: Sports First Aid Protocols: Prompt identification of core body temperature changes and musculoskeletal trauma prevents secondary systemic shock. Initial field care focuses on stabilizing the cervical spine, immobilizing injured limbs, and controlling ambient exposure."
+            "left": "Impact Attenuation: Multi-impact helmets absorb direct kinetic forces to protect vulnerable skull plates and intracranial tissue.",
+            "right": "(1c) Protective Gear Inspection Protocol: Personal protective gear must meet certified impact standards and maintain structural integrity across straps, plastic shells, and buckles. Proper sizing ensures foam padding sits firmly over joints without shifting during hard falls."
           },
           {
             "attribute": "Hypothermia Prevention",
-            "left": "Req 1c: Protective Gear Inspection: Personal protective gear must meet certified impact standards and maintain structural integrity across straps, plastic shells, and buckles. Proper sizing ensures foam padding sits firmly over joints without shifting during hard falls.",
-            "right": "Surface Evaluation: Wet wooden ramps and icy hardpack snow eliminate traction, causing severe uncontrolled slides."
+            "left": "Hypothermia Prevention: Layered synthetic garments manage body moisture while retaining essential core heat during freezes.",
+            "right": "Wrist Protection: Rigid internal splints divert hyperextension torque away from delicate carpal bones upon impact."
           }
         ]
       },
       "worked_example": {
-        "title": "Action Sports Req 1 Exemplar Workbook Entry: Hazards",
+        "title": "Action Sports Req 1 Worked Example: Action Sports Environmental Hazard Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Action Sports Hazard": "Riders evaluate blind corners, surface debris, and weather swings to prevent high-velocity collisions before dropping into bowls or runs. Early recognition of environmental hazards allows timely evasion and controlled bailout maneuvers.",
-          "Req 1b - Sports First Aid Protocols": "Prompt identification of core body temperature changes and musculoskeletal trauma prevents secondary systemic shock. Initial field care focuses on stabilizing the cervical spine, immobilizing injured limbs, and controlling ambient exposure.",
-          "Req 1c - Protective Gear Inspection": "Personal protective gear must meet certified impact standards and maintain structural integrity across straps, plastic shells, and buckles. Proper sizing ensures foam padding sits firmly over joints without shifting during hard falls."
+          "Phase 1 - Site Assessment": "Scan the riding zone thoroughly for surface cracks, loose gravel, or hidden ice.",
+          "Phase 2 - Equipment Audit": "Fasten the retention buckle securely until two fingers fit snugly beneath your chin.",
+          "Phase 3 - Weather Briefing": "Check local ambient temperatures and wind speed reports to anticipate rapid freezing conditions.",
+          "Phase 4 - Emergency Positioning": "Establish clear evacuation routes and locate the nearest designated park emergency medical station."
         },
-        "sample_output": "Hazards, First Aid, and Protective Gear: Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to inspect and fit them properly (p. 12).",
-        "counselor_tip": "For Action Sports Requirement 1 (Hazards, First Aid, and Protective Gear), verify the Scout's own observations and specific pamphlet details (Official Scouting America Action Sports Merit Badge Pamphlet)."
+        "sample_output": "Action sports demand proactive risk assessments covering surface irregularities, terrain transitions, and severe weather changes before every session. Riders reduce traumatic injury risks by pairing certified impact equipment with disciplined environmental scans.",
+        "counselor_tip": "During the Action Sports Requirement 1 conference on Action Sports Environmental Hazard Management, verify that the Scout can explain impact attenuation and demonstrate emergency positioning: Establish clear evacuation routes and locate the nearest designated park emergency medical station."
       },
       "quiz_item": {
         "scenario_prompt": "Before dropping into a concrete skatepark bowl on a skateboard or riding a BMX track, how should you verify that your helmet and protective pads meet Action Sports safety standards?",
@@ -634,41 +637,45 @@
         "Inspected Action Sports equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Responsibility Codes",
+        "left_header": "Req 2a: Responsibility Codes and Etiquette",
         "right_header": "Req 2b: Rider Conditioning and Mobility",
         "left_points": [
-          "(2a) Responsibility Codes and Etiquette: Resort codes and park guidelines mandate predictable movement, uphill awareness, and immediate clearing of landing pads. Following these rules eliminates erratic crossing lines that trigger catastrophic multi-person wipeouts."
+          "(2a) Responsibility Codes and Etiquette: Resort codes and park guidelines mandate predictable movement, uphill awareness, and immediate clearing of landing pads. Following these rules eliminates erratic crossing lines that trigger catastrophic multi-person wipeouts.",
+          "Right of Way: Downhill riders possess primary clearance, requiring trailing individuals to navigate safely around them."
         ],
         "right_points": [
-          "(2b) Rider Conditioning and Mobility: Comprehensive athletic conditioning builds eccentric quad endurance and enhances ankle proprioception against abrupt landings. Regular mobility routines expand functional range of motion and preserve joint alignment under torque."
+          "(2b) Rider Conditioning and Mobility: Comprehensive athletic conditioning builds eccentric quad endurance and enhances ankle proprioception against abrupt landings. Regular mobility routines expand functional range of motion and preserve joint alignment under torque.",
+          "Dynamic Warmup: Active leg swings and torso rotations stimulate synovial joint fluid prior to riding."
         ],
         "rows": [
           {
-            "attribute": "Right Of Way",
+            "attribute": "Right of Way",
             "left": "(2a) Responsibility Codes and Etiquette: Resort codes and park guidelines mandate predictable movement, uphill awareness, and immediate clearing of landing pads. Following these rules eliminates erratic crossing lines that trigger catastrophic multi-person wipeouts.",
             "right": "(2b) Rider Conditioning and Mobility: Comprehensive athletic conditioning builds eccentric quad endurance and enhances ankle proprioception against abrupt landings. Regular mobility routines expand functional range of motion and preserve joint alignment under torque."
           },
           {
-            "attribute": "Drop In Communication",
-            "left": "Req 2a: Responsibility Codes: Resort codes and park guidelines mandate predictable movement, uphill awareness, and immediate clearing of landing pads. Following these rules eliminates erratic crossing lines that trigger catastrophic multi-person wipeouts.",
-            "right": "Req 2b: Rider Conditioning: Comprehensive athletic conditioning builds eccentric quad endurance and enhances ankle proprioception against abrupt landings. Regular mobility routines expand functional range of motion and preserve joint alignment under torque."
+            "attribute": "Drop in Communication",
+            "left": "Right of Way: Downhill riders possess primary clearance, requiring trailing individuals to navigate safely around them.",
+            "right": "Dynamic Warmup: Active leg swings and torso rotations stimulate synovial joint fluid prior to riding."
           },
           {
             "attribute": "Dynamic Warmup",
-            "left": "Right Of Way: Downhill riders possess primary clearance, requiring trailing individuals to navigate safely around them.",
-            "right": "Drop In Communication: Calling your drop line aloud prevents dangerous simultaneous entries into crowded skate transitions."
+            "left": "Dynamic Warmup: Active leg swings and torso rotations stimulate synovial joint fluid prior to riding.",
+            "right": "Landing Clearance: Snowboarders must vacate terrain park landing zones immediately to avoid blind aerial collisions."
           }
         ]
       },
       "worked_example": {
-        "title": "Action Sports Req 2 Exemplar Workbook Entry: Rider",
+        "title": "Action Sports Req 2 Worked Example: Park Etiquette and Athletic Conditioning",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Responsibility Codes": "Resort codes and park guidelines mandate predictable movement, uphill awareness, and immediate clearing of landing pads. Following these rules eliminates erratic crossing lines that trigger catastrophic multi-person wipeouts.",
-          "Req 2b - Rider Conditioning": "Comprehensive athletic conditioning builds eccentric quad endurance and enhances ankle proprioception against abrupt landings. Regular mobility routines expand functional range of motion and preserve joint alignment under torque."
+          "Phase 1 - Perimeter Scan": "Observe traffic patterns and yield points before entering the active park or slope.",
+          "Phase 2 - Dynamic Mobility": "Perform ten lateral lunges and ankle rolls to prepare lower extremity muscle groups.",
+          "Phase 3 - Core Activation": "Hold a static plank for thirty seconds to stabilize spinal and abdominal musculature.",
+          "Phase 4 - Staged Departure": "Wait until the preceding rider clears the feature before launching your own run."
         },
-        "sample_output": "Rider Etiquette and Physical Conditioning: Review the Action Sports pamphlet standards for rider etiquette and physical conditioning, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 12).",
-        "counselor_tip": "For Action Sports Requirement 2 (Rider Etiquette and Physical Conditioning), verify the Scout's own observations and specific pamphlet details (Official Scouting America Action Sports Merit Badge Pamphlet)."
+        "sample_output": "Park etiquette and resort responsibility codes preserve order by granting downhill or dropped-in riders absolute right of way. Pre-ride conditioning programs combine dynamic mobility with core strengthening to shield vulnerable tendons from violent deceleration stresses.",
+        "counselor_tip": "During the Action Sports Requirement 2 conference on Park Etiquette and Athletic Conditioning, verify that the Scout can explain right of way and demonstrate staged departure: Wait until the preceding rider clears the feature before launching your own run."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Skier/Snowboarder Responsibility Code, who has the right-of-way on a mountain trail?",
@@ -820,47 +827,45 @@
         "Inspected Action Sports equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Skateboard and Snowboard",
-        "right_header": "Req 3: Present Maintenance Evidence",
+        "left_header": "Equipment Anatomy and Maintenance: Core Principles",
+        "right_header": "Equipment Anatomy and Maintenance: Field Execution",
         "left_points": [
-          "Skateboard and Snowboard Components: Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance (p. 12).",
-          "Board Anatomy and Routine Maintenance: Review the Action Sports pamphlet standards for board anatomy and routine maintenance, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18).",
-          "Counselor Maintenance Review: Review your completed Parts of your skateboard or snowboard evidence and demonstrate proficiency during your counselor conference (p. 18)."
+          "Kingpin Tension: Adjusting the central kingpin nut alters truck turning resistance and high-speed directional stability.",
+          "Edge Tuning: Diamond stones remove microscopic burrs from steel edges to maintain sharp carving bite."
         ],
         "right_points": [
-          "Present Maintenance Evidence: Review your completed Parts of your skateboard or snowboard evidence and demonstrate proficiency during your counselor conference (p. 18).",
-          "Identify Board Components: Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance (p. 16).",
-          "Check Hardware and Edges: For Action Sports Requirement 3 (Skateboard Deck Grip Tape Trucks), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 16)."
+          "Bearing Service: Solvents strip contaminated grease from ball bearings before fresh synthetic lubricant is introduced.",
+          "Base Waxing: Hot waxing hydrates porous polyethylene snowboard bases, preventing friction burn and dry oxidation."
         ],
         "rows": [
           {
             "attribute": "Kingpin Tension",
-            "left": "Skateboard and Snowboard Components: Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance (p. 12).",
-            "right": "Present Maintenance Evidence: Review your completed Parts of your skateboard or snowboard evidence and demonstrate proficiency during your counselor conference (p. 18)."
+            "left": "Kingpin Tension: Adjusting the central kingpin nut alters truck turning resistance and high-speed directional stability.",
+            "right": "Bearing Service: Solvents strip contaminated grease from ball bearings before fresh synthetic lubricant is introduced."
           },
           {
             "attribute": "Edge Tuning",
-            "left": "Board Anatomy and Routine Maintenance: Review the Action Sports pamphlet standards for board anatomy and routine maintenance, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18).",
-            "right": "Identify Board Components: Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance (p. 16)."
+            "left": "Edge Tuning: Diamond stones remove microscopic burrs from steel edges to maintain sharp carving bite.",
+            "right": "Base Waxing: Hot waxing hydrates porous polyethylene snowboard bases, preventing friction burn and dry oxidation."
           },
           {
             "attribute": "Bearing Service",
-            "left": "Counselor Maintenance Review: Review your completed Parts of your skateboard or snowboard evidence and demonstrate proficiency during your counselor conference (p. 18).",
-            "right": "Check Hardware and Edges: For Action Sports Requirement 3 (Skateboard Deck Grip Tape Trucks), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 16)."
+            "left": "Bearing Service: Solvents strip contaminated grease from ball bearings before fresh synthetic lubricant is introduced.",
+            "right": "Base Waxing: Hot waxing hydrates porous polyethylene snowboard bases, preventing friction burn and dry oxidation."
           }
         ]
       },
       "worked_example": {
-        "title": "Action Sports Req 3 Exemplar Workbook Entry: Board",
+        "title": "Action Sports Req 3 Worked Example: Equipment Anatomy and Maintenance",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Skateboard and Snowboard Components": "Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance (p. 12).",
-          "Peer Equipment Check": "Board Anatomy and Routine Maintenance: Board anatomy and routine maintenance, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18).",
-          "Counselor Maintenance Review": "Review your completed Parts of your skateboard or snowboard evidence and demonstrate proficiency during your counselor conference (p. 18).",
-          "Routine Cleaning and Tuning": "Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance (p. 16)."
+          "Phase 1 - Hardware Inspection": "Check mounting bolts and axle nuts for stripped threads or structural micro-cracks.",
+          "Phase 2 - Component Cleaning": "Wipe bearings with citrus solvent and dry them completely before applying lubrication.",
+          "Phase 3 - Edge Dressing": "Run a deburring stone smoothly down metal side edges to remove oxidized burrs.",
+          "Phase 4 - Torque Verification": "Tighten binding baseplate screws firmly in a crisscross pattern using a hand tool."
         },
-        "sample_output": "Board Anatomy and Routine Maintenance: Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance (p. 12).",
-        "counselor_tip": "For Action Sports Requirement 3 (Board Anatomy and Routine Maintenance), verify the Scout's own observations and specific pamphlet details (Official Scouting America Action Sports Merit Badge Pamphlet)."
+        "sample_output": "Rigorous hardware maintenance ensures mechanical reliability, prevents hardware shearing, and preserves precise edge or turning control across varied terrain. Routine disassembly enables riders to detect structural fractures in decks, stripped axle threads, blown bearings, and cracked binding baseplates.",
+        "counselor_tip": "During the Action Sports Requirement 3 conference on Equipment Anatomy and Maintenance, verify that the Scout can explain kingpin tension and demonstrate torque verification: Tighten binding baseplate screws firmly in a crisscross pattern using a hand tool."
       },
       "quiz_item": {
         "scenario_prompt": "Which component inside a skateboard truck absorbs lean pressure and returns the hanger to center after a turn?",
@@ -1147,13 +1152,15 @@
         "Inspected Action Sports equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Stance and Propulsion",
-        "right_header": "Req 4b: Carving Transitions and Safe",
+        "left_header": "Req 4a: Stance and Propulsion Fundamentals",
+        "right_header": "Req 4b: Carving Transitions and Safe Bailing",
         "left_points": [
-          "(4a) Stance and Propulsion Fundamentals: Determining natural stance alignment allows riders to mount the deck smoothly and push without awkward foot rotation. Mastering flat-ground deceleration techniques ensures predictable stops before approaching congested trail intersections or park drops."
+          "(4a) Stance and Propulsion Fundamentals: Determining natural stance alignment allows riders to mount the deck smoothly and push without awkward foot rotation. Mastering flat-ground deceleration techniques ensures predictable stops before approaching congested trail intersections or park drops.",
+          "Stance Determination: The dominant forward foot establishes either regular stance or goofy stance for boarders."
         ],
         "right_points": [
-          "(4b) Carving Transitions and Safe Bailing: Progressive pressure transitions between heel and toe edges generate rhythmic carved turns down sloped surfaces. Executing planned knee-slides or shoulder-rolls minimizes kinetic trauma when balance is broken across steep transitions."
+          "(4b) Carving Transitions and Safe Bailing: Progressive pressure transitions between heel and toe edges generate rhythmic carved turns down sloped surfaces. Executing planned knee-slides or shoulder-rolls minimizes kinetic trauma when balance is broken across steep transitions.",
+          "Foot Braking: Lowering the rear foot flat against asphalt applies friction without destabilizing your center."
         ],
         "rows": [
           {
@@ -1163,25 +1170,27 @@
           },
           {
             "attribute": "Edge Engagement",
-            "left": "Req 4a: Stance and Propulsion: Determining natural stance alignment allows riders to mount the deck smoothly and push without awkward foot rotation. Mastering flat-ground deceleration techniques ensures predictable stops before approaching congested trail intersections or park drops.",
-            "right": "Req 4b: Carving Transitions and Safe: Progressive pressure transitions between heel and toe edges generate rhythmic carved turns down sloped surfaces. Executing planned knee-slides or shoulder-rolls minimizes kinetic trauma when balance is broken across steep transitions."
+            "left": "Stance Determination: The dominant forward foot establishes either regular stance or goofy stance for boarders.",
+            "right": "Foot Braking: Lowering the rear foot flat against asphalt applies friction without destabilizing your center."
           },
           {
             "attribute": "Foot Braking",
-            "left": "Stance Determination: The dominant forward foot establishes either regular stance or goofy stance for boarders.",
-            "right": "Edge Engagement: Pressing toe edges or heel edges forces the board into smooth carved arcs."
+            "left": "Foot Braking: Lowering the rear foot flat against asphalt applies friction without destabilizing your center.",
+            "right": "Impact Dissipation: Tucking the chin and rolling sideways redistributes downward fall kinetic energy across shoulders."
           }
         ]
       },
       "worked_example": {
-        "title": "Action Sports Req 4 Exemplar Workbook Entry: Fundamental",
+        "title": "Action Sports Req 4 Worked Example: Fundamental Board Control Techniques",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Stance and Propulsion": "Determining natural stance alignment allows riders to mount the deck smoothly and push without awkward foot rotation. Mastering flat-ground deceleration techniques ensures predictable stops before approaching congested trail intersections or park drops.",
-          "Req 4b - Carving Transitions and Safe": "Progressive pressure transitions between heel and toe edges generate rhythmic carved turns down sloped surfaces. Executing planned knee-slides or shoulder-rolls minimizes kinetic trauma when balance is broken across steep transitions."
+          "Phase 1 - Athletic Posture": "Align shoulders parallel with your deck while keeping knees bent and head upright.",
+          "Phase 2 - Forward Propulsion": "Push smoothly against the ground using your back foot while balancing over front bolts.",
+          "Phase 3 - Edge Modulation": "Shift body mass smoothly from heel edge to toe edge through successive linked arcs.",
+          "Phase 4 - Controlled Deceleration": "Apply firm progressive pressure across the downhill edge until forward momentum ceases completely."
         },
-        "sample_output": "Fundamental Riding Stance and Control: Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes (p. 12).",
-        "counselor_tip": "For Action Sports Requirement 4 (Fundamental Riding Stance and Control), verify the Scout's own observations and specific pamphlet details (Official Scouting America Action Sports Merit Badge Pamphlet)."
+        "sample_output": "Fundamental board control relies on an athletic stance with bent knees, centered center of gravity, and disciplined weight distribution across the deck. Mastering deliberate edge engagement and safe rolling bailouts protects the skeletal structure during unexpected loss of traction.",
+        "counselor_tip": "During the Action Sports Requirement 4 conference on Fundamental Board Control Techniques, verify that the Scout can explain stance determination and demonstrate controlled deceleration: Apply firm progressive pressure across the downhill edge until forward momentum ceases completely."
       },
       "quiz_item": {
         "scenario_prompt": "What is the safest technique to reduce injury if you lose balance and fall while skateboarding or snowboarding?",
@@ -1482,13 +1491,15 @@
         "Inspected Action Sports equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Supervised Intermediate Maneuver",
+        "left_header": "Req 5a: Supervised Intermediate Maneuver Execution",
         "right_header": "Req 5b: Resort Stewardship and Careers",
         "left_points": [
-          "(5a) Supervised Intermediate Maneuver Execution: Scouts execute approved intermediate maneuvers such as ollies, kickturns, 50-50 grinds, or straight airs under direct counselor supervision. Proper execution demands centered pop, balanced weight transfer along the obstacle, and smooth compression upon landing."
+          "(5a) Supervised Intermediate Maneuver Execution: Scouts execute approved intermediate maneuvers such as ollies, kickturns, 50-50 grinds, or straight airs under direct counselor supervision. Proper execution demands centered pop, balanced weight transfer along the obstacle, and smooth compression upon landing.",
+          "Maneuver Progression: Mastering flat-ground pop and edge control must precede launching off elevated park features."
         ],
         "right_points": [
-          "(5b) Resort Stewardship and Careers: Environmental stewardship requires adhering to designated trails, packing out trash, and respecting wildlife habitats across sensitive alpine ecosystems. Exploring careers in patrol services, adaptive sports, and resort operations builds lifelong service to the riding community."
+          "(5b) Resort Stewardship and Careers: Environmental stewardship requires adhering to designated trails, packing out trash, and respecting wildlife habitats across sensitive alpine ecosystems. Exploring careers in patrol services, adaptive sports, and resort operations builds lifelong service to the riding community.",
+          "Waste Management: Discarded plastic wrappers and wax shavings damage fragile alpine plants and clog park drains."
         ],
         "rows": [
           {
@@ -1498,25 +1509,27 @@
           },
           {
             "attribute": "Speed Estimation",
-            "left": "Req 5a: Supervised Intermediate: Scouts execute approved intermediate maneuvers such as ollies, kickturns, 50-50 grinds, or straight airs under direct counselor supervision. Proper execution demands centered pop, balanced weight transfer along the obstacle, and smooth compression upon landing.",
-            "right": "Req 5b: Resort Stewardship: Environmental stewardship requires adhering to designated trails, packing out trash, and respecting wildlife habitats across sensitive alpine ecosystems. Exploring careers in patrol services, adaptive sports, and resort operations builds lifelong service to the riding community."
+            "left": "Maneuver Progression: Mastering flat-ground pop and edge control must precede launching off elevated park features.",
+            "right": "Waste Management: Discarded plastic wrappers and wax shavings damage fragile alpine plants and clog park drains."
           },
           {
             "attribute": "Waste Management",
-            "left": "Maneuver Progression: Mastering flat-ground pop and edge control must precede launching off elevated park features.",
-            "right": "Speed Estimation: Insufficient speed off kickers causes dangerous impacts directly onto flat feature knuckles."
+            "left": "Waste Management: Discarded plastic wrappers and wax shavings damage fragile alpine plants and clog park drains.",
+            "right": "Patrol Support: Volunteer safety patrols manage mountain evacuations and provide first aid across rugged slopes."
           }
         ]
       },
       "worked_example": {
-        "title": "Action Sports Req 5 Exemplar Workbook Entry",
+        "title": "Action Sports Req 5 Worked Example: Intermediate Maneuvers and Park Stewardship",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 5a - Supervised Intermediate": "Scouts execute approved intermediate maneuvers such as ollies, kickturns, 50-50 grinds, or straight airs under direct counselor supervision. Proper execution demands centered pop, balanced weight transfer along the obstacle, and smooth compression upon landing.",
-          "Req 5b - Resort Stewardship": "Environmental stewardship requires adhering to designated trails, packing out trash, and respecting wildlife habitats across sensitive alpine ecosystems. Exploring careers in patrol services, adaptive sports, and resort operations builds lifelong service to the riding community."
+          "Phase 1 - Feature Inspection": "Inspect takeoff lips and landing zones on foot before dropping in for tricks.",
+          "Phase 2 - Approach Commitment": "Maintain a steady approach velocity and compress your knees before the takeoff lip.",
+          "Phase 3 - Airborne Centering": "Keep your head level and spot the target landing zone throughout flight trajectory.",
+          "Phase 4 - Stewardship Action": "Collect all discarded beverage bottles and gear remnants before departing the park."
         },
-        "sample_output": "Intermediate Maneuvers and Outdoor Stewardship: Review the Action Sports pamphlet standards for intermediate maneuvers and outdoor stewardship, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 12).",
-        "counselor_tip": "For Action Sports Requirement 5 (Intermediate Maneuvers and Outdoor Stewardship), verify the Scout's own observations and specific pamphlet details (Official Scouting America Action Sports Merit Badge Pamphlet)."
+        "sample_output": "Advancing to intermediate tricks requires committing through execution, maintaining visual focus on target landings, and matching speed to feature geometry. Ethical park stewardship encompasses packing out litter, respecting facility closures, and supporting volunteer safety patrols on the mountain.",
+        "counselor_tip": "During the Action Sports Requirement 5 conference on Intermediate Maneuvers and Park Stewardship, verify that the Scout can explain maneuver progression and demonstrate stewardship action: Collect all discarded beverage bottles and gear remnants before departing the park."
       },
       "quiz_item": {
         "scenario_prompt": "Before attempting an intermediate trick on a terrain park jump or skatepark ramp, what should a responsible rider do first?",

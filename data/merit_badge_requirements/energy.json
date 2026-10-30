@@ -193,7 +193,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow BSA Cyber Chip guidelines and obtain parental consent before browsing unfamiliar internet platforms.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -263,19 +263,20 @@
         "Step 4 - Technical Discussion: Present recorded article insights to your counselor during the scheduled patrol conference."
       ],
       "gear_checklist": [
-        "Official Energy merit badge pamphlet and workbook organizer for Req 1.",
         "Energy field toolkit, inspection gauge, and protective eyewear for Energy Media Research Project.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 1."
       ],
       "comparison_data": {
         "left_header": "Req 1a: Digital Energy Media Analysis",
-        "right_header": "Req 1b: Source Reevaluation",
+        "right_header": "Req 1b: Source Reevaluation and Reflection",
         "left_points": [
-          "(1a) Digital Energy Media Analysis: Scouts locate and critically review a technical article covering electrical generation or conservation methods. The review emphasizes separating objective engineering data from speculative marketing statements."
+          "(1a) Digital Energy Media Analysis: Scouts locate and critically review a technical article covering electrical generation or conservation methods. The review emphasizes separating objective engineering data from speculative marketing statements.",
+          "Online Source Evaluation: Independent verification of digital claims ensures sound understanding of regional electrical systems."
         ],
         "right_points": [
-          "(1b) Source Reevaluation and Reflection: Scouts reexamine their initial source using knowledge gained from completing the technical badge requirements. This retrospection tests whether the author presented viable physics or exaggerated system capabilities."
+          "(1b) Source Reevaluation and Reflection: Scouts reexamine their initial source using knowledge gained from completing the technical badge requirements. This retrospection tests whether the author presented viable physics or exaggerated system capabilities.",
+          "Technological Reporting Review: Credible scientific publications provide measurable efficiency data rather than unsubstantiated corporate promotions."
         ],
         "rows": [
           {
@@ -285,25 +286,27 @@
           },
           {
             "attribute": "Energy Conservation Basics",
-            "left": "Req 1a: Digital Energy Media: Scouts locate and critically review a technical article covering electrical generation or conservation methods. The review emphasizes separating objective engineering data from speculative marketing statements.",
-            "right": "Req 1b: Source Reevaluation: Scouts reexamine their initial source using knowledge gained from completing the technical badge requirements. This retrospection tests whether the author presented viable physics or exaggerated system capabilities."
+            "left": "Online Source Evaluation: Independent verification of digital claims ensures sound understanding of regional electrical systems.",
+            "right": "Technological Reporting Review: Credible scientific publications provide measurable efficiency data rather than unsubstantiated corporate promotions."
           },
           {
             "attribute": "Technological Reporting Review",
-            "left": "Online Source Evaluation: Independent verification of digital claims ensures sound understanding of regional electrical systems.",
-            "right": "Energy Conservation Basics: Curtailing unneeded power consumption directly decreases fossil fuel combustion at generation plants."
+            "left": "Technological Reporting Review: Credible scientific publications provide measurable efficiency data rather than unsubstantiated corporate promotions.",
+            "right": "Knowledge Integration Process: Comparing initial media readings against fundamental physical laws reveals commercial reporting biases."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 1 Exemplar Workbook Entry: Energy",
+        "title": "Energy Req 1 Worked Example: Energy Media Research Project",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Digital Energy Media Analysis": "Scouts locate and critically review a technical article covering electrical generation or conservation methods. The review emphasizes separating objective engineering data from speculative marketing statements.",
-          "Req 1b - Source Reevaluation": "Scouts reexamine their initial source using knowledge gained from completing the technical badge requirements. This retrospection tests whether the author presented viable physics or exaggerated system capabilities."
+          "Phase 1 - Parental Approval": "Secure parental permission before accessing recommended technical energy websites and scientific databases.",
+          "Phase 2 - Media Selection": "Select one published article detailing regional renewable power integration or household efficiency.",
+          "Phase 3 - Fact Annotation": "Record specific energy statistics, power units, and technical claims in your notebook.",
+          "Phase 4 - Technical Discussion": "Present recorded article insights to your counselor during the scheduled patrol conference."
         },
-        "sample_output": "Energy Conservation Media Research: However, after checking, Nate found that higher-priced trucks generally got lower fuel mileage, making them more expensive to drive than lower-priced (p. 12).",
-        "counselor_tip": "For Energy Requirement 1 (Energy Conservation Media Research), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16))."
+        "sample_output": "Scouts research reputable media coverage regarding current power production technologies and localized conservation strategies. Evaluating digital journalism requires comparing reported claims against established physical laws and grid data.",
+        "counselor_tip": "During the Energy Requirement 1 conference on Energy Media Research Project, verify that the Scout can explain online source evaluation and demonstrate technical discussion: Present recorded article insights to your counselor during the scheduled patrol conference."
       },
       "quiz_item": {
         "scenario_prompt": "According to the First and Second Laws of Thermodynamics covered in Energy Requirement 1, what happens when chemical energy in coal or natural gas is converted into electrical energy at a power plant?",
@@ -618,7 +621,7 @@
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Disconnect power cords before inspecting electrical elements and use thermal gloves handling hot surfaces.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -683,19 +686,20 @@
         "Step 4 - Counselor Demonstration: Operate the completed dual-conversion mechanism before the counselor while explaining thermodynamic transfers."
       ],
       "gear_checklist": [
-        "Official Energy merit badge pamphlet and workbook organizer for Req 2.",
         "Energy field toolkit, inspection gauge, and protective eyewear for Energy Forms and Conversions.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 2."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Device Conversion Analysis",
-        "right_header": "Req 2b: Multi-Stage Converter",
+        "right_header": "Req 2b: Multi-Stage Converter Construction",
         "left_points": [
-          "(2a) Device Conversion Analysis: Scouts explain specific energy inputs and outputs for three mechanical, thermal, or electrical devices. The explanation highlights primary working functions along with incidental conversions such as thermal dissipation."
+          "(2a) Device Conversion Analysis: Scouts explain specific energy inputs and outputs for three mechanical, thermal, or electrical devices. The explanation highlights primary working functions along with incidental conversions such as thermal dissipation.",
+          "Thermal Radiation Release: Heated toaster filaments emit infrared radiation that transfers thermal energy to bread slices."
         ],
         "right_points": [
-          "(2b) Multi-Stage Converter Construction: Scouts assemble a multi-stage mechanism that converts energy through at least two successive forms. Demonstrating the system proves how potential or electrical power transitions through kinetic and thermal states."
+          "(2b) Multi-Stage Converter Construction: Scouts assemble a multi-stage mechanism that converts energy through at least two successive forms. Demonstrating the system proves how potential or electrical power transitions through kinetic and thermal states.",
+          "Nuclear Fission Dynamics: Splitting uranium atomic nuclei releases intense kinetic energy that produces high-pressure steam."
         ],
         "rows": [
           {
@@ -705,25 +709,27 @@
           },
           {
             "attribute": "Photovoltaic Generation Principle",
-            "left": "Req 2a: Device Conversion Analysis: Scouts explain specific energy inputs and outputs for three mechanical, thermal, or electrical devices. The explanation highlights primary working functions along with incidental conversions such as thermal dissipation.",
-            "right": "Req 2b: Multi-Stage Converter: Scouts assemble a multi-stage mechanism that converts energy through at least two successive forms. Demonstrating the system proves how potential or electrical power transitions through kinetic and thermal states."
+            "left": "Thermal Radiation Release: Heated toaster filaments emit infrared radiation that transfers thermal energy to bread slices.",
+            "right": "Nuclear Fission Dynamics: Splitting uranium atomic nuclei releases intense kinetic energy that produces high-pressure steam."
           },
           {
             "attribute": "Nuclear Fission Dynamics",
-            "left": "Thermal Radiation Release: Heated toaster filaments emit infrared radiation that transfers thermal energy to bread slices.",
-            "right": "Photovoltaic Generation Principle: Solar radiation strikes semiconductor material to excite free electrons and produce direct current."
+            "left": "Nuclear Fission Dynamics: Splitting uranium atomic nuclei releases intense kinetic energy that produces high-pressure steam.",
+            "right": "Mechanical Friction Heating: Rapidly spinning wooden spindles against hearth boards generates sufficient friction for ignition."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 2 Exemplar Workbook Entry: Energy Forms",
+        "title": "Energy Req 2 Worked Example: Energy Forms and Conversions",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Device Conversion Analysis": "Scouts explain specific energy inputs and outputs for three mechanical, thermal, or electrical devices. The explanation highlights primary working functions along with incidental conversions such as thermal dissipation.",
-          "Req 2b - Multi-Stage Converter": "Scouts assemble a multi-stage mechanism that converts energy through at least two successive forms. Demonstrating the system proves how potential or electrical power transitions through kinetic and thermal states."
+          "Phase 1 - Device Selection": "Choose three authorized devices illustrating diverse electrical, chemical, or thermodynamic conversion mechanisms.",
+          "Phase 2 - Mechanism Diagramming": "Sketch flow diagrams detailing energy transformations occurring inside each selected operating device.",
+          "Phase 3 - Converter Construction": "Build a functional benchtop apparatus executing two distinct sequential energy transformation stages.",
+          "Phase 4 - Counselor Demonstration": "Operate the completed dual-conversion mechanism before the counselor while explaining thermodynamic transfers."
         },
-        "sample_output": "Energy Forms and Conversion Systems: While incandescent lightbulbs are only about 5% efficient, a fluorescent lamp works at almost 12% efficiency (p. 40).",
-        "counselor_tip": "For Energy Requirement 2 (Energy Forms and Conversion Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47))."
+        "sample_output": "Devices convert potential, chemical, nuclear, or electrical energy into radiant, thermal, and mechanical forms. The first law of thermodynamics mandates that total energy within an isolated system remains constant.",
+        "counselor_tip": "During the Energy Requirement 2 conference on Energy Forms and Conversions, verify that the Scout can explain thermal radiation release and demonstrate counselor demonstration: Operate the completed dual-conversion mechanism before the counselor while explaining thermodynamic transfers."
       },
       "quiz_item": {
         "scenario_prompt": "Approximately what percentage of electrical energy does a traditional incandescent light bulb convert into visible light?",
@@ -1076,7 +1082,7 @@
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain safe setback distances from high-temperature exhaust ducts and rotating machinery during plant tours.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
       "syllabus_bucket": "In-Class Concept",
@@ -1145,7 +1151,6 @@
         "Step 4 - Loss Accounting: Map parasitic losses such as acoustic vibration, aerodynamic drag, and radiant waste heat."
       ],
       "gear_checklist": [
-        "Official Energy merit badge pamphlet and workbook organizer for Req 3.",
         "Energy field toolkit, inspection gauge, and protective eyewear for Thermodynamic System Efficiency.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 3."
@@ -1174,22 +1179,22 @@
           },
           {
             "attribute": "Useful Work Extraction",
-            "left": "Req 3a: System Component: Scouts identify all mechanical components, heat exchangers, and fluid circuits directly affected by passing energy. Understanding physical degradation helps engineers monitor component lifespan and systemic performance.",
-            "right": "Req 3b: Primary Energy Source: Scouts identify the foundational fuel, fluid flow, or chemical reactant powering the chosen operational system. Pinpointing primary sources establishes the baseline energetic potential entering subsequent conversion steps."
+            "left": "Useful Work Extraction: Rotating generator shafts produce commercial alternating current electricity across regional distribution networks.",
+            "right": "Thermal Dissipation Losses: Unusable heat radiates into cooling towers and surrounding waterways during thermodynamic cycles."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 3 Exemplar Workbook Entry: Analyzing System",
+        "title": "Energy Req 3 Worked Example: Thermodynamic System Efficiency",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - System Component": "Scouts identify all mechanical components, heat exchangers, and fluid circuits directly affected by passing energy. Understanding physical degradation helps engineers monitor component lifespan and systemic performance.",
-          "Req 3b - Primary Energy Source": "Scouts identify the foundational fuel, fluid flow, or chemical reactant powering the chosen operational system. Pinpointing primary sources establishes the baseline energetic potential entering subsequent conversion steps.",
-          "Req 3c - Useful Outcome Quantification": "Scouts distinguish between deliberate productive work outputs and incidental conversion byproducts within an operating machine. Calculating intended outcomes forms the numerator in standard mechanical efficiency equations.",
-          "Req 3d - Parasitic Loss Determination": "Scouts identify points of parasitic energy loss caused by fluid resistance, thermal conduction, and friction. Quantifying these losses highlights targeted opportunities for mechanical and thermodynamic redesign."
+          "Phase 1 - System Selection": "Select a commercial power cycle or automotive drivetrain for detailed thermodynamic boundary mapping.",
+          "Phase 2 - Boundary Identification": "Trace the primary chemical or thermal energy source entering the defined operational boundary.",
+          "Phase 3 - Output Calculation": "Catalog every useful outcome produced by the system including mechanical thrust or electricity.",
+          "Phase 4 - Loss Accounting": "Map parasitic losses such as acoustic vibration, aerodynamic drag, and radiant waste heat."
         },
-        "sample_output": "Analyzing System Energy Efficiency: Fossil fuels, including petroleum, natural gas, and coal, have long produced most of the world's electricity and powered the transportation sector (p. 47).",
-        "counselor_tip": "For Energy Requirement 3 (Analyzing System Energy Efficiency), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73))."
+        "sample_output": "Analyzing an operating thermodynamic system requires identifying control volume boundaries, inputs, useful work, and parasitic losses. Modern power generation plants illustrate how thermal inefficiencies limit overall electrical output.",
+        "counselor_tip": "During the Energy Requirement 3 conference on Thermodynamic System Efficiency, verify that the Scout can explain system boundary definition and demonstrate loss accounting: Map parasitic losses such as acoustic vibration, aerodynamic drag, and radiant waste heat."
       },
       "quiz_item": {
         "scenario_prompt": "Where does roughly 95 percent of current hydrogen production in the United States originate?",
@@ -1478,7 +1483,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never open electrical service panels, touch bare utility meters, or alter residential gas regulator valves.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
       "syllabus_bucket": "In-Class Concept",
@@ -1551,13 +1556,15 @@
         "Engineering logbook and technical specification sheet for Energy Requirement 4."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Domestic Energy Source",
+        "left_header": "Req 4a: Domestic Energy Source Accounting",
         "right_header": "Req 4b: Household Conservation Planning",
         "left_points": [
-          "(4a) Domestic Energy Source Accounting: Scouts catalog household fuel types, measuring units such as therms and kilowatt-hours, and local utility rates. Understanding delivery methods clarifies the economic cost per unit of heat or mechanical work."
+          "(4a) Domestic Energy Source Accounting: Scouts catalog household fuel types, measuring units such as therms and kilowatt-hours, and local utility rates. Understanding delivery methods clarifies the economic cost per unit of heat or mechanical work.",
+          "Residential Utility Metering: Digital electric meters record cumulative kilowatt-hours consumed across split-phase alternating current wiring."
         ],
         "right_points": [
-          "(4b) Household Conservation Planning: Scouts implement daily habits that curtail wasted domestic electricity, hot water, and space heating energy. Preparing the discussion requires assessing appliance duty cycles and personal lifestyle energy demands."
+          "(4b) Household Conservation Planning: Scouts implement daily habits that curtail wasted domestic electricity, hot water, and space heating energy. Preparing the discussion requires assessing appliance duty cycles and personal lifestyle energy demands.",
+          "Phantom Electrical Consumption: Electronic appliances in standby mode continuously draw small currents for internal circuitry."
         ],
         "rows": [
           {
@@ -1567,25 +1574,27 @@
           },
           {
             "attribute": "Gaseous Fuel Units",
-            "left": "Req 4a: Domestic Energy Source: Scouts catalog household fuel types, measuring units such as therms and kilowatt-hours, and local utility rates. Understanding delivery methods clarifies the economic cost per unit of heat or mechanical work.",
-            "right": "Req 4b: Household Conservation: Scouts implement daily habits that curtail wasted domestic electricity, hot water, and space heating energy. Preparing the discussion requires assessing appliance duty cycles and personal lifestyle energy demands."
+            "left": "Residential Utility Metering: Digital electric meters record cumulative kilowatt-hours consumed across split-phase alternating current wiring.",
+            "right": "Phantom Electrical Consumption: Electronic appliances in standby mode continuously draw small currents for internal circuitry."
           },
           {
             "attribute": "Phantom Electrical Consumption",
-            "left": "Residential Utility Metering: Digital electric meters record cumulative kilowatt-hours consumed across split-phase alternating current wiring.",
-            "right": "Gaseous Fuel Units: Natural gas consumption measures in hundreds of cubic feet or standard heat therms."
+            "left": "Phantom Electrical Consumption: Electronic appliances in standby mode continuously draw small currents for internal circuitry.",
+            "right": "Building Envelope Sealing: Weatherstripping drafty exterior doors reduces thermal conduction and convective winter interior heating losses."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 4 Exemplar Workbook Entry: Home Energy Audit",
+        "title": "Energy Req 4 Worked Example: Home Energy Audit Assessment",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a - Domestic Energy Source": "Scouts catalog household fuel types, measuring units such as therms and kilowatt-hours, and local utility rates. Understanding delivery methods clarifies the economic cost per unit of heat or mechanical work.",
-          "Req 4b - Household Conservation": "Scouts implement daily habits that curtail wasted domestic electricity, hot water, and space heating energy. Preparing the discussion requires assessing appliance duty cycles and personal lifestyle energy demands."
+          "Phase 1 - Utility Inventory": "Document every residential energy source including electricity, piped gas, fuel oil, and propane.",
+          "Phase 2 - Billing Calculation": "Read utility meters and billing invoices to establish baseline unit costs and volumes.",
+          "Phase 3 - Conservation Logging": "Track daily family conservation behaviors in a structured notebook for fourteen consecutive days.",
+          "Phase 4 - Audit Synthesis": "Compare pre-audit and post-audit consumption data with your counselor to assess overall savings."
         },
-        "sample_output": "Home Energy Audit and Conservation: Another great way to save energy and money is to reuse things that require energy to produce or process (p. 59).",
-        "counselor_tip": "For Energy Requirement 4 (Home Energy Audit and Conservation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79))."
+        "sample_output": "A residential energy audit examines utility metering, building envelope insulation levels, and appliance load profiles. Scouts log family conservation actions over two weeks to measure behavioral reductions in power use.",
+        "counselor_tip": "During the Energy Requirement 4 conference on Home Energy Audit Assessment, verify that the Scout can explain residential utility metering and demonstrate audit synthesis: Compare pre-audit and post-audit consumption data with your counselor to assess overall savings."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Energy merit badge pamphlet, how much heated water can a family of four save each year simply by using their bath towels twice before washing them?",
@@ -1818,7 +1827,7 @@
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Report broken fixtures, leaking pipes, or damaged wiring to school facility staff without touching equipment.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
       "syllabus_bucket": "In-Class Concept",
@@ -1884,13 +1893,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Community Efficiency Impact",
+        "left_header": "Req 5a: Community Efficiency Impact Analysis",
         "right_header": "Req 5b: Behavioral Habit Trade-Offs",
         "left_points": [
-          "(5a) Community Efficiency Impact Analysis: Scouts calculate how specific efficiency upgrades reduce operating costs and lower greenhouse gas emissions. Improved community infrastructure also creates healthier, better-lit learning and working public environments."
+          "(5a) Community Efficiency Impact Analysis: Scouts calculate how specific efficiency upgrades reduce operating costs and lower greenhouse gas emissions. Improved community infrastructure also creates healthier, better-lit learning and working public environments.",
+          "Commercial Lighting Waste: Unoccupied school classrooms illuminate empty desks when manual switches lack automated motion sensors."
         ],
         "right_points": [
-          "(5b) Behavioral Habit Trade-Offs: Scouts examine why individuals resist operational adjustments such as modified thermostat ranges or consolidated commuting. Addressing social and convenience friction is critical to successfully deploying conservation programs."
+          "(5b) Behavioral Habit Trade-Offs: Scouts examine why individuals resist operational adjustments such as modified thermostat ranges or consolidated commuting. Addressing social and convenience friction is critical to successfully deploying conservation programs.",
+          "Economic Trade-Off Realities: Replacing functional legacy boilers requires massive capital expenditures despite offering superior thermodynamic efficiency."
         ],
         "rows": [
           {
@@ -1900,25 +1911,27 @@
           },
           {
             "attribute": "Thermal Envelope Leakage",
-            "left": "Req 5a: Community Efficiency Impact: Scouts calculate how specific efficiency upgrades reduce operating costs and lower greenhouse gas emissions. Improved community infrastructure also creates healthier, better-lit learning and working public environments.",
-            "right": "Req 5b: Behavioral Habit Trade-Offs: Scouts examine why individuals resist operational adjustments such as modified thermostat ranges or consolidated commuting. Addressing social and convenience friction is critical to successfully deploying conservation programs."
+            "left": "Commercial Lighting Waste: Unoccupied school classrooms illuminate empty desks when manual switches lack automated motion sensors.",
+            "right": "Economic Trade-Off Realities: Replacing functional legacy boilers requires massive capital expenditures despite offering superior thermodynamic efficiency."
           },
           {
             "attribute": "Economic Trade-Off Realities",
-            "left": "Commercial Lighting Waste: Unoccupied school classrooms illuminate empty desks when manual switches lack automated motion sensors.",
-            "right": "Thermal Envelope Leakage: Cracked window seals allow conditioned air to escape, straining rooftop ventilation compressors."
+            "left": "Economic Trade-Off Realities: Replacing functional legacy boilers requires massive capital expenditures despite offering superior thermodynamic efficiency.",
+            "right": "Behavioral Resistance Factors: Facility occupants frequently resist automated thermostat setbacks that slightly alter indoor comfort levels."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 5 Exemplar Workbook Entry: Community Energy",
+        "title": "Energy Req 5 Worked Example: Community Energy Waste Investigation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Community Efficiency Impact": "Scouts calculate how specific efficiency upgrades reduce operating costs and lower greenhouse gas emissions. Improved community infrastructure also creates healthier, better-lit learning and working public environments.",
-          "Req 5b - Behavioral Habit Trade-Offs": "Scouts examine why individuals resist operational adjustments such as modified thermostat ranges or consolidated commuting. Addressing social and convenience friction is critical to successfully deploying conservation programs."
+          "Phase 1 - Facility Walkthrough": "Survey school or community buildings to identify visible instances of uncurtailed energy waste.",
+          "Phase 2 - Notebook Documentation": "Record five specific waste examples alongside proposed mechanical or operational remediation measures.",
+          "Phase 3 - Impact Assessment": "Detail how each proposed modification lowers operational expenses or mitigates local pollution.",
+          "Phase 4 - Trade-Off Presentation": "Explain occupant resistance factors and practical convenience compromises during your counselor discussion."
         },
-        "sample_output": "Community Energy Waste and Trade-Offs: This process yields millions of times more energy than other sources (has a higher energy density) (p. 55).",
-        "counselor_tip": "For Energy Requirement 5 (Community Energy Waste and Trade-Offs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75))."
+        "sample_output": "Scouts investigate municipal or school buildings to identify uninsulated envelopes, obsolete lighting, and continuous phantom loads. Evaluating solutions requires weighing implementation expenses and community habits against environmental gains.",
+        "counselor_tip": "During the Energy Requirement 5 conference on Community Energy Waste Investigation, verify that the Scout can explain commercial lighting waste and demonstrate trade-off presentation: Explain occupant resistance factors and practical convenience compromises during your counselor discussion."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary trade-off that must be managed in exchange for nuclear power's high energy density and carbon-free electricity generation?",
@@ -2412,7 +2425,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Verify that reference databases originate from vetted governmental agencies like the Energy Information Administration.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
       "syllabus_bucket": "In-Class Concept",
@@ -2485,7 +2498,7 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 6a: National Energy Supply Mix",
-        "right_header": "Req 6c: Economic Sector Energy",
+        "right_header": "Req 6c: Economic Sector Energy Allocation",
         "left_points": [
           "(6a) National Energy Supply Mix: Scouts chart the breakdown of primary fuels supplying the nation, including petroleum, natural gas, coal, nuclear, and renewables. Analyzing these shares illustrates current dependence on subterranean geological resources.",
           "(6b) Energy Import Share Analysis: Scouts plot the percentage of domestic energy derived from foreign imports versus domestic extraction. The data illustrates geopolitical trade relationships and energy security considerations."
@@ -2507,22 +2520,22 @@
           },
           {
             "attribute": "Sector Consumption Splits",
-            "left": "Req 6a: National Energy Supply Mix: Scouts chart the breakdown of primary fuels supplying the nation, including petroleum, natural gas, coal, nuclear, and renewables. Analyzing these shares illustrates current dependence on subterranean geological resources.",
-            "right": "Req 6b: Energy Import Share Analysis: Scouts plot the percentage of domestic energy derived from foreign imports versus domestic extraction. The data illustrates geopolitical trade relationships and energy security considerations."
+            "left": "Sector Consumption Splits: Industrial manufacturing and transportation consume vast shares of national primary energy supplies.",
+            "right": "Global Reserve Projections: Finite subterranean hydrocarbon reserves diminish as expanding global economies increase baseline fuel extraction."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 6 Exemplar Workbook Entry: Charting National",
+        "title": "Energy Req 6 Worked Example: National Energy Resource Demographics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - National Energy Supply Mix": "Scouts chart the breakdown of primary fuels supplying the nation, including petroleum, natural gas, coal, nuclear, and renewables. Analyzing these shares illustrates current dependence on subterranean geological resources.",
-          "Req 6b - Energy Import Share Analysis": "Scouts plot the percentage of domestic energy derived from foreign imports versus domestic extraction. The data illustrates geopolitical trade relationships and energy security considerations.",
-          "Req 6c - Economic Sector Energy": "Scouts compare energy consumption across transportation, industrial, commercial, and residential sectors. Visualizing sector demands reveals why electrifying transport is a central focus of modern policy.",
-          "Req 6d - Electricity Generation Fuel": "Scouts chart the fuel portfolio powering utility generators, tracking historical transitions from coal to natural gas and solar. The portfolio reveals how dispatchable generation balances intermittent renewable energy inputs."
+          "Phase 1 - Data Sourcing": "Retrieve validated energy generation statistics from the United States Energy Information Administration.",
+          "Phase 2 - Percentage Calculation": "Calculate exact percentage proportions for national supplies, imports, economic sectors, and electricity.",
+          "Phase 3 - Chart Drafting": "Construct five distinct, clearly labeled pie charts illustrating national and global energy allocations.",
+          "Phase 4 - Counselor Briefing": "Explain cost dynamics, fossil reserve limits, and renewable market parity to your counselor."
         },
-        "sample_output": "Charting National and Global Energy Data: Energy use by the residential and commercial sectors in 2023 amounted to about 28% of the U. S. total (p. 72).",
-        "counselor_tip": "For Energy Requirement 6 (Charting National and Global Energy Data), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76))."
+        "sample_output": "Constructing pie charts from federal databases illustrates national fuel consumption, import shares, and electricity generation mixes. Economic scarcity drives market prices higher, making capital-intensive renewable alternatives economically competitive.",
+        "counselor_tip": "During the Energy Requirement 6 conference on National Energy Resource Demographics, verify that the Scout can explain primary resource distribution and demonstrate counselor briefing: Explain cost dynamics, fossil reserve limits, and renewable market parity to your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "In 2023, approximately what share of total United States energy consumption was used by the industrial sector?",
@@ -3311,7 +3324,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear protective hard hats, safety glasses, and high-visibility vests when touring industrial energy generation facilities.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
       "syllabus_bucket": "In-Class Concept",
@@ -3391,17 +3404,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Biomass Digester Plant",
+        "left_header": "Req 7a: Biomass Digester Plant Technology",
         "right_header": "Req 7e: Geothermal Energy Generation",
         "left_points": [
           "(7a) Biomass Digester Plant Technology: Scouts evaluate biomass digesters that convert farm manure and food scraps into pipeline-quality biomethane. Capturing methane prevents fugitive emissions while generating reliable, dispatchable renewable base-load power.",
-          "(7b) Combined Heat and Power: Scouts investigate combined heat and power facilities that produce electricity and process steam simultaneously. Utilizing thermal exhaust doubles fuel efficiency compared to separate conventional generation systems.",
-          "(7c) Fossil Fuel Plant Modernization: Scouts study combined cycle plants and carbon capture systems designed to lower emissions per megawatt-hour. High-efficiency gas turbines provide critical grid balancing support for fluctuating renewable supplies."
+          "(7b) Combined Heat and Power: Scouts investigate combined heat and power facilities that produce electricity and process steam simultaneously. Utilizing thermal exhaust doubles fuel efficiency compared to separate conventional generation systems."
         ],
         "right_points": [
           "(7e) Geothermal Energy Generation: Scouts analyze geothermal systems that harness earth heat to produce continuous renewable electrical energy. Closed-loop reinjection wells prevent surface contamination and sustain deep reservoir fluid pressures.",
-          "(7f) Advanced Nuclear Power Systems: Scouts review advanced fission designs featuring passive safety systems and accident-tolerant ceramic nuclear fuels. Nuclear plants provide high-capacity, carbon-free baseload electricity with strict regulatory safety standards.",
-          "(7g) Solar Photovoltaic Generation Systems: Scouts explore advances in perovskite-silicon tandem cells and utility-scale solar tracker mountings. Modern solar arrays incorporate battery storage systems to deliver electricity across evening peak hours."
+          "(7f) Advanced Nuclear Power Systems: Scouts review advanced fission designs featuring passive safety systems and accident-tolerant ceramic nuclear fuels. Nuclear plants provide high-capacity, carbon-free baseload electricity with strict regulatory safety standards."
         ],
         "rows": [
           {
@@ -3416,22 +3427,22 @@
           },
           {
             "attribute": "Combined Cycle Generation",
-            "left": "(7c) Fossil Fuel Plant Modernization: Scouts study combined cycle plants and carbon capture systems designed to lower emissions per megawatt-hour. High-efficiency gas turbines provide critical grid balancing support for fluctuating renewable supplies.",
-            "right": "(7g) Solar Photovoltaic Generation Systems: Scouts explore advances in perovskite-silicon tandem cells and utility-scale solar tracker mountings. Modern solar arrays incorporate battery storage systems to deliver electricity across evening peak hours."
+            "left": "Combined Cycle Generation: Burning natural gas in turbines while recovering exhaust heat maximizes power station efficiency.",
+            "right": "Electrochemical Fuel Cells: Fuel cells combine hydrogen and oxygen across catalytic membranes to generate clean electricity."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 7 Exemplar Workbook Entry: Improving Modern",
+        "title": "Energy Req 7 Worked Example: Advanced Energy Generation Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Biomass Digester Plant": "Scouts evaluate biomass digesters that convert farm manure and food scraps into pipeline-quality biomethane. Capturing methane prevents fugitive emissions while generating reliable, dispatchable renewable base-load power.",
-          "Req 7b - Combined Heat and Power": "Scouts investigate combined heat and power facilities that produce electricity and process steam simultaneously. Utilizing thermal exhaust doubles fuel efficiency compared to separate conventional generation systems.",
-          "Req 7c - Fossil Fuel Plant": "Scouts study combined cycle plants and carbon capture systems designed to lower emissions per megawatt-hour. High-efficiency gas turbines provide critical grid balancing support for fluctuating renewable supplies.",
-          "Req 7d - Electrochemical Fuel Cell": "Scouts examine proton-exchange membrane fuel cells converting chemical fuels directly into direct current electricity. Fuel cells provide zero-emission motive power for heavy transit vehicles and stationary backup generators."
+          "Phase 1 - System Selection": "Select five approved technological systems ranging from renewable capture to advanced thermal generation.",
+          "Phase 2 - Technology Research": "Research technological developments, thermal efficiency gains, and operational costs for each selected system.",
+          "Phase 3 - Environmental Analysis": "Evaluate ecological impacts including carbon emissions, water consumption, and land disturbance for each.",
+          "Phase 4 - Counselor Presentation": "Present your comprehensive comparative analysis of costs, safety, and efficiency to the counselor."
         },
-        "sample_output": "Improving Modern Power Generation Systems: A car heater uses waste heat from the engine to warm the car's passenger compartment (p. 79).",
-        "counselor_tip": "For Energy Requirement 7 (Improving Modern Power Generation Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83))."
+        "sample_output": "Advanced energy systems employ combined cycles, anaerobic bacterial digestion, electrochemical reactions, and high-efficiency turbines. Enhancing usable power requires analyzing capital costs, grid safety protocols, and ecological impacts.",
+        "counselor_tip": "During the Energy Requirement 7 conference on Advanced Energy Generation Systems, verify that the Scout can explain biomass methane digestion and demonstrate counselor presentation: Present your comprehensive comparative analysis of costs, safety, and efficiency to the counselor."
       },
       "quiz_item": {
         "scenario_prompt": "How does an automobile heater warm the passenger cabin without burning extra fuel?",
@@ -3523,7 +3534,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear rated fall-arrest harnesses and electrical safety gear when training for field utility careers.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 94, p. 96)",
       "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 94, p. 96)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -3593,47 +3604,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Discovering Energy Career",
-        "right_header": "Req 8: Explore Safety Research Roles",
+        "left_header": "Energy Professional Career Pathways: Core Principles",
+        "right_header": "Energy Professional Career Pathways: Field Execution",
         "left_points": [
-          "Discovering Energy Career Interests: Nate enjoyed learning about energy, and he started thinking about a career in the field (p. 94).",
-          "Diverse Energy Industry Sectors: In his merit badge work, he had learned that the energy industry includes many different kinds of companies that find, develop, generate, and transport (p. 94).",
-          "University and Government Research: Universities and government agencies do additional research to improve technologies and ensure public safety (p. 94)."
+          "Power Grid Engineering: Electrical engineers design smart grid distribution systems to integrate variable renewable energy resources.",
+          "Energy Efficiency Auditing: Certified energy auditors utilize thermal imaging cameras to identify building insulation failures."
         ],
         "right_points": [
-          "Explore Safety Research Roles: Universities and government agencies do additional research to improve technologies and ensure public safety (p. 94).",
-          "Ask About Recommended Classes: Stevens, what classes he should take now to pursue a future in energy (p. 94).",
-          "Compare Graduate Career Paths: Stevens said high school and college graduates had many opportunities in the field (p. 94)."
+          "Wind Turbine Servicing: Certified wind technicians climb tall turbine nacelles to maintain high-voltage mechanical systems.",
+          "Academic Preparation Pathways: University coursework in physics and mathematics prepares candidates for technical renewable energy careers."
         ],
         "rows": [
           {
             "attribute": "Power Grid Engineering",
-            "left": "Discovering Energy Career Interests: Nate enjoyed learning about energy, and he started thinking about a career in the field (p. 94).",
-            "right": "Explore Safety Research Roles: Universities and government agencies do additional research to improve technologies and ensure public safety (p. 94)."
+            "left": "Power Grid Engineering: Electrical engineers design smart grid distribution systems to integrate variable renewable energy resources.",
+            "right": "Wind Turbine Servicing: Certified wind technicians climb tall turbine nacelles to maintain high-voltage mechanical systems."
           },
           {
             "attribute": "Energy Efficiency Auditing",
-            "left": "Diverse Energy Industry Sectors: In his merit badge work, he had learned that the energy industry includes many different kinds of companies that find, develop, generate, and transport (p. 94).",
-            "right": "Ask About Recommended Classes: Stevens, what classes he should take now to pursue a future in energy (p. 94)."
+            "left": "Energy Efficiency Auditing: Certified energy auditors utilize thermal imaging cameras to identify building insulation failures.",
+            "right": "Academic Preparation Pathways: University coursework in physics and mathematics prepares candidates for technical renewable energy careers."
           },
           {
             "attribute": "Wind Turbine Servicing",
-            "left": "University and Government Research: Universities and government agencies do additional research to improve technologies and ensure public safety (p. 94).",
-            "right": "Compare Graduate Career Paths: Stevens said high school and college graduates had many opportunities in the field (p. 94)."
+            "left": "Wind Turbine Servicing: Certified wind technicians climb tall turbine nacelles to maintain high-voltage mechanical systems.",
+            "right": "Academic Preparation Pathways: University coursework in physics and mathematics prepares candidates for technical renewable energy careers."
           }
         ]
       },
       "worked_example": {
-        "title": "Energy Req 8 Exemplar Workbook Entry: Exploring Energy",
+        "title": "Energy Req 8 Worked Example: Energy Professional Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Discovering Energy Career Interests": "Nate enjoyed learning about energy, and he started thinking about a career in the field (p. 94).",
-          "Diverse Energy Industry Sectors": "In his merit badge work, he had learned that the energy industry includes many different kinds of companies that find, develop, generate, and transport (p. 94).",
-          "University and Government Research": "Universities and government agencies do additional research to improve technologies and ensure public safety (p. 94).",
-          "Planning High School Coursework": "Stevens, what classes he should take now to pursue a future in energy (p. 94)."
+          "Phase 1 - Career Exploration": "Identify three distinct career opportunities within renewable generation, electrical distribution, or conservation engineering.",
+          "Phase 2 - Role Selection": "Select one specific professional path for comprehensive academic and vocational qualification research.",
+          "Phase 3 - Pathway Investigation": "Research degree prerequisites, trade apprenticeships, technical certifications, licensing expenses, and starting salaries.",
+          "Phase 4 - Career Interview": "Discuss industry hiring trends and future employment prospects during your merit badge conference."
         },
-        "sample_output": "Exploring Energy Industry Career Paths: Nate enjoyed learning about energy, and he started thinking about a career in the field (p. 94).",
-        "counselor_tip": "For Energy Requirement 8 (Exploring Energy Industry Career Paths), verify the Scout's own observations and specific pamphlet details (Official Scouting America Energy Merit Badge Pamphlet (p. 94, p. 96))."
+        "sample_output": "Professional opportunities in the energy sector include power systems engineering, efficiency auditing, and utility management. Career paths require specialized technical degrees, trade certifications, apprenticeship hours, and continuing professional education.",
+        "counselor_tip": "During the Energy Requirement 8 conference on Energy Professional Career Pathways, verify that the Scout can explain power grid engineering and demonstrate career interview: Discuss industry hiring trends and future employment prospects during your merit badge conference."
       },
       "quiz_item": {
         "scenario_prompt": "Besides private companies that find, generate, and transport energy, what other organizations play a major role in energy research and public safety?",

@@ -32,7 +32,6 @@
 ### Req 1: Evolution of the Military Bugle
 **Official Requirement 1:** Give a brief history of the bugle.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (History and Origins of the Bugle)
-> **Guide to Safe Scouting Warning:** Scouts must clean historical brass mouthpieces with rubbing alcohol to prevent pathogen transmission.
 - **Common Myth:** Beginners often believe the bugle was invented primarily as a musical entertainment instrument.
 - **Pamphlet Fact:** The bugle evolved strictly as a tactical communication tool to cut through gunfire.
 
@@ -53,7 +52,6 @@
 ### Req 2: Acoustic Production and Signal Composition
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments. (b) Compose a bugle call for your troop or patrol to signal a common group activity, such as assembling for mealtime or striking a campsite. Play the call that you have composed before your unit or patrol.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Players must avoid excessive mouthpiece pressure against lips to protect delicate facial nerves.
 - **Common Myth:** Beginners often believe blowing harder increases pitch on a valveless brass horn.
 - **Pamphlet Fact:** Higher pitches require firmer lip embouchure tension and faster focused airstream velocity.
 
@@ -66,10 +64,8 @@
 #### Req 2a: Acoustic Brass Sound Generation
 **Official Requirement 2a:** Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Bugle Makes Sound)
-- **Common Myth:** Beginners think brass instruments amplify vocal hums rather than buzzing lip vibrations.
-- **Pamphlet Fact:** Sound originates entirely from mechanical lip oscillations exciting the air column inside tubing.
 
-![Bugling Requirement 2 figure showing tightly stretched lips vibrate rapidly against the mouthpiece rim to generate soundwaves.](/assets/pamphlet_images/bugling_p007_img1.png)
+![Tightly stretched lips vibrate rapidly against the mouthpiece rim to generate soundwaves.](/assets/pamphlet_images/bugling_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -80,10 +76,8 @@
 #### Req 2b: Original Camp Signal Composition
 **Official Requirement 2b:** Compose a bugle call for your troop or patrol to signal a common group activity, such as assembling for mealtime or striking a campsite. Play the call that you have composed before your unit or patrol.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Compose A Bugle Call)
-- **Common Myth:** Scouts often think an original bugle call can include chromatic scale accidentals.
-- **Pamphlet Fact:** Bugle compositions are strictly confined to the five natural harmonic open horn tones.
 
-![Bugling Requirement 1 figure showing early hunters blew hollowed animal horns to transmit distant hunting and warning signals.](/assets/pamphlet_images/bugling_p003_img1.png)
+![Early hunters blew hollowed animal horns to transmit distant hunting and warning signals.](/assets/pamphlet_images/bugling_p003_img1.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -95,7 +89,6 @@
 ### Req 3: Performance of Standard Calls
 **Official Requirement 3:** Sound 10 of the following bugle calls: "First Call," "Reveille," "Assembly," "Mess," "Drill," "Fatigue," "Officers," "Recall," "Church," "Swimming," "Fire," "Retreat," "To the Colors," "Call to Quarters," and "Taps."
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Ten Official Camp Bugle Calls)
-> **Guide to Safe Scouting Warning:** Scouts must warm up facial muscles to avoid severe lip fatigue or embouchure strain.
 - **Common Myth:** Beginners believe loud volume compensates for poor tone quality and missed harmonic partials.
 - **Pamphlet Fact:** Clear resonance and accurate pitch center carry farther outdoors than strained loud playing.
 
@@ -116,7 +109,6 @@
 ### Req 4: Purpose of Military Signals
 **Official Requirement 4:** Explain when each of the calls in requirement 3 is used.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Daily Schedule for Camp Bugle Calls)
-> **Guide to Safe Scouting Warning:** Campers must recognize the Fire call instantly to execute rapid camp evacuations safely.
 - **Common Myth:** Beginners think Taps and Retreat can be used interchangeably during evening flag lowering.
 - **Pamphlet Fact:** Retreat precedes evening colors, whereas Taps specifically signals lights out and final rest.
 
@@ -137,7 +129,6 @@
 ### Req 5: Bugle Care and Maintenance
 **Official Requirement 5:** Explain how to care for, clean, and maintain a bugle.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Bugle Care, Cleaning, and Maintenance)
-> **Guide to Safe Scouting Warning:** Never wash brass in boiling water because scalding water damages protective lacquer.
 - **Common Myth:** Beginners assume hot boiling water cleans brass instruments faster without causing damage.
 - **Pamphlet Fact:** Scalding water melts lacquer coatings and permanently discolors delicate brass instrument finishes.
 
@@ -158,14 +149,8 @@
 ### Req 6: Troop Bugler Service Duties
 **Official Requirement 6:** Serve as bugler in your troop for three months.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Troop Bugler Leadership Service)
-> **Guide to Safe Scouting Warning:** Buglers must maintain proper hearing protection when sounding loud calls in enclosed pavilions.
 - **Common Myth:** Beginners assume merely owning a bugle qualifies as fulfilling the bugler leadership role.
 - **Pamphlet Fact:** The role demands active punctuality and consistent execution of calls across three months.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Bugling Merit Badge Pamphlet: Troop Bugler Leadership Service.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Troop Bugler Leadership Service.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A Scout plays the bugle on a scenic mountain overlook while fellow troop members stand at attention.](/assets/ai_illustrations/bugling_req_6_nano_hero.png)
 

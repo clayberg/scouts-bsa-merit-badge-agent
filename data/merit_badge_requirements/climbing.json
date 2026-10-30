@@ -373,13 +373,15 @@
         "Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Climbing Hazard Mitigation",
-        "right_header": "Req 1b: Climbing Medical Emergency",
+        "left_header": "Req 1a: Climbing Hazard Mitigation Planning",
+        "right_header": "Req 1b: Climbing Medical Emergency Management",
         "left_points": [
-          "(1a) Climbing Hazard Mitigation Planning: Hazard anticipation involves analyzing changing mountain weather, loose cliff rocks, and communication hurdles. Climbers must define retreat strategies prior to departing the base."
+          "(1a) Climbing Hazard Mitigation Planning: Hazard anticipation involves analyzing changing mountain weather, loose cliff rocks, and communication hurdles. Climbers must define retreat strategies prior to departing the base.",
+          "Rockfall Protection: Climbers and belayers must wear approved helmets within active crag rockfall zones."
         ],
         "right_points": [
-          "(1b) Climbing Medical Emergency Management: Climbers prevent thermal illnesses through proper hydration, electrolyte balance, and windproof layering. Rapid treatment of sprains and cuts prevents minor injuries from stopping descents."
+          "(1b) Climbing Medical Emergency Management: Climbers prevent thermal illnesses through proper hydration, electrolyte balance, and windproof layering. Rapid treatment of sprains and cuts prevents minor injuries from stopping descents.",
+          "(1c) Cardiopulmonary Resuscitation Criteria Evaluation: Rescuers perform cardiopulmonary resuscitation when an unresponsive casualty shows no pulse or spontaneous breathing. Continuous chest compressions maintain vital organ perfusion until medical personnel arrive."
         ],
         "rows": [
           {
@@ -389,26 +391,27 @@
           },
           {
             "attribute": "Anchor Redundancy",
-            "left": "Req 1a: Climbing Hazard Mitigation: Hazard anticipation involves analyzing changing mountain weather, loose cliff rocks, and communication hurdles. Climbers must define retreat strategies prior to departing the base.",
-            "right": "Req 1b: Climbing Medical Emergency: Climbers prevent thermal illnesses through proper hydration, electrolyte balance, and windproof layering. Rapid treatment of sprains and cuts prevents minor injuries from stopping descents."
+            "left": "Rockfall Protection: Climbers and belayers must wear approved helmets within active crag rockfall zones.",
+            "right": "(1c) Cardiopulmonary Resuscitation Criteria Evaluation: Rescuers perform cardiopulmonary resuscitation when an unresponsive casualty shows no pulse or spontaneous breathing. Continuous chest compressions maintain vital organ perfusion until medical personnel arrive."
           },
           {
             "attribute": "Hypothermia Prevention",
-            "left": "Req 1c: Cardiopulmonary: Rescuers perform cardiopulmonary resuscitation when an unresponsive casualty shows no pulse or spontaneous breathing. Continuous chest compressions maintain vital organ perfusion until medical personnel arrive.",
-            "right": "Anchor Redundancy: Multi-point anchors require independent load distribution to survive a single component failure."
+            "left": "Hypothermia Prevention: Wet climbing clothing accelerates rapid core cooling even during warm summer ascents.",
+            "right": "Lightning Protocol: High crag exposure requires immediate descent when thunder clouds approach the area."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 1 Exemplar Workbook Entry: Climbing Hazards",
+        "title": "Climbing Req 1 Worked Example: Climbing Risk Assessment Protocols",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Climbing Hazard Mitigation": "Hazard anticipation involves analyzing changing mountain weather, loose cliff rocks, and communication hurdles. Climbers must define retreat strategies prior to departing the base.",
-          "Req 1b - Climbing Medical Emergency": "Climbers prevent thermal illnesses through proper hydration, electrolyte balance, and windproof layering. Rapid treatment of sprains and cuts prevents minor injuries from stopping descents.",
-          "Req 1c - Cardiopulmonary Resuscitation": "Rescuers perform cardiopulmonary resuscitation when an unresponsive casualty shows no pulse or spontaneous breathing. Continuous chest compressions maintain vital organ perfusion until medical personnel arrive."
+          "Phase 1 - Perimeter Check": "Survey the crag cliff base to identify loose rock and drainage hazards.",
+          "Phase 2 - Safe Zone Setup": "Designate a protected gear staging and resting location outside falling rock zones.",
+          "Phase 3 - First Aid Prep": "Place an accessible first aid kit near the staging ground before climbing.",
+          "Phase 4 - Hazard Briefing": "Review rockfall warning calls, weather retreat routes, and evacuation tasks with partners."
         },
-        "sample_output": "Climbing Hazards and First Aid: If you become weary or develop a headache or body aches, or if you become confused, rest in the shade and sip water until the symptoms subside (p. 28).",
-        "counselor_tip": "For Climbing Requirement 1 (Climbing Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30))."
+        "sample_output": "Climbing safety requires recognizing objective environmental hazards like rockfall alongside subjective risks such as improper knot tie-ins. Leaders establish designated safe zones away from cliff bases and prepare first aid protocols for remote locations.",
+        "counselor_tip": "During the Climbing Requirement 1 conference on Climbing Risk Assessment Protocols, verify that the Scout can explain rockfall protection and demonstrate hazard briefing: Review rockfall warning calls, weather retreat routes, and evacuation tasks with partners."
       },
       "quiz_item": {
         "scenario_prompt": "Under BSA's 'Climb On Safely' guidelines in Climbing Requirement 1, what must the climber and belayer verify during their verbal and visual buddy check before the climber leaves the ground?",
@@ -560,47 +563,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Sharing the Trip Plan",
-        "right_header": "Req 2: Avoid Peer Pressure",
+        "left_header": "Climbing Environmental Stewardship Principles: Core Principles",
+        "right_header": "Climbing Environmental Stewardship Principles: Field Execution",
         "left_points": [
-          "Sharing the Trip Plan: \u0007Share the climbing/rappelling plan and an alternate with a parent or guardian and the unit committee (p. 9).",
-          "Emergency Communication Devices: It is suggested that at least one of the adult leaders has an electronic means of communication in case of an emergency (p. 9).",
-          "Respecting Personal Comfort Limits: No one should be forced or pressured into doing something with which heor she is not comfortable (p. 9)."
+          "Durable Surfaces: Travel on established trails to preserve sensitive vegetation growing around cliff bases.",
+          "Waste Removal: Pack out all athletic tape, food scraps, and solid personal sanitary waste."
         ],
         "right_points": [
-          "Avoid Peer Pressure: No one should be forced or pressured into doing something with which heor she is not comfortable (p. 9).",
-          "Monitor Your Climbing Buddy: Use the buddy system to monitor concerns such as dehydration, hypothermia, and an unusually high degree of fear or apprehension (p. 9).",
-          "Practice Leave No Trace: Always follow the Leave No Trace Seven Principles and the Outdoor Code (p. 9)."
+          "Natural State: Leave natural rocks, plants, and historical artifacts undisturbed for other crag visitors.",
+          "Respect Wildlife: Avoid disturbing nesting cliff birds during designated springtime nesting restriction periods."
         ],
         "rows": [
           {
             "attribute": "Durable Surfaces",
-            "left": "Sharing the Trip Plan: \u0007Share the climbing/rappelling plan and an alternate with a parent or guardian and the unit committee (p. 9).",
-            "right": "Avoid Peer Pressure: No one should be forced or pressured into doing something with which heor she is not comfortable (p. 9)."
+            "left": "Durable Surfaces: Travel on established trails to preserve sensitive vegetation growing around cliff bases.",
+            "right": "Natural State: Leave natural rocks, plants, and historical artifacts undisturbed for other crag visitors."
           },
           {
             "attribute": "Waste Removal",
-            "left": "Emergency Communication Devices: It is suggested that at least one of the adult leaders has an electronic means of communication in case of an emergency (p. 9).",
-            "right": "Monitor Your Climbing Buddy: Use the buddy system to monitor concerns such as dehydration, hypothermia, and an unusually high degree of fear or apprehension (p. 9)."
+            "left": "Waste Removal: Pack out all athletic tape, food scraps, and solid personal sanitary waste.",
+            "right": "Respect Wildlife: Avoid disturbing nesting cliff birds during designated springtime nesting restriction periods."
           },
           {
             "attribute": "Natural State",
-            "left": "Respecting Personal Comfort Limits: No one should be forced or pressured into doing something with which heor she is not comfortable (p. 9).",
-            "right": "Practice Leave No Trace: Always follow the Leave No Trace Seven Principles and the Outdoor Code (p. 9)."
+            "left": "Natural State: Leave natural rocks, plants, and historical artifacts undisturbed for other crag visitors.",
+            "right": "Respect Wildlife: Avoid disturbing nesting cliff birds during designated springtime nesting restriction periods."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 2 Exemplar Workbook Entry: Leave No Trace",
+        "title": "Climbing Req 2 Worked Example: Climbing Environmental Stewardship Principles",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Sharing the Trip Plan": "\u0007Share the climbing/rappelling plan and an alternate with a parent or guardian and the unit committee (p. 9).",
-          "Emergency Communication Devices": "It is suggested that at least one of the adult leaders has an electronic means of communication in case of an emergency (p. 9).",
-          "Respecting Personal Comfort Limits": "No one should be forced or pressured into doing something with which heor she is not comfortable (p. 9).",
-          "Buddy System Monitoring": "Use the buddy system to monitor concerns such as dehydration, hypothermia, and an unusually high degree of fear or apprehension (p. 9)."
+          "Phase 1 - Trail Travel": "Walk exclusively along marked trails when approaching the designated rock cliff base.",
+          "Phase 2 - Staging Placement": "Position backpacks and gear on durable flat rocks rather than fragile vegetation.",
+          "Phase 3 - Chalk Cleanup": "Brush excess chalk residue from holds before packing equipment at day end.",
+          "Phase 4 - Waste Sweep": "Collect every stray wrapper, tape scrap, and gear strand before departing."
         },
-        "sample_output": "Leave No Trace and Ethics: \u0007Share the climbing/rappelling plan and an alternate with a parent or guardian and the unit committee (p. 9).",
-        "counselor_tip": "For Climbing Requirement 2 (Leave No Trace and Ethics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 92))."
+        "sample_output": "Practicing Leave No Trace principles protects fragile vertical ecosystems from soil compaction and chalk accumulation. The Outdoor Code reinforces personal conservation stewardship across both public and private climbing crags.",
+        "counselor_tip": "During the Climbing Requirement 2 conference on Climbing Environmental Stewardship Principles, verify that the Scout can explain durable surfaces and demonstrate waste sweep: Collect every stray wrapper, tape scrap, and gear strand before departing."
       },
       "quiz_item": {
         "scenario_prompt": "What should a unit do if a Scout becomes unusually fearful and refuses to step over the edge for a rappel?",
@@ -775,47 +776,45 @@
         "Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Climbing Webbing Materials",
-        "right_header": "Req 3: Tie a Water Knot",
+        "left_header": "Climber Apparel Safety Requirements: Core Principles",
+        "right_header": "Climber Apparel Safety Requirements: Field Execution",
         "left_points": [
-          "Climbing Webbing Materials: Webbing designed for climbing is available in a variety of sizes, lengths, and materials such as nylon, Spectra, and Dyneema (p. 49).",
-          "Uses of Tubular Webbing: Tubular webbing (usually 1\") is used to form tied-seat harnesses; for anchors used by be layers and rappellers; and for other uses in climbing, rappelling (p. 49).",
-          "Tying a Webbing Runner: A piece of webbing can be tied into a loop known as a runner with a water knot (p. 49)."
+          "Snug Fit: Wear form-fitting athletic layers that cannot catch inside active belay friction hardware.",
+          "Hair Restraint: Tie long hair securely back against the head to avoid moving gear."
         ],
         "right_points": [
-          "Tie a Water Knot: A piece of webbing can be tied into a loop known as a runner with a water knot (p. 49).",
-          "Select Pre-Sewn Slings: Webbing can be purchased as a runner or sling and is pre-sewn by the Be layers use tubular webbing to manufacturer (p. 49).",
-          "Anchor Securely With Runners: Climbers use runners, or anchor themselves securely (p. 49)."
+          "Jewelry Removal: Remove all rings, necklaces, and wristwatches before touching climbing ropes or hardware.",
+          "Weather Shells: Pack breathable, water-resistant outer layers to withstand sudden temperature drops at crags."
         ],
         "rows": [
           {
             "attribute": "Snug Fit",
-            "left": "Climbing Webbing Materials: Webbing designed for climbing is available in a variety of sizes, lengths, and materials such as nylon, Spectra, and Dyneema (p. 49).",
-            "right": "Tie a Water Knot: A piece of webbing can be tied into a loop known as a runner with a water knot (p. 49)."
+            "left": "Snug Fit: Wear form-fitting athletic layers that cannot catch inside active belay friction hardware.",
+            "right": "Jewelry Removal: Remove all rings, necklaces, and wristwatches before touching climbing ropes or hardware."
           },
           {
             "attribute": "Hair Restraint",
-            "left": "Uses of Tubular Webbing: Tubular webbing (usually 1\") is used to form tied-seat harnesses; for anchors used by be layers and rappellers; and for other uses in climbing, rappelling (p. 49).",
-            "right": "Select Pre-Sewn Slings: Webbing can be purchased as a runner or sling and is pre-sewn by the Be layers use tubular webbing to manufacturer (p. 49)."
+            "left": "Hair Restraint: Tie long hair securely back against the head to avoid moving gear.",
+            "right": "Weather Shells: Pack breathable, water-resistant outer layers to withstand sudden temperature drops at crags."
           },
           {
             "attribute": "Jewelry Removal",
-            "left": "Tying a Webbing Runner: A piece of webbing can be tied into a loop known as a runner with a water knot (p. 49).",
-            "right": "Anchor Securely With Runners: Climbers use runners, or anchor themselves securely (p. 49)."
+            "left": "Jewelry Removal: Remove all rings, necklaces, and wristwatches before touching climbing ropes or hardware.",
+            "right": "Weather Shells: Pack breathable, water-resistant outer layers to withstand sudden temperature drops at crags."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 3 Exemplar Workbook Entry: Proper Climbing",
+        "title": "Climbing Req 3 Worked Example: Climber Apparel Safety Requirements",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Climbing Webbing Materials": "Webbing designed for climbing is available in a variety of sizes, lengths, and materials such as nylon, Spectra, and Dyneema (p. 49).",
-          "Uses of Tubular Webbing": "Tubular webbing (usually 1\") is used to form tied-seat harnesses; for anchors used by be layers and rappellers; and for other uses in climbing, rappelling (p. 49).",
-          "Tying a Webbing Runner": "A piece of webbing can be tied into a loop known as a runner with a water knot (p. 49).",
-          "Pre-Sewn Runners and Slings": "Webbing can be purchased as a runner or sling and is pre-sewn by the Be layers use tubular webbing to manufacturer (p. 49)."
+          "Phase 1 - Jewelry Removal": "Take off all rings, necklaces, bracelets, and watches before putting on gear.",
+          "Phase 2 - Hair Securing": "Fasten long hair tightly behind the neck using a clean elastic band.",
+          "Phase 3 - Garment Tucking": "Tuck loose shirts and waist drawstrings completely inside the climbing harness waistbelt.",
+          "Phase 4 - Footwear Lacing": "Tie climbing shoes securely to prevent foot slippage on small rock edges."
         },
-        "sample_output": "Proper Climbing Clothing and Attire: Webbing designed for climbing is available in a variety of sizes, lengths, and materials such as nylon, Spectra, and Dyneema (p. 49).",
-        "counselor_tip": "For Climbing Requirement 3 (Proper Climbing Clothing and Attire), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 49, p. 90))."
+        "sample_output": "Climbers select durable clothing that permits unhindered movement while eliminating loose fabric that could snag in belay devices. Jewelry and untied hair present severe strangulation and entrapment hazards around moving ropes.",
+        "counselor_tip": "During the Climbing Requirement 3 conference on Climber Apparel Safety Requirements, verify that the Scout can explain snug fit and demonstrate footwear lacing: Tie climbing shoes securely to prevent foot slippage on small rock edges."
       },
       "quiz_item": {
         "scenario_prompt": "Why must climbers tuck in loose shirts, secure long hair, and avoid clothing with drawstrings before rappelling?",
@@ -1262,8 +1261,8 @@
         "Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Yosemite Decimal System",
-        "right_header": "Req 4c: Crag Environmental Safety",
+        "left_header": "Req 4a: Yosemite Decimal System Classification",
+        "right_header": "Req 4c: Crag Environmental Safety Evaluation",
         "left_points": [
           "(4a) Yosemite Decimal System Classification: The Yosemite Decimal System uses class five for technical roped climbing, appending decimal difficulty subdivisions. Climbers consult guidebooks to choose routes suited to their skill level.",
           "(4b) Climbing Discipline Comparative Analysis: Top-roping maintains an overhead rope anchor, reducing fall distance, while lead climbers clip protection as they advance. Bouldering involves lower, explosive movements protected by crash pads and spotters."
@@ -1285,22 +1284,22 @@
           },
           {
             "attribute": "Lead Fall Factor",
-            "left": "Req 4a: Yosemite Decimal System: The Yosemite Decimal System uses class five for technical roped climbing, appending decimal difficulty subdivisions. Climbers consult guidebooks to choose routes suited to their skill level.",
-            "right": "Req 4b: Climbing Discipline: Top-roping maintains an overhead rope anchor, reducing fall distance, while lead climbers clip protection as they advance. Bouldering involves lower, explosive movements protected by crash pads and spotters."
+            "left": "Lead Fall Factor: Lead climbing involves ascending above placed protection, creating longer potential fall distances.",
+            "right": "Surface Assessment: Check rock faces for loose flakes, seeping water, and unstable holds beforehand."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 4 Exemplar Workbook Entry: Route Ratings",
+        "title": "Climbing Req 4 Worked Example: Climbing Route Difficulty Assessment",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Yosemite Decimal System": "The Yosemite Decimal System uses class five for technical roped climbing, appending decimal difficulty subdivisions. Climbers consult guidebooks to choose routes suited to their skill level.",
-          "Req 4b - Climbing Discipline": "Top-roping maintains an overhead rope anchor, reducing fall distance, while lead climbers clip protection as they advance. Bouldering involves lower, explosive movements protected by crash pads and spotters.",
-          "Req 4c - Crag Environmental Safety": "Site evaluation requires examining rock quality, moisture, sun exposure, and loose debris above the route. Climbers monitor environmental changes to abort sessions before weather traps the team.",
-          "Req 4d - Emergency Evacuation Aid": "Backcountry climbing groups identify evacuation routes, establish emergency signaling methods, and maintain wilderness first aid certifications. Precise grid coordinates help dispatchers locate injured climbers rapidly."
+          "Phase 1 - Rating Check": "Review local guidebook route ratings to select climbs matching personal patrol capabilities.",
+          "Phase 2 - Rock Inspection": "Scan the target route visually to identify loose flakes, lichen, or wet sections.",
+          "Phase 3 - Anchor Verification": "Confirm the overhead top-rope anchor points are accessible and structurally rock solid.",
+          "Phase 4 - Emergency Planning": "Confirm cellular coverage zones and map out evacuation footpaths before climbing starts."
         },
-        "sample_output": "Route Ratings and Site Safety: It is suggested that at least one of the adult leaders has an electronic means of communication in case of an emergency (p. 9).",
-        "counselor_tip": "For Climbing Requirement 4 (Route Ratings and Site Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36))."
+        "sample_output": "The Yosemite Decimal System classifies technical climbs from easy class five scrambles to advanced vertical routes. Understanding top-rope, lead, and bouldering systems allows climbers to evaluate site hazards and communication ranges.",
+        "counselor_tip": "During the Climbing Requirement 4 conference on Climbing Route Difficulty Assessment, verify that the Scout can explain yosemite scale and demonstrate emergency planning: Confirm cellular coverage zones and map out evacuation footpaths before climbing starts."
       },
       "quiz_item": {
         "scenario_prompt": "How does top-rope climbing differ from lead climbing on a vertical rock face?",
@@ -1786,22 +1785,22 @@
           },
           {
             "attribute": "Tension Requests",
-            "left": "Req 5a: Climber Standard Verbal: Climbers communicate their ascent status using distinct calls like climbing, slack, and up rope. They must await direct verbal acknowledgment from the belayer before moving.",
-            "right": "Req 5b: Rappeller Descent Voice: Rappellers confirm their descending system and belay backup using clear commands like on rappel. They signal off rappel only after clearing the landing zone completely."
+            "left": "Tension Requests: Shout tension clearly when needing the belayer to remove all rope slack.",
+            "right": "Rockfall Alarm: Shout rock loudly and instantly whenever any object falls down the cliff."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 5 Exemplar Workbook Entry: Standard",
+        "title": "Climbing Req 5 Worked Example: Climbing Verbal Communication Commands",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Climber Standard Verbal": "Climbers communicate their ascent status using distinct calls like climbing, slack, and up rope. They must await direct verbal acknowledgment from the belayer before moving.",
-          "Req 5b - Rappeller Descent Voice": "Rappellers confirm their descending system and belay backup using clear commands like on rappel. They signal off rappel only after clearing the landing zone completely.",
-          "Req 5c - Belayer Verbal Safety": "Belayers maintain vigilant voice contact, responding promptly to requests for slack or tension. They confirm readiness only when their brake hand securely controls the rope.",
-          "Req 5d - Bouldering Spotter": "Boulderers and spotters coordinate to guide falls safely onto protective landing crash pads. Spotters communicate their positioning to protect the boulderer head and upper spine."
+          "Phase 1 - Belay Inquiry": "Shout the partner name followed clearly by the question on belay.",
+          "Phase 2 - Belayer Reply": "Listen for the belayer to confirm readiness by answering belay.",
+          "Phase 3 - Climb Announcement": "State climbing clearly before placing hands and feet onto the rock face.",
+          "Phase 4 - Climb Permission": "Begin ascending only after hearing the belayer confirm with climb."
         },
-        "sample_output": "Standard Climbing Verbal Signals: A challenging sport that always involves the skills of ascending and belaying or spotting, and may also include rappelling and bouldering. cling (p. 66).",
-        "counselor_tip": "For Climbing Requirement 5 (Standard Climbing Verbal Signals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91))."
+        "sample_output": "Standardized verbal signals establish critical mutual confirmation between climber and belayer before anyone leaves the ground. Clear commands prevent accidental falls caused by premature climbing or unannounced belay release.",
+        "counselor_tip": "During the Climbing Requirement 5 conference on Climbing Verbal Communication Commands, verify that the Scout can explain name inclusion and demonstrate climb permission: Begin ascending only after hearing the belayer confirm with climb."
       },
       "quiz_item": {
         "scenario_prompt": "During a climb, which verbal command tells the belayer to pull in loose rope and hold the climber firmly?",
@@ -2363,22 +2362,22 @@
           },
           {
             "attribute": "Sheath Inspection",
-            "left": "Req 6a: Climbing Rope Type Standards: Climbing requires certified dynamic kernmantle ropes designed to absorb fall forces through controlled elongation. Static ropes are reserved exclusively for hauling gear and fixed-line rappelling.",
-            "right": "Req 6b: Rope Physical Wear: Rope examination combines visual scanning for sheath cuts with tactile pinching to find core gaps. Any exposed inner core fibers or flat deformities require taking the rope out of service."
+            "left": "Sheath Inspection: Check the outer rope mantle for cuts, heavy abrasion, and exposed white core.",
+            "right": "Proper Coiling: Coil climbing ropes using butterfly coils to prevent frustrating kinks and tangles."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 6 Exemplar Workbook Entry: Climbing Rope",
+        "title": "Climbing Req 6 Worked Example: Climbing Rope Safety Standards",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Climbing Rope Type Standards": "Climbing requires certified dynamic kernmantle ropes designed to absorb fall forces through controlled elongation. Static ropes are reserved exclusively for hauling gear and fixed-line rappelling.",
-          "Req 6b - Rope Physical Wear": "Rope examination combines visual scanning for sheath cuts with tactile pinching to find core gaps. Any exposed inner core fibers or flat deformities require taking the rope out of service.",
-          "Req 6c - Rope Damage Prevention": "Climbers protect ropes by using protective tarps, padding sharp rock edges, and avoiding foot traffic. Clean storage away from sunlight, heat, and corrosive chemicals extends rope lifespan.",
-          "Req 6d - Rope Retirement Decision": "Retiring a rope is mandatory after severe high-impact falls, chemical contamination, or excessive sheath abrasion. Cut retired ropes into short utility lengths to prevent accidental life-safety reuse."
+          "Phase 1 - Visual Sweep": "Examine the woven sheath along the entire rope length for fuzzy spots.",
+          "Phase 2 - Tactile Squeeze": "Pinch the rope along its length to detect soft, flat, or stiff spots.",
+          "Phase 3 - Log Review": "Check the gear log for severe fall history, chemical exposure, or age.",
+          "Phase 4 - Butterfly Coiling": "Drape uniform loops over shoulders and finish with a secure locking wrap."
         },
-        "sample_output": "Climbing Rope Selection and Care: The helmets, hardware, and ropes used for climbing, rappelling, and belaying have been developed over more than 150 years of mountaineering (p. 42).",
-        "counselor_tip": "For Climbing Requirement 6 (Climbing Rope Selection and Care), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85))."
+        "sample_output": "Climbing systems utilize dynamic kernmantle ropes to safely absorb kinetic fall energy through elastic elongation. Regular tactile and visual inspection detects internal core damage or sheath abrasion that mandates retirement.",
+        "counselor_tip": "During the Climbing Requirement 6 conference on Climbing Rope Safety Standards, verify that the Scout can explain dynamic cushioning and demonstrate butterfly coiling: Drape uniform loops over shoulders and finish with a secure locking wrap."
       },
       "quiz_item": {
         "scenario_prompt": "What indicates that a kernmantle rope must be retired immediately during a pre-climb inspection?",
@@ -2946,22 +2945,22 @@
           },
           {
             "attribute": "Webbing Joiner",
-            "left": "Req 7a: Figure Eight Bight Knot: The figure eight on a bight creates a strong, reliable loop in the end or middle of a rope. It resists slipping and remains relatively easy to untie after holding a climber weight.",
-            "right": "Req 7b: Figure Eight Follow-Through: The figure eight follow-through is the universal standard for tying a climbing rope directly into a harness. Its symmetrical pattern makes visual inspection straightforward for both climber and belayer."
+            "left": "Webbing Joiner: The water knot securely joins flat tubular nylon webbing into closed loops.",
+            "right": "Grapevine Bond: The double fisherman knot joins two climbing ropes securely for long rappels."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 7 Exemplar Workbook Entry: Essential",
+        "title": "Climbing Req 7 Worked Example: Climbing Knot Application Techniques",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Figure Eight Bight Knot": "The figure eight on a bight creates a strong, reliable loop in the end or middle of a rope. It resists slipping and remains relatively easy to untie after holding a climber weight.",
-          "Req 7b - Figure Eight Follow-Through": "The figure eight follow-through is the universal standard for tying a climbing rope directly into a harness. Its symmetrical pattern makes visual inspection straightforward for both climber and belayer.",
-          "Req 7c - Water Knot Webbing Splice": "The water knot joins flat nylon webbing into runners and sling anchors by retracing an overhand knot. Climbers must leave substantial tails and check them frequently for movement.",
-          "Req 7d - Double Fisherman Joining Knot": "The double fisherman knot joins two ropes together for multi-pitch rappels or creates closed cord loops for Prusik hitches. Its interlocking structure tightens under load to prevent accidental release."
+          "Phase 1 - Knot Tracing": "Form the initial loose knot shape following handbook diagrams without crossing strands.",
+          "Phase 2 - Strand Dressing": "Align all internal rope strands parallel to eliminate twists and uneven slack.",
+          "Phase 3 - Strand Setting": "Pull each of the four exiting rope strands firmly to set the knot.",
+          "Phase 4 - Tail Verification": "Measure the exiting tail length to confirm at least four full inches."
         },
-        "sample_output": "Essential Climbing Knots and Hitches: For tying together the ends of two ropes, the most reliable knot is the double fisherman's knot (p. 53).",
-        "counselor_tip": "For Climbing Requirement 7 (Essential Climbing Knots and Hitches), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55))."
+        "sample_output": "Climbers must tie, dress, and set essential life-safety knots with sufficient tail lengths before climbing. Different knots serve specific applications, from rope joining to friction hitches and harness tie-ins.",
+        "counselor_tip": "During the Climbing Requirement 7 conference on Climbing Knot Application Techniques, verify that the Scout can explain figure eight and demonstrate tail verification: Measure the exiting tail length to confirm at least four full inches."
       },
       "quiz_item": {
         "scenario_prompt": "Which knot is specifically designed for tying two ends of tubular webbing together to form a runner?",
@@ -3362,13 +3361,15 @@
         "Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Commercial Climbing Harness",
-        "right_header": "Req 8b: Climbing Helmet Adjustment",
+        "left_header": "Req 8a: Commercial Climbing Harness Fitting",
+        "right_header": "Req 8b: Climbing Helmet Adjustment Standards",
         "left_points": [
-          "(8a) Commercial Climbing Harness Fitting: A commercial climbing harness distributes arresting forces across the climber pelvis and upper thighs. Correct buckle closure and proper waist placement prevent accidental release during falls."
+          "(8a) Commercial Climbing Harness Fitting: A commercial climbing harness distributes arresting forces across the climber pelvis and upper thighs. Correct buckle closure and proper waist placement prevent accidental release during falls.",
+          "Pelvic Capture: Harness waistbelts must rest above hip bones to prevent slipping out upside down."
         ],
         "right_points": [
-          "(8b) Climbing Helmet Adjustment Standards: Climbing helmets safeguard against rockfall and head impacts against cliff walls during unexpected falls. Proper chin strap tension and suspension cradle adjustment keep the helmet centered."
+          "(8b) Climbing Helmet Adjustment Standards: Climbing helmets safeguard against rockfall and head impacts against cliff walls during unexpected falls. Proper chin strap tension and suspension cradle adjustment keep the helmet centered.",
+          "(8c) Rappelling Hand Protection Gloves: Climbing and rappelling gloves protect hands from severe friction burns during rapid rope handling. Climbers remove gloves while ascending rock faces to preserve natural tactile hold control."
         ],
         "rows": [
           {
@@ -3378,26 +3379,27 @@
           },
           {
             "attribute": "Buckle Doubling",
-            "left": "Req 8a: Commercial Climbing Harness: A commercial climbing harness distributes arresting forces across the climber pelvis and upper thighs. Correct buckle closure and proper waist placement prevent accidental release during falls.",
-            "right": "Req 8b: Climbing Helmet Adjustment: Climbing helmets safeguard against rockfall and head impacts against cliff walls during unexpected falls. Proper chin strap tension and suspension cradle adjustment keep the helmet centered."
+            "left": "Pelvic Capture: Harness waistbelts must rest above hip bones to prevent slipping out upside down.",
+            "right": "(8c) Rappelling Hand Protection Gloves: Climbing and rappelling gloves protect hands from severe friction burns during rapid rope handling. Climbers remove gloves while ascending rock faces to preserve natural tactile hold control."
           },
           {
             "attribute": "Helmet Positioning",
-            "left": "Req 8c: Rappelling Hand Protection: Climbing and rappelling gloves protect hands from severe friction burns during rapid rope handling. Climbers remove gloves while ascending rock faces to preserve natural tactile hold control.",
-            "right": "Buckle Doubling: Double-back manual harness buckles completely to prevent webbing slippage under body weight."
+            "left": "Helmet Positioning: Position climbing helmets level on the head to shield the forehead and crown.",
+            "right": "Glove Friction: Wear leather palm gloves during rappelling to protect skin from severe rope burns."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 8 Exemplar Workbook Entry: Harness, Helmet",
+        "title": "Climbing Req 8 Worked Example: Personal Climbing Protective Equipment",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Commercial Climbing Harness": "A commercial climbing harness distributes arresting forces across the climber pelvis and upper thighs. Correct buckle closure and proper waist placement prevent accidental release during falls.",
-          "Req 8b - Climbing Helmet Adjustment": "Climbing helmets safeguard against rockfall and head impacts against cliff walls during unexpected falls. Proper chin strap tension and suspension cradle adjustment keep the helmet centered.",
-          "Req 8c - Rappelling Hand Protection": "Climbing and rappelling gloves protect hands from severe friction burns during rapid rope handling. Climbers remove gloves while ascending rock faces to preserve natural tactile hold control."
+          "Phase 1 - Harness Orientation": "Step through leg loops and pull the waistbelt above the hip bones.",
+          "Phase 2 - Buckle Closure": "Tighten the waistbelt and double-back the webbing through the metal friction buckle.",
+          "Phase 3 - Helmet Adjustment": "Seat the helmet squarely on the head and tighten the rear adjustment dial.",
+          "Phase 4 - Chin Buckling": "Fasten the chin strap snugly, allowing two fingers between strap and throat."
         },
-        "sample_output": "Harness, Helmet, and Glove Fit: Commercially made climbing harnesses usually require only that you put your legs through leg loops and then secure the waists trap with a buckle (p. 57).",
-        "counselor_tip": "For Climbing Requirement 8 (Harness, Helmet, and Glove Fit), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67))."
+        "sample_output": "Climbing harnesses, helmets, and gloves form essential personal protective equipment when fitted and adjusted properly. Helmets protect against falling debris, while snug harnesses ensure upright suspension during falls.",
+        "counselor_tip": "During the Climbing Requirement 8 conference on Personal Climbing Protective Equipment, verify that the Scout can explain pelvic capture and demonstrate chin buckling: Fasten the chin strap snugly, allowing two fingers between strap and throat."
       },
       "quiz_item": {
         "scenario_prompt": "How can you verify that the adjustable leg loops on your climbing harness are tightened to the proper tension?",
@@ -3549,47 +3551,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Wrapping Remaining Webbing Length",
-        "right_header": "Req 9: Complete the Water Knot",
+        "left_header": "Pre-Climb CHECK Inspection System: Core Principles",
+        "right_header": "Pre-Climb CHECK Inspection System: Field Execution",
         "left_points": [
-          "Wrapping Remaining Webbing Length: Continue wrapping until only about 3 feet remains at each endof webbing (p. 59).",
-          "Keeping Webbing Wraps Flat: Keep the webbing flat and snug against your body (p. 59).",
-          "Tracing the Water Knot: Retrieve the other end of the webbing and use it to trace back through the loose overhand knot, thus completing a water knot (p. 59)."
+          "Clothing Review: Check that loose clothing drawstrings and hair are safely tucked away.",
+          "Harness Inspection: Confirm waistbelts rest above hips with all buckles doubled back securely."
         ],
         "right_points": [
-          "Complete the Water Knot: Retrieve the other end of the webbing and use it to trace back through the loose overhand knot, thus completing a water knot (p. 59).",
-          "Inspect for Secure Fit: Check the harness to be sure it fits securely and that there are no unnecessary twists in the webbing (p. 59).",
-          "Tuck Excess Waist Webbing: Wrap any remaining length of webbing around your waist and tuck the end under the previous wraps (p. 59)."
+          "Environment Survey: Scan the belay area for loose rocks, tripping debris, and spectator crowds.",
+          "Hardware Check: Verify carabiners are locked and knots are dressed with adequate tail length."
         ],
         "rows": [
           {
             "attribute": "Clothing Review",
-            "left": "Wrapping Remaining Webbing Length: Continue wrapping until only about 3 feet remains at each endof webbing (p. 59).",
-            "right": "Complete the Water Knot: Retrieve the other end of the webbing and use it to trace back through the loose overhand knot, thus completing a water knot (p. 59)."
+            "left": "Clothing Review: Check that loose clothing drawstrings and hair are safely tucked away.",
+            "right": "Environment Survey: Scan the belay area for loose rocks, tripping debris, and spectator crowds."
           },
           {
             "attribute": "Harness Inspection",
-            "left": "Keeping Webbing Wraps Flat: Keep the webbing flat and snug against your body (p. 59).",
-            "right": "Inspect for Secure Fit: Check the harness to be sure it fits securely and that there are no unnecessary twists in the webbing (p. 59)."
+            "left": "Harness Inspection: Confirm waistbelts rest above hips with all buckles doubled back securely.",
+            "right": "Hardware Check: Verify carabiners are locked and knots are dressed with adequate tail length."
           },
           {
             "attribute": "Environment Survey",
-            "left": "Tracing the Water Knot: Retrieve the other end of the webbing and use it to trace back through the loose overhand knot, thus completing a water knot (p. 59).",
-            "right": "Tuck Excess Waist Webbing: Wrap any remaining length of webbing around your waist and tuck the end under the previous wraps (p. 59)."
+            "left": "Environment Survey: Scan the belay area for loose rocks, tripping debris, and spectator crowds.",
+            "right": "Hardware Check: Verify carabiners are locked and knots are dressed with adequate tail length."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 9 Exemplar Workbook Entry: Pre-Climb CHECK",
+        "title": "Climbing Req 9 Worked Example: Pre-Climb CHECK Inspection System",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Wrapping Remaining Webbing Length": "Continue wrapping until only about 3 feet remains at each endof webbing (p. 59).",
-          "Keeping Webbing Wraps Flat": "Keep the webbing flat and snug against your body (p. 59).",
-          "Tracing the Water Knot": "Retrieve the other end of the webbing and use it to trace back through the loose overhand knot, thus completing a water knot (p. 59).",
-          "Checking for Webbing Twists": "Check the harness to be sure it fits securely and that there are no unnecessary twists in the webbing (p. 59)."
+          "Phase 1 - Clothing Inspection": "Confirm long hair is tied and clothing drawstrings are tucked in completely.",
+          "Phase 2 - Harness Verification": "Touch your partner harness buckles to verify they are doubled back correctly.",
+          "Phase 3 - Environment Check": "Confirm the belay footprint is clear of trip hazards and falling debris.",
+          "Phase 4 - Connection Audit": "Squeeze carabiner barrels to verify locks and trace the harness tie-in knot."
         },
-        "sample_output": "Pre-Climb CHECK Safety Inspection: Continue wrapping until only about 3 feet remains at each endof webbing (p. 59).",
-        "counselor_tip": "For Climbing Requirement 9 (Pre-Climb CHECK Safety Inspection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60))."
+        "sample_output": "The CHECK system provides a rigorous five-step safety inspection method that partners perform mutually before ascending or rappelling. Verifying clothing, harnesses, environmental factors, carabiners, and knots eliminates common preventable accidents.",
+        "counselor_tip": "During the Climbing Requirement 9 conference on Pre-Climb CHECK Inspection System, verify that the Scout can explain clothing review and demonstrate connection audit: Squeeze carabiner barrels to verify locks and trace the harness tie-in knot."
       },
       "quiz_item": {
         "scenario_prompt": "What do the five letters of the Scouting America pre-climb CHECK system stand for?",
@@ -4099,8 +4099,8 @@
         "Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist."
       ],
       "comparison_data": {
-        "left_header": "Req 10a: Belaying Mechanical Purpose",
-        "right_header": "Req 10c: Climbing Backup Belayer",
+        "left_header": "Req 10a: Belaying Mechanical Purpose Significance",
+        "right_header": "Req 10c: Climbing Backup Belayer Redundancy",
         "left_points": [
           "(10a) Belaying Mechanical Purpose Significance: Belaying prevents catastrophic impacts by holding rope tension throughout both ascent and descent phases. Belayers manage slack continually to minimize drop distance should climbers lose grip.",
           "(10b) Climber Active Belay Execution: Belaying active climbers requires vigilant posture, timely slack removal, and smooth rope feeding. Practicing across three distinct routes develops adaptability to varied climber movement cadences."
@@ -4122,22 +4122,22 @@
           },
           {
             "attribute": "Backup Redundancy",
-            "left": "Req 10a: Belaying Mechanical Purpose: Belaying prevents catastrophic impacts by holding rope tension throughout both ascent and descent phases. Belayers manage slack continually to minimize drop distance should climbers lose grip.",
-            "right": "Req 10b: Climber Active Belay: Belaying active climbers requires vigilant posture, timely slack removal, and smooth rope feeding. Practicing across three distinct routes develops adaptability to varied climber movement cadences."
+            "left": "Backup Redundancy: Backup belayers hold the brake rope to stop falls if belayers fail.",
+            "right": "Weight Disparity: Anchor the belayer to the ground when the climber outweighs them significantly."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 10 Exemplar Workbook Entry: Primary",
+        "title": "Climbing Req 10 Worked Example: Climbing Belay System Mechanics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 10a - Belaying Mechanical Purpose": "Belaying prevents catastrophic impacts by holding rope tension throughout both ascent and descent phases. Belayers manage slack continually to minimize drop distance should climbers lose grip.",
-          "Req 10b - Climber Active Belay": "Belaying active climbers requires vigilant posture, timely slack removal, and smooth rope feeding. Practicing across three distinct routes develops adaptability to varied climber movement cadences.",
-          "Req 10c - Climbing Backup Belayer": "Serving as a backup belayer provides an essential redundancy layer to catch accidental primary brake releases. The backup mirrors rope management while maintaining complete visual contact with the belayer.",
-          "Req 10d - Rappeller Descent Belay": "Belaying rappellers provides critical external protection should the descender lose control or become incapacitated. Belayers manage dedicated safety ropes or operate ground-based bottom fireman backups."
+          "Phase 1 - Rigging Belay": "Thread the rope bight through the belay device and lock the carabiner.",
+          "Phase 2 - Stance Positioning": "Establish an athletic braced stance facing the rock face with brake hand down.",
+          "Phase 3 - PBUS Cycling": "Pull rope, brake downward, place guide hand under, and slide upward smoothly.",
+          "Phase 4 - Fall Arrest": "Lock the brake strand firmly downward across the device when catching falls."
         },
-        "sample_output": "Primary and Backup Belay Techniques: Make the knot big enough that it cannot slip through arappel device, and work out any slack (p. 60).",
-        "counselor_tip": "For Climbing Requirement 10 (Primary and Backup Belay Techniques), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86))."
+        "sample_output": "Belaying manages rope tension to catch potential falls using friction devices operated with strict hand disciplines. Belayers master the PBUS method while backup belayers provide vital failsafe redundancy during training.",
+        "counselor_tip": "During the Climbing Requirement 10 conference on Climbing Belay System Mechanics, verify that the Scout can explain brake hand rule and demonstrate fall arrest: Lock the brake strand firmly downward across the device when catching falls."
       },
       "quiz_item": {
         "scenario_prompt": "What is the number one rule for the brake hand while belaying a climber or rappeller?",
@@ -4437,10 +4437,12 @@
         "left_header": "Req 11a: Direct Harness Tie-In Method",
         "right_header": "Req 11b: Ascent Route Climbing Execution",
         "left_points": [
-          "(11a) Direct Harness Tie-In Method: Climbers route the rope through both the waistbelt loop and leg loop tie-in points. Completing the figure eight follow-through ensures a secure, load-rated connection directly to the body."
+          "(11a) Direct Harness Tie-In Method: Climbers route the rope through both the waistbelt loop and leg loop tie-in points. Completing the figure eight follow-through ensures a secure, load-rated connection directly to the body.",
+          "Dual Point Path: Thread the rope through both the waistbelt and leg loop tie-in points."
         ],
         "right_points": [
-          "(11b) Ascent Route Climbing Execution: Climbing three distinct routes challenges Scouts to apply footwork precision, hip positioning, and weight transfer. Clear voice communication with the belayer ensures continuous protection throughout each ascent."
+          "(11b) Ascent Route Climbing Execution: Climbing three distinct routes challenges Scouts to apply footwork precision, hip positioning, and weight transfer. Clear voice communication with the belayer ensures continuous protection throughout each ascent.",
+          "Leg Driven Ascent: Push upward using strong leg muscles rather than pulling constantly with arms."
         ],
         "rows": [
           {
@@ -4450,25 +4452,27 @@
           },
           {
             "attribute": "Straight Arm Rest",
-            "left": "Req 11a: Direct Harness Tie-In: Climbers route the rope through both the waistbelt loop and leg loop tie-in points. Completing the figure eight follow-through ensures a secure, load-rated connection directly to the body.",
-            "right": "Req 11b: Ascent Route Climbing: Climbing three distinct routes challenges Scouts to apply footwork precision, hip positioning, and weight transfer. Clear voice communication with the belayer ensures continuous protection throughout each ascent."
+            "left": "Dual Point Path: Thread the rope through both the waistbelt and leg loop tie-in points.",
+            "right": "Leg Driven Ascent: Push upward using strong leg muscles rather than pulling constantly with arms."
           },
           {
             "attribute": "Leg Driven Ascent",
-            "left": "Dual Point Path: Thread the rope through both the waistbelt and leg loop tie-in points.",
-            "right": "Straight Arm Rest: Hang on straight skeletal arms to conserve forearm muscle grip during climbing."
+            "left": "Leg Driven Ascent: Push upward using strong leg muscles rather than pulling constantly with arms.",
+            "right": "Center of Gravity: Keep hips pressed close into the cliff face to maximize foothold traction."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 11 Exemplar Workbook Entry: Harness Tie-In",
+        "title": "Climbing Req 11 Worked Example: Technical Rock Climbing Fundamentals",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 11a - Direct Harness Tie-In Method": "Climbers route the rope through both the waistbelt loop and leg loop tie-in points. Completing the figure eight follow-through ensures a secure, load-rated connection directly to the body.",
-          "Req 11b - Ascent Route Climbing": "Climbing three distinct routes challenges Scouts to apply footwork precision, hip positioning, and weight transfer. Clear voice communication with the belayer ensures continuous protection throughout each ascent."
+          "Phase 1 - Threading Harness": "Pass the rope end through both the lower and upper harness tie-in loops.",
+          "Phase 2 - Knot Retracing": "Trace the figure eight knot carefully, keeping all parallel rope strands flat.",
+          "Phase 3 - Balance Climbing": "Ascend by stepping on balance points while maintaining three points of contact.",
+          "Phase 4 - Command Exchange": "Call climbing commands clearly and await your partner verbal confirmation before moving."
         },
-        "sample_output": "Harness Tie-In and Rock Climbing: Exchange verbal signals (see the boxed text later in this chapter) with a climber (p. 65).",
-        "counselor_tip": "For Climbing Requirement 11 (Harness Tie-In and Rock Climbing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66))."
+        "sample_output": "Climbers tie directly into their harness using a dressed figure eight follow-through knot through designated attachment points. Efficient climbing technique emphasizes footwork, straight arms, and body balance over upper-body pulling strength.",
+        "counselor_tip": "During the Climbing Requirement 11 conference on Technical Rock Climbing Fundamentals, verify that the Scout can explain dual point path and demonstrate command exchange: Call climbing commands clearly and await your partner verbal confirmation before moving."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you keep your weight over your feet rather than hugging the rock face with your chest while climbing?",
@@ -4830,13 +4834,15 @@
         "Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist."
       ],
       "comparison_data": {
-        "left_header": "Req 12a: Rappelling Safety Rope",
-        "right_header": "Req 12b: Descender Rigging Hardware",
+        "left_header": "Req 12a: Rappelling Safety Rope Attachment",
+        "right_header": "Req 12b: Descender Rigging Hardware Connection",
         "left_points": [
-          "(12a) Rappelling Safety Rope Attachment: Rappellers secure a secondary belay rope directly to their harness tie-in loops for safety. This independent attachment provides fall protection if the primary rappel brake fails."
+          "(12a) Rappelling Safety Rope Attachment: Rappellers secure a secondary belay rope directly to their harness tie-in loops for safety. This independent attachment provides fall protection if the primary rappel brake fails.",
+          "Locking Carabiner: Always use a locked screwgate carabiner to attach the descender to harnesses."
         ],
         "right_points": [
-          "(12b) Descender Rigging Hardware Connection: Attaching a tubular or figure-eight descender requires locking carabiners connected directly to the harness belay loop. Rappellers perform a physical pull test to verify gate locking."
+          "(12b) Descender Rigging Hardware Connection: Attaching a tubular or figure-eight descender requires locking carabiners connected directly to the harness belay loop. Rappellers perform a physical pull test to verify gate locking.",
+          "(12c) Controlled Cliff Descent Execution: Descending three routes builds confidence in body positioning, brake hand modulation, and rock wall negotiation. Smooth, steady movement prevents rope bounce and protects anchor integrity."
         ],
         "rows": [
           {
@@ -4846,26 +4852,27 @@
           },
           {
             "attribute": "Perpendicular Posture",
-            "left": "Req 12a: Rappelling Safety Rope: Rappellers secure a secondary belay rope directly to their harness tie-in loops for safety. This independent attachment provides fall protection if the primary rappel brake fails.",
-            "right": "Req 12b: Descender Rigging Hardware: Attaching a tubular or figure-eight descender requires locking carabiners connected directly to the harness belay loop. Rappellers perform a physical pull test to verify gate locking."
+            "left": "Locking Carabiner: Always use a locked screwgate carabiner to attach the descender to harnesses.",
+            "right": "(12c) Controlled Cliff Descent Execution: Descending three routes builds confidence in body positioning, brake hand modulation, and rock wall negotiation. Smooth, steady movement prevents rope bounce and protects anchor integrity."
           },
           {
             "attribute": "Brake Hand Control",
-            "left": "Req 12c: Controlled Cliff Descent: Descending three routes builds confidence in body positioning, brake hand modulation, and rock wall negotiation. Smooth, steady movement prevents rope bounce and protects anchor integrity.",
-            "right": "Perpendicular Posture: Lean back with legs straight to keep feet planted firmly against rock."
+            "left": "Brake Hand Control: Keep the brake hand behind the hip to regulate descent speed smoothly.",
+            "right": "Controlled Pace: Rappel at a walking pace to prevent friction heat damage to ropes."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 12 Exemplar Workbook Entry: Rappel Device",
+        "title": "Climbing Req 12 Worked Example: Rappelling Technique Safety Procedures",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 12a - Rappelling Safety Rope": "Rappellers secure a secondary belay rope directly to their harness tie-in loops for safety. This independent attachment provides fall protection if the primary rappel brake fails.",
-          "Req 12b - Descender Rigging Hardware": "Attaching a tubular or figure-eight descender requires locking carabiners connected directly to the harness belay loop. Rappellers perform a physical pull test to verify gate locking.",
-          "Req 12c - Controlled Cliff Descent": "Descending three routes builds confidence in body positioning, brake hand modulation, and rock wall negotiation. Smooth, steady movement prevents rope bounce and protects anchor integrity."
+          "Phase 1 - Device Rigging": "Thread the rappel rope bight through the descender and locked belay carabiner.",
+          "Phase 2 - Stance Setup": "Step to the cliff edge, leaning back with feet set shoulder-width apart.",
+          "Phase 3 - Command Check": "Call on rappel and wait for the belayer to confirm with rappel.",
+          "Phase 4 - Smooth Descent": "Walk backward down the rock face while feeding rope with your brake hand."
         },
-        "sample_output": "Rappel Device Rigging and Descent: Verbal Signals for Climbers and Be layers Verbal signals allow a climber and a be layer to communicate and work together as a team even if they cannot (p. 66).",
-        "counselor_tip": "For Climbing Requirement 12 (Rappel Device Rigging and Descent), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91))."
+        "sample_output": "Rappelling uses controlled friction devices to descend fixed ropes while protected by a belay backup system. Proper posture requires extending legs perpendicular to the rock face while regulating descent speed via the brake hand.",
+        "counselor_tip": "During the Climbing Requirement 12 conference on Rappelling Technique Safety Procedures, verify that the Scout can explain locking carabiner and demonstrate smooth descent: Walk backward down the rock face while feeding rope with your brake hand."
       },
       "quiz_item": {
         "scenario_prompt": "What is the proper body posture when walking backward down a cliff face on rappel?",
@@ -5017,47 +5024,45 @@
         "Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist."
       ],
       "comparison_data": {
-        "left_header": "Req 13: Dedicated Climbing Helmet Use",
-        "right_header": "Req 13: Secure the Chin Strap",
+        "left_header": "Climbing Equipment Maintenance Storage: Core Principles",
+        "right_header": "Climbing Equipment Maintenance Storage: Field Execution",
         "left_points": [
-          "Dedicated Climbing Helmet Use: Whenever you are climbing, rappelling, or belaying on rock faces, wear a helmet that has been specifically designed for climbing (p. 42).",
-          "Deflecting Falling Rock Debris: A helmet will protect your head against stones and debris falling from above, and may prevent injuries if you collide with a rock face during a fall (p. 42).",
-          "Keeping Helmets Securely Fastened: A chin strap helps keep a climber's helmet from falling off or shifting (p. 42)."
+          "Dry Environment: Store ropes in well-ventilated dry areas away from damp concrete ground surfaces.",
+          "Chemical Isolation: Keep nylon climbing gear away from automotive battery acid and bleach fumes."
         ],
         "right_points": [
-          "Secure the Chin Strap: A chin strap helps keep a climber's helmet from falling off or shifting (p. 42).",
-          "Inspect Certified Climbing Gear: The helmets, hardware, and ropes used for climbing, rappelling, and belaying have been developed over more than 150 years of mountaineering (p. 42).",
-          "Follow UIAA Equipment Standards: The UIAA (Union Internationale des Associations d'Alpinisme) is a group of mountain-travel experts who set standards and testing procedures (p. 42)."
+          "Hardware Protection: Hang metal carabiners and belay devices to prevent corrosion and grit accumulation.",
+          "Sunlight Shielding: Shield synthetic harnesses and slings from ultraviolet radiation to stop fiber degradation."
         ],
         "rows": [
           {
             "attribute": "Dry Environment",
-            "left": "Dedicated Climbing Helmet Use: Whenever you are climbing, rappelling, or belaying on rock faces, wear a helmet that has been specifically designed for climbing (p. 42).",
-            "right": "Secure the Chin Strap: A chin strap helps keep a climber's helmet from falling off or shifting (p. 42)."
+            "left": "Dry Environment: Store ropes in well-ventilated dry areas away from damp concrete ground surfaces.",
+            "right": "Hardware Protection: Hang metal carabiners and belay devices to prevent corrosion and grit accumulation."
           },
           {
             "attribute": "Chemical Isolation",
-            "left": "Deflecting Falling Rock Debris: A helmet will protect your head against stones and debris falling from above, and may prevent injuries if you collide with a rock face during a fall (p. 42).",
-            "right": "Inspect Certified Climbing Gear: The helmets, hardware, and ropes used for climbing, rappelling, and belaying have been developed over more than 150 years of mountaineering (p. 42)."
+            "left": "Chemical Isolation: Keep nylon climbing gear away from automotive battery acid and bleach fumes.",
+            "right": "Sunlight Shielding: Shield synthetic harnesses and slings from ultraviolet radiation to stop fiber degradation."
           },
           {
             "attribute": "Hardware Protection",
-            "left": "Keeping Helmets Securely Fastened: A chin strap helps keep a climber's helmet from falling off or shifting (p. 42).",
-            "right": "Follow UIAA Equipment Standards: The UIAA (Union Internationale des Associations d'Alpinisme) is a group of mountain-travel experts who set standards and testing procedures (p. 42)."
+            "left": "Hardware Protection: Hang metal carabiners and belay devices to prevent corrosion and grit accumulation.",
+            "right": "Sunlight Shielding: Shield synthetic harnesses and slings from ultraviolet radiation to stop fiber degradation."
           }
         ]
       },
       "worked_example": {
-        "title": "Climbing Req 13 Exemplar Workbook Entry: Storing Ropes",
+        "title": "Climbing Req 13 Worked Example: Climbing Equipment Maintenance Storage",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Dedicated Climbing Helmet Use": "Whenever you are climbing, rappelling, or belaying on rock faces, wear a helmet that has been specifically designed for climbing (p. 42).",
-          "Deflecting Falling Rock Debris": "A helmet will protect your head against stones and debris falling from above, and may prevent injuries if you collide with a rock face during a fall (p. 42).",
-          "Keeping Helmets Securely Fastened": "A chin strap helps keep a climber's helmet from falling off or shifting (p. 42).",
-          "Modern Mountaineering Equipment": "The helmets, hardware, and ropes used for climbing, rappelling, and belaying have been developed over more than 150 years of mountaineering (p. 42)."
+          "Phase 1 - Gear Cleaning": "Wipe dirt and dried grit from hardware using a clean dry cloth.",
+          "Phase 2 - Rope Airing": "Air dry damp ropes completely in indirect shade before packing into bags.",
+          "Phase 3 - Equipment Bagging": "Place coiled ropes and harnesses inside breathable canvas gear storage bags.",
+          "Phase 4 - Shelf Placement": "Store gear bags on elevated shelves away from direct sun and chemicals."
         },
-        "sample_output": "Storing Ropes, Hardware, and Gear: Whenever you are climbing, rappelling, or belaying on rock faces, wear a helmet that has been specifically designed for climbing (p. 42).",
-        "counselor_tip": "For Climbing Requirement 13 (Storing Ropes, Hardware, and Gear), verify the Scout's own observations and specific pamphlet details (Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85))."
+        "sample_output": "Proper climbing equipment storage preserves the structural integrity of synthetic nylon fibers and metal hardware. Ropes, harnesses, and hardware must be kept clean, dry, and shielded from corrosive chemicals.",
+        "counselor_tip": "During the Climbing Requirement 13 conference on Climbing Equipment Maintenance Storage, verify that the Scout can explain dry environment and demonstrate shelf placement: Store gear bags on elevated shelves away from direct sun and chemicals."
       },
       "quiz_item": {
         "scenario_prompt": "Where should coiled climbing ropes, harnesses, and webbing be stored between outings?",

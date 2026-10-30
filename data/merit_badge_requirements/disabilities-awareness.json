@@ -226,7 +226,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never grab or touch a wheelchair, white cane, or service animal harness without explicit permission from the user.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40)",
       "syllabus_bucket": "In-Class Concept",
@@ -290,19 +290,17 @@
         "Step 3 - Scenario Practice: Roleplay respectful conversational approaches when communicating directly with peers who utilize wheelchairs.",
         "Step 4 - Counselor Discussion: Present your analyzed terminology workbook and answer counselor questions on language nuance."
       ],
-      "gear_checklist": [
-        "Official Disabilities Awareness Merit: Person-First Language.",
-        "Field notebook, verification log sheet, and demonstration materials for Person-First Language.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Core Disabilities Vocabulary",
-        "right_header": "Req 1b: Disability Etiquette",
+        "left_header": "Req 1a: Core Disabilities Vocabulary Framework",
+        "right_header": "Req 1b: Disability Etiquette and Communication",
         "left_points": [
-          "(1a) Core Disabilities Vocabulary Framework: Foundational terminology distinguishes between physical impairments and societal barriers created by inaccessible environments. Precise vocabulary allows Scouts to discuss civil protections, individual adaptations, and identity preferences accurately."
+          "(1a) Core Disabilities Vocabulary Framework: Foundational terminology distinguishes between physical impairments and societal barriers created by inaccessible environments. Precise vocabulary allows Scouts to discuss civil protections, individual adaptations, and identity preferences accurately.",
+          "Person-First Principle: Person-first language emphasizes the individual human identity before referencing any specific physical diagnosis."
         ],
         "right_points": [
-          "(1b) Disability Etiquette and Communication: Proper etiquette requires speaking directly to the individual rather than through an accompanying interpreter or companion. Eye-level positioning and normal conversational tone ensure dignity across mobility, visual, and auditory interactions."
+          "(1b) Disability Etiquette and Communication: Proper etiquette requires speaking directly to the individual rather than through an accompanying interpreter or companion. Eye-level positioning and normal conversational tone ensure dignity across mobility, visual, and auditory interactions.",
+          "Invisible Impairments: Non-apparent conditions include neurodivergence, chronic fatigue syndromes, diabetes, and sensory processing disorders."
         ],
         "rows": [
           {
@@ -312,25 +310,27 @@
           },
           {
             "attribute": "Functional Accommodation",
-            "left": "Req 1a: Core Disabilities Vocabulary: Foundational terminology distinguishes between physical impairments and societal barriers created by inaccessible environments. Precise vocabulary allows Scouts to discuss civil protections, individual adaptations, and identity preferences accurately.",
-            "right": "Req 1b: Disability Etiquette: Proper etiquette requires speaking directly to the individual rather than through an accompanying interpreter or companion. Eye-level positioning and normal conversational tone ensure dignity across mobility, visual, and auditory interactions."
+            "left": "Person-First Principle: Person-first language emphasizes the individual human identity before referencing any specific physical diagnosis.",
+            "right": "Invisible Impairments: Non-apparent conditions include neurodivergence, chronic fatigue syndromes, diabetes, and sensory processing disorders."
           },
           {
             "attribute": "Invisible Impairments",
-            "left": "Person-First Principle: Person-first language emphasizes the individual human identity before referencing any specific physical diagnosis.",
-            "right": "Functional Accommodation: Reasonable modifications eliminate systemic operational barriers without compromising essential program objectives or safety."
+            "left": "Invisible Impairments: Non-apparent conditions include neurodivergence, chronic fatigue syndromes, diabetes, and sensory processing disorders.",
+            "right": "Universal Accessibility: Accessible architectural standards ensure equitable access through physical ramps, tactile signage, and elevators."
           }
         ]
       },
       "worked_example": {
-        "title": "Disabilities Awareness Req 1 Exemplar Workbook Entry",
+        "title": "Disabilities Awareness Req 1 Worked Example: Disability Terminology and Etiquette",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Core Disabilities Vocabulary": "Foundational terminology distinguishes between physical impairments and societal barriers created by inaccessible environments. Precise vocabulary allows Scouts to discuss civil protections, individual adaptations, and identity preferences accurately.",
-          "Req 1b - Disability Etiquette": "Proper etiquette requires speaking directly to the individual rather than through an accompanying interpreter or companion. Eye-level positioning and normal conversational tone ensure dignity across mobility, visual, and auditory interactions."
+          "Phase 1 - Term Review": "Catalog core statutory definitions covering accessibility, adaptation, accommodation, and personal disability.",
+          "Phase 2 - Etiquette Analysis": "Contrast medicalized deficit models against modern civil rights perspectives prioritizing human dignity.",
+          "Phase 3 - Scenario Practice": "Roleplay respectful conversational approaches when communicating directly with peers who utilize wheelchairs.",
+          "Phase 4 - Counselor Discussion": "Present your analyzed terminology workbook and answer counselor questions on language nuance."
         },
-        "sample_output": "Core Terminology and Respectful Etiquette: Each person gets to decide how he or she should be described (p. 9).",
-        "counselor_tip": "For Disabilities Awareness Requirement 1 (Core Terminology and Respectful Etiquette), verify the Scout's own observations and specific pamphlet details (Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40))."
+        "sample_output": "The Americans with Disabilities Act establishes civil rights protections across public and private spaces for individuals with physical or mental impairments. Understanding person-first language and functional accommodation principles enables respectful communication and removes physical and attitudinal barriers.",
+        "counselor_tip": "During the Disabilities Awareness Requirement 1 conference on Disability Terminology and Etiquette, verify that the Scout can explain person-first principle and demonstrate counselor discussion: Present your analyzed terminology workbook and answer counselor questions on language nuance."
       },
       "quiz_item": {
         "scenario_prompt": "In Disabilities Awareness Requirement 1, what is the respectful standard when communicating with or referring to a person with a disability, and why is it important to recognize invisible disabilities?",
@@ -422,7 +422,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain strict client confidentiality by never photographing, recording, or publishing client medical data or faces during agency tours.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 56)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -490,53 +490,47 @@
         "Step 3 - Staff Interview: Question agency program directors regarding client placement metrics and educational barrier remediation.",
         "Step 4 - Synthesis Report: Summarize gathered pamphlets, training curriculums, and employment case studies for your counselor."
       ],
-      "gear_checklist": [
-        "Official Disabilities Awareness Merit: Agency That Works With People.",
-        "Field notebook, verification log sheet, and demonstration materials for Agency That Works With People.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Early Career Preparation",
-        "right_header": "Req 2: Volunteer with Support Agencies",
+        "left_header": "Community Disability Agency Site Visit: Core Principles",
+        "right_header": "Community Disability Agency Site Visit: Field Execution",
         "left_points": [
-          "Early Career Preparation: If a career in audiology interests you, you should begin early to get the background needed (p. 19).",
-          "Foundational High School Courses: In school, take biology, physical science, language, and physical education classes (p. 19).",
-          "Agency Volunteering and Employment: Get an after-schooljob or volunteer with an agency or organization that serves people who have disabilities (p. 19)."
+          "Agency Mission: Community organizations provide comprehensive vocational training and independent living skills for clients.",
+          "Vocational Placement: Structured job coaching enables competitive integrated employment across diverse regional corporate environments."
         ],
         "right_points": [
-          "Volunteer With Support Agencies: Get an after-schooljob or volunteer with an agency or organization that serves people who have disabilities (p. 19).",
-          "Observe Professional Hearing Diagnoses: Audiologists are trained to detect and diagnose hearing problems (p. 19).",
-          "Measure Hearing With Audio meters: An audiologist uses an instrument called anaudiometer to test a person's hearing (p. 19)."
+          "Adaptive Technology: Specialized computer laboratories feature screen magnification hardware, braille terminals, and switch interfaces.",
+          "Educational Transition: Transition coordinators design personalized educational pathways supporting secondary school completion and college."
         ],
         "rows": [
           {
             "attribute": "Agency Mission",
-            "left": "Early Career Preparation: If a career in audiology interests you, you should begin early to get the background needed (p. 19).",
-            "right": "Volunteer With Support Agencies: Get an after-schooljob or volunteer with an agency or organization that serves people who have disabilities (p. 19)."
+            "left": "Agency Mission: Community organizations provide comprehensive vocational training and independent living skills for clients.",
+            "right": "Adaptive Technology: Specialized computer laboratories feature screen magnification hardware, braille terminals, and switch interfaces."
           },
           {
             "attribute": "Vocational Placement",
-            "left": "Foundational High School Courses: In school, take biology, physical science, language, and physical education classes (p. 19).",
-            "right": "Observe Professional Hearing Diagnoses: Audiologists are trained to detect and diagnose hearing problems (p. 19)."
+            "left": "Vocational Placement: Structured job coaching enables competitive integrated employment across diverse regional corporate environments.",
+            "right": "Educational Transition: Transition coordinators design personalized educational pathways supporting secondary school completion and college."
           },
           {
             "attribute": "Adaptive Technology",
-            "left": "Agency Volunteering and Employment: Get an after-schooljob or volunteer with an agency or organization that serves people who have disabilities (p. 19).",
-            "right": "Measure Hearing With Audio meters: An audiologist uses an instrument called anaudiometer to test a person's hearing (p. 19)."
+            "left": "Adaptive Technology: Specialized computer laboratories feature screen magnification hardware, braille terminals, and switch interfaces.",
+            "right": "Educational Transition: Transition coordinators design personalized educational pathways supporting secondary school completion and college."
           }
         ]
       },
       "worked_example": {
-        "title": "Disabilities Awareness Req 2 Exemplar Workbook Entry",
+        "title": "Disabilities Awareness Req 2 Worked Example: Community Disability Agency Site Visit",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Early Career Preparation": "If a career in audiology interests you, you should begin early to get the background needed (p. 19).",
-          "Foundational High School Courses": "In school, take biology, physical science, language, and physical education classes (p. 19).",
-          "Agency Volunteering and Employment": "Get an after-schooljob or volunteer with an agency or organization that serves people who have disabilities (p. 19).",
-          "Audiology Diagnosis and Care": "Audiologists are trained to detect and diagnose hearing problems (p. 19)."
+          "Phase 1 - Agency Research": "Identify and contact a licensed regional organization serving individuals with developmental disabilities.",
+          "Phase 2 - Facility Tour": "Walk through operational departments observing vocational workshops, speech therapy clinics, and classrooms.",
+          "Phase 3 - Staff Interview": "Question agency program directors regarding client placement metrics and educational barrier remediation.",
+          "Phase 4 - Synthesis Report": "Summarize gathered pamphlets, training curriculums, and employment case studies for your counselor."
         },
-        "sample_output": "Disability Support Agencies and Opportunities: If a career in audiology interests you, you should begin early to get the background needed (p. 19).",
-        "counselor_tip": "For Disabilities Awareness Requirement 2 (Disability Support Agencies and Opportunities), verify the Scout's own observations and specific pamphlet details (Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 56))."
+        "sample_output": "Community service agencies deliver specialized vocational rehabilitation, adaptive technology training, and independent living skills. Visiting these facilities exposes Scouts to real-world career training programs and educational pathways for youth and adults.",
+        "counselor_tip": "During the Disabilities Awareness Requirement 2 conference on Community Disability Agency Site Visit, verify that the Scout can explain agency mission and demonstrate synthesis report: Summarize gathered pamphlets, training curriculums, and employment case studies for your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "When visiting an agency that serves people with physical, mental, emotional, or educational disabilities for Requirement 2, what specific member opportunities must you investigate?",
@@ -1088,7 +1082,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure spotters are positioned within arm's reach during mobility or visual impairment simulation exercises.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)",
       "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)",
       "syllabus_bucket": "In-Class Concept",
@@ -1160,7 +1154,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Scout Experience and Advancement",
+        "left_header": "Req 3a: Scout Experience and Advancement Discussion",
         "right_header": "Req 3c: Adaptive Sports and Recreation",
         "left_points": [
           "(3a) Scout Experience and Advancement Discussion: Scouts with disabilities utilize official alternative advancement requirements and Individual Scout Advancement Plans to complete rank milestones. Structured interviews reveal how modified patrol duties and adaptive gear ensure full troop participation.",
@@ -1183,22 +1177,22 @@
           },
           {
             "attribute": "Adaptive Recreation",
-            "left": "Req 3a: Scout Experience: Scouts with disabilities utilize official alternative advancement requirements and Individual Scout Advancement Plans to complete rank milestones. Structured interviews reveal how modified patrol duties and adaptive gear ensure full troop participation.",
-            "right": "Req 3b: Community Member Perspective: Conversing with an adult or youth with a disability highlights community navigation, hobbies, and personal achievements. The discussion emphasizes personal agency, social connections, and daily routines beyond medical treatment."
+            "left": "Adaptive Recreation: Specialized sports equipment enables full athletic competition through mono-skis, handcycles, and tandem bicycles.",
+            "right": "Sensory Awareness: Structured simulation activities highlight environmental sensory overload risks faced by neurodivergent individuals."
           }
         ]
       },
       "worked_example": {
-        "title": "Disabilities Awareness Req 3 Exemplar Workbook Entry",
+        "title": "Disabilities Awareness Req 3 Worked Example: Personal Perspectives and Adaptive Experiences",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Scout Experience": "Scouts with disabilities utilize official alternative advancement requirements and Individual Scout Advancement Plans to complete rank milestones. Structured interviews reveal how modified patrol duties and adaptive gear ensure full troop participation.",
-          "Req 3b - Community Member Perspective": "Conversing with an adult or youth with a disability highlights community navigation, hobbies, and personal achievements. The discussion emphasizes personal agency, social connections, and daily routines beyond medical treatment.",
-          "Req 3c - Adaptive Sports": "Adaptive athletics employ specialized equipment such as sport wheelchairs, seated volleyball nets, and audible goalballs to facilitate athletic competition. Governing bodies modify competitive regulations while maintaining rigorous cardiovascular and strategic rigor.",
-          "Req 3d - Independent Living Assistive": "Assistive technology spans low-tech white canes to high-tech augmentative communication tablets and teletype videophones. Service animals undergo years of specialized behavioral training to perform specific tasks mitigating handler impairments."
+          "Phase 1 - Option Selection": "Choose two exploratory tracks comparing adaptive athletics, personal interviews, or technology.",
+          "Phase 2 - Field Interaction": "Conduct structured interviews or test specialized recreational equipment alongside qualified coaching staff.",
+          "Phase 3 - Aid Analysis": "Document exact technical specifications of assistive communication gear, service animals, or prosthetics.",
+          "Phase 4 - Patrol Debrief": "Share comparative findings with your counselor outlining individual resilience and equipment design."
         },
-        "sample_output": "Lived Experiences and Adaptive Tools: These devices can amplify sounds, convert noises to lighted signals, or change speech to text or American Sign Language (p. 11).",
-        "counselor_tip": "For Disabilities Awareness Requirement 3 (Lived Experiences and Adaptive Tools), verify the Scout's own observations and specific pamphlet details (Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27))."
+        "sample_output": "Direct dialogue and hands-on simulation offer deep insights into navigating daily routines with mobility, sensory, or neurological variations. Investigating assistive technology and adaptive sports demonstrates how specialized design builds full societal participation.",
+        "counselor_tip": "During the Disabilities Awareness Requirement 3 conference on Personal Perspectives and Adaptive Experiences, verify that the Scout can explain direct engagement and demonstrate patrol debrief: Share comparative findings with your counselor outlining individual resilience and equipment design."
       },
       "quiz_item": {
         "scenario_prompt": "How does a video phone assist a person who communicates primarily in American Sign Language (ASL)?",
@@ -2007,7 +2001,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use a standard tape measure cautiously to avoid blocking emergency exit corridors or tripping pedestrian traffic during audits.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2071,19 +2065,17 @@
         "Step 3 - Environmental Analysis: Evaluate ambient lighting levels, background noise, clear sightlines, and sensory quiet areas.",
         "Step 4 - Proposal Drafting: Formulate five concrete architectural or procedural improvements to present to facility administrators."
       ],
-      "gear_checklist": [
-        "Official Disabilities Awareness Merit: Access Locations Notes Accessibility.",
-        "Field notebook, verification log sheet, and demonstration materials for Access Locations Notes Accessibility.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Physical Architectural Access",
-        "right_header": "Req 4b: Invisible Disability",
+        "left_header": "Req 4a: Physical Architectural Access Audit",
+        "right_header": "Req 4b: Invisible Disability Accommodations Audit",
         "left_points": [
-          "(4a) Physical Architectural Access Audit: Auditing physical locations requires checking parking stalls, curb cuts, entrance ramps, and bathroom fixtures against ADA barrier-free standards. Scouts evaluate pathways of travel to detect physical obstructions, uneven pavement, and inadequate grab bars."
+          "(4a) Physical Architectural Access Audit: Auditing physical locations requires checking parking stalls, curb cuts, entrance ramps, and bathroom fixtures against ADA barrier-free standards. Scouts evaluate pathways of travel to detect physical obstructions, uneven pavement, and inadequate grab bars.",
+          "Ramp Gradient: Accessible entrance ramps require a maximum slope ratio of one inch per foot."
         ],
         "right_points": [
-          "(4b) Invisible Disability Accommodations Audit: Accommodations for invisible disabilities focus on reducing cognitive strain, sensory overstimulation, and communication barriers. Observers assess noise levels, visual clutter, clear wayfinding icons, and the availability of calm sensory spaces."
+          "(4b) Invisible Disability Accommodations Audit: Accommodations for invisible disabilities focus on reducing cognitive strain, sensory overstimulation, and communication barriers. Observers assess noise levels, visual clutter, clear wayfinding icons, and the availability of calm sensory spaces.",
+          "Acoustic Attenuation: Absorptive ceiling baffles and carpeting reduce disruptive reverberation for individuals with auditory hypersensitivity."
         ],
         "rows": [
           {
@@ -2093,25 +2085,27 @@
           },
           {
             "attribute": "Doorway Clearance",
-            "left": "Req 4a: Physical Architectural: Auditing physical locations requires checking parking stalls, curb cuts, entrance ramps, and bathroom fixtures against ADA barrier-free standards. Scouts evaluate pathways of travel to detect physical obstructions, uneven pavement, and inadequate grab bars.",
-            "right": "Req 4b: Invisible Disability: Accommodations for invisible disabilities focus on reducing cognitive strain, sensory overstimulation, and communication barriers. Observers assess noise levels, visual clutter, clear wayfinding icons, and the availability of calm sensory spaces."
+            "left": "Ramp Gradient: Accessible entrance ramps require a maximum slope ratio of one inch per foot.",
+            "right": "Acoustic Attenuation: Absorptive ceiling baffles and carpeting reduce disruptive reverberation for individuals with auditory hypersensitivity."
           },
           {
             "attribute": "Acoustic Attenuation",
-            "left": "Ramp Gradient: Accessible entrance ramps require a maximum slope ratio of one inch per foot.",
-            "right": "Doorway Clearance: Minimum clear opening width for accessible commercial doorways measures thirty-two continuous clear inches."
+            "left": "Acoustic Attenuation: Absorptive ceiling baffles and carpeting reduce disruptive reverberation for individuals with auditory hypersensitivity.",
+            "right": "Visual Wayfinding: High-contrast sans-serif signage accompanied by Grade Two Braille allows independent navigation for visitors."
           }
         ]
       },
       "worked_example": {
-        "title": "Disabilities Awareness Req 4 Exemplar Workbook Entry",
+        "title": "Disabilities Awareness Req 4 Worked Example: Facility Accessibility and Accommodation Audit",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Physical Architectural Access": "Auditing physical locations requires checking parking stalls, curb cuts, entrance ramps, and bathroom fixtures against ADA barrier-free standards. Scouts evaluate pathways of travel to detect physical obstructions, uneven pavement, and inadequate grab bars.",
-          "Req 4b - Invisible Disability": "Accommodations for invisible disabilities focus on reducing cognitive strain, sensory overstimulation, and communication barriers. Observers assess noise levels, visual clutter, clear wayfinding icons, and the availability of calm sensory spaces."
+          "Phase 1 - Site Selection": "Select two public municipal buildings, religious houses, or school campuses for evaluation.",
+          "Phase 2 - Measurement Survey": "Record physical doorway widths, ramp slopes, threshold heights, and parking stall dimensions.",
+          "Phase 3 - Environmental Analysis": "Evaluate ambient lighting levels, background noise, clear sightlines, and sensory quiet areas.",
+          "Phase 4 - Proposal Drafting": "Formulate five concrete architectural or procedural improvements to present to facility administrators."
         },
-        "sample_output": "Evaluating Facility Access and Accommodations: Most schools are accommodating students with disabilities to make learning better (p. 36).",
-        "counselor_tip": "For Disabilities Awareness Requirement 4 (Evaluating Facility Access and Accommodations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40))."
+        "sample_output": "Physical accessibility audits measure slope gradients, door clearances, and tactile wayfinding systems against statutory design standards. Accommodation audits analyze sensory quiet zones, cognitive signage, and lighting adjustments supporting invisible disabilities.",
+        "counselor_tip": "During the Disabilities Awareness Requirement 4 conference on Facility Accessibility and Accommodation Audit, verify that the Scout can explain ramp gradient and demonstrate proposal drafting: Formulate five concrete architectural or procedural improvements to present to facility administrators."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the merit badge pamphlet advise talking with staff members when evaluating accommodations at a facility for Requirement 4b?",
@@ -2435,7 +2429,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow Youth Protection guidelines with two registered adult leaders present during all youth advocacy presentations or volunteer shifts.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2506,19 +2500,17 @@
         "Step 3 - Implementation Phase: Deliver the youth presentation or complete eight recorded hours of direct volunteer service.",
         "Step 4 - Reflection Conference: Debrief your outreach impact and analyze societal disability barriers with your counselor."
       ],
-      "gear_checklist": [
-        "Official Disabilities Awareness Merit: Disability Advocacy and Self-Determination.",
-        "Field notebook, verification log sheet, and demonstration materials for Disability Advocacy and Self-Determination.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Youth Peer Awareness",
-        "right_header": "Req 5b: Agency Volunteer Service",
+        "left_header": "Req 5a: Youth Peer Awareness Presentation",
+        "right_header": "Req 5b: Agency Volunteer Service Commitment",
         "left_points": [
-          "(5a) Youth Peer Awareness Presentation: Delivering an awareness presentation to Cub Scouts teaches inclusive play, person-first language, and respectful peer interactions. Interactive activities and visual aids help younger youth recognize that all children share similar interests and emotions."
+          "(5a) Youth Peer Awareness Presentation: Delivering an awareness presentation to Cub Scouts teaches inclusive play, person-first language, and respectful peer interactions. Interactive activities and visual aids help younger youth recognize that all children share similar interests and emotions.",
+          "Advocacy Definition: Advocacy represents speaking up and taking active measures to protect civil rights."
         ],
         "right_points": [
-          "(5b) Agency Volunteer Service Commitment: Volunteering eight hours with a specialized agency provides direct support for inclusive recreation, tutoring, or vocational coaching. Scouts follow staff direction to build an encouraging, dignified environment for all participating clients."
+          "(5b) Agency Volunteer Service Commitment: Volunteering eight hours with a specialized agency provides direct support for inclusive recreation, tutoring, or vocational coaching. Scouts follow staff direction to build an encouraging, dignified environment for all participating clients.",
+          "(5c) Disability Myth Deconstruction Research: Investigating pervasive cultural myths uncovers misconceptions surrounding cognitive capabilities, employment productivity, and personal independence. Scouts use credible government and advocacy resources to contrast historic prejudices against objective data."
         ],
         "rows": [
           {
@@ -2528,26 +2520,27 @@
           },
           {
             "attribute": "Peer Education",
-            "left": "Req 5a: Youth Peer Awareness: Delivering an awareness presentation to Cub Scouts teaches inclusive play, person-first language, and respectful peer interactions. Interactive activities and visual aids help younger youth recognize that all children share similar interests and emotions.",
-            "right": "Req 5b: Agency Volunteer Service: Volunteering eight hours with a specialized agency provides direct support for inclusive recreation, tutoring, or vocational coaching. Scouts follow staff direction to build an encouraging, dignified environment for all participating clients."
+            "left": "Advocacy Definition: Advocacy represents speaking up and taking active measures to protect civil rights.",
+            "right": "(5c) Disability Myth Deconstruction Research: Investigating pervasive cultural myths uncovers misconceptions surrounding cognitive capabilities, employment productivity, and personal independence. Scouts use credible government and advocacy resources to contrast historic prejudices against objective data."
           },
           {
             "attribute": "Volunteer Service",
-            "left": "Req 5c: Disability Myth: Investigating pervasive cultural myths uncovers misconceptions surrounding cognitive capabilities, employment productivity, and personal independence. Scouts use credible government and advocacy resources to contrast historic prejudices against objective data.",
-            "right": "Peer Education: Youth presentations effectively teach younger Scouts person-first vocabulary and inclusive playground behavior."
+            "left": "Volunteer Service: Direct volunteer commitment builds organizational capacity within local recreation and adaptive therapy programs.",
+            "right": "Myth Deconstruction: Historical research disproves harmful misconceptions regarding intellectual capabilities and employment dependability of individuals."
           }
         ]
       },
       "worked_example": {
-        "title": "Disabilities Awareness Req 5 Exemplar Workbook Entry",
+        "title": "Disabilities Awareness Req 5 Worked Example: Disability Advocacy and Community Outreach",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Youth Peer Awareness": "Delivering an awareness presentation to Cub Scouts teaches inclusive play, person-first language, and respectful peer interactions. Interactive activities and visual aids help younger youth recognize that all children share similar interests and emotions.",
-          "Req 5b - Agency Volunteer Service": "Volunteering eight hours with a specialized agency provides direct support for inclusive recreation, tutoring, or vocational coaching. Scouts follow staff direction to build an encouraging, dignified environment for all participating clients.",
-          "Req 5c - Disability Myth": "Investigating pervasive cultural myths uncovers misconceptions surrounding cognitive capabilities, employment productivity, and personal independence. Scouts use credible government and advocacy resources to contrast historic prejudices against objective data."
+          "Phase 1 - Campaign Planning": "Select an advocacy path centering on educational presentations, agency volunteering, or research.",
+          "Phase 2 - Counselor Clearance": "Submit presentation lesson plans or volunteer agency service commitments for counselor approval.",
+          "Phase 3 - Implementation Phase": "Deliver the youth presentation or complete eight recorded hours of direct volunteer service.",
+          "Phase 4 - Reflection Conference": "Debrief your outreach impact and analyze societal disability barriers with your counselor."
         },
-        "sample_output": "Disability Advocacy and Community Education: Having a disability is not the same as being sick (p. 19).",
-        "counselor_tip": "For Disabilities Awareness Requirement 5 (Disability Advocacy and Community Education), verify the Scout's own observations and specific pamphlet details (Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47))."
+        "sample_output": "Advocacy champions the legal rights, equitable opportunities, and inclusion of individuals with disabilities within society. Scouts advance advocacy through community education programs, direct volunteer service, or researching legislative and social misconceptions.",
+        "counselor_tip": "During the Disabilities Awareness Requirement 5 conference on Disability Advocacy and Community Outreach, verify that the Scout can explain advocacy definition and demonstrate reflection conference: Debrief your outreach impact and analyze societal disability barriers with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Which statement accurately reflects the merit badge pamphlet's teaching on health and disability when educating others?",
@@ -2643,7 +2636,7 @@
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Address bullying or harassment of individuals with disabilities immediately by reporting incidents to responsible adult leaders.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 44, p. 52)",
       "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 44, p. 52)",
       "syllabus_bucket": "In-Class Concept",
@@ -2707,53 +2700,47 @@
         "Step 3 - Peer Strategy: Outline methods to challenge demeaning jokes or exclusionary habits among your social circles.",
         "Step 4 - Counselor Pledge: Present your formal written commitment and discuss ongoing accountability with your counselor."
       ],
-      "gear_checklist": [
-        "Official Disabilities Awareness Merit: Commitment to your counselor describing.",
-        "Field notebook, verification log sheet, and demonstration materials for Commitment to your counselor describing.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Core Meaning of Advocacy",
-        "right_header": "Req 6: Challenge Unfair Beliefs Bravely",
+        "left_header": "Personal Inclusion Commitment Plan: Core Principles",
+        "right_header": "Personal Inclusion Commitment Plan: Field Execution",
         "left_points": [
-          "Core Meaning of Advocacy: Advocacy, Attitudes, and Awareness Advocacy means supporting, promoting, encouraging, or defending something (p. 44).",
-          "Promoting Positive Community Attitudes: To be an advocate for people with disabilities means you support and encourage positive attitudes about people with disabilities (p. 44).",
-          "Courage to Challenge Mistreatment: It can also mean that you are brave enough to challenge false and unfair beliefs or call to account those who mistreat people with disabilities (p. 44)."
+          "Attitudinal Barriers: Internal prejudices and awkward discomfort often present greater obstacles than physical architectural stairs.",
+          "Active Allyship: Standing up against derogatory slurs protects personal dignity across school hallways and scouting activities."
         ],
         "right_points": [
-          "Challenge Unfair Beliefs Bravely: It can also mean that you are brave enough to challenge false and unfair beliefs or call to account those who mistreat people with disabilities (p. 44).",
-          "Look Past Stereotypical Labels: You help strip away the labels so that people can see each other as individuals (p. 44).",
-          "Build Mutual Respect Daily: You help build bridges of understanding and respect among all people, regardless of their abilities (p. 44)."
+          "Patrol Inclusion: Modifying campout duties ensures every patrol member contributes meaningfully to troop outdoor success.",
+          "Personal Growth: Documenting evolving viewpoints demonstrates maturity and commitment to lifelong inclusive community leadership."
         ],
         "rows": [
           {
             "attribute": "Attitudinal Barriers",
-            "left": "Core Meaning of Advocacy: Advocacy, Attitudes, and Awareness Advocacy means supporting, promoting, encouraging, or defending something (p. 44).",
-            "right": "Challenge Unfair Beliefs Bravely: It can also mean that you are brave enough to challenge false and unfair beliefs or call to account those who mistreat people with disabilities (p. 44)."
+            "left": "Attitudinal Barriers: Internal prejudices and awkward discomfort often present greater obstacles than physical architectural stairs.",
+            "right": "Patrol Inclusion: Modifying campout duties ensures every patrol member contributes meaningfully to troop outdoor success."
           },
           {
             "attribute": "Active Allyship",
-            "left": "Promoting Positive Community Attitudes: To be an advocate for people with disabilities means you support and encourage positive attitudes about people with disabilities (p. 44).",
-            "right": "Look Past Stereotypical Labels: You help strip away the labels so that people can see each other as individuals (p. 44)."
+            "left": "Active Allyship: Standing up against derogatory slurs protects personal dignity across school hallways and scouting activities.",
+            "right": "Personal Growth: Documenting evolving viewpoints demonstrates maturity and commitment to lifelong inclusive community leadership."
           },
           {
             "attribute": "Patrol Inclusion",
-            "left": "Courage to Challenge Mistreatment: It can also mean that you are brave enough to challenge false and unfair beliefs or call to account those who mistreat people with disabilities (p. 44).",
-            "right": "Build Mutual Respect Daily: You help build bridges of understanding and respect among all people, regardless of their abilities (p. 44)."
+            "left": "Patrol Inclusion: Modifying campout duties ensures every patrol member contributes meaningfully to troop outdoor success.",
+            "right": "Personal Growth: Documenting evolving viewpoints demonstrates maturity and commitment to lifelong inclusive community leadership."
           }
         ]
       },
       "worked_example": {
-        "title": "Disabilities Awareness Req 6 Exemplar Workbook Entry",
+        "title": "Disabilities Awareness Req 6 Worked Example: Personal Inclusion Commitment Plan",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Core Meaning of Advocacy": "Advocacy, Attitudes, and Awareness Advocacy means supporting, promoting, encouraging, or defending something (p. 44).",
-          "Promoting Positive Community Attitudes": "To be an advocate for people with disabilities means you support and encourage positive attitudes about people with disabilities (p. 44).",
-          "Courage to Challenge Mistreatment": "It can also mean that you are brave enough to challenge false and unfair beliefs or call to account those who mistreat people with disabilities (p. 44).",
-          "Removing Stereotypical Labels": "You help strip away the labels so that people can see each other as individuals (p. 44)."
+          "Phase 1 - Self Reflection": "Review personal shifts in understanding developed throughout your badge research and field visits.",
+          "Phase 2 - Goal Setting": "Draft three specific behavioral commitments promoting inclusion within your troop, school, and neighborhood.",
+          "Phase 3 - Peer Strategy": "Outline methods to challenge demeaning jokes or exclusionary habits among your social circles.",
+          "Phase 4 - Counselor Pledge": "Present your formal written commitment and discuss ongoing accountability with your counselor."
         },
-        "sample_output": "Personal Commitment to Positive Attitudes: Advocacy, Attitudes, and Awareness Advocacy means supporting, promoting, encouraging, or defending something (p. 44).",
-        "counselor_tip": "For Disabilities Awareness Requirement 6 (Personal Commitment to Positive Attitudes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 44, p. 52))."
+        "sample_output": "Formulating a personal commitment pledge reinforces positive attitudes and active allyship toward individuals with disabilities. Scouts articulate concrete changes in their perspective and outline actionable steps to build inclusion within their troop and school.",
+        "counselor_tip": "During the Disabilities Awareness Requirement 6 conference on Personal Inclusion Commitment Plan, verify that the Scout can explain attitudinal barriers and demonstrate counselor pledge: Present your formal written commitment and discuss ongoing accountability with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "According to the merit badge pamphlet, what does being an advocate for people with disabilities require when you witness unfair beliefs or mistreatment?",
@@ -2845,7 +2832,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Adhere to professional health hygiene and equipment sanitization protocols when observing clinical therapy environments.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 33)",
       "syllabus_bucket": "In-Class Concept",
@@ -2913,47 +2900,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Shared Hobbies and Interests",
-        "right_header": "Req 7: Connect Through Shared Clubs",
+        "left_header": "Disability Services Professional Careers: Core Principles",
+        "right_header": "Disability Services Professional Careers: Field Execution",
         "left_points": [
-          "Shared Hobbies and Interests: Whatever activities you enjoy, you can be sure there are many people, with and without disabilities, who like doing the same things (p. 19).",
-          "Inclusive Community Interest Clubs: Maybe you belong to a club for people who share your interest, such as an astronomy club or a collectors' group (p. 19).",
-          "Friendships Across All Abilities: You might have a friend from the club who has a disability (p. 19)."
+          "Occupational Therapy: Occupational therapists design functional motor adaptations supporting independent activities of daily domestic life.",
+          "Speech Pathology: Speech language pathologists assess and remediate complex verbal, cognitive, and swallowing communication disorders."
         ],
         "right_points": [
-          "Connect Through Shared Clubs: You might have a friend from the club who has a disability (p. 19).",
-          "Discuss Personal Activity Experiences: Talk with your friend about his or her experiences (p. 19).",
-          "Explore Everyday Activity Adaptations: Find out what adaptations or adjustments, if any, your friend has made or used to take part in favorite activities or do everyday tasks (p. 19)."
+          "Assistive Technology: Rehabilitation engineers fabricate custom mechanical linkages, computerized switches, and specialized seating mobility systems.",
+          "Special Education: Certified educators create individualized education programs tailored to unique student developmental learning requirements."
         ],
         "rows": [
           {
             "attribute": "Occupational Therapy",
-            "left": "Shared Hobbies and Interests: Whatever activities you enjoy, you can be sure there are many people, with and without disabilities, who like doing the same things (p. 19).",
-            "right": "Connect Through Shared Clubs: You might have a friend from the club who has a disability (p. 19)."
+            "left": "Occupational Therapy: Occupational therapists design functional motor adaptations supporting independent activities of daily domestic life.",
+            "right": "Assistive Technology: Rehabilitation engineers fabricate custom mechanical linkages, computerized switches, and specialized seating mobility systems."
           },
           {
             "attribute": "Speech Pathology",
-            "left": "Inclusive Community Interest Clubs: Maybe you belong to a club for people who share your interest, such as an astronomy club or a collectors' group (p. 19).",
-            "right": "Discuss Personal Activity Experiences: Talk with your friend about his or her experiences (p. 19)."
+            "left": "Speech Pathology: Speech language pathologists assess and remediate complex verbal, cognitive, and swallowing communication disorders.",
+            "right": "Special Education: Certified educators create individualized education programs tailored to unique student developmental learning requirements."
           },
           {
             "attribute": "Assistive Technology",
-            "left": "Friendships Across All Abilities: You might have a friend from the club who has a disability (p. 19).",
-            "right": "Explore Everyday Activity Adaptations: Find out what adaptations or adjustments, if any, your friend has made or used to take part in favorite activities or do everyday tasks (p. 19)."
+            "left": "Assistive Technology: Rehabilitation engineers fabricate custom mechanical linkages, computerized switches, and specialized seating mobility systems.",
+            "right": "Special Education: Certified educators create individualized education programs tailored to unique student developmental learning requirements."
           }
         ]
       },
       "worked_example": {
-        "title": "Disabilities Awareness Req 7 Exemplar Workbook Entry",
+        "title": "Disabilities Awareness Req 7 Worked Example: Disability Services Professional Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Shared Hobbies and Interests": "Whatever activities you enjoy, you can be sure there are many people, with and without disabilities, who like doing the same things (p. 19).",
-          "Inclusive Community Interest Clubs": "Maybe you belong to a club for people who share your interest, such as an astronomy club or a collectors' group (p. 19).",
-          "Friendships Across All Abilities": "You might have a friend from the club who has a disability (p. 19).",
-          "Learning from Personal Conversations": "Talk with your friend about his or her experiences (p. 19)."
+          "Phase 1 - Career Exploration": "Identify five distinct professional occupations supporting individuals across physical and cognitive disciplines.",
+          "Phase 2 - Deep Analysis": "Select one specific profession to research educational prerequisites, certifications, and clinical internships.",
+          "Phase 3 - Interview Practitioner": "Connect with a working professional to discuss typical daily caseloads, rewards, and challenges.",
+          "Phase 4 - Career Presentation": "Present your comprehensive findings detailing credentialing pathways and personal career interests to counselor."
         },
-        "sample_output": "Service Professions and Career Pathways: Whatever activities you enjoy, you can be sure there are many people, with and without disabilities, who like doing the same things (p. 19).",
-        "counselor_tip": "For Disabilities Awareness Requirement 7 (Service Professions and Career Pathways), verify the Scout's own observations and specific pamphlet details (Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 33))."
+        "sample_output": "Diverse professional disciplines provide essential clinical therapy, assistive technology engineering, special education, and legal rights protection. Exploring career prerequisites reveals the rigorous university coursework, clinical fieldwork, and state licensing credentials required.",
+        "counselor_tip": "During the Disabilities Awareness Requirement 7 conference on Disability Services Professional Careers, verify that the Scout can explain occupational therapy and demonstrate career presentation: Present your comprehensive findings detailing credentialing pathways and personal career interests to counselor."
       },
       "quiz_item": {
         "scenario_prompt": "In addition to naming five professions that provide services to people with disabilities for Requirement 7, what must you research about the one profession you choose?",

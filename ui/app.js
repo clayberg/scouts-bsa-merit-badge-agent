@@ -5020,10 +5020,16 @@ function renderActiveSlide(idx) {
       const eagleNote = res.is_eagle_required
         ? `As an Eagle-Required Merit Badge, ${res.badge_name} builds lifelong citizenship, safety, and outdoor leadership skills you will use on every troop outing.`
         : `The ${res.badge_name} Merit Badge gives our patrol a great chance to explore a hands-on field through practical exercises and real-world observation.`;
-      const defaultCoverNotes = `[SAY] Welcome to our ${res.badge_name} Merit Badge session, Scouts! [Point to the Counselor Contact card on screen] My name is ${counselorName} with ${troopName}, and when you reach out by email (${email || "via unit leadership"}) or phone with questions or workbook logs, remember our BSA Youth Protection and Two-Deep Leadership rule: always copy a parent, guardian, or another registered adult leader. ${eagleNote} [Hold up a Blue Card and sample ${res.badge_name} Workbook] Today we will work through the official requirements together using these slides, hands-on skill stations, and your printable ${res.badge_name} Merit Badge Workbook.`;
+      const defaultCoverNotes = [
+        `[PACING & MODALITY] 3 min | Cover & Patrol Orientation | EDGE: Explain. [Point to the Counselor Contact card on screen] Welcome to our ${res.badge_name} Merit Badge session, Scouts! My name is ${counselorName} with ${troopName}. When you reach out by email (${email || "via unit leadership"}) or phone with questions or workbook logs, remember our Scouting America Youth Protection and Two-Deep Leadership rule: always copy a parent, guardian, or another registered adult leader. ${eagleNote}`,
+        `[ASK SCOUTS FIRST] Looking at the ${res.badge_name} emblem on screen, what hands-on skill or field challenge are you most excited to tackle today, and who brought their signed Blue Card (#34124) or prerequisite notes?`,
+        `[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up a sample signed Blue Card (#34124) and the ${res.badge_name} Fillable Scout Workbook] Confirm every Scout has a buddy partner and workbook ready before advancing to the Requirements Overview.`,
+      ].join("\n");
+      res._defaultCoverNotes = defaultCoverNotes;
       const coverNotes = res._polishedCoverNotes || defaultCoverNotes;
       const coverNotesHtml = formatSpeakerNotesHtml(coverNotes);
       notesEl.innerHTML = coverNotesHtml;
+      syncAdaptiveFacilitatorHeadings(coverNotes, null, true);
       const fsTeleContent = document.getElementById("fullscreen-teleprompter-content");
       if (fsTeleContent) fsTeleContent.innerHTML = coverNotesHtml;
       if (typeof window.syncNotesPolishProvenancePill === "function") {
@@ -5836,6 +5842,7 @@ function renderActiveSlide(idx) {
   if (notesEl) {
     notesEl.innerHTML = formattedNotes;
   }
+  syncAdaptiveFacilitatorHeadings(slide.presenter_notes || "", slide, false);
   if (typeof window.syncNotesPolishProvenancePill === "function") {
     window.syncNotesPolishProvenancePill({
       isPolished: Boolean(slide._isPolishedNotes),
@@ -5989,19 +5996,88 @@ function decorateFacilitatorInlineMarkup(rawLine) {
   return decorated;
 }
 
+function countActiveFacilitatorSections(rawNotes) {
+  const lines = String(rawNotes || "")
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  return lines.length;
+}
+
+function describeSlideActiveSections(slideObj, isCover) {
+  if (isCover || !slideObj) {
+    return ["🛡️ Badge Emblem & Cover", "👤 Counselor Contact Card"];
+  }
+  const arch = String(slideObj.archetype || "SPLIT_VISUAL_EXPLAINER").toUpperCase();
+  const chips = [];
+  if (arch === "REQUIREMENTS_TRIAGE_MATRIX" || String(slideObj.req_number || "").toLowerCase() === "overview") {
+    chips.push("🗺️ Requirements Roadmap");
+  } else if (arch === "SOURCES_AND_REFERENCES" || String(slideObj.req_number || "").toLowerCase() === "sources") {
+    chips.push("📚 Official Sources & Credits");
+  } else if (arch === "DIFFERENTIAL_COMPARISON_2COL" || slideObj.comparison_data) {
+    chips.push("⚖️ 2-Column Comparison");
+  } else if (arch === "WORKED_EXAMPLE_TEMPLATE" || slideObj.worked_example) {
+    chips.push("📝 Worked Example Log");
+  } else if (arch === "SOCRATIC_CHECKPOINT_QUIZ" || slideObj.quiz_item) {
+    chips.push("🎯 4-Option Patrol Quiz");
+  } else if (arch === "GEAR_CHECKLIST_GRID" || (Array.isArray(slideObj.gear_checklist) && slideObj.gear_checklist.length > 0)) {
+    chips.push("🧰 Equipment Checklist");
+  } else if (arch === "STEP_BY_STEP_PROCEDURE_4CARD") {
+    chips.push("🛠️ 4-Step Skill Station");
+  } else {
+    chips.push("📋 4-Card Concept Grid");
+  }
+  if (slideObj.verbatim_requirement_text) {
+    chips.push("📜 Official Req Banner");
+  }
+  if (slideObj.diagram_path || slideObj.diagram_url) {
+    chips.push("🖼️ Visual Figure");
+  }
+  if (slideObj.safety_warning) {
+    chips.push("⛑️ Safety Callout");
+  }
+  if (slideObj.misconception_pair && (slideObj.misconception_pair.misconception || slideObj.misconception_pair.myth)) {
+    chips.push("💡 On-Slide Myth vs. Fact");
+  }
+  return chips;
+}
+
+function syncAdaptiveFacilitatorHeadings(rawNotes, slideObj, isCover) {
+  const cueCount = countActiveFacilitatorSections(rawNotes);
+  const notesEl = document.getElementById("stage-presenter-notes");
+  if (notesEl) {
+    notesEl.setAttribute("data-cue-count", String(cueCount));
+  }
+  const headingEl = document.getElementById("stage-presenter-notes-heading");
+  if (headingEl) {
+    const slideChips = describeSlideActiveSections(slideObj, isCover);
+    const chipHtml = slideChips
+      .map(
+        (c) =>
+          `<span class="m3-chip m3-chip-secondary" style="font-size:0.68rem; padding:1px 7px; font-weight:700;">${escapeHtml(c)}</span>`
+      )
+      .join(" ");
+    headingEl.innerHTML = `🎙️ Counselor Teaching Notes <span class="m3-chip m3-chip-primary" style="font-size:0.68rem; padding:1px 8px; margin-left:4px;">${cueCount} Active Cue${cueCount === 1 ? "" : "s"}</span> <span style="display:inline-flex; gap:4px; flex-wrap:wrap; margin-left:4px; vertical-align:middle;">${chipHtml}</span>`;
+  }
+  const fsHeadingEl = document.getElementById("fullscreen-teleprompter-heading");
+  if (fsHeadingEl) {
+    fsHeadingEl.textContent = `🎙️ Facilitator Guide (${cueCount} Active Cue${cueCount === 1 ? "" : "s"}) — Press N to Hide`;
+  }
+}
+
 function formatSpeakerNotesHtml(rawNotes) {
   const lines = String(rawNotes || "")
     .split(/\n+/)
     .map((line) => line.trim())
     .filter(Boolean);
-  return lines
+  const renderedCards = lines
     .map((line) => {
       for (const spec of FACILITATOR_5PART_SPECS) {
         if (spec.regex.test(line)) {
           const rest = line.replace(spec.regex, "").trim();
           const bodyHtml = decorateFacilitatorInlineMarkup(rest);
           return `
-            <div class="m3-facilitator-5part-card" style="background:${spec.cardBg}; border-left:4px solid ${spec.cardBorder}; border-radius:6px; padding:6px 10px; margin-bottom:7px;">
+            <div class="m3-facilitator-5part-card" data-cue-tag="${escapeHtml(spec.tag)}" style="background:${spec.cardBg}; border-left:4px solid ${spec.cardBorder}; border-radius:6px; padding:6px 10px; margin-bottom:7px;">
               <span class="m3-cue-tag" style="background:${spec.chipBg}; color:${spec.chipFg}; margin-right:6px;">${escapeHtml(spec.tag)}</span>
               <span>${bodyHtml}</span>
             </div>
@@ -6017,6 +6093,7 @@ function formatSpeakerNotesHtml(rawNotes) {
       return `<div style="margin-bottom:8px;">${decorated}</div>`;
     })
     .join("");
+  return `<div class="m3-adaptive-notes-stack" data-cue-count="${lines.length}">${renderedCards}</div>`;
 }
 
 const SYLLABUS_BUCKET_META = {
@@ -10809,7 +10886,7 @@ function formatPresenterCueBodyHtml(rawSegment) {
   return decorateFacilitatorInlineMarkup(String(rawSegment || "").trim());
 }
 
-function formatPresenterConsoleCardsHtml(rawNotes) {
+function formatPresenterConsoleCardsHtml(rawNotes, slideObj = null, isCover = false) {
   const lines = String(rawNotes || "")
     .split(/\n+/)
     .map((line) => line.trim())
@@ -10824,7 +10901,7 @@ function formatPresenterConsoleCardsHtml(rawNotes) {
       if (spec.regex.test(line)) {
         const body = formatPresenterCueBodyHtml(line.replace(spec.regex, "").trim());
         cards.push(`
-          <div class="m3-pc-cue-card ${spec.pcClass}" style="border-left:4px solid ${spec.cardBorder};">
+          <div class="m3-pc-cue-card ${spec.pcClass}" data-cue-tag="${escapeHtml(spec.tag)}" style="border-left:4px solid ${spec.cardBorder};">
             <div class="m3-pc-cue-kicker" style="color:${spec.cardBorder};">${escapeHtml(spec.label)}</div>
             <div>${body}</div>
           </div>
@@ -10870,7 +10947,19 @@ function formatPresenterConsoleCardsHtml(rawNotes) {
       `);
     }
   }
-  return cards.join("");
+  const activeSlideChips = describeSlideActiveSections(slideObj, isCover);
+  const stripHtml = `
+    <div class="m3-pc-slide-sections-strip" data-cue-count="${cards.length}" style="display:flex; flex-wrap:wrap; align-items:center; gap:5px; margin-bottom:8px; padding:5px 8px; border-radius:6px; background:rgba(30,41,59,0.55); border:1px solid rgba(148,163,184,0.25); font-size:0.70rem;">
+      <span style="font-weight:800; color:#F4C430;">🎙️ ${cards.length} Active Cue${cards.length === 1 ? "" : "s"}</span>
+      ${activeSlideChips
+        .map(
+          (chip) =>
+            `<span style="background:rgba(59,130,246,0.18); color:#BFDBFE; border:1px solid rgba(96,165,250,0.35); border-radius:999px; padding:1px 7px; font-weight:700;">${escapeHtml(chip)}</span>`
+        )
+        .join("")}
+    </div>
+  `;
+  return `${stripHtml}<div class="m3-pc-adaptive-cues-grid" data-cue-count="${cards.length}">${cards.join("")}</div>`;
 }
 
 function buildPresenterSyncPayload() {
@@ -10885,14 +10974,16 @@ function buildPresenterSyncPayload() {
     ? {
         title: `${res.badge_name || "First Aid"} Merit Badge - Cover Slide`,
         req_number: "Cover",
+        archetype: "COVER",
         presenter_notes:
           res._polishedCoverNotes ||
-          document.getElementById("stage-presenter-notes")?.innerText ||
-          "[PACING & MODALITY] 3–5 min • Session Opening & Youth Protection Ground Rules. [Point to the Counselor Contact card on screen] Welcome Scouts and verify that everyone has their Fillable Merit Badge Workbook ready.\n[ASK SCOUTS FIRST] Who has already started working on the Pre-Class Prerequisite requirements or brought their signed Scoutmaster Blue Card (#34124) today?\n[EXPECTED PAMPHLET ANSWER KEY] Collect prerequisite logs, check starting requirement gates, and remind Scouts of the BSA Two-Deep Leadership rule on all emails and calls.\n[COMMON MISCONCEPTION TO CORRECT] Myth: Group attendance alone earns the Merit Badge. → Fact: Every Scout is individually tested on each exact action verb in the official requirements.\n[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up the Merit Badge emblem and sample Workbook] Walk through today's session schedule and show where Scouts record their evidence.",
+          res._defaultCoverNotes ||
+          "[PACING & MODALITY] 3 min | Cover & Patrol Orientation | EDGE: Explain. [Point to the Counselor Contact card on screen] Welcome Scouts and verify that everyone has their Fillable Merit Badge Workbook ready.\n[ASK SCOUTS FIRST] Who has already started working on the Pre-Class Prerequisite requirements or brought their signed Scoutmaster Blue Card (#34124) today?\n[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up the Merit Badge emblem and sample Workbook] Walk through today's session schedule and show where Scouts record their evidence.",
       }
     : slides[idx] || {};
   const nextSlide = idx + 1 < slides.length ? slides[idx + 1] : null;
   const rawNotes = currSlide.presenter_notes || "";
+  const activeCueCount = countActiveFacilitatorSections(rawNotes);
   return {
     badgeName: res.badge_name || "First Aid",
     slideNumberLabel: isCover ? `Cover Slide (1 of ${totalDeckSlides})` : `Slide ${currSlideNum} of ${totalDeckSlides}`,
@@ -10901,7 +10992,9 @@ function buildPresenterSyncPayload() {
       : `CURRENT • SLIDE ${currSlideNum} OF ${totalDeckSlides}`,
     reqLabel: isCover ? "Cover" : `Requirement ${currSlide.req_number || ""}`,
     slideTitle: currSlide.title || "",
-    notesHtml: formatPresenterConsoleCardsHtml(rawNotes),
+    activeCueCount,
+    slideSections: describeSlideActiveSections(currSlide, isCover),
+    notesHtml: formatPresenterConsoleCardsHtml(rawNotes, currSlide, isCover),
     nextSlideTitle: nextSlide
       ? `${nextSlide.title}${nextSlide.req_number ? ` (Req ${nextSlide.req_number})` : ""}`
       : `${currSlide.title || "Final Slide"} (End of Slide Deck)`,

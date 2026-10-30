@@ -57,10 +57,8 @@
 **Official Requirement 1a:** Discuss with your counselor the aspects of emergency preparedness and include in your discussion the kinds of questions that are important to ask yourself as you consider each of these: prevention, protection, mitigation, response, and recovery.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)* • **Organizer (5-Column Hazard Assessment Matrix):** Req 1a Five-Mission Emergency Management Matrix (6 Columns)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** First Aid Merit Badge Required - Scout must earn the First Aid Merit Badge to complete Emergency Preparedness.
-- **Common Myth:** Emergency questions only matter once an evacuation order is officially issued.
-- **Pamphlet Fact:** Proactive questioning uncovers critical supply shortages and structural hazards beforehand.
 
-![Emergency Preparedness Requirement 1 figure showing structural hardening and hazard reduction lower community vulnerability.](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
+![Structural hardening and hazard reduction lower community vulnerability before disasters strike.](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -77,8 +75,6 @@
 **Official Requirement 1b:** Using a chart, spreadsheet, or another method approved by your counselor, demonstrate your understanding of each aspect of emergency preparedness listed in requirement 1(a) (prevention, protection, mitigation, response, and recovery) for 10 emergency situations from the list below. Discuss your findings with your counselor. (1) Home stovetop or oven fire (2) Home flammable liquid fire (3) Gas leak in or near a home or with outside cooking (4) Food poisoning (5) Automobile crash (6) Vehicle stalled in the desert (7) Vehicle trapped in a blizzard (8) Backcountry injury (9) Boating or water accident (10) Toxic chemical spills and releases (11) Nuclear power plant emergency (12) Fire or explosion in a public place (13) Violence in a public place (14) Wildland fire (15) Avalanche (snowslide or rockslide) (16) Earthquake (17) Tsunami (18) Major flooding or a flash flood with water outage (19) Hurricane with power outage (20) Tornado (21) Lightning storm.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)* • **Organizer (5-Column Hazard Assessment Matrix):** Req 1b Five-Mission Emergency Management Matrix (6 Columns)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 1b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** A single generic disaster checklist suffices for all emergency scenarios.
-- **Pamphlet Fact:** Documented matrices delineate distinct operational phases tailored to specific local hazards.
 
 ![A homeowner boards up windows with plywood to protect against storm damage.](/assets/pamphlet_images/emergency_preparedness_p020_img1.png)
 
@@ -126,10 +122,8 @@
 **Official Requirement 2a:** At a family meeting, discuss the situations on the chart you created for requirement 1(b) and make emergency plans for sheltering-in-place and for evacuation of your home. Discuss your family meeting and plans with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Organizer (5-Column Hazard Assessment Matrix):** Req 2a Five-Mission Emergency Management Matrix (6 Columns)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Sheltering-in-place simply means locking exterior doors and staying inside normally.
-- **Pamphlet Fact:** Chemical sheltering requires sealing vents, windows, and doors with plastic sheeting.
 
-![Emergency Preparedness Requirement 2 figure showing sealing interior rooms protects residents from airborne chemical or radiological plumes.](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
+![Sealing interior rooms protects residents from airborne chemical or radiological plumes.](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -145,8 +139,6 @@
 #### Req 2b: Residential Fire Escape System
 **Official Requirement 2b:** Develop and practice a plan of escape for your family in case of fire in your home. Draw a floor plan with escape routes and a map with a safe meeting place. Discuss your family's home escape plan with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Structured Technical Study & Explanation Matrix (Develop Escape Family Case)
-- **Common Myth:** Scouts can safely search burning houses to rescue pets during evacuations.
-- **Pamphlet Fact:** Escaping immediately and reporting missing pets to arriving firefighters prevents fatalities.
 
 ![A boy presses the test button on a smoke detector to verify home fire safety.](/assets/pamphlet_images/emergency_preparedness_p031_img1.png)
 
@@ -170,8 +162,6 @@
 **Official Requirement 2c:** Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a family disaster kit for sheltering-in-place and for evacuation of your home. Review the needs and uses of the items in a kit with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Checklist in the Emergency Preparedness)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 2c preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Standard camping gear without modifications serves as a complete disaster kit.
-- **Pamphlet Fact:** Emergency kits require specific survival documentation, specialized tools, and sanitation gear.
 
 ![Scouts practice hands-on CPR chest compressions on training manikins.](/assets/pamphlet_images/emergency_preparedness_p016_img1.png)
 
@@ -200,10 +190,8 @@
 **Official Requirement 3a:** Using a home safety checklist included in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, inspect a home (or a similar building near where you live or at a camp) for safety hazards with the help of an adult. Present your completed checklist to and discuss your findings with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Home Safety Checklist Included)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 3a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Smoke alarms remain fully functional as long as the test button beeps.
-- **Pamphlet Fact:** Sensor degradation requires replacing entire smoke detector units every ten years.
 
-![Emergency Preparedness Requirement 3 figure showing frayed cords and overloaded extension circuits present severe residential fire hazards.](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
+![Frayed cords and overloaded extension circuits present severe residential fire hazards.](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -216,8 +204,6 @@
 **Official Requirement 3b:** Develop emergency prevention plans for five family activities outside the home, as approved by your counselor. (Examples are taking a picnic to a park, seeing a movie, attending a worship service, an outing at a beach, traveling to visit a relative, or attending a ball game or concert.) Each plan should include an analysis of possible hazards, proposals to prevent, protect from, mitigate, respond to, and recover from emergencies, and the reasons for the actions that you propose.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Emergency Preparedness Hazards and First Aid)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 3b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Public venues provide sufficient security and medical staff to eliminate personal planning.
-- **Pamphlet Fact:** Disruptions at crowded venues require independent family rally points and communication protocols.
 
 ![A driver wears her seatbelt properly to prevent injuries on the road.](/assets/pamphlet_images/emergency_preparedness_p021_img1.png)
 
@@ -244,8 +230,6 @@
 #### Req 4a: Live Electrical Wire Rescue
 **Official Requirement 4a:** Live household electric wire.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Live Household Electric)
-- **Common Myth:** Wearing rubber-soled athletic shoes completely insulates rescuers from high-voltage household current.
-- **Pamphlet Fact:** Sneakers provide zero guaranteed electrical insulation against residential 120-volt current.
 
 **Gear & Readiness Checklist:**
 - [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
@@ -264,8 +248,6 @@
 #### Req 4b: Carbon Monoxide Structure Extraction
 **Official Requirement 4b:** A structure filled with carbon monoxide.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Structure Filled with Carbon Monoxide)
-- **Common Myth:** Holding your breath allows a quick dash inside to rescue unconscious victims.
-- **Pamphlet Fact:** High concentrations cause rapid asphyxiation and unconsciousness in fewer than two breaths.
 
 ![Three Scouts sit outdoors and review emergency supplies in a first aid kit.](/assets/pamphlet_images/emergency_preparedness_p022_img1.png)
 
@@ -278,8 +260,6 @@
 #### Req 4c: Burning Clothing Flame Suppression
 **Official Requirement 4c:** Clothes on fire.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Clothes on Fire)
-- **Common Myth:** Running toward water while clothes are burning quickly extinguishes clothing flames.
-- **Pamphlet Fact:** Running feeds oxygen to clothing flames, increasing burn severity and airway damage.
 
 ![A family inspects home emergency preparedness items together in the kitchen.](/assets/pamphlet_images/emergency_preparedness_p023_img1.png)
 
@@ -292,8 +272,6 @@
 #### Req 4d: Nonswimming Water Rescue Methods
 **Official Requirement 4d:** Drowning, using nonswimming rescues (including accidents on ice)
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Drowning Using Nonswimming Rescues Including)
-- **Common Myth:** Strong swimmers should immediately dive into water to rescue struggling swimmers.
-- **Pamphlet Fact:** Panicked drowning victims pull rescuers underwater, making reaching assists far safer.
 
 ![A wall-mounted carbon monoxide detector monitors home air for toxic gas.](/assets/pamphlet_images/emergency_preparedness_p035_img1.png)
 
@@ -319,8 +297,6 @@
 #### Req 5a: Aerial Distress Signal Systems
 **Official Requirement 5a:** Show three ways of attracting and communicating with rescue aircraft or drones.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Attracting and Communicating with Rescue)
-- **Common Myth:** Waving two arms casually overhead is sufficient to signal an emergency aircraft.
-- **Pamphlet Fact:** Standardized visual body signals or ground symbols like X or V prevent confusion.
 
 **Gear & Readiness Checklist:**
 - [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
@@ -339,8 +315,6 @@
 #### Req 5b: Wilderness Ground Searcher Signals
 **Official Requirement 5b:** Show ways to attract the attention of searchers on the ground if you are lost in the wilderness.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Attract the Attention of Searchers)
-- **Common Myth:** Yelling loudly repeatedly is more effective than carrying an emergency whistle.
-- **Pamphlet Fact:** Human voices tire quickly, while pealess whistles carry sound over twice as far.
 
 ![A person signals rescue aircraft overhead by holding both arms raised high.](/assets/pamphlet_images/emergency_preparedness_p049_img2.png)
 
@@ -353,8 +327,6 @@
 #### Req 5c: Marine Distress Signaling Equipment
 **Official Requirement 5c:** Show ways to attract the attention of searchers on the water if you are stranded with a capsized or disabled motorboat or sailboat.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Attract the Attention of Searchers)
-- **Common Myth:** Swimming away from a disabled boat toward distant shores improves survival odds.
-- **Pamphlet Fact:** Remaining with floating hulls preserves body heat and presents larger radar targets.
 
 ![A crouched person points horizontally to communicate landing direction.](/assets/pamphlet_images/emergency_preparedness_p049_img3.png)
 
@@ -408,8 +380,6 @@
 #### Req 7a: NIMS and ICS Principles
 **Official Requirement 7a:** Describe the National Incident Management System (NIMS) and the local Incident Command System (ICS)
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (National Incident Management System NIMS)
-- **Common Myth:** ICS structures only activate during massive catastrophic federal disaster declarations.
-- **Pamphlet Fact:** Local fire and police departments utilize ICS daily for routine small emergency responses.
 
 ![An adult leader instructs Scouts wearing safety vests during a volunteer drill.](/assets/pamphlet_images/emergency_preparedness_p081_img1.png)
 
@@ -422,8 +392,6 @@
 #### Req 7b: Community Disaster Leadership Preparation
 **Official Requirement 7b:** Find out how your community and its leaders work to manage and to train for disasters. Discuss this information with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Out How Your Community and)
-- **Common Myth:** Municipal disaster plans focus entirely on law enforcement and armed national guard deployment.
-- **Pamphlet Fact:** Community emergency plans prioritize public health, emergency sheltering, infrastructure, and resource distribution.
 
 ![Packed vehicles line an evacuation route during a major regional emergency.](/assets/pamphlet_images/emergency_preparedness_p063_img1.png)
 
@@ -437,8 +405,6 @@
 #### Req 7c: Troop Emergency Service Integration
 **Official Requirement 7c:** Discuss how a Scout troop can help in an emergency situation using ICS.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Discuss Help Emergency Situation)
-- **Common Myth:** Scout patrols should deploy independently to perform direct urban search and rescue.
-- **Pamphlet Fact:** Youth disaster service remains strictly non-hazardous, supporting logistics, relief centers, and communications.
 
 ![Cooling towers at a nuclear facility highlight industrial emergency hazards.](/assets/pamphlet_images/emergency_preparedness_p068_img1.png)
 
@@ -466,8 +432,6 @@
 **Official Requirement 8a:** Discuss with your counselor the duties that a Scout troop should be prepared to do, the training they need, and the safety precautions they should take for the following emergency services: (1) Crowd and traffic control (2) Messenger service during an incident (3) Collection and distribution services (4) Group feeding, shelter, and sanitation.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Scouts should perform structural fire suppression when municipal emergency personnel are overwhelmed.
-- **Pamphlet Fact:** Scout emergency service excludes all active firefighting, technical rescues, and hazardous entries.
 
 ![A Scout wearing a bike helmet assists with community event traffic management.](/assets/pamphlet_images/emergency_preparedness_p082_img1.png)
 
@@ -483,8 +447,6 @@
 #### Req 8b: Troop Mobilization Plan Formulation
 **Official Requirement 8b:** Prepare a written plan for mobilizing your troop when needed to do emergency service. If your troop already has a mobilization plan, present the plan to your counselor and tell your part in making the plan work.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Written Plan for Mobilizing)
-- **Common Myth:** A mobilization plan only requires an email list or group text thread.
-- **Pamphlet Fact:** Robust mobilization plans feature multiple redundant communication paths and designated physical rally points.
 
 ![Swimmers use a floating mattress to assist someone struggling in deep water.](/assets/pamphlet_images/emergency_preparedness_p075_img1.png)
 
@@ -499,8 +461,6 @@
 **Official Requirement 8c:** Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a personal emergency service pack for a mobilization call. Explain the needs and uses of the contents to your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Checklist in the Emergency Preparedness)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 8c preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Pack weight does not matter since emergency deployment supplies will stay in vehicles.
-- **Pamphlet Fact:** Responders frequently carry gear on foot across debris, requiring light, balanced rucksacks.
 
 ![Two Scouts demonstrate a two-person carry to transport an injured patient.](/assets/pamphlet_images/emergency_preparedness_p078_img1.png)
 
@@ -514,8 +474,6 @@
 #### Req 8d: Disaster Exercise Practical Participation
 **Official Requirement 8d:** Take part in an emergency service project, either a real one or a practice exercise, with a Scouting troop or a community agency or at Scout camp or at a school. Review what you learned and practiced with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Emergency Service Project Either A)
-- **Common Myth:** Mock disaster exercises are simple games that require minimal serious tactical discipline.
-- **Pamphlet Fact:** Realistic drills expose critical operational flaws before real lives depend on rapid execution.
 
 ![A rear angle shows how rescuers interlock their arms for a secure carry.](/assets/pamphlet_images/emergency_preparedness_p078_img2.png)
 
@@ -565,8 +523,6 @@
 #### Req 10a: Disaster Coordinator Professional Interview
 **Official Requirement 10a:** Interview an emergency services coordinator or a civil servant about their work in disaster management. Learn about how they chose this career and about their duties. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Organizer (Career & Profession Exploration Card):** Req 10a Professional Career Interview Card
-- **Common Myth:** Emergency coordinators spend most of their workday driving emergency vehicles to disaster sites.
-- **Pamphlet Fact:** Emergency coordinators primarily perform interagency planning, grant administration, and logistics coordination in offices.
 
 ![A branching pyramid diagram maps out a rapid troop mobilization call tree.](/assets/pamphlet_images/emergency_preparedness_p086_img1.png)
 
@@ -581,8 +537,6 @@
 #### Req 10b: Emergency Service Career Exploration
 **Official Requirement 10b:** Identify three career opportunities that would use skills and knowledge in emergency services. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Organizer (Career & Profession Exploration Card):** Req 10b Career & Professional Pathway Investigation Matrix
-- **Common Myth:** A college degree alone qualifies candidates for high-level incident command positions.
-- **Pamphlet Fact:** Leadership roles require progressive field experience, specific civil service testing, and FEMA credentials.
 
 ![An amateur radio operator uses communication gear during emergency service.](/assets/pamphlet_images/emergency_preparedness_p083_img1.png)
 
@@ -598,8 +552,6 @@
 #### Req 10c: Preparedness Lifestyle and Hobbies
 **Official Requirement 10c:** Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix (You Might Use the Skills)
-- **Common Myth:** Preparedness hobbies require extreme bunker construction and isolationist survival philosophies.
-- **Pamphlet Fact:** Constructive preparedness hobbies focus on community resilience, communication skills, and outdoor physical conditioning.
 
 ![Scouts organize donated food goods during a community relief supply drive.](/assets/pamphlet_images/emergency_preparedness_p084_img1.png)
 

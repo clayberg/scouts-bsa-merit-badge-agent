@@ -366,42 +366,45 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Campground Environmental Hazard",
-        "right_header": "Req 1b: Wilderness Weather Awareness",
+        "left_header": "Req 1a: Campground Environmental Hazard Mitigation",
+        "right_header": "Req 1b: Wilderness Weather Awareness and Preparation",
         "left_points": [
-          "(1a) Campground Environmental Hazard Mitigation: Backcountry travelers anticipate loose terrain, widowmaker tree branches, and venomous wildlife by conducting advance route surveys. Patrol leaders establish safe perimeter distances from fast water, steep scree, and animal attractants."
+          "(1a) Campground Environmental Hazard Mitigation: Backcountry travelers anticipate loose terrain, widowmaker tree branches, and venomous wildlife by conducting advance route surveys. Patrol leaders establish safe perimeter distances from fast water, steep scree, and animal attractants.",
+          "Hypothermia Prevention: Wet clothing accelerates core temperature drop even during mild sixty degree rainstorms."
         ],
         "right_points": [
-          "(1b) Wilderness Weather Awareness And Preparation: Scouts track barometric shifts, cloud formations, and regional meteorological alerts before departure and throughout the trek. Bad weather requires establishing emergency shelter sites and securing tarps before rainfall begins."
+          "(1b) Wilderness Weather Awareness and Preparation: Scouts track barometric shifts, cloud formations, and regional meteorological alerts before departure and throughout the trek. Bad weather requires establishing emergency shelter sites and securing tarps before rainfall begins.",
+          "(1c) Wilderness First Aid Medical Response: Managing backcountry injuries requires stabilizing core body temperatures, replacing lost fluids, and immobilizing joint trauma. Prompt recognition of heat stroke, frostbite, and dehydration prevents severe tissue necrosis or shock."
         ],
         "rows": [
           {
             "attribute": "Hypothermia Prevention",
             "left": "(1a) Campground Environmental Hazard Mitigation: Backcountry travelers anticipate loose terrain, widowmaker tree branches, and venomous wildlife by conducting advance route surveys. Patrol leaders establish safe perimeter distances from fast water, steep scree, and animal attractants.",
-            "right": "(1b) Wilderness Weather Awareness And Preparation: Scouts track barometric shifts, cloud formations, and regional meteorological alerts before departure and throughout the trek. Bad weather requires establishing emergency shelter sites and securing tarps before rainfall begins."
+            "right": "(1b) Wilderness Weather Awareness and Preparation: Scouts track barometric shifts, cloud formations, and regional meteorological alerts before departure and throughout the trek. Bad weather requires establishing emergency shelter sites and securing tarps before rainfall begins."
           },
           {
             "attribute": "Barometric Trend Tracking",
-            "left": "Req 1a: Campground Environmental: Backcountry travelers anticipate loose terrain, widowmaker tree branches, and venomous wildlife by conducting advance route surveys. Patrol leaders establish safe perimeter distances from fast water, steep scree, and animal attractants.",
-            "right": "Req 1b: Wilderness Weather Awareness: Scouts track barometric shifts, cloud formations, and regional meteorological alerts before departure and throughout the trek. Bad weather requires establishing emergency shelter sites and securing tarps before rainfall begins."
+            "left": "Hypothermia Prevention: Wet clothing accelerates core temperature drop even during mild sixty degree rainstorms.",
+            "right": "(1c) Wilderness First Aid Medical Response: Managing backcountry injuries requires stabilizing core body temperatures, replacing lost fluids, and immobilizing joint trauma. Prompt recognition of heat stroke, frostbite, and dehydration prevents severe tissue necrosis or shock."
           },
           {
             "attribute": "Heat Stroke Treatment",
-            "left": "Req 1c: Wilderness First Aid Medical: Managing backcountry injuries requires stabilizing core body temperatures, replacing lost fluids, and immobilizing joint trauma. Prompt recognition of heat stroke, frostbite, and dehydration prevents severe tissue necrosis or shock.",
-            "right": "Barometric Trend Tracking: Falling barometric pressure indicates incoming squall lines requiring immediate camp reinforcement."
+            "left": "Heat Stroke Treatment: Move overheated patients into deep shade and apply cool wet cloths immediately.",
+            "right": "Hazard Tree Assessment: Dead overhead tree branches threaten tents during high winds and nocturnal storms."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 1 Exemplar Workbook Entry: Outdoor Hazards",
+        "title": "Camping Req 1 Worked Example: Camping Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Campground Environmental": "Backcountry travelers anticipate loose terrain, widowmaker tree branches, and venomous wildlife by conducting advance route surveys. Patrol leaders establish safe perimeter distances from fast water, steep scree, and animal attractants.",
-          "Req 1b - Wilderness Weather Awareness": "Scouts track barometric shifts, cloud formations, and regional meteorological alerts before departure and throughout the trek. Bad weather requires establishing emergency shelter sites and securing tarps before rainfall begins.",
-          "Req 1c - Wilderness First Aid Medical": "Managing backcountry injuries requires stabilizing core body temperatures, replacing lost fluids, and immobilizing joint trauma. Prompt recognition of heat stroke, frostbite, and dehydration prevents severe tissue necrosis or shock."
+          "Phase 1 - Site Survey": "Scan surrounding canopy for overhead dead branches before pitching any patrol shelter.",
+          "Phase 2 - Weather Assessment": "Check local barometric trends and national weather service alerts before entering wilderness.",
+          "Phase 3 - First Aid Review": "Check patrol medical kit supplies against anticipated wilderness trip hazards and group size.",
+          "Phase 4 - Response Protocol": "Establish rapid evacuation routes and primary emergency communication channels for camp staff."
         },
-        "sample_output": "Outdoor Hazards, Weather, and First Aid: Lastly, let others know when you are having difficulties or are aware of a concern that might affect you or the group (p. 13).",
-        "counselor_tip": "For Camping Requirement 1 (Outdoor Hazards, Weather, and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14))."
+        "sample_output": "Campers mitigate backcountry risks by anticipating environmental hazards, monitoring barometric trends, and packing dedicated emergency gear. Wilderness medical emergencies demand rapid recognition of thermoregulatory collapse, dehydration, and acute altitude illnesses before evacuation becomes unavoidable.",
+        "counselor_tip": "During the Camping Requirement 1 conference on Camping Hazards and First Aid, verify that the Scout can explain hypothermia prevention and demonstrate response protocol: Establish rapid evacuation routes and primary emergency communication channels for camp staff."
       },
       "quiz_item": {
         "scenario_prompt": "During a freezing rainstorm at camp, a patrol asks if they can bring their liquid-fuel or canister camp stove inside the tent vestibule to boil water and warm up the tent before sleeping. How should the patrol leader respond?",
@@ -563,47 +566,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: America's Natural Wilderness",
-        "right_header": "Req 2: Practice Low Impact Skills",
+        "left_header": "Leave No Trace Principles Execution: Core Principles",
+        "right_header": "Leave No Trace Principles Execution: Field Execution",
         "left_points": [
-          "America's Natural Wilderness Heritage: Leave No Trace and the Outdoor Code From the Appalachians to the Cascades, and from the Gulf Coast to the Great Lakes, America is blessed (p. 17).",
-          "Privilege and Responsibility Outdoors: As a camper, you will have many chances to enjoy America's expanses, but with that privilege comes a great responsibility to cause no harm (p. 17).",
-          "Rewards of Low Impact Skills: The rewards of leaving no trace are well worth learning new skills (p. 17)."
+          "Durable Surface Travel: Restrict foot traffic to established rocky paths to prevent fragile alpine soil erosion.",
+          "Campfire Impact Reduction: Rely on lightweight canister stoves instead of constructing stone fire rings in wilderness."
         ],
         "right_points": [
-          "Practice Low Impact Skills: The rewards of leaving no trace are well worth learning new skills (p. 17).",
-          "Conduct Yourself Responsibly Outdoors: The future of unspoiled territory, and the continuing opportunity to visit it depends in large part on how responsibly Scouts today conduct (p. 17).",
-          "Use Existing Trails and Campsites: Altering a site is not necessary. I\u0007n popular areas, use existing trails and campsites (p. 17)."
+          "Proper Waste Disposal: Deposit solid human waste within cat-holes dug six to eight inches deep.",
+          "Wildlife Distance Maintenance: Observe grazing wildlife from safe distances using binoculars rather than approaching animals directly."
         ],
         "rows": [
           {
             "attribute": "Durable Surface Travel",
-            "left": "America's Natural Wilderness Heritage: Leave No Trace and the Outdoor Code From the Appalachians to the Cascades, and from the Gulf Coast to the Great Lakes, America is blessed (p. 17).",
-            "right": "Practice Low Impact Skills: The rewards of leaving no trace are well worth learning new skills (p. 17)."
+            "left": "Durable Surface Travel: Restrict foot traffic to established rocky paths to prevent fragile alpine soil erosion.",
+            "right": "Proper Waste Disposal: Deposit solid human waste within cat-holes dug six to eight inches deep."
           },
           {
             "attribute": "Campfire Impact Reduction",
-            "left": "Privilege and Responsibility Outdoors: As a camper, you will have many chances to enjoy America's expanses, but with that privilege comes a great responsibility to cause no harm (p. 17).",
-            "right": "Conduct Yourself Responsibly Outdoors: The future of unspoiled territory, and the continuing opportunity to visit it depends in large part on how responsibly Scouts today conduct (p. 17)."
+            "left": "Campfire Impact Reduction: Rely on lightweight canister stoves instead of constructing stone fire rings in wilderness.",
+            "right": "Wildlife Distance Maintenance: Observe grazing wildlife from safe distances using binoculars rather than approaching animals directly."
           },
           {
             "attribute": "Proper Waste Disposal",
-            "left": "Rewards of Low Impact Skills: The rewards of leaving no trace are well worth learning new skills (p. 17).",
-            "right": "Use Existing Trails and Campsites: Altering a site is not necessary. I\u0007n popular areas, use existing trails and campsites (p. 17)."
+            "left": "Proper Waste Disposal: Deposit solid human waste within cat-holes dug six to eight inches deep.",
+            "right": "Wildlife Distance Maintenance: Observe grazing wildlife from safe distances using binoculars rather than approaching animals directly."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 2 Exemplar Workbook Entry: Leave No Trace",
+        "title": "Camping Req 2 Worked Example: Leave No Trace Principles Execution",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "America's Natural Wilderness Heritage": "Leave No Trace and the Outdoor Code From the Appalachians to the Cascades, and from the Gulf Coast to the Great Lakes, America is blessed (p. 17).",
-          "Privilege and Responsibility Outdoors": "As a camper, you will have many chances to enjoy America's expanses, but with that privilege comes a great responsibility to cause no harm (p. 17).",
-          "Rewards of Low Impact Skills": "The rewards of leaving no trace are well worth learning new skills (p. 17).",
-          "Preserving Unspoiled Backcountry": "The future of unspoiled territory, and the continuing opportunity to visit it depends in large part on how responsibly Scouts today conduct (p. 17)."
+          "Phase 1 - Pre-Trip Planning": "Repackage group food into reusable containers to minimize disposable plastic camp trash.",
+          "Phase 2 - Campsite Positioning": "Pitch patrol tents at least two hundred feet away from lakes and streams.",
+          "Phase 3 - Cathole Digging": "Dig individual six-inch deep cat-holes in organic soil away from camp water.",
+          "Phase 4 - Final Sweep": "Walk a patrol grid across the campsite to recover every micro-trash fragment."
         },
-        "sample_output": "Leave No Trace and Outdoor Ethics: Leave No Trace and the Outdoor Code From the Appalachians to the Cascades, and from the Gulf Coast to the Great Lakes, America is blessed (p. 17).",
-        "counselor_tip": "For Camping Requirement 2 (Leave No Trace and Outdoor Ethics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 17, p. 20))."
+        "sample_output": "The Leave No Trace framework guides campers in preserving ecosystems through pre-trip planning, durable surface travel, and ethical waste removal. Following the Outdoor Code ensures that patrols protect wild lands through personal conservation accountability and clean stewardship.",
+        "counselor_tip": "During the Camping Requirement 2 conference on Leave No Trace Principles Execution, verify that the Scout can explain durable surface travel and demonstrate final sweep: Walk a patrol grid across the campsite to recover every micro-trash fragment."
       },
       "quiz_item": {
         "scenario_prompt": "According to Leave No Trace principles, how should your patrol travel when encountering a wet, muddy section of an established trail?",
@@ -994,13 +995,15 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Magnetic Compass Wilderness",
+        "left_header": "Req 3a: Magnetic Compass Wilderness Orientation",
         "right_header": "Req 3b: Handheld GPS Receiver Navigation",
         "left_points": [
-          "(3a) Magnetic Compass Wilderness Orientation: An orienting compass establishes precise magnetic bearings by aligning the needle with the internal orienting arrow. Compensating for regional magnetic variance ensures straight cross-country travel through unmarked woodland terrain."
+          "(3a) Magnetic Compass Wilderness Orientation: An orienting compass establishes precise magnetic bearings by aligning the needle with the internal orienting arrow. Compensating for regional magnetic variance ensures straight cross-country travel through unmarked woodland terrain.",
+          "Contour Line Analysis: Closely spaced brown contour lines indicate steep cliffs requiring planned route detours."
         ],
         "right_points": [
-          "(3b) Handheld GPS Receiver Navigation: Dedicated global positioning receivers triangulate position through line-of-sight radio signals from orbital satellites. Ruggedized receivers calculate elevation, track speed, and record breadcrumb trail coordinates in harsh weather."
+          "(3b) Handheld GPS Receiver Navigation: Dedicated global positioning receivers triangulate position through line-of-sight radio signals from orbital satellites. Ruggedized receivers calculate elevation, track speed, and record breadcrumb trail coordinates in harsh weather.",
+          "(3c) Smartphone GPS Application Trekking: Smartphone navigation apps require pre-downloading offline topographical map layers before leaving cellular service ranges. Conserving phone battery involves engaging low-power modes and storing the handset against cold air."
         ],
         "rows": [
           {
@@ -1010,26 +1013,27 @@
           },
           {
             "attribute": "Magnetic Declination Adjustment",
-            "left": "Req 3a: Magnetic Compass Wilderness: An orienting compass establishes precise magnetic bearings by aligning the needle with the internal orienting arrow. Compensating for regional magnetic variance ensures straight cross-country travel through unmarked woodland terrain.",
-            "right": "Req 3b: Handheld GPS Receiver: Dedicated global positioning receivers triangulate position through line-of-sight radio signals from orbital satellites. Ruggedized receivers calculate elevation, track speed, and record breadcrumb trail coordinates in harsh weather."
+            "left": "Contour Line Analysis: Closely spaced brown contour lines indicate steep cliffs requiring planned route detours.",
+            "right": "(3c) Smartphone GPS Application Trekking: Smartphone navigation apps require pre-downloading offline topographical map layers before leaving cellular service ranges. Conserving phone battery involves engaging low-power modes and storing the handset against cold air."
           },
           {
             "attribute": "Electronic Navigation Redundancy",
-            "left": "Req 3c: Smartphone GPS Application: Smartphone navigation apps require pre-downloading offline topographical map layers before leaving cellular service ranges. Conserving phone battery involves engaging low-power modes and storing the handset against cold air.",
-            "right": "Magnetic Declination Adjustment: Adjust compass orienting arrows for local regional magnetic declination before calculating field bearings."
+            "left": "Electronic Navigation Redundancy: Maintain paper topographical maps as fail-safe backups for dead digital device batteries.",
+            "right": "Backcountry Waypoint Logging: Mark critical trail junctions as satellite receiver waypoints before beginning the trek."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 3 Exemplar Workbook Entry: Trek Planning",
+        "title": "Camping Req 3 Worked Example: Overnight Trek Navigation and Topography",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Magnetic Compass Wilderness": "An orienting compass establishes precise magnetic bearings by aligning the needle with the internal orienting arrow. Compensating for regional magnetic variance ensures straight cross-country travel through unmarked woodland terrain.",
-          "Req 3b - Handheld GPS Receiver": "Dedicated global positioning receivers triangulate position through line-of-sight radio signals from orbital satellites. Ruggedized receivers calculate elevation, track speed, and record breadcrumb trail coordinates in harsh weather.",
-          "Req 3c - Smartphone GPS Application": "Smartphone navigation apps require pre-downloading offline topographical map layers before leaving cellular service ranges. Conserving phone battery involves engaging low-power modes and storing the handset against cold air."
+          "Phase 1 - Route Plotting": "Trace proposed trail coordinates on a standard topographical map showing elevation changes.",
+          "Phase 2 - Bearing Calculation": "Calculate grid to magnetic compass bearings adjusted for regional geographic magnetic declination.",
+          "Phase 3 - Waypoint Entry": "Enter target campsite coordinates into primary electronic global positioning system mapping tools.",
+          "Phase 4 - Field Orientation": "Sight prominent terrain landmarks along your travel bearing to confirm continuous trail location."
         },
-        "sample_output": "Trek Planning and Topographical Navigation: Making Camp, Breaking Camp Getting There There are many ways you can travel to camp (p. 45).",
-        "counselor_tip": "For Camping Requirement 3 (Trek Planning and Topographical Navigation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46))."
+        "sample_output": "Trek navigation combines topographical contour line interpretation with precision instruments to maintain accurate route awareness. Developing a written route plan with bearings, waypoints, and distance estimations ensures safe arrival at wilderness destinations.",
+        "counselor_tip": "During the Camping Requirement 3 conference on Overnight Trek Navigation and Topography, verify that the Scout can explain contour line analysis and demonstrate field orientation: Sight prominent terrain landmarks along your travel bearing to confirm continuous trail location."
       },
       "quiz_item": {
         "scenario_prompt": "Which combination of navigation tools is required by Requirement 3 to show how to reach your overnight camping spot?",
@@ -1319,12 +1323,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 4a: Patrol Campout Duty Roster",
-        "right_header": "Req 4b: Webelos Campout Mentorship",
+        "right_header": "Req 4b: Webelos Campout Mentorship Planning",
         "left_points": [
-          "(4a) Patrol Campout Duty Roster: A patrol duty roster establishes accountable shifts for water collection, cooking, dishwashing, and fire safety. Posting the physical schedule centrally ensures every Scout executes their assigned task on time."
+          "(4a) Patrol Campout Duty Roster: A patrol duty roster establishes accountable shifts for water collection, cooking, dishwashing, and fire safety. Posting the physical schedule centrally ensures every Scout executes their assigned task on time.",
+          "Equitable Task Allocation: Rotating cooking, water gathering, and cleaning responsibilities prevents patrol member camp burnout."
         ],
         "right_points": [
-          "(4b) Webelos Campout Mentorship Planning: Guiding a Webelos den through camp preparation involves reviewing gear checklists, simplified menu planning, and safety rules. Older Scouts facilitate successful transitions by demonstrating proper tent pitching and outdoor cooking fundamentals."
+          "(4b) Webelos Campout Mentorship Planning: Guiding a Webelos den through camp preparation involves reviewing gear checklists, simplified menu planning, and safety rules. Older Scouts facilitate successful transitions by demonstrating proper tent pitching and outdoor cooking fundamentals.",
+          "Sanitation Role Separation: Assigning separate Scouts to food preparation and latrine sanitation stops cross contamination."
         ],
         "rows": [
           {
@@ -1334,25 +1340,27 @@
           },
           {
             "attribute": "Webelos Mentorship Guidance",
-            "left": "Req 4a: Patrol Campout Duty Roster: A patrol duty roster establishes accountable shifts for water collection, cooking, dishwashing, and fire safety. Posting the physical schedule centrally ensures every Scout executes their assigned task on time.",
-            "right": "Req 4b: Webelos Campout Mentorship: Guiding a Webelos den through camp preparation involves reviewing gear checklists, simplified menu planning, and safety rules. Older Scouts facilitate successful transitions by demonstrating proper tent pitching and outdoor cooking fundamentals."
+            "left": "Equitable Task Allocation: Rotating cooking, water gathering, and cleaning responsibilities prevents patrol member camp burnout.",
+            "right": "Sanitation Role Separation: Assigning separate Scouts to food preparation and latrine sanitation stops cross contamination."
           },
           {
             "attribute": "Sanitation Role Separation",
-            "left": "Equitable Task Allocation: Rotating cooking, water gathering, and cleaning responsibilities prevents patrol member camp burnout.",
-            "right": "Webelos Mentorship Guidance: Senior Scouts demonstrate tent assembly procedures directly to younger Webelos patrol recruits."
+            "left": "Sanitation Role Separation: Assigning separate Scouts to food preparation and latrine sanitation stops cross contamination.",
+            "right": "Scheduled Timeline Management: Structured chore timelines guarantee hot patrol meals before scheduled morning outdoor activities."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 4 Exemplar Workbook Entry: Patrol",
+        "title": "Camping Req 4 Worked Example: Patrol Organization and Duty Rosters",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Patrol Campout Duty Roster": "A patrol duty roster establishes accountable shifts for water collection, cooking, dishwashing, and fire safety. Posting the physical schedule centrally ensures every Scout executes their assigned task on time.",
-          "Req 4b - Webelos Campout Mentorship": "Guiding a Webelos den through camp preparation involves reviewing gear checklists, simplified menu planning, and safety rules. Older Scouts facilitate successful transitions by demonstrating proper tent pitching and outdoor cooking fundamentals."
+          "Phase 1 - Member Listing": "Record all participating patrol members on a standardized campout organization duty roster.",
+          "Phase 2 - Assignment Division": "Distribute meal preparation, water sanitation, and cleanup jobs across breakfast, lunch, and dinner.",
+          "Phase 3 - Orientation Session": "Walk younger Scouts through meal recipes and tool safety before setting up camp.",
+          "Phase 4 - Roster Execution": "Post the laminated chore schedule prominently near the patrol camp kitchen workstation."
         },
-        "sample_output": "Patrol Organization and Duty Rosters: Well before your departure, share the plan with your Scout leaders and parents or guardian (p. 22).",
-        "counselor_tip": "For Camping Requirement 4 (Patrol Organization and Duty Rosters), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27))."
+        "sample_output": "A functional patrol duty roster distributes daily campout responsibilities equally among members to ensure efficient camp management. Mentoring younger Scouts or Webelos dens reinforces organizational teamwork, gear planning, and practical site logistics.",
+        "counselor_tip": "During the Camping Requirement 4 conference on Patrol Organization and Duty Rosters, verify that the Scout can explain equitable task allocation and demonstrate roster execution: Post the laminated chore schedule prominently near the patrol camp kitchen workstation."
       },
       "quiz_item": {
         "scenario_prompt": "Why should a patrol attach its duty roster, menu, and gear list to the written trip plan well before departing for a campout?",
@@ -1903,44 +1911,44 @@
       ],
       "comparison_data": {
         "left_header": "Req 5a: Thermal Layering Clothing System",
-        "right_header": "Req 5c: Camping Equipment Storage",
+        "right_header": "Req 5c: Camping Equipment Storage and Maintenance",
         "left_points": [
           "(5a) Thermal Layering Clothing System: The outdoor layering principle balances base wicking, middle insulating, and outer protective garments to regulate perspiration and body heat. Removing insulating layers before heavy physical activity prevents sweat accumulation that leads to cold injury.",
-          "(5b) Camp Footwear And Blister Protection: Appropriate hiking boots feature rigid outsoles, supportive ankle collars, and breathable waterproof membranes for variable terrain. Pairing boots with wool hiking socks and thin synthetic liners minimizes friction against skin."
+          "(5b) Camp Footwear and Blister Protection: Appropriate hiking boots feature rigid outsoles, supportive ankle collars, and breathable waterproof membranes for variable terrain. Pairing boots with wool hiking socks and thin synthetic liners minimizes friction against skin."
         ],
         "right_points": [
-          "(5c) Camping Equipment Storage And Maintenance: Camp gear must be completely dried, cleaned of soil, and aired out before long-term storage in cool, dry closets. Compressing synthetic or down sleeping bags inside tight stuff sacks crushes loft and degrades thermal ratings.",
+          "(5c) Camping Equipment Storage and Maintenance: Camp gear must be completely dried, cleaned of soil, and aired out before long-term storage in cool, dry closets. Compressing synthetic or down sleeping bags inside tight stuff sacks crushes loft and degrades thermal ratings.",
           "(5d) Scout Basic Essentials Kit: The Scout Basic Essentials provide survival insurance against unexpected weather changes, navigational disorientation, or medical trauma. Carrying first aid supplies, extra food, water containers, fire starters, and emergency shelter ensures readiness."
         ],
         "rows": [
           {
             "attribute": "Base Layer Wicking",
             "left": "(5a) Thermal Layering Clothing System: The outdoor layering principle balances base wicking, middle insulating, and outer protective garments to regulate perspiration and body heat. Removing insulating layers before heavy physical activity prevents sweat accumulation that leads to cold injury.",
-            "right": "(5c) Camping Equipment Storage And Maintenance: Camp gear must be completely dried, cleaned of soil, and aired out before long-term storage in cool, dry closets. Compressing synthetic or down sleeping bags inside tight stuff sacks crushes loft and degrades thermal ratings."
+            "right": "(5c) Camping Equipment Storage and Maintenance: Camp gear must be completely dried, cleaned of soil, and aired out before long-term storage in cool, dry closets. Compressing synthetic or down sleeping bags inside tight stuff sacks crushes loft and degrades thermal ratings."
           },
           {
             "attribute": "Footwear Fit Verification",
-            "left": "(5b) Camp Footwear And Blister Protection: Appropriate hiking boots feature rigid outsoles, supportive ankle collars, and breathable waterproof membranes for variable terrain. Pairing boots with wool hiking socks and thin synthetic liners minimizes friction against skin.",
+            "left": "(5b) Camp Footwear and Blister Protection: Appropriate hiking boots feature rigid outsoles, supportive ankle collars, and breathable waterproof membranes for variable terrain. Pairing boots with wool hiking socks and thin synthetic liners minimizes friction against skin.",
             "right": "(5d) Scout Basic Essentials Kit: The Scout Basic Essentials provide survival insurance against unexpected weather changes, navigational disorientation, or medical trauma. Carrying first aid supplies, extra food, water containers, fire starters, and emergency shelter ensures readiness."
           },
           {
             "attribute": "Bedding Loft Preservation",
-            "left": "Req 5a: Thermal Layering Clothing: The outdoor layering principle balances base wicking, middle insulating, and outer protective garments to regulate perspiration and body heat. Removing insulating layers before heavy physical activity prevents sweat accumulation that leads to cold injury.",
-            "right": "Req 5b: Camp Footwear And Blister: Appropriate hiking boots feature rigid outsoles, supportive ankle collars, and breathable waterproof membranes for variable terrain. Pairing boots with wool hiking socks and thin synthetic liners minimizes friction against skin."
+            "left": "Bedding Loft Preservation: Storing sleeping bags loose in breathable sacks prevents insulation compression and heat loss.",
+            "right": "Essential Gear Inspection: A complete personal gear pack contains first aid, navigation, water, and emergency shelter."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 5 Exemplar Workbook Entry: Clothing",
+        "title": "Camping Req 5 Worked Example: Camping Clothing Systems and Equipment",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Thermal Layering Clothing": "The outdoor layering principle balances base wicking, middle insulating, and outer protective garments to regulate perspiration and body heat. Removing insulating layers before heavy physical activity prevents sweat accumulation that leads to cold injury.",
-          "Req 5b - Camp Footwear and Blister": "Appropriate hiking boots feature rigid outsoles, supportive ankle collars, and breathable waterproof membranes for variable terrain. Pairing boots with wool hiking socks and thin synthetic liners minimizes friction against skin.",
-          "Req 5c - Camping Equipment Storage": "Camp gear must be completely dried, cleaned of soil, and aired out before long-term storage in cool, dry closets. Compressing synthetic or down sleeping bags inside tight stuff sacks crushes loft and degrades thermal ratings.",
-          "Req 5d - Scout Basic Essentials Kit": "The Scout Basic Essentials provide survival insurance against unexpected weather changes, navigational disorientation, or medical trauma. Carrying first aid supplies, extra food, water containers, fire starters, and emergency shelter ensures readiness."
+          "Phase 1 - Clothing Selection": "Assemble synthetic moisture-wicking undergarments, insulating wool sweaters, and waterproof seam-sealed outer jackets.",
+          "Phase 2 - Footwear Preparation": "Lace broken-in hiking boots over synthetic liner socks and moisture-absorbing merino wool socks.",
+          "Phase 3 - Pack Organization": "Place sleeping bags at bottom compartments while keeping rain gear readily accessible atop.",
+          "Phase 4 - Scoutmaster Inspection": "Present your organized pack and personal gear checklist to your unit leader for review."
         },
-        "sample_output": "Clothing Layering, Footwear, and Essentials: Weather conditions in the outdoors can change quickly (p. 29).",
-        "counselor_tip": "For Camping Requirement 5 (Clothing Layering, Footwear, and Essentials), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42))."
+        "sample_output": "Dressing for the wilderness requires a versatile three-layer system consisting of moisture-wicking base layers, insulating fleece or wool, and waterproof shells. Packing the Scout Basic Essentials and inspecting loaded gear ensures campers remain safe and warm across volatile environments.",
+        "counselor_tip": "During the Camping Requirement 5 conference on Camping Clothing Systems and Equipment, verify that the Scout can explain base layer wicking and demonstrate scoutmaster inspection: Present your organized pack and personal gear checklist to your unit leader for review."
       },
       "quiz_item": {
         "scenario_prompt": "How should a Scout adjust their hydration gear when hiking on hot days, in arid regions, or at high elevations?",
@@ -2538,10 +2546,10 @@
       ],
       "comparison_data": {
         "left_header": "Req 6a: Tent Types Pitching and Care",
-        "right_header": "Req 6c: Campsite Terrain Selection",
+        "right_header": "Req 6c: Campsite Terrain Selection Factors",
         "left_points": [
-          "(6a) Tent Types Pitching And Care: Shelter designs include dome, A-frame, geodesic, and tarp tents tailored for specific seasonal wind and snow loads. Regular tent maintenance includes drying fabrics completely, brushing zippers clean, and storing poles unstrung.",
-          "(6b) Camp Sanitation And Water Treatment: Treating surface water with boiling, hollow-fiber microfilters, or chemical halogen agents eliminates waterborne protozoa and bacteria. Maintaining camp kitchen sanitation prevents gastrointestinal outbreaks caused by contaminated communal cookware."
+          "(6a) Tent Types Pitching and Care: Shelter designs include dome, A-frame, geodesic, and tarp tents tailored for specific seasonal wind and snow loads. Regular tent maintenance includes drying fabrics completely, brushing zippers clean, and storing poles unstrung.",
+          "(6b) Camp Sanitation and Water Treatment: Treating surface water with boiling, hollow-fiber microfilters, or chemical halogen agents eliminates waterborne protozoa and bacteria. Maintaining camp kitchen sanitation prevents gastrointestinal outbreaks caused by contaminated communal cookware."
         ],
         "right_points": [
           "(6c) Campsite Terrain Selection Factors: Selecting safe tent sites requires surveying overhead branches for dead wood and identifying natural rain runoff channels. Pitching shelters on durable gravel or packed soil protects delicate plant ecosystems from long-term damage.",
@@ -2550,32 +2558,32 @@
         "rows": [
           {
             "attribute": "Tent Pitching Orientation",
-            "left": "(6a) Tent Types Pitching And Care: Shelter designs include dome, A-frame, geodesic, and tarp tents tailored for specific seasonal wind and snow loads. Regular tent maintenance includes drying fabrics completely, brushing zippers clean, and storing poles unstrung.",
+            "left": "(6a) Tent Types Pitching and Care: Shelter designs include dome, A-frame, geodesic, and tarp tents tailored for specific seasonal wind and snow loads. Regular tent maintenance includes drying fabrics completely, brushing zippers clean, and storing poles unstrung.",
             "right": "(6c) Campsite Terrain Selection Factors: Selecting safe tent sites requires surveying overhead branches for dead wood and identifying natural rain runoff channels. Pitching shelters on durable gravel or packed soil protects delicate plant ecosystems from long-term damage."
           },
           {
             "attribute": "Pathogen Neutralization Process",
-            "left": "(6b) Camp Sanitation And Water Treatment: Treating surface water with boiling, hollow-fiber microfilters, or chemical halogen agents eliminates waterborne protozoa and bacteria. Maintaining camp kitchen sanitation prevents gastrointestinal outbreaks caused by contaminated communal cookware.",
+            "left": "(6b) Camp Sanitation and Water Treatment: Treating surface water with boiling, hollow-fiber microfilters, or chemical halogen agents eliminates waterborne protozoa and bacteria. Maintaining camp kitchen sanitation prevents gastrointestinal outbreaks caused by contaminated communal cookware.",
             "right": "(6d) Backpack Frame System Selection: External-frame packs provide elevated lash points and excellent ventilation for heavy gear loads on level trails. Internal-frame packs hug the body closely to provide superior balance along rough, uneven mountain trails."
           },
           {
             "attribute": "Backpack Frame Dynamics",
-            "left": "Req 6a: Tent Types Pitching And Care: Shelter designs include dome, A-frame, geodesic, and tarp tents tailored for specific seasonal wind and snow loads. Regular tent maintenance includes drying fabrics completely, brushing zippers clean, and storing poles unstrung.",
-            "right": "Req 6b: Camp Sanitation And Water: Treating surface water with boiling, hollow-fiber microfilters, or chemical halogen agents eliminates waterborne protozoa and bacteria. Maintaining camp kitchen sanitation prevents gastrointestinal outbreaks caused by contaminated communal cookware."
+            "left": "Backpack Frame Dynamics: Internal frame packs keep heavy loads close to the spine on technical trails.",
+            "right": "Sleeping Bag Loft: Shaking out sleeping bags restores down loft before nightfall to maximize thermal efficiency."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 6 Exemplar Workbook Entry: Tents, Water",
+        "title": "Camping Req 6 Worked Example: Tent Pitching and Campsite Sanitation",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a - Tent Types Pitching and Care": "Shelter designs include dome, A-frame, geodesic, and tarp tents tailored for specific seasonal wind and snow loads. Regular tent maintenance includes drying fabrics completely, brushing zippers clean, and storing poles unstrung.",
-          "Req 6b - Camp Sanitation and Water": "Treating surface water with boiling, hollow-fiber microfilters, or chemical halogen agents eliminates waterborne protozoa and bacteria. Maintaining camp kitchen sanitation prevents gastrointestinal outbreaks caused by contaminated communal cookware.",
-          "Req 6c - Campsite Terrain Selection": "Selecting safe tent sites requires surveying overhead branches for dead wood and identifying natural rain runoff channels. Pitching shelters on durable gravel or packed soil protects delicate plant ecosystems from long-term damage.",
-          "Req 6d - Backpack Frame System": "External-frame packs provide elevated lash points and excellent ventilation for heavy gear loads on level trails. Internal-frame packs hug the body closely to provide superior balance along rough, uneven mountain trails."
+          "Phase 1 - Site Clearance": "Clear small sharp rocks and pine cones from your level tent pitching footprint.",
+          "Phase 2 - Tent Pitching": "Insert shock-corded aluminum tent poles through sleeves and guy out rainfly corners securely.",
+          "Phase 3 - Water Treatment": "Filter raw water through a microfilter before boiling or adding purifying chemical tablets.",
+          "Phase 4 - Bedding Arrangement": "Lay an insulating foam pad beneath your uncompressed sleeping bag inside the tent."
         },
-        "sample_output": "Tents, Water Treatment, Packs, and Bedding: Going to just leave that pack on the floor when you get home (p. 37).",
-        "counselor_tip": "For Camping Requirement 6 (Tents, Water Treatment, Packs, and Bedding), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57))."
+        "sample_output": "Selecting safe tent sites requires evaluating surface drainage, wind exposure, overhead deadfalls, and animal corridor clearances. Proper camp sanitation includes rigorous water purification through boiling or chemical treatment and maintaining organized pack frame systems.",
+        "counselor_tip": "During the Camping Requirement 6 conference on Tent Pitching and Campsite Sanitation, verify that the Scout can explain tent pitching orientation and demonstrate bedding arrangement: Lay an insulating foam pad beneath your uncompressed sleeping bag inside the tent."
       },
       "quiz_item": {
         "scenario_prompt": "What should you always do with your tent and sleeping bag as soon as you return home from a camping trip?",
@@ -2874,41 +2882,45 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Personal and Patrol Gear",
-        "right_header": "Req 7b: Backpack Loading and Weight",
+        "left_header": "Req 7a: Personal and Patrol Gear Checklists",
+        "right_header": "Req 7b: Backpack Loading and Weight Balance",
         "left_points": [
-          "(7a) Personal And Patrol Gear Checklists: Comprehensive gear checklists categorize personal clothing, sleeping insulation, hygiene products, and shared patrol cooking equipment. Checking items off during pre-trip patrol meetings prevents missing essential supplies at the trailhead."
+          "(7a) Personal and Patrol Gear Checklists: Comprehensive gear checklists categorize personal clothing, sleeping insulation, hygiene products, and shared patrol cooking equipment. Checking items off during pre-trip patrol meetings prevents missing essential supplies at the trailhead.",
+          "Gear Checklist Verification: Reviewing structured equipment checklists prevents forgetting critical safety items like matches and lights."
         ],
         "right_points": [
-          "(7b) Backpack Loading And Weight Balance: Balancing a pack requires distributing bulky light sleeping gear at the bottom and heavy items against the lumbar spine. Essential navigation tools and rain gear must remain in exterior pouches for rapid emergency retrieval."
+          "(7b) Backpack Loading and Weight Balance: Balancing a pack requires distributing bulky light sleeping gear at the bottom and heavy items against the lumbar spine. Essential navigation tools and rain gear must remain in exterior pouches for rapid emergency retrieval.",
+          "Waterproofing Pack Liners: Lining backpack interiors with durable heavy garbage bags seals down insulation against rain."
         ],
         "rows": [
           {
             "attribute": "Gear Checklist Verification",
-            "left": "(7a) Personal And Patrol Gear Checklists: Comprehensive gear checklists categorize personal clothing, sleeping insulation, hygiene products, and shared patrol cooking equipment. Checking items off during pre-trip patrol meetings prevents missing essential supplies at the trailhead.",
-            "right": "(7b) Backpack Loading And Weight Balance: Balancing a pack requires distributing bulky light sleeping gear at the bottom and heavy items against the lumbar spine. Essential navigation tools and rain gear must remain in exterior pouches for rapid emergency retrieval."
+            "left": "(7a) Personal and Patrol Gear Checklists: Comprehensive gear checklists categorize personal clothing, sleeping insulation, hygiene products, and shared patrol cooking equipment. Checking items off during pre-trip patrol meetings prevents missing essential supplies at the trailhead.",
+            "right": "(7b) Backpack Loading and Weight Balance: Balancing a pack requires distributing bulky light sleeping gear at the bottom and heavy items against the lumbar spine. Essential navigation tools and rain gear must remain in exterior pouches for rapid emergency retrieval."
           },
           {
             "attribute": "Weight Distribution Mechanics",
-            "left": "Req 7a: Personal And Patrol Gear: Comprehensive gear checklists categorize personal clothing, sleeping insulation, hygiene products, and shared patrol cooking equipment. Checking items off during pre-trip patrol meetings prevents missing essential supplies at the trailhead.",
-            "right": "Req 7b: Backpack Loading And Weight: Balancing a pack requires distributing bulky light sleeping gear at the bottom and heavy items against the lumbar spine. Essential navigation tools and rain gear must remain in exterior pouches for rapid emergency retrieval."
+            "left": "Gear Checklist Verification: Reviewing structured equipment checklists prevents forgetting critical safety items like matches and lights.",
+            "right": "Waterproofing Pack Liners: Lining backpack interiors with durable heavy garbage bags seals down insulation against rain."
           },
           {
             "attribute": "Waterproofing Pack Liners",
-            "left": "Gear Checklist Verification: Reviewing structured equipment checklists prevents forgetting critical safety items like matches and lights.",
-            "right": "Weight Distribution Mechanics: Packing dense stoves and food close to the upper spine stabilizes pack balance."
+            "left": "Waterproofing Pack Liners: Lining backpack interiors with durable heavy garbage bags seals down insulation against rain.",
+            "right": "Accessible Outer Storage: Storing personal first aid kits in external zippered pockets allows fast emergency access."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 7 Exemplar Workbook Entry: Gear Checklists",
+        "title": "Camping Req 7 Worked Example: Patrol Gear Packing and Inspection",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Personal and Patrol Gear": "Comprehensive gear checklists categorize personal clothing, sleeping insulation, hygiene products, and shared patrol cooking equipment. Checking items off during pre-trip patrol meetings prevents missing essential supplies at the trailhead.",
-          "Req 7b - Backpack Loading and Weight": "Balancing a pack requires distributing bulky light sleeping gear at the bottom and heavy items against the lumbar spine. Essential navigation tools and rain gear must remain in exterior pouches for rapid emergency retrieval."
+          "Phase 1 - Checklist Assembly": "Cross-check every item on the personal and patrol gear checklist before packing begins.",
+          "Phase 2 - Heavy Load Centering": "Pack heavy cook pots and canned rations centered directly against the back panel.",
+          "Phase 3 - Top Layer Accessibility": "Place emergency waterproof jackets and personal medical kits inside top backpack lids.",
+          "Phase 4 - Suspension Adjustment": "Tighten the padded hip belt so sixty percent of weight rests on hips."
         },
-        "sample_output": "Gear Checklists and Pack Loading: You have planned a campout and gathered your food and gear (p. 42).",
-        "counselor_tip": "For Camping Requirement 7 (Gear Checklists and Pack Loading), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43))."
+        "sample_output": "Equipping a patrol for wilderness camping requires comprehensive personal checklists and structured group gear distribution. Proper backpack packing arranges heavy gear near the spine and keeps emergency rain equipment easily accessible.",
+        "counselor_tip": "During the Camping Requirement 7 conference on Patrol Gear Packing and Inspection, verify that the Scout can explain gear checklist verification and demonstrate suspension adjustment: Tighten the padded hip belt so sixty percent of weight rests on hips."
       },
       "quiz_item": {
         "scenario_prompt": "Where should you pack your rain gear, first-aid kit, flashlight, water bottle, and trail snacks when loading your backpack?",
@@ -3591,44 +3603,44 @@
       ],
       "comparison_data": {
         "left_header": "Req 8a: Stove Operation and Fuel Safety",
-        "right_header": "Req 8c: Patrol Meal Planning",
+        "right_header": "Req 8c: Patrol Meal Planning and Nutrition",
         "left_points": [
-          "(8a) Stove Operation And Fuel Safety: Pressurized gas and liquid fuel appliances require strict leak detection, level positioning, and clear fire perimeters. Extra fuel bottles must be sealed tightly and stored upright in well-ventilated shade away from heat sources.",
+          "(8a) Stove Operation and Fuel Safety: Pressurized gas and liquid fuel appliances require strict leak detection, level positioning, and clear fire perimeters. Extra fuel bottles must be sealed tightly and stored upright in well-ventilated shade away from heat sources.",
           "(8b) Lightweight Backpacking Stove Selection: Backpacking stoves range from lightweight canister units to cold-weather liquid white gas burners and wood-burning biomass units. Evaluating stoves involves weighing cold-weather reliability, fuel availability, boiling efficiency, and packed weight."
         ],
         "right_points": [
-          "(8c) Patrol Meal Planning And Nutrition: Planning backcountry menus requires balancing caloric density, perishable shelf life, and weight constraints against trip mileage. Patrol food lists include measured portions for breakfasts, lunches, and dinners with recipes tailored to available cookware.",
-          "(8d) Outdoor Meal Preparation And Cooking: Executing planned patrol meals in camp demonstrates heat regulation, food safety hygiene, and organized timing. Cooking requires sanitizing preparation surfaces, thoroughly cooking meats, and cleaning all utensils using sanitized wash stations."
+          "(8c) Patrol Meal Planning and Nutrition: Planning backcountry menus requires balancing caloric density, perishable shelf life, and weight constraints against trip mileage. Patrol food lists include measured portions for breakfasts, lunches, and dinners with recipes tailored to available cookware.",
+          "(8d) Outdoor Meal Preparation and Cooking: Executing planned patrol meals in camp demonstrates heat regulation, food safety hygiene, and organized timing. Cooking requires sanitizing preparation surfaces, thoroughly cooking meats, and cleaning all utensils using sanitized wash stations."
         ],
         "rows": [
           {
             "attribute": "Canister Valve Sealing",
-            "left": "(8a) Stove Operation And Fuel Safety: Pressurized gas and liquid fuel appliances require strict leak detection, level positioning, and clear fire perimeters. Extra fuel bottles must be sealed tightly and stored upright in well-ventilated shade away from heat sources.",
-            "right": "(8c) Patrol Meal Planning And Nutrition: Planning backcountry menus requires balancing caloric density, perishable shelf life, and weight constraints against trip mileage. Patrol food lists include measured portions for breakfasts, lunches, and dinners with recipes tailored to available cookware."
+            "left": "(8a) Stove Operation and Fuel Safety: Pressurized gas and liquid fuel appliances require strict leak detection, level positioning, and clear fire perimeters. Extra fuel bottles must be sealed tightly and stored upright in well-ventilated shade away from heat sources.",
+            "right": "(8c) Patrol Meal Planning and Nutrition: Planning backcountry menus requires balancing caloric density, perishable shelf life, and weight constraints against trip mileage. Patrol food lists include measured portions for breakfasts, lunches, and dinners with recipes tailored to available cookware."
           },
           {
             "attribute": "White Gas Pressurization",
             "left": "(8b) Lightweight Backpacking Stove Selection: Backpacking stoves range from lightweight canister units to cold-weather liquid white gas burners and wood-burning biomass units. Evaluating stoves involves weighing cold-weather reliability, fuel availability, boiling efficiency, and packed weight.",
-            "right": "(8d) Outdoor Meal Preparation And Cooking: Executing planned patrol meals in camp demonstrates heat regulation, food safety hygiene, and organized timing. Cooking requires sanitizing preparation surfaces, thoroughly cooking meats, and cleaning all utensils using sanitized wash stations."
+            "right": "(8d) Outdoor Meal Preparation and Cooking: Executing planned patrol meals in camp demonstrates heat regulation, food safety hygiene, and organized timing. Cooking requires sanitizing preparation surfaces, thoroughly cooking meats, and cleaning all utensils using sanitized wash stations."
           },
           {
             "attribute": "Fuel Storage Separation",
-            "left": "Req 8a: Stove Operation And Fuel: Pressurized gas and liquid fuel appliances require strict leak detection, level positioning, and clear fire perimeters. Extra fuel bottles must be sealed tightly and stored upright in well-ventilated shade away from heat sources.",
-            "right": "Req 8b: Lightweight Backpacking: Backpacking stoves range from lightweight canister units to cold-weather liquid white gas burners and wood-burning biomass units. Evaluating stoves involves weighing cold-weather reliability, fuel availability, boiling efficiency, and packed weight."
+            "left": "Fuel Storage Separation: Store spare pressurized fuel bottles outside sleeping tents in cool shaded campsite locations.",
+            "right": "Backcountry Menu Nutrition: Design trail menus delivering high complex carbohydrates and proteins for steady physical energy."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 8 Exemplar Workbook Entry: Camp Stoves, Fuel",
+        "title": "Camping Req 8 Worked Example: Camp Cookery and Stove Safety",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 8a - Stove Operation and Fuel": "Pressurized gas and liquid fuel appliances require strict leak detection, level positioning, and clear fire perimeters. Extra fuel bottles must be sealed tightly and stored upright in well-ventilated shade away from heat sources.",
-          "Req 8b - Lightweight Backpacking Stove": "Backpacking stoves range from lightweight canister units to cold-weather liquid white gas burners and wood-burning biomass units. Evaluating stoves involves weighing cold-weather reliability, fuel availability, boiling efficiency, and packed weight.",
-          "Req 8c - Patrol Meal Planning": "Planning backcountry menus requires balancing caloric density, perishable shelf life, and weight constraints against trip mileage. Patrol food lists include measured portions for breakfasts, lunches, and dinners with recipes tailored to available cookware.",
-          "Req 8d - Outdoor Meal Preparation": "Executing planned patrol meals in camp demonstrates heat regulation, food safety hygiene, and organized timing. Cooking requires sanitizing preparation surfaces, thoroughly cooking meats, and cleaning all utensils using sanitized wash stations."
+          "Phase 1 - Stove Inspection": "Check rubber O-rings on fuel lines for cracking before connecting any fuel canister.",
+          "Phase 2 - Stable Placement": "Clear leaf litter and place the stove on a broad, level, noncombustible surface.",
+          "Phase 3 - Controlled Ignition": "Light the match first before opening the fuel control valve to prevent flare-ups.",
+          "Phase 4 - Three-Pot Cleanup": "Wash cooking pans using hot wash, warm rinse, and chemical sanitizing pot baths."
         },
-        "sample_output": "Camp Stoves, Fuel Safety, and Cooking: Maintain the water supply for cooking and cleanup (p. 24).",
-        "counselor_tip": "For Camping Requirement 8 (Camp Stoves, Fuel Safety, and Cooking), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27))."
+        "sample_output": "Operating pressurized camp stoves demands disciplined safety checks including fuel leak inspections, stable leveling, and adequate cross-ventilation. Planning balanced patrol menus requires calculating caloric expenditure, nutritional balance, and proper backcountry storage to deter wildlife.",
+        "counselor_tip": "During the Camping Requirement 8 conference on Camp Cookery and Stove Safety, verify that the Scout can explain canister valve sealing and demonstrate three-pot cleanup: Wash cooking pans using hot wash, warm rinse, and chemical sanitizing pot baths."
       },
       "quiz_item": {
         "scenario_prompt": "Which practice is an essential part of safe camp stove and kitchen management for a patrol?",
@@ -4483,13 +4495,15 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 9a: Twenty Camping Nights",
-        "right_header": "Req 9b: Backcountry Outdoor Adventure",
+        "left_header": "Req 9a: Twenty Camping Nights Requirement",
+        "right_header": "Req 9b: Backcountry Outdoor Adventure Challenges",
         "left_points": [
-          "(9a) Twenty Camping Nights Requirement: Scouts must camp for at least twenty nights under tents or outdoor shelters during official Scouting excursions. A maximum of six consecutive nights from one long-term summer camp may be credited toward this total."
+          "(9a) Twenty Camping Nights Requirement: Scouts must camp for at least twenty nights under tents or outdoor shelters during official Scouting excursions. A maximum of six consecutive nights from one long-term summer camp may be credited toward this total.",
+          "Camping Night Tracking: Record each campout date, location, and program notes in an official camping logbook."
         ],
         "right_points": [
-          "(9b) Backcountry Outdoor Adventure Challenges: Completing two outdoor adventure options involves undertaking strenuous backcountry treks like mountain summits, canoe voyages, or snowshoe hikes. Proper physical training, route reconnaissance, and qualified adult leadership ensure safe execution of high-adventure elements."
+          "(9b) Backcountry Outdoor Adventure Challenges: Completing two outdoor adventure options involves undertaking strenuous backcountry treks like mountain summits, canoe voyages, or snowshoe hikes. Proper physical training, route reconnaissance, and qualified adult leadership ensure safe execution of high-adventure elements.",
+          "(9c) Landowner Approved Conservation Projects: Executing a conservation project requires coordination with local park rangers or private landowners to address actual environmental needs. Projects like erosion control, trail water-bar construction, or invasive weed eradication restore public outdoor resources."
         ],
         "rows": [
           {
@@ -4499,26 +4513,27 @@
           },
           {
             "attribute": "Elevation Gain Measurement",
-            "left": "Req 9a: Twenty Camping Nights: Scouts must camp for at least twenty nights under tents or outdoor shelters during official Scouting excursions. A maximum of six consecutive nights from one long-term summer camp may be credited toward this total.",
-            "right": "Req 9b: Backcountry Outdoor: Completing two outdoor adventure options involves undertaking strenuous backcountry treks like mountain summits, canoe voyages, or snowshoe hikes. Proper physical training, route reconnaissance, and qualified adult leadership ensure safe execution of high-adventure elements."
+            "left": "Camping Night Tracking: Record each campout date, location, and program notes in an official camping logbook.",
+            "right": "(9c) Landowner Approved Conservation Projects: Executing a conservation project requires coordination with local park rangers or private landowners to address actual environmental needs. Projects like erosion control, trail water-bar construction, or invasive weed eradication restore public outdoor resources."
           },
           {
             "attribute": "Landowner Project Permission",
-            "left": "Req 9c: Landowner Approved: Executing a conservation project requires coordination with local park rangers or private landowners to address actual environmental needs. Projects like erosion control, trail water-bar construction, or invasive weed eradication restore public outdoor resources.",
-            "right": "Elevation Gain Measurement: Track mountain contour lines on topographical maps to calculate one thousand feet of ascent."
+            "left": "Landowner Project Permission: Obtain formal written approval from public land agencies before conducting trail conservation work.",
+            "right": "Leave No Trace Stewardship: Naturalize disturbed work project areas by replacing native deadfall and raking footpaths smooth."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 9 Exemplar Workbook Entry: Camping Nights",
+        "title": "Camping Req 9 Worked Example: Camping Nights and Backcountry Adventures",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 9a - Twenty Camping Nights": "Scouts must camp for at least twenty nights under tents or outdoor shelters during official Scouting excursions. A maximum of six consecutive nights from one long-term summer camp may be credited toward this total.",
-          "Req 9b - Backcountry Outdoor Adventure": "Completing two outdoor adventure options involves undertaking strenuous backcountry treks like mountain summits, canoe voyages, or snowshoe hikes. Proper physical training, route reconnaissance, and qualified adult leadership ensure safe execution of high-adventure elements.",
-          "Req 9c - Landowner Approved": "Executing a conservation project requires coordination with local park rangers or private landowners to address actual environmental needs. Projects like erosion control, trail water-bar construction, or invasive weed eradication restore public outdoor resources."
+          "Phase 1 - Experience Logging": "Document every camping night and activity date within your official unit advancement logbook.",
+          "Phase 2 - Adventure Selection": "Choose two advanced trek challenges such as mountain climbs or backcountry canoe expeditions.",
+          "Phase 3 - Project Coordination": "Coordinate with regional forest rangers to identify authorized trail erosion conservation service projects.",
+          "Phase 4 - Conservation Execution": "Complete designated conservation work hours using appropriate safety equipment and land management tools."
         },
-        "sample_output": "Camping Nights, Treks, and Conservation: The nature of a camping trip changes dramatically when you leave the road behind and venture into the back country (p. 21).",
-        "counselor_tip": "For Camping Requirement 9 (Camping Nights, Treks, and Conservation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54))."
+        "sample_output": "Fulfilling camping experience milestones requires participating in at least twenty nights of authorized outdoor Scout camping. Achieving rugged trek challenges, such as thousand-foot elevation ascents, and executing approved conservation projects builds enduring stewardship.",
+        "counselor_tip": "During the Camping Requirement 9 conference on Camping Nights and Backcountry Adventures, verify that the Scout can explain camping night tracking and demonstrate conservation execution: Complete designated conservation work hours using appropriate safety equipment and land management tools."
       },
       "quiz_item": {
         "scenario_prompt": "What changes when a Scout patrol transitions from frontcountry camping to a backcountry trek?",
@@ -4667,47 +4682,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 10: Lasting Memories of Outdoor",
-        "right_header": "Req 10: Practice Outdoor Problem Solving",
+        "left_header": "Outdoor Citizenship and Scout Spirit: Core Principles",
+        "right_header": "Outdoor Citizenship and Scout Spirit: Field Execution",
         "left_points": [
-          "Lasting Memories of Outdoor Adventures: You will be surprised over the years how often these adventures come to mind, and with what pleasure you remember the places that, at least for one night (p. 55).",
-          "Central Role of Scout Camping: Camping is a central activity of the Scouts BSA experience, and for good reason (p. 55).",
-          "Teamwork and Problem Solving Outdoors: It can bring out the best in everyone as groups of friends put their energies into practicing outdoor skills, solving problems, and having great times (p. 55)."
+          "Personal Health Reflection: Wilderness camping builds physical endurance and mental resilience through sustained outdoor exertion.",
+          "Public Health Leadership: Implementing camp sanitation protects wilderness watersheds and fellow campers from infectious illness outbreaks."
         ],
         "right_points": [
-          "Practice Outdoor Problem Solving: It can bring out the best in everyone as groups of friends put their energies into practicing outdoor skills, solving problems, and having great times (p. 55).",
-          "Care for Public Lands: You can increase your understanding of personal health and safety, conservation, and the citizenship responsibilities of caring for the land (p. 55).",
-          "Demonstrate Daily Scout Spirit: Most of all, camping allows your Scout spirit and the meaning of the Scout Oath and Scout Law to shine through in all (p. 55)."
+          "Conservation Ethic Integration: Practicing low-impact camping principles instills lifelong personal stewardship of shared public wildlands.",
+          "Civic Responsibility Commitment: Demonstrating Scout spirit through servant leadership strengthens local community service and patrol teamwork."
         ],
         "rows": [
           {
             "attribute": "Personal Health Reflection",
-            "left": "Lasting Memories of Outdoor Adventures: You will be surprised over the years how often these adventures come to mind, and with what pleasure you remember the places that, at least for one night (p. 55).",
-            "right": "Practice Outdoor Problem Solving: It can bring out the best in everyone as groups of friends put their energies into practicing outdoor skills, solving problems, and having great times (p. 55)."
+            "left": "Personal Health Reflection: Wilderness camping builds physical endurance and mental resilience through sustained outdoor exertion.",
+            "right": "Conservation Ethic Integration: Practicing low-impact camping principles instills lifelong personal stewardship of shared public wildlands."
           },
           {
             "attribute": "Public Health Leadership",
-            "left": "Central Role of Scout Camping: Camping is a central activity of the Scouts BSA experience, and for good reason (p. 55).",
-            "right": "Care for Public Lands: You can increase your understanding of personal health and safety, conservation, and the citizenship responsibilities of caring for the land (p. 55)."
+            "left": "Public Health Leadership: Implementing camp sanitation protects wilderness watersheds and fellow campers from infectious illness outbreaks.",
+            "right": "Civic Responsibility Commitment: Demonstrating Scout spirit through servant leadership strengthens local community service and patrol teamwork."
           },
           {
             "attribute": "Conservation Ethic Integration",
-            "left": "Teamwork and Problem Solving Outdoors: It can bring out the best in everyone as groups of friends put their energies into practicing outdoor skills, solving problems, and having great times (p. 55).",
-            "right": "Demonstrate Daily Scout Spirit: Most of all, camping allows your Scout spirit and the meaning of the Scout Oath and Scout Law to shine through in all (p. 55)."
+            "left": "Conservation Ethic Integration: Practicing low-impact camping principles instills lifelong personal stewardship of shared public wildlands.",
+            "right": "Civic Responsibility Commitment: Demonstrating Scout spirit through servant leadership strengthens local community service and patrol teamwork."
           }
         ]
       },
       "worked_example": {
-        "title": "Camping Req 10 Exemplar Workbook Entry: Scout Spirit",
+        "title": "Camping Req 10 Worked Example: Outdoor Citizenship and Scout Spirit",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Lasting Memories of Outdoor Adventures": "You will be surprised over the years how often these adventures come to mind, and with what pleasure you remember the places that, at least for one night (p. 55).",
-          "Central Role of Scout Camping": "Camping is a central activity of the Scouts BSA experience, and for good reason (p. 55).",
-          "Teamwork and Problem Solving Outdoors": "It can bring out the best in everyone as groups of friends put their energies into practicing outdoor skills, solving problems, and having great times (p. 55).",
-          "Health, Conservation, and Land": "You can increase your understanding of personal health and safety, conservation, and the citizenship responsibilities of caring for the land (p. 55)."
+          "Phase 1 - Experience Review": "Review personal growth across camping safety, navigation, and wilderness survival skills learned.",
+          "Phase 2 - Values Synthesis": "Connect specific outdoor challenges to principles outlined in the Scout Oath and Law.",
+          "Phase 3 - Counselor Discussion": "Articulate how Leave No Trace ethics inform responsible citizenship in your home community.",
+          "Phase 4 - Future Commitment": "Commit to mentoring younger patrol Scouts during upcoming outdoor troop camping adventures."
         },
-        "sample_output": "Scout Spirit, Conservation, and Citizenship: You will be surprised over the years how often these adventures come to mind, and with what pleasure you remember the places that, at least for one night (p. 55).",
-        "counselor_tip": "For Camping Requirement 10 (Scout Spirit, Conservation, and Citizenship), verify the Scout's own observations and specific pamphlet details (Official Scouting America Camping Merit Badge Pamphlet (p. 55, p. 59))."
+        "sample_output": "Earning the Camping Merit Badge instills lifelong habits of self-reliance, environmental stewardship, personal physical fitness, and civic responsibility. Reflecting on the Scout Oath and Law reinforces ethical leadership and community service throughout daily life.",
+        "counselor_tip": "During the Camping Requirement 10 conference on Outdoor Citizenship and Scout Spirit, verify that the Scout can explain personal health reflection and demonstrate future commitment: Commit to mentoring younger patrol Scouts during upcoming outdoor troop camping adventures."
       },
       "quiz_item": {
         "scenario_prompt": "How does earning the Camping merit badge connect outdoor skills to good citizenship and the Scout Law?",

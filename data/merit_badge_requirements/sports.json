@@ -290,7 +290,6 @@
         "Step 4 - Emergency Activation: Assign designated runners to guide paramedics through facility gates during severe emergencies."
       ],
       "gear_checklist": [
-        "Official Sports merit badge pamphlet and training log for Req 1.",
         "Supportive athletic footwear, breathable workout apparel, and water bottle.",
         "Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.",
         "Recorded baseline and progress measurements for Sports Injury Prevention and First Aid."
@@ -299,10 +298,12 @@
         "left_header": "Req 1a: Athletic Hazard Risk Management",
         "right_header": "Req 1b: Sports First Aid Procedures",
         "left_points": [
-          "(1a) Athletic Hazard Risk Management: Anticipating athletic hazards involves monitoring environmental conditions and maintaining safe playing surfaces before games start. Athletes mitigate risks by wearing certified safety gear and following proper conditioning regimens."
+          "(1a) Athletic Hazard Risk Management: Anticipating athletic hazards involves monitoring environmental conditions and maintaining safe playing surfaces before games start. Athletes mitigate risks by wearing certified safety gear and following proper conditioning regimens.",
+          "Environmental Hazard Recognition: Coaches must monitor wet bulb globe temperature readings during hot outdoor athletic practices."
         ],
         "right_points": [
-          "(1b) Sports First Aid Procedures: Initial athletic first aid focuses on stabilizing soft tissue injuries and controlling swelling through standard protocols. Serious conditions such as concussions and fractures mandate professional medical evaluation prior to return."
+          "(1b) Sports First Aid Procedures: Initial athletic first aid focuses on stabilizing soft tissue injuries and controlling swelling through standard protocols. Serious conditions such as concussions and fractures mandate professional medical evaluation prior to return.",
+          "Concussion Protocol Adherence: Athletes exhibiting dizziness or confusion after head impact must exit the competition immediately."
         ],
         "rows": [
           {
@@ -312,25 +313,27 @@
           },
           {
             "attribute": "Acute Soft Tissue Care",
-            "left": "Req 1a: Athletic Hazard Risk: Anticipating athletic hazards involves monitoring environmental conditions and maintaining safe playing surfaces before games start. Athletes mitigate risks by wearing certified safety gear and following proper conditioning regimens.",
-            "right": "Req 1b: Sports First Aid Procedures: Initial athletic first aid focuses on stabilizing soft tissue injuries and controlling swelling through standard protocols. Serious conditions such as concussions and fractures mandate professional medical evaluation prior to return."
+            "left": "Environmental Hazard Recognition: Coaches must monitor wet bulb globe temperature readings during hot outdoor athletic practices.",
+            "right": "Concussion Protocol Adherence: Athletes exhibiting dizziness or confusion after head impact must exit the competition immediately."
           },
           {
             "attribute": "Concussion Protocol Adherence",
-            "left": "Environmental Hazard Recognition: Coaches must monitor wet bulb globe temperature readings during hot outdoor athletic practices.",
-            "right": "Acute Soft Tissue Care: Compression wraps reduce internal bleeding and swelling around strained tendons or torn ligaments."
+            "left": "Concussion Protocol Adherence: Athletes exhibiting dizziness or confusion after head impact must exit the competition immediately.",
+            "right": "Hydration Schedule Management: Fluid replacement schedules prevent heat cramps before thirst sensations register during strenuous workouts."
           }
         ]
       },
       "worked_example": {
-        "title": "Sports Req 1 Exemplar Workbook Entry: Sports Injury",
+        "title": "Sports Req 1 Worked Example: Sports Injury Prevention Protocols",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Athletic Hazard Risk": "Anticipating athletic hazards involves monitoring environmental conditions and maintaining safe playing surfaces before games start. Athletes mitigate risks by wearing certified safety gear and following proper conditioning regimens.",
-          "Req 1b - Sports First Aid Procedures": "Initial athletic first aid focuses on stabilizing soft tissue injuries and controlling swelling through standard protocols. Serious conditions such as concussions and fractures mandate professional medical evaluation prior to return."
+          "Phase 1 - Field Survey": "Check turf conditions for dangerous holes, broken glass, or standing water pools.",
+          "Phase 2 - Equipment Evaluation": "Confirm all athletes wear certified protective padding and properly fitted chin straps.",
+          "Phase 3 - First Aid Setup": "Position stocked medical kits, splints, and ice packs directly along home sidelines.",
+          "Phase 4 - Emergency Activation": "Assign designated runners to guide paramedics through facility gates during severe emergencies."
         },
-        "sample_output": "Sports Injury Prevention and First Aid: Blisters on the feet are the most common and troublesome type (p. 87).",
-        "counselor_tip": "For Sports Requirement 1 (Sports Injury Prevention and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89))."
+        "sample_output": "Athletic participation requires constant risk management to anticipate environmental and collision hazards before games begin. Coaches and athletes mitigate severe injuries through structured conditioning, protective equipment, and rapid emergency action.",
+        "counselor_tip": "During the Sports Requirement 1 conference on Sports Injury Prevention Protocols, verify that the Scout can explain environmental hazard recognition and demonstrate emergency activation: Assign designated runners to guide paramedics through facility gates during severe emergencies."
       },
       "quiz_item": {
         "scenario_prompt": "If an athlete receives a blow to the head or body during practice or competition and shows signs of dizziness, confusion, headache, or balance problems, what action must be taken immediately?",
@@ -708,19 +711,20 @@
         "Step 4 - Habitual Routine: Schedule seventy minutes of moderate exercise four days weekly to maintain fitness."
       ],
       "gear_checklist": [
-        "Official Sports merit badge pamphlet and training log for Req 2.",
         "Supportive athletic footwear, breathable workout apparel, and water bottle.",
         "Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.",
         "Recorded baseline and progress measurements for Physical Exams and Healthy Athletic Habits."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Preparticipation Physical",
-        "right_header": "Req 2b: Lifelong Health Habit",
+        "left_header": "Req 2a: Preparticipation Physical Examination Importance",
+        "right_header": "Req 2b: Lifelong Health Habit Maintenance",
         "left_points": [
-          "(2a) Preparticipation Physical Examination Importance: Preparticipation physical exams ensure that an athlete can safely tolerate rigorous cardiovascular and musculoskeletal demands. Medical providers clear youth for competition after checking vitals, family histories, and joint integrity."
+          "(2a) Preparticipation Physical Examination Importance: Preparticipation physical exams ensure that an athlete can safely tolerate rigorous cardiovascular and musculoskeletal demands. Medical providers clear youth for competition after checking vitals, family histories, and joint integrity.",
+          "Cardiovascular Preparticipation: Preparticipation examinations identify silent cardiac structural abnormalities that create catastrophic risks during competition."
         ],
         "right_points": [
-          "(2b) Lifelong Health Habit Maintenance: Consistent training preserves cardiovascular health and musculoskeletal strength throughout an individual lifetime. Avoiding chemical substances prevents permanent arterial hardening, lung tissue destruction, and impaired neurological response times."
+          "(2b) Lifelong Health Habit Maintenance: Consistent training preserves cardiovascular health and musculoskeletal strength throughout an individual lifetime. Avoiding chemical substances prevents permanent arterial hardening, lung tissue destruction, and impaired neurological response times.",
+          "(2c) Athletic Dietary Nutritional Health: A proper sports diet provides complex carbohydrates, lean proteins, and healthy fats for sustained energy. Proper fueling improves recovery speeds, immune defense, and mental focus during high-intensity athletic competitions."
         ],
         "rows": [
           {
@@ -730,26 +734,27 @@
           },
           {
             "attribute": "Substance Abuse Performance Impact",
-            "left": "Req 2a: Preparticipation Physical: Preparticipation physical exams ensure that an athlete can safely tolerate rigorous cardiovascular and musculoskeletal demands. Medical providers clear youth for competition after checking vitals, family histories, and joint integrity.",
-            "right": "Req 2b: Lifelong Health Habit: Consistent training preserves cardiovascular health and musculoskeletal strength throughout an individual lifetime. Avoiding chemical substances prevents permanent arterial hardening, lung tissue destruction, and impaired neurological response times."
+            "left": "Cardiovascular Preparticipation: Preparticipation examinations identify silent cardiac structural abnormalities that create catastrophic risks during competition.",
+            "right": "(2c) Athletic Dietary Nutritional Health: A proper sports diet provides complex carbohydrates, lean proteins, and healthy fats for sustained energy. Proper fueling improves recovery speeds, immune defense, and mental focus during high-intensity athletic competitions."
           },
           {
             "attribute": "Nutritional Glycogen Replenishment",
-            "left": "Req 2c: Athletic Dietary Nutritional: A proper sports diet provides complex carbohydrates, lean proteins, and healthy fats for sustained energy. Proper fueling improves recovery speeds, immune defense, and mental focus during high-intensity athletic competitions.",
-            "right": "Substance Abuse Performance Impact: Nicotine constricts peripheral blood vessels, reducing essential oxygen delivery to working muscle fibers."
+            "left": "Nutritional Glycogen Replenishment: Complex carbohydrates supply sustained muscular glycogen stores necessary for extended tournament play endurance.",
+            "right": "Lifelong Habit Formation: Regular aerobic exercise maintains cardiovascular elasticity and prevents chronic adult metabolic disease conditions."
           }
         ]
       },
       "worked_example": {
-        "title": "Sports Req 2 Exemplar Workbook Entry: Physical Exams",
+        "title": "Sports Req 2 Worked Example: Athletic Health Wellness Foundation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Preparticipation Physical": "Preparticipation physical exams ensure that an athlete can safely tolerate rigorous cardiovascular and musculoskeletal demands. Medical providers clear youth for competition after checking vitals, family histories, and joint integrity.",
-          "Req 2b - Lifelong Health Habit": "Consistent training preserves cardiovascular health and musculoskeletal strength throughout an individual lifetime. Avoiding chemical substances prevents permanent arterial hardening, lung tissue destruction, and impaired neurological response times.",
-          "Req 2c - Athletic Dietary Nutritional": "A proper sports diet provides complex carbohydrates, lean proteins, and healthy fats for sustained energy. Proper fueling improves recovery speeds, immune defense, and mental focus during high-intensity athletic competitions."
+          "Phase 1 - Medical Clearance": "Schedule an annual sports physical with a licensed physician before team tryouts.",
+          "Phase 2 - Dietary Baseline": "Log daily meals to confirm adequate caloric intake, lean protein, and hydration.",
+          "Phase 3 - Substance Avoidance": "Eliminate tobacco, vape aerosols, and alcohol to protect vital lung alveolar tissue.",
+          "Phase 4 - Habitual Routine": "Schedule seventy minutes of moderate exercise four days weekly to maintain fitness."
         },
-        "sample_output": "Physical Exams and Healthy Athletic Habits: Athletes need their lungs working at peak capacity (p. 10).",
-        "counselor_tip": "For Sports Requirement 2 (Physical Exams and Healthy Athletic Habits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16))."
+        "sample_output": "Comprehensive physical examinations evaluate cardiopulmonary health and joint stability before athletes begin vigorous training programs. Maintaining lifelong nutritional and exercise habits while avoiding toxic substances preserves peak physiological function.",
+        "counselor_tip": "During the Sports Requirement 2 conference on Athletic Health Wellness Foundation, verify that the Scout can explain cardiovascular preparticipation and demonstrate habitual routine: Schedule seventy minutes of moderate exercise four days weekly to maintain fitness."
       },
       "quiz_item": {
         "scenario_prompt": "How does tobacco smoke directly reduce an athlete's stamina and respiratory performance?",
@@ -1204,14 +1209,13 @@
         "Step 4 - Leadership Reflection: Commend opponent effort and shake referee hands following competitive athletic contest completions."
       ],
       "gear_checklist": [
-        "Official Sports merit badge pamphlet and training log for Req 3.",
         "Supportive athletic footwear, breathable workout apparel, and water bottle.",
         "Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.",
         "Recorded baseline and progress measurements for Conditioning, Amateur Status, and Sportsmanship."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Warmup Cool Down Routines",
-        "right_header": "Req 3c: Amateur Professional Athlete",
+        "right_header": "Req 3c: Amateur Professional Athlete Classification",
         "left_points": [
           "(3a) Warmup Cool Down Routines: Dynamic warmups raise body temperature and lubricate joints before high-intensity sprints or contact. Cool-down periods restore resting heart rates gradually and maintain muscle length through gentle static stretches.",
           "(3b) Resistance Training Development Role: Youth resistance training develops neuromuscular coordination, tendon thickness, and skeletal bone density. Proper coaching prioritizes multi-joint mechanics, controlled movement tempos, and balanced core development over heavy weight loads."
@@ -1233,22 +1237,22 @@
           },
           {
             "attribute": "Amateur Eligibility Standard",
-            "left": "Req 3a: Warmup Cool Down Routines: Dynamic warmups raise body temperature and lubricate joints before high-intensity sprints or contact. Cool-down periods restore resting heart rates gradually and maintain muscle length through gentle static stretches.",
-            "right": "Req 3b: Resistance Training: Youth resistance training develops neuromuscular coordination, tendon thickness, and skeletal bone density. Proper coaching prioritizes multi-joint mechanics, controlled movement tempos, and balanced core development over heavy weight loads."
+            "left": "Amateur Eligibility Standard: Amateur athletes compete solely for love of sport without receiving direct financial compensation.",
+            "right": "Sportsmanship in Competition: True sportsmanship honors game rules, respects match officials, and encourages teammates through adversity."
           }
         ]
       },
       "worked_example": {
-        "title": "Sports Req 3 Exemplar Workbook Entry: Conditioning",
+        "title": "Sports Req 3 Worked Example: Conditioning Sportsmanship Athlete Values",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Warmup Cool Down Routines": "Dynamic warmups raise body temperature and lubricate joints before high-intensity sprints or contact. Cool-down periods restore resting heart rates gradually and maintain muscle length through gentle static stretches.",
-          "Req 3b - Resistance Training": "Youth resistance training develops neuromuscular coordination, tendon thickness, and skeletal bone density. Proper coaching prioritizes multi-joint mechanics, controlled movement tempos, and balanced core development over heavy weight loads.",
-          "Req 3c - Amateur Professional Athlete": "Amateur status centers on unpaid competition pursued for recreation, character building, and educational development. Professional sports involve commercial contracts, prize money, and career employment governed by binding agreements.",
-          "Req 3d - Sportsmanship Team Leadership": "A genuine sport respects game rules, accepts referee decisions without dissent, and displays grace regardless of match outcomes. Team leaders model Scout spirit by maintaining positive energy and prioritizing collective squad success over personal glory."
+          "Phase 1 - Dynamic Warmup": "Perform ten minutes of lunges, high knees, and light jogging across field.",
+          "Phase 2 - Core Lifting": "Execute compound resistance exercises using strict posture under qualified coach supervision always.",
+          "Phase 3 - Static Stretch": "Hold major leg muscle stretches for thirty seconds during post-practice cool-down periods.",
+          "Phase 4 - Leadership Reflection": "Commend opponent effort and shake referee hands following competitive athletic contest completions."
         },
-        "sample_output": "Conditioning, Amateur Status, and Sportsmanship: Sometimes good sportsmanship means accepting what might be a poor decision made by an official, referee, or umpire (p. 22).",
-        "counselor_tip": "For Sports Requirement 3 (Conditioning, Amateur Status, and Sportsmanship), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25))."
+        "sample_output": "Proper conditioning blends dynamic warmups, cool-down stretching, and structured resistance training to raise performance safely. True sportsmanship demands emotional composure, respect for competition rules, and unwavering support for teammates.",
+        "counselor_tip": "During the Sports Requirement 3 conference on Conditioning Sportsmanship Athlete Values, verify that the Scout can explain dynamic warmup purpose and demonstrate leadership reflection: Commend opponent effort and shake referee hands following competitive athletic contest completions."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Sports merit badge pamphlet, how should a Scout respond when they disagree with a ruling made by a game official or referee?",
@@ -1400,53 +1404,50 @@
         "Step 4 - Equipment Inspection: Gather necessary personal gear, clothing, and safety items for both selected sports."
       ],
       "gear_checklist": [
-        "Official Sports merit badge pamphlet and training log for Req 4.",
         "Supportive athletic footwear, breathable workout apparel, and water bottle.",
         "Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.",
         "Recorded baseline and progress measurements for Selecting Two Competitive Sports."
       ],
       "comparison_data": {
-        "left_header": "Req 4: Spectator Etiquette Standards",
-        "right_header": "Req 4: Clap for Recovering Athletes",
+        "left_header": "Dual Sport Program Selection: Core Principles",
+        "right_header": "Dual Sport Program Selection: Field Execution",
         "left_points": [
-          "Spectator Etiquette Standards: If a Sports spectators also need to follow rules of etiquette (p. 27).",
-          "Respectful Cheering Without Booing: Clap with respect for your team but never boo the opposing team (p. 27).",
-          "Applauding Recovering Injured Players: When an injured player who was down on the field recovers or is carried off, it is polite to clap in appreciation of the player's effort (p. 27)."
+          "Dual Sport Selection: Selecting two complementary sports develops diverse physical motor patterns and cardiovascular energy systems.",
+          "Seasonal Planning Schedule: Competitive season schedules dictate personal training periodization phases over required twelve week spans."
         ],
         "right_points": [
-          "Clap for Recovering Athletes: When an injured player who was down on the field recovers or is carried off, it is polite to clap in appreciation of the player's effort (p. 27).",
-          "Maintain Team Ball Possession: In general, you must have possession in order to score, so having possession of the ball is to your team's advantage (p. 27).",
-          "Conduct Pre-Game Coin Toss: The coin toss is used to begin baseball, basketball, field hockey, football, ice hockey, lacrosse, soccer, softball, table tennis, tennis, volleyball (p. 27)."
+          "Technical Skill Focus: Fundamental movement mastery in two sports reduces chronic overuse injuries from specialization.",
+          "Rulebook Analysis Discipline: Studying sport rulebooks ensures precise tactical execution and respectful compliance during games."
         ],
         "rows": [
           {
             "attribute": "Dual Sport Selection",
-            "left": "Spectator Etiquette Standards: If a Sports spectators also need to follow rules of etiquette (p. 27).",
-            "right": "Clap for Recovering Athletes: When an injured player who was down on the field recovers or is carried off, it is polite to clap in appreciation of the player's effort (p. 27)."
+            "left": "Dual Sport Selection: Selecting two complementary sports develops diverse physical motor patterns and cardiovascular energy systems.",
+            "right": "Technical Skill Focus: Fundamental movement mastery in two sports reduces chronic overuse injuries from specialization."
           },
           {
             "attribute": "Seasonal Planning Schedule",
-            "left": "Respectful Cheering Without Booing: Clap with respect for your team but never boo the opposing team (p. 27).",
-            "right": "Maintain Team Ball Possession: In general, you must have possession in order to score, so having possession of the ball is to your team's advantage (p. 27)."
+            "left": "Seasonal Planning Schedule: Competitive season schedules dictate personal training periodization phases over required twelve week spans.",
+            "right": "Rulebook Analysis Discipline: Studying sport rulebooks ensures precise tactical execution and respectful compliance during games."
           },
           {
             "attribute": "Technical Skill Focus",
-            "left": "Applauding Recovering Injured Players: When an injured player who was down on the field recovers or is carried off, it is polite to clap in appreciation of the player's effort (p. 27).",
-            "right": "Conduct Pre-Game Coin Toss: The coin toss is used to begin baseball, basketball, field hockey, football, ice hockey, lacrosse, soccer, softball, table tennis, tennis, volleyball (p. 27)."
+            "left": "Technical Skill Focus: Fundamental movement mastery in two sports reduces chronic overuse injuries from specialization.",
+            "right": "Rulebook Analysis Discipline: Studying sport rulebooks ensures precise tactical execution and respectful compliance during games."
           }
         ]
       },
       "worked_example": {
-        "title": "Sports Req 4 Exemplar Workbook Entry: Selecting Two",
+        "title": "Sports Req 4 Worked Example: Dual Sport Program Selection",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Spectator Etiquette Standards": "If a Sports spectators also need to follow rules of etiquette (p. 27).",
-          "Respectful Cheering Without Booing": "Clap with respect for your team but never boo the opposing team (p. 27).",
-          "Applauding Recovering Injured Players": "When an injured player who was down on the field recovers or is carried off, it is polite to clap in appreciation of the player's effort (p. 27).",
-          "Value of Ball Possession": "In general, you must have possession in order to score, so having possession of the ball is to your team's advantage (p. 27)."
+          "Phase 1 - Sport Comparison": "Review the approved sports list to choose two distinct, accessible athletic disciplines.",
+          "Phase 2 - Counselor Consultation": "Present chosen sport selections to your counselor for seasonal program feasibility approval.",
+          "Phase 3 - Action Phase 3": "Map out specific requirement deadlines across the upcoming twelve week competitive season.",
+          "Phase 4 - Equipment Inspection": "Gather necessary personal gear, clothing, and safety items for both selected sports."
         },
-        "sample_output": "Selecting Two Competitive Sports: If a Sports spectators also need to follow rules of etiquette (p. 27).",
-        "counselor_tip": "For Sports Requirement 4 (Selecting Two Competitive Sports), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28))."
+        "sample_output": "Scouts select two qualifying sports to compare training methodologies, tactical rules, and playing surface layouts. Planning multi-sport participation encourages balanced physical development and prevents burnout associated with early single-sport specialization.",
+        "counselor_tip": "During the Sports Requirement 4 conference on Dual Sport Program Selection, verify that the Scout can explain dual sport selection and demonstrate equipment inspection: Gather necessary personal gear, clothing, and safety items for both selected sports."
       },
       "quiz_item": {
         "scenario_prompt": "What is the proper etiquette for players and spectators when an injured athlete on the field recovers or is carried off?",
@@ -2263,7 +2264,6 @@
         "Step 4 - Season Review: Present completed training charts to your counselor to analyze physical and psychological progress."
       ],
       "gear_checklist": [
-        "Official Sports merit badge pamphlet and training log for Req 5.",
         "Supportive athletic footwear, breathable workout apparel, and water bottle.",
         "Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.",
         "Recorded baseline and progress measurements for Seasonal Training, Technique, and Competition."
@@ -2273,13 +2273,11 @@
         "right_header": "Req 5e: Game Rules Player Etiquette",
         "left_points": [
           "(5a) Personal Training Program Design: A personal training plan outlines weekly aerobic conditioning, skill repetitions, and active recovery intervals over three months. Counselor guidance ensures target goals align with age-appropriate physical capacities and team competition schedules.",
-          "(5b) Performance Tracking Chart System: Athletes maintain organized logs of practice hours, drill repetitions, and subjective physical exertion levels. Reviewing logged data allows participants to spot development trends, identify weaknesses, and adjust workout intensities.",
-          "(5c) Sport Technical Execution Mechanics: Mastering fundamental mechanics allows players to execute sports skills accurately while shielding joints from strain. Coaches emphasize footwork balance, body leverage, and follow-through mechanics across varied competitive game situations."
+          "(5b) Performance Tracking Chart System: Athletes maintain organized logs of practice hours, drill repetitions, and subjective physical exertion levels. Reviewing logged data allows participants to spot development trends, identify weaknesses, and adjust workout intensities."
         ],
         "right_points": [
           "(5e) Game Rules Player Etiquette: Sport rulebooks define legal physical contact, scoring criteria, boundary limits, and penalties for infractions. Proper etiquette reinforces fair play through courteous handshakes, quiet during serves, and honest line calls.",
-          "(5f) Playing Area Dimension Diagrams: Drawing a playing area requires measuring boundary lines, penalty zones, goals, and official referee stations accurately. Explaining spatial diagrams clarifies how court geometry shapes strategic offensive spacing and defensive coverage zones.",
-          "(5g) Competitive Season Team Participation: Scouts commit to an organized team or individual competitive schedule spanning a full season or three months. Regular participation builds team cohesion, sharpens game instincts, and conditions cardiovascular systems under competitive pressure."
+          "(5f) Playing Area Dimension Diagrams: Drawing a playing area requires measuring boundary lines, penalty zones, goals, and official referee stations accurately. Explaining spatial diagrams clarifies how court geometry shapes strategic offensive spacing and defensive coverage zones."
         ],
         "rows": [
           {
@@ -2294,22 +2292,22 @@
           },
           {
             "attribute": "Biomechanical Movement Form",
-            "left": "(5c) Sport Technical Execution Mechanics: Mastering fundamental mechanics allows players to execute sports skills accurately while shielding joints from strain. Coaches emphasize footwork balance, body leverage, and follow-through mechanics across varied competitive game situations.",
-            "right": "(5g) Competitive Season Team Participation: Scouts commit to an organized team or individual competitive schedule spanning a full season or three months. Regular participation builds team cohesion, sharpens game instincts, and conditions cardiovascular systems under competitive pressure."
+            "left": "Biomechanical Movement Form: Correct technical movement patterns maximize athletic efficiency while protecting vulnerable joints from strain.",
+            "right": "Playing Surface Specifications: Accurate field boundary diagrams clarify tactical movement patterns and out-of-bounds rules during competition."
           }
         ]
       },
       "worked_example": {
-        "title": "Sports Req 5 Exemplar Workbook Entry: Seasonal Training",
+        "title": "Sports Req 5 Worked Example: Seasonal Athletic Training Execution",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Personal Training Program": "A personal training plan outlines weekly aerobic conditioning, skill repetitions, and active recovery intervals over three months. Counselor guidance ensures target goals align with age-appropriate physical capacities and team competition schedules.",
-          "Req 5b - Performance Tracking Chart": "Athletes maintain organized logs of practice hours, drill repetitions, and subjective physical exertion levels. Reviewing logged data allows participants to spot development trends, identify weaknesses, and adjust workout intensities.",
-          "Req 5c - Sport Technical Execution": "Mastering fundamental mechanics allows players to execute sports skills accurately while shielding joints from strain. Coaches emphasize footwork balance, body leverage, and follow-through mechanics across varied competitive game situations.",
-          "Req 5d - Sports Equipment Gear": "Each sport requires specialized apparel, footwear, and certified protective guards designed for specific impact risks. Inspecting equipment regularly guarantees that padding, eye protection, and footwear maintain structural defensive integrity."
+          "Phase 1 - Program Design": "Construct a twelve week training calendar incorporating strength, agility, and recovery days.",
+          "Phase 2 - Journal Maintenance": "Record daily practice durations, running mileage, skill repetitions, and subjective fatigue ratings.",
+          "Phase 3 - Skill Refinement": "Execute isolated technical drills weekly under coach observation to perfect mechanical execution.",
+          "Phase 4 - Season Review": "Present completed training charts to your counselor to analyze physical and psychological progress."
         },
-        "sample_output": "Seasonal Training, Technique, and Competition: Do you know the best grip for your racket, bat, or stick (p. 45).",
-        "counselor_tip": "For Sports Requirement 5 (Seasonal Training, Technique, and Competition), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82))."
+        "sample_output": "Executing a three-month training program requires structured progression, consistent metric logging, and technical coaching. Athletes document equipment, study venue dimensions, practice sportsmanship, and evaluate mental and physical growth across the season.",
+        "counselor_tip": "During the Sports Requirement 5 conference on Seasonal Athletic Training Execution, verify that the Scout can explain training periodization method and demonstrate season review: Present completed training charts to your counselor to analyze physical and psychological progress."
       },
       "quiz_item": {
         "scenario_prompt": "What strategy does the Sports merit badge pamphlet recommend to solidify your understanding of a sport's grip, stance, and technique before demonstrating it to your counselor?",
@@ -2632,19 +2630,20 @@
         "Step 4 - Lifestyle Planning: Create a long-term recreational activity plan maintaining personal fitness and social engagement adulthood."
       ],
       "gear_checklist": [
-        "Official Sports merit badge pamphlet and training log for Req 6.",
         "Supportive athletic footwear, breathable workout apparel, and water bottle.",
         "Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.",
         "Recorded baseline and progress measurements for Sports Careers and Lifelong Fitness."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Athletic Professional Career",
+        "left_header": "Req 6a: Athletic Professional Career Research",
         "right_header": "Req 6b: Lifelong Athletic Hobby Pursuits",
         "left_points": [
-          "(6a) Athletic Professional Career Research: Athletic career exploration covers requirements for vocations such as sports medicine, strength coaching, and athletic administration. Research highlights necessary university degrees, state licensure, practical clinical apprenticeships, and associated educational costs."
+          "(6a) Athletic Professional Career Research: Athletic career exploration covers requirements for vocations such as sports medicine, strength coaching, and athletic administration. Research highlights necessary university degrees, state licensure, practical clinical apprenticeships, and associated educational costs.",
+          "Sports Medicine Careers: Certified athletic trainers require specialized degrees, clinical internships, and board licensing to practice."
         ],
         "right_points": [
-          "(6b) Lifelong Athletic Hobby Pursuits: Athletic skills acquired in youth support lifelong wellness through adult sports leagues, refereeing, and personal fitness hobbies. Investigating community clubs reveals modest annual equipment fees and abundant opportunities for social wellness."
+          "(6b) Lifelong Athletic Hobby Pursuits: Athletic skills acquired in youth support lifelong wellness through adult sports leagues, refereeing, and personal fitness hobbies. Investigating community clubs reveals modest annual equipment fees and abundant opportunities for social wellness.",
+          "Recreational Lifetime Participation: Community sports leagues provide sustainable physical activity, social connection, and stress relief opportunities."
         ],
         "rows": [
           {
@@ -2654,25 +2653,27 @@
           },
           {
             "attribute": "Biomechanics Analysis Field",
-            "left": "Req 6a: Athletic Professional Career: Athletic career exploration covers requirements for vocations such as sports medicine, strength coaching, and athletic administration. Research highlights necessary university degrees, state licensure, practical clinical apprenticeships, and associated educational costs.",
-            "right": "Req 6b: Lifelong Athletic Hobby: Athletic skills acquired in youth support lifelong wellness through adult sports leagues, refereeing, and personal fitness hobbies. Investigating community clubs reveals modest annual equipment fees and abundant opportunities for social wellness."
+            "left": "Sports Medicine Careers: Certified athletic trainers require specialized degrees, clinical internships, and board licensing to practice.",
+            "right": "Recreational Lifetime Participation: Community sports leagues provide sustainable physical activity, social connection, and stress relief opportunities."
           },
           {
             "attribute": "Recreational Lifetime Participation",
-            "left": "Sports Medicine Careers: Certified athletic trainers require specialized degrees, clinical internships, and board licensing to practice.",
-            "right": "Biomechanics Analysis Field: Sports biomechanists analyze human kinetic data to enhance equipment design and prevent injuries."
+            "left": "Recreational Lifetime Participation: Community sports leagues provide sustainable physical activity, social connection, and stress relief opportunities.",
+            "right": "Athletic Administration Path: Sports facility directors manage operational budgets, safety compliance, scheduling, and risk mitigation programs."
           }
         ]
       },
       "worked_example": {
-        "title": "Sports Req 6 Exemplar Workbook Entry: Sports Careers",
+        "title": "Sports Req 6 Worked Example: Sports Careers Lifetime Pursuits",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 6a - Athletic Professional Career": "Athletic career exploration covers requirements for vocations such as sports medicine, strength coaching, and athletic administration. Research highlights necessary university degrees, state licensure, practical clinical apprenticeships, and associated educational costs.",
-          "Req 6b - Lifelong Athletic Hobby": "Athletic skills acquired in youth support lifelong wellness through adult sports leagues, refereeing, and personal fitness hobbies. Investigating community clubs reveals modest annual equipment fees and abundant opportunities for social wellness."
+          "Phase 1 - Career Exploration": "Identify three professional vocations utilizing sports science, athletic administration, or kinesiology expertise.",
+          "Phase 2 - Credential Research": "Investigate required college degrees, state licensing exams, and clinical internship hours for one vocation.",
+          "Phase 3 - Financial Analysis": "Outline entry expenses including university tuition, professional association memberships, and specialized equipment costs.",
+          "Phase 4 - Lifestyle Planning": "Create a long-term recreational activity plan maintaining personal fitness and social engagement adulthood."
         },
-        "sample_output": "Sports Careers and Lifelong Fitness: Setgoals for yourself in your development and realize that even the professionals practice and train for years to get where they (p. 25).",
-        "counselor_tip": "For Sports Requirement 6 (Sports Careers and Lifelong Fitness), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75))."
+        "sample_output": "Sports offer diverse professional career paths across medicine, coaching, kinesiology, data analytics, and facility administration. Participating in athletic hobbies throughout adulthood maintains cardiovascular health, reduces mental stress, and builds community camaraderie.",
+        "counselor_tip": "During the Sports Requirement 6 conference on Sports Careers Lifetime Pursuits, verify that the Scout can explain sports medicine careers and demonstrate lifestyle planning: Create a long-term recreational activity plan maintaining personal fitness and social engagement adulthood."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Sports merit badge pamphlet emphasize writing down your personal training plan and development goals?",

@@ -32,7 +32,6 @@
 ### Req 1: Community Architectural Style Survey
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire. (b) Select a historical architectural achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this achievement has influenced the world today. Tell your counselor what you learned.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Maintain pedestrian awareness on active sidewalks, avoid trespassing onto private parcels, and remain behind marked public boundaries during field observations.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Architectural style is merely decorative exterior trim applied over identical wooden frames.
 - **Pamphlet Fact:** Style reflects structural engineering traditions, regional climate needs, and indigenous building material availability.
@@ -47,15 +46,8 @@
 **Official Requirement 1a:** Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Field Sketch & Diagram Canvas):** Req 1a Hands-On Skill Station & EDGE Verification Checklist (Tour Your Community)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Older buildings always fall into the Victorian style category.
-- **Pamphlet Fact:** American architectural history includes Federal, Italianate, Craftsman, and Art Deco styles with distinct structural hallmarks.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Architecture Merit Badge: Tour Your Community.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Tour Your Community.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Architecture Requirement 1 figure showing exterior moldings and window pediments reveal specific construction eras in regional.](/assets/pamphlet_images/architecture_p003_img1.png)
+![Exterior moldings and window pediments reveal specific construction eras in regional neighborhoods.](/assets/pamphlet_images/architecture_p003_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -77,8 +69,6 @@
 **Official Requirement 1b:** Select a historical architectural achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this achievement has influenced the world today. Tell your counselor what you learned.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Historical Architectural Achievement That Has)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 1b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Ancient architectural monuments functioned purely as religious art without practical engineering utility.
-- **Pamphlet Fact:** Masterworks like the Roman Pantheon advanced concrete domes and interior gathering spaces that shaped civic life.
 
 | Req 1b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -91,7 +81,6 @@
 ### Req 2: Sustainable Design and Conservation
 **Official Requirement 2 (Parent Overview):** In following the Leave No Trace Seven Principles and the Outdoor Code, Scouts pledge to "Travel and camp on durable surfaces" and to "Leave what you find" and to "Be conservation-minded." Discuss the following with your counselor: (a) The term sustainable architecture. Identify three features typical of green buildings. (b) The difference between renewable building materials and recycled building materials, and how each can be used in construction. (c) The relationship of architecture with its surrounding environment and the community. (d) How entire buildings can be reused rather than torn down when they no longer serve their original purpose.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Examine older structures slated for renovation from safe perimeters to avoid airborne asbestos fibers, mold spores, or peeling lead paint.
 - **Common Myth:** Green architecture depends exclusively on expensive rooftop photovoltaic panels and computer sensors.
 - **Pamphlet Fact:** Passive solar design, natural cross-ventilation, and high thermal mass reduce carbon footprints without mechanical systems.
 
@@ -104,10 +93,8 @@
 #### Req 2a: Green Building System Fundamentals
 **Official Requirement 2a:** The term sustainable architecture. Identify three features typical of green buildings.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Sustainable Architecture Identify Three Features)
-- **Common Myth:** Sustainable buildings cost drastically more to operate throughout their useful structural lifespan.
-- **Pamphlet Fact:** Reduced utility consumption and durable envelopes significantly lower long-term operating and maintenance expenses.
 
-![Architecture Requirement 2 figure showing placing large glazed openings along southern walls maximizes natural winter daytime heating.](/assets/pamphlet_images/architecture_p007_img1.png)
+![Placing large glazed openings along southern walls maximizes natural winter daytime heating.](/assets/pamphlet_images/architecture_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -119,8 +106,6 @@
 #### Req 2b: Renewable and Recycled Materials
 **Official Requirement 2b:** The difference between renewable building materials and recycled building materials, and how each can be used in construction.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Renewable Building Materials and Recycled)
-- **Common Myth:** Recycled construction materials have inferior structural strength compared to virgin mined substances.
-- **Pamphlet Fact:** Structural steel containing recycled scrap provides identical tensile strength and ductility to virgin manufactured steel.
 
 | Comparison Dimension | Rapidly Renewable Building Materials | Reclaimed and Recycled Construction Materials |
 | :--- | :--- | :--- |
@@ -131,8 +116,6 @@
 #### Req 2c: Environmental and Community Context
 **Official Requirement 2c:** The relationship of architecture with its surrounding environment and the community.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Relationship of Architecture with Its)
-- **Common Myth:** Architects only focus on property boundaries rather than adjacent streets or watersheds.
-- **Pamphlet Fact:** Zoning codes, stormwater runoff patterns, and neighbor sightlines dictate building height, setbacks, and massing.
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -143,8 +126,6 @@
 #### Req 2d: Adaptive Reuse and Preservation
 **Official Requirement 2d:** How entire buildings can be reused rather than torn down when they no longer serve their original purpose.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Entire Buildings Can Be Reused)
-- **Common Myth:** Demolishing an old structure and rebuilding from scratch is always cheaper and greener.
-- **Pamphlet Fact:** Salvaging structural framing conserves embodied energy already spent extracting, fabricating, and transporting original materials.
 
 | Req 2d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -155,7 +136,6 @@
 ### Req 3: Professional Architectural Practice Exploration
 **Official Requirement 3 (Parent Overview):** Do ONE of the following: (a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect. Ask to see the scale model of a building and the drawings that a builder would use to construct this building. Discuss why the different building materials were selected. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction. (b) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site. Ask the architect to bring drawings that the builder uses to construct the building. While at the site, discuss why the different building materials being used were selected. Discuss how the different building materials and components are attached to each other during construction. Note: To visit a construction site will require advance planning. You will need permission from a parent or guardian, counselor, the architect, and the construction site manager. A construction site is a very dangerous place. While there, you will need to closely follow the site manager's directions and comply with all the safety procedures, including wearing a hard hat, protective eyewear, and proper footwear. Be aware of the changing conditions at the site, and stay with the architect or site manager. (c) Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect. Find out what your client's requirements would be for designing a new home or business building. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions relate to one another, and the goals of the project.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Wear an OSHA-approved hard hat, high-visibility vest, safety glasses, and steel-toed work boots when visiting an active construction site.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Architects produce finished building blueprints in a single draft without extensive client revisions.
 - **Pamphlet Fact:** Design progresses iteratively through schematic design, design development, and detailed construction documentation phases.
@@ -170,10 +150,8 @@
 **Official Requirement 3a:** With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect. Ask to see the scale model of a building and the drawings that a builder would use to construct this building. Discuss why the different building materials were selected. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Permission and Approval Arrange to)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 3a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Architects spend all their workdays drawing pretty pictures by hand.
-- **Pamphlet Fact:** Professional architects coordinate engineering calculations, local zoning codes, contractor submittals, and material budgets.
 
-![Architecture Requirement 3 figure showing working drawings detail dimensions, wall cross-sections, and finish schedules for trade.](/assets/pamphlet_images/architecture_p012_img1.png)
+![Working drawings detail dimensions, wall cross-sections, and finish schedules for trade contractors.](/assets/pamphlet_images/architecture_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -188,8 +166,6 @@
 **Official Requirement 3b:** With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site. Ask the architect to bring drawings that the builder uses to construct the building. While at the site, discuss why the different building materials being used were selected. Discuss how the different building materials and components are attached to each other during construction. Note: To visit a construction site will require advance planning. You will need permission from a parent or guardian, counselor, the architect, and the construction site manager. A construction site is a very dangerous place. While there, you will need to closely follow the site manager's directions and comply with all the safety procedures, including wearing a hard hat, protective eyewear, and proper footwear. Be aware of the changing conditions at the site, and stay with the architect or site manager.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Permission and Approval Arrange to)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 3b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** General contractors can alter wall locations on site without consulting the architect.
-- **Pamphlet Fact:** Any structural field deviation requires a formal change order and architect approval to maintain building integrity.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -203,8 +179,6 @@
 #### Req 3c: Client Program Interview Process
 **Official Requirement 3c:** Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect. Find out what your client's requirements would be for designing a new home or business building. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions relate to one another, and the goals of the project.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Someone Who Might Be Your)
-- **Common Myth:** Clients give architects exact dimensions and wall placements during initial programming meetings.
-- **Pamphlet Fact:** Clients describe functional desires and budget constraints, leaving spatial layout and structural solutions to the architect.
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -217,7 +191,6 @@
 ### Req 4: Measured Room Floor Plan
 **Official Requirement 4:** Measure a room such as one where you live or where your troop meets. Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing. (Drawing scale: ¼ inch = 1 foot)
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Room Such As One Where)
-> **Guide to Safe Scouting Warning:** Control spring-loaded steel tape rule blade retraction slowly to prevent sharp metal edge lacerations and finger cuts.
 - **Common Myth:** Floor plans show a view looking straight down from the ceiling rafters.
 - **Pamphlet Fact:** A floor plan is a horizontal section cut roughly four feet above the floor plane.
 
@@ -241,7 +214,6 @@
 ### Req 5: Architectural Career Pathway Analysis
 **Official Requirement 5:** Find out about three career opportunities in architecture. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Career & Profession Exploration Card):** Req 5 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Maintain ergonomic posture, proper monitor eye level, and take scheduled wrist breaks to prevent repetitive strain injury during drafting.
 - **Common Myth:** Graduating with any four-year college drafting degree automatically grants the legal title of architect.
 - **Pamphlet Fact:** The title of architect requires completing an accredited professional degree, completing documented internships, and passing state licensing exams.
 

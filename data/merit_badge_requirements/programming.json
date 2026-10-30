@@ -275,7 +275,6 @@
         "Step 4 - Timer Configuration: Set recurring alerts prompting mandatory physical standing stretches every forty minutes."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 1.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Digital Safety and Injury Prevention."
@@ -284,38 +283,42 @@
         "left_header": "Req 1a: Digital Safety Video Instruction",
         "right_header": "Req 1b: Ergonomics and Injury Prevention",
         "left_points": [
-          "(1a) Digital Safety Video Instruction: Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables."
+          "(1a) Digital Safety Video Instruction: Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
+          "Digital Privacy Rule: Never share passwords or home location details in public forum profiles."
         ],
         "right_points": [
-          "(1b) Ergonomics And Injury Prevention: Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
+          "(1b) Ergonomics and Injury Prevention: Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals.",
+          "Twenty Minute Pause: Look at objects twenty feet away to relieve ocular fatigue."
         ],
         "rows": [
           {
             "attribute": "Digital Privacy Rule",
             "left": "(1a) Digital Safety Video Instruction: Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
-            "right": "(1b) Ergonomics And Injury Prevention: Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
+            "right": "(1b) Ergonomics and Injury Prevention: Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
           },
           {
             "attribute": "Ergonomic Display Angle",
-            "left": "Req 1a: Digital Safety Video: Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
-            "right": "Req 1b: Ergonomics And Injury: Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
+            "left": "Digital Privacy Rule: Never share passwords or home location details in public forum profiles.",
+            "right": "Twenty Minute Pause: Look at objects twenty feet away to relieve ocular fatigue."
           },
           {
             "attribute": "Twenty Minute Pause",
-            "left": "Digital Privacy Rule: Never share passwords or home location details in public forum profiles.",
-            "right": "Ergonomic Display Angle: Position monitors at eye level to prevent persistent cervical spine strain."
+            "left": "Twenty Minute Pause: Look at objects twenty feet away to relieve ocular fatigue.",
+            "right": "Neutral Joint Position: Keep wrists parallel to desk surfaces to avoid damaging median nerves."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 1 Exemplar Workbook Entry: Digital",
+        "title": "Programming Req 1 Worked Example: Computer Safety and Ergonomics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Digital Safety Video": "Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
-          "Req 1b - Ergonomics and Injury": "Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
+          "Phase 1 - Ergonomic Chair Setup": "Adjust seat height until feet rest completely flat across floor boards.",
+          "Phase 2 - Monitor Alignment": "Position screen top bezel at natural eye level twenty inches away.",
+          "Phase 3 - Cable Routing": "Route power lines away from footpaths to avoid dangerous tripping hazards.",
+          "Phase 4 - Timer Configuration": "Set recurring alerts prompting mandatory physical standing stretches every forty minutes."
         },
-        "sample_output": "Digital Safety and Injury Prevention: The main programming-related injuries are repetitive stress injuries, or RSIs (p. 88).",
-        "counselor_tip": "For Programming Requirement 1 (Digital Safety and Injury Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89))."
+        "sample_output": "Programmers must maintain neutral wrist alignments and proper monitor distances to prevent cumulative ergonomic trauma. Safe computing habits include shielding sensitive personal information and following parental guidelines during online sessions.",
+        "counselor_tip": "During the Programming Requirement 1 conference on Computer Safety and Ergonomics, verify that the Scout can explain digital privacy rule and demonstrate timer configuration: Set recurring alerts prompting mandatory physical standing stretches every forty minutes."
       },
       "quiz_item": {
         "scenario_prompt": "While writing code for several hours and incorporating third-party libraries into your project, how should you protect both your physical health and software intellectual property?",
@@ -419,7 +422,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain stable desk seating and organized cabling while examining vintage hardware displays or legacy computer apparatus.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20)",
       "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20)",
       "syllabus_bucket": "In-Class Concept",
@@ -484,53 +487,50 @@
         "Step 4 - Counselor Presentation: Explain milestone impacts on modern application development during your patrol review session."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 2.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Evolution of Programming Languages."
       ],
       "comparison_data": {
-        "left_header": "Req 2: Thousands of Languages Developed",
-        "right_header": "Req 2: Trace Early Assembly Roots",
+        "left_header": "History of Programming Languages: Core Principles",
+        "right_header": "History of Programming Languages: Field Execution",
         "left_points": [
-          "Thousands of Languages Developed: As of the printing of this merit badge pamphlet, more than 2,500 programming languages have been developed (p. 18).",
-          "Mid-Century Language Pioneers: By the 1950s and 1960s, many new languages were being introduced, including BASIC, Fortran, and LISP (p. 18).",
-          "Moving Beyond Machine Assembly: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18)."
+          "Analytical Engine Concept: Ada Lovelace authored the earliest machine algorithm designed for mechanical calculation.",
+          "Compiler Invention Impact: Grace Hopper developed early language translation systems converting English words into bytecode."
         ],
         "right_points": [
-          "Trace Early Assembly Roots: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18).",
-          "Compare Cross-Platform Portability: That is, programs written in these languages could runon two or more kinds of processors or with two or more kinds of operating systems (p. 18).",
-          "Examine Computer Science Concepts: Many languages, such as Pascal, we recreated to capture new concepts of computer science (p. 18)."
+          "Stored Program Architecture: John von Neumann structured computer memory to store both instructions and data.",
+          "High Level Evolution: Fortran enabled engineers to write mathematical expressions instead of raw machine instructions."
         ],
         "rows": [
           {
             "attribute": "Analytical Engine Concept",
-            "left": "Thousands of Languages Developed: As of the printing of this merit badge pamphlet, more than 2,500 programming languages have been developed (p. 18).",
-            "right": "Trace Early Assembly Roots: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18)."
+            "left": "Analytical Engine Concept: Ada Lovelace authored the earliest machine algorithm designed for mechanical calculation.",
+            "right": "Stored Program Architecture: John von Neumann structured computer memory to store both instructions and data."
           },
           {
             "attribute": "Compiler Invention Impact",
-            "left": "Mid-Century Language Pioneers: By the 1950s and 1960s, many new languages were being introduced, including BASIC, Fortran, and LISP (p. 18).",
-            "right": "Compare Cross-Platform Portability: That is, programs written in these languages could runon two or more kinds of processors or with two or more kinds of operating systems (p. 18)."
+            "left": "Compiler Invention Impact: Grace Hopper developed early language translation systems converting English words into bytecode.",
+            "right": "High Level Evolution: Fortran enabled engineers to write mathematical expressions instead of raw machine instructions."
           },
           {
             "attribute": "Stored Program Architecture",
-            "left": "Moving Beyond Machine Assembly: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18).",
-            "right": "Examine Computer Science Concepts: Many languages, such as Pascal, we recreated to capture new concepts of computer science (p. 18)."
+            "left": "Stored Program Architecture: John von Neumann structured computer memory to store both instructions and data.",
+            "right": "High Level Evolution: Fortran enabled engineers to write mathematical expressions instead of raw machine instructions."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 2 Exemplar Workbook Entry: Evolution",
+        "title": "Programming Req 2 Worked Example: History of Programming Languages",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Thousands of Languages Developed": "As of the printing of this merit badge pamphlet, more than 2,500 programming languages have been developed (p. 18).",
-          "Mid-Century Language Pioneers": "By the 1950s and 1960s, many new languages were being introduced, including BASIC, Fortran, and LISP (p. 18).",
-          "Moving Beyond Machine Assembly": "These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18).",
-          "Cross-Platform Program Portability": "That is, programs written in these languages could runon two or more kinds of processors or with two or more kinds of operating systems (p. 18)."
+          "Phase 1 - Timeline Selection": "Identify three major milestones across distinct decades of computer science history.",
+          "Phase 2 - Technical Context Research": "Document the exact hardware limitations that forced engineers toward software innovations.",
+          "Phase 3 - Evolution Analysis": "Trace how machine language abstractions progressed into modern high level compiled code.",
+          "Phase 4 - Counselor Presentation": "Explain milestone impacts on modern application development during your patrol review session."
         },
-        "sample_output": "Evolution of Programming Languages: As of the printing of this merit badge pamphlet, more than 2,500 programming languages have been developed (p. 18).",
-        "counselor_tip": "For Programming Requirement 2 (Evolution of Programming Languages), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20))."
+        "sample_output": "Programming evolved from mechanical punch cards and machine code toward human readable structured programming languages. Key milestones include compiler development, structural language standardization, and modern high level object oriented paradigms.",
+        "counselor_tip": "During the Programming Requirement 2 conference on History of Programming Languages, verify that the Scout can explain analytical engine concept and demonstrate counselor presentation: Explain milestone impacts on modern application development during your patrol review session."
       },
       "quiz_item": {
         "scenario_prompt": "What major advantage did 1950s and 1960s languages like BASIC, Fortran, and LISP introduce over earlier binary and assembly coding?",
@@ -760,7 +760,7 @@
       "action_verb": "List",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Disconnect household appliances from wall power before examining microcontroller housing panels or wiring harnesses.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
       "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
       "syllabus_bucket": "In-Class Concept",
@@ -825,47 +825,50 @@
         "Step 4 - Embedded Operation Analysis: Describe sensor inputs and mechanical actuator responses governed by each device firmware."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 3.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Modern Languages and Everyday Devices."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Popular Languages and Industries",
-        "right_header": "Req 3b: Programmed Daily Embedded",
+        "right_header": "Req 3b: Programmed Daily Embedded Devices",
         "left_points": [
-          "(3a) Popular Languages And Industries: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems."
+          "(3a) Popular Languages and Industries: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
+          "Enterprise Language Domain: Java provides robust type safety across large distributed commercial banking architectures."
         ],
         "right_points": [
-          "(3b) Programmed Daily Embedded Devices: Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
+          "(3b) Programmed Daily Embedded Devices: Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components.",
+          "System Programming Role: C delivers bare metal execution efficiency inside microcontrollers and operating system kernels."
         ],
         "rows": [
           {
             "attribute": "Enterprise Language Domain",
-            "left": "(3a) Popular Languages And Industries: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
+            "left": "(3a) Popular Languages and Industries: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
             "right": "(3b) Programmed Daily Embedded Devices: Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
           },
           {
             "attribute": "Data Analysis Standard",
-            "left": "Req 3a: Popular Languages: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
-            "right": "Req 3b: Programmed Daily Embedded: Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
+            "left": "Enterprise Language Domain: Java provides robust type safety across large distributed commercial banking architectures.",
+            "right": "System Programming Role: C delivers bare metal execution efficiency inside microcontrollers and operating system kernels."
           },
           {
             "attribute": "System Programming Role",
-            "left": "Enterprise Language Domain: Java provides robust type safety across large distributed commercial banking architectures.",
-            "right": "Data Analysis Standard: Python dominates machine learning environments due to extensive mathematical scientific libraries."
+            "left": "System Programming Role: C delivers bare metal execution efficiency inside microcontrollers and operating system kernels.",
+            "right": "Embedded Controller Logic: Digital thermostats execute firmware control loops reading sensors to switch physical relays."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 3 Exemplar Workbook Entry: Modern",
+        "title": "Programming Req 3 Worked Example: Programming Languages and Applications",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Popular Languages": "Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
-          "Req 3b - Programmed Daily Embedded": "Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
+          "Phase 1 - Language Identification": "Select five distinct programming languages utilized across differing modern industrial sectors.",
+          "Phase 2 - Industrial Role Matching": "Document specific reasons each chosen language fits its target industry ecosystem.",
+          "Phase 3 - Appliance Hardware Audit": "Choose three household programmed devices containing dedicated embedded microcontroller processor boards.",
+          "Phase 4 - Embedded Operation Analysis": "Describe sensor inputs and mechanical actuator responses governed by each device firmware."
         },
-        "sample_output": "Modern Languages and Everyday Devices: The billions of mobile devices in use around the world all need to be programmed (p. 35).",
-        "counselor_tip": "For Programming Requirement 3 (Modern Languages and Everyday Devices), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68))."
+        "sample_output": "Different programming languages solve distinct operational challenges ranging from systems engineering to machine learning pipelines. Everyday appliances execute compiled firmware loops inside embedded processors to control electrical and mechanical hardware.",
+        "counselor_tip": "During the Programming Requirement 3 conference on Programming Languages and Applications, verify that the Scout can explain enterprise language domain and demonstrate embedded operation analysis: Describe sensor inputs and mechanical actuator responses governed by each device firmware."
       },
       "quiz_item": {
         "scenario_prompt": "How does mobile application development typically differ from traditional standal one programming?",
@@ -1187,7 +1190,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Download source code and precompiled binaries exclusively from signed, official repositories to prevent malicious payload execution.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
       "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
       "syllabus_bucket": "In-Class Concept",
@@ -1254,19 +1257,20 @@
         "Step 4 - Ethics Evaluation Review: Present reasons why developers must respect license notices and creator attribution terms."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 4.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Software Licensing and Intellectual Property."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Intellectual Property Protection",
-        "right_header": "Req 4b: Software Licensing Versus",
+        "left_header": "Req 4a: Intellectual Property Protection Types",
+        "right_header": "Req 4b: Software Licensing Versus Ownership",
         "left_points": [
-          "(4a) Intellectual Property Protection Types: Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering."
+          "(4a) Intellectual Property Protection Types: Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
+          "Copyright Code Protection: Copyright protects original source text against unauthorized direct duplication or redistribution."
         ],
         "right_points": [
-          "(4b) Software Licensing Versus Ownership: Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer."
+          "(4b) Software Licensing Versus Ownership: Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer.",
+          "(4c) Software Distribution Models Comparison: Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions."
         ],
         "rows": [
           {
@@ -1276,26 +1280,27 @@
           },
           {
             "attribute": "Patent Functional Scope",
-            "left": "Req 4a: Intellectual Property: Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
-            "right": "Req 4b: Software Licensing Versus: Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer."
+            "left": "Copyright Code Protection: Copyright protects original source text against unauthorized direct duplication or redistribution.",
+            "right": "(4c) Software Distribution Models Comparison: Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions."
           },
           {
             "attribute": "License Permission Boundaries",
-            "left": "Req 4c: Software Distribution Models: Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions.",
-            "right": "Patent Functional Scope: Patents safeguard novel algorithmic processes rather than specific written line implementations."
+            "left": "License Permission Boundaries: Software licenses grant limited operational rights without transferring intellectual property ownership.",
+            "right": "Open Source Obligations: Permissive licenses require preserving copyright notices while copyleft rules mandate source distribution."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 4 Exemplar Workbook Entry: Software",
+        "title": "Programming Req 4 Worked Example: Software Intellectual Property Law",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Intellectual Property": "Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
-          "Req 4b - Software Licensing Versus": "Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer.",
-          "Req 4c - Software Distribution Models": "Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions."
+          "Phase 1 - Legal Category Definition": "Identify core differences separating copyright, patent, trademark, and trade secret protections.",
+          "Phase 2 - License Agreement Audit": "Examine an end user license agreement to identify granted rights versus restrictions.",
+          "Phase 3 - Distribution Model Comparison": "Contrast open source license requirements against closed source commercial distribution rules.",
+          "Phase 4 - Ethics Evaluation Review": "Present reasons why developers must respect license notices and creator attribution terms."
         },
-        "sample_output": "Software Licensing and Intellectual Property: Software developers do not sell DVDs or other storage media (p. 84).",
-        "counselor_tip": "For Programming Requirement 4 (Software Licensing and Intellectual Property), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85))."
+        "sample_output": "Software developers rely on patents, copyrights, trademarks, and trade secrets to protect distinct legal aspects of their work. Licensing grants specific operational permissions rather than ownership, requiring users to respect proprietary and open source distribution conditions.",
+        "counselor_tip": "During the Programming Requirement 4 conference on Software Intellectual Property Law, verify that the Scout can explain copyright code protection and demonstrate ethics evaluation review: Present reasons why developers must respect license notices and creator attribution terms."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Programming merit badge pamphlet compare software licensing to renting a bicycle rather than buying one?",
@@ -1612,7 +1617,7 @@
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Ensure test programs containing hardware input output loops do not overheat computer components or write endless disk logs.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
       "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1679,19 +1684,20 @@
         "Step 4 - Functional Demonstration: Demonstrate program execution to your counselor while explaining underlying algorithmic decision structures."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 5.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Writing and Debugging Multi-Language Programs."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: First Language Program",
-        "right_header": "Req 5b: Second Language Program",
+        "left_header": "Req 5a: First Language Program Implementation",
+        "right_header": "Req 5b: Second Language Program Implementation",
         "left_points": [
-          "(5a) First Language Program Implementation: Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior."
+          "(5a) First Language Program Implementation: Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
+          "Integrated Environment Role: Integrated development environments combine code editing, automated syntax highlighting, and debugging tools."
         ],
         "right_points": [
-          "(5b) Second Language Program Implementation: Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing."
+          "(5b) Second Language Program Implementation: Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing.",
+          "(5c) Third Language Program Implementation: The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements."
         ],
         "rows": [
           {
@@ -1701,26 +1707,27 @@
           },
           {
             "attribute": "Variable Typing Rule",
-            "left": "Req 5a: First Language Program: Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
-            "right": "Req 5b: Second Language Program: Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing."
+            "left": "Integrated Environment Role: Integrated development environments combine code editing, automated syntax highlighting, and debugging tools.",
+            "right": "(5c) Third Language Program Implementation: The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements."
           },
           {
             "attribute": "Conditional Branching Logic",
-            "left": "Req 5c: Third Language Program: The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements.",
-            "right": "Variable Typing Rule: Strict variable types prevent mathematical operations on mismatched textual data values."
+            "left": "Conditional Branching Logic: Conditional statements guide program execution flows based on evaluated boolean expressions.",
+            "right": "Systematic Debugging Method: Step through code line by line while monitoring changing memory variable states."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 5 Exemplar Workbook Entry: Writing",
+        "title": "Programming Req 5 Worked Example: Software Development Project Practice",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - First Language Program": "Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
-          "Req 5b - Second Language Program": "Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing.",
-          "Req 5c - Third Language Program": "The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements."
+          "Phase 1 - Environment Configuration": "Install the editor compiler toolchain for your first chosen programming language.",
+          "Phase 2 - Algorithm Logic Implementation": "Write source code incorporating user input, conditional branches, and iterative loops.",
+          "Phase 3 - Systematic Debugging Pass": "Run the interactive debugger to isolate syntax errors and incorrect variable assignments.",
+          "Phase 4 - Functional Demonstration": "Demonstrate program execution to your counselor while explaining underlying algorithmic decision structures."
         },
-        "sample_output": "Writing and Debugging Multi-Language Programs: The roots of modern programming stretch back to before the first computers (p. 14).",
-        "counselor_tip": "For Programming Requirement 5 (Writing and Debugging Multi-Language Programs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18))."
+        "sample_output": "Scouts gain hands on engineering proficiency by writing, compiling, and debugging projects across three distinct programming languages. Projects demonstrate fundamental concepts including variable initialization, conditional branching, repetitive iteration loops, and structured functional decomposition.",
+        "counselor_tip": "During the Programming Requirement 5 conference on Software Development Project Practice, verify that the Scout can explain integrated environment role and demonstrate functional demonstration: Demonstrate program execution to your counselor while explaining underlying algorithmic decision structures."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary role of a programming language when a developer writes a software program?",
@@ -1990,7 +1997,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow ergonomic recommendations and schedule screen time limits to prevent sedentary health problems during career exploration.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
       "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2064,47 +2071,50 @@
         "Step 4 - Career Summary Documentation: Prepare a structured report detailing required technical skills and daily job responsibilities."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 6.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Programming Careers and Personal Hobbies."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Software Engineering Career",
+        "left_header": "Req 6a: Software Engineering Career Exploration",
         "right_header": "Req 6b: Computing Hobbies and Lifestyle",
         "left_points": [
-          "(6a) Software Engineering Career Exploration: Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards."
+          "(6a) Software Engineering Career Exploration: Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
+          "Degree Pathway Focus: Computer science degree curricula prioritize discrete mathematics, data structures, and algorithmic complexity."
         ],
         "right_points": [
-          "(6b) Computing Hobbies And Lifestyle: Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
+          "(6b) Computing Hobbies and Lifestyle: Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement.",
+          "Quality Assurance Duty: Testing engineers write automated scripts to identify software bugs before customer deployments."
         ],
         "rows": [
           {
             "attribute": "Degree Pathway Focus",
             "left": "(6a) Software Engineering Career Exploration: Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
-            "right": "(6b) Computing Hobbies And Lifestyle: Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
+            "right": "(6b) Computing Hobbies and Lifestyle: Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
           },
           {
             "attribute": "Apprenticeship Value",
-            "left": "Req 6a: Software Engineering Career: Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
-            "right": "Req 6b: Computing Hobbies: Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
+            "left": "Degree Pathway Focus: Computer science degree curricula prioritize discrete mathematics, data structures, and algorithmic complexity.",
+            "right": "Quality Assurance Duty: Testing engineers write automated scripts to identify software bugs before customer deployments."
           },
           {
             "attribute": "Quality Assurance Duty",
-            "left": "Degree Pathway Focus: Computer science degree curricula prioritize discrete mathematics, data structures, and algorithmic complexity.",
-            "right": "Apprenticeship Value: Practical coding bootcamps and open source contributions provide alternative career entry points."
+            "left": "Quality Assurance Duty: Testing engineers write automated scripts to identify software bugs before customer deployments.",
+            "right": "Hobby Project Community: Open robotics clubs build applied programming skills outside commercial enterprise environments."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 6 Exemplar Workbook Entry: Programming",
+        "title": "Programming Req 6 Worked Example: Careers and Hobbies in Computing",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 6a - Software Engineering Career": "Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
-          "Req 6b - Computing Hobbies": "Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
+          "Phase 1 - Career Track Selection": "Choose one computer science specialization such as mobile engineering or database administration.",
+          "Phase 2 - Educational Path Analysis": "Research requisite academic degrees, vocational certifications, and expected financial training expenses.",
+          "Phase 3 - Compensation Investigation": "Examine regional entry level salaries, expected promotion milestones, and long term employment growth.",
+          "Phase 4 - Career Summary Documentation": "Prepare a structured report detailing required technical skills and daily job responsibilities."
         },
-        "sample_output": "Programming Careers and Personal Hobbies: And that means programmers are used everywhere, too (p. 78).",
-        "counselor_tip": "For Programming Requirement 6 (Programming Careers and Personal Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92))."
+        "sample_output": "Career exploration in software engineering encompasses software architecture, quality assurance, cybersecurity analysis, and database administration. Maintaining coding as a personal hobby promotes problem solving skills through robotics clubs, game design, and civic hacking projects.",
+        "counselor_tip": "During the Programming Requirement 6 conference on Careers and Hobbies in Computing, verify that the Scout can explain degree pathway focus and demonstrate career summary documentation: Prepare a structured report detailing required technical skills and daily job responsibilities."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Programming merit badge pamphlet, which statement best describes how people learn programming and find work in the field?",

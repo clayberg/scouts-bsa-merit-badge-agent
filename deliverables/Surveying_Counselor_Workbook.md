@@ -38,11 +38,6 @@
 - **Common Myth:** Beginners often believe standard office adhesive bandages provide adequate field treatment for survey injuries.
 - **Pamphlet Fact:** Survey parties require rugged trauma kits containing pressure bandages, splints, and insect bite treatments.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Surveying Merit Badge Pamphlet: First aid for the types.
-- [ ] Field notebook, verification log sheet, and demonstration materials for First aid for the types.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
 ![Illustrated panels depict field hazards including tick bites, spider venom, heat exhaustion, and proper campsite precautions.](/assets/ai_illustrations/surveying_req_1_nano_hero.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
@@ -74,15 +69,8 @@
 #### Req 2a: Total Station Radial Measurements
 **Official Requirement 2a:** Set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one of the other corners for reference and, using radial measurement methods, record the angle turned and the distance measured to each of the remaining corners, as directed by your counselor. Record the angle and distance to five topographic features (trees, shrubs, rocks, etc.) near your work area.
 **Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (Activity & Observation Log):** Req 2a Quantitative Field Observation & Activity Log (Instrument Over One of the)
-- **Common Myth:** Scouts sometimes believe rough visual centering over a stake produces acceptable boundary angle records.
-- **Pamphlet Fact:** Centering with an optical plummet or plumb bob within millimeters is mandatory for true boundary angles.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Surveying Merit Badge Pamphlet: Set an instrument.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Set an instrument.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Surveying Requirement 2 figure showing plumb the optical sight directly over the station tack before leveling footplates.](/assets/pamphlet_images/surveying_p007_img1.png)
+![Plumb the optical sight directly over the station tack before leveling footplates.](/assets/pamphlet_images/surveying_p007_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -94,8 +82,6 @@
 #### Req 2b: Satellite Position Distance Comparison
 **Official Requirement 2b:** Measure to three of the same points with GPS measurement and compare the distances between the points measured.
 **Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Same Points with GPS Measurement)
-- **Common Myth:** Beginners often assume recreational hand-held GPS receivers match the millimeter precision of optical surveying instruments.
-- **Pamphlet Fact:** Uncorrected handheld satellite receivers carry errors of several meters while surveying instruments measure within hundredths of a foot.
 
 ![A surveyor in safety gear uses hand signals to direct field work.](/assets/pamphlet_images/surveying_p020_img1.png)
 

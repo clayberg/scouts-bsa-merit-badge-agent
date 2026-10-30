@@ -7411,7 +7411,7 @@ def generate_counselor_workbook_markdown(
                 g_lbl = _format_starting_gate_label(gate.get("gate_type", "GATE"))
                 lines.append(f"> **Starting Gate ({g_lbl}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
             grp_mis = u.get("common_misconception_pair") or {}
-            if isinstance(grp_mis, dict) and grp_mis.get("misconception") and grp_mis.get("fact"):
+            if isinstance(grp_mis, dict) and grp_mis.get("misconception") and grp_mis.get("fact") and not u.get("is_sub_requirement"):
                 lines.append(f"- **Common Myth:** {grp_mis['misconception']}")
                 lines.append(f"- **Pamphlet Fact:** {grp_mis['fact']}")
             excerpts = u.get("pamphlet_excerpts") or []
@@ -7438,7 +7438,7 @@ def generate_counselor_workbook_markdown(
             g_lbl = _format_starting_gate_label(gate.get("gate_type", "GATE"))
             lines.append(f"> **Starting Gate ({g_lbl}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
         mis = u.get("common_misconception_pair") or {}
-        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact"):
+        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact") and not u.get("is_sub_requirement"):
             lines.append(f"- **Common Myth:** {mis['misconception']}")
             lines.append(f"- **Pamphlet Fact:** {mis['fact']}")
         gear_list = u.get("gear_checklist") or []
@@ -7571,7 +7571,7 @@ def generate_fillable_scout_workbook_html(
         if u.get("is_group_header"):
             grp_mis = u.get("common_misconception_pair") or {}
             grp_mis_html = ""
-            if isinstance(grp_mis, dict) and grp_mis.get("misconception") and grp_mis.get("fact"):
+            if isinstance(grp_mis, dict) and grp_mis.get("misconception") and grp_mis.get("fact") and not u.get("is_sub_requirement"):
                 grp_mis_html = (
                     '<div class="wb-misconception-strip" style="margin-top:8px; margin-bottom:2px;">'
                     f'<span class="wb-myth"><strong>Common Myth:</strong> {_html.escape(str(grp_mis["misconception"]))}</span> '
@@ -7642,7 +7642,7 @@ def generate_fillable_scout_workbook_html(
 
         mis = u.get("common_misconception_pair") or {}
         mis_html = ""
-        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact"):
+        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact") and not u.get("is_sub_requirement"):
             mis_html = (
                 '<div class="wb-misconception-strip">'
                 f'<span class="wb-myth"><strong>Common Myth:</strong> {_html.escape(str(mis["misconception"]))}</span> '

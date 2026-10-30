@@ -32,7 +32,6 @@
 ### Req 1: Fingerprint History and Identification Types
 **Official Requirement 1:** Give a short history of fingerprinting. Tell the difference between civil and criminal identification.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 13, p. 15)* • **Organizer (2-Column Comparison Table):** Req 1 Technical Comparison Matrix (Short History of Fingerprinting)
-> **Guide to Safe Scouting Warning:** Sanitize shared historical document replicas and archival displays to prevent allergic reactions or dust inhalation.
 - **Common Myth:** Fingerprint identification began exclusively as a police tool during modern nineteenth century criminal investigations.
 - **Pamphlet Fact:** Ancient civilizations used thumbprints on clay contracts thousands of years before modern forensic police systems existed.
 
@@ -54,7 +53,6 @@
 ### Req 2: Automated and Biometric Security Systems
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint systems used to control access to computers and places like buildings and airports. (b) Discuss how our society uses identification systems based on tokens, passwords, and biometrics.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Clean biometric optical glass sensors with alcohol wipes to avoid transferring pathogens between consecutive users.
 - **Common Myth:** A smartphone fingerprint scanner queries national police databases whenever an owner unlocks the device.
 - **Pamphlet Fact:** Consumer devices store mathematical templates locally to perform rapid one to one verification matches.
 
@@ -67,10 +65,8 @@
 #### Req 2a: Database Searching and Access Systems
 **Official Requirement 2a:** Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint systems used to control access to computers and places like buildings and airports.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)* • **Organizer (2-Column Comparison Table):** Req 2a Technical Comparison Matrix (Automated Fingerprint Identification Systems AFIS)
-- **Common Myth:** Commercial door locks store actual photographic images of every fingerprint scanned at the entrance.
-- **Pamphlet Fact:** Access systems convert ridge features into mathematical vectors rather than storing raw raster fingerprint images.
 
-![Fingerprinting Requirement 2 figure showing automated fingerprint networks execute complex one to many searches against large.](/assets/pamphlet_images/fingerprinting_p007_img1.png)
+![Automated fingerprint networks execute complex one to many searches against large criminal repositories.](/assets/pamphlet_images/fingerprinting_p007_img1.png)
 
 | Comparison Dimension | Law Enforcement AFIS Database Searches | Biometric Access Control Verification Scanners |
 | :--- | :--- | :--- |
@@ -81,8 +77,6 @@
 #### Req 2b: Societal Identification Security Methods
 **Official Requirement 2b:** Discuss how our society uses identification systems based on tokens, passwords, and biometrics.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss How Our Society Uses)
-- **Common Myth:** Biometric scanners eliminate all security risks because physical bodily features cannot be duplicated.
-- **Pamphlet Fact:** Sensor spoofing and digital template database breaches present unique risks to biometric identification infrastructures.
 
 ![A digital biometric screen analyzes ridge points for automated fingerprint identification.](/assets/pamphlet_images/fingerprinting_p035_img1.png)
 
@@ -95,7 +89,6 @@
 ### Req 3: Friction Ridge Anatomy and Identification
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Name the surfaces of the body where friction or papillary ridges are found. (b) Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle. (c) Explain what it takes to positively identify a person using fingerprints.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Examine hand surfaces gently without applying excessive force to prevent paper cuts or skin abrasion.
 - **Common Myth:** Identical twins possess identical fingerprints because their genetic DNA codes are completely indistinguishable.
 - **Pamphlet Fact:** Environmental womb forces produce distinct friction ridge patterns even between genetically identical twin siblings.
 
@@ -108,10 +101,8 @@
 #### Req 3a: Papillary Ridge Skin Locations
 **Official Requirement 3a:** Name the surfaces of the body where friction or papillary ridges are found.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Surfaces of the Body Where)
-- **Common Myth:** Friction ridges cover all parts of human skin to facilitate tactile sensory perception everywhere.
-- **Pamphlet Fact:** Friction ridges exist exclusively on the hairless palmar and plantar epidermal surfaces of the body.
 
-![Fingerprinting Requirement 3 figure showing papillary ridges exist exclusively on the palms, fingers, and soles of human feet.](/assets/pamphlet_images/fingerprinting_p012_img1.png)
+![Papillary ridges exist exclusively on the palms, fingers, and soles of human feet.](/assets/pamphlet_images/fingerprinting_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -122,8 +113,6 @@
 #### Req 3b: Foundational Fingerprint Science Principles
 **Official Requirement 3b:** Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Basic Principles Supporting the Science)
-- **Common Myth:** Severe surface skin scrapes will permanently erase personal fingerprint ridge patterns from the fingertips.
-- **Pamphlet Fact:** Superficial epidermal damage regrows original ridge details unless the deeper dermal layer sustains scar tissue.
 
 ![A vintage hospital birth record displays newborn footprints used for civil identification.](/assets/pamphlet_images/fingerprinting_p033_img1.png)
 
@@ -136,10 +125,8 @@
 #### Req 3c: Positive Forensic Identification Process
 **Official Requirement 3c:** Explain what it takes to positively identify a person using fingerprints.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Positively Identify A Person Using)
-- **Common Myth:** Forensic identification requires finding a fixed universal number of matching points mandated by federal statute.
-- **Pamphlet Fact:** Identification standards rely on qualitative and quantitative analysis of minutiae without a rigid numerical threshold.
 
-![Fingerprinting Requirement 1 figure showing early civilizations used clay finger impressions to validate commercial transactions.](/assets/pamphlet_images/fingerprinting_p003_img1.png)
+![Early civilizations used clay finger impressions to validate commercial transactions and personal contracts.](/assets/pamphlet_images/fingerprinting_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -150,7 +137,6 @@
 ### Req 4: Fingerprint Recording Methods and Cards
 **Official Requirement 4 (Parent Overview):** Take a clear set of prints using ONE of the following methods: (a) Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint identification card, available from your local police department or your counselor. (b) Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Dispose of ink solvent wipes in designated metal containers to mitigate volatile chemical exposure hazards.
 - **Common Myth:** Thick pools of liquid ink on the inking plate produce the clearest fingerprint card impressions.
 - **Pamphlet Fact:** Heavy ink fills pattern valleys, causing blackened smudges that obliterate critical minutiae and ridge detail.
 
@@ -163,8 +149,6 @@
 #### Req 4a: Standard Card Inking Procedure
 **Official Requirement 4a:** Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint identification card, available from your local police department or your counselor.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Rolled and Plain Impressions)
-- **Common Myth:** Rolling fingers back and forth across the card creates clearer and darker ridge impressions.
-- **Pamphlet Fact:** Double rolling fingers creates overlapping double impressions that render fingerprint classification cards unusable.
 
 ![An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.](/assets/pamphlet_images/fingerprinting_p016_img1.png)
 
@@ -178,8 +162,6 @@
 #### Req 4b: Adhesive Tape Lifting Technique
 **Official Requirement 4b:** Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Activity & Observation Log):** Req 4b Quantitative Field Observation & Activity Log (Clear Adhesive Tape A Pencil)
-- **Common Myth:** Standard pencil graphite creates permanent prints that resist smearing without protective tape coverings.
-- **Pamphlet Fact:** Uncovered graphite transfers easily to contact surfaces, requiring clear tape to seal the carbon ridges.
 
 ![Uniformed Scouts listen to a fingerprint examiner explain law enforcement identification.](/assets/pamphlet_images/fingerprinting_p015_img1.png)
 
@@ -192,14 +174,8 @@
 ### Req 5: Fingerprint Pattern Classification Analysis
 **Official Requirement 5:** Show your counselor you can identify the three basic types of fingerprint patterns and their subcategories. Using your own hand, identify the types of patterns you see.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 18, p. 23)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (You Can Identify the Three)
-> **Guide to Safe Scouting Warning:** Maintain safe eye distance from optical magnification lenses to prevent eye strain and collision.
 - **Common Myth:** Arch patterns are the most common fingerprint configuration found across the human population.
 - **Pamphlet Fact:** Loops constitute approximately sixty five percent of human patterns, while arches occur in roughly five percent.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Fingerprinting Merit Badge: Your counselor you can identify.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Your counselor you can identify.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A high-contrast fingerprint impression displays curving ridge lines of a loop pattern.](/assets/pamphlet_images/fingerprinting_p023_img1.png)
 
@@ -219,7 +195,6 @@
 ### Req 6: Biometrics and Forensic Career Pathways
 **Official Requirement 6:** Identify three career opportunities that would use skills and knowledge in the areas of biometrics and/or fingerprinting. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 36, p. 37)* • **Organizer (Career & Profession Exploration Card):** Req 6 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Follow ergonomic computer display guidelines and wear protective eyewear during prolonged microscope examination research.
 - **Common Myth:** Forensic fingerprint examiners learn their entire trade through a brief weekend law enforcement workshop.
 - **Pamphlet Fact:** Certified examiners typically require bachelor degrees in physical sciences followed by multiyear supervised apprenticeships.
 

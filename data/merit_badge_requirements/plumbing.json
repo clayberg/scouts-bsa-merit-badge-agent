@@ -315,42 +315,45 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Family Health and Plumbing",
-        "right_header": "Req 1b: Local Plumbing Health",
+        "left_header": "Req 1a: Family Health and Plumbing Systems",
+        "right_header": "Req 1b: Local Plumbing Health Regulations",
         "left_points": [
-          "(1a) Family Health And Plumbing Systems: Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps."
+          "(1a) Family Health and Plumbing Systems: Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
+          "Potable Supply Isolation: Pressurized incoming pipes deliver clean water while preventing contaminated waste water from mingling."
         ],
         "right_points": [
-          "(1b) Local Plumbing Health Regulations: Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps."
+          "(1b) Local Plumbing Health Regulations: Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps.",
+          "(1c) Home Plumbing Repair Precautions: Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment."
         ],
         "rows": [
           {
             "attribute": "Potable Supply Isolation",
-            "left": "(1a) Family Health And Plumbing Systems: Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
+            "left": "(1a) Family Health and Plumbing Systems: Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
             "right": "(1b) Local Plumbing Health Regulations: Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps."
           },
           {
             "attribute": "Trap Water Barrier",
-            "left": "Req 1a: Family Health And Plumbing: Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
-            "right": "Req 1b: Local Plumbing Health: Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps."
+            "left": "Potable Supply Isolation: Pressurized incoming pipes deliver clean water while preventing contaminated waste water from mingling.",
+            "right": "(1c) Home Plumbing Repair Precautions: Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment."
           },
           {
             "attribute": "Backflow Prevention Device",
-            "left": "Req 1c: Home Plumbing Repair: Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment.",
-            "right": "Trap Water Barrier: Standing water in fixture traps seals out toxic flammable methane sewer gas."
+            "left": "Backflow Prevention Device: Atmospheric vacuum breakers prevent backsiphonage of dirty fluids into municipal supply lines.",
+            "right": "Required Vent Stacks: Vertical roof vent stacks balance atmospheric pressure to keep drain lines flowing."
           }
         ]
       },
       "worked_example": {
-        "title": "Plumbing Req 1 Exemplar Workbook Entry: Plumbing Health",
+        "title": "Plumbing Req 1 Worked Example: Home Sanitation and Health Codes",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Family Health and Plumbing": "Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
-          "Req 1b - Local Plumbing Health": "Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps.",
-          "Req 1c - Home Plumbing Repair": "Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment."
+          "Phase 1 - Main Shutoff Location": "Locate the incoming municipal water meter and identify the primary quarter turn valve.",
+          "Phase 2 - Trap Integrity Audit": "Examine each fixture P trap under household sinks to detect dried out seals.",
+          "Phase 3 - Code Regulation Review": "Review local building department ordinances regarding minimum slope for residential waste lines.",
+          "Phase 4 - Personal Protection Assembly": "Put on neoprene safety gloves and splash goggles before beginning any pipe dismantling."
         },
-        "sample_output": "Plumbing Health Codes and Repair Safety: Wastewater should never come into contact with the water that the family uses for drinking, bathing, or washing clothes and dishes (p. 20).",
-        "counselor_tip": "For Plumbing Requirement 1 (Plumbing Health Codes and Repair Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40))."
+        "sample_output": "Plumbing systems safeguard public health by delivering potable water under pressure and isolating hazardous sewer gases through vented liquid traps. Municipal plumbing codes establish mandatory engineering minimums that prevent dangerous backflow contamination and cross-connections.",
+        "counselor_tip": "During the Plumbing Requirement 1 conference on Home Sanitation and Health Codes, verify that the Scout can explain potable supply isolation and demonstrate personal protection assembly: Put on neoprene safety gloves and splash goggles before beginning any pipe dismantling."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary purpose of the curved P-trap installed directly beneath every household sink, shower, and floor drain?",
@@ -642,41 +645,45 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Supply System Winterization",
-        "right_header": "Req 2b: Drain Waste and Vent",
+        "left_header": "Req 2a: Supply System Winterization Architecture",
+        "right_header": "Req 2b: Drain Waste and Vent Architecture",
         "left_points": [
-          "(2a) Supply System Winterization Architecture: Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves."
+          "(2a) Supply System Winterization Architecture: Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.",
+          "Supply Pressure Delivery: Municipal or well pressure forces fresh water through rigid trunk and branch distribution lines."
         ],
         "right_points": [
-          "(2b) Drain Waste And Vent Architecture: The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
+          "(2b) Drain Waste and Vent Architecture: The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals.",
+          "Drainage Gravity Fall: Horizontal drain pipes must maintain one quarter inch per foot downward pitch."
         ],
         "rows": [
           {
             "attribute": "Supply Pressure Delivery",
             "left": "(2a) Supply System Winterization Architecture: Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.",
-            "right": "(2b) Drain Waste And Vent Architecture: The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
+            "right": "(2b) Drain Waste and Vent Architecture: The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
           },
           {
             "attribute": "Freeze Protection Drainage",
-            "left": "Req 2a: Supply System Winterization: Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.",
-            "right": "Req 2b: Drain Waste And Vent: The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
+            "left": "Supply Pressure Delivery: Municipal or well pressure forces fresh water through rigid trunk and branch distribution lines.",
+            "right": "Drainage Gravity Fall: Horizontal drain pipes must maintain one quarter inch per foot downward pitch."
           },
           {
             "attribute": "Drainage Gravity Fall",
-            "left": "Supply Pressure Delivery: Municipal or well pressure forces fresh water through rigid trunk and branch distribution lines.",
-            "right": "Freeze Protection Drainage: Exterior sillcocks require frost-proof valves and interior shutoffs with manual bleeder drain caps."
+            "left": "Drainage Gravity Fall: Horizontal drain pipes must maintain one quarter inch per foot downward pitch.",
+            "right": "Stack Vent Equalization: Open roof vent pipes admit atmospheric air to prevent siphoning of fixture traps."
           }
         ]
       },
       "worked_example": {
-        "title": "Plumbing Req 2 Exemplar Workbook Entry: Water Supply",
+        "title": "Plumbing Req 2 Worked Example: Supply and Drainage System Layout",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Supply System Winterization": "Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.",
-          "Req 2b - Drain Waste and Vent": "The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
+          "Phase 1 - Supply Line Mapping": "Trace hot and cold water copper or PEX tubing from the main service.",
+          "Phase 2 - Winterization Valve Setup": "Close interior isolation valves to outdoor faucets and open small side waste bleeder caps.",
+          "Phase 3 - Drain Pitch Layout": "Sketch the main soil stack showing proper downward grade toward the municipal sewer.",
+          "Phase 4 - Vent Stack Termination": "Route the continuous vent stack vertically through the roof plane away from windows."
         },
-        "sample_output": "Water Supply and Drainage Vent Systems: Without air vents, the plumbing system would becomeair-bound, like a small-necked bottle filled with water (p. 9).",
-        "counselor_tip": "For Plumbing Requirement 2 (Water Supply and Drainage Vent Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14))."
+        "sample_output": "A residential plumbing diagram shows pressurized hot and cold supply branches running alongside gravity-fed drainage waste and vent piping. Supply systems incorporate insulation and drain valves to prevent freezing, while drainage stacks exhaust sewer gases above the roofline.",
+        "counselor_tip": "During the Plumbing Requirement 2 conference on Supply and Drainage System Layout, verify that the Scout can explain supply pressure delivery and demonstrate vent stack termination: Route the continuous vent stack vertically through the roof plane away from windows."
       },
       "quiz_item": {
         "scenario_prompt": "What happens to a home drainage system if it lacks properly installed air vents?",
@@ -833,47 +840,45 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Square Pipe Cutter Cuts",
-        "right_header": "Req 3: Explore Technical Plumbing",
+        "left_header": "Plumber Hand Tool Mastery: Core Principles",
+        "right_header": "Plumber Hand Tool Mastery: Field Execution",
         "left_points": [
-          "Square Pipe Cutter Cuts: When using a pipe cutter instead of ahacksaw, you will more easily make a straight, not slanted, cut (p. 23).",
-          "Protecting Soft Copper Tubing: A pipe cutter also make sit easier to avoid bending or crushing a copper pipe (p. 23).",
-          "Formal Plumbing Trade Courses: Community colleges and technical schools offer excellent plumbing courses (p. 23)."
+          "Pipe Wrench Direction: Align jaw opening towards the direction of pull so serrated teeth grip firmly.",
+          "Tubing Cutter Operation: Rotate the cutter wheel smoothly while tightening the adjustment knob every two revolutions."
         ],
         "right_points": [
-          "Explore Technical Plumbing Courses: Community colleges and technical schools offer excellent plumbing courses (p. 23).",
-          "Gather Standard Household Tools: Many of the tools used in plumbing will be found in your family tool chest (p. 23).",
-          "Handle Borrowed Tools Carefully: As a Scout, you will, of course, handle tools carefully, especially borrowed ones (p. 23)."
+          "Basin Wrench Reach: Swiveling spring loaded jaws reach deep behind sink basins to loosen faucet mounting nuts.",
+          "Tongue Groove Pliers: Offset slip jaws adjust across multiple parallel widths to grasp irregular drainage slip nuts."
         ],
         "rows": [
           {
             "attribute": "Pipe Wrench Direction",
-            "left": "Square Pipe Cutter Cuts: When using a pipe cutter instead of ahacksaw, you will more easily make a straight, not slanted, cut (p. 23).",
-            "right": "Explore Technical Plumbing Courses: Community colleges and technical schools offer excellent plumbing courses (p. 23)."
+            "left": "Pipe Wrench Direction: Align jaw opening towards the direction of pull so serrated teeth grip firmly.",
+            "right": "Basin Wrench Reach: Swiveling spring loaded jaws reach deep behind sink basins to loosen faucet mounting nuts."
           },
           {
             "attribute": "Tubing Cutter Operation",
-            "left": "Protecting Soft Copper Tubing: A pipe cutter also make sit easier to avoid bending or crushing a copper pipe (p. 23).",
-            "right": "Gather Standard Household Tools: Many of the tools used in plumbing will be found in your family tool chest (p. 23)."
+            "left": "Tubing Cutter Operation: Rotate the cutter wheel smoothly while tightening the adjustment knob every two revolutions.",
+            "right": "Tongue Groove Pliers: Offset slip jaws adjust across multiple parallel widths to grasp irregular drainage slip nuts."
           },
           {
             "attribute": "Basin Wrench Reach",
-            "left": "Formal Plumbing Trade Courses: Community colleges and technical schools offer excellent plumbing courses (p. 23).",
-            "right": "Handle Borrowed Tools Carefully: As a Scout, you will, of course, handle tools carefully, especially borrowed ones (p. 23)."
+            "left": "Basin Wrench Reach: Swiveling spring loaded jaws reach deep behind sink basins to loosen faucet mounting nuts.",
+            "right": "Tongue Groove Pliers: Offset slip jaws adjust across multiple parallel widths to grasp irregular drainage slip nuts."
           }
         ]
       },
       "worked_example": {
-        "title": "Plumbing Req 3 Exemplar Workbook Entry: Selecting",
+        "title": "Plumbing Req 3 Worked Example: Plumber Hand Tool Mastery",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Square Pipe Cutter Cuts": "When using a pipe cutter instead of ahacksaw, you will more easily make a straight, not slanted, cut (p. 23).",
-          "Protecting Soft Copper Tubing": "A pipe cutter also make sit easier to avoid bending or crushing a copper pipe (p. 23).",
-          "Formal Plumbing Trade Courses": "Community colleges and technical schools offer excellent plumbing courses (p. 23).",
-          "Common Household Tool Chest": "Many of the tools used in plumbing will be found in your family tool chest (p. 23)."
+          "Phase 1 - Wrench Jaw Alignment": "Position the straight pipe wrench so the hook jaw faces the direction of turn.",
+          "Phase 2 - Copper Tube Cutting": "Clamp the tubing cutter wheel lightly onto the scored copper cut mark line.",
+          "Phase 3 - Reaming Burr Removal": "Extend the cutter reamer blade inside the pipe bore to scrape away burrs.",
+          "Phase 4 - Basin Nut Removal": "Engage spring loaded basin wrench jaws onto the undersink mounting nut and turn."
         },
-        "sample_output": "Selecting and Using Essential Plumbing Tools: When using a pipe cutter instead of ahacksaw, you will more easily make a straight, not slanted, cut (p. 23).",
-        "counselor_tip": "For Plumbing Requirement 3 (Selecting and Using Essential Plumbing Tools), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24))."
+        "sample_output": "Professional plumbing hand tools provide mechanical leverage, precise cutting geometry, and non-marring grip across various metal and plastic materials. Using the correct tool prevents damaged fittings, deformed pipe walls, and rounded hex fastener flats.",
+        "counselor_tip": "During the Plumbing Requirement 3 conference on Plumber Hand Tool Mastery, verify that the Scout can explain pipe wrench direction and demonstrate basin nut removal: Engage spring loaded basin wrench jaws onto the undersink mounting nut and turn."
       },
       "quiz_item": {
         "scenario_prompt": "Why do plumbers prefer a wheeled pipe cutter over a hacksaw when cutting copper tubing?",
@@ -1020,47 +1025,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Solar Water Storage Tank",
-        "right_header": "Req 4: Maintain Backup Heating Systems",
+        "left_header": "Plumbing Component Terminology Recognition: Core Principles",
+        "right_header": "Plumbing Component Terminology Recognition: Field Execution",
         "left_points": [
-          "Solar Water Storage Tank: Electric water heater A solar system uses a storage tank (p. 13).",
-          "Rooftop Solar Collector Pump: A pressure pump pushes water through the rooftop solar collectors to the storage tank until the water is heated (p. 13).",
-          "Cloudy Day Backup Heater: Usually a gas or electric water heater is used as a backup for cloudy days (p. 13)."
+          "Threaded Pipe Nipple: Short lengths of male threaded pipe connect closely positioned valves and female fittings.",
+          "Directional Elbow Fitting: Ninety or forty-five degree elbows alter flow direction without crimping or kinking pipes."
         ],
         "right_points": [
-          "Maintain Backup Heating Systems: Usually a gas or electric water heater is used as a backup for cloudy days (p. 13).",
-          "Monitor Pressurized Water Temperature: The exact temperature at which water turns to steam depends upon the pressure (p. 13).",
-          "Inspect Temperature Pressure Relief Valves: All hot-water heating systems have temperature and pressure-relief valves that allow for this expansion and the escape of steam (p. 13)."
+          "Sanitary Waste Trap: Curved piping retains a standing water plug that halts poisonous sewer gas infiltration.",
+          "Solder Flux Cleaning: Chemical paste prevents oxidation and draws molten filler metal deep into heated copper fittings."
         ],
         "rows": [
           {
             "attribute": "Threaded Pipe Nipple",
-            "left": "Solar Water Storage Tank: Electric water heater A solar system uses a storage tank (p. 13).",
-            "right": "Maintain Backup Heating Systems: Usually a gas or electric water heater is used as a backup for cloudy days (p. 13)."
+            "left": "Threaded Pipe Nipple: Short lengths of male threaded pipe connect closely positioned valves and female fittings.",
+            "right": "Sanitary Waste Trap: Curved piping retains a standing water plug that halts poisonous sewer gas infiltration."
           },
           {
             "attribute": "Directional Elbow Fitting",
-            "left": "Rooftop Solar Collector Pump: A pressure pump pushes water through the rooftop solar collectors to the storage tank until the water is heated (p. 13).",
-            "right": "Monitor Pressurized Water Temperature: The exact temperature at which water turns to steam depends upon the pressure (p. 13)."
+            "left": "Directional Elbow Fitting: Ninety or forty-five degree elbows alter flow direction without crimping or kinking pipes.",
+            "right": "Solder Flux Cleaning: Chemical paste prevents oxidation and draws molten filler metal deep into heated copper fittings."
           },
           {
             "attribute": "Sanitary Waste Trap",
-            "left": "Cloudy Day Backup Heater: Usually a gas or electric water heater is used as a backup for cloudy days (p. 13).",
-            "right": "Inspect Temperature Pressure Relief Valves: All hot-water heating systems have temperature and pressure-relief valves that allow for this expansion and the escape of steam (p. 13)."
+            "left": "Sanitary Waste Trap: Curved piping retains a standing water plug that halts poisonous sewer gas infiltration.",
+            "right": "Solder Flux Cleaning: Chemical paste prevents oxidation and draws molten filler metal deep into heated copper fittings."
           }
         ]
       },
       "worked_example": {
-        "title": "Plumbing Req 4 Exemplar Workbook Entry: Essential",
+        "title": "Plumbing Req 4 Worked Example: Plumbing Component Terminology Recognition",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Solar Water Storage Tank": "Electric water heater A solar system uses a storage tank (p. 13).",
-          "Rooftop Solar Collector Pump": "A pressure pump pushes water through the rooftop solar collectors to the storage tank until the water is heated (p. 13).",
-          "Cloudy Day Backup Heater": "Usually a gas or electric water heater is used as a backup for cloudy days (p. 13).",
-          "Pressure Dependent Steam Point": "The exact temperature at which water turns to steam depends upon the pressure (p. 13)."
+          "Phase 1 - Component Function": "Separate fittings into supply, drainage, sealing, directional, and flow measurement groups.",
+          "Phase 2 - Fitting Thread Identification": "Inspect internal female and external male threads across nipples, couplings, and plugs.",
+          "Phase 3 - Trap Seal Inspection": "Measure the vertical distance between the dip and crown weir on a P trap.",
+          "Phase 4 - Meter Dial Reading": "Read the municipal water meter register dials to record consumption in gallons or feet."
         },
-        "sample_output": "Essential Plumbing Fittings Valves and Terms: Electric water heater A solar system uses a storage tank (p. 13).",
-        "counselor_tip": "For Plumbing Requirement 4 (Essential Plumbing Fittings Valves and Terms), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19))."
+        "sample_output": "Mastering standard plumbing terminology ensures clear communication when sourcing fittings, assembling pipe runs, and troubleshooting fixture malfunctions. Each component serves a distinct structural function, whether sealing joints, changing flow direction, or measuring consumption.",
+        "counselor_tip": "During the Plumbing Requirement 4 conference on Plumbing Component Terminology Recognition, verify that the Scout can explain threaded pipe nipple and demonstrate meter dial reading: Read the municipal water meter register dials to record consumption in gallons or feet."
       },
       "quiz_item": {
         "scenario_prompt": "Which safety component on a domestic hot-water heating system allows expanding water and steam to escape so the tank does not explode?",
@@ -1214,47 +1217,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Diverse Pipe Material Options",
-        "right_header": "Req 5: Check Heat Ratings on Plastics",
+        "left_header": "Common Piping Material Applications: Core Principles",
+        "right_header": "Common Piping Material Applications: Field Execution",
         "left_points": [
-          "Diverse Pipe Material Options: Pipes and fittings are made of many different materials (p. 28).",
-          "Pre-1950s Cast Iron Piping: Homes built before the 1950s were built with cast-iron and galvanized steel pipes (p. 28).",
-          "PVC Heat Strength Loss: For instance, a kind of plastic pipe called PVC used to be installed for hot- and cold-water supply, but the hot water made the pipe lose its strength (p. 28)."
+          "Rigid Copper Tubing: Rigid copper provides exceptional heat tolerance, biostatic properties, and durable high pressure containment.",
+          "Flexible PEX Tubing: Cross-linked polyethylene resists scaling, expands during freezes, and installs with minimal joint fittings."
         ],
         "right_points": [
-          "Check Heat Ratings on Plastics: For instance, a kind of plastic pipe called PVC used to be installed for hot- and cold-water supply, but the hot water made the pipe lose its strength (p. 28).",
-          "Avoid Standard PVC Indoors: For this reason, PVC pipe is no longer recommended for use in the indoor water system (p. 28).",
-          "Identify Outdated Galvanized Steel: Another outdated product is the galvanized steel pipe (p. 28)."
+          "Drainage PVC Pipe: Polyvinyl chloride offers smooth interior surfaces and chemical resistance for gravity drain waste stacks.",
+          "Chlorinated CPVC Pipe: Added chlorine enables CPVC to handle pressurized hot water that standard PVC cannot tolerate."
         ],
         "rows": [
           {
             "attribute": "Rigid Copper Tubing",
-            "left": "Diverse Pipe Material Options: Pipes and fittings are made of many different materials (p. 28).",
-            "right": "Check Heat Ratings on Plastics: For instance, a kind of plastic pipe called PVC used to be installed for hot- and cold-water supply, but the hot water made the pipe lose its strength (p. 28)."
+            "left": "Rigid Copper Tubing: Rigid copper provides exceptional heat tolerance, biostatic properties, and durable high pressure containment.",
+            "right": "Drainage PVC Pipe: Polyvinyl chloride offers smooth interior surfaces and chemical resistance for gravity drain waste stacks."
           },
           {
             "attribute": "Flexible PEX Tubing",
-            "left": "Pre-1950s Cast Iron Piping: Homes built before the 1950s were built with cast-iron and galvanized steel pipes (p. 28).",
-            "right": "Avoid Standard PVC Indoors: For this reason, PVC pipe is no longer recommended for use in the indoor water system (p. 28)."
+            "left": "Flexible PEX Tubing: Cross-linked polyethylene resists scaling, expands during freezes, and installs with minimal joint fittings.",
+            "right": "Chlorinated CPVC Pipe: Added chlorine enables CPVC to handle pressurized hot water that standard PVC cannot tolerate."
           },
           {
             "attribute": "Drainage PVC Pipe",
-            "left": "PVC Heat Strength Loss: For instance, a kind of plastic pipe called PVC used to be installed for hot- and cold-water supply, but the hot water made the pipe lose its strength (p. 28).",
-            "right": "Identify Outdated Galvanized Steel: Another outdated product is the galvanized steel pipe (p. 28)."
+            "left": "Drainage PVC Pipe: Polyvinyl chloride offers smooth interior surfaces and chemical resistance for gravity drain waste stacks.",
+            "right": "Chlorinated CPVC Pipe: Added chlorine enables CPVC to handle pressurized hot water that standard PVC cannot tolerate."
           }
         ]
       },
       "worked_example": {
-        "title": "Plumbing Req 5 Exemplar Workbook Entry: Common Plumbing",
+        "title": "Plumbing Req 5 Worked Example: Common Piping Material Applications",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Diverse Pipe Material Options": "Pipes and fittings are made of many different materials (p. 28).",
-          "Pre-1950s Cast Iron Piping": "Homes built before the 1950s were built with cast-iron and galvanized steel pipes (p. 28).",
-          "PVC Heat Strength Loss": "For instance, a kind of plastic pipe called PVC used to be installed for hot- and cold-water supply, but the hot water made the pipe lose its strength (p. 28).",
-          "Indoor PVC Supply Restrictions": "For this reason, PVC pipe is no longer recommended for use in the indoor water system (p. 28)."
+          "Phase 1 - Material Property Comparison": "Evaluate pipe temperature limits, working pressure ratings, and flexibility for the specific installation.",
+          "Phase 2 - Copper Type Selection": "Select Type M, L, or K copper tubing based on wall thickness requirements.",
+          "Phase 3 - Plastic Pipe Designation": "Verify schedule forty ratings on PVC drainage pipe before assembling gravity sewer lines.",
+          "Phase 4 - Thermal Expansion Allowance": "Install expansion loops along long runs of CPVC or PEX to accommodate heat."
         },
-        "sample_output": "Common Plumbing Pipe Materials and Applications: Pipes and fittings are made of many different materials (p. 28).",
-        "counselor_tip": "For Plumbing Requirement 5 (Common Plumbing Pipe Materials and Applications), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31))."
+        "sample_output": "Residential plumbing relies on copper, PEX, PVC, CPVC, and cast iron based on pressure ratings, temperature tolerances, and chemical resistance. Selecting the appropriate pipe material prevents thermal degradation, premature corrosion, and catastrophic water damage.",
+        "counselor_tip": "During the Plumbing Requirement 5 conference on Common Piping Material Applications, verify that the Scout can explain rigid copper tubing and demonstrate thermal expansion allowance: Install expansion loops along long runs of CPVC or PEX to accommodate heat."
       },
       "quiz_item": {
         "scenario_prompt": "Why is standard PVC plastic pipe no longer recommended for indoor hot- and cold-water supply systems?",
@@ -2366,13 +2367,11 @@
         "right_header": "Req 6d: Copper Torch Sweat Soldering",
         "left_points": [
           "(6a) Store Plumbing Component Survey: Visiting a plumbing supply retailer allows Scouts to compare wall thicknesses, joint designs, and connection hardware across major piping materials.",
-          "(6b) Plastic Solvent Cement Welding: Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement.",
-          "(6c) PEX Crimp Connection Assembly: PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings."
+          "(6b) Plastic Solvent Cement Welding: Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement."
         ],
         "right_points": [
           "(6d) Copper Torch Sweat Soldering: Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder.",
-          "(6e) Sink Faucet Fixture Replacement: Replacing a sink faucet requires shutting off undersink stop valves, disconnecting flexible supply risers, and securing mounting nuts.",
-          "(6f) Drain Trap Removal Servicing: Servicing a sink P-trap involves loosening slip nuts, draining trapped water into a bucket, clearing debris, and resealing washers."
+          "(6e) Sink Faucet Fixture Replacement: Replacing a sink faucet requires shutting off undersink stop valves, disconnecting flexible supply risers, and securing mounting nuts."
         ],
         "rows": [
           {
@@ -2387,22 +2386,22 @@
           },
           {
             "attribute": "Capillary Action Soldering",
-            "left": "(6c) PEX Crimp Connection Assembly: PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings.",
-            "right": "(6f) Drain Trap Removal Servicing: Servicing a sink P-trap involves loosening slip nuts, draining trapped water into a bucket, clearing debris, and resealing washers."
+            "left": "Capillary Action Soldering: Molten solder flows inward toward heat to seal clean fluxed copper joint gaps.",
+            "right": "Thread Sealant Direction: Wrap PTFE tape clockwise around male pipe threads to prevent unravelling during assembly."
           }
         ]
       },
       "worked_example": {
-        "title": "Plumbing Req 6 Exemplar Workbook Entry: Hands on Pipe",
+        "title": "Plumbing Req 6 Worked Example: Practical Plumbing Assembly Skills",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Store Plumbing Component": "Visiting a plumbing supply retailer allows Scouts to compare wall thicknesses, joint designs, and connection hardware across major piping materials.",
-          "Req 6b - Plastic Solvent Cement": "Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement.",
-          "Req 6c - PEX Crimp Connection Assembly": "PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings.",
-          "Req 6d - Copper Torch Sweat Soldering": "Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder."
+          "Phase 1 - Pipe End Preparation": "Cut the pipe squarely and scrape internal and external burrs smooth with reamers.",
+          "Phase 2 - Fitting Joint Assembly": "Join prepared fittings using solvent cement, crimp rings, or torch applied solder paste.",
+          "Phase 3 - Fixture Trap Installation": "Align slip nuts and beveled washers onto the trap tailpiece before hand tightening.",
+          "Phase 4 - Pressure Leak Testing": "Turn on the water supply slowly to inspect newly made joints for weeping."
         },
-        "sample_output": "Hands On Pipe Joining and Repairs: For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15).",
-        "counselor_tip": "For Plumbing Requirement 6 (Hands On Pipe Joining and Repairs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36))."
+        "sample_output": "Hands-on plumbing skills require measuring accurately, cutting square ends, deburring pipe edges, and applying approved joining techniques. Practicing solvent welding, mechanical crimping, soldering, and fixture replacement builds competency in creating leak-free assemblies.",
+        "counselor_tip": "During the Plumbing Requirement 6 conference on Practical Plumbing Assembly Skills, verify that the Scout can explain square cut alignment and demonstrate pressure leak testing: Turn on the water supply slowly to inspect newly made joints for weeping."
       },
       "quiz_item": {
         "scenario_prompt": "What is the purpose of the standing water seal held inside a sink drain trap?",
@@ -2564,47 +2563,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Well Paid Pipe Trades",
-        "right_header": "Req 7: Study Diverse Pipeline Systems",
+        "left_header": "Plumbing Industry Career Pathways: Core Principles",
+        "right_header": "Plumbing Industry Career Pathways: Field Execution",
         "left_points": [
-          "Well Paid Pipe Trades: Plumbing, including pipe fitting, is an important and well-paid occupation (p. 8).",
-          "Residential and Industrial Scope: It covers installations and repairs in homes, commercial properties, and factories (p. 8).",
-          "Water Waste and Gas: Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes (p. 8)."
+          "Apprentice Training Programs: Registered apprenticeships blend paid on the job mechanical experience with technical night school.",
+          "Journeyman Licensing Exams: Passing state licensing exams verifies comprehensive mastery of regional codes and hydraulic engineering."
         ],
         "right_points": [
-          "Study Diverse Pipeline Systems: Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes (p. 8).",
-          "Build Practical Home Repair Skills: As a Scout, your major interest in plumbing probably will be in the field of home repairs (p. 8).",
-          "Diagnose Leaks and Frozen Pipes: If a faucet leaks, a pipe freezes, or a plumbing fixture does not operate properly, you will want to know how to evaluate the problem (p. 8)."
+          "Master Plumber Leadership: Master plumbers pull municipal permits, manage contracting businesses, and supervise developing apprentice crews.",
+          "Specialized Pipefitter Careers: Commercial industrial pipefitters install massive high pressure steam, gas, and chemical transport systems."
         ],
         "rows": [
           {
             "attribute": "Apprentice Training Programs",
-            "left": "Well Paid Pipe Trades: Plumbing, including pipe fitting, is an important and well-paid occupation (p. 8).",
-            "right": "Study Diverse Pipeline Systems: Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes (p. 8)."
+            "left": "Apprentice Training Programs: Registered apprenticeships blend paid on the job mechanical experience with technical night school.",
+            "right": "Master Plumber Leadership: Master plumbers pull municipal permits, manage contracting businesses, and supervise developing apprentice crews."
           },
           {
             "attribute": "Journeyman Licensing Exams",
-            "left": "Residential and Industrial Scope: It covers installations and repairs in homes, commercial properties, and factories (p. 8).",
-            "right": "Build Practical Home Repair Skills: As a Scout, your major interest in plumbing probably will be in the field of home repairs (p. 8)."
+            "left": "Journeyman Licensing Exams: Passing state licensing exams verifies comprehensive mastery of regional codes and hydraulic engineering.",
+            "right": "Specialized Pipefitter Careers: Commercial industrial pipefitters install massive high pressure steam, gas, and chemical transport systems."
           },
           {
             "attribute": "Master Plumber Leadership",
-            "left": "Water Waste and Gas: Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes (p. 8).",
-            "right": "Diagnose Leaks and Frozen Pipes: If a faucet leaks, a pipe freezes, or a plumbing fixture does not operate properly, you will want to know how to evaluate the problem (p. 8)."
+            "left": "Master Plumber Leadership: Master plumbers pull municipal permits, manage contracting businesses, and supervise developing apprentice crews.",
+            "right": "Specialized Pipefitter Careers: Commercial industrial pipefitters install massive high pressure steam, gas, and chemical transport systems."
           }
         ]
       },
       "worked_example": {
-        "title": "Plumbing Req 7 Exemplar Workbook Entry: Plumbing Trade",
+        "title": "Plumbing Req 7 Worked Example: Plumbing Industry Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Well Paid Pipe Trades": "Plumbing, including pipe fitting, is an important and well-paid occupation (p. 8).",
-          "Residential and Industrial Scope": "It covers installations and repairs in homes, commercial properties, and factories (p. 8).",
-          "Water Waste and Gas": "Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes (p. 8).",
-          "Scout Home Repair Skills": "As a Scout, your major interest in plumbing probably will be in the field of home repairs (p. 8)."
+          "Phase 1 - Vocational Pathway Exploration": "Research trade school curricula, union joint apprenticeship committees, and non-union contractor programs.",
+          "Phase 2 - Licensing Prerequisite Analysis": "Document state board requirements for classroom hours, field hours, and written examinations.",
+          "Phase 3 - Financial Obligation Breakdown": "Calculate anticipated initial expenses for personal tool purchases, trade textbooks, and licensing fees.",
+          "Phase 4 - Industry Employment Projection": "Review Bureau of Labor Statistics projections regarding regional employment growth and journeyman wages."
         },
-        "sample_output": "Plumbing Trade Careers and Training Pathways: Plumbing, including pipe fitting, is an important and well-paid occupation (p. 8).",
-        "counselor_tip": "For Plumbing Requirement 7 (Plumbing Trade Careers and Training Pathways), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 8, p. 40))."
+        "sample_output": "Career opportunities in plumbing range from residential service technicians and commercial pipefitters to fire sprinkler installers and plumbing inspectors. Advancing from an apprentice to a licensed master plumber requires thousands of hours of classroom education and supervised on-the-job training.",
+        "counselor_tip": "During the Plumbing Requirement 7 conference on Plumbing Industry Career Pathways, verify that the Scout can explain apprentice training programs and demonstrate industry employment projection: Review Bureau of Labor Statistics projections regarding regional employment growth and journeyman wages."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Plumbing merit badge pamphlet, how does learning basic plumbing skills benefit a Scout at home?",

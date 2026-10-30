@@ -53,10 +53,8 @@
 #### Req 1a: Residential Service Disconnection Procedures
 **Official Requirement 1a:** Explain how to turn off power for a particular circuit and the whole house in the event of an emergency.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Turn Off Power for A)
-- **Common Myth:** Beginners often believe switching off a wall switch completely de-energizes the underlying service panel wiring.
-- **Pamphlet Fact:** Branch breakers isolate targeted circuits while the primary breaker disconnects power to the entire panel enclosure.
 
-![Electricity Requirement 1 figure showing main circuit breakers disconnect service entrance conductors from entire residential.](/assets/pamphlet_images/electricity_p003_img1.png)
+![Main circuit breakers disconnect service entrance conductors from entire residential distribution panels during emergency events.](/assets/pamphlet_images/electricity_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -67,8 +65,6 @@
 #### Req 1b: Live Conductor Victim Extraction
 **Official Requirement 1b:** Demonstrate how to rescue a person touching a live wire in the home.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Skill Demonstration Checklist):** Req 1b Hands-On Skill Station & EDGE Verification Checklist (Rescue A Person Touching A)
-- **Common Myth:** Beginners often believe wearing regular rubber sneakers allows safe physical contact with live electrical victims.
-- **Pamphlet Fact:** Only completely dry nonconductive items such as wooden dowels or fiberglass rods isolate rescuers from lethal line current.
 
 ![A Scout checks on an unconscious victim to provide emergency care safely.](/assets/pamphlet_images/electricity_p069_img1.png)
 
@@ -81,10 +77,8 @@
 #### Req 1c: Downed Utility Wire Evacuation
 **Official Requirement 1c:** Describe how to safely get out of a car in an accident if you suspect a utility wire is on the car.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Get Out of A Car)
-- **Common Myth:** Beginners often believe stepping out one foot at a time safely grounds an occupant leaving an energized vehicle.
-- **Pamphlet Fact:** Jumping clear with feet bound together prevents step potential from driving current across separate legs.
 
-![Electricity Requirement 2 figure showing flexible appliance cords with cracked outer jackets expose copper conductors.](/assets/pamphlet_images/electricity_p007_img1.png)
+![Flexible appliance cords with cracked outer jackets expose copper conductors to grounding hazards.](/assets/pamphlet_images/electricity_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -95,10 +89,8 @@
 #### Req 1d: Electrical Shock Triage Protocol
 **Official Requirement 1d:** Show how to render first aid to a person who is unconscious from an apparent electrical shock.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Skill Demonstration Checklist):** Req 1d Hands-On Skill Station & EDGE Verification Checklist (Render First Aid to A)
-- **Common Myth:** Beginners often believe electrical shock victims retain an electrical charge that harms medical first responders.
-- **Pamphlet Fact:** High voltage exposure can cause cardiac ventricular fibrillation requiring immediate chest compressions and automated external defibrillation.
 
-![Electricity Requirement 3 figure showing soft iron cores concentrate lines of magnetic flux produced by surrounding wire coils.](/assets/pamphlet_images/electricity_p012_img1.png)
+![Soft iron cores concentrate lines of magnetic flux produced by surrounding wire coils.](/assets/pamphlet_images/electricity_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -109,8 +101,6 @@
 #### Req 1e: Electrical Thermal Burn Treatment
 **Official Requirement 1e:** Show how to treat an electrical burn.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Skill Demonstration Checklist):** Req 1e Hands-On Skill Station & EDGE Verification Checklist (Treat An Electrical Burn)
-- **Common Myth:** Beginners often believe electrical burns only harm the superficial epidermal layer visible at contact points.
-- **Pamphlet Fact:** Current flowing through internal muscle and vascular systems produces severe hidden thermal injuries requiring medical evaluation.
 
 ![A handheld wire stripper removes protective insulation from copper wire.](/assets/pamphlet_images/electricity_p017_img1.png)
 
@@ -123,8 +113,6 @@
 #### Req 1f: Class C Electrical Suppression
 **Official Requirement 1f:** Explain what to do in the event of an electrical fire.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Event of An Electrical Fire)
-- **Common Myth:** Beginners often believe small amounts of household tap water can safely quench sparking baseboard electrical fires.
-- **Pamphlet Fact:** Class C rated dry chemical or carbon dioxide fire extinguishers suppress electrical fires without conducting dangerous current.
 
 ![Multiple plugs jammed into an outlet illustrate dangerous circuit overloading.](/assets/pamphlet_images/electricity_p030_img1.png)
 
@@ -137,8 +125,6 @@
 #### Req 1g: Lightning Storm Shelter Protocol
 **Official Requirement 1g:** Explain what to do if caught out in the open during an electrical storm.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Caught Out in the Open)
-- **Common Myth:** Beginners often believe lying completely flat across wet ground minimizes lightning strike danger in open fields.
-- **Pamphlet Fact:** A low crouch on insulating soles with heels touching minimizes contact points and ground current entry paths.
 
 ![An electrician uses a handheld multimeter to test voltage and continuity.](/assets/pamphlet_images/electricity_p031_img1.png)
 
@@ -179,7 +165,6 @@
 - **Pamphlet Fact:** Soft iron loses magnetism rapidly when current stops, whereas hard steel retains permanent domain alignment.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 3.
 - [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electromagnet Construction and Polarity.
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied.
 - [ ] Completed observation table and counselor review notes for Req 3.
@@ -214,8 +199,6 @@
 #### Req 4a: Current Flow Direction Characteristics
 **Official Requirement 4a:** Explain the difference between direct current and alternating current, the advantages and disadvantages of each, and give a practical example of the use of each type.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)* • **Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix (Current and Alternating Current the)
-- **Common Myth:** Beginners often believe household wall receptacles supply direct current electricity to small plug-in table lamps.
-- **Pamphlet Fact:** Alternating current readily changes voltages through transformers, whereas direct current requires solid-state converter circuits.
 
 ![A bird sits safely on a single electrical wire without completing a circuit.](/assets/pamphlet_images/electricity_p028_img1.png)
 
@@ -228,8 +211,6 @@
 #### Req 4b: Electrical Generation Methods Analysis
 **Official Requirement 4b:** Explain three ways that electricity is produced.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Electricity Is Produced)
-- **Common Myth:** Beginners often believe spinning turbine generators create brand new electrical charges out of nothing.
-- **Pamphlet Fact:** Electricity is generated by mechanical electromagnetic induction, chemical battery reactions, and photovoltaic solar cell conversion.
 
 ![A homemade wire coil motor demonstrates electromagnetic rotation on a base.](/assets/pamphlet_images/electricity_p042_img1.png)
 
@@ -277,8 +258,6 @@
 #### Req 6a: Circuit Overload Prevention Methods
 **Official Requirement 6a:** Define what overloading an electric circuit means. Tell what you have done to make sure your home circuits are not overloaded.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Overloading An Electric Circuit Means)
-- **Common Myth:** Beginners often believe plugging multiple multi-outlet power strips into one wall box prevents electrical circuit overloads.
-- **Pamphlet Fact:** Balancing heavy wattage heating appliances across separate branch circuits prevents dangerous overheating of residential wires.
 
 ![Two boys work together assembling an electrical wiring project on wood.](/assets/pamphlet_images/electricity_p045_img1.png)
 
@@ -292,8 +271,6 @@
 #### Req 6b: Branch Circuit Current Calculations
 **Official Requirement 6b:** Determine if there is an overload on a branch circuit by either getting the current draw from all the equipment plugged into the circuit or use the power equation to calculate the current draws.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (There Is An Overload)
-- **Common Myth:** Beginners often believe small kitchen appliances draw negligible electrical current regardless of their heating elements.
-- **Pamphlet Fact:** Dividing total connected device wattage by supply line voltage provides total running amperes drawn across conductors.
 
 ![A Scout winds insulated copper wire around a core to build an electromagnet.](/assets/pamphlet_images/electricity_p045_img2.png)
 
@@ -306,8 +283,6 @@
 #### Req 6c: Overcurrent Protective Device Operation
 **Official Requirement 6c:** Explain why a fuse blows and a circuit breaker trips.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Fuse Blows and A Circuit)
-- **Common Myth:** Beginners often believe circuit breakers burn out internal components each time an overcurrent event occurs.
-- **Pamphlet Fact:** Fuses melt an internal metal alloy link while circuit breakers deflect an internal bimetallic strip.
 
 ![A family reviews an electricity bill to calculate monthly power consumption.](/assets/pamphlet_images/electricity_p057_img3.png)
 
@@ -320,8 +295,6 @@
 #### Req 6d: Overcurrent Device Triage Procedures
 **Official Requirement 6d:** Tell how to find a blown fuse and a tripped circuit breaker in your home. Show how to safely reset the circuit breaker.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Organizer (Skill Demonstration Checklist):** Req 6d Hands-On Skill Station & EDGE Verification Checklist (Blown Fuse and A Tripped)
-- **Common Myth:** Beginners often believe a tripped breaker handle always swings completely to the off position automatically.
-- **Pamphlet Fact:** Tripped breakers show an intermediate handle position and reset only after pushing firmly to off.
 
 ![A steel lattice tower carries high-voltage electricity across long distances.](/assets/pamphlet_images/electricity_p060_img1.png)
 
@@ -378,11 +351,8 @@
 #### Req 8a: Meter Consumption and Billing
 **Official Requirement 8a:** Read a meter associated with an electric bill. Determine the total power used since the bill, and the cost of that power.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Meter Associated with An Electric)
-- **Common Myth:** Beginners often believe digital utility meters display monthly financial charges directly in dollars and cents.
-- **Pamphlet Fact:** Subtracting the prior month reading from the current meter reading yields total kilowatt-hours used.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 8.
 - [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electrical Consumption and Metering.
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied.
 - [ ] Completed observation table and counselor review notes for Req 8.
@@ -399,8 +369,6 @@
 #### Req 8b: Utility Tariff Fee Analysis
 **Official Requirement 8b:** Explain other charges on the bill that were taxes or fees.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Charges on the Bill)
-- **Common Myth:** Beginners often believe the total electric bill represents only the pure cost of generated electricity.
-- **Pamphlet Fact:** Taxes and regulatory surcharges fund state energy grids, environmental initiatives, and municipal right-of-way infrastructure.
 
 ![A Scout places an injured person into the recovery position for airway safety.](/assets/pamphlet_images/electricity_p069_img2.png)
 
@@ -413,8 +381,6 @@
 #### Req 8c: Household Energy Conservation Practices
 **Official Requirement 8c:** Discuss with your counselor five ways your family can conserve energy.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Discuss Family Conserve Energy)
-- **Common Myth:** Beginners often believe turning off small led charger indicator lights saves huge quantities of household power.
-- **Pamphlet Fact:** Adjusting thermostat setpoints and cleaning appliance cooling coils produce substantial, measurable reductions in kilowatt-hour consumption.
 
 ![A resident holds a fire extinguisher ready to douse a scorched wall outlet.](/assets/pamphlet_images/electricity_p070_img1.png)
 
@@ -440,8 +406,6 @@
 #### Req 9a: Fundamental Electrical Property Terms
 **Official Requirement 9a:** Electrical terms: current, energy, power, resistance, and voltage.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Electrical Terms Current Energy Power)
-- **Common Myth:** Beginners often believe electrical power and electrical energy represent identical physical quantities in circuits.
-- **Pamphlet Fact:** Voltage provides electrical pressure, current represents charge movement, resistance opposes flow, and power measures energy rate.
 
 ![A boy inspects the glass dial face of an outdoor electric utility meter.](/assets/pamphlet_images/electricity_p029_img1.png)
 
@@ -454,8 +418,6 @@
 #### Req 9b: Standard Electrical Units Measurement
 **Official Requirement 9b:** Units of measure: ampere (amps), ohms, volts, watts, and watt-hours.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (Units of Measure Ampere Amps)
-- **Common Myth:** Beginners often believe watts and watt-hours measure the exact same physical property in electrical systems.
-- **Pamphlet Fact:** One watt-hour measures one watt of power sustained continuously across a sixty minute operational period.
 
 ![An engineer marks technical details on a printed electrical schematic plan.](/assets/pamphlet_images/electricity_p074_img1.png)
 
@@ -468,8 +430,6 @@
 #### Req 9c: System Conditions and Faults
 **Official Requirement 9c:** Electrical conditions: generating source with example, ground, open circuit, overvoltage, potential difference, and short circuit.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Organizer (2-Column Comparison Table):** Req 9c Technical Comparison Matrix (Electrical Conditions Generating Source)
-- **Common Myth:** Beginners often believe an open circuit causes fuses to blow and conductors to catch fire.
-- **Pamphlet Fact:** A short circuit bypasses normal load resistance, creating extremely high current flow and dangerous conductor heating.
 
 ![A technician uses multimeter probes to diagnose industrial equipment circuits.](/assets/pamphlet_images/electricity_p074_img2.png)
 
@@ -482,8 +442,6 @@
 #### Req 9d: Distribution Equipment Operational Roles
 **Official Requirement 9d:** Equipment and their use: circuit, conductor, Ground Fault Circuit Interrupter (GFCI), insulator, inverter, rectifier, rheostat, substation, surge protection, solar panel, transformer, transmission and distribution systems, and wind turbine.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Equipment and Their Use Circuit)
-- **Common Myth:** Beginners often believe transformers change alternating current into direct current electricity during power delivery.
-- **Pamphlet Fact:** Inverters convert direct current into alternating current, whereas rectifiers convert alternating current into direct current.
 
 | Req 9d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -509,8 +467,6 @@
 **Official Requirement 10a:** Connect a buzzer, bell, or light with a battery. Have a key or switch in the line.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix (Connect A Buzzer Bell)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Electricity Req 10 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Beginners often believe switches consume significant electrical power on their own during normal closed operation.
-- **Pamphlet Fact:** Switches interrupt circuit continuity along the ungrounded line to turn loads on and off safely.
 
 ![A simple buzzer circuit assembled on a wooden board connects to a battery.](/assets/pamphlet_images/electricity_p041_img1.png)
 
@@ -525,8 +481,6 @@
 **Official Requirement 10b:** Make and run a simple electric motor (from a kit is acceptable, if approved by your counselor ahead of time)
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (Run A Simple Electric Motor)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Electricity Req 10b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Beginners often believe electric motors run purely on mechanical momentum once started without continuous magnetic repulsion.
-- **Pamphlet Fact:** A simple motor uses an electromagnetic rotor and commutator to interact with permanent field magnets.
 
 | Req 10b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -537,8 +491,6 @@
 #### Req 10c: Variable Rheostat Resistance Construction
 **Official Requirement 10c:** Build a simple rheostat. Show that it works.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist (Simple Rheostat Show That It)
-- **Common Myth:** Beginners often believe rheostats change circuit current by creating physical barriers that trap electrons.
-- **Pamphlet Fact:** Adjusting the effective length of resistive wire in a circuit changes current according to Ohm's law.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -550,8 +502,6 @@
 #### Req 10d: Double Throw Switching Mechanism
 **Official Requirement 10d:** Build a single-pole, double-throw switch. Show that it works.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (Skill Demonstration Checklist):** Req 10d Hands-On Skill Station & EDGE Verification Checklist (Single-pole Double-throw Switch)
-- **Common Myth:** Beginners often believe double throw switches can connect both load outputs to power simultaneously.
-- **Pamphlet Fact:** Single pole double throw switches direct current from one common input terminal to either of two outputs.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -563,8 +513,6 @@
 #### Req 10e: Three Way Lighting Control
 **Official Requirement 10e:** Explain how 3-way switch wiring works in a lighting circuit.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix (3-way Switch Wiring Works)
-- **Common Myth:** Beginners often believe three-way switches require complex internal computers to coordinate multi-location lighting control.
-- **Pamphlet Fact:** Three-way switches use two alternate traveler conductors to control a load from separate room entryways.
 
 | Req 10e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -575,8 +523,6 @@
 #### Req 10f: Series and Parallel Circuits
 **Official Requirement 10f:** Connect two lights together in a series circuit along with a battery and a switch. Then connect the same circuit in parallel. Discuss the differences in the two circuits.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (2-Column Comparison Table):** Req 10f Technical Comparison Matrix (Connect Two Lights Together)
-- **Common Myth:** Beginners often believe series circuits draw more total current from batteries than parallel circuits.
-- **Pamphlet Fact:** Parallel lamps draw full source voltage and shine brighter than series lamps that divide voltage.
 
 | Comparison Dimension | Single-Path Series Lamp Circuit Wiring | Multi-Branch Parallel Lamp Circuit Wiring |
 | :--- | :--- | :--- |

@@ -52,10 +52,8 @@
 #### Req 1a: Search Field Environmental First Aid
 **Official Requirement 1a:** Show or explain first aid for, and prevention of, injuries and conditions that searchers and subjects could develop during an SAR situation, including: (1) Dehydration (2) Heatstroke (3) Hypothermia (4) Shock (5) Blisters (6) Eye injuries (7) Ankle and knee sprains (8) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (9) Bee stings (10) Bites of spiders (11) Sting of a scorpion (12) Bite of a wild mammal (13) Bite of a venomous snake.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** Giving cold water to an unconscious heat casualty safely lowers internal core body temperature.
-- **Pamphlet Fact:** Immersion or drenching with cool water while fanning the skin is the primary field treatment for heatstroke.
 
-![Search and Rescue Requirement 1 figure showing searchers drink water and balanced electrolytes before thirst indicates deep cellular.](/assets/pamphlet_images/search_and_rescue_p003_img1.png)
+![Searchers drink water and balanced electrolytes before thirst indicates deep cellular fluid deficit.](/assets/pamphlet_images/search_and_rescue_p003_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -78,8 +76,6 @@
 #### Req 1b: Scout Basic Essentials Preparedness
 **Official Requirement 1b:** Explain how the Scout Basic Essentials address hazards outdoors and help lost Scouts stay safe before they are rescued.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Basic Essentials Address Hazards Outdoors)
-- **Common Myth:** The Scout Basic Essentials are intended solely for comfortable day hiking along marked park trails.
-- **Pamphlet Fact:** Carrying the Scout Basic Essentials enables an individual to survive forty-eight hours until rescue teams arrive.
 
 ![A rescuer comforts an injured subject bundled warmly inside an emergency blanket.](/assets/pamphlet_images/search_and_rescue_p043_img1.png)
 
@@ -92,8 +88,6 @@
 #### Req 1c: Searcher Field Pack Equipment
 **Official Requirement 1c:** Discuss how the safety gear carried by SAR team members in their field packs addresses SAR hazards.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Discuss How the Safety Gear)
-- **Common Myth:** Searcher pack contents mirror standard backpacking gear without requiring specialized technical search rescue tools.
-- **Pamphlet Fact:** SAR field packs contain specialized gear including personal protective equipment, signaling devices, and tracking tools.
 
 ![Rescuers pinpoint coordinates and search grids on a detailed topographic map.](/assets/pamphlet_images/search_and_rescue_p018_img1.png)
 
@@ -119,10 +113,8 @@
 #### Req 2a: Trip Planning and Buddy Accountability
 **Official Requirement 2a:** Explain how a trip plan and the buddy system help Scouts with staying found and getting found.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Trip Plan and the Buddy)
-- **Common Myth:** Notifying a family member verbally about a general park destination provides sufficient search direction.
-- **Pamphlet Fact:** A documented trip plan establishes search containment boundaries and narrows initial route-and-ridge search tasks.
 
-![Search and Rescue Requirement 2 figure showing filing precise route coordinates and expected return times triggers prompt SAR team.](/assets/pamphlet_images/search_and_rescue_p007_img1.png)
+![Filing precise route coordinates and expected return times triggers prompt SAR team mobilization.](/assets/pamphlet_images/search_and_rescue_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -133,8 +125,6 @@
 #### Req 2b: Weather Impacts on Route Plans
 **Official Requirement 2b:** Explain how seasonal and daily weather changes affect Trip Plans.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Seasonal and Daily Weather Changes)
-- **Common Myth:** Wilderness trip plans remain static documents that parties must follow regardless of developing weather.
-- **Pamphlet Fact:** Sudden temperature drops and flash flooding require immediate alterations to planned trail travel times.
 
 ![A gloved first aider carefully extracts a splinter from an outstretched finger.](/assets/pamphlet_images/search_and_rescue_p044_img1.png)
 
@@ -147,8 +137,6 @@
 #### Req 2c: Emergency Signaling Methodologies
 **Official Requirement 2c:** Explain and show how a lost Scout could send signals that would alert a ground, airborne, or water SAR team to their location.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist (Lost Scout Could Send Signals)
-- **Common Myth:** Fires used for signaling should be built small and concealed under dense tree canopies.
-- **Pamphlet Fact:** Three spaced signal fires producing dark smoke contrast clearly against green forest canopy backgrounds.
 
 ![Hikers navigate along a forested trail during an outdoor wilderness excursion.](/assets/pamphlet_images/search_and_rescue_p020_img1.png)
 
@@ -161,8 +149,6 @@
 #### Req 2d: Signaling Mirror Aiming Technique
 **Official Requirement 2d:** Demonstrate how to use a signaling mirror.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Organizer (Skill Demonstration Checklist):** Req 2d Hands-On Skill Station & EDGE Verification Checklist (Signaling Mirror)
-- **Common Myth:** Waving a signal mirror randomly across the horizon effectively attracts overhead search and rescue aircraft.
-- **Pamphlet Fact:** The retro-reflective aiming grid directs a brilliant sunlight flash directly onto the target cockpit.
 
 ![Search and rescue personnel in safety helmets consult a topographic mission map.](/assets/pamphlet_images/search_and_rescue_p027_img1.png)
 
@@ -175,8 +161,6 @@
 #### Req 2e: Personal Locator Beacon Operations
 **Official Requirement 2e:** Explain how a Personal Locator Beacon (PLB) works and the role of the Air Force Rescue Coordination Center (AFRCC)
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Personal Locator Beacon PLB Works)
-- **Common Myth:** Personal Locator Beacons connect directly to local county sheriff radios upon emergency manual activation.
-- **Pamphlet Fact:** A 406 MHz beacon transmits unique digital identification data directly to Cospas-Sarsat rescue satellites.
 
 ![Scouts provide wilderness first aid for a leg injury while recording symptoms.](/assets/pamphlet_images/search_and_rescue_p045_img1.png)
 
@@ -204,10 +188,8 @@
 **Official Requirement 3a:** Point out and explain the 5 D's (Date, Description, Details, Direction or Declination, Distance) of the map.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Out and Explain the D's)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Search and Rescue Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** The map date only matters for historical research and does not impact wilderness navigation.
-- **Pamphlet Fact:** The five Ds verify map freshness, landscape features, legend symbols, magnetic variance, and travel measurements.
 
-![Search and Rescue Requirement 3 figure showing closely spaced brown lines reveal steep cliffs requiring specialized technical rope.](/assets/pamphlet_images/search_and_rescue_p012_img1.png)
+![Closely spaced brown lines reveal steep cliffs requiring specialized technical rope rescue systems.](/assets/pamphlet_images/search_and_rescue_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -226,8 +208,6 @@
 #### Req 3b: Cartographic Coordinate System Comparison
 **Official Requirement 3b:** Choose a location on the map and record the altitude, latitude, longitude, and US National Grid coordinates. Describe how these coordinate systems differ.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Activity & Observation Log):** Req 3b Quantitative Field Observation & Activity Log (Location Altitude Latitude Longitude)
-- **Common Myth:** Latitude and longitude coordinates use identical formatting across all civilian and military emergency teams.
-- **Pamphlet Fact:** USNG provides a uniform alphanumeric grid that prevents confusing degree and minute coordinate formats.
 
 ![A transparent grid tool measures precise Universal Transverse Mercator map coordinates.](/assets/pamphlet_images/search_and_rescue_p063_img1.png)
 
@@ -249,8 +229,6 @@
 #### Req 3c: Field Orientation and Bearing Calculation
 **Official Requirement 3c:** Orient the map and take a bearing to another map location. Estimate the distance between, and describe the terrain between, the two locations.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Orient Bearing Location Distance)
-- **Common Myth:** A straight compass bearing guarantees an easy, linear walking path across wilderness terrain.
-- **Pamphlet Fact:** Terrain descriptions must account for elevation gain, dense vegetation, and impassable topographic water barriers.
 
 ![A banded coral snake crawls across gravel, representing a dangerous reptile hazard.](/assets/pamphlet_images/search_and_rescue_p046_img4.png)
 
@@ -272,8 +250,6 @@
 #### Req 3d: Place Last Seen Containment Strategy
 **Official Requirement 3d:** Show a hypothetical place last seen and point out an area on your map that could be used for containment using natural or human-made boundaries.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Hypothetical Place Last Seen)
-- **Common Myth:** Search operations always begin by plunging directly into the deep woods without perimeter containment.
-- **Pamphlet Fact:** Establishing containment along roads, ridgelines, and fences prevents the subject from leaving the search area.
 
 ![Waterproof outerwear and warm gloves protect searchers from hypothermia in harsh conditions.](/assets/pamphlet_images/search_and_rescue_p047_img3.png)
 
@@ -307,8 +283,6 @@
 #### Req 4a: Incident Command and Patrol Structure
 **Official Requirement 4a:** Explain how a local ICS is organized and how it compares with Scouting's patrol method.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Local ICS Is Organized)
-- **Common Myth:** The Incident Command System is a rigid military hierarchy with no parallels to Scouting.
-- **Pamphlet Fact:** Both ICS and the patrol method designate clear single-leader accountability and assign specific functional support tasks.
 
 ![Emergency vehicles coordinate response operations during a wildland fire incident.](/assets/pamphlet_images/search_and_rescue_p013_img1.png)
 
@@ -321,8 +295,6 @@
 #### Req 4b: Community Agency Interoperability Training
 **Official Requirement 4b:** Explain how local community agencies work to train for and manage search and rescue situations.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Local Community Agencies Work to)
-- **Common Myth:** Emergency response agencies only communicate with volunteer rescue teams when a live emergency occurs.
-- **Pamphlet Fact:** Local emergency management agencies conduct joint tabletop scenarios and field mobilizations to build mutual trust.
 
 ![Older children scramble over boulders, reflecting behavioral profiles in wilderness searches.](/assets/pamphlet_images/search_and_rescue_p056_img1.png)
 
@@ -348,8 +320,6 @@
 #### Req 5a: Official Duties of Search Teams
 **Official Requirement 5a:** Explain the official duties of a search and rescue team.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 75, p. 81)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Official Duties of A Search)
-- **Common Myth:** Search teams focus solely on locating victims and leave medical evacuation to separate agencies.
-- **Pamphlet Fact:** The core duties are searching for missing persons, providing field medical care, and executing evacuation.
 
 ![Rescue personnel deploy motorboats and inflatable rafts during a water search operation.](/assets/pamphlet_images/search_and_rescue_p081_img1.png)
 
@@ -362,8 +332,6 @@
 #### Req 5b: Search Environment Comparison Analysis
 **Official Requirement 5b:** Explain the differences between wilderness, urban, and water SARs.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 75, p. 81)* • **Organizer (2-Column Comparison Table):** Req 5b Technical Comparison Matrix (Wilderness Urban and Water SARs)
-- **Common Myth:** Search strategies and equipment remain identical whether operating in collapsed buildings, lakes, or forests.
-- **Pamphlet Fact:** Wilderness searches face exposure and distance, urban operations face structural hazards, and water searches manage currents.
 
 ![A road map indicates specific route networks and search locations with a marker pin.](/assets/pamphlet_images/search_and_rescue_p064_img1.png)
 
@@ -376,8 +344,6 @@
 #### Req 5c: Specialized Rescue Team Disciplines
 **Official Requirement 5c:** Identify four types of search and rescue teams and explain situations where they are used.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 75, p. 81)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Search and Rescue Teams)
-- **Common Myth:** Any standard ground search team possesses the technical equipment to conduct vertical cliff rescues.
-- **Pamphlet Fact:** Canine teams search vast wilderness areas quickly, while technical rope teams access vertical cliff faces.
 
 ![A portable GPS receiver held in hand tracks geographic waypoint coordinates in the field.](/assets/pamphlet_images/search_and_rescue_p065_img2.png)
 
@@ -403,8 +369,6 @@
 #### Req 6a: Search and Rescue Distinctions
 **Official Requirement 6a:** Explain the difference between search and rescue.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Organizer (2-Column Comparison Table):** Req 6a Technical Comparison Matrix (Search and Rescue)
-- **Common Myth:** Search and rescue describes a single indistinguishable action performed simultaneously by the same crew.
-- **Pamphlet Fact:** Search is the tactical location of an unseen subject, while rescue is physical extraction from hazard.
 
 ![A toddler wearing a yellow rain poncho illustrates typical behaviors of lost young children.](/assets/pamphlet_images/search_and_rescue_p055_img1.png)
 
@@ -417,8 +381,6 @@
 #### Req 6b: Place and Point Clarification
 **Official Requirement 6b:** Explain the difference between PLS (place last seen) and LKP (last known point)
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Organizer (2-Column Comparison Table):** Req 6b Technical Comparison Matrix (Place Last Seen and LKP)
-- **Common Myth:** Place last seen and last known point represent identical physical coordinates on a map.
-- **Pamphlet Fact:** PLS is where a witness saw the person, whereas LKP is where physical evidence was discovered.
 
 ![Distinct boot tracks pressed into snow serve as critical physical clues during a search.](/assets/pamphlet_images/search_and_rescue_p072_img1.png)
 
@@ -431,8 +393,6 @@
 #### Req 6c: Tactical Communications and Protocols
 **Official Requirement 6c:** Explain the importance of effective communication in SAR operations.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Effective Communication in SAR Operations)
-- **Common Myth:** Cellular texting is dependable as the primary tactical communications channel during remote wilderness searches.
-- **Pamphlet Fact:** Clear operational radio protocols ensure timely transmission of critical clues and prevent catastrophic misunderstanding.
 
 ![A military-style rescue helicopter touches down on a rugged mountain terrain site.](/assets/pamphlet_images/search_and_rescue_p085_img1.png)
 
@@ -445,8 +405,6 @@
 #### Req 6d: Lost Person Behavioral Modeling
 **Official Requirement 6d:** Explain how predictions of "lost person behavior" determine SAR search plans for a young child, a teenager, and an adult.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Predictions of Lost Person Behavior)
-- **Common Myth:** Lost people of all ages react identically by sitting down and waiting for help.
-- **Pamphlet Fact:** Children under five wander randomly into brush, whereas adult hikers attempt linear trail backtracking.
 
 ![A helicopter hoist lowers rescue personnel directly into steep mountainous terrain.](/assets/pamphlet_images/search_and_rescue_p085_img2.png)
 
@@ -459,8 +417,6 @@
 #### Req 6e: Operational Search Terminology Standards
 **Official Requirement 6e:** Explain the following terms: (1) Evaluating search urgency (2) Establishing confinement (3) Scent item (4) Area air scent dog (5) Briefing and debriefing (6) Clue awareness (7) Evidence preservation (8) Tracking a subject (9) Locating a subject using attraction (10) Hasty search (11) Trail sweep search (12) Grid search.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Evaluating Search Urgency Establishing Confinement)
-- **Common Myth:** Search terms like confinement imply physically locking a missing person inside a secure structure.
-- **Pamphlet Fact:** Standardized terms like scent items and confinement describe tactical methods used during systematic search operations.
 
 ![Emergency medical flight crew members assemble beside an air ambulance helicopter.](/assets/pamphlet_images/search_and_rescue_p090_img1.png)
 
@@ -499,8 +455,6 @@
 **Official Requirement 7a:** Choose a hypothetical SAR scenario, either one presented in the Search and Rescue merit badge pamphlet or one approved by your counselor.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Hypothetical SAR Scenario Either One)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Search and Rescue Req 7a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Any imaginary search scenario works even without defining lost subject clothing or physical traits.
-- **Pamphlet Fact:** Selecting a realistic missing hiker scenario provides practical terrain constraints and realistic behavioral parameters.
 
 **Gear & Readiness Checklist:**
 - [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
@@ -519,8 +473,6 @@
 #### Req 7b: Incident Action Plan Development
 **Official Requirement 7b:** Develop an Incident Action Plan (IAP) for a hasty search using the scenario information.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Develop An Incident Action Plan)
-- **Common Myth:** Hasty search teams operate most effectively by wandering outdoors without an organized written plan.
-- **Pamphlet Fact:** An Incident Action Plan assigns specific tactical sectors, communications channels, and safety rules for operational periods.
 
 ![Rescuers operate a high-angle rope system and tripod apparatus over a rocky cliff face.](/assets/pamphlet_images/search_and_rescue_p091_img1.png)
 
@@ -533,8 +485,6 @@
 #### Req 7c: Pre-Search PAUSE Safety Briefing
 **Official Requirement 7c:** Before the search begins, conduct a PAUSE briefing to review hazards, safety concerns, personal and shared Scout Basic Essentials, and other gear.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Search Begins Conduct A PAUSE)
-- **Common Myth:** Safety briefings waste valuable minutes when teams should be running into the woods immediately.
-- **Pamphlet Fact:** The PAUSE briefing reviews personal protective equipment, environmental hazards, and emergency communication protocols.
 
 | Req 7c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -545,8 +495,6 @@
 #### Req 7d: Field Search Tactical Execution
 **Official Requirement 7d:** Execute the search.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Search and Rescue Search Principles)
-- **Common Myth:** Field searchers should sprint through their assigned sectors to finish the search as quickly as possible.
-- **Pamphlet Fact:** Executing a search requires disciplined pace, constant visual scanning, and prompt communication of discovered clues.
 
 | Req 7d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -557,8 +505,6 @@
 #### Req 7e: Post-Mission Team Debriefing Protocols
 **Official Requirement 7e:** After the search, hold a team debriefing to discuss the search, problems, successful and unsuccessful tactics, and ideas for improvement.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Search Hold A Team Debriefing)
-- **Common Myth:** The search operation ends completely the moment team members return to the incident command vehicle.
-- **Pamphlet Fact:** Operational debriefings document search coverage quality, terrain obstacles, and areas requiring follow-up inspection.
 
 | Req 7e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -584,8 +530,6 @@
 **Official Requirement 8a:** Explore careers related to Search and Rescue merit badge or emergency management. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 77, p. 89)* • **Organizer (Career & Profession Exploration Card):** Req 8a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Search and Rescue Req 8a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Emergency management jobs consist exclusively of answering routine non-emergency telephone calls in offices.
-- **Pamphlet Fact:** Emergency managers, park rangers, and public safety flight crews earn salaries while managing rescue operations.
 
 ![A trained search dog in a service harness assists professional handlers in tracking.](/assets/pamphlet_images/search_and_rescue_p078_img1.png)
 
@@ -601,8 +545,6 @@
 #### Req 8b: Volunteer Rescue Team Service
 **Official Requirement 8b:** Explore how you could use knowledge and skills from this merit badge to serve as a volunteer on a disaster relief team, a wilderness rescue team, or a ski patrol. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 77, p. 89)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)
-- **Common Myth:** Volunteering on a wilderness search team requires no technical training or ongoing skill certifications.
-- **Pamphlet Fact:** Volunteer mountain rescue teams and ski patrols require specialized certifications in outdoor emergency care.
 
 | Req 8b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

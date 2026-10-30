@@ -273,13 +273,15 @@
         "Inspected Snow Sports equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Alpine Hazard Prevention",
+        "left_header": "Req 1a: Alpine Hazard Prevention Protocol",
         "right_header": "Req 1b: Cold Weather First Aid",
         "left_points": [
-          "(1a) Alpine Hazard Prevention Protocol: Anticipating mountain hazards involves evaluating changing weather, terrain obstacles, and trail traffic before descending. Prevention relies on proper spacing, speed control, and carrying emergency shelter supplies."
+          "(1a) Alpine Hazard Prevention Protocol: Anticipating mountain hazards involves evaluating changing weather, terrain obstacles, and trail traffic before descending. Prevention relies on proper spacing, speed control, and carrying emergency shelter supplies.",
+          "Thermal Regulation: Layered synthetic clothing prevents sweat accumulation that causes rapid conductive body cooling."
         ],
         "right_points": [
-          "(1b) Cold Weather First Aid: Cold injuries range from frostbite and hypothermia to acute mountain sickness and severe fractures. Immediate treatment prioritizes moving the patient out of the wind, dry insulation, and gentle rewarming."
+          "(1b) Cold Weather First Aid: Cold injuries range from frostbite and hypothermia to acute mountain sickness and severe fractures. Immediate treatment prioritizes moving the patient out of the wind, dry insulation, and gentle rewarming.",
+          "Hydration Maintenance: Cold dry mountain air accelerates respiratory moisture loss requiring regular fluid intake."
         ],
         "rows": [
           {
@@ -289,25 +291,27 @@
           },
           {
             "attribute": "Sun Protection",
-            "left": "Req 1a: Alpine Hazard Prevention: Anticipating mountain hazards involves evaluating changing weather, terrain obstacles, and trail traffic before descending. Prevention relies on proper spacing, speed control, and carrying emergency shelter supplies.",
-            "right": "Req 1b: Cold Weather First Aid: Cold injuries range from frostbite and hypothermia to acute mountain sickness and severe fractures. Immediate treatment prioritizes moving the patient out of the wind, dry insulation, and gentle rewarming."
+            "left": "Thermal Regulation: Layered synthetic clothing prevents sweat accumulation that causes rapid conductive body cooling.",
+            "right": "Hydration Maintenance: Cold dry mountain air accelerates respiratory moisture loss requiring regular fluid intake."
           },
           {
             "attribute": "Hydration Maintenance",
-            "left": "Thermal Regulation: Layered synthetic clothing prevents sweat accumulation that causes rapid conductive body cooling.",
-            "right": "Sun Protection: Snow reflection intensifies ultraviolet exposure requiring dark polarized sunglasses and zinc sunscreen."
+            "left": "Hydration Maintenance: Cold dry mountain air accelerates respiratory moisture loss requiring regular fluid intake.",
+            "right": "Tree Wells: Deep loose snow surrounding evergreen bases causes fatal suffocation from immersion."
           }
         ]
       },
       "worked_example": {
-        "title": "Snow Sports Req 1 Exemplar Workbook Entry: Snow Sport",
+        "title": "Snow Sports Req 1 Worked Example: Winter Mountain Environmental Hazards",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Alpine Hazard Prevention": "Anticipating mountain hazards involves evaluating changing weather, terrain obstacles, and trail traffic before descending. Prevention relies on proper spacing, speed control, and carrying emergency shelter supplies.",
-          "Req 1b - Cold Weather First Aid": "Cold injuries range from frostbite and hypothermia to acute mountain sickness and severe fractures. Immediate treatment prioritizes moving the patient out of the wind, dry insulation, and gentle rewarming."
+          "Phase 1 - Weather Assessment": "Check local avalanche forecasts and temperature trends before heading up the mountain.",
+          "Phase 2 - Gear Preparation": "Pack emergency shelter gear, high energy rations, spare gloves, and insulated goggles.",
+          "Phase 3 - Trail Observation": "Scan tree bases and steep cornice drop-offs to prevent accidental falls.",
+          "Phase 4 - Group Check": "Monitor patrol members continuously for pale skin, shivering, or sluggish physical movement."
         },
-        "sample_output": "Snow Sport Hazards and First Aid: Such an injury causes sudden pain and swelling at the joint (p. 22).",
-        "counselor_tip": "For Snow Sports Requirement 1 (Snow Sport Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23))."
+        "sample_output": "Participants encounter extreme ambient cold, shifting alpine weather, high altitude, and solar radiation while traveling across snow. Effective management demands continuous monitoring of weather patterns, choosing appropriate routes, and carrying emergency survival gear.",
+        "counselor_tip": "During the Snow Sports Requirement 1 conference on Winter Mountain Environmental Hazards, verify that the Scout can explain thermal regulation and demonstrate group check: Monitor patrol members continuously for pale skin, shivering, or sluggish physical movement."
       },
       "quiz_item": {
         "scenario_prompt": "While skiing down an intermediate alpine trail, you approach a slower snowboarder ahead of you who suddenly begins a wide turn across the run. Under the Alpine Responsibility Code, who has the right-of-way and what must you do?",
@@ -609,10 +613,12 @@
         "left_header": "Req 2a: Participant First Aid Duty",
         "right_header": "Req 2b: Ski Patrol Accident Reporting",
         "left_points": [
-          "(2a) Participant First Aid Duty: Participants must maintain emergency readiness because alpine isolation delays commercial emergency medical response. Immediate buddy care shields trauma victims from rapid environmental temperature drops."
+          "(2a) Participant First Aid Duty: Participants must maintain emergency readiness because alpine isolation delays commercial emergency medical response. Immediate buddy care shields trauma victims from rapid environmental temperature drops.",
+          "Immediate Action: Rapid emergency response prevents hypothermia from worsening severe traumatic musculoskeletal injuries."
         ],
         "right_points": [
-          "(2b) Ski Patrol Accident Reporting: Reporting a trail incident requires delivering specific data including trail name, tower number, and injury description. Messengers should memorize exact landmarks or call the emergency dispatch number directly."
+          "(2b) Ski Patrol Accident Reporting: Reporting a trail incident requires delivering specific data including trail name, tower number, and injury description. Messengers should memorize exact landmarks or call the emergency dispatch number directly.",
+          "Patrol Contact: Ski patrol dispatchers require trail name, landmark number, and current patient condition."
         ],
         "rows": [
           {
@@ -622,25 +628,27 @@
           },
           {
             "attribute": "Scene Safety",
-            "left": "Req 2a: Participant First Aid Duty: Participants must maintain emergency readiness because alpine isolation delays commercial emergency medical response. Immediate buddy care shields trauma victims from rapid environmental temperature drops.",
-            "right": "Req 2b: Ski Patrol Accident: Reporting a trail incident requires delivering specific data including trail name, tower number, and injury description. Messengers should memorize exact landmarks or call the emergency dispatch number directly."
+            "left": "Immediate Action: Rapid emergency response prevents hypothermia from worsening severe traumatic musculoskeletal injuries.",
+            "right": "Patrol Contact: Ski patrol dispatchers require trail name, landmark number, and current patient condition."
           },
           {
             "attribute": "Patrol Contact",
-            "left": "Immediate Action: Rapid emergency response prevents hypothermia from worsening severe traumatic musculoskeletal injuries.",
-            "right": "Scene Safety: Crossing skis uphill from an accident marks the site for oncoming skiers."
+            "left": "Patrol Contact: Ski patrol dispatchers require trail name, landmark number, and current patient condition.",
+            "right": "Patient Warming: Insulating injured skiers from snow prevents deadly hypothermic shock during rescue waits."
           }
         ]
       },
       "worked_example": {
-        "title": "Snow Sports Req 2 Exemplar Workbook Entry: Emergency",
+        "title": "Snow Sports Req 2 Worked Example: Mountain Emergency First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Participant First Aid Duty": "Participants must maintain emergency readiness because alpine isolation delays commercial emergency medical response. Immediate buddy care shields trauma victims from rapid environmental temperature drops.",
-          "Req 2b - Ski Patrol Accident Reporting": "Reporting a trail incident requires delivering specific data including trail name, tower number, and injury description. Messengers should memorize exact landmarks or call the emergency dispatch number directly."
+          "Phase 1 - Scene Protection": "Plant crossed skis uphill above the injured skier to divert approaching traffic.",
+          "Phase 2 - Patient Assessment": "Check responsiveness, breathing, and bleeding while protecting the spine from sudden movement.",
+          "Phase 3 - Emergency Dispatch": "Send two reliable companions to report the exact trail location to patrol.",
+          "Phase 4 - Cold Shielding": "Place dry backpacks underneath the victim to block conductive ground heat loss."
         },
-        "sample_output": "Emergency Response and Accident Reporting: The exact location of the accident, the type of injuries, the number of people hurt, and their conditions (p. 19).",
-        "counselor_tip": "For Snow Sports Requirement 2 (Emergency Response and Accident Reporting), verify the Scout's own observations and specific pamphlet details (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23))."
+        "sample_output": "Every snow sport participant must be ready to provide basic stabilization because freezing temperatures accelerate trauma complications. Prompt accident reporting to the ski patrol ensures specialized extraction toboggans and medical personnel reach the injured person.",
+        "counselor_tip": "During the Snow Sports Requirement 2 conference on Mountain Emergency First Aid, verify that the Scout can explain immediate action and demonstrate cold shielding: Place dry backpacks underneath the victim to block conductive ground heat loss."
       },
       "quiz_item": {
         "scenario_prompt": "At an Alpine ski resort, what is the standard method for alerting ski patrol when you lack direct phone or radio contact at an accident scene?",
@@ -792,47 +800,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: International Trail Sign age",
-        "right_header": "Req 3: Obey All Trail Sign age",
+        "left_header": "International Trail Marking System: Core Principles",
+        "right_header": "International Trail Marking System: Field Execution",
         "left_points": [
-          "International Trail Sign age Standards: Another thing snow sport enthusiasts need to become familiar with is the international trail-marking system (p. 18).",
-          "Matching Trails to Ability: This system has been designed to help users identify the trails best suited to their level of ability as well as hazards within a ski area (p. 18).",
-          "Following Safety Trail Signs: The signs are there for everyone's safety and should always be followed (p. 18)."
+          "Green Circle: Green circles designate easier beginner slopes with wide contours and gentle gradients.",
+          "Blue Square: Blue squares indicate more difficult intermediate terrain with moderate pitches and moguls."
         ],
         "right_points": [
-          "Obey All Trail Sign age: The signs are there for everyone's safety and should always be followed (p. 18).",
-          "Check Local Difficulty Ratings: Each ski area determines whether a trail is a green circle (beginner), blue square (intermediate), black diamond (advanced), or double black diamond (p. 18).",
-          "Read Nordic Trail Markers: Nordic and snowshoe trails often use this system as well (p. 18)."
+          "Black Diamond: Black diamonds denote most difficult trails featuring steep pitches, narrow chutes, and obstacles.",
+          "Double Diamond: Double black diamonds identify expert terrain containing extreme cliff bands and hazards."
         ],
         "rows": [
           {
             "attribute": "Green Circle",
-            "left": "International Trail Sign age Standards: Another thing snow sport enthusiasts need to become familiar with is the international trail-marking system (p. 18).",
-            "right": "Obey All Trail Sign age: The signs are there for everyone's safety and should always be followed (p. 18)."
+            "left": "Green Circle: Green circles designate easier beginner slopes with wide contours and gentle gradients.",
+            "right": "Black Diamond: Black diamonds denote most difficult trails featuring steep pitches, narrow chutes, and obstacles."
           },
           {
             "attribute": "Blue Square",
-            "left": "Matching Trails to Ability: This system has been designed to help users identify the trails best suited to their level of ability as well as hazards within a ski area (p. 18).",
-            "right": "Check Local Difficulty Ratings: Each ski area determines whether a trail is a green circle (beginner), blue square (intermediate), black diamond (advanced), or double black diamond (p. 18)."
+            "left": "Blue Square: Blue squares indicate more difficult intermediate terrain with moderate pitches and moguls.",
+            "right": "Double Diamond: Double black diamonds identify expert terrain containing extreme cliff bands and hazards."
           },
           {
             "attribute": "Black Diamond",
-            "left": "Following Safety Trail Signs: The signs are there for everyone's safety and should always be followed (p. 18).",
-            "right": "Read Nordic Trail Markers: Nordic and snowshoe trails often use this system as well (p. 18)."
+            "left": "Black Diamond: Black diamonds denote most difficult trails featuring steep pitches, narrow chutes, and obstacles.",
+            "right": "Double Diamond: Double black diamonds identify expert terrain containing extreme cliff bands and hazards."
           }
         ]
       },
       "worked_example": {
-        "title": "Snow Sports Req 3 Exemplar Workbook Entry: International",
+        "title": "Snow Sports Req 3 Worked Example: International Trail Marking System",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "International Trail Sign age Standards": "Another thing snow sport enthusiasts need to become familiar with is the international trail-marking system (p. 18).",
-          "Matching Trails to Ability": "This system has been designed to help users identify the trails best suited to their level of ability as well as hazards within a ski area (p. 18).",
-          "Following Safety Trail Signs": "The signs are there for everyone's safety and should always be followed (p. 18).",
-          "Color and Shape Classifications": "Each ski area determines whether a trail is a green circle (beginner), blue square (intermediate), black diamond (advanced), or double black diamond (p. 18)."
+          "Phase 1 - Map Consultation": "Review the resort trail map before riding lifts to identify appropriate routes.",
+          "Phase 2 - Signboard Verification": "Match the trail head marker shape to personal technical competence before dropping.",
+          "Phase 3 - Boundary Respect": "Obey orange rope closures denoting ungroomed terrain, thin cover, or avalanche closures.",
+          "Phase 4 - Junction Decision": "Choose lower difficulty bypass routes whenever approaching intersections with double black diamonds."
         },
-        "sample_output": "International Trail Marking System: Another thing snow sport enthusiasts need to become familiar with is the international trail-marking system (p. 18).",
-        "counselor_tip": "For Snow Sports Requirement 3 (International Trail Marking System), verify the Scout's own observations and specific pamphlet details (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29))."
+        "sample_output": "The international trail-marking system categorizes slope difficulty using standardized geometric shapes and colors. These symbols guide participants to slopes matching their technical ability, preventing disorientation and accidents.",
+        "counselor_tip": "During the Snow Sports Requirement 3 conference on International Trail Marking System, verify that the Scout can explain green circle and demonstrate junction decision: Choose lower difficulty bypass routes whenever approaching intersections with double black diamonds."
       },
       "quiz_item": {
         "scenario_prompt": "Which symbol in the international trail-marking system is used specifically to identify freestyle terrain parks and features?",
@@ -991,47 +997,45 @@
         "Inspected Snow Sports equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 4: Year-Round Aerobic Conditioning",
-        "right_header": "Req 4: Warm Up with Jogging",
+        "left_header": "Physical Conditioning and Fitness: Core Principles",
+        "right_header": "Physical Conditioning and Fitness: Field Execution",
         "left_points": [
-          "Year-Round Aerobic Conditioning Activities: Activities such as running, soccer, biking, and hiking are great ways to To enjoy snow sports, you must be in good physical condition (p. 25).",
-          "Pre-Season Physical Preparation: Be sure to take the time to prepare your body for the sport (p. 25).",
-          "Brief Active Muscle Warm-Ups: Start your warm-up with some activity to get your muscles ready, such as jogging briefly (p. 25)."
+          "Isometric Strength: Wall sits build quadriceps endurance needed for maintaining steady downhill athletic stances.",
+          "Core Stability: Planks strengthen abdominal muscles to maintain proper balance over shifting snow conditions."
         ],
         "right_points": [
-          "Warm Up with Jogging: Start your warm-up with some activity to get your muscles ready, such as jogging briefly (p. 25).",
-          "Hold Stretches Thirty Seconds: Then perform these stretches, holding each one a minimum of 30 seconds up to two minutes. to keep in shape year-round (p. 25).",
-          "Brace Against Solid Support: Use a wall or something solid to lean into, one leg forward and one leg back (p. 25)."
+          "Cardiovascular Stamina: Aerobic conditioning delays muscular exhaustion that causes late afternoon downhill ski accidents.",
+          "Dynamic Flexibility: Leg swings and hamstring stretches protect knees and hips from abrupt torque."
         ],
         "rows": [
           {
             "attribute": "Isometric Strength",
-            "left": "Year-Round Aerobic Conditioning Activities: Activities such as running, soccer, biking, and hiking are great ways to To enjoy snow sports, you must be in good physical condition (p. 25).",
-            "right": "Warm Up with Jogging: Start your warm-up with some activity to get your muscles ready, such as jogging briefly (p. 25)."
+            "left": "Isometric Strength: Wall sits build quadriceps endurance needed for maintaining steady downhill athletic stances.",
+            "right": "Cardiovascular Stamina: Aerobic conditioning delays muscular exhaustion that causes late afternoon downhill ski accidents."
           },
           {
             "attribute": "Core Stability",
-            "left": "Pre-Season Physical Preparation: Be sure to take the time to prepare your body for the sport (p. 25).",
-            "right": "Hold Stretches Thirty Seconds: Then perform these stretches, holding each one a minimum of 30 seconds up to two minutes. to keep in shape year-round (p. 25)."
+            "left": "Core Stability: Planks strengthen abdominal muscles to maintain proper balance over shifting snow conditions.",
+            "right": "Dynamic Flexibility: Leg swings and hamstring stretches protect knees and hips from abrupt torque."
           },
           {
             "attribute": "Cardiovascular Stamina",
-            "left": "Brief Active Muscle Warm-Ups: Start your warm-up with some activity to get your muscles ready, such as jogging briefly (p. 25).",
-            "right": "Brace Against Solid Support: Use a wall or something solid to lean into, one leg forward and one leg back (p. 25)."
+            "left": "Cardiovascular Stamina: Aerobic conditioning delays muscular exhaustion that causes late afternoon downhill ski accidents.",
+            "right": "Dynamic Flexibility: Leg swings and hamstring stretches protect knees and hips from abrupt torque."
           }
         ]
       },
       "worked_example": {
-        "title": "Snow Sports Req 4 Exemplar Workbook Entry: Physical",
+        "title": "Snow Sports Req 4 Worked Example: Physical Conditioning and Fitness",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Year-Round Aerobic Conditioning": "Activities such as running, soccer, biking, and hiking are great ways to To enjoy snow sports, you must be in good physical condition (p. 25).",
-          "Pre-Season Physical Preparation": "Be sure to take the time to prepare your body for the sport (p. 25).",
-          "Brief Active Muscle Warm-Ups": "Start your warm-up with some activity to get your muscles ready, such as jogging briefly (p. 25).",
-          "Sustained Muscle Stretching Duration": "Then perform these stretches, holding each one a minimum of 30 seconds up to two minutes. to keep in shape year-round (p. 25)."
+          "Phase 1 - Warmup Routine": "Perform five minutes of light jumping jacks to raise core body temperature.",
+          "Phase 2 - Quadriceps Loading": "Hold a ninety degree wall sit for sixty seconds to develop leg endurance.",
+          "Phase 3 - Balance Training": "Practice single leg squats on a balance pad to strengthen ankle stabilizers.",
+          "Phase 4 - Dynamic Stretching": "Complete deep lunges and torso rotations to improve hip mobility before skiing."
         },
-        "sample_output": "Physical Conditioning and Warm-Up Exercises: Activities such as running, soccer, biking, and hiking are great ways to To enjoy snow sports, you must be in good physical condition (p. 25).",
-        "counselor_tip": "For Snow Sports Requirement 4 (Physical Conditioning and Warm-Up Exercises), verify the Scout's own observations and specific pamphlet details (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26))."
+        "sample_output": "Snow sports demand robust muscular strength, cardiovascular endurance, and joint flexibility to withstand dynamic downhill forces. Comprehensive pre-season conditioning reduces fatigue, stabilizes connective tissues, and prevents severe knee ligament tears.",
+        "counselor_tip": "During the Snow Sports Requirement 4 conference on Physical Conditioning and Fitness, verify that the Scout can explain isometric strength and demonstrate dynamic stretching: Complete deep lunges and torso rotations to improve hip mobility before skiing."
       },
       "quiz_item": {
         "scenario_prompt": "After warming up your muscles with brief jogging, how long should you hold each pre-ski stretch?",
@@ -1185,47 +1189,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Matching Bindings to Footwear",
-        "right_header": "Req 5: Calculate Total Load Weight",
+        "left_header": "Snow Sports Clothing Systems: Core Principles",
+        "right_header": "Snow Sports Clothing Systems: Field Execution",
         "left_points": [
-          "Matching Bindings to Footwear: Pick a binding that is suited for the shoes you plan to use and the conditions you will encounter (p. 25).",
-          "Glove-Friendly Binding Operation: Consider also whether you will be able to operate the binding while wearing gloves or mittens (p. 25).",
-          "Total Load Weight Flotation: Your body and pack weight is important to consider when choosing the right size snowshoe to keep you afloat (p. 25)."
+          "Base Layer: Synthetic or merino wool base layers pull perspiration away from cold skin.",
+          "Insulation Layer: Fleece or down mid-layers trap warm air without restricting downhill athletic motion."
         ],
         "right_points": [
-          "Calculate Total Load Weight: Your body and pack weight is important to consider when choosing the right size snowshoe to keep you afloat (p. 25).",
-          "Check Manufacturer Load Ratings: When shopping for snowshoes, look for the recommended load weight (p. 25).",
-          "Maintain Snowshoes Between Trips: Quality snowshoes can sustain years of use if they are well cared (p. 25)."
+          "Outer Shell: Waterproof breathable outer jackets block biting wind and repel freezing mountain precipitation.",
+          "Head Protection: Certified snow helmets retain head warmth while shielding skulls from high-speed impacts."
         ],
         "rows": [
           {
             "attribute": "Base Layer",
-            "left": "Matching Bindings to Footwear: Pick a binding that is suited for the shoes you plan to use and the conditions you will encounter (p. 25).",
-            "right": "Calculate Total Load Weight: Your body and pack weight is important to consider when choosing the right size snowshoe to keep you afloat (p. 25)."
+            "left": "Base Layer: Synthetic or merino wool base layers pull perspiration away from cold skin.",
+            "right": "Outer Shell: Waterproof breathable outer jackets block biting wind and repel freezing mountain precipitation."
           },
           {
             "attribute": "Insulation Layer",
-            "left": "Glove-Friendly Binding Operation: Consider also whether you will be able to operate the binding while wearing gloves or mittens (p. 25).",
-            "right": "Check Manufacturer Load Ratings: When shopping for snowshoes, look for the recommended load weight (p. 25)."
+            "left": "Insulation Layer: Fleece or down mid-layers trap warm air without restricting downhill athletic motion.",
+            "right": "Head Protection: Certified snow helmets retain head warmth while shielding skulls from high-speed impacts."
           },
           {
             "attribute": "Outer Shell",
-            "left": "Total Load Weight Flotation: Your body and pack weight is important to consider when choosing the right size snowshoe to keep you afloat (p. 25).",
-            "right": "Maintain Snowshoes Between Trips: Quality snowshoes can sustain years of use if they are well cared (p. 25)."
+            "left": "Outer Shell: Waterproof breathable outer jackets block biting wind and repel freezing mountain precipitation.",
+            "right": "Head Protection: Certified snow helmets retain head warmth while shielding skulls from high-speed impacts."
           }
         ]
       },
       "worked_example": {
-        "title": "Snow Sports Req 5 Exemplar Workbook Entry: Cold-Weather",
+        "title": "Snow Sports Req 5 Worked Example: Snow Sports Clothing Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Matching Bindings to Footwear": "Pick a binding that is suited for the shoes you plan to use and the conditions you will encounter (p. 25).",
-          "Glove-Friendly Binding Operation": "Consider also whether you will be able to operate the binding while wearing gloves or mittens (p. 25).",
-          "Total Load Weight Flotation": "Your body and pack weight is important to consider when choosing the right size snowshoe to keep you afloat (p. 25).",
-          "Recommended Snowshoe Weight Ratings": "When shopping for snowshoes, look for the recommended load weight (p. 25)."
+          "Phase 1 - Base Layering": "Put on moisture wicking polyester thermal underwear against the bare dry skin.",
+          "Phase 2 - Thermal Stacking": "Add a fleece pullover to trap body warmth around the vital organs.",
+          "Phase 3 - Weather Shelling": "Zip up a windproof breathable jacket over pants covering boot tops completely.",
+          "Phase 4 - Extremity Coverage": "Secure waterproof insulated mittens, neck gaiter, helmet, and anti-fog dual-pane goggles snugly."
         },
-        "sample_output": "Cold-Weather Layering and Protective Gear: Pick a binding that is suited for the shoes you plan to use and the conditions you will encounter (p. 25).",
-        "counselor_tip": "For Snow Sports Requirement 5 (Cold-Weather Layering and Protective Gear), verify the Scout's own observations and specific pamphlet details (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88))."
+        "sample_output": "The three-layer clothing system regulates body temperature through moisture management, thermal insulation, and weather protection. Wearing moisture-wicking base layers, fleece mid-layers, and waterproof breathable shells prevents deadly hypothermia on the mountain.",
+        "counselor_tip": "During the Snow Sports Requirement 5 conference on Snow Sports Clothing Systems, verify that the Scout can explain base layer and demonstrate extremity coverage: Secure waterproof insulated mittens, neck gaiter, helmet, and anti-fog dual-pane goggles snugly."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary factor you must calculate when selecting the correct deck size for snowshoes?",
@@ -1610,10 +1612,12 @@
         "left_header": "Req 6a: Your Responsibility Code Rules",
         "right_header": "Req 6b: SMART Style Park Safety",
         "left_points": [
-          "(6a) Your Responsibility Code Rules: Your Responsibility Code outlines universal rules of conduct on ski slopes to eliminate reckless collisions. Following these rules ensures that every skier remains in control, avoids stopping in blind spots, and uses retention devices."
+          "(6a) Your Responsibility Code Rules: Your Responsibility Code outlines universal rules of conduct on ski slopes to eliminate reckless collisions. Following these rules ensures that every skier remains in control, avoids stopping in blind spots, and uses retention devices.",
+          "Downhill Right: Downhill skiers have the right of way because they cannot see."
         ],
         "right_points": [
-          "(6b) SMART Style Park Safety: The SMART Style program establishes safety rules specifically designed for terrain parks, pipes, and feature zones. Riders must start small, make a plan, always look, respect features, and take it easy."
+          "(6b) SMART Style Park Safety: The SMART Style program establishes safety rules specifically designed for terrain parks, pipes, and feature zones. Riders must start small, make a plan, always look, respect features, and take it easy.",
+          "(6c) Avalanche Safety and Precautions: Avalanche safety requires assessing snowpack stability, recognizing slope angles between thirty and forty-five degrees, and carrying rescue gear. Backcountry travelers must travel one at a time across exposed avalanche paths."
         ],
         "rows": [
           {
@@ -1623,26 +1627,27 @@
           },
           {
             "attribute": "Safe Stopping",
-            "left": "Req 6a: Your Responsibility Code: Your Responsibility Code outlines universal rules of conduct on ski slopes to eliminate reckless collisions. Following these rules ensures that every skier remains in control, avoids stopping in blind spots, and uses retention devices.",
-            "right": "Req 6b: SMART Style Park Safety: The SMART Style program establishes safety rules specifically designed for terrain parks, pipes, and feature zones. Riders must start small, make a plan, always look, respect features, and take it easy."
+            "left": "Downhill Right: Downhill skiers have the right of way because they cannot see.",
+            "right": "(6c) Avalanche Safety and Precautions: Avalanche safety requires assessing snowpack stability, recognizing slope angles between thirty and forty-five degrees, and carrying rescue gear. Backcountry travelers must travel one at a time across exposed avalanche paths."
           },
           {
             "attribute": "Park Etiquette",
-            "left": "Req 6c: Avalanche Safety: Avalanche safety requires assessing snowpack stability, recognizing slope angles between thirty and forty-five degrees, and carrying rescue gear. Backcountry travelers must travel one at a time across exposed avalanche paths.",
-            "right": "Safe Stopping: Avoid stopping in narrow trails or where you are invisible."
+            "left": "Park Etiquette: Look before you leap to ensure landing zones are clear of fallen riders.",
+            "right": "Avalanche Awareness: Carrying a transceiver, shovel, and probe is mandatory in snowy backcountry terrain."
           }
         ]
       },
       "worked_example": {
-        "title": "Snow Sports Req 6 Exemplar Workbook Entry",
+        "title": "Snow Sports Req 6 Worked Example: Mountain Safety and Ethics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Your Responsibility Code": "Your Responsibility Code outlines universal rules of conduct on ski slopes to eliminate reckless collisions. Following these rules ensures that every skier remains in control, avoids stopping in blind spots, and uses retention devices.",
-          "Req 6b - SMART Style Park Safety": "The SMART Style program establishes safety rules specifically designed for terrain parks, pipes, and feature zones. Riders must start small, make a plan, always look, respect features, and take it easy.",
-          "Req 6c - Avalanche Safety": "Avalanche safety requires assessing snowpack stability, recognizing slope angles between thirty and forty-five degrees, and carrying rescue gear. Backcountry travelers must travel one at a time across exposed avalanche paths."
+          "Phase 1 - Control Maintenance": "Ski at controlled speeds allowing immediate stops to avoid obstacles and people.",
+          "Phase 2 - Lookout Verification": "Look uphill and yield to oncoming skiers whenever merging onto a trail.",
+          "Phase 3 - Park Progression": "Inspect all terrain park jumps and rails before attempting any aerial maneuvers.",
+          "Phase 4 - Beacon Check": "Test avalanche beacon transmit and receive functions before entering any ungroomed gates."
         },
-        "sample_output": "Responsibility Code and Avalanche Safety: You should always perform an inspection run through the park or pipe to check for any irregularities and changes that may have happened (p. 15).",
-        "counselor_tip": "For Snow Sports Requirement 6 (Responsibility Code and Avalanche Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19))."
+        "sample_output": "Safe mountain travel requires strict adherence to Your Responsibility Code, SMART Style terrain park etiquette, and backcountry avalanche awareness. Every participant shares the duty to protect themselves and others from preventable alpine collisions and hazards.",
+        "counselor_tip": "During the Snow Sports Requirement 6 conference on Mountain Safety and Ethics, verify that the Scout can explain downhill right and demonstrate beacon check: Test avalanche beacon transmit and receive functions before entering any ungroomed gates."
       },
       "quiz_item": {
         "scenario_prompt": "Under the SMART Style terrain park safety program, what should you do when approaching a jump or feature where you cannot see the landing zone?",
@@ -5705,8 +5710,8 @@
         "Inspected Snow Sports equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Downhill Alpine Skiing",
-        "right_header": "Req 7c: Snowboarding Fundamentals",
+        "left_header": "Req 7a: Downhill Alpine Skiing Techniques",
+        "right_header": "Req 7c: Snowboarding Fundamentals and Carving",
         "left_points": [
           "(7a) Downhill Alpine Skiing Techniques: Alpine skiing focuses on dynamic balance, rotary motion, pressure control, and edging skills on groomed trails. Skiers master wedge christies, parallel turns, and controlled hockey stops across progressively steeper terrain.",
           "(7b) Cross Country Nordic Techniques: Nordic skiing incorporates diagonal strides, kick-and-glide mechanics, and uphill herringbone maneuvers across rolling winter landscapes. Equipment utilizes free-heel bindings and specialized wax or fishscale grip patterns to propel the skier."
@@ -5728,22 +5733,22 @@
           },
           {
             "attribute": "Snowboard Carve",
-            "left": "Req 7a: Downhill Alpine Skiing: Alpine skiing focuses on dynamic balance, rotary motion, pressure control, and edging skills on groomed trails. Skiers master wedge christies, parallel turns, and controlled hockey stops across progressively steeper terrain.",
-            "right": "Req 7b: Cross Country Nordic: Nordic skiing incorporates diagonal strides, kick-and-glide mechanics, and uphill herringbone maneuvers across rolling winter landscapes. Equipment utilizes free-heel bindings and specialized wax or fishscale grip patterns to propel the skier."
+            "left": "Snowboard Carve: Shifting weight between heel and toe edges initiates fluid carving across slopes.",
+            "right": "Snowshoe Grip: Steel crampons beneath the snowshoe deck provide traction while climbing frozen ascents."
           }
         ]
       },
       "worked_example": {
-        "title": "Snow Sports Req 7 Exemplar Workbook Entry: Field Skills",
+        "title": "Snow Sports Req 7 Worked Example: Snow Sports Discipline Options",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 7a - Downhill Alpine Skiing": "Alpine skiing focuses on dynamic balance, rotary motion, pressure control, and edging skills on groomed trails. Skiers master wedge christies, parallel turns, and controlled hockey stops across progressively steeper terrain.",
-          "Req 7b - Cross Country Nordic": "Nordic skiing incorporates diagonal strides, kick-and-glide mechanics, and uphill herringbone maneuvers across rolling winter landscapes. Equipment utilizes free-heel bindings and specialized wax or fishscale grip patterns to propel the skier.",
-          "Req 7c - Snowboarding Fundamentals": "Snowboarding requires lateral balance, rotational body movements, and precise transitions between heel-side and toe-side edges. Riders learn safe falls, skidded traverses, and linked carved turns down novice and intermediate trails.",
-          "Req 7d - Snowshoeing Wilderness": "Snowshoeing distributes body weight over a broader surface area to achieve flotation over deep unconsolidated snow. Users learn proper stride width, heel-lift ascents, step-turn maneuvers, and safe pole plant coordination."
+          "Phase 1 - Gear Fitting": "Adjust bindings and boot closures to ensure secure attachment without painful pinching.",
+          "Phase 2 - Stance Centering": "Flex knees and ankles slightly forward to maintain a centered athletic posture.",
+          "Phase 3 - Edge Engagement": "Apply subtle lateral pressure to roll edges into the snow for turning.",
+          "Phase 4 - Controlled Deceleration": "Execute a wedge, hockey stop, or toe edge slide to stop cleanly."
         },
-        "sample_output": "Field Skills Across Snow Disciplines: All-mountain skis come in a variety of flexes and side cuts (p. 37).",
-        "counselor_tip": "For Snow Sports Requirement 7 (Field Skills Across Snow Disciplines), verify the Scout's own observations and specific pamphlet details (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40))."
+        "sample_output": "Scouts master technical fundamentals in one chosen discipline: downhill skiing, cross-country skiing, snowboarding, or snowshoeing. Each option requires specific equipment maintenance, balance techniques, edge control, and safe maneuvers across varied winter terrain.",
+        "counselor_tip": "During the Snow Sports Requirement 7 conference on Snow Sports Discipline Options, verify that the Scout can explain alpine edge and demonstrate controlled deceleration: Execute a wedge, hockey stop, or toe edge slide to stop cleanly."
       },
       "quiz_item": {
         "scenario_prompt": "Which design characteristic of an Alpine ski primarily determines how wide or tight a turn the ski can carve?",

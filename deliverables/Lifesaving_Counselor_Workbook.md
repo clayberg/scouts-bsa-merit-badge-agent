@@ -93,10 +93,8 @@
 **Official Requirement 2a:** Earn the Swimming merit badge.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Earn the Swimming)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Recreational swimming experience substitutes for formal Swimming merit badge completion records.
-- **Pamphlet Fact:** Swimming merit badge requirements validate survival floating and deep water surface entry skills.
 
-![Lifesaving Requirement 2 figure showing candidates must complete every requirement for the Swimming merit badge first.](/assets/pamphlet_images/lifesaving_p007_img1.png)
+![Candidates must complete every requirement for the Swimming merit badge first.](/assets/pamphlet_images/lifesaving_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -107,8 +105,6 @@
 #### Req 2b: Continuous Endurance Swim Testing
 **Official Requirement 2b:** Swim continuously for 400 yards using each of the following strokes in a strong manner, in good form with rhythmic breathing, for at least 50 continuous yards: front crawl, sidestroke, breaststroke, and elementary backstroke.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Continuously for Yards)
-- **Common Myth:** Any informal stroke style satisfies the four hundred yard endurance prerequisite.
-- **Pamphlet Fact:** Each required stroke must maintain consistent forward propulsion without pauses across fifty yards.
 
 ![A rescuer pushes a large blue buoyant pad toward a swimmer needing.](/assets/pamphlet_images/lifesaving_p057_img1.png)
 
@@ -134,10 +130,8 @@
 #### Req 3a: Aquatic Hazards and Prevention
 **Official Requirement 3a:** Common drowning situations and how to avoid them, such as unfenced residential pools, drop offs, river currents, rip currents, and medical emergencies.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Common Drowning Situations)
-- **Common Myth:** Residential swimming pools present fewer drowning hazards than uncontrolled open water lakes.
-- **Pamphlet Fact:** Drop offs cause sudden immersion panic in nonswimmers who step off underwater ledges.
 
-![Lifesaving Requirement 3 figure showing victims often struggle upright without forward propulsion or effective distress calls.](/assets/pamphlet_images/lifesaving_p012_img1.png)
+![Victims often struggle upright without forward propulsion or effective distress calls.](/assets/pamphlet_images/lifesaving_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -148,8 +142,6 @@
 #### Req 3b: Swimmer Distress Recognition Indicators
 **Official Requirement 3b:** How to identify persons in the water who need assistance.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Persons in the Water)
-- **Common Myth:** Tired swimmers behave identically to victims experiencing the instinctive drowning response.
-- **Pamphlet Fact:** Active drowning victims press their arms downward against water without kicking their feet.
 
 ![A distressed swimmer waves for assistance while struggling to remain afloat safely.](/assets/pamphlet_images/lifesaving_p019_img1.png)
 
@@ -162,10 +154,8 @@
 #### Req 3c: Water Rescue Order Sequence
 **Official Requirement 3c:** The order of methods in water rescue.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Order of Methods in Water)
-- **Common Myth:** Entering the water immediately demonstrates superior bravery and faster emergency rescue resolution.
-- **Pamphlet Fact:** The reach, throw, row, go sequence minimizes rescuer peril by exploiting distance.
 
-![Lifesaving Requirement 1 figure showing adult supervisors must hold current certifications in Safe Swim Defense and basic CPR.](/assets/pamphlet_images/lifesaving_p003_img1.png)
+![Adult supervisors must hold current certifications in Safe Swim Defense and basic CPR.](/assets/pamphlet_images/lifesaving_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -176,8 +166,6 @@
 #### Req 3d: Contextual Rescue Method Adaptation
 **Official Requirement 3d:** How rescue techniques vary depending on the setting and the condition of the person needing assistance.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Rescue Techniques Vary Depending)
-- **Common Myth:** Rescue techniques remain identical regardless of whether emergencies occur in pools or rivers.
-- **Pamphlet Fact:** Cold water requires immediate shore assists to prevent rapid victim incapacitation from hypothermia.
 
 ![Sudden submersion incidents in swimming pools illustrate common drowning hazards.](/assets/pamphlet_images/lifesaving_p019_img2.png)
 
@@ -190,8 +178,6 @@
 #### Req 3e: Nonentry Aquatic Rescue Criteria
 **Official Requirement 3e:** Situations for which in-water rescues should not be undertaken.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Situations for Which in-water Rescues)
-- **Common Myth:** Rescuers must enter the water regardless of personal safety during every emergency.
-- **Pamphlet Fact:** Floodwater rapids and low head dam hydraulics kill trained rescuers attempting contact rescues.
 
 ![Completed medical history forms fulfill essential Safe Swim Defense requirements.](/assets/pamphlet_images/lifesaving_p025_img1.png)
 
@@ -317,8 +303,6 @@
 #### Req 8a: Push Assist Device Deployment
 **Official Requirement 8a:** Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Aid to A Subject)
-- **Common Myth:** Rescuers must always maintain physical tether contact with victims during buoyant equipment assists.
-- **Pamphlet Fact:** Releasing the float allows independent victim recovery without exposing the rescuer to grasping hands.
 
 **Gear & Readiness Checklist:**
 - [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
@@ -337,8 +321,6 @@
 #### Req 8b: Buoyant Aid Subject Tow
 **Official Requirement 8b:** In a separate rescue, present the other aid to a subject and use it to tow the subject to safety.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Separate Rescue Present the Other)
-- **Common Myth:** Towing a conscious subject with a buoyant tube requires dragging them by the wrist.
-- **Pamphlet Fact:** Towing via a rescue tube towline keeps the rescuer completely out of reach of thrashing limbs.
 
 ![Lifeguard towers and clear swim area boundaries exemplify Safe Swim Defense rules.](/assets/pamphlet_images/lifesaving_p027_img1.png)
 
@@ -408,8 +390,6 @@
 #### Req 11a: Calm Swimmer Armpit Tow
 **Official Requirement 11a:** Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Armpit Tow for A Calm)
-- **Common Myth:** The rescuer should hold the tired swimmer neck to keep their head above water.
-- **Pamphlet Fact:** The armpit tow allows a resting swimmer to float comfortably while the rescuer kicks backwards.
 
 **Gear & Readiness Checklist:**
 - [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
@@ -428,8 +408,6 @@
 #### Req 11b: Exhausted Subject Cross-Chest Carry
 **Official Requirement 11b:** Perform a cross-chest carry for an exhausted, responsive subject treading water.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Cross-chest Carry for An Exhausted)
-- **Common Myth:** The cross-chest hold compresses the subject windpipe to force complete compliance during tows.
-- **Pamphlet Fact:** The cross-chest carry gives firm mechanical control over an exhausted swimmer prone to sinking.
 
 ![Swimmers raise joined hands during a regular buddy check to verify water safety.](/assets/pamphlet_images/lifesaving_p027_img2.png)
 
@@ -483,8 +461,6 @@
 #### Req 13a: Unconscious Subject Equipment Assist
 **Official Requirement 13a:** Perform an equipment assist using a buoyant aid.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)* • **Organizer (Concept & Examples Notes):** Req 13a Structured Technical Study & Explanation Matrix (Equipment Assist Using A Buoyant)
-- **Common Myth:** Buoyant aids are useless when handling totally limp and unconscious surface victims.
-- **Pamphlet Fact:** Sliding a buoyant rescue tube under an unconscious torso lifts the mouth instantly clear.
 
 **Gear & Readiness Checklist:**
 - [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
@@ -503,8 +479,6 @@
 #### Req 13b: Front Approach Wrist Tow
 **Official Requirement 13b:** Perform a front approach and wrist tow.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)* • **Organizer (Concept & Examples Notes):** Req 13b Structured Technical Study & Explanation Matrix (Front Approach and Wrist Tow)
-- **Common Myth:** Rescuers should grab the hair or clothing to roll an unconscious subject over.
-- **Pamphlet Fact:** Pulling the far wrist rotates the subject along their body axis without neck strain.
 
 ![A tired swimmer signals distress to prompt an assisted rescue from nearby guards.](/assets/pamphlet_images/lifesaving_p030_img2.png)
 
@@ -517,8 +491,6 @@
 #### Req 13c: Rear Approach Armpit Tow
 **Official Requirement 13c:** Perform a rear approach and armpit tow.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)* • **Organizer (Concept & Examples Notes):** Req 13c Structured Technical Study & Explanation Matrix (Rear Approach and Armpit Tow)
-- **Common Myth:** Rear approaches take too much time compared to direct head first contact grabs.
-- **Pamphlet Fact:** The rear approach avoids potential sudden flailing if the subject regains partial consciousness.
 
 ![Rescuers must recognize submerged passive victims quickly to initiate recovery.](/assets/pamphlet_images/lifesaving_p033_img1.png)
 
@@ -544,8 +516,6 @@
 #### Req 14a: Feetfirst Surface Dive Recovery
 **Official Requirement 14a:** Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)* • **Organizer (Concept & Examples Notes):** Req 14a Structured Technical Study & Explanation Matrix (Recover A 10-pound Weight)
-- **Common Myth:** Feetfirst surface dives require lead diving weights to overcome natural chest buoyancy.
-- **Pamphlet Fact:** Feetfirst descents keep the head upright to observe bottom obstructions and murky hazards safely.
 
 ![A motionless submerged victim demonstrates a passive drowning emergency scenario.](/assets/pamphlet_images/lifesaving_p032_img1.png)
 
@@ -558,8 +528,6 @@
 #### Req 14b: Headfirst Surface Dive Recovery
 **Official Requirement 14b:** Repeat using a headfirst surface dive.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)* • **Organizer (Concept & Examples Notes):** Req 14b Structured Technical Study & Explanation Matrix (Repeat Using A Headfirst Surface)
-- **Common Myth:** Headfirst dives are safe to execute in shallow water with unknown submerged rocks.
-- **Pamphlet Fact:** Pike surface dives bend the body at right angles to harness gravity during descents.
 
 ![Dialing emergency services summons professional medical assistance for drownings.](/assets/pamphlet_images/lifesaving_p033_img2.png)
 
@@ -585,8 +553,6 @@
 #### Req 15a: Spinal Injury Symptom Recognition
 **Official Requirement 15a:** Discuss the causes, signs, and symptoms of a spinal injury.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 15a Structured Technical Study & Explanation Matrix (Discuss the Causes Signs and)
-- **Common Myth:** A spinal injury victim will always lose consciousness immediately following blunt head trauma.
-- **Pamphlet Fact:** Neck pain, limb numbness, and head lacerations after shallow diving signal serious spinal injury.
 
 ![A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings.](/assets/pamphlet_images/lifesaving_p083_img1.png)
 
@@ -599,8 +565,6 @@
 #### Req 15b: Faceup Subject Spinal Support
 **Official Requirement 15b:** Support a faceup subject in calm water of standing depth.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 15b Structured Technical Study & Explanation Matrix (Support A Faceup Subject in)
-- **Common Myth:** Rescuers must apply rigid cervical collars while floating before stabilizing the subject arms.
-- **Pamphlet Fact:** Supporting a faceup subject requires gentle hip and shoulder lifts without moving the neck.
 
 ![Rescuers maintain safe separation while presenting flotation aids to swimmers.](/assets/pamphlet_images/lifesaving_p036_img1.png)
 
@@ -613,8 +577,6 @@
 #### Req 15c: Facedown Spinal Subject Rotation
 **Official Requirement 15c:** Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 15c Structured Technical Study & Explanation Matrix (Turn A Subject from A)
-- **Common Myth:** Turning a facedown spinal victim requires flipping them quickly to restore air access.
-- **Pamphlet Fact:** Rotating the subject under the rescuer armpit preserves perfect in-line head and spine alignment.
 
 ![Rescuers on the pool deck use a long reaching pole to assist a struggling swimmer.](/assets/pamphlet_images/lifesaving_p040_img1.png)
 
@@ -640,8 +602,6 @@
 #### Req 16a: Resuscitation Need Clinical Assessment
 **Official Requirement 16a:** Describe how to recognize the need for rescue breathing and CPR.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)* • **Organizer (Concept & Examples Notes):** Req 16a Structured Technical Study & Explanation Matrix (Recognize the Need for Rescue)
-- **Common Myth:** Rescuers should wait to begin CPR until all water is drained from lungs.
-- **Pamphlet Fact:** Victims who are unresponsive and not breathing or only gasping need immediate resuscitation.
 
 ![A lifeguard crouches at poolside to help two young swimmers exit the water safely.](/assets/pamphlet_images/lifesaving_p079_img1.png)
 
@@ -654,8 +614,6 @@
 #### Req 16b: Mannequin CPR Skill Demonstration
 **Official Requirement 16b:** Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified provider.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)* • **Organizer (Skill Demonstration Checklist):** Req 16b Hands-On Skill Station & EDGE Verification Checklist (CPR Knowledge and Skills Including)
-- **Common Myth:** Compression only CPR without rescue breaths is optimal for submersion drowning victims.
-- **Pamphlet Fact:** Continuous chest compressions combined with rescue breathing maximize survival chances after drowning.
 
 ![Trained rescuers aboard a motorcraft patrol open waterways during water activities.](/assets/pamphlet_images/lifesaving_p045_img1.png)
 

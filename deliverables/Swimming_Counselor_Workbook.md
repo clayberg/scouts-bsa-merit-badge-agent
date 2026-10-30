@@ -54,8 +54,6 @@
 **Official Requirement 1a:** Review with your counselor how Scouting America's Safe Swim Defense guidelines anticipate and deal with common drowning situations such as unfenced residential pools, nonswimmers entering deep water, risky behaviors, medical impairment in the water, drop-offs, cold water, murky water, river currents, rip currents, and surf.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Residential swimming pools do not require perimeter fencing if adult swimmers are present.
-- **Pamphlet Fact:** Four sided physical barrier fencing prevents accidental deep water entry by unattended children.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -63,7 +61,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
-![Swimming Requirement 1 figure showing every activity requires an adult supervisor trained in Safe Swim Defense standards.](/assets/pamphlet_images/swimming_p003_img1.png)
+![Every activity requires an adult supervisor trained in Safe Swim Defense standards.](/assets/pamphlet_images/swimming_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -74,8 +72,6 @@
 #### Req 1b: Aquatic Health Concerns Management
 **Official Requirement 1b:** Discuss the prevention and treatment of health concerns that could occur while swimming, including hypothermia, dehydration, sunburn, heat exhaustion, heatstroke, muscle cramps, hyperventilation, spinal injury, stings and bites, and cuts and scrapes.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention and Treatment)
-- **Common Myth:** Muscle cramps during swimming are minor discomforts that resolve without exiting the pool.
-- **Pamphlet Fact:** Cramps incapacitate limb movement and require immediate calm exit and gentle stretching.
 
 ![A doctor checks a swimmer heart and lungs during a health.](/assets/pamphlet_images/swimming_p014_img1.png)
 
@@ -123,8 +119,6 @@
 #### Req 3a: Front Crawl Propulsion Technique
 **Official Requirement 3a:** Demonstrate the front crawl or the trudgen using good form.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Front Crawl or the Trudgen)
-- **Common Myth:** Lifting the head straight forward out of the water improves breathing efficiency.
-- **Pamphlet Fact:** Rotary breathing requires turning the face sideways into the bow wave trough.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -132,7 +126,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
-![Swimming Requirement 3 figure showing alternate arm pulls combine with rhythmic flutter kicking and smooth bilateral head turns.](/assets/pamphlet_images/swimming_p012_img1.png)
+![Alternate arm pulls combine with rhythmic flutter kicking and smooth bilateral head turns.](/assets/pamphlet_images/swimming_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -143,8 +137,6 @@
 #### Req 3b: Back Crawl Streamline Mechanics
 **Official Requirement 3b:** Demonstrate the back crawl using good form.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Back Crawl Using Good Form)
-- **Common Myth:** Dropping the hips low in the water stabilizes balance during backstroke pulls.
-- **Pamphlet Fact:** Low hips create water drag that drastically slows down forward back crawl movement.
 
 ![A vigilant lookout scans the open swimming area to protect swimmers.](/assets/pamphlet_images/swimming_p018_img1.png)
 
@@ -157,10 +149,8 @@
 #### Req 3c: Sidestroke Scissors Kick Technique
 **Official Requirement 3c:** Demonstrate the sidestroke using good form.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Sidestroke Using Good Form)
-- **Common Myth:** The top and bottom legs must both kick backward simultaneously during sidestroke.
-- **Pamphlet Fact:** The top leg steps forward while the bottom leg steps backward before snapping.
 
-![Swimming Requirement 2 figure showing candidates must complete one hundred yards continuously without touching bottom or resting.](/assets/pamphlet_images/swimming_p007_img1.png)
+![Candidates must complete one hundred yards continuously without touching bottom or resting.](/assets/pamphlet_images/swimming_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -171,8 +161,6 @@
 #### Req 3d: Breaststroke Whip Kick Mechanics
 **Official Requirement 3d:** Demonstrate the breaststroke using good form.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)* • **Organizer (Skill Demonstration Checklist):** Req 3d Hands-On Skill Station & EDGE Verification Checklist (Breaststroke Using Good Form)
-- **Common Myth:** Breaststroke kicking requires spreading knees widely apart like a leaping frog.
-- **Pamphlet Fact:** Knees remain shoulder width apart while feet rotate outward during whip kicks.
 
 ![Two swimmers practice rhythmic endurance swimming in calm lake waters.](/assets/pamphlet_images/swimming_p019_img1.png)
 
@@ -185,8 +173,6 @@
 #### Req 3e: Elementary Backstroke Resting Execution
 **Official Requirement 3e:** Demonstrate the elementary backstroke using good form.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)* • **Organizer (Skill Demonstration Checklist):** Req 3e Hands-On Skill Station & EDGE Verification Checklist (Elementary Backstroke Using Good Form)
-- **Common Myth:** Arms must break above the water surface during elementary backstroke recovery movements.
-- **Pamphlet Fact:** Hands slide up along the torso underwater to prevent extra energy expenditure.
 
 ![An instructor teaches waterfront safety rules to scouts before swimming.](/assets/pamphlet_images/swimming_p020_img1.png)
 
@@ -235,8 +221,6 @@
 #### Req 5a: Reaching and Throwing Techniques
 **Official Requirement 5a:** Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects. Explain why swimming rescues should not be attempted when a reaching or throwing rescue is possible, and explain why and how a rescue swimmer should avoid contact with the victim.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Water Rescue Methods by Reaching)
-- **Common Myth:** Rescuers should stand upright on slippery pool edges while extending heavy reaching poles.
-- **Pamphlet Fact:** Lying prone distributes weight and prevents the distressed swimmer from pulling you.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -256,8 +240,6 @@
 #### Req 5b: Coordinated Line Rescue Operations
 **Official Requirement 5b:** With a helper and a practice victim, show a line rescue both as tender and as rescuer. The practice victim should be approximately 30 feet from shore in deep water.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Helper and A Practice Victim)
-- **Common Myth:** The in-water rescuer must swim both himself and the victim back alone.
-- **Pamphlet Fact:** The shore tender hauls the line, allowing the rescuer to control the victim.
 
 ![An illustration shows stinging tentacles of potentially hazardous jellyfish.](/assets/pamphlet_images/swimming_p027_img1.png)
 
@@ -284,8 +266,6 @@
 #### Req 6a: Faceup Resting Float Execution
 **Official Requirement 6a:** Float faceup in a resting position for at least three minutes with minimal movement.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Faceup in A Resting Position)
-- **Common Myth:** Lifting the head above water improves buoyancy during an endurance back float.
-- **Pamphlet Fact:** Lifting the head forces hips downward, causing legs to sink rapidly beneath surface.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -304,8 +284,6 @@
 #### Req 6b: Facedown Survival Floating Technique
 **Official Requirement 6b:** Demonstrate survival floating for at least five minutes.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Survival Floating)
-- **Common Myth:** Swimmers must keep their mouth and nose continuously clear of the water.
-- **Pamphlet Fact:** Resting facedown submerged conserves precious physical stamina over long multi-minute survival intervals.
 
 ![A stingray rests on sandy shallows, presenting a potential foot hazard.](/assets/pamphlet_images/swimming_p028_img1.png)
 
@@ -318,8 +296,6 @@
 #### Req 6c: Cold Water Posture Demonstration
 **Official Requirement 6c:** While wearing a properly fitted U. S. Coast Guard-approved life jacket, demonstrate the HELP and huddle positions. Explain their purposes.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Skill Demonstration Checklist):** Req 6c Hands-On Skill Station & EDGE Verification Checklist (Wearing A Properly Fitted)
-- **Common Myth:** Lifejackets provide sufficient thermal insulation without modifying body posture in cold lakes.
-- **Pamphlet Fact:** The HELP posture shields critical heat loss areas, dramatically prolonging survival survival times.
 
 ![Swimmers wear Coast Guard approved life jackets for buoyant protection.](/assets/pamphlet_images/swimming_p032_img1.png)
 
@@ -335,8 +311,6 @@
 #### Req 6d: Hypothermia Onset Acceleration Factors
 **Official Requirement 6d:** Explain why swimming or survival floating will hasten the onset of hypothermia in cold water.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Swimming or Survival Floating Will)
-- **Common Myth:** Treading water keeps metabolic furnace burning hot enough to prevent hypothermic core collapse.
-- **Pamphlet Fact:** Movement forces warm blood into extremities where frigid water chills core circulation.
 
 ![A boy rests motionlessly faceup to satisfy survival float requirements.](/assets/pamphlet_images/swimming_p036_img1.png)
 
@@ -362,8 +336,6 @@
 #### Req 7a: Feetfirst Surface Dive Descent
 **Official Requirement 7a:** Use the feetfirst method of surface diving and bring an object up from the bottom.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Feetfirst Method of Surface Diving)
-- **Common Myth:** Headfirst diving is always preferable in unknown water because of faster descent speeds.
-- **Pamphlet Fact:** Feetfirst diving protects the skull and cervical spine in low visibility water conditions.
 
 ![A swimmer drives legs upward to execute a deep vertical surface dive.](/assets/pamphlet_images/swimming_p057_img1.png)
 
@@ -376,8 +348,6 @@
 #### Req 7b: Headfirst Surface Dive Execution
 **Official Requirement 7b:** Do a headfirst surface dive (pike or tuck), and bring the object up again.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Headfirst Surface Dive Pike or)
-- **Common Myth:** Kicking vigorously at the surface forces the head down during headfirst dives.
-- **Pamphlet Fact:** Bending the torso and lifting legs into the air drives rapid downward descent.
 
 ![A swimming coach provides technique feedback to a student at poolside.](/assets/pamphlet_images/swimming_p041_img1.png)
 
@@ -390,8 +360,6 @@
 #### Req 7c: Submerged Stroking and Breathing Cycle
 **Official Requirement 7c:** Do a headfirst surface dive to a depth of at least 5 feet and swim underwater for three strokes. Come to the surface, take a breath, and repeat the sequence twice.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Headfirst Surface Dive to A)
-- **Common Myth:** Opening the eyes wide underwater causes permanent corneal damage in chlorinated pools.
-- **Pamphlet Fact:** Opening eyes or wearing swim goggles ensures obstacle detection and targeted retrieval.
 
 ![A youth bends forward at the edge to prepare for a safe surface dive.](/assets/pamphlet_images/swimming_p060_img1.png)
 

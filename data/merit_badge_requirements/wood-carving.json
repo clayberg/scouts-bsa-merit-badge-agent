@@ -259,10 +259,12 @@
         "left_header": "Req 1a: Wood Carving Hazard Mitigation",
         "right_header": "Req 1b: Carving First Aid Techniques",
         "left_points": [
-          "(1a) Wood Carving Hazard Mitigation: Blade slips and flying wood chips present acute hazards during rough shaping cuts. Wearing specialized safety gear and establishing clear spatial boundaries prevents severe cuts."
+          "(1a) Wood Carving Hazard Mitigation: Blade slips and flying wood chips present acute hazards during rough shaping cuts. Wearing specialized safety gear and establishing clear spatial boundaries prevents severe cuts.",
+          "Cut Protection: Carving gloves woven with Kevlar or stainless steel mesh protect the holding hand."
         ],
         "right_points": [
-          "(1b) Carving First Aid Techniques: Carving incidents typically involve minor slice wounds or deep wood splinters. Prompt cleansing and antiseptic application prevent bacterial contamination from raw timber."
+          "(1b) Carving First Aid Techniques: Carving incidents typically involve minor slice wounds or deep wood splinters. Prompt cleansing and antiseptic application prevent bacterial contamination from raw timber.",
+          "Wound Cleaning: Wash minor carving lacerations thoroughly with mild soap and potable clean running water."
         ],
         "rows": [
           {
@@ -272,25 +274,27 @@
           },
           {
             "attribute": "Blood Circle",
-            "left": "Req 1a: Wood Carving Hazard: Blade slips and flying wood chips present acute hazards during rough shaping cuts. Wearing specialized safety gear and establishing clear spatial boundaries prevents severe cuts.",
-            "right": "Req 1b: Carving First Aid Techniques: Carving incidents typically involve minor slice wounds or deep wood splinters. Prompt cleansing and antiseptic application prevent bacterial contamination from raw timber."
+            "left": "Cut Protection: Carving gloves woven with Kevlar or stainless steel mesh protect the holding hand.",
+            "right": "Wound Cleaning: Wash minor carving lacerations thoroughly with mild soap and potable clean running water."
           },
           {
             "attribute": "Wound Cleaning",
-            "left": "Cut Protection: Carving gloves woven with Kevlar or stainless steel mesh protect the holding hand.",
-            "right": "Blood Circle: Maintain a clear arm length boundary in every direction before opening any blade."
+            "left": "Wound Cleaning: Wash minor carving lacerations thoroughly with mild soap and potable clean running water.",
+            "right": "Splinter Removal: Disinfect tweezers with isopropyl alcohol before gently extracting wood fragments along entry angles."
           }
         ]
       },
       "worked_example": {
-        "title": "Wood Carving Req 1 Exemplar Workbook Entry: Carving",
+        "title": "Wood Carving Req 1 Worked Example: Carving Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Wood Carving Hazard": "Blade slips and flying wood chips present acute hazards during rough shaping cuts. Wearing specialized safety gear and establishing clear spatial boundaries prevents severe cuts.",
-          "Req 1b - Carving First Aid Techniques": "Carving incidents typically involve minor slice wounds or deep wood splinters. Prompt cleansing and antiseptic application prevent bacterial contamination from raw timber."
+          "Phase 1 - Glove Fitting": "Don a snug cut resistant glove on the hand holding the wooden block.",
+          "Phase 2 - Space Clearance": "Establish a complete blood circle by extending both arms outwards in full rotation.",
+          "Phase 3 - Direct Pressure": "Press sterile gauze firmly over minor lacerations until bleeding halts completely without oozing.",
+          "Phase 4 - Sterile Dressing": "Cover the cleaned wound with antiseptic ointment and an adhesive sterile fabric bandage."
         },
-        "sample_output": "Carving Hazards and First Aid: If you are injured, stay calm and let the adult in charge know what has happened (p. 15).",
-        "counselor_tip": "For Wood Carving Requirement 1 (Carving Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26))."
+        "sample_output": "Wood carvers face constant puncture risks from slipping blades and sharp flying debris. Immediate treatment of minor lacerations and embedded splinters prevents infection and soft tissue complications.",
+        "counselor_tip": "During the Wood Carving Requirement 1 conference on Carving Hazards and First Aid, verify that the Scout can explain cut protection and demonstrate sterile dressing: Cover the cleaned wound with antiseptic ointment and an adhesive sterile fabric bandage."
       },
       "quiz_item": {
         "scenario_prompt": "Why is a sharp carving knife safer than a dull blade when whittling or relief carving, and how should you protect your holding hand?",
@@ -597,13 +601,15 @@
         "Protective finish, stamps/mallet, and tool sheath for safe stowage."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Totin Chip Certification",
+        "left_header": "Req 2a: Totin Chip Certification Requirements",
         "right_header": "Req 2b: Carving Safety Checklist Review",
         "left_points": [
-          "(2a) Totin Chip Certification Requirements: Totin Chip certification requires demonstrating safe handling, transport, and maintenance of pocketknives and axes. Scouts learn the outdoor code alongside responsible edge stewardship."
+          "(2a) Totin Chip Certification Requirements: Totin Chip certification requires demonstrating safe handling, transport, and maintenance of pocketknives and axes. Scouts learn the outdoor code alongside responsible edge stewardship.",
+          "Pocketknife Etiquette: Close folding blades fully before passing or carrying pocketknives across the carving area."
         ],
         "right_points": [
-          "(2b) Carving Safety Checklist Review: The carving checklist reviews lighting, seating posture, cut-resistant equipment, and blade condition before work starts. Adhering to each item minimizes fatigue and accidental tool contact."
+          "(2b) Carving Safety Checklist Review: The carving checklist reviews lighting, seating posture, cut-resistant equipment, and blade condition before work starts. Adhering to each item minimizes fatigue and accidental tool contact.",
+          "Stable Seating: Sit squarely on a sturdy chair with elbows supported near knees during cuts."
         ],
         "rows": [
           {
@@ -613,25 +619,27 @@
           },
           {
             "attribute": "Sheath Security",
-            "left": "Req 2a: Totin Chip Certification: Totin Chip certification requires demonstrating safe handling, transport, and maintenance of pocketknives and axes. Scouts learn the outdoor code alongside responsible edge stewardship.",
-            "right": "Req 2b: Carving Safety Checklist: The carving checklist reviews lighting, seating posture, cut-resistant equipment, and blade condition before work starts. Adhering to each item minimizes fatigue and accidental tool contact."
+            "left": "Pocketknife Etiquette: Close folding blades fully before passing or carrying pocketknives across the carving area.",
+            "right": "Stable Seating: Sit squarely on a sturdy chair with elbows supported near knees during cuts."
           },
           {
             "attribute": "Stable Seating",
-            "left": "Pocketknife Etiquette: Close folding blades fully before passing or carrying pocketknives across the carving area.",
-            "right": "Sheath Security: Place fixed blade knives directly into rigid protective sheaths when setting them down."
+            "left": "Stable Seating: Sit squarely on a sturdy chair with elbows supported near knees during cuts.",
+            "right": "Task Lighting: Ensure bright overhead illumination reaches the carving block to track every cut path."
           }
         ]
       },
       "worked_example": {
-        "title": "Wood Carving Req 2 Exemplar Workbook Entry: Totin' Chip",
+        "title": "Wood Carving Req 2 Worked Example: Totin Chip and Safety Rules",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Totin Chip Certification": "Totin Chip certification requires demonstrating safe handling, transport, and maintenance of pocketknives and axes. Scouts learn the outdoor code alongside responsible edge stewardship.",
-          "Req 2b - Carving Safety Checklist": "The carving checklist reviews lighting, seating posture, cut-resistant equipment, and blade condition before work starts. Adhering to each item minimizes fatigue and accidental tool contact."
+          "Phase 1 - Card Review": "Present your valid Totin Chip card showing completed edge tool safety training.",
+          "Phase 2 - Bench Setup": "Clear loose clutter from the bench surface and check ambient room lighting levels.",
+          "Phase 3 - Posture Adjustment": "Position your body securely with feet flat on floor and arms properly braced.",
+          "Phase 4 - Tool Return": "Close all folding knives or sheath fixed blades immediately after finishing each task."
         },
-        "sample_output": "Totin' Chip and Safety Checklist: I have read Iand understand woods tools use from my handboand safety ruleok. s 2 (p. 8).",
-        "counselor_tip": "For Wood Carving Requirement 2 (Totin' Chip and Safety Checklist), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55))."
+        "sample_output": "The Totin Chip demonstrates foundational competence in handling, carrying, and maintaining edged hand tools. Reviewing the safety checklist ensures proper posture, lighting, and tool stowage before carving begins.",
+        "counselor_tip": "During the Wood Carving Requirement 2 conference on Totin Chip and Safety Rules, verify that the Scout can explain pocketknife etiquette and demonstrate tool return: Close all folding knives or sheath fixed blades immediately after finishing each task."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Totin' Chip and Safety Checklist for Carving, how should a Scout treat a pocketknife, ax, or saw?",
@@ -955,40 +963,44 @@
       ],
       "comparison_data": {
         "left_header": "Req 3a: Carving Tool Care and Use",
-        "right_header": "Req 3b: Sharpening Device Maintenance",
+        "right_header": "Req 3b: Sharpening Device Maintenance and Operation",
         "left_points": [
-          "(3a) Carving Tool Care And Use: Five essential tools include the carving knife, straight gouge, skew chisel, parting tool, and riffler rasp. Protecting tool edges with wooden racks and wiping them with light camellia oil stops rust."
+          "(3a) Carving Tool Care and Use: Five essential tools include the carving knife, straight gouge, skew chisel, parting tool, and riffler rasp. Protecting tool edges with wooden racks and wiping them with light camellia oil stops rust.",
+          "Gouge Profile: Straight gouges feature curved cutting edges designed for scooping hollows and removing bulk wood."
         ],
         "right_points": [
-          "(3b) Sharpening Device Maintenance And Operation: Sharpening systems combine oilstones, waterstones, slipstones, and strop blocks. Slipstones with contoured radiuses allow hone access into tight concave gouge flutes without flattening factory profiles."
+          "(3b) Sharpening Device Maintenance and Operation: Sharpening systems combine oilstones, waterstones, slipstones, and strop blocks. Slipstones with contoured radiuses allow hone access into tight concave gouge flutes without flattening factory profiles.",
+          "Whetstone Lubrication: Water or light mineral oil floats away steel swarf during blade edge sharpening."
         ],
         "rows": [
           {
             "attribute": "Gouge Profile",
-            "left": "(3a) Carving Tool Care And Use: Five essential tools include the carving knife, straight gouge, skew chisel, parting tool, and riffler rasp. Protecting tool edges with wooden racks and wiping them with light camellia oil stops rust.",
-            "right": "(3b) Sharpening Device Maintenance And Operation: Sharpening systems combine oilstones, waterstones, slipstones, and strop blocks. Slipstones with contoured radiuses allow hone access into tight concave gouge flutes without flattening factory profiles."
+            "left": "(3a) Carving Tool Care and Use: Five essential tools include the carving knife, straight gouge, skew chisel, parting tool, and riffler rasp. Protecting tool edges with wooden racks and wiping them with light camellia oil stops rust.",
+            "right": "(3b) Sharpening Device Maintenance and Operation: Sharpening systems combine oilstones, waterstones, slipstones, and strop blocks. Slipstones with contoured radiuses allow hone access into tight concave gouge flutes without flattening factory profiles."
           },
           {
             "attribute": "V Tool Apex",
-            "left": "Req 3a: Carving Tool Care And Use: Five essential tools include the carving knife, straight gouge, skew chisel, parting tool, and riffler rasp. Protecting tool edges with wooden racks and wiping them with light camellia oil stops rust.",
-            "right": "Req 3b: Sharpening Device: Sharpening systems combine oilstones, waterstones, slipstones, and strop blocks. Slipstones with contoured radiuses allow hone access into tight concave gouge flutes without flattening factory profiles."
+            "left": "Gouge Profile: Straight gouges feature curved cutting edges designed for scooping hollows and removing bulk wood.",
+            "right": "Whetstone Lubrication: Water or light mineral oil floats away steel swarf during blade edge sharpening."
           },
           {
             "attribute": "Whetstone Lubrication",
-            "left": "Gouge Profile: Straight gouges feature curved cutting edges designed for scooping hollows and removing bulk wood.",
-            "right": "V Tool Apex: Parting tools possess V shaped profiles suited for incising deep clean border lines."
+            "left": "Whetstone Lubrication: Water or light mineral oil floats away steel swarf during blade edge sharpening.",
+            "right": "Leather Strop: Stropping on leather charged with chromium oxide polishes the micro bevel razor sharp."
           }
         ]
       },
       "worked_example": {
-        "title": "Wood Carving Req 3 Exemplar Workbook Entry: Tool Care",
+        "title": "Wood Carving Req 3 Worked Example: Carving Tools and Sharpening Devices",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Carving Tool Care and Use": "Five essential tools include the carving knife, straight gouge, skew chisel, parting tool, and riffler rasp. Protecting tool edges with wooden racks and wiping them with light camellia oil stops rust.",
-          "Req 3b - Sharpening Device Maintenance": "Sharpening systems combine oilstones, waterstones, slipstones, and strop blocks. Slipstones with contoured radiuses allow hone access into tight concave gouge flutes without flattening factory profiles."
+          "Phase 1 - Bevel Alignment": "Place the knife bevel flat against the oiled whetstone at twenty degrees.",
+          "Phase 2 - Edge Sweeping": "Stroke the blade forward across the stone surface from heel to tip smoothly.",
+          "Phase 3 - Burr Check": "Feel lightly along the reverse edge to confirm a fine wire burr formed.",
+          "Phase 4 - Strop Polishing": "Pull the blade trailing edge backwards along leather compound to polish razor sharpness."
         },
-        "sample_output": "Tool Care and Blade Sharpening: While you don't need your own tools to earn this merit badge, you should have a general knowledge of caring for and sharpening the tools you use (p. 28).",
-        "counselor_tip": "For Wood Carving Requirement 3 (Tool Care and Blade Sharpening), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32))."
+        "sample_output": "Carvers utilize dedicated knives, gouges, chisels, V-tools, and rasps to execute distinct cuts. Maintaining keen cutting edges requires progressing through whetstones, ceramic stones, and leather strops charged with compound.",
+        "counselor_tip": "During the Wood Carving Requirement 3 conference on Carving Tools and Sharpening Devices, verify that the Scout can explain gouge profile and demonstrate strop polishing: Pull the blade trailing edge backwards along leather compound to polish razor sharpness."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you apply a light coat of honing oil and wipe carving tools dry during regular maintenance?",
@@ -1460,7 +1472,7 @@
         "right_header": "Req 4c: V Cut Incision Techniques",
         "left_points": [
           "(4a) Paring Cut Execution Methods: The paring cut draws the knife edge toward the carver using the thumb of the cutting hand as a fulcrum. Maintaining a thick leather thumb guard prevents accidental puncture during delicate detailing.",
-          "(4b) Basic And Push Cuts: The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage."
+          "(4b) Basic and Push Cuts: The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage."
         ],
         "right_points": [
           "(4c) V Cut Incision Techniques: The V-cut removes a triangular prism of waste by making two angled incisions that intersect at an apex. Precise angle symmetry creates crisp, shadow-defining grooves for lettering and decorative borders.",
@@ -1474,27 +1486,27 @@
           },
           {
             "attribute": "Push Cut",
-            "left": "(4b) Basic And Push Cuts: The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage.",
+            "left": "(4b) Basic and Push Cuts: The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage.",
             "right": "(4d) Stop Cut Line Scoring: A stop cut scores a vertical boundary that halts adjoining slicing cuts and prevents split runout. Slicing wood toward the score line creates clean shadow lines around raised relief elements."
           },
           {
             "attribute": "V Cut Technique",
-            "left": "Req 4a: Paring Cut Execution Methods: The paring cut draws the knife edge toward the carver using the thumb of the cutting hand as a fulcrum. Maintaining a thick leather thumb guard prevents accidental puncture during delicate detailing.",
-            "right": "Req 4b: Basic And Push Cuts: The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage."
+            "left": "V Cut Technique: Slice two opposing angled incisions that meet precisely along a deep central bottom.",
+            "right": "Stop Cut Barrier: Press the blade perpendicularly into grain to stop subsequent background relief slicing passes."
           }
         ]
       },
       "worked_example": {
-        "title": "Wood Carving Req 4 Exemplar Workbook Entry: Fundamental",
+        "title": "Wood Carving Req 4 Worked Example: Fundamental Wood Carving Cuts",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Paring Cut Execution Methods": "The paring cut draws the knife edge toward the carver using the thumb of the cutting hand as a fulcrum. Maintaining a thick leather thumb guard prevents accidental puncture during delicate detailing.",
-          "Req 4b - Basic and Push Cuts": "The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage.",
-          "Req 4c - V Cut Incision Techniques": "The V-cut removes a triangular prism of waste by making two angled incisions that intersect at an apex. Precise angle symmetry creates crisp, shadow-defining grooves for lettering and decorative borders.",
-          "Req 4d - Stop Cut Line Scoring": "A stop cut scores a vertical boundary that halts adjoining slicing cuts and prevents split runout. Slicing wood toward the score line creates clean shadow lines around raised relief elements."
+          "Phase 1 - Stop Incision": "Cut a vertical ninety degree stop incision straight across the target scrap line.",
+          "Phase 2 - Angled Relief": "Slice wood toward the stop cut so waste chips pop out cleanly.",
+          "Phase 3 - Paring Shave": "Anchor your gloved thumb against wood and lever the knife blade inward.",
+          "Phase 4 - Push Trimming": "Rest your guide thumb against blade spine to slice curls along straight grain."
         },
-        "sample_output": "Fundamental Wood Carving Cuts: By placing the opposite thumb on the back of the blade, you are creating a lever and making it easier to remove the wood from your project (p. 28).",
-        "counselor_tip": "For Wood Carving Requirement 4 (Fundamental Wood Carving Cuts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39))."
+        "sample_output": "Control over hand carving begins with mastering the paring cut, push cut, V-cut, and stop cut. Each technique relies on specific thumb leverage and wrist rotation to slice wood fibers cleanly without tearing.",
+        "counselor_tip": "During the Wood Carving Requirement 4 conference on Fundamental Wood Carving Cuts, verify that the Scout can explain paring control and demonstrate push trimming: Rest your guide thumb against blade spine to slice curls along straight grain."
       },
       "quiz_item": {
         "scenario_prompt": "How does placing your opposite thumb on the back of the blade help when performing a push cut?",
@@ -1652,47 +1664,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Comparing Handle Ergonomics",
-        "right_header": "Req 5: Select Comfortable Palm Tools",
+        "left_header": "Wood Species Selection Criteria: Core Principles",
+        "right_header": "Wood Species Selection Criteria: Field Execution",
         "left_points": [
-          "Comparing Handle Ergonomics: Straight-handled and palm tools (p. 29).",
-          "Choosing Essential Starter Tools: You might want to start with astraight carving knife, any V-tool, and a straight gouge (p. 29).",
-          "Expanding Your Carving Kit: You can buy more tools as you need them. find palm tools easy to grasp and use (p. 29)."
+          "Basswood Quality: American basswood features tight uniform grain that cuts easily in any direction cleanly.",
+          "White Pine: Sugar pine and eastern white pine carve smoothly but splinter if knots appear."
         ],
         "right_points": [
-          "Select Comfortable Palm Tools: You can buy more tools as you need them. find palm tools easy to grasp and use (p. 29).",
-          "Match Gouge Blade Profiles: Carving tools also come indifferent cutting edges, like V-tools and gouges (p. 29).",
-          "Upgrade Beyond Basic Pocketknives: Although a pocketknife is an excellent portable tool, you may sometimes need a knife that can give you more flexibility with carving (p. 29)."
+          "Hardwood Density: Walnut and cherry hold crisp carved detail but require sharp tools and mallet strikes.",
+          "End Grain: End grain surfaces absorb knife strokes heavily and require shallow angled paring passes."
         ],
         "rows": [
           {
             "attribute": "Basswood Quality",
-            "left": "Comparing Handle Ergonomics: Straight-handled and palm tools (p. 29).",
-            "right": "Select Comfortable Palm Tools: You can buy more tools as you need them. find palm tools easy to grasp and use (p. 29)."
+            "left": "Basswood Quality: American basswood features tight uniform grain that cuts easily in any direction cleanly.",
+            "right": "Hardwood Density: Walnut and cherry hold crisp carved detail but require sharp tools and mallet strikes."
           },
           {
             "attribute": "White Pine",
-            "left": "Choosing Essential Starter Tools: You might want to start with astraight carving knife, any V-tool, and a straight gouge (p. 29).",
-            "right": "Match Gouge Blade Profiles: Carving tools also come indifferent cutting edges, like V-tools and gouges (p. 29)."
+            "left": "White Pine: Sugar pine and eastern white pine carve smoothly but splinter if knots appear.",
+            "right": "End Grain: End grain surfaces absorb knife strokes heavily and require shallow angled paring passes."
           },
           {
             "attribute": "Hardwood Density",
-            "left": "Expanding Your Carving Kit: You can buy more tools as you need them. find palm tools easy to grasp and use (p. 29).",
-            "right": "Upgrade Beyond Basic Pocketknives: Although a pocketknife is an excellent portable tool, you may sometimes need a knife that can give you more flexibility with carving (p. 29)."
+            "left": "Hardwood Density: Walnut and cherry hold crisp carved detail but require sharp tools and mallet strikes.",
+            "right": "End Grain: End grain surfaces absorb knife strokes heavily and require shallow angled paring passes."
           }
         ]
       },
       "worked_example": {
-        "title": "Wood Carving Req 5 Exemplar Workbook Entry: Selecting",
+        "title": "Wood Carving Req 5 Worked Example: Wood Species Selection Criteria",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Comparing Handle Ergonomics": "Straight-handled and palm tools (p. 29).",
-          "Choosing Essential Starter Tools": "You might want to start with astraight carving knife, any V-tool, and a straight gouge (p. 29).",
-          "Expanding Your Carving Kit": "You can buy more tools as you need them. find palm tools easy to grasp and use (p. 29).",
-          "Matching Blade Profiles": "Carving tools also come indifferent cutting edges, like V-tools and gouges (p. 29)."
+          "Phase 1 - Species Comparison": "Examine sample blocks of basswood, pine, butternut, and walnut for grain spacing.",
+          "Phase 2 - Defect Inspection": "Check the wooden blank carefully for knots, surface cracks, and irregular sapwood.",
+          "Phase 3 - Grain Orientation": "Orient the workpiece so main contour lines flow parallel to wood grain fibers.",
+          "Phase 4 - Selection Defense": "Explain your wood choice to the counselor based on project detail needs."
         },
-        "sample_output": "Selecting Woods for Carving Projects: Straight-handled and palm tools (p. 29).",
-        "counselor_tip": "For Wood Carving Requirement 5 (Selecting Woods for Carving Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wood Carving Merit Badge Pamphlet (p. 29, p. 43))."
+        "sample_output": "Carvers select wood species based on grain density, hardness, fiber uniformness, and dimensional stability under hand tools. Basswood serves as the prime choice for beginners due to its soft, non-directional grain structure and resistance to splitting.",
+        "counselor_tip": "During the Wood Carving Requirement 5 conference on Wood Species Selection Criteria, verify that the Scout can explain basswood quality and demonstrate selection defense: Explain your wood choice to the counselor based on project detail needs."
       },
       "quiz_item": {
         "scenario_prompt": "Why is basswood widely recommended over oak or construction pine for beginning wood carvers?",
@@ -1860,47 +1870,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Starting with Practice Sticks",
-        "right_header": "Req 6: Measure First Layout Box",
+        "left_header": "Carving in the Round: Core Principles",
+        "right_header": "Carving in the Round: Field Execution",
         "left_points": [
-          "Starting With Practice Sticks: Practice Stick This project is a practice stick that can help you learn how to use a knife (p. 42).",
-          "Sizing the Wooden Blank: Get a piece of wood, 3⁄4-by-3⁄4-inch and 6 inches long (p. 42).",
-          "Marking Four-Sided Layout Boxes: Come down the side of the stick 3⁄4 inch, making a box on all four sides (p. 42)."
+          "Profile Sketch: Trace front and side profile outlines onto squared basswood blocks with pencil markings.",
+          "Roughing Out: Remove waste corners rapidly using push cuts to form basic polygonal mass."
         ],
         "right_points": [
-          "Measure First Layout Box: Come down the side of the stick 3⁄4 inch, making a box on all four sides (p. 42).",
-          "Mark Sequential Square Sections: Repeat this three to four times, creating 3⁄4-inch squares down the stick (p. 42).",
-          "Leave Uncarved Grip Space: This will leave you a portion of the stick to hold (p. 42)."
+          "Facet Rounding: Slice faceted ridges smooth by rotating the figure under diffuse natural work lighting.",
+          "Detail Texturing: Incise eyes, hair, and clothing creases only after overall proportions stand completely balanced."
         ],
         "rows": [
           {
             "attribute": "Profile Sketch",
-            "left": "Starting With Practice Sticks: Practice Stick This project is a practice stick that can help you learn how to use a knife (p. 42).",
-            "right": "Measure First Layout Box: Come down the side of the stick 3⁄4 inch, making a box on all four sides (p. 42)."
+            "left": "Profile Sketch: Trace front and side profile outlines onto squared basswood blocks with pencil markings.",
+            "right": "Facet Rounding: Slice faceted ridges smooth by rotating the figure under diffuse natural work lighting."
           },
           {
             "attribute": "Roughing Out",
-            "left": "Sizing the Wooden Blank: Get a piece of wood, 3⁄4-by-3⁄4-inch and 6 inches long (p. 42).",
-            "right": "Mark Sequential Square Sections: Repeat this three to four times, creating 3⁄4-inch squares down the stick (p. 42)."
+            "left": "Roughing Out: Remove waste corners rapidly using push cuts to form basic polygonal mass.",
+            "right": "Detail Texturing: Incise eyes, hair, and clothing creases only after overall proportions stand completely balanced."
           },
           {
             "attribute": "Facet Rounding",
-            "left": "Marking Four-Sided Layout Boxes: Come down the side of the stick 3⁄4 inch, making a box on all four sides (p. 42).",
-            "right": "Leave Uncarved Grip Space: This will leave you a portion of the stick to hold (p. 42)."
+            "left": "Facet Rounding: Slice faceted ridges smooth by rotating the figure under diffuse natural work lighting.",
+            "right": "Detail Texturing: Incise eyes, hair, and clothing creases only after overall proportions stand completely balanced."
           }
         ]
       },
       "worked_example": {
-        "title": "Wood Carving Req 6 Exemplar Workbook Entry",
+        "title": "Wood Carving Req 6 Worked Example: Carving in the Round",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Starting with Practice Sticks": "Practice Stick This project is a practice stick that can help you learn how to use a knife (p. 42).",
-          "Sizing the Wooden Blank": "Get a piece of wood, 3⁄4-by-3⁄4-inch and 6 inches long (p. 42).",
-          "Marking Four-Sided Layout Boxes": "Come down the side of the stick 3⁄4 inch, making a box on all four sides (p. 42).",
-          "Repeating Uniform Grid Squares": "Repeat this three to four times, creating 3⁄4-inch squares down the stick (p. 42)."
+          "Phase 1 - Blank Layout": "Draw top, side, and front profile silhouettes squarely on all blank faces.",
+          "Phase 2 - Mass Removal": "Chop waste wood outside your profile lines using push cuts and stop notches.",
+          "Phase 3 - Form Rounding": "Shave square rectangular corners into smooth flowing curves using sweeping paring cuts.",
+          "Phase 4 - Surface Detailing": "Cut delicate surface textures, eyes, and feathering with a sharp detail knife."
         },
-        "sample_output": "Three-Dimensional Carving in the Round: Practice Stick This project is a practice stick that can help you learn how to use a knife (p. 42).",
-        "counselor_tip": "For Wood Carving Requirement 6 (Three-Dimensional Carving in the Round), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wood Carving Merit Badge Pamphlet (p. 42, p. 44))."
+        "sample_output": "Carving in the round produces a free-standing three-dimensional figure requiring balanced proportions from every viewing perspective. The carver blocks out silhouette profiles on all four blank faces before rounding transitions and applying fine detail.",
+        "counselor_tip": "During the Wood Carving Requirement 6 conference on Carving in the Round, verify that the Scout can explain profile sketch and demonstrate surface detailing: Cut delicate surface textures, eyes, and feathering with a sharp detail knife."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the practice stick layout leave an unmarked portion at the bottom of the 6-inch wooden blank?",
@@ -2060,47 +2068,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Creating Art with Minimal Tools",
-        "right_header": "Req 7: Lay Out Geometric Patterns",
+        "left_header": "Relief and Chip Carving: Core Principles",
+        "right_header": "Relief and Chip Carving: Field Execution",
         "left_points": [
-          "Creating Art With Minimal Tools: Very few tools are needed to create beautiful designs, so almost anyone can create a work of art after learning the basics. with your owndesigns (p. 55).",
-          "Clamping Workpieces for Stability: Be sure to firmly secure the staff with avise clamp before you start to work (p. 55).",
-          "Combining Geometric Chip Shapes: The detailed designs of chip carving are created with a combination of simple shapes like triangles, diamonds, and squares (p. 55)."
+          "Relief Grounding: Level recessed background areas evenly using flat dogleg chisels or wide sweep gouges.",
+          "Chip Geometry: Three corner chip carving patterns require three angled incisions meeting at one point."
         ],
         "right_points": [
-          "Lay Out Geometric Patterns: The detailed designs of chip carving are created with a combination of simple shapes like triangles, diamonds, and squares (p. 55).",
-          "Angle Three Cuts Inward: A triangle is formed with three cuts made diagonally toward a central point, which creates an inside out pyramid (p. 55).",
-          "Extend Triangles Into Diamonds: Adding two cuts from a point outside one flat side creates a diamond (p. 55)."
+          "Pattern Transfer: Transfer geometric layouts accurately onto surfaced wood blanks using carbon tracing paper sheets.",
+          "Undercut Shadow: Undercutting perimeter edges of relief figures creates dramatic contrast against the flat background."
         ],
         "rows": [
           {
             "attribute": "Relief Grounding",
-            "left": "Creating Art With Minimal Tools: Very few tools are needed to create beautiful designs, so almost anyone can create a work of art after learning the basics. with your owndesigns (p. 55).",
-            "right": "Lay Out Geometric Patterns: The detailed designs of chip carving are created with a combination of simple shapes like triangles, diamonds, and squares (p. 55)."
+            "left": "Relief Grounding: Level recessed background areas evenly using flat dogleg chisels or wide sweep gouges.",
+            "right": "Pattern Transfer: Transfer geometric layouts accurately onto surfaced wood blanks using carbon tracing paper sheets."
           },
           {
             "attribute": "Chip Geometry",
-            "left": "Clamping Workpieces for Stability: Be sure to firmly secure the staff with avise clamp before you start to work (p. 55).",
-            "right": "Angle Three Cuts Inward: A triangle is formed with three cuts made diagonally toward a central point, which creates an inside out pyramid (p. 55)."
+            "left": "Chip Geometry: Three corner chip carving patterns require three angled incisions meeting at one point.",
+            "right": "Undercut Shadow: Undercutting perimeter edges of relief figures creates dramatic contrast against the flat background."
           },
           {
             "attribute": "Pattern Transfer",
-            "left": "Combining Geometric Chip Shapes: The detailed designs of chip carving are created with a combination of simple shapes like triangles, diamonds, and squares (p. 55).",
-            "right": "Extend Triangles Into Diamonds: Adding two cuts from a point outside one flat side creates a diamond (p. 55)."
+            "left": "Pattern Transfer: Transfer geometric layouts accurately onto surfaced wood blanks using carbon tracing paper sheets.",
+            "right": "Undercut Shadow: Undercutting perimeter edges of relief figures creates dramatic contrast against the flat background."
           }
         ]
       },
       "worked_example": {
-        "title": "Wood Carving Req 7 Exemplar Workbook Entry: Low-Relief",
+        "title": "Wood Carving Req 7 Worked Example: Relief and Chip Carving",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Creating Art with Minimal Tools": "Very few tools are needed to create beautiful designs, so almost anyone can create a work of art after learning the basics. with your owndesigns (p. 55).",
-          "Clamping Workpieces for Stability": "Be sure to firmly secure the staff with avise clamp before you start to work (p. 55).",
-          "Combining Geometric Chip Shapes": "The detailed designs of chip carving are created with a combination of simple shapes like triangles, diamonds, and squares (p. 55).",
-          "Carving Inverted Pyramid Triangles": "A triangle is formed with three cuts made diagonally toward a central point, which creates an inside out pyramid (p. 55)."
+          "Phase 1 - Board Clamping": "Secure the flat carving board firmly to the benchtop using padded wooden clamps.",
+          "Phase 2 - Outline Scoring": "Cut vertical stop incisions along all drawn pattern outlines with a skew chisel.",
+          "Phase 3 - Waste Extraction": "Slice waste chips away from design borders toward scored stop cut lines cleanly.",
+          "Phase 4 - Surface Leveling": "Flatten the recessed background plane smoothly using a bent gouge or hand scraper."
         },
-        "sample_output": "Low-Relief and Chip Carving Projects: Very few tools are needed to create beautiful designs, so almost anyone can create a work of art after learning the basics. with your owndesigns (p. 55).",
-        "counselor_tip": "For Wood Carving Requirement 7 (Low-Relief and Chip Carving Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wood Carving Merit Badge Pamphlet (p. 55, p. 56))."
+        "sample_output": "Relief carving creates raised images against a recessed background plane, whereas chip carving removes geometric wood chips from flat boards. Both disciplines require rigorous depth control and accurate stop cuts to establish clean visual margins.",
+        "counselor_tip": "During the Wood Carving Requirement 7 conference on Relief and Chip Carving, verify that the Scout can explain relief grounding and demonstrate surface leveling: Flatten the recessed background plane smoothly using a bent gouge or hand scraper."
       },
       "quiz_item": {
         "scenario_prompt": "How is a basic triangular recess formed in a traditional chip carving design?",

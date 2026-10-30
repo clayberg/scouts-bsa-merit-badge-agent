@@ -760,17 +760,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Automotive Shop Hazard",
-        "right_header": "Req 1e: Manufacturer Maintenance",
+        "left_header": "Req 1a: Automotive Shop Hazard Mitigation",
+        "right_header": "Req 1e: Manufacturer Maintenance Schedule Interpretation",
         "left_points": [
           "(1a) Automotive Shop Hazard Mitigation: Automotive maintenance introduces severe hazards including chemical exposure, mechanical pinch points, hot exhaust components, and heavy falling objects. Technicians anticipate risks by setting wheel chocks, confirming mechanical lockouts, and wearing appropriate protective gear.",
-          "(1b) Personal Protective Equipment Standards: Technicians must wear fitted cotton work clothes, steel-toed footwear, and impact-resistant safety glasses while working around rotating machinery. Rings, necklaces, and loose ties present severe entanglement risks around active drive belts and cooling fans.",
-          "(1c) Motor Vehicle Powertrain Architectures: Vehicles derive motive power from gasoline internal combustion, diesel compression ignition, hybrid gas-electric drivetrains, or pure battery electric motors. Each powertrain architecture requires distinct maintenance procedures and safety protocols."
+          "(1b) Personal Protective Equipment Standards: Technicians must wear fitted cotton work clothes, steel-toed footwear, and impact-resistant safety glasses while working around rotating machinery. Rings, necklaces, and loose ties present severe entanglement risks around active drive belts and cooling fans."
         ],
         "right_points": [
           "(1e) Manufacturer Maintenance Schedule Interpretation: Owner manuals provide detailed mileage and calendar intervals for replacing vital fluids, friction materials, and air filters. Scouts must interpret both normal and severe operating schedules to preserve engine warranties.",
-          "(1f) Passenger Restraint System Dynamics: Three-point lap and shoulder belts secure occupants within the vehicle survival space, while supplemental restraint airbags cushion head impacts. Airbags can cause fatal concussive injuries if passengers fail to wear primary safety belts correctly.",
-          "(1g) State Emissions Inspection Mandates: State safety and emissions programs verify that running gear, braking systems, illumination devices, and catalytic emission controls satisfy environmental and public safety statutes. Testing cadence typically follows annual or biennial requirements depending on local municipal regulations."
+          "(1f) Passenger Restraint System Dynamics: Three-point lap and shoulder belts secure occupants within the vehicle survival space, while supplemental restraint airbags cushion head impacts. Airbags can cause fatal concussive injuries if passengers fail to wear primary safety belts correctly."
         ],
         "rows": [
           {
@@ -785,22 +783,22 @@
           },
           {
             "attribute": "Toxicity Control",
-            "left": "(1c) Motor Vehicle Powertrain Architectures: Vehicles derive motive power from gasoline internal combustion, diesel compression ignition, hybrid gas-electric drivetrains, or pure battery electric motors. Each powertrain architecture requires distinct maintenance procedures and safety protocols.",
-            "right": "(1g) State Emissions Inspection Mandates: State safety and emissions programs verify that running gear, braking systems, illumination devices, and catalytic emission controls satisfy environmental and public safety statutes. Testing cadence typically follows annual or biennial requirements depending on local municipal regulations."
+            "left": "Toxicity Control: Collect hazardous fluids in sealed containers to prevent skin contact and environmental runoff.",
+            "right": "Electrical Safety: Disconnect the negative battery terminal before servicing any starting or charging circuit components."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 1 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 1 Worked Example: Automotive Safety and Maintenance Regulations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Automotive Shop Hazard": "Automotive maintenance introduces severe hazards including chemical exposure, mechanical pinch points, hot exhaust components, and heavy falling objects. Technicians anticipate risks by setting wheel chocks, confirming mechanical lockouts, and wearing appropriate protective gear.",
-          "Req 1b - Personal Protective Equipment": "Technicians must wear fitted cotton work clothes, steel-toed footwear, and impact-resistant safety glasses while working around rotating machinery. Rings, necklaces, and loose ties present severe entanglement risks around active drive belts and cooling fans.",
-          "Req 1c - Motor Vehicle Powertrain": "Vehicles derive motive power from gasoline internal combustion, diesel compression ignition, hybrid gas-electric drivetrains, or pure battery electric motors. Each powertrain architecture requires distinct maintenance procedures and safety protocols.",
-          "Req 1d - High Voltage Powertrain": "High-voltage hybrid and electric drivetrains operate at potentials frequently exceeding four hundred volts direct current, marked by bright orange cabling. Technicians must observe manual service disconnect procedures and wear class zero insulated gloves rated for one thousand volts."
+          "Phase 1 - Protective Equipment Setup": "Put on ANSI rated safety glasses and chemical resistant nitrile gloves before starting.",
+          "Phase 2 - Parking Brake Engagement": "Shift into park, set the emergency brake, and place chocks behind opposite wheels.",
+          "Phase 3 - High Voltage Clearance": "Check for orange high voltage cables and turn off ignition keys completely.",
+          "Phase 4 - Documentation Review": "Open the vehicle owner manual to locate factory service schedules and registration records."
         },
-        "sample_output": "Shop Safety and Vehicle Registration: These devices stay in the steering wheel and dashboard until needed (p. 20).",
-        "counselor_tip": "For Automotive Maintenance Requirement 1 (Shop Safety and Vehicle Registration), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21))."
+        "sample_output": "Shop safety requires identifying chemical toxicity, mechanical pinch points, hot surfaces, and electrical shock hazards before starting work. Proper vehicle registration and strict compliance with the manufacturer maintenance schedule ensure long-term mechanical reliability and legal roadway operation.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 1 conference on Automotive Safety and Maintenance Regulations, verify that the Scout can explain hazard prevention and demonstrate documentation review: Open the vehicle owner manual to locate factory service schedules and registration records."
       },
       "quiz_item": {
         "scenario_prompt": "You are preparing to crawl beneath a vehicle to inspect the exhaust and suspension for Automotive Maintenance Requirement 1. Which safety procedure is strictly required before anyone goes under the car?",
@@ -1879,7 +1877,7 @@
         "Engineering logbook and technical specification sheet for Automotive Maintenance Requirement 2."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Fluid Reservoir Inspection",
+        "left_header": "Req 2a: Fluid Reservoir Inspection Protocols",
         "right_header": "Req 2c: Accessory Drive Belt Inspection",
         "left_points": [
           "(2a) Fluid Reservoir Inspection Protocols: Checking engine oil, transmission fluid, coolant, power steering, and brake fluid requires understanding individual reservoir dipsticks and sight glass indicators. Cold versus warm fluid expansion lines dictate exact fill targets across varied mechanical reservoirs.",
@@ -1902,22 +1900,22 @@
           },
           {
             "attribute": "Drive Belt Inspection",
-            "left": "Req 2a: Fluid Reservoir Inspection: Checking engine oil, transmission fluid, coolant, power steering, and brake fluid requires understanding individual reservoir dipsticks and sight glass indicators. Cold versus warm fluid expansion lines dictate exact fill targets across varied mechanical reservoirs.",
-            "right": "Req 2b: Electrical Fuse Box: Fuse boxes protect vehicle wiring harnesses from electrical shorts and destructive current overloads. Burned-out fuses display broken fusible metal links and must be replaced using identical amperage ratings extracted with plastic fuse pullers."
+            "left": "Drive Belt Inspection: Twist serpentine belts outward to inspect ribs for cracking, fraying, or glaze.",
+            "right": "Air Induction: Check pleated air filter elements against bright light to detect accumulated particulate."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 2 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 2 Worked Example: General Vehicle Maintenance Procedures",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Fluid Reservoir Inspection": "Checking engine oil, transmission fluid, coolant, power steering, and brake fluid requires understanding individual reservoir dipsticks and sight glass indicators. Cold versus warm fluid expansion lines dictate exact fill targets across varied mechanical reservoirs.",
-          "Req 2b - Electrical Fuse Box": "Fuse boxes protect vehicle wiring harnesses from electrical shorts and destructive current overloads. Burned-out fuses display broken fusible metal links and must be replaced using identical amperage ratings extracted with plastic fuse pullers.",
-          "Req 2c - Accessory Drive Belt": "Technicians examine serpentine and V-belts for edge fraying, rubber cracking, longitudinal rib separation, and proper spring-loaded tensioner alignment. Radiator and heater hoses must be squeezed when cold to identify internal sponginess or heat-induced hardening.",
-          "Req 2d - Vehicle Lighting System Audit": "A complete lighting audit encompasses headlights, daytime running lamps, turn signals, brake lamps, hazard flashers, and interior instrument clusters. Identifying burned-out bulbs ensures compliance with traffic statutes and alerts trailing motorists during deceleration."
+          "Phase 1 - Level Surface Preparation": "Park the vehicle on level concrete, set the brake, and open the hood.",
+          "Phase 2 - Primary Fluid Evaluation": "Pull, wipe, and reinsert the engine oil dipstick to confirm proper oil level.",
+          "Phase 3 - Circuit Fuse Extraction": "Open the fuse distribution box and extract suspect fuses using an insulated puller.",
+          "Phase 4 - Accessory Belt Check": "Measure serpentine belt tension and examine the rubber under-ribs for dry rot cracks."
         },
-        "sample_output": "Fluid Checks, Fuses, and Filters: Modern serpentine belts do not show obvious wear; use amanufacturerapproved wear gauge to determine if replacement is needed (p. 16).",
-        "counselor_tip": "For Automotive Maintenance Requirement 2 (Fluid Checks, Fuses, and Filters), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76))."
+        "sample_output": "Routine vehicle maintenance involves methodical evaluation of critical fluid reservoirs, electrical circuit fuses, accessory drive belts, and filtration media. Keeping these subsystems within factory operating specifications prevents catastrophic engine failure and ensures uninterrupted roadway illumination.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 2 conference on General Vehicle Maintenance Procedures, verify that the Scout can explain fluid assessment and demonstrate accessory belt check: Measure serpentine belt tension and examine the rubber under-ribs for dry rot cracks."
       },
       "quiz_item": {
         "scenario_prompt": "How should you determine if a modern serpentine belt needs to be replaced when it does not show obvious cracks?",
@@ -2290,13 +2288,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Instrument Cluster Gauge",
-        "right_header": "Req 3b: Dashboard Warning Symbol",
+        "left_header": "Req 3a: Instrument Cluster Gauge Monitoring",
+        "right_header": "Req 3b: Dashboard Warning Symbol Decoding",
         "left_points": [
-          "(3a) Instrument Cluster Gauge Monitoring: The instrument cluster houses the speedometer, tachometer, fuel gauge, engine coolant temperature gauge, and oil pressure indicator. Monitoring these gauges during operation prevents engine overheating, bearing seizure, and fuel exhaustion."
+          "(3a) Instrument Cluster Gauge Monitoring: The instrument cluster houses the speedometer, tachometer, fuel gauge, engine coolant temperature gauge, and oil pressure indicator. Monitoring these gauges during operation prevents engine overheating, bearing seizure, and fuel exhaustion.",
+          "Gauge Function: Instrument cluster dials communicate real-time operating metrics including engine speed and thermal state."
         ],
         "right_points": [
-          "(3b) Dashboard Warning Symbol Decoding: Dashboard telltale symbols employ standardized color coding where red indicates an immediate safety threat or mechanical emergency, while yellow or amber signifies an advisory maintenance issue. A flashing yellow check engine light denotes active catalytic converter-damaging engine misfires."
+          "(3b) Dashboard Warning Symbol Decoding: Dashboard telltale symbols employ standardized color coding where red indicates an immediate safety threat or mechanical emergency, while yellow or amber signifies an advisory maintenance issue. A flashing yellow check engine light denotes active catalytic converter-damaging engine misfires.",
+          "(3c) Driver Information Center Alerts: Modern vehicles feature digital screens providing real-time text alerts, individual tire pressure monitoring figures, and dynamic service reminders. Drivers navigate steering wheel controls to clear temporary notices and retrieve pending system trouble codes."
         ],
         "rows": [
           {
@@ -2306,26 +2306,27 @@
           },
           {
             "attribute": "Telltale Color Coding",
-            "left": "Req 3a: Instrument Cluster Gauge: The instrument cluster houses the speedometer, tachometer, fuel gauge, engine coolant temperature gauge, and oil pressure indicator. Monitoring these gauges during operation prevents engine overheating, bearing seizure, and fuel exhaustion.",
-            "right": "Req 3b: Dashboard Warning Symbol: Dashboard telltale symbols employ standardized color coding where red indicates an immediate safety threat or mechanical emergency, while yellow or amber signifies an advisory maintenance issue. A flashing yellow check engine light denotes active catalytic converter-damaging engine misfires."
+            "left": "Gauge Function: Instrument cluster dials communicate real-time operating metrics including engine speed and thermal state.",
+            "right": "(3c) Driver Information Center Alerts: Modern vehicles feature digital screens providing real-time text alerts, individual tire pressure monitoring figures, and dynamic service reminders. Drivers navigate steering wheel controls to clear temporary notices and retrieve pending system trouble codes."
           },
           {
             "attribute": "Tachometer Limits",
-            "left": "Req 3c: Driver Information Center: Modern vehicles feature digital screens providing real-time text alerts, individual tire pressure monitoring figures, and dynamic service reminders. Drivers navigate steering wheel controls to clear temporary notices and retrieve pending system trouble codes.",
-            "right": "Telltale Color Coding: Red symbols demand immediate stoppage while yellow icons signify non-emergency diagnostic faults."
+            "left": "Tachometer Limits: Exceeding redline engine revolutions per minute triggers valve float and severe engine damage.",
+            "right": "Information Displays: Digital driver information centers show calculated oil life percentages and active tire pressures."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 3 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 3 Worked Example: Dashboard and Information Center Diagnostics",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Instrument Cluster Gauge": "The instrument cluster houses the speedometer, tachometer, fuel gauge, engine coolant temperature gauge, and oil pressure indicator. Monitoring these gauges during operation prevents engine overheating, bearing seizure, and fuel exhaustion.",
-          "Req 3b - Dashboard Warning Symbol": "Dashboard telltale symbols employ standardized color coding where red indicates an immediate safety threat or mechanical emergency, while yellow or amber signifies an advisory maintenance issue. A flashing yellow check engine light denotes active catalytic converter-damaging engine misfires.",
-          "Req 3c - Driver Information Center": "Modern vehicles feature digital screens providing real-time text alerts, individual tire pressure monitoring figures, and dynamic service reminders. Drivers navigate steering wheel controls to clear temporary notices and retrieve pending system trouble codes."
+          "Phase 1 - Ignition Bulb Check": "Switch the ignition to on without starting to confirm all warning bulbs illuminate.",
+          "Phase 2 - Instrument Cluster Audit": "Locate the analog or digital tachometer, speedometer, fuel level, and coolant dials.",
+          "Phase 3 - Telltale Symbol Identification": "Match illuminated symbols on the cluster against definitions in the factory owner manual.",
+          "Phase 4 - Digital Message Review": "Toggle driver information buttons to read tire pressure, range, and maintenance timers."
         },
-        "sample_output": "Dashboard Gauges and Warning Indicators: Other Critical System Gauges and Indicators These gauges and indicators show you the status of several of the vehicle's important systems (p. 85).",
-        "counselor_tip": "For Automotive Maintenance Requirement 3 (Dashboard Gauges and Warning Indicators), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86))."
+        "sample_output": "The driver information center and instrument cluster communicate vital powertrain health metrics and vehicle speed. Understanding the international ISO color standards for dashboard warning symbols separates critical mechanical emergencies from advisory diagnostic notifications.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 3 conference on Dashboard and Information Center Diagnostics, verify that the Scout can explain gauge function and demonstrate digital message review: Toggle driver information buttons to read tire pressure, range, and maintenance timers."
       },
       "quiz_item": {
         "scenario_prompt": "What does it mean when the malfunction indicator lamp (check engine light) illuminates on the instrument cluster?",
@@ -2869,14 +2870,13 @@
         "Step 4 - Tread Depth Evaluation: Inspect the lateral wear bars across tire grooves to confirm legal tread depth."
       ],
       "gear_checklist": [
-        "Official Automotive Maintenance merit badge pamphlet and workbook organizer for Req 4.",
         "Automotive Maintenance field toolkit, inspection gauge, and protective eyewear for Tire Maintenance and Alignment Specifications.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 4."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Tire Specification Placard",
-        "right_header": "Req 4c: Wheel Alignment Geometry",
+        "left_header": "Req 4a: Tire Specification Placard Comparison",
+        "right_header": "Req 4c: Wheel Alignment Geometry Fundamentals",
         "left_points": [
           "(4a) Tire Specification Placard Comparison: Vehicle door jamb placards detail the exact tire dimensions and cold inflation pressures engineered for optimal braking and handling. Sidewall stampings specify only the maximum permissible pressure and load ratings of the tire casing itself.",
           "(4b) Tire Pressure Inflation Protocols: Technicians use calibrated mechanical or digital gauges to assess tire pressures when vehicles have rested for three hours. Compact spare tires operate at significantly higher pressures, typically sixty pounds per square inch, and require routine maintenance."
@@ -2898,22 +2898,22 @@
           },
           {
             "attribute": "Alignment Geometry",
-            "left": "Req 4a: Tire Specification Placard: Vehicle door jamb placards detail the exact tire dimensions and cold inflation pressures engineered for optimal braking and handling. Sidewall stampings specify only the maximum permissible pressure and load ratings of the tire casing itself.",
-            "right": "Req 4b: Tire Pressure Inflation: Technicians use calibrated mechanical or digital gauges to assess tire pressures when vehicles have rested for three hours. Compact spare tires operate at significantly higher pressures, typically sixty pounds per square inch, and require routine maintenance."
+            "left": "Alignment Geometry: Align caster, camber, and toe angles to prevent premature edge wear and pulling.",
+            "right": "Wear Bar Limits: Replace tires immediately when tread depths wear flush with the wear indicators."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 4 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 4 Worked Example: Tire Maintenance and Alignment Specifications",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Tire Specification Placard": "Vehicle door jamb placards detail the exact tire dimensions and cold inflation pressures engineered for optimal braking and handling. Sidewall stampings specify only the maximum permissible pressure and load ratings of the tire casing itself.",
-          "Req 4b - Tire Pressure Inflation": "Technicians use calibrated mechanical or digital gauges to assess tire pressures when vehicles have rested for three hours. Compact spare tires operate at significantly higher pressures, typically sixty pounds per square inch, and require routine maintenance.",
-          "Req 4c - Wheel Alignment Geometry": "Suspension alignment encompasses camber, caster, and toe angles which position the tire perpendicular to the road surface during cornering. Misalignment induces directional drift, steering wheel oscillation, and severe tread feathering or shoulder cupping.",
-          "Req 4d - Tread Wear Indicator": "Lateral wear bars are raised rubber ridges molded across the base of tire grooves at a height of two thirty-seconds of an inch. When tire tread wears flush with these indicator bars, wet braking traction degrades drastically, necessitating immediate replacement."
+          "Phase 1 - Specification Verification": "Read the vehicle door jamb placard for front, rear, and spare cold pressures.",
+          "Phase 2 - Pressure Gauge Reading": "Remove the tire valve cap and press a calibrated gauge firmly against valve.",
+          "Phase 3 - Chuck Air Adjustment": "Add compressed air or bleed pressure until gauge matches door placard value exactly.",
+          "Phase 4 - Tread Depth Evaluation": "Inspect the lateral wear bars across tire grooves to confirm legal tread depth."
         },
-        "sample_output": "Tire Pressure, Alignment, and Wear: In addition, fuel efficiency goes down by 1 percent for every 3 pounds per square inch that tires are under inflated (p. 39).",
-        "counselor_tip": "For Automotive Maintenance Requirement 4 (Tire Pressure, Alignment, and Wear), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43))."
+        "sample_output": "Tire safety depends on maintaining precise cold inflation pressures, correct suspension alignment angles, and adequate tread depth. Adhering to the manufacturer door pillar specifications prevents blowout failures, hydroplaning, and irregular tire wear patterns.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 4 conference on Tire Maintenance and Alignment Specifications, verify that the Scout can explain placard specifications and demonstrate tread depth evaluation: Inspect the lateral wear bars across tire grooves to confirm legal tread depth."
       },
       "quiz_item": {
         "scenario_prompt": "If the pressure molded on the tire sidewall differs from the recommended pressure on the vehicle's door jamb placard, which pressure should you use?",
@@ -3322,13 +3322,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Internal Combustion Engine",
-        "right_header": "Req 5b: Engine Oil Viscosity",
+        "left_header": "Req 5a: Internal Combustion Engine Principles",
+        "right_header": "Req 5b: Engine Oil Viscosity Classifications",
         "left_points": [
-          "(5a) Internal Combustion Engine Principles: Four-stroke internal combustion engines execute intake, compression, power, and exhaust phases to rotate the crankshaft. Gasoline engines utilize electric spark plugs for air-fuel ignition, whereas diesel powerplants rely on high compression ratios to heat inducted air to auto-ignition temperatures."
+          "(5a) Internal Combustion Engine Principles: Four-stroke internal combustion engines execute intake, compression, power, and exhaust phases to rotate the crankshaft. Gasoline engines utilize electric spark plugs for air-fuel ignition, whereas diesel powerplants rely on high compression ratios to heat inducted air to auto-ignition temperatures.",
+          "Combustion Cycle: Four stroke engines complete intake, compression, power, and exhaust strokes across two revolutions."
         ],
         "right_points": [
-          "(5b) Engine Oil Viscosity Classifications: Motor oil lubricates bearings, cleans internal engine sludge, cools pistons, and seals piston ring gaps against combustion blowby. The API service donut indicates engine performance classifications, while SAE numbers denote cold flow and operating viscosity ratings."
+          "(5b) Engine Oil Viscosity Classifications: Motor oil lubricates bearings, cleans internal engine sludge, cools pistons, and seals piston ring gaps against combustion blowby. The API service donut indicates engine performance classifications, while SAE numbers denote cold flow and operating viscosity ratings.",
+          "(5c) Engine Oil Capacity Specifications: Vehicle manufacturers specify distinct oil viscosities, synthetic basestock requirements, and crankcase fill volumes in the technical specifications section of the owner manual. Overfilling or underfilling an engine crankcase causes foaming, aeration, or oil starvation."
         ],
         "rows": [
           {
@@ -3338,26 +3340,27 @@
           },
           {
             "attribute": "Diesel Principles",
-            "left": "Req 5a: Internal Combustion Engine: Four-stroke internal combustion engines execute intake, compression, power, and exhaust phases to rotate the crankshaft. Gasoline engines utilize electric spark plugs for air-fuel ignition, whereas diesel powerplants rely on high compression ratios to heat inducted air to auto-ignition temperatures.",
-            "right": "Req 5b: Engine Oil Viscosity: Motor oil lubricates bearings, cleans internal engine sludge, cools pistons, and seals piston ring gaps against combustion blowby. The API service donut indicates engine performance classifications, while SAE numbers denote cold flow and operating viscosity ratings."
+            "left": "Combustion Cycle: Four stroke engines complete intake, compression, power, and exhaust strokes across two revolutions.",
+            "right": "(5c) Engine Oil Capacity Specifications: Vehicle manufacturers specify distinct oil viscosities, synthetic basestock requirements, and crankcase fill volumes in the technical specifications section of the owner manual. Overfilling or underfilling an engine crankcase causes foaming, aeration, or oil starvation."
           },
           {
             "attribute": "Oil Viscosity",
-            "left": "Req 5c: Engine Oil Capacity: Vehicle manufacturers specify distinct oil viscosities, synthetic basestock requirements, and crankcase fill volumes in the technical specifications section of the owner manual. Overfilling or underfilling an engine crankcase causes foaming, aeration, or oil starvation.",
-            "right": "Diesel Principles: Diesel engines ignite fuel purely through high compression heat without using spark plugs."
+            "left": "Oil Viscosity: Viscosity designations communicate cold pumping fluid flow and high temperature hydrodynamic film thickness.",
+            "right": "Standard Specifications: Look up oil capacity and API standards directly from the owner manual index."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 5 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 5 Worked Example: Internal Combustion Engine Fundamentals",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5a - Internal Combustion Engine": "Four-stroke internal combustion engines execute intake, compression, power, and exhaust phases to rotate the crankshaft. Gasoline engines utilize electric spark plugs for air-fuel ignition, whereas diesel powerplants rely on high compression ratios to heat inducted air to auto-ignition temperatures.",
-          "Req 5b - Engine Oil Viscosity": "Motor oil lubricates bearings, cleans internal engine sludge, cools pistons, and seals piston ring gaps against combustion blowby. The API service donut indicates engine performance classifications, while SAE numbers denote cold flow and operating viscosity ratings.",
-          "Req 5c - Engine Oil Capacity": "Vehicle manufacturers specify distinct oil viscosities, synthetic basestock requirements, and crankcase fill volumes in the technical specifications section of the owner manual. Overfilling or underfilling an engine crankcase causes foaming, aeration, or oil starvation."
+          "Phase 1 - Engine Architecture Review": "Identify the intake manifold, spark plugs, fuel rail, and oil fill cap.",
+          "Phase 2 - Specification Verification": "Consult the owner manual for the approved API service code and viscosity grade.",
+          "Phase 3 - Oil Cap Inspection": "Read the oil viscosity rating stamped directly onto the engine oil filler cap.",
+          "Phase 4 - Volume Requirement Check": "Note the exact oil volume needed for an oil change with filter replacement."
         },
-        "sample_output": "Engine Operation and Motor Oil: EVs have a big battery pack, usually located under the floor or in the back of the car (p. 30).",
-        "counselor_tip": "For Automotive Maintenance Requirement 5 (Engine Operation and Motor Oil), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57))."
+        "sample_output": "Internal combustion engines convert chemical fuel into mechanical energy through four reciprocating piston strokes. Motor oil forms a hydrodynamic barrier that separates moving metal components, reduces friction, carries away combustion heat, and suspends blowby contaminants.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 5 conference on Internal Combustion Engine Fundamentals, verify that the Scout can explain combustion cycle and demonstrate volume requirement check: Note the exact oil volume needed for an oil change with filter replacement."
       },
       "quiz_item": {
         "scenario_prompt": "How does a battery electric vehicle (EV) generate motion compared to a traditional gasoline car?",
@@ -3662,10 +3665,12 @@
         "left_header": "Req 6a: Coolant Chemistry and Selection",
         "right_header": "Req 6b: Coolant Flush and Disposal",
         "left_points": [
-          "(6a) Coolant Chemistry and Selection: Coolant raises the boiling point of water and lowers its freezing point while circulating to dissipate extreme combustion chamber heat. Modern engines require specific chemical formulations such as organic acid technology or hybrid organic acid technology to preserve aluminum water jackets."
+          "(6a) Coolant Chemistry and Selection: Coolant raises the boiling point of water and lowers its freezing point while circulating to dissipate extreme combustion chamber heat. Modern engines require specific chemical formulations such as organic acid technology or hybrid organic acid technology to preserve aluminum water jackets.",
+          "Cooling Function: Coolant transfers combustion heat to the radiator while raising boiling and lowering freezing."
         ],
         "right_points": [
-          "(6b) Coolant Flush and Disposal: Flushing an engine cooling system requires opening the lower radiator petcock, draining spent fluid into containment pans, and flushing with distilled water. Spent antifreeze contains dissolved heavy metals like lead and copper, requiring disposal at certified hazardous waste collection sites."
+          "(6b) Coolant Flush and Disposal: Flushing an engine cooling system requires opening the lower radiator petcock, draining spent fluid into containment pans, and flushing with distilled water. Spent antifreeze contains dissolved heavy metals like lead and copper, requiring disposal at certified hazardous waste collection sites.",
+          "Drain Procedures: Drain spent coolant from the radiator petcock into dedicated sealed automotive waste containers."
         ],
         "rows": [
           {
@@ -3675,25 +3680,27 @@
           },
           {
             "attribute": "Chemistry Selection",
-            "left": "Req 6a: Coolant Chemistry: Coolant raises the boiling point of water and lowers its freezing point while circulating to dissipate extreme combustion chamber heat. Modern engines require specific chemical formulations such as organic acid technology or hybrid organic acid technology to preserve aluminum water jackets.",
-            "right": "Req 6b: Coolant Flush and Disposal: Flushing an engine cooling system requires opening the lower radiator petcock, draining spent fluid into containment pans, and flushing with distilled water. Spent antifreeze contains dissolved heavy metals like lead and copper, requiring disposal at certified hazardous waste collection sites."
+            "left": "Cooling Function: Coolant transfers combustion heat to the radiator while raising boiling and lowering freezing.",
+            "right": "Drain Procedures: Drain spent coolant from the radiator petcock into dedicated sealed automotive waste containers."
           },
           {
             "attribute": "Drain Procedures",
-            "left": "Cooling Function: Coolant transfers combustion heat to the radiator while raising boiling and lowering freezing.",
-            "right": "Chemistry Selection: Modern engines require vehicle specific organic acid technology to prevent galvanic aluminum corrosion."
+            "left": "Drain Procedures: Drain spent coolant from the radiator petcock into dedicated sealed automotive waste containers.",
+            "right": "Air Bleeding: Purge entrained air pockets from cooling passages to prevent localized cylinder head warping."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 6 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 6 Worked Example: Automotive Cooling System Service",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Coolant Chemistry": "Coolant raises the boiling point of water and lowers its freezing point while circulating to dissipate extreme combustion chamber heat. Modern engines require specific chemical formulations such as organic acid technology or hybrid organic acid technology to preserve aluminum water jackets.",
-          "Req 6b - Coolant Flush and Disposal": "Flushing an engine cooling system requires opening the lower radiator petcock, draining spent fluid into containment pans, and flushing with distilled water. Spent antifreeze contains dissolved heavy metals like lead and copper, requiring disposal at certified hazardous waste collection sites."
+          "Phase 1 - Cold System Confirmation": "Ensure the engine has cooled completely before touching radiator or heater hoses.",
+          "Phase 2 - Catch Basin Placement": "Slide a clean drain pan beneath the radiator petcock drain plug valve.",
+          "Phase 3 - Petcock Valve Opening": "Loosen the radiator drain petcock to evacuate spent coolant into the container.",
+          "Phase 4 - System Refill Bleeding": "Refill with approved premixed coolant and purge air using a spill-free funnel."
         },
-        "sample_output": "Engine Cooling System Service: Coolant should be checked regularly and replaced about every 30,000 miles or two years, or up to five years in some newer vehicles (p. 60).",
-        "counselor_tip": "For Automotive Maintenance Requirement 6 (Engine Cooling System Service), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63))."
+        "sample_output": "The automotive cooling system circulates antifreeze solution through the engine block and radiator to stabilize operating temperatures. Selecting the correct chemistry and purging trapped air bubbles during fluid replacement prevents head gasket failure and galvanic corrosion.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 6 conference on Automotive Cooling System Service, verify that the Scout can explain cooling function and demonstrate system refill bleeding: Refill with approved premixed coolant and purge air using a spill-free funnel."
       },
       "quiz_item": {
         "scenario_prompt": "What temperature protection does an equal 50/50 mixture of water and ethylene-glycol antifreeze provide during winter?",
@@ -4002,13 +4009,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Air and Fuel Filtration",
-        "right_header": "Req 7b: Electronic Fuel Injection",
+        "left_header": "Req 7a: Air and Fuel Filtration Mechanics",
+        "right_header": "Req 7b: Electronic Fuel Injection Operation",
         "left_points": [
-          "(7a) Air and Fuel Filtration Mechanics: The induction system blends filtered atmospheric oxygen with pressurized fuel to achieve combustible mixtures inside cylinder heads. Air filters protect mass airflow sensors from debris, while fuel filters prevent rust and silt from clogging micron-sized injector pintles."
+          "(7a) Air and Fuel Filtration Mechanics: The induction system blends filtered atmospheric oxygen with pressurized fuel to achieve combustible mixtures inside cylinder heads. Air filters protect mass airflow sensors from debris, while fuel filters prevent rust and silt from clogging micron-sized injector pintles.",
+          "Air Fuel Stoichiometry: Computer systems maintain fourteen point seven to one air fuel ratios for complete combustion."
         ],
         "right_points": [
-          "(7b) Electronic Fuel Injection Operation: Electronic fuel injection relies on an engine control module that processes throttle position, crankshaft angle, and oxygen sensor data to calculate injector pulse widths. Solenoid or piezoelectric injectors spray atomized fuel directly into intake runners or cylinder combustion bowls."
+          "(7b) Electronic Fuel Injection Operation: Electronic fuel injection relies on an engine control module that processes throttle position, crankshaft angle, and oxygen sensor data to calculate injector pulse widths. Solenoid or piezoelectric injectors spray atomized fuel directly into intake runners or cylinder combustion bowls.",
+          "Injector Metering: Electronic solenoids pulse high pressure fuel sprays into intake ports or combustion chambers."
         ],
         "rows": [
           {
@@ -4018,25 +4027,27 @@
           },
           {
             "attribute": "Intake Filtration",
-            "left": "Req 7a: Air and Fuel Filtration: The induction system blends filtered atmospheric oxygen with pressurized fuel to achieve combustible mixtures inside cylinder heads. Air filters protect mass airflow sensors from debris, while fuel filters prevent rust and silt from clogging micron-sized injector pintles.",
-            "right": "Req 7b: Electronic Fuel Injection: Electronic fuel injection relies on an engine control module that processes throttle position, crankshaft angle, and oxygen sensor data to calculate injector pulse widths. Solenoid or piezoelectric injectors spray atomized fuel directly into intake runners or cylinder combustion bowls."
+            "left": "Air Fuel Stoichiometry: Computer systems maintain fourteen point seven to one air fuel ratios for complete combustion.",
+            "right": "Injector Metering: Electronic solenoids pulse high pressure fuel sprays into intake ports or combustion chambers."
           },
           {
             "attribute": "Injector Metering",
-            "left": "Air Fuel Stoichiometry: Computer systems maintain fourteen point seven to one air fuel ratios for complete combustion.",
-            "right": "Intake Filtration: Pleated intake filters prevent particulate debris from damaging delicate mass airflow sensor wires."
+            "left": "Injector Metering: Electronic solenoids pulse high pressure fuel sprays into intake ports or combustion chambers.",
+            "right": "Sensor Feedback: Heated oxygen sensors measure exhaust gas composition to adjust dynamic injector pulse widths."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 7 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 7 Worked Example: Fuel Delivery and Air Induction Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Air and Fuel Filtration": "The induction system blends filtered atmospheric oxygen with pressurized fuel to achieve combustible mixtures inside cylinder heads. Air filters protect mass airflow sensors from debris, while fuel filters prevent rust and silt from clogging micron-sized injector pintles.",
-          "Req 7b - Electronic Fuel Injection": "Electronic fuel injection relies on an engine control module that processes throttle position, crankshaft angle, and oxygen sensor data to calculate injector pulse widths. Solenoid or piezoelectric injectors spray atomized fuel directly into intake runners or cylinder combustion bowls."
+          "Phase 1 - Air Filter Housing Access": "Unlatch the air cleaner housing clips and extract the pleated intake filter.",
+          "Phase 2 - Sensor Wiring Inspection": "Examine the electrical harness connector on the mass airflow sensor for corrosion.",
+          "Phase 3 - Fuel Rail Observation": "Locate the fuel rail, electronic injector harness clips, and intake manifold runners.",
+          "Phase 4 - Fuel Filter Identification": "Trace fuel supply lines from tank to locate external inline fuel filter canisters."
         },
-        "sample_output": "Air Intake and Fuel Injection: As mentioned earlier, automobile engines burn a mixture of fuel and air (p. 48).",
-        "counselor_tip": "For Automotive Maintenance Requirement 7 (Air Intake and Fuel Injection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49))."
+        "sample_output": "Modern electronic fuel injection systems deliver atomized gasoline into cylinders at stoichiometric ratios calculated by the engine control module. Clean air and fuel filters prevent particulate fouling of mass airflow sensors, high-pressure injectors, and sensitive oxygen sensors.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 7 conference on Fuel Delivery and Air Induction Systems, verify that the Scout can explain air fuel stoichiometry and demonstrate fuel filter identification: Trace fuel supply lines from tank to locate external inline fuel filter canisters."
       },
       "quiz_item": {
         "scenario_prompt": "What air-to-gasoline ratio allows an engine to achieve the most complete combustion and the lowest exhaust emissions?",
@@ -4901,17 +4912,15 @@
         "Engineering logbook and technical specification sheet for Automotive Maintenance Requirement 8."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Starting and Charging System",
+        "left_header": "Req 8a: Starting and Charging System Components",
         "right_header": "Req 8d: Safe Battery Jumper Connections",
         "left_points": [
           "(8a) Starting and Charging System Components: Vehicle electrical architectures integrate a storage battery, starter motor, and belt-driven alternator to manage electrical demands. Lighting and auxiliary systems draw regulated direct current power through fused circuits protected by electronic relays.",
-          "(8b) Engine Cylinder Firing Orders: Engine firing orders establish the precise sequence in which individual spark plugs ignite compressed air-fuel charges across cylinders. Distributing power strokes evenly balances rotational forces along the crankshaft, preventing excessive mechanical vibration.",
-          "(8c) Spark Plug Gap Calibration: The spark plug gap provides the physical separation across which ignition coils discharge thousands of volts to ignite the air-fuel mixture. Setting the gap to exact manufacturer tolerances ensures reliable flame kernel propagation and prevents engine misfires."
+          "(8b) Engine Cylinder Firing Orders: Engine firing orders establish the precise sequence in which individual spark plugs ignite compressed air-fuel charges across cylinders. Distributing power strokes evenly balances rotational forces along the crankshaft, preventing excessive mechanical vibration."
         ],
         "right_points": [
           "(8d) Safe Battery Jumper Connections: Jumping a dead vehicle battery requires strict attachment sequences to avoid sparking near explosive hydrogen gas pockets. Clamping positive cables first and ending with an unpainted engine block ground prevents hazardous battery explosions.",
-          "(8e) Electric Vehicle Range Factors: Electrified vehicle range depends on battery pack temperature, aggressive acceleration habits, aerodynamic drag, and auxiliary cabin heating loads. Recharging involves connecting dedicated Level 1, Level 2, or direct current fast-charging connectors through standardized charge ports.",
-          "(8f) Electrical Subsystem Dependencies: A stable electrical system powers electronic control modules, electric power steering racks, antilock braking solenoids, and safety sensors. Voltage drops trigger sensor calibration faults and induce transmission limp-mode lockouts."
+          "(8e) Electric Vehicle Range Factors: Electrified vehicle range depends on battery pack temperature, aggressive acceleration habits, aerodynamic drag, and auxiliary cabin heating loads. Recharging involves connecting dedicated Level 1, Level 2, or direct current fast-charging connectors through standardized charge ports."
         ],
         "rows": [
           {
@@ -4926,22 +4935,22 @@
           },
           {
             "attribute": "Electrode Spark Gap",
-            "left": "(8c) Spark Plug Gap Calibration: The spark plug gap provides the physical separation across which ignition coils discharge thousands of volts to ignite the air-fuel mixture. Setting the gap to exact manufacturer tolerances ensures reliable flame kernel propagation and prevents engine misfires.",
-            "right": "(8f) Electrical Subsystem Dependencies: A stable electrical system powers electronic control modules, electric power steering racks, antilock braking solenoids, and safety sensors. Voltage drops trigger sensor calibration faults and induce transmission limp-mode lockouts."
+            "left": "Electrode Spark Gap: Spark plug electrode gaps must match factory tolerances to ensure complete spark kernel generation.",
+            "right": "Battery Jumper Safety: Connect positive terminals together before attaching negative ground to unpainted chassis metal."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 8 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 8 Worked Example: Ignition and Vehicle Electrical Systems",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Starting and Charging System": "Vehicle electrical architectures integrate a storage battery, starter motor, and belt-driven alternator to manage electrical demands. Lighting and auxiliary systems draw regulated direct current power through fused circuits protected by electronic relays.",
-          "Req 8b - Engine Cylinder Firing Orders": "Engine firing orders establish the precise sequence in which individual spark plugs ignite compressed air-fuel charges across cylinders. Distributing power strokes evenly balances rotational forces along the crankshaft, preventing excessive mechanical vibration.",
-          "Req 8c - Spark Plug Gap Calibration": "The spark plug gap provides the physical separation across which ignition coils discharge thousands of volts to ignite the air-fuel mixture. Setting the gap to exact manufacturer tolerances ensures reliable flame kernel propagation and prevents engine misfires.",
-          "Req 8d - Safe Battery Jumper": "Jumping a dead vehicle battery requires strict attachment sequences to avoid sparking near explosive hydrogen gas pockets. Clamping positive cables first and ending with an unpainted engine block ground prevents hazardous battery explosions."
+          "Phase 1 - Jumper Cable Readiness": "Uncoil jumper cables and confirm both vehicles have ignitions switched off.",
+          "Phase 2 - Positive Clamp Attachment": "Connect red clamp to dead battery positive, then other red to good battery positive.",
+          "Phase 3 - Negative Source Connection": "Clamp black cable to good battery negative terminal post securely.",
+          "Phase 4 - Ground Connection Completion": "Attach final black clamp to unpainted engine metal on the disabled car."
         },
-        "sample_output": "Ignition and Electrical Systems: The lighting system includes the interior overhead lights, instrument lights, headlights, taillights, turn signals, warning lights, hazard lights (p. 69).",
-        "counselor_tip": "For Automotive Maintenance Requirement 8 (Ignition and Electrical Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71))."
+        "sample_output": "Automotive electrical circuits incorporate starting motors, alternators, lead-acid storage batteries, and solid-state ignition coils. Correct spark plug gaps, accurate cylinder firing orders, and safe jumper cable procedures prevent electrical fires and battery explosions.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 8 conference on Ignition and Vehicle Electrical Systems, verify that the Scout can explain starting charging loop and demonstrate ground connection completion: Attach final black clamp to unpainted engine metal on the disabled car."
       },
       "quiz_item": {
         "scenario_prompt": "What component in the charging system prevents the alternator from overcharging the vehicle's battery?",
@@ -5473,8 +5482,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Drivetrain Component",
-        "right_header": "Req 9c: Automatic Transmission Fluid",
+        "left_header": "Req 9a: Drivetrain Component Architecture",
+        "right_header": "Req 9c: Automatic Transmission Fluid Specifications",
         "left_points": [
           "(9a) Drivetrain Component Architecture: The drivetrain consists of the transmission, driveshafts, universal or constant-velocity joints, differential gears, and drive axles. These components multiply engine torque and transmit rotational power smoothly across flexible suspension geometries.",
           "(9b) Transmission Mechanism Comparison: Manual transmissions require driver-actuated mechanical friction clutches to disengage gears during gear changes. Automatic transmissions utilize torque converters and electronically controlled planetary gearsets to execute smooth gear ratio shifts automatically."
@@ -5496,22 +5505,22 @@
           },
           {
             "attribute": "Hydraulic Fluid",
-            "left": "Req 9a: Drivetrain Component: The drivetrain consists of the transmission, driveshafts, universal or constant-velocity joints, differential gears, and drive axles. These components multiply engine torque and transmit rotational power smoothly across flexible suspension geometries.",
-            "right": "Req 9b: Transmission Mechanism: Manual transmissions require driver-actuated mechanical friction clutches to disengage gears during gear changes. Automatic transmissions utilize torque converters and electronically controlled planetary gearsets to execute smooth gear ratio shifts automatically."
+            "left": "Hydraulic Fluid: Automatic transmission fluids lubricate planetary gearsets, cool clutches, and transmit hydraulic pressure.",
+            "right": "Gearbox Lubrication: Heavy hypoid gear oils protect differential ring and pinion teeth from extreme shear."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 9 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 9 Worked Example: Automotive Drivetrain and Transmission Systems",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 9a - Drivetrain Component": "The drivetrain consists of the transmission, driveshafts, universal or constant-velocity joints, differential gears, and drive axles. These components multiply engine torque and transmit rotational power smoothly across flexible suspension geometries.",
-          "Req 9b - Transmission Mechanism": "Manual transmissions require driver-actuated mechanical friction clutches to disengage gears during gear changes. Automatic transmissions utilize torque converters and electronically controlled planetary gearsets to execute smooth gear ratio shifts automatically.",
-          "Req 9c - Automatic Transmission Fluid": "Automatic transmission fluids feature unique friction modifier formulations, detergent packages, and viscosity characteristics engineered for specific manufacturer transmissions. Utilizing unapproved fluid specifications causes internal wet clutch slippage and overheating.",
-          "Req 9d - Gearbox and Differential": "Manual transmissions, transfer cases, and differentials require high-viscosity gear lubricants engineered for extreme pressures and hypoid bevel gear shear forces. Hypoid gear lubricants protect differential ring and pinion teeth under heavy towing loads."
+          "Phase 1 - Undercarriage Inspection": "Safely raise the vehicle to trace the transmission, driveshaft, and rear axle.",
+          "Phase 2 - Differential Identification": "Locate the differential housing and identify the fluid level inspection fill plug.",
+          "Phase 3 - Transmission Fluid Check": "Check automatic transmission dipstick with warm running engine parked on level concrete.",
+          "Phase 4 - Transfer Case Audit": "Identify the transfer case assembly on four-wheel drive configurations behind transmission."
         },
-        "sample_output": "Drive Train and Transmission Systems: If it is on a large chain ring and a small sprocket, it will help you pedal along a flat road at high speed (p. 33).",
-        "counselor_tip": "For Automotive Maintenance Requirement 9 (Drive Train and Transmission Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35))."
+        "sample_output": "The vehicle drivetrain routes engine torque through gearboxes, universal joints, propeller shafts, and differential assemblies to turn the drive wheels. Maintaining specialized hydraulic fluids and heavy gear oils protects planetary gearsets and hypoid ring gears from catastrophic friction wear.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 9 conference on Automotive Drivetrain and Transmission Systems, verify that the Scout can explain drivetrain architecture and demonstrate transfer case audit: Identify the transfer case assembly on four-wheel drive configurations behind transmission."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do the gears inside a car transmission differ from the chain rings and sprockets on a bicycle?",
@@ -5890,19 +5899,20 @@
         "Step 4 - Rotor Surface Evaluation: Examine the brake rotor face for deep grooves, heat scoring, and rust lips."
       ],
       "gear_checklist": [
-        "Official Automotive Maintenance merit badge pamphlet and workbook organizer for Req 10.",
         "Automotive Maintenance field toolkit, inspection gauge, and protective eyewear for Automotive Braking System Operation.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 10."
       ],
       "comparison_data": {
-        "left_header": "Req 10a: Hydraulic and Antilock Brake",
+        "left_header": "Req 10a: Hydraulic and Antilock Brake Principles",
         "right_header": "Req 10b: Disc and Drum Brake Comparison",
         "left_points": [
-          "(10a) Hydraulic and Antilock Brake Principles: Brake pedals actuate master cylinders that push hydraulic fluid through steel lines to calipers and wheel cylinders. Antilock systems use wheel speed sensors and solenoid valves to modulate line pressure automatically, preventing skid lockup."
+          "(10a) Hydraulic and Antilock Brake Principles: Brake pedals actuate master cylinders that push hydraulic fluid through steel lines to calipers and wheel cylinders. Antilock systems use wheel speed sensors and solenoid valves to modulate line pressure automatically, preventing skid lockup.",
+          "Hydraulic Principles: Incompressible brake fluid transmits master cylinder hydraulic pressure instantaneously to caliper pistons."
         ],
         "right_points": [
-          "(10b) Disc and Drum Brake Comparison: Disc brakes utilize calipers to squeeze flat friction pads against rotating cast-iron rotors exposed to cooling airflow. Drum brakes force curved brake shoes outward against the interior surface of rotating drums, retaining internal heat."
+          "(10b) Disc and Drum Brake Comparison: Disc brakes utilize calipers to squeeze flat friction pads against rotating cast-iron rotors exposed to cooling airflow. Drum brakes force curved brake shoes outward against the interior surface of rotating drums, retaining internal heat.",
+          "(10c) Brake System Condition Inspection: Technicians measure friction pad lining thickness, check rotor runout with dial indicators, and inspect rubber caliper boots for fluid leaks. Linings worn near minimum manufacturer specifications require immediate replacement along with hardware lubrication."
         ],
         "rows": [
           {
@@ -5912,26 +5922,27 @@
           },
           {
             "attribute": "Antilock Operation",
-            "left": "Req 10a: Hydraulic and Antilock: Brake pedals actuate master cylinders that push hydraulic fluid through steel lines to calipers and wheel cylinders. Antilock systems use wheel speed sensors and solenoid valves to modulate line pressure automatically, preventing skid lockup.",
-            "right": "Req 10b: Disc and Drum Brake: Disc brakes utilize calipers to squeeze flat friction pads against rotating cast-iron rotors exposed to cooling airflow. Drum brakes force curved brake shoes outward against the interior surface of rotating drums, retaining internal heat."
+            "left": "Hydraulic Principles: Incompressible brake fluid transmits master cylinder hydraulic pressure instantaneously to caliper pistons.",
+            "right": "(10c) Brake System Condition Inspection: Technicians measure friction pad lining thickness, check rotor runout with dial indicators, and inspect rubber caliper boots for fluid leaks. Linings worn near minimum manufacturer specifications require immediate replacement along with hardware lubrication."
           },
           {
             "attribute": "Friction Design",
-            "left": "Req 10c: Brake System Condition: Technicians measure friction pad lining thickness, check rotor runout with dial indicators, and inspect rubber caliper boots for fluid leaks. Linings worn near minimum manufacturer specifications require immediate replacement along with hardware lubrication.",
-            "right": "Antilock Operation: Antilock brake modulators rapidly pulse hydraulic pressure to prevent wheel lockup during stops."
+            "left": "Friction Design: Disc brakes clamp spinning flat rotors while drum brakes expand shoes outward inside drums.",
+            "right": "Lining Inspection: Measure brake friction pad thickness against factory minimum discard limits using thickness gauges."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 10 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 10 Worked Example: Automotive Braking System Operation",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 10a - Hydraulic and Antilock Brake": "Brake pedals actuate master cylinders that push hydraulic fluid through steel lines to calipers and wheel cylinders. Antilock systems use wheel speed sensors and solenoid valves to modulate line pressure automatically, preventing skid lockup.",
-          "Req 10b - Disc and Drum Brake": "Disc brakes utilize calipers to squeeze flat friction pads against rotating cast-iron rotors exposed to cooling airflow. Drum brakes force curved brake shoes outward against the interior surface of rotating drums, retaining internal heat.",
-          "Req 10c - Brake System Condition": "Technicians measure friction pad lining thickness, check rotor runout with dial indicators, and inspect rubber caliper boots for fluid leaks. Linings worn near minimum manufacturer specifications require immediate replacement along with hardware lubrication."
+          "Phase 1 - Master Cylinder Check": "Inspect the translucent brake master cylinder reservoir to verify fluid level and clarity.",
+          "Phase 2 - Wheel Assembly Removal": "Loosen lug nuts, raise vehicle onto jack stands, and remove the wheel assembly.",
+          "Phase 3 - Caliper Pad Inspection": "Look through the caliper inspection port to measure the remaining friction lining thickness.",
+          "Phase 4 - Rotor Surface Evaluation": "Examine the brake rotor face for deep grooves, heat scoring, and rust lips."
         },
-        "sample_output": "Disc, Drum, and Antilock Brakes: You should check all the lights on your vehicle from time to time to make sure they work properly (p. 46).",
-        "counselor_tip": "For Automotive Maintenance Requirement 10 (Disc, Drum, and Antilock Brakes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76))."
+        "sample_output": "Automotive braking systems use hydraulic fluid to transmit driver pedal pressure into mechanical clamping friction at wheel hubs. Antilock brake modulators pulse hydraulic line pressure dozens of times per second to prevent tire skidding and preserve steering control during emergency stops.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 10 conference on Automotive Braking System Operation, verify that the Scout can explain hydraulic principles and demonstrate rotor surface evaluation: Examine the brake rotor face for deep grooves, heat scoring, and rust lips."
       },
       "quiz_item": {
         "scenario_prompt": "What is the best way to verify that a vehicle's rear brake lights are working properly?",
@@ -6403,14 +6414,13 @@
         "Step 4 - Gasket Lubrication Install: Smear fresh motor oil on the new filter gasket and spin it hand-tight."
       ],
       "gear_checklist": [
-        "Official Automotive Maintenance merit badge pamphlet and workbook organizer for Req 11.",
         "Automotive Maintenance field toolkit, inspection gauge, and protective eyewear for Practical Automotive Maintenance Operations.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 11."
       ],
       "comparison_data": {
-        "left_header": "Req 11a: Vehicle Valuation and Purchase",
-        "right_header": "Req 11c: Emergency Jack and Tire",
+        "left_header": "Req 11a: Vehicle Valuation and Purchase Analysis",
+        "right_header": "Req 11c: Emergency Jack and Tire Replacement",
         "left_points": [
           "(11a) Vehicle Valuation and Purchase Analysis: Evaluating vehicle purchases involves comparing dealer window prices, private party values, financing interest rates, insurance costs, and depreciation curves across new and pre-owned models. Prospective buyers utilize market valuation guides to budget comprehensive ownership costs.",
           "(11b) Exterior Clear Coat Surface Detailing: Clear-coat finishes consist of transparent acrylic paint layers that protect underlying color pigments from ultraviolet fading. Washing with dedicated pH-neutral automotive shampoo and applying non-abrasive carnauba or synthetic wax seals paint against oxidation."
@@ -6432,22 +6442,22 @@
           },
           {
             "attribute": "Lifting Protocols",
-            "left": "Req 11a: Vehicle Valuation: Evaluating vehicle purchases involves comparing dealer window prices, private party values, financing interest rates, insurance costs, and depreciation curves across new and pre-owned models. Prospective buyers utilize market valuation guides to budget comprehensive ownership costs.",
-            "right": "Req 11b: Exterior Clear Coat Surface: Clear-coat finishes consist of transparent acrylic paint layers that protect underlying color pigments from ultraviolet fading. Washing with dedicated pH-neutral automotive shampoo and applying non-abrasive carnauba or synthetic wax seals paint against oxidation."
+            "left": "Lifting Protocols: Position emergency jacks strictly beneath reinforced factory pinch welds to prevent structural collapse.",
+            "right": "Oil Service: Replace drain plug crush washers and lubricate new oil filter rubber gaskets before installation."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 11 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 11 Worked Example: Practical Automotive Maintenance Operations",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 11a - Vehicle Valuation": "Evaluating vehicle purchases involves comparing dealer window prices, private party values, financing interest rates, insurance costs, and depreciation curves across new and pre-owned models. Prospective buyers utilize market valuation guides to budget comprehensive ownership costs.",
-          "Req 11b - Exterior Clear Coat Surface": "Clear-coat finishes consist of transparent acrylic paint layers that protect underlying color pigments from ultraviolet fading. Washing with dedicated pH-neutral automotive shampoo and applying non-abrasive carnauba or synthetic wax seals paint against oxidation.",
-          "Req 11c - Emergency Jack and Tire": "Changing a flat tire requires engaging the factory scissors jack under designated frame notches on flat asphalt. Loosening lug nuts before lifting and tightening them in a crisscross star pattern ensures safe wheel seating.",
-          "Req 11d - Engine Oil and Filter": "Executing an oil change involves draining hot engine oil from the crankcase sump and spinning off the saturated filter canister. Technicians replace the drain plug crush washer, lubricate the new filter gasket, refill to factory capacity, and recycle used oil."
+          "Phase 1 - Vehicle Jack Positioning": "Locate the reinforced jacking notch along the vehicle rocker panel pinch weld seam.",
+          "Phase 2 - Controlled Jack Elevation": "Turn the jack screw clockwise until the flat tire clears the ground completely.",
+          "Phase 3 - Oil Drain Plug Extraction": "Place an oil drain pan beneath the crankcase and loosen the drain plug.",
+          "Phase 4 - Gasket Lubrication Install": "Smear fresh motor oil on the new filter gasket and spin it hand-tight."
         },
-        "sample_output": "Hands-On Service and Vehicle Ownership: No two days, and no two vehicles (p. 58).",
-        "counselor_tip": "For Automotive Maintenance Requirement 11 (Hands-On Service and Vehicle Ownership), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95))."
+        "sample_output": "Hands-on automotive maintenance requires executing critical ownership tasks such as financial vehicle valuation, paint finish preservation, emergency tire changing, and engine oil replacement. Completing these operations safely builds mechanical competence and protects vehicle longevity.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 11 conference on Practical Automotive Maintenance Operations, verify that the Scout can explain valuation analysis and demonstrate gasket lubrication install: Smear fresh motor oil on the new filter gasket and spin it hand-tight."
       },
       "quiz_item": {
         "scenario_prompt": "What is the role of an estimator in an automotive repair shop or dealership?",
@@ -6611,47 +6621,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 12: Early Mechanical Automobile",
-        "right_header": "Req 12: Research Modern Technician Roles",
+        "left_header": "Automotive Industry Professional Career Pathways: Core Principles",
+        "right_header": "Automotive Industry Professional Career Pathways: Field Execution",
         "left_points": [
-          "Early Mechanical Automobile Origins: The automobile was once a simple piece of machinery (p. 94).",
-          "Modern Sophisticated Vehicle Systems: Today, itis a sophisticated mode of transportation (p. 94).",
-          "From Mechanics To Technicians: This change shows in what we call people who take care of cars (p. 94)."
+          "Master Technician Pathway: Technicians earn ASE certifications in engine performance, electrical circuits, and braking systems.",
+          "Engineering Disciplines: Powertrain design engineers develop lightweight alloys, electric traction inverters, and battery management electronics."
         ],
         "right_points": [
-          "Research Modern Technician Roles: This change shows in what we call people who take care of cars (p. 94).",
-          "Build Advanced Diagnostic Skills: To work on today's vehicles, knowing how to use wrenches and hand tools is not near enough (p. 94).",
-          "Master Onboard Computer Diagnostics: Technicians also need to know how to work with technologies like the engine control unit and on board diagnostics (p. 94)."
+          "Collision Technology: Modern collision estimators utilize digital laser frame measurement tools and structural welding methods.",
+          "Apprenticeship Training: Trade academies and community colleges combine classroom electrical theory with hands-on shop internships."
         ],
         "rows": [
           {
             "attribute": "Master Technician Pathway",
-            "left": "Early Mechanical Automobile Origins: The automobile was once a simple piece of machinery (p. 94).",
-            "right": "Research Modern Technician Roles: This change shows in what we call people who take care of cars (p. 94)."
+            "left": "Master Technician Pathway: Technicians earn ASE certifications in engine performance, electrical circuits, and braking systems.",
+            "right": "Collision Technology: Modern collision estimators utilize digital laser frame measurement tools and structural welding methods."
           },
           {
             "attribute": "Engineering Disciplines",
-            "left": "Modern Sophisticated Vehicle Systems: Today, itis a sophisticated mode of transportation (p. 94).",
-            "right": "Build Advanced Diagnostic Skills: To work on today's vehicles, knowing how to use wrenches and hand tools is not near enough (p. 94)."
+            "left": "Engineering Disciplines: Powertrain design engineers develop lightweight alloys, electric traction inverters, and battery management electronics.",
+            "right": "Apprenticeship Training: Trade academies and community colleges combine classroom electrical theory with hands-on shop internships."
           },
           {
             "attribute": "Collision Technology",
-            "left": "From Mechanics To Technicians: This change shows in what we call people who take care of cars (p. 94).",
-            "right": "Master Onboard Computer Diagnostics: Technicians also need to know how to work with technologies like the engine control unit and on board diagnostics (p. 94)."
+            "left": "Collision Technology: Modern collision estimators utilize digital laser frame measurement tools and structural welding methods.",
+            "right": "Apprenticeship Training: Trade academies and community colleges combine classroom electrical theory with hands-on shop internships."
           }
         ]
       },
       "worked_example": {
-        "title": "Automotive Maintenance Req 12 Exemplar Workbook Entry",
+        "title": "Automotive Maintenance Req 12 Worked Example: Automotive Industry Professional Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Early Mechanical Automobile Origins": "The automobile was once a simple piece of machinery (p. 94).",
-          "Modern Sophisticated Vehicle Systems": "Today, itis a sophisticated mode of transportation (p. 94).",
-          "From Mechanics to Technicians": "This change shows in what we call people who take care of cars (p. 94).",
-          "Beyond Basic Hand Tools": "To work on today's vehicles, knowing how to use wrenches and hand tools is not near enough (p. 94)."
+          "Phase 1 - Career Field Exploration": "Research the requirements for master technicians, automotive design engineers, and service writers.",
+          "Phase 2 - Chosen Profession Selection": "Select one specific automotive career path matching personal analytical and mechanical interests.",
+          "Phase 3 - Educational Pathway Audit": "Document the required vocational certificates, community college degrees, and ASE specialty exams.",
+          "Phase 4 - Counselor Career Presentation": "Present career entry requirements, work environment realities, and industry growth outlook to counselor."
         },
-        "sample_output": "Careers in the Automotive Industry: The automobile was once a simple piece of machinery (p. 94).",
-        "counselor_tip": "For Automotive Maintenance Requirement 12 (Careers in the Automotive Industry), verify the Scout's own observations and specific pamphlet details (Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 94, p. 95))."
+        "sample_output": "The modern automotive industry offers dynamic professional pathways including master diagnostic technicians, mechanical design engineers, collision repair specialists, and fleet service managers. Achieving technical success requires advanced study in digital multiplexed electronics, high-voltage battery powertrains, computer science diagnostics, and ASE professional certification.",
+        "counselor_tip": "During the Automotive Maintenance Requirement 12 conference on Automotive Industry Professional Career Pathways, verify that the Scout can explain master technician pathway and demonstrate counselor career presentation: Present career entry requirements, work environment realities, and industry growth outlook to counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Why are professionals who service modern vehicles called automotive technicians rather than just mechanics?",

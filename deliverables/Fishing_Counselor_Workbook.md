@@ -50,10 +50,8 @@
 #### Req 1a: Aquatic Hazard Identification and Mitigation
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in fishing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Fishing Hazards and First Aid)
-- **Common Myth:** Rubber waders provide sufficient thermal protection during sudden deep water immersion.
-- **Pamphlet Fact:** Submerged waders trap heavy water without thermal retention and pull anglers downward.
 
-![Fishing Requirement 1 figure showing check the casting zone for overhead power lines before making any cast.](/assets/pamphlet_images/fishing_p003_img1.png)
+![Check the casting zone for overhead power lines before making any cast.](/assets/pamphlet_images/fishing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -64,8 +62,6 @@
 #### Req 1b: Waterfront First Aid and Prevention
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
-- **Common Myth:** Puncture wounds from catfish spines require only basic wiping with river water.
-- **Pamphlet Fact:** Fish spine punctures carry virulent bacteria requiring thorough disinfection and hot water soaking.
 
 ![A bright trout leaps above clear lake water, demonstrating natural freshwater game fish behavior.](/assets/pamphlet_images/fishing_p019_img1.png)
 
@@ -78,10 +74,8 @@
 #### Req 1c: Barbed Hook Extraction Methods
 **Official Requirement 1c:** Explain how to remove a barbed hook that is lodged in someone's arm.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Remove A Barbed Hook)
-- **Common Myth:** Pulling a barbed hook directly backward with pliers is the standard extraction method.
-- **Pamphlet Fact:** Direct backward pulling tears muscle tissue because the barb acts as an anchor.
 
-![Fishing Requirement 2 figure showing enclosed spools prevent line tangles, making spincast gear ideal for novice anglers.](/assets/pamphlet_images/fishing_p007_img1.png)
+![Enclosed spools prevent line tangles, making spincast gear ideal for novice anglers.](/assets/pamphlet_images/fishing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,8 +86,6 @@
 #### Req 1d: Essential Waterfront Safety Practices
 **Official Requirement 1d:** Name and explain five safety practices you should always follow while fishing.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Safety Practices You Should Always)
-- **Common Myth:** Experienced anglers can safely fish alone in isolated waters without notifying others.
-- **Pamphlet Fact:** The buddy system remains mandatory for all aquatic activities to ensure rapid emergency rescue.
 
 ![A detailed illustration identifies external fins and lateral anatomy on a freshwater bass.](/assets/pamphlet_images/fishing_p020_img1.png)
 
@@ -220,8 +212,6 @@
 #### Req 6a: Riparian Leave No Trace Ethics
 **Official Requirement 6a:** Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of Leave No Trace Seven Principles and the Outdoor Code on fishing resources.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** Biodegradable sandwich crusts and apple cores left on shorelines do not count as trash.
-- **Pamphlet Fact:** Food scraps attract wildlife to shorelines, alter natural foraging habits, and degrade water quality.
 
 ![An anatomical illustration depicts a Florida pompano, a popular coastal saltwater sport fish.](/assets/pamphlet_images/fishing_p045_img1.png)
 
@@ -235,8 +225,6 @@
 #### Req 6b: Catch and Release Techniques
 **Official Requirement 6b:** Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Discuss Fish Water)
-- **Common Myth:** Lifting a fish vertically by its jaw or gills causes no internal anatomical harm.
-- **Pamphlet Fact:** Suspending fish by the jaw dislocates vertebrae and tears critical gill membranes required for breathing.
 
 ![A pencil sketch illustrates a predatory game fish bursting from water while striking food.](/assets/pamphlet_images/fishing_p021_img1.png)
 

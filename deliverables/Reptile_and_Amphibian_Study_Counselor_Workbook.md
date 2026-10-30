@@ -103,10 +103,8 @@
 #### Req 3a: Amphibian and Reptile Distinctions
 **Official Requirement 3a:** Amphibians and reptiles.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Amphibians and Reptiles)
-- **Common Myth:** Amphibians can safely live in dry desert terrain because their skin holds moisture like reptile scales.
-- **Pamphlet Fact:** Reptiles are amniotes possessing keratinized epidermal scales, whereas amphibians are anamniotes featuring permeable, gland-rich skin.
 
-![Reptile and Amphibian Study Requirement 3 figure showing reptile eggs possess amnion layers allowing embryonic gas exchange and moisture.](/assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png)
+![Reptile eggs possess amnion layers allowing embryonic gas exchange and moisture retention on land.](/assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -117,10 +115,8 @@
 #### Req 3b: Alligator and Crocodile Comparisons
 **Official Requirement 3b:** Alligators and crocodiles.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Alligators and Crocodiles)
-- **Common Myth:** Alligators and crocodiles share identical saltwater tolerances and jaw profiles throughout North America.
-- **Pamphlet Fact:** Alligators feature broad rounded snouts with hidden lower teeth, whereas crocodiles possess tapered snouts with an exposed fourth mandibular tooth.
 
-![Reptile and Amphibian Study Requirement 1 figure showing reptiles possess dry keratinized scales that prevent desiccation in arid terrestrial.](/assets/pamphlet_images/reptile_and_amphibian_study_p003_img1.png)
+![Reptiles possess dry keratinized scales that prevent desiccation in arid terrestrial environments.](/assets/pamphlet_images/reptile_and_amphibian_study_p003_img1.png)
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -131,10 +127,8 @@
 #### Req 3c: Toad and Frog Characteristics
 **Official Requirement 3c:** Toads and frogs.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Toads and Frogs)
-- **Common Myth:** Handling a common terrestrial toad causes human skin to develop contagious warts.
-- **Pamphlet Fact:** Bufonid toads possess dry warty skin with elevated parotoid glands, whereas ranid frogs exhibit smooth skin and powerful elongated hindlegs.
 
-![Reptile and Amphibian Study Requirement 4 figure showing herpetofauna regulate invertebrate prey densities while providing biomass for larger.](/assets/pamphlet_images/reptile_and_amphibian_study_p004_img1.png)
+![Herpetofauna regulate invertebrate prey densities while providing biomass for larger predatory birds and mammals.](/assets/pamphlet_images/reptile_and_amphibian_study_p004_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -145,10 +139,8 @@
 #### Req 3d: Snake and Lizard Anatomy
 **Official Requirement 3d:** Snakes and lizards.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Snakes and Lizards)
-- **Common Myth:** Any elongated, legless reptile encountered in tall grass is automatically a snake.
-- **Pamphlet Fact:** Lizards possess moveable eyelids, external ear openings, and paired hemipenes, while snakes lack eyelids and external auditory apertures.
 
-![Reptile and Amphibian Study Requirement 5 figure showing leathery reptilian eggshells contain fluid membranes that support embryonic development.](/assets/pamphlet_images/reptile_and_amphibian_study_p005_img1.png)
+![Leathery reptilian eggshells contain fluid membranes that support embryonic development entirely on dry land.](/assets/pamphlet_images/reptile_and_amphibian_study_p005_img1.png)
 
 | Req 3d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -266,10 +258,8 @@
 **Official Requirement 8a:** Take custody of one or more reptiles or amphibians in a manner approved by your counselor. Maintain one or more reptiles or amphibians for at least a month. Record food accepted, eating methods, changes in coloration, shedding of skins, and general habits; or keep the eggs of a reptile from the time of laying until hatching; or keep the eggs of an amphibian from the time of laying until their transformation into tadpoles (frogs) or larvae (salamanders). Whichever you choose, keep records of and report to your counselor how you cared for your animal, eggs, or larvae, including lighting, habitat, temperature and humidity maintenance, and any veterinary care requirements. Unless you are the long-term owner, at the conclusion of this study, turn the animal(s) over to another responsible party approved by your counselor.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Activity & Observation Log):** Req 8a Quantitative Field Observation & Activity Log (Custody of One or More)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Reptile and Amphibian Study Req 8a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Pet store turtles and lizards do not carry bacteria if their enclosure glass looks clean.
-- **Pamphlet Fact:** Reptiles are frequent asymptomatic carriers of Salmonella bacteria in their intestinal tracts and shed it into enclosure water.
 
-![Reptile and Amphibian Study Requirement 8 figure showing ectothermic captives require basking zones and cooler retreats to regulate internal.](/assets/pamphlet_images/reptile_and_amphibian_study_p008_img1.png)
+![Ectothermic captives require basking zones and cooler retreats to regulate internal core body temperatures.](/assets/pamphlet_images/reptile_and_amphibian_study_p008_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -284,10 +274,8 @@
 #### Req 8b: Institutional Exhibit Specimen Study
 **Official Requirement 8b:** Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium, nature center, local rescue, or other such exhibit (such as your classroom or school). Study the specimen weekly for a period of three months. At each visit, sketch the specimen in its captive habitat and note any changes in its coloration, shedding of skins, and general habits and behavior. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting, temperature, and humidity were maintained, and any veterinary care requirements. Find out, either from information you locate on your own or by talking to the caretaker, what this species eats and what are its native habitat and home range, preferred climate, average life expectancy, and natural predators. Also, identify any human-caused threats to its population and any laws that protect the species and its habitat. After the observation period, share what you have learned with your counselor.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Field Sketch & Diagram Canvas):** Req 8b Structured Technical Study & Explanation Matrix (Reptile or Amphibian That You)
-- **Common Myth:** Zoo reptile and amphibian exhibits maintain identical room temperatures and humidity for all display species.
-- **Pamphlet Fact:** Institutional exhibits rely on automated climate controls and specialized biosecurity protocols to maintain delicate amphibian skin health.
 
-![Reptile and Amphibian Study Requirement 6 figure showing serpentine movement utilizes alternating muscular waves that press sideways.](/assets/pamphlet_images/reptile_and_amphibian_study_p006_img1.png)
+![Serpentine movement utilizes alternating muscular waves that press sideways against rocks, stems, and soil.](/assets/pamphlet_images/reptile_and_amphibian_study_p006_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -323,8 +311,6 @@
 #### Req 9a: Nocturnal Anuran Acoustic Stalking
 **Official Requirement 9a:** Identify at night three kinds of toads or frogs by their voices. Imitate the song of each for your counselor. Stalk each with a flashlight and discover how each sings.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Night Three Kinds of Toads)
-- **Common Myth:** Both male and female frogs sing loud advertisement choruses to establish individual territories.
-- **Pamphlet Fact:** Male anurans force air back and forth between the lungs and internal vocal sacs to produce resonant mating calls.
 
 ![Scouts record nocturnal amphibian sightings in field journals beside detailed illustrations of local frog species.](/assets/ai_illustrations/reptile_and_amphibian_study_req_9_topic_visual.png)
 
@@ -339,8 +325,6 @@
 #### Req 9b: Visual Herpetofauna Field Survey
 **Official Requirement 9b:** Identify by sight eight species of reptiles or amphibians.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (Sight Eight Species of Reptiles)
-- **Common Myth:** Every brown woodland snake observed in leaf litter is an ordinary common garter snake.
-- **Pamphlet Fact:** Accurate visual field identification requires observing diagnostic scale patterns, lateral striping, and digital webbing without handling the animals.
 
 ![Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians.](/assets/ai_illustrations/reptile_and_amphibian_study_req_9_nano_hero.png)
 
@@ -353,10 +337,8 @@
 #### Req 9c: Herpetological Group Educational Presentation
 **Official Requirement 9c:** Using visual aids, give a brief talk to a small group on three different reptiles and amphibians.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Visual Aids Give A Brief)
-- **Common Myth:** Oral talks without physical diagrams or live photographs hold audience attention during technical biology explanations.
-- **Pamphlet Fact:** Effective educational presentations utilize clear morphological diagrams and life cycle illustrations to convey herpetological concepts to audiences.
 
-![Reptile and Amphibian Study Requirement 2 figure showing the Appalachian mountain range supports the highest geographic diversity.](/assets/pamphlet_images/reptile_and_amphibian_study_p007_img1.png)
+![The Appalachian mountain range supports the highest geographic diversity of plethodontid salamanders globally.](/assets/pamphlet_images/reptile_and_amphibian_study_p007_img1.png)
 
 | Req 9c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

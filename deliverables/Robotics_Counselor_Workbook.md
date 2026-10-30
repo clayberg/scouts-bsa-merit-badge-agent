@@ -47,10 +47,8 @@
 #### Req 1a: Robotic Hazard Mitigation Protocols
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working with robotics.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Robotics Hazards and First Aid)
-- **Common Myth:** Robotic hazards only exist while electric drive motors receive active operational current.
-- **Pamphlet Fact:** Stored kinetic energy in mechanical linkages and pneumatic cylinders persists after main power loss.
 
-![Robotics Requirement 1 figure showing rotating gears and exposed chain drives trap loose clothing during active system tests.](/assets/pamphlet_images/robotics_p003_img1.png)
+![Rotating gears and exposed chain drives trap loose clothing during active system tests.](/assets/pamphlet_images/robotics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -62,8 +60,6 @@
 #### Req 1b: Robotics First Aid Preparedness
 **Official Requirement 1b:** Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat)
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss First Aid and Prevention)
-- **Common Myth:** Burn treatment for alkaline battery contact involves applying petroleum jelly over exposed skin.
-- **Pamphlet Fact:** Flushing chemical burns from ruptured cells requires continuous running tap water for fifteen minutes.
 
 ![A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.](/assets/pamphlet_images/robotics_p020_img1.png)
 
@@ -89,10 +85,8 @@
 #### Req 2a: Current Industrial Robotic Applications
 **Official Requirement 2a:** The kinds of things robots can do and how robots are best used today.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Robots Can Do and How)
-- **Common Myth:** Robots provide superior economic value when assigned to unpredictable custom artisan repairs.
-- **Pamphlet Fact:** Robotic systems handle dangerous repetitive tasks like chemical tank inspection and radioactive waste sorting.
 
-![Robotics Requirement 2 figure showing articulated robot arms weld automotive chassis assemblies with consistent submillimeter.](/assets/pamphlet_images/robotics_p007_img1.png)
+![Articulated robot arms weld automotive chassis assemblies with consistent submillimeter positional repeatability.](/assets/pamphlet_images/robotics_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -103,8 +97,6 @@
 #### Req 2b: Robotic Autonomous Control Spectrum
 **Official Requirement 2b:** The similarities and differences between remote-control vehicles, telerobots, and autonomous robots.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Similarities and Differences Between Remote-control)
-- **Common Myth:** Remote control vehicles and advanced telerobots operate using identical bidirectional feedback loops.
-- **Pamphlet Fact:** Telerobots rely on continuous sensory feedback sent back across communication links to human controllers.
 
 ![An automated robotic arm welds metal components on a modern factory manufacturing line.](/assets/pamphlet_images/robotics_p016_img1.png)
 
@@ -117,10 +109,8 @@
 #### Req 2c: Alternative Non Wheeled Locomotion
 **Official Requirement 2c:** Three different methods robots can use to move themselves other than wheels or tracks. Describe when it would be appropriate to use each method.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Robots Can Use to Move)
-- **Common Myth:** Wheels and continuous rubber tracks represent the most efficient locomotion method across all terrains.
-- **Pamphlet Fact:** Serpentine snake robots use undulating friction segments to navigate narrow, collapsed disaster debris.
 
-![Robotics Requirement 3 figure showing ultrasonic transducers calculate obstacle distances by measuring acoustic wave round.](/assets/pamphlet_images/robotics_p012_img1.png)
+![Ultrasonic transducers calculate obstacle distances by measuring acoustic wave round trip travel intervals.](/assets/pamphlet_images/robotics_p012_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -171,8 +161,6 @@
 **Official Requirement 4a:** With your counselor's approval, choose a task for the robot or robotic subsystem that you plan to build. Include sensor feedback and programming in the task. Document this information in your robot engineering notebook.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Task for the Robot or)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Robotics Req 4a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Choosing a broad generic goal like navigating a room provides sufficient engineering project criteria.
-- **Pamphlet Fact:** A viable engineering task specification contains measurable success criteria rather than subjective performance goals.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite.
@@ -193,8 +181,6 @@
 #### Req 4b: Kinematic Design Engineering Documentation
 **Official Requirement 4b:** Design your robot. The robot design should use sensors and programming and have at least 2 degrees of freedom. Document the design in your robot engineering notebook using drawings and a written description.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Robot the Robot)
-- **Common Myth:** A simple wheeled rover moving backward and forward possesses two separate degrees of freedom.
-- **Pamphlet Fact:** Planar movement along two perpendicular axes provides two distinct translational degrees of mechanical freedom.
 
 ![A motorized robotic arm and hand demonstrate mechanical articulation and grasping manipulation.](/assets/pamphlet_images/robotics_p015_img1.png)
 
@@ -209,8 +195,6 @@
 #### Req 4c: Mechanical Subsystem Chassis Fabrication
 **Official Requirement 4c:** Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist (Robot or Robotic Subsystem)
-- **Common Myth:** Fastening components with friction tape or adhesive putty provides durable structural framing for tests.
-- **Pamphlet Fact:** Chassis structural rigidity prevents gear meshing misalignment during sudden motor torque directional reversals.
 
 ![Soldiers operate a rugged robotic tracked vehicle designed for reconnaissance and hazardous tasks.](/assets/pamphlet_images/robotics_p017_img1.png)
 
@@ -223,8 +207,6 @@
 ### Req 4d: Embedded Controller Software Development
 **Official Requirement 4d (Parent Overview):** Discuss with your counselor the programming options available for your robot. Then do ONE of the following: (1) Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook. (2) Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** Text based programming languages operate motor controllers fundamentally faster than compiled block based algorithms.
-- **Pamphlet Fact:** Graphical block environments compile into identical low level microcontroller machine code as text languages.
 
 **Official Pamphlet Summary:**
 - Programming translates logical decision trees into machine instructions that read sensors and control motor drivers. Scouts evaluate options like block environments or C based syntax to execute conditional logic loops.
@@ -233,8 +215,6 @@
 #### Req 4d(1): Robot Program Source Code Implementation
 **Official Requirement 4d(1):** Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(1) Structured Technical Study & Explanation Matrix (Robot to Perform the Task)
-- **Common Myth:** Graphical block programming languages do not qualify as legitimate source code for the engineering notebook.
-- **Pamphlet Fact:** Scouting America accepts visual block diagrams and text-based code equally as long as the printed sample includes clear annotations explaining the logic.
 
 ![The Robonaut humanoid robot displays advanced human-robot interface and dexterity for space.](/assets/pamphlet_images/robotics_p017_img2.png)
 
@@ -248,8 +228,6 @@
 #### Req 4d(2): Sensor Logic Program Flowchart Development
 **Official Requirement 4d(2):** Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(2) Structured Technical Study & Explanation Matrix (Flowchart of the Desired)
-- **Common Myth:** Program flowcharts follow a single linear sequence without decision branches for sensor feedback.
-- **Pamphlet Fact:** Standard programming flowcharts require diamond decision blocks that branch into alternate actions based on live sensor readings.
 
 ![An unmanned aerial drone illustrates autonomous flight systems and remote robotic navigation.](/assets/pamphlet_images/robotics_p021_img2.png)
 
@@ -264,8 +242,6 @@
 #### Req 4e: Systematic Testing Performance Documentation
 **Official Requirement 4e:** Test your robot and record the results in your robot engineering notebook. Include suggestions on how you could improve your robot, as well as pictures or sketches of your finished robot.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Activity & Observation Log):** Req 4e Quantitative Field Observation & Activity Log (Robot and Record the Results)
-- **Common Myth:** A program that runs successfully once on a test bench will perform identically across all arenas.
-- **Pamphlet Fact:** Environmental ambient light fluctuations alter infrared line sensor readings between separate test environments.
 
 ![Custom competition robots maneuver across a game arena during an exciting student tournament.](/assets/pamphlet_images/robotics_p027_img1.png)
 
@@ -300,8 +276,6 @@
 #### Req 5a: Live Operational Robot Demonstration
 **Official Requirement 5a:** Demonstrate for your counselor the robot you built in requirement 4.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Robot You Built)
-- **Common Myth:** Demonstrating bench top motor rotation without completing the physical task fulfills the requirement.
-- **Pamphlet Fact:** Live demonstrations prove whether real world sensor calibration matches the programmed environmental thresholds.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite.
@@ -320,8 +294,6 @@
 #### Req 5b: Engineering Notebook Design Defense
 **Official Requirement 5b:** Share your robot engineering notebook with your counselor. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned about the design process.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Robot Engineering Notebook)
-- **Common Myth:** Engineering notebooks should present only polished clean sketches without messy trial iterations.
-- **Pamphlet Fact:** Clear sketches of failed mechanisms communicate engineering competence better than unannotated final snapshots.
 
 ![A kit-built robot with ultrasonic sensors and motors demonstrates basic robotics construction.](/assets/pamphlet_images/robotics_p027_img2.png)
 
@@ -348,8 +320,6 @@
 #### Req 6a: Live Tournament Field Observation
 **Official Requirement 6a:** Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Robotics Competition)
-- **Common Myth:** Tournament attendance involves merely watching matches from bleachers without studying team technical workflows.
-- **Pamphlet Fact:** Competitive pit areas operate like real world engineering test bays under tight schedule pressures.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite.
@@ -368,8 +338,6 @@
 #### Req 6b: Youth Robotics League Comparisons
 **Official Requirement 6b:** Learn about three youth robotics competitions. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams are involved.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Learn About Three Youth Robotics)
-- **Common Myth:** All major competitive robotics leagues use identical parts kits, game manuals, and build rules.
-- **Pamphlet Fact:** Different youth leagues target specific grade levels, budgets, kit ecosystems, and software development platforms.
 
 ![A design sketch illustrates how robotic subsystems receive position coordinates from satellites.](/assets/pamphlet_images/robotics_p032_img3.png)
 
@@ -396,8 +364,6 @@
 #### Req 7a: Professional Robotics Career Pathways
 **Official Requirement 7a:** Identify three career opportunities that would use skills and knowledge in robotics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)* • **Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Entry level robotics careers rely exclusively on self taught coding skills without formal credentials.
-- **Pamphlet Fact:** Industrial automation engineers often need professional engineering licensure or specialized PLC vendor certifications.
 
 ![A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.](/assets/pamphlet_images/robotics_p021_img1.png)
 
@@ -413,8 +379,6 @@
 #### Req 7b: Amateur Robotics Hobby Development
 **Official Requirement 7b:** Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
-- **Common Myth:** Amateur robotics hobbies require thousands of dollars in commercial CNC machinery to start.
-- **Pamphlet Fact:** Low cost microcontrollers and community shared designs allow hobbyists to build functional competitive combat robots.
 
 ![A notebook sketch diagrams distance sensor wave reflections to detect obstacles during travel.](/assets/pamphlet_images/robotics_p032_img4.png)
 

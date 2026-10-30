@@ -1768,10 +1768,6 @@ def _synthesize_studio_narrative_script(
             f"[EXPECTED PAMPHLET ANSWER KEY] [Expected Answer: Verify which Scouts brought prerequisite notes and pair up first-year Scouts with experienced patrol buddies.] "
             f"Official {badge_name} Merit Badge Pamphlet & 1-Page Class Preparation Page (CPP)."
         )
-        misc_cover = (
-            "[COMMON MISCONCEPTION TO CORRECT] Myth: Filling out a merit badge workbook before class automatically signs off the badge. "
-            "Fact: Per Scouting America Guide to Advancement Section 7.0.3.2, workbooks are optional study aids; every Scout must still personally discuss, demonstrate, or explain each requirement."
-        )
         demo_cover = (
             f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up a sample signed Blue Card (#34124) alongside the {badge_name} Workbook] "
             f"Show the patrol how today's in-class demonstrations pair with campout or home prerequisites for full requirement sign-off."
@@ -1781,7 +1777,6 @@ def _synthesize_studio_narrative_script(
                 _sanitize_no_ellipsis_or_emdash(pacing_cover),
                 _sanitize_no_ellipsis_or_emdash(ask_cover),
                 _sanitize_no_ellipsis_or_emdash(key_cover),
-                _sanitize_no_ellipsis_or_emdash(misc_cover),
                 _sanitize_no_ellipsis_or_emdash(demo_cover),
             ]
         )
@@ -1973,29 +1968,41 @@ def _synthesize_studio_narrative_script(
 
     meaningful_topics = [h for h, _ in parsed_cards] or [clean_title]
     page_cite = str((slide_dict or {}).get("pamphlet_reference") or f"Official BSA {badge_name} Merit Badge Pamphlet")
-    myth_txt, fact_txt = _synthesize_subject_matter_misconception(
-        clean_badge=badge_name,
-        clean_req=req_num,
-        clean_title=clean_title,
-        arch=arch_upper,
-        meaningful_topics=meaningful_topics,
-        parsed_points=parsed_cards,
-        page_cite=page_cite,
-        slide_idx_in_req=max(0, int(slide_index)),
-        slide_seed=slide_seed,
-        comparison_data=comparison_data,
-        worked_example=worked_example,
-        quiz_item=quiz_item,
-        gear_checklist=gear_checklist,
-    )
-    misc_block = f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth_txt} | BSA Pamphlet Fact: {fact_txt}"
-    if base_notes:
-        for ln in base_notes.splitlines():
-            if ln.strip().startswith("[COMMON MISCONCEPTION TO CORRECT]"):
-                candidate_misc = ln.strip()[len("[COMMON MISCONCEPTION TO CORRECT]") :].strip()
-                if candidate_misc and not _is_generic_meta_misconception(candidate_misc, ""):
-                    misc_block = f"[COMMON MISCONCEPTION TO CORRECT] {candidate_misc}"
-                break
+    omit_misc_for_arch = arch_upper in (
+        "SOCRATIC_CHECKPOINT_QUIZ",
+        "WORKED_EXAMPLE_TEMPLATE",
+        "GEAR_CHECKLIST_GRID",
+        "REQUIREMENTS_TRIAGE_MATRIX",
+        "SOURCES_AND_REFERENCES",
+        "COVER",
+    ) or str(req_num).strip().lower() in ("overview", "sources", "cover")
+
+    misc_block = ""
+    if not omit_misc_for_arch:
+        if base_notes:
+            for ln in base_notes.splitlines():
+                if ln.strip().startswith("[COMMON MISCONCEPTION TO CORRECT]"):
+                    candidate_misc = ln.strip()[len("[COMMON MISCONCEPTION TO CORRECT]") :].strip()
+                    if candidate_misc and not _is_generic_meta_misconception(candidate_misc, ""):
+                        misc_block = f"[COMMON MISCONCEPTION TO CORRECT] {candidate_misc}"
+                    break
+        if not misc_block:
+            myth_txt, fact_txt = _synthesize_subject_matter_misconception(
+                clean_badge=badge_name,
+                clean_req=req_num,
+                clean_title=clean_title,
+                arch=arch_upper,
+                meaningful_topics=meaningful_topics,
+                parsed_points=parsed_cards,
+                page_cite=page_cite,
+                slide_idx_in_req=max(0, int(slide_index)),
+                slide_seed=slide_seed,
+                comparison_data=comparison_data,
+                worked_example=worked_example,
+                quiz_item=quiz_item,
+                gear_checklist=gear_checklist,
+            )
+            misc_block = f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth_txt} | BSA Pamphlet Fact: {fact_txt}"
 
     demo_templates = [
         f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Step in front of the table and model {first_h} at half-speed] Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), pausing so the patrol sees what a complete Requirement {req_num} demonstration looks like.",
@@ -2007,14 +2014,18 @@ def _synthesize_studio_narrative_script(
     if has_visual and visual_caption:
         demo_block += f" [Have each Scout trace the key anatomical or equipment callouts on the slide diagram to verify {first_h}]"
 
+    if arch_upper == "SOURCES_AND_REFERENCES" or str(req_num).strip().lower() == "sources":
+        return "\n".join(
+            [
+                _sanitize_no_ellipsis_or_emdash(pacing_block),
+                _sanitize_no_ellipsis_or_emdash(demo_block),
+            ]
+        )
+
     return "\n".join(
-        [
-            _sanitize_no_ellipsis_or_emdash(pacing_block),
-            _sanitize_no_ellipsis_or_emdash(ask_block),
-            _sanitize_no_ellipsis_or_emdash(key_block),
-            _sanitize_no_ellipsis_or_emdash(misc_block),
-            _sanitize_no_ellipsis_or_emdash(demo_block),
-        ]
+        _sanitize_no_ellipsis_or_emdash(b)
+        for b in (pacing_block, ask_block, key_block, misc_block, demo_block)
+        if b and b.strip()
     )
 
 
@@ -2043,7 +2054,7 @@ async def _polish_single_slide_notes_core(
 
     hash_payload = json.dumps(
         {
-            "v": "gemini_flash_v6_5part_v22",
+            "v": "gemini_flash_v7_selective_v41",
             "badge": badge_name.strip().lower(),
             "req": req_num,
             "slide_idx": slide_index,

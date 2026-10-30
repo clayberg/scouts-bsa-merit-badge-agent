@@ -49,15 +49,8 @@
 #### Req 1a: Ten Mineral Products Identification
 **Official Requirement 1a:** Select 10 different minerals. For each one, name a product for which the mineral is used.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Minerals Product Mineral Used)
-- **Common Myth:** Every consumer product requires only one single mineral ingredient during its manufacturing phase.
-- **Pamphlet Fact:** Most manufactured goods combine dozens of distinct mined minerals to achieve required physical performance specifications.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Mining in Society Merit Badge: Minerals Product Mineral Used.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Minerals Product Mineral Used.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Mining in Society Requirement 1 figure showing halite provides table salt and essential chemical feedstocks for household soap.](/assets/pamphlet_images/mining_in_society_p003_img1.png)
+![Halite provides table salt and essential chemical feedstocks for household soap manufacturing.](/assets/pamphlet_images/mining_in_society_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -69,8 +62,6 @@
 #### Req 1b: Mining in Agricultural Production
 **Official Requirement 1b:** Explain the role mining has in producing and processing things that are grown.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Role Mining Has in Producing)
-- **Common Myth:** Crops only require water and sunlight to grow at commercial scale without mineral supplementation.
-- **Pamphlet Fact:** Industrial agricultural yields require nitrogen, phosphorus, and potassium soil amendments derived from mined geological deposits.
 
 ![Flaked stone and mineral projectile points illustrate ancient human reliance on mineral resources.](/assets/pamphlet_images/mining_in_society_p015_img2.png)
 
@@ -83,10 +74,8 @@
 #### Req 1c: Global Mineral Geographic Distribution
 **Official Requirement 1c:** From the list of minerals you chose for requirement 1(a), determine the countries where those minerals can be found, and discuss what you learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Minerals You Chose for Requirement)
-- **Common Myth:** Every continent contains equal commercial concentrations of precious and industrial metals.
-- **Pamphlet Fact:** Geological crustal processes concentrate specific economic minerals within distinct geographic regions across different sovereign nations.
 
-![Mining in Society Requirement 2 figure showing rail lines and inland waterways carry heavy bulk aggregates from quarry sites.](/assets/pamphlet_images/mining_in_society_p007_img1.png)
+![Rail lines and inland waterways carry heavy bulk aggregates from quarry sites.](/assets/pamphlet_images/mining_in_society_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -144,15 +133,8 @@
 **Official Requirement 3a:** The miner's personal protective equipment is worn and used, including a hard hat, safety glasses, earplugs, dust mask or respirator, self-rescue device, and high-visibility vest.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Miner's Personal Protective Equipment Is)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Mining in Society Req 3a inspection prior to hands-on station work.
-- **Common Myth:** Personal protective equipment eliminates mine hazards completely without requiring engineering ventilation controls.
-- **Pamphlet Fact:** Protective equipment acts as a secondary defense layer after primary engineering controls such as rock bolting and ventilation.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Mining in Society Merit Badge: Mining in Society Hazards and First Aid.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Mining in Society Hazards and First Aid.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Mining in Society Requirement 3 figure showing self-contained self-rescuer canisters supply emergency breathable oxygen.](/assets/pamphlet_images/mining_in_society_p012_img1.png)
+![Self-contained self-rescuer canisters supply emergency breathable oxygen during hazardous underground fire incidents.](/assets/pamphlet_images/mining_in_society_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -163,8 +145,6 @@
 #### Req 3b: Hand and Foot Protection
 **Official Requirement 3b:** Miners protect their hands and feet from impact, pinch, vibration, slipping, and tripping/falling hazards.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Miners Protect Their Hands and)
-- **Common Myth:** Standard steel-toe work boots provide complete protection across the top bones of a miner's foot.
-- **Pamphlet Fact:** Miners require specialized metatarsal guards extending upward from the steel toe to shield fragile dorsal bones.
 
 ![A safety technician in a hard hat holds a handheld gas monitor to test air quality in a mine.](/assets/pamphlet_images/mining_in_society_p074_img1.png)
 
@@ -177,8 +157,6 @@
 #### Req 3c: Atmospheric Monitoring and Robotics
 **Official Requirement 3c:** Monitoring equipment warns miners of imminent danger, and how robots, drones, and other technology may be used in mine rescues.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Monitoring Equipment Warns Miners of)
-- **Common Myth:** Miners still rely primarily on canaries to detect toxic carbon monoxide inside active shafts.
-- **Pamphlet Fact:** Modern operations utilize digital optical and electrochemical sensors that trigger automated alarms long before gas reaches dangerous thresholds.
 
 ![Earthenware pottery bowls demonstrate historical human utilization of excavated clay minerals.](/assets/pamphlet_images/mining_in_society_p015_img3.png)
 
@@ -227,8 +205,6 @@
 **Official Requirement 5a:** With your parent or guardian's approval and your counselor's assistance, use the internet to find and take a virtual tour of two types of mines. Determine the similarities and differences between them regarding resource exploration, mine planning and permitting, types of equipment used, and the minerals produced. Discuss with your counselor what you learned from your internet-based mine tours.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Assistance Use the Internet)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Mining in Society Req 5a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Surface mines and underground mines share the same equipment sizes and haul truck dimensions.
-- **Pamphlet Fact:** Surface mines utilize ultra-class haul trucks reaching four hundred tons, while underground mines use compact low-profile loaders.
 
 ![A circular graphic diagrams every phase of a mining operation from exploration to reclamation.](/assets/pamphlet_images/mining_in_society_p036_img1.png)
 
@@ -244,8 +220,6 @@
 **Official Requirement 5b:** With your parent or guardian's permission and counselor's approval, visit a mining or minerals exhibit at a museum. Find out about the history of the museum's exhibit and the type of mining it represents. Give three examples of how mineral resources have influenced history.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Mining or Minerals Exhibit)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Mining in Society Req 5b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Mining history museums preserve only antique pickaxes and hand-cranked wooden ore carts.
-- **Pamphlet Fact:** Modern mining museum exhibits display advanced geophysics tools, automated drilling technology, and environmental reclamation science.
 
 ![Molten basaltic lava flows across a volcanic landscape cooling into igneous rock minerals.](/assets/pamphlet_images/mining_in_society_p020_img1.png)
 
@@ -261,8 +235,6 @@
 **Official Requirement 5c:** With your parent or guardian's permission and counselor's approval, visit an active mine. Find out about the tasks required to explore, plan, permit, mine, and process the resource mined at that site. Take photographs, if allowed, and request brochures from your visit. Share photos, brochures, and what you have learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Active Mine Find Out)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Mining in Society Req 5c preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** A mining company begins full-scale excavation as soon as an ore deposit is identified.
-- **Pamphlet Fact:** Companies invest years conducting core drilling, environmental impact assessments, and government permitting before breaking ground.
 
 ![A delicate branching cluster of native copper crystals exhibits natural metallic luster.](/assets/pamphlet_images/mining_in_society_p021_img1.png)
 
@@ -279,8 +251,6 @@
 **Official Requirement 5d:** With your parent or guardian's permission and counselor's approval, visit a mining equipment manufacturer or supplier. Discuss the types of equipment produced or supplied there, and in what part of the mining process this equipment is used. Take photographs if allowed, and request brochures from your visit. Share photos, brochures, and what you have learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Mining Equipment Manufacturer or Supplier)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Mining in Society Req 5d preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Mining machinery manufacturers construct equipment using standard off-the-shelf automotive engine components.
-- **Pamphlet Fact:** Mining equipment requires specialized custom high-torque diesel engines, heavy structural alloys, and high-pressure hydraulic circuits.
 
 ![A national map plots active United States mining operations categorized by commodity type.](/assets/pamphlet_images/mining_in_society_p022_img1.png)
 
@@ -296,8 +266,6 @@
 #### Req 5e: Rock Reduction and Refining
 **Official Requirement 5e:** Discuss with your counselor two methods used to reduce rock in size, one of which uses a chemical process to extract a mineral. Explain the difference between smelting and refining.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (2-Column Comparison Table):** Req 5e Technical Comparison Matrix (Discuss Used Reduce Rock)
-- **Common Myth:** Smelting produces high-purity finished metal ready for manufacturing without any subsequent processing.
-- **Pamphlet Fact:** Smelted metal contains impurities and must undergo electrolytic or chemical refining to achieve commercial purity.
 
 ![A legal transfer certificate of title records mineral land ownership and property boundaries.](/assets/pamphlet_images/mining_in_society_p037_img1.png)
 
@@ -311,8 +279,6 @@
 #### Req 5f: Local Mine Historical Study
 **Official Requirement 5f:** Learn about the history of a local mine, including what is or was mined there, how the deposit was found, the mining techniques and processes used, and how the mined resource is or was used. Find out from a historian, community leader, or business person how mining has affected your community. Note any social, cultural, or economic consequences of mining in your area. Share what you have learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Learn About the History)
-- **Common Myth:** Historic local mines closed exclusively because every single trace of subsurface mineral was extracted.
-- **Pamphlet Fact:** Mines often closed when extraction costs exceeded prevailing market prices or groundwater pumping became uneconomical.
 
 ![Tall power transmission towers deliver large quantities of electricity to industrial mining sites.](/assets/pamphlet_images/mining_in_society_p038_img1.png)
 
@@ -341,13 +307,6 @@
 #### Req 6a: Modern Mine Environmental Controls
 **Official Requirement 6a:** Choose a modern mining site. Find out what is being done to help control environmental impacts. Share what you have learned about mining and sustainability.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Modern Mining Site Find Out)
-- **Common Myth:** Modern mine sites allow untreated process water to flow directly into natural surface streams.
-- **Pamphlet Fact:** Operations utilize closed-loop water circuits and chemical treatment plants that neutralize contaminants before any discharge.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Mining in Society Merit Badge: Leave No Trace and Outdoor Ethics.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Leave No Trace and Outdoor Ethics.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![An overland truss conveyor transports crushed ore efficiently across rugged mining terrain.](/assets/pamphlet_images/mining_in_society_p039_img1.png)
 
@@ -362,8 +321,6 @@
 #### Req 6b: Reclamation and Scouting Ethics
 **Official Requirement 6b:** Explain reclamation as it is used in mining and how mine reclamation pertains to the Leave No Trace Seven Principles and the Outdoor Code.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** Reclamation consists merely of spreading grass seed over rocky mine waste without soil remediation.
-- **Pamphlet Fact:** Successful reclamation requires regrading stable slopes, neutralising acidic spoils, spreading reserved topsoil, and monitoring ecological regrowth.
 
 ![A giant electric dragline excavator removes overburden rock from a surface mining terrace.](/assets/pamphlet_images/mining_in_society_p043_img3.png)
 
@@ -376,8 +333,6 @@
 #### Req 6c: Post-Mining Land Transformation
 **Official Requirement 6c:** Discuss with your counselor what values society has about returning the land to the benefit of wildlife and people after mining has ended. Discuss the transformation of the Summit Bechtel Reserve from a mine site to its current role.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
-- **Common Myth:** Reclaimed mine property cannot safely support high-adventure human activities or complex permanent infrastructure.
-- **Pamphlet Fact:** Engineered reclamation creates stable ground suitable for national jamborees, zip lines, and major recreational complexes.
 
 ![A miner wearing a protective hard hat proudly displays a raw gold nugget he extracted.](/assets/pamphlet_images/mining_in_society_p050_img1.png)
 
@@ -406,8 +361,6 @@
 **Official Requirement 7a:** Explore the anticipated benefits of interplanetary mining. Learn how NASA and private investors may search for, extract, and process minerals in outer space, and the primary reasons for mining the moon, other planets, or near-Earth asteroids. Find out how exploration and mineral processing in space differ from exploration on Earth. Share what you have learned with your counselor, and discuss the difficulties encountered in exploring, collecting, and analyzing surface or near-surface samples in space.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Anticipated Benefits of Interplanetary Mining)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Mining in Society Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Space mining aims primarily to haul thousands of tons of iron ore back down to Earth.
-- **Pamphlet Fact:** Space mining focuses on extracting water and structural metals for building and fueling missions directly in space.
 
 ![A heavy unrefined mineral ore sample contains valuable metallic elements before processing.](/assets/pamphlet_images/mining_in_society_p014_img2.png)
 
@@ -423,8 +376,6 @@
 #### Req 7b: Ocean Floor Mineral Extraction
 **Official Requirement 7b:** Identify three minerals found dissolved in seawater or found on the ocean floor, and list three places where the ocean is mined today. Share this information with your counselor, and discuss the chief incentives for mining the oceans for minerals, the reclamation necessary after mining is over, and any special concerns when mining minerals from the ocean. Find out what sustainability problems arise from mining the oceans. Discuss what you learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Minerals Found Dissolved in Seawater)
-- **Common Myth:** The open ocean floor is entirely devoid of valuable solid mineral deposits.
-- **Pamphlet Fact:** Vast abyssal plains host millions of tons of polymetallic nodules rich in battery metals like nickel and cobalt.
 
 ![Multiple monitors inside an automated control room track real-time underground operations.](/assets/pamphlet_images/mining_in_society_p075_img1.png)
 
@@ -440,8 +391,6 @@
 #### Req 7c: Mineral and Metal Recycling
 **Official Requirement 7c:** Learn what metals and minerals are recycled after their original use has ended. List four metals and two nonmetals, and find out how each can be recycled. Find out how recycling affects the sustainability of natural resources and how this idea is related to mining. Discuss what you learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Learn What Metals and Minerals)
-- **Common Myth:** Nonmetallic mineral products like concrete and construction aggregate cannot be recycled after demolition.
-- **Pamphlet Fact:** Demolished concrete is routinely crushed and screened into recycled aggregate base for new highway roadbeds.
 
 ![A worker utilizes a full safety harness and lanyard while operating at dangerous heights.](/assets/pamphlet_images/mining_in_society_p077_img1.png)
 
@@ -458,8 +407,6 @@
 **Official Requirement 7d:** With your parent or guardian's permission, use the internet and other resources to determine the current price of gold, copper, aluminum, or other commodities like cement or coal, and find out the five-year price trend for two of these. Report your findings to your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Internet and Other Resources)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Mining in Society Req 7d with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Mining companies fix commodity mineral prices arbitrarily without reference to global trade exchanges.
-- **Pamphlet Fact:** Global commodity exchanges set daily market prices based on international buyer demand and supplier inventories.
 
 ![Circular clarification pools and retention ponds treat wastewater at an active mine facility.](/assets/pamphlet_images/mining_in_society_p081_img1.png)
 

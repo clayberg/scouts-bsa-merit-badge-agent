@@ -39,7 +39,6 @@
 ### Req 1: Archaeological Science and Related Disciplines
 **Official Requirement 1:** Tell what archaeology is and explain to your counselor how it differs or relates to other fields of study such as anthropology, geology, paleontology, and history. Explain how archaeology is different than artifact collecting or treasure hunting.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 16, p. 79)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Principles of Archaeological Science)
-> **Guide to Safe Scouting Warning:** Wear leather gloves and sturdy field boots when surveying rocky terrain to prevent lacerations and venomous animal strikes.
 - **Common Myth:** Archaeologists spend their careers digging up dinosaur skeletons alongside ancient human stone spearheads.
 - **Pamphlet Fact:** Dinosaurs went extinct millions of years before humans appeared, so archaeology only investigates past human societies and their material culture.
 
@@ -61,7 +60,6 @@
 ### Req 2: The Comprehensive Archaeological Process
 **Official Requirement 2:** Describe the following steps of the archaeological process: site location, development of background research and a research design, site survey and fieldwork, artifact identification and examination, interpretation, preservation, and information sharing.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 33, p. 48)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Archaeological Process Site Location Development)
-> **Guide to Safe Scouting Warning:** Maintain trench walls at safe slopes and install shoring when digging trenches deeper than four feet to prevent collapses.
 - **Common Myth:** Archaeological excavation involves immediately digging deep holes with shovels to unearth precious relics.
 - **Pamphlet Fact:** Archaeologists spend months on background research and systematic surface surveys before carefully peeling away soil layer by layer.
 
@@ -82,7 +80,6 @@
 ### Req 3: Archaeological Chronology and Dating Methods
 **Official Requirement 3:** Describe at least two ways in which archaeologists determine the age of sites, structures, or artifacts. Explain what absolute dating and relative dating are.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Archaeologists Determine the Age of)
-> **Guide to Safe Scouting Warning:** Use clean tweezers and avoid touching organic samples with bare fingers to prevent chemical contamination.
 - **Common Myth:** Carbon-14 testing can determine the exact construction year of stone projectile points and metal swords.
 - **Pamphlet Fact:** Radiocarbon dating measures the radioactive decay of carbon in organic materials like wood, bone, and charcoal, not inorganic stone or metal.
 
@@ -104,7 +101,6 @@
 ### Req 4: Comparative Global Site Investigations
 **Official Requirement 4 (Parent Overview):** Learn about a combined total of five archaeological sites located both within and outside the United States. (a) For EACH site you research, point it out on a map and explain how it became known to archaeologists. Describe some of the information about the past that has been found at each site. Explain how the information gained from the study of these sites answers questions that archaeologists are asking and how the information may be important to modern people. Compare the relative ages of the sites you research. (b) Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school class, or another group.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Avoid visiting remote archaeological ruins without adequate drinking water, sun protection, and a verified trail itinerary.
 - **Common Myth:** Archaeological sites are always discovered through intentional, high-tech academic searches rather than chance encounters.
 - **Pamphlet Fact:** Many landmark sites like Lascaux Cave or the Terracotta Army were discovered accidentally by farmers, hikers, or construction crews.
 
@@ -117,8 +113,6 @@
 #### Req 4a: Site Cartography and Discovery Histories
 **Official Requirement 4a:** For EACH site you research, point it out on a map and explain how it became known to archaeologists. Describe some of the information about the past that has been found at each site. Explain how the information gained from the study of these sites answers questions that archaeologists are asking and how the information may be important to modern people. Compare the relative ages of the sites you research.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix (Site You Research Point It)
-- **Common Myth:** Ancient civil engineers selected settlement locations at random without considering natural water or defense barriers.
-- **Pamphlet Fact:** Prehistoric human communities deliberately built settlements near perennial springs, navigable rivers, and defensive geological ridges.
 
 ![Massive tree roots envelop ancient stone temple walls at a famous archaeological site in Cambodia.](/assets/pamphlet_images/archaeology_p014_img1.png)
 
@@ -142,10 +136,8 @@
 #### Req 4b: Public Archaeological Presentation Delivery
 **Official Requirement 4b:** Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school class, or another group.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Sites You Picked)
-- **Common Myth:** An archaeological presentation should only consist of a dry list of unprovenienced artifact photos.
-- **Pamphlet Fact:** Engaging presentations connect material culture to everyday human problems like securing food, shelter, and trade relationships.
 
-![Archaeology Requirement 1 figure showing systematic recovery of human artifacts reveals daily domestic activities across ancient.](/assets/pamphlet_images/archaeology_p003_img1.png)
+![Systematic recovery of human artifacts reveals daily domestic activities across ancient social classes.](/assets/pamphlet_images/archaeology_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -156,7 +148,6 @@
 ### Req 5: Archaeological Legal Frameworks and Preservation
 **Official Requirement 5 (Parent Overview):** Do the following: (a) Learn about the federal laws and international conventions that protect archaeological sites. Find out if your state, county, or local government has regulations that apply to archaeological or historic sites. (b) Identify a national, international, or local organization that helps to protect archaeological sites.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Never confront active looters or trespassers in the field; record vehicle license plates and notify law enforcement immediately.
 - **Common Myth:** Anyone who finds an arrowhead or pottery shard on federal public land is legally entitled to keep it.
 - **Pamphlet Fact:** Federal statutes strictly forbid digging, removing, or defacing cultural artifacts on public lands without an official scientific permit.
 
@@ -169,13 +160,6 @@
 #### Req 5a: Federal and Local Preservation Laws
 **Official Requirement 5a:** Learn about the federal laws and international conventions that protect archaeological sites. Find out if your state, county, or local government has regulations that apply to archaeological or historic sites.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About the Federal Laws)
-- **Common Myth:** State preservation laws are identical to federal statutes and apply identically to private backyard property.
-- **Pamphlet Fact:** Most state laws govern state and municipal land, but many states have separate strict statutes protecting all unmarked burials everywhere.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Archaeology Merit Badge: Learn about the federal laws.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Learn about the federal laws.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![An excavator records stratigraphic observations on a clipboard beside an active dig trench.](/assets/pamphlet_images/archaeology_p067_img1.png)
 
@@ -189,10 +173,8 @@
 #### Req 5b: Heritage Conservation Advocacy Groups
 **Official Requirement 5b:** Identify a national, international, or local organization that helps to protect archaeological sites.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (National International or Local Organization)
-- **Common Myth:** Government agencies are the sole entities responsible for rescuing and protecting endangered cultural sites.
-- **Pamphlet Fact:** Private conservancies and volunteer archaeological societies frequently buy private parcels to save threatened ruins from real estate demolition.
 
-![Archaeology Requirement 2 figure showing clear research questions guide field collection methods and prevent unnecessary.](/assets/pamphlet_images/archaeology_p007_img1.png)
+![Clear research questions guide field collection methods and prevent unnecessary destructive excavation.](/assets/pamphlet_images/archaeology_p007_img1.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -203,7 +185,6 @@
 ### Req 6: Archaeological Stewardship and Site Protection
 **Official Requirement 6 (Parent Overview):** Do the following: (a) Explain why it is important to protect archaeological sites. (b) Explain what people should do if they think they have found an artifact. (c) Describe the ways in which you can be a protector of the past.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Mark artifact locations with GPS coordinates or flags rather than picking up items near potentially hazardous terrain.
 - **Common Myth:** Picking up an artifact to show an archaeologist at their office is helpful behavior.
 - **Pamphlet Fact:** Removing an artifact tears it from its stratigraphic context, destroying the critical data that reveals its age and function.
 
@@ -216,8 +197,6 @@
 #### Req 6a: Site Conservation and Fragility Rationale
 **Official Requirement 6a:** Explain why it is important to protect archaeological sites.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Important to Protect Archaeological Sites)
-- **Common Myth:** Archaeological sites are tough outdoor features that easily withstand casual walking and digging.
-- **Pamphlet Fact:** Ancient earthen walls, hearths, and ash layers degrade rapidly when walked upon, exposed to rain, or poked with sticks.
 
 ![Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal.](/assets/pamphlet_images/archaeology_p021_img1.png)
 
@@ -230,10 +209,8 @@
 #### Req 6b: Artifact Discovery Field Protocols
 **Official Requirement 6b:** Explain what people should do if they think they have found an artifact.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (People Should Do If They)
-- **Common Myth:** Washing an artifact with clean tap water and soap helps archaeologists inspect its fine details.
-- **Pamphlet Fact:** Scrubbing or washing artifacts removes microscopic residues, blood protein residues, and botanical phytoliths essential for scientific testing.
 
-![Archaeology Requirement 3 figure showing undisturbed sedimentary layers position the oldest cultural deposits underneath younger.](/assets/pamphlet_images/archaeology_p012_img1.png)
+![Undisturbed sedimentary layers position the oldest cultural deposits underneath younger overlying horizons.](/assets/pamphlet_images/archaeology_p012_img1.png)
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -244,8 +221,6 @@
 #### Req 6c: Personal Cultural Heritage Guardianship
 **Official Requirement 6c:** Describe the ways in which you can be a protector of the past.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (You Can Be A Protector)
-- **Common Myth:** Only individuals with professional graduate degrees in archaeology can take action to protect cultural sites.
-- **Pamphlet Fact:** Trained volunteer site stewards regularly monitor thousands of public archaeological sites, reporting vandalism and erosion to state archaeologists.
 
 ![A fossilized dinosaur skeleton illustrates how paleontology examines prehistoric animal remains.](/assets/pamphlet_images/archaeology_p016_img1.png)
 
@@ -258,7 +233,6 @@
 ### Req 7: Material Culture Interpretation Options
 **Official Requirement 7 (Parent Overview):** Do ONE of the following and discuss your findings with your counselor: (a) Visit a museum to observe how artifacts aid in conveying history. (b) Present to your counselor a significant family artifact/heirloom and discuss its history. (c) Make a list of the trash your family throws out during one week. Discuss with your counselor what archaeologists might learn about you and your family if they found your trash a thousand years from now.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Wear puncture-resistant latex or nitrile gloves when auditing household refuse to avoid contact with sharp or hazardous waste.
 - **Common Myth:** Household garbage contains no valuable information about family habits or economic realities.
 - **Pamphlet Fact:** Archaeological garbology studies demonstrate that discarded refuse directly reflects true nutrition, consumer choices, and resource recycling.
 
@@ -271,8 +245,6 @@
 #### Req 7a: Museum Artifact Narrative Analysis
 **Official Requirement 7a:** Visit a museum to observe how artifacts aid in conveying history.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Museum to Observe How Artifacts)
-- **Common Myth:** Museum displays display artifacts solely because they are beautiful artistic masterpieces.
-- **Pamphlet Fact:** Archaeological museum exhibits are organized to explain cultural patterns, economic systems, and historical events through everyday objects.
 
 ![Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.](/assets/pamphlet_images/archaeology_p040_img1.png)
 
@@ -285,8 +257,6 @@
 #### Req 7b: Family Heirloom Provenance Examination
 **Official Requirement 7b:** Present to your counselor a significant family artifact/heirloom and discuss its history.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Significant Family Artifact/heirloom and Discuss)
-- **Common Myth:** An heirloom holds historical significance only if it was manufactured from precious metals or gemstones.
-- **Pamphlet Fact:** Utilitarian heirlooms like cast-iron cookware, hand tools, or hand-sewn quilts often provide greater historical insight into ancestral labor.
 
 ![Carved cultural figures illustrate material artifacts studied by anthropologists and archaeologists.](/assets/pamphlet_images/archaeology_p022_img1.png)
 
@@ -299,8 +269,6 @@
 #### Req 7c: Contemporary Household Garbology Audit
 **Official Requirement 7c:** Make a list of the trash your family throws out during one week. Discuss with your counselor what archaeologists might learn about you and your family if they found your trash a thousand years from now.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Trash Your Family Throws Out)
-- **Common Myth:** People generate trash that perfectly matches what they claim they buy and consume on written surveys.
-- **Pamphlet Fact:** Landmark garbology research proves people consistently underestimate their food waste and unhealthy consumption when self-reporting.
 
 ![Uniformed Scouts examine excavated stone tools and artifacts displayed inside a museum display.](/assets/pamphlet_images/archaeology_p028_img1.png)
 
@@ -314,7 +282,6 @@
 ### Req 8: Historic Regional Inhabitant Research
 **Official Requirement 8:** Research a group of people who lived in your area more than 100 years ago. Find out about their ways of life, including housing, clothing, arts and crafts, tools, trade and markets, rituals and religions, and diets, and their relationships with other groups of people in the area. Describe what you would expect to find at an archaeological site where these people lived. Explain how these people influenced your current community.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 34, p. 56)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (People Who Lived in Your)
-> **Guide to Safe Scouting Warning:** Consult tribal authorities and respect sacred burial grounds when conducting outdoor historical field research.
 - **Common Myth:** Ancient local inhabitants lived isolated lives without any contact or commerce with outside cultural groups.
 - **Pamphlet Fact:** Extensive prehistoric trade networks transported obsidian, copper, and marine shells thousands of miles across North America.
 
@@ -338,7 +305,6 @@
 ### Req 9: Professional Archaeological Career Pathways
 **Official Requirement 9:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 79, p. 81)* • **Organizer (Career & Profession Exploration Card):** Req 9 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Professional field archaeologists must complete OSHA safety training and wear high-visibility vests on construction project sites.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Archaeology Req 9 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Most professional archaeologists spend their careers teaching at universities or making glamorous discoveries on television.
 - **Pamphlet Fact:** Over ninety percent of working archaeologists in the United States work in cultural resource management conducting compliance surveys.
@@ -363,7 +329,6 @@
 ### Req 10: Applied Archaeological Fieldwork Practicum
 **Official Requirement 10 (Parent Overview):** Do ONE of the following: (a) With your parent or guardian's and counselor's permission, assist a qualified archaeologist for at least eight hours with a project being worked on. Projects may include surveying, site monitoring, site stabilization, surface excavation, laboratory analysis, use of digital archaeological technology, or public outreach. Describe your involvement in the project, what you learned about archaeology, and the steps of archaeological inquiry. Note: Visiting an archaeological site will require advance planning. An archaeological site during study can be a dangerous place. While there, you will need to closely follow the archaeologist's directions and comply with all the safety procedures. Be aware of the changing conditions at the site. (b) With your counselor's approval, take part in a simulated archaeological project designed by a qualified archaeologist. The project must include the use of a simulated archaeological site including artifacts and features for the site. Using the steps of archaeological inquiry, analyze the artifacts and features and document the spatial relationships of the artifacts and features at the simulated site. Explain how the environment and time can affect the interpretation of an artifact and the overall archaeological site. Tell how you would share the results of your analysis with other researchers and the public. Note: To find out how to make a simulated archaeological site, talk with a professional archaeologist, trained avocational archaeologist, museum school instructor, science teacher, advisor from a local archaeology society, or other qualified instructor.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Drink plenty of water, use sunscreen, and take shaded rest breaks to prevent heat cramps or heat stroke during excavation.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Archaeology Req 10 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Excavating an archaeological unit means digging with large shovels as quickly as possible.
 - **Pamphlet Fact:** Archaeologists excavate methodically using flat-edged pointing trowels, skimming millimeter-thin soil shavings to preserve delicate cultural features.
@@ -378,8 +343,6 @@
 **Official Requirement 10a:** With your parent or guardian's and counselor's permission, assist a qualified archaeologist for at least eight hours with a project being worked on. Projects may include surveying, site monitoring, site stabilization, surface excavation, laboratory analysis, use of digital archaeological technology, or public outreach. Describe your involvement in the project, what you learned about archaeology, and the steps of archaeological inquiry. Note: Visiting an archaeological site will require advance planning. An archaeological site during study can be a dangerous place. While there, you will need to closely follow the archaeologist's directions and comply with all the safety procedures. Be aware of the changing conditions at the site.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)* • **Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix (Permission Assist A Qualified Archaeologist)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Archaeology Req 10a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Volunteers on archaeological sites are immediately allowed to dig without orientation or supervision.
-- **Pamphlet Fact:** Professional archaeologists supervise all volunteer field activities, training helpers in site etiquette, screening, and documentation.
 
 ![Students analyze an indoor simulated archaeological grid to practice mapping artifact distributions.](/assets/pamphlet_images/archaeology_p075_img1.png)
 
@@ -397,8 +360,6 @@
 **Official Requirement 10b:** With your counselor's approval, take part in a simulated archaeological project designed by a qualified archaeologist. The project must include the use of a simulated archaeological site including artifacts and features for the site. Using the steps of archaeological inquiry, analyze the artifacts and features and document the spatial relationships of the artifacts and features at the simulated site. Explain how the environment and time can affect the interpretation of an artifact and the overall archaeological site. Tell how you would share the results of your analysis with other researchers and the public. Note: To find out how to make a simulated archaeological site, talk with a professional archaeologist, trained avocational archaeologist, museum school instructor, science teacher, advisor from a local archaeology society, or other qualified instructor.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)* • **Organizer (Skill Demonstration Checklist):** Req 10b Hands-On Skill Station & EDGE Verification Checklist (Archaeology Careers and Pathways)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Archaeology Req 10b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** A simulated sandbox dig is just a game that teaches nothing about scientific methods.
-- **Pamphlet Fact:** Simulated digs mirror professional grid systems, level sheets, and artifact mapping protocols without risking real cultural artifacts.
 
 ![An archaeologist uses a caliper to record the exact dimensions of an excavated stone artifact.](/assets/pamphlet_images/archaeology_p033_img1.png)
 
@@ -415,7 +376,6 @@
 ### Req 11: Public Exhibits and Experimental Archaeology
 **Official Requirement 11 (Parent Overview):** Under the supervision of a qualified archaeologist or instructor, do ONE of the following: (a) Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area. (b) Use the methods of experimental archaeology to re-create an item or to practice a skill from the past. Write a brief report explaining the experiment and its results.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Wear ANSI-approved safety glasses and heavy leather gloves when flintknapping or carving wood to avoid flying sharp debitage.
 - **Common Myth:** Experimental archaeology is just making art or crafts without any underlying scientific hypothesis.
 - **Pamphlet Fact:** Experimental archaeology tests specific scientific questions about prehistoric manufacturing techniques, tool efficiency, and physical wear patterns.
 
@@ -428,8 +388,6 @@
 #### Req 11a: Museum Archaeological Exhibit Preparation
 **Official Requirement 11a:** Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Help Prepare An Archaeological Exhibit)
-- **Common Myth:** Displaying artifacts in a glass case requires no explanation because objects speak for themselves.
-- **Pamphlet Fact:** Without informative interpretive labels and contextual diagrams, museum visitors cannot discern an object's age or cultural function.
 
 ![A decorated ancient ceramic vessel illustrates preservation techniques used for museum exhibits.](/assets/pamphlet_images/archaeology_p029_img1.png)
 
@@ -442,8 +400,6 @@
 #### Req 11b: Experimental Archaeology Skill Replication
 **Official Requirement 11b:** Use the methods of experimental archaeology to re-create an item or to practice a skill from the past. Write a brief report explaining the experiment and its results.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Experimental Archaeology to Re-create)
-- **Common Myth:** Using modern steel chisels or electric power tools is acceptable when testing prehistoric manufacturing methods.
-- **Pamphlet Fact:** Authentic experimental archaeology strictly restricts tools and materials to those historically available to avoid skewing experimental results.
 
 ![Excavators measure precise vertical depths along a string grid line within an active dig trench.](/assets/pamphlet_images/archaeology_p042_img1.png)
 

@@ -2042,13 +2042,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Preparedness Phase Diagnostic",
-        "right_header": "Req 1b: Preparedness Aspect Matrix",
+        "left_header": "Req 1a: Preparedness Phase Diagnostic Questions",
+        "right_header": "Req 1b: Preparedness Aspect Matrix Documentation",
         "left_points": [
-          "(1a) Preparedness Phase Diagnostic Questions: Scouts analyze critical self-reflection questions across prevention, preparedness, response, and recovery. Evaluating potential hazards before events occur determines appropriate supply reserves and action thresholds."
+          "(1a) Preparedness Phase Diagnostic Questions: Scouts analyze critical self-reflection questions across prevention, preparedness, response, and recovery. Evaluating potential hazards before events occur determines appropriate supply reserves and action thresholds.",
+          "Mitigation Phase: Structural hardening and hazard reduction lower community vulnerability before disasters strike."
         ],
         "right_points": [
-          "(1b) Preparedness Aspect Matrix Documentation: Creating a systematic comparative chart organizes specific emergency actions into distinct operational categories. Structured documentation clarifies operational differences between long-term mitigation and immediate response."
+          "(1b) Preparedness Aspect Matrix Documentation: Creating a systematic comparative chart organizes specific emergency actions into distinct operational categories. Structured documentation clarifies operational differences between long-term mitigation and immediate response.",
+          "Response Operations: First responders prioritize immediate triage, search, rescue, and perimeter stabilization."
         ],
         "rows": [
           {
@@ -2058,25 +2060,27 @@
           },
           {
             "attribute": "Preparedness Actions",
-            "left": "Req 1a: Preparedness Phase: Scouts analyze critical self-reflection questions across prevention, preparedness, response, and recovery. Evaluating potential hazards before events occur determines appropriate supply reserves and action thresholds.",
-            "right": "Req 1b: Preparedness Aspect Matrix: Creating a systematic comparative chart organizes specific emergency actions into distinct operational categories. Structured documentation clarifies operational differences between long-term mitigation and immediate response."
+            "left": "Mitigation Phase: Structural hardening and hazard reduction lower community vulnerability before disasters strike.",
+            "right": "Response Operations: First responders prioritize immediate triage, search, rescue, and perimeter stabilization."
           },
           {
             "attribute": "Response Operations",
-            "left": "Mitigation Phase: Structural hardening and hazard reduction lower community vulnerability before disasters strike.",
-            "right": "Preparedness Actions: Stockpiled supplies and rehearsed family mobilization protocols guarantee survival during crises."
+            "left": "Response Operations: First responders prioritize immediate triage, search, rescue, and perimeter stabilization.",
+            "right": "Recovery Efforts: Restoring infrastructure and providing psychological support rebuild communities after catastrophic impacts."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 1 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 1 Worked Example: Emergency Preparedness Cycle Phases",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 1a - Preparedness Phase Diagnostic": "Scouts analyze critical self-reflection questions across prevention, preparedness, response, and recovery. Evaluating potential hazards before events occur determines appropriate supply reserves and action thresholds.",
-          "Req 1b - Preparedness Aspect Matrix": "Creating a systematic comparative chart organizes specific emergency actions into distinct operational categories. Structured documentation clarifies operational differences between long-term mitigation and immediate response."
+          "Phase 1 - Risk Assessment": "Identify recurring local natural hazards and structural vulnerabilities surrounding your neighborhood.",
+          "Phase 2 - Matrix Construction": "Draft a comprehensive four-column table detailing specific actions across each phase.",
+          "Phase 3 - Question Development": "Formulate critical diagnostic questions regarding immediate water, power, and medical needs.",
+          "Phase 4 - Counselor Review": "Present the completed analytical matrix to evaluate thoroughness and practical feasibility."
         },
-        "sample_output": "Five Aspects of Emergency Preparedness: A 12-mile exclusion zone around the plant displaced 78,000 people (p. 22).",
-        "counselor_tip": "For Emergency Preparedness Requirement 1 (Five Aspects of Emergency Preparedness), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68))."
+        "sample_output": "Comprehensive preparedness requires systematic execution across mitigation, preparedness, response, and recovery phases. Effective disaster readiness demands evaluating community hazards, personal vulnerabilities, resource availability, and immediate communication paths.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 1 conference on Emergency Preparedness Cycle Phases, verify that the Scout can explain mitigation phase and demonstrate counselor review: Present the completed analytical matrix to evaluate thoroughness and practical feasibility."
       },
       "quiz_item": {
         "scenario_prompt": "In Emergency Preparedness Requirement 1, emergency management is organized around five mission areas: Prevention, Protection, Mitigation, Response, and Recovery. Which action is an example of Mitigation before a disaster strikes?",
@@ -2528,10 +2532,12 @@
         "left_header": "Req 2a: Shelter and Evacuation Planning",
         "right_header": "Req 2b: Residential Fire Escape System",
         "left_points": [
-          "(2a) Shelter and Evacuation Planning: Family meetings establish decision triggers for staying indoors versus evacuating residential structures. Clear roles prevent chaotic delays when regional emergencies mandate rapid relocation."
+          "(2a) Shelter and Evacuation Planning: Family meetings establish decision triggers for staying indoors versus evacuating residential structures. Clear roles prevent chaotic delays when regional emergencies mandate rapid relocation.",
+          "Shelter Protocols: Sealing interior rooms protects residents from airborne chemical or radiological plumes."
         ],
         "right_points": [
-          "(2b) Residential Fire Escape System: Detailed floorplans diagram two clear exits from every living space and bedroom. Practicing fire escape routes builds muscle memory necessary for zero-visibility smoky environments."
+          "(2b) Residential Fire Escape System: Detailed floorplans diagram two clear exits from every living space and bedroom. Practicing fire escape routes builds muscle memory necessary for zero-visibility smoky environments.",
+          "(2c) Disaster Supply Kit Maintenance: Disaster kits must store one gallon of water per person per day. Portable go-bags ensure essential prescription medications and emergency documents accompany evacuees."
         ],
         "rows": [
           {
@@ -2541,26 +2547,27 @@
           },
           {
             "attribute": "Evacuation Triggers",
-            "left": "Req 2a: Shelter and Evacuation: Family meetings establish decision triggers for staying indoors versus evacuating residential structures. Clear roles prevent chaotic delays when regional emergencies mandate rapid relocation.",
-            "right": "Req 2b: Residential Fire Escape: Detailed floorplans diagram two clear exits from every living space and bedroom. Practicing fire escape routes builds muscle memory necessary for zero-visibility smoky environments."
+            "left": "Shelter Protocols: Sealing interior rooms protects residents from airborne chemical or radiological plumes.",
+            "right": "(2c) Disaster Supply Kit Maintenance: Disaster kits must store one gallon of water per person per day. Portable go-bags ensure essential prescription medications and emergency documents accompany evacuees."
           },
           {
             "attribute": "Escape Routing",
-            "left": "Req 2c: Disaster Supply Kit: Disaster kits must store one gallon of water per person per day. Portable go-bags ensure essential prescription medications and emergency documents accompany evacuees.",
-            "right": "Evacuation Triggers: Predetermined criteria establish immediate departure routes when structural collapse is imminent."
+            "left": "Escape Routing: Primary and secondary egress paths must remain unobstructed throughout all seasons.",
+            "right": "Supply Maintenance: Stored emergency water supplies require biannual rotation to prevent bacterial contamination."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 2 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 2 Worked Example: Family Disaster Plan Development",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Shelter and Evacuation": "Family meetings establish decision triggers for staying indoors versus evacuating residential structures. Clear roles prevent chaotic delays when regional emergencies mandate rapid relocation.",
-          "Req 2b - Residential Fire Escape": "Detailed floorplans diagram two clear exits from every living space and bedroom. Practicing fire escape routes builds muscle memory necessary for zero-visibility smoky environments.",
-          "Req 2c - Disaster Supply Kit": "Disaster kits must store one gallon of water per person per day. Portable go-bags ensure essential prescription medications and emergency documents accompany evacuees."
+          "Phase 1 - Family Assembly": "Convene all household members to review local hazard charts and responsibilities.",
+          "Phase 2 - Floorplan Drafting": "Sketch residential layouts clearly marking primary and secondary fire escape paths.",
+          "Phase 3 - Meeting Selection": "Designate immediate neighborhood assembly locations alongside out-of-town emergency contact points.",
+          "Phase 4 - Kit Assembly": "Gather three days of potable water, nonperishable rations, and medical provisions."
         },
-        "sample_output": "Family Emergency Planning and Kits: Practice fire escape drills at least once a year (p. 26).",
-        "counselor_tip": "For Emergency Preparedness Requirement 2 (Family Emergency Planning and Kits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31))."
+        "sample_output": "Household disaster plans require tailored procedures for both sheltering-in-place and rapid residential evacuation. Coordinated escape routes, designated meeting spots, and redundant communication protocols ensure family member safety.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 2 conference on Family Disaster Plan Development, verify that the Scout can explain shelter protocols and demonstrate kit assembly: Gather three days of potable water, nonperishable rations, and medical provisions."
       },
       "quiz_item": {
         "scenario_prompt": "How often should you test your home smoke alarms and replace their standard batteries?",
@@ -2888,10 +2895,12 @@
         "left_header": "Req 3a: Home Safety Checklist Inspection",
         "right_header": "Req 3b: Offsite Activity Safety Plans",
         "left_points": [
-          "(3a) Home Safety Checklist Inspection: Conducting systematic residential walkthroughs identifies overlooked fire, chemical, and structural risks. Documenting findings prompts homeowners to replace dead smoke detector batteries and clear blocked exits."
+          "(3a) Home Safety Checklist Inspection: Conducting systematic residential walkthroughs identifies overlooked fire, chemical, and structural risks. Documenting findings prompts homeowners to replace dead smoke detector batteries and clear blocked exits.",
+          "Electrical Inspection: Frayed cords and overloaded extension circuits present severe residential fire hazards."
         ],
         "right_points": [
-          "(3b) Offsite Activity Safety Plans: Developing prevention plans for public outings requires evaluating crowds, transit hazards, and environmental extremes. Formulating contingency protocols ensures family members know reunion sites if separated."
+          "(3b) Offsite Activity Safety Plans: Developing prevention plans for public outings requires evaluating crowds, transit hazards, and environmental extremes. Formulating contingency protocols ensures family members know reunion sites if separated.",
+          "Offsite Planning: Thorough itineraries, participant medical forms, and weather forecasts minimize expedition hazards."
         ],
         "rows": [
           {
@@ -2901,25 +2910,27 @@
           },
           {
             "attribute": "Chemical Storage",
-            "left": "Req 3a: Home Safety Checklist: Conducting systematic residential walkthroughs identifies overlooked fire, chemical, and structural risks. Documenting findings prompts homeowners to replace dead smoke detector batteries and clear blocked exits.",
-            "right": "Req 3b: Offsite Activity Safety: Developing prevention plans for public outings requires evaluating crowds, transit hazards, and environmental extremes. Formulating contingency protocols ensures family members know reunion sites if separated."
+            "left": "Electrical Inspection: Frayed cords and overloaded extension circuits present severe residential fire hazards.",
+            "right": "Offsite Planning: Thorough itineraries, participant medical forms, and weather forecasts minimize expedition hazards."
           },
           {
             "attribute": "Offsite Planning",
-            "left": "Electrical Inspection: Frayed cords and overloaded extension circuits present severe residential fire hazards.",
-            "right": "Chemical Storage: Flammable solvents require sealed metal containers stored far from furnace pilot lights."
+            "left": "Offsite Planning: Thorough itineraries, participant medical forms, and weather forecasts minimize expedition hazards.",
+            "right": "Stairway Clearance: Keeping residential stairs free of clutter prevents devastating traumatic fall injuries."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 3 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 3 Worked Example: Accident Prevention Risk Assessments",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Home Safety Checklist": "Conducting systematic residential walkthroughs identifies overlooked fire, chemical, and structural risks. Documenting findings prompts homeowners to replace dead smoke detector batteries and clear blocked exits.",
-          "Req 3b - Offsite Activity Safety Plans": "Developing prevention plans for public outings requires evaluating crowds, transit hazards, and environmental extremes. Formulating contingency protocols ensures family members know reunion sites if separated."
+          "Phase 1 - Checklist Acquisition": "Select an approved comprehensive hazard identification checklist covering all structural areas.",
+          "Phase 2 - Hazard Audit": "Inspect living spaces, basements, and utility rooms for flammable materials or trip risks.",
+          "Phase 3 - Mitigation Correction": "Repair minor hazards immediately and document required professional repairs for adults.",
+          "Phase 4 - Activity Planning": "Draft written emergency prevention guidelines for five offsite family excursions."
         },
-        "sample_output": "Preventing Home and Activity Accidents: However, even the best driver may not be able to respond quickly enough to prevent a collision caused by another driver losing control of their car (p. 19).",
-        "counselor_tip": "For Emergency Preparedness Requirement 3 (Preventing Home and Activity Accidents), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 19, p. 21))."
+        "sample_output": "Rigorous home safety assessments identify electrical, structural, chemical, and fire hazards before accidents occur. Planning ahead for offsite group activities prevents environmental injuries and vehicle collisions.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 3 conference on Accident Prevention Risk Assessments, verify that the Scout can explain electrical inspection and demonstrate activity planning: Draft written emergency prevention guidelines for five offsite family excursions."
       },
       "quiz_item": {
         "scenario_prompt": "In emergency preparedness, how do automatic sprinkler systems in schools and smoke alarms in homes function when a fire breaks out?",
@@ -3389,7 +3400,7 @@
       ],
       "comparison_data": {
         "left_header": "Req 4a: Live Electrical Wire Rescue",
-        "right_header": "Req 4c: Burning Clothing Flame",
+        "right_header": "Req 4c: Burning Clothing Flame Suppression",
         "left_points": [
           "(4a) Live Electrical Wire Rescue: Household current can cause ventricular fibrillation and muscular lockup. Rescuers must shut off the breaker or push wires using dry nonconductive broom handles.",
           "(4b) Carbon Monoxide Structure Extraction: Carbon monoxide is an odorless, colorless gas that causes rapid unconsciousness. Rescuers must ventilate the space from outside and summon firefighters equipped with self-contained breathing apparatus."
@@ -3411,22 +3422,22 @@
           },
           {
             "attribute": "Thermal Smothering",
-            "left": "Req 4a: Live Electrical Wire Rescue: Household current can cause ventricular fibrillation and muscular lockup. Rescuers must shut off the breaker or push wires using dry nonconductive broom handles.",
-            "right": "Req 4b: Carbon Monoxide Structure: Carbon monoxide is an odorless, colorless gas that causes rapid unconsciousness. Rescuers must ventilate the space from outside and summon firefighters equipped with self-contained breathing apparatus."
+            "left": "Thermal Smothering: Wrap burning individuals in heavy wool blankets to extinguish active flames.",
+            "right": "Water Rescue: Reach with poles or throw buoyant cushions instead of entering water."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 4 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 4 Worked Example: Non-Contact Victim Rescue Techniques",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Live Electrical Wire Rescue": "Household current can cause ventricular fibrillation and muscular lockup. Rescuers must shut off the breaker or push wires using dry nonconductive broom handles.",
-          "Req 4b - Carbon Monoxide Structure": "Carbon monoxide is an odorless, colorless gas that causes rapid unconsciousness. Rescuers must ventilate the space from outside and summon firefighters equipped with self-contained breathing apparatus.",
-          "Req 4c - Burning Clothing Flame": "Victims whose clothing is burning often panic and run, fanning flames. Forcing the victim to the ground, smothering flames with non-synthetic blankets, and rolling extinguishes the fire.",
-          "Req 4d - Nonswimming Water Rescue": "Rescuing drowning individuals without swimming follows the reach, throw, row, and go sequence. Ice accidents require distributing rescuer weight across ladders or ropes while staying off weak ice."
+          "Phase 1 - Scene Assessment": "Evaluate environmental threats to confirm rescuer safety before approaching the victim.",
+          "Phase 2 - Power Disconnection": "Shut off main breakers or use dry wooden sticks to move live wires.",
+          "Phase 3 - Fire Extinguishment": "Direct victims to stop, drop, and roll while wrapping heavy coats.",
+          "Phase 4 - Reaching Assist": "Extend tree branches or throw flotation rings to rescue drowning victims safely."
         },
-        "sample_output": "Safe Rescues in Dangerous Situations: For instance, get into the habit of looking for exits in any public building you enter (p. 71).",
-        "counselor_tip": "For Emergency Preparedness Requirement 4 (Safe Rescues in Dangerous Situations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72))."
+        "sample_output": "Rescuing victims from hazardous environments demands rigorous self-protection before initiating life-saving actions. Using nonconductive materials, ventilation assessment, thermal suppression, and reaching assists prevents rescuers from becoming additional casualties.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 4 conference on Non-Contact Victim Rescue Techniques, verify that the Scout can explain electrical isolation and demonstrate reaching assist: Extend tree branches or throw flotation rings to rescue drowning victims safely."
       },
       "quiz_item": {
         "scenario_prompt": "What is the foundational rule for a Scout before attempting to rescue someone from a live wire, carbon monoxide, fire, or water hazard?",
@@ -3826,12 +3837,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 5a: Aerial Distress Signal Systems",
-        "right_header": "Req 5b: Wilderness Ground Searcher",
+        "right_header": "Req 5b: Wilderness Ground Searcher Signals",
         "left_points": [
-          "(5a) Aerial Distress Signal Systems: Ground symbols measuring at least ten feet long communicate clear distress messages to aircraft pilots. Creating high contrast using rocks, branches, or stamped snow ensures clear aerial visibility."
+          "(5a) Aerial Distress Signal Systems: Ground symbols measuring at least ten feet long communicate clear distress messages to aircraft pilots. Creating high contrast using rocks, branches, or stamped snow ensures clear aerial visibility.",
+          "Ground Signals: Stamping large ground symbols indicates specific medical needs to aerial searchers."
         ],
         "right_points": [
-          "(5b) Wilderness Ground Searcher Signals: Lost hikers attract ground searchers by blowing whistles in bursts of three and hanging bright garments. Staying in one location prevents confusing tracking dogs and ground search teams."
+          "(5b) Wilderness Ground Searcher Signals: Lost hikers attract ground searchers by blowing whistles in bursts of three and hanging bright garments. Staying in one location prevents confusing tracking dogs and ground search teams.",
+          "(5c) Marine Distress Signaling Equipment: Stranded boaters deploy orange smoke, pyrotechnic flares, and day-glo distress flags to alert passing ships. Remaining with capsized or disabled vessels provides searchers a vastly larger visual target."
         ],
         "rows": [
           {
@@ -3841,26 +3854,27 @@
           },
           {
             "attribute": "Audio Bursts",
-            "left": "Req 5a: Aerial Distress Signal: Ground symbols measuring at least ten feet long communicate clear distress messages to aircraft pilots. Creating high contrast using rocks, branches, or stamped snow ensures clear aerial visibility.",
-            "right": "Req 5b: Wilderness Ground Searcher: Lost hikers attract ground searchers by blowing whistles in bursts of three and hanging bright garments. Staying in one location prevents confusing tracking dogs and ground search teams."
+            "left": "Ground Signals: Stamping large ground symbols indicates specific medical needs to aerial searchers.",
+            "right": "(5c) Marine Distress Signaling Equipment: Stranded boaters deploy orange smoke, pyrotechnic flares, and day-glo distress flags to alert passing ships. Remaining with capsized or disabled vessels provides searchers a vastly larger visual target."
           },
           {
             "attribute": "Signal Mirrors",
-            "left": "Req 5c: Marine Distress Signaling: Stranded boaters deploy orange smoke, pyrotechnic flares, and day-glo distress flags to alert passing ships. Remaining with capsized or disabled vessels provides searchers a vastly larger visual target.",
-            "right": "Audio Bursts: Three loud whistle blasts repeated regularly signal universal distress to searchers."
+            "left": "Signal Mirrors: Flashing sunlight off reflective glass creates flashes visible over thirty miles.",
+            "right": "Marine Pyrotechnics: Red flares or orange smoke canisters pinpoint vessel positions during maritime rescues."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 5 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 5 Worked Example: Emergency Distress Signaling Methods",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Aerial Distress Signal": "Ground symbols measuring at least ten feet long communicate clear distress messages to aircraft pilots. Creating high contrast using rocks, branches, or stamped snow ensures clear aerial visibility.",
-          "Req 5b - Wilderness Ground Searcher": "Lost hikers attract ground searchers by blowing whistles in bursts of three and hanging bright garments. Staying in one location prevents confusing tracking dogs and ground search teams.",
-          "Req 5c - Marine Distress Signaling": "Stranded boaters deploy orange smoke, pyrotechnic flares, and day-glo distress flags to alert passing ships. Remaining with capsized or disabled vessels provides searchers a vastly larger visual target."
+          "Phase 1 - Site Selection": "Relocate to high open ground providing unobstructed visual lines of sight.",
+          "Phase 2 - Triangle Construction": "Arrange three smoky signal fires in an equilateral triangle on open terrain.",
+          "Phase 3 - Mirror Aiming": "Sight aircraft through the mirror hole to direct reflected flashes accurately.",
+          "Phase 4 - Acoustic Signaling": "Sound three sharp whistle blasts every two minutes to alert ground searchers."
         },
-        "sample_output": "Wilderness and Water Rescue Signaling: A pilot says \"yes\" by dipping the nose of the plane (p. 40).",
-        "counselor_tip": "For Emergency Preparedness Requirement 5 (Wilderness and Water Rescue Signaling), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48))."
+        "sample_output": "Effective distress signaling relies on standard international visual patterns, audio bursts, and directional reflections. Maximizing contrast against terrain ensures ground searchers, marine vessels, and aircraft quickly spot stranded parties.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 5 conference on Emergency Distress Signaling Methods, verify that the Scout can explain ground signals and demonstrate acoustic signaling: Sound three sharp whistle blasts every two minutes to alert ground searchers."
       },
       "quiz_item": {
         "scenario_prompt": "How does a rescue aircraft pilot signal to people on the ground that their message has NOT been understood?",
@@ -4019,47 +4033,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 6: Remote Backcountry Medical",
-        "right_header": "Req 6: Conserve Rescuer Physical Energy",
+        "left_header": "Improvised Remote Stretcher Transport: Core Principles",
+        "right_header": "Improvised Remote Stretcher Transport: Field Execution",
         "left_points": [
-          "Remote Backcountry Medical Emergencies: The unexpected can happen anywhere, and sometimes far from help (p. 55).",
-          "Long-Distance Patient Evacuation: You may need to transport an injured person for a long distance, and save a life by doing (p. 55).",
-          "Preventing Rescuer Exhaustion Injuries: When moving an injured person, no matter what method you are using, make sure you rest enough so that you do not become a second casualty (p. 55)."
+          "Blanket Stretcher: Rolling sturdy poles inside folded wool blankets creates reliable victim support.",
+          "Jacket Construction: Zipping heavy jackets over sapling poles forms a secure improvised litter."
         ],
         "right_points": [
-          "Conserve Rescuer Physical Energy: When moving an injured person, no matter what method you are using, make sure you rest enough so that you do not become a second casualty (p. 55).",
-          "Take Regular Rest Breaks: If just you and a buddy are doing the transporting, stop every 30 to 60 minutes and rest 5 to 10 minutes (p. 55).",
-          "Adjust Pace for Terrain: How often you stop will depend on how much the victim weighs and how rugged the terrain (p. 55)."
+          "Synchronized Lifting: Rescuers must lift simultaneously on count to prevent spinal injury aggravation.",
+          "Stamina Conservation: Rotating stretcher bearers every ten minutes prevents rescuer exhaustion on rough terrain."
         ],
         "rows": [
           {
             "attribute": "Blanket Stretcher",
-            "left": "Remote Backcountry Medical Emergencies: The unexpected can happen anywhere, and sometimes far from help (p. 55).",
-            "right": "Conserve Rescuer Physical Energy: When moving an injured person, no matter what method you are using, make sure you rest enough so that you do not become a second casualty (p. 55)."
+            "left": "Blanket Stretcher: Rolling sturdy poles inside folded wool blankets creates reliable victim support.",
+            "right": "Synchronized Lifting: Rescuers must lift simultaneously on count to prevent spinal injury aggravation."
           },
           {
             "attribute": "Jacket Construction",
-            "left": "Long-Distance Patient Evacuation: You may need to transport an injured person for a long distance, and save a life by doing (p. 55).",
-            "right": "Take Regular Rest Breaks: If just you and a buddy are doing the transporting, stop every 30 to 60 minutes and rest 5 to 10 minutes (p. 55)."
+            "left": "Jacket Construction: Zipping heavy jackets over sapling poles forms a secure improvised litter.",
+            "right": "Stamina Conservation: Rotating stretcher bearers every ten minutes prevents rescuer exhaustion on rough terrain."
           },
           {
             "attribute": "Synchronized Lifting",
-            "left": "Preventing Rescuer Exhaustion Injuries: When moving an injured person, no matter what method you are using, make sure you rest enough so that you do not become a second casualty (p. 55).",
-            "right": "Adjust Pace for Terrain: How often you stop will depend on how much the victim weighs and how rugged the terrain (p. 55)."
+            "left": "Synchronized Lifting: Rescuers must lift simultaneously on count to prevent spinal injury aggravation.",
+            "right": "Stamina Conservation: Rotating stretcher bearers every ten minutes prevents rescuer exhaustion on rough terrain."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 6 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 6 Worked Example: Improvised Remote Stretcher Transport",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Remote Backcountry Medical Emergencies": "The unexpected can happen anywhere, and sometimes far from help (p. 55).",
-          "Long-Distance Patient Evacuation": "You may need to transport an injured person for a long distance, and save a life by doing (p. 55).",
-          "Preventing Rescuer Exhaustion Injuries": "When moving an injured person, no matter what method you are using, make sure you rest enough so that you do not become a second casualty (p. 55).",
-          "Scheduled Rescuer Rest Intervals": "If just you and a buddy are doing the transporting, stop every 30 to 60 minutes and rest 5 to 10 minutes (p. 55)."
+          "Phase 1 - Material Selection": "Gather two rigid stout timber poles and two heavy canvas jackets.",
+          "Phase 2 - Sleeve Insertion": "Turn jacket sleeves inside out and thread poles through the sleeves.",
+          "Phase 3 - Patient Packaging": "Slide the victim onto the stretcher while maintaining strict head and spinal alignment.",
+          "Phase 4 - Coordinated Carry": "Step off with opposite feet while maintaining continuous verbal commands along trails."
         },
-        "sample_output": "Improvised Stretchers and Patient Transport: The unexpected can happen anywhere, and sometimes far from help (p. 55).",
-        "counselor_tip": "For Emergency Preparedness Requirement 6 (Improvised Stretchers and Patient Transport), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 55, p. 78))."
+        "sample_output": "Evacuating injured individuals from wilderness settings requires durable improvised stretchers that protect spinal alignment. Rescuers must conserve their own physical stamina through synchronized lifting commands and frequent bearer rotations.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 6 conference on Improvised Remote Stretcher Transport, verify that the Scout can explain blanket stretcher and demonstrate coordinated carry: Step off with opposite feet while maintaining continuous verbal commands along trails."
       },
       "quiz_item": {
         "scenario_prompt": "When just you and a buddy are transporting an injured person out of a remote area, what rest schedule does the Emergency Preparedness pamphlet recommend?",
@@ -4431,12 +4443,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 7a: NIMS and ICS Principles",
-        "right_header": "Req 7b: Community Disaster Leadership",
+        "right_header": "Req 7b: Community Disaster Leadership Preparation",
         "left_points": [
-          "(7a) NIMS and ICS Principles: NIMS standardizes disaster response across municipal, state, and federal operational entities. ICS provides a scalable on-scene management structure with distinct sections for operations, planning, logistics, and finance."
+          "(7a) NIMS and ICS Principles: NIMS standardizes disaster response across municipal, state, and federal operational entities. ICS provides a scalable on-scene management structure with distinct sections for operations, planning, logistics, and finance.",
+          "Unified Command: Multiple jurisdictions manage complex incidents cooperatively under a single operational plan."
         ],
         "right_points": [
-          "(7b) Community Disaster Leadership Preparation: Municipalities conduct multi-agency tabletop drills, functional exercises, and full-scale disaster simulations. Emergency management directors maintain redundant emergency operations centers to coordinate resources during community crises."
+          "(7b) Community Disaster Leadership Preparation: Municipalities conduct multi-agency tabletop drills, functional exercises, and full-scale disaster simulations. Emergency management directors maintain redundant emergency operations centers to coordinate resources during community crises.",
+          "(7c) Troop Emergency Service Integration: Scout troops operate under logistics or planning sections to provide auxiliary communications, sandbagging, or shelter support. Scouts never enter hazardous zones, adhering strictly to tasks assigned by certified adult supervisors."
         ],
         "rows": [
           {
@@ -4446,26 +4460,27 @@
           },
           {
             "attribute": "Span Control",
-            "left": "Req 7a: NIMS and ICS Principles: NIMS standardizes disaster response across municipal, state, and federal operational entities. ICS provides a scalable on-scene management structure with distinct sections for operations, planning, logistics, and finance.",
-            "right": "Req 7b: Community Disaster: Municipalities conduct multi-agency tabletop drills, functional exercises, and full-scale disaster simulations. Emergency management directors maintain redundant emergency operations centers to coordinate resources during community crises."
+            "left": "Unified Command: Multiple jurisdictions manage complex incidents cooperatively under a single operational plan.",
+            "right": "(7c) Troop Emergency Service Integration: Scout troops operate under logistics or planning sections to provide auxiliary communications, sandbagging, or shelter support. Scouts never enter hazardous zones, adhering strictly to tasks assigned by certified adult supervisors."
           },
           {
             "attribute": "Common Terminology",
-            "left": "Req 7c: Troop Emergency Service: Scout troops operate under logistics or planning sections to provide auxiliary communications, sandbagging, or shelter support. Scouts never enter hazardous zones, adhering strictly to tasks assigned by certified adult supervisors.",
-            "right": "Span Control: Supervisors oversee three to seven subordinates to maintain effective organizational control."
+            "left": "Common Terminology: Standardized jargon-free plain language prevents dangerous miscommunications between collaborating rescue agencies.",
+            "right": "Logistics Section: Dedicated personnel procure staging facilities, communications gear, medical supplies, and sustenance."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 7 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 7 Worked Example: Incident Command System Operations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - NIMS and ICS Principles": "NIMS standardizes disaster response across municipal, state, and federal operational entities. ICS provides a scalable on-scene management structure with distinct sections for operations, planning, logistics, and finance.",
-          "Req 7b - Community Disaster Leadership": "Municipalities conduct multi-agency tabletop drills, functional exercises, and full-scale disaster simulations. Emergency management directors maintain redundant emergency operations centers to coordinate resources during community crises.",
-          "Req 7c - Troop Emergency Service": "Scout troops operate under logistics or planning sections to provide auxiliary communications, sandbagging, or shelter support. Scouts never enter hazardous zones, adhering strictly to tasks assigned by certified adult supervisors."
+          "Phase 1 - Structure Review": "Study the five major functional areas comprising the Incident Command System.",
+          "Phase 2 - Community Investigation": "Contact municipal emergency management officials to examine local disaster operating plans.",
+          "Phase 3 - Role Integration": "Identify specific non-hazardous support functions Scout units perform during civic crises.",
+          "Phase 4 - Chain Mapping": "Diagram how local troop leaders interface with municipal emergency operations centers."
         },
-        "sample_output": "National Incident Management and ICS: For as long as there has been Scouting, Scouts have provided outstanding services in emergencies of all kinds (p. 81).",
-        "counselor_tip": "For Emergency Preparedness Requirement 7 (National Incident Management and ICS), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83))."
+        "sample_output": "NIMS provides a standardized nationwide framework enabling government agencies and private organizations to collaborate smoothly during disasters. ICS establishes a modular command hierarchy with clear span of control across operations, planning, logistics, and finance.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 7 conference on Incident Command System Operations, verify that the Scout can explain unified command and demonstrate chain mapping: Diagram how local troop leaders interface with municipal emergency operations centers."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do the National Incident Management System (NIMS) and the Incident Command System (ICS) improve community disaster response?",
@@ -5262,7 +5277,7 @@
       ],
       "comparison_data": {
         "left_header": "Req 8a: Troop Emergency Service Duties",
-        "right_header": "Req 8c: Emergency Service Pack",
+        "right_header": "Req 8c: Emergency Service Pack Preparation",
         "left_points": [
           "(8a) Troop Emergency Service Duties: Scouts train for support missions including lost person searches, disaster relief distribution, and public crowd control. Strict protocols emphasize high-visibility vests, personal protective equipment, and remaining within designated safe perimeters.",
           "(8b) Troop Mobilization Plan Formulation: Mobilization plans outline step-by-step phone cascades, gear requirements, and secure staging areas. Redundant communication channels ensure patrols assemble efficiently even when commercial telecommunication grids fail."
@@ -5284,22 +5299,22 @@
           },
           {
             "attribute": "Personal Packs",
-            "left": "Req 8a: Troop Emergency Service: Scouts train for support missions including lost person searches, disaster relief distribution, and public crowd control. Strict protocols emphasize high-visibility vests, personal protective equipment, and remaining within designated safe perimeters.",
-            "right": "Req 8b: Troop Mobilization Plan: Mobilization plans outline step-by-step phone cascades, gear requirements, and secure staging areas. Redundant communication channels ensure patrols assemble efficiently even when commercial telecommunication grids fail."
+            "left": "Personal Packs: Packed survival rucksacks enable forty-eight hours of self-sufficient troop disaster service.",
+            "right": "Drill Evaluation: Post-exercise reviews reveal communication bottlenecks and logistical gaps needing procedural correction."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 8 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 8 Worked Example: Troop Emergency Mobilization Readiness",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Troop Emergency Service": "Scouts train for support missions including lost person searches, disaster relief distribution, and public crowd control. Strict protocols emphasize high-visibility vests, personal protective equipment, and remaining within designated safe perimeters.",
-          "Req 8b - Troop Mobilization Plan": "Mobilization plans outline step-by-step phone cascades, gear requirements, and secure staging areas. Redundant communication channels ensure patrols assemble efficiently even when commercial telecommunication grids fail.",
-          "Req 8c - Emergency Service Pack": "Personal service packs contain protective work gloves, flashlights, rain gear, water, and first aid supplies. Packing durable items in waterproof bags ensures readiness for immediate deployment in severe weather.",
-          "Req 8d - Disaster Exercise Practical": "Participating in simulated drills allows youth to practice communication, casualty staging, and supply distribution under realistic conditions. Debriefing after exercises uncovers operational delays and refines emergency protocols."
+          "Phase 1 - Service Review": "Discuss troop responsibilities, required skills, and safety boundaries with your counselor.",
+          "Phase 2 - Plan Composition": "Formulate a written troop mobilization plan featuring redundant phone tree trees.",
+          "Phase 3 - Pack Inspection": "Assemble a personal emergency service pack containing essential survival and safety provisions.",
+          "Phase 4 - Drill Participation": "Execute a simulated disaster mobilization exercise alongside community agencies or schools."
         },
-        "sample_output": "Troop Mobilization and Emergency Service: During and after some disasters, such as floods and tornadoes, many people may be without food and clothing (p. 82).",
-        "counselor_tip": "For Emergency Preparedness Requirement 8 (Troop Mobilization and Emergency Service), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84))."
+        "sample_output": "Prepared Scout troops execute rapid mobilization trees to provide disciplined non-hazardous community assistance. Outfitting personal emergency packs and rehearsing mass transit logistics ensures rapid deployment when civic emergencies strike.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 8 conference on Troop Emergency Mobilization Readiness, verify that the Scout can explain mobilization cascade and demonstrate drill participation: Execute a simulated disaster mobilization exercise alongside community agencies or schools."
       },
       "quiz_item": {
         "scenario_prompt": "Where do local officials typically set up collection and distribution points for food and clothing after a disaster?",
@@ -5458,47 +5473,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 9: First Aid Badge Requirement",
-        "right_header": "Req 9: Master Essential First Aid",
+        "left_header": "First Aid Preparedness Foundation: Core Principles",
+        "right_header": "First Aid Preparedness Foundation: Field Execution",
         "left_points": [
-          "First Aid Badge Requirement: One of the first requirements for this merit badge is to earn the First Aid merit badge (p. 15).",
-          "Recognizing Medical Emergencies Quickly: You need to be able to recognize what is wrong with a person and then react to the emergency with the correct treatment until medical help arrives (p. 15).",
-          "Immediate First Aid Readiness: You should know first aid so well that you would be able to react to any situation immediately (p. 15)."
+          "Airway Priority: Clearing blocked breathing passages always precedes treatment of secondary extremity fractures.",
+          "Hemorrhage Control: Direct pressure and arterial tourniquets stop catastrophic life-threatening blood loss quickly."
         ],
         "right_points": [
-          "Master Essential First Aid: You should know first aid so well that you would be able to react to any situation immediately (p. 15).",
-          "Stay Alert During Everyday Activities: What would you do in these situations? You are eating pizza with some friends (p. 15).",
-          "Watch for Sudden Childhood Hazards: Suddenly, your friend's little sister darts in and grabs some pizza (p. 15)."
+          "Shock Management: Raising legs and conserving body heat preserves vital organ perfusion effectively.",
+          "Triage Classification: Sorting casualties by injury severity ensures optimal allocation of medical resources."
         ],
         "rows": [
           {
             "attribute": "Airway Priority",
-            "left": "First Aid Badge Requirement: One of the first requirements for this merit badge is to earn the First Aid merit badge (p. 15).",
-            "right": "Master Essential First Aid: You should know first aid so well that you would be able to react to any situation immediately (p. 15)."
+            "left": "Airway Priority: Clearing blocked breathing passages always precedes treatment of secondary extremity fractures.",
+            "right": "Shock Management: Raising legs and conserving body heat preserves vital organ perfusion effectively."
           },
           {
             "attribute": "Hemorrhage Control",
-            "left": "Recognizing Medical Emergencies Quickly: You need to be able to recognize what is wrong with a person and then react to the emergency with the correct treatment until medical help arrives (p. 15).",
-            "right": "Stay Alert During Everyday Activities: What would you do in these situations? You are eating pizza with some friends (p. 15)."
+            "left": "Hemorrhage Control: Direct pressure and arterial tourniquets stop catastrophic life-threatening blood loss quickly.",
+            "right": "Triage Classification: Sorting casualties by injury severity ensures optimal allocation of medical resources."
           },
           {
             "attribute": "Shock Management",
-            "left": "Immediate First Aid Readiness: You should know first aid so well that you would be able to react to any situation immediately (p. 15).",
-            "right": "Watch for Sudden Childhood Hazards: Suddenly, your friend's little sister darts in and grabs some pizza (p. 15)."
+            "left": "Shock Management: Raising legs and conserving body heat preserves vital organ perfusion effectively.",
+            "right": "Triage Classification: Sorting casualties by injury severity ensures optimal allocation of medical resources."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 9 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 9 Worked Example: First Aid Preparedness Foundation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "First Aid Badge Requirement": "One of the first requirements for this merit badge is to earn the First Aid merit badge (p. 15).",
-          "Recognizing Medical Emergencies": "You need to be able to recognize what is wrong with a person and then react to the emergency with the correct treatment until medical help arrives (p. 15).",
-          "Immediate First Aid Readiness": "You should know first aid so well that you would be able to react to any situation immediately (p. 15).",
-          "Everyday Choking Emergency Scenarios": "What would you do in these situations? You are eating pizza with some friends (p. 15)."
+          "Phase 1 - Triage Evaluation": "Assess catastrophic scene injuries rapidly to prioritize patients requiring immediate airway interventions.",
+          "Phase 2 - Bleeding Suppression": "Apply direct mechanical pressure and tourniquets to arrest arterial bleeding immediately.",
+          "Phase 3 - Shock Prevention": "Position patients supine, raise lower extremities, and insulate against hypothermic exposure.",
+          "Phase 4 - Transport Preparation": "Stabilize fractures with padded rigid splints before moving casualties toward ambulances."
         },
-        "sample_output": "First Aid Merit Badge Prerequisite: One of the first requirements for this merit badge is to earn the First Aid merit badge (p. 15).",
-        "counselor_tip": "For Emergency Preparedness Requirement 9 (First Aid Merit Badge Prerequisite), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 15, p. 16))."
+        "sample_output": "Earning the First Aid merit badge instills foundational competence in managing airway obstruction, severe hemorrhage, shock, and traumatic injuries. Disaster situations require immediate clinical triage and stabilized care prior to professional emergency medical transport.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 9 conference on First Aid Preparedness Foundation, verify that the Scout can explain airway priority and demonstrate transport preparation: Stabilize fractures with padded rigid splints before moving casualties toward ambulances."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Emergency Preparedness merit badge require you to earn the First Aid merit badge?",
@@ -5896,13 +5909,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 10a: Disaster Coordinator",
-        "right_header": "Req 10b: Emergency Service Career",
+        "left_header": "Req 10a: Disaster Coordinator Professional Interview",
+        "right_header": "Req 10b: Emergency Service Career Exploration",
         "left_points": [
-          "(10a) Disaster Coordinator Professional Interview: Interviewing an emergency services coordinator reveals the administrative complexities of managing municipal disaster responses. Learning about daily logistics and interagency coordination highlights the preparation behind community crisis management."
+          "(10a) Disaster Coordinator Professional Interview: Interviewing an emergency services coordinator reveals the administrative complexities of managing municipal disaster responses. Learning about daily logistics and interagency coordination highlights the preparation behind community crisis management.",
+          "Coordinator Duties: Municipal coordinators draft emergency plans and manage community emergency operations centers."
         ],
         "right_points": [
-          "(10b) Emergency Service Career Exploration: Researching careers in paramedic services, emergency logistics, and industrial hygiene outlines educational and certification prerequisites. Understanding physical, psychological, and regulatory standards clarifies career readiness for crisis response."
+          "(10b) Emergency Service Career Exploration: Researching careers in paramedic services, emergency logistics, and industrial hygiene outlines educational and certification prerequisites. Understanding physical, psychological, and regulatory standards clarifies career readiness for crisis response.",
+          "(10c) Preparedness Lifestyle and Hobbies: Applying emergency skills to wilderness survival, amateur radio, and fitness builds a resilient lifestyle. Pursuing amateur radio licensing or volunteer search groups builds practical technical readiness."
         ],
         "rows": [
           {
@@ -5912,26 +5927,27 @@
           },
           {
             "attribute": "Professional Training",
-            "left": "Req 10a: Disaster Coordinator: Interviewing an emergency services coordinator reveals the administrative complexities of managing municipal disaster responses. Learning about daily logistics and interagency coordination highlights the preparation behind community crisis management.",
-            "right": "Req 10b: Emergency Service Career: Researching careers in paramedic services, emergency logistics, and industrial hygiene outlines educational and certification prerequisites. Understanding physical, psychological, and regulatory standards clarifies career readiness for crisis response."
+            "left": "Coordinator Duties: Municipal coordinators draft emergency plans and manage community emergency operations centers.",
+            "right": "(10c) Preparedness Lifestyle and Hobbies: Applying emergency skills to wilderness survival, amateur radio, and fitness builds a resilient lifestyle. Pursuing amateur radio licensing or volunteer search groups builds practical technical readiness."
           },
           {
             "attribute": "Public Administration",
-            "left": "Req 10c: Preparedness Lifestyle: Applying emergency skills to wilderness survival, amateur radio, and fitness builds a resilient lifestyle. Pursuing amateur radio licensing or volunteer search groups builds practical technical readiness.",
-            "right": "Professional Training: Degrees in homeland security and FEMA certifications prepare students for management."
+            "left": "Public Administration: Coordinating interagency resources requires expert knowledge of federal disaster declaration statutes.",
+            "right": "Amateur Radio: Volunteer radio certifications provide resilient communications support during municipal grid failures."
           }
         ]
       },
       "worked_example": {
-        "title": "Emergency Preparedness Req 10 Exemplar Workbook Entry",
+        "title": "Emergency Preparedness Req 10 Worked Example: Disaster Management Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 10a - Disaster Coordinator": "Interviewing an emergency services coordinator reveals the administrative complexities of managing municipal disaster responses. Learning about daily logistics and interagency coordination highlights the preparation behind community crisis management.",
-          "Req 10b - Emergency Service Career": "Researching careers in paramedic services, emergency logistics, and industrial hygiene outlines educational and certification prerequisites. Understanding physical, psychological, and regulatory standards clarifies career readiness for crisis response.",
-          "Req 10c - Preparedness Lifestyle": "Applying emergency skills to wilderness survival, amateur radio, and fitness builds a resilient lifestyle. Pursuing amateur radio licensing or volunteer search groups builds practical technical readiness."
+          "Phase 1 - Professional Identification": "Select an active municipal emergency coordinator, paramedic supervisor, or safety engineer.",
+          "Phase 2 - Career Interview": "Conduct a structured dialogue exploring operational responsibilities, educational paths, and hardships.",
+          "Phase 3 - Pathway Research": "Investigate degree programs, FEMA certifications, and physical requirements for chosen specializations.",
+          "Phase 4 - Counselor Presentation": "Summarize findings regarding professional requirements and personal hobby applications with counselors."
         },
-        "sample_output": "Emergency Management Careers and Service: Usually, Scouts are called together through a troop mobilization plan (p. 81).",
-        "counselor_tip": "For Emergency Preparedness Requirement 10 (Emergency Management Careers and Service), verify the Scout's own observations and specific pamphlet details (Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88))."
+        "sample_output": "Disaster management careers encompass municipal emergency coordinators, industrial safety specialists, public health directors, and search personnel. Professional success demands rigorous certification in incident management, risk analysis, communications, and public administration.",
+        "counselor_tip": "During the Emergency Preparedness Requirement 10 conference on Disaster Management Career Pathways, verify that the Scout can explain coordinator duties and demonstrate counselor presentation: Summarize findings regarding professional requirements and personal hobby applications with counselors."
       },
       "quiz_item": {
         "scenario_prompt": "When organizing a troop lost-child training exercise, how does the Emergency Preparedness pamphlet recommend creating a realistic search target?",

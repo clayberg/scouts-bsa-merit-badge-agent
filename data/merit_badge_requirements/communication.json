@@ -411,7 +411,7 @@
       "action_verb": "Describe",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Protect personal identity data by excluding phone numbers and home addresses from logs.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -479,14 +479,10 @@
         "Step 3 - Communication Category Grouping: Classify each recorded entry into listening, speaking, reading, or digital messaging categories.",
         "Step 4 - Pattern Review Session: Calculate the total minutes spent across each medium during the observation period."
       ],
-      "gear_checklist": [
-        "Official Communication Merit Badge: Communication Activities Time Spend.",
-        "Field notebook, verification log sheet, and demonstration materials for Communication Activities Time Spend.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 1a: Daily Communication Activity Log",
-        "right_header": "Req 1c: Small Group Personal",
+        "right_header": "Req 1c: Small Group Personal Storytelling",
         "left_points": [
           "(1a) Daily Communication Activity Log: Logging all communication across twenty-four hours uncovers personal time allocation patterns. Comparing listening time against speaking time highlights balance in personal exchanges.",
           "(1b) Three Day Listening Journal: Tracking listening experiences across three consecutive days identifies specific conversational objectives. Differentiating between informational, critical, and empathetic listening sharpens communication awareness."
@@ -508,22 +504,22 @@
           },
           {
             "attribute": "Nonverbal Signal Analysis",
-            "left": "Req 1a: Daily Communication Activity: Logging all communication across twenty-four hours uncovers personal time allocation patterns. Comparing listening time against speaking time highlights balance in personal exchanges.",
-            "right": "Req 1b: Three Day Listening Journal: Tracking listening experiences across three consecutive days identifies specific conversational objectives. Differentiating between informational, critical, and empathetic listening sharpens communication awareness."
+            "left": "Nonverbal Signal Analysis: Facial expressions and body posture alter the intended emotional meaning of words.",
+            "right": "Medium Selection Criteria: Choosing between phone calls and written letters depends on message urgency levels."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 1 Exemplar Workbook Entry: Daily",
+        "title": "Communication Req 1 Worked Example: Personal Communication Exchange Methods",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 1a - Daily Communication Activity": "Logging all communication across twenty-four hours uncovers personal time allocation patterns. Comparing listening time against speaking time highlights balance in personal exchanges.",
-          "Req 1b - Three Day Listening Journal": "Tracking listening experiences across three consecutive days identifies specific conversational objectives. Differentiating between informational, critical, and empathetic listening sharpens communication awareness.",
-          "Req 1c - Small Group Personal": "Meeting with peers to share formative personal stories builds mutual empathy and understanding. Taking notes during peer narratives trains listeners to remember major life events accurately.",
-          "Req 1d - Communication Method": "Cataloging communication methods contrasts instantaneous digital tools against permanent written correspondence. Examining advantages and drawbacks ensures appropriate medium selection for diverse situational contexts."
+          "Phase 1 - Log Sheet Preparation": "Create a notebook chart with columns for time, method, and participants.",
+          "Phase 2 - Interaction Data Recording": "Record every conversation or digital exchange immediately after the interaction concludes.",
+          "Phase 3 - Communication Category Grouping": "Classify each recorded entry into listening, speaking, reading, or digital messaging categories.",
+          "Phase 4 - Pattern Review Session": "Calculate the total minutes spent across each medium during the observation period."
         },
-        "sample_output": "Daily Communication and Active Listening: They can be just about any length and can have attachments such as photographs, videos, or documents (p. 18).",
-        "counselor_tip": "For Communication Requirement 1 (Daily Communication and Active Listening), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22))."
+        "sample_output": "Human communication involves sending and receiving messages through spoken words, written channels, and body language. Tracking daily interactions reveals personal habits, active listening gaps, and primary digital channels.",
+        "counselor_tip": "During the Communication Requirement 1 conference on Personal Communication Exchange Methods, verify that the Scout can explain daily interaction tracking and demonstrate pattern review session: Calculate the total minutes spent across each medium during the observation period."
       },
       "quiz_item": {
         "scenario_prompt": "During an interpersonal conversation or troop leadership council meeting for Communication Requirement 1, which behavior demonstrates effective active listening?",
@@ -782,7 +778,7 @@
       "action_verb": "Describe",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Secure display boards and demonstration items so heavy objects cannot tip over.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -846,19 +842,17 @@
         "Step 3 - Delivery Rehearsal Practice: Rehearse the presentation aloud while timing delivery and checking visual aid transitions.",
         "Step 4 - Presentation Delivery Execution: Present the material to the designated audience while maintaining consistent eye contact."
       ],
-      "gear_checklist": [
-        "Official Communication Merit Badge: Concept Product or Service.",
-        "Field notebook, verification log sheet, and demonstration materials for Concept Product or Service.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Creative Self Description",
-        "right_header": "Req 2b: Persuasive Sales Plan",
+        "left_header": "Req 2a: Creative Self Description Presentation",
+        "right_header": "Req 2b: Persuasive Sales Plan Demonstration",
         "left_points": [
-          "(2a) Creative Self Description Presentation: Designing a creative aid such as a collage or autobiography reveals personal values to peers. Presenting this aid teaches Scouts how to organize personal life stories for audiences."
+          "(2a) Creative Self Description Presentation: Designing a creative aid such as a collage or autobiography reveals personal values to peers. Presenting this aid teaches Scouts how to organize personal life stories for audiences.",
+          "Visual Aid Selection: Choose collages or photographs that illustrate personal background attributes and values."
         ],
         "right_points": [
-          "(2b) Persuasive Sales Plan Demonstration: Building a persuasive sales presentation requires analyzing product benefits from the buyer perspective. Structuring the pitch around real customer needs helps close transactions effectively."
+          "(2b) Persuasive Sales Plan Demonstration: Building a persuasive sales presentation requires analyzing product benefits from the buyer perspective. Structuring the pitch around real customer needs helps close transactions effectively.",
+          "Presentation Outline Structure: Organize main ideas into introduction, body proof points, and closing calls."
         ],
         "rows": [
           {
@@ -868,25 +862,27 @@
           },
           {
             "attribute": "Product Benefit Alignment",
-            "left": "Req 2a: Creative Self Description: Designing a creative aid such as a collage or autobiography reveals personal values to peers. Presenting this aid teaches Scouts how to organize personal life stories for audiences.",
-            "right": "Req 2b: Persuasive Sales Plan: Building a persuasive sales presentation requires analyzing product benefits from the buyer perspective. Structuring the pitch around real customer needs helps close transactions effectively."
+            "left": "Visual Aid Selection: Choose collages or photographs that illustrate personal background attributes and values.",
+            "right": "Presentation Outline Structure: Organize main ideas into introduction, body proof points, and closing calls."
           },
           {
             "attribute": "Presentation Outline Structure",
-            "left": "Visual Aid Selection: Choose collages or photographs that illustrate personal background attributes and values.",
-            "right": "Product Benefit Alignment: Focus persuasive arguments on how specific product features solve actual consumer problems."
+            "left": "Presentation Outline Structure: Organize main ideas into introduction, body proof points, and closing calls.",
+            "right": "Audience Feedback Evaluation: Observe listener facial reactions to adjust speaking tone during the presentation delivery."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 2 Exemplar Workbook Entry: Personal",
+        "title": "Communication Req 2 Worked Example: Creative Personal Identity Presentation",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Creative Self Description": "Designing a creative aid such as a collage or autobiography reveals personal values to peers. Presenting this aid teaches Scouts how to organize personal life stories for audiences.",
-          "Req 2b - Persuasive Sales Plan": "Building a persuasive sales presentation requires analyzing product benefits from the buyer perspective. Structuring the pitch around real customer needs helps close transactions effectively."
+          "Phase 1 - Medium Concept Selection": "Select a creative medium or service topic that fits your personal confidence.",
+          "Phase 2 - Outline Draft Creation": "Write a clear speaking outline connecting visual aids to key audience points.",
+          "Phase 3 - Delivery Rehearsal Practice": "Rehearse the presentation aloud while timing delivery and checking visual aid transitions.",
+          "Phase 4 - Presentation Delivery Execution": "Present the material to the designated audience while maintaining consistent eye contact."
         },
-        "sample_output": "Personal Expression and Persuasive Pitches: As ales pitch is a persuasive speech in which you try to get someone to buy your product or service (p. 24).",
-        "counselor_tip": "For Communication Requirement 2 (Personal Expression and Persuasive Pitches), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25))."
+        "sample_output": "Expressing personal identity or pitching a service requires organizing compelling evidence for audiences. Creative visual aids and structured sales points turn abstract ideas into persuasive presentations.",
+        "counselor_tip": "During the Communication Requirement 2 conference on Creative Personal Identity Presentation, verify that the Scout can explain visual aid selection and demonstrate presentation delivery execution: Present the material to the designated audience while maintaining consistent eye contact."
       },
       "quiz_item": {
         "scenario_prompt": "What is one of the most effective ways to open or organize a persuasive sales pitch?",
@@ -982,7 +978,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Tape down microphone cables and clear speaking podium pathways to prevent tripping hazards.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35)",
       "syllabus_bucket": "In-Class Concept",
@@ -1048,47 +1044,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Checking Availability by Phone",
-        "right_header": "Req 3: Confirm Spelling and Titles",
+        "left_header": "Five Minute Speech Delivery: Core Principles",
+        "right_header": "Five Minute Speech Delivery: Field Execution",
         "left_points": [
-          "Checking Availability by Phone: If you contact the person by phone, ask if this is a good time to talk (p. 33).",
-          "Scheduling a Call back Time: If it is not a good time, ask when you should call back (p. 33).",
-          "Verifying Names and Titles: Start by asking the person to spell his or her name and tell you his or her title (p. 33)."
+          "Speech Topic Narrowing: Limit the central thesis to one specific concept manageable within five minutes.",
+          "Introduction Hook Design: Open with a compelling question or narrative that immediately engages the audience."
         ],
         "right_points": [
-          "Confirm Spelling and Titles: Start by asking the person to spell his or her name and tell you his or her title (p. 33).",
-          "Ask Clear Research Questions: Speak clearly and slowly so the person can understand your questions. If you do not understand a response, ask the same question in another way (p. 33).",
-          "Paraphrase to Verify Accuracy: You could also state the response in your ownwords and ask if you got it right (p. 33)."
+          "Speech Transition Phrasing: Connect supporting body paragraphs using clear verbal signposts that guide listeners smoothly.",
+          "Vocal Projection Control: Project your voice from the diaphragm to reach listeners in the back."
         ],
         "rows": [
           {
             "attribute": "Speech Topic Narrowing",
-            "left": "Checking Availability by Phone: If you contact the person by phone, ask if this is a good time to talk (p. 33).",
-            "right": "Confirm Spelling and Titles: Start by asking the person to spell his or her name and tell you his or her title (p. 33)."
+            "left": "Speech Topic Narrowing: Limit the central thesis to one specific concept manageable within five minutes.",
+            "right": "Speech Transition Phrasing: Connect supporting body paragraphs using clear verbal signposts that guide listeners smoothly."
           },
           {
             "attribute": "Introduction Hook Design",
-            "left": "Scheduling a Call back Time: If it is not a good time, ask when you should call back (p. 33).",
-            "right": "Ask Clear Research Questions: Speak clearly and slowly so the person can understand your questions. If you do not understand a response, ask the same question in another way (p. 33)."
+            "left": "Introduction Hook Design: Open with a compelling question or narrative that immediately engages the audience.",
+            "right": "Vocal Projection Control: Project your voice from the diaphragm to reach listeners in the back."
           },
           {
             "attribute": "Speech Transition Phrasing",
-            "left": "Verifying Names and Titles: Start by asking the person to spell his or her name and tell you his or her title (p. 33).",
-            "right": "Paraphrase to Verify Accuracy: You could also state the response in your ownwords and ask if you got it right (p. 33)."
+            "left": "Speech Transition Phrasing: Connect supporting body paragraphs using clear verbal signposts that guide listeners smoothly.",
+            "right": "Vocal Projection Control: Project your voice from the diaphragm to reach listeners in the back."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 3 Exemplar Workbook Entry: Writing",
+        "title": "Communication Req 3 Worked Example: Five Minute Speech Delivery",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Checking Availability by Phone": "If you contact the person by phone, ask if this is a good time to talk (p. 33).",
-          "Scheduling a Call back Time": "If it is not a good time, ask when you should call back (p. 33).",
-          "Verifying Names and Titles": "Start by asking the person to spell his or her name and tell you his or her title (p. 33).",
-          "Speaking Clearly and Rephrasing": "Speak clearly and slowly so the person can understand your questions. If you do not understand a response, ask the same question in another way (p. 33)."
+          "Phase 1 - Topic Outline Formulation": "Draft a three part outline containing an introduction, body, and conclusion.",
+          "Phase 2 - Script Manuscript Writing": "Write the complete speech draft ensuring logical flow between all supporting points.",
+          "Phase 3 - Timed Speaking Rehearsal": "Practice speaking the text aloud with a stopwatch to confirm five minutes.",
+          "Phase 4 - Audience Presentation Delivery": "Deliver the finished speech before a group using natural eye contact sweeps."
         },
-        "sample_output": "Writing and Delivering Group Speeches: If you contact the person by phone, ask if this is a good time to talk (p. 33).",
-        "counselor_tip": "For Communication Requirement 3 (Writing and Delivering Group Speeches), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 33, p. 35))."
+        "sample_output": "Writing an effective five-minute speech demands a focused thesis supported by relevant evidence. Delivering the address before an audience builds vocal projection, posture, and poise.",
+        "counselor_tip": "During the Communication Requirement 3 conference on Five Minute Speech Delivery, verify that the Scout can explain speech topic narrowing and demonstrate audience presentation delivery: Deliver the finished speech before a group using natural eye contact sweeps."
       },
       "quiz_item": {
         "scenario_prompt": "When conducting a phone interview to gather material, where should you place your most difficult questions?",
@@ -1176,7 +1170,7 @@
       "action_verb": "Discuss",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Conduct youth interviews in public rooms adhering strictly to two deep adult leadership.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1244,53 +1238,47 @@
         "Step 3 - Interview Execution Phase: Conduct the meeting while recording accurate notes and practicing active conversational listening.",
         "Step 4 - Introduction Delivery: Present a formal biographical introduction of the subject to the merit counselor."
       ],
-      "gear_checklist": [
-        "Official Communication Merit Badge: Communication Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Communication Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Selecting a Local Subject",
-        "right_header": "Req 4: Gather Notebook or Laptop",
+        "left_header": "Active Subject Biographical Interview: Core Principles",
+        "right_header": "Active Subject Biographical Interview: Field Execution",
         "left_points": [
-          "Selecting a Local Subject: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 17).",
-          "Extending a Speaker Invitation: You also need to show your counselor how you will invite your neighbor to speak at the meeting (p. 17).",
-          "Preparing Note-Taking Tools: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 17)."
+          "Question Preparation Strategy: Formulate open ended questions requiring thoughtful explanations rather than simple yes answers.",
+          "Active Note Taking: Record key dates, quotations, and life lessons while maintaining polite conversational rapport."
         ],
         "right_points": [
-          "Gather Notebook or Laptop: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 17).",
-          "Set Up Hands-Free Audio: If you have a wireless headset for a cell phone, you can listen hands-free while typing your notes (p. 17).",
-          "Make a Polite Request: Tell the neighbor that you are a member of Scouts BSA and ask her politely if you could interview her as part of your Communication merit (p. 17)."
+          "Biographical Theme Synthesis: Extract central accomplishments and character values from the raw interview conversational transcript.",
+          "Introduction Speech Delivery: Introduce the subject by summarizing their achievements to the counselor with dignity."
         ],
         "rows": [
           {
             "attribute": "Question Preparation Strategy",
-            "left": "Selecting a Local Subject: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 17).",
-            "right": "Gather Notebook or Laptop: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 17)."
+            "left": "Question Preparation Strategy: Formulate open ended questions requiring thoughtful explanations rather than simple yes answers.",
+            "right": "Biographical Theme Synthesis: Extract central accomplishments and character values from the raw interview conversational transcript."
           },
           {
             "attribute": "Active Note Taking",
-            "left": "Extending a Speaker Invitation: You also need to show your counselor how you will invite your neighbor to speak at the meeting (p. 17).",
-            "right": "Set Up Hands-Free Audio: If you have a wireless headset for a cell phone, you can listen hands-free while typing your notes (p. 17)."
+            "left": "Active Note Taking: Record key dates, quotations, and life lessons while maintaining polite conversational rapport.",
+            "right": "Introduction Speech Delivery: Introduce the subject by summarizing their achievements to the counselor with dignity."
           },
           {
             "attribute": "Biographical Theme Synthesis",
-            "left": "Preparing Note-Taking Tools: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 17).",
-            "right": "Make a Polite Request: Tell the neighbor that you are a member of Scouts BSA and ask her politely if you could interview her as part of your Communication merit (p. 17)."
+            "left": "Biographical Theme Synthesis: Extract central accomplishments and character values from the raw interview conversational transcript.",
+            "right": "Introduction Speech Delivery: Introduce the subject by summarizing their achievements to the counselor with dignity."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 4 Exemplar Workbook Entry",
+        "title": "Communication Req 4 Worked Example: Active Subject Biographical Interview",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Selecting a Local Subject": "Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 17).",
-          "Extending a Speaker Invitation": "You also need to show your counselor how you will invite your neighbor to speak at the meeting (p. 17).",
-          "Preparing Note-Taking Tools": "Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 17).",
-          "Using Hands-Free Headsets": "If you have a wireless headset for a cell phone, you can listen hands-free while typing your notes (p. 17)."
+          "Phase 1 - Subject Candidate Selection": "Choose a respected acquaintance with significant career or unique life experience background.",
+          "Phase 2 - Interview Question Composition": "Write ten open ended questions exploring career milestones, challenges, and personal achievements.",
+          "Phase 3 - Interview Execution Phase": "Conduct the meeting while recording accurate notes and practicing active conversational listening.",
+          "Phase 4 - Introduction Delivery": "Present a formal biographical introduction of the subject to the merit counselor."
         },
-        "sample_output": "Interviewing and Introducing Guest Speakers: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 17).",
-        "counselor_tip": "For Communication Requirement 4 (Interviewing and Introducing Guest Speakers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 17, p. 30))."
+        "sample_output": "Conducting a biographical interview demands open-ended questions that prompt detailed personal reflections. Synthesizing interview responses into an introduction speech requires highlighting the subject key accomplishments.",
+        "counselor_tip": "During the Communication Requirement 4 conference on Active Subject Biographical Interview, verify that the Scout can explain question preparation strategy and demonstrate introduction delivery: Present a formal biographical introduction of the subject to the merit counselor."
       },
       "quiz_item": {
         "scenario_prompt": "How can you make taking typed notes on a computer easier during a telephone interview?",
@@ -1382,7 +1370,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Coordinate travel and seating with parents or leaders when attending public municipal facilities.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1453,53 +1441,47 @@
         "Step 3 - Perspective Argument Recording: Take systematic notes detailing evidence presented by speakers representing contrasting viewpoints.",
         "Step 4 - Balanced Report Submission: Write an impartial written summary outlining opposing positions for the counselor review."
       ],
-      "gear_checklist": [
-        "Official Communication Merit Badge: Public Meeting City Council School.",
-        "Field notebook, verification log sheet, and demonstration materials for Public Meeting City Council School.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Preparing for Community Speakers",
-        "right_header": "Req 5: Bring Dedicated Note Materials",
+        "left_header": "Public Meeting Objective Report: Core Principles",
+        "right_header": "Public Meeting Objective Report: Field Execution",
         "left_points": [
-          "Preparing for Community Speakers: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 30).",
-          "Coordinating Meeting Invitations: You also need to show your counselor how you will invite your neighbor to speak at the meeting (p. 30).",
-          "Organizing Note-Taking Supplies: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 30)."
+          "Meeting Agenda Review: Study the public meeting agenda beforehand to understand upcoming debate action items.",
+          "Multi Perspective Note Taking: Document arguments presented by competing speakers without recording personal subjective opinions."
         ],
         "right_points": [
-          "Bring Dedicated Note Materials: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 30).",
-          "Keep Hands Free for Notes: If you have a wireless headset for a cell phone, you can listen hands-free while typing your notes (p. 30).",
-          "Introduce Your Scouting Role: Tell the neighbor that you are a member of Scouts BSA and ask her politely if you could interview her as part of your Communication merit (p. 30)."
+          "Objective Summary Composition: Write a balanced report stating both supporting and opposing civic policy arguments.",
+          "Civic Procedure Observation: Note how meeting chairs enforce parliamentary procedure and public speaking time limits."
         ],
         "rows": [
           {
             "attribute": "Meeting Agenda Review",
-            "left": "Preparing for Community Speakers: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 30).",
-            "right": "Bring Dedicated Note Materials: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 30)."
+            "left": "Meeting Agenda Review: Study the public meeting agenda beforehand to understand upcoming debate action items.",
+            "right": "Objective Summary Composition: Write a balanced report stating both supporting and opposing civic policy arguments."
           },
           {
             "attribute": "Multi Perspective Note Taking",
-            "left": "Coordinating Meeting Invitations: You also need to show your counselor how you will invite your neighbor to speak at the meeting (p. 30).",
-            "right": "Keep Hands Free for Notes: If you have a wireless headset for a cell phone, you can listen hands-free while typing your notes (p. 30)."
+            "left": "Multi Perspective Note Taking: Document arguments presented by competing speakers without recording personal subjective opinions.",
+            "right": "Civic Procedure Observation: Note how meeting chairs enforce parliamentary procedure and public speaking time limits."
           },
           {
             "attribute": "Objective Summary Composition",
-            "left": "Organizing Note-Taking Supplies: Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 30).",
-            "right": "Introduce Your Scouting Role: Tell the neighbor that you are a member of Scouts BSA and ask her politely if you could interview her as part of your Communication merit (p. 30)."
+            "left": "Objective Summary Composition: Write a balanced report stating both supporting and opposing civic policy arguments.",
+            "right": "Civic Procedure Observation: Note how meeting chairs enforce parliamentary procedure and public speaking time limits."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 5 Exemplar Workbook Entry: Observing",
+        "title": "Communication Req 5 Worked Example: Public Meeting Objective Report",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Preparing for Community Speakers": "Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 30).",
-          "Coordinating Meeting Invitations": "You also need to show your counselor how you will invite your neighbor to speak at the meeting (p. 30).",
-          "Organizing Note-Taking Supplies": "Have as mall notebook and pen or a laptop or computer with you when you make the call (p. 30).",
-          "Recording Detailed Meeting Notes": "If you have a wireless headset for a cell phone, you can listen hands-free while typing your notes (p. 30)."
+          "Phase 1 - Meeting Approval Confirmation": "Secure counselor approval before attending a local municipal council or school board.",
+          "Phase 2 - Civic Debate Attendance": "Attend the scheduled session while observing speaker decorum and official parliamentary rules.",
+          "Phase 3 - Perspective Argument Recording": "Take systematic notes detailing evidence presented by speakers representing contrasting viewpoints.",
+          "Phase 4 - Balanced Report Submission": "Write an impartial written summary outlining opposing positions for the counselor review."
         },
-        "sample_output": "Observing Public Meetings Objectively: Tips for Interviewing and Introducing a Guest Speaker Let's say you have a neighbor who is a police detective (p. 30).",
-        "counselor_tip": "For Communication Requirement 5 (Observing Public Meetings Objectively), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35))."
+        "sample_output": "Attending a civic meeting exposes Scouts to diverse viewpoints on contentious community issues. Producing an objective report requires separating factual arguments from personal emotional biases.",
+        "counselor_tip": "During the Communication Requirement 5 conference on Public Meeting Objective Report, verify that the Scout can explain meeting agenda review and demonstrate balanced report submission: Write an impartial written summary outlining opposing positions for the counselor review."
       },
       "quiz_item": {
         "scenario_prompt": "What makes a report on a contentious public meeting truly objective?",
@@ -1587,7 +1569,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Inspect all teaching tools and training props before student handling begins.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39)",
       "syllabus_bucket": "In-Class Concept",
@@ -1662,47 +1644,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Developing a Teaching Plan",
-        "right_header": "Req 6: Outline Sequential Instruction",
+        "left_header": "Instructional Skill Teaching Plan: Core Principles",
+        "right_header": "Instructional Skill Teaching Plan: Field Execution",
         "left_points": [
-          "Developing a Teaching Plan: For requirement 6, you will develop a plan to teach a skill or inform someone about a subject (p. 37).",
-          "Applying Speech Preparation Steps: Use a process similar to the one you used to prepare your short speech (p. 37).",
-          "Breaking Topics into Steps: As you form the outline, think about how you could break down the subject into step-by-step instructions (p. 37)."
+          "Learning Objective Definition: Define exact skills the learner must independently demonstrate upon session completion.",
+          "Visual Teaching Aid: Create clear diagrams or physical mockups that clarify technical process steps."
         ],
         "right_points": [
-          "Outline Sequential Instruction Steps: As you form the outline, think about how you could break down the subject into step-by-step instructions (p. 37).",
-          "Choose an Engaging Skill: Pick asubject or skill that is (1) something you know well, and (2) something that a friend, relative, or troop member might like to learn (p. 37).",
-          "Select Four Practical Knots: First, choose four basic knots that are useful in different situations (p. 37)."
+          "Edge Method Execution: Explain, demonstrate, guide, and enable the learner through hands on practice.",
+          "Comprehension Assessment Verification: Test the student ability to perform the skill independently without instructor coaching."
         ],
         "rows": [
           {
             "attribute": "Learning Objective Definition",
-            "left": "Developing a Teaching Plan: For requirement 6, you will develop a plan to teach a skill or inform someone about a subject (p. 37).",
-            "right": "Outline Sequential Instruction Steps: As you form the outline, think about how you could break down the subject into step-by-step instructions (p. 37)."
+            "left": "Learning Objective Definition: Define exact skills the learner must independently demonstrate upon session completion.",
+            "right": "Edge Method Execution: Explain, demonstrate, guide, and enable the learner through hands on practice."
           },
           {
             "attribute": "Visual Teaching Aid",
-            "left": "Applying Speech Preparation Steps: Use a process similar to the one you used to prepare your short speech (p. 37).",
-            "right": "Choose an Engaging Skill: Pick asubject or skill that is (1) something you know well, and (2) something that a friend, relative, or troop member might like to learn (p. 37)."
+            "left": "Visual Teaching Aid: Create clear diagrams or physical mockups that clarify technical process steps.",
+            "right": "Comprehension Assessment Verification: Test the student ability to perform the skill independently without instructor coaching."
           },
           {
             "attribute": "Edge Method Execution",
-            "left": "Breaking Topics into Steps: As you form the outline, think about how you could break down the subject into step-by-step instructions (p. 37).",
-            "right": "Select Four Practical Knots: First, choose four basic knots that are useful in different situations (p. 37)."
+            "left": "Edge Method Execution: Explain, demonstrate, guide, and enable the learner through hands on practice.",
+            "right": "Comprehension Assessment Verification: Test the student ability to perform the skill independently without instructor coaching."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 6 Exemplar Workbook Entry: Planning",
+        "title": "Communication Req 6 Worked Example: Instructional Skill Teaching Plan",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Developing a Teaching Plan": "For requirement 6, you will develop a plan to teach a skill or inform someone about a subject (p. 37).",
-          "Applying Speech Preparation Steps": "Use a process similar to the one you used to prepare your short speech (p. 37).",
-          "Breaking Topics into Steps": "As you form the outline, think about how you could break down the subject into step-by-step instructions (p. 37).",
-          "Selecting a Familiar Skill": "Pick asubject or skill that is (1) something you know well, and (2) something that a friend, relative, or troop member might like to learn (p. 37)."
+          "Phase 1 - Teaching Plan Formulation": "Write a structured lesson plan detailing objectives, equipment, and teaching steps.",
+          "Phase 2 - Visual Aid Construction": "Build physical posters or sample props that illustrate correct hands on techniques.",
+          "Phase 3 - Instructional Session Execution": "Teach the chosen topic using progressive demonstration and guided hands on practice.",
+          "Phase 4 - Knowledge Assessment Check": "Evaluate student performance to confirm whether the intended learning outcomes were met."
         },
-        "sample_output": "Planning and Teaching a Skill: For requirement 6, you will develop a plan to teach a skill or inform someone about a subject (p. 37).",
-        "counselor_tip": "For Communication Requirement 6 (Planning and Teaching a Skill), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39))."
+        "sample_output": "Teaching a technical skill requires breaking complex tasks into clear sequential demonstrations. Assessing learner comprehension confirms whether instructional objectives were achieved or require remedial review.",
+        "counselor_tip": "During the Communication Requirement 6 conference on Instructional Skill Teaching Plan, verify that the Scout can explain learning objective definition and demonstrate knowledge assessment check: Evaluate student performance to confirm whether the intended learning outcomes were met."
       },
       "quiz_item": {
         "scenario_prompt": "What two criteria should guide your choice of a subject or skill to teach for Requirement 6?",
@@ -2074,7 +2054,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never publish personal youth contact information or home locations in public media.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2145,19 +2125,17 @@
         "Step 3 - Media Graphic Integration: Insert high contrast photographs or original graphics with descriptive identifying captions.",
         "Step 4 - Publication Delivery: Transmit the finished work to the editor or distribute copies to readers."
       ],
-      "gear_checklist": [
-        "Official Communication Merit Badge: Webpage or Blog of Special.",
-        "Field notebook, verification log sheet, and demonstration materials for Webpage or Blog of Special.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 7a: Editorial Opinion Letter Writing",
-        "right_header": "Req 7b: Special Interest Webpage",
+        "right_header": "Req 7b: Special Interest Webpage Creation",
         "left_points": [
-          "(7a) Editorial Opinion Letter Writing: Writing a letter to an editor gives citizens a voice on local and national community concerns. Concise arguments supported by personal observations increase the likelihood of newspaper publication."
+          "(7a) Editorial Opinion Letter Writing: Writing a letter to an editor gives citizens a voice on local and national community concerns. Concise arguments supported by personal observations increase the likelihood of newspaper publication.",
+          "Editorial Message Clarity: State the main opinion or community issue clearly in the opening paragraph."
         ],
         "right_points": [
-          "(7b) Special Interest Webpage Creation: Creating a specialized website involves publishing articles, graphics, and navigation tailored to an online audience. Structuring content cleanly enables visitors to locate relevant information rapidly across mobile devices."
+          "(7b) Special Interest Webpage Creation: Creating a specialized website involves publishing articles, graphics, and navigation tailored to an online audience. Structuring content cleanly enables visitors to locate relevant information rapidly across mobile devices.",
+          "(7c) Desktop Published Newsletter Production: Using desktop publishing tools allows organizations to produce cohesive print layouts combining text columns and images. Proper typography and visual hierarchy ensure readers absorb troop announcements and event details."
         ],
         "rows": [
           {
@@ -2167,26 +2145,27 @@
           },
           {
             "attribute": "Digital Layout Hierarchy",
-            "left": "Req 7a: Editorial Opinion Letter: Writing a letter to an editor gives citizens a voice on local and national community concerns. Concise arguments supported by personal observations increase the likelihood of newspaper publication.",
-            "right": "Req 7b: Special Interest Webpage: Creating a specialized website involves publishing articles, graphics, and navigation tailored to an online audience. Structuring content cleanly enables visitors to locate relevant information rapidly across mobile devices."
+            "left": "Editorial Message Clarity: State the main opinion or community issue clearly in the opening paragraph.",
+            "right": "(7c) Desktop Published Newsletter Production: Using desktop publishing tools allows organizations to produce cohesive print layouts combining text columns and images. Proper typography and visual hierarchy ensure readers absorb troop announcements and event details."
           },
           {
             "attribute": "Fact Checking Rigor",
-            "left": "Req 7c: Desktop Published Newsletter: Using desktop publishing tools allows organizations to produce cohesive print layouts combining text columns and images. Proper typography and visual hierarchy ensure readers absorb troop announcements and event details.",
-            "right": "Digital Layout Hierarchy: Organize headings and photos to guide reader eyes through online news pages."
+            "left": "Fact Checking Rigor: Confirm all names, dates, and quoted statements before submitting the final draft.",
+            "right": "Desktop Publishing Alignment: Balance white space, margins, and typography to enhance printed publication legibility."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 7 Exemplar Workbook Entry: Publishing",
+        "title": "Communication Req 7 Worked Example: Mass Media Written Publications",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Editorial Opinion Letter": "Writing a letter to an editor gives citizens a voice on local and national community concerns. Concise arguments supported by personal observations increase the likelihood of newspaper publication.",
-          "Req 7b - Special Interest Webpage": "Creating a specialized website involves publishing articles, graphics, and navigation tailored to an online audience. Structuring content cleanly enables visitors to locate relevant information rapidly across mobile devices.",
-          "Req 7c - Desktop Published Newsletter": "Using desktop publishing tools allows organizations to produce cohesive print layouts combining text columns and images. Proper typography and visual hierarchy ensure readers absorb troop announcements and event details."
+          "Phase 1 - Publishing Option Selection": "Choose between a newspaper letter, digital webpage, or printed troop newsletter.",
+          "Phase 2 - Article Content Drafting": "Write original articles featuring factual details, proper grammar, and clear reader relevance.",
+          "Phase 3 - Media Graphic Integration": "Insert high contrast photographs or original graphics with descriptive identifying captions.",
+          "Phase 4 - Publication Delivery": "Transmit the finished work to the editor or distribute copies to readers."
         },
-        "sample_output": "Publishing in Print and Digital Media: Active Communication and the Digital Revolution. the blogger, with the newest at the top (p. 49).",
-        "counselor_tip": "For Communication Requirement 7 (Publishing in Print and Digital Media), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50))."
+        "sample_output": "Mass communication channels distribute news and opinions to wide community audiences through print or digital platforms. Adhering to publication deadlines, editorial guidelines, and audience interest produces impactful journalism.",
+        "counselor_tip": "During the Communication Requirement 7 conference on Mass Media Written Publications, verify that the Scout can explain editorial message clarity and demonstrate publication delivery: Transmit the finished work to the editor or distribute copies to readers."
       },
       "quiz_item": {
         "scenario_prompt": "How are entries typically organized on a blog?",
@@ -2298,7 +2277,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Check stage stairs, lighting cords, and campfire perimeters for clear walking pathways.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)",
       "syllabus_bucket": "In-Class Concept",
@@ -2366,47 +2345,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Gratitude for Daily Blessings",
-        "right_header": "Req 8: Acknowledge Shared Spiritual",
+        "left_header": "Ceremonial Master of Ceremonies: Core Principles",
+        "right_header": "Ceremonial Master of Ceremonies: Field Execution",
         "left_points": [
-          "Gratitude for Daily Blessings: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
-          "Joyful Songs and Gathering: Serve the Lord with gladness! \u0007Come into his presence with singing (p. 57).",
-          "Shared Community and Reverence: Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheep of his pasture (p. 57)."
+          "Program Script Preparation: Draft a detailed script naming all speakers, award presenters, and stage cues.",
+          "Council Approval Verification: Submit the tentative ceremony agenda to the patrol leaders council for review."
         ],
         "right_points": [
-          "Acknowledge Shared Spiritual Heritage: Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheep of his pasture (p. 57).",
-          "Open with Thanksgiving Praise: Enter into his gates with thanksgiving, and his courts with praise! \u0007Give thanks to him; bless his name (p. 57).",
-          "Reflect on Enduring Faithfulness: For the Lord is good; his steadfast love endures forever, and his faithfulness to all generations (p. 57)."
+          "Stage Flow Coordination: Direct participant entrances and award handoffs to maintain steady ceremonial momentum.",
+          "Stage Presence Management: Speak clearly into microphones while keeping the audience attentive to honored recipients."
         ],
         "rows": [
           {
             "attribute": "Program Script Preparation",
-            "left": "Gratitude for Daily Blessings: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
-            "right": "Acknowledge Shared Spiritual Heritage: Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheep of his pasture (p. 57)."
+            "left": "Program Script Preparation: Draft a detailed script naming all speakers, award presenters, and stage cues.",
+            "right": "Stage Flow Coordination: Direct participant entrances and award handoffs to maintain steady ceremonial momentum."
           },
           {
             "attribute": "Council Approval Verification",
-            "left": "Joyful Songs and Gathering: Serve the Lord with gladness! \u0007Come into his presence with singing (p. 57).",
-            "right": "Open with Thanksgiving Praise: Enter into his gates with thanksgiving, and his courts with praise! \u0007Give thanks to him; bless his name (p. 57)."
+            "left": "Council Approval Verification: Submit the tentative ceremony agenda to the patrol leaders council for review.",
+            "right": "Stage Presence Management: Speak clearly into microphones while keeping the audience attentive to honored recipients."
           },
           {
             "attribute": "Stage Flow Coordination",
-            "left": "Shared Community and Reverence: Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheep of his pasture (p. 57).",
-            "right": "Reflect on Enduring Faithfulness: For the Lord is good; his steadfast love endures forever, and his faithfulness to all generations (p. 57)."
+            "left": "Stage Flow Coordination: Direct participant entrances and award handoffs to maintain steady ceremonial momentum.",
+            "right": "Stage Presence Management: Speak clearly into microphones while keeping the audience attentive to honored recipients."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 8 Exemplar Workbook Entry: Leading",
+        "title": "Communication Req 8 Worked Example: Ceremonial Master of Ceremonies",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Gratitude for Daily Blessings": "For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
-          "Joyful Songs and Gathering": "Serve the Lord with gladness! \u0007Come into his presence with singing (p. 57).",
-          "Shared Community and Reverence": "Know that the Lord is God! \u0007It is he who made us, andwe are his! \u0007We are his people and the sheep of his pasture (p. 57).",
-          "Entering with Thanksgiving": "Enter into his gates with thanksgiving, and his courts with praise! \u0007Give thanks to him; bless his name (p. 57)."
+          "Phase 1 - Program Type Selection": "Select a court of honor, campfire, or interfaith worship service format.",
+          "Phase 2 - Leadership Council Approval": "Present the detailed program outline to the patrol leaders council for approval.",
+          "Phase 3 - Ceremonial Script Writing": "Write a complete word for word script assigning roles to each participant.",
+          "Phase 4 - Master Ceremonies Execution": "Host the live event keeping transitions prompt and honoring all scheduled participants."
         },
-        "sample_output": "Leading Ceremonies and Campfire Programs: For health, strength, and daily food, we give You thanks, O Lord (p. 57).",
-        "counselor_tip": "For Communication Requirement 8 (Leading Ceremonies and Campfire Programs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68))."
+        "sample_output": "Directing a court of honor or campfire program demands careful planning and council approval. Serving as master of ceremonies requires keeping the program running smoothly on schedule.",
+        "counselor_tip": "During the Communication Requirement 8 conference on Ceremonial Master of Ceremonies, verify that the Scout can explain program script preparation and demonstrate master ceremonies execution: Host the live event keeping transitions prompt and honoring all scheduled participants."
       },
       "quiz_item": {
         "scenario_prompt": "Before serving as master of ceremonies for a troop court of honor, campfire, or interfaith service, who must approve your plan?",
@@ -2510,7 +2487,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use verified educational databases and school guidance portals during online career research.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75)",
       "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2578,47 +2555,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Diverse Communication Career",
-        "right_header": "Req 9: Earn a Bachelor's Degree",
+        "left_header": "Communication Career Pathway Research: Core Principles",
+        "right_header": "Communication Career Pathway Research: Field Execution",
         "left_points": [
-          "Diverse Communication Career Paths: A career in communication will give you many choices (p. 71).",
-          "Value of Higher Education: As inmost fields, the better your education, the more likely your success (p. 71).",
-          "Journalism and Communication Degrees: Many communication professionals have bachelor'sdegrees from colleges with journalism or communication departments (p. 71)."
+          "Career Field Exploration: Survey diverse communication pathways including technical writing, television production, and public relations.",
+          "Educational Degree Mapping: Determine whether the chosen profession requires collegiate degrees, apprenticeships, or specialized certifications."
         ],
         "right_points": [
-          "Earn a Bachelor's Degree: Many communication professionals have bachelor'sdegrees from colleges with journalism or communication departments (p. 71).",
-          "Choose a Media Specialty: Their specialty might be public relations, advertising, or print or broadcast journalism (p. 71).",
-          "Consider Business or Technical Degrees: Others may have a bachelor'sor an advanced degree in business, law, or engineering (p. 71)."
+          "Essential Skill Identification: Identify core competencies such as digital editing, interview prowess, and deadline management.",
+          "Professional Counseling Discussion: Present findings to the counselor detailing personal interests in the researched career."
         ],
         "rows": [
           {
             "attribute": "Career Field Exploration",
-            "left": "Diverse Communication Career Paths: A career in communication will give you many choices (p. 71).",
-            "right": "Earn a Bachelor's Degree: Many communication professionals have bachelor'sdegrees from colleges with journalism or communication departments (p. 71)."
+            "left": "Career Field Exploration: Survey diverse communication pathways including technical writing, television production, and public relations.",
+            "right": "Essential Skill Identification: Identify core competencies such as digital editing, interview prowess, and deadline management."
           },
           {
             "attribute": "Educational Degree Mapping",
-            "left": "Value of Higher Education: As inmost fields, the better your education, the more likely your success (p. 71).",
-            "right": "Choose a Media Specialty: Their specialty might be public relations, advertising, or print or broadcast journalism (p. 71)."
+            "left": "Educational Degree Mapping: Determine whether the chosen profession requires collegiate degrees, apprenticeships, or specialized certifications.",
+            "right": "Professional Counseling Discussion: Present findings to the counselor detailing personal interests in the researched career."
           },
           {
             "attribute": "Essential Skill Identification",
-            "left": "Journalism and Communication Degrees: Many communication professionals have bachelor'sdegrees from colleges with journalism or communication departments (p. 71).",
-            "right": "Consider Business or Technical Degrees: Others may have a bachelor'sor an advanced degree in business, law, or engineering (p. 71)."
+            "left": "Essential Skill Identification: Identify core competencies such as digital editing, interview prowess, and deadline management.",
+            "right": "Professional Counseling Discussion: Present findings to the counselor detailing personal interests in the researched career."
           }
         ]
       },
       "worked_example": {
-        "title": "Communication Req 9 Exemplar Workbook Entry: Exploring",
+        "title": "Communication Req 9 Worked Example: Communication Career Pathway Research",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Diverse Communication Career Paths": "A career in communication will give you many choices (p. 71).",
-          "Value of Higher Education": "As inmost fields, the better your education, the more likely your success (p. 71).",
-          "Journalism and Communication Degrees": "Many communication professionals have bachelor'sdegrees from colleges with journalism or communication departments (p. 71).",
-          "Specialties Across Media Fields": "Their specialty might be public relations, advertising, or print or broadcast journalism (p. 71)."
+          "Phase 1 - Career Option Survey": "Identify three distinct professional careers within the broad field of modern communication.",
+          "Phase 2 - Detailed Profession Selection": "Select one specific communication career path for comprehensive educational and vocational research.",
+          "Phase 3 - Training Requirement": "Research the academic degrees, technical certifications, and job experience required for entry.",
+          "Phase 4 - Counselor Discussion": "Discuss research findings with your counselor explaining why the field holds personal interest."
         },
-        "sample_output": "Exploring Careers in Communication: A career in communication will give you many choices (p. 71).",
-        "counselor_tip": "For Communication Requirement 9 (Exploring Careers in Communication), verify the Scout's own observations and specific pamphlet details (Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75))."
+        "sample_output": "Investigating communication professions reveals diverse careers spanning journalism, public relations, and technical broadcasting. Understanding the educational pathways and specialized skills guides informed future career planning.",
+        "counselor_tip": "During the Communication Requirement 9 conference on Communication Career Pathway Research, verify that the Scout can explain career field exploration and demonstrate counselor discussion: Discuss research findings with your counselor explaining why the field holds personal interest."
       },
       "quiz_item": {
         "scenario_prompt": "Why are more communication students learning to work with multiple types of media rather than just one?",

@@ -350,19 +350,17 @@
         "Step 3 - Geological Mapping: Plot global source nations for each chosen mineral on an outline map.",
         "Step 4 - Counselor Presentation: Review mineral supply dependencies and international trade routes with the counselor."
       ],
-      "gear_checklist": [
-        "Official Mining in Society Merit Badge: Minerals Product Mineral Used.",
-        "Field notebook, verification log sheet, and demonstration materials for Minerals Product Mineral Used.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Ten Mineral Products",
-        "right_header": "Req 1b: Mining in Agricultural",
+        "left_header": "Req 1a: Ten Mineral Products Identification",
+        "right_header": "Req 1b: Mining in Agricultural Production",
         "left_points": [
-          "(1a) Ten Mineral Products Identification: Scouts match ten specific mineral specimens with manufactured consumer items. Common examples include quartz in glass, fluorite in toothpaste, and hematite in steel tools."
+          "(1a) Ten Mineral Products Identification: Scouts match ten specific mineral specimens with manufactured consumer items. Common examples include quartz in glass, fluorite in toothpaste, and hematite in steel tools.",
+          "Consumer Goods: Halite provides table salt and essential chemical feedstocks for household soap manufacturing."
         ],
         "right_points": [
-          "(1b) Mining in Agricultural Production: Agricultural operations depend on mined mineral fertilizers, lime soil conditioning agents, and metal tractor components. Without mineral inputs, modern crop yields decline rapidly."
+          "(1b) Mining in Agricultural Production: Agricultural operations depend on mined mineral fertilizers, lime soil conditioning agents, and metal tractor components. Without mineral inputs, modern crop yields decline rapidly.",
+          "(1c) Global Mineral Geographic Distribution: Mineral ore deposits are distributed unevenly across Earth because of past tectonic and volcanic processes. Nations trade raw ores and concentrates across international shipping corridors."
         ],
         "rows": [
           {
@@ -372,26 +370,27 @@
           },
           {
             "attribute": "Crop Nutrients",
-            "left": "Req 1a: Ten Mineral Products: Scouts match ten specific mineral specimens with manufactured consumer items. Common examples include quartz in glass, fluorite in toothpaste, and hematite in steel tools.",
-            "right": "Req 1b: Mining in Agricultural: Agricultural operations depend on mined mineral fertilizers, lime soil conditioning agents, and metal tractor components. Without mineral inputs, modern crop yields decline rapidly."
+            "left": "Consumer Goods: Halite provides table salt and essential chemical feedstocks for household soap manufacturing.",
+            "right": "(1c) Global Mineral Geographic Distribution: Mineral ore deposits are distributed unevenly across Earth because of past tectonic and volcanic processes. Nations trade raw ores and concentrates across international shipping corridors."
           },
           {
             "attribute": "Wiring Metals",
-            "left": "Req 1c: Global Mineral Geographic: Mineral ore deposits are distributed unevenly across Earth because of past tectonic and volcanic processes. Nations trade raw ores and concentrates across international shipping corridors.",
-            "right": "Crop Nutrients: Potash and phosphate rock supply critical mineral nutrients to replenish agricultural soils."
+            "left": "Wiring Metals: Chalcopyrite ore yields refined copper conductors used in household electrical wall switches.",
+            "right": "Global Distribution: Bauxite deposits concentrated in tropical regions supply international aluminum smelting operations worldwide."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 1 Exemplar Workbook Entry",
+        "title": "Mining in Society Req 1 Worked Example: Everyday Minerals and Agricultural Supply",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Ten Mineral Products": "Scouts match ten specific mineral specimens with manufactured consumer items. Common examples include quartz in glass, fluorite in toothpaste, and hematite in steel tools.",
-          "Req 1b - Mining in Agricultural": "Agricultural operations depend on mined mineral fertilizers, lime soil conditioning agents, and metal tractor components. Without mineral inputs, modern crop yields decline rapidly.",
-          "Req 1c - Global Mineral Geographic": "Mineral ore deposits are distributed unevenly across Earth because of past tectonic and volcanic processes. Nations trade raw ores and concentrates across international shipping corridors."
+          "Phase 1 - Mineral Selection": "Select ten common household items and identify primary economic minerals within them.",
+          "Phase 2 - Agricultural Crosscheck": "Trace synthetic crop fertilizer ingredients back to mined rock phosphate and potash.",
+          "Phase 3 - Geological Mapping": "Plot global source nations for each chosen mineral on an outline map.",
+          "Phase 4 - Counselor Presentation": "Review mineral supply dependencies and international trade routes with the counselor."
         },
-        "sample_output": "Everyday Minerals and Global Supply: Geologic events determine where different rock formations are found that contain the minerals we value (p. 21).",
-        "counselor_tip": "For Mining in Society Requirement 1 (Everyday Minerals and Global Supply), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 50))."
+        "sample_output": "Modern society relies on mined mineral resources to fabricate household consumer goods and support commercial agriculture. Fertilizers derived from potash, phosphate rock, and sulfur enable farmers to sustain global food crop production.",
+        "counselor_tip": "During the Mining in Society Requirement 1 conference on Everyday Minerals and Agricultural Supply, verify that the Scout can explain consumer goods and demonstrate counselor presentation: Review mineral supply dependencies and international trade routes with the counselor."
       },
       "quiz_item": {
         "scenario_prompt": "After a surface coal or aggregate mine finishes extracting an ore body, what does modern mined-land reclamation require the mining operator to do?",
@@ -544,47 +543,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Distribution of Earth Minerals",
-        "right_header": "Req 2: Map Regional Rock Formations",
+        "left_header": "Regional Mine Infrastructure Mapping: Core Principles",
+        "right_header": "Regional Mine Infrastructure Mapping: Field Execution",
         "left_points": [
-          "Distribution of Earth Minerals: Geology is the study of minerals and rocks, the processes that form them, and how they are distributed on Earth (p. 21).",
-          "Rock and Mineral Identification: The Geology merit badge pamphlet can help you identify rocks and minerals and understand their origins (p. 21).",
-          "Geologic Controls on Deposits: Geologic events determine where different rock formations are found that contain the minerals we value (p. 21)."
+          "Transport Corridors: Rail lines and inland waterways carry heavy bulk aggregates from quarry sites.",
+          "Surface Excavations: Open pit operations extract near-surface sand, gravel, and limestone using massive excavators."
         ],
         "right_points": [
-          "Map Regional Rock Formations: Geologic events determine where different rock formations are found that contain the minerals we value (p. 21).",
-          "Evaluate Deposit Depth and Rarity: How often geologic events happen determine how commonly or rarely a mineral occurs near Earth's surface (p. 21).",
-          "Pinpoint Specialized Mining Sites: Others are so rare, they are mined in only a few places on Earth (p. 21)."
+          "Subsurface Shafts: Deep tabular coal and trona beds require underground continuous miner cutting machinery.",
+          "Regional Distribution: Mineral processing mills locate adjacent to heavy freight corridors for economical shipping."
         ],
         "rows": [
           {
             "attribute": "Transport Corridors",
-            "left": "Distribution of Earth Minerals: Geology is the study of minerals and rocks, the processes that form them, and how they are distributed on Earth (p. 21).",
-            "right": "Map Regional Rock Formations: Geologic events determine where different rock formations are found that contain the minerals we value (p. 21)."
+            "left": "Transport Corridors: Rail lines and inland waterways carry heavy bulk aggregates from quarry sites.",
+            "right": "Subsurface Shafts: Deep tabular coal and trona beds require underground continuous miner cutting machinery."
           },
           {
             "attribute": "Surface Excavations",
-            "left": "Rock and Mineral Identification: The Geology merit badge pamphlet can help you identify rocks and minerals and understand their origins (p. 21).",
-            "right": "Evaluate Deposit Depth and Rarity: How often geologic events happen determine how commonly or rarely a mineral occurs near Earth's surface (p. 21)."
+            "left": "Surface Excavations: Open pit operations extract near-surface sand, gravel, and limestone using massive excavators.",
+            "right": "Regional Distribution: Mineral processing mills locate adjacent to heavy freight corridors for economical shipping."
           },
           {
             "attribute": "Subsurface Shafts",
-            "left": "Geologic Controls on Deposits: Geologic events determine where different rock formations are found that contain the minerals we value (p. 21).",
-            "right": "Pinpoint Specialized Mining Sites: Others are so rare, they are mined in only a few places on Earth (p. 21)."
+            "left": "Subsurface Shafts: Deep tabular coal and trona beds require underground continuous miner cutting machinery.",
+            "right": "Regional Distribution: Mineral processing mills locate adjacent to heavy freight corridors for economical shipping."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 2 Exemplar Workbook Entry",
+        "title": "Mining in Society Req 2 Worked Example: Regional Mine Infrastructure Mapping",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Distribution of Earth Minerals": "Geology is the study of minerals and rocks, the processes that form them, and how they are distributed on Earth (p. 21).",
-          "Rock and Mineral Identification": "The Geology merit badge pamphlet can help you identify rocks and minerals and understand their origins (p. 21).",
-          "Geologic Controls on Deposits": "Geologic events determine where different rock formations are found that contain the minerals we value (p. 21).",
-          "Frequency of Mineral Occurrence": "How often geologic events happen determine how commonly or rarely a mineral occurs near Earth's surface (p. 21)."
+          "Phase 1 - Map Acquisition": "Obtain an official state transportation map showing railroads, rivers, and interstate highways.",
+          "Phase 2 - Enterprise Identification": "Locate five active regional mining operations using state geological survey directories.",
+          "Phase 3 - Method Classification": "Classify each identified mine site as either an underground shaft or surface quarry.",
+          "Phase 4 - Resource Documentation": "Record the primary commodity processed at each facility beside its map pin."
         },
-        "sample_output": "Regional Mining Maps and Operations: Geology is the study of minerals and rocks, the processes that form them, and how they are distributed on Earth (p. 21).",
-        "counselor_tip": "For Mining in Society Requirement 2 (Regional Mining Maps and Operations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 34))."
+        "sample_output": "State geological survey maps highlight the spatial relationship between mineral deposits, processing plants, and bulk transportation routes. Understanding whether an operation extracts resources underground or at the surface reveals geological deposit depths.",
+        "counselor_tip": "During the Mining in Society Requirement 2 conference on Regional Mine Infrastructure Mapping, verify that the Scout can explain transport corridors and demonstrate resource documentation: Record the primary commodity processed at each facility beside its map pin."
       },
       "quiz_item": {
         "scenario_prompt": "Why is it important to map major highways, rivers, and railroads alongside active surface and underground mining enterprises in your state?",
@@ -1005,19 +1002,17 @@
         "Step 3 - Boundary Assessment: Identify mobile haulage pinch zones and highwall drop boundaries around active pits.",
         "Step 4 - Rescue Review: Review robotic probe deployment protocols used by rapid response mine rescue teams."
       ],
-      "gear_checklist": [
-        "Official Mining in Society Merit Badge: Mining in Society Hazards and First Aid.",
-        "Field notebook, verification log sheet, and demonstration materials for Mining in Society Hazards and First Aid.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 3a: Personal Protective Safety Gear",
         "right_header": "Req 3b: Hand and Foot Protection",
         "left_points": [
-          "(3a) Personal Protective Safety Gear: Underground miners wear cap lamps, hard hats, safety glasses, high-visibility clothing, hearing protectors, and belt-mounted self-rescuers. Each item mitigates a specific physical or atmospheric hazard encountered along active headings."
+          "(3a) Personal Protective Safety Gear: Underground miners wear cap lamps, hard hats, safety glasses, high-visibility clothing, hearing protectors, and belt-mounted self-rescuers. Each item mitigates a specific physical or atmospheric hazard encountered along active headings.",
+          "Respiratory Gear: Self-contained self-rescuer canisters supply emergency breathable oxygen during hazardous underground fire incidents."
         ],
         "right_points": [
-          "(3b) Hand and Foot Protection: Metatarsal safety boots prevent crushing fractures from falling rocks and equipment pinch points. Kevlar-reinforced gloves shield miners from high-pressure hydraulic leaks, sharp jagged ores, and vibration injuries."
+          "(3b) Hand and Foot Protection: Metatarsal safety boots prevent crushing fractures from falling rocks and equipment pinch points. Kevlar-reinforced gloves shield miners from high-pressure hydraulic leaks, sharp jagged ores, and vibration injuries.",
+          "(3c) Atmospheric Monitoring and Robotics: Fixed sensors and handheld monitors measure methane, oxygen, and carbon monoxide concentrations continuously. During emergency mine collapses, autonomous drones and tracked robotic crawlers explore unstable tunnels ahead of human rescuers."
         ],
         "rows": [
           {
@@ -1027,26 +1022,27 @@
           },
           {
             "attribute": "Auditory Protection",
-            "left": "Req 3a: Personal Protective Safety: Underground miners wear cap lamps, hard hats, safety glasses, high-visibility clothing, hearing protectors, and belt-mounted self-rescuers. Each item mitigates a specific physical or atmospheric hazard encountered along active headings.",
-            "right": "Req 3b: Hand and Foot Protection: Metatarsal safety boots prevent crushing fractures from falling rocks and equipment pinch points. Kevlar-reinforced gloves shield miners from high-pressure hydraulic leaks, sharp jagged ores, and vibration injuries."
+            "left": "Respiratory Gear: Self-contained self-rescuer canisters supply emergency breathable oxygen during hazardous underground fire incidents.",
+            "right": "(3c) Atmospheric Monitoring and Robotics: Fixed sensors and handheld monitors measure methane, oxygen, and carbon monoxide concentrations continuously. During emergency mine collapses, autonomous drones and tracked robotic crawlers explore unstable tunnels ahead of human rescuers."
           },
           {
             "attribute": "Crush Prevention",
-            "left": "Req 3c: Atmospheric Monitoring: Fixed sensors and handheld monitors measure methane, oxygen, and carbon monoxide concentrations continuously. During emergency mine collapses, autonomous drones and tracked robotic crawlers explore unstable tunnels ahead of human rescuers.",
-            "right": "Auditory Protection: Form-fitted earplugs protect workers from pneumatic drill noise in confined rock headings."
+            "left": "Crush Prevention: Steel-toe metatarsal guard boots protect feet from falling rock and pinch points.",
+            "right": "Atmospheric Sensing: Handheld multi-gas detectors sound audible alarms upon detecting combustible methane gas."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 3 Exemplar Workbook Entry: Mine",
+        "title": "Mining in Society Req 3 Worked Example: Mine Hazards and Protective Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Personal Protective Safety": "Underground miners wear cap lamps, hard hats, safety glasses, high-visibility clothing, hearing protectors, and belt-mounted self-rescuers. Each item mitigates a specific physical or atmospheric hazard encountered along active headings.",
-          "Req 3b - Hand and Foot Protection": "Metatarsal safety boots prevent crushing fractures from falling rocks and equipment pinch points. Kevlar-reinforced gloves shield miners from high-pressure hydraulic leaks, sharp jagged ores, and vibration injuries.",
-          "Req 3c - Atmospheric Monitoring": "Fixed sensors and handheld monitors measure methane, oxygen, and carbon monoxide concentrations continuously. During emergency mine collapses, autonomous drones and tracked robotic crawlers explore unstable tunnels ahead of human rescuers."
+          "Phase 1 - Gear Inspection": "Examine hard hats, metatarsal boots, and dust respirators for cracks or tears.",
+          "Phase 2 - Gas Calibration": "Calibrate multi-gas sensors against certified reference gas mixtures before entering active portals.",
+          "Phase 3 - Boundary Assessment": "Identify mobile haulage pinch zones and highwall drop boundaries around active pits.",
+          "Phase 4 - Rescue Review": "Review robotic probe deployment protocols used by rapid response mine rescue teams."
         },
-        "sample_output": "Mine Safety Hazards and Protection: Health and Safety in Mines Personal Protective Equipment Miners wear personal protective equipment to guard against injury (p. 74).",
-        "counselor_tip": "For Mining in Society Requirement 3 (Mine Safety Hazards and Protection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76))."
+        "sample_output": "Active mines present hazards including atmospheric toxins, heavy mobile equipment, highwalls, and unsupported rock strata. Federal Mine Safety and Health Administration regulations mandate engineering controls, specialized personal gear, and continuous atmospheric monitoring.",
+        "counselor_tip": "During the Mining in Society Requirement 3 conference on Mine Hazards and Protective Systems, verify that the Scout can explain respiratory gear and demonstrate rescue review: Review robotic probe deployment protocols used by rapid response mine rescue teams."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary purpose of the self-rescue device carried by underground miners?",
@@ -1198,47 +1194,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Stay Out Stay Alive Mandate",
-        "right_header": "Req 4: Recognize Fatal Trespassing Risks",
+        "left_header": "Abandoned Mine Site Hazards: Core Principles",
+        "right_header": "Abandoned Mine Site Hazards: Field Execution",
         "left_points": [
-          "Stay Out Stay Alive Mandate: Health and Safety in Mines Mines & Quarries, Keep (p. 21).",
-          "Differences From Public Tour Caverns: Mines and quarries are not like caverns open to the public for tours and recreation (p. 21).",
-          "Annual Mine Trespassing Fatalities: Every year accidents on mine properties injure or kill dozens of people (p. 21)."
+          "Vertical Shafts: Unmarked vertical winzes drop hundreds of feet into flooded, decaying timbered caverns.",
+          "Oxygen Depletion: Stagnant subterranean chambers accumulate carbon dioxide, creating lethal oxygen-deficient black damp atmospheres."
         ],
         "right_points": [
-          "Recognize Fatal Trespassing Risks: Every year accidents on mine properties injure or kill dozens of people (p. 21).",
-          "Contrast Inspected Active Operations: Active mines are dangerous even for highly trained workers, an dare regularly inspected for hazardous conditions (p. 21).",
-          "Respect Property Access Prohibitions: Active sites hold many risks to unaccompanied visitors, entering them without permission is considered trespassing (p. 21)."
+          "Structural Collapse: Decayed wooden portal framing and fractured roof rock fail without audible warning.",
+          "Quarry Plunges: Inactive quarry highwalls feature fractured crumbling rock rims above deceptive deep water."
         ],
         "rows": [
           {
             "attribute": "Vertical Shafts",
-            "left": "Stay Out Stay Alive Mandate: Health and Safety in Mines Mines & Quarries, Keep (p. 21).",
-            "right": "Recognize Fatal Trespassing Risks: Every year accidents on mine properties injure or kill dozens of people (p. 21)."
+            "left": "Vertical Shafts: Unmarked vertical winzes drop hundreds of feet into flooded, decaying timbered caverns.",
+            "right": "Structural Collapse: Decayed wooden portal framing and fractured roof rock fail without audible warning."
           },
           {
             "attribute": "Oxygen Depletion",
-            "left": "Differences From Public Tour Caverns: Mines and quarries are not like caverns open to the public for tours and recreation (p. 21).",
-            "right": "Contrast Inspected Active Operations: Active mines are dangerous even for highly trained workers, an dare regularly inspected for hazardous conditions (p. 21)."
+            "left": "Oxygen Depletion: Stagnant subterranean chambers accumulate carbon dioxide, creating lethal oxygen-deficient black damp atmospheres.",
+            "right": "Quarry Plunges: Inactive quarry highwalls feature fractured crumbling rock rims above deceptive deep water."
           },
           {
             "attribute": "Structural Collapse",
-            "left": "Annual Mine Trespassing Fatalities: Every year accidents on mine properties injure or kill dozens of people (p. 21).",
-            "right": "Respect Property Access Prohibitions: Active sites hold many risks to unaccompanied visitors, entering them without permission is considered trespassing (p. 21)."
+            "left": "Structural Collapse: Decayed wooden portal framing and fractured roof rock fail without audible warning.",
+            "right": "Quarry Plunges: Inactive quarry highwalls feature fractured crumbling rock rims above deceptive deep water."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 4 Exemplar Workbook Entry",
+        "title": "Mining in Society Req 4 Worked Example: Abandoned Mine Site Hazards",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Stay Out Stay Alive Mandate": "Health and Safety in Mines Mines & Quarries, Keep (p. 21).",
-          "Differences from Public Tour Caverns": "Mines and quarries are not like caverns open to the public for tours and recreation (p. 21).",
-          "Annual Mine Trespassing Fatalities": "Every year accidents on mine properties injure or kill dozens of people (p. 21).",
-          "Inspected Active vs Abandoned Sites": "Active mines are dangerous even for highly trained workers, an dare regularly inspected for hazardous conditions (p. 21)."
+          "Phase 1 - Hazard Recognition": "Identify warning signs such as rusted steel cables, sunken pits, and rotting timber.",
+          "Phase 2 - Boundary Respect": "Obey all posted Stay Out Stay Alive warning signs and barbed wire fences.",
+          "Phase 3 - Environmental Analysis": "Evaluate why unventilated underground tunnels accumulate odorless and deadly black damp gases.",
+          "Phase 4 - Hazard Reporting": "Report unprotected open portals and missing barrier grates to state mine authorities."
         },
-        "sample_output": "Abandoned Mine and Quarry Dangers: Health and Safety in Mines Mines & Quarries, Keep (p. 21).",
-        "counselor_tip": "For Mining in Society Requirement 4 (Abandoned Mine and Quarry Dangers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 76))."
+        "sample_output": "Abandoned mine shafts and inactive quarries present severe physical perils such as unstable rock timbers, vertical shafts, and pockets of lethal bad air. Public safety campaigns urge everyone to stay out and stay alive because hidden traps kill unwary explorers.",
+        "counselor_tip": "During the Mining in Society Requirement 4 conference on Abandoned Mine Site Hazards, verify that the Scout can explain vertical shafts and demonstrate hazard reporting: Report unprotected open portals and missing barrier grates to state mine authorities."
       },
       "quiz_item": {
         "scenario_prompt": "Why do abandoned mines and quarries pose an even greater danger to the public than active mining operations?",
@@ -1878,23 +1872,17 @@
         "Step 3 - Data Comparison: Contrast physical crushing techniques against chemical froth flotation and acid leaching methods.",
         "Step 4 - Technical Briefing: Present findings on extraction workflows and smelting refining distinctions to the counselor."
       ],
-      "gear_checklist": [
-        "Official Mining in Society Merit Badge: With your parent or guardian's approval.",
-        "Field notebook, verification log sheet, and demonstration materials for With your parent or guardian's approval.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 5a: Comparative Virtual Mine Tours",
-        "right_header": "Req 5d: Mining Equipment Manufacturer",
+        "right_header": "Req 5d: Mining Equipment Manufacturer Tour",
         "left_points": [
           "(5a) Comparative Virtual Mine Tours: Scouts utilize approved online digital portals to explore two different extraction operations, such as an underground salt mine and a surface copper pit. Comparing both facilities highlights differing ventilation systems, haulage fleets, and ground support methods.",
-          "(5b) Mining Museum Exhibit Exploration: Museum mineral collections display geological specimens, historical prospecting artifacts, and scale models of extraction facilities. Reviewing curated exhibits demonstrates how regional mineral extraction shaped local industrial settlements.",
-          "(5c) Active Mine Site Visit: Visiting an operational mine allows scouts to observe geology, environmental compliance, and heavy mobile machinery firsthand. Scouts follow mine lifecycle stages from core drilling exploration through environmental permitting and final ore beneficiation."
+          "(5b) Mining Museum Exhibit Exploration: Museum mineral collections display geological specimens, historical prospecting artifacts, and scale models of extraction facilities. Reviewing curated exhibits demonstrates how regional mineral extraction shaped local industrial settlements."
         ],
         "right_points": [
           "(5d) Mining Equipment Manufacturer Tour: Tours of equipment fabrication facilities show how heavy continuous miners, draglines, and haulers are built and maintained. Scouts study engineering design specifications, structural steel welding, and computerized hydraulic control systems.",
-          "(5e) Rock Reduction and Refining: Ore processing involves mechanical crushing followed by chemical extraction like heap leaching with dilute acid. Smelting thermally separates molten metallic elements from waste slag, while refining purifies the crude metal electrochemically.",
-          "(5f) Local Mine Historical Study: Scouts research the founding history, discovery methods, extraction technology, and economic impacts of a historic local mine. Historical analysis shows how mineral extraction built regional infrastructure and how closure prompted community economic transitions."
+          "(5e) Rock Reduction and Refining: Ore processing involves mechanical crushing followed by chemical extraction like heap leaching with dilute acid. Smelting thermally separates molten metallic elements from waste slag, while refining purifies the crude metal electrochemically."
         ],
         "rows": [
           {
@@ -1909,22 +1897,22 @@
           },
           {
             "attribute": "Pyrometallurgical Smelting",
-            "left": "(5c) Active Mine Site Visit: Visiting an operational mine allows scouts to observe geology, environmental compliance, and heavy mobile machinery firsthand. Scouts follow mine lifecycle stages from core drilling exploration through environmental permitting and final ore beneficiation.",
-            "right": "(5f) Local Mine Historical Study: Scouts research the founding history, discovery methods, extraction technology, and economic impacts of a historic local mine. Historical analysis shows how mineral extraction built regional infrastructure and how closure prompted community economic transitions."
+            "left": "Pyrometallurgical Smelting: Thermal blast furnace energy melts concentrates, separating molten metal from waste slag.",
+            "right": "Electrolytic Refining: Aqueous electrolytic cells deposit pure copper cathode plates from impure cast anodes."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 5 Exemplar Workbook Entry: Mine",
+        "title": "Mining in Society Req 5 Worked Example: Mining Operations and Mineral Processing",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5a - Comparative Virtual Mine": "Scouts utilize approved online digital portals to explore two different extraction operations, such as an underground salt mine and a surface copper pit. Comparing both facilities highlights differing ventilation systems, haulage fleets, and ground support methods.",
-          "Req 5b - Mining Museum Exhibit": "Museum mineral collections display geological specimens, historical prospecting artifacts, and scale models of extraction facilities. Reviewing curated exhibits demonstrates how regional mineral extraction shaped local industrial settlements.",
-          "Req 5c - Active Mine Site Visit": "Visiting an operational mine allows scouts to observe geology, environmental compliance, and heavy mobile machinery firsthand. Scouts follow mine lifecycle stages from core drilling exploration through environmental permitting and final ore beneficiation.",
-          "Req 5d - Mining Equipment Manufacturer": "Tours of equipment fabrication facilities show how heavy continuous miners, draglines, and haulers are built and maintained. Scouts study engineering design specifications, structural steel welding, and computerized hydraulic control systems."
+          "Phase 1 - Option Selection": "Select one specific exploratory option among virtual tours, museum visits, or processing studies.",
+          "Phase 2 - Technical Research": "Investigate machinery specifications, ore transport logistics, and extraction chemistry for the project.",
+          "Phase 3 - Data Comparison": "Contrast physical crushing techniques against chemical froth flotation and acid leaching methods.",
+          "Phase 4 - Technical Briefing": "Present findings on extraction workflows and smelting refining distinctions to the counselor."
         },
-        "sample_output": "Mine Exploration and Ore Processing: Drilling also provides moregeochemical or geophysical data (p. 33).",
-        "counselor_tip": "For Mining in Society Requirement 5 (Mine Exploration and Ore Processing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34))."
+        "sample_output": "Investigating mineral operations through virtual tours, museum collections, industrial plant visits, or ore comminution studies reveals how rock becomes usable commodities. Processing requires mechanical crushing, size reduction, chemical beneficiation, and high temperature smelting to isolate pure elements.",
+        "counselor_tip": "During the Mining in Society Requirement 5 conference on Mining Operations and Mineral Processing, verify that the Scout can explain comminution stages and demonstrate technical briefing: Present findings on extraction workflows and smelting refining distinctions to the counselor."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do exploration teams use computer software after collecting core-drilling, geochemical, and geophysical fieldwork data?",
@@ -2324,19 +2312,17 @@
         "Step 3 - Ethics Alignment: Connect mine reclamation principles directly to the Outdoor Code and Leave No Trace.",
         "Step 4 - Case Analysis: Review how West Virginia coal surface mine lands transformed into the Summit Bechtel Reserve."
       ],
-      "gear_checklist": [
-        "Official Mining in Society Merit Badge: Leave No Trace and Outdoor Ethics.",
-        "Field notebook, verification log sheet, and demonstration materials for Leave No Trace and Outdoor Ethics.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Modern Mine Environmental",
+        "left_header": "Req 6a: Modern Mine Environmental Controls",
         "right_header": "Req 6b: Reclamation and Scouting Ethics",
         "left_points": [
-          "(6a) Modern Mine Environmental Controls: Contemporary mining operations implement water treatment plants, mist dust suppression cannons, and lined tailings storage facilities. Sustainable practices focus on recycling water, minimizing carbon emissions, and reducing total surface footprint."
+          "(6a) Modern Mine Environmental Controls: Contemporary mining operations implement water treatment plants, mist dust suppression cannons, and lined tailings storage facilities. Sustainable practices focus on recycling water, minimizing carbon emissions, and reducing total surface footprint.",
+          "Erosion Control: Sediment ponds capture storm runoff from overburden piles, preventing siltation of streams."
         ],
         "right_points": [
-          "(6b) Reclamation and Scouting Ethics: Mine reclamation involves reshaping excavated overburden, re-spreading native topsoil, and planting native grasses and trees. This process mirrors the Outdoor Code and Leave No Trace principles by restoring disturbed natural landscapes."
+          "(6b) Reclamation and Scouting Ethics: Mine reclamation involves reshaping excavated overburden, re-spreading native topsoil, and planting native grasses and trees. This process mirrors the Outdoor Code and Leave No Trace principles by restoring disturbed natural landscapes.",
+          "(6c) Post-Mining Land Transformation: Society values transforming decommissioned industrial mines into productive assets like wildlife preserves, solar farms, and parks. A prime example is the Summit Bechtel Reserve in West Virginia, built on reclaimed surface coal mine property."
         ],
         "rows": [
           {
@@ -2346,26 +2332,27 @@
           },
           {
             "attribute": "Tailings Containment",
-            "left": "Req 6a: Modern Mine Environmental: Contemporary mining operations implement water treatment plants, mist dust suppression cannons, and lined tailings storage facilities. Sustainable practices focus on recycling water, minimizing carbon emissions, and reducing total surface footprint.",
-            "right": "Req 6b: Reclamation and Scouting: Mine reclamation involves reshaping excavated overburden, re-spreading native topsoil, and planting native grasses and trees. This process mirrors the Outdoor Code and Leave No Trace principles by restoring disturbed natural landscapes."
+            "left": "Erosion Control: Sediment ponds capture storm runoff from overburden piles, preventing siltation of streams.",
+            "right": "(6c) Post-Mining Land Transformation: Society values transforming decommissioned industrial mines into productive assets like wildlife preserves, solar farms, and parks. A prime example is the Summit Bechtel Reserve in West Virginia, built on reclaimed surface coal mine property."
           },
           {
             "attribute": "Topsoil Preservation",
-            "left": "Req 6c: Post-Mining Land: Society values transforming decommissioned industrial mines into productive assets like wildlife preserves, solar farms, and parks. A prime example is the Summit Bechtel Reserve in West Virginia, built on reclaimed surface coal mine property.",
-            "right": "Tailings Containment: Engineered tailings dams prevent processed slurry from leaching contaminants into regional aquifers."
+            "left": "Topsoil Preservation: Excavation crews stockpile topsoil separately to re-spread across graded terrain during closure.",
+            "right": "Habitat Restoration: Reclaimed open pits become recreational lakes, wetlands, and thriving community sports parks."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 6 Exemplar Workbook Entry",
+        "title": "Mining in Society Req 6 Worked Example: Environmental Mitigation and Land Reclamation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Modern Mine Environmental": "Contemporary mining operations implement water treatment plants, mist dust suppression cannons, and lined tailings storage facilities. Sustainable practices focus on recycling water, minimizing carbon emissions, and reducing total surface footprint.",
-          "Req 6b - Reclamation and Scouting": "Mine reclamation involves reshaping excavated overburden, re-spreading native topsoil, and planting native grasses and trees. This process mirrors the Outdoor Code and Leave No Trace principles by restoring disturbed natural landscapes.",
-          "Req 6c - Post-Mining Land": "Society values transforming decommissioned industrial mines into productive assets like wildlife preserves, solar farms, and parks. A prime example is the Summit Bechtel Reserve in West Virginia, built on reclaimed surface coal mine property."
+          "Phase 1 - Site Selection": "Select an operational mine with publicly documented environmental management and reclamation plans.",
+          "Phase 2 - Impact Assessment": "Examine site techniques for water treatment, dust suppression, and acid drainage prevention.",
+          "Phase 3 - Ethics Alignment": "Connect mine reclamation principles directly to the Outdoor Code and Leave No Trace.",
+          "Phase 4 - Case Analysis": "Review how West Virginia coal surface mine lands transformed into the Summit Bechtel Reserve."
         },
-        "sample_output": "Environmental Stewardship and Reclamation: The future effect of mining on each is determined, and plans are made to restore the land (p. 39).",
-        "counselor_tip": "For Mining in Society Requirement 6 (Environmental Stewardship and Reclamation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82))."
+        "sample_output": "Modern mining laws require operators to establish environmental control plans before beginning excavation work. Reclamation restores mined terrain into productive wildlife habitats, public parks, or commercial centers in accordance with conservation ethics.",
+        "counselor_tip": "During the Mining in Society Requirement 6 conference on Environmental Mitigation and Land Reclamation, verify that the Scout can explain erosion control and demonstrate case analysis: Review how West Virginia coal surface mine lands transformed into the Summit Bechtel Reserve."
       },
       "quiz_item": {
         "scenario_prompt": "How does modern mine land reclamation connect to Scouting's Leave No Trace Seven Principles and the Outdoor Code?",
@@ -2876,13 +2863,9 @@
         "Step 3 - Economic Calculation: Calculate energy savings from material recycling or evaluate market commodity spot trends.",
         "Step 4 - Counselor Discussion: Present technological viability and economic tradeoffs of the selected frontier to counselor."
       ],
-      "gear_checklist": [
-        "Official Mining in Society Merit Badge: Anticipated Benefits of Interplanetary Mining.",
-        "Field notebook, verification log sheet, and demonstration materials for Anticipated Benefits of Interplanetary Mining.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Interplanetary Mineral Resource",
+        "left_header": "Req 7a: Interplanetary Mineral Resource Mining",
         "right_header": "Req 7c: Mineral and Metal Recycling",
         "left_points": [
           "(7a) Interplanetary Mineral Resource Mining: Space agencies and commercial firms explore extracting water ice, platinum group metals, and rare earths from asteroids and the Moon. In-situ resource utilization eliminates the enormous rocket fuel cost of lifting heavy materials into orbit from Earth.",
@@ -2905,22 +2888,22 @@
           },
           {
             "attribute": "Scrap Remelting",
-            "left": "Req 7a: Interplanetary Mineral: Space agencies and commercial firms explore extracting water ice, platinum group metals, and rare earths from asteroids and the Moon. In-situ resource utilization eliminates the enormous rocket fuel cost of lifting heavy materials into orbit from Earth.",
-            "right": "Req 7b: Ocean Floor Mineral: Oceans contain dissolved minerals such as magnesium and salt, while abyssal seafloors harbor potato-sized polymetallic nodules. Commercial dredging occurs in coastal zones for diamonds, heavy mineral sands, and construction aggregates."
+            "left": "Scrap Remelting: Recycling aluminum cans consumes ninety-five percent less energy than refining virgin bauxite.",
+            "right": "Commodity Volatility: Global mineral commodity prices fluctuate based on geopolitical events and industrial demand."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 7 Exemplar Workbook Entry: Future",
+        "title": "Mining in Society Req 7 Worked Example: Future Mining Horizons and Recycling",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Interplanetary Mineral": "Space agencies and commercial firms explore extracting water ice, platinum group metals, and rare earths from asteroids and the Moon. In-situ resource utilization eliminates the enormous rocket fuel cost of lifting heavy materials into orbit from Earth.",
-          "Req 7b - Ocean Floor Mineral": "Oceans contain dissolved minerals such as magnesium and salt, while abyssal seafloors harbor potato-sized polymetallic nodules. Commercial dredging occurs in coastal zones for diamonds, heavy mineral sands, and construction aggregates.",
-          "Req 7c - Mineral and Metal Recycling": "Recycling steel, aluminum, copper, lead, concrete aggregates, and glass reduces the demand for newly extracted virgin ores. Reclaiming metals conserves substantial energy, cuts greenhouse gas emissions, and reduces mine landfill waste.",
-          "Req 7d - Mineral Commodity Market": "Commodity exchanges determine daily spot prices for copper, gold, aluminum, cement, and coal based on supply and demand. Tracking price histories reveals how economic growth, new technology, and geopolitical tensions affect mining investments."
+          "Phase 1 - Option Selection": "Select one exploratory track covering space mining, ocean harvesting, recycling, or commodities.",
+          "Phase 2 - Technology Assessment": "Investigate operational robotics and chemical separation technologies required for your chosen topic.",
+          "Phase 3 - Economic Calculation": "Calculate energy savings from material recycling or evaluate market commodity spot trends.",
+          "Phase 4 - Counselor Discussion": "Present technological viability and economic tradeoffs of the selected frontier to counselor."
         },
-        "sample_output": "Future Frontiers and Mineral Markets: Your home is built of numerous materials that were mined (p. 13).",
-        "counselor_tip": "For Mining in Society Requirement 7 (Future Frontiers and Mineral Markets), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34))."
+        "sample_output": "Future mineral supplies depend on technological innovations such as space mining, deep ocean polymetallic nodule harvesting, and closed-loop scrap recycling. Mineral commodity pricing drives market investment in alternative extraction technologies and metal conservation programs.",
+        "counselor_tip": "During the Mining in Society Requirement 7 conference on Future Mining Horizons and Recycling, verify that the Scout can explain lunar resources and demonstrate counselor discussion: Present technological viability and economic tradeoffs of the selected frontier to counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Which mined minerals are essential for constructing the interior walls and window glass of a typical house?",
@@ -3089,53 +3072,47 @@
         "Step 3 - Economic Assessment: Gather current data on median entry salaries, promotion timelines, and job availability.",
         "Step 4 - Professional Interview: Interview an active mining professional or counselor to discuss daily operational responsibilities."
       ],
-      "gear_checklist": [
-        "Official Mining in Society Merit Badge: Mining in Society Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Mining in Society Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Traditional Underground Miner",
-        "right_header": "Req 8: Look Past Historical Mining",
+        "left_header": "Mining Industry Career Exploration: Core Principles",
+        "right_header": "Mining Industry Career Exploration: Field Execution",
         "left_points": [
-          "Traditional Underground Miner Stereotypes: When most people think about what aminer does, the first image that springs to mind is the miner heading underground with a headlamp, hardhat, simple (p. 86).",
-          "Surface Heavy Equipment Operators: Or you may think about the shovel operator, haul truck driver, or someone working abulldozer or front-end loader (p. 86).",
-          "Historical Depictions of Mining Work: These images have triggered the imaginations of artists and writers who have passed them down to us over time (p. 86)."
+          "Mining Engineering: Accredited university engineering degrees prepare graduates to design safe underground ventilation networks.",
+          "Geological Exploration: Field geologists analyze diamond drill core samples to map economic ore bodies."
         ],
         "right_points": [
-          "Look Past Historical Mining Stereotypes: These images have triggered the imaginations of artists and writers who have passed them down to us over time (p. 86).",
-          "Explore Diverse Industry Professions: A career in the mining industry includes many more occupations (p. 86).",
-          "Map Careers Across Resource Cycles: The cycle of developing mineral resources has many parts, and all offer interesting, well-paying career opportunities (p. 86)."
+          "Environmental Compliance: Environmental scientists monitor reclamation water quality and maintain regulatory compliance across active operations.",
+          "Technical Trades: Certified heavy equipment technicians service computerized diesel haul trucks and hydraulic shovels."
         ],
         "rows": [
           {
             "attribute": "Mining Engineering",
-            "left": "Traditional Underground Miner Stereotypes: When most people think about what aminer does, the first image that springs to mind is the miner heading underground with a headlamp, hardhat, simple (p. 86).",
-            "right": "Look Past Historical Mining Stereotypes: These images have triggered the imaginations of artists and writers who have passed them down to us over time (p. 86)."
+            "left": "Mining Engineering: Accredited university engineering degrees prepare graduates to design safe underground ventilation networks.",
+            "right": "Environmental Compliance: Environmental scientists monitor reclamation water quality and maintain regulatory compliance across active operations."
           },
           {
             "attribute": "Geological Exploration",
-            "left": "Surface Heavy Equipment Operators: Or you may think about the shovel operator, haul truck driver, or someone working abulldozer or front-end loader (p. 86).",
-            "right": "Explore Diverse Industry Professions: A career in the mining industry includes many more occupations (p. 86)."
+            "left": "Geological Exploration: Field geologists analyze diamond drill core samples to map economic ore bodies.",
+            "right": "Technical Trades: Certified heavy equipment technicians service computerized diesel haul trucks and hydraulic shovels."
           },
           {
             "attribute": "Environmental Compliance",
-            "left": "Historical Depictions of Mining Work: These images have triggered the imaginations of artists and writers who have passed them down to us over time (p. 86).",
-            "right": "Map Careers Across Resource Cycles: The cycle of developing mineral resources has many parts, and all offer interesting, well-paying career opportunities (p. 86)."
+            "left": "Environmental Compliance: Environmental scientists monitor reclamation water quality and maintain regulatory compliance across active operations.",
+            "right": "Technical Trades: Certified heavy equipment technicians service computerized diesel haul trucks and hydraulic shovels."
           }
         ]
       },
       "worked_example": {
-        "title": "Mining in Society Req 8 Exemplar Workbook Entry: Careers",
+        "title": "Mining in Society Req 8 Worked Example: Mining Industry Career Exploration",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Traditional Underground Miner": "When most people think about what aminer does, the first image that springs to mind is the miner heading underground with a headlamp, hardhat, simple (p. 86).",
-          "Surface Heavy Equipment Operators": "Or you may think about the shovel operator, haul truck driver, or someone working abulldozer or front-end loader (p. 86).",
-          "Historical Depictions of Mining Work": "These images have triggered the imaginations of artists and writers who have passed them down to us over time (p. 86).",
-          "Diverse Modern Mining Industry": "A career in the mining industry includes many more occupations (p. 86)."
+          "Phase 1 - Career Identification": "Select one specific mining profession such as mining engineer, hydrologist, or geophysicist.",
+          "Phase 2 - Academic Investigation": "Research university degree accreditations, vocational apprenticeships, and tuition costs for the role.",
+          "Phase 3 - Economic Assessment": "Gather current data on median entry salaries, promotion timelines, and job availability.",
+          "Phase 4 - Professional Interview": "Interview an active mining professional or counselor to discuss daily operational responsibilities."
         },
-        "sample_output": "Careers in the Mining Industry: When most people think about what aminer does, the first image that springs to mind is the miner heading underground with a headlamp, hardhat, simple (p. 86).",
-        "counselor_tip": "For Mining in Society Requirement 8 (Careers in the Mining Industry), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mining in Society Merit Badge Pamphlet (p. 86, p. 89))."
+        "sample_output": "The mining industry offers diverse career pathways spanning geological engineering, environmental compliance, heavy machinery maintenance, and mine safety management. Researching educational credentials, starting salaries, and daily field duties prepares youths for high-demand technical careers.",
+        "counselor_tip": "During the Mining in Society Requirement 8 conference on Mining Industry Career Exploration, verify that the Scout can explain mining engineering and demonstrate professional interview: Interview an active mining professional or counselor to discuss daily operational responsibilities."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the mining industry offer a much wider variety of career opportunities than most people realize?",

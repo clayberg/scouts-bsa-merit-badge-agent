@@ -31,7 +31,6 @@
 ### Req 1: Foundational Principles and Historical Origins
 **Official Requirement 1 (Parent Overview):** General Knowledge. Do the following: (a) In your own words, describe to your counselor what animation is. (b) Discuss with your counselor a brief history of animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Ensure computer monitors are positioned at eye level and take five minute screen breaks every half hour to prevent eye strain.
 - **Common Myth:** Beginners often believe animation is simply moving pictures rather than a sequential series of static images creating an illusion.
 - **Pamphlet Fact:** Animation is technically the rapid display of distinct still images that the human brain synthesizes into fluid motion.
 
@@ -44,10 +43,8 @@
 #### Req 1a: Core Mechanics of Visual Motion
 **Official Requirement 1a:** In your own words, describe to your counselor what animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Own Words)
-- **Common Myth:** Novices assume smooth animation requires real physical movement captured continuously on camera.
-- **Pamphlet Fact:** All animation relies entirely on static frames filmed individually and played back at sufficient speed.
 
-![Animation Requirement 1 figure showing human eyes blend static images together when presented at rapid sequential speeds.](/assets/pamphlet_images/animation_p003_img1.png)
+![Human eyes blend static images together when presented at rapid sequential speeds.](/assets/pamphlet_images/animation_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -58,8 +55,6 @@
 #### Req 1b: Historical Milestones in Animation
 **Official Requirement 1b:** Discuss with your counselor a brief history of animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Animation Origins and Evolution)
-- **Common Myth:** Scouts frequently think digital computers invented modern character animation principles.
-- **Pamphlet Fact:** Key drawing principles and timing conventions were fully developed by traditional studio animators during the nineteen thirties.
 
 ![Magic lanterns projected early painted glass slides before modern motion pictures existed.](/assets/pamphlet_images/animation_p021_img2.png)
 
@@ -72,7 +67,6 @@
 ### Req 2: Core Principles of Believable Animation
 **Official Requirement 2:** Principles of Animation. Choose five of the following 12 principles of animation, and discuss how each one makes an animation appear more believable: squash and stretch, anticipation, staging, straight ahead action and pose to pose, follow through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, and appeal.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Principles of Animation)
-> **Guide to Safe Scouting Warning:** Maintain neutral wrist posture while drawing at a drafting desk to avoid repetitive strain injuries.
 - **Common Myth:** Beginners often think squash and stretch means altering an object's overall volume when distorting it.
 - **Pamphlet Fact:** Believable squash and stretch requires maintaining identical total volume regardless of how drastically the shape distorts.
 
@@ -94,7 +88,6 @@
 ### Req 3: Planning and Production Techniques
 **Official Requirement 3 (Parent Overview):** Projects. With your counselor's approval, choose two animation techniques and do the following for each: (a) Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made. (b) Technique 2 (1) Plan your animation using thumbnail sketches and/or layout drawings. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Secure studio tripods, hot work lamps, and power cables with gaffer tape to prevent tripping hazards.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Animation Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Novices believe animators immediately draw straight ahead without planning key poses or storyboards.
 - **Pamphlet Fact:** Professional animators rely on detailed thumbnail storyboards and keyframe poses to establish motion timing.
@@ -108,10 +101,7 @@
 ### Req 3a: First Animation Technique Production
 **Official Requirement 3a (Parent Overview):** Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Secure studio tripods, hot work lamps, and power cables with gaffer tape to prevent tripping hazards.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Animation Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Students often believe hand drawn animation requires twenty four distinct drawings for every single second.
-- **Pamphlet Fact:** Animators frequently animate on twos, holding each drawing for two frames to achieve twelve drawings per second.
 
 **Official Pamphlet Summary:**
 - Select a primary medium such as traditional two dimensional hand drawn or digital vector animation. Develop clear thumbnail sketches and layout drawings before creating and screening the final sequence.
@@ -120,8 +110,6 @@
 #### Req 3a(1): Initial Storyboard and Layout Planning
 **Official Requirement 3a(1):** Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches and/or)
-- **Common Myth:** Thumbnail sketches must be fully rendered, polished artwork with complete character details before animation begins.
-- **Pamphlet Fact:** Thumbnails serve as quick, simplified gesture drawings that map out motion paths, timing, and scene composition rather than final visual polish.
 
 ![Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso.](/assets/pamphlet_images/animation_p044_img1.png)
 
@@ -142,10 +130,8 @@
 #### Req 3a(2): Primary Animation Sequence Production
 **Official Requirement 3a(2):** Create the animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(2) Structured Technical Study & Explanation Matrix (Animation Animation Principles)
-- **Common Myth:** Smooth animation requires drawing twenty-four distinct original frames for every single second of screen time.
-- **Pamphlet Fact:** Most drawn and digital animations shoot on twos at twelve drawings per second to produce fluid movement while managing drawing workload.
 
-![Animation Requirement 2 figure showing deforming a character during impact conveys weight, flexibility, and dynamic physical mass.](/assets/pamphlet_images/animation_p007_img1.png)
+![Deforming a character during impact conveys weight, flexibility, and dynamic physical mass.](/assets/pamphlet_images/animation_p007_img1.png)
 
 | Req 3a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -156,8 +142,6 @@
 #### Req 3a(3): Production Review and Workflow Critique
 **Official Requirement 3a(3):** Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(3) Structured Technical Study & Explanation Matrix (Animations Created Discuss Improvements)
-- **Common Myth:** Discussing improvements with the counselor indicates that the submitted animation failed to meet badge production requirements.
-- **Pamphlet Fact:** Professional animators rely on dailies and constructive critiques as standard industry steps to refine motion mechanics and strengthen visual storytelling.
 
 ![A slotted zoetrope drum creates the illusion of motion from sequential horse drawings.](/assets/pamphlet_images/animation_p023_img2.png)
 
@@ -171,8 +155,6 @@
 ### Req 3b: Second Animation Technique Production
 **Official Requirement 3b (Parent Overview):** Technique 2 (1) Plan your animation using thumbnail sketches and/or layout drawings. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** Beginners often assume stop motion models remain steady without internal wire or ball joint armatures.
-- **Pamphlet Fact:** Stop motion puppets require sturdy internal armatures and secure tie downs to maintain delicate poses between exposures.
 
 **Official Pamphlet Summary:**
 - Choose a contrasting medium such as stop motion puppet animation or computer generated three dimensional modeling. Plan scene layouts thoroughly, capture incremental poses, and present the completed project to your counselor.
@@ -181,8 +163,6 @@
 #### Req 3b(1): Alternative Technique Storyboard and Staging
 **Official Requirement 3b(1):** Plan your animation using thumbnail sketches and/or layout drawings.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches and/or)
-- **Common Myth:** Stop motion and clay animations do not need storyboards because animators can invent physical poses spontaneously during filming.
-- **Pamphlet Fact:** Physical stop motion requires thorough planning with thumbnail sketches because moving or resetting physical puppets without a visual guide creates erratic motion and continuity breaks.
 
 ![Eadweard Muybridge captured sequential photographs proving all four horse hooves leave the ground.](/assets/pamphlet_images/animation_p025_img2.png)
 
@@ -203,8 +183,6 @@
 #### Req 3b(2): Secondary Technique Production and Capture
 **Official Requirement 3b(2):** Create the animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(2) Structured Technical Study & Explanation Matrix (Animation Animation Principles)
-- **Common Myth:** Handheld camera setups provide acceptable footage for stop motion projects as long as the photographer holds their hands steady.
-- **Pamphlet Fact:** Even minuscule camera shifts between frames cause distracting visual jitter, requiring a locked tripod or secure mount for every exposure.
 
 ![Wobbling gelatin molds illustrate the fundamental principle of squash and stretch in animation.](/assets/pamphlet_images/animation_p037_img2.png)
 
@@ -217,8 +195,6 @@
 #### Req 3b(3): Comparative Technique Evaluation and Reflection
 **Official Requirement 3b(3):** Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(3) Structured Technical Study & Explanation Matrix (Animations Created Discuss Improvements)
-- **Common Myth:** A Scout must rebuild and film the entire animation project again if the counselor identifies flaws during the final review.
-- **Pamphlet Fact:** Requirement three asks Scouts to articulate what they learned and explain specific modifications that would enhance the work without demanding a complete reshoot.
 
 ![Spacing marks along the trajectory show gradual acceleration and deceleration of a rolling sphere.](/assets/pamphlet_images/animation_p038_img2.png)
 
@@ -232,7 +208,6 @@
 ### Req 4: Industry Applications and Future Horizons
 **Official Requirement 4 (Parent Overview):** Animation in our World. Do the following: (a) Tour an animation studio or a business where animation is used, either in person, via video, or via the internet. Share what you have learned with your counselor. (b) Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow all posted visitor safety guidelines and watch for loose studio cables during facility tours.
 - **Common Myth:** People frequently assume animation is only utilized for commercial entertainment films and Saturday morning cartoons.
 - **Pamphlet Fact:** Animation is widely applied across aerospace engineering, architectural walkthroughs, surgical planning, and courtroom accident reconstruction.
 
@@ -245,8 +220,6 @@
 #### Req 4a: Studio Facility Tour Insights
 **Official Requirement 4a:** Tour an animation studio or a business where animation is used, either in person, via video, or via the internet. Share what you have learned with your counselor.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Tour An Animation Studio)
-- **Common Myth:** Tour visitors often expect a single animator produces an entire commercial film alone.
-- **Pamphlet Fact:** Commercial studios operate multistage pipelines where dozens of specialists contribute to single shots.
 
 ![Walt Disney founded one of the most influential animation and entertainment studios in history.](/assets/pamphlet_images/animation_p030_img1.png)
 
@@ -260,8 +233,6 @@
 #### Req 4b: Future Applications of Animation
 **Official Requirement 4b:** Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)
-- **Common Myth:** Novices often consider future animation advancements solely as improvements in graphic resolution.
-- **Pamphlet Fact:** Emerging animation technologies focus heavily on real time interactive simulation, virtual training, and spatial visualization.
 
 ![A fully rendered cartoon character walks through foliage to demonstrate staging in animation.](/assets/pamphlet_images/animation_p038_img3.png)
 
@@ -274,7 +245,6 @@
 ### Req 5: Animation Career Pathways
 **Official Requirement 5:** Careers. Learn about three career opportunities in animation. Pick one and find out about the education, training, and experience required for this profession. Discuss your findings with your counselor. Explain why this profession might interest you.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 85, p. 91)* • **Organizer (Career & Profession Exploration Card):** Req 5 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Practice proper office ergonomics by adjusting chair lumbar support and taking regular breaks to avoid carpal tunnel syndrome.
 - **Common Myth:** Aspiring artists often assume animation studios hire generalists who perform every phase of production.
 - **Pamphlet Fact:** Major studios primarily recruit specialists who excel at specific pipeline tasks like rigging, lighting, or character performance.
 

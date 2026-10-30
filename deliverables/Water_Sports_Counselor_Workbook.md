@@ -49,10 +49,8 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in water sports activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Water Sports Hazards and First Aid)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Water provides a completely soft surface that prevents physical impact injuries during falls.
-- **Pamphlet Fact:** Hitting water at thirty miles per hour causes severe contusions and concussion trauma.
 
-![Water Sports Requirement 1 figure showing turn off the boat motor completely before any skier approaches the boarding ladder.](/assets/pamphlet_images/water_sports_p003_img1.png)
+![Turn off the boat motor completely before any skier approaches the boarding ladder.](/assets/pamphlet_images/water_sports_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -63,8 +61,6 @@
 #### Req 1b: Water Sports Medical Management
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in water sports: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, strains, minor cuts and bruises, spinal injury, and concussions and head trauma.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** Cold water shock only occurs in freezing winter lakes during ice-out conditions.
-- **Pamphlet Fact:** Immersion in water below sixty degrees Fahrenheit triggers involuntary gasping and rapid hypothermia.
 
 ![Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.](/assets/pamphlet_images/water_sports_p031_img1.png)
 
@@ -83,8 +79,6 @@
 #### Req 1c: Safety Afloat Operational Policies
 **Official Requirement 1c:** Review the Scouting America Safety Afloat policy. Tell how it applies to water sports.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** Safety Afloat guidelines apply only to human-powered canoes, kayaks, and rowboats.
-- **Pamphlet Fact:** Safety Afloat governs all Scouting motorized watercraft activities including skiing and wakeboarding.
 
 ![A motorboat carries passengers across a calm lake for recreational water skiing activities.](/assets/pamphlet_images/water_sports_p011_img1.png)
 
@@ -113,10 +107,8 @@
 **Official Requirement 2a:** Discuss with your counselor the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding. Then demonstrate how to select and fit a life jacket for water sports activities.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Discuss with Your Counselor the)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** A loose life jacket is safer because it allows freer arm movement while turning.
-- **Pamphlet Fact:** Loose life jackets can ride up over the face and obstruct breathing during falls.
 
-![Water Sports Requirement 2 figure showing select life jackets constructed with heavy-duty foam designed to withstand.](/assets/pamphlet_images/water_sports_p007_img1.png)
+![Select life jackets constructed with heavy-duty foam designed to withstand high-velocity water impacts.](/assets/pamphlet_images/water_sports_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -128,8 +120,6 @@
 #### Req 2b: Water Sports Safety Code
 **Official Requirement 2b:** Review and discuss the Water Sports Safety Code with your counselor. Promise that you will live up to it and follow it in all water work for this merit badge. Review the safety precautions that must be used by the boat operator in pulling waterskiers and wakeboarders.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss the Water Sports Safety)
-- **Common Myth:** The safety code is merely optional advice that boaters can discard on quiet lakes.
-- **Pamphlet Fact:** The safety code constitutes strict operating rules mandated by maritime law and Scouting policy.
 
 ![An orange throwable ring buoy provides emergency flotation support for a swimmer in distress.](/assets/pamphlet_images/water_sports_p041_img1.png)
 
@@ -207,8 +197,6 @@
 #### Req 5a: Deepwater Start Execution
 **Official Requirement 5a:** Show how to enter the water from a boat and make a deepwater start without help.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Enter the Water from A)
-- **Common Myth:** Pulling the handle inward toward your chest helps pull you out of the water.
-- **Pamphlet Fact:** Bending your arms exhausts back muscles and tips your center of balance backward.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -227,10 +215,8 @@
 #### Req 5b: Wake Crossing Traversal
 **Official Requirement 5b:** Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Starting from Outside the Wakes)
-- **Common Myth:** Skiing directly parallel across wake rollers prevents the ski tips from catching water.
-- **Pamphlet Fact:** Hitting wakes parallel causes skis to slide sideways and triggers violent rotational falls.
 
-![Water Sports Requirement 3 figure showing swim seventy-five yards using a strong, well-executed forward crawl or trudgen stroke.](/assets/pamphlet_images/water_sports_p012_img1.png)
+![Swim seventy-five yards using a strong, well-executed forward crawl or trudgen stroke.](/assets/pamphlet_images/water_sports_p012_img1.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -241,8 +227,6 @@
 #### Req 5c: Obstacle Avoidance and Stopping
 **Official Requirement 5c:** Show you can fall properly to avoid an obstacle. Also show that you can drop handle and coast to a stop without losing your balance.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (You Can Fall Properly to)
-- **Common Myth:** Skiing directly up to the beach at full speed makes for an impressive landing.
-- **Pamphlet Fact:** High-speed shore approaches risk catastrophic collisions with shallow bottoms, rocks, or shoreline docks.
 
 ![A water skier signals with a thumbs-up gesture to indicate faster speed or that they are okay.](/assets/pamphlet_images/water_sports_p020_img2.png)
 

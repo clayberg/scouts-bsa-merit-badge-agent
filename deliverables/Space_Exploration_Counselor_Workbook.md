@@ -48,10 +48,8 @@
 #### Req 1a: Space Race Historical Origins
 **Official Requirement 1a:** Historical reasons.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Historical Reasons)
-- **Common Myth:** Human curiosity alone motivated governments to fund the space race in 1957.
-- **Pamphlet Fact:** National defense and ideological rivalry primarily drove early investments in satellite rockets.
 
-![Space Exploration Requirement 1 figure showing military ballistic missile advancements established foundational boosters for initial.](/assets/pamphlet_images/space_exploration_p003_img1.png)
+![Military ballistic missile advancements established foundational boosters for initial crewed orbital flights.](/assets/pamphlet_images/space_exploration_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -62,8 +60,6 @@
 #### Req 1b: Immediate Planetary Knowledge Goals
 **Official Requirement 1b:** Immediate goals in terms of specific knowledge.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Immediate Goals in Terms of)
-- **Common Myth:** Planetary science missions prioritize finding alien life over collecting atmospheric data.
-- **Pamphlet Fact:** Robotic probes collect atmospheric chemistry data to resolve fundamental planetary formation questions.
 
 ![Targeting markers guide an approaching spacecraft to the space station.](/assets/pamphlet_images/space_exploration_p069_img1.png)
 
@@ -76,10 +72,8 @@
 #### Req 1c: Terrestrial Resource Economic Benefits
 **Official Requirement 1c:** Benefits related to Earth resources, technology, and new products.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Benefits Related to Earth Resources)
-- **Common Myth:** Space research produces inventions that benefit only astronauts aboard orbital space stations.
-- **Pamphlet Fact:** Synthetic materials developed for spacecraft insulation now insulate commercial architectural structures.
 
-![Space Exploration Requirement 2 figure showing theoretical rocket equations proved reaction engines could function in a vacuum environment.](/assets/pamphlet_images/space_exploration_p007_img1.png)
+![Theoretical rocket equations proved reaction engines could function in a vacuum environment.](/assets/pamphlet_images/space_exploration_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -90,8 +84,6 @@
 #### Req 1d: International Outer Space Cooperation
 **Official Requirement 1d:** International relations and cooperation.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (International Relations and Cooperation)
-- **Common Myth:** Nations launch missions completely independently without international tracking or frequency coordination.
-- **Pamphlet Fact:** International space treaties require shared rescue protocols for astronauts facing emergency orbital situations.
 
 ![A detailed view of lunar craters highlights destinations for exploration.](/assets/pamphlet_images/space_exploration_p023_img1.png)
 
@@ -104,7 +96,6 @@
 ### Req 2: Space Pioneers Biographical Study
 **Official Requirement 2:** Design a collector's card, with a picture on the front and information on the back, about your favorite space pioneer. Share your card and discuss four other space pioneers with your counselor.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 23, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Collector's Card with A Picture)
-> **Guide to Safe Scouting Warning:** Handle paper cutters and archival laminating presses with designated mechanical safety shields engaged.
 - **Common Myth:** Early rocket pioneers achieved orbital flight during their initial workshop engine tests.
 - **Pamphlet Fact:** Konstantin Tsiolkovsky derived the rocket equation mathematically without ever building working hardware.
 
@@ -141,10 +132,8 @@
 **Official Requirement 3a:** Body tube.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Body Tube)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Space Exploration Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Thicker body tubes always improve rocket flight altitude by eliminating air friction.
-- **Pamphlet Fact:** Body tubes align internal recovery elements while providing external aerodynamic structural continuity.
 
-![Space Exploration Requirement 3 figure showing spiral wound kraft paper tubes provide lightweight airframe rigidity during powered flight.](/assets/pamphlet_images/space_exploration_p012_img1.png)
+![Spiral wound kraft paper tubes provide lightweight airframe rigidity during powered flight.](/assets/pamphlet_images/space_exploration_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -155,8 +144,6 @@
 #### Req 3b: Engine Mount Thrust Assembly
 **Official Requirement 3b:** Engine mount.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Space Exploration Engine Principles)
-- **Common Myth:** The motor mount holds the engine in place solely using friction fit tape.
-- **Pamphlet Fact:** Motor blocks prevent the rocket engine from sliding forward through the airframe during burn.
 
 ![A Scout checks alignment while constructing a model rocket body tube.](/assets/pamphlet_images/space_exploration_p026_img1.png)
 
@@ -169,8 +156,6 @@
 #### Req 3c: Aerodynamic Tail Fin Placement
 **Official Requirement 3c:** Fins.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Space Exploration Fins Principles)
-- **Common Myth:** Curved fins provide better flight stability than completely flat, straight balsa fins.
-- **Pamphlet Fact:** Fins provide passive aerodynamic drag at the tail to keep the nose forward.
 
 ![Scouts maintain a safe distance while watching a model rocket launch.](/assets/pamphlet_images/space_exploration_p027_img1.png)
 
@@ -183,8 +168,6 @@
 #### Req 3d: Electrical Propulsion Igniter Operation
 **Official Requirement 3d:** Igniter.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Space Exploration Igniter Principles)
-- **Common Myth:** Rocket motors ignite from a mechanical spark generated inside the launch controller.
-- **Pamphlet Fact:** Igniters use electrical resistance heat to light the solid propellant pyrotechnic grain.
 
 ![Model rocket components include a launch tripod, rocket, and ignition pad.](/assets/pamphlet_images/space_exploration_p028_img1.png)
 
@@ -197,8 +180,6 @@
 #### Req 3e: Launch Lug Rod Guide
 **Official Requirement 3e:** Launch lug.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Launch Lug)
-- **Common Myth:** The launch lug adds significant drag and should be omitted on windy days.
-- **Pamphlet Fact:** The launch lug prevents tumbling until the fins reach effective aerodynamic stabilization speed.
 
 ![Saturn and its vast rings illustrate gravitational orbits in space.](/assets/pamphlet_images/space_exploration_p042_img1.png)
 
@@ -211,8 +192,6 @@
 #### Req 3f: Aerodynamic Forward Nose Cone
 **Official Requirement 3f:** Nose cone.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix (Nose Cone)
-- **Common Myth:** A sharp pointed nose cone is always aerodynamically superior at subsonic launch speeds.
-- **Pamphlet Fact:** Balsa or plastic nose cones reduce parasitic air resistance across the forward shockwave.
 
 ![A pixelated rendering shows digital data encoding of planetary rings.](/assets/pamphlet_images/space_exploration_p042_img2.png)
 
@@ -225,8 +204,6 @@
 #### Req 3g: Airframe Sensor Payload Section
 **Official Requirement 3g:** Payload.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix (Space Exploration Payload Principles)
-- **Common Myth:** Any extra payload placed inside a model rocket will make it completely unstable.
-- **Pamphlet Fact:** Payload mass shifts the center of gravity forward, which increases dynamic aerodynamic stability.
 
 ![Spacecraft sensors capture magnetic surface features across the Sun.](/assets/pamphlet_images/space_exploration_p061_img1.png)
 
@@ -239,8 +216,6 @@
 #### Req 3h: Parachute Recovery Deployment System
 **Official Requirement 3h:** Recovery system.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix (Recovery System)
-- **Common Myth:** Parachutes open automatically using air pressure sensors located inside the model nose cone.
-- **Pamphlet Fact:** Ejection charges fire forward through the tube to pop off the nose cone.
 
 ![An astronaut floats above Earth while conducting an EVA maintenance task.](/assets/pamphlet_images/space_exploration_p062_img1.png)
 
@@ -253,8 +228,6 @@
 #### Req 3i: Solid Propellant Rocket Engine
 **Official Requirement 3i:** Rocket engine.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3i Structured Technical Study & Explanation Matrix (Rocket Engine)
-- **Common Myth:** Rocket engines continue burning fuel at a steady rate until landing on Earth.
-- **Pamphlet Fact:** Solid model rocket engines contain propellant, delay grain, and forward ejection charges.
 
 ![Astronauts conduct scientific experiments inside a space station module.](/assets/pamphlet_images/space_exploration_p072_img1.png)
 
@@ -280,8 +253,6 @@
 #### Req 4a: Action Reaction Mechanical Law
 **Official Requirement 4a:** The law of action-reaction.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Law of Action-reaction)
-- **Common Myth:** Rockets push against the surrounding atmospheric air to move forward through space.
-- **Pamphlet Fact:** Escaping exhaust gas exerts reaction force directly on the engine combustion dome.
 
 ![Earth curves below the space station window during low orbital flight.](/assets/pamphlet_images/space_exploration_p040_img1.png)
 
@@ -294,8 +265,6 @@
 #### Req 4b: Rocket Engine Propulsion Principles
 **Official Requirement 4b:** How rocket engines work.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Rocket Engines Work)
-- **Common Myth:** Rocket engines require continuous outside air intake to burn liquid chemical fuels.
-- **Pamphlet Fact:** Converging-diverging nozzles expand hot gas to supersonic velocities to maximize engine thrust.
 
 ![A commercial Dragon spacecraft approaches orbital rendezvous with the ISS.](/assets/pamphlet_images/space_exploration_p078_img1.png)
 
@@ -308,8 +277,6 @@
 #### Req 4c: Satellite Orbital Mechanics Dynamics
 **Official Requirement 4c:** How satellites stay in orbit.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Satellites Stay in Orbit)
-- **Common Myth:** Spacecraft orbit Earth because they travel outside the pull of Earth gravity.
-- **Pamphlet Fact:** Orbital speed balances downward gravitational pull with the vehicle tangential forward motion.
 
 ![An official shuttle mission patch honors the astronaut crew and mission.](/assets/pamphlet_images/space_exploration_p079_img1.png)
 
@@ -322,8 +289,6 @@
 #### Req 4d: Planetary Digital Image Transmission
 **Official Requirement 4d:** How satellite pictures of Earth and pictures of other planets are made and transmitted.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Satellite Pictures of Earth and)
-- **Common Myth:** Spacecraft return physical photographic film to Earth to produce planetary digital images.
-- **Pamphlet Fact:** Sensors record light intensities as numbers that transmitters beam to antennas via radio.
 
 ![The complete space station orbits Earth with expansive solar arrays.](/assets/pamphlet_images/space_exploration_p088_img1.png)
 
@@ -349,8 +314,6 @@
 #### Req 5a: Crewed Robotic Mission Comparison
 **Official Requirement 5a:** Discuss with your counselor a robotic space exploration mission and a historic crewed mission. Tell about each mission's major discoveries, its importance, and what was learned from it about the planets, moons, or regions of space explored.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor A)
-- **Common Myth:** Robotic rovers have already returned more physical soil samples than crewed missions.
-- **Pamphlet Fact:** Apollo astronauts gathered hundreds of kilograms of pristine bedrock from diverse landing sites.
 
 ![Extreme ultraviolet solar imaging captures a massive eruptive flare.](/assets/pamphlet_images/space_exploration_p060_img1.png)
 
@@ -364,8 +327,6 @@
 #### Req 5b: Planetary Mission Digital Media
 **Official Requirement 5b:** Using articles from the internet, photographs and text, create a blog, website, or slide show about a current planetary mission or use magazine photographs, news clippings, and articles from the internet to make a scrapbook about a current planetary mission.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist (Articles from the Internet)
-- **Common Myth:** Planetary mission web logs only publish artist impressions rather than scientific telemetry.
-- **Pamphlet Fact:** Space agencies publish raw mission telemetry and calibrated imagery files for public research.
 
 ![A pilot trains in a NASA jet aircraft cockpit for spaceflight readiness.](/assets/pamphlet_images/space_exploration_p094_img1.png)
 
@@ -378,8 +339,6 @@
 #### Req 5c: Robotic Sample Return Design
 **Official Requirement 5c:** Design a robotic mission to another planet, moon, comet, or asteroid that will return samples of its surface to Earth. Name the planet, moon, comet, or asteroid your spacecraft will visit. Show how your design will cope with the conditions of the environments of the planet, moon, comet, or asteroid.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist (Robotic Mission to Another Planet)
-- **Common Myth:** Spacecraft collect surface rock samples simply by scooping dust during high-speed flybys.
-- **Pamphlet Fact:** Sample return spacecraft require sealed entry capsules with ablative heat shields for Earth recovery.
 
 ![An aerospace engineer inspects critical hardware inside a cleanroom lab.](/assets/pamphlet_images/space_exploration_p096_img1.png)
 
@@ -407,8 +366,6 @@
 #### Req 6a: Crewed Space Shuttle Architecture
 **Official Requirement 6a:** Space shuttle or any other crewed orbital vehicle, whether government-owned (U. S. or foreign) or commercial.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 76, p. 78)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Space Shuttle or Any Other)
-- **Common Myth:** The space shuttle orbited Earth using its giant external fuel tank engines.
-- **Pamphlet Fact:** The shuttle orbiter used ceramic tiles to absorb and radiate re-entry aerodynamic heat.
 
 ![The robotic arm berths a commercial Dragon cargo vehicle to the station.](/assets/pamphlet_images/space_exploration_p077_img1.png)
 
@@ -421,8 +378,6 @@
 #### Req 6b: International Space Station Operations
 **Official Requirement 6b:** International Space Station.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 76, p. 78)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (International Space Station)
-- **Common Myth:** The International Space Station was launched into orbit fully assembled on one rocket.
-- **Pamphlet Fact:** The space station operates as an international laboratory hosting multidisciplinary microgravity biology experiments.
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -446,8 +401,6 @@
 #### Req 7a: Extraterrestrial Base Power Sources
 **Official Requirement 7a:** Source of energy.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Source of Energy)
-- **Common Myth:** Solar arrays provide continuous, unvarying electrical energy across every solar system body.
-- **Pamphlet Fact:** Surface solar arrays require massive battery banks to survive two-week lunar nights.
 
 ![A futuristic concept painting illustrates habitats and rovers on the moon.](/assets/pamphlet_images/space_exploration_p081_img1.png)
 
@@ -460,8 +413,6 @@
 #### Req 7b: Planetary Base Construction Methods
 **Official Requirement 7b:** How it will be constructed.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Will Be Constructed)
-- **Common Myth:** Outposts must be fabricated entirely on Earth and ferried complete via single launches.
-- **Pamphlet Fact:** Autonomous teleoperated rovers can 3D-print landing pads using melted local basalt regolith.
 
 | Req 7b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -472,8 +423,6 @@
 #### Req 7c: Closed Loop Life Support
 **Official Requirement 7c:** Life-support system.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Life-support System)
-- **Common Myth:** Life support systems can vent waste air continuously without running out of gases.
-- **Pamphlet Fact:** Sabatier reactors combine carbon dioxide and hydrogen to recover water for crew consumption.
 
 | Req 7c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -484,8 +433,6 @@
 #### Req 7d: Base Scientific Mission Purpose
 **Official Requirement 7d:** Purpose and function.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Space Exploration Function Principles)
-- **Common Myth:** Establishing a permanent planetary habitat serves only as an emergency lifeboat for Earth.
-- **Pamphlet Fact:** Planetary surface bases serve as industrial stepping stones for deeper interplanetary crew missions.
 
 | Req 7d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

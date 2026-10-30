@@ -261,7 +261,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Store fragile historical paper records away from open flames, direct sunlight, and liquid containers.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
       "syllabus_bucket": "In-Class Concept",
@@ -329,19 +329,17 @@
         "Step 3 - Draft Household: Enter complete vital statistics for a single nuclear family onto group sheets.",
         "Step 4 - Review Formats: Compare linear pedigree charts against multi-generational family group sheets with your counselor."
       ],
-      "gear_checklist": [
-        "Official Genealogy Merit Badge Pamphlet: Words Genealogy Ancestor and Descendant.",
-        "Field notebook, verification log sheet, and demonstration materials for Words Genealogy Ancestor and Descendant.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Core Lineage Vocabulary",
+        "left_header": "Req 1a: Core Lineage Vocabulary Definitions",
         "right_header": "Req 1b: Pedigree Chart Data Architecture",
         "left_points": [
-          "(1a) Core Lineage Vocabulary Definitions: Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations."
+          "(1a) Core Lineage Vocabulary Definitions: Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations.",
+          "Lineage Science: Genealogy systematically traces bloodlines and legal relationships across multiple successive historical eras."
         ],
         "right_points": [
-          "(1b) Pedigree Chart Data Architecture: A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual."
+          "(1b) Pedigree Chart Data Architecture: A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual.",
+          "(1c) Family Group Record Organization: Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context."
         ],
         "rows": [
           {
@@ -351,26 +349,27 @@
           },
           {
             "attribute": "Pedigree Documentation",
-            "left": "Req 1a: Core Lineage Vocabulary: Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations.",
-            "right": "Req 1b: Pedigree Chart Data: A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual."
+            "left": "Lineage Science: Genealogy systematically traces bloodlines and legal relationships across multiple successive historical eras.",
+            "right": "(1c) Family Group Record Organization: Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context."
           },
           {
             "attribute": "Vital Registration",
-            "left": "Req 1c: Family Group Record: Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context.",
-            "right": "Pedigree Documentation: Ancestor charts record direct biological antecedents while descendant charts track succeeding generational offspring."
+            "left": "Vital Registration: Family group sheets capture vital statistics for parents and children within households.",
+            "right": "Standard Nomenclature: Standardized genealogical terminology prevents confusion between direct forebears and collateral family lines."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 1 Exemplar Workbook Entry: Core Genealogy",
+        "title": "Genealogy Req 1 Worked Example: Foundational Genealogical Terminology and Records",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 1a - Core Lineage Vocabulary": "Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations.",
-          "Req 1b - Pedigree Chart Data": "A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual.",
-          "Req 1c - Family Group Record": "Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context."
+          "Phase 1 - Define Terms": "Write precise operational definitions for genealogy, ancestor, and descendant in your field notebook.",
+          "Phase 2 - Structure Pedigree": "Sketch a basic ancestral pedigree chart tracing biological lineage back through great-grandparents.",
+          "Phase 3 - Draft Household": "Enter complete vital statistics for a single nuclear family onto group sheets.",
+          "Phase 4 - Review Formats": "Compare linear pedigree charts against multi-generational family group sheets with your counselor."
         },
-        "sample_output": "Core Genealogy Terms and Charts: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 27).",
-        "counselor_tip": "For Genealogy Requirement 1 (Core Genealogy Terms and Charts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44))."
+        "sample_output": "Genealogy represents the systematic study of ancestral lineages through validated historical evidence. Family trees and family group records organize biological lineages and generational household units into standardized research formats.",
+        "counselor_tip": "During the Genealogy Requirement 1 conference on Foundational Genealogical Terminology and Records, verify that the Scout can explain lineage science and demonstrate review formats: Compare linear pedigree charts against multi-generational family group sheets with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "In Genealogy Requirement 1, what is the difference between a primary genealogical source and a secondary source when researching your family's pedigree chart?",
@@ -611,7 +610,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Protect digital journals and personal biographical notes by securing physical notebooks and using encrypted drives.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
       "syllabus_bucket": "In-Class Concept",
@@ -679,13 +678,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Chronological Life Milestone",
+        "left_header": "Req 2a: Chronological Life Milestone Synthesis",
         "right_header": "Req 2b: Six-Week Journal Documentation",
         "left_points": [
-          "(2a) Chronological Life Milestone Synthesis: Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history."
+          "(2a) Chronological Life Milestone Synthesis: Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history.",
+          "Chronological Sequencing: Structured timelines reveal geographic migrations and historical context across an individual human life."
         ],
         "right_points": [
-          "(2b) Six-Week Journal Documentation: Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions."
+          "(2b) Six-Week Journal Documentation: Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions.",
+          "Contextual Synthesis: Correlating family events with local historical crises illuminates ancestral decisions and community relocations."
         ],
         "rows": [
           {
@@ -695,25 +696,27 @@
           },
           {
             "attribute": "Primary Source Creation",
-            "left": "Req 2a: Chronological Life Milestone: Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history.",
-            "right": "Req 2b: Six-Week Journal: Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions."
+            "left": "Chronological Sequencing: Structured timelines reveal geographic migrations and historical context across an individual human life.",
+            "right": "Contextual Synthesis: Correlating family events with local historical crises illuminates ancestral decisions and community relocations."
           },
           {
             "attribute": "Contextual Synthesis",
-            "left": "Chronological Sequencing: Structured timelines reveal geographic migrations and historical context across an individual human life.",
-            "right": "Primary Source Creation: Consistent personal journaling preserves contemporary firsthand eyewitness testimony for future historical researchers."
+            "left": "Contextual Synthesis: Correlating family events with local historical crises illuminates ancestral decisions and community relocations.",
+            "right": "Standard Date Formatting: Genealogists write dates with day, month, and year to eliminate cross-cultural transcription confusion."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 2 Exemplar Workbook Entry: Personal",
+        "title": "Genealogy Req 2 Worked Example: Biographical Timelines and Journaling",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 2a - Chronological Life Milestone": "Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history.",
-          "Req 2b - Six-Week Journal": "Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions."
+          "Phase 1 - Collect Milestones": "Gather exact birth, education, residence, and career dates for the selected subject.",
+          "Phase 2 - Build Chronology": "Plot verified personal life milestones in strict chronological sequence along a linear axis.",
+          "Phase 3 - Draft Biography": "Compose a concise narrative biography explaining the subject's major life transitions and accomplishments.",
+          "Phase 4 - Maintain Journal": "Log weekly personal reflections, community events, and family observations over six consecutive weeks."
         },
-        "sample_output": "Personal Timelines and Journals: It is a log of your activities, thoughts, and feelings (p. 11).",
-        "counselor_tip": "For Genealogy Requirement 2 (Personal Timelines and Journals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12))."
+        "sample_output": "Chronological timelines place personal milestones alongside broader historical events to reveal contextual life patterns. Personal journals capture contemporary daily observations that eventually become primary historical source material for future researchers.",
+        "counselor_tip": "During the Genealogy Requirement 2 conference on Biographical Timelines and Journaling, verify that the Scout can explain chronological sequencing and demonstrate maintain journal: Log weekly personal reflections, community events, and family observations over six consecutive weeks."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Genealogy merit badge pamphlet recommend starting your family history research with your own life story?",
@@ -801,7 +804,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow youth protection guidelines by ensuring a parent or guardian is present during interviews.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -872,53 +875,47 @@
         "Step 3 - Conduct Session: Interview the subject patiently while recording audio and taking detailed field notes.",
         "Step 4 - Transcribe Notes: Organize recorded recollections into indexed written summaries for cross-referencing against official documents."
       ],
-      "gear_checklist": [
-        "Official Genealogy Merit Badge Pamphlet: Your Parent or Guardian's Help.",
-        "Field notebook, verification log sheet, and demonstration materials for Your Parent or Guardian's Help.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Finding Accurate Family Answers",
-        "right_header": "Req 3: Record Spoken Family Stories",
+        "left_header": "Oral History Interview Techniques: Core Principles",
+        "right_header": "Oral History Interview Techniques: Field Execution",
         "left_points": [
-          "Finding Accurate Family Answers: Then you must know where to go to find accurate answers (p. 17).",
-          "Immigrant Family Origin Clues: If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-          "Recording Informal Family Conversations: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17)."
+          "Informed Permission: Parental consent ensures proper safety and coordination before interviewing relatives or family acquaintances.",
+          "Open Inquiry: Open-ended questions encourage subjects to recount detailed memories rather than simple yes responses."
         ],
         "right_points": [
-          "Record Spoken Family Stories: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-          "Evaluate Oral History Claims: Not all the information someone tells you is necessarily correct (p. 17).",
-          "Note Stated Family Relationships: Relationships (such as great-uncle Ralph was Grandpa Erickson's brother) are usually correct (p. 17)."
+          "Dual Recording: Taking written shorthand notes while recording audio prevents data loss from technical malfunctions.",
+          "Immediate Indexing: Transcribing spoken interview recollections promptly preserves phonetic spellings and obscure family nicknames."
         ],
         "rows": [
           {
             "attribute": "Informed Permission",
-            "left": "Finding Accurate Family Answers: Then you must know where to go to find accurate answers (p. 17).",
-            "right": "Record Spoken Family Stories: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17)."
+            "left": "Informed Permission: Parental consent ensures proper safety and coordination before interviewing relatives or family acquaintances.",
+            "right": "Dual Recording: Taking written shorthand notes while recording audio prevents data loss from technical malfunctions."
           },
           {
             "attribute": "Open Inquiry",
-            "left": "Immigrant Family Origin Clues: If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-            "right": "Evaluate Oral History Claims: Not all the information someone tells you is necessarily correct (p. 17)."
+            "left": "Open Inquiry: Open-ended questions encourage subjects to recount detailed memories rather than simple yes responses.",
+            "right": "Immediate Indexing: Transcribing spoken interview recollections promptly preserves phonetic spellings and obscure family nicknames."
           },
           {
             "attribute": "Dual Recording",
-            "left": "Recording Informal Family Conversations: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-            "right": "Note Stated Family Relationships: Relationships (such as great-uncle Ralph was Grandpa Erickson's brother) are usually correct (p. 17)."
+            "left": "Dual Recording: Taking written shorthand notes while recording audio prevents data loss from technical malfunctions.",
+            "right": "Immediate Indexing: Transcribing spoken interview recollections promptly preserves phonetic spellings and obscure family nicknames."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 3 Exemplar Workbook Entry: Interviewing",
+        "title": "Genealogy Req 3 Worked Example: Oral History Interview Techniques",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Finding Accurate Family Answers": "Then you must know where to go to find accurate answers (p. 17).",
-          "Immigrant Family Origin Clues": "If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-          "Recording Informal Family": "Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-          "Limits of Spoken Memory": "Not all the information someone tells you is necessarily correct (p. 17)."
+          "Phase 1 - Obtain Permission": "Coordinate with parents to select an appropriate relative and schedule the interview session.",
+          "Phase 2 - Prepare Questions": "Draft ten open-ended questions targeting childhood homes, family migrations, and ancestral traditions.",
+          "Phase 3 - Conduct Session": "Interview the subject patiently while recording audio and taking detailed field notes.",
+          "Phase 4 - Transcribe Notes": "Organize recorded recollections into indexed written summaries for cross-referencing against official documents."
         },
-        "sample_output": "Interviewing Relatives and Acquaintances: Then you must know where to go to find accurate answers (p. 17).",
-        "counselor_tip": "For Genealogy Requirement 3 (Interviewing Relatives and Acquaintances), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47))."
+        "sample_output": "Conducting oral history interviews captures living memory, family traditions, and undocumented clues from older generations. Genealogists must prepare open-ended questions, obtain parental permission, and record responses accurately using audio tools or written notes.",
+        "counselor_tip": "During the Genealogy Requirement 3 conference on Oral History Interview Techniques, verify that the Scout can explain informed permission and demonstrate transcribe notes: Organize recorded recollections into indexed written summaries for cross-referencing against official documents."
       },
       "quiz_item": {
         "scenario_prompt": "When interviewing relatives about family history, which type of information is most likely to be remembered accurately compared to specific dates and places?",
@@ -1367,7 +1364,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Handle original archival documents with clean, dry hands without applying ink pens, adhesives, or tapes.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
       "syllabus_bucket": "In-Class Concept",
@@ -1439,14 +1436,10 @@
         "Step 3 - Evaluate Quality: Analyze whether the document contains primary or secondary information regarding the recorded event.",
         "Step 4 - Map Records: List standard municipal, religious, and federal repositories for birth, marriage, and death records."
       ],
-      "gear_checklist": [
-        "Official Genealogy Merit Badge Pamphlet: Name three types of physical genealogical.",
-        "Field notebook, verification log sheet, and demonstration materials for Name three types of physical genealogical.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Physical Historical Resource",
-        "right_header": "Req 4c: Evidentiary Document Acquisition",
+        "left_header": "Req 4a: Physical Historical Resource Identification",
+        "right_header": "Req 4c: Evidentiary Document Acquisition Methods",
         "left_points": [
           "(4a) Physical Historical Resource Identification: Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors.",
           "(4b) Digital Database Resource Applications: Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer."
@@ -1468,22 +1461,22 @@
           },
           {
             "attribute": "Evidentiary Evaluation",
-            "left": "Req 4a: Physical Historical Resource: Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors.",
-            "right": "Req 4b: Digital Database Resource: Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer."
+            "left": "Evidentiary Evaluation: Primary information recorded near the event time carries higher reliability than delayed recollections.",
+            "right": "Jurisdictional Targeting: Civil birth certificates reside with county registrars while historic land patents occupy state archives."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 4 Exemplar Workbook Entry: Physical",
+        "title": "Genealogy Req 4 Worked Example: Genealogical Source Analysis and Evaluation",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a - Physical Historical Resource": "Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors.",
-          "Req 4b - Digital Database Resource": "Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer.",
-          "Req 4c - Evidentiary Document": "Acquiring an authentic civil birth certificate, census schedule, or military muster roll validates chart entries. The document must substantiate at least one specific date, location, or relationship on record.",
-          "Req 4d - Source Provenance": "Evaluating genealogical evidence requires assessing the informant's credibility and the document's physical condition. Researchers determine whether the source was created contemporaneously with the recorded life event."
+          "Phase 1 - Identify Repositories": "Locate three physical archives and three digital record databases applicable to your family.",
+          "Phase 2 - Retrieve Document": "Acquire a certified certificate or digitized census page documenting a specific family milestone.",
+          "Phase 3 - Evaluate Quality": "Analyze whether the document contains primary or secondary information regarding the recorded event.",
+          "Phase 4 - Map Records": "List standard municipal, religious, and federal repositories for birth, marriage, and death records."
         },
-        "sample_output": "Physical and Digital Genealogical Records: By obtaining copies of these kinds of certificates, you can get accurate information about names, dates, places, and other details from your ancestors (p. 20).",
-        "counselor_tip": "For Genealogy Requirement 4 (Physical and Digital Genealogical Records), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25))."
+        "sample_output": "Genealogists evaluate evidence by distinguishing between original physical artifacts and digital database reproductions. Researchers must critically appraise document authenticity, analyze primary versus secondary information, and target repositories matching specific record types.",
+        "counselor_tip": "During the Genealogy Requirement 4 conference on Genealogical Source Analysis and Evaluation, verify that the Scout can explain physical repositories and demonstrate map records: List standard municipal, religious, and federal repositories for birth, marriage, and death records."
       },
       "quiz_item": {
         "scenario_prompt": "In the United States today, which level of government is primarily responsible for creating and issuing official birth, marriage, and death vital records?",
@@ -1946,7 +1939,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "When communicating with external institutions, include a parent or leader on all correspondence.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
       "syllabus_bucket": "In-Class Concept",
@@ -2018,14 +2011,10 @@
         "Step 3 - Transmit Query: Contact the selected institution or specialist via telephone, email, or formal postal letter.",
         "Step 4 - Document Response: Record the organization's service offerings, archival holdings, and research guidance in your notebook."
       ],
-      "gear_checklist": [
-        "Official Genealogy Merit Badge Pamphlet: Genealogy Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Genealogy Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Lineage Society Service",
-        "right_header": "Req 5c: Surname Organization Network",
+        "left_header": "Req 5a: Lineage Society Service Evaluation",
+        "right_header": "Req 5c: Surname Organization Network Collaboration",
         "left_points": [
           "(5a) Lineage Society Service Evaluation: Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs.",
           "(5b) Professional Genealogist Practice Standards: Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge."
@@ -2047,22 +2036,22 @@
           },
           {
             "attribute": "Professional Expertise",
-            "left": "Req 5a: Lineage Society Service: Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs.",
-            "right": "Req 5b: Professional Genealogist: Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge."
+            "left": "Professional Expertise: Certified genealogists offer specialized linguistic, paleographic, and jurisdictional search services for complex lineage problems.",
+            "right": "Query Protocol: Formal research inquiries should specify exact names, geographic localities, and narrow historical timeframes."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 5 Exemplar Workbook Entry: Genealogical",
+        "title": "Genealogy Req 5 Worked Example: Professional Institutions and Repositories",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 5a - Lineage Society Service": "Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs.",
-          "Req 5b - Professional Genealogist": "Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge.",
-          "Req 5c - Surname Organization Network": "Surname organizations unite researchers investigating a single shared family name across multiple branches. They publish newsletters, aggregate global family records, and coordinate DNA surname studies.",
-          "Req 5d - Educational Institution": "Genealogical educational facilities provide university lectures, methodological institutes, and instructional workshops. These institutions train researchers in methodology, record analysis, and genealogical standards."
+          "Phase 1 - Select Entity": "Choose one genealogical society, certified professional, or historical repository relevant to family origins.",
+          "Phase 2 - Formulate Inquiry": "Prepare specific questions about their holdings, access policies, search fees, and research services.",
+          "Phase 3 - Transmit Query": "Contact the selected institution or specialist via telephone, email, or formal postal letter.",
+          "Phase 4 - Document Response": "Record the organization's service offerings, archival holdings, and research guidance in your notebook."
         },
-        "sample_output": "Genealogical Societies, Professionals, and Repositories: Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19).",
-        "counselor_tip": "For Genealogy Requirement 5 (Genealogical Societies, Professionals, and Repositories), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29))."
+        "sample_output": "Genealogical societies, professional researchers, and specialized repositories offer expert guidance and proprietary manuscript holdings. Contacting these organizations demonstrates professional research etiquette and reveals localized catalog systems unavailable in commercial databases.",
+        "counselor_tip": "During the Genealogy Requirement 5 conference on Professional Institutions and Repositories, verify that the Scout can explain institutional services and demonstrate document response: Record the organization's service offerings, archival holdings, and research guidance in your notebook."
       },
       "quiz_item": {
         "scenario_prompt": "What is the main purpose of an ancestral family organization built around an early founding couple?",
@@ -2150,7 +2139,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Do not publicly publish living individuals' birth dates or social security numbers online.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)",
       "syllabus_bucket": "In-Class Concept",
@@ -2216,47 +2205,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Unique Search Keyword Selection",
-        "right_header": "Req 6: Add Place and Year",
+        "left_header": "Pedigree Chart Generational Construction: Core Principles",
+        "right_header": "Pedigree Chart Generational Construction: Field Execution",
         "left_points": [
-          "Unique Search Keyword Selection: Keywords are words that are unique to what you are searching (p. 16).",
-          "Broad Search Query Overload: If you just typed in grave and Rose Goldman, you would get thousands of hits (p. 16).",
-          "Place and Date Filters: To do this, you might add the name of the place Rose Goldman died or the year of her death to your search terms (p. 16)."
+          "Exponential Growth: Every generation doubles ancestral lines, requiring two parents and four biological grandparents on charts.",
+          "Standard Dates: Record dates using day, three-letter month abbreviation, and four-digit year format consistently."
         ],
         "right_points": [
-          "Add Place and Year: To do this, you might add the name of the place Rose Goldman died or the year of her death to your search terms (p. 16).",
-          "Distinguish Matching Ancestor Names: Remember, however, that not all the Rose Gold mans you find will be your ancestor (p. 16).",
-          "Rule Out False Matches: In fact, it is possible that none of the matches you get will be your ancestor (p. 16)."
+          "Standard Places: List geographic locations in ascending hierarchical order from town, to county, state, country.",
+          "Maiden Names: Always record females using their maiden surnames rather than their married legal surnames."
         ],
         "rows": [
           {
             "attribute": "Exponential Growth",
-            "left": "Unique Search Keyword Selection: Keywords are words that are unique to what you are searching (p. 16).",
-            "right": "Add Place and Year: To do this, you might add the name of the place Rose Goldman died or the year of her death to your search terms (p. 16)."
+            "left": "Exponential Growth: Every generation doubles ancestral lines, requiring two parents and four biological grandparents on charts.",
+            "right": "Standard Places: List geographic locations in ascending hierarchical order from town, to county, state, country."
           },
           {
             "attribute": "Standard Dates",
-            "left": "Broad Search Query Overload: If you just typed in grave and Rose Goldman, you would get thousands of hits (p. 16).",
-            "right": "Distinguish Matching Ancestor Names: Remember, however, that not all the Rose Gold mans you find will be your ancestor (p. 16)."
+            "left": "Standard Dates: Record dates using day, three-letter month abbreviation, and four-digit year format consistently.",
+            "right": "Maiden Names: Always record females using their maiden surnames rather than their married legal surnames."
           },
           {
             "attribute": "Standard Places",
-            "left": "Place and Date Filters: To do this, you might add the name of the place Rose Goldman died or the year of her death to your search terms (p. 16).",
-            "right": "Rule Out False Matches: In fact, it is possible that none of the matches you get will be your ancestor (p. 16)."
+            "left": "Standard Places: List geographic locations in ascending hierarchical order from town, to county, state, country.",
+            "right": "Maiden Names: Always record females using their maiden surnames rather than their married legal surnames."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 6 Exemplar Workbook Entry: Three",
+        "title": "Genealogy Req 6 Worked Example: Pedigree Chart Generational Construction",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Unique Search Keyword Selection": "Keywords are words that are unique to what you are searching (p. 16).",
-          "Broad Search Query Overload": "If you just typed in grave and Rose Goldman, you would get thousands of hits (p. 16).",
-          "Place and Date Filters": "To do this, you might add the name of the place Rose Goldman died or the year of her death to your search terms (p. 16).",
-          "Same Name Identity Traps": "Remember, however, that not all the Rose Gold mans you find will be your ancestor (p. 16)."
+          "Phase 1 - Position Self": "Enter your complete legal name, birth date, and birthplace on line one.",
+          "Phase 2 - Record Parents": "Add father's details on upper line two and mother's details on lower line.",
+          "Phase 3 - Add Grandparents": "Enter verified vital details for paternal and maternal grandparents on lines four through seven.",
+          "Phase 4 - Verify Completeness": "Check every chart entry for standard date formatting, maiden names, and complete localities."
         },
-        "sample_output": "Three Generation Pedigree Chart: Keywords are words that are unique to what you are searching (p. 16).",
-        "counselor_tip": "For Genealogy Requirement 6 (Three Generation Pedigree Chart), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56))."
+        "sample_output": "Constructing a three-generation pedigree chart establishes the foundational skeleton of ancestral research. The chart begins with the Scout and expands exponentially to include parents and four biological grandparents.",
+        "counselor_tip": "During the Genealogy Requirement 6 conference on Pedigree Chart Generational Construction, verify that the Scout can explain exponential growth and demonstrate verify completeness: Check every chart entry for standard date formatting, maiden names, and complete localities."
       },
       "quiz_item": {
         "scenario_prompt": "How can you narrow an online genealogy search when typing an ancestor's name returns thousands of results?",
@@ -2344,7 +2331,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure sensitive personal family details like adoptions remain private unless family members consent.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)",
       "syllabus_bucket": "In-Class Concept",
@@ -2417,53 +2404,47 @@
         "Step 3 - Enter Vital Dates: Fill in birth, marriage, and death dates with exact locations for every person.",
         "Step 4 - Cross-Reference Records: Link the child on the older sheet to the parent on the newer sheet."
       ],
-      "gear_checklist": [
-        "Official Genealogy Merit Badge Pamphlet: Family Group Record Form Listing.",
-        "Field notebook, verification log sheet, and demonstration materials for Family Group Record Form Listing.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Adding Small Ancestor Photographs",
-        "right_header": "Req 7: Add Photos Where Available",
+        "left_header": "Family Group Record Construction: Core Principles",
+        "right_header": "Family Group Record Construction: Field Execution",
         "left_points": [
-          "Adding Small Ancestor Photographs: Adding small photographs to your pedigree chart can make it more interesting (p. 44).",
-          "Commercial or Custom Charts: You can buy charts with spaces built in for photos, or you can design (p. 44).",
-          "Handling Missing Ancestor Photos: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 44)."
+          "Household Completeness: Family group sheets capture all children, including those who died during infancy or childhood.",
+          "Chronological Sibling Sequence: List children in strict birth order regardless of gender to maintain accurate generational chronology."
         ],
         "right_points": [
-          "Add Photos Where Available: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 44).",
-          "Verify Direct Line Entries: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 44).",
-          "List Siblings and Aunts: But what about other relatives such as brothers, sisters, uncles, aunts, and cousins (p. 44)."
+          "Marriage Documentation: Document exact marriage dates, officiants, witnesses, and civil jurisdictions for the parental couple.",
+          "Dual Record Linking: Linking generational family group records creates continuous documentation across successive family households."
         ],
         "rows": [
           {
             "attribute": "Household Completeness",
-            "left": "Adding Small Ancestor Photographs: Adding small photographs to your pedigree chart can make it more interesting (p. 44).",
-            "right": "Add Photos Where Available: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 44)."
+            "left": "Household Completeness: Family group sheets capture all children, including those who died during infancy or childhood.",
+            "right": "Marriage Documentation: Document exact marriage dates, officiants, witnesses, and civil jurisdictions for the parental couple."
           },
           {
             "attribute": "Chronological Sibling Sequence",
-            "left": "Commercial or Custom Charts: You can buy charts with spaces built in for photos, or you can design (p. 44).",
-            "right": "Verify Direct Line Entries: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 44)."
+            "left": "Chronological Sibling Sequence: List children in strict birth order regardless of gender to maintain accurate generational chronology.",
+            "right": "Dual Record Linking: Linking generational family group records creates continuous documentation across successive family households."
           },
           {
             "attribute": "Marriage Documentation",
-            "left": "Handling Missing Ancestor Photos: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 44).",
-            "right": "List Siblings and Aunts: But what about other relatives such as brothers, sisters, uncles, aunts, and cousins (p. 44)."
+            "left": "Marriage Documentation: Document exact marriage dates, officiants, witnesses, and civil jurisdictions for the parental couple.",
+            "right": "Dual Record Linking: Linking generational family group records creates continuous documentation across successive family households."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 7 Exemplar Workbook Entry: Two Generation",
+        "title": "Genealogy Req 7 Worked Example: Family Group Record Construction",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Adding Small Ancestor Photographs": "Adding small photographs to your pedigree chart can make it more interesting (p. 44).",
-          "Commercial or Custom Charts": "You can buy charts with spaces built in for photos, or you can design (p. 44).",
-          "Handling Missing Ancestor Photos": "Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 44).",
-          "Direct Ancestor Chart Scope": "Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 44)."
+          "Phase 1 - Draft Personal Household": "List your parents as the couple and yourself with your siblings as children.",
+          "Phase 2 - Record Parental Household": "Create a second sheet showing a parent and their siblings as the children.",
+          "Phase 3 - Enter Vital Dates": "Fill in birth, marriage, and death dates with exact locations for every person.",
+          "Phase 4 - Cross-Reference Records": "Link the child on the older sheet to the parent on the newer sheet."
         },
-        "sample_output": "Two Generation Family Group Forms: Adding small photographs to your pedigree chart can make it more interesting (p. 44).",
-        "counselor_tip": "For Genealogy Requirement 7 (Two Generation Family Group Forms), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47))."
+        "sample_output": "Family group records document the complete social and biological structure of a single domestic household. Compiling separate records for the Scout's siblings and a parent's siblings illuminates collateral relationships and infant mortality.",
+        "counselor_tip": "During the Genealogy Requirement 7 conference on Family Group Record Construction, verify that the Scout can explain household completeness and demonstrate cross-reference records: Link the child on the older sheet to the parent on the newer sheet."
       },
       "quiz_item": {
         "scenario_prompt": "On the second family group record form required in Requirement 7, who is listed in the children's section?",
@@ -2788,7 +2769,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Exercise digital hygiene by using strong passwords and avoiding unvetted downloads from unfamiliar genealogical sites.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
       "syllabus_bucket": "In-Class Concept",
@@ -2856,19 +2837,17 @@
         "Step 3 - Evaluate Indexing: Explore how volunteer indexing projects transcribe manuscript censuses into searchable electronic datasets.",
         "Step 4 - Discuss Findings: Present your analysis of historical preservation technologies and computerized research to your counselor."
       ],
-      "gear_checklist": [
-        "Official Genealogy Merit Badge Pamphlet: Computers and The Internet.",
-        "Field notebook, verification log sheet, and demonstration materials for Computers and The Internet.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: Computer and Internet Paradigm",
-        "right_header": "Req 8b: Photography and Microfilm",
+        "left_header": "Req 8a: Computer and Internet Paradigm Shift",
+        "right_header": "Req 8b: Photography and Microfilm Preservation",
         "left_points": [
-          "(8a) Computer and Internet Paradigm Shift: The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data."
+          "(8a) Computer and Internet Paradigm Shift: The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data.",
+          "Global Connectivity: High-speed internet access connects remote researchers with global archives and centralized family databases."
         ],
         "right_points": [
-          "(8b) Photography and Microfilm Preservation: Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts."
+          "(8b) Photography and Microfilm Preservation: Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts.",
+          "(8c) Crowdsourced Record Indexing Mechanics: Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records."
         ],
         "rows": [
           {
@@ -2878,26 +2857,27 @@
           },
           {
             "attribute": "Photographic Preservation",
-            "left": "Req 8a: Computer and Internet: The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data.",
-            "right": "Req 8b: Photography and Microfilm: Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts."
+            "left": "Global Connectivity: High-speed internet access connects remote researchers with global archives and centralized family databases.",
+            "right": "(8c) Crowdsourced Record Indexing Mechanics: Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records."
           },
           {
             "attribute": "Index Searchability",
-            "left": "Req 8c: Crowdsourced Record Indexing: Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records.",
-            "right": "Photographic Preservation: Microfilming historic ledgers preserves decaying paper records and enables portable worldwide viewing."
+            "left": "Index Searchability: Crowdsourced digital indexing converts cursive handwritten registry entries into searchable computer database text.",
+            "right": "Database Linking: Automated computer algorithms match digitized vital certificates to online family trees for verification."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 8 Exemplar Workbook Entry: Computers",
+        "title": "Genealogy Req 8 Worked Example: Technological Advancements in Genealogy",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 8a - Computer and Internet": "The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data.",
-          "Req 8b - Photography and Microfilm": "Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts.",
-          "Req 8c - Crowdsourced Record Indexing": "Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records."
+          "Phase 1 - Research Tech Impacts": "Document how cloud storage and search engines transformed historical record discovery over decades.",
+          "Phase 2 - Study Micrographics": "Examine how microfilming and digital photography prevented loss of deteriorating courthouse ledgers.",
+          "Phase 3 - Evaluate Indexing": "Explore how volunteer indexing projects transcribe manuscript censuses into searchable electronic datasets.",
+          "Phase 4 - Discuss Findings": "Present your analysis of historical preservation technologies and computerized research to your counselor."
         },
-        "sample_output": "Computers, Microfilm, and Record Indexing: Anyone can use the library's resources free of charge (p. 20).",
-        "counselor_tip": "For Genealogy Requirement 8 (Computers, Microfilm, and Record Indexing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31))."
+        "sample_output": "Technological innovations have revolutionized genealogical research from manual paper searches to rapid digital exploration. Microfilm, digital computing, high-speed telecommunications, and crowd-sourced indexing enable researchers to access and cross-reference global records instantaneously.",
+        "counselor_tip": "During the Genealogy Requirement 8 conference on Technological Advancements in Genealogy, verify that the Scout can explain global connectivity and demonstrate discuss findings: Present your analysis of historical preservation technologies and computerized research to your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "How have microfilming and record indexing worked together to transform genealogical research?",
@@ -2980,7 +2960,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Treat sensitive family discoveries, such as historical trauma or family disputes, with empathy and confidentiality.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)",
       "syllabus_bucket": "In-Class Concept",
@@ -3044,47 +3024,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Confirming Accurate Research",
-        "right_header": "Req 9: Compile Recorded Family Notes",
+        "left_header": "Family Heritage Reflection and Synthesis: Core Principles",
+        "right_header": "Family Heritage Reflection and Synthesis: Field Execution",
         "left_points": [
-          "Confirming Accurate Research Answers: Then you must know where to go to find accurate answers (p. 17).",
-          "Tracing Immigrant Family Roots: If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-          "Preserving Collected Family Stories: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17)."
+          "Identity Discovery: Uncovering ancestral stories connects an individual's personal life with broader historic social movements.",
+          "Migration Tracking: Tracing family movements reveals economic motivations, geographic challenges, and cultural adaptations across eras."
         ],
         "right_points": [
-          "Compile Recorded Family Notes: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-          "Compare Stories With Documents: Not all the information someone tells you is necessarily correct (p. 17).",
-          "Summarize Confirmed Kinship Ties: Relationships (such as great-uncle Ralph was Grandpa Erickson's brother) are usually correct (p. 17)."
+          "Heirloom Appreciation: Studying family history transforms old photographs, heirlooms, and letters into meaningful biographical artifacts.",
+          "Generational Resilience: Discovering ancestral hardships builds personal gratitude, emotional resilience, and deep respect for forebears."
         ],
         "rows": [
           {
             "attribute": "Identity Discovery",
-            "left": "Confirming Accurate Research Answers: Then you must know where to go to find accurate answers (p. 17).",
-            "right": "Compile Recorded Family Notes: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17)."
+            "left": "Identity Discovery: Uncovering ancestral stories connects an individual's personal life with broader historic social movements.",
+            "right": "Heirloom Appreciation: Studying family history transforms old photographs, heirlooms, and letters into meaningful biographical artifacts."
           },
           {
             "attribute": "Migration Tracking",
-            "left": "Tracing Immigrant Family Roots: If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-            "right": "Compare Stories With Documents: Not all the information someone tells you is necessarily correct (p. 17)."
+            "left": "Migration Tracking: Tracing family movements reveals economic motivations, geographic challenges, and cultural adaptations across eras.",
+            "right": "Generational Resilience: Discovering ancestral hardships builds personal gratitude, emotional resilience, and deep respect for forebears."
           },
           {
             "attribute": "Heirloom Appreciation",
-            "left": "Preserving Collected Family Stories: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-            "right": "Summarize Confirmed Kinship Ties: Relationships (such as great-uncle Ralph was Grandpa Erickson's brother) are usually correct (p. 17)."
+            "left": "Heirloom Appreciation: Studying family history transforms old photographs, heirlooms, and letters into meaningful biographical artifacts.",
+            "right": "Generational Resilience: Discovering ancestral hardships builds personal gratitude, emotional resilience, and deep respect for forebears."
           }
         ]
       },
       "worked_example": {
-        "title": "Genealogy Req 9 Exemplar Workbook Entry: Sharing Family",
+        "title": "Genealogy Req 9 Worked Example: Family Heritage Reflection and Synthesis",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Confirming Accurate Research Answers": "Then you must know where to go to find accurate answers (p. 17).",
-          "Tracing Immigrant Family Roots": "If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-          "Preserving Collected Family Stories": "Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-          "Weighing Stories Against Evidence": "Not all the information someone tells you is necessarily correct (p. 17)."
+          "Phase 1 - Review Discoveries": "Assemble all completed pedigree charts, family group records, documents, and interview transcripts.",
+          "Phase 2 - Identify Patterns": "Highlight recurring ancestral occupations, migration paths, military service records, and cultural traditions.",
+          "Phase 3 - Formulate Insights": "Write down three significant personal lessons learned about family resilience and heritage.",
+          "Phase 4 - Hold Discussion": "Share your findings, family stories, and personal reflections during a merit badge conference."
         },
-        "sample_output": "Sharing Family Research Discoveries: Then you must know where to go to find accurate answers (p. 17).",
-        "counselor_tip": "For Genealogy Requirement 9 (Sharing Family Research Discoveries), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58))."
+        "sample_output": "Synthesizing genealogical findings reveals cultural heritage, migration routes, and resilient personal characteristics across generations. Discussing these discoveries with a counselor contextualizes the Scout's unique place within a broader historical narrative.",
+        "counselor_tip": "During the Genealogy Requirement 9 conference on Family Heritage Reflection and Synthesis, verify that the Scout can explain identity discovery and demonstrate hold discussion: Share your findings, family stories, and personal reflections during a merit badge conference."
       },
       "quiz_item": {
         "scenario_prompt": "When discussing your genealogical findings with your counselor for Requirement 9, what is the primary goal?",

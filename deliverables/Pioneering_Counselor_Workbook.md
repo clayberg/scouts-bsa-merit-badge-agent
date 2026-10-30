@@ -52,10 +52,8 @@
 #### Req 1a: Pioneering Hazard Analysis
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Pioneering Hazards and First Aid)
-- **Common Myth:** Soft damp soil provides safe shock absorption under heavy timber structures.
-- **Pamphlet Fact:** Muddy ground destabilizes vertical spars and pulls stakes directly out of alignment.
 
-![Pioneering Requirement 1 figure showing establish perimeter ropes around active construction to keep bystanders clear.](/assets/pamphlet_images/pioneering_p003_img1.png)
+![Establish perimeter ropes around active construction to keep bystanders clear of falling spars.](/assets/pamphlet_images/pioneering_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -66,8 +64,6 @@
 #### Req 1b: Field Injury Treatment Protocols
 **Official Requirement 1b:** Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope splinters, rope burns, cuts, scratches, insect bites and stings, hypothermia, dehydration, heat exhaustion, heatstroke, sunburn, and falls.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
-- **Common Myth:** Rope friction burns heal faster when left open to circulate fresh air.
-- **Pamphlet Fact:** Open friction abrasions require sterile wash and occlusive dressings to prevent infection.
 
 ![A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.](/assets/pamphlet_images/pioneering_p011_img1.png)
 
@@ -93,8 +89,6 @@
 #### Req 2a: West Country Whipping Technique
 **Official Requirement 2a:** Demonstrate the West Country method of whipping a rope.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (West Country Method of Whipping)
-- **Common Myth:** Adhesive plastic tape serves as a permanent field replacement for whipping.
-- **Pamphlet Fact:** Tape loses adhesive strength in sunlight and moisture, releasing loose strand ends.
 
 **Gear & Readiness Checklist:**
 - [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine.
@@ -102,7 +96,7 @@
 - [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves.
 - [ ] Scale model spars and elastic bands or cord for pre-build engineering layout.
 
-![Pioneering Requirement 2 figure showing alternating overhand knots around the strand prevent rope unraveling under field tension.](/assets/pamphlet_images/pioneering_p007_img1.png)
+![Alternating overhand knots around the strand prevent rope unraveling under field tension.](/assets/pamphlet_images/pioneering_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -113,8 +107,6 @@
 #### Req 2b: Mechanical Knots and Tackle
 **Official Requirement 2b:** Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Rope Tackle and the Following)
-- **Common Myth:** A standard bowline can substitute for a butterfly knot in midline pulls.
-- **Pamphlet Fact:** Three-way midline stress capsizes a bowline, whereas a butterfly knot handles multidirectional loads.
 
 ![Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.](/assets/pamphlet_images/pioneering_p021_img1.png)
 
@@ -127,8 +119,6 @@
 #### Req 2c: Structural Lashing Applications
 **Official Requirement 2c:** Demonstrate and explain when to use the following lashings: square, diagonal, round, shear, tripod, and floor lashing.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist (Lashings Square Diagonal Round Shear)
-- **Common Myth:** Square lashings can secure poles that cross at thirty degree acute angles.
-- **Pamphlet Fact:** Poles crossing at acute angles require diagonal lashings to prevent joint racking.
 
 ![A spool of durable twine provides the necessary cordage to whip and protect rope ends from fraying.](/assets/pamphlet_images/pioneering_p012_img1.png)
 
@@ -154,8 +144,6 @@
 #### Req 3a: Tripod Wash Station Assembly
 **Official Requirement 3a:** Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or with your counselor's permission, another camp gadget of your own design)
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Square and Tripod Lashings)
-- **Common Myth:** Tripod lashings require crossed center poles to sustain downward wash basin weight.
-- **Pamphlet Fact:** Tripod poles remain parallel during lashing, crossing only when standing the legs.
 
 **Gear & Readiness Checklist:**
 - [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine.
@@ -174,8 +162,6 @@
 #### Req 3b: Scout Stave Flagpole Rigging
 **Official Requirement 3b:** Using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave Flagpole (or with your counselor's permission, another camp gadget of your own design)
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Rolling Hitches or Roundturns)
-- **Common Myth:** Two round lashings per stave joint provide equal rigidity to one long lashing.
-- **Pamphlet Fact:** Separated twin round lashings resist joint pivoting far better than single centered wraps.
 
 ![Tight whipping cord binds the end of a natural fiber rope securely to prevent unraveling and fraying.](/assets/pamphlet_images/pioneering_p012_img2.png)
 
@@ -188,8 +174,6 @@
 #### Req 3c: Camp Table Framework Assembly
 **Official Requirement 3c:** Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table (or with your counselor's permission, another camp gadget of your own design)
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Shear Square and Floor Lashings)
-- **Common Myth:** Table top branches can be secured loosely since gravity holds them down.
-- **Pamphlet Fact:** Loose tabletop branches tip when loaded, spilling hot liquids onto seated campers.
 
 ![A completed cord whipping tightly binds the end of a coarse fiber rope to ensure long-term durability.](/assets/pamphlet_images/pioneering_p013_img2.png)
 

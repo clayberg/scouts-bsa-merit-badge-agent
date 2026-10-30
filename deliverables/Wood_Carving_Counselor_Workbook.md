@@ -47,10 +47,8 @@
 #### Req 1a: Wood Carving Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Wood Carving Hazards and First Aid)
-- **Common Myth:** Ordinary leather work gloves prevent puncture wounds from pointed carving gouges.
-- **Pamphlet Fact:** Only specialized Kevlar or steel mesh carving gloves stop sharp penetrating blade tips.
 
-![Wood Carving Requirement 1 figure showing carving gloves woven with Kevlar or stainless steel mesh protect the holding hand.](/assets/pamphlet_images/wood_carving_p003_img1.png)
+![Carving gloves woven with Kevlar or stainless steel mesh protect the holding hand.](/assets/pamphlet_images/wood_carving_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -61,8 +59,6 @@
 #### Req 1b: Carving First Aid Techniques
 **Official Requirement 1b:** Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (You Know First Aid for)
-- **Common Myth:** Squeezing around an embedded wood splinter pushes it out quickly without tools.
-- **Pamphlet Fact:** Squeezing drives wood splinters deeper and shatters fragile wood fibers inside skin.
 
 ![A fitted thumb guard protects fingers from slips and blade cuts during detail carving.](/assets/pamphlet_images/wood_carving_p015_img1.png)
 
@@ -88,8 +84,6 @@
 #### Req 2a: Totin Chip Certification Requirements
 **Official Requirement 2a:** Earn the Totin' Chip recognition.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Earn the Totin' Chip Recognition)
-- **Common Myth:** Carrying a pocketknife at Scout camp is permitted without earning the Totin Chip.
-- **Pamphlet Fact:** Scouts must earn the Totin Chip before carrying or using pocketknives at camp.
 
 **Gear & Readiness Checklist:**
 - [ ] Sharp pocketknife or carving tools, honing stone, leather strop, and cut-resistant thumb/kevar glove.
@@ -97,7 +91,7 @@
 - [ ] Totin' Chip safety card, carving bench stop, and layout pattern.
 - [ ] Protective finish, stamps/mallet, and tool sheath for safe stowage.
 
-![Wood Carving Requirement 2 figure showing close folding blades fully before passing or carrying pocketknives across the carving area.](/assets/pamphlet_images/wood_carving_p007_img1.png)
+![Close folding blades fully before passing or carrying pocketknives across the carving area.](/assets/pamphlet_images/wood_carving_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -108,8 +102,6 @@
 #### Req 2b: Carving Safety Checklist Review
 **Official Requirement 2b:** Discuss with your counselor your understanding of the Safety Checklist for Carving.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)
-- **Common Myth:** Carving while sitting cross-legged on the ground provides adequate cutting stability.
-- **Pamphlet Fact:** Carving on the ground restricts arm mobility and places exposed legs directly in slip paths.
 
 ![A specialized wood carving knife features a shaped wooden handle for controlled cutting.](/assets/pamphlet_images/wood_carving_p008_img1.png)
 
@@ -135,10 +127,8 @@
 #### Req 3a: Carving Tool Care and Use
 **Official Requirement 3a:** Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Orally or in Writing the)
-- **Common Myth:** Storing carving gouges together loose in a tool box preserves cutting bevels.
-- **Pamphlet Fact:** Loose steel edges collide and chip, ruining hours of careful blade hone work.
 
-![Wood Carving Requirement 3 figure showing straight gouges feature curved cutting edges designed for scooping hollows and removing.](/assets/pamphlet_images/wood_carving_p012_img1.png)
+![Straight gouges feature curved cutting edges designed for scooping hollows and removing bulk wood.](/assets/pamphlet_images/wood_carving_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -149,8 +139,6 @@
 #### Req 3b: Sharpening Device Maintenance and Operation
 **Official Requirement 3b:** Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Care for and Use Several)
-- **Common Myth:** High speed motorized grinding wheels sharpen delicate wood carving gouges safely and effectively.
-- **Pamphlet Fact:** Dry powered grinders overheat thin steel edges, drawing out temper and destroying blade hardness.
 
 ![A bench hook holds a wooden carving block firmly in place to protect hands while carving.](/assets/pamphlet_images/wood_carving_p031_img1.png)
 
@@ -176,8 +164,6 @@
 #### Req 4a: Paring Cut Execution Methods
 **Official Requirement 4a:** Paring cut.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Paring Cut)
-- **Common Myth:** Paring cuts rely on whole forearm movement to pull the knife toward the chest.
-- **Pamphlet Fact:** Paring cuts use only closing fingers against an anchored thumb to control cut depth.
 
 **Gear & Readiness Checklist:**
 - [ ] Sharp pocketknife or carving tools, honing stone, leather strop, and cut-resistant thumb/kevar glove.
@@ -196,8 +182,6 @@
 #### Req 4b: Basic and Push Cuts
 **Official Requirement 4b:** Basic cut and push cut.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Basic Cut and Push Cut)
-- **Common Myth:** Push cuts require locking elbows and pushing with full body weight behind the blade.
-- **Pamphlet Fact:** Push cuts draw power from finger flexion and thumb leverage while wrists remain stationary.
 
 ![The Totin Chip patch signifies that a Scout understands knife safety and blade handling.](/assets/pamphlet_images/wood_carving_p008_img2.png)
 
@@ -210,8 +194,6 @@
 #### Req 4c: V Cut Incision Techniques
 **Official Requirement 4c:** V cut.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Wood Carving Requirement 4c Techniques)
-- **Common Myth:** Both sides of a V-cut can be carved simultaneously using a standard straight knife.
-- **Pamphlet Fact:** A knife requires two separate intersecting cuts while parting tools execute them in one pass.
 
 ![A cut-resistant mesh glove shields the non-carving hand from accidental knife cuts.](/assets/pamphlet_images/wood_carving_p015_img2.png)
 
@@ -224,8 +206,6 @@
 #### Req 4d: Stop Cut Line Scoring
 **Official Requirement 4d:** Stop cut or score line.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Stop Cut or Score Line)
-- **Common Myth:** A shallow scratch line on timber acts as a functional stop cut boundary.
-- **Pamphlet Fact:** A stop cut must penetrate deeply into wood fibers to physically arrest oncoming slicing blades.
 
 ![A finished walking stick displays decorative spiral patterns carved into natural wood.](/assets/pamphlet_images/wood_carving_p026_img1.png)
 

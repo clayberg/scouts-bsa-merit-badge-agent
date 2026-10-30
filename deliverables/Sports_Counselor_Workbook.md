@@ -45,10 +45,8 @@
 #### Req 1a: Athletic Hazard Risk Management
 **Official Requirement 1a:** Explain to your counselor the most likely risks you may encounter while participating in sports and what you should do to anticipate, prevent, mitigate, and respond to those risks.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Likely Risks You May Encounter)
-- **Common Myth:** Severe weather delays are optional if light rain does not impair ground footing.
-- **Pamphlet Fact:** Lightning detectors and wet bulb globe temperature monitors dictate immediate suspension of field activities.
 
-![Sports Requirement 1 figure showing coaches must monitor wet bulb globe temperature readings during hot outdoor athletic.](/assets/pamphlet_images/sports_p003_img1.png)
+![Coaches must monitor wet bulb globe temperature readings during hot outdoor athletic practices.](/assets/pamphlet_images/sports_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -59,8 +57,6 @@
 #### Req 1b: Sports First Aid Procedures
 **Official Requirement 1b:** Show that you know first aid or understand the treatment for injuries that could occur while participating in sports, including sprains; strains; muscle cramps; contusions; abrasions; blisters; dehydration; heat reactions; fractures; injured teeth; head, neck, and back injuries; and concussions.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 87, p. 89)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Walking off an acute ankle sprain accelerates joint healing by stimulating blood flow.
-- **Pamphlet Fact:** Rest, ice, compression, and elevation must begin immediately to limit internal tissue swelling.
 
 ![An elastic wrap delivers supportive compression for acute athletic sprains.](/assets/pamphlet_images/sports_p087_img1.png)
 
@@ -90,10 +86,8 @@
 #### Req 2a: Preparticipation Physical Examination Importance
 **Official Requirement 2a:** The importance of the physical exam.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Physical Exam)
-- **Common Myth:** A medical examination only checks basic height, weight, and vision for school forms.
-- **Pamphlet Fact:** Physicians evaluate family cardiac history, blood pressure, and joint stability to prevent sudden collapse.
 
-![Sports Requirement 2 figure showing preparticipation examinations identify silent cardiac structural abnormalities.](/assets/pamphlet_images/sports_p007_img1.png)
+![Preparticipation examinations identify silent cardiac structural abnormalities that create catastrophic risks during competition.](/assets/pamphlet_images/sports_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -104,8 +98,6 @@
 #### Req 2b: Lifelong Health Habit Maintenance
 **Official Requirement 2b:** The importance of maintaining good health habits for life (such as exercising regularly), and how the use of tobacco products, alcohol, and other harmful substances can negatively affect your health and your performance in sports activities.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Maintaining Good Health Habits for)
-- **Common Myth:** Occasional vaping does not harm athletic endurance because water vapor contains no tar.
-- **Pamphlet Fact:** Tobacco smoke introduces carbon monoxide into hemoglobin, directly reducing athletic VO2 max and stamina.
 
 ![A physician discusses medical evaluation results with an athlete and parent.](/assets/pamphlet_images/sports_p010_img1.png)
 
@@ -118,8 +110,6 @@
 #### Req 2c: Athletic Dietary Nutritional Health
 **Official Requirement 2c:** The importance of maintaining a healthy diet.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Maintaining A Healthy Diet)
-- **Common Myth:** Athletes can consume unlimited fast food if daily caloric burn exceeds dietary intake.
-- **Pamphlet Fact:** Balanced nutritional intake supplying micronutrients and macronutrients optimizes tissue repair and glycogen storage.
 
 ![A clear water droplet splash emphasizes the necessity of daily hydration.](/assets/pamphlet_images/sports_p014_img1.png)
 
@@ -145,10 +135,8 @@
 #### Req 3a: Warmup Cool Down Routines
 **Official Requirement 3a:** The importance of warming up and cooling down.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Warming Up and Cooling Down)
-- **Common Myth:** Static stretching before cold muscles are warm prevents acute athletic joint sprain injuries.
-- **Pamphlet Fact:** Gradual cool-downs prevent venous blood pooling in extremities and assist rapid lactic acid clearance.
 
-![Sports Requirement 3 figure showing dynamic movements raise core muscle temperature and lubricate synovial joint capsules.](/assets/pamphlet_images/sports_p012_img1.png)
+![Dynamic movements raise core muscle temperature and lubricate synovial joint capsules before activity.](/assets/pamphlet_images/sports_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -159,8 +147,6 @@
 #### Req 3b: Resistance Training Development Role
 **Official Requirement 3b:** The importance of weight training.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Weight Training)
-- **Common Myth:** Scouts must lift maximum heavy weights to gain practical athletic performance benefits.
-- **Pamphlet Fact:** Supervised resistance programs using moderate loads enhance muscular endurance and reduce sports injuries.
 
 ![Competing soccer teams shake hands to display respectful sportsmanship.](/assets/pamphlet_images/sports_p024_img1.png)
 
@@ -173,8 +159,6 @@
 #### Req 3c: Amateur Professional Athlete Classification
 **Official Requirement 3c:** What an amateur athlete is and the differences between an amateur and a professional athlete.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)* • **Organizer (2-Column Comparison Table):** Req 3c Technical Comparison Matrix (Sports Careers and Pathways)
-- **Common Myth:** The difference between amateur and professional status depends solely upon athletic skill talent.
-- **Pamphlet Fact:** Amateur athletes represent schools or clubs without pay, while professionals earn contractual salaries.
 
 ![An athlete stretches both arms outward during a full body warm-up routine.](/assets/pamphlet_images/sports_p019_img2.png)
 
@@ -187,8 +171,6 @@
 #### Req 3d: Sportsmanship Team Leadership Attributes
 **Official Requirement 3d:** The attributes (qualities) of a good sport, the importance of sportsmanship, and the traits of a good team leader and player who exhibits Scout spirit on and off the playing field.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Attributes Qualities of A Good)
-- **Common Myth:** Trash-talking opponents is acceptable if it generates psychological competitive advantages during intense play.
-- **Pamphlet Fact:** Exemplary sportsmanship means honoring official decisions, playing within rules, and supporting struggling teammates.
 
 ![A leather glove holds a baseball, showing standard fielding gear.](/assets/pamphlet_images/sports_p032_img1.png)
 
@@ -237,11 +219,8 @@
 #### Req 5a: Personal Training Program Design
 **Official Requirement 5a:** With guidance from your counselor, establish a suitable personal training program that you will follow throughout your competition season (or for three months)
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Establish)
-- **Common Myth:** A training schedule must copy an elite adult professional routine to be effective.
-- **Pamphlet Fact:** Periodized training programs alternate hard training days with rest to allow muscular cellular repair.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Sports merit badge pamphlet and training log for Req 5.
 - [ ] Supportive athletic footwear, breathable workout apparel, and water bottle.
 - [ ] Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.
 - [ ] Recorded baseline and progress measurements for Seasonal Training, Technique, and Competition.
@@ -257,8 +236,6 @@
 #### Req 5b: Performance Tracking Chart System
 **Official Requirement 5b:** Create a chart or other tracking system, and document your training, practice, and development during this time.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Tracking System and Document Your)
-- **Common Myth:** Tracking athletic development requires nothing more than noting wins and losses on schedules.
-- **Pamphlet Fact:** Recording metrics such as resting heart rate and practice volume detects dangerous overtraining syndromes.
 
 ![A well-oiled baseball glove holds a ball securely within the pocket.](/assets/pamphlet_images/sports_p032_img2.png)
 
@@ -271,8 +248,6 @@
 #### Req 5c: Sport Technical Execution Mechanics
 **Official Requirement 5c:** Demonstrate proper technique to play each sport effectively and avoid injury.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist (Technique to Play Each Sport)
-- **Common Myth:** Aggressive athletic effort compensates completely for poor fundamental biomechanical movement technique.
-- **Pamphlet Fact:** Executing skills with proper joint alignment generates maximum kinetic force and prevents ligament tears.
 
 ![A water polo player propels the ball forward while swimming in the pool.](/assets/pamphlet_images/sports_p072_img1.png)
 
@@ -285,8 +260,6 @@
 #### Req 5d: Sports Equipment Gear Specifications
 **Official Requirement 5d:** List and describe the equipment needed for each sport, including protective equipment and any specialized clothing.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Equipment Needed for Each Sport)
-- **Common Myth:** Standard athletic shoes provide adequate traction and support across every indoor and outdoor sport.
-- **Pamphlet Fact:** Protective equipment must meet recognized safety organization standards and fit athlete body dimensions correctly.
 
 ![An offensive water polo player rises above water to pass or shoot a goal.](/assets/pamphlet_images/sports_p072_img2.png)
 
@@ -299,8 +272,6 @@
 #### Req 5e: Game Rules Player Etiquette
 **Official Requirement 5e:** List and explain the rules and proper etiquette of each sport.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Etiquette of Each Sport)
-- **Common Myth:** Rules exist solely for referees to enforce through penalties rather than player self-discipline.
-- **Pamphlet Fact:** Etiquette establishes mutual safety and decorum that prevents unnecessary physical clashes and verbal disputes.
 
 ![Young soccer teammates celebrate a goal during an organized league match.](/assets/pamphlet_images/sports_p077_img1.png)
 
@@ -313,8 +284,6 @@
 #### Req 5f: Playing Area Dimension Diagrams
 **Official Requirement 5f:** Draw and explain a diagram of the playing area for each sport.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5f Structured Technical Study & Explanation Matrix (Playing Area for Each Sport)
-- **Common Myth:** Every sport playing field or court shares identical standardized dimensions across all leagues.
-- **Pamphlet Fact:** Regulation boundaries dictate legal player spacing, tactical team alignments, and official scoring locations.
 
 ![Cable workout equipment provides controlled resistance for rehabilitation.](/assets/pamphlet_images/sports_p078_img1.png)
 
@@ -335,8 +304,6 @@
 #### Req 5g: Competitive Season Team Participation
 **Official Requirement 5g:** Participate in each sport as a competitive individual or as a member of an organized team for one season (or for three months)
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5g Structured Technical Study & Explanation Matrix (Sport As A Competitive Individual)
-- **Common Myth:** Attending occasional weekend practices satisfies the full seasonal athletic team participation standard.
-- **Pamphlet Fact:** Regular team competition develops tactical adaptability, communication under pressure, and physical stamina over time.
 
 ![Two athletes demonstrate an interlocking grip technique for contact sports.](/assets/pamphlet_images/sports_p082_img1.png)
 
@@ -349,8 +316,6 @@
 #### Req 5h: Season Evaluation Progress Review
 **Official Requirement 5h:** At the end of the season, share your completed chart with your counselor and discuss how your participation in the sports you chose has affected you mentally and physically.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5h Structured Technical Study & Explanation Matrix (End of the Season)
-- **Common Myth:** Season discussions focus exclusively on trophies won rather than individual psychological character growth.
-- **Pamphlet Fact:** Reflecting on seasonal performance builds emotional maturity, self-awareness, and intrinsic personal motivation.
 
 ![A Scouting water bottle provides regular hydration during strenuous workouts.](/assets/pamphlet_images/sports_p089_img1.png)
 
@@ -376,8 +341,6 @@
 #### Req 6a: Athletic Professional Career Research
 **Official Requirement 6a:** Identify three career opportunities that would use skills and knowledge related to a sport. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)* • **Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Working in sports medicine requires only a weekend CPR and first aid certificate.
-- **Pamphlet Fact:** Certified athletic trainers complete accredited master degrees and pass national board certification examinations.
 
 ![Dumbbells in a fitness facility support structured strength training.](/assets/pamphlet_images/sports_p075_img1.png)
 
@@ -393,8 +356,6 @@
 #### Req 6b: Lifelong Athletic Hobby Pursuits
 **Official Requirement 6b:** Identify how you might use skills and knowledge related to a sport to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (You Might Use Skills and)
-- **Common Myth:** Sports skills have little practical value once high school or collegiate competitive careers finish.
-- **Pamphlet Fact:** Adult recreational leagues maintain cardiovascular fitness, bone density, and mental health through structured play.
 
 ![Snowboarders wear warm layers and protective helmets to minimize slope injury.](/assets/pamphlet_images/sports_p091_img2.png)
 

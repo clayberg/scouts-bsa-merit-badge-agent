@@ -49,10 +49,8 @@
 #### Req 1a: Garden Hazard Prevention Strategies
 **Official Requirement 1a:** Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Gardening Hazards and First Aid)
-- **Common Myth:** Thirst serves as the primary indicator for when a gardener should consume water outdoors.
-- **Pamphlet Fact:** Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets.
 
-![Gardening Requirement 1 figure showing place garden rakes and hoes with tines pointed downward into soil.](/assets/pamphlet_images/gardening_p003_img1.png)
+![Place garden rakes and hoes with tines pointed downward into soil.](/assets/pamphlet_images/gardening_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -63,8 +61,6 @@
 #### Req 1b: Garden Injury First Aid
 **Official Requirement 1b:** Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites, anaphylactic shock, heat reactions, and reactions from exposure to pesticides and fertilizers.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
-- **Common Myth:** Minor scrapes from rusted metal tools require care only if active bleeding persists.
-- **Pamphlet Fact:** Garden soils harbor Clostridium tetani bacteria that enter through minor deep punctures.
 
 ![Water streams from a sports bottle, highlighting hydration while working.](/assets/pamphlet_images/gardening_p043_img1.png)
 
@@ -77,7 +73,6 @@
 ### Req 2: Vegetable and Flower Production
 **Official Requirement 2 (Parent Overview):** Do the following, and discuss your observations throughout the process with your counselor: (a) Grow six vegetables, three from seeds and three from seedlings, through harvest. (b) Grow six flowers, three from seeds and three from seedlings, through flowering.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Wash hands with antibacterial soap after handling potting mixes containing perlite or composted manure.
 - **Common Myth:** Indoor vegetable seedlings can move straight into full outdoor sun without intermediate acclimation.
 - **Pamphlet Fact:** Seedlings need gradual outdoor hardening over one week to withstand ambient solar intensity.
 
@@ -90,8 +85,6 @@
 #### Req 2a: Vegetable Crop Cultivation Methods
 **Official Requirement 2a:** Grow six vegetables, three from seeds and three from seedlings, through harvest.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Vegetables Three from Seeds)
-- **Common Myth:** Direct sowing cool weather squash seeds into cold early spring soil accelerates development.
-- **Pamphlet Fact:** Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit.
 
 **Gear & Readiness Checklist:**
 - [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
@@ -99,7 +92,7 @@
 - [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
 - [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
-![Gardening Requirement 2 figure showing bury vegetable seeds at depth equal to three times their width.](/assets/pamphlet_images/gardening_p007_img1.png)
+![Bury vegetable seeds at depth equal to three times their width.](/assets/pamphlet_images/gardening_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -110,8 +103,6 @@
 #### Req 2b: Ornamental Flower Care Techniques
 **Official Requirement 2b:** Grow six flowers, three from seeds and three from seedlings, through flowering.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Flowers Three from Seeds)
-- **Common Myth:** Annual flowering plants flourish best when seed pods form naturally on mature stems.
-- **Pamphlet Fact:** Removing spent blossoms redirects carbohydrates toward continuous floral bud production.
 
 ![Violet and hyacinth plants grow in clay pots for indoor plant management.](/assets/pamphlet_images/gardening_p044_img1.png)
 
@@ -124,7 +115,6 @@
 ### Req 3: Plant Crop Nutritional Values
 **Official Requirement 3 (Parent Overview):** Give the nutritional value of the following: (a) Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Thoroughly rinse all harvested produce under cool running potable water before tasting or dietary evaluation.
 - **Common Myth:** All vegetables possess identical vitamin profiles regardless of whether roots or leaves are eaten.
 - **Pamphlet Fact:** Carrot roots synthesize beta carotene while storing carbohydrates for biennial plant survival.
 
@@ -137,10 +127,8 @@
 #### Req 3a: Root and Tuber Nutrition
 **Official Requirement 3a:** Three root or tuber crops.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Root or Tuber Crops)
-- **Common Myth:** Root vegetables supply only simple sugars without contributing meaningful dietary vitamins.
-- **Pamphlet Fact:** Sweet potatoes store carotenoids and potassium within swollen storage root tissues.
 
-![Gardening Requirement 3 figure showing taproots deliver abundant beta carotene precursors for human vitamin A synthesis.](/assets/pamphlet_images/gardening_p012_img1.png)
+![Taproots deliver abundant beta carotene precursors for human vitamin A synthesis.](/assets/pamphlet_images/gardening_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -151,8 +139,6 @@
 #### Req 3b: Aboveground Vegetable Dietary Value
 **Official Requirement 3b:** Three vegetables that bear above the ground.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Vegetables That Bear Above the)
-- **Common Myth:** Aboveground vegetables lack complex minerals because those elements remain locked inside soil roots.
-- **Pamphlet Fact:** Spinach and cabbage leaves deliver lutein, calcium, and vitamin K per serving.
 
 ![Essential tools like a trowel, cultivator, and stakes support gardening.](/assets/pamphlet_images/gardening_p041_img1.png)
 
@@ -165,8 +151,6 @@
 #### Req 3c: Fruit Nutrient Profiles
 **Official Requirement 3c:** Three fruits.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Gardening Fruits Principles)
-- **Common Myth:** Botanical fruits contain the exact same sugar and fiber profiles as vegetative stems.
-- **Pamphlet Fact:** Melons and tree fruits synthesize high concentrations of natural fructose and pectin.
 
 ![Multi-colored flowers bloom in an ornamental outdoor container garden pot.](/assets/pamphlet_images/gardening_p028_img4.png)
 
@@ -179,7 +163,6 @@
 ### Req 4: Seed Germination Viability Testing
 **Official Requirement 4:** Test 100 seeds for germination. Determine the percentage of seeds that germinate. Explain why you think some did not germinate.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Seeds for Germination Determine the)
-> **Guide to Safe Scouting Warning:** Do not touch eyes or mouth when handling chemically treated commercial seeds containing powdered fungicide.
 - **Common Myth:** Every commercial seed within a packet is guaranteed to produce a viable seedling.
 - **Pamphlet Fact:** Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture.
 
@@ -202,7 +185,6 @@
 ### Req 5: Horticultural Facility Field Study
 **Official Requirement 5:** Visit your county extension office, local university, agricultural college, nursery, farm, botanical garden, or arboretum. Report on what you learned.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 47, p. 89)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (County Extension Office Local University)
-> **Guide to Safe Scouting Warning:** Stay on marked public visitor paths and avoid moving agricultural machinery during commercial site tours.
 - **Common Myth:** Agricultural extension services exist solely to assist large commercial farming corporations.
 - **Pamphlet Fact:** County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates.
 
@@ -230,7 +212,6 @@
 ### Req 6: Honeybee Crop Pollination Biology
 **Official Requirement 6:** Explain to your counselor how and why honeybees are used in pollinating food crops and the problems that face the bee population today. Discuss what the impact to humanity would be if there were no pollinators.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 83)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Honeybees Are Used in Pollinating)
-> **Guide to Safe Scouting Warning:** Stand aside from active apiary flight paths and move smoothly without swatting around foraging bees.
 - **Common Myth:** Wind and self pollination can easily replace bee pollination for all commercial fruit crops.
 - **Pamphlet Fact:** Honeybees carry pollen in specialized corbiculae while pollinating approximately one third of human food crops.
 
@@ -252,7 +233,6 @@
 ### Req 7: Garden Pest Management Solutions
 **Official Requirement 7:** Identify five garden pests (insects, diseased plants). Recommend two solutions for each pest. At least one of the two solutions must be an organic method.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 58, p. 70)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Garden Pests Insects Diseased Plants)
-> **Guide to Safe Scouting Warning:** Wear unlined nitrile gloves and eye goggles whenever mixing or applying any garden spray solutions.
 - **Common Myth:** Broad spectrum synthetic pesticides should be sprayed immediately at the first sight of insects.
 - **Pamphlet Fact:** Insecticidal soap dissolves protective cuticles of soft bodied pests while preserving soil microbial integrity.
 
@@ -275,7 +255,6 @@
 ### Req 8: Specialized Horticultural Projects
 **Official Requirement 8 (Parent Overview):** Do ONE of the following and record weekly observations. Discuss the results of your project with your counselor. (a) Build a compost bin and maintain it for 90 days. (b) Build a vermicompost bin (worm compost bin) and maintain it for 90 days. (c) Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants. Maintain this garden through harvest or flowering, or for 90 days. (d) Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep), or in the ground as a small, decorative pond no larger than 6 by 3 feet and 24 inches deep. Maintain the water garden for 90 days. (e) Prepare a honey super for use on a hive or colony. Remove a filled honey super from the hive or colony and prepare the honey for sale. (f) Grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier. This can be an outdoor garden or indoors using appropriate containers, and should include at least three types of plants approved by your counselor.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Wash hands thoroughly after handling worm bedding, raw manure, or decomposing compost bin contents.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Gardening Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Organic matter decomposes into nutrient rich humus just as quickly without moisture or aeration.
 - **Pamphlet Fact:** Compost piles require a thirty to one carbon to nitrogen ratio and adequate oxygen to sustain thermophilic decomposition.
@@ -290,8 +269,6 @@
 **Official Requirement 8a:** Build a compost bin and maintain it for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 8a Hands-On Skill Station & EDGE Verification Checklist (Compost Bin)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Gardening Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Piling dry leaves in an unmixed heap produces finished compost in two weeks.
-- **Pamphlet Fact:** Maintaining internal pile temperatures above one hundred thirty degrees destroys weed seeds.
 
 ![A flowering crape myrtle tree adds bright red blooms to home landscaping.](/assets/pamphlet_images/gardening_p028_img2.png)
 
@@ -304,8 +281,6 @@
 #### Req 8b: Vermicomposting Bin System Care
 **Official Requirement 8b:** Build a vermicompost bin (worm compost bin) and maintain it for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist (Vermicompost Bin Worm Compost Bin)
-- **Common Myth:** Common earthworms dug from garden soil perform effectively inside closed indoor worm bins.
-- **Pamphlet Fact:** Red wigglers thrive inside shredded damp cardboard within fifty five to seventy seven degrees.
 
 ![A girl uses a blue watering can to irrigate vegetables in a garden plot.](/assets/pamphlet_images/gardening_p045_img1.png)
 
@@ -318,8 +293,6 @@
 #### Req 8c: Hydroponic Garden System Maintenance
 **Official Requirement 8c:** Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants. Maintain this garden through harvest or flowering, or for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist (Hydroponic Garden Containing Three Vegetables)
-- **Common Myth:** Plants grown in hydroponic water reservoirs do not require supplemental root zone oxygen.
-- **Pamphlet Fact:** Hydroponic crops need daily electrical conductivity and pH monitoring between 5.5 and 6.5.
 
 ![A happy boy holds a wooden crate loaded with freshly harvested produce.](/assets/pamphlet_images/gardening_p049_img1.png)
 
@@ -333,8 +306,6 @@
 #### Req 8d: Aquatic Water Garden Design
 **Official Requirement 8d:** Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep), or in the ground as a small, decorative pond no larger than 6 by 3 feet and 24 inches deep. Maintain the water garden for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist (Water Garden Either in A)
-- **Common Myth:** Clear decorative garden ponds require continuous chemical algaecide treatments to stay clean.
-- **Pamphlet Fact:** Submerged aquatic plants produce dissolved oxygen while outcompeting single celled green algae.
 
 ![Soil-stained hands hold fresh cucumbers, squash, and homegrown tomatoes.](/assets/pamphlet_images/gardening_p060_img1.png)
 
@@ -348,8 +319,6 @@
 #### Req 8e: Honey Super Hive Management
 **Official Requirement 8e:** Prepare a honey super for use on a hive or colony. Remove a filled honey super from the hive or colony and prepare the honey for sale.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Honey Super)
-- **Common Myth:** Removing a honey super causes permanent catastrophic starvation to the parent bee colony.
-- **Pamphlet Fact:** Centrifugal extractors spin liquid honey from uncapped wax frames without destroying combs.
 
 ![A spotted caterpillar feeds on foliage, illustrating common garden pests.](/assets/pamphlet_images/gardening_p062_img2.png)
 
@@ -364,8 +333,6 @@
 **Official Requirement 8f:** Grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier. This can be an outdoor garden or indoors using appropriate containers, and should include at least three types of plants approved by your counselor.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix (Garden of Your Own Using)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Gardening Req 8f preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Pouring high concentration liquid synthetic fertilizer compensates completely for compacted clay soil.
-- **Pamphlet Fact:** Incorporating aged compost improves soil structure, water retention, and cation exchange capacity.
 
 ![A predatory wheel bug rests on a stem to hunt harmful crop pest insects.](/assets/pamphlet_images/gardening_p066_img1.png)
 
@@ -379,7 +346,6 @@
 ### Req 9: Gardening Careers and Hobbies
 **Official Requirement 9 (Parent Overview):** Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Follow laboratory safety protocols and wear eye protection when analyzing soil chemical reagents.
 - **Common Myth:** Horticultural professions consist solely of unskilled manual tasks with no professional certifications.
 - **Pamphlet Fact:** Landscape architects and crop agronomists require formal four year degrees in plant sciences and regional licensing.
 
@@ -392,8 +358,6 @@
 #### Req 9a: Horticultural Career Investigation
 **Official Requirement 9a:** Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Organizer (Career & Profession Exploration Card):** Req 9a Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Professional nursery operators require only informal hands on experience without business education.
-- **Pamphlet Fact:** Certified crop advisers must pass rigorous international examinations and complete recurring continuing education.
 
 ![A microscopic view shows nematodes that inhabit garden soil ecosystems.](/assets/pamphlet_images/gardening_p065_img1.png)
 
@@ -409,8 +373,6 @@
 #### Req 9b: Gardening for Personal Wellness
 **Official Requirement 9b:** Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
-- **Common Myth:** Backyard gardening yields insufficient physical activity to qualify as meaningful personal wellness.
-- **Pamphlet Fact:** Growing home food crops increases daily vegetable consumption while delivering moderate cardiovascular physical exercise.
 
 ![A detailed product label displays safe pesticide handling instructions.](/assets/pamphlet_images/gardening_p070_img1.png)
 

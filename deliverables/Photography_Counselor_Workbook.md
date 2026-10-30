@@ -49,10 +49,8 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while working with photography and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Explain how you would prepare for exposure to environmental situations such as weather, sun, and water.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 33, p. 63)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Photography Hazards and First Aid)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Photography Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Photography hazards consist solely of dropping expensive lenses or dead camera batteries.
-- **Pamphlet Fact:** Uneven trails, vehicular traffic, and hanging power lines cause the majority of field injuries.
 
-![Photography Requirement 1 figure showing secure camera straps firmly around the neck before navigating uneven outdoor terrain.](/assets/pamphlet_images/photography_p003_img1.png)
+![Secure camera straps firmly around the neck before navigating uneven outdoor terrain.](/assets/pamphlet_images/photography_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -65,8 +63,6 @@
 **Official Requirement 1b:** View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission)
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 33, p. 63)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Photography Req 1b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Deleting photo location data from phone settings eliminates all personal digital risks.
-- **Pamphlet Fact:** Online photographs containing embedded EXIF location coordinates can expose home addresses publicly.
 
 ![An owl glides across an outdoor audience during a live wildlife photography presentation.](/assets/pamphlet_images/photography_p033_img1.png)
 
@@ -79,7 +75,6 @@
 ### Req 2: Elements of Photographic Image Quality
 **Official Requirement 2 (Parent Overview):** Explain how the following elements and terms can affect the quality of a picture: (a) Light, natural light (ambient/existing), low light (such as at night), and artificial light (such as from a flash) (b) Exposure, aperture (f-stops), shutter speed, ISO (c) Depth of field (d) Composition, rule of thirds, leading lines, framing, depth (e) Angle of view (f) Stop action and blur motion (g) Decisive moment (action or expression captured by the photographer)
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Avoid firing high-powered electronic strobes directly into people or animals at close range.
 - **Common Myth:** Modern digital cameras automatically correct poor lighting without affecting image detail or noise.
 - **Pamphlet Fact:** Aperture, shutter speed, and sensor sensitivity balance together to establish correct image exposure.
 
@@ -92,10 +87,8 @@
 #### Req 2a: Natural and Artificial Light Quality
 **Official Requirement 2a:** Light, natural light (ambient/existing), low light (such as at night), and artificial light (such as from a flash)
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Natural Light Ambient/existing Low)
-- **Common Myth:** Direct midday sunlight always produces the highest quality portrait lighting for faces.
-- **Pamphlet Fact:** Directional natural sunlight creates high contrast shadows that require fill flash or reflectors.
 
-![Photography Requirement 2 figure showing low angle morning sunlight casts long shadows that reveal detailed physical surface.](/assets/pamphlet_images/photography_p007_img1.png)
+![Low angle morning sunlight casts long shadows that reveal detailed physical surface textures.](/assets/pamphlet_images/photography_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -106,8 +99,6 @@
 #### Req 2b: Exposure Triangle Fundamentals
 **Official Requirement 2b:** Exposure, aperture (f-stops), shutter speed, ISO.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Exposure Aperture F-stops Shutter Speed)
-- **Common Myth:** A higher f-stop number creates a larger physical opening inside camera lenses.
-- **Pamphlet Fact:** Each full aperture f-stop adjustment doubles or halves the light striking the sensor.
 
 ![Bright fireworks illuminate the night sky as spectators capture long-exposure images.](/assets/pamphlet_images/photography_p022_img1.png)
 
@@ -120,10 +111,8 @@
 #### Req 2c: Depth of Field Control
 **Official Requirement 2c:** Depth of field.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Depth of Field)
-- **Common Myth:** Depth of field remains identical across all focal lengths at equivalent apertures.
-- **Pamphlet Fact:** Larger aperture openings produce shallow depth of field that isolates focused foreground subjects.
 
-![Photography Requirement 3 figure showing glass lens elements bend light rays to converge sharply onto digital sensor planes.](/assets/pamphlet_images/photography_p012_img1.png)
+![Glass lens elements bend light rays to converge sharply onto digital sensor planes.](/assets/pamphlet_images/photography_p012_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -134,8 +123,6 @@
 #### Req 2d: Visual Composition and Framing
 **Official Requirement 2d:** Composition, rule of thirds, leading lines, framing, depth.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Composition Rule of Thirds Leading)
-- **Common Myth:** Centering subjects directly in every frame produces the most engaging visual compositions.
-- **Pamphlet Fact:** Placing key visual subjects along grid intersections creates dynamic and balanced compositions.
 
 ![Fast shutter panning captures a racing car in sharp focus against a blurred track.](/assets/pamphlet_images/photography_p023_img1.png)
 
@@ -148,8 +135,6 @@
 #### Req 2e: Camera Viewpoint and Perspective
 **Official Requirement 2e:** Angle of view.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Angle of View)
-- **Common Myth:** Shooting all photographs from natural standing eye level yields optimal perspectives.
-- **Pamphlet Fact:** Low shooting angles emphasize subject height while high angles minimize perceived scale.
 
 ![An artisan shapes incandescent molten glass illuminated by the kiln's internal glow.](/assets/pamphlet_images/photography_p031_img2.png)
 
@@ -162,8 +147,6 @@
 #### Req 2f: Motion Freezing and Panning
 **Official Requirement 2f:** Stop action and blur motion.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix (Stop Action and Blur Motion)
-- **Common Myth:** Blur in motion photographs always indicates an improperly focused camera lens system.
-- **Pamphlet Fact:** Shutter speeds faster than one five-hundredth second effectively freeze rapid action movements.
 
 ![A cutaway view reveals the internal lenses and mechanical components inside a modern DSLR camera.](/assets/pamphlet_images/photography_p037_img1.png)
 
@@ -176,8 +159,6 @@
 #### Req 2g: Decisive Moment Image Capture
 **Official Requirement 2g:** Decisive moment (action or expression captured by the photographer)
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2g Structured Technical Study & Explanation Matrix (Decisive Moment Action or Expression)
-- **Common Myth:** Shooting continuous bursts replaces the need to anticipate spontaneous human emotional moments.
-- **Pamphlet Fact:** Anticipating peak athletic or emotional action enables precise shutter timing before scenes change.
 
 ![Scouts raise digital cameras and smartphones to capture pictures together during an outdoor event.](/assets/pamphlet_images/photography_p039_img1.png)
 
@@ -190,7 +171,6 @@
 ### Req 3: Camera Mechanics and Exposure Operation
 **Official Requirement 3:** Explain the basic parts and operation of a camera. Explain how an exposure is made when you take a picture.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 39, p. 43)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Basic Parts and Operation)
-> **Guide to Safe Scouting Warning:** Turn off camera power before detaching lenses to avoid attracting airborne dust onto sensors.
 - **Common Myth:** Camera lenses contain the digital sensor chips that convert light into electronic files.
 - **Pamphlet Fact:** Depressing the shutter release button opens mechanical curtains, exposing electronic sensors to incoming light.
 
@@ -212,7 +192,6 @@
 ### Req 4: Comparative Photographic Technical Demonstrations
 **Official Requirement 4 (Parent Overview):** Do TWO of the following, then share your work with your counselor. (a) Photograph one subject from two different angles or perspectives. (b) Photograph one subject from two different light sources, artificial and natural. (c) Photograph one subject with two different depth of fields. (d) Photograph one subject with two different compositional techniques.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Keep safe footing when shooting from extreme low perspectives or elevated vantage perches.
 - **Common Myth:** Taking two photos from different heights produces identical spatial relationships between objects.
 - **Pamphlet Fact:** Varying perspective or light sources dramatically alters the mood and dimensional depth of subjects.
 
@@ -225,8 +204,6 @@
 #### Req 4a: Dual Perspective Subject Documentation
 **Official Requirement 4a:** Photograph one subject from two different angles or perspectives.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Subject from Two Different Angles)
-- **Common Myth:** Changing perspective simply means zooming the lens barrel from a static position.
-- **Pamphlet Fact:** Moving camera perspective shifts background horizons and alters relative sizes of scene elements.
 
 ![A low ground perspective documents compassionate community care under an overpass.](/assets/pamphlet_images/photography_p031_img1.png)
 
@@ -239,8 +216,6 @@
 #### Req 4b: Comparative Light Source Evaluation
 **Official Requirement 4b:** Photograph one subject from two different light sources, artificial and natural.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Subject from Two Different Light)
-- **Common Myth:** Artificial flash units perfectly replicate the softness and color cast of natural light.
-- **Pamphlet Fact:** Directional window light creates gentle gradations while direct camera flash yields harsh highlights.
 
 ![A bright close-up photograph of red apples demonstrates rich color saturation and surface detail.](/assets/pamphlet_images/photography_p045_img1.png)
 
@@ -253,8 +228,6 @@
 #### Req 4c: Aperture and Depth Variation
 **Official Requirement 4c:** Photograph one subject with two different depth of fields.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Subject with Two Different Depth)
-- **Common Myth:** Subject isolation depends entirely on shutter speed rather than lens aperture diameter.
-- **Pamphlet Fact:** Changing f-stops while maintaining exposure alters background distraction levels behind primary subjects.
 
 ![Natural sunlight illuminates a climber in a helmet suspended along a cliff face during an ascent.](/assets/pamphlet_images/photography_p048_img1.png)
 
@@ -267,8 +240,6 @@
 #### Req 4d: Comparative Image Composition Methods
 **Official Requirement 4d:** Photograph one subject with two different compositional techniques.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Subject with Two Different Compositional)
-- **Common Myth:** Compositional rules dictate rigid formulas that cannot be modified for creative goals.
-- **Pamphlet Fact:** Applying leading lines draws viewer attention directly to subjects unlike simple centered framing.
 
 ![Swimmers wearing life jackets navigate clear turquoise water while practicing open-water rescue skills.](/assets/pamphlet_images/photography_p049_img1.png)
 
@@ -281,7 +252,6 @@
 ### Req 5: Diverse Photographic Subject Execution
 **Official Requirement 5 (Parent Overview):** Photograph THREE of the following, then share your work with your counselor. (a) Close-up of a person (b) Two to three people interacting (c) Action shot (d) Animal shot (e) Nature shot (f) Picture of a person, candid, posed, or camera-aware
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain ethical distances from wildlife and avoid stepping backward into active sports fields.
 - **Common Myth:** A single standard focal length lens is equally suitable for wildlife, action, and portraits.
 - **Pamphlet Fact:** Different photographic genres require specialized autofocus modes, focal lengths, and interpersonal engagement techniques.
 
@@ -294,8 +264,6 @@
 #### Req 5a: Individual Portrait Headshot Photography
 **Official Requirement 5a:** Close-up of a person.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Close-up of A Person)
-- **Common Myth:** Placing focus on the subject nose guarantees overall facial sharpness in portraits.
-- **Pamphlet Fact:** Focusing precisely on the subject closest eye ensures believable sharpness in portraiture.
 
 ![A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.](/assets/pamphlet_images/photography_p038_img1.png)
 
@@ -308,8 +276,6 @@
 #### Req 5b: Multi Person Interactive Grouping
 **Official Requirement 5b:** Two to three people interacting.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (People Interacting)
-- **Common Myth:** Group photos look best when subjects freeze and stare directly into lenses.
-- **Pamphlet Fact:** Capturing unposed gestures between people reveals genuine emotional connections and story context.
 
 ![An action shot captures a smiling boy holding tightly to an inflatable towable tube across the lake.](/assets/pamphlet_images/photography_p053_img1.png)
 
@@ -322,8 +288,6 @@
 #### Req 5c: Fast Action Sports Photography
 **Official Requirement 5c:** Action shot.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Action Shot)
-- **Common Myth:** Action photography requires panning the camera body rapidly for every sports shot.
-- **Pamphlet Fact:** Setting shutter speeds to one one-thousandth second freezes fast athletic peak action.
 
 ![Two Scouts inspect newly captured images directly on the digital display of a handheld DSLR camera.](/assets/pamphlet_images/photography_p054_img1.png)
 
@@ -336,8 +300,6 @@
 #### Req 5d: Wildlife and Domestic Animals
 **Official Requirement 5d:** Animal shot.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Animal Shot)
-- **Common Myth:** Approaching wild animals closely is safe if moving slowly and holding food.
-- **Pamphlet Fact:** Using long telephoto lenses permits frame-filling animal photographs without disturbing natural behaviors.
 
 ![A woman wearing a western hat poses next to a saddled horse in a scenic rural equestrian setting.](/assets/pamphlet_images/photography_p058_img1.png)
 
@@ -350,8 +312,6 @@
 #### Req 5e: Scenic Nature Landscape Documentation
 **Official Requirement 5e:** Nature shot.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Nature Shot)
-- **Common Myth:** Landscape photography produces optimal results when shot with widest available lens apertures.
-- **Pamphlet Fact:** Small apertures like f-eleven preserve front-to-back sharpness across sweeping scenic landscape compositions.
 
 ![A close-up portrait shows two smiling boys holding a bright red flag during a Scouting gathering.](/assets/pamphlet_images/photography_p058_img2.png)
 
@@ -364,8 +324,6 @@
 #### Req 5f: Posed and Candid Portraiture
 **Official Requirement 5f:** Picture of a person, candid, posed, or camera-aware.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Picture of A Person Candid)
-- **Common Myth:** Candid pictures must be taken covertly without ever obtaining subsequent subject consent.
-- **Pamphlet Fact:** Candid photography records unscripted behavior by blending unobtrusively into surrounding ambient environments.
 
 ![Scuba divers use underwater hand signals to maintain safety while exploring an aquatic environment.](/assets/pamphlet_images/photography_p063_img1.png)
 
@@ -378,7 +336,6 @@
 ### Req 6: Digital Image Editing and Enhancement
 **Official Requirement 6 (Parent Overview):** Describe how software allows you to enhance your photograph after it is taken. Select a photo you have taken, then do ONE of the following, and share what you have done with your counselor: (a) Crop your photograph. (b) Adjust the exposure or make a color correction. (c) Show another way you could improve your picture for impact.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Take scheduled screen breaks every twenty minutes to prevent eye fatigue while editing.
 - **Common Myth:** Digital editing exists solely to salvage severely out-of-focus or ruined photographic exposures.
 - **Pamphlet Fact:** Post-processing software allows tonal balance adjustments and geometric cropping without altering original raw data.
 
@@ -391,8 +348,6 @@
 #### Req 6a: Compositional Image Cropping Techniques
 **Official Requirement 6a:** Crop your photograph.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Photography Crop Principles)
-- **Common Myth:** Cropping digital photographs increases total image resolution and overall optical detail.
-- **Pamphlet Fact:** Cropping removes distracting edge clutter and repositions off-center focal subjects for stronger impact.
 
 ![A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen.](/assets/pamphlet_images/photography_p043_img1.png)
 
@@ -405,8 +360,6 @@
 #### Req 6b: Tonal and Color Balance
 **Official Requirement 6b:** Adjust the exposure or make a color correction.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Exposure or Make A Color)
-- **Common Myth:** Increasing brightness slider controls fixes incorrect in-camera white balance color casts.
-- **Pamphlet Fact:** Balancing histogram tones recovers clipped shadow details without blowing out specular highlights.
 
 ![A forensic investigator in a protective suit photographs evidence markers at an outdoor crime scene.](/assets/pamphlet_images/photography_p067_img1.png)
 
@@ -419,8 +372,6 @@
 #### Req 6c: Visual Impact Enhancement Methods
 **Official Requirement 6c:** Show another way you could improve your picture for impact.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (You Could Improve Your Picture)
-- **Common Myth:** Applying heavy artistic filters represents the most professional way to boost impact.
-- **Pamphlet Fact:** Selective dodging and burning guides viewer eyes toward focal subjects without global overexposure.
 
 ![A photographer bundled in winter gear uses a large telephoto lens to photograph wildlife in the snow.](/assets/pamphlet_images/photography_p067_img2.png)
 
@@ -433,7 +384,6 @@
 ### Req 7: Visual Narrative Story Production
 **Official Requirement 7 (Parent Overview):** Using images other than those created for requirements 4, 5, and 6, produce a visual story to document an event to photograph OR choose a topic that interests you to photograph. Do the following: (a) Plan the images you need to photograph for your photo story. (b) Share your plan with your counselor, and get your counselor's input and approval before you proceed. (c) Select eight to 12 images that best tell your story. Arrange your images in order and mount the prints on a poster board, OR create an electronic presentation. Share your visual story with your counselor.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Wear high-visibility clothing and maintain spatial boundaries when covering crowded public community events.
 - **Common Myth:** A photo story consists simply of random pretty pictures gathered from one event.
 - **Pamphlet Fact:** A cohesive visual story requires an establishing shot, medium detail shots, and portraits.
 
@@ -446,8 +396,6 @@
 #### Req 7a: Photo Story Preplanning Strategy
 **Official Requirement 7a:** Plan the images you need to photograph for your photo story.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Images You)
-- **Common Myth:** Arriving at events without plans yields more spontaneous and comprehensive photo stories.
-- **Pamphlet Fact:** Drafting shot lists guarantees coverage of essential story arcs and unique character perspectives.
 
 ![A historic nineteenth-century studio portrait captures timeless formal expression.](/assets/pamphlet_images/photography_p010_img1.png)
 
@@ -460,8 +408,6 @@
 #### Req 7b: Counselor Plan Review Submission
 **Official Requirement 7b:** Share your plan with your counselor, and get your counselor's input and approval before you proceed.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Get Your Counselor's Input)
-- **Common Myth:** Counselor approval represents an administrative formality rather than an instructional planning dialogue.
-- **Pamphlet Fact:** Counselor feedback clarifies narrative gaps and identifies logistical challenges before field photography begins.
 
 | Req 7b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -472,8 +418,6 @@
 #### Req 7c: Image Curation and Presentation
 **Official Requirement 7c:** Select eight to 12 images that best tell your story. Arrange your images in order and mount the prints on a poster board, OR create an electronic presentation. Share your visual story with your counselor.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Images That Best Tell Your)
-- **Common Myth:** Displaying every single photograph taken tells a better story than curated selections.
-- **Pamphlet Fact:** Sequencing images chronologically or thematically maintains viewer engagement from introduction through conclusion.
 
 | Req 7c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -486,7 +430,6 @@
 ### Req 8: Professional Photography Career Pathways
 **Official Requirement 8:** Identify three career opportunities in photography. Pick one and explain to your counselor how to prepare for such a career. Discuss what education and training are required, and why this profession might interest you.
 **Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Career & Profession Exploration Card):** Req 8 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Secure all studio lighting cables with heavy gaffer tape across working floor walkways.
 - **Common Myth:** Professional photographers spend all their working hours solely operating cameras outdoors.
 - **Pamphlet Fact:** Professional photography spans commercial advertising, forensic investigation, photojournalism, and studio portraiture fields.
 

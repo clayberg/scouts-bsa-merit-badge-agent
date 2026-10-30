@@ -365,19 +365,17 @@
         "Step 3 - Visual Hazard Scan: Scan ground cover and tree branches continuously while walking along the trail.",
         "Step 4 - Incident Logging: Record minor scratches immediately and report any venomous bites to emergency dispatchers."
       ],
-      "gear_checklist": [
-        "Official Geocaching Merit Badge Pamphlet: Geocaching Hazards and First Aid.",
-        "Field notebook, verification log sheet, and demonstration materials for Geocaching Hazards and First Aid.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Outdoor Geocaching Environmental",
+        "left_header": "Req 1a: Outdoor Geocaching Environmental Hazards",
         "right_header": "Req 1b: Search Injury First Aid",
         "left_points": [
-          "(1a) Outdoor Geocaching Environmental Hazards: Scouts encounter venomous reptiles, toxic flora, heat exhaustion, and uneven terrain during off-trail searches. Proper anticipation involves checking local land warnings and carrying specialized extraction gear."
+          "(1a) Outdoor Geocaching Environmental Hazards: Scouts encounter venomous reptiles, toxic flora, heat exhaustion, and uneven terrain during off-trail searches. Proper anticipation involves checking local land warnings and carrying specialized extraction gear.",
+          "Terrain Risk Assessment: Steep ravines and loose rock scree require sturdy hiking boots with ankle support."
         ],
         "right_points": [
-          "(1b) Search Injury First Aid: Common injuries include severe ankle sprains, tick bites, deep thorns, and heat cramps. Prompt treatment requires immediate cleaning, immobilization, and proper wilderness response protocols."
+          "(1b) Search Injury First Aid: Common injuries include severe ankle sprains, tick bites, deep thorns, and heat cramps. Prompt treatment requires immediate cleaning, immobilization, and proper wilderness response protocols.",
+          "(1c) Electronic Navigation Trip Planning: Safe expeditions demand filed travel itineraries, matched hiking buddies, and appropriate thermal clothing. Planning prevents catastrophic stranding caused by dead receiver batteries or sudden cold fronts."
         ],
         "rows": [
           {
@@ -387,26 +385,27 @@
           },
           {
             "attribute": "Wildlife Protection Protocols",
-            "left": "Req 1a: Outdoor Geocaching: Scouts encounter venomous reptiles, toxic flora, heat exhaustion, and uneven terrain during off-trail searches. Proper anticipation involves checking local land warnings and carrying specialized extraction gear.",
-            "right": "Req 1b: Search Injury First Aid: Common injuries include severe ankle sprains, tick bites, deep thorns, and heat cramps. Prompt treatment requires immediate cleaning, immobilization, and proper wilderness response protocols."
+            "left": "Terrain Risk Assessment: Steep ravines and loose rock scree require sturdy hiking boots with ankle support.",
+            "right": "(1c) Electronic Navigation Trip Planning: Safe expeditions demand filed travel itineraries, matched hiking buddies, and appropriate thermal clothing. Planning prevents catastrophic stranding caused by dead receiver batteries or sudden cold fronts."
           },
           {
             "attribute": "Weather Monitoring Rules",
-            "left": "Req 1c: Electronic Navigation Trip: Safe expeditions demand filed travel itineraries, matched hiking buddies, and appropriate thermal clothing. Planning prevents catastrophic stranding caused by dead receiver batteries or sudden cold fronts.",
-            "right": "Wildlife Protection Protocols: Searchers must avoid reaching blindly into rocky crevices where venomous snakes rest."
+            "left": "Weather Monitoring Rules: Rapid temperature drops demand waterproof outer layers packed in personal day packs.",
+            "right": "Buddy System Standards: Traveling in pairs prevents isolation during physical injury or sudden navigation failures."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 1 Exemplar Workbook Entry: Outdoor",
+        "title": "Geocaching Req 1 Worked Example: Geocaching Hazards and Field Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Outdoor Geocaching": "Scouts encounter venomous reptiles, toxic flora, heat exhaustion, and uneven terrain during off-trail searches. Proper anticipation involves checking local land warnings and carrying specialized extraction gear.",
-          "Req 1b - Search Injury First Aid": "Common injuries include severe ankle sprains, tick bites, deep thorns, and heat cramps. Prompt treatment requires immediate cleaning, immobilization, and proper wilderness response protocols.",
-          "Req 1c - Electronic Navigation Trip": "Safe expeditions demand filed travel itineraries, matched hiking buddies, and appropriate thermal clothing. Planning prevents catastrophic stranding caused by dead receiver batteries or sudden cold fronts."
+          "Phase 1 - Route Planning": "Review topographic contour lines and local park regulations before entering the field.",
+          "Phase 2 - Equipment Checks": "Pack hydration bladders, first aid kits, extra batteries, and weather gear.",
+          "Phase 3 - Visual Hazard Scan": "Scan ground cover and tree branches continuously while walking along the trail.",
+          "Phase 4 - Incident Logging": "Record minor scratches immediately and report any venomous bites to emergency dispatchers."
         },
-        "sample_output": "Outdoor Hazards and First Aid: Wipe with rubbing alcohol and apply a soothing skin treatment such as calamine lotion (p. 66).",
-        "counselor_tip": "For Geocaching Requirement 1 (Outdoor Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67))."
+        "sample_output": "Search operations expose participants to terrain hazards, venomous wildlife, and severe atmospheric changes across backcountry and urban search zones. Mitigating these risks requires structured trip plans, personal protective equipment, and proactive physical conditioning.",
+        "counselor_tip": "During the Geocaching Requirement 1 conference on Geocaching Hazards and Field Safety, verify that the Scout can explain terrain risk assessment and demonstrate incident logging: Record minor scratches immediately and report any venomous bites to emergency dispatchers."
       },
       "quiz_item": {
         "scenario_prompt": "While navigating off-trail with a handheld GPS receiver to locate a cache for Geocaching Requirement 1, what field safety and environmental stewardship rules apply?",
@@ -718,7 +717,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Inspect hide locations for wasp nests or hazardous discarded glass before placing containers.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)",
       "syllabus_bucket": "In-Class Concept",
@@ -787,12 +786,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Cache Excavation Ban Policies",
-        "right_header": "Req 2b: Container Lifecycle",
+        "right_header": "Req 2b: Container Lifecycle and Etiquette",
         "left_points": [
-          "(2a) Cache Excavation Ban Policies: Burying caches creates destructive ground disturbance and raises public security concerns regarding buried items. Regulations require every container to rest above the existing mineral soil line."
+          "(2a) Cache Excavation Ban Policies: Burying caches creates destructive ground disturbance and raises public security concerns regarding buried items. Regulations require every container to rest above the existing mineral soil line.",
+          "Burial Prohibition Rule: Placing containers beneath disturbed soil violates land manager permits and park regulations."
         ],
         "right_points": [
-          "(2b) Container Lifecycle and Etiquette: Hiders must monitor moisture seals, replace soggy logbooks, and archive abandoned geocaches responsibly. Searchers must re-hide containers precisely where found without drawing bystander attention."
+          "(2b) Container Lifecycle and Etiquette: Hiders must monitor moisture seals, replace soggy logbooks, and archive abandoned geocaches responsibly. Searchers must re-hide containers precisely where found without drawing bystander attention.",
+          "(2c) Leave No Trace Principles: Scouts apply conservation ethics by sticking to durable trails and packing out discarded trash. Minimizing campfire impacts and respecting wildlife maintains natural habitat quality during searches."
         ],
         "rows": [
           {
@@ -802,26 +803,27 @@
           },
           {
             "attribute": "Surface Camouflage Methods",
-            "left": "Req 2a: Cache Excavation Ban: Burying caches creates destructive ground disturbance and raises public security concerns regarding buried items. Regulations require every container to rest above the existing mineral soil line.",
-            "right": "Req 2b: Container Lifecycle: Hiders must monitor moisture seals, replace soggy logbooks, and archive abandoned geocaches responsibly. Searchers must re-hide containers precisely where found without drawing bystander attention."
+            "left": "Burial Prohibition Rule: Placing containers beneath disturbed soil violates land manager permits and park regulations.",
+            "right": "(2c) Leave No Trace Principles: Scouts apply conservation ethics by sticking to durable trails and packing out discarded trash. Minimizing campfire impacts and respecting wildlife maintains natural habitat quality during searches."
           },
           {
             "attribute": "Public Property Permissions",
-            "left": "Req 2c: Leave No Trace Principles: Scouts apply conservation ethics by sticking to durable trails and packing out discarded trash. Minimizing campfire impacts and respecting wildlife maintains natural habitat quality during searches.",
-            "right": "Surface Camouflage Methods: Conceal containers using loose surface bark, fallen branches, or natural hollow rocks."
+            "left": "Public Property Permissions: Cache placement requires explicit documented authorization from municipal park rangers or landowners.",
+            "right": "Cache Removal Responsibilities: Owners must remove containers and archive listings when regular maintenance ceases permanently."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 2 Exemplar Workbook Entry: Geocaching",
+        "title": "Geocaching Req 2 Worked Example: Geocache Placement and Environmental Ethics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Cache Excavation Ban Policies": "Burying caches creates destructive ground disturbance and raises public security concerns regarding buried items. Regulations require every container to rest above the existing mineral soil line.",
-          "Req 2b - Container Lifecycle": "Hiders must monitor moisture seals, replace soggy logbooks, and archive abandoned geocaches responsibly. Searchers must re-hide containers precisely where found without drawing bystander attention.",
-          "Req 2c - Leave No Trace Principles": "Scouts apply conservation ethics by sticking to durable trails and packing out discarded trash. Minimizing campfire impacts and respecting wildlife maintains natural habitat quality during searches."
+          "Phase 1 - Site Authorization": "Obtain written permission from the property administrator before placing any physical container.",
+          "Phase 2 - Container Selection": "Choose durable waterproof ammo cans or sealed gasket boxes with official markings.",
+          "Phase 3 - Natural Placement": "Position the container above ground inside existing dead tree hollows or crevices.",
+          "Phase 4 - Ethics Verification": "Check that retrieval paths cause no vegetation trampling or bank erosion damage."
         },
-        "sample_output": "Geocaching Etiquette and Leave No Trace: Never use artifacts as cache items (p. 54).",
-        "counselor_tip": "For Geocaching Requirement 2 (Geocaching Etiquette and Leave No Trace), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56))."
+        "sample_output": "Geocaching guidelines strictly forbid burying containers or damaging natural resources to maintain public land integrity. Responsible participants uphold Leave No Trace principles by masking hiding spots with natural detritus.",
+        "counselor_tip": "During the Geocaching Requirement 2 conference on Geocache Placement and Environmental Ethics, verify that the Scout can explain burial prohibition rule and demonstrate ethics verification: Check that retrieval paths cause no vegetation trampling or bank erosion damage."
       },
       "quiz_item": {
         "scenario_prompt": "What does the geocaching practice of Cache In Trash Out (CITO) require Scouts to do on every outing?",
@@ -913,7 +915,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Check terrain ratings before departure to prevent attempting technical climbs without safety gear.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71)",
       "syllabus_bucket": "In-Class Concept",
@@ -981,47 +983,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Common Geocaching Words",
-        "right_header": "Req 3: Review Cache Detail Icons",
+        "left_header": "Geocaching Terminology and Classification Systems: Core Principles",
+        "right_header": "Geocaching Terminology and Classification Systems: Field Execution",
         "left_points": [
-          "Common Geocaching Words and Acronyms: Here are some common words and acronyms in the world of geocaching. accuracy (p. 69).",
-          "Limits of Civilian GPS Accuracy: No civilian GPS receiver has perfect accuracy (freedom from error) (p. 69).",
-          "Cache Detail Attribute Icons: These icons on a cache detail are intended to provide helpful information to geocachers who wish to find specific types of caches (p. 69)."
+          "Waypoint Coordinate Definitions: A waypoint records precise geographic coordinates marking a specific physical target location.",
+          "Difficulty Rating Parameters: Difficulty ratings measure mental puzzle complexity and container camouflage ingenuity on site."
         ],
         "right_points": [
-          "Review Cache Detail Icons: These icons on a cache detail are intended to provide helpful information to geocachers who wish to find specific types of caches (p. 69).",
-          "Check Special Access Icons: The icons represent unique cache characteristics, whether the cache is kid friendly, if it is available 24 hours a day, if you need special (p. 69).",
-          "Locate Eagle Project Caches: A series of public geocaches that have been set up at the sites of Eagle Scout service projects. camo (camouflage) (p. 69)."
+          "Terrain Rating Parameters: Terrain numbers reflect physical elevation changes, ground vegetation thickness, and accessibility obstacles.",
+          "Trackable Item Movement: Trackables carry unique serial codes allowing public tracking across sequential container locations."
         ],
         "rows": [
           {
             "attribute": "Waypoint Coordinate Definitions",
-            "left": "Common Geocaching Words and Acronyms: Here are some common words and acronyms in the world of geocaching. accuracy (p. 69).",
-            "right": "Review Cache Detail Icons: These icons on a cache detail are intended to provide helpful information to geocachers who wish to find specific types of caches (p. 69)."
+            "left": "Waypoint Coordinate Definitions: A waypoint records precise geographic coordinates marking a specific physical target location.",
+            "right": "Terrain Rating Parameters: Terrain numbers reflect physical elevation changes, ground vegetation thickness, and accessibility obstacles."
           },
           {
             "attribute": "Difficulty Rating Parameters",
-            "left": "Limits of Civilian GPS Accuracy: No civilian GPS receiver has perfect accuracy (freedom from error) (p. 69).",
-            "right": "Check Special Access Icons: The icons represent unique cache characteristics, whether the cache is kid friendly, if it is available 24 hours a day, if you need special (p. 69)."
+            "left": "Difficulty Rating Parameters: Difficulty ratings measure mental puzzle complexity and container camouflage ingenuity on site.",
+            "right": "Trackable Item Movement: Trackables carry unique serial codes allowing public tracking across sequential container locations."
           },
           {
             "attribute": "Terrain Rating Parameters",
-            "left": "Cache Detail Attribute Icons: These icons on a cache detail are intended to provide helpful information to geocachers who wish to find specific types of caches (p. 69).",
-            "right": "Locate Eagle Project Caches: A series of public geocaches that have been set up at the sites of Eagle Scout service projects. camo (camouflage) (p. 69)."
+            "left": "Terrain Rating Parameters: Terrain numbers reflect physical elevation changes, ground vegetation thickness, and accessibility obstacles.",
+            "right": "Trackable Item Movement: Trackables carry unique serial codes allowing public tracking across sequential container locations."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 3 Exemplar Workbook Entry: Core",
+        "title": "Geocaching Req 3 Worked Example: Geocaching Terminology and Classification Systems",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Common Geocaching Words and Acronyms": "Here are some common words and acronyms in the world of geocaching. accuracy (p. 69).",
-          "Limits of Civilian GPS Accuracy": "No civilian GPS receiver has perfect accuracy (freedom from error) (p. 69).",
-          "Cache Detail Attribute Icons": "These icons on a cache detail are intended to provide helpful information to geocachers who wish to find specific types of caches (p. 69).",
-          "Special Cache Characteristics": "The icons represent unique cache characteristics, whether the cache is kid friendly, if it is available 24 hours a day, if you need special (p. 69)."
+          "Phase 1 - Waypoint Entry": "Enter target latitude and longitude coordinates into the handheld navigation receiver database.",
+          "Phase 2 - Attribute Review": "Check listing attributes for warnings regarding poison oak, thorns, or seasonal flooding.",
+          "Phase 3 - Physical Log Signing": "Sign the physical paper log sheet using permanent waterproof ink upon discovery.",
+          "Phase 4 - Online Log Update": "Log the successful find online with field notes regarding container condition details."
         },
-        "sample_output": "Core Geocaching Vocabulary and Ratings: Here are some common words and acronyms in the world of geocaching. accuracy (p. 69).",
-        "counselor_tip": "For Geocaching Requirement 3 (Core Geocaching Vocabulary and Ratings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 69, p. 71))."
+        "sample_output": "Precise technical vocabulary enables accurate communication regarding coordinates, terrain difficulty, and container status across the worldwide community. Standardized rating systems inform searchers about physical exertion and navigational equipment requirements.",
+        "counselor_tip": "During the Geocaching Requirement 3 conference on Geocaching Terminology and Classification Systems, verify that the Scout can explain waypoint coordinate definitions and demonstrate online log update: Log the successful find online with field notes regarding container condition details."
       },
       "quiz_item": {
         "scenario_prompt": "In geocaching terminology, what are attributes on a cache listing page?",
@@ -1113,7 +1113,7 @@
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Never stare at a GPS receiver screen while walking over uneven backcountry terrain.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1179,53 +1179,47 @@
         "Step 3 - Guide Practice: Guide the learner through switching coordinate formats to degrees and decimal minutes.",
         "Step 4 - Enable Execution: Observe the Scout independently navigating toward a designated test waypoint coordinate target."
       ],
-      "gear_checklist": [
-        "Official Geocaching Merit Badge Pamphlet: Global Positioning System GPS Works.",
-        "Field notebook, verification log sheet, and demonstration materials for Global Positioning System GPS Works.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Continuous Global Satellite",
-        "right_header": "Req 4: Calculate Position from Signals",
+        "left_header": "Satellite Navigation Principles and Operations: Core Principles",
+        "right_header": "Satellite Navigation Principles and Operations: Field Execution",
         "left_points": [
-          "Continuous Global Satellite Coverage: GPS technology can be used anywhere in the world 24 hours a day because the system of satellites circles Earth all the time, and some number of them (p. 11).",
-          "All Weather Free Operation: The system works in any kind of weather and does not require any setup fee or subscription charge (p. 11).",
-          "Timing Orbiting Satellite Signals: A GPS receiver (GPSr) calculates its position by carefully timing the signals sent by the 24 to 30 GPS satellites high above Earth (p. 11)."
+          "Satellite Constellation Geometry: Twenty-four active satellites orbit Earth transmitting continuous radio timing signals to receivers.",
+          "Trilateration Positioning Methods: Receivers calculate distance from four distinct satellites to establish accurate three-dimensional fixes."
         ],
         "right_points": [
-          "Calculate Position From Signals: A GPS receiver (GPSr) calculates its position by carefully timing the signals sent by the 24 to 30 GPS satellites high above Earth (p. 11).",
-          "Track Multiple Overhead Satellites: At any given time, there are usually several satellites over any given place on Earth (p. 11).",
-          "Receive Satellite Time Data: Each satellite continually transmits data that indicates its location and the current time (p. 11)."
+          "Map Datum Standards: The World Geodetic System 1984 datum provides global standardized coordinate alignment.",
+          "Waypoint Management Skills: Users save current location coordinates into memory and edit labels for retrieval."
         ],
         "rows": [
           {
             "attribute": "Satellite Constellation Geometry",
-            "left": "Continuous Global Satellite Coverage: GPS technology can be used anywhere in the world 24 hours a day because the system of satellites circles Earth all the time, and some number of them (p. 11).",
-            "right": "Calculate Position From Signals: A GPS receiver (GPSr) calculates its position by carefully timing the signals sent by the 24 to 30 GPS satellites high above Earth (p. 11)."
+            "left": "Satellite Constellation Geometry: Twenty-four active satellites orbit Earth transmitting continuous radio timing signals to receivers.",
+            "right": "Map Datum Standards: The World Geodetic System 1984 datum provides global standardized coordinate alignment."
           },
           {
             "attribute": "Trilateration Positioning Methods",
-            "left": "All Weather Free Operation: The system works in any kind of weather and does not require any setup fee or subscription charge (p. 11).",
-            "right": "Track Multiple Overhead Satellites: At any given time, there are usually several satellites over any given place on Earth (p. 11)."
+            "left": "Trilateration Positioning Methods: Receivers calculate distance from four distinct satellites to establish accurate three-dimensional fixes.",
+            "right": "Waypoint Management Skills: Users save current location coordinates into memory and edit labels for retrieval."
           },
           {
             "attribute": "Map Datum Standards",
-            "left": "Timing Orbiting Satellite Signals: A GPS receiver (GPSr) calculates its position by carefully timing the signals sent by the 24 to 30 GPS satellites high above Earth (p. 11).",
-            "right": "Receive Satellite Time Data: Each satellite continually transmits data that indicates its location and the current time (p. 11)."
+            "left": "Map Datum Standards: The World Geodetic System 1984 datum provides global standardized coordinate alignment.",
+            "right": "Waypoint Management Skills: Users save current location coordinates into memory and edit labels for retrieval."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 4 Exemplar Workbook Entry: Satellite",
+        "title": "Geocaching Req 4 Worked Example: Satellite Navigation Principles and Operations",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Continuous Global Satellite Coverage": "GPS technology can be used anywhere in the world 24 hours a day because the system of satellites circles Earth all the time, and some number of them (p. 11).",
-          "All Weather Free Operation": "The system works in any kind of weather and does not require any setup fee or subscription charge (p. 11).",
-          "Timing Orbiting Satellite Signals": "A GPS receiver (GPSr) calculates its position by carefully timing the signals sent by the 24 to 30 GPS satellites high above Earth (p. 11).",
-          "Multiple Satellites Overhead": "At any given time, there are usually several satellites over any given place on Earth (p. 11)."
+          "Phase 1 - Explain Concept": "Explain satellite trilateration and radio signal timing to patrol members using diagrams.",
+          "Phase 2 - Demonstrate Function": "Demonstrate marking an active waypoint and editing its displayed name and icon.",
+          "Phase 3 - Guide Practice": "Guide the learner through switching coordinate formats to degrees and decimal minutes.",
+          "Phase 4 - Enable Execution": "Observe the Scout independently navigating toward a designated test waypoint coordinate target."
         },
-        "sample_output": "Satellite Signals and GPS Operation: GPS technology can be used anywhere in the world 24 hours a day because the system of satellites circles Earth all the time, and some number of them (p. 11).",
-        "counselor_tip": "For Geocaching Requirement 4 (Satellite Signals and GPS Operation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 11, p. 13))."
+        "sample_output": "Handheld receivers calculate precise surface positions by measuring radio signal transit times from multiple orbiting satellites via trilateration. Demonstrating these operational functions requires mastering coordinate formats, map datums, and field navigation screens.",
+        "counselor_tip": "During the Geocaching Requirement 4 conference on Satellite Navigation Principles and Operations, verify that the Scout can explain satellite constellation geometry and demonstrate enable execution: Observe the Scout independently navigating toward a designated test waypoint coordinate target."
       },
       "quiz_item": {
         "scenario_prompt": "How does a GPS receiver calculate its position on Earth?",
@@ -1468,7 +1462,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Always carry a physical magnetic compass and paper map when navigating remote backcountry trails.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)",
       "syllabus_bucket": "In-Class Concept",
@@ -1532,19 +1526,17 @@
         "Step 3 - Bearing Comparison: Compare electronic GPS bearings against needle headings taken with the baseplate compass.",
         "Step 4 - Route Verification: Plot the final search path on paper before moving toward target coordinates."
       ],
-      "gear_checklist": [
-        "Official Geocaching Merit Badge Pamphlet: You know how to use.",
-        "Field notebook, verification log sheet, and demonstration materials for You know how to use.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Topographic Map and Compass",
-        "right_header": "Req 5b: Navigation Technologies",
+        "left_header": "Req 5a: Topographic Map and Compass Skills",
+        "right_header": "Req 5b: Navigation Technologies Comparison Analysis",
         "left_points": [
-          "(5a) Topographic Map and Compass Skills: Orienting a paper map with a baseplate compass establishes geographic orientation regardless of satellite reception. Understanding map legends and contour intervals enables accurate route planning across rough terrain."
+          "(5a) Topographic Map and Compass Skills: Orienting a paper map with a baseplate compass establishes geographic orientation regardless of satellite reception. Understanding map legends and contour intervals enables accurate route planning across rough terrain.",
+          "Magnetic Compass Reliability: Magnetic needles align with Earth magnetic fields without requiring battery electrical power."
         ],
         "right_points": [
-          "(5b) Navigation Technologies Comparison Analysis: GPS units calculate real-time transit speed and exact latitude coordinates instantly under open skies. Traditional orienteering requires manual triangulation but operates indefinitely without electrical batteries or satellite access."
+          "(5b) Navigation Technologies Comparison Analysis: GPS units calculate real-time transit speed and exact latitude coordinates instantly under open skies. Traditional orienteering requires manual triangulation but operates indefinitely without electrical batteries or satellite access.",
+          "Declination Angle Corrections: Users adjust compass declination to align magnetic north with true map north."
         ],
         "rows": [
           {
@@ -1554,25 +1546,27 @@
           },
           {
             "attribute": "Topographic Map Contours",
-            "left": "Req 5a: Topographic Map and Compass: Orienting a paper map with a baseplate compass establishes geographic orientation regardless of satellite reception. Understanding map legends and contour intervals enables accurate route planning across rough terrain.",
-            "right": "Req 5b: Navigation Technologies: GPS units calculate real-time transit speed and exact latitude coordinates instantly under open skies. Traditional orienteering requires manual triangulation but operates indefinitely without electrical batteries or satellite access."
+            "left": "Magnetic Compass Reliability: Magnetic needles align with Earth magnetic fields without requiring battery electrical power.",
+            "right": "Declination Angle Corrections: Users adjust compass declination to align magnetic north with true map north."
           },
           {
             "attribute": "Declination Angle Corrections",
-            "left": "Magnetic Compass Reliability: Magnetic needles align with Earth magnetic fields without requiring battery electrical power.",
-            "right": "Topographic Map Contours: Contour lines reveal elevation changes, steep cliffs, waterways, and impassable physical terrain."
+            "left": "Declination Angle Corrections: Users adjust compass declination to align magnetic north with true map north.",
+            "right": "Navigation Redundancy Value: Carrying paper maps prevents wilderness stranding when receiver batteries deplete completely outside."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 5 Exemplar Workbook Entry: Map",
+        "title": "Geocaching Req 5 Worked Example: Map, Compass, and Electronic Navigation",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5a - Topographic Map and Compass": "Orienting a paper map with a baseplate compass establishes geographic orientation regardless of satellite reception. Understanding map legends and contour intervals enables accurate route planning across rough terrain.",
-          "Req 5b - Navigation Technologies": "GPS units calculate real-time transit speed and exact latitude coordinates instantly under open skies. Traditional orienteering requires manual triangulation but operates indefinitely without electrical batteries or satellite access."
+          "Phase 1 - Map Orientation": "Orient the topographic paper map using magnetic north indicated by the compass.",
+          "Phase 2 - Terrain Correlation": "Match visible mountain peaks and stream valleys to contour lines on paper.",
+          "Phase 3 - Bearing Comparison": "Compare electronic GPS bearings against needle headings taken with the baseplate compass.",
+          "Phase 4 - Route Verification": "Plot the final search path on paper before moving toward target coordinates."
         },
-        "sample_output": "Map and Compass Navigation Skills: You may be in a location where you can't get good satellite reception (p. 27).",
-        "counselor_tip": "For Geocaching Requirement 5 (Map and Compass Navigation Skills), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29))."
+        "sample_output": "Traditional terrestrial orienteering provides essential backup navigation when electronic devices suffer battery drain or signal interference. Comparing electronic bearings with magnetic compass headings ensures continuous wilderness spatial awareness and route accuracy.",
+        "counselor_tip": "During the Geocaching Requirement 5 conference on Map, Compass, and Electronic Navigation, verify that the Scout can explain magnetic compass reliability and demonstrate route verification: Plot the final search path on paper before moving toward target coordinates."
       },
       "quiz_item": {
         "scenario_prompt": "Why must a geocacher carry and know how to use a map and compass even when carrying a modern GPS receiver?",
@@ -1660,7 +1654,7 @@
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Look carefully for stinging insects before reaching inside tree hollows or under boulders.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48)",
       "syllabus_bucket": "In-Class Concept",
@@ -1726,47 +1720,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Applying Steps to Hiding",
-        "right_header": "Req 6: Assess Seeker Terrain Impact",
+        "left_header": "Four Steps to Finding Caches: Core Principles",
+        "right_header": "Four Steps to Finding Caches: Field Execution",
         "left_points": [
-          "Applying Steps to Hiding: Think of the four steps to finding a cache, and use those steps to guide you in hiding a geocache (p. 42).",
-          "Researching Potential Cache Locations: Carefully research where you want to place your cache (p. 42).",
-          "Evaluating Seeker Environmental Impact: Are there adequate places to hide your caches without risk to the environment when people are seeking them (p. 42)."
+          "Cache Research Phase: Review online descriptions, hint decryptions, container sizes, and recent seeker logs beforehand.",
+          "Waypoint Navigation Phase: Follow the receiver directional arrow until distance counts down to twenty feet."
         ],
         "right_points": [
-          "Assess Seeker Terrain Impact: Are there adequate places to hide your caches without risk to the environment when people are seeking them (p. 42).",
-          "Select Uncrowded Cache Locations: Geocachers are encouraged to seek out new places to hide caches rather than put them where others already exist (p. 42).",
-          "Avoid Restricted Public Sites: Areas that are not suitable for geocaches include schools, government buildings, cemeteries, airports, military installations (p. 42)."
+          "Visual Search Phase: Search natural crevices, hollow stumps, and artificial hangers using observant eyes instead.",
+          "Log Signing Phase: Sign the physical paper scroll and reseal container gaskets tightly against moisture."
         ],
         "rows": [
           {
             "attribute": "Cache Research Phase",
-            "left": "Applying Steps to Hiding: Think of the four steps to finding a cache, and use those steps to guide you in hiding a geocache (p. 42).",
-            "right": "Assess Seeker Terrain Impact: Are there adequate places to hide your caches without risk to the environment when people are seeking them (p. 42)."
+            "left": "Cache Research Phase: Review online descriptions, hint decryptions, container sizes, and recent seeker logs beforehand.",
+            "right": "Visual Search Phase: Search natural crevices, hollow stumps, and artificial hangers using observant eyes instead."
           },
           {
             "attribute": "Waypoint Navigation Phase",
-            "left": "Researching Potential Cache Locations: Carefully research where you want to place your cache (p. 42).",
-            "right": "Select Uncrowded Cache Locations: Geocachers are encouraged to seek out new places to hide caches rather than put them where others already exist (p. 42)."
+            "left": "Waypoint Navigation Phase: Follow the receiver directional arrow until distance counts down to twenty feet.",
+            "right": "Log Signing Phase: Sign the physical paper scroll and reseal container gaskets tightly against moisture."
           },
           {
             "attribute": "Visual Search Phase",
-            "left": "Evaluating Seeker Environmental Impact: Are there adequate places to hide your caches without risk to the environment when people are seeking them (p. 42).",
-            "right": "Avoid Restricted Public Sites: Areas that are not suitable for geocaches include schools, government buildings, cemeteries, airports, military installations (p. 42)."
+            "left": "Visual Search Phase: Search natural crevices, hollow stumps, and artificial hangers using observant eyes instead.",
+            "right": "Log Signing Phase: Sign the physical paper scroll and reseal container gaskets tightly against moisture."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 6 Exemplar Workbook Entry: Four Steps",
+        "title": "Geocaching Req 6 Worked Example: Four Steps to Finding Caches",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Applying Steps to Hiding": "Think of the four steps to finding a cache, and use those steps to guide you in hiding a geocache (p. 42).",
-          "Researching Potential Cache Locations": "Carefully research where you want to place your cache (p. 42).",
-          "Evaluating Seeker Environmental Impact": "Are there adequate places to hide your caches without risk to the environment when people are seeking them (p. 42).",
-          "Seeking New Placement Areas": "Geocachers are encouraged to seek out new places to hide caches rather than put them where others already exist (p. 42)."
+          "Phase 1 - Research Cache": "Read online coordinates, difficulty ratings, cache sizes, and encrypted hints thoroughly beforehand.",
+          "Phase 2 - Navigate Proximity": "Follow the GPS directional arrow until entering the target search zone perimeter.",
+          "Phase 3 - Scan Environment": "Search unusual rock formations, hollow fence posts, and hanging pine branch hooks.",
+          "Phase 4 - Record Discovery": "Sign the paper logbook, replace swag items, and conceal the container securely."
         },
-        "sample_output": "Four Steps to Finding Caches: Think of the four steps to finding a cache, and use those steps to guide you in hiding a geocache (p. 42).",
-        "counselor_tip": "For Geocaching Requirement 6 (Four Steps to Finding Caches), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 48))."
+        "sample_output": "Locating a geocache follows a systematic progression from online research through waypoint navigation to physical searching. Once on site, searchers transition from electronic guidance to visual scanning within a twenty-foot radius.",
+        "counselor_tip": "During the Geocaching Requirement 6 conference on Four Steps to Finding Caches, verify that the Scout can explain cache research phase and demonstrate record discovery: Sign the paper logbook, replace swag items, and conceal the container securely."
       },
       "quiz_item": {
         "scenario_prompt": "What rule applies to placing a public geocache on Scout camp property?",
@@ -1833,8 +1825,8 @@
       "req_id": "7",
       "req_number": "7",
       "topic_heading": null,
-      "lead_text": "With your parent or guardian's permission, go to www. geocaching. com. Type in your city and state to locate public geocaches in your area. Share with your counselor the posted information about three of those geocaches. Then, pick one of the three and find the cache. Note: To fulfill this requirement, you will need to set up a free user account with www. Geocaching. com. Before doing so, ask your parent or guardian for permission and help.",
-      "req_text": "With your parent or guardian's permission, go to www. geocaching. com. Type in your city and state to locate public geocaches in your area. Share with your counselor the posted information about three of those geocaches. Then, pick one of the three and find the cache. Note: To fulfill this requirement, you will need to set up a free user account with www. Geocaching. com. Before doing so, ask your parent or guardian for permission and help.",
+      "lead_text": "With your parent or guardian's permission, go to www. Geocaching.com. Type in your city and state to locate public geocaches in your area. Share with your counselor the posted information about three of those geocaches. Then, pick one of the three and find the cache. Note: To fulfill this requirement, you will need to set up a free user account with www. Geocaching.com. Before doing so, ask your parent or guardian for permission and help.",
+      "req_text": "With your parent or guardian's permission, go to www. Geocaching.com. Type in your city and state to locate public geocaches in your area. Share with your counselor the posted information about three of those geocaches. Then, pick one of the three and find the cache. Note: To fulfill this requirement, you will need to set up a free user account with www. Geocaching.com. Before doing so, ask your parent or guardian for permission and help.",
       "sub_requirements": [],
       "resources": [
         {
@@ -1858,7 +1850,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Verify park operating hours on the listing to avoid trespassing after nightfall.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1933,53 +1925,47 @@
         "Step 3 - Listing Evaluation: Compare three distinct cache descriptions regarding container sizes, ratings, and recent logs.",
         "Step 4 - Target Selection: Select one target cache and download coordinates into the personal navigation device."
       ],
-      "gear_checklist": [
-        "Official Geocaching Merit Badge Pamphlet: Www Geocaching Com.",
-        "Field notebook, verification log sheet, and demonstration materials for Www Geocaching Com.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Four Basic Steps Online",
-        "right_header": "Req 7: Register Free Online Account",
+        "left_header": "Online Geocaching Platform Research: Core Principles",
+        "right_header": "Online Geocaching Platform Research: Field Execution",
         "left_points": [
-          "Four Basic Steps Online: Geocaching. com lists four basic steps to finding your first public geocache (p. 37).",
-          "Online Summary and Details: The four steps are summarized here; more details are available online (p. 37).",
-          "Free Basic Membership Registration: For your first geocache hunt, Step 1, Research choose one that At geocaching. com, register for a free basic membership (p. 37)."
+          "Listing Data Examination: Online listings display coordinates, owner usernames, difficulty ratings, and recent finder comments.",
+          "Attribute Icon Analysis: Attribute icons warn searchers about flash flood zones, thorny vegetation, and cliffs."
         ],
         "right_points": [
-          "Register Free Online Account: For your first geocache hunt, Step 1, Research choose one that At geocaching. com, register for a free basic membership (p. 37).",
-          "Select Target Cache Listing: Choose a geocache from the list and click on its name (p. 37).",
-          "Enter Coordinates Into GPS: Enter the coordinates of the geocache into your GPS device (p. 37)."
+          "Recent Activity Checks: Reviewing recent logs confirms whether previous searchers reported missing or damaged containers.",
+          "Target Selection Criteria: Choosing appropriate caches requires matching terrain ratings to personal hiking capability levels."
         ],
         "rows": [
           {
             "attribute": "Listing Data Examination",
-            "left": "Four Basic Steps Online: Geocaching. com lists four basic steps to finding your first public geocache (p. 37).",
-            "right": "Register Free Online Account: For your first geocache hunt, Step 1, Research choose one that At geocaching. com, register for a free basic membership (p. 37)."
+            "left": "Listing Data Examination: Online listings display coordinates, owner usernames, difficulty ratings, and recent finder comments.",
+            "right": "Recent Activity Checks: Reviewing recent logs confirms whether previous searchers reported missing or damaged containers."
           },
           {
             "attribute": "Attribute Icon Analysis",
-            "left": "Online Summary and Details: The four steps are summarized here; more details are available online (p. 37).",
-            "right": "Select Target Cache Listing: Choose a geocache from the list and click on its name (p. 37)."
+            "left": "Attribute Icon Analysis: Attribute icons warn searchers about flash flood zones, thorny vegetation, and cliffs.",
+            "right": "Target Selection Criteria: Choosing appropriate caches requires matching terrain ratings to personal hiking capability levels."
           },
           {
             "attribute": "Recent Activity Checks",
-            "left": "Free Basic Membership Registration: For your first geocache hunt, Step 1, Research choose one that At geocaching. com, register for a free basic membership (p. 37).",
-            "right": "Enter Coordinates Into GPS: Enter the coordinates of the geocache into your GPS device (p. 37)."
+            "left": "Recent Activity Checks: Reviewing recent logs confirms whether previous searchers reported missing or damaged containers.",
+            "right": "Target Selection Criteria: Choosing appropriate caches requires matching terrain ratings to personal hiking capability levels."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 7 Exemplar Workbook Entry: Searching",
+        "title": "Geocaching Req 7 Worked Example: Online Geocaching Platform Research",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Four Basic Steps Online": "Geocaching. com lists four basic steps to finding your first public geocache (p. 37).",
-          "Online Summary and Details": "The four steps are summarized here; more details are available online (p. 37).",
-          "Free Basic Membership Registration": "For your first geocache hunt, Step 1, Research choose one that At geocaching. com, register for a free basic membership (p. 37).",
-          "Selecting Local Cache Listings": "Choose a geocache from the list and click on its name (p. 37)."
+          "Phase 1 - Platform Access": "Log into the public geocaching database website with parental permission granted beforehand.",
+          "Phase 2 - Local Search": "Search municipal zip codes to display available public caches within local parks.",
+          "Phase 3 - Listing Evaluation": "Compare three distinct cache descriptions regarding container sizes, ratings, and recent logs.",
+          "Phase 4 - Target Selection": "Select one target cache and download coordinates into the personal navigation device."
         },
-        "sample_output": "Searching Online and Finding Caches: Geocaching. com lists four basic steps to finding your first public geocache (p. 37).",
-        "counselor_tip": "For Geocaching Requirement 7 (Searching Online and Finding Caches), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 37, p. 41))."
+        "sample_output": "Navigating official listing platforms exposes Scouts to community logs, geographic coordinate sets, and environmental safety attributes. Analyzing published listings enables informed decision-making regarding gear requirements and physical fitness challenges.",
+        "counselor_tip": "During the Geocaching Requirement 7 conference on Online Geocaching Platform Research, verify that the Scout can explain listing data examination and demonstrate target selection: Select one target cache and download coordinates into the personal navigation device."
       },
       "quiz_item": {
         "scenario_prompt": "What is the first basic step to finding your first public geocache?",
@@ -2007,7 +1993,7 @@
       "workbook_diagram_url": "assets/pamphlet_images/geocaching_p038_img2.png",
       "workbook_diagram_caption": "A geocacher packs trade items and trinkets inside a plastic container.",
       "number": "7",
-      "description": "With your parent or guardian's permission, go to www. geocaching. com. Type in your city and state to locate public geocaches in your area. Share with your counselor the posted information about three of those geocaches. Then, pick one of the three and find the cache. Note: To fulfill this requirement, you will need to set up a free user account with www. Geocaching. com. Before doing so, ask your parent or guardian for permission and help.",
+      "description": "With your parent or guardian's permission, go to www. Geocaching.com. Type in your city and state to locate public geocaches in your area. Share with your counselor the posted information about three of those geocaches. Then, pick one of the three and find the cache. Note: To fulfill this requirement, you will need to set up a free user account with www. Geocaching.com. Before doing so, ask your parent or guardian for permission and help.",
       "workbook_visual_caption": "A geocacher packs trade items and trinkets inside a plastic container.",
       "pamphlet_summary": "Navigating official listing platforms exposes Scouts to community logs, geographic coordinate sets, and environmental safety attributes. Analyzing published listings enables informed decision-making regarding gear requirements and physical fitness challenges.",
       "socratic_questions": [
@@ -2047,7 +2033,7 @@
       "req_number": "8",
       "topic_heading": null,
       "lead_text": "Do ONE of the following:",
-      "req_text": "Do ONE of the following: (a) If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that each cache you visit highlights, and explain how the Cache to Eagle® program helps share our Scouting service with the public. (b) Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. geocaching. com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period. (c) Set up and hide a public geocache, following the guidelines in the Geocaching merit badge pamphlet. Before doing so, share with your counselor a three-month maintenance plan for the geocache where you are personally responsible for those three months. After setting up the geocache, with your parent or guardian's permission, follow the logs online for 30 days and share them with your counselor. You must archive the geocache when you are no longer maintaining it. (d) Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public.",
+      "req_text": "Do ONE of the following: (a) If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that each cache you visit highlights, and explain how the Cache to Eagle® program helps share our Scouting service with the public. (b) Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. Geocaching.com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period. (c) Set up and hide a public geocache, following the guidelines in the Geocaching merit badge pamphlet. Before doing so, share with your counselor a three-month maintenance plan for the geocache where you are personally responsible for those three months. After setting up the geocache, with your parent or guardian's permission, follow the logs online for 30 days and share them with your counselor. You must archive the geocache when you are no longer maintaining it. (d) Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public.",
       "sub_requirements": [
         {
           "sub_id": "8a",
@@ -2125,7 +2111,7 @@
         {
           "sub_id": "8b",
           "label": "(b)",
-          "text": "Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. geocaching. com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period.",
+          "text": "Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. Geocaching.com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period.",
           "resources": [
             {
               "title": "What Is a Travel Bug in Geocaching (video)",
@@ -2153,14 +2139,14 @@
               "1. Create a Scouting-related Travel Bug® that promotes one of the values of Scouting",
               "2. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www",
               "3. geocaching",
-              "4. com for 30 days",
+              "4.com for 30 days",
               "5. Keep a log, and share this with your counselor at the end of the 30-day period"
             ],
             "rows": [
               "1. Create a Scouting-related Travel Bug® that promotes one of the values of Scouting",
               "2. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www",
               "3. geocaching",
-              "4. com for 30 days",
+              "4.com for 30 days",
               "5. Keep a log, and share this with your counselor at the end of the 30-day period"
             ],
             "min_rows": 5
@@ -2198,7 +2184,7 @@
           ],
           "id": "8b",
           "sub_req_label": "8b",
-          "sub_req_text": "Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. geocaching. com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period.",
+          "sub_req_text": "Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. Geocaching.com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period.",
           "topic_title": "Req 8b: Scouting Travel Bug Missions",
           "pamphlet_summary": "Creating a Scout-themed travel bug attaches a tracking tag to an emblem promoting the Scout Law. Tracking its movement through online logs demonstrates cooperative community dynamics across geographic distances.",
           "pamphlet_excerpts": [
@@ -2410,7 +2396,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Wear puncture-resistant leather work gloves when collecting trash along public trails during CITO.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2485,21 +2471,17 @@
         "Step 3 - Action Execution: Execute the cleanup event, cache placement, or travel bug trackable mission release.",
         "Step 4 - Documentation Review: Document project results and present photographs and maintenance records to your counselor."
       ],
-      "gear_checklist": [
-        "Official Geocaching Merit Badge Pamphlet: Cache to Eagle Series Exists.",
-        "Field notebook, verification log sheet, and demonstration materials for Cache to Eagle Series Exists.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 8a: Cache to Eagle Series",
-        "right_header": "Req 8c: Public Cache Placement",
+        "right_header": "Req 8c: Public Cache Placement Maintenance",
         "left_points": [
           "(8a) Cache to Eagle Series: Council Cache to Eagle series guide the public to significant Eagle Scout service project installations across parks and historic landmarks. Visiting these sites illustrates how youth service projects benefit community infrastructure over decades.",
           "(8b) Scouting Travel Bug Missions: Creating a Scout-themed travel bug attaches a tracking tag to an emblem promoting the Scout Law. Tracking its movement through online logs demonstrates cooperative community dynamics across geographic distances."
         ],
         "right_points": [
           "(8c) Public Cache Placement Maintenance: Publishing a public cache requires landowner consent, precise coordinate averaging, and a committed three-month upkeep schedule. Active stewardship prevents geolitter and protects sensitive environmental zones from excessive foot traffic.",
-          "(8d) Cache In Trash Out: Cache In Trash Out events mobilize outdoor enthusiasts to collect garbage along trails while searching for containers. Leaving collection bags at cache locations encourages all visitors to steward public lands."
+          "(8d) Cache in Trash Out: Cache In Trash Out events mobilize outdoor enthusiasts to collect garbage along trails while searching for containers. Leaving collection bags at cache locations encourages all visitors to steward public lands."
         ],
         "rows": [
           {
@@ -2510,26 +2492,26 @@
           {
             "attribute": "Travel Bug Management",
             "left": "(8b) Scouting Travel Bug Missions: Creating a Scout-themed travel bug attaches a tracking tag to an emblem promoting the Scout Law. Tracking its movement through online logs demonstrates cooperative community dynamics across geographic distances.",
-            "right": "(8d) Cache In Trash Out: Cache In Trash Out events mobilize outdoor enthusiasts to collect garbage along trails while searching for containers. Leaving collection bags at cache locations encourages all visitors to steward public lands."
+            "right": "(8d) Cache in Trash Out: Cache In Trash Out events mobilize outdoor enthusiasts to collect garbage along trails while searching for containers. Leaving collection bags at cache locations encourages all visitors to steward public lands."
           },
           {
             "attribute": "Container Stewardship Plans",
-            "left": "Req 8a: Cache to Eagle Series: Council Cache to Eagle series guide the public to significant Eagle Scout service project installations across parks and historic landmarks. Visiting these sites illustrates how youth service projects benefit community infrastructure over decades.",
-            "right": "Req 8b: Scouting Travel Bug Missions: Creating a Scout-themed travel bug attaches a tracking tag to an emblem promoting the Scout Law. Tracking its movement through online logs demonstrates cooperative community dynamics across geographic distances."
+            "left": "Container Stewardship Plans: Hiders commit to inspecting containers quarterly, replacing soggy logs, and repairing seals.",
+            "right": "Clean in Trash Out: Cache In Trash Out programs remove litter from public parks during searches."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 8 Exemplar Workbook Entry: Eagle Projects",
+        "title": "Geocaching Req 8 Worked Example: Community Service and Cache Management",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 8a - Cache to Eagle Series": "Council Cache to Eagle series guide the public to significant Eagle Scout service project installations across parks and historic landmarks. Visiting these sites illustrates how youth service projects benefit community infrastructure over decades.",
-          "Req 8b - Scouting Travel Bug Missions": "Creating a Scout-themed travel bug attaches a tracking tag to an emblem promoting the Scout Law. Tracking its movement through online logs demonstrates cooperative community dynamics across geographic distances.",
-          "Req 8c - Public Cache Placement": "Publishing a public cache requires landowner consent, precise coordinate averaging, and a committed three-month upkeep schedule. Active stewardship prevents geolitter and protects sensitive environmental zones from excessive foot traffic.",
-          "Req 8d - Cache in Trash Out": "Cache In Trash Out events mobilize outdoor enthusiasts to collect garbage along trails while searching for containers. Leaving collection bags at cache locations encourages all visitors to steward public lands."
+          "Phase 1 - Project Selection": "Select one community stewardship option matching troop service goals and local resources.",
+          "Phase 2 - Stakeholder Coordination": "Coordinate with park rangers, council coordinators, or cache owners before beginning work.",
+          "Phase 3 - Action Execution": "Execute the cleanup event, cache placement, or travel bug trackable mission release.",
+          "Phase 4 - Documentation Review": "Document project results and present photographs and maintenance records to your counselor."
         },
-        "sample_output": "Eagle Projects and Community Service: Before your cache is posted on geocaching. com, a volunteer will review the cache to make sure the GPS coordinates are correct and it meets (p. 42).",
-        "counselor_tip": "For Geocaching Requirement 8 (Eagle Projects and Community Service), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49))."
+        "sample_output": "Advanced geocaching emphasizes stewardship through environmental cleanups, public service trail maintenance, and active travel bug tracking. Establishing official containers requires ongoing physical maintenance commitments and documented permission from municipal land managers.",
+        "counselor_tip": "During the Geocaching Requirement 8 conference on Community Service and Cache Management, verify that the Scout can explain cache to eagle and demonstrate documentation review: Document project results and present photographs and maintenance records to your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "What long-term responsibility do you take on once your public geocache passes volunteer review and is published?",
@@ -2557,7 +2539,7 @@
       "workbook_diagram_url": "assets/pamphlet_images/geocaching_p049_img1.png",
       "workbook_diagram_caption": "A hiker pauses on an overlook during an outdoor geocaching adventure.",
       "number": "8",
-      "description": "Do ONE of the following: (a) If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that each cache you visit highlights, and explain how the Cache to Eagle® program helps share our Scouting service with the public. (b) Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. geocaching. com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period. (c) Set up and hide a public geocache, following the guidelines in the Geocaching merit badge pamphlet. Before doing so, share with your counselor a three-month maintenance plan for the geocache where you are personally responsible for those three months. After setting up the geocache, with your parent or guardian's permission, follow the logs online for 30 days and share them with your counselor. You must archive the geocache when you are no longer maintaining it. (d) Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public.",
+      "description": "Do ONE of the following: (a) If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that each cache you visit highlights, and explain how the Cache to Eagle® program helps share our Scouting service with the public. (b) Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. Geocaching.com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period. (c) Set up and hide a public geocache, following the guidelines in the Geocaching merit badge pamphlet. Before doing so, share with your counselor a three-month maintenance plan for the geocache where you are personally responsible for those three months. After setting up the geocache, with your parent or guardian's permission, follow the logs online for 30 days and share them with your counselor. You must archive the geocache when you are no longer maintaining it. (d) Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public.",
       "workbook_visual_caption": "A hiker pauses on an overlook during an outdoor geocaching adventure.",
       "pamphlet_summary": "Advanced geocaching emphasizes stewardship through environmental cleanups, public service trail maintenance, and active travel bug tracking. Establishing official containers requires ongoing physical maintenance commitments and documented permission from municipal land managers.",
       "socratic_questions": [
@@ -2617,7 +2599,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Establish clear physical perimeter boundaries so youth never wander near roadways or cliffs.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52)",
       "pamphlet_page_citation": "Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52)",
       "syllabus_bucket": "In-Class Concept",
@@ -2685,47 +2667,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Geocaching Across Scout Ranks",
-        "right_header": "Req 9: Tailor Challenges to Patrol",
+        "left_header": "Geohunt Course Design and Leadership: Core Principles",
+        "right_header": "Geohunt Course Design and Leadership: Field Execution",
         "left_points": [
-          "Geocaching Across Scout Ranks: Teaching GPS Use to Your Patrol or Troop All Scouts from Tenderfoot to Eagle Scout rank can use a GPS unit and geocache (p. 51).",
-          "Skill Level Receiver Programming: Younger Scouts may need help programming a GPS receiver, but older Scouts can program the units themselves, or play games that require (p. 51).",
-          "Matching Games to Patrol Abilities: You know your troop, so use the skill level that is right for each member or patrol (p. 51)."
+          "Thematic Route Planning: Select an engaging educational theme connecting multiple sequential waypoints along safe pathways.",
+          "Waypoint Coordinate Averaging: Average coordinates at each station to ensure participants receive accurate navigation targets."
         ],
         "right_points": [
-          "Tailor Challenges to Patrol Skills: You know your troop, so use the skill level that is right for each member or patrol (p. 51).",
-          "Guide Cub Scouts With GPS: Teaching GPS Use to Cub Scouts or Younger Children All ages of Cub Scouts can also use a GPS unit to geocache (p. 51).",
-          "Preprogram Coordinates for Young Children: Younger children love to follow the arrow and are thrilled when they make \"the find.\" However, they may not be able to program a GPS receiver (p. 51)."
+          "EDGE Method Instruction: Teach navigation by explaining, demonstrating, guiding practice, and enabling independent patrol searches.",
+          "Course Safety Boundaries: Establish physical boundary lines and emergency muster checkpoints before releasing youth participants."
         ],
         "rows": [
           {
             "attribute": "Thematic Route Planning",
-            "left": "Geocaching Across Scout Ranks: Teaching GPS Use to Your Patrol or Troop All Scouts from Tenderfoot to Eagle Scout rank can use a GPS unit and geocache (p. 51).",
-            "right": "Tailor Challenges to Patrol Skills: You know your troop, so use the skill level that is right for each member or patrol (p. 51)."
+            "left": "Thematic Route Planning: Select an engaging educational theme connecting multiple sequential waypoints along safe pathways.",
+            "right": "EDGE Method Instruction: Teach navigation by explaining, demonstrating, guiding practice, and enabling independent patrol searches."
           },
           {
             "attribute": "Waypoint Coordinate Averaging",
-            "left": "Skill Level Receiver Programming: Younger Scouts may need help programming a GPS receiver, but older Scouts can program the units themselves, or play games that require (p. 51).",
-            "right": "Guide Cub Scouts With GPS: Teaching GPS Use to Cub Scouts or Younger Children All ages of Cub Scouts can also use a GPS unit to geocache (p. 51)."
+            "left": "Waypoint Coordinate Averaging: Average coordinates at each station to ensure participants receive accurate navigation targets.",
+            "right": "Course Safety Boundaries: Establish physical boundary lines and emergency muster checkpoints before releasing youth participants."
           },
           {
             "attribute": "EDGE Method Instruction",
-            "left": "Matching Games to Patrol Abilities: You know your troop, so use the skill level that is right for each member or patrol (p. 51).",
-            "right": "Preprogram Coordinates for Young Children: Younger children love to follow the arrow and are thrilled when they make \"the find.\" However, they may not be able to program a GPS receiver (p. 51)."
+            "left": "EDGE Method Instruction: Teach navigation by explaining, demonstrating, guiding practice, and enabling independent patrol searches.",
+            "right": "Course Safety Boundaries: Establish physical boundary lines and emergency muster checkpoints before releasing youth participants."
           }
         ]
       },
       "worked_example": {
-        "title": "Geocaching Req 9 Exemplar Workbook Entry: Planning",
+        "title": "Geocaching Req 9 Worked Example: Geohunt Course Design and Leadership",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Geocaching Across Scout Ranks": "Teaching GPS Use to Your Patrol or Troop All Scouts from Tenderfoot to Eagle Scout rank can use a GPS unit and geocache (p. 51).",
-          "Skill Level Receiver Programming": "Younger Scouts may need help programming a GPS receiver, but older Scouts can program the units themselves, or play games that require (p. 51).",
-          "Matching Games to Patrol Abilities": "You know your troop, so use the skill level that is right for each member or patrol (p. 51).",
-          "Introducing Cub Scouts Outdoors": "Teaching GPS Use to Cub Scouts or Younger Children All ages of Cub Scouts can also use a GPS unit to geocache (p. 51)."
+          "Phase 1 - Design Route": "Map four distinct educational waypoints following a cohesive historic or ecological theme.",
+          "Phase 2 - Program Waypoints": "Enter accurate coordinates and clue descriptions into all youth patrol GPS receivers.",
+          "Phase 3 - Instruct Participants": "Teach receiver screen functions and compass bearing navigation using the EDGE method.",
+          "Phase 4 - Supervise Hunt": "Monitor patrol movements, enforce buddy systems, and conduct an educational game debriefing."
         },
-        "sample_output": "Planning and Leading Youth Geohunts: Teaching GPS Use to Your Patrol or Troop All Scouts from Tenderfoot to Eagle Scout rank can use a GPS unit and geocache (p. 51).",
-        "counselor_tip": "For Geocaching Requirement 9 (Planning and Leading Youth Geohunts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geocaching Merit Badge Pamphlet (p. 51, p. 52))."
+        "sample_output": "Organizing an educational geohunt requires designing a thematic route, programming clear waypoints, and teaching receiver operation using EDGE instruction methods. Successful leaders manage group pacing, enforce safety boundaries, and debrief learning outcomes after course completion.",
+        "counselor_tip": "During the Geocaching Requirement 9 conference on Geohunt Course Design and Leadership, verify that the Scout can explain thematic route planning and demonstrate supervise hunt: Monitor patrol movements, enforce buddy systems, and conduct an educational game debriefing."
       },
       "quiz_item": {
         "scenario_prompt": "How should you adapt a youth geohunt when designing the activity for Cub Scouts or younger children?",

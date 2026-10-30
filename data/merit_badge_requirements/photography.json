@@ -276,19 +276,17 @@
         "Step 3 - Tripod Anchoring: Spread tripod legs wide and weight the center column for maximum stability.",
         "Step 4 - Gear Stowing: Place expensive lenses into padded bags immediately after finishing outdoor shooting sessions."
       ],
-      "gear_checklist": [
-        "Official Photography Merit Badge: Photography Hazards and First Aid.",
-        "Field notebook, verification log sheet, and demonstration materials for Photography Hazards and First Aid.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Field Hazard Mitigation",
-        "right_header": "Req 1b: Digital Safety Awareness",
+        "left_header": "Req 1a: Field Hazard Mitigation Practices",
+        "right_header": "Req 1b: Digital Safety Awareness Education",
         "left_points": [
-          "(1a) Field Hazard Mitigation Practices: Field safety encompasses personal bodily protection and the avoidance of dangerous environmental conditions. Scouts must recognize physical obstacles while carrying delicate gear across varying terrain."
+          "(1a) Field Hazard Mitigation Practices: Field safety encompasses personal bodily protection and the avoidance of dangerous environmental conditions. Scouts must recognize physical obstacles while carrying delicate gear across varying terrain.",
+          "Equipment Security: Secure camera straps firmly around the neck before navigating uneven outdoor terrain."
         ],
         "right_points": [
-          "(1b) Digital Safety Awareness Education: Digital safety requires protecting personal identity and private location metadata before publishing pictures. Scouts must consult parents before uploading images to social networks or shared drives."
+          "(1b) Digital Safety Awareness Education: Digital safety requires protecting personal identity and private location metadata before publishing pictures. Scouts must consult parents before uploading images to social networks or shared drives.",
+          "Weather Protection: Encase electronic camera bodies in sealed plastic bags during unexpected severe rainstorms."
         ],
         "rows": [
           {
@@ -298,25 +296,27 @@
           },
           {
             "attribute": "Tripod Placement",
-            "left": "Req 1a: Field Hazard Mitigation: Field safety encompasses personal bodily protection and the avoidance of dangerous environmental conditions. Scouts must recognize physical obstacles while carrying delicate gear across varying terrain.",
-            "right": "Req 1b: Digital Safety Awareness: Digital safety requires protecting personal identity and private location metadata before publishing pictures. Scouts must consult parents before uploading images to social networks or shared drives."
+            "left": "Equipment Security: Secure camera straps firmly around the neck before navigating uneven outdoor terrain.",
+            "right": "Weather Protection: Encase electronic camera bodies in sealed plastic bags during unexpected severe rainstorms."
           },
           {
             "attribute": "Weather Protection",
-            "left": "Equipment Security: Secure camera straps firmly around the neck before navigating uneven outdoor terrain.",
-            "right": "Tripod Placement: Anchor heavy tripod legs securely to prevent tripping hazards for passing pedestrians."
+            "left": "Weather Protection: Encase electronic camera bodies in sealed plastic bags during unexpected severe rainstorms.",
+            "right": "Solar Safety: Never point telephoto lenses directly toward midday sun without certified solar filters."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 1 Exemplar Workbook Entry: Field Hazards",
+        "title": "Photography Req 1 Worked Example: Photography Safety and Risk Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Field Hazard Mitigation": "Field safety encompasses personal bodily protection and the avoidance of dangerous environmental conditions. Scouts must recognize physical obstacles while carrying delicate gear across varying terrain.",
-          "Req 1b - Digital Safety Awareness": "Digital safety requires protecting personal identity and private location metadata before publishing pictures. Scouts must consult parents before uploading images to social networks or shared drives."
+          "Phase 1 - Strap Fastening": "Attach the camera neck strap securely to both side mounting eyelets.",
+          "Phase 2 - Terrain Survey": "Scan surrounding ground surfaces for roots, rocks, or cables before framing.",
+          "Phase 3 - Tripod Anchoring": "Spread tripod legs wide and weight the center column for maximum stability.",
+          "Phase 4 - Gear Stowing": "Place expensive lenses into padded bags immediately after finishing outdoor shooting sessions."
         },
-        "sample_output": "Field Hazards and Digital Safety: This angle of view is much like what human eyes see in normal vision, roughly equivalent to a 50mmlens (p. 33).",
-        "counselor_tip": "For Photography Requirement 1 (Field Hazards and Digital Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 33, p. 63))."
+        "sample_output": "Field photography requires active awareness of environmental hazards, trip risks, and electronic equipment safety. Scouts must secure neck straps, identify overhead obstacles, and protect digital sensors from moisture.",
+        "counselor_tip": "During the Photography Requirement 1 conference on Photography Safety and Risk Management, verify that the Scout can explain equipment security and demonstrate gear stowing: Place expensive lenses into padded bags immediately after finishing outdoor shooting sessions."
       },
       "quiz_item": {
         "scenario_prompt": "While composing photographs outdoors near a canyon rim, roadway, or approaching thunderstorm, what safety rule takes priority over capturing the shot?",
@@ -982,7 +982,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Avoid firing high-powered electronic strobes directly into people or animals at close range.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
       "syllabus_bucket": "In-Class Concept",
@@ -1058,17 +1058,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Natural and Artificial Light",
+        "left_header": "Req 2a: Natural and Artificial Light Quality",
         "right_header": "Req 2d: Visual Composition and Framing",
         "left_points": [
           "(2a) Natural and Artificial Light Quality: Lighting sets visual mood, exposure parameters, and texture rendition across every photographic frame. Scouts must analyze existing ambient light before introducing artificial flash units.",
-          "(2b) Exposure Triangle Fundamentals: Exposure balances three interrelated camera settings known universally as the exposure triangle. Adjusting one setting requires compensating with another setting to preserve balanced tonal values.",
-          "(2c) Depth of Field Control: Depth of field dictates the zone of acceptable sharpness in front of and behind subjects. Aperture size, subject distance, and focal length determine the total focused depth."
+          "(2b) Exposure Triangle Fundamentals: Exposure balances three interrelated camera settings known universally as the exposure triangle. Adjusting one setting requires compensating with another setting to preserve balanced tonal values."
         ],
         "right_points": [
           "(2d) Visual Composition and Framing: Composition arranges scene elements to guide the viewer eyes through the photographic image. Techniques like leading lines and framing create illusionary visual depth within two-dimensional pictures.",
-          "(2e) Camera Viewpoint and Perspective: Angle of view changes how relationships between foreground and background elements appear. Varying camera height alters subject dominance, visual impact, and viewer perspective dramatically.",
-          "(2f) Motion Freezing and Panning: Shutter speed governs the rendering of motion as either frozen action or intentional blur. Photographers intentionally select shutter speeds to convey dynamic movement or pin-sharp precision."
+          "(2e) Camera Viewpoint and Perspective: Angle of view changes how relationships between foreground and background elements appear. Varying camera height alters subject dominance, visual impact, and viewer perspective dramatically."
         ],
         "rows": [
           {
@@ -1083,22 +1081,22 @@
           },
           {
             "attribute": "Shutter Speed",
-            "left": "(2c) Depth of Field Control: Depth of field dictates the zone of acceptable sharpness in front of and behind subjects. Aperture size, subject distance, and focal length determine the total focused depth.",
-            "right": "(2f) Motion Freezing and Panning: Shutter speed governs the rendering of motion as either frozen action or intentional blur. Photographers intentionally select shutter speeds to convey dynamic movement or pin-sharp precision."
+            "left": "Shutter Speed: Fast shutter speeds freeze rapid movement while slow speeds introduce intentional motion blur.",
+            "right": "Rule of Thirds: Positioning visual centers of interest along grid intersections creates balanced, compelling compositions."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 2 Exemplar Workbook Entry: Exposure",
+        "title": "Photography Req 2 Worked Example: Elements of Photographic Image Quality",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Natural and Artificial Light": "Lighting sets visual mood, exposure parameters, and texture rendition across every photographic frame. Scouts must analyze existing ambient light before introducing artificial flash units.",
-          "Req 2b - Exposure Triangle": "Exposure balances three interrelated camera settings known universally as the exposure triangle. Adjusting one setting requires compensating with another setting to preserve balanced tonal values.",
-          "Req 2c - Depth of Field Control": "Depth of field dictates the zone of acceptable sharpness in front of and behind subjects. Aperture size, subject distance, and focal length determine the total focused depth.",
-          "Req 2d - Visual Composition": "Composition arranges scene elements to guide the viewer eyes through the photographic image. Techniques like leading lines and framing create illusionary visual depth within two-dimensional pictures."
+          "Phase 1 - Meter Reading": "Measure ambient scene brightness using the internal camera exposure meter indicator.",
+          "Phase 2 - Aperture Setting": "Rotate the camera dial to choose an appropriate lens focal ratio.",
+          "Phase 3 - Shutter Selection": "Select a rapid shutter speed to freeze rapid motion without blur.",
+          "Phase 4 - Sensitivity Adjustment": "Set sensor sensitivity to balance clean exposure without introducing electronic noise."
         },
-        "sample_output": "Exposure, Light, and Visual Composition: With every doubling of the number, the camera's digital sensor becomes twice as sensitive to the light available for the picture (p. 22).",
-        "counselor_tip": "For Photography Requirement 2 (Exposure, Light, and Visual Composition), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33))."
+        "sample_output": "Image quality depends on controlling exposure parameters, ambient illumination, and optical composition. Mastering the exposure triangle allows photographers to capture sharp subjects across challenging environments.",
+        "counselor_tip": "During the Photography Requirement 2 conference on Elements of Photographic Image Quality, verify that the Scout can explain natural lighting and demonstrate sensitivity adjustment: Set sensor sensitivity to balance clean exposure without introducing electronic noise."
       },
       "quiz_item": {
         "scenario_prompt": "How does changing your camera's ISO from 200 to 800 affect the digital sensor?",
@@ -1194,7 +1192,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Turn off camera power before detaching lenses to avoid attracting airborne dust onto sensors.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 39, p. 43)",
       "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 39, p. 43)",
       "syllabus_bucket": "In-Class Concept",
@@ -1260,47 +1258,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Choosing the Right Camera",
-        "right_header": "Req 3: Place Focus and Exposure",
+        "left_header": "Camera Mechanics and Exposure Operation: Core Principles",
+        "right_header": "Camera Mechanics and Exposure Operation: Field Execution",
         "left_points": [
-          "Choosing the Right Camera: The question is often pondered, which camera is best (p. 39).",
-          "Dedicated Cameras Versus Smartphones: Dedicated cameras are designed to give you an optimal photographic experience, but the quality of pictures taken with a smartphone (p. 39).",
-          "Custom Exposure and Focus: Some apps allow individual placement of exposure and focus (p. 39)."
+          "Optical Focus: Glass lens elements bend light rays to converge sharply onto digital sensor planes.",
+          "Mechanical Shutter: Shutter curtains open briefly to regulate the total duration of light sensor exposure."
         ],
         "right_points": [
-          "Place Focus and Exposure: Some apps allow individual placement of exposure and focus (p. 39).",
-          "Stabilize Camera Motion: Some smartphones even have motion stabilization for the camera (p. 39).",
-          "Press the Shutter Button: Just press a button and the photo is on its way (p. 39)."
+          "Sensor Conversion: Silicon sensor photodiodes convert focused light photons into measurable electrical charge values.",
+          "Aperture Diaphragm: Overlapping metal blades expand or contract to control incoming optical light volume."
         ],
         "rows": [
           {
             "attribute": "Optical Focus",
-            "left": "Choosing the Right Camera: The question is often pondered, which camera is best (p. 39).",
-            "right": "Place Focus and Exposure: Some apps allow individual placement of exposure and focus (p. 39)."
+            "left": "Optical Focus: Glass lens elements bend light rays to converge sharply onto digital sensor planes.",
+            "right": "Sensor Conversion: Silicon sensor photodiodes convert focused light photons into measurable electrical charge values."
           },
           {
             "attribute": "Mechanical Shutter",
-            "left": "Dedicated Cameras Versus Smartphones: Dedicated cameras are designed to give you an optimal photographic experience, but the quality of pictures taken with a smartphone (p. 39).",
-            "right": "Stabilize Camera Motion: Some smartphones even have motion stabilization for the camera (p. 39)."
+            "left": "Mechanical Shutter: Shutter curtains open briefly to regulate the total duration of light sensor exposure.",
+            "right": "Aperture Diaphragm: Overlapping metal blades expand or contract to control incoming optical light volume."
           },
           {
             "attribute": "Sensor Conversion",
-            "left": "Custom Exposure and Focus: Some apps allow individual placement of exposure and focus (p. 39).",
-            "right": "Press the Shutter Button: Just press a button and the photo is on its way (p. 39)."
+            "left": "Sensor Conversion: Silicon sensor photodiodes convert focused light photons into measurable electrical charge values.",
+            "right": "Aperture Diaphragm: Overlapping metal blades expand or contract to control incoming optical light volume."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 3 Exemplar Workbook Entry: Camera Parts",
+        "title": "Photography Req 3 Worked Example: Camera Mechanics and Exposure Operation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Choosing the Right Camera": "The question is often pondered, which camera is best (p. 39).",
-          "Dedicated Cameras Versus Smartphones": "Dedicated cameras are designed to give you an optimal photographic experience, but the quality of pictures taken with a smartphone (p. 39).",
-          "Custom Exposure and Focus": "Some apps allow individual placement of exposure and focus (p. 39).",
-          "Built-In Camera Motion Stabilization": "Some smartphones even have motion stabilization for the camera (p. 39)."
+          "Phase 1 - Body Inspection": "Check the battery charge and insert an empty digital memory card.",
+          "Phase 2 - Lens Mounting": "Align lens mounting dots and lock the barrel firmly onto camera mounts.",
+          "Phase 3 - Focus Acquisition": "Press the shutter button halfway to lock automatic focus onto target subjects.",
+          "Phase 4 - Exposure Release": "Depress the shutter button fully to expose the image sensor to light."
         },
-        "sample_output": "Camera Parts and Exposure Mechanics: The question is often pondered, which camera is best (p. 39).",
-        "counselor_tip": "For Photography Requirement 3 (Camera Parts and Exposure Mechanics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 39, p. 43))."
+        "sample_output": "A camera consists of a light-tight body, optical lens system, shutter curtain, and sensor. Light travels through aperture diaphragms and focused elements to record latent digital imagery.",
+        "counselor_tip": "During the Photography Requirement 3 conference on Camera Mechanics and Exposure Operation, verify that the Scout can explain optical focus and demonstrate exposure release: Depress the shutter button fully to expose the image sensor to light."
       },
       "quiz_item": {
         "scenario_prompt": "What happens inside a camera to create an exposure when you press the shutter button?",
@@ -1658,7 +1654,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Keep safe footing when shooting from extreme low perspectives or elevated vantage perches.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)",
       "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)",
       "syllabus_bucket": "In-Class Concept",
@@ -1728,7 +1724,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Dual Perspective Subject",
+        "left_header": "Req 4a: Dual Perspective Subject Documentation",
         "right_header": "Req 4c: Aperture and Depth Variation",
         "left_points": [
           "(4a) Dual Perspective Subject Documentation: Capturing one subject from differing viewpoints reveals how camera position alters visual narrative. High perspectives compress ground planes while ground-level viewpoints impart physical grandeur.",
@@ -1751,22 +1747,22 @@
           },
           {
             "attribute": "Depth Contrast",
-            "left": "Req 4a: Dual Perspective Subject: Capturing one subject from differing viewpoints reveals how camera position alters visual narrative. High perspectives compress ground planes while ground-level viewpoints impart physical grandeur.",
-            "right": "Req 4b: Comparative Light Source: Contrasting natural ambient light with artificial flash highlights variations in color temperature and shadows. Photographers must analyze shadow hardness and color casts produced by different light sources."
+            "left": "Depth Contrast: Switching from wide to narrow apertures demonstrates background isolation versus environmental context.",
+            "right": "Framing Variation: Natural architectural doorways frame central focal subjects more dynamically than unbordered compositions."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 4 Exemplar Workbook Entry: Comparative",
+        "title": "Photography Req 4 Worked Example: Comparative Photographic Technical Demonstrations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Dual Perspective Subject": "Capturing one subject from differing viewpoints reveals how camera position alters visual narrative. High perspectives compress ground planes while ground-level viewpoints impart physical grandeur.",
-          "Req 4b - Comparative Light Source": "Contrasting natural ambient light with artificial flash highlights variations in color temperature and shadows. Photographers must analyze shadow hardness and color casts produced by different light sources.",
-          "Req 4c - Aperture and Depth Variation": "Photographing a subject with wide and narrow apertures demonstrates selective optical focus. A shallow depth isolates subjects, whereas deep focus renders surrounding environmental contexts sharp.",
-          "Req 4d - Comparative Image Composition": "Testing different compositional frameworks on a solitary subject illustrates visual design principles. Scouts compare balanced asymmetric framing against structured leading lines to evaluate impact."
+          "Phase 1 - Subject Selection": "Choose an accessible static subject positioned under consistent environmental ambient conditions.",
+          "Phase 2 - Baseline Capture": "Record an initial photograph using standard eye-level perspective and ambient lighting.",
+          "Phase 3 - Variable Adjustment": "Change one specific parameter such as camera height or available light source.",
+          "Phase 4 - Comparative Capture": "Shoot the second comparison image while keeping all secondary factors completely identical."
         },
-        "sample_output": "Comparative Single-Subject Photo Exercises: All-electronic automated cameras must have battery power (p. 31).",
-        "counselor_tip": "For Photography Requirement 4 (Comparative Single-Subject Photo Exercises), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37))."
+        "sample_output": "Deliberate comparative shooting demonstrates how single technical changes alter overall visual storytelling. Scouts contrast angles, illumination sources, depth of field, or framing on one subject.",
+        "counselor_tip": "During the Photography Requirement 4 conference on Comparative Photographic Technical Demonstrations, verify that the Scout can explain perspective shift and demonstrate comparative capture: Shoot the second comparison image while keeping all secondary factors completely identical."
       },
       "quiz_item": {
         "scenario_prompt": "When photographing a single subject to demonstrate two different depths of field for Requirement 4c, what comparison should your two photos clearly show?",
@@ -2246,7 +2242,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain ethical distances from wildlife and avoid stepping backward into active sports fields.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
       "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
       "syllabus_bucket": "In-Class Concept",
@@ -2320,17 +2316,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Individual Portrait Headshot",
+        "left_header": "Req 5a: Individual Portrait Headshot Photography",
         "right_header": "Req 5d: Wildlife and Domestic Animals",
         "left_points": [
           "(5a) Individual Portrait Headshot Photography: Close-up portraits require precise focus on the subject eyes and flattering soft illumination. Photographers utilize moderate telephoto focal lengths to avoid unflattering facial perspective distortion.",
-          "(5b) Multi Person Interactive Grouping: Photographing multiple interacting individuals requires tracking shared eye contact, conversation, and body language. The photographer positions the frame to capture reactive expressions without disrupting group dynamics.",
-          "(5c) Fast Action Sports Photography: Action photography captures peak athletic performance using high shutter speeds and burst modes. Anticipating movement paths enables the photographer to frame compositions before athletes enter."
+          "(5b) Multi Person Interactive Grouping: Photographing multiple interacting individuals requires tracking shared eye contact, conversation, and body language. The photographer positions the frame to capture reactive expressions without disrupting group dynamics."
         ],
         "right_points": [
           "(5d) Wildlife and Domestic Animals: Wildlife and domestic animal photography requires immense patience, low angles, and silent operations. Photographers focus on animal eyes while respecting natural habitats and ethical boundaries.",
-          "(5e) Scenic Nature Landscape Documentation: Nature photography captures grand landscapes, botanical structures, and natural weather phenomena. Utilizing sturdy tripods and narrow apertures maximizes depth of field across distant horizons.",
-          "(5f) Posed and Candid Portraiture: People photography ranges from formal posed portraits to unprompted candid everyday moments. Photographers decide whether subjects acknowledge the camera or remain engaged in private activities."
+          "(5e) Scenic Nature Landscape Documentation: Nature photography captures grand landscapes, botanical structures, and natural weather phenomena. Utilizing sturdy tripods and narrow apertures maximizes depth of field across distant horizons."
         ],
         "rows": [
           {
@@ -2345,22 +2339,22 @@
           },
           {
             "attribute": "Action Timing",
-            "left": "(5c) Fast Action Sports Photography: Action photography captures peak athletic performance using high shutter speeds and burst modes. Anticipating movement paths enables the photographer to frame compositions before athletes enter.",
-            "right": "(5f) Posed and Candid Portraiture: People photography ranges from formal posed portraits to unprompted candid everyday moments. Photographers decide whether subjects acknowledge the camera or remain engaged in private activities."
+            "left": "Action Timing: Set high shutter speeds and burst capture modes before athletic players sprint.",
+            "right": "Wildlife Patience: Use telephoto lenses to observe undisturbed animal behavior from safe field distances."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 5 Exemplar Workbook Entry: Portraits",
+        "title": "Photography Req 5 Worked Example: Diverse Photographic Subject Execution",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Individual Portrait Headshot": "Close-up portraits require precise focus on the subject eyes and flattering soft illumination. Photographers utilize moderate telephoto focal lengths to avoid unflattering facial perspective distortion.",
-          "Req 5b - Multi Person Interactive": "Photographing multiple interacting individuals requires tracking shared eye contact, conversation, and body language. The photographer positions the frame to capture reactive expressions without disrupting group dynamics.",
-          "Req 5c - Fast Action Sports": "Action photography captures peak athletic performance using high shutter speeds and burst modes. Anticipating movement paths enables the photographer to frame compositions before athletes enter.",
-          "Req 5d - Wildlife and Domestic Animals": "Wildlife and domestic animal photography requires immense patience, low angles, and silent operations. Photographers focus on animal eyes while respecting natural habitats and ethical boundaries."
+          "Phase 1 - Genre Planning": "Select three distinct subject categories based on available local photographic opportunities.",
+          "Phase 2 - Equipment Calibration": "Configure drive mode, shutter speed, and autofocus points for chosen subjects.",
+          "Phase 3 - Patient Observation": "Observe subject actions carefully to anticipate peak emotional or athletic moments.",
+          "Phase 4 - Frame Execution": "Capture multiple variations while checking focus sharpness on camera display screens."
         },
-        "sample_output": "Portraits, Action, and Nature Subjects: The camera lens controls the sharpness and the angle of view (p. 37).",
-        "counselor_tip": "For Photography Requirement 5 (Portraits, Action, and Nature Subjects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39))."
+        "sample_output": "Photographing diverse subject matter demands tailored camera configurations and distinct compositional strategies. Scouts learn to anticipate animal behavior, freeze athletic movement, and capture genuine human expressions.",
+        "counselor_tip": "During the Photography Requirement 5 conference on Diverse Photographic Subject Execution, verify that the Scout can explain portrait sharpness and demonstrate frame execution: Capture multiple variations while checking focus sharpness on camera display screens."
       },
       "quiz_item": {
         "scenario_prompt": "What is the key difference between a candid portrait and a camera-aware portrait in Requirement 5?",
@@ -2647,7 +2641,7 @@
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Take scheduled screen breaks every twenty minutes to prevent eye fatigue while editing.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)",
       "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)",
       "syllabus_bucket": "In-Class Concept",
@@ -2715,13 +2709,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Compositional Image Cropping",
+        "left_header": "Req 6a: Compositional Image Cropping Techniques",
         "right_header": "Req 6b: Tonal and Color Balance",
         "left_points": [
-          "(6a) Compositional Image Cropping Techniques: Cropping reframes an image to eliminate distracting background clutter and strengthen subject prominence. Scouts assess aspect ratios to ensure the cropped composition directs viewer attention effectively."
+          "(6a) Compositional Image Cropping Techniques: Cropping reframes an image to eliminate distracting background clutter and strengthen subject prominence. Scouts assess aspect ratios to ensure the cropped composition directs viewer attention effectively.",
+          "Edge Cropping: Trimming extraneous border elements directs viewer gaze straight toward central narrative action."
         ],
         "right_points": [
-          "(6b) Tonal and Color Balance: Exposure and color corrections calibrate highlights, midtones, shadows, and overall white balance accuracy. Adjusting these digital parameters ensures accurate skin tones and rich shadow detail."
+          "(6b) Tonal and Color Balance: Exposure and color corrections calibrate highlights, midtones, shadows, and overall white balance accuracy. Adjusting these digital parameters ensures accurate skin tones and rich shadow detail.",
+          "(6c) Visual Impact Enhancement Methods: Enhancing visual impact involves localized dodging, burning, sharpening, or converting images to monochrome. Subtle enhancements draw attention to textures and tonal contrasts without appearing artificial."
         ],
         "rows": [
           {
@@ -2731,26 +2727,27 @@
           },
           {
             "attribute": "Histogram Balance",
-            "left": "Req 6a: Compositional Image Cropping: Cropping reframes an image to eliminate distracting background clutter and strengthen subject prominence. Scouts assess aspect ratios to ensure the cropped composition directs viewer attention effectively.",
-            "right": "Req 6b: Tonal and Color Balance: Exposure and color corrections calibrate highlights, midtones, shadows, and overall white balance accuracy. Adjusting these digital parameters ensures accurate skin tones and rich shadow detail."
+            "left": "Edge Cropping: Trimming extraneous border elements directs viewer gaze straight toward central narrative action.",
+            "right": "(6c) Visual Impact Enhancement Methods: Enhancing visual impact involves localized dodging, burning, sharpening, or converting images to monochrome. Subtle enhancements draw attention to textures and tonal contrasts without appearing artificial."
           },
           {
             "attribute": "Color Accuracy",
-            "left": "Req 6c: Visual Impact Enhancement: Enhancing visual impact involves localized dodging, burning, sharpening, or converting images to monochrome. Subtle enhancements draw attention to textures and tonal contrasts without appearing artificial.",
-            "right": "Histogram Balance: Adjust tonal sliders to prevent blown highlight peaks or crushed shadow blacks."
+            "left": "Color Accuracy: Neutralize unnatural yellow or blue tints using manual white balance eyedropper tools.",
+            "right": "Local Adjustments: Selective dodging brightens key focal points without overexposing broader background sky areas."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 6 Exemplar Workbook Entry",
+        "title": "Photography Req 6 Worked Example: Digital Image Editing and Enhancement",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Compositional Image Cropping": "Cropping reframes an image to eliminate distracting background clutter and strengthen subject prominence. Scouts assess aspect ratios to ensure the cropped composition directs viewer attention effectively.",
-          "Req 6b - Tonal and Color Balance": "Exposure and color corrections calibrate highlights, midtones, shadows, and overall white balance accuracy. Adjusting these digital parameters ensures accurate skin tones and rich shadow detail.",
-          "Req 6c - Visual Impact Enhancement": "Enhancing visual impact involves localized dodging, burning, sharpening, or converting images to monochrome. Subtle enhancements draw attention to textures and tonal contrasts without appearing artificial."
+          "Phase 1 - File Import": "Transfer original image files from memory cards to secure computer storage.",
+          "Phase 2 - Editing Selection": "Open a selected image inside non-destructive photo editing software application.",
+          "Phase 3 - Tonal Adjustment": "Modify crop boundaries or exposure sliders to enhance overall visual balance.",
+          "Phase 4 - Master Export": "Export the finished photograph as a new high-resolution JPEG image file."
         },
-        "sample_output": "Post-Processing and Digital Image Enhancement: There are also commercial programs available to help you adjust images (p. 43).",
-        "counselor_tip": "For Photography Requirement 6 (Post-Processing and Digital Image Enhancement), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45))."
+        "sample_output": "Digital editing software refines captured exposures through non-destructive adjustments of tone, crop, and color. Proper editing enhances the original photographic intent while maintaining natural image textures.",
+        "counselor_tip": "During the Photography Requirement 6 conference on Digital Image Editing and Enhancement, verify that the Scout can explain edge cropping and demonstrate master export: Export the finished photograph as a new high-resolution JPEG image file."
       },
       "quiz_item": {
         "scenario_prompt": "How does cropping a photograph in post-processing software improve its visual quality?",
@@ -3057,7 +3054,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear high-visibility clothing and maintain spatial boundaries when covering crowded public community events.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)",
       "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)",
       "syllabus_bucket": "In-Class Concept",
@@ -3128,10 +3125,12 @@
         "left_header": "Req 7a: Photo Story Preplanning Strategy",
         "right_header": "Req 7b: Counselor Plan Review Submission",
         "left_points": [
-          "(7a) Photo Story Preplanning Strategy: Planning a photo story involves developing a shot list containing establishing, medium, and close-up views. Scouts brainstorm necessary angles and key participants before attending the scheduled event."
+          "(7a) Photo Story Preplanning Strategy: Planning a photo story involves developing a shot list containing establishing, medium, and close-up views. Scouts brainstorm necessary angles and key participants before attending the scheduled event.",
+          "Shot Diversity: Combine establishing landscape shots, medium narrative frames, and close technical detail pictures."
         ],
         "right_points": [
-          "(7b) Counselor Plan Review Submission: Sharing project proposals with counselors ensures safety, feasibility, and strong visual storytelling structure. Counselors provide feedback on shot variety and ethical considerations before field work starts."
+          "(7b) Counselor Plan Review Submission: Sharing project proposals with counselors ensures safety, feasibility, and strong visual storytelling structure. Counselors provide feedback on shot variety and ethical considerations before field work starts.",
+          "(7c) Image Curation and Presentation: Curating eight to twelve images requires ruthless editing to eliminate redundant or weak compositions. Selected prints must flow logically to narrate the complete story arc clearly."
         ],
         "rows": [
           {
@@ -3141,26 +3140,27 @@
           },
           {
             "attribute": "Story Planning",
-            "left": "Req 7a: Photo Story Preplanning: Planning a photo story involves developing a shot list containing establishing, medium, and close-up views. Scouts brainstorm necessary angles and key participants before attending the scheduled event.",
-            "right": "Req 7b: Counselor Plan Review: Sharing project proposals with counselors ensures safety, feasibility, and strong visual storytelling structure. Counselors provide feedback on shot variety and ethical considerations before field work starts."
+            "left": "Shot Diversity: Combine establishing landscape shots, medium narrative frames, and close technical detail pictures.",
+            "right": "(7c) Image Curation and Presentation: Curating eight to twelve images requires ruthless editing to eliminate redundant or weak compositions. Selected prints must flow logically to narrate the complete story arc clearly."
           },
           {
             "attribute": "Counselor Approval",
-            "left": "Req 7c: Image Curation: Curating eight to twelve images requires ruthless editing to eliminate redundant or weak compositions. Selected prints must flow logically to narrate the complete story arc clearly.",
-            "right": "Story Planning: Outline key narrative moments on paper before beginning documentary event photography sessions."
+            "left": "Counselor Approval: Share preliminary shot plans with your merit badge counselor before capturing events.",
+            "right": "Exhibition Sequence: Arrange twelve edited photographs chronologically on poster board to convey clear storylines."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 7 Exemplar Workbook Entry: Planning",
+        "title": "Photography Req 7 Worked Example: Visual Narrative Story Production",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Photo Story Preplanning": "Planning a photo story involves developing a shot list containing establishing, medium, and close-up views. Scouts brainstorm necessary angles and key participants before attending the scheduled event.",
-          "Req 7b - Counselor Plan Review": "Sharing project proposals with counselors ensures safety, feasibility, and strong visual storytelling structure. Counselors provide feedback on shot variety and ethical considerations before field work starts.",
-          "Req 7c - Image Curation": "Curating eight to twelve images requires ruthless editing to eliminate redundant or weak compositions. Selected prints must flow logically to narrate the complete story arc clearly."
+          "Phase 1 - Narrative Conception": "Outline the central theme, key participants, and planned sequence of events.",
+          "Phase 2 - Shot Listing": "Draft a structured shot list covering establishing, medium, and detail perspectives.",
+          "Phase 3 - Counselor Review": "Present the completed shot plan to your counselor for constructive advance feedback.",
+          "Phase 4 - Exhibit Assembly": "Arrange eight to twelve edited prints into a sequenced physical or digital layout."
         },
-        "sample_output": "Planning and Sequencing Photo Stories: Reaction in photographs is generally found in facial expressions (p. 10).",
-        "counselor_tip": "For Photography Requirement 7 (Planning and Sequencing Photo Stories), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53))."
+        "sample_output": "A photographic story uses sequential images to document an event, activity, or cultural topic. Planning shot lists in advance ensures comprehensive coverage of beginning, middle, and end.",
+        "counselor_tip": "During the Photography Requirement 7 conference on Visual Narrative Story Production, verify that the Scout can explain shot diversity and demonstrate exhibit assembly: Arrange eight to twelve edited prints into a sequenced physical or digital layout."
       },
       "quiz_item": {
         "scenario_prompt": "Before you shoot your eight to twelve images for the Requirement 7 visual story, what step must you complete?",
@@ -3252,7 +3252,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Secure all studio lighting cables with heavy gaffer tape across working floor walkways.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 65, p. 66)",
       "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 65, p. 66)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -3320,47 +3320,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Rewarding Professional",
-        "right_header": "Req 8: Explore Specialized Photography",
+        "left_header": "Professional Photography Career Pathways: Core Principles",
+        "right_header": "Professional Photography Career Pathways: Field Execution",
         "left_points": [
-          "Rewarding Professional Photography Work: Whether you are photographing a presidential election or a class of kindergartners, photography can be fun and profitable (p. 65).",
-          "Diverse Photography Career Paths: Several careers are listed in this chapter, and there are many others (p. 65).",
-          "Specialized Scientific and Sports Fields: Many fields have photographers who work only in those particular areas, including sports, scientific, technical, educational, or research work (p. 65)."
+          "Commercial Studio: Advertising photographers produce product campaigns requiring advanced artificial strobe lighting expertise.",
+          "Photojournalism Field: Editorial photographers document fast-moving news events under strict non-manipulation ethical guidelines."
         ],
         "right_points": [
-          "Explore Specialized Photography Fields: Many fields have photographers who work only in those particular areas, including sports, scientific, technical, educational, or research work (p. 65).",
-          "Compare Commercial and Portrait Work: The most common types of professional photography are commercial, portrait, photojournalism, and specialized work such as taking medical (p. 65).",
-          "Consider Studio Versus Travel Locations: Some careers keep you indoors in one location, while others may take you around the globe (p. 65)."
+          "Forensic Documentation: Scientific and forensic photographers capture objective evidentiary details for criminal investigation records.",
+          "Educational Foundation: Formal degree programs provide structured training in studio lighting, composition, and marketing."
         ],
         "rows": [
           {
             "attribute": "Commercial Studio",
-            "left": "Rewarding Professional Photography Work: Whether you are photographing a presidential election or a class of kindergartners, photography can be fun and profitable (p. 65).",
-            "right": "Explore Specialized Photography Fields: Many fields have photographers who work only in those particular areas, including sports, scientific, technical, educational, or research work (p. 65)."
+            "left": "Commercial Studio: Advertising photographers produce product campaigns requiring advanced artificial strobe lighting expertise.",
+            "right": "Forensic Documentation: Scientific and forensic photographers capture objective evidentiary details for criminal investigation records."
           },
           {
             "attribute": "Photojournalism Field",
-            "left": "Diverse Photography Career Paths: Several careers are listed in this chapter, and there are many others (p. 65).",
-            "right": "Compare Commercial and Portrait Work: The most common types of professional photography are commercial, portrait, photojournalism, and specialized work such as taking medical (p. 65)."
+            "left": "Photojournalism Field: Editorial photographers document fast-moving news events under strict non-manipulation ethical guidelines.",
+            "right": "Educational Foundation: Formal degree programs provide structured training in studio lighting, composition, and marketing."
           },
           {
             "attribute": "Forensic Documentation",
-            "left": "Specialized Scientific and Sports Fields: Many fields have photographers who work only in those particular areas, including sports, scientific, technical, educational, or research work (p. 65).",
-            "right": "Consider Studio Versus Travel Locations: Some careers keep you indoors in one location, while others may take you around the globe (p. 65)."
+            "left": "Forensic Documentation: Scientific and forensic photographers capture objective evidentiary details for criminal investigation records.",
+            "right": "Educational Foundation: Formal degree programs provide structured training in studio lighting, composition, and marketing."
           }
         ]
       },
       "worked_example": {
-        "title": "Photography Req 8 Exemplar Workbook Entry: Professional",
+        "title": "Photography Req 8 Worked Example: Professional Photography Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Rewarding Professional Photography": "Whether you are photographing a presidential election or a class of kindergartners, photography can be fun and profitable (p. 65).",
-          "Diverse Photography Career Paths": "Several careers are listed in this chapter, and there are many others (p. 65).",
-          "Specialized Scientific and Sports": "Many fields have photographers who work only in those particular areas, including sports, scientific, technical, educational, or research work (p. 65).",
-          "Commercial, Portrait": "The most common types of professional photography are commercial, portrait, photojournalism, and specialized work such as taking medical (p. 65)."
+          "Phase 1 - Career Research": "Investigate commercial, scientific, and journalistic photography specializations through trade publications.",
+          "Phase 2 - Field Selection": "Select one specific photography career path that aligns with personal artistic interests.",
+          "Phase 3 - Credential Assessment": "Research formal degree programs, technical apprenticeships, and business certifications for chosen roles.",
+          "Phase 4 - Counselor Presentation": "Explain preparation steps, educational requirements, and personal motivations to your merit counselor."
         },
-        "sample_output": "Professional Photography Careers and Training: Whether you are photographing a presidential election or a class of kindergartners, photography can be fun and profitable (p. 65).",
-        "counselor_tip": "For Photography Requirement 8 (Professional Photography Careers and Training), verify the Scout's own observations and specific pamphlet details (Official Scouting America Photography Merit Badge Pamphlet (p. 65, p. 66))."
+        "sample_output": "Photography careers encompass diverse industries including commercial advertising, photojournalism, scientific documentation, and fine arts. Successful practitioners combine visual artistry with business management, client relations, and digital workflows.",
+        "counselor_tip": "During the Photography Requirement 8 conference on Professional Photography Career Pathways, verify that the Scout can explain commercial studio and demonstrate counselor presentation: Explain preparation steps, educational requirements, and personal motivations to your merit counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Which of the following is an example of a specialized technical or scientific photography career mentioned in the merit badge pamphlet?",

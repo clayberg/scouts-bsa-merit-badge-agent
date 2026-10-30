@@ -390,13 +390,15 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Vessel Hazard Mitigation",
+        "left_header": "Req 1a: Vessel Hazard Mitigation Principles",
         "right_header": "Req 1b: Boating First Aid Management",
         "left_points": [
-          "(1a) Vessel Hazard Mitigation Principles: Motorboat hazards include volatile fuel vapors, toxic exhaust fumes, propeller strikes, collisions, falls overboard, capsizing, and groundings. Operators must recognize how hull speed, passenger positioning, and blind spots multiply these dynamic water hazards."
+          "(1a) Vessel Hazard Mitigation Principles: Motorboat hazards include volatile fuel vapors, toxic exhaust fumes, propeller strikes, collisions, falls overboard, capsizing, and groundings. Operators must recognize how hull speed, passenger positioning, and blind spots multiply these dynamic water hazards.",
+          "Fuel Vapor Risk: Gasoline vapors sink rapidly into lowest bilge compartments creating severe explosion hazards."
         ],
         "right_points": [
-          "(1b) Boating First Aid Management: First aid on water requires rapid management of hypothermia, heat exhaustion, dehydration, seasickness, insect bites, and friction blisters. Treating environmental exposure promptly prevents impaired crew coordination and shock."
+          "(1b) Boating First Aid Management: First aid on water requires rapid management of hypothermia, heat exhaustion, dehydration, seasickness, insect bites, and friction blisters. Treating environmental exposure promptly prevents impaired crew coordination and shock.",
+          "(1c) Safety Afloat Policy Application: Scouting America Safety Afloat mandates qualified supervision, physical fitness, swimming ability, life jacket use, and buddy systems on motorboats. Disciplined planning and strict operational discipline protect scouts during high power marine excursions."
         ],
         "rows": [
           {
@@ -406,26 +408,27 @@
           },
           {
             "attribute": "Carbon Monoxide Danger",
-            "left": "Req 1a: Vessel Hazard Mitigation: Motorboat hazards include volatile fuel vapors, toxic exhaust fumes, propeller strikes, collisions, falls overboard, capsizing, and groundings. Operators must recognize how hull speed, passenger positioning, and blind spots multiply these dynamic water hazards.",
-            "right": "Req 1b: Boating First Aid Management: First aid on water requires rapid management of hypothermia, heat exhaustion, dehydration, seasickness, insect bites, and friction blisters. Treating environmental exposure promptly prevents impaired crew coordination and shock."
+            "left": "Fuel Vapor Risk: Gasoline vapors sink rapidly into lowest bilge compartments creating severe explosion hazards.",
+            "right": "(1c) Safety Afloat Policy Application: Scouting America Safety Afloat mandates qualified supervision, physical fitness, swimming ability, life jacket use, and buddy systems on motorboats. Disciplined planning and strict operational discipline protect scouts during high power marine excursions."
           },
           {
             "attribute": "Propeller Safety Arc",
-            "left": "Req 1c: Safety Afloat Policy: Scouting America Safety Afloat mandates qualified supervision, physical fitness, swimming ability, life jacket use, and buddy systems on motorboats. Disciplined planning and strict operational discipline protect scouts during high power marine excursions.",
-            "right": "Carbon Monoxide Danger: Slow idling speeds cause odorless exhaust gas accumulations inside enclosed stern areas."
+            "left": "Propeller Safety Arc: Rotating blades inflict severe trauma before vessel operators can shift into neutral.",
+            "right": "Capsizing Prevention Rule: Evenly distributed gear and seated passengers prevent sudden hull rolls in chop."
           }
         ]
       },
       "worked_example": {
-        "title": "Motorboating Req 1 Exemplar Workbook Entry: Boating",
+        "title": "Motorboating Req 1 Worked Example: Marine Hazard Risk Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Vessel Hazard Mitigation": "Motorboat hazards include volatile fuel vapors, toxic exhaust fumes, propeller strikes, collisions, falls overboard, capsizing, and groundings. Operators must recognize how hull speed, passenger positioning, and blind spots multiply these dynamic water hazards.",
-          "Req 1b - Boating First Aid Management": "First aid on water requires rapid management of hypothermia, heat exhaustion, dehydration, seasickness, insect bites, and friction blisters. Treating environmental exposure promptly prevents impaired crew coordination and shock.",
-          "Req 1c - Safety Afloat Policy": "Scouting America Safety Afloat mandates qualified supervision, physical fitness, swimming ability, life jacket use, and buddy systems on motorboats. Disciplined planning and strict operational discipline protect scouts during high power marine excursions."
+          "Phase 1 - Sniff Test": "Open engine compartment hatches and inspect bilge areas for lingering petroleum vapors.",
+          "Phase 2 - Lanyard Check": "Connect the engine cut off safety lanyard directly to your life jacket.",
+          "Phase 3 - Lookout Post": "Assign dedicated crew members to scan water sectors for hazards and swimmers.",
+          "Phase 4 - Speed Control": "Reduce throttle smoothly when navigating shallow shoals, crossing wakes, or approaching docks."
         },
-        "sample_output": "Boating Hazards and Water First Aid: Discipline All participants should know, understand, and respect the rules and procedures for safe activity afloat (p. 10).",
-        "counselor_tip": "For Motorboating Requirement 1 (Boating Hazards and Water First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14))."
+        "sample_output": "Motorboat operators must actively mitigate volatile petroleum fumes, toxic exhaust gases, spinning propeller strikes, and sudden hull displacement. Preventing swampings and collisions requires maintaining a continuous lookout while keeping heavy loads centered low in the craft.",
+        "counselor_tip": "During the Motorboating Requirement 1 conference on Marine Hazard Risk Management, verify that the Scout can explain fuel vapor risk and demonstrate speed control: Reduce throttle smoothly when navigating shallow shoals, crossing wakes, or approaching docks."
       },
       "quiz_item": {
         "scenario_prompt": "Before starting an inboard gasoline-powered motorboat after fueling, and before shifting into gear with passengers aboard, what safety steps are required?",
@@ -746,40 +749,44 @@
       ],
       "comparison_data": {
         "left_header": "Req 2a: Aquatic Swimmer Qualification",
-        "right_header": "Req 2b: Personal Flotation Device",
+        "right_header": "Req 2b: Personal Flotation Device Selection",
         "left_points": [
-          "(2a) Aquatic Swimmer Qualification Standard: The official swimmer test evaluates endurance through seventy five yards of strong forward strokes, twenty five yards of resting backstroke, and a motionless float. Demonstrating deep water competence ensures scouts stay calm if cast into open water."
+          "(2a) Aquatic Swimmer Qualification: The official swimmer test evaluates endurance through seventy five yards of strong forward strokes, twenty five yards of resting backstroke, and a motionless float. Demonstrating deep water competence ensures scouts stay calm if cast into open water.",
+          "Swimmer Skill Benchmark: Strong swimming skills provide essential confidence during accidental water entries from moving vessels."
         ],
         "right_points": [
-          "(2b) Personal Flotation Device Selection: Personal flotation devices vary across offshore, near shore, flotation aid, throwable, and special use categories. Boaters must evaluate buoyancy ratings, inspect structural seams, and adjust side straps to guarantee reliable torso security."
+          "(2b) Personal Flotation Device Selection: Personal flotation devices vary across offshore, near shore, flotation aid, throwable, and special use categories. Boaters must evaluate buoyancy ratings, inspect structural seams, and adjust side straps to guarantee reliable torso security.",
+          "Inflatable Device Restriction: Inflatable life jackets require adult maintenance and remain unsuitable for active youth."
         ],
         "rows": [
           {
             "attribute": "Swimmer Skill Benchmark",
-            "left": "(2a) Aquatic Swimmer Qualification Standard: The official swimmer test evaluates endurance through seventy five yards of strong forward strokes, twenty five yards of resting backstroke, and a motionless float. Demonstrating deep water competence ensures scouts stay calm if cast into open water.",
+            "left": "(2a) Aquatic Swimmer Qualification: The official swimmer test evaluates endurance through seventy five yards of strong forward strokes, twenty five yards of resting backstroke, and a motionless float. Demonstrating deep water competence ensures scouts stay calm if cast into open water.",
             "right": "(2b) Personal Flotation Device Selection: Personal flotation devices vary across offshore, near shore, flotation aid, throwable, and special use categories. Boaters must evaluate buoyancy ratings, inspect structural seams, and adjust side straps to guarantee reliable torso security."
           },
           {
             "attribute": "Offshore Vest Buoyancy",
-            "left": "Req 2a: Aquatic Swimmer: The official swimmer test evaluates endurance through seventy five yards of strong forward strokes, twenty five yards of resting backstroke, and a motionless float. Demonstrating deep water competence ensures scouts stay calm if cast into open water.",
-            "right": "Req 2b: Personal Flotation Device: Personal flotation devices vary across offshore, near shore, flotation aid, throwable, and special use categories. Boaters must evaluate buoyancy ratings, inspect structural seams, and adjust side straps to guarantee reliable torso security."
+            "left": "Swimmer Skill Benchmark: Strong swimming skills provide essential confidence during accidental water entries from moving vessels.",
+            "right": "Inflatable Device Restriction: Inflatable life jackets require adult maintenance and remain unsuitable for active youth."
           },
           {
             "attribute": "Inflatable Device Restriction",
-            "left": "Swimmer Skill Benchmark: Strong swimming skills provide essential confidence during accidental water entries from moving vessels.",
-            "right": "Offshore Vest Buoyancy: Type one vests provide maximum flotation and turn unconscious swimmers face up."
+            "left": "Inflatable Device Restriction: Inflatable life jackets require adult maintenance and remain unsuitable for active youth.",
+            "right": "Chest Strap Alignment: Properly adjusted webbing straps keep the flotation foam securely below the chin."
           }
         ]
       },
       "worked_example": {
-        "title": "Motorboating Req 2 Exemplar Workbook Entry: Swimmer Test",
+        "title": "Motorboating Req 2 Worked Example: Water Competency Life Jackets",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Aquatic Swimmer Qualification": "The official swimmer test evaluates endurance through seventy five yards of strong forward strokes, twenty five yards of resting backstroke, and a motionless float. Demonstrating deep water competence ensures scouts stay calm if cast into open water.",
-          "Req 2b - Personal Flotation Device": "Personal flotation devices vary across offshore, near shore, flotation aid, throwable, and special use categories. Boaters must evaluate buoyancy ratings, inspect structural seams, and adjust side straps to guarantee reliable torso security."
+          "Phase 1 - Test Completion": "Execute the four lap swim test and surface float in deep water.",
+          "Phase 2 - Label Inspection": "Read the printed Coast Guard approval block for approved size and weight.",
+          "Phase 3 - Buckle Fastening": "Snap every closure buckle starting at the waist and working upward smoothly.",
+          "Phase 4 - Fit Test": "Pull shoulder straps upward firmly to ensure foam cannot pass the ears."
         },
-        "sample_output": "Swimmer Test and Personal Flotation Devices: The device gives alot of flotation in the chest, shoulders, and upper back areas (p. 11).",
-        "counselor_tip": "For Motorboating Requirement 2 (Swimmer Test and Personal Flotation Devices), verify the Scout's own observations and specific pamphlet details (Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19))."
+        "sample_output": "Passing the swimmer test ensures scouts possess the aquatic stamina required during sudden capsize or overboard situations. Selecting an approved life jacket demands matching the device type to operating conditions and adjusting every strap for snug flotation.",
+        "counselor_tip": "During the Motorboating Requirement 2 conference on Water Competency Life Jackets, verify that the Scout can explain swimmer skill benchmark and demonstrate fit test: Pull shoulder straps upward firmly to ensure foam cannot pass the ears."
       },
       "quiz_item": {
         "scenario_prompt": "Which Personal Flotation Device (PFD) provides the greatest buoyancy and is designed to turn most unconscious wearers faceup in rough, open water?",
@@ -1255,8 +1262,8 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Marine Engine Drive",
-        "right_header": "Req 3c: Motor Winterization Maintenance",
+        "left_header": "Req 3a: Marine Engine Drive Configurations",
+        "right_header": "Req 3c: Motor Winterization Maintenance Procedure",
         "left_points": [
           "(3a) Marine Engine Drive Configurations: Marine propulsion includes exterior outboard packages, inboard engines with separate rudder assemblies, and inboard outboard stern drive combinations. Drivers choose specific configurations based on draft requirements, maintenance accessibility, and steering performance.",
           "(3b) Fuel Handling Equipment Placement: Handling marine fuel demands closing hatches, grounding nozzles, ventilating spaces, and checking fuel lines for leaks. Proper equipment placement balances the center of gravity while keeping emergency gear accessible."
@@ -1278,22 +1285,22 @@
           },
           {
             "attribute": "Antifreeze Cooling Protection",
-            "left": "Req 3a: Marine Engine Drive: Marine propulsion includes exterior outboard packages, inboard engines with separate rudder assemblies, and inboard outboard stern drive combinations. Drivers choose specific configurations based on draft requirements, maintenance accessibility, and steering performance.",
-            "right": "Req 3b: Fuel Handling Equipment: Handling marine fuel demands closing hatches, grounding nozzles, ventilating spaces, and checking fuel lines for leaks. Proper equipment placement balances the center of gravity while keeping emergency gear accessible."
+            "left": "Antifreeze Cooling Protection: Marine non toxic antifreeze prevents engine block cracks caused by freezing expansion.",
+            "right": "Propeller Hazard Perimeter: Skiers approaching the swim platform require complete motor shutdown rather than neutral."
           }
         ]
       },
       "worked_example": {
-        "title": "Motorboating Req 3 Exemplar Workbook Entry: Boat Motors",
+        "title": "Motorboating Req 3 Worked Example: Propulsion Mechanics Operational Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Marine Engine Drive": "Marine propulsion includes exterior outboard packages, inboard engines with separate rudder assemblies, and inboard outboard stern drive combinations. Drivers choose specific configurations based on draft requirements, maintenance accessibility, and steering performance.",
-          "Req 3b - Fuel Handling Equipment": "Handling marine fuel demands closing hatches, grounding nozzles, ventilating spaces, and checking fuel lines for leaks. Proper equipment placement balances the center of gravity while keeping emergency gear accessible.",
-          "Req 3c - Motor Winterization": "Winterizing marine engines involves stabilizing fuel, draining internal raw water passages, flushing with non toxic marine antifreeze, and fogging cylinders. This careful process protects mechanical components against freeze cracking and internal corrosion.",
-          "Req 3d - Swimmer Wake Safety Protocols": "Operating near swimmers requires wide clearance arcs, designated lookouts, and shutting down motors before boarding swimmers. Helmsperson wake awareness protects nearby paddlers, minimizes shoreline erosion, and keeps onboard passengers seated safely."
+          "Phase 1 - Blower Operation": "Run bilge blowers for four full minutes before turning the ignition key.",
+          "Phase 2 - Grounded Fill": "Keep the metal fuel nozzle in constant contact with the tank fill.",
+          "Phase 3 - Gear Stowage": "Distribute heavy gear low along the centerline to preserve hull stability balance.",
+          "Phase 4 - Neutral Verification": "Ensure the shift lever rests in positive detent neutral before engine ignition."
         },
-        "sample_output": "Boat Motors, Maintenance, and Passenger Safety: Care of Boat, Motor, and Equipment The Motor Today's boat motors, inboard and outboard, should be serviced and repaired by professionals (p. 53).",
-        "counselor_tip": "For Motorboating Requirement 3 (Boat Motors, Maintenance, and Passenger Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70))."
+        "sample_output": "Marine propulsion systems divide into self contained outboards, hull mounted inboards, and versatile stern drives with distinct steering dynamics. Safe operations demand rigorous fueling precautions, secure gear stowage, winterization protocols, and total engine shutdown around swimmers.",
+        "counselor_tip": "During the Motorboating Requirement 3 conference on Propulsion Mechanics Operational Safety, verify that the Scout can explain outboard engine architecture and demonstrate neutral verification: Ensure the shift lever rests in positive detent neutral before engine ignition."
       },
       "quiz_item": {
         "scenario_prompt": "Why is it necessary to winterize a water-cooled boat motor before storing it in freezing temperatures?",
@@ -2085,16 +2092,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 4a: Safety Afloat Operational Review",
-        "right_header": "Req 4e: Mandatory Vessel Equipment",
+        "right_header": "Req 4e: Mandatory Vessel Equipment Inventory",
         "left_points": [
           "(4a) Safety Afloat Operational Review: Scouting America Safety Afloat establishes strict standards for qualified leadership, physical health, life jackets, and weather monitoring. Leaders continuously assess water conditions to abort outings before hazardous fronts arrive.",
-          "(4b) Recreational Boating Regulations Mandates: Recreational boating regulations enforce speed zones, age limits, boater education credentials, and operational rules on public waters. Operators must carry required certificates and heed restricted wake zone markers.",
-          "(4c) Marine Weather Condition Hazards: Thunderstorms, squalls, fog, and heavy chop rapidly reduce hull stability, visibility, and helm response. Skiers and drivers must read cloud formations and seek sheltered harbors before gale fronts strike."
+          "(4b) Recreational Boating Regulations Mandates: Recreational boating regulations enforce speed zones, age limits, boater education credentials, and operational rules on public waters. Operators must carry required certificates and heed restricted wake zone markers."
         ],
         "right_points": [
           "(4e) Mandatory Vessel Equipment Inventory: Federal and state statutes mandate carriage of approved fire extinguishers, signaling devices, sound producers, and throwable cushions. Crew members must know the exact location and rapid deployment of every item.",
-          "(4f) Bilge Ventilation Regulatory Systems: Vessels with enclosed engine spaces require cowls, ducts, and mechanical exhaust blowers to eliminate heavy gasoline fumes. These regulations eliminate explosive concentrations that ignite from starter motor electrical arcs.",
-          "(4g) Vessel Lights Sound Signals: Navigation lights reveal a vessel heading, aspect, and right of way status from sunset to sunrise. Sound blasts communicate crossing, meeting, overtaking, and restricted visibility intentions under standard navigation rules."
+          "(4f) Bilge Ventilation Regulatory Systems: Vessels with enclosed engine spaces require cowls, ducts, and mechanical exhaust blowers to eliminate heavy gasoline fumes. These regulations eliminate explosive concentrations that ignite from starter motor electrical arcs."
         ],
         "rows": [
           {
@@ -2109,22 +2114,22 @@
           },
           {
             "attribute": "Anchor Scope Ratio",
-            "left": "(4c) Marine Weather Condition Hazards: Thunderstorms, squalls, fog, and heavy chop rapidly reduce hull stability, visibility, and helm response. Skiers and drivers must read cloud formations and seek sheltered harbors before gale fronts strike.",
-            "right": "(4g) Vessel Lights Sound Signals: Navigation lights reveal a vessel heading, aspect, and right of way status from sunset to sunrise. Sound blasts communicate crossing, meeting, overtaking, and restricted visibility intentions under standard navigation rules."
+            "left": "Anchor Scope Ratio: Danforth anchors require five to one scope ratios for dependable bottom holding.",
+            "right": "Weather Barometer Trend: Rapidly falling atmospheric barometric pressures indicate approaching squall lines and chop."
           }
         ]
       },
       "worked_example": {
-        "title": "Motorboating Req 4 Exemplar Workbook Entry: Boating",
+        "title": "Motorboating Req 4 Worked Example: Navigation Regulations Safety Guidelines",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Safety Afloat Operational": "Scouting America Safety Afloat establishes strict standards for qualified leadership, physical health, life jackets, and weather monitoring. Leaders continuously assess water conditions to abort outings before hazardous fronts arrive.",
-          "Req 4b - Recreational Boating": "Recreational boating regulations enforce speed zones, age limits, boater education credentials, and operational rules on public waters. Operators must carry required certificates and heed restricted wake zone markers.",
-          "Req 4c - Marine Weather Condition": "Thunderstorms, squalls, fog, and heavy chop rapidly reduce hull stability, visibility, and helm response. Skiers and drivers must read cloud formations and seek sheltered harbors before gale fronts strike.",
-          "Req 4d - Safety Afloat Pledge": "The Safety Afloat pledge commits participants to strict adherence to leadership, swimming skill, life vest, discipline, and equipment standards. Understanding each tenet ensures personal accountability for every crew member afloat."
+          "Phase 1 - Gear Inspection": "Check fire extinguishers, wearable life jackets, throwables, and whistles against requirements.",
+          "Phase 2 - Weather Assessment": "Review marine weather forecasts, radar displays, and local barometric trends before departure.",
+          "Phase 3 - Blower Activation": "Operate the powered bilge exhaust blower system for four continuous minutes.",
+          "Phase 4 - Bow Anchoring": "Lower the anchor smoothly over the bow while paying out proper scope."
         },
-        "sample_output": "Boating Regulations, Signals, and Anchoring: Buddy System All activity afloat must follow Whenever you go boating, make sure you have a buddy (p. 8).",
-        "counselor_tip": "For Motorboating Requirement 4 (Boating Regulations, Signals, and Anchoring), verify the Scout's own observations and specific pamphlet details (Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12))."
+        "sample_output": "Federal and state maritime regulations establish mandatory safety equipment, ventilation blowers, navigation lighting, and sound signals. Safe navigation requires continuous weather monitoring, compliance with local licensing mandates, and correct anchoring techniques.",
+        "counselor_tip": "During the Motorboating Requirement 4 conference on Navigation Regulations Safety Guidelines, verify that the Scout can explain blower ventilation rule and demonstrate bow anchoring: Lower the anchor smoothly over the bow while paying out proper scope."
       },
       "quiz_item": {
         "scenario_prompt": "Under Scouting America Safety Afloat guidelines, how does the buddy system apply when taking a motorboat out on the water?",
@@ -2919,13 +2924,11 @@
         "right_header": "Req 5e: Open Water Anchoring Recovery",
         "left_points": [
           "(5a) Safe Boarding Lifejacket Check: Safe boarding requires stepping directly onto cockpit soles while keeping three points of contact. Operators verify that every passenger wears a fastened, properly adjusted life jacket before departure.",
-          "(5b) Fueling Safety Pretrip Check: Fueling procedures require passenger evacuation, closing all ports, maintaining nozzle contact, and sniffing bilges. Conducting a pre-departure check verifies fuel reserves, fluid levels, steering links, and safety equipment.",
-          "(5c) Engine Startup Departure Execution: Starting engines involves securing the safety switch lanyard, shifting to neutral, operating blowers, and turning ignitions. Leaving docks requires releasing lines in sequence and checking drift before applying forward throttle."
+          "(5b) Fueling Safety Pretrip Check: Fueling procedures require passenger evacuation, closing all ports, maintaining nozzle contact, and sniffing bilges. Conducting a pre-departure check verifies fuel reserves, fluid levels, steering links, and safety equipment."
         ],
         "right_points": [
           "(5e) Open Water Anchoring Recovery: Anchoring in open water requires coming into the wind, lowering the ground tackle over the bow, and setting the hook with reverse power. Weighing anchor involves motoring forward slowly over the rode before hoisting and stowing.",
-          "(5f) Docking Landing Disembarking Technique: Landing requires approaching slips at low idle speed while compensating for wind drift and current. Crew members step onto docks with mooring lines only after the vessel halts alongside.",
-          "(5g) Vessel Mooring Gear Stowage: Mooring requires securing bow, stern, and spring lines to docks or pilings with adequate slack for tides. Stowing gear neatly into compartments prevents equipment loss and eliminates cockpit trip hazards."
+          "(5f) Docking Landing Disembarking Technique: Landing requires approaching slips at low idle speed while compensating for wind drift and current. Crew members step onto docks with mooring lines only after the vessel halts alongside."
         ],
         "rows": [
           {
@@ -2939,23 +2942,23 @@
             "right": "(5f) Docking Landing Disembarking Technique: Landing requires approaching slips at low idle speed while compensating for wind drift and current. Crew members step onto docks with mooring lines only after the vessel halts alongside."
           },
           {
-            "attribute": "Head On Meeting Rule",
-            "left": "(5c) Engine Startup Departure Execution: Starting engines involves securing the safety switch lanyard, shifting to neutral, operating blowers, and turning ignitions. Leaving docks requires releasing lines in sequence and checking drift before applying forward throttle.",
-            "right": "(5g) Vessel Mooring Gear Stowage: Mooring requires securing bow, stern, and spring lines to docks or pilings with adequate slack for tides. Stowing gear neatly into compartments prevents equipment loss and eliminates cockpit trip hazards."
+            "attribute": "Head on Meeting Rule",
+            "left": "Head on Meeting Rule: Meeting vessels alter course starboard to pass safely port to port.",
+            "right": "Cleat Hitch Lock: Angled figure eights over horn cleats securely snub working mooring lines."
           }
         ]
       },
       "worked_example": {
-        "title": "Motorboating Req 5 Exemplar Workbook Entry: On-Water",
+        "title": "Motorboating Req 5 Worked Example: Boat Handling Practical Skills",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Safe Boarding Lifejacket": "Safe boarding requires stepping directly onto cockpit soles while keeping three points of contact. Operators verify that every passenger wears a fastened, properly adjusted life jacket before departure.",
-          "Req 5b - Fueling Safety Pretrip Check": "Fueling procedures require passenger evacuation, closing all ports, maintaining nozzle contact, and sniffing bilges. Conducting a pre-departure check verifies fuel reserves, fluid levels, steering links, and safety equipment.",
-          "Req 5c - Engine Startup Departure": "Starting engines involves securing the safety switch lanyard, shifting to neutral, operating blowers, and turning ignitions. Leaving docks requires releasing lines in sequence and checking drift before applying forward throttle.",
-          "Req 5d - Course Navigation Maneuvering": "Running a navigation course demonstrates compliance with maritime crossing, meeting, and overtaking rules of the road. Skiers and operators execute controlled turns, maintain wake awareness, and yield appropriately to unpowered craft."
+          "Phase 1 - Boarding Sequence": "Step into the vessel centerline while keeping your balance low and centered.",
+          "Phase 2 - Lanyard Fastening": "Attach the emergency cut off safety lanyard clip to your life jacket.",
+          "Phase 3 - Throttle Maneuver": "Shift into forward gear smoothly to steer clear of the dock face.",
+          "Phase 4 - Cleat Tie": "Secure the mooring line to the dock cleat using a proper hitch."
         },
-        "sample_output": "On-Water Boat Handling and Seamanship: If your boat goes afloat, the same the principles of the buddy rule applies, go with a buddy boat. system (p. 12).",
-        "counselor_tip": "For Motorboating Requirement 5 (On-Water Boat Handling and Seamanship), verify the Scout's own observations and specific pamphlet details (Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53))."
+        "sample_output": "Helmsmanship requires controlled departures, steady throttle adjustments, proper right of way maneuvers, and disciplined anchoring. Mastering marine knots, docking approaches, and emergency cut off procedures ensures safe vessel command on open waters.",
+        "counselor_tip": "During the Motorboating Requirement 5 conference on Boat Handling Practical Skills, verify that the Scout can explain boarding center line and demonstrate cleat tie: Secure the mooring line to the dock cleat using a proper hitch."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary purpose of attaching the engine cut-off switch lanyard to the operator before getting underway?",

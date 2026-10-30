@@ -102,53 +102,50 @@
         "Step 4 - Physical First Aid: Administer water and apply cold packs to soothe acute golfer heat cramps."
       ],
       "gear_checklist": [
-        "Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 1.",
         "Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.",
         "Golf balls, tees, ball marker, divot repair tool, and scorecard.",
         "Practice range log and grip/stance notes for Golf Course Safety and First Aid."
       ],
       "comparison_data": {
-        "left_header": "Req 1: Licking Golf Balls",
-        "right_header": "Req 1: Identify Turf Contaminants",
+        "left_header": "Course Safety and First Aid: Core Principles",
+        "right_header": "Course Safety and First Aid: Field Execution",
         "left_points": [
-          "Licking Golf Balls: You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).",
-          "Course Chemical Residue: Toxic substances on the courses may cling to the ball and tee (p. 53).",
-          "Common Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53)."
+          "Lightning Evacuation Protocol: Sirens mandate instant clearing of fairways to reach designated grounded lightning storm shelters.",
+          "Heat Exhaustion Response: Move overheated players into shaded areas while loosening garments and providing cool water."
         ],
         "right_points": [
-          "Identify Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53).",
-          "Avoid Mouth Contact: Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53).",
-          "Use Damp Towel: It is best to always carry a towel in your golf bag and dampen it to wipe your ball clean (p. 53)."
+          "Blister Prevention Strategy: Friction on walking heels requires prompt application of adhesive moleskin patches before irritation.",
+          "Severe Weather Stance: Avoid isolated tall trees and metal flagsticks during rapid thunderstorm development on fairways."
         ],
         "rows": [
           {
             "attribute": "Lightning Evacuation Protocol",
-            "left": "Licking Golf Balls: You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).",
-            "right": "Identify Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53)."
+            "left": "Lightning Evacuation Protocol: Sirens mandate instant clearing of fairways to reach designated grounded lightning storm shelters.",
+            "right": "Blister Prevention Strategy: Friction on walking heels requires prompt application of adhesive moleskin patches before irritation."
           },
           {
             "attribute": "Heat Exhaustion Response",
-            "left": "Course Chemical Residue: Toxic substances on the courses may cling to the ball and tee (p. 53).",
-            "right": "Avoid Mouth Contact: Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53)."
+            "left": "Heat Exhaustion Response: Move overheated players into shaded areas while loosening garments and providing cool water.",
+            "right": "Severe Weather Stance: Avoid isolated tall trees and metal flagsticks during rapid thunderstorm development on fairways."
           },
           {
             "attribute": "Blister Prevention Strategy",
-            "left": "Common Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53).",
-            "right": "Use Damp Towel: It is best to always carry a towel in your golf bag and dampen it to wipe your ball clean (p. 53)."
+            "left": "Blister Prevention Strategy: Friction on walking heels requires prompt application of adhesive moleskin patches before irritation.",
+            "right": "Severe Weather Stance: Avoid isolated tall trees and metal flagsticks during rapid thunderstorm development on fairways."
           }
         ]
       },
       "worked_example": {
-        "title": "Golf Req 1 Exemplar Workbook Entry: Golf Course Safety",
+        "title": "Golf Req 1 Worked Example: Course Safety and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Licking Golf Balls": "You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).",
-          "Course Chemical Residue": "Toxic substances on the courses may cling to the ball and tee (p. 53).",
-          "Common Turf Contaminants": "These include fertilizers, pesticides, weed killers, and animal excrement (p. 53).",
-          "Hepatitis Infection Risk": "Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53)."
+          "Phase 1 - Sound Assessment": "Check local course weather sirens and scan horizon clouds before teeing off.",
+          "Phase 2 - Shelter Relocation": "Evacuate exposed hilltops immediately and enter fully enclosed clubhouses or maintenance sheds.",
+          "Phase 3 - Equipment Grounding": "Drop metal clubs and golf bags far away from your direct location.",
+          "Phase 4 - Physical First Aid": "Administer water and apply cold packs to soothe acute golfer heat cramps."
         },
-        "sample_output": "Golf Course Safety and First Aid: You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).",
-        "counselor_tip": "For Golf Requirement 1 (Golf Course Safety and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55))."
+        "sample_output": "Golfers must immediately clear open fairways and seek grounded lightning shelters upon hearing severe weather detection sirens. Treatment for heat illness or ankle sprains requires immediate shade, hydration, and elevation before resuming play.",
+        "counselor_tip": "During the Golf Requirement 1 conference on Course Safety and First Aid, verify that the Scout can explain lightning evacuation protocol and demonstrate physical first aid: Administer water and apply cold packs to soothe acute golfer heat cramps."
       },
       "quiz_item": {
         "scenario_prompt": "Your patrol is on the 6th fairway when dark thunderclouds build and you hear thunder 20 seconds after seeing a lightning flash. What must your group do immediately?",
@@ -4117,7 +4114,7 @@
       "action_verb": "Complete",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never swing a club or throw a disc until all players and course workers stand safely clear ahead.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
       "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -4191,7 +4188,6 @@
         "Step 4 - Scorecard Tracking: Record individual gross strokes and penalty infractions accurately across every completed hole."
       ],
       "gear_checklist": [
-        "Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 2.",
         "Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.",
         "Golf balls, tees, ball marker, divot repair tool, and scorecard.",
         "Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals."
@@ -4200,10 +4196,12 @@
         "left_header": "Req 2a: Traditional Golf Rules Framework",
         "right_header": "Req 2b: Disc Golf Courtesy Standards",
         "left_points": [
-          "(2a) Traditional Golf Rules Framework: The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks."
+          "(2a) Traditional Golf Rules Framework: The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks.",
+          "Governance Authority Alignment: Official competition standards derive from either the USGA rulebook or PDGA regulations."
         ],
         "right_points": [
-          "(2b) Disc Golf Courtesy Standards: The PDGA Official Rules outline courtesy guidelines including distraction avoidance, prompt throwing times, and target clearing. Players must keep public park walkways clear and avoid throwing when park visitors walk within range."
+          "(2b) Disc Golf Courtesy Standards: The PDGA Official Rules outline courtesy guidelines including distraction avoidance, prompt throwing times, and target clearing. Players must keep public park walkways clear and avoid throwing when park visitors walk within range.",
+          "Pace of Play Standards: Groups must maintain position with the preceding group to prevent severe fairway congestion."
         ],
         "rows": [
           {
@@ -4213,25 +4211,27 @@
           },
           {
             "attribute": "Player Consideration Codes",
-            "left": "Req 2a: Traditional Golf Rules: The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks.",
-            "right": "Req 2b: Disc Golf Courtesy Standards: The PDGA Official Rules outline courtesy guidelines including distraction avoidance, prompt throwing times, and target clearing. Players must keep public park walkways clear and avoid throwing when park visitors walk within range."
+            "left": "Governance Authority Alignment: Official competition standards derive from either the USGA rulebook or PDGA regulations.",
+            "right": "Pace of Play Standards: Groups must maintain position with the preceding group to prevent severe fairway congestion."
           },
           {
             "attribute": "Pace of Play Standards",
-            "left": "Governance Authority Alignment: Official competition standards derive from either the USGA rulebook or PDGA regulations.",
-            "right": "Player Consideration Codes: Courtesy rules mandate absolute silence and stationary stance while fellow competitors address lies."
+            "left": "Pace of Play Standards: Groups must maintain position with the preceding group to prevent severe fairway congestion.",
+            "right": "Course Care Responsibilities: Repairing fairway divots and pitch marks preserves turf health for upcoming tournament rounds."
           }
         ]
       },
       "worked_example": {
-        "title": "Golf Req 2 Exemplar Workbook Entry: Traditional and Disc",
+        "title": "Golf Req 2 Worked Example: Golf Rule and Etiquette Options",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 2a - Traditional Golf Rules": "The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks.",
-          "Req 2b - Disc Golf Courtesy Standards": "The PDGA Official Rules outline courtesy guidelines including distraction avoidance, prompt throwing times, and target clearing. Players must keep public park walkways clear and avoid throwing when park visitors walk within range."
+          "Phase 1 - Option Selection": "Choose between traditional ball golf and disc golf based on local facilities.",
+          "Phase 2 - Rulebook Consultation": "Read defined competition rules regarding out of bounds markers and hazard penalties.",
+          "Phase 3 - Etiquette Demonstration": "Practice quiet standing positions behind players during their swings or disc throws.",
+          "Phase 4 - Scorecard Tracking": "Record individual gross strokes and penalty infractions accurately across every completed hole."
         },
-        "sample_output": "Traditional and Disc Golf Fundamentals: The roots of disc golf are firmly grounded with the Frisbee® and date to early disc golf promoters like \"Steady\" Ed Head rick and George Sappenfield (p. 50).",
-        "counselor_tip": "For Golf Requirement 2 (Traditional and Disc Golf Fundamentals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80))."
+        "sample_output": "Players select either traditional golf or disc golf to master sport-specific governance bodies and conduct codes. Both disciplines emphasize safety margins, player consideration, and strict adherence to defined ball or disc lies.",
+        "counselor_tip": "During the Golf Requirement 2 conference on Golf Rule and Etiquette Options, verify that the Scout can explain governance authority alignment and demonstrate scorecard tracking: Record individual gross strokes and penalty infractions accurately across every completed hole."
       },
       "quiz_item": {
         "scenario_prompt": "What 1983 innovation by Dave Dunipace transformed disc golf from simple Frisbee throwing into the modern sport?",

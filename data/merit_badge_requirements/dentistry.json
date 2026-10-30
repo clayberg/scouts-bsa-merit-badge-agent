@@ -313,7 +313,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear lead aprons with thyroid collars and maintain six feet distance during diagnostic radiographic exposures.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
       "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
       "syllabus_bucket": "In-Class Concept",
@@ -384,7 +384,7 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 1a: Tooth Structure and Decay",
-        "right_header": "Req 1c: Neurovascular Pulp Entry",
+        "right_header": "Req 1c: Neurovascular Pulp Entry Pathways",
         "left_points": [
           "(1a) Tooth Structure and Decay: Enamel, dentin, and pulp form distinct layers with varying radiopacity under diagnostic X-ray exposure. Demineralized areas show lower density because bacterial acids have leached calcium phosphate minerals away.",
           "(1b) Lower Molar Anatomical Diagram: Lower molars possess bifurcated mesial and distal roots anchored firmly within alveolar bone sockets by periodontal ligament fibers. Accurate technical drawings depict occlusal grooves, buccal contours, and adjacent gingival margins."
@@ -406,22 +406,22 @@
           },
           {
             "attribute": "Pulp Canal Geometry",
-            "left": "Req 1a: Tooth Structure and Decay: Enamel, dentin, and pulp form distinct layers with varying radiopacity under diagnostic X-ray exposure. Demineralized areas show lower density because bacterial acids have leached calcium phosphate minerals away.",
-            "right": "Req 1b: Lower Molar Anatomical: Lower molars possess bifurcated mesial and distal roots anchored firmly within alveolar bone sockets by periodontal ligament fibers. Accurate technical drawings depict occlusal grooves, buccal contours, and adjacent gingival margins."
+            "left": "Pulp Canal Geometry: Apical foramina permit blood vessels and nerve fibers into root canal chambers.",
+            "right": "Alveolar Bone Crest: Healthy crestal bone margins reside two millimeters below the cementoenamel junction line."
           }
         ]
       },
       "worked_example": {
-        "title": "Dentistry Req 1 Exemplar Workbook Entry: Tooth Anatomy",
+        "title": "Dentistry Req 1 Worked Example: Dental Radiographs and Anatomy",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Tooth Structure and Decay": "Enamel, dentin, and pulp form distinct layers with varying radiopacity under diagnostic X-ray exposure. Demineralized areas show lower density because bacterial acids have leached calcium phosphate minerals away.",
-          "Req 1b - Lower Molar Anatomical": "Lower molars possess bifurcated mesial and distal roots anchored firmly within alveolar bone sockets by periodontal ligament fibers. Accurate technical drawings depict occlusal grooves, buccal contours, and adjacent gingival margins.",
-          "Req 1c - Neurovascular Pulp Entry": "Sensory nerve branches and arterioles enter the root apex through minute openings called apical foramina. These vessels traverse the narrow root canal to nourish the coronal pulp chamber.",
-          "Req 1d - Bacterial Plaque Accumulation": "Biofilms adhere strongly along the gingival margin, interproximal contact areas, and deep occlusal fissures. These stagnation zones shelter bacteria from salivary rinsing and mechanical tongue action."
+          "Phase 1 - Mount Radiograph": "Position film on illuminated viewbox with identification dot facing toward observer.",
+          "Phase 2 - Trace Outer Margin": "Outline enamel crown and dual roots atop clean white drafting paper.",
+          "Phase 3 - Detail Interior Chambers": "Sketch internal pulp cavity, root canals, and surrounding periodontal ligament space.",
+          "Phase 4 - Chart Decay Sites": "Mark interproximal contact zones and occlusal pits where sticky plaque accumulates."
         },
-        "sample_output": "Tooth Anatomy and Radiographic Analysis: When one of these is damaged or missing, the tooth will loosen and eventually fall (p. 14).",
-        "counselor_tip": "For Dentistry Requirement 1 (Tooth Anatomy and Radiographic Analysis), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16))."
+        "sample_output": "Dental radiographs reveal interior structures of teeth including enamel, dentin, pulp chambers, and supporting alveolar bone. Dentists use bitewing and periapical films to identify interproximal carious lesions invisible during clinical visual examination.",
+        "counselor_tip": "During the Dentistry Requirement 1 conference on Dental Radiographs and Anatomy, verify that the Scout can explain enamel density and demonstrate chart decay sites: Mark interproximal contact zones and occlusal pits where sticky plaque accumulates."
       },
       "quiz_item": {
         "scenario_prompt": "In Dentistry Requirement 1, how do the four main tissues of a human tooth (enamel, dentin, pulp, and cementum) function, and how does dental plaque cause a cavity (caries)?",
@@ -842,7 +842,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never store an avulsed tooth dry or scrape dirt off root surfaces during first aid handling.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
       "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
       "syllabus_bucket": "In-Class Concept",
@@ -910,11 +910,7 @@
         "Step 3 - Store In Medium: Submerge tooth immediately in cold whole milk or balanced Hanks cell solution.",
         "Step 4 - Transport To Clinic: Deliver patient and preserved tooth to dental emergency clinic within thirty minutes."
       ],
-      "gear_checklist": [
-        "Official Dentistry Merit Badge Pamphlet: Dental Decay and Gum Disease.",
-        "Field notebook, verification log sheet, and demonstration materials for Dental Decay and Gum Disease.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Caries and Periodontal Etiology",
         "right_header": "Req 2c: Avulsed Tooth First Aid",
@@ -939,22 +935,22 @@
           },
           {
             "attribute": "Avulsion Cell Preservation",
-            "left": "Req 2a: Caries and Periodontal: Plaque bacteria metabolize simple sugars into corrosive organic acids that initiate enamel demineralization. Sustained plaque accumulation at the gingival sulcus triggers inflammatory responses that degrade periodontal attachments.",
-            "right": "Req 2b: Sports Dentistry Mouthguard: Athletic collisions produce traumatic forces that cause crown fractures, root fractures, and complete dental avulsions. Custom, boil-and-bite, and stock mouthguards cushion impact loads during contact sports like football and hockey."
+            "left": "Avulsion Cell Preservation: Periodontal ligament cells on avulsed roots remain viable in milk for hours.",
+            "right": "Tobacco Tissue Damage: Nicotine constricts gingival capillaries, masking early periodontal inflammation and slowing wound healing."
           }
         ]
       },
       "worked_example": {
-        "title": "Dentistry Req 2 Exemplar Workbook Entry: Dental Disease",
+        "title": "Dentistry Req 2 Worked Example: Oral Pathology and Trauma",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Caries and Periodontal": "Plaque bacteria metabolize simple sugars into corrosive organic acids that initiate enamel demineralization. Sustained plaque accumulation at the gingival sulcus triggers inflammatory responses that degrade periodontal attachments.",
-          "Req 2b - Sports Dentistry Mouthguard": "Athletic collisions produce traumatic forces that cause crown fractures, root fractures, and complete dental avulsions. Custom, boil-and-bite, and stock mouthguards cushion impact loads during contact sports like football and hockey.",
-          "Req 2c - Avulsed Tooth First Aid": "Reimplantation success depends on preserving viable periodontal ligament fibroblasts clinging to the dislodged root surface. Immediate replantation or storage in cold milk prevents cellular necrosis prior to professional splinting.",
-          "Req 2d - Tobacco Oral Health": "Smokeless tobacco and cigarettes expose oral tissues to toxic carcinogens, increasing risks for leukoplakia and squamous cell carcinoma. Vasoconstriction caused by nicotine suppresses bleeding, hiding aggressive underlying periodontal destruction."
+          "Phase 1 - Retrieve Avulsed Crown": "Handle knocked tooth strictly by coronal enamel without touching sensitive root cementum.",
+          "Phase 2 - Rinse Debris Gently": "Flush surface contaminants with saline solution without scrubbing delicate attached ligament tissues.",
+          "Phase 3 - Store in Medium": "Submerge tooth immediately in cold whole milk or balanced Hanks cell solution.",
+          "Phase 4 - Transport to Clinic": "Deliver patient and preserved tooth to dental emergency clinic within thirty minutes."
         },
-        "sample_output": "Dental Disease Trauma and Tobacco: An endodontist cares for the inner parts of the teeth (p. 33).",
-        "counselor_tip": "For Dentistry Requirement 2 (Dental Disease Trauma and Tobacco), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57))."
+        "sample_output": "Oral bacteria ferment dietary carbohydrates into lactic acid that dissolves calcium hydroxyapatite within enamel matrices. Periodontal disease begins when calculus irritates gingival tissues, provoking chronic inflammation and supporting bone loss.",
+        "counselor_tip": "During the Dentistry Requirement 2 conference on Oral Pathology and Trauma, verify that the Scout can explain bacterial biofilm metabolism and demonstrate transport to clinic: Deliver patient and preserved tooth to dental emergency clinic within thirty minutes."
       },
       "quiz_item": {
         "scenario_prompt": "What is the best immediate first-aid action when a permanent tooth is knocked completely out of the mouth?",
@@ -1037,7 +1033,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Adhere to universal clinical precautions including safety eyewear and hand sanitization inside operatory areas.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1105,53 +1101,47 @@
         "Step 3 - Practice Disclosing Technique: Apply disclosing dye to identify missed plaque along cervical enamel margins.",
         "Step 4 - Discuss Findings With Counselor: Summarize clinical observations, hygiene tips, and examination findings to merit badge counselor."
       ],
-      "gear_checklist": [
-        "Official Dentistry Merit Badge Pamphlet: Arrange for a visit.",
-        "Field notebook, verification log sheet, and demonstration materials for Arrange for a visit.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Home Water Fluoridation Check",
-        "right_header": "Req 3: Schedule Dental Office Visit",
+        "left_header": "Dental Office Clinical Visit: Core Principles",
+        "right_header": "Dental Office Clinical Visit: Field Execution",
         "left_points": [
-          "Home Water Fluoridation Check: Find out whether the water in your home is fluoridated (p. 31).",
-          "Daily Tap Water Protection: If it is, try to drink eight glasses of tap water each day and know that while you are replenishing fluids in your body, you are also protecting (p. 31).",
-          "Fluoride Chemical Compound Basics: Fluoride is a chemical compound that forms when fluorine combines with other elements (p. 31)."
+          "Periodontal Sulcus Probing: Calibrated periodontal probes measure sulcular depths to evaluate gingival health and bone levels.",
+          "Disclosing Solution Visualization: Harmless vegetable dye stains residual bacterial biofilm red to highlight unbrushed tooth surfaces."
         ],
         "right_points": [
-          "Schedule Dental Office Visit: Fluoride is a chemical compound that forms when fluorine combines with other elements (p. 31).",
-          "Observe Plaque Control Demo: After teeth are formed, fluoride reinforces enamel and also acts with minerals in saliva to restore enamel in the earliest stages of decay (p. 31).",
-          "Interview Dentist During Visit: Fluoride is present everywhere, in varying amounts (p. 31)."
+          "Visual Soft Tissue Screen: Dentists inspect tongue borders, palate, and buccal mucosa to identify mucosal lesions.",
+          "Interdental Flossing Motion: Floss curved in C-shape cleans interproximal enamel surfaces below gingival contact points."
         ],
         "rows": [
           {
             "attribute": "Periodontal Sulcus Probing",
-            "left": "Home Water Fluoridation Check: Find out whether the water in your home is fluoridated (p. 31).",
-            "right": "Schedule Dental Office Visit: Fluoride is a chemical compound that forms when fluorine combines with other elements (p. 31)."
+            "left": "Periodontal Sulcus Probing: Calibrated periodontal probes measure sulcular depths to evaluate gingival health and bone levels.",
+            "right": "Visual Soft Tissue Screen: Dentists inspect tongue borders, palate, and buccal mucosa to identify mucosal lesions."
           },
           {
             "attribute": "Disclosing Solution Visualization",
-            "left": "Daily Tap Water Protection: If it is, try to drink eight glasses of tap water each day and know that while you are replenishing fluids in your body, you are also protecting (p. 31).",
-            "right": "Observe Plaque Control Demo: After teeth are formed, fluoride reinforces enamel and also acts with minerals in saliva to restore enamel in the earliest stages of decay (p. 31)."
+            "left": "Disclosing Solution Visualization: Harmless vegetable dye stains residual bacterial biofilm red to highlight unbrushed tooth surfaces.",
+            "right": "Interdental Flossing Motion: Floss curved in C-shape cleans interproximal enamel surfaces below gingival contact points."
           },
           {
             "attribute": "Visual Soft Tissue Screen",
-            "left": "Fluoride Chemical Compound Basics: Fluoride is a chemical compound that forms when fluorine combines with other elements (p. 31).",
-            "right": "Interview Dentist During Visit: Fluoride is present everywhere, in varying amounts (p. 31)."
+            "left": "Visual Soft Tissue Screen: Dentists inspect tongue borders, palate, and buccal mucosa to identify mucosal lesions.",
+            "right": "Interdental Flossing Motion: Floss curved in C-shape cleans interproximal enamel surfaces below gingival contact points."
           }
         ]
       },
       "worked_example": {
-        "title": "Dentistry Req 3 Exemplar Workbook Entry: Dental Checkup",
+        "title": "Dentistry Req 3 Worked Example: Dental Office Clinical Visit",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Home Water Fluoridation Check": "Find out whether the water in your home is fluoridated (p. 31).",
-          "Daily Tap Water Protection": "If it is, try to drink eight glasses of tap water each day and know that while you are replenishing fluids in your body, you are also protecting (p. 31).",
-          "Fluoride Chemical Compound Basics": "Fluoride is a chemical compound that forms when fluorine combines with other elements (p. 31).",
-          "Enamel Remineralization Process": "After teeth are formed, fluoride reinforces enamel and also acts with minerals in saliva to restore enamel in the earliest stages of decay (p. 31)."
+          "Phase 1 - Schedule Clinical Appointment": "Request comprehensive dental examination and preventive hygiene demonstration through front office.",
+          "Phase 2 - Observe Examination Protocols": "Watch dentist use mirror, explorer, and periodontal probe during charting sequence.",
+          "Phase 3 - Practice Disclosing Technique": "Apply disclosing dye to identify missed plaque along cervical enamel margins.",
+          "Phase 4 - Discuss Findings with Counselor": "Summarize clinical observations, hygiene tips, and examination findings to merit badge counselor."
         },
-        "sample_output": "Dental Checkup and Plaque Control: Find out whether the water in your home is fluoridated (p. 31).",
-        "counselor_tip": "For Dentistry Requirement 3 (Dental Checkup and Plaque Control), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dentistry Merit Badge Pamphlet (p. 31, p. 33))."
+        "sample_output": "A clinical dental examination evaluates teeth for decay, soft tissues for abnormalities, and periodontal pockets for attachment loss. Plaque control demonstrations educate patients on bass brushing technique and interdental cleaning methods.",
+        "counselor_tip": "During the Dentistry Requirement 3 conference on Dental Office Clinical Visit, verify that the Scout can explain periodontal sulcus probing and demonstrate discuss findings with counselor: Summarize clinical observations, hygiene tips, and examination findings to merit badge counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Why do dentists and hygienists use chewable disclosing tablets during a plaque-control demonstration?",
@@ -1476,7 +1466,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear safety goggles and dust masks when measuring dry gypsum powder and operating model trimmers.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1544,19 +1534,17 @@
         "Step 3 - Spatulate Smooth Slurry: Mix gypsum vigorously against bowl walls until uniform bubble free paste forms.",
         "Step 4 - Vibrate Impression Mold: Pour stone gradually over impression tray resting atop mechanical vibrator table."
       ],
-      "gear_checklist": [
-        "Official Dentistry Merit Badge Pamphlet: Name at least five instruments.",
-        "Field notebook, verification log sheet, and demonstration materials for Name at least five instruments.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 4a: Dental Instruments and Equipment",
         "right_header": "Req 4b: Gypsum Stone Cast Preparation",
         "left_points": [
-          "(4a) Dental Instruments and Equipment: Hand instruments include mouth mirrors, periodontal probes, explorers, cotton pliers, and spoon excavators for precise diagnostic and restorative tasks. Operatory equipment features dental chairs, delivery units, curing lights, autoclaves, and suction systems."
+          "(4a) Dental Instruments and Equipment: Hand instruments include mouth mirrors, periodontal probes, explorers, cotton pliers, and spoon excavators for precise diagnostic and restorative tasks. Operatory equipment features dental chairs, delivery units, curing lights, autoclaves, and suction systems.",
+          "High Speed Handpiece: Air driven turbines spinning at four hundred thousand revolutions per minute prepare enamel."
         ],
         "right_points": [
-          "(4b) Gypsum Stone Cast Preparation: Model stone requires strict water-to-powder ratios to achieve dimensional accuracy and compressive strength. Spatulating the mixture and pouring it under mechanical vibration drives out entrapped air, capturing anatomical detail without voids."
+          "(4b) Gypsum Stone Cast Preparation: Model stone requires strict water-to-powder ratios to achieve dimensional accuracy and compressive strength. Spatulating the mixture and pouring it under mechanical vibration drives out entrapped air, capturing anatomical detail without voids.",
+          "(4c) Dietary Sugar Plaque Log: Dietary logs track exposure frequency to fermentable carbohydrates like sucrose, glucose, and cooked starches. Identifying retentive snacks helps patients substitute fibrous foods and reduce prolonged Stephan curve acid depressions."
         ],
         "rows": [
           {
@@ -1566,26 +1554,27 @@
           },
           {
             "attribute": "Ultrasonic Scaler Function",
-            "left": "Req 4a: Dental Instruments: Hand instruments include mouth mirrors, periodontal probes, explorers, cotton pliers, and spoon excavators for precise diagnostic and restorative tasks. Operatory equipment features dental chairs, delivery units, curing lights, autoclaves, and suction systems.",
-            "right": "Req 4b: Gypsum Stone Cast: Model stone requires strict water-to-powder ratios to achieve dimensional accuracy and compressive strength. Spatulating the mixture and pouring it under mechanical vibration drives out entrapped air, capturing anatomical detail without voids."
+            "left": "High Speed Handpiece: Air driven turbines spinning at four hundred thousand revolutions per minute prepare enamel.",
+            "right": "(4c) Dietary Sugar Plaque Log: Dietary logs track exposure frequency to fermentable carbohydrates like sucrose, glucose, and cooked starches. Identifying retentive snacks helps patients substitute fibrous foods and reduce prolonged Stephan curve acid depressions."
           },
           {
             "attribute": "Gypsum Slurry Mixing",
-            "left": "Req 4c: Dietary Sugar Plaque Log: Dietary logs track exposure frequency to fermentable carbohydrates like sucrose, glucose, and cooked starches. Identifying retentive snacks helps patients substitute fibrous foods and reduce prolonged Stephan curve acid depressions.",
-            "right": "Ultrasonic Scaler Function: High frequency vibrations flush water to dislodge hardened calculus from root cementum."
+            "left": "Gypsum Slurry Mixing: Measured stone powder and water whipped in rubber bowls prevent trapped air bubbles.",
+            "right": "Vibrator Air Elimination: Vibrating table consolidates dental stone into impression crevices to eliminate weak voids."
           }
         ]
       },
       "worked_example": {
-        "title": "Dentistry Req 4 Exemplar Workbook Entry: Dental",
+        "title": "Dentistry Req 4 Worked Example: Dental Tools and Stone Casting",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a - Dental Instruments": "Hand instruments include mouth mirrors, periodontal probes, explorers, cotton pliers, and spoon excavators for precise diagnostic and restorative tasks. Operatory equipment features dental chairs, delivery units, curing lights, autoclaves, and suction systems.",
-          "Req 4b - Gypsum Stone Cast Preparation": "Model stone requires strict water-to-powder ratios to achieve dimensional accuracy and compressive strength. Spatulating the mixture and pouring it under mechanical vibration drives out entrapped air, capturing anatomical detail without voids.",
-          "Req 4c - Dietary Sugar Plaque Log": "Dietary logs track exposure frequency to fermentable carbohydrates like sucrose, glucose, and cooked starches. Identifying retentive snacks helps patients substitute fibrous foods and reduce prolonged Stephan curve acid depressions."
+          "Phase 1 - Identify Operatory Instruments": "Classify mirrors, explorers, forceps, handpieces, and curing lights by clinical function.",
+          "Phase 2 - Measure Stone and Water": "Dispense exact powder and water proportions into flexible rubber mixing bowl.",
+          "Phase 3 - Spatulate Smooth Slurry": "Mix gypsum vigorously against bowl walls until uniform bubble free paste forms.",
+          "Phase 4 - Vibrate Impression Mold": "Pour stone gradually over impression tray resting atop mechanical vibrator table."
         },
-        "sample_output": "Dental Instruments Casts and Diet: When and how often you eat may affect your dental health more than what and how much you eat (p. 29).",
-        "counselor_tip": "For Dentistry Requirement 4 (Dental Instruments Casts and Diet), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33))."
+        "sample_output": "Dental practitioners rely on hand instruments and specialized operatory equipment to restore dentition and maintain oral structures. Gypsum stone casts poured from negative alginate impressions produce accurate three-dimensional diagnostic study models.",
+        "counselor_tip": "During the Dentistry Requirement 4 conference on Dental Tools and Stone Casting, verify that the Scout can explain high speed handpiece and demonstrate vibrate impression mold: Pour stone gradually over impression tray resting atop mechanical vibrator table."
       },
       "quiz_item": {
         "scenario_prompt": "Why do you hold the impression tray against a mechanical dental vibrator while adding small amounts of mixed model stone?",
@@ -1839,7 +1828,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Supervise young children with fluoridated products to prevent ingestion and mild dental fluorosis.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
       "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
       "syllabus_bucket": "In-Class Concept",
@@ -1908,10 +1897,12 @@
         "left_header": "Req 5a: Fluoride Mechanisms and Delivery",
         "right_header": "Req 5b: Oral Systemic Health Relations",
         "left_points": [
-          "(5a) Fluoride Mechanisms and Delivery: Systemic fluorides in drinking water strengthen developing unerupted teeth from within bone crypts. Topical fluorides in toothpastes, gels, and varnishes promote remineralization and inhibit bacterial cellular metabolism on erupted teeth."
+          "(5a) Fluoride Mechanisms and Delivery: Systemic fluorides in drinking water strengthen developing unerupted teeth from within bone crypts. Topical fluorides in toothpastes, gels, and varnishes promote remineralization and inhibit bacterial cellular metabolism on erupted teeth.",
+          "Fluorapatite Crystal Conversion: Fluoride replaces hydroxyl ions to produce stronger, acid-resistant enamel surface crystal lattices."
         ],
         "right_points": [
-          "(5b) Oral Systemic Health Relations: Mastication breaks food into swallowable boluses while salivary enzymes initiate complex starch digestion. Oral infections can release inflammatory cytokines into the bloodstream, worsening conditions such as diabetes and heart disease."
+          "(5b) Oral Systemic Health Relations: Mastication breaks food into swallowable boluses while salivary enzymes initiate complex starch digestion. Oral infections can release inflammatory cytokines into the bloodstream, worsening conditions such as diabetes and heart disease.",
+          "Amylase Digestive Function: Salivary amylase begins carbohydrate breakdown during mastication before food enters stomach chambers."
         ],
         "rows": [
           {
@@ -1921,25 +1912,27 @@
           },
           {
             "attribute": "Salivary Buffering Capacity",
-            "left": "Req 5a: Fluoride Mechanisms: Systemic fluorides in drinking water strengthen developing unerupted teeth from within bone crypts. Topical fluorides in toothpastes, gels, and varnishes promote remineralization and inhibit bacterial cellular metabolism on erupted teeth.",
-            "right": "Req 5b: Oral Systemic Health: Mastication breaks food into swallowable boluses while salivary enzymes initiate complex starch digestion. Oral infections can release inflammatory cytokines into the bloodstream, worsening conditions such as diabetes and heart disease."
+            "left": "Fluorapatite Crystal Conversion: Fluoride replaces hydroxyl ions to produce stronger, acid-resistant enamel surface crystal lattices.",
+            "right": "Amylase Digestive Function: Salivary amylase begins carbohydrate breakdown during mastication before food enters stomach chambers."
           },
           {
             "attribute": "Amylase Digestive Function",
-            "left": "Fluorapatite Crystal Conversion: Fluoride replaces hydroxyl ions to produce stronger, acid-resistant enamel surface crystal lattices.",
-            "right": "Salivary Buffering Capacity: Bicarbonate buffers neutralize plaque acids and deliver calcium ions for surface remineralization."
+            "left": "Amylase Digestive Function: Salivary amylase begins carbohydrate breakdown during mastication before food enters stomach chambers.",
+            "right": "Systemic Infection Pathways: Periodontal pathogens entering blood vessels exacerbate cardiovascular inflammation and diabetic glucose regulation."
           }
         ]
       },
       "worked_example": {
-        "title": "Dentistry Req 5 Exemplar Workbook Entry: Fluoride",
+        "title": "Dentistry Req 5 Worked Example: Fluoride Actions and Systemic Health",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Fluoride Mechanisms": "Systemic fluorides in drinking water strengthen developing unerupted teeth from within bone crypts. Topical fluorides in toothpastes, gels, and varnishes promote remineralization and inhibit bacterial cellular metabolism on erupted teeth.",
-          "Req 5b - Oral Systemic Health": "Mastication breaks food into swallowable boluses while salivary enzymes initiate complex starch digestion. Oral infections can release inflammatory cytokines into the bloodstream, worsening conditions such as diabetes and heart disease."
+          "Phase 1 - Compare Delivery Routes": "Differentiate systemic fluoridated water benefits from topical toothpaste and varnish applications.",
+          "Phase 2 - Analyze Remineralization": "Chart how fluoride, calcium, and phosphate rebuild microscopic subsurface enamel crystal voids.",
+          "Phase 3 - Trace Saliva Functions": "List salivary components that assist bolus formation, enzyme digestion, and antimicrobial defense.",
+          "Phase 4 - Map Systemic Connections": "Diagram relationships linking oral periodontal inflammation to cardiovascular disease and diabetes control."
         },
-        "sample_output": "Fluoride Protection and Systemic Health: You don't have to give up sugar to protect your teeth (p. 33).",
-        "counselor_tip": "For Dentistry Requirement 5 (Fluoride Protection and Systemic Health), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34))."
+        "sample_output": "Fluoride ions incorporate into enamel crystals, converting soluble hydroxyapatite into acid-resistant fluorapatite. The oral cavity reflects systemic health, where saliva, digestive enzymes, nutritional intake, and mastication impact whole-body physiology.",
+        "counselor_tip": "During the Dentistry Requirement 5 conference on Fluoride Actions and Systemic Health, verify that the Scout can explain fluorapatite crystal conversion and demonstrate map systemic connections: Diagram relationships linking oral periodontal inflammation to cardiovascular disease and diabetes control."
       },
       "quiz_item": {
         "scenario_prompt": "How does fluoride work together with saliva to protect teeth that have already erupted into the mouth?",
@@ -2411,7 +2404,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use blunt carving tools on wax or clay models to prevent lacerations during model fabrication.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
       "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
       "syllabus_bucket": "In-Class Concept",
@@ -2481,14 +2474,10 @@
         "Step 3 - Illustrate Caries Path: Draw stages from enamel demineralization through dentin invasion into pulp necrosis.",
         "Step 4 - Present Restorative Options: Compare clinical indications for composite fillings, amalgam restorations, and endodontic crown procedures."
       ],
-      "gear_checklist": [
-        "Official Dentistry Merit Badge Pamphlet: Model Tooth Out of Soap.",
-        "Field notebook, verification log sheet, and demonstration materials for Model Tooth Out of Soap.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Tooth Model Brushing",
-        "right_header": "Req 6c: Toothpaste Advertisement Fact",
+        "left_header": "Req 6a: Tooth Model Brushing Demonstration",
+        "right_header": "Req 6c: Toothpaste Advertisement Fact Analysis",
         "left_points": [
           "(6a) Tooth Model Brushing Demonstration: Sculpting an anatomical tooth highlights occlusal developmental pits, smooth marginal ridges, and cervical margins. Demonstrating sulcular brushing and c-shaped flossing shows how mechanical action disrupts adherent bacterial biofilms.",
           "(6b) Dental Disease Prevention Poster: Visual posters communicate the balance between cariogenic factors and natural defenses like saliva and fluoride. Highlighting healthy habits encourages proper nutrition, daily flossing, and regular dental checkups."
@@ -2510,22 +2499,22 @@
           },
           {
             "attribute": "Dental Amalgam Durability",
-            "left": "Req 6a: Tooth Model Brushing: Sculpting an anatomical tooth highlights occlusal developmental pits, smooth marginal ridges, and cervical margins. Demonstrating sulcular brushing and c-shaped flossing shows how mechanical action disrupts adherent bacterial biofilms.",
-            "right": "Req 6b: Dental Disease Prevention: Visual posters communicate the balance between cariogenic factors and natural defenses like saliva and fluoride. Highlighting healthy habits encourages proper nutrition, daily flossing, and regular dental checkups."
+            "left": "Dental Amalgam Durability: Silver alloy mixed with mercury provides high compressive strength for posterior restorations.",
+            "right": "Educational Visual Communication: Clear posters contrast healthy pink stippled gingiva with erythematous bleeding marginal tissues."
           }
         ]
       },
       "worked_example": {
-        "title": "Dentistry Req 6 Exemplar Workbook Entry: Oral Hygiene",
+        "title": "Dentistry Req 6 Worked Example: Oral Health Education Demonstrations",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Tooth Model Brushing": "Sculpting an anatomical tooth highlights occlusal developmental pits, smooth marginal ridges, and cervical margins. Demonstrating sulcular brushing and c-shaped flossing shows how mechanical action disrupts adherent bacterial biofilms.",
-          "Req 6b - Dental Disease Prevention": "Visual posters communicate the balance between cariogenic factors and natural defenses like saliva and fluoride. Highlighting healthy habits encourages proper nutrition, daily flossing, and regular dental checkups.",
-          "Req 6c - Toothpaste Advertisement Fact": "Critiquing commercial dentifrice claims requires verifying American Dental Association Seal of Acceptance standards. Scouts evaluate whether marketing promises for whitening, sensitivity, or tartar control reflect therapeutic scientific backing.",
-          "Req 6d - Oral Health Feature": "Writing journalistic articles about dental health informs peers about unseen risks like spit tobacco and vaping. Articles integrate oral hygiene techniques with factual descriptions of tissue changes associated with nicotine."
+          "Phase 1 - Select Educational Medium": "Choose tooth model fabrication, prevention poster design, or commercial advertising analysis.",
+          "Phase 2 - Model Sulcular Brushing": "Demonstrate toothbrush bristles vibrating within gingival margins using large scale visual aid.",
+          "Phase 3 - Illustrate Caries Path": "Draw stages from enamel demineralization through dentin invasion into pulp necrosis.",
+          "Phase 4 - Present Restorative Options": "Compare clinical indications for composite fillings, amalgam restorations, and endodontic crown procedures."
         },
-        "sample_output": "Oral Hygiene Models and Education: For instance, dentists are seeing oral signs of sleep apnea, and diagnosing genital HPV (human papillomavirus, a family of more than 100 related) (p. 26).",
-        "counselor_tip": "For Dentistry Requirement 6 (Oral Hygiene Models and Education), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57))."
+        "sample_output": "Educational models, public health posters, and media critiques reinforce community awareness of preventive dentistry principles. Explaining cavity progression and restorative materials like composite resin and amalgam equips patients to maintain oral health.",
+        "counselor_tip": "During the Dentistry Requirement 6 conference on Oral Health Education Demonstrations, verify that the Scout can explain bass brushing technique and demonstrate present restorative options: Compare clinical indications for composite fillings, amalgam restorations, and endodontic crown procedures."
       },
       "quiz_item": {
         "scenario_prompt": "When demonstrating proper flossing on a tooth model, how should the floss be shaped once it passes the contact point between two teeth?",
@@ -2633,7 +2622,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Dental professionals must complete mandatory bloodborne pathogen training and maintain hepatitis B vaccinations.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62)",
       "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2703,47 +2692,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Laboratory Technician Workflow",
-        "right_header": "Req 7: Identify Three Dental Careers",
+        "left_header": "Dental Career Pathways Exploration: Core Principles",
+        "right_header": "Dental Career Pathways Exploration: Field Execution",
         "left_points": [
-          "Laboratory Technician Workflow: They work directly with dentists and orthodontists and have little patient contact (p. 56).",
-          "Four Year Dental School: Education and Cost of Training The basic training for dentists is four years of dental school after graduation from college (p. 56).",
-          "Doctorate Dental Degrees Awarded: Upon successful completion of dental school requirements, the graduate is awarded a doctor of dental surgery (D. D. S.) or a doctor of dental medicine (p. 56)."
+          "General Dental Education: Four years of postgraduate dental school follow college prerequisites before state licensure.",
+          "Registered Dental Hygienist: Accredited associate or bachelor programs prepare hygienists for clinical preventive licensure."
         ],
         "right_points": [
-          "Identify Three Dental Careers: Upon successful completion of dental school requirements, the graduate is awarded a doctor of dental surgery (D. D. S.) or a doctor of dental medicine (p. 56).",
-          "Research Degree and Licensing: To practice, he or she must pass both a written national board and a state or regional examination (p. 56).",
-          "Compare Dental Team Roles: After passing the boards, the dental school graduate may apply to the state board of dentistry for a license to practice general dentistry (p. 56)."
+          "Certified Dental Assistant: Dental assisting programs teach four-handed operatory techniques, infection control, and radiograph exposure.",
+          "Laboratory Technician Craft: Dental lab technicians fabricate custom crowns, bridges, and prosthetics from clinician impressions."
         ],
         "rows": [
           {
             "attribute": "General Dental Education",
-            "left": "Laboratory Technician Workflow: They work directly with dentists and orthodontists and have little patient contact (p. 56).",
-            "right": "Identify Three Dental Careers: Upon successful completion of dental school requirements, the graduate is awarded a doctor of dental surgery (D. D. S.) or a doctor of dental medicine (p. 56)."
+            "left": "General Dental Education: Four years of postgraduate dental school follow college prerequisites before state licensure.",
+            "right": "Certified Dental Assistant: Dental assisting programs teach four-handed operatory techniques, infection control, and radiograph exposure."
           },
           {
             "attribute": "Registered Dental Hygienist",
-            "left": "Four Year Dental School: Education and Cost of Training The basic training for dentists is four years of dental school after graduation from college (p. 56).",
-            "right": "Research Degree and Licensing: To practice, he or she must pass both a written national board and a state or regional examination (p. 56)."
+            "left": "Registered Dental Hygienist: Accredited associate or bachelor programs prepare hygienists for clinical preventive licensure.",
+            "right": "Laboratory Technician Craft: Dental lab technicians fabricate custom crowns, bridges, and prosthetics from clinician impressions."
           },
           {
             "attribute": "Certified Dental Assistant",
-            "left": "Doctorate Dental Degrees Awarded: Upon successful completion of dental school requirements, the graduate is awarded a doctor of dental surgery (D. D. S.) or a doctor of dental medicine (p. 56).",
-            "right": "Compare Dental Team Roles: After passing the boards, the dental school graduate may apply to the state board of dentistry for a license to practice general dentistry (p. 56)."
+            "left": "Certified Dental Assistant: Dental assisting programs teach four-handed operatory techniques, infection control, and radiograph exposure.",
+            "right": "Laboratory Technician Craft: Dental lab technicians fabricate custom crowns, bridges, and prosthetics from clinician impressions."
           }
         ]
       },
       "worked_example": {
-        "title": "Dentistry Req 7 Exemplar Workbook Entry: Dental",
+        "title": "Dentistry Req 7 Worked Example: Dental Career Pathways Exploration",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Laboratory Technician Workflow": "They work directly with dentists and orthodontists and have little patient contact (p. 56).",
-          "Four Year Dental School": "Education and Cost of Training The basic training for dentists is four years of dental school after graduation from college (p. 56).",
-          "Doctorate Dental Degrees Awarded": "Upon successful completion of dental school requirements, the graduate is awarded a doctor of dental surgery (D. D. S.) or a doctor of dental medicine (p. 56).",
-          "National and State Licensing": "To practice, he or she must pass both a written national board and a state or regional examination (p. 56)."
+          "Phase 1 - Survey Team Roles": "Research scopes of practice for dentists, hygienists, dental assistants, and lab technicians.",
+          "Phase 2 - Select Specialty Career": "Pick one specific dental career path to investigate educational and training prerequisites.",
+          "Phase 3 - Calculate Program Costs": "Outline tuition expenses, laboratory fees, examination charges, and typical educational debt obligations.",
+          "Phase 4 - Evaluate Job Outlook": "Review projected employment growth, salary potential, and practice settings through labor statistics."
         },
-        "sample_output": "Dental Professions and Career Pathways: They work directly with dentists and orthodontists and have little patient contact (p. 56).",
-        "counselor_tip": "For Dentistry Requirement 7 (Dental Professions and Career Pathways), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dentistry Merit Badge Pamphlet (p. 56, p. 62))."
+        "sample_output": "Dental healthcare teams comprise general dentists, dental hygienists, certified dental assistants, and laboratory technicians working cooperatively. Pursuing these careers requires distinct postsecondary education pathways, clinical licensing examinations, and ongoing professional development.",
+        "counselor_tip": "During the Dentistry Requirement 7 conference on Dental Career Pathways Exploration, verify that the Scout can explain general dental education and demonstrate evaluate job outlook: Review projected employment growth, salary potential, and practice settings through labor statistics."
       },
       "quiz_item": {
         "scenario_prompt": "Which member of the dental team works primarily in a laboratory crafting crowns, bridges, and dentures from a dentist's specifications?",

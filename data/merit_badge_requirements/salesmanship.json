@@ -184,7 +184,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Scouts conducting field sales research must travel in buddy pairs and avoid entering unfamiliar private commercial loading docks.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)",
       "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)",
       "syllabus_bucket": "In-Class Concept",
@@ -248,19 +248,17 @@
         "Step 3 - Channel Comparison Chart: Contrast direct consumer retail selling with business wholesale contract negotiation procedures.",
         "Step 4 - Ethical Service Presentation: Demonstrate consultative selling techniques that prioritize long term consumer trust over quotas."
       ],
-      "gear_checklist": [
-        "Official Salesmanship Merit Badge: The responsibilities of a salesperson.",
-        "Field notebook, verification log sheet, and demonstration materials for The responsibilities of a salesperson.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Salesperson Responsibilities",
-        "right_header": "Req 1b: Business and Consumer Sales",
+        "left_header": "Req 1a: Salesperson Responsibilities and Economic Impact",
+        "right_header": "Req 1b: Business and Consumer Sales Distinctions",
         "left_points": [
-          "(1a) Salesperson Responsibilities and Economic Impact: A salesperson represents the public face of an enterprise by identifying customer requirements and delivering suitable goods. These continuous transactions fund corporate payroll, capital investments, and public tax revenues across regional economies."
+          "(1a) Salesperson Responsibilities and Economic Impact: A salesperson represents the public face of an enterprise by identifying customer requirements and delivering suitable goods. These continuous transactions fund corporate payroll, capital investments, and public tax revenues across regional economies.",
+          "Economic Exchange Cycle: Professional sales transactions move finished manufactured goods to commercial end users efficiently."
         ],
         "right_points": [
-          "(1b) Business and Consumer Sales Distinctions: Consumer transactions involve individual shoppers making swift buying decisions based on personal utility and emotional preference. Business sales feature multi-stage procurement negotiations involving committee review, formal technical specifications, and bulk volume terms."
+          "(1b) Business and Consumer Sales Distinctions: Consumer transactions involve individual shoppers making swift buying decisions based on personal utility and emotional preference. Business sales feature multi-stage procurement negotiations involving committee review, formal technical specifications, and bulk volume terms.",
+          "Market Information Channel: Frontline sellers report customer buying patterns directly back to corporate manufacturing teams."
         ],
         "rows": [
           {
@@ -270,25 +268,27 @@
           },
           {
             "attribute": "Customer Problem Resolution",
-            "left": "Req 1a: Salesperson Responsibilities: A salesperson represents the public face of an enterprise by identifying customer requirements and delivering suitable goods. These continuous transactions fund corporate payroll, capital investments, and public tax revenues across regional economies.",
-            "right": "Req 1b: Business and Consumer Sales: Consumer transactions involve individual shoppers making swift buying decisions based on personal utility and emotional preference. Business sales feature multi-stage procurement negotiations involving committee review, formal technical specifications, and bulk volume terms."
+            "left": "Economic Exchange Cycle: Professional sales transactions move finished manufactured goods to commercial end users efficiently.",
+            "right": "Market Information Channel: Frontline sellers report customer buying patterns directly back to corporate manufacturing teams."
           },
           {
             "attribute": "Market Information Channel",
-            "left": "Economic Exchange Cycle: Professional sales transactions move finished manufactured goods to commercial end users efficiently.",
-            "right": "Customer Problem Resolution: Ethical salespeople diagnose operational challenges and recommend tailored commercial merchandise solutions."
+            "left": "Market Information Channel: Frontline sellers report customer buying patterns directly back to corporate manufacturing teams.",
+            "right": "Commerce Expansion Factor: Consistent sales revenue provides working capital for corporate payroll and research operations."
           }
         ]
       },
       "worked_example": {
-        "title": "Salesmanship Req 1 Exemplar Workbook Entry: Salesperson",
+        "title": "Salesmanship Req 1 Worked Example: Sales Professional Economic Responsibilities",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 1a - Salesperson Responsibilities": "A salesperson represents the public face of an enterprise by identifying customer requirements and delivering suitable goods. These continuous transactions fund corporate payroll, capital investments, and public tax revenues across regional economies.",
-          "Req 1b - Business and Consumer Sales": "Consumer transactions involve individual shoppers making swift buying decisions based on personal utility and emotional preference. Business sales feature multi-stage procurement negotiations involving committee review, formal technical specifications, and bulk volume terms."
+          "Phase 1 - Market Function Audit": "Research local retail storefronts to map distribution channels from regional manufacturers.",
+          "Phase 2 - Economic Benefit Mapping": "Chart commercial cash flows connecting consumer product purchases to factory labor compensation.",
+          "Phase 3 - Channel Comparison Chart": "Contrast direct consumer retail selling with business wholesale contract negotiation procedures.",
+          "Phase 4 - Ethical Service Presentation": "Demonstrate consultative selling techniques that prioritize long term consumer trust over quotas."
         },
-        "sample_output": "Salesperson Roles and Market Types: Think of your customers as a loyal base of friends who can help you increase sales, spread goodwill about you and your company, and guide improvements (p. 18).",
-        "counselor_tip": "For Salesmanship Requirement 1 (Salesperson Roles and Market Types), verify the Scout's own observations and specific pamphlet details (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20))."
+        "sample_output": "Sales representatives connect producer inventory to consumer demand while generating commercial capital across modern distribution channels. Ethical selling practices build durable business relationships that stimulate employment and industrial production cycles.",
+        "counselor_tip": "During the Salesmanship Requirement 1 conference on Sales Professional Economic Responsibilities, verify that the Scout can explain economic exchange cycle and demonstrate ethical service presentation: Demonstrate consultative selling techniques that prioritize long term consumer trust over quotas."
       },
       "quiz_item": {
         "scenario_prompt": "In ethical, customer-focused salesmanship, what is the primary goal when asking questions and listening to a prospective buyer?",
@@ -667,7 +667,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "When touring manufacturing facilities or workshops to inspect product construction, wear safety glasses and stay within designated visitor walkways.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
       "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -735,14 +735,10 @@
         "Step 3 - Construction Method Evaluation: Inspect product manufacturing assembly steps to explain structural durability to prospective purchasers.",
         "Step 4 - Follow Up Protocol Creation: Draft scheduled post-delivery customer satisfaction checklists to address operational issues immediately."
       ],
-      "gear_checklist": [
-        "Official Salesmanship Merit Badge: It is important for a salesperson.",
-        "Field notebook, verification log sheet, and demonstration materials for It is important for a salesperson.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Consumer Market Research",
-        "right_header": "Req 2c: Manufacturing Tour and Service",
+        "left_header": "Req 2a: Consumer Market Research Strategy",
+        "right_header": "Req 2c: Manufacturing Tour and Service Benefits",
         "left_points": [
           "(2a) Consumer Market Research Strategy: Market research gathers quantitative demographic data and qualitative customer preferences to evaluate competitive positioning. Analyzing buyer trends protects companies from investing production capital into unviable merchandise concepts.",
           "(2b) Technical Product Specification Mastery: Sales representatives must master every dimension, material component, and operating characteristic of their catalog items. Clear technical command prevents misleading representations and establishes immediate sales authority."
@@ -764,22 +760,22 @@
           },
           {
             "attribute": "Manufacturing Facility Inspection",
-            "left": "Req 2a: Consumer Market Research: Market research gathers quantitative demographic data and qualitative customer preferences to evaluate competitive positioning. Analyzing buyer trends protects companies from investing production capital into unviable merchandise concepts.",
-            "right": "Req 2b: Technical Product: Sales representatives must master every dimension, material component, and operating characteristic of their catalog items. Clear technical command prevents misleading representations and establishes immediate sales authority."
+            "left": "Manufacturing Facility Inspection: Touring production assembly lines reveals precise material quality standards and craftsmanship details.",
+            "right": "Post Purchase Assurance: Proactive follow up calls confirm product performance and maintain positive buyer sentiment."
           }
         ]
       },
       "worked_example": {
-        "title": "Salesmanship Req 2 Exemplar Workbook Entry: Market",
+        "title": "Salesmanship Req 2 Worked Example: Market Research and Product Knowledge",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Consumer Market Research": "Market research gathers quantitative demographic data and qualitative customer preferences to evaluate competitive positioning. Analyzing buyer trends protects companies from investing production capital into unviable merchandise concepts.",
-          "Req 2b - Technical Product": "Sales representatives must master every dimension, material component, and operating characteristic of their catalog items. Clear technical command prevents misleading representations and establishes immediate sales authority.",
-          "Req 2c - Manufacturing Tour": "Observing production machinery and craftsmanship standards provides tangible evidence of physical product durability. For intangible services, representatives must clearly articulate operational time savings and direct financial returns.",
-          "Req 2d - Customer Post Purchase Follow": "Systematic post-sale engagement resolves customer operational confusion and verifies that merchandise meets expected performance standards. Prompt resolution of early buyer friction establishes customer loyalty and stimulates referral business."
+          "Phase 1 - Demographic Profile Analysis": "Identify specific household income brackets and shopping preferences within designated local territories.",
+          "Phase 2 - Technical Specification Review": "Study manufacturer product manuals to understand operational limits and exact component materials.",
+          "Phase 3 - Construction Method Evaluation": "Inspect product manufacturing assembly steps to explain structural durability to prospective purchasers.",
+          "Phase 4 - Follow Up Protocol Creation": "Draft scheduled post-delivery customer satisfaction checklists to address operational issues immediately."
         },
-        "sample_output": "Market Research and Product Knowledge: As a salesperson, your company'sbusiness is your business to know thoroughly (p. 12).",
-        "counselor_tip": "For Salesmanship Requirement 2 (Market Research and Product Knowledge), verify the Scout's own observations and specific pamphlet details (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16))."
+        "sample_output": "Comprehensive market analysis ensures that offered merchandise directly matches prevailing target audience specifications and budget expectations. Thorough product mastery enables sales representatives to articulate functional advantages and resolve technical buyer concerns confidently.",
+        "counselor_tip": "During the Salesmanship Requirement 2 conference on Market Research and Product Knowledge, verify that the Scout can explain target demographic study and demonstrate follow up protocol creation: Draft scheduled post-delivery customer satisfaction checklists to address operational issues immediately."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Salesmanship merit badge pamphlet recommend visiting the factory where a product is made when practical?",
@@ -867,7 +863,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "When mapping and walking a sales territory, maintain situational awareness of roadway traffic, sidewalk hazards, and local weather alerts.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26)",
       "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26)",
       "syllabus_bucket": "In-Class Concept",
@@ -931,47 +927,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Writing Initial Plan Ideas",
-        "right_header": "Req 3: Choose Your Marketing Channels",
+        "left_header": "Territory Sales Plan Development: Core Principles",
+        "right_header": "Territory Sales Plan Development: Field Execution",
         "left_points": [
-          "Writing Initial Plan Ideas: To develop a top-notch sales plan for your product or service, start by writing down your thoughts (p. 22).",
-          "Defining the Target Market: Then write down details about the market, the specific group of people, you are targeting (p. 22).",
-          "Selecting Marketing Channels: Decide how you plan to market your product, by advertising, word-of-mouth, mail, phone, or the internet, for instance (p. 22)."
+          "Territory Boundary Definition: Geographic sector boundaries establish clear sales call limits for designated company representatives.",
+          "Prospect Pipeline Organization: Structured lead logs record potential client contact details and anticipated purchase timelines."
         ],
         "right_points": [
-          "Choose Your Marketing Channels: Decide how you plan to market your product, by advertising, word-of-mouth, mail, phone, or the internet, for instance (p. 22).",
-          "Draft a Catchy Sales Hook: Perhaps you can think of an unusual sales hook or a catchy slogan to increase product awareness and recognition (p. 22).",
-          "Design Your Core Sales Strategy: Give your sales strategy careful thought, because it will set the course for your business (p. 22)."
+          "Route Efficiency Planning: Grouping customer visits by neighborhood minimizes daily transit travel time between appointments.",
+          "Sales Goal Benchmarking: Measurable weekly quotas motivate sales representatives and track territory account acquisition progress."
         ],
         "rows": [
           {
             "attribute": "Territory Boundary Definition",
-            "left": "Writing Initial Plan Ideas: To develop a top-notch sales plan for your product or service, start by writing down your thoughts (p. 22).",
-            "right": "Choose Your Marketing Channels: Decide how you plan to market your product, by advertising, word-of-mouth, mail, phone, or the internet, for instance (p. 22)."
+            "left": "Territory Boundary Definition: Geographic sector boundaries establish clear sales call limits for designated company representatives.",
+            "right": "Route Efficiency Planning: Grouping customer visits by neighborhood minimizes daily transit travel time between appointments."
           },
           {
             "attribute": "Prospect Pipeline Organization",
-            "left": "Defining the Target Market: Then write down details about the market, the specific group of people, you are targeting (p. 22).",
-            "right": "Draft a Catchy Sales Hook: Perhaps you can think of an unusual sales hook or a catchy slogan to increase product awareness and recognition (p. 22)."
+            "left": "Prospect Pipeline Organization: Structured lead logs record potential client contact details and anticipated purchase timelines.",
+            "right": "Sales Goal Benchmarking: Measurable weekly quotas motivate sales representatives and track territory account acquisition progress."
           },
           {
             "attribute": "Route Efficiency Planning",
-            "left": "Selecting Marketing Channels: Decide how you plan to market your product, by advertising, word-of-mouth, mail, phone, or the internet, for instance (p. 22).",
-            "right": "Design Your Core Sales Strategy: Give your sales strategy careful thought, because it will set the course for your business (p. 22)."
+            "left": "Route Efficiency Planning: Grouping customer visits by neighborhood minimizes daily transit travel time between appointments.",
+            "right": "Sales Goal Benchmarking: Measurable weekly quotas motivate sales representatives and track territory account acquisition progress."
           }
         ]
       },
       "worked_example": {
-        "title": "Salesmanship Req 3 Exemplar Workbook Entry: Developing",
+        "title": "Salesmanship Req 3 Worked Example: Territory Sales Plan Development",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Writing Initial Plan Ideas": "To develop a top-notch sales plan for your product or service, start by writing down your thoughts (p. 22).",
-          "Defining the Target Market": "Then write down details about the market, the specific group of people, you are targeting (p. 22).",
-          "Selecting Marketing Channels": "Decide how you plan to market your product, by advertising, word-of-mouth, mail, phone, or the internet, for instance (p. 22).",
-          "Creating Hooks and Slogans": "Perhaps you can think of an unusual sales hook or a catchy slogan to increase product awareness and recognition (p. 22)."
+          "Phase 1 - Territory Geographic Mapping": "Outline neighborhood sector boundaries on regional road maps to establish travel perimeters.",
+          "Phase 2 - Prospect Lead Generation": "Compile directory listings of qualified retail establishments seeking the assigned commercial product.",
+          "Phase 3 - Call Schedule Organization": "Plot weekly appointment itineraries to ensure efficient vehicular transit between prospective accounts.",
+          "Phase 4 - Counselor Strategy Presentation": "Deliver the written territory action plan to the counselor for strategic feedback."
         },
-        "sample_output": "Developing a Territory Sales Plan: To develop a top-notch sales plan for your product or service, start by writing down your thoughts (p. 22).",
-        "counselor_tip": "For Salesmanship Requirement 3 (Developing a Territory Sales Plan), verify the Scout's own observations and specific pamphlet details (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 22, p. 26))."
+        "sample_output": "A structured territory sales plan outlines demographic quotas, routing logistics, and promotional strategies for a specific geographic sector. Sales professionals track prospective client leads and schedule systematic sales calls to maximize daily contact productivity.",
+        "counselor_tip": "During the Salesmanship Requirement 3 conference on Territory Sales Plan Development, verify that the Scout can explain territory boundary definition and demonstrate counselor strategy presentation: Deliver the written territory action plan to the counselor for strategic feedback."
       },
       "quiz_item": {
         "scenario_prompt": "Which elements must you examine when writing a sales plan for an assigned product and territory?",
@@ -1059,7 +1053,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure demonstration merchandise is inspected for sharp edges or electrical faults before handing items to prospects.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 26, p. 28)",
       "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 26, p. 28)",
       "syllabus_bucket": "In-Class Concept",
@@ -1123,47 +1117,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Presentation Planning Checklist",
-        "right_header": "Req 4: Brainstorm Key Product Facts",
+        "left_header": "Product Presentation and Demonstration Execution: Core Principles",
+        "right_header": "Product Presentation and Demonstration Execution: Field Execution",
         "left_points": [
-          "Presentation Planning Checklist: The Magazine for Teen Entrepreneurs* suggests the following checklist to guide you through the steps of planning and delivering a winning (p. 26).",
-          "Setting a Controlling Purpose: Set a goal for your presentation. ■ \u0007Determine who your customer is (in this case, your counselor) and where you will meet. ■ \u0007Set a controlling purpose (p. 26).",
-          "Brainstorming Key Facts: What do you want the customer to do? ■ \u0007Brainstorm a list of ideas and facts you want to communicate (p. 26)."
+          "Engaging Attention Opening: Opening statements should highlight common customer operational challenges rather than direct pitching.",
+          "Interactive Feature Demonstration: Allowing prospective buyers to operate sample merchandise builds immediate personal ownership interest."
         ],
         "right_points": [
-          "Brainstorm Key Product Facts: What do you want the customer to do? ■ \u0007Brainstorm a list of ideas and facts you want to communicate (p. 26).",
-          "Ask What Else Buyers Need: Find out how you are doing with the sales presentation by asking, \"What else do you need to know?\" Keep asking for and answering questions until the customer (p. 26).",
-          "State Specific Customer Solutions: Reassure the customer that you have the right solution by stating specifically how you can help (p. 26)."
+          "Constructive Objection Handling: Rephrasing customer pricing hesitations acknowledges genuine concerns while clarifying long-term durability value.",
+          "Trial Close Technique: Asking confirmation questions throughout the demonstration measures customer readiness to purchase merchandise."
         ],
         "rows": [
           {
             "attribute": "Engaging Attention Opening",
-            "left": "Presentation Planning Checklist: The Magazine for Teen Entrepreneurs* suggests the following checklist to guide you through the steps of planning and delivering a winning (p. 26).",
-            "right": "Brainstorm Key Product Facts: What do you want the customer to do? ■ \u0007Brainstorm a list of ideas and facts you want to communicate (p. 26)."
+            "left": "Engaging Attention Opening: Opening statements should highlight common customer operational challenges rather than direct pitching.",
+            "right": "Constructive Objection Handling: Rephrasing customer pricing hesitations acknowledges genuine concerns while clarifying long-term durability value."
           },
           {
             "attribute": "Interactive Feature Demonstration",
-            "left": "Setting a Controlling Purpose: Set a goal for your presentation. ■ \u0007Determine who your customer is (in this case, your counselor) and where you will meet. ■ \u0007Set a controlling purpose (p. 26).",
-            "right": "Ask What Else Buyers Need: Find out how you are doing with the sales presentation by asking, \"What else do you need to know?\" Keep asking for and answering questions until the customer (p. 26)."
+            "left": "Interactive Feature Demonstration: Allowing prospective buyers to operate sample merchandise builds immediate personal ownership interest.",
+            "right": "Trial Close Technique: Asking confirmation questions throughout the demonstration measures customer readiness to purchase merchandise."
           },
           {
             "attribute": "Constructive Objection Handling",
-            "left": "Brainstorming Key Facts: What do you want the customer to do? ■ \u0007Brainstorm a list of ideas and facts you want to communicate (p. 26).",
-            "right": "State Specific Customer Solutions: Reassure the customer that you have the right solution by stating specifically how you can help (p. 26)."
+            "left": "Constructive Objection Handling: Rephrasing customer pricing hesitations acknowledges genuine concerns while clarifying long-term durability value.",
+            "right": "Trial Close Technique: Asking confirmation questions throughout the demonstration measures customer readiness to purchase merchandise."
           }
         ]
       },
       "worked_example": {
-        "title": "Salesmanship Req 4 Exemplar Workbook Entry: Delivering",
+        "title": "Salesmanship Req 4 Worked Example: Product Presentation and Demonstration Execution",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Presentation Planning Checklist": "The Magazine for Teen Entrepreneurs* suggests the following checklist to guide you through the steps of planning and delivering a winning (p. 26).",
-          "Setting a Controlling Purpose": "Set a goal for your presentation. ■ \u0007Determine who your customer is (in this case, your counselor) and where you will meet. ■ \u0007Set a controlling purpose (p. 26).",
-          "Brainstorming Key Facts": "What do you want the customer to do? ■ \u0007Brainstorm a list of ideas and facts you want to communicate (p. 26).",
-          "Checking Buyer Understanding": "Find out how you are doing with the sales presentation by asking, \"What else do you need to know?\" Keep asking for and answering questions until the customer (p. 26)."
+          "Phase 1 - Needs Discovery Interview": "Ask targeted operational questions to uncover specific buyer pain points before presenting.",
+          "Phase 2 - Core Benefit Demonstration": "Display key merchandise features that directly solve the identified buyer operational difficulties.",
+          "Phase 3 - Value Based Objection Answering": "Address price resistance by contrasting initial investment expense against extended equipment lifespan.",
+          "Phase 4 - Agreement Request Closing": "Propose a clear order quantity and invite the prospective customer to finalize purchase terms."
         },
-        "sample_output": "Delivering a Winning Sales Presentation: The Magazine for Teen Entrepreneurs* suggests the following checklist to guide you through the steps of planning and delivering a winning (p. 26).",
-        "counselor_tip": "For Salesmanship Requirement 4 (Delivering a Winning Sales Presentation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 26, p. 28))."
+        "sample_output": "An effective sales presentation follows a logical progression from customer greeting and needs assessment to hands-on feature demonstrations. Salespeople anticipate customer objections calmly and explain product benefits clearly to secure buying agreements.",
+        "counselor_tip": "During the Salesmanship Requirement 4 conference on Product Presentation and Demonstration Execution, verify that the Scout can explain engaging attention opening and demonstrate agreement request closing: Propose a clear order quantity and invite the prospective customer to finalize purchase terms."
       },
       "quiz_item": {
         "scenario_prompt": "During a sales presentation, what should you do even if you know the customer is talking to other salespeople or wants to see a proposal first?",
@@ -1448,7 +1440,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "When selling merchandise or performing services in neighborhoods, always work with an adult or Scout buddy, avoid entering private homes, and deposit collected funds promptly.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)",
       "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1516,19 +1508,17 @@
         "Step 3 - Sales Technique Application: Implement consultative questioning and clear value presentations during live prospective customer encounters.",
         "Step 4 - Experience Review Debrief: Present complete financial accounting records and customer interaction reflections to the counselor."
       ],
-      "gear_checklist": [
-        "Official Salesmanship Merit Badge: Help Your Unit Raise Funds & Sell Your Services.",
-        "Field notebook, verification log sheet, and demonstration materials for Help Your Unit Raise Funds & Sell Your Services.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 5a: Unit Event Fundraising Sales",
-        "right_header": "Req 5b: Neighborhood Service Venture",
+        "right_header": "Req 5b: Neighborhood Service Venture Sales",
         "left_points": [
-          "(5a) Unit Event Fundraising Sales: Youth fundraising campaigns generate operating capital for unit campouts, equipment purchases, and community service projects. Scouts apply organized territory canvassing and professional presentation habits to secure neighborhood support."
+          "(5a) Unit Event Fundraising Sales: Youth fundraising campaigns generate operating capital for unit campouts, equipment purchases, and community service projects. Scouts apply organized territory canvassing and professional presentation habits to secure neighborhood support.",
+          "Cost Accounting Ledger: Accurate ledgers track wholesale inventory expenses against retail customer payments systematically."
         ],
         "right_points": [
-          "(5b) Neighborhood Service Venture Sales: Selling personal labor such as lawn care, car washing, or snow removal requires establishing clear service boundaries and fair hourly pricing. Conducting follow-up visits ensures client satisfaction and solidifies recurring neighborhood service agreements."
+          "(5b) Neighborhood Service Venture Sales: Selling personal labor such as lawn care, car washing, or snow removal requires establishing clear service boundaries and fair hourly pricing. Conducting follow-up visits ensures client satisfaction and solidifies recurring neighborhood service agreements.",
+          "(5c) Retail Storefront Sales Operations: Retail sales environments require active customer greeting, merchandise knowledge, and efficient point-of-sale checkout operation. Associates maintain visual store displays and answer consumer inquiries to maximize daily storefront sales volume."
         ],
         "rows": [
           {
@@ -1538,26 +1528,27 @@
           },
           {
             "attribute": "Customer Value Proposition",
-            "left": "Req 5a: Unit Event Fundraising Sales: Youth fundraising campaigns generate operating capital for unit campouts, equipment purchases, and community service projects. Scouts apply organized territory canvassing and professional presentation habits to secure neighborhood support.",
-            "right": "Req 5b: Neighborhood Service Venture: Selling personal labor such as lawn care, car washing, or snow removal requires establishing clear service boundaries and fair hourly pricing. Conducting follow-up visits ensures client satisfaction and solidifies recurring neighborhood service agreements."
+            "left": "Cost Accounting Ledger: Accurate ledgers track wholesale inventory expenses against retail customer payments systematically.",
+            "right": "(5c) Retail Storefront Sales Operations: Retail sales environments require active customer greeting, merchandise knowledge, and efficient point-of-sale checkout operation. Associates maintain visual store displays and answer consumer inquiries to maximize daily storefront sales volume."
           },
           {
             "attribute": "Service Scope Definition",
-            "left": "Req 5c: Retail Storefront Sales: Retail sales environments require active customer greeting, merchandise knowledge, and efficient point-of-sale checkout operation. Associates maintain visual store displays and answer consumer inquiries to maximize daily storefront sales volume.",
-            "right": "Customer Value Proposition: Clearly articulating youth activity goals inspires community neighbors to support troop fundraisers."
+            "left": "Service Scope Definition: Documenting exact lawn maintenance boundaries prevents customer disputes upon task completion.",
+            "right": "Retail Inventory Replenishment: Restocking retail merchandise shelves ensures popular consumer items remain available for shoppers."
           }
         ]
       },
       "worked_example": {
-        "title": "Salesmanship Req 5 Exemplar Workbook Entry: Practical",
+        "title": "Salesmanship Req 5 Worked Example: Field Sales Campaign Execution",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 5a - Unit Event Fundraising Sales": "Youth fundraising campaigns generate operating capital for unit campouts, equipment purchases, and community service projects. Scouts apply organized territory canvassing and professional presentation habits to secure neighborhood support.",
-          "Req 5b - Neighborhood Service Venture": "Selling personal labor such as lawn care, car washing, or snow removal requires establishing clear service boundaries and fair hourly pricing. Conducting follow-up visits ensures client satisfaction and solidifies recurring neighborhood service agreements.",
-          "Req 5c - Retail Storefront Sales": "Retail sales environments require active customer greeting, merchandise knowledge, and efficient point-of-sale checkout operation. Associates maintain visual store displays and answer consumer inquiries to maximize daily storefront sales volume."
+          "Phase 1 - Campaign Option Selection": "Choose between unit troop fundraising, neighborhood service offerings, or retail store employment.",
+          "Phase 2 - Financial Ledger Setup": "Create detailed income and expense ledgers to track wholesale costs, retail pricing, and receipts.",
+          "Phase 3 - Sales Technique Application": "Implement consultative questioning and clear value presentations during live prospective customer encounters.",
+          "Phase 4 - Experience Review Debrief": "Present complete financial accounting records and customer interaction reflections to the counselor."
         },
-        "sample_output": "Practical Selling and Cost Records: Let's say you have decided to help your troop raise funds by selling lawn fertilizer in the spring and fall (p. 30).",
-        "counselor_tip": "For Salesmanship Requirement 5 (Practical Selling and Cost Records), verify the Scout's own observations and specific pamphlet details (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37))."
+        "sample_output": "Direct participation in fundraising campaigns, personal service ventures, or retail employment provides practical sales experience under authentic commercial conditions. Accurate bookkeeping tracks inventory acquisition costs, gross receipts, and net revenue to evaluate financial performance.",
+        "counselor_tip": "During the Salesmanship Requirement 5 conference on Field Sales Campaign Execution, verify that the Scout can explain cost accounting ledger and demonstrate experience review debrief: Present complete financial accounting records and customer interaction reflections to the counselor."
       },
       "quiz_item": {
         "scenario_prompt": "When a Scout troop plans a merchandise fund raiser such as selling lawn fertilizer, why do the Scouts research prices in local retail stores first?",
@@ -2356,7 +2347,7 @@
       "action_verb": "Discuss",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct professional interviews in public business offices, virtual conference rooms, or troop meeting spaces under the two-deep leadership policy.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2424,19 +2415,17 @@
         "Step 3 - Structured Dialogue Execution: Conduct the scheduled interview while taking comprehensive notes regarding key trade practices described.",
         "Step 4 - Synthesis Insight Reporting: Summarize interview findings and contrast vendor sales strategies during counselor badge discussions."
       ],
-      "gear_checklist": [
-        "Official Salesmanship Merit Badge: Salesmanship Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Salesmanship Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Sales Representative Career",
+        "left_header": "Req 6a: Sales Representative Career Interview",
         "right_header": "Req 6b: Retail Store Owner Interview",
         "left_points": [
-          "(6a) Sales Representative Career Interview: Interviewing a field sales representative provides insights into daily prospecting routines, territory travel demands, and client communication practices. Scouts learn how professional sellers cultivate resilience and refine consultative approaches over multi-year commercial careers."
+          "(6a) Sales Representative Career Interview: Interviewing a field sales representative provides insights into daily prospecting routines, territory travel demands, and client communication practices. Scouts learn how professional sellers cultivate resilience and refine consultative approaches over multi-year commercial careers.",
+          "Career Motivation Discovery: Field interviews uncover personal motivations and career development pathways in commercial sales."
         ],
         "right_points": [
-          "(6b) Retail Store Owner Interview: Interviewing a retail proprietor highlights how store owners evaluate visiting wholesale vendor representatives seeking shelf space. The discussion illuminates what packaging, pricing margins, and vendor support services make products commercially viable."
+          "(6b) Retail Store Owner Interview: Interviewing a retail proprietor highlights how store owners evaluate visiting wholesale vendor representatives seeking shelf space. The discussion illuminates what packaging, pricing margins, and vendor support services make products commercially viable.",
+          "Wholesale Vendor Interaction: Retail merchants evaluate sales representatives on catalog reliability, product margins, and support."
         ],
         "rows": [
           {
@@ -2446,25 +2435,27 @@
           },
           {
             "attribute": "Customer Communication Priorities",
-            "left": "Req 6a: Sales Representative Career: Interviewing a field sales representative provides insights into daily prospecting routines, territory travel demands, and client communication practices. Scouts learn how professional sellers cultivate resilience and refine consultative approaches over multi-year commercial careers.",
-            "right": "Req 6b: Retail Store Owner Interview: Interviewing a retail proprietor highlights how store owners evaluate visiting wholesale vendor representatives seeking shelf space. The discussion illuminates what packaging, pricing margins, and vendor support services make products commercially viable."
+            "left": "Career Motivation Discovery: Field interviews uncover personal motivations and career development pathways in commercial sales.",
+            "right": "Wholesale Vendor Interaction: Retail merchants evaluate sales representatives on catalog reliability, product margins, and support."
           },
           {
             "attribute": "Wholesale Vendor Interaction",
-            "left": "Career Motivation Discovery: Field interviews uncover personal motivations and career development pathways in commercial sales.",
-            "right": "Customer Communication Priorities: Active listening and honest communication consistently rank as essential sales professional traits."
+            "left": "Wholesale Vendor Interaction: Retail merchants evaluate sales representatives on catalog reliability, product margins, and support.",
+            "right": "Representative Professionalism Standard: Dependable delivery schedules and prompt complaint resolution separate elite vendor representatives."
           }
         ]
       },
       "worked_example": {
-        "title": "Salesmanship Req 6 Exemplar Workbook Entry: Professional",
+        "title": "Salesmanship Req 6 Worked Example: Sales Professional Field Interviews",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 6a - Sales Representative Career": "Interviewing a field sales representative provides insights into daily prospecting routines, territory travel demands, and client communication practices. Scouts learn how professional sellers cultivate resilience and refine consultative approaches over multi-year commercial careers.",
-          "Req 6b - Retail Store Owner Interview": "Interviewing a retail proprietor highlights how store owners evaluate visiting wholesale vendor representatives seeking shelf space. The discussion illuminates what packaging, pricing margins, and vendor support services make products commercially viable."
+          "Phase 1 - Interviewee Outreach": "Contact a professional salesperson or retail store manager to arrange an informational interview.",
+          "Phase 2 - Discussion Question Formulation": "Prepare structured inquiry lists addressing career motivations, customer communication, and sales distribution.",
+          "Phase 3 - Structured Dialogue Execution": "Conduct the scheduled interview while taking comprehensive notes regarding key trade practices described.",
+          "Phase 4 - Synthesis Insight Reporting": "Summarize interview findings and contrast vendor sales strategies during counselor badge discussions."
         },
-        "sample_output": "Professional Sales and Retail Interviews: Are they honest? sales Someone who company that manufactures 4 (p. 39).",
-        "counselor_tip": "For Salesmanship Requirement 6 (Professional Sales and Retail Interviews), verify the Scout's own observations and specific pamphlet details (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40))."
+        "sample_output": "Structured informational interviews reveal the career motivations, relationship skills, and daily routines required in professional commercial selling. Comparing perspectives between outside sales representatives and retail store managers illustrates varied distribution channel dynamics.",
+        "counselor_tip": "During the Salesmanship Requirement 6 conference on Sales Professional Field Interviews, verify that the Scout can explain career motivation discovery and demonstrate synthesis insight reporting: Summarize interview findings and contrast vendor sales strategies during counselor badge discussions."
       },
       "quiz_item": {
         "scenario_prompt": "When interviewing a retail store owner about the wholesale sales representatives who service their business, which factor is a primary concern?",
@@ -2706,7 +2697,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "When researching sales careers online or corresponding with recruiters, safeguard personal identity data and never share financial information.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)",
       "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2774,19 +2765,17 @@
         "Step 3 - Education Pathway Mapping: Identify college degree concentrations, technical certifications, and corporate training programs supporting sales.",
         "Step 4 - Counselor Career Conference: Review the written qualifications statement and educational development goals with the counselor."
       ],
-      "gear_checklist": [
-        "Official Salesmanship Merit Badge: Salesmanship Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Salesmanship Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Written Qualifications Statement",
-        "right_header": "Req 7b: Sales Training and Education",
+        "left_header": "Req 7a: Written Qualifications Statement Preparation",
+        "right_header": "Req 7b: Sales Training and Education Preparation",
         "left_points": [
-          "(7a) Written Qualifications Statement Preparation: Creating a written statement of qualifications documents personal sales aptitude, scholastic performance, and extracurricular leadership roles. Framing Scouting achievements and public speaking experiences highlights practical readiness for commercial representation."
+          "(7a) Written Qualifications Statement Preparation: Creating a written statement of qualifications documents personal sales aptitude, scholastic performance, and extracurricular leadership roles. Framing Scouting achievements and public speaking experiences highlights practical readiness for commercial representation.",
+          "Qualification Inventory Drafting: Compiling school coursework, leadership offices, and merit badges highlights core career competencies."
         ],
         "right_points": [
-          "(7b) Sales Training and Education Preparation: Investigating academic coursework in business management, speech communication, and data analytics reveals key knowledge areas needed for commercial advancement. Ongoing professional mentoring, sales seminars, and corporate shadowing programs build practical consultative expertise."
+          "(7b) Sales Training and Education Preparation: Investigating academic coursework in business management, speech communication, and data analytics reveals key knowledge areas needed for commercial advancement. Ongoing professional mentoring, sales seminars, and corporate shadowing programs build practical consultative expertise.",
+          "Professional Development Seminars: Corporate sales training programs teach advanced negotiation frameworks, CRM software, and compliance."
         ],
         "rows": [
           {
@@ -2796,25 +2785,27 @@
           },
           {
             "attribute": "Educational Foundation Review",
-            "left": "Req 7a: Written Qualifications: Creating a written statement of qualifications documents personal sales aptitude, scholastic performance, and extracurricular leadership roles. Framing Scouting achievements and public speaking experiences highlights practical readiness for commercial representation.",
-            "right": "Req 7b: Sales Training and Education: Investigating academic coursework in business management, speech communication, and data analytics reveals key knowledge areas needed for commercial advancement. Ongoing professional mentoring, sales seminars, and corporate shadowing programs build practical consultative expertise."
+            "left": "Qualification Inventory Drafting: Compiling school coursework, leadership offices, and merit badges highlights core career competencies.",
+            "right": "Professional Development Seminars: Corporate sales training programs teach advanced negotiation frameworks, CRM software, and compliance."
           },
           {
             "attribute": "Professional Development Seminars",
-            "left": "Qualification Inventory Drafting: Compiling school coursework, leadership offices, and merit badges highlights core career competencies.",
-            "right": "Educational Foundation Review: Business administration, communications, and psychology courses provide strong foundational preparation for sales."
+            "left": "Professional Development Seminars: Corporate sales training programs teach advanced negotiation frameworks, CRM software, and compliance.",
+            "right": "Industry Specialization Analysis: Technical sales positions often demand specialized engineering degrees alongside interpersonal presentation capabilities."
           }
         ]
       },
       "worked_example": {
-        "title": "Salesmanship Req 7 Exemplar Workbook Entry: Exploring",
+        "title": "Salesmanship Req 7 Worked Example: Sales Career Pathway Exploration",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Written Qualifications": "Creating a written statement of qualifications documents personal sales aptitude, scholastic performance, and extracurricular leadership roles. Framing Scouting achievements and public speaking experiences highlights practical readiness for commercial representation.",
-          "Req 7b - Sales Training and Education": "Investigating academic coursework in business management, speech communication, and data analytics reveals key knowledge areas needed for commercial advancement. Ongoing professional mentoring, sales seminars, and corporate shadowing programs build practical consultative expertise."
+          "Phase 1 - Career Opportunity Research": "Investigate various sales sectors including industrial supply, enterprise software, and consumer goods.",
+          "Phase 2 - Qualifications Statement": "Write a professional summary highlighting communication skills, academic achievements, and leadership experiences.",
+          "Phase 3 - Education Pathway Mapping": "Identify college degree concentrations, technical certifications, and corporate training programs supporting sales.",
+          "Phase 4 - Counselor Career Conference": "Review the written qualifications statement and educational development goals with the counselor."
         },
-        "sample_output": "Exploring Careers in Professional Sales: As you research sales career opportunities, check the classified ads in the newspaper (p. 42).",
-        "counselor_tip": "For Salesmanship Requirement 7 (Exploring Careers in Professional Sales), verify the Scout's own observations and specific pamphlet details (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43))."
+        "sample_output": "Evaluating commercial sales careers highlights diverse opportunities across industrial manufacturing, technological services, financial planning, and wholesale distribution sectors. Developing formal qualification summaries and academic preparation roadmaps equips candidates for competitive sales internships and entry-level positions.",
+        "counselor_tip": "During the Salesmanship Requirement 7 conference on Sales Career Pathway Exploration, verify that the Scout can explain qualification inventory drafting and demonstrate counselor career conference: Review the written qualifications statement and educational development goals with the counselor."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Salesmanship merit badge pamphlet, how can you begin researching sales career opportunities with companies that interest you?",

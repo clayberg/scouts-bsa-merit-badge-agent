@@ -438,8 +438,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Driver Distraction Hazard",
-        "right_header": "Req 1c: Fatigued Driver Prevention",
+        "left_header": "Req 1a: Driver Distraction Hazard Controls",
+        "right_header": "Req 1c: Fatigued Driver Prevention Planning",
         "left_points": [
           "(1a) Driver Distraction Hazard Controls: Distracted driving encompasses visual, manual, and cognitive diversions that pull attention from the roadway environment. Safe operation requires eliminating interior cab interruptions, passenger noise, and electronic device manipulations before departure.",
           "(1b) Substance Impairment Risk Factors: Substance impairment alters reaction velocity, depth evaluation, and risk judgment across all driving conditions. Alcohol, illicit narcotics, and common over-the-counter medications depress central nervous system functions needed for emergency maneuvers."
@@ -461,22 +461,22 @@
           },
           {
             "attribute": "Manual Interference",
-            "left": "Req 1a: Driver Distraction Hazard: Distracted driving encompasses visual, manual, and cognitive diversions that pull attention from the roadway environment. Safe operation requires eliminating interior cab interruptions, passenger noise, and electronic device manipulations before departure.",
-            "right": "Req 1b: Substance Impairment Risk: Substance impairment alters reaction velocity, depth evaluation, and risk judgment across all driving conditions. Alcohol, illicit narcotics, and common over-the-counter medications depress central nervous system functions needed for emergency maneuvers."
+            "left": "Manual Interference: Removing hands from the steering wheel severely delays emergency steering maneuvers.",
+            "right": "Cabin Management: Pre-programming navigation systems before moving prevents dangerous manual adjustments during transit."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 1 Exemplar Workbook Entry: Preventing",
+        "title": "Traffic Safety Req 1 Worked Example: Driver Impairment Prevention Fundamentals",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Driver Distraction Hazard": "Distracted driving encompasses visual, manual, and cognitive diversions that pull attention from the roadway environment. Safe operation requires eliminating interior cab interruptions, passenger noise, and electronic device manipulations before departure.",
-          "Req 1b - Substance Impairment Risk": "Substance impairment alters reaction velocity, depth evaluation, and risk judgment across all driving conditions. Alcohol, illicit narcotics, and common over-the-counter medications depress central nervous system functions needed for emergency maneuvers.",
-          "Req 1c - Fatigued Driver Prevention": "Fatigued driving degrades driver vigilance, tracks straight-line drifting, and induces dangerous brief microsleep episodes. Long-distance trip planning requires structured two-hour break intervals, driver rotations, and adequate rest periods before departure.",
-          "Req 1d - Novice Driver Crash": "Novice drivers frequently experience collisions due to inexperience in gap judgment, hazard recognition, and speed management. Traffic citations and preventable collisions dramatically increase personal insurance policy premiums for multiple policy renewal cycles."
+          "Phase 1 - Secure Devices": "Place cellular phones inside closed vehicle consoles prior to ignition startup.",
+          "Phase 2 - Identify Hazards": "Catalog five common passenger distractions before driving onto public surface roads.",
+          "Phase 3 - Calculate Distances": "Compute distance traveled while glancing away from roadways at highway speeds.",
+          "Phase 4 - Establish Rules": "Create written passenger quiet agreements for high-traffic and adverse weather scenarios."
         },
-        "sample_output": "Preventing Distracted and Impaired Driving: However, even for the youngest drivers, alcohol-related crashes are a serious problem (p. 17).",
-        "counselor_tip": "For Traffic Safety Requirement 1 (Preventing Distracted and Impaired Driving), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 17, p. 23))."
+        "sample_output": "Operating a motor vehicle demands continuous visual tracking, manual control, and undivided cognitive decision-making. Driver impairment from electronic devices, fatigue, prescription pharmaceuticals, or alcohol substantially increases vehicle stopping distance and collision frequency.",
+        "counselor_tip": "During the Traffic Safety Requirement 1 conference on Driver Impairment Prevention Fundamentals, verify that the Scout can explain visual distraction and demonstrate establish rules: Create written passenger quiet agreements for high-traffic and adverse weather scenarios."
       },
       "quiz_item": {
         "scenario_prompt": "Why is texting or interacting with a smartphone while driving considered uniquely dangerous under traffic safety principles, and how should following distance be adjusted in rain?",
@@ -787,19 +787,17 @@
         "Step 3 - Test Latch: Tug firmly upward on latch plates to confirm positive mechanical lock.",
         "Step 4 - Inspect Headrests: Align center of head restraints level with the top of ears."
       ],
-      "gear_checklist": [
-        "Official Traffic Safety Merit Badge: Vehicle Safety.",
-        "Field notebook, verification log sheet, and demonstration materials for Vehicle Safety.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Occupant Restraint Installation",
+        "left_header": "Req 2a: Occupant Restraint Installation Standards",
         "right_header": "Req 2b: Motor Vehicle Safety Systems",
         "left_points": [
-          "(2a) Occupant Restraint Installation Standards: Proper seat belt geometry rests the lap webbing low across pelvic hip bones and crosses the chest midpoint. Incorrect belt positioning causes severe internal organ damage and spinal compression during high-speed decelerations."
+          "(2a) Occupant Restraint Installation Standards: Proper seat belt geometry rests the lap webbing low across pelvic hip bones and crosses the chest midpoint. Incorrect belt positioning causes severe internal organ damage and spinal compression during high-speed decelerations.",
+          "Pelvic Restraint: Lap belts must cross strong hip bones to prevent catastrophic abdominal crush injuries."
         ],
         "right_points": [
-          "(2b) Motor Vehicle Safety Systems: Automotive active and passive safety features extend beyond basic safety belts to protect occupants. Technologies such as crumple zones, backup cameras, tire pressure monitors, and antilock brakes mitigate crash severity."
+          "(2b) Motor Vehicle Safety Systems: Automotive active and passive safety features extend beyond basic safety belts to protect occupants. Technologies such as crumple zones, backup cameras, tire pressure monitors, and antilock brakes mitigate crash severity.",
+          "Supplemental Protection: Airbags deploy within milliseconds to cushion upper bodies during severe frontal impacts."
         ],
         "rows": [
           {
@@ -809,25 +807,27 @@
           },
           {
             "attribute": "Torso Anchor",
-            "left": "Req 2a: Occupant Restraint: Proper seat belt geometry rests the lap webbing low across pelvic hip bones and crosses the chest midpoint. Incorrect belt positioning causes severe internal organ damage and spinal compression during high-speed decelerations.",
-            "right": "Req 2b: Motor Vehicle Safety Systems: Automotive active and passive safety features extend beyond basic safety belts to protect occupants. Technologies such as crumple zones, backup cameras, tire pressure monitors, and antilock brakes mitigate crash severity."
+            "left": "Pelvic Restraint: Lap belts must cross strong hip bones to prevent catastrophic abdominal crush injuries.",
+            "right": "Supplemental Protection: Airbags deploy within milliseconds to cushion upper bodies during severe frontal impacts."
           },
           {
             "attribute": "Supplemental Protection",
-            "left": "Pelvic Restraint: Lap belts must cross strong hip bones to prevent catastrophic abdominal crush injuries.",
-            "right": "Torso Anchor: Shoulder straps distribute decelerating collision forces across sternum and rib cage bones."
+            "left": "Supplemental Protection: Airbags deploy within milliseconds to cushion upper bodies during severe frontal impacts.",
+            "right": "Stability Control: Sensors detect skid slides and apply individual brakes to restore vehicle directional heading."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 2 Exemplar Workbook Entry: Seat Belts",
+        "title": "Traffic Safety Req 2 Worked Example: Passenger Restraint Systems Evaluation",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Occupant Restraint": "Proper seat belt geometry rests the lap webbing low across pelvic hip bones and crosses the chest midpoint. Incorrect belt positioning causes severe internal organ damage and spinal compression during high-speed decelerations.",
-          "Req 2b - Motor Vehicle Safety Systems": "Automotive active and passive safety features extend beyond basic safety belts to protect occupants. Technologies such as crumple zones, backup cameras, tire pressure monitors, and antilock brakes mitigate crash severity."
+          "Phase 1 - Position Restraints": "Route the lap belt low across hip bones below abdominal tissues.",
+          "Phase 2 - Adjust Retractor": "Pull shoulder harness snug across the collarbone without neck contact rubbing.",
+          "Phase 3 - Test Latch": "Tug firmly upward on latch plates to confirm positive mechanical lock.",
+          "Phase 4 - Inspect Headrests": "Align center of head restraints level with the top of ears."
         },
-        "sample_output": "Seat Belts and Vehicle Safety Features: Research has shown that the chances of being killed are five times greater when the occupant is thrown from a vehicle (p. 37).",
-        "counselor_tip": "For Traffic Safety Requirement 2 (Seat Belts and Vehicle Safety Features), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 37, p. 38))."
+        "sample_output": "Modern three-point seat belts secure vehicle occupants across the pelvic girdle and chest cage during impact. Supplementary safety systems including electronic stability control, antilock braking, and side airbags function best when occupants are correctly restrained.",
+        "counselor_tip": "During the Traffic Safety Requirement 2 conference on Passenger Restraint Systems Evaluation, verify that the Scout can explain pelvic restraint and demonstrate inspect headrests: Align center of head restraints level with the top of ears."
       },
       "quiz_item": {
         "scenario_prompt": "According to traffic safety research cited in the pamphlet, how much does wearing a safety belt reduce the risk of serious injury and fatal injury in a crash?",
@@ -1401,13 +1401,9 @@
         "Step 3 - Read Plaque: Locate cold inflation pressures on the driver side door jamb sticker.",
         "Step 4 - Layout Distances: Stake reaction and braking distances using traffic cones on closed pavement."
       ],
-      "gear_checklist": [
-        "Official Traffic Safety Merit Badge: Auto Maintenance and Safety Checkups.",
-        "Field notebook, verification log sheet, and demonstration materials for Auto Maintenance and Safety Checkups.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Exterior Lighting Operational",
+        "left_header": "Req 3a: Exterior Lighting Operational Checks",
         "right_header": "Req 3c: Tire Pressure Tread Inspection",
         "left_points": [
           "(3a) Exterior Lighting Operational Checks: Vehicle exterior lamps communicate turning intentions, vehicle presence, and emergency stopping situations to neighboring motorists. Drivers must test headlight alignment, reverse lamps, turn signals, and hazard flashers from vehicle controls.",
@@ -1430,22 +1426,22 @@
           },
           {
             "attribute": "Pneumatic Inflation",
-            "left": "Req 3a: Exterior Lighting: Vehicle exterior lamps communicate turning intentions, vehicle presence, and emergency stopping situations to neighboring motorists. Drivers must test headlight alignment, reverse lamps, turn signals, and hazard flashers from vehicle controls.",
-            "right": "Req 3b: Windshield Vision: Visibility through automotive safety glass requires functional wiper linkages, intact rubber squeegee blades, and clean glass. The smear-and-clear diagnostic test validates wiper blade capability to clear moisture without leaving obscuring streaks."
+            "left": "Pneumatic Inflation: Measuring tire pressure cold prevents underinflated tires from generating dangerous internal friction heat.",
+            "right": "Tread Measurement: Inserting Lincoln pennies checks if grooves exceed two-thirty-seconds of an inch depth."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 3 Exemplar Workbook Entry: Vehicle",
+        "title": "Traffic Safety Req 3 Worked Example: Vehicle Safety Maintenance Procedures",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Exterior Lighting Operational": "Vehicle exterior lamps communicate turning intentions, vehicle presence, and emergency stopping situations to neighboring motorists. Drivers must test headlight alignment, reverse lamps, turn signals, and hazard flashers from vehicle controls.",
-          "Req 3b - Windshield Vision Maintenance": "Visibility through automotive safety glass requires functional wiper linkages, intact rubber squeegee blades, and clean glass. The smear-and-clear diagnostic test validates wiper blade capability to clear moisture without leaving obscuring streaks.",
-          "Req 3c - Tire Pressure Tread": "Correct tire pressure maximizes roadway contact patch friction and prevents catastrophic high-speed tire delamination blowouts. Tread depth evaluation using depth gauges or coin markers confirms adequate fluid drainage channels during rainstorms.",
-          "Req 3d - Emergency Tire Repair": "Safe roadside flat tire replacement requires an intact spare tire, rated vehicle jack, and lug wrench. Modern puncture sealant canisters offer temporary roadside mobility but require specific tire reinflation procedures and valve precautions."
+          "Phase 1 - Clean Lenses": "Wash all exterior lamp covers to ensure full light output transmission.",
+          "Phase 2 - Measure Depth": "Insert a penny into tire treads to verify adequate groove depth.",
+          "Phase 3 - Read Plaque": "Locate cold inflation pressures on the driver side door jamb sticker.",
+          "Phase 4 - Layout Distances": "Stake reaction and braking distances using traffic cones on closed pavement."
         },
-        "sample_output": "Vehicle Maintenance and Stopping Distances: Smear or spray the solution onto the windshield and turn on the wipers (p. 44).",
-        "counselor_tip": "For Traffic Safety Requirement 3 (Vehicle Maintenance and Stopping Distances), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47))."
+        "sample_output": "Routine pre-trip vehicle inspections identify failing lighting systems, worn tire treads, and degraded wiper components before road travel. Proper pneumatic tire pressures and clean optical glass surfaces directly minimize collision risks in hazardous conditions.",
+        "counselor_tip": "During the Traffic Safety Requirement 3 conference on Vehicle Safety Maintenance Procedures, verify that the Scout can explain optical clarity and demonstrate layout distances: Stake reaction and braking distances using traffic cones on closed pavement."
       },
       "quiz_item": {
         "scenario_prompt": "When testing a vehicle's windshield wipers with washer solution, how can you tell that the rubber wiper blades need to be replaced?",
@@ -1902,7 +1898,7 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 4a: Bicycle Vehicular Law Compliance",
-        "right_header": "Req 4c: Collision Response Reporting",
+        "right_header": "Req 4c: Collision Response Reporting Requirements",
         "left_points": [
           "(4a) Bicycle Vehicular Law Compliance: Bicycles operated on public rights-of-way are legally recognized vehicles subject to standardized vehicular traffic regulations. Both motorists and cyclists must obey traffic control signals, execute lane signaling, and observe crosswalk rules.",
           "(4b) Law Enforcement Stop Protocols: Traffic enforcement stops require drivers to decelerate safely, pull onto right shoulders, and silence vehicle electronics. Drivers should keep hands resting on steering wheels, illuminate cabin interiors at night, and await officer instructions."
@@ -1924,22 +1920,22 @@
           },
           {
             "attribute": "Crash Reporting",
-            "left": "Req 4a: Bicycle Vehicular Law: Bicycles operated on public rights-of-way are legally recognized vehicles subject to standardized vehicular traffic regulations. Both motorists and cyclists must obey traffic control signals, execute lane signaling, and observe crosswalk rules.",
-            "right": "Req 4b: Law Enforcement Stop: Traffic enforcement stops require drivers to decelerate safely, pull onto right shoulders, and silence vehicle electronics. Drivers should keep hands resting on steering wheels, illuminate cabin interiors at night, and await officer instructions."
+            "left": "Crash Reporting: Exchanging names, insurance carrier details, and registration documents is mandatory after vehicular collisions.",
+            "right": "Document Carriage: State laws mandate carrying physical or electronic driver licenses during all vehicle operations."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 4 Exemplar Workbook Entry: Traffic",
+        "title": "Traffic Safety Req 4 Worked Example: Motor Vehicle Traffic Regulations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Bicycle Vehicular Law": "Bicycles operated on public rights-of-way are legally recognized vehicles subject to standardized vehicular traffic regulations. Both motorists and cyclists must obey traffic control signals, execute lane signaling, and observe crosswalk rules.",
-          "Req 4b - Law Enforcement Stop": "Traffic enforcement stops require drivers to decelerate safely, pull onto right shoulders, and silence vehicle electronics. Drivers should keep hands resting on steering wheels, illuminate cabin interiors at night, and await officer instructions.",
-          "Req 4c - Collision Response Reporting": "Post-collision procedures mandate checking for injuries, requesting emergency dispatchers, and moving operational vehicles out of traffic. Involved parties must exchange identifying operator information, registration credentials, and insurance carrier policy data.",
-          "Req 4d - Required Motor Vehicle": "State vehicular codes require three core documents in vehicles: valid driver licenses, registration cards, and insurance. Failure to present authentic credentials to law officers results in statutory citations, fines, or vehicle impoundment."
+          "Phase 1 - Signal Pull": "Activate right turn signals and park on level roadside road shoulders.",
+          "Phase 2 - Place Hands": "Rest both hands atop steering wheel rims until instructed by officers.",
+          "Phase 3 - Retrieve Papers": "Present driver license, vehicle registration, and financial liability insurance proof calmly.",
+          "Phase 4 - Report Crashes": "Exchange vehicle identification numbers and contact details after rendering emergency aid."
         },
-        "sample_output": "Traffic Laws and Roadside Procedures: Scouts always have backup plans in case of emergencies (p. 51).",
-        "counselor_tip": "For Traffic Safety Requirement 4 (Traffic Laws and Roadside Procedures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 51, p. 55))."
+        "sample_output": "Statutory traffic codes regulate motor vehicle right-of-way, speed parameters, and road sharing responsibilities for all conveyances. Drivers must carry valid licensure, vehicle registration certificates, and state-mandated liability insurance policies during vehicle operations.",
+        "counselor_tip": "During the Traffic Safety Requirement 4 conference on Motor Vehicle Traffic Regulations, verify that the Scout can explain vehicular status and demonstrate report crashes: Exchange vehicle identification numbers and contact details after rendering emergency aid."
       },
       "quiz_item": {
         "scenario_prompt": "Which three documents is a driver required by law to carry whenever operating a motor vehicle?",
@@ -2260,13 +2256,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Highway Safety Engineering",
-        "right_header": "Req 5b: Traffic Control Sign",
+        "left_header": "Req 5a: Highway Safety Engineering Design",
+        "right_header": "Req 5b: Traffic Control Sign Classification",
         "left_points": [
-          "(5a) Highway Safety Engineering Design: Highway safety features include grade-separated interchanges, rumble strips, energy-absorbing crash attenuators, and wide recovery zones. Physical barriers and wide medians prevent cross-centerline collisions and minimize severe off-road fixed object impacts."
+          "(5a) Highway Safety Engineering Design: Highway safety features include grade-separated interchanges, rumble strips, energy-absorbing crash attenuators, and wide recovery zones. Physical barriers and wide medians prevent cross-centerline collisions and minimize severe off-road fixed object impacts.",
+          "Shape Recognition: Octagonal sign contours alert approaching drivers to halt even when coated in snow."
         ],
         "right_points": [
-          "(5b) Traffic Control Sign Classification: The Manual on Uniform Traffic Control Devices standardizes sign dimensions, color symbology, and message layout. Regulatory, warning, and informational signs provide quick recognition through distinct shapes such as diamonds and pentagons."
+          "(5b) Traffic Control Sign Classification: The Manual on Uniform Traffic Control Devices standardizes sign dimensions, color symbology, and message layout. Regulatory, warning, and informational signs provide quick recognition through distinct shapes such as diamonds and pentagons.",
+          "Yellow Diamonds: Diamond warning signs caution drivers about upcoming curves, pedestrian crosswalks, or lane merges."
         ],
         "rows": [
           {
@@ -2276,25 +2274,27 @@
           },
           {
             "attribute": "Median Separation",
-            "left": "Req 5a: Highway Safety Engineering: Highway safety features include grade-separated interchanges, rumble strips, energy-absorbing crash attenuators, and wide recovery zones. Physical barriers and wide medians prevent cross-centerline collisions and minimize severe off-road fixed object impacts.",
-            "right": "Req 5b: Traffic Control Sign: The Manual on Uniform Traffic Control Devices standardizes sign dimensions, color symbology, and message layout. Regulatory, warning, and informational signs provide quick recognition through distinct shapes such as diamonds and pentagons."
+            "left": "Shape Recognition: Octagonal sign contours alert approaching drivers to halt even when coated in snow.",
+            "right": "Yellow Diamonds: Diamond warning signs caution drivers about upcoming curves, pedestrian crosswalks, or lane merges."
           },
           {
             "attribute": "Yellow Diamonds",
-            "left": "Shape Recognition: Octagonal sign contours alert approaching drivers to halt even when coated in snow.",
-            "right": "Median Separation: Wide grass strips and concrete barriers prevent lethal crossover head-on collisions on freeways."
+            "left": "Yellow Diamonds: Diamond warning signs caution drivers about upcoming curves, pedestrian crosswalks, or lane merges.",
+            "right": "Clear Zones: Wide roadside recovery areas allow errant vehicles to decelerate without striking rigid objects."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 5 Exemplar Workbook Entry: Highway",
+        "title": "Traffic Safety Req 5 Worked Example: Roadway Design Traffic Signs",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Highway Safety Engineering": "Highway safety features include grade-separated interchanges, rumble strips, energy-absorbing crash attenuators, and wide recovery zones. Physical barriers and wide medians prevent cross-centerline collisions and minimize severe off-road fixed object impacts.",
-          "Req 5b - Traffic Control Sign": "The Manual on Uniform Traffic Control Devices standardizes sign dimensions, color symbology, and message layout. Regulatory, warning, and informational signs provide quick recognition through distinct shapes such as diamonds and pentagons."
+          "Phase 1 - Categorize Shapes": "Identify regulatory octagons, warning diamonds, and guide rectangles on roadway charts.",
+          "Phase 2 - Decode Colors": "Group signs by green navigation, blue service, and yellow hazard colors.",
+          "Phase 3 - Analyze Geometry": "Map clear zones, median crash barriers, and acceleration ramp lane tapers.",
+          "Phase 4 - Evaluate Sightlines": "Measure stopping sight distances at unobstructed and obstructed intersection approach corners."
         },
-        "sample_output": "Highway Engineering and Traffic Signs: Rumble strips are small indentations or raised strips on the pavement that, when driven over, make noise (p. 28).",
-        "counselor_tip": "For Traffic Safety Requirement 5 (Highway Engineering and Traffic Signs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 28, p. 68))."
+        "sample_output": "Civil roadway engineering uses dedicated turn lanes, continuous medians, and graded recovery shoulders to reduce traffic friction. Standardized sign shapes, retroreflective background sheeting, and universal traffic symbols ensure immediate driver comprehension under adverse conditions.",
+        "counselor_tip": "During the Traffic Safety Requirement 5 conference on Roadway Design Traffic Signs, verify that the Scout can explain shape recognition and demonstrate evaluate sightlines: Measure stopping sight distances at unobstructed and obstructed intersection approach corners."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do retroreflective road signs and pavement markings help drivers see clearly at night?",
@@ -2776,7 +2776,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Nighttime Pedestrian Visibility",
+        "left_header": "Req 6a: Nighttime Pedestrian Visibility Comparisons",
         "right_header": "Req 6c: School Bus Safety Compliance",
         "left_points": [
           "(6a) Nighttime Pedestrian Visibility Comparisons: Nighttime pedestrian and bicyclist visibility relies on active illumination lamps and passive retroreflective tape. Headlight illumination drops off dramatically, requiring pedestrians to utilize retroreflective bands visible from five hundred feet.",
@@ -2799,22 +2799,22 @@
           },
           {
             "attribute": "Stop Arm",
-            "left": "Req 6a: Nighttime Pedestrian: Nighttime pedestrian and bicyclist visibility relies on active illumination lamps and passive retroreflective tape. Headlight illumination drops off dramatically, requiring pedestrians to utilize retroreflective bands visible from five hundred feet.",
-            "right": "Req 6b: Pedestrian Roadway Safety: Pedestrian safety guidelines require walking on sidewalks or against traffic flow on unobstructed left road shoulders. Crossing roadways demands using marked crosswalks, obeying pedestrian walk signals, and establishing eye contact with turning motorists."
+            "left": "Stop Arm: Red flashing school bus lamps require surrounding multi-lane traffic to stop completely.",
+            "right": "Truck Blindspots: Large tractor-trailers have huge blind spots extending twenty feet directly in front."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 6 Exemplar Workbook Entry: Sharing",
+        "title": "Traffic Safety Req 6 Worked Example: Roadway Sharing Safety Protocols",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a - Nighttime Pedestrian": "Nighttime pedestrian and bicyclist visibility relies on active illumination lamps and passive retroreflective tape. Headlight illumination drops off dramatically, requiring pedestrians to utilize retroreflective bands visible from five hundred feet.",
-          "Req 6b - Pedestrian Roadway Safety": "Pedestrian safety guidelines require walking on sidewalks or against traffic flow on unobstructed left road shoulders. Crossing roadways demands using marked crosswalks, obeying pedestrian walk signals, and establishing eye contact with turning motorists.",
-          "Req 6c - School Bus Safety Compliance": "Motorists must halt twenty feet behind school buses displaying extended stop-arms and flashing red lights. On undivided highways, all traffic lanes in both directions must remain stopped until children cross safely.",
-          "Req 6d - Commercial Vehicle Blind": "Commercial trucks feature extensive blind zones termed No-Zones located directly ahead, behind, and along both side flanks. Drivers must maintain safe following distances and verify mirror clearance before executing lane change maneuvers."
+          "Phase 1 - Compare Materials": "Shine headlights onto white cotton fabric versus microprismatic retroreflective safety strips.",
+          "Phase 2 - Map Zones": "Diagram the four hazardous blind spots surrounding heavy commercial freight trucks.",
+          "Phase 3 - Practice Crossing": "Cross intersections using marked crosswalks while scanning left, right, and left.",
+          "Phase 4 - Review Signals": "Identify flashing amber versus flashing red school bus stop loading lights."
         },
-        "sample_output": "Sharing the Road Safely: For this reason, motorcyclists must drive extremely defensively (p. 55).",
-        "counselor_tip": "For Traffic Safety Requirement 6 (Sharing the Road Safely), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 55, p. 59))."
+        "sample_output": "Pedestrians, cyclists, and commercial motor vehicles share public highway rights-of-way with standard passenger automobiles. Safe coexistence requires understanding commercial vehicle blind spots, pedestrian right-of-way rules, and strict school bus passing prohibitions.",
+        "counselor_tip": "During the Traffic Safety Requirement 6 conference on Roadway Sharing Safety Protocols, verify that the Scout can explain retroreflective power and demonstrate review signals: Identify flashing amber versus flashing red school bus stop loading lights."
       },
       "quiz_item": {
         "scenario_prompt": "Why must motorcyclists, scooter riders, and moped operators practice extreme defensive driving and always wear a helmet?",
@@ -3210,19 +3210,17 @@
         "Step 3 - Execute Project: Conduct the chosen community traffic evaluation or peer pledge signing event.",
         "Step 4 - Present Findings: Deliver an actionable traffic mitigation report to your merit badge counselor."
       ],
-      "gear_checklist": [
-        "Official Traffic Safety Merit Badge: Traffic Safety Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Traffic Safety Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Traffic Safety Professional",
+        "left_header": "Req 7a: Traffic Safety Professional Interview",
         "right_header": "Req 7b: Personal Traffic Safety Pledge",
         "left_points": [
-          "(7a) Traffic Safety Professional Interview: Professional traffic safety interviews explore local roadway hazards, high-frequency collision corridors, and emerging community driver behaviors. Law enforcement officers provide practical perspectives on impaired driving, speed management, and localized traffic engineering improvements."
+          "(7a) Traffic Safety Professional Interview: Professional traffic safety interviews explore local roadway hazards, high-frequency collision corridors, and emerging community driver behaviors. Law enforcement officers provide practical perspectives on impaired driving, speed management, and localized traffic engineering improvements.",
+          "Officer Interviews: Meeting traffic officers reveals community high-collision corridors and recurring teen driver error patterns."
         ],
         "right_points": [
-          "(7b) Personal Traffic Safety Pledge: A personal traffic safety pledge documents individual commitments to obey speed limits, eliminate distractions, and wear restraints. Discussing this pledge with counselors and families reinforces accountability and encourages lifelong safe operation habits."
+          "(7b) Personal Traffic Safety Pledge: A personal traffic safety pledge documents individual commitments to obey speed limits, eliminate distractions, and wear restraints. Discussing this pledge with counselors and families reinforces accountability and encourages lifelong safe operation habits.",
+          "(7c) Community Traffic Safety Campaign: Organizing a grassroots safety campaign communicates critical accident prevention messages to peers, schools, or community members. Effective events include bicycle rodeo courses, crosswalk safety demonstrations, or distracted driving awareness workshops."
         ],
         "rows": [
           {
@@ -3232,26 +3230,27 @@
           },
           {
             "attribute": "Safety Pledges",
-            "left": "Req 7a: Traffic Safety Professional: Professional traffic safety interviews explore local roadway hazards, high-frequency collision corridors, and emerging community driver behaviors. Law enforcement officers provide practical perspectives on impaired driving, speed management, and localized traffic engineering improvements.",
-            "right": "Req 7b: Personal Traffic Safety: A personal traffic safety pledge documents individual commitments to obey speed limits, eliminate distractions, and wear restraints. Discussing this pledge with counselors and families reinforces accountability and encourages lifelong safe operation habits."
+            "left": "Officer Interviews: Meeting traffic officers reveals community high-collision corridors and recurring teen driver error patterns.",
+            "right": "(7c) Community Traffic Safety Campaign: Organizing a grassroots safety campaign communicates critical accident prevention messages to peers, schools, or community members. Effective events include bicycle rodeo courses, crosswalk safety demonstrations, or distracted driving awareness workshops."
           },
           {
             "attribute": "Peer Demonstrations",
-            "left": "Req 7c: Community Traffic Safety: Organizing a grassroots safety campaign communicates critical accident prevention messages to peers, schools, or community members. Effective events include bicycle rodeo courses, crosswalk safety demonstrations, or distracted driving awareness workshops.",
-            "right": "Safety Pledges: Committing in writing to eliminate phone use establishes powerful personal defensive driving accountability."
+            "left": "Peer Demonstrations: Presenting bicycle helmet clinics reinforces essential road safety rules among neighborhood youth riders.",
+            "right": "Hazard Mapping: Documenting neighborhood visibility obstructions assists local municipal traffic engineering departments in remediation."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 7 Exemplar Workbook Entry: Community",
+        "title": "Traffic Safety Req 7 Worked Example: Community Traffic Safety Advocacy",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Traffic Safety Professional": "Professional traffic safety interviews explore local roadway hazards, high-frequency collision corridors, and emerging community driver behaviors. Law enforcement officers provide practical perspectives on impaired driving, speed management, and localized traffic engineering improvements.",
-          "Req 7b - Personal Traffic Safety": "A personal traffic safety pledge documents individual commitments to obey speed limits, eliminate distractions, and wear restraints. Discussing this pledge with counselors and families reinforces accountability and encourages lifelong safe operation habits.",
-          "Req 7c - Community Traffic Safety": "Organizing a grassroots safety campaign communicates critical accident prevention messages to peers, schools, or community members. Effective events include bicycle rodeo courses, crosswalk safety demonstrations, or distracted driving awareness workshops."
+          "Phase 1 - Select Option": "Choose between law officer interviews, safety pledges, or community educational campaigns.",
+          "Phase 2 - Prepare Questions": "Draft structured inquiry lists focusing on speed, distraction, and pedestrian safety.",
+          "Phase 3 - Execute Project": "Conduct the chosen community traffic evaluation or peer pledge signing event.",
+          "Phase 4 - Present Findings": "Deliver an actionable traffic mitigation report to your merit badge counselor."
         },
-        "sample_output": "Community Traffic Safety Outreach: Traffic, Your Community, and You To complete requirement 5, you have three options (p. 81).",
-        "counselor_tip": "For Traffic Safety Requirement 7 (Community Traffic Safety Outreach), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 81, p. 85))."
+        "sample_output": "Traffic safety requires active citizen engagement, local law enforcement coordination, and personal commitment to defensive driving. Scouts investigate community crash factors, promote seatbelt compliance, or draft actionable safety pledges to reduce traffic hazards.",
+        "counselor_tip": "During the Traffic Safety Requirement 7 conference on Community Traffic Safety Advocacy, verify that the Scout can explain officer interviews and demonstrate present findings: Deliver an actionable traffic mitigation report to your merit badge counselor."
       },
       "quiz_item": {
         "scenario_prompt": "If you choose the personal traffic safety pledge option in Requirement 7, how should you prepare before discussing your pledge with your counselor?",
@@ -3418,53 +3417,47 @@
         "Step 3 - Analyze Outlook: Evaluate projected industry job demand, median salary expectations, and advancement pathways.",
         "Step 4 - Summarize Findings: Compile career research into a structured report for counselor review discussion."
       ],
-      "gear_checklist": [
-        "Official Traffic Safety Merit Badge: Traffic Safety Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Traffic Safety Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Connecting Community and Careers",
-        "right_header": "Req 8: Research Traffic Safety",
+        "left_header": "Traffic Safety Professional Careers: Core Principles",
+        "right_header": "Traffic Safety Professional Careers: Field Execution",
         "left_points": [
-          "Connecting Community and Careers: Traffic, Your Community, and You To complete requirement 5, you have three options (p. 81).",
-          "Professional Problem-Solving Discussions: Discuss these concerns and possible solutions with your counselor (p. 81).",
-          "Investigating Driver Education Fields: If you elect to do requirement 5(b), you will research safe driving for teenagers and create a personal safety pledge (p. 81)."
+          "Civil Engineering: Traffic engineers design geometric lane layouts and timed signals to maximize intersection throughput.",
+          "Crash Reconstruction: Forensic accident investigators apply Newtonian physics calculations to determine vehicle impact speeds accurately."
         ],
         "right_points": [
-          "Research Traffic Safety Professions: If you elect to do requirement 5(b), you will research safe driving for teenagers and create a personal safety pledge (p. 81).",
-          "Explore Back-of-Pamphlet Resources: The resources section at the back of this pamphlet lists sites you might visit (p. 81).",
-          "Document Training and Duties: Take notes as you read the information on the sites, or print out pages that contain information you feel is especially important for teens (p. 81)."
+          "Fleet Supervision: Commercial safety managers oversee driver certification and federal hours-of-service electronic log compliance.",
+          "Education Requirements: Transportation engineering careers typically require accredited bachelor degrees and professional engineer licensing examinations."
         ],
         "rows": [
           {
             "attribute": "Civil Engineering",
-            "left": "Connecting Community and Careers: Traffic, Your Community, and You To complete requirement 5, you have three options (p. 81).",
-            "right": "Research Traffic Safety Professions: If you elect to do requirement 5(b), you will research safe driving for teenagers and create a personal safety pledge (p. 81)."
+            "left": "Civil Engineering: Traffic engineers design geometric lane layouts and timed signals to maximize intersection throughput.",
+            "right": "Fleet Supervision: Commercial safety managers oversee driver certification and federal hours-of-service electronic log compliance."
           },
           {
             "attribute": "Crash Reconstruction",
-            "left": "Professional Problem-Solving Discussions: Discuss these concerns and possible solutions with your counselor (p. 81).",
-            "right": "Explore Back-of-Pamphlet Resources: The resources section at the back of this pamphlet lists sites you might visit (p. 81)."
+            "left": "Crash Reconstruction: Forensic accident investigators apply Newtonian physics calculations to determine vehicle impact speeds accurately.",
+            "right": "Education Requirements: Transportation engineering careers typically require accredited bachelor degrees and professional engineer licensing examinations."
           },
           {
             "attribute": "Fleet Supervision",
-            "left": "Investigating Driver Education Fields: If you elect to do requirement 5(b), you will research safe driving for teenagers and create a personal safety pledge (p. 81).",
-            "right": "Document Training and Duties: Take notes as you read the information on the sites, or print out pages that contain information you feel is especially important for teens (p. 81)."
+            "left": "Fleet Supervision: Commercial safety managers oversee driver certification and federal hours-of-service electronic log compliance.",
+            "right": "Education Requirements: Transportation engineering careers typically require accredited bachelor degrees and professional engineer licensing examinations."
           }
         ]
       },
       "worked_example": {
-        "title": "Traffic Safety Req 8 Exemplar Workbook Entry: Exploring",
+        "title": "Traffic Safety Req 8 Worked Example: Traffic Safety Professional Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Connecting Community and Careers": "Traffic, Your Community, and You To complete requirement 5, you have three options (p. 81).",
-          "Professional Problem-Solving": "Discuss these concerns and possible solutions with your counselor (p. 81).",
-          "Investigating Driver Education Fields": "If you elect to do requirement 5(b), you will research safe driving for teenagers and create a personal safety pledge (p. 81).",
-          "Using Career Research Directories": "The resources section at the back of this pamphlet lists sites you might visit (p. 81)."
+          "Phase 1 - Research Careers": "Investigate roles in traffic engineering, crash reconstruction, or transportation safety analysis.",
+          "Phase 2 - Document Requirements": "Record necessary university degrees, technical certifications, and state professional engineering licensures.",
+          "Phase 3 - Analyze Outlook": "Evaluate projected industry job demand, median salary expectations, and advancement pathways.",
+          "Phase 4 - Summarize Findings": "Compile career research into a structured report for counselor review discussion."
         },
-        "sample_output": "Exploring Traffic Safety Careers: Traffic, Your Community, and You To complete requirement 5, you have three options (p. 81).",
-        "counselor_tip": "For Traffic Safety Requirement 8 (Exploring Traffic Safety Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 81, p. 88))."
+        "sample_output": "Traffic safety professions span highway engineering, accident reconstruction, public health advocacy, and commercial fleet safety management. Pursuing these technical fields involves specialized collegiate degrees, professional engineering licensure, and continuous transportation technology training.",
+        "counselor_tip": "During the Traffic Safety Requirement 8 conference on Traffic Safety Professional Careers, verify that the Scout can explain civil engineering and demonstrate summarize findings: Compile career research into a structured report for counselor review discussion."
       },
       "quiz_item": {
         "scenario_prompt": "Which details must you investigate when researching a traffic safety career for Requirement 8?",

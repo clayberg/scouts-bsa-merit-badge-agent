@@ -35,7 +35,6 @@
 ### Req 1: Oceanographic Branches and Marine Significance
 **Official Requirement 1:** Name four branches of oceanography. Describe at least five reasons why it is important for people to learn about the oceans.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 32, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Branches of Oceanography)
-> **Guide to Safe Scouting Warning:** Maintain constant buddy awareness when conducting shoreside research observations near open coastal waters.
 - **Common Myth:** Scouts often view oceanography solely as the study of marine animals like fish.
 - **Pamphlet Fact:** Oceanography integrates geology, chemistry, physics, and biology to study marine basins and life.
 
@@ -57,7 +56,6 @@
 ### Req 2: Seawater Physical Properties and Circulation
 **Official Requirement 2:** Explain the following terms: salinity, temperature, and density. Describe how these important properties of seawater are measured by an oceanographer. Discuss the circulation and currents of the ocean. Describe the effects of the oceans on weather and climate.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 32, p. 34)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Salinity Temperature and Density)
-> **Guide to Safe Scouting Warning:** Handle weighted water sampling equipment cautiously to avoid hand pinches and line entanglement injuries.
 - **Common Myth:** Scouts often think seawater salinity remains completely uniform across all depths and latitudes.
 - **Pamphlet Fact:** A CTD rosette electronically records conductivity, temperature, and depth throughout the entire water column.
 
@@ -94,10 +92,8 @@
 #### Req 3a: Distinctions Among Extreme Marine Waves
 **Official Requirement 3a:** Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Organizer (2-Column Comparison Table):** Req 3a Technical Comparison Matrix (Out the Differences Among the)
-- **Common Myth:** Scouts frequently assume that tidal waves are simply unusually large storm surges.
-- **Pamphlet Fact:** A storm surge is driven by low pressure and wind, while tsunamis stem from seismic displacement.
 
-![Oceanography Requirement 3 figure showing wavelength measures horizontal distance between wave crests while wave height measures.](/assets/pamphlet_images/oceanography_p012_img1.png)
+![Wavelength measures horizontal distance between wave crests while wave height measures vertical crest displacement.](/assets/pamphlet_images/oceanography_p012_img1.png)
 
 | Comparison Dimension | Seismic Tsunami and Storm Surge | Gravitational Tidal Wave and Bore |
 | :--- | :--- | :--- |
@@ -108,8 +104,6 @@
 #### Req 3b: Sea Swell and Surf Distinctions
 **Official Requirement 3b:** Explain the difference between sea, swell, and surf.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix (Sea Swell and Surf)
-- **Common Myth:** Scouts often confuse local choppy wind waves with distant oceanic swells.
-- **Pamphlet Fact:** Swell represents wind waves that have traveled out of their generating area and organized into regular patterns.
 
 ![Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.](/assets/pamphlet_images/oceanography_p028_img1.png)
 
@@ -122,10 +116,8 @@
 #### Req 3c: Formation Mechanics of Breaking Waves
 **Official Requirement 3c:** Explain how breakers are formed.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Breakers Are Formed)
-- **Common Myth:** Scouts think waves break because surface winds push the crest forward faster than normal.
-- **Pamphlet Fact:** A breaker forms when water depth decreases to approximately 1.3 times the wave height.
 
-![Oceanography Requirement 1 figure showing geological chemical physical and biological branches examine different marine basin.](/assets/pamphlet_images/oceanography_p003_img1.png)
+![Geological chemical physical and biological branches examine different marine basin processes thoroughly.](/assets/pamphlet_images/oceanography_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -136,10 +128,8 @@
 #### Req 3d: Rip Current Dynamics and Safety
 **Official Requirement 3d:** Explain what a rip current is, how to avoid them, and what to do if you are caught in one.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Rip Current Is How to)
-- **Common Myth:** Scouts frequently believe rip currents act as undertows that drag swimmers beneath the surface.
-- **Pamphlet Fact:** Rip currents flow horizontally away from shore through gaps in sandbars and do not pull swimmers.
 
-![Oceanography Requirement 2 figure showing salinity quantifies dissolved mineral salts and oceanographers measure it.](/assets/pamphlet_images/oceanography_p007_img1.png)
+![Salinity quantifies dissolved mineral salts and oceanographers measure it using electrical conductivity.](/assets/pamphlet_images/oceanography_p007_img1.png)
 
 | Req 3d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -150,7 +140,6 @@
 ### Req 4: Underwater Bathymetry and Ocean Topography
 **Official Requirement 4 (Parent Overview):** Draw a cross-section of underwater topography. Name and put on your drawing the following: seamount, guyot, rift valley, canyon, trench, and oceanic ridge. Compare the depths in the oceans with the heights of mountains on land. Show what is meant by: (a) Continental shelf (b) Continental slope (c) Abyssal plain
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Store drafting tools and compass dividers with point guards attached to prevent accidental puncture injuries.
 - **Common Myth:** Scouts often believe the ocean floor is a flat, featureless sandy expanse stretching between continents.
 - **Pamphlet Fact:** The Mariana Trench plunges nearly 36000 feet deep, far exceeding Mount Everest height of 29029 feet.
 
@@ -163,8 +152,6 @@
 #### Req 4a: Continental Shelf Structural Features
 **Official Requirement 4a:** Continental shelf.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Continental Shelf)
-- **Common Myth:** Scouts often think the sea drops off into abyssal darkness immediately at the coastline.
-- **Pamphlet Fact:** The continental shelf is a gently sloping submerged edge of a continent with average water depths around 400 feet.
 
 ![Open ocean water stretches to the horizon showing coastal sea depth variations.](/assets/pamphlet_images/oceanography_p016_img1.png)
 
@@ -177,8 +164,6 @@
 #### Req 4b: Continental Slope Topographic Profile
 **Official Requirement 4b:** Continental slope.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Continental Slope)
-- **Common Myth:** Scouts often believe the slope is a vertical cliff dropping straight down thousands of feet.
-- **Pamphlet Fact:** The continental slope has an average inclination of four degrees and marks the true structural boundary of continents.
 
 ![A powerful ocean wave curls and breaks demonstrating surface wave energy and dynamics.](/assets/pamphlet_images/oceanography_p017_img1.png)
 
@@ -191,8 +176,6 @@
 #### Req 4c: Abyssal Plain Geomorphological Plain
 **Official Requirement 4c:** Abyssal plain.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Abyssal Plain)
-- **Common Myth:** Scouts assume abyssal plains are completely barren of sediment due to high water pressures.
-- **Pamphlet Fact:** Abyssal plains are among the flattest surfaces on Earth because thick sediments blanket volcanic seafloor irregularities.
 
 ![People gather along a tropical coast near the water line to examine shoreline features.](/assets/pamphlet_images/oceanography_p019_img1.png)
 
@@ -205,7 +188,6 @@
 ### Req 5: Chemical Oceanography and Dissolved Constituents
 **Official Requirement 5:** List the main salts, gases, and nutrients in seawater. Describe some important properties of water. Tell how the animals and plants of the ocean affect the chemical composition of seawater. Explain how differences in evaporation and precipitation affect the salt content of the oceans.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 31, p. 32)* • **Organizer (2-Column Comparison Table):** Req 5 Technical Comparison Matrix (Main Salts Gases and Nutrients)
-> **Guide to Safe Scouting Warning:** Wear chemical splash goggles and protective gloves whenever handling salinity testing chemicals and glassware.
 - **Common Myth:** Scouts often think seawater salinity fluctuates wildly in ionic chemical proportions in the open sea.
 - **Pamphlet Fact:** Six ions, primarily chloride and sodium, comprise over ninety-nine percent of all dissolved salts in open seawater.
 
@@ -229,7 +211,6 @@
 ### Req 6: Marine Organisms and Ecological Roles
 **Official Requirement 6:** Describe some of the biologically important properties of seawater. Define benthos, nekton, and plankton. Name some of the plants and animals that make up each of these groups. Describe the place and importance of phytoplankton in the oceanic food chain.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Biologically Important Properties of Seawater)
-> **Guide to Safe Scouting Warning:** Rinse hands thoroughly after handling wild marine specimens to prevent skin irritation from stinging cells.
 - **Common Myth:** Scouts often believe that all organisms classified as plankton are microscopic single-celled creatures.
 - **Pamphlet Fact:** Phytoplankton generate more than half of global atmospheric oxygen through marine photosynthetic primary production.
 
@@ -253,7 +234,6 @@
 ### Req 7: Oceanographic Fieldwork and Practical Investigations
 **Official Requirement 7 (Parent Overview):** Do ONE of the following: (a) Make a plankton net. Tow the net by a dock, wade with it, hold it in a current, or tow it from a rowboat. Do this for about 20 minutes. Save the sample. Examine it under a microscope or high-power glass. Identify the three most common types of plankton in the sample. Note: May be done in lakes or streams. (b) Make a series of models (clay or plaster and wood) of a volcanic island. Show the growth of an atoll from a fringing reef through a barrier reef. Describe the Darwinian theory of coral reef formation. (c) Measure the water temperature at the surface, midwater, and bottom of a body of water four times daily for five consecutive days. You may measure depth with a rock tied to a line. Make a Secchi disk to measure turbidity (how much suspended sedimentation is in the water). Measure the air temperature. Note the cloud cover and roughness of the water. Show your findings (air and water temperature, turbidity) on a graph. Tell how the water temperature changes with air temperature. (d) Make a model showing the inshore sediment movement by littoral currents, tidal movement, and wave action. Include such formations as high and low waterlines, low-tide terrace, berm, and coastal cliffs. Show how offshore bars are built up and torn down. (e) Make a wave generator. Show reflection and refraction of waves. Show how groins, jetties, and breakwaters affect these patterns. (f) With your counselor's and parent or guardian's approval and permission, track and monitor satellite images available on the internet for a specific location for three weeks. Describe what you have learned to your counselor.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Wear a properly fitted Coast Guard approved life jacket whenever sampling near docks or from rowboats.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Oceanography Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Scouts often think building an oceanographic apparatus requires commercial laboratory equipment rather than simple materials.
 - **Pamphlet Fact:** Plankton nets use fine-mesh silk or nylon bolting cloth to capture micro-crustaceans and colonial diatoms.
@@ -268,8 +248,6 @@
 **Official Requirement 7a:** Make a plankton net. Tow the net by a dock, wade with it, hold it in a current, or tow it from a rowboat. Do this for about 20 minutes. Save the sample. Examine it under a microscope or high-power glass. Identify the three most common types of plankton in the sample. Note: May be done in lakes or streams.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Plankton Net Tow the Net)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Oceanography Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Scouts often assume towing a net faster captures a greater density of marine plankton.
-- **Pamphlet Fact:** Tow nets require slow speeds to prevent water backwash and mesh blowout while collecting plankton.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -291,8 +269,6 @@
 #### Req 7b: Coral Reef Evolution Modeling
 **Official Requirement 7b:** Make a series of models (clay or plaster and wood) of a volcanic island. Show the growth of an atoll from a fringing reef through a barrier reef. Describe the Darwinian theory of coral reef formation.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist (Series of Models Clay or)
-- **Common Myth:** Scouts frequently believe atolls form directly on coral that grew up from deep ocean trenches.
-- **Pamphlet Fact:** Charles Darwin correctly theorized that coral atolls develop as volcanic islands gradually subside into ocean basins.
 
 ![A satellite view shows Earth blue oceans and atmosphere interacting in the water cycle.](/assets/pamphlet_images/oceanography_p031_img1.png)
 
@@ -307,8 +283,6 @@
 #### Req 7c: Water Column Thermal Profiling
 **Official Requirement 7c:** Measure the water temperature at the surface, midwater, and bottom of a body of water four times daily for five consecutive days. You may measure depth with a rock tied to a line. Make a Secchi disk to measure turbidity (how much suspended sedimentation is in the water). Measure the air temperature. Note the cloud cover and roughness of the water. Show your findings (air and water temperature, turbidity) on a graph. Tell how the water temperature changes with air temperature.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Water Temperature at the Surface)
-- **Common Myth:** Scouts believe shallow water bodies maintain identical temperatures from surface to muddy bottom throughout daytime.
-- **Pamphlet Fact:** Water bodies develop a warm epilimnion, sharp thermocline, and cold hypolimnion through solar warming.
 
 ![An ice sculpture spells CO2 on a beach highlighting atmospheric carbon absorption by oceans.](/assets/pamphlet_images/oceanography_p033_img1.png)
 
@@ -324,8 +298,6 @@
 #### Req 7d: Inshore Sediment Transport Modeling
 **Official Requirement 7d:** Make a model showing the inshore sediment movement by littoral currents, tidal movement, and wave action. Include such formations as high and low waterlines, low-tide terrace, berm, and coastal cliffs. Show how offshore bars are built up and torn down.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist (Model Showing the Inshore Sediment)
-- **Common Myth:** Scouts think beach sand simply moves straight in and out with rising and falling tides.
-- **Pamphlet Fact:** Littoral drift transports sand along the coast through combined zig-zag swash action and longshore currents.
 
 ![Severe storm clouds loom over turbulent sea waves demonstrating ocean-atmosphere weather.](/assets/pamphlet_images/oceanography_p034_img1.png)
 
@@ -340,8 +312,6 @@
 #### Req 7e: Wave Generator and Coastal Structures
 **Official Requirement 7e:** Make a wave generator. Show reflection and refraction of waves. Show how groins, jetties, and breakwaters affect these patterns.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7e Hands-On Skill Station & EDGE Verification Checklist (Wave Generator Show Reflection and)
-- **Common Myth:** Scouts often confuse groins and jetties with offshore breakwaters designed to dissipate wave energy.
-- **Pamphlet Fact:** Breakwaters absorb wave energy offshore, whereas groins intercept moving sand perpendicular to the sandy beach.
 
 ![An octopus blends into rocky underwater terrain demonstrating benthic marine camouflage.](/assets/pamphlet_images/oceanography_p038_img1.png)
 
@@ -357,8 +327,6 @@
 **Official Requirement 7f:** With your counselor's and parent or guardian's approval and permission, track and monitor satellite images available on the internet for a specific location for three weeks. Describe what you have learned to your counselor.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Activity & Observation Log):** Req 7f Quantitative Field Observation & Activity Log (Permission Track and Monitor Satellite)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Oceanography Req 7f with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Scouts assume ocean satellites only take standard optical photographs like a common digital camera.
-- **Pamphlet Fact:** Satellite infrared sensors measure sea surface temperature anomalies, while altimeters track ocean surface heights.
 
 ![A detailed orange sea star displays radial symmetry typical of benthic echinoderm species.](/assets/pamphlet_images/oceanography_p038_img2.png)
 
@@ -372,7 +340,6 @@
 ### Req 8: Oceanographic Literature Exploration and Careers
 **Official Requirement 8 (Parent Overview):** Do ONE of the following: (a) Write a 500-word report on a book about oceanography approved by your counselor. (b) Visit one of the following and write a 500-word report about your visit. (1) Oceanographic research ship (2) Oceanographic institute, marine laboratory, or marine aquarium (c) Explain to your troop, in a five-minute prepared speech, "Why Oceanography Is Important" or describe "Career Opportunities in Oceanography." (Before making your speech, show your speech outline to your counselor for approval.)
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Follow facility safety protocols and stay within designated visitor corridors during marine laboratory tours.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Oceanography Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Scouts believe oceanography careers require working exclusively aboard offshore research vessels at sea.
 - **Pamphlet Fact:** Marine science careers encompass biological research, chemical engineering, hydrographic surveying, and physical oceanography.
@@ -387,8 +354,6 @@
 **Official Requirement 8a:** Write a 500-word report on a book about oceanography approved by your counselor.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (500-word Report on A Book)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Oceanography Req 8a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Scouts often assume any novel set at sea qualifies as an oceanographic text.
-- **Pamphlet Fact:** Oceanographic literature covers specialized domains ranging from polar exploration to deep ocean hydrothermal vents.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -407,8 +372,6 @@
 #### Req 8b: Marine Facility Educational Visit
 **Official Requirement 8b:** Visit one of the following and write a 500-word report about your visit. (1) Oceanographic research ship (2) Oceanographic institute, marine laboratory, or marine aquarium.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (500-word Report About Your Visit)
-- **Common Myth:** Scouts think public aquariums and commercial tourist boats operate identically to scientific research laboratories.
-- **Pamphlet Fact:** Research vessels function as self-contained floating laboratories equipped with dynamic positioning systems and winches.
 
 ![Penguins gather on Antarctic sea ice and dive into cold waters to forage for small fish.](/assets/pamphlet_images/oceanography_p047_img1.png)
 
@@ -422,8 +385,6 @@
 #### Req 8c: Oceanographic Careers Troop Presentation
 **Official Requirement 8c:** Explain to your troop, in a five-minute prepared speech, "Why Oceanography Is Important" or describe "Career Opportunities in Oceanography." (Before making your speech, show your speech outline to your counselor for approval.)
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)* • **Organizer (Career & Profession Exploration Card):** Req 8c Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Scouts assume careers in ocean science are limited entirely to training dolphins at aquariums.
-- **Pamphlet Fact:** Oceanographic careers span federal hydrography, marine robotics engineering, environmental consulting, and academic research.
 
 ![A sea lion rests onshore representing semi-aquatic marine mammals dependent on ocean food.](/assets/pamphlet_images/oceanography_p051_img1.png)
 
@@ -436,7 +397,6 @@
 ### Req 9: Oceanographic Investigation and Sampling Methods
 **Official Requirement 9:** Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 36, p. 38)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Marine Scientists)
-> **Guide to Safe Scouting Warning:** Secure all shipboard electronics and battery power sources against saltwater spray and moisture damage.
 - **Common Myth:** Scouts often think oceanographers still rely primarily on lead lines and simple bucket samplers.
 - **Pamphlet Fact:** Modern marine scientists combine autonomous profiling gliders, acoustic multibeam sonars, and sediment cores for multi-domain mapping.
 

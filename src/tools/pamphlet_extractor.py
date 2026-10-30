@@ -2530,12 +2530,23 @@ def decompose_requirement_into_topic_slides(
             f"{base_title} Step 2: {raw_p_sum or req_text}",
         ]
 
+    exec_mode_req = str(req_dict.get("execution_mode") or "IN_CLASS_DISCUSSION").strip()
+    is_hands_on_station = (exec_mode_req == "HANDS_ON_SKILL_STATION")
+    if is_hands_on_station:
+        card_slide_title = f"{base_title} (Step-by-Step)" if ": " in base_title else f"{base_title}: Step-by-Step Execution"
+        card_slide_layout = "STEP_BY_STEP_PROCEDURE_4CARD"
+        card_slide_caption = f"{base_title}: Step-by-Step Field Execution"
+    else:
+        card_slide_title = f"{base_title} (Key Principles)" if ": " in base_title else f"{base_title}: Key Principles & Analysis"
+        card_slide_layout = "CONCEPT_TEXT_SLIDE"
+        card_slide_caption = f"{base_title}: Key Concepts & Discussion Guide"
+
     generated.append({
-        "title": f"{base_title} (Step-by-Step)" if ": " in base_title else f"{base_title}: Step-by-Step Execution",
-        "layout": "STEP_BY_STEP_PROCEDURE_4CARD",
+        "title": card_slide_title,
+        "layout": card_slide_layout,
         "bullets": proc_bullets[:4],
         "image_path": None,
-        "caption": f"{base_title}: Step-by-Step Field Execution",
+        "caption": card_slide_caption,
     })
 
 
@@ -2589,8 +2600,8 @@ def decompose_requirement_into_topic_slides(
                 "image_path": None,
             })
 
-    # D. Equipment Checklist (if explicitly curated) & Patrol Scenario Review (Enable Phase)
-    if checklist and len(generated) < 6:
+    # D. Equipment Checklist (if explicitly curated with >= 2 items) & Patrol Scenario Review (Enable Phase)
+    if len(checklist) >= 2 and len(generated) < 6:
         generated.append({
             "title": f"{base_title} (Equipment Checklist)" if ": " in base_title else f"{base_title}: Equipment & Inspection Checklist",
             "layout": "GEAR_CHECKLIST_GRID",
@@ -2637,6 +2648,12 @@ _EMERGENCY_OR_HAZARD_BADGES: set = {
     "skating", "snow sports", "camping", "backpacking", "hiking", "cooking", "weather",
     "electricity", "welding", "automotive maintenance", "chemistry", "aviation",
     "horsemanship", "athletics", "personal fitness", "sports", "robotics",
+    "action sports", "animal science", "composite materials", "cybersecurity",
+    "farm mechanics", "fishing", "fly-fishing", "home repairs", "leatherwork",
+    "metalwork", "mining in society", "mountain biking", "mountaineering",
+    "multisport", "nuclear science", "orienteering", "pioneering", "plumbing",
+    "pottery", "reptile and amphibian study", "space exploration", "surveying",
+    "target archery", "veterinary medicine", "wood carving", "woodwork",
 }
 
 

@@ -55,7 +55,6 @@
 ### Req 2: Circuit Schematic Diagram Fundamentals
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or integrated circuits. Use the correct symbols. Label all parts. (b) Tell the purpose of each part.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Check schematic capacitor polarity and transistor pinouts carefully to avoid explosive reverse-bias failure under power.
 - **Common Myth:** A schematic shows the actual physical layout and physical dimensions of circuit parts.
 - **Pamphlet Fact:** Schematic diagrams map functional electrical connections using standardized symbols rather than displaying the physical component layout.
 
@@ -68,10 +67,8 @@
 #### Req 2a: Schematic Diagram Drafting Standards
 **Official Requirement 2a:** Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or integrated circuits. Use the correct symbols. Label all parts.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2a Structured Technical Study & Explanation Matrix (Simple Schematic)
-- **Common Myth:** Schematics can use arbitrary handmade shapes as long as connections are drawn neatly.
-- **Pamphlet Fact:** Standard schematics use reference designators like R1 and C1 beside universally accepted IEEE graphic symbols.
 
-![Electronics Requirement 2 figure showing zigzag lines indicate fixed resistors that limit electrical current through connected.](/assets/pamphlet_images/electronics_p007_img1.png)
+![Zigzag lines indicate fixed resistors that limit electrical current through connected circuit branches.](/assets/pamphlet_images/electronics_p007_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -93,8 +90,6 @@
 #### Req 2b: Circuit Component Functional Roles
 **Official Requirement 2b:** Tell the purpose of each part.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Electronics Requirement 2b Techniques)
-- **Common Myth:** Resistors and capacitors perform identical electrical functions in active direct current circuits.
-- **Pamphlet Fact:** Resistors limit current, capacitors store electrostatic charge, and transistors switch or amplify signals.
 
 ![Needle-nose pliers allow delicate bending and holding of electronic components.](/assets/pamphlet_images/electronics_p012_img5.png)
 
@@ -107,7 +102,6 @@
 ### Req 3: Soldering and Assembly Practices
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Show the right way to solder and desolder. (b) Show how to avoid heat damage to electronic components. (c) Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Keep the hot soldering iron resting in its insulated safety stand and avoid breathing toxic flux vapor plumes.
 - **Common Myth:** Solder acts like glue and should be melted onto the iron tip first.
 - **Pamphlet Fact:** Proper soldering forms an intermetallic bond by heating the joint surfaces until solder melts directly onto the work.
 
@@ -120,8 +114,6 @@
 #### Req 3a: Soldering and Desoldering Techniques
 **Official Requirement 3a:** Show the right way to solder and desolder.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Right Way to Solder and)
-- **Common Myth:** Flicking a hot iron removes molten solder safely from printed circuit board connections.
-- **Pamphlet Fact:** Clean copper braid or a vacuum sucker quickly removes liquid solder from desoldered pins.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools.
@@ -129,7 +121,7 @@
 - [ ] Lockout/de-energization verification checklist and fire extinguisher reference.
 - [ ] Engineering logbook and technical specification sheet for Electronics Requirement 3.
 
-![Electronics Requirement 3 figure showing heating both joint leads allows molten solder to flow freely across metal surfaces.](/assets/pamphlet_images/electronics_p012_img1.png)
+![Heating both joint leads allows molten solder to flow freely across metal surfaces.](/assets/pamphlet_images/electronics_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -140,8 +132,6 @@
 #### Req 3b: Component Thermal Protection Methods
 **Official Requirement 3b:** Show how to avoid heat damage to electronic components.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Avoid Heat Damage to Electronic)
-- **Common Myth:** Silicon components cannot be permanently damaged by common pencil soldering iron temperatures.
-- **Pamphlet Fact:** Semiconductor diodes and transistors can suffer permanent silicon gate degradation from three seconds of excessive heat.
 
 ![A workbench displays safety glasses, a soldering iron, cutters, and solder.](/assets/pamphlet_images/electronics_p013_img1.png)
 
@@ -154,10 +144,8 @@
 #### Req 3c: Printed Circuit Board Assembly
 **Official Requirement 3c:** Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Function of A Printed Circuit)
-- **Common Myth:** Circuit board traces are solid wire cables embedded inside plastic sheets.
-- **Pamphlet Fact:** Printed circuit boards mechanically support components while routing signals across etched laminated copper pathways.
 
-![Electronics Requirement 1 figure showing large filter capacitors can store lethal electrical energy even after power is removed.](/assets/pamphlet_images/electronics_p003_img1.png)
+![Large filter capacitors can store lethal electrical energy even after power is removed.](/assets/pamphlet_images/electronics_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -169,7 +157,6 @@
 ### Req 4: Electronic Systems and Control
 **Official Requirement 4 (Parent Overview):** Do the following: (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications. (b) Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers. (c) Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Confirm that prototype circuits do not draw excessive current that could burn components or overheat breadboard strips.
 - **Common Myth:** Digital circuits handle continuous physical sound waves more directly than analog amplifier circuits.
 - **Pamphlet Fact:** Digital logic processes discrete binary voltages representing one or zero, whereas analog circuits process continuously variable voltage signals.
 
@@ -182,8 +169,6 @@
 #### Req 4a: Control Digital and Analog Applications
 **Official Requirement 4a:** Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Discuss Electronics Control Basic)
-- **Common Myth:** Digital logic gates can process infinite subtle volume changes without analog-to-digital conversion stages.
-- **Pamphlet Fact:** Analog circuits process continuously variable signals, digital circuits process discrete binary states, and control circuits automate physical devices.
 
 ![A drilling template indicates hole locations for mounting electronic controls.](/assets/pamphlet_images/electronics_p056_img1.png)
 
@@ -198,8 +183,6 @@
 #### Req 4b: Decimal and Binary Conversion
 **Official Requirement 4b:** Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist (Change Three Decimal Numbers Into)
-- **Common Myth:** Binary numbers simply append zeros to decimal numbers without changing the underlying base.
-- **Pamphlet Fact:** Binary represents numerical quantities using base two positional powers of two instead of powers of ten.
 
 ![An electronics assembly kit contains circuit boards, components, and wires.](/assets/pamphlet_images/electronics_p014_img1.png)
 
@@ -212,8 +195,6 @@
 #### Req 4c: Electronic Project Construction
 **Official Requirement 4c:** Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c Structured Technical Study & Explanation Matrix (Projects for Your Project)
-- **Common Myth:** Any electronic project works reliably by connecting parts randomly without checking a schematic.
-- **Pamphlet Fact:** Building an electronic project requires tracing the schematic diagram step by step onto a breadboard or circuit board.
 
 ![Desoldering wick absorbs molten solder from a circuit board connection point.](/assets/pamphlet_images/electronics_p049_img1.png)
 
@@ -236,7 +217,6 @@
 ### Req 5: Circuit Measurements and Test
 **Official Requirement 5 (Parent Overview):** Do the following: (a) Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law. (b) Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate. (c) Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value. (d) Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Never measure resistance or component continuity while power is applied to the circuit under test.
 - **Common Myth:** A voltmeter is connected in series with the load to measure electric potential difference.
 - **Pamphlet Fact:** Ohm's law mathematically equates voltage to the product of electrical current and circuit resistance.
 
@@ -249,8 +229,6 @@
 #### Req 5a: Ohm Law Problem Solving
 **Official Requirement 5a:** Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Simple Problem Involving Current Voltage)
-- **Common Myth:** Current remains constant across a circuit regardless of whether you increase or decrease resistance.
-- **Pamphlet Fact:** Voltage equals current multiplied by resistance in any direct current linear electrical circuit.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools.
@@ -269,8 +247,6 @@
 #### Req 5b: Electronic Test Equipment Operation
 **Official Requirement 5b:** Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Need Equipment Electronics Equipment)
-- **Common Myth:** An oscilloscope only measures static direct current resistance values across disconnected component terminals.
-- **Pamphlet Fact:** Voltmeters measure potential in parallel, ammeters measure current in series, and oscilloscopes display signal waveforms.
 
 ![A clip-on heat sink protects sensitive semiconductor parts from excess heat.](/assets/pamphlet_images/electronics_p049_img2.png)
 
@@ -285,8 +261,6 @@
 #### Req 5c: Resistor Color Code Identification
 **Official Requirement 5c:** Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist (Colored Bands of A Resistor)
-- **Common Myth:** Resistor color bands indicate physical wattage rating rather than the electrical resistance in ohms.
-- **Pamphlet Fact:** The first two bands give significant digits, the third gives the multiplier, and the fourth gives tolerance.
 
 ![A completed project board includes a battery, buzzer, and control components.](/assets/pamphlet_images/electronics_p054_img1.png)
 
@@ -299,8 +273,6 @@
 #### Req 5d: Board Assembly Technology Comparison
 **Official Requirement 5d:** Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Organizer (2-Column Comparison Table):** Req 5d Technical Comparison Matrix (Hole and Surface Mount Assembly)
-- **Common Myth:** Surface mount components cannot be soldered or assembled in high-volume automated manufacturing factories.
-- **Pamphlet Fact:** Through-hole parts use leads inserted into drilled holes, while surface mount parts solder directly to exterior surface pads.
 
 ![A diagram shows the terminal connections of a rotary volume potentiometer.](/assets/pamphlet_images/electronics_p056_img2.png)
 
@@ -313,7 +285,6 @@
 ### Req 6: Electronics Career Pathways Exploration
 **Official Requirement 6:** Identify three career opportunities that would use skills and knowledge in electronics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)* • **Organizer (Career & Profession Exploration Card):** Req 6 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Follow all industrial laboratory safety guidelines including electrostatic discharge strap grounding when working in technical repair facilities.
 - **Common Myth:** All electronics jobs require a four-year electrical engineering degree from an accredited university.
 - **Pamphlet Fact:** Modern electronics careers range from PCB design and automated manufacturing to embedded firmware development and field repair.
 

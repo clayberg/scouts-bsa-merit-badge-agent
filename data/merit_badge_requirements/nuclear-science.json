@@ -538,7 +538,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Ionizing Radiation Energy",
+        "left_header": "Req 1a: Ionizing Radiation Energy Differences",
         "right_header": "Req 1c: Radiation Hazard Warning Trefoil",
         "left_points": [
           "(1a) Ionizing Radiation Energy Differences: Ionizing radiation possesses sufficient quantum energy to remove bound electrons from atoms, creating reactive ions. Nonionizing radiation like visible light or radio waves merely causes thermal vibration without disrupting molecular electron bonds.",
@@ -561,22 +561,22 @@
           },
           {
             "attribute": "Biological Impact",
-            "left": "Req 1a: Ionizing Radiation Energy: Ionizing radiation possesses sufficient quantum energy to remove bound electrons from atoms, creating reactive ions. Nonionizing radiation like visible light or radio waves merely causes thermal vibration without disrupting molecular electron bonds.",
-            "right": "Req 1b: The ALARA Radiation: The ALARA framework mandates keeping all doses As Low As Reasonably Achievable. Radiation workers minimize exposure by shortening task times, maximizing source distance, and using dense shielding barriers."
+            "left": "Biological Impact: Alpha particles deposit substantial ionization damage along very short linear energy transfer paths.",
+            "right": "Trefoil Symbol: Magenta three bladed propellers on yellow backgrounds designate controlled active radiation areas and packages."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 1 Exemplar Workbook Entry: Radiation",
+        "title": "Nuclear Science Req 1 Worked Example: Fundamentals of Ionizing Radiation",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 1a - Ionizing Radiation Energy": "Ionizing radiation possesses sufficient quantum energy to remove bound electrons from atoms, creating reactive ions. Nonionizing radiation like visible light or radio waves merely causes thermal vibration without disrupting molecular electron bonds.",
-          "Req 1b - The ALARA Radiation Principle": "The ALARA framework mandates keeping all doses As Low As Reasonably Achievable. Radiation workers minimize exposure by shortening task times, maximizing source distance, and using dense shielding barriers.",
-          "Req 1c - Radiation Hazard Warning": "The magenta or black three-bladed trefoil on a bright yellow background signals ionizing radiation hazards. Facilities post this symbol on storage vaults, transport packages, and rooms containing operating radiation machinery.",
-          "Req 1d - Naturally Occurring": "Cosmic rays from outer space constantly shower Earth alongside terrestrial radionuclides embedded in soils and building materials. Common items like bananas containing potassium-40 and granite rocks containing thorium emit natural background radiation."
+          "Phase 1 - Instrument Check": "Calibrate the Geiger Mueller survey meter using a known low activity check source.",
+          "Phase 2 - Baseline Measurement": "Record ambient environmental background counts per minute for three full sixty second intervals.",
+          "Phase 3 - Distance Evaluation": "Position the calibrated detector probe at increasing intervals from the target test material.",
+          "Phase 4 - Shield Insertion": "Place lead sheets between the active isotope source and the detector housing window."
         },
-        "sample_output": "Radiation Principles and ALARA Safety: But that idea is changing, and more research is now being done to learn how best to safeguard wildlife (p. 67).",
-        "counselor_tip": "For Nuclear Science Requirement 1 (Radiation Principles and ALARA Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69))."
+        "sample_output": "Ionizing radiation carries sufficient kinetic energy to liberate tightly bound electrons from atomic shells, altering molecular structures within living tissue. Safe laboratory stewardship requires strict optimization of exposure through distance, shielding barriers, and minimal dwell duration.",
+        "counselor_tip": "During the Nuclear Science Requirement 1 conference on Fundamentals of Ionizing Radiation, verify that the Scout can explain ionization threshold and demonstrate shield insertion: Place lead sheets between the active isotope source and the detector housing window."
       },
       "quiz_item": {
         "scenario_prompt": "Under the ALARA (As Low As Reasonably Achievable) radiation safety principle, what are the three primary methods used to minimize exposure to ionizing radiation?",
@@ -910,47 +910,50 @@
         "Step 4 - Standard Notation: Label each finished atomic isotope model with standard chemical mass and atomic numbers."
       ],
       "gear_checklist": [
-        "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 2.",
         "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Atomic Structure And Radioactivity.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 2."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Subatomic Particles",
+        "left_header": "Req 2a: Subatomic Particles and Ionization",
         "right_header": "Req 2b: Isotope Modeling and Notation",
         "left_points": [
-          "(2a) Subatomic Particles And Ionization: Subatomic particles determine the identity, mass, and nuclear stability of chemical elements. Alpha particles consist of two protons and two neutrons, beta particles are energetic electrons, and gamma rays are electromagnetic photons."
+          "(2a) Subatomic Particles and Ionization: Subatomic particles determine the identity, mass, and nuclear stability of chemical elements. Alpha particles consist of two protons and two neutrons, beta particles are energetic electrons, and gamma rays are electromagnetic photons.",
+          "Subatomic Composition: Protons and neutrons reside inside the nucleus while electrons orbit within discrete energy shells."
         ],
         "right_points": [
-          "(2b) Isotope Modeling And Notation: Physical isotope models display variations in nuclear neutron count for an element with constant protons. Standard isotope notation writes the total nucleon mass number as a superscript preceding the element symbol."
+          "(2b) Isotope Modeling and Notation: Physical isotope models display variations in nuclear neutron count for an element with constant protons. Standard isotope notation writes the total nucleon mass number as a superscript preceding the element symbol.",
+          "Quark Composition: Protons consist of two up quarks and one down quark held by gluons."
         ],
         "rows": [
           {
             "attribute": "Subatomic Composition",
-            "left": "(2a) Subatomic Particles And Ionization: Subatomic particles determine the identity, mass, and nuclear stability of chemical elements. Alpha particles consist of two protons and two neutrons, beta particles are energetic electrons, and gamma rays are electromagnetic photons.",
-            "right": "(2b) Isotope Modeling And Notation: Physical isotope models display variations in nuclear neutron count for an element with constant protons. Standard isotope notation writes the total nucleon mass number as a superscript preceding the element symbol."
+            "left": "(2a) Subatomic Particles and Ionization: Subatomic particles determine the identity, mass, and nuclear stability of chemical elements. Alpha particles consist of two protons and two neutrons, beta particles are energetic electrons, and gamma rays are electromagnetic photons.",
+            "right": "(2b) Isotope Modeling and Notation: Physical isotope models display variations in nuclear neutron count for an element with constant protons. Standard isotope notation writes the total nucleon mass number as a superscript preceding the element symbol."
           },
           {
             "attribute": "Nuclear Decay Modes",
-            "left": "Req 2a: Subatomic Particles: Subatomic particles determine the identity, mass, and nuclear stability of chemical elements. Alpha particles consist of two protons and two neutrons, beta particles are energetic electrons, and gamma rays are electromagnetic photons.",
-            "right": "Req 2b: Isotope Modeling: Physical isotope models display variations in nuclear neutron count for an element with constant protons. Standard isotope notation writes the total nucleon mass number as a superscript preceding the element symbol."
+            "left": "Subatomic Composition: Protons and neutrons reside inside the nucleus while electrons orbit within discrete energy shells.",
+            "right": "Quark Composition: Protons consist of two up quarks and one down quark held by gluons."
           },
           {
             "attribute": "Quark Composition",
-            "left": "Subatomic Composition: Protons and neutrons reside inside the nucleus while electrons orbit within discrete energy shells.",
-            "right": "Nuclear Decay Modes: Radioactive nuclei achieve stability by emitting alpha particles, beta electrons, or energetic gamma photons."
+            "left": "Quark Composition: Protons consist of two up quarks and one down quark held by gluons.",
+            "right": "Isotope Identification: Isotopes share identical atomic numbers of protons but differ in total nuclear neutron count."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 2 Exemplar Workbook Entry: Atomic",
+        "title": "Nuclear Science Req 2 Worked Example: Atomic Structure and Radioactivity",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Subatomic Particles": "Subatomic particles determine the identity, mass, and nuclear stability of chemical elements. Alpha particles consist of two protons and two neutrons, beta particles are energetic electrons, and gamma rays are electromagnetic photons.",
-          "Req 2b - Isotope Modeling and Notation": "Physical isotope models display variations in nuclear neutron count for an element with constant protons. Standard isotope notation writes the total nucleon mass number as a superscript preceding the element symbol."
+          "Phase 1 - Element Selection": "Select carbon from the periodic table to model six proton nuclear isotopes accurately.",
+          "Phase 2 - Nucleon Assembly": "Assemble foam spheres representing six protons alongside six, seven, or eight neutrons.",
+          "Phase 3 - Orbital Crafting": "Attach wire rings around each model to support six surrounding orbital craft beads.",
+          "Phase 4 - Standard Notation": "Label each finished atomic isotope model with standard chemical mass and atomic numbers."
         },
-        "sample_output": "Atomic Structure and Isotope Models: Now use your imagination (and whatever materials are handy) to make a 3-D model of each isotope (p. 12).",
-        "counselor_tip": "For Nuclear Science Requirement 2 (Atomic Structure and Isotope Models), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20))."
+        "sample_output": "Atoms comprise central nuclei of bound protons and neutrons surrounded by orbiting electron clouds. Radioactivity occurs when unstable isotopes spontaneously emit subatomic particles or photons to attain a lower energy ground state.",
+        "counselor_tip": "During the Nuclear Science Requirement 2 conference on Atomic Structure and Radioactivity, verify that the Scout can explain subatomic composition and demonstrate standard notation: Label each finished atomic isotope model with standard chemical mass and atomic numbers."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do the three isotopes of hydrogen (ordinary hydrogen, deuterium, and tritium) differ in the makeup of their atomic nuclei?",
@@ -1399,7 +1402,6 @@
         "Step 4 - Research Synthesis: Summarize three prominent particle accelerator facilities and their major atomic discoveries in writing."
       ],
       "gear_checklist": [
-        "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 3.",
         "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Particle Accelerators And Physics.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 3."
@@ -1408,10 +1410,12 @@
         "left_header": "Req 3a: Accelerator Operating Principles",
         "right_header": "Req 3b: Nuclear Research Facilities",
         "left_points": [
-          "(3a) Accelerator Operating Principles: Accelerators direct electromagnetic pulses to accelerate charged ions or electrons down linear or circular vacuum chambers. Synchronized radiofrequency cavities boost particle velocity while bending magnets steer the beam toward target collision chambers."
+          "(3a) Accelerator Operating Principles: Accelerators direct electromagnetic pulses to accelerate charged ions or electrons down linear or circular vacuum chambers. Synchronized radiofrequency cavities boost particle velocity while bending magnets steer the beam toward target collision chambers.",
+          "Beam Acceleration: Radiofrequency cavities supply oscillating electric fields that transfer kinetic momentum to charged particle bunches."
         ],
         "right_points": [
-          "(3b) Nuclear Research Facilities: Scientists at facilities like Fermilab, CERN, or university cyclotrons probe fundamental matter by colliding accelerated particles. Visiting researchers observe massive detectors designed to measure subatomic particles and nuclear binding energies."
+          "(3b) Nuclear Research Facilities: Scientists at facilities like Fermilab, CERN, or university cyclotrons probe fundamental matter by colliding accelerated particles. Visiting researchers observe massive detectors designed to measure subatomic particles and nuclear binding energies.",
+          "Collision Physics: High energy impacts convert kinetic energy into mass, generating novel short lived subatomic hadrons."
         ],
         "rows": [
           {
@@ -1421,25 +1425,27 @@
           },
           {
             "attribute": "Magnetic Steering",
-            "left": "Req 3a: Accelerator Operating: Accelerators direct electromagnetic pulses to accelerate charged ions or electrons down linear or circular vacuum chambers. Synchronized radiofrequency cavities boost particle velocity while bending magnets steer the beam toward target collision chambers.",
-            "right": "Req 3b: Nuclear Research Facilities: Scientists at facilities like Fermilab, CERN, or university cyclotrons probe fundamental matter by colliding accelerated particles. Visiting researchers observe massive detectors designed to measure subatomic particles and nuclear binding energies."
+            "left": "Beam Acceleration: Radiofrequency cavities supply oscillating electric fields that transfer kinetic momentum to charged particle bunches.",
+            "right": "Collision Physics: High energy impacts convert kinetic energy into mass, generating novel short lived subatomic hadrons."
           },
           {
             "attribute": "Collision Physics",
-            "left": "Beam Acceleration: Radiofrequency cavities supply oscillating electric fields that transfer kinetic momentum to charged particle bunches.",
-            "right": "Magnetic Steering: Powerful superconducting dipole magnets curve particle paths inside circular synchrotron vacuum beamlines."
+            "left": "Collision Physics: High energy impacts convert kinetic energy into mass, generating novel short lived subatomic hadrons.",
+            "right": "Detector Systems: Multilayer sensor arrays track particle momentum, electrical charge sign, and total absorbed energy."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 3 Exemplar Workbook Entry: Particle",
+        "title": "Nuclear Science Req 3 Worked Example: Particle Accelerators and Physics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Accelerator Operating": "Accelerators direct electromagnetic pulses to accelerate charged ions or electrons down linear or circular vacuum chambers. Synchronized radiofrequency cavities boost particle velocity while bending magnets steer the beam toward target collision chambers.",
-          "Req 3b - Nuclear Research Facilities": "Scientists at facilities like Fermilab, CERN, or university cyclotrons probe fundamental matter by colliding accelerated particles. Visiting researchers observe massive detectors designed to measure subatomic particles and nuclear binding energies."
+          "Phase 1 - Mechanism Diagramming": "Sketch the primary stages of an accelerator including ion source, cavities, and target.",
+          "Phase 2 - Virtual Exploration": "Complete an approved virtual tour of a major national particle physics accelerator facility.",
+          "Phase 3 - Scientist Interview": "Interview an active nuclear researcher regarding nucleon properties and modern subatomic collision detection.",
+          "Phase 4 - Research Synthesis": "Summarize three prominent particle accelerator facilities and their major atomic discoveries in writing."
         },
-        "sample_output": "Particle Accelerators and Subatomic Research: Particle accelerators, sometimes called atom smashers, are machines that can create beams of electrically charged particles and accelerate them (p. 23).",
-        "counselor_tip": "For Nuclear Science Requirement 3 (Particle Accelerators and Subatomic Research), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24))."
+        "sample_output": "Particle accelerators use electromagnetic fields to propel charged subatomic particles to near light speeds before collision. Researchers analyze the resulting fragment trajectories to discover fundamental nuclear particles and evaluate strong force interactions.",
+        "counselor_tip": "During the Nuclear Science Requirement 3 conference on Particle Accelerators and Physics, verify that the Scout can explain beam acceleration and demonstrate research synthesis: Summarize three prominent particle accelerator facilities and their major atomic discoveries in writing."
       },
       "quiz_item": {
         "scenario_prompt": "Why do physicists need particle accelerators to study the internal makeup of atomic nuclei and nucleons?",
@@ -1858,7 +1864,6 @@
         "Step 4 - Half Life Trial: Shake one hundred marked coins in a cup and remove all tails each round."
       ],
       "gear_checklist": [
-        "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 4.",
         "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Classic Nuclear Science Experiments.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 4."
@@ -1867,10 +1872,12 @@
         "left_header": "Req 4a: Electroscope Radiation Detection",
         "right_header": "Req 4b: Cloud Chamber Vapor Tracks",
         "left_points": [
-          "(4a) Electroscope Radiation Detection: Charging an electroscope forces like electrical charges onto metal foils, causing mutual electrostatic repulsion. When ionizing radiation passes through the jar, it ionizes air molecules that neutralize the leaf charge, prompting the foils to collapse."
+          "(4a) Electroscope Radiation Detection: Charging an electroscope forces like electrical charges onto metal foils, causing mutual electrostatic repulsion. When ionizing radiation passes through the jar, it ionizes air molecules that neutralize the leaf charge, prompting the foils to collapse.",
+          "Electroscope Discharge: Ionizing particles strip electrons from ambient air molecules, neutralizing charged leaves on electroscopes."
         ],
         "right_points": [
-          "(4b) Cloud Chamber Vapor Tracks: A cloud chamber cools isopropyl alcohol vapor over dry ice to create a delicate supersaturated state. As energetic particles traverse this chamber, they ionize vapor molecules, serving as condensation nuclei that form visible droplet trails."
+          "(4b) Cloud Chamber Vapor Tracks: A cloud chamber cools isopropyl alcohol vapor over dry ice to create a delicate supersaturated state. As energetic particles traverse this chamber, they ionize vapor molecules, serving as condensation nuclei that form visible droplet trails.",
+          "(4c) Half Life Coin Simulation: Simulations using tossed coins or candies demonstrate the constant statistical probability governing radioactive decay. By tracking remaining undecayed items over sequential trials, Scouts plot an exponential decay curve illustrating half-life."
         ],
         "rows": [
           {
@@ -1880,26 +1887,27 @@
           },
           {
             "attribute": "Cloud Chamber Physics",
-            "left": "Req 4a: Electroscope Radiation: Charging an electroscope forces like electrical charges onto metal foils, causing mutual electrostatic repulsion. When ionizing radiation passes through the jar, it ionizes air molecules that neutralize the leaf charge, prompting the foils to collapse.",
-            "right": "Req 4b: Cloud Chamber Vapor Tracks: A cloud chamber cools isopropyl alcohol vapor over dry ice to create a delicate supersaturated state. As energetic particles traverse this chamber, they ionize vapor molecules, serving as condensation nuclei that form visible droplet trails."
+            "left": "Electroscope Discharge: Ionizing particles strip electrons from ambient air molecules, neutralizing charged leaves on electroscopes.",
+            "right": "(4c) Half Life Coin Simulation: Simulations using tossed coins or candies demonstrate the constant statistical probability governing radioactive decay. By tracking remaining undecayed items over sequential trials, Scouts plot an exponential decay curve illustrating half-life."
           },
           {
             "attribute": "Track Morphology",
-            "left": "Req 4c: Half Life Coin Simulation: Simulations using tossed coins or candies demonstrate the constant statistical probability governing radioactive decay. By tracking remaining undecayed items over sequential trials, Scouts plot an exponential decay curve illustrating half-life.",
-            "right": "Cloud Chamber Physics: Supersaturated alcohol vapor condenses along ionization trails left by traveling alpha and beta radiation."
+            "left": "Track Morphology: Dense straight condensation paths indicate heavy alpha particles while thin tortuous tracks show electrons.",
+            "right": "Half Life Probability: Unstable atomic nuclei decay according to constant statistical probabilities over specific characteristic durations."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 4 Exemplar Workbook Entry: Classic",
+        "title": "Nuclear Science Req 4 Worked Example: Classic Nuclear Science Experiments",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Electroscope Radiation": "Charging an electroscope forces like electrical charges onto metal foils, causing mutual electrostatic repulsion. When ionizing radiation passes through the jar, it ionizes air molecules that neutralize the leaf charge, prompting the foils to collapse.",
-          "Req 4b - Cloud Chamber Vapor Tracks": "A cloud chamber cools isopropyl alcohol vapor over dry ice to create a delicate supersaturated state. As energetic particles traverse this chamber, they ionize vapor molecules, serving as condensation nuclei that form visible droplet trails.",
-          "Req 4c - Half Life Coin Simulation": "Simulations using tossed coins or candies demonstrate the constant statistical probability governing radioactive decay. By tracking remaining undecayed items over sequential trials, Scouts plot an exponential decay curve illustrating half-life."
+          "Phase 1 - Electroscope Assembly": "Mount a metal terminal through an insulating jar stopper holding thin aluminum leaves.",
+          "Phase 2 - Chamber Chilling": "Place an alcohol saturated felt chamber base upon dry ice to create supersaturation.",
+          "Phase 3 - Track Observation": "Direct intense side illumination across the vapor zone to visualize ionizing radiation condensation.",
+          "Phase 4 - Half Life Trial": "Shake one hundred marked coins in a cup and remove all tails each round."
         },
-        "sample_output": "Classic Nuclear Physics Experiments: Buy dry ice the morning of the demonstration in order to minimize the sublimation losses of the dry ice (p. 33).",
-        "counselor_tip": "For Nuclear Science Requirement 4 (Classic Nuclear Physics Experiments), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34))."
+        "sample_output": "Classic experimental demonstrations illustrate ion formation, radiation trajectory visualization, and mathematical radioactive decay rates. Using cloud chambers and electroscopes, Scouts observe the physical interactions between ionizing emissions and matter.",
+        "counselor_tip": "During the Nuclear Science Requirement 4 conference on Classic Nuclear Science Experiments, verify that the Scout can explain electroscope discharge and demonstrate half life trial: Shake one hundred marked coins in a cup and remove all tails each round."
       },
       "quiz_item": {
         "scenario_prompt": "In a cloud chamber experiment using dry ice and methanol, what safety precautions and physical principles apply?",
@@ -2325,7 +2333,6 @@
         "Step 4 - Clinical Mapping: Diagram the operator control console, protective lead glass partition, and patient table."
       ],
       "gear_checklist": [
-        "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 5.",
         "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Radiation Safety And Measurement.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 5."
@@ -2334,10 +2341,12 @@
         "left_header": "Req 5a: Radiation Meter Survey Testing",
         "right_header": "Req 5b: Home Radon Gas Testing",
         "left_points": [
-          "(5a) Radiation Meter Survey Testing: A Geiger-Mueller survey meter counts ionizing events that occur within its gas-filled tube detector window. Testing count rates across multiple distances verifies that radiation intensity falls off sharply with distance following the inverse square law."
+          "(5a) Radiation Meter Survey Testing: A Geiger-Mueller survey meter counts ionizing events that occur within its gas-filled tube detector window. Testing count rates across multiple distances verifies that radiation intensity falls off sharply with distance following the inverse square law.",
+          "Inverse Square Rule: Doubling the distance from a radiation source reduces measured intensity to one fourth."
         ],
         "right_points": [
-          "(5b) Home Radon Gas Testing: Radon-222 is an odorless radioactive noble gas produced by the natural decay of uranium in soils. Short-term charcoal canisters and long-term alpha-track detectors measure indoor radon levels to determine whether remediation fans are required."
+          "(5b) Home Radon Gas Testing: Radon-222 is an odorless radioactive noble gas produced by the natural decay of uranium in soils. Short-term charcoal canisters and long-term alpha-track detectors measure indoor radon levels to determine whether remediation fans are required.",
+          "(5c) Clinical X-Ray Room Layout: Diagnostic imaging suites position the radiation emitter toward the patient while isolating the operator behind structural shielding. Lead-lined drywall, leaded glass observation windows, and collimators prevent scatter radiation from exposing medical personnel."
         ],
         "rows": [
           {
@@ -2347,26 +2356,27 @@
           },
           {
             "attribute": "Radon Accumulation",
-            "left": "Req 5a: Radiation Meter Survey: A Geiger-Mueller survey meter counts ionizing events that occur within its gas-filled tube detector window. Testing count rates across multiple distances verifies that radiation intensity falls off sharply with distance following the inverse square law.",
-            "right": "Req 5b: Home Radon Gas Testing: Radon-222 is an odorless radioactive noble gas produced by the natural decay of uranium in soils. Short-term charcoal canisters and long-term alpha-track detectors measure indoor radon levels to determine whether remediation fans are required."
+            "left": "Inverse Square Rule: Doubling the distance from a radiation source reduces measured intensity to one fourth.",
+            "right": "(5c) Clinical X-Ray Room Layout: Diagnostic imaging suites position the radiation emitter toward the patient while isolating the operator behind structural shielding. Lead-lined drywall, leaded glass observation windows, and collimators prevent scatter radiation from exposing medical personnel."
           },
           {
             "attribute": "Survey Meter Operation",
-            "left": "Req 5c: Clinical X-Ray Room Layout: Diagnostic imaging suites position the radiation emitter toward the patient while isolating the operator behind structural shielding. Lead-lined drywall, leaded glass observation windows, and collimators prevent scatter radiation from exposing medical personnel.",
-            "right": "Radon Accumulation: Radon gas enters residential basements through porous concrete foundation cracks from decaying soil minerals."
+            "left": "Survey Meter Operation: Geiger tubes detect current pulses produced by cascade ionization inside low pressure inert gas.",
+            "right": "Clinical Shielding Standards: Medical radiographic suites incorporate lead lined walls, glass viewing windows, and protective aprons."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 5 Exemplar Workbook Entry: Radiation",
+        "title": "Nuclear Science Req 5 Worked Example: Radiation Safety and Measurement",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5a - Radiation Meter Survey": "A Geiger-Mueller survey meter counts ionizing events that occur within its gas-filled tube detector window. Testing count rates across multiple distances verifies that radiation intensity falls off sharply with distance following the inverse square law.",
-          "Req 5b - Home Radon Gas Testing": "Radon-222 is an odorless radioactive noble gas produced by the natural decay of uranium in soils. Short-term charcoal canisters and long-term alpha-track detectors measure indoor radon levels to determine whether remediation fans are required.",
-          "Req 5c - Clinical X-Ray Room Layout": "Diagnostic imaging suites position the radiation emitter toward the patient while isolating the operator behind structural shielding. Lead-lined drywall, leaded glass observation windows, and collimators prevent scatter radiation from exposing medical personnel."
+          "Phase 1 - Background Calibration": "Power on the survey meter and establish background baseline counts per minute outdoors.",
+          "Phase 2 - Distance Increments": "Place the check source at ten, twenty, and forty centimeter detector intervals.",
+          "Phase 3 - Radon Deployment": "Position an activated charcoal canister in the lowest lived in home level.",
+          "Phase 4 - Clinical Mapping": "Diagram the operator control console, protective lead glass partition, and patient table."
         },
-        "sample_output": "Radiation Detection and Shielding Safety: Discuss why the different parts of the image have different levels of brightness (p. 39).",
-        "counselor_tip": "For Nuclear Science Requirement 5 (Radiation Detection and Shielding Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72))."
+        "sample_output": "Radiation detection instruments measure ionizing interactions using gas ionization chambers, scintillation crystals, or solid state sensors. Applying inverse square attenuation and shielding boundaries minimizes occupational exposure in residential, laboratory, and clinical settings.",
+        "counselor_tip": "During the Nuclear Science Requirement 5 conference on Radiation Safety and Measurement, verify that the Scout can explain inverse square rule and demonstrate clinical mapping: Diagram the operator control console, protective lead glass partition, and patient table."
       },
       "quiz_item": {
         "scenario_prompt": "How does nuclear medicine diagnostic imaging differ from a standard dental or chest X-ray?",
@@ -2726,10 +2736,12 @@
         "left_header": "Req 6a: Fission Chain Reaction Dynamics",
         "right_header": "Req 6b: Nuclear Power Plant Operation",
         "left_points": [
-          "(6a) Fission Chain Reaction Dynamics: When a fissile nucleus splits, it releases energy alongside two or three prompt neutrons capable of splitting adjacent atoms. Mousetrap models simulate this exponential growth by demonstrating how released ping-pong balls trigger neighboring traps."
+          "(6a) Fission Chain Reaction Dynamics: When a fissile nucleus splits, it releases energy alongside two or three prompt neutrons capable of splitting adjacent atoms. Mousetrap models simulate this exponential growth by demonstrating how released ping-pong balls trigger neighboring traps.",
+          "Fission Mechanics: Heavy uranium nuclei split into lighter fragments upon capturing thermal neutrons, yielding thermal energy."
         ],
         "right_points": [
-          "(6b) Nuclear Power Plant Operation: Commercial reactors transfer thermal heat from nuclear fuel assemblies to primary water coolant circulating under high pressure. This thermal energy boils secondary water into steam, spinning a turbine shaft coupled to an electromagnetic generator."
+          "(6b) Nuclear Power Plant Operation: Commercial reactors transfer thermal heat from nuclear fuel assemblies to primary water coolant circulating under high pressure. This thermal energy boils secondary water into steam, spinning a turbine shaft coupled to an electromagnetic generator.",
+          "Moderator Function: Light water slows fast fission neutrons down to thermal speeds required for capture."
         ],
         "rows": [
           {
@@ -2739,25 +2751,27 @@
           },
           {
             "attribute": "Chain Reaction Control",
-            "left": "Req 6a: Fission Chain Reaction: When a fissile nucleus splits, it releases energy alongside two or three prompt neutrons capable of splitting adjacent atoms. Mousetrap models simulate this exponential growth by demonstrating how released ping-pong balls trigger neighboring traps.",
-            "right": "Req 6b: Nuclear Power Plant: Commercial reactors transfer thermal heat from nuclear fuel assemblies to primary water coolant circulating under high pressure. This thermal energy boils secondary water into steam, spinning a turbine shaft coupled to an electromagnetic generator."
+            "left": "Fission Mechanics: Heavy uranium nuclei split into lighter fragments upon capturing thermal neutrons, yielding thermal energy.",
+            "right": "Moderator Function: Light water slows fast fission neutrons down to thermal speeds required for capture."
           },
           {
             "attribute": "Moderator Function",
-            "left": "Fission Mechanics: Heavy uranium nuclei split into lighter fragments upon capturing thermal neutrons, yielding thermal energy.",
-            "right": "Chain Reaction Control: Boron control rods absorb excess neutrons to sustain a steady critical reactor state."
+            "left": "Moderator Function: Light water slows fast fission neutrons down to thermal speeds required for capture.",
+            "right": "Steam Turbine Cycle: Primary coolant water transfers fission heat across steam generators to rotate electrical generators."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 6 Exemplar Workbook Entry: Nuclear",
+        "title": "Nuclear Science Req 6 Worked Example: Nuclear Fission Power Generation",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Fission Chain Reaction": "When a fissile nucleus splits, it releases energy alongside two or three prompt neutrons capable of splitting adjacent atoms. Mousetrap models simulate this exponential growth by demonstrating how released ping-pong balls trigger neighboring traps.",
-          "Req 6b - Nuclear Power Plant Operation": "Commercial reactors transfer thermal heat from nuclear fuel assemblies to primary water coolant circulating under high pressure. This thermal energy boils secondary water into steam, spinning a turbine shaft coupled to an electromagnetic generator."
+          "Phase 1 - Fission Diagramming": "Illustrate a slow neutron splitting uranium into barium, krypton, and three free neutrons.",
+          "Phase 2 - Simulator Observation": "Observe a spring trap grid demonstration showing exponential neutron release during chain reactions.",
+          "Phase 3 - Virtual Facility Tour": "Tour a commercial nuclear plant virtually to inspect containment structures and primary coolant loops.",
+          "Phase 4 - Electricity Generation Flow": "Trace thermal energy transfer from fuel rods through steam turbines to regional grid distribution."
         },
-        "sample_output": "Nuclear Fission and Power Generation: Fission would not be useful for producing energy if we had to shoot each nucleus with a neutron to break (p. 53).",
-        "counselor_tip": "For Nuclear Science Requirement 6 (Nuclear Fission and Power Generation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55))."
+        "sample_output": "Nuclear fission occurs when a fissile nucleus absorbs a thermal neutron and splits into smaller fragments, releasing energy and additional neutrons. Commercial reactors harness this thermal output within controlled coolant loops to drive steam turbines for electrical power generation.",
+        "counselor_tip": "During the Nuclear Science Requirement 6 conference on Nuclear Fission Power Generation, verify that the Scout can explain fission mechanics and demonstrate electricity generation flow: Trace thermal energy transfer from fuel rods through steam turbines to regional grid distribution."
       },
       "quiz_item": {
         "scenario_prompt": "What key discovery by Lise Meitner, Otto Hahn, Fritz Strassmann, and Enrico Fermi made sustained nuclear energy production possible?",
@@ -2925,47 +2939,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Radiation in Scientific Research",
-        "right_header": "Req 7: Measure Carbon-14 Decay",
+        "left_header": "Beneficial Applications of Nuclear Science: Core Principles",
+        "right_header": "Beneficial Applications of Nuclear Science: Field Execution",
         "left_points": [
-          "Radiation in Scientific Research: Nuclear Technologies Radiation in Science The uses of radiation in science and research are many and varied (p. 42).",
-          "Carbon-14 in Living Things: All living things have some radioactive carbon-14 in them (p. 42).",
-          "Archaeological Radiocarbon Dating: Archaeologists and paleontologists use this measurement in their studies (p. 42)."
+          "Diagnostic Medicine: Positron emission tomography uses fluorine eighteen labeled glucose to detect active metabolic tumors.",
+          "Industrial Radiography: Gamma ray projectors inspect steel pipelines and welded structural seams for microscopic internal defects."
         ],
         "right_points": [
-          "Measure Carbon-14 Decay: Archaeologists and paleontologists use this measurement in their studies (p. 42).",
-          "Apply Radiocarbon Across Sciences: The carbon-14 technique is an essential tool in many fields including atmospheric science, oceanography, geology, and climatology (p. 42).",
-          "Deploy Alpha Particle Spectrometers: The Mars rover Sojourner used alpha particles to identify chemical elements in Martian rocks (p. 42)."
+          "Deep Space Power: Radioisotope thermoelectric generators convert plutonium decay heat into electricity for deep space probes.",
+          "Agricultural Pest Control: Sterile insect technique utilizes gamma irradiation to suppress invasive agricultural fruit fly populations."
         ],
         "rows": [
           {
             "attribute": "Diagnostic Medicine",
-            "left": "Radiation in Scientific Research: Nuclear Technologies Radiation in Science The uses of radiation in science and research are many and varied (p. 42).",
-            "right": "Measure Carbon-14 Decay: Archaeologists and paleontologists use this measurement in their studies (p. 42)."
+            "left": "Diagnostic Medicine: Positron emission tomography uses fluorine eighteen labeled glucose to detect active metabolic tumors.",
+            "right": "Deep Space Power: Radioisotope thermoelectric generators convert plutonium decay heat into electricity for deep space probes."
           },
           {
             "attribute": "Industrial Radiography",
-            "left": "Carbon-14 in Living Things: All living things have some radioactive carbon-14 in them (p. 42).",
-            "right": "Apply Radiocarbon Across Sciences: The carbon-14 technique is an essential tool in many fields including atmospheric science, oceanography, geology, and climatology (p. 42)."
+            "left": "Industrial Radiography: Gamma ray projectors inspect steel pipelines and welded structural seams for microscopic internal defects.",
+            "right": "Agricultural Pest Control: Sterile insect technique utilizes gamma irradiation to suppress invasive agricultural fruit fly populations."
           },
           {
             "attribute": "Deep Space Power",
-            "left": "Archaeological Radiocarbon Dating: Archaeologists and paleontologists use this measurement in their studies (p. 42).",
-            "right": "Deploy Alpha Particle Spectrometers: The Mars rover Sojourner used alpha particles to identify chemical elements in Martian rocks (p. 42)."
+            "left": "Deep Space Power: Radioisotope thermoelectric generators convert plutonium decay heat into electricity for deep space probes.",
+            "right": "Agricultural Pest Control: Sterile insect technique utilizes gamma irradiation to suppress invasive agricultural fruit fly populations."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 7 Exemplar Workbook Entry",
+        "title": "Nuclear Science Req 7 Worked Example: Beneficial Applications of Nuclear Science",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Radiation in Scientific Research": "Nuclear Technologies Radiation in Science The uses of radiation in science and research are many and varied (p. 42).",
-          "Carbon-14 in Living Things": "All living things have some radioactive carbon-14 in them (p. 42).",
-          "Archaeological Radiocarbon Dating": "Archaeologists and paleontologists use this measurement in their studies (p. 42).",
-          "Earth and Climate Applications": "The carbon-14 technique is an essential tool in many fields including atmospheric science, oceanography, geology, and climatology (p. 42)."
+          "Phase 1 - Application Research": "Research five distinct industrial, medical, agricultural, space, and environmental uses of radioisotopes.",
+          "Phase 2 - Medical Case Study": "Document how technetium ninety-nine metastable enables organ imaging and cardiac blood flow evaluation.",
+          "Phase 3 - Environmental Tracing": "Analyze how scientists track groundwater flows and soil erosion rates using radioactive tracers.",
+          "Phase 4 - Presentation Preparation": "Prepare a comparative chart illustrating each application, the specific isotope used, and benefits."
         },
-        "sample_output": "Beneficial Applications of Nuclear Science: Nuclear Technologies Radiation in Science The uses of radiation in science and research are many and varied (p. 42).",
-        "counselor_tip": "For Nuclear Science Requirement 7 (Beneficial Applications of Nuclear Science), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 42, p. 46))."
+        "sample_output": "Nuclear science provides life saving tools across oncology diagnostics, agricultural pest sterilization, space probe power, and materials testing. Radioisotopes, neutron activation analysis, and radiothermal generators harness atomic emissions for diverse humanitarian and industrial endeavors.",
+        "counselor_tip": "During the Nuclear Science Requirement 7 conference on Beneficial Applications of Nuclear Science, verify that the Scout can explain diagnostic medicine and demonstrate presentation preparation: Prepare a comparative chart illustrating each application, the specific isotope used, and benefits."
       },
       "quiz_item": {
         "scenario_prompt": "How did the Mars rover Sojourner use nuclear science to identify the chemical elements inside Martian rocks?",
@@ -3145,53 +3157,50 @@
         "Step 4 - Career Path Summary: Prepare a written career profile outlining job prospects, duties, and advancement opportunities."
       ],
       "gear_checklist": [
-        "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 8.",
         "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Careers In Nuclear Science.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 8."
       ],
       "comparison_data": {
-        "left_header": "Req 8: Studying Nuclei and Cosmos",
-        "right_header": "Req 8: Explore Fundamental Nuclear Laws",
+        "left_header": "Careers in Nuclear Science: Core Principles",
+        "right_header": "Careers in Nuclear Science: Field Execution",
         "left_points": [
-          "Studying Nuclei and Cosmos: Nuclear scientists study the structure, properties, and interactions of atomic nuclei and how the elements were formed in the cosmos (p. 78).",
-          "Experimentalists Versus Nuclear Theorists: Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret results from experiments and predict new phenomena (p. 78).",
-          "Understanding Nature's Building Blocks: The ultimate goal is to understand the building blocks of nature and the physical laws they obey (p. 78)."
+          "Health Physics Practice: Radiation protection officers calculate exposure limits and monitor worker safety compliance in laboratories.",
+          "Nuclear Engineering Design: Engineers model reactor core thermodynamics, fuel rod geometry, and automatic shutdown system electronics."
         ],
         "right_points": [
-          "Explore Fundamental Nuclear Laws: The ultimate goal is to understand the building blocks of nature and the physical laws they obey (p. 78).",
-          "Plan Advanced Degree Pathways: To become a nuclear scientist, most people earn a doctorate in physics or chemistry (p. 78).",
-          "Commit to Multiyear Research: The path to this degree takes many years of study and research (p. 78)."
+          "Radiopharmaceutical Synthesis: Medical radiochemists develop radioisotope tagged molecular tracers for cancer detection and targeted therapy.",
+          "Reactor Operations Licensing: Commercial reactor operators must pass rigorous Nuclear Regulatory Commission simulator examinations to qualify."
         ],
         "rows": [
           {
             "attribute": "Health Physics Practice",
-            "left": "Studying Nuclei and Cosmos: Nuclear scientists study the structure, properties, and interactions of atomic nuclei and how the elements were formed in the cosmos (p. 78).",
-            "right": "Explore Fundamental Nuclear Laws: The ultimate goal is to understand the building blocks of nature and the physical laws they obey (p. 78)."
+            "left": "Health Physics Practice: Radiation protection officers calculate exposure limits and monitor worker safety compliance in laboratories.",
+            "right": "Radiopharmaceutical Synthesis: Medical radiochemists develop radioisotope tagged molecular tracers for cancer detection and targeted therapy."
           },
           {
             "attribute": "Nuclear Engineering Design",
-            "left": "Experimentalists Versus Nuclear Theorists: Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret results from experiments and predict new phenomena (p. 78).",
-            "right": "Plan Advanced Degree Pathways: To become a nuclear scientist, most people earn a doctorate in physics or chemistry (p. 78)."
+            "left": "Nuclear Engineering Design: Engineers model reactor core thermodynamics, fuel rod geometry, and automatic shutdown system electronics.",
+            "right": "Reactor Operations Licensing: Commercial reactor operators must pass rigorous Nuclear Regulatory Commission simulator examinations to qualify."
           },
           {
             "attribute": "Radiopharmaceutical Synthesis",
-            "left": "Understanding Nature's Building Blocks: The ultimate goal is to understand the building blocks of nature and the physical laws they obey (p. 78).",
-            "right": "Commit to Multiyear Research: The path to this degree takes many years of study and research (p. 78)."
+            "left": "Radiopharmaceutical Synthesis: Medical radiochemists develop radioisotope tagged molecular tracers for cancer detection and targeted therapy.",
+            "right": "Reactor Operations Licensing: Commercial reactor operators must pass rigorous Nuclear Regulatory Commission simulator examinations to qualify."
           }
         ]
       },
       "worked_example": {
-        "title": "Nuclear Science Req 8 Exemplar Workbook Entry: Careers",
+        "title": "Nuclear Science Req 8 Worked Example: Careers in Nuclear Science",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Studying Nuclei and Cosmos": "Nuclear scientists study the structure, properties, and interactions of atomic nuclei and how the elements were formed in the cosmos (p. 78).",
-          "Experimentalists Versus Nuclear": "Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret results from experiments and predict new phenomena (p. 78).",
-          "Understanding Nature's Building Blocks": "The ultimate goal is to understand the building blocks of nature and the physical laws they obey (p. 78).",
-          "Doctorate Path in Physics": "To become a nuclear scientist, most people earn a doctorate in physics or chemistry (p. 78)."
+          "Phase 1 - Career Field Selection": "Select one specific nuclear science career such as health physicist or nuclear engineer.",
+          "Phase 2 - Education Analysis": "Investigate required undergraduate degrees, trade apprenticeships, board certifications, and estimated training costs.",
+          "Phase 3 - Professional Interview": "Interview a practicing nuclear professional regarding daily responsibilities, salary ranges, and workplace safety.",
+          "Phase 4 - Career Path Summary": "Prepare a written career profile outlining job prospects, duties, and advancement opportunities."
         },
-        "sample_output": "Careers in Nuclear Science: Nuclear scientists study the structure, properties, and interactions of atomic nuclei and how the elements were formed in the cosmos (p. 78).",
-        "counselor_tip": "For Nuclear Science Requirement 8 (Careers in Nuclear Science), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 78, p. 79))."
+        "sample_output": "Careers in nuclear science span health physics, nuclear engineering, radiochemistry, radiation oncology, and reactor operations. Professionals complete specialized academic degrees, radiation safety certifications, and continuous training to manage high technology facilities.",
+        "counselor_tip": "During the Nuclear Science Requirement 8 conference on Careers in Nuclear Science, verify that the Scout can explain health physics practice and demonstrate career path summary: Prepare a written career profile outlining job prospects, duties, and advancement opportunities."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Nuclear Science merit badge pamphlet, how does the role of an experimental nuclear scientist differ from that of a nuclear theorist?",

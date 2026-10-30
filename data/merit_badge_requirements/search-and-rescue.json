@@ -1426,13 +1426,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Search Field Environmental First",
-        "right_header": "Req 1b: Scout Basic Essentials",
+        "left_header": "Req 1a: Search Field Environmental First Aid",
+        "right_header": "Req 1b: Scout Basic Essentials Preparedness",
         "left_points": [
-          "(1a) Search Field Environmental First Aid: Environmental emergencies like hypothermia and heatstroke require immediate aggressive field management to prevent fatalities. Responders prioritize passive insulation for cold patients and evaporative cooling for heat collapse."
+          "(1a) Search Field Environmental First Aid: Environmental emergencies like hypothermia and heatstroke require immediate aggressive field management to prevent fatalities. Responders prioritize passive insulation for cold patients and evaporative cooling for heat collapse.",
+          "Hydration Management: Searchers drink water and balanced electrolytes before thirst indicates deep cellular fluid deficit."
         ],
         "right_points": [
-          "(1b) Scout Basic Essentials Preparedness: The Scout Basic Essentials provide life-sustaining resources to build improvised shelters, purify water, and retain metabolic warmth. These supplies prevent minor navigation errors from turning into severe medical emergencies."
+          "(1b) Scout Basic Essentials Preparedness: The Scout Basic Essentials provide life-sustaining resources to build improvised shelters, purify water, and retain metabolic warmth. These supplies prevent minor navigation errors from turning into severe medical emergencies.",
+          "(1c) Searcher Field Pack Equipment: Field packs contain 24-hour survival gear, universal precaution items, and high-visibility flagging to support sustained search tasks. Responders configure equipment to ensure self-sufficiency without draining incident base resources."
         ],
         "rows": [
           {
@@ -1442,26 +1444,27 @@
           },
           {
             "attribute": "Heatstroke Response",
-            "left": "Req 1a: Search Field Environmental: Environmental emergencies like hypothermia and heatstroke require immediate aggressive field management to prevent fatalities. Responders prioritize passive insulation for cold patients and evaporative cooling for heat collapse.",
-            "right": "Req 1b: Scout Basic Essentials: The Scout Basic Essentials provide life-sustaining resources to build improvised shelters, purify water, and retain metabolic warmth. These supplies prevent minor navigation errors from turning into severe medical emergencies."
+            "left": "Hydration Management: Searchers drink water and balanced electrolytes before thirst indicates deep cellular fluid deficit.",
+            "right": "(1c) Searcher Field Pack Equipment: Field packs contain 24-hour survival gear, universal precaution items, and high-visibility flagging to support sustained search tasks. Responders configure equipment to ensure self-sufficiency without draining incident base resources."
           },
           {
             "attribute": "Hypothermia Care",
-            "left": "Req 1c: Searcher Field Pack: Field packs contain 24-hour survival gear, universal precaution items, and high-visibility flagging to support sustained search tasks. Responders configure equipment to ensure self-sufficiency without draining incident base resources.",
-            "right": "Heatstroke Response: Rapid whole body evaporative cooling prevents permanent central nervous system and organ damage."
+            "left": "Hypothermia Care: Gentle handling and vapor barrier packaging prevent fatal post rescue core temperature drops.",
+            "right": "Blister Prevention: Pre-taping friction hot spots on feet avoids debilitating soft tissue search field injuries."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 1 Exemplar Workbook Entry: Field",
+        "title": "Search and Rescue Req 1 Worked Example: Searcher Hazards and Field First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Search Field Environmental": "Environmental emergencies like hypothermia and heatstroke require immediate aggressive field management to prevent fatalities. Responders prioritize passive insulation for cold patients and evaporative cooling for heat collapse.",
-          "Req 1b - Scout Basic Essentials": "The Scout Basic Essentials provide life-sustaining resources to build improvised shelters, purify water, and retain metabolic warmth. These supplies prevent minor navigation errors from turning into severe medical emergencies.",
-          "Req 1c - Searcher Field Pack Equipment": "Field packs contain 24-hour survival gear, universal precaution items, and high-visibility flagging to support sustained search tasks. Responders configure equipment to ensure self-sufficiency without draining incident base resources."
+          "Phase 1 - Patient Assessment": "Check responsiveness, airway, breathing, circulation, and vital signs before initiating physical movement.",
+          "Phase 2 - Thermal Regulation": "Strip wet clothing and wrap the individual in dry vapor barrier layers.",
+          "Phase 3 - Fluid Administration": "Provide small sips of electrolyte fluid only if the patient remains fully alert.",
+          "Phase 4 - Transport Preparation": "Secure the patient onto a rigid rescue litter using padded full harness straps."
         },
-        "sample_output": "Field Hazards and First Aid: Treat every accident victim for shock even if no symptoms appear (p. 43).",
-        "counselor_tip": "For Search and Rescue Requirement 1 (Field Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47))."
+        "sample_output": "Search and rescue personnel operate in austere environments requiring strict prevention and prompt stabilization of environmental casualties. Field responders carry protective thermal gear, electrolyte fluids, and blister mitigation kits to sustain team endurance.",
+        "counselor_tip": "During the Search and Rescue Requirement 1 conference on Searcher Hazards and Field First Aid, verify that the Scout can explain hydration management and demonstrate transport preparation: Secure the patient onto a rigid rescue litter using padded full harness straps."
       },
       "quiz_item": {
         "scenario_prompt": "In Search and Rescue (SAR) operations, why is the searcher's personal safety and self-sufficiency with a prepared SAR pack considered the highest priority before entering the field?",
@@ -2054,8 +2057,8 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Trip Planning and Buddy",
-        "right_header": "Req 2c: Emergency Signaling",
+        "left_header": "Req 2a: Trip Planning and Buddy Accountability",
+        "right_header": "Req 2c: Emergency Signaling Methodologies",
         "left_points": [
           "(2a) Trip Planning and Buddy Accountability: A comprehensive trip plan lists route milestones, gear descriptions, and emergency contacts to expedite SAR response. The buddy system maintains constant accountability, ensuring immediate detection of deviations or injuries.",
           "(2b) Weather Impacts on Route Plans: Seasonal temperature swings and sudden mountain squalls necessitate dynamic reassessments of trail plans. Responders examine regional forecasts to avoid exposure to flash flood washes and avalanche slopes."
@@ -2077,22 +2080,22 @@
           },
           {
             "attribute": "Weather Plan Adjustments",
-            "left": "Req 2a: Trip Planning and Buddy: A comprehensive trip plan lists route milestones, gear descriptions, and emergency contacts to expedite SAR response. The buddy system maintains constant accountability, ensuring immediate detection of deviations or injuries.",
-            "right": "Req 2b: Weather Impacts on Route: Seasonal temperature swings and sudden mountain squalls necessitate dynamic reassessments of trail plans. Responders examine regional forecasts to avoid exposure to flash flood washes and avalanche slopes."
+            "left": "Weather Plan Adjustments: Severe cold fronts demand shortening travel distances and selecting lower elevation trail routes.",
+            "right": "Emergency Signal Protocols: Groups of three distinct audio or visual blasts represent universal wilderness distress calls."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 2 Exemplar Workbook Entry: Staying",
+        "title": "Search and Rescue Req 2 Worked Example: Wilderness Navigation and Signaling Protocols",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Trip Planning and Buddy": "A comprehensive trip plan lists route milestones, gear descriptions, and emergency contacts to expedite SAR response. The buddy system maintains constant accountability, ensuring immediate detection of deviations or injuries.",
-          "Req 2b - Weather Impacts on Route": "Seasonal temperature swings and sudden mountain squalls necessitate dynamic reassessments of trail plans. Responders examine regional forecasts to avoid exposure to flash flood washes and avalanche slopes.",
-          "Req 2c - Emergency Signaling": "Ground-to-air signals must exploit visual contrast, movement, or acoustic penetration to attract search crews. Utilizing geometric formations of three markers alerts aircraft that human intervention is required.",
-          "Req 2d - Signaling Mirror Aiming": "A glass signaling mirror projects intense pinpoint flashes visible over forty miles to aerial spotters. Users align the sighting hole and fire spot onto the aircraft to ensure accurate flash alignment."
+          "Phase 1 - Travel Halt": "Sit down immediately upon disorientation and assess surroundings using the classic STOP method.",
+          "Phase 2 - Shelter Construction": "Erect a visible windproof shelter near the trail before ambient daylight fades completely.",
+          "Phase 3 - Signal Deployment": "Lay out three large contrasting ground markers in an open clearing area.",
+          "Phase 4 - Audio Transmission": "Blow three short whistle blasts every fifteen minutes to guide ground search teams."
         },
-        "sample_output": "Staying Found and Emergency Signaling: The buddy system is a way for Scouts to look after one another, especially during outdoor adventures (p. 41).",
-        "counselor_tip": "For Search and Rescue Requirement 2 (Staying Found and Emergency Signaling), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42))."
+        "sample_output": "Staying found relies on active prevention through detailed trip itineraries, buddy accountability, and responsive weather monitoring. When navigation fails, lost individuals conserve physical energy and deploy standardized ground-to-air signals.",
+        "counselor_tip": "During the Search and Rescue Requirement 2 conference on Wilderness Navigation and Signaling Protocols, verify that the Scout can explain itinerary documentation and demonstrate audio transmission: Blow three short whistle blasts every fifteen minutes to guide ground search teams."
       },
       "quiz_item": {
         "scenario_prompt": "What organization receives the satellite distress signal from a registered Personal Locator Beacon (PLB) in the continental United States and coordinates with local search and rescue agencies?",
@@ -2582,7 +2585,7 @@
       ],
       "comparison_data": {
         "left_header": "Req 3a: Five Ds of Map Reading",
-        "right_header": "Req 3c: Field Orientation and Bearing",
+        "right_header": "Req 3c: Field Orientation and Bearing Calculation",
         "left_points": [
           "(3a) Five Ds of Map Reading: The five Ds encompass date, description, details, direction or declination, and distance on standard topographic sheets. Reviewing these elements prevents navigation errors caused by outdated roads or uncorrected magnetic drift.",
           "(3b) Cartographic Coordinate System Comparison: Coordinates specify points using latitude-longitude angular degrees or planar United States National Grid metric references. USNG standardizes interagency communication, reducing transcription mistakes during high-stress wilderness rescues."
@@ -2604,22 +2607,22 @@
           },
           {
             "attribute": "Grid Coordinate Precision",
-            "left": "Req 3a: Five Ds of Map Reading: The five Ds encompass date, description, details, direction or declination, and distance on standard topographic sheets. Reviewing these elements prevents navigation errors caused by outdated roads or uncorrected magnetic drift.",
-            "right": "Req 3b: Cartographic Coordinate: Coordinates specify points using latitude-longitude angular degrees or planar United States National Grid metric references. USNG standardizes interagency communication, reducing transcription mistakes during high-stress wilderness rescues."
+            "left": "Grid Coordinate Precision: United States National Grid alphanumeric strings pinpoint casualty locations within one meter accuracy.",
+            "right": "Containment Boundaries: Natural ridgelines and paved roadways establish linear barriers that halt lost subject travel."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 3 Exemplar Workbook Entry",
+        "title": "Search and Rescue Req 3 Worked Example: Topographic Cartography and Grid Navigation",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 3a - Five Ds of Map Reading": "The five Ds encompass date, description, details, direction or declination, and distance on standard topographic sheets. Reviewing these elements prevents navigation errors caused by outdated roads or uncorrected magnetic drift.",
-          "Req 3b - Cartographic Coordinate": "Coordinates specify points using latitude-longitude angular degrees or planar United States National Grid metric references. USNG standardizes interagency communication, reducing transcription mistakes during high-stress wilderness rescues.",
-          "Req 3c - Field Orientation and Bearing": "Orienting a topographic map aligns local relief features with true north to confirm ground positions. Measuring bearings between coordinates enables teams to calculate terrain transit times across rugged topography.",
-          "Req 3d - Place Last Seen Containment": "Placing containment along natural ridges or roads restricts the search envelope around the place last seen. Confinement forces minimize perimeter expansion while hasty teams check high-probability travel corridors."
+          "Phase 1 - Margin Inspection": "Examine map legend for publication date, scale, elevation datum, and magnetic declination diagram.",
+          "Phase 2 - Grid Location": "Plot current location coordinates using the United States National Grid coordinate system scales.",
+          "Phase 3 - Bearing Calculation": "Align compass baseplate along travel line and adjust for local magnetic declination angle.",
+          "Phase 4 - Barrier Identification": "Trace surrounding roads, streams, and cliff bands to establish operational containment boundaries."
         },
-        "sample_output": "Topographic Maps and Coordinate Systems: To find a location on a USGS topographic map, you will need to know whether it is a 7.5-minute map (also known as a 1, 24,000 scale or quad map) (p. 59).",
-        "counselor_tip": "For Search and Rescue Requirement 3 (Topographic Maps and Coordinate Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63))."
+        "sample_output": "Search teams use topographic cartography, compass bearings, and satellite navigation to plan search sectors. Responders must understand map margins, coordinate systems, and linear containment features to search efficiently.",
+        "counselor_tip": "During the Search and Rescue Requirement 3 conference on Topographic Cartography and Grid Navigation, verify that the Scout can explain contour line spacing and demonstrate barrier identification: Trace surrounding roads, streams, and cliff bands to establish operational containment boundaries."
       },
       "quiz_item": {
         "scenario_prompt": "Why do search and rescue teams find it easy to calculate ground distances using the Universal Transverse Mercator (UTM) coordinate system on a 7.5-minute USGS topographic map?",
@@ -2950,13 +2953,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Incident Command and Patrol",
-        "right_header": "Req 4b: Community Agency",
+        "left_header": "Req 4a: Incident Command and Patrol Structure",
+        "right_header": "Req 4b: Community Agency Interoperability Training",
         "left_points": [
-          "(4a) Incident Command and Patrol Structure: ICS utilizes modular organizational levels matching the patrol method's division of responsibilities under a single leader. Both systems establish manageable spans of control, direct communication paths, and clear operational objectives."
+          "(4a) Incident Command and Patrol Structure: ICS utilizes modular organizational levels matching the patrol method's division of responsibilities under a single leader. Both systems establish manageable spans of control, direct communication paths, and clear operational objectives.",
+          "Unified Command Structure: Interagency leaders coordinate multi-jurisdictional rescue operations under common incident management objectives."
         ],
         "right_points": [
-          "(4b) Community Agency Interoperability Training: Municipal, county, and volunteer agencies maintain disaster readiness through recurring joint operational exercises. These collaborative programs clarify legal jurisdictions, radio interoperability channels, and equipment mobilization protocols."
+          "(4b) Community Agency Interoperability Training: Municipal, county, and volunteer agencies maintain disaster readiness through recurring joint operational exercises. These collaborative programs clarify legal jurisdictions, radio interoperability channels, and equipment mobilization protocols.",
+          "Manageable Span Control: Supervisors oversee three to seven responders to maintain operational efficiency and safety."
         ],
         "rows": [
           {
@@ -2966,25 +2971,27 @@
           },
           {
             "attribute": "Common Terminology Use",
-            "left": "Req 4a: Incident Command and Patrol: ICS utilizes modular organizational levels matching the patrol method's division of responsibilities under a single leader. Both systems establish manageable spans of control, direct communication paths, and clear operational objectives.",
-            "right": "Req 4b: Community Agency: Municipal, county, and volunteer agencies maintain disaster readiness through recurring joint operational exercises. These collaborative programs clarify legal jurisdictions, radio interoperability channels, and equipment mobilization protocols."
+            "left": "Unified Command Structure: Interagency leaders coordinate multi-jurisdictional rescue operations under common incident management objectives.",
+            "right": "Manageable Span Control: Supervisors oversee three to seven responders to maintain operational efficiency and safety."
           },
           {
             "attribute": "Manageable Span Control",
-            "left": "Unified Command Structure: Interagency leaders coordinate multi-jurisdictional rescue operations under common incident management objectives.",
-            "right": "Common Terminology Use: Standard clear text terminology eliminates radio confusion between fire, police, and volunteers."
+            "left": "Manageable Span Control: Supervisors oversee three to seven responders to maintain operational efficiency and safety.",
+            "right": "Agency Training Exercises: Regular multi-agency mock disaster drills build smooth operational cooperation before actual incidents."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 4 Exemplar Workbook Entry",
+        "title": "Search and Rescue Req 4 Worked Example: Incident Command System Organization",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Incident Command and Patrol": "ICS utilizes modular organizational levels matching the patrol method's division of responsibilities under a single leader. Both systems establish manageable spans of control, direct communication paths, and clear operational objectives.",
-          "Req 4b - Community Agency": "Municipal, county, and volunteer agencies maintain disaster readiness through recurring joint operational exercises. These collaborative programs clarify legal jurisdictions, radio interoperability channels, and equipment mobilization protocols."
+          "Phase 1 - Command Establishment": "Designate an Incident Commander and establish a centralized, accessible field command post.",
+          "Phase 2 - Section Assignment": "Assign Operations, Planning, Logistics, and Finance Section Chiefs based on incident complexity.",
+          "Phase 3 - Resource Integration": "Direct arriving volunteer and agency resources through formal staging and check-in procedures.",
+          "Phase 4 - Operational Debriefing": "Collect documentation from departing team leaders to update overall incident planning maps."
         },
-        "sample_output": "Incident Command System Organization: Introduction to the Incident Command System, or ICS 100, is a foundational course that provides instruction on the history, organizational structure (p. 14).",
-        "counselor_tip": "For Search and Rescue Requirement 4 (Incident Command System Organization), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 14, p. 16))."
+        "sample_output": "The Incident Command System organizes multi-agency search responses under a scalable, unified management framework. Scouting patrols mirror this structure through defined leadership roles, clear task delegation, and disciplined accountability.",
+        "counselor_tip": "During the Search and Rescue Requirement 4 conference on Incident Command System Organization, verify that the Scout can explain unified command structure and demonstrate operational debriefing: Collect documentation from departing team leaders to update overall incident planning maps."
       },
       "quiz_item": {
         "scenario_prompt": "In the Incident Command System (ICS), what does the concept of 'unity of command' ensure during a search and rescue operation?",
@@ -3368,12 +3375,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 5a: Official Duties of Search Teams",
-        "right_header": "Req 5b: Search Environment Comparison",
+        "right_header": "Req 5b: Search Environment Comparison Analysis",
         "left_points": [
-          "(5a) Official Duties of Search Teams: Official SAR duties center on locating missing subjects, administering initial field first aid, and coordinating patient transport. Teams must also document physical clues meticulously to support ongoing investigative operations."
+          "(5a) Official Duties of Search Teams: Official SAR duties center on locating missing subjects, administering initial field first aid, and coordinating patient transport. Teams must also document physical clues meticulously to support ongoing investigative operations.",
+          "Search Team Function: Responders deploy systematic tracking, containment, and grid search methods to locate subjects."
         ],
         "right_points": [
-          "(5b) Search Environment Comparison Analysis: Wilderness SAR manages severe terrain, remote distances, and environmental exposure requiring self-sufficient mobile teams. Urban searches navigate structural collapse and hazardous materials, while water rescues manage swift currents and hypothermia."
+          "(5b) Search Environment Comparison Analysis: Wilderness SAR manages severe terrain, remote distances, and environmental exposure requiring self-sufficient mobile teams. Urban searches navigate structural collapse and hazardous materials, while water rescues manage swift currents and hypothermia.",
+          "(5c) Specialized Rescue Team Disciplines: Specialized teams include canine units, mounted searchers, technical rope rescue squads, and unmanned aerial vehicle teams. Ground commanders deploy each specific capability based on local terrain, weather conditions, and subject vulnerability."
         ],
         "rows": [
           {
@@ -3383,26 +3392,27 @@
           },
           {
             "attribute": "Wilderness Rescue Domain",
-            "left": "Req 5a: Official Duties of Search: Official SAR duties center on locating missing subjects, administering initial field first aid, and coordinating patient transport. Teams must also document physical clues meticulously to support ongoing investigative operations.",
-            "right": "Req 5b: Search Environment: Wilderness SAR manages severe terrain, remote distances, and environmental exposure requiring self-sufficient mobile teams. Urban searches navigate structural collapse and hazardous materials, while water rescues manage swift currents and hypothermia."
+            "left": "Search Team Function: Responders deploy systematic tracking, containment, and grid search methods to locate subjects.",
+            "right": "(5c) Specialized Rescue Team Disciplines: Specialized teams include canine units, mounted searchers, technical rope rescue squads, and unmanned aerial vehicle teams. Ground commanders deploy each specific capability based on local terrain, weather conditions, and subject vulnerability."
           },
           {
             "attribute": "Urban Search Complexity",
-            "left": "Req 5c: Specialized Rescue Team: Specialized teams include canine units, mounted searchers, technical rope rescue squads, and unmanned aerial vehicle teams. Ground commanders deploy each specific capability based on local terrain, weather conditions, and subject vulnerability.",
-            "right": "Wilderness Rescue Domain: Backcountry teams navigate rugged mountainous topography requiring specialized self-sufficient wilderness survival equipment."
+            "left": "Urban Search Complexity: Structural collapse specialists operate acoustic listening devices and heavy hydraulic breaching tools.",
+            "right": "Canine Search Capabilities: Trained air scent dogs detect minute airborne human scent rafts across large sectors."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 5 Exemplar Workbook Entry: Search",
+        "title": "Search and Rescue Req 5 Worked Example: Search and Rescue Team Disciplines",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5a - Official Duties of Search": "Official SAR duties center on locating missing subjects, administering initial field first aid, and coordinating patient transport. Teams must also document physical clues meticulously to support ongoing investigative operations.",
-          "Req 5b - Search Environment Comparison": "Wilderness SAR manages severe terrain, remote distances, and environmental exposure requiring self-sufficient mobile teams. Urban searches navigate structural collapse and hazardous materials, while water rescues manage swift currents and hypothermia.",
-          "Req 5c - Specialized Rescue Team": "Specialized teams include canine units, mounted searchers, technical rope rescue squads, and unmanned aerial vehicle teams. Ground commanders deploy each specific capability based on local terrain, weather conditions, and subject vulnerability."
+          "Phase 1 - Team Mobilization": "Assemble qualified personnel, verify specialized mission gear, and confirm individual physical readiness.",
+          "Phase 2 - Assignment Briefing": "Receive operational sector maps, subject profile information, and radio frequency communication protocols.",
+          "Phase 3 - Sector Search": "Execute assigned hasty, sweep, or grid tactics while scanning for physical clues.",
+          "Phase 4 - Subject Extraction": "Stabilize the subject medically and transport them safely using appropriate technical systems."
         },
-        "sample_output": "Search and Rescue Team Specialties: Many strong odors are present in a disaster setting, and the dogs work intensely (p. 75).",
-        "counselor_tip": "For Search and Rescue Requirement 5 (Search and Rescue Team Specialties), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 75, p. 81))."
+        "sample_output": "Search and rescue teams fulfill specific operational responsibilities across wilderness, urban, and marine operating environments. Specialized units include ground trackers, mounted searchers, canine handlers, and technical rope rescue teams.",
+        "counselor_tip": "During the Search and Rescue Requirement 5 conference on Search and Rescue Team Disciplines, verify that the Scout can explain search team function and demonstrate subject extraction: Stabilize the subject medically and transport them safely using appropriate technical systems."
       },
       "quiz_item": {
         "scenario_prompt": "Why are disaster search dogs deployed off leash without an identification vest or collar when searching collapsed structures?",
@@ -4970,7 +4980,7 @@
       ],
       "comparison_data": {
         "left_header": "Req 6a: Search and Rescue Distinctions",
-        "right_header": "Req 6c: Tactical Communications",
+        "right_header": "Req 6c: Tactical Communications and Protocols",
         "left_points": [
           "(6a) Search and Rescue Distinctions: Search represents the investigative process of finding a missing individual by tracking clues across terrain. Rescue encompasses medical treatment, patient packaging, and physical transport out of hazardous backcountry environments.",
           "(6b) Place and Point Clarification: Place last seen represents the exact geographic location where eyewitnesses last viewed the subject. Last known point designates the newest verified physical evidence, such as footprints, discarded gear, or signatures."
@@ -4992,22 +5002,22 @@
           },
           {
             "attribute": "Point Last Seen",
-            "left": "Req 6a: Search and Rescue: Search represents the investigative process of finding a missing individual by tracking clues across terrain. Rescue encompasses medical treatment, patient packaging, and physical transport out of hazardous backcountry environments.",
-            "right": "Req 6b: Place and Point: Place last seen represents the exact geographic location where eyewitnesses last viewed the subject. Last known point designates the newest verified physical evidence, such as footprints, discarded gear, or signatures."
+            "left": "Point Last Seen: PLS marks the exact spatial point where a witness visually observed the missing person.",
+            "right": "Last Known Point: LKP identifies the newest verified physical clue location, such as dropped clothing or tracks."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 6 Exemplar Workbook Entry: Core",
+        "title": "Search and Rescue Req 6 Worked Example: Tactical Search and Rescue Procedures",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a - Search and Rescue": "Search represents the investigative process of finding a missing individual by tracking clues across terrain. Rescue encompasses medical treatment, patient packaging, and physical transport out of hazardous backcountry environments.",
-          "Req 6b - Place and Point Clarification": "Place last seen represents the exact geographic location where eyewitnesses last viewed the subject. Last known point designates the newest verified physical evidence, such as footprints, discarded gear, or signatures.",
-          "Req 6c - Tactical Communications": "Reliable radio discipline and structured briefing protocols keep field search teams connected with incident commanders. Accurate clue reporting ensures search sectors are updated dynamically as fresh evidence emerges.",
-          "Req 6d - Lost Person Behavioral": "Lost person behavior data predicts travel speeds, movement patterns, and sheltering choices based on demographic categories. Toddlers hide in dense brush when frightened, whereas adult hunters navigate along ridges and watercourses."
+          "Phase 1 - Urgency Calculation": "Calculate search urgency rating by evaluating subject age, medical vulnerability, terrain, and weather.",
+          "Phase 2 - Point Identification": "Establish the confirmed place last seen and identify any recent physical last known points.",
+          "Phase 3 - Perimeter Confinement": "Station lookout sentries and string road trail blocks to establish strict subject confinement.",
+          "Phase 4 - Clue Investigation": "Deploy visual trackers along high-probability travel corridors while preserving discovered footprint evidence."
         },
-        "sample_output": "Core Search and Rescue Procedures: These children may have followed wildlife into wooded areas (p. 56).",
-        "counselor_tip": "For Search and Rescue Requirement 6 (Core Search and Rescue Procedures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72))."
+        "sample_output": "SAR operations separate the tactical search for clues from the logistical rescue and medical evacuation phase. Responders establish search urgency, determine point last seen versus last known point, and track behavioral profiles.",
+        "counselor_tip": "During the Search and Rescue Requirement 6 conference on Tactical Search and Rescue Procedures, verify that the Scout can explain tactical search definition and demonstrate clue investigation: Deploy visual trackers along high-probability travel corridors while preserving discovered footprint evidence."
       },
       "quiz_item": {
         "scenario_prompt": "When planning a search for a lost school-age child, why should searchers interview the child's friends early in the investigation?",
@@ -5570,7 +5580,7 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Search Scenario Selection",
+        "left_header": "Req 7a: Search Scenario Selection Framework",
         "right_header": "Req 7c: Pre-Search PAUSE Safety Briefing",
         "left_points": [
           "(7a) Search Scenario Selection Framework: Choosing a defined scenario establishes the subject profile, environmental conditions, and time elapsed for the exercise. Realistic parameters allow the patrol to practice genuine threat assessment and resource allocation.",
@@ -5593,22 +5603,22 @@
           },
           {
             "attribute": "PAUSE Briefing Discipline",
-            "left": "Req 7a: Search Scenario Selection: Choosing a defined scenario establishes the subject profile, environmental conditions, and time elapsed for the exercise. Realistic parameters allow the patrol to practice genuine threat assessment and resource allocation.",
-            "right": "Req 7b: Incident Action Plan: The Incident Action Plan formalizes operational objectives, sector boundaries, radio frequencies, and responder safety parameters. A well-crafted plan focuses initial efforts on high-probability linear features where subjects travel."
+            "left": "PAUSE Briefing Discipline: Reviewing Pause, Assess, Understand, Share, and Execute prevents preventable team safety mishaps.",
+            "right": "Debriefing Clue Review: Post-mission debriefs capture subtle track sightings and track team search effectiveness percentages."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 7 Exemplar Workbook Entry",
+        "title": "Search and Rescue Req 7 Worked Example: Search Operation Planning and Execution",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Search Scenario Selection": "Choosing a defined scenario establishes the subject profile, environmental conditions, and time elapsed for the exercise. Realistic parameters allow the patrol to practice genuine threat assessment and resource allocation.",
-          "Req 7b - Incident Action Plan": "The Incident Action Plan formalizes operational objectives, sector boundaries, radio frequencies, and responder safety parameters. A well-crafted plan focuses initial efforts on high-probability linear features where subjects travel.",
-          "Req 7c - Pre-Search PAUSE Safety": "The PAUSE briefing confirms that all searchers carry essential gear, understand physical hazards, and know emergency signals. Checking equipment before departure prevents search personnel from becoming secondary casualties in the field.",
-          "Req 7d - Field Search Tactical": "Field teams execute assigned hasty tactics by moving deliberately along paths, drainages, and ridge lines. Responders scan terrain continuously, maintain voice contact, and preserve discovered physical clues for tracking specialists."
+          "Phase 1 - Scenario Formulation": "Select a realistic missing person scenario detailing subject background, weather, and clothing.",
+          "Phase 2 - Plan Development": "Draft an Incident Action Plan outlining search sectors, safety precautions, and communication channels.",
+          "Phase 3 - Safety Briefing": "Conduct a mandatory PAUSE briefing to verify field gear, hydration, and partner assignments.",
+          "Phase 4 - Tactical Execution": "Dispatch hasty teams to inspect high-probability travel routes and interview potential trail witnesses."
         },
-        "sample_output": "Planning and Executing a Search: Incident Action Plan and Mission Objectives Some parts of the IAP might not be needed (p. 21).",
-        "counselor_tip": "For Search and Rescue Requirement 7 (Planning and Executing a Search), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25))."
+        "sample_output": "Executing a practice search requires selecting a realistic scenario, writing an Incident Action Plan, and conducting safety briefings. Teams execute systematic search tactics, log potential clues, and conclude with structured operational debriefings.",
+        "counselor_tip": "During the Search and Rescue Requirement 7 conference on Search Operation Planning and Execution, verify that the Scout can explain scenario selection and demonstrate tactical execution: Dispatch hasty teams to inspect high-probability travel routes and interview potential trail witnesses."
       },
       "quiz_item": {
         "scenario_prompt": "Within the Incident Command System, which section is responsible for assembling the Incident Action Plan (IAP) for the upcoming operational period?",
@@ -5979,13 +5989,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Professional Emergency",
+        "left_header": "Req 8a: Professional Emergency Management Careers",
         "right_header": "Req 8b: Volunteer Rescue Team Service",
         "left_points": [
-          "(8a) Professional Emergency Management Careers: Career search and rescue specialists work as national park rangers, emergency managers, conservation officers, and flight paramedics. These positions require degrees in emergency management, criminal justice, or natural resource protection."
+          "(8a) Professional Emergency Management Careers: Career search and rescue specialists work as national park rangers, emergency managers, conservation officers, and flight paramedics. These positions require degrees in emergency management, criminal justice, or natural resource protection.",
+          "Career Education Pathways: Emergency management degrees prepare professionals to coordinate large-scale disaster responses and resources."
         ],
         "right_points": [
-          "(8b) Volunteer Rescue Team Service: Volunteer rescue squads, disaster relief groups, and ski patrols provide critical community support during wilderness emergencies. Responders undergo rigorous ongoing training in rope rescue, avalanche safety, and backcountry trauma care."
+          "(8b) Volunteer Rescue Team Service: Volunteer rescue squads, disaster relief groups, and ski patrols provide critical community support during wilderness emergencies. Responders undergo rigorous ongoing training in rope rescue, avalanche safety, and backcountry trauma care.",
+          "Volunteer Search Opportunities: Local rescue squads and county sheriff posses provide essential community search capabilities."
         ],
         "rows": [
           {
@@ -5995,25 +6007,27 @@
           },
           {
             "attribute": "Professional Certification Standards",
-            "left": "Req 8a: Professional Emergency: Career search and rescue specialists work as national park rangers, emergency managers, conservation officers, and flight paramedics. These positions require degrees in emergency management, criminal justice, or natural resource protection.",
-            "right": "Req 8b: Volunteer Rescue Team: Volunteer rescue squads, disaster relief groups, and ski patrols provide critical community support during wilderness emergencies. Responders undergo rigorous ongoing training in rope rescue, avalanche safety, and backcountry trauma care."
+            "left": "Career Education Pathways: Emergency management degrees prepare professionals to coordinate large-scale disaster responses and resources.",
+            "right": "Volunteer Search Opportunities: Local rescue squads and county sheriff posses provide essential community search capabilities."
           },
           {
             "attribute": "Volunteer Search Opportunities",
-            "left": "Career Education Pathways: Emergency management degrees prepare professionals to coordinate large-scale disaster responses and resources.",
-            "right": "Professional Certification Standards: Paramedic licenses and technical rescue certifications provide competitive advantages for professional employment."
+            "left": "Volunteer Search Opportunities: Local rescue squads and county sheriff posses provide essential community search capabilities.",
+            "right": "Ski Patrol Qualifications: Winter rescue teams require outdoor emergency care training and advanced avalanche safety certifications."
           }
         ]
       },
       "worked_example": {
-        "title": "Search and Rescue Req 8 Exemplar Workbook Entry: Careers",
+        "title": "Search and Rescue Req 8 Worked Example: Search and Rescue Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 8a - Professional Emergency": "Career search and rescue specialists work as national park rangers, emergency managers, conservation officers, and flight paramedics. These positions require degrees in emergency management, criminal justice, or natural resource protection.",
-          "Req 8b - Volunteer Rescue Team Service": "Volunteer rescue squads, disaster relief groups, and ski patrols provide critical community support during wilderness emergencies. Responders undergo rigorous ongoing training in rope rescue, avalanche safety, and backcountry trauma care."
+          "Phase 1 - Career Research": "Investigate professional emergency management, park ranger, or flight paramedic job profiles and duties.",
+          "Phase 2 - Action Phase 2": "Document required college degrees, medical certifications, physical fitness tests, and training costs.",
+          "Phase 3 - Organization Contact": "Interview an active search professional or volunteer rescue coordinator regarding daily operations.",
+          "Phase 4 - Pathway Formulation": "Outline educational milestones and volunteer opportunities to achieve long-term emergency response goals."
         },
-        "sample_output": "Careers and Volunteer SAR Service: Many of these teams are members of professional organizations such as the National Association for Search and Rescue or the Mountain Rescue (p. 77).",
-        "counselor_tip": "For Search and Rescue Requirement 8 (Careers and Volunteer SAR Service), verify the Scout's own observations and specific pamphlet details (Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 77, p. 89))."
+        "sample_output": "Search and rescue expertise leads to rewarding full-time careers in emergency management, park services, and public safety. Volunteers also provide vital community service on mountain rescue teams, disaster relief agencies, and ski patrols.",
+        "counselor_tip": "During the Search and Rescue Requirement 8 conference on Search and Rescue Career Pathways, verify that the Scout can explain career education pathways and demonstrate pathway formulation: Outline educational milestones and volunteer opportunities to achieve long-term emergency response goals."
       },
       "quiz_item": {
         "scenario_prompt": "Which credentials are commonly required for paid search and rescue personnel working in major national parks such as Den ali, Grand Canyon, and Yosemite?",

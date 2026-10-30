@@ -31,7 +31,6 @@
 ### Req 1: Academic Grade Performance Tracking
 **Official Requirement 1 (Parent Overview):** Do ONE of the following: (a) Show that you have had an average grade of B or higher (80% or higher) for one term or semester. (b) Show that for one term or semester you have improved your school grades over the previous period.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain proper posture and twenty minute screen rest intervals during extended homework study sessions.
 - **Common Myth:** Students must achieve straight A grades across every academic subject to earn this badge.
 - **Pamphlet Fact:** An overall B average or demonstrable grade improvement across consecutive grading terms meets the requirement.
 
@@ -44,15 +43,8 @@
 #### Req 1a: Sustained Academic Grade Average
 **Official Requirement 1a:** Show that you have had an average grade of B or higher (80% or higher) for one term or semester.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (You Have Had An Average)
-- **Common Myth:** Advanced placement or honors weightings are mandatory to establish an acceptable B grade threshold.
-- **Pamphlet Fact:** Standard unweighted grade point averages of 3.0 or numeric averages of eighty percent fully satisfy criteria.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Scholarship Merit Badge: That you have had an average.
-- [ ] Field notebook, verification log sheet, and demonstration materials for That you have had an average.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Scholarship Requirement 1 figure showing official school report cards substantiate academic achievement across a complete.](/assets/pamphlet_images/scholarship_p003_img1.png)
+![Official school report cards substantiate academic achievement across a complete marking grading period.](/assets/pamphlet_images/scholarship_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -63,8 +55,6 @@
 #### Req 1b: Measurable Academic Grade Improvement
 **Official Requirement 1b:** Show that for one term or semester you have improved your school grades over the previous period.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Semester You Have Improved Your)
-- **Common Myth:** Every single class must show an increased letter grade to prove academic progress.
-- **Pamphlet Fact:** An overall net improvement in cumulative average or significant progress in struggling classes satisfies this option.
 
 ![A student studies at a tidy desk with school supplies to build efficient daily study habits.](/assets/pamphlet_images/scholarship_p019_img1.png)
 
@@ -77,7 +67,6 @@
 ### Req 2: Independent Scholastic Exploration Methods
 **Official Requirement 2 (Parent Overview):** Do TWO of the following: (a) Make a list of educational places located where you live (other than schools). Visit one, and report on how you used the place for self-education. (b) With your counselor's and your parent or guardian's approval, interview two professionals (other than teachers or other professionals at your school) with established careers. Find out where they were educated, what training they received, and how their education and training have helped prepare them for the career they have chosen. Find out how they continue to educate themselves. Discuss what you find out with your counselor. (c) Using a daily planner, show your counselor how you keep track of assignments and activities, and discuss how you manage your time. (d) Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals, and the internet.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Travel with a buddy or parent when visiting unfamiliar municipal venues or conducting off campus interviews.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Scholarship Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Educational exploration requires long distance travel to major university research libraries or state archives.
 - **Pamphlet Fact:** Local institutions such as historical societies, nature centers, and municipal libraries offer rich self education resources.
@@ -92,15 +81,8 @@
 **Official Requirement 2a:** Make a list of educational places located where you live (other than schools). Visit one, and report on how you used the place for self-education.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Educational Places Located Where You)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Scholarship Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** A casual walk through a local museum without taking targeted notes satisfies the educational visit.
-- **Pamphlet Fact:** The visit requires active self study focused on a chosen subject and an analytical oral or written report.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Scholarship Merit Badge: Scholarship Careers and Pathways.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Scholarship Careers and Pathways.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Scholarship Requirement 2 figure showing community museums and public planetariums provide interactive resources for self.](/assets/pamphlet_images/scholarship_p007_img1.png)
+![Community museums and public planetariums provide interactive resources for self directed education.](/assets/pamphlet_images/scholarship_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -113,8 +95,6 @@
 **Official Requirement 2b:** With your counselor's and your parent or guardian's approval, interview two professionals (other than teachers or other professionals at your school) with established careers. Find out where they were educated, what training they received, and how their education and training have helped prepare them for the career they have chosen. Find out how they continue to educate themselves. Discuss what you find out with your counselor.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (Career & Profession Exploration Card):** Req 2b Professional Career Interview Card
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Scholarship Req 2b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Interviews can be conducted spontaneously without prior adult permissions or structured advance questions.
-- **Pamphlet Fact:** Both counselor and parental approval must precede structured, pre arranged interviews with non school professionals.
 
 ![A student sorts school papers into an accordion folder to keep coursework organized for class.](/assets/pamphlet_images/scholarship_p021_img1.png)
 
@@ -129,10 +109,8 @@
 #### Req 2c: Personal Daily Schedule Management
 **Official Requirement 2c:** Using a daily planner, show your counselor how you keep track of assignments and activities, and discuss how you manage your time.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (Activity & Observation Log):** Req 2c Quantitative Field Observation & Activity Log (Daily Planner)
-- **Common Myth:** Planners only need to list exam dates rather than daily assignment steps and activity blocks.
-- **Pamphlet Fact:** Effective time management requires logging regular assignments, personal commitments, and dedicated study windows daily.
 
-![Scholarship Requirement 3 figure showing school principals certify that student character, leadership, and conduct meet.](/assets/pamphlet_images/scholarship_p012_img1.png)
+![School principals certify that student character, leadership, and conduct meet institutional standards.](/assets/pamphlet_images/scholarship_p012_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -143,8 +121,6 @@
 #### Req 2d: Academic Research Methodology Evaluation
 **Official Requirement 2d:** Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals, and the internet.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (2-Column Comparison Table):** Req 2d Technical Comparison Matrix (Discuss the Advantages and Disadvantages)
-- **Common Myth:** Digital search engine results provide identical credibility and accuracy as curated library reference texts.
-- **Pamphlet Fact:** Internet sources vary widely in authority, requiring cross reference checks against verified published literature.
 
 ![A student ponders a math formula on a chalkboard to master challenging academic subject concepts.](/assets/pamphlet_images/scholarship_p025_img1.png)
 
@@ -157,7 +133,6 @@
 ### Req 3: School Citizenship Official Certification
 **Official Requirement 3:** Get a note from the principal of your school (or another school official named by the principal) that states that during the past year your behavior, leadership, and service have been satisfactory. Note: If you are home-schooled or your school environment does not include a principal, you may obtain a note from a counterpart such as your parent or guardian.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Get A Note from the)
-> **Guide to Safe Scouting Warning:** Protect student identification numbers and personal contact information when handling official school correspondence.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Scholarship Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Only the head principal of a public school has authority to sign the behavioral endorsement letter.
 - **Pamphlet Fact:** Vice principals, designated school deans, or homeschool program directors possess recognized authority to provide documentation.
@@ -180,7 +155,6 @@
 ### Req 4: Collaborative School Group Participation
 **Official Requirement 4 (Parent Overview):** Do ONE of the following: (a) Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork. (b) Discuss your participation in a school project during the past semester where you were a part of a team. Tell about the positive contributions you made to the team and the project.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Adhere to school laboratory, athletic, and shop safety regulations during group activity sessions.
 - **Common Myth:** Teamwork credit requires serving as the elected club president or varsity sports captain.
 - **Pamphlet Fact:** Active, dedicated participation in any recognized school club, team, or class group satisfies the requirement.
 
@@ -193,13 +167,6 @@
 #### Req 4a: Extracurricular Activity Team Participation
 **Official Requirement 4a:** Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (You Have Taken)
-- **Common Myth:** Only school sponsored athletic teams fulfill the extracurricular activity requirement.
-- **Pamphlet Fact:** Performing arts ensembles, academic competition teams, debate squads, and hobby clubs all qualify equally.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Scholarship Merit Badge: That you have taken part.
-- [ ] Field notebook, verification log sheet, and demonstration materials for That you have taken part.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![High school students collaborate happily during an extracurricular club.](/assets/pamphlet_images/scholarship_p052_img1.png)
 
@@ -212,8 +179,6 @@
 #### Req 4b: Academic Team Project Contribution
 **Official Requirement 4b:** Discuss your participation in a school project during the past semester where you were a part of a team. Tell about the positive contributions you made to the team and the project.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss Your Participation in A)
-- **Common Myth:** A group project presentation requires an equal distribution of speaking time to be valid.
-- **Pamphlet Fact:** Contributions can take various forms, including technical research, writing, slide creation, or analytical problem solving.
 
 ![Students and a mentor collaborate using books and a computer to research educational project topics.](/assets/pamphlet_images/scholarship_p041_img1.png)
 
@@ -227,7 +192,6 @@
 ### Req 5: Future Education Value Essay
 **Official Requirement 5 (Parent Overview):** Do ONE of the following: (a) Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future. (b) Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Use ergonomic seating and maintain ambient room lighting to prevent physical fatigue while typing.
 - **Common Myth:** A long, meandering essay exceeding five hundred words demonstrates superior academic commitment.
 - **Pamphlet Fact:** Adhering strictly to the concise two hundred fifty to three hundred word parameter is mandatory.
 
@@ -240,8 +204,6 @@
 #### Req 5a: Lifelong Personal Education Reflection
 **Official Requirement 5a:** Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Words About How the Education)
-- **Common Myth:** Formal schooling represents the entirety of education needed across a working career.
-- **Pamphlet Fact:** Rapidly changing professions demand proactive, self directed lifelong learning and technical skill renewal.
 
 ![High school students study together around a table in a classroom.](/assets/pamphlet_images/scholarship_p059_img1.png)
 
@@ -254,8 +216,6 @@
 #### Req 5b: Career Goals Academic Alignment
 **Official Requirement 5b:** Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Career & Profession Exploration Card):** Req 5b Career & Professional Pathway Investigation Matrix
-- **Common Myth:** General career ambition alone overcomes deficits in foundational math, science, or language coursework.
-- **Pamphlet Fact:** Specific technical careers require targeted academic prerequisites and disciplined study habits established during secondary school.
 
 ![An educational organization website provides digital research resources and program guidelines.](/assets/pamphlet_images/scholarship_p044_img1.png)
 

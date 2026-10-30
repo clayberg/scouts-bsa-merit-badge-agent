@@ -1442,13 +1442,15 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Backcountry Environmental First",
-        "right_header": "Req 1b: Scout Basic Essentials",
+        "left_header": "Req 1a: Backcountry Environmental First Aid",
+        "right_header": "Req 1b: Scout Basic Essentials Preparedness",
         "left_points": [
-          "(1a) Backcountry Environmental First Aid: Environmental exposure disrupts thermoregulation and vascular stability during backcountry excursions. Wilderness first aid protocols emphasize prompt cooling for heatstroke and gentle insulation for hypothermic individuals."
+          "(1a) Backcountry Environmental First Aid: Environmental exposure disrupts thermoregulation and vascular stability during backcountry excursions. Wilderness first aid protocols emphasize prompt cooling for heatstroke and gentle insulation for hypothermic individuals.",
+          "Thermoregulation Monitoring: Core temperature drops below ninety-five degrees Fahrenheit require immediate active warming and sheltered insulation."
         ],
         "right_points": [
-          "(1b) Scout Basic Essentials Preparedness: Carrying the ten essential systems guarantees critical life support during sudden outdoor emergencies. Each item addresses exposure, navigation, hydration, or signaling when primary gear fails."
+          "(1b) Scout Basic Essentials Preparedness: Carrying the ten essential systems guarantees critical life support during sudden outdoor emergencies. Each item addresses exposure, navigation, hydration, or signaling when primary gear fails.",
+          "(1c) Wilderness Trip Plan Prevention: Trip plans record intended routes, party size, equipment colors, and strict turnaround times. Designating a reliable home contact ensures immediate search activation when deadlines pass."
         ],
         "rows": [
           {
@@ -1458,26 +1460,27 @@
           },
           {
             "attribute": "Dehydration Mitigation",
-            "left": "Req 1a: Backcountry Environmental: Environmental exposure disrupts thermoregulation and vascular stability during backcountry excursions. Wilderness first aid protocols emphasize prompt cooling for heatstroke and gentle insulation for hypothermic individuals.",
-            "right": "Req 1b: Scout Basic Essentials: Carrying the ten essential systems guarantees critical life support during sudden outdoor emergencies. Each item addresses exposure, navigation, hydration, or signaling when primary gear fails."
+            "left": "Thermoregulation Monitoring: Core temperature drops below ninety-five degrees Fahrenheit require immediate active warming and sheltered insulation.",
+            "right": "(1c) Wilderness Trip Plan Prevention: Trip plans record intended routes, party size, equipment colors, and strict turnaround times. Designating a reliable home contact ensures immediate search activation when deadlines pass."
           },
           {
             "attribute": "Shock Management",
-            "left": "Req 1c: Wilderness Trip Plan: Trip plans record intended routes, party size, equipment colors, and strict turnaround times. Designating a reliable home contact ensures immediate search activation when deadlines pass.",
-            "right": "Dehydration Mitigation: Regular fluid intake maintaining light urine color prevents heat exhaustion during prolonged exertion."
+            "left": "Shock Management: Raising legs eight inches and insulating underneath the victim stabilizes systemic arterial pressure.",
+            "right": "Friction Blister Care: Applying moleskin rings over hot spots protects damaged epidermal tissue from infection."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 1 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 1 Worked Example: Backcountry Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Backcountry Environmental": "Environmental exposure disrupts thermoregulation and vascular stability during backcountry excursions. Wilderness first aid protocols emphasize prompt cooling for heatstroke and gentle insulation for hypothermic individuals.",
-          "Req 1b - Scout Basic Essentials": "Carrying the ten essential systems guarantees critical life support during sudden outdoor emergencies. Each item addresses exposure, navigation, hydration, or signaling when primary gear fails.",
-          "Req 1c - Wilderness Trip Plan": "Trip plans record intended routes, party size, equipment colors, and strict turnaround times. Designating a reliable home contact ensures immediate search activation when deadlines pass."
+          "Phase 1 - Patient Assessment": "Check responsiveness, airway, breathing, and circulation before addressing localized physical environmental injuries.",
+          "Phase 2 - Thermal Stabilization": "Move the patient out of wind and rain onto an insulated ground pad.",
+          "Phase 3 - Fluid Administration": "Provide small sips of electrolyte water if the conscious patient swallows normally.",
+          "Phase 4 - Evacuation Coordination": "Signal emergency responders if core body temperature remains abnormal or confusion persists."
         },
-        "sample_output": "Backcountry Hazards and First Aid: The first-aid emergencies described below are those that you might encounter in the back country (p. 53).",
-        "counselor_tip": "For Wilderness Survival Requirement 1 (Backcountry Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 53, p. 58))."
+        "sample_output": "Backcountry first aid prioritizes early intervention for environmental injuries like hypothermia, heatstroke, and dehydration before functional impairment occurs. Preparedness depends on packing essential survival gear and filing comprehensive route plans to prevent emergencies entirely.",
+        "counselor_tip": "During the Wilderness Survival Requirement 1 conference on Backcountry Hazards and First Aid, verify that the Scout can explain thermoregulation monitoring and demonstrate evacuation coordination: Signal emergency responders if core body temperature remains abnormal or confusion persists."
       },
       "quiz_item": {
         "scenario_prompt": "While hiking back from a peak at dusk, your buddy pair realizes you missed a trail junction and are no longer sure where the main trail is. Following the BSA S.T.O.P. survival protocol, what should you do?",
@@ -1631,47 +1634,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Evaluating Available Resources",
-        "right_header": "Req 2: Complete Rank Outdoor",
+        "left_header": "Seven Survival Priorities Sequence: Core Principles",
+        "right_header": "Seven Survival Priorities Sequence: Field Execution",
         "left_points": [
-          "Evaluating Available Resources: One way to avoid panic is to evaluate your resources (p. 22).",
-          "Minimizing Backcountry Risks: How can you use these items to make the most of your situation and avoid possible risks (p. 22).",
-          "Foundational Scouting Skills: A good way to begin is by completing the outdoor-oriented requirements for the ranks of Scouting (p. 22)."
+          "First Priority: Immediate life threats and serious medical injuries require treatment before any other action.",
+          "Second Priority: Constructing a secure thermal shelter defends the body against lethal exposure and wind."
         ],
         "right_points": [
-          "Complete Rank Outdoor Requirements: A good way to begin is by completing the outdoor-oriented requirements for the ranks of Scouting (p. 22).",
-          "Earn Related Merit Badges: Earning merit badges like Camping, First Aid, Hiking, Backpacking, Orienteering, and Pioneering can also be helpful (p. 22).",
-          "Practice Self Reliance Outdoors: Most of all, spend time in the backcountry having fun, becoming comfortable, and practicing the best ways to take care of yourself (p. 22)."
+          "Third Priority: Lighting a sustainable fire provides warming comfort, insect protection, and visible emergency signaling.",
+          "Fourth Priority: Signaling search parties with mirrors and whistles expedites prompt backcountry location and rescue."
         ],
         "rows": [
           {
             "attribute": "First Priority",
-            "left": "Evaluating Available Resources: One way to avoid panic is to evaluate your resources (p. 22).",
-            "right": "Complete Rank Outdoor Requirements: A good way to begin is by completing the outdoor-oriented requirements for the ranks of Scouting (p. 22)."
+            "left": "First Priority: Immediate life threats and serious medical injuries require treatment before any other action.",
+            "right": "Third Priority: Lighting a sustainable fire provides warming comfort, insect protection, and visible emergency signaling."
           },
           {
             "attribute": "Second Priority",
-            "left": "Minimizing Backcountry Risks: How can you use these items to make the most of your situation and avoid possible risks (p. 22).",
-            "right": "Earn Related Merit Badges: Earning merit badges like Camping, First Aid, Hiking, Backpacking, Orienteering, and Pioneering can also be helpful (p. 22)."
+            "left": "Second Priority: Constructing a secure thermal shelter defends the body against lethal exposure and wind.",
+            "right": "Fourth Priority: Signaling search parties with mirrors and whistles expedites prompt backcountry location and rescue."
           },
           {
             "attribute": "Third Priority",
-            "left": "Foundational Scouting Skills: A good way to begin is by completing the outdoor-oriented requirements for the ranks of Scouting (p. 22).",
-            "right": "Practice Self Reliance Outdoors: Most of all, spend time in the backcountry having fun, becoming comfortable, and practicing the best ways to take care of yourself (p. 22)."
+            "left": "Third Priority: Lighting a sustainable fire provides warming comfort, insect protection, and visible emergency signaling.",
+            "right": "Fourth Priority: Signaling search parties with mirrors and whistles expedites prompt backcountry location and rescue."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 2 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 2 Worked Example: Seven Survival Priorities Sequence",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Evaluating Available Resources": "One way to avoid panic is to evaluate your resources (p. 22).",
-          "Minimizing Backcountry Risks": "How can you use these items to make the most of your situation and avoid possible risks (p. 22).",
-          "Foundational Scouting Skills": "A good way to begin is by completing the outdoor-oriented requirements for the ranks of Scouting (p. 22).",
-          "Complementary Outdoor Badges": "Earning merit badges like Camping, First Aid, Hiking, Backpacking, Orienteering, and Pioneering can also be helpful (p. 22)."
+          "Phase 1 - Scene Evaluation": "Stop movement and examine the surroundings for continuing environmental or physical dangers.",
+          "Phase 2 - First Aid Delivery": "Treat severe bleeding, shock, and serious physical injuries before attempting other tasks.",
+          "Phase 3 - Shelter Erection": "Construct adequate thermal protection before darkness falls and ambient temperatures drop sharply.",
+          "Phase 4 - Signaling Deployment": "Prepare audible and visible signaling devices to alert passing aerial search parties."
         },
-        "sample_output": "The Seven Priorities of Survival: One way to avoid panic is to evaluate your resources (p. 22).",
-        "counselor_tip": "For Wilderness Survival Requirement 2 (The Seven Priorities of Survival), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 22, p. 30))."
+        "sample_output": "Wilderness survival demands a disciplined assessment of immediate threats to life and physical security. The seven priorities establish an operational sequence that conserves energy and prevents fatal exposure.",
+        "counselor_tip": "During the Wilderness Survival Requirement 2 conference on Seven Survival Priorities Sequence, verify that the Scout can explain first priority and demonstrate signaling deployment: Prepare audible and visible signaling devices to alert passing aerial search parties."
       },
       "quiz_item": {
         "scenario_prompt": "According to the seven priorities of wilderness survival, which action comes immediately after maintaining a positive mental attitude and providing urgent first aid?",
@@ -1829,47 +1830,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Group Preparation Habits",
-        "right_header": "Req 3: Treat Hot Spots Early",
+        "left_header": "Panic Avoidance and Morale: Core Principles",
+        "right_header": "Panic Avoidance and Morale: Field Execution",
         "left_points": [
-          "Group Preparation Habits: Being Prepared as a Group Being Prepared as a Group Many people keep things to themselves (p. 21).",
-          "Speaking Up Without Fear: They don't want to hold up the team or are worried about what others will think of them (p. 21).",
-          "Early Blister Prevention: Remember, stopping for a few moments to deal with a hot spot on a heel can avoid bringing the group to a long halt later in the day when blisters break (p. 21)."
+          "Stop Action: Halting physical movement immediately prevents wandering deeper into unfamiliar and dangerous wilderness terrain.",
+          "Think Clearly: Conscious mental composure enables logical evaluation of available gear and surrounding geographic landmarks."
         ],
         "right_points": [
-          "Treat Hot Spots Early: Remember, stopping for a few moments to deal with a hot spot on a heel can avoid bringing the group to a long halt later in the day when blisters break (p. 21).",
-          "Control Thoughts Under Stress: Most important is how you think about things when you are confronted with a survival situation (p. 21).",
-          "Cultivate Will to Survive: Many survivors of wilderness emergencies have said that a willingness to survive is the key factor in getting through a difficult situation (p. 21)."
+          "Observe Surroundings: Surveying local resources, weather changes, and terrain hazards informs sensible tactical survival decisions.",
+          "Plan Systematically: Formulating an orderly checklist channels nervous energy into productive shelter and water preparation."
         ],
         "rows": [
           {
             "attribute": "Stop Action",
-            "left": "Group Preparation Habits: Being Prepared as a Group Being Prepared as a Group Many people keep things to themselves (p. 21).",
-            "right": "Treat Hot Spots Early: Remember, stopping for a few moments to deal with a hot spot on a heel can avoid bringing the group to a long halt later in the day when blisters break (p. 21)."
+            "left": "Stop Action: Halting physical movement immediately prevents wandering deeper into unfamiliar and dangerous wilderness terrain.",
+            "right": "Observe Surroundings: Surveying local resources, weather changes, and terrain hazards informs sensible tactical survival decisions."
           },
           {
             "attribute": "Think Clearly",
-            "left": "Speaking Up Without Fear: They don't want to hold up the team or are worried about what others will think of them (p. 21).",
-            "right": "Control Thoughts Under Stress: Most important is how you think about things when you are confronted with a survival situation (p. 21)."
+            "left": "Think Clearly: Conscious mental composure enables logical evaluation of available gear and surrounding geographic landmarks.",
+            "right": "Plan Systematically: Formulating an orderly checklist channels nervous energy into productive shelter and water preparation."
           },
           {
             "attribute": "Observe Surroundings",
-            "left": "Early Blister Prevention: Remember, stopping for a few moments to deal with a hot spot on a heel can avoid bringing the group to a long halt later in the day when blisters break (p. 21).",
-            "right": "Cultivate Will to Survive: Many survivors of wilderness emergencies have said that a willingness to survive is the key factor in getting through a difficult situation (p. 21)."
+            "left": "Observe Surroundings: Surveying local resources, weather changes, and terrain hazards informs sensible tactical survival decisions.",
+            "right": "Plan Systematically: Formulating an orderly checklist channels nervous energy into productive shelter and water preparation."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 3 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 3 Worked Example: Panic Avoidance and Morale",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Group Preparation Habits": "Being Prepared as a Group Being Prepared as a Group Many people keep things to themselves (p. 21).",
-          "Speaking Up Without Fear": "They don't want to hold up the team or are worried about what others will think of them (p. 21).",
-          "Early Blister Prevention": "Remember, stopping for a few moments to deal with a hot spot on a heel can avoid bringing the group to a long halt later in the day when blisters break (p. 21).",
-          "Positive Survival Mind set": "Most important is how you think about things when you are confronted with a survival situation (p. 21)."
+          "Phase 1 - Halt Movement": "Stop walking the moment you recognize disorientation to prevent deeper geographic deviation.",
+          "Phase 2 - Calm Breathing": "Sit down on a log and take several deep slow conscious breaths.",
+          "Phase 3 - Observe Surroundings": "Scan visible terrain features, weather patterns, available resources, and approaching nightfall hazards.",
+          "Phase 4 - Plan Actions": "Formulate a logical checklist prioritizing immediate shelter, water, and signaling preparation."
         },
-        "sample_output": "Avoiding Panic and Maintaining Morale: Being Prepared as a Group Being Prepared as a Group Many people keep things to themselves (p. 21).",
-        "counselor_tip": "For Wilderness Survival Requirement 3 (Avoiding Panic and Maintaining Morale), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 21, p. 22))."
+        "sample_output": "Panic triggers irrational flight responses that waste vital metabolic energy and increase accident risk. Applying the STOP mnemonic restores emotional control and systematic problem solving during high stress wilderness disorientation.",
+        "counselor_tip": "During the Wilderness Survival Requirement 3 conference on Panic Avoidance and Morale, verify that the Scout can explain stop action and demonstrate plan actions: Formulate a logical checklist prioritizing immediate shelter, water, and signaling preparation."
       },
       "quiz_item": {
         "scenario_prompt": "What do the letters in the S.T.O.P. acronym instruct you to do the moment you realize you are lost?",
@@ -2042,47 +2041,45 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 4: Systematic Emergency Response",
-        "right_header": "Req 4: Prepare for Backcountry Injuries",
+        "left_header": "Personal Emergency Kit Assembly: Core Principles",
+        "right_header": "Personal Emergency Kit Assembly: Field Execution",
         "left_points": [
-          "Systematic Emergency Response: This merit badge pamphlet has explained a method of surviving wilderness emergencies by addressing the following steps (p. 53).",
-          "First Aid Priority: Providing first-aid care is high on the list, especially if you or someone with you has suffered serious injuries or illness (p. 53).",
-          "Remote Medical Conditions: The first-aid emergencies described below are those that you might encounter in the back country (p. 53)."
+          "Antiseptic Storage: Individually wrapped antiseptic wipes prevent bacterial contamination during remote field wound cleansing procedures.",
+          "Sterile Dressings: Assorted sterile gauze pads and cohesive bandages control bleeding and protect minor lacerations."
         ],
         "right_points": [
-          "Prepare for Backcountry Injuries: The first-aid emergencies described below are those that you might encounter in the back country (p. 53).",
-          "Manage Field Medical Risks: The treatments are ways to manage these risks until help can arrive (p. 53).",
-          "Take Wilderness Aid Courses: You can also prepare for back country emergencies by completing training in caring for injured and ill persons in remote settings (p. 53)."
+          "Spark Ignition: Ferrocerium fire rods function reliably even after submersion in deep freezing river water.",
+          "Emergency Whistle: Pealess plastic whistles generate loud distress blasts that carry across noisy windy ravines."
         ],
         "rows": [
           {
             "attribute": "Antiseptic Storage",
-            "left": "Systematic Emergency Response: This merit badge pamphlet has explained a method of surviving wilderness emergencies by addressing the following steps (p. 53).",
-            "right": "Prepare for Backcountry Injuries: The first-aid emergencies described below are those that you might encounter in the back country (p. 53)."
+            "left": "Antiseptic Storage: Individually wrapped antiseptic wipes prevent bacterial contamination during remote field wound cleansing procedures.",
+            "right": "Spark Ignition: Ferrocerium fire rods function reliably even after submersion in deep freezing river water."
           },
           {
             "attribute": "Sterile Dressings",
-            "left": "First Aid Priority: Providing first-aid care is high on the list, especially if you or someone with you has suffered serious injuries or illness (p. 53).",
-            "right": "Manage Field Medical Risks: The treatments are ways to manage these risks until help can arrive (p. 53)."
+            "left": "Sterile Dressings: Assorted sterile gauze pads and cohesive bandages control bleeding and protect minor lacerations.",
+            "right": "Emergency Whistle: Pealess plastic whistles generate loud distress blasts that carry across noisy windy ravines."
           },
           {
             "attribute": "Spark Ignition",
-            "left": "Remote Medical Conditions: The first-aid emergencies described below are those that you might encounter in the back country (p. 53).",
-            "right": "Take Wilderness Aid Courses: You can also prepare for back country emergencies by completing training in caring for injured and ill persons in remote settings (p. 53)."
+            "left": "Spark Ignition: Ferrocerium fire rods function reliably even after submersion in deep freezing river water.",
+            "right": "Emergency Whistle: Pealess plastic whistles generate loud distress blasts that carry across noisy windy ravines."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 4 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 4 Worked Example: Personal Emergency Kit Assembly",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Systematic Emergency Response": "This merit badge pamphlet has explained a method of surviving wilderness emergencies by addressing the following steps (p. 53).",
-          "First Aid Priority": "Providing first-aid care is high on the list, especially if you or someone with you has suffered serious injuries or illness (p. 53).",
-          "Remote Medical Conditions": "The first-aid emergencies described below are those that you might encounter in the back country (p. 53).",
-          "Stabilizing Field Injuries": "The treatments are ways to manage these risks until help can arrive (p. 53)."
+          "Phase 1 - Select Container": "Choose a durable, lightweight, waterproof pouch that fits comfortably inside cargo pockets.",
+          "Phase 2 - Pack Medical": "Insert sterile dressings, adhesive bandages, antiseptic wipes, blister treatments, and personal medication.",
+          "Phase 3 - Add Survival": "Include ferrocerium rods, whistle, signal mirror, water purification tablets, and contractor bags.",
+          "Phase 4 - Demonstrate Function": "Explain the specific emergency use and deployment method for each individual stored item."
         },
-        "sample_output": "Personal First Aid and Survival Kits: This merit badge pamphlet has explained a method of surviving wilderness emergencies by addressing the following steps (p. 53).",
-        "counselor_tip": "For Wilderness Survival Requirement 4 (Personal First Aid and Survival Kits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 53, p. 55))."
+        "sample_output": "Personal first aid and survival kits provide compact tools for medical stabilization and emergency shelter. Regular inspection ensures medications remain current, components stay sterile, and fire starters operate reliably.",
+        "counselor_tip": "During the Wilderness Survival Requirement 4 conference on Personal Emergency Kit Assembly, verify that the Scout can explain antiseptic storage and demonstrate demonstrate function: Explain the specific emergency use and deployment method for each individual stored item."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you carry your core personal survival kit on your person rather than stowing it deep inside a large frame backpack?",
@@ -3086,22 +3083,22 @@
           },
           {
             "attribute": "Heat Reflection",
-            "left": "Req 5a: Severe Weather Exposure: Specific exposure conditions demand tailored physical tactics to prevent severe thermal stress. Adjusting movement schedules, erecting windbreaks, or floating on gear mitigates dangerous weather extremes.",
-            "right": "Req 5b: Outdoor Survival Clothing: A proper outdoor clothing system utilizes a wicking base, insulating mid layer, and waterproof outer shell. Adjusting layers before sweating prevents moisture accumulation that leads to accelerated hypothermia."
+            "left": "Heat Reflection: Positioning reflective space blankets above shelters directs radiant solar heat away from occupants.",
+            "right": "Water Safety: Wearing approved flotation vests prevents drowning when traversing swollen rivers or lakeshores."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 5 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 5 Worked Example: Wilderness Shelter and Clothing",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Severe Weather Exposure": "Specific exposure conditions demand tailored physical tactics to prevent severe thermal stress. Adjusting movement schedules, erecting windbreaks, or floating on gear mitigates dangerous weather extremes.",
-          "Req 5b - Outdoor Survival Clothing": "A proper outdoor clothing system utilizes a wicking base, insulating mid layer, and waterproof outer shell. Adjusting layers before sweating prevents moisture accumulation that leads to accelerated hypothermia.",
-          "Req 5c - Camp Wildlife Hazard": "Securing aromatic food items away from sleeping shelters eliminates dangerous wildlife encounters. Storing trash in bear canisters and maintaining clean campsites keeps native scavengers disinterested.",
-          "Req 5d - Forest and Snow Shelters": "Forested and snow-covered regions supply abundant natural building materials for emergency insulation. Snow caves and debris huts leverage trapped air pockets to maintain survivable interior temperatures."
+          "Phase 1 - Site Selection": "Find level high ground sheltered from wind, falling limbs, and potential flooding.",
+          "Phase 2 - Frame Construction": "Prop a sturdy ridgepole securely against a stump or low tree branch fork.",
+          "Phase 3 - Ground Insulation": "Pile two feet of dry leaves and pine needles inside your sleeping area.",
+          "Phase 4 - Debris Thatching": "Layer branches and thick vegetation densely over the frame to shed cold rainwater."
         },
-        "sample_output": "Exposure Protection and Wilderness Shelters: As in other settings, do what you must to keep yourself and othersdry and warm, and be on guard against hypothermia (p. 43).",
-        "counselor_tip": "For Wilderness Survival Requirement 5 (Exposure Protection and Wilderness Shelters), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44))."
+        "sample_output": "Survival shelters defend the human body against hypothermia, hyperthermia, rain, and punishing wind. Selecting proper construction sites and wearing appropriate layered clothing preserves critical metabolic warmth across diverse environments.",
+        "counselor_tip": "During the Wilderness Survival Requirement 5 conference on Wilderness Shelter and Clothing, verify that the Scout can explain cold mitigation and demonstrate debris thatching: Layer branches and thick vegetation densely over the frame to shed cold rainwater."
       },
       "quiz_item": {
         "scenario_prompt": "When improvising a natural survival shelter in cold weather, why is it critical to pile several inches of dry leaves, pine needles, or boughs on the floor?",
@@ -3260,47 +3257,45 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 6: Reliable Firecraft Preparation",
-        "right_header": "Req 6: Practice Matchless Fire Starting",
+        "left_header": "Matchless Fire Ignition Methods: Core Principles",
+        "right_header": "Matchless Fire Ignition Methods: Field Execution",
         "left_points": [
-          "Reliable Firecraft Preparation: The importance of a fire means that you should spend plenty of time getting it right (p. 31).",
-          "Practicing Before Emergencies: As with most survival skills, practicing when you are not in an emergency situation is the best way to become good (p. 31).",
-          "Matchless Ignition Tools: It is especially important to practice using fire-lighting methods other than matches and lighters, a magnifying lens, flint and steel, and fire (p. 31)."
+          "Metal Striker: Striking high carbon steel against flint edges casts hot sparks into charcloth.",
+          "Ferrocerium Rods: Scraping ferrocerium alloy generates intensely hot showers of sparks that ignite tinder."
         ],
         "right_points": [
-          "Practice Matchless Fire Starting: It is especially important to practice using fire-lighting methods other than matches and lighters, a magnifying lens, flint and steel, and fire (p. 31).",
-          "Use Fire With Purpose: A good way to think about a campfire is to consider it a tool to be used for specific and important uses (p. 31).",
-          "Carry Backcountry Cooking Stoves: If you come to the backcountry prepared not to need a fire, carrying a stove and fuel, for example, you can make an informed choice (p. 31)."
+          "Solar Lens: Concentrating direct sunlight through magnifying lenses produces concentrated heat to ignite punkwood.",
+          "Bow Drill: Rotating wooden spindles against notched fireboards produces hot friction dust and embers."
         ],
         "rows": [
           {
             "attribute": "Metal Striker",
-            "left": "Reliable Firecraft Preparation: The importance of a fire means that you should spend plenty of time getting it right (p. 31).",
-            "right": "Practice Matchless Fire Starting: It is especially important to practice using fire-lighting methods other than matches and lighters, a magnifying lens, flint and steel, and fire (p. 31)."
+            "left": "Metal Striker: Striking high carbon steel against flint edges casts hot sparks into charcloth.",
+            "right": "Solar Lens: Concentrating direct sunlight through magnifying lenses produces concentrated heat to ignite punkwood."
           },
           {
             "attribute": "Ferrocerium Rods",
-            "left": "Practicing Before Emergencies: As with most survival skills, practicing when you are not in an emergency situation is the best way to become good (p. 31).",
-            "right": "Use Fire With Purpose: A good way to think about a campfire is to consider it a tool to be used for specific and important uses (p. 31)."
+            "left": "Ferrocerium Rods: Scraping ferrocerium alloy generates intensely hot showers of sparks that ignite tinder.",
+            "right": "Bow Drill: Rotating wooden spindles against notched fireboards produces hot friction dust and embers."
           },
           {
             "attribute": "Solar Lens",
-            "left": "Matchless Ignition Tools: It is especially important to practice using fire-lighting methods other than matches and lighters, a magnifying lens, flint and steel, and fire (p. 31).",
-            "right": "Carry Backcountry Cooking Stoves: If you come to the backcountry prepared not to need a fire, carrying a stove and fuel, for example, you can make an informed choice (p. 31)."
+            "left": "Solar Lens: Concentrating direct sunlight through magnifying lenses produces concentrated heat to ignite punkwood.",
+            "right": "Bow Drill: Rotating wooden spindles against notched fireboards produces hot friction dust and embers."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 6 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 6 Worked Example: Matchless Fire Ignition Methods",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Reliable Firecraft Preparation": "The importance of a fire means that you should spend plenty of time getting it right (p. 31).",
-          "Practicing Before Emergencies": "As with most survival skills, practicing when you are not in an emergency situation is the best way to become good (p. 31).",
-          "Matchless Ignition Tools": "It is especially important to practice using fire-lighting methods other than matches and lighters, a magnifying lens, flint and steel, and fire (p. 31).",
-          "Campfire as Survival Tool": "A good way to think about a campfire is to consider it a tool to be used for specific and important uses (p. 31)."
+          "Phase 1 - Site Clearing": "Scrape surface organic litter down to damp mineral soil inside a designated circle.",
+          "Phase 2 - Tinder Preparation": "Fluff dry cedar bark or cotton into a loose airy birds nest shape.",
+          "Phase 3 - Spark Generation": "Scrape a steel striker down the ferrocerium rod directly into the tinder bundle.",
+          "Phase 4 - Fuel Feeding": "Blow gently on the glowing ember and feed pencil-lead sized dry twigs incrementally."
         },
-        "sample_output": "Matchless Wilderness Fire Building Methods: The importance of a fire means that you should spend plenty of time getting it right (p. 31).",
-        "counselor_tip": "For Wilderness Survival Requirement 6 (Matchless Wilderness Fire Building Methods), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 31, p. 33))."
+        "sample_output": "Mastering matchless ignition methods like ferrocerium rods, flint and steel, or magnifying lenses guarantees warmth and signaling capabilities. Proper fire structure separates fine tinder, pencil-sized kindling, and heavy fuel logs to ensure sustainable combustion.",
+        "counselor_tip": "During the Wilderness Survival Requirement 6 conference on Matchless Fire Ignition Methods, verify that the Scout can explain metal striker and demonstrate fuel feeding: Blow gently on the glowing ember and feed pencil-lead sized dry twigs incrementally."
       },
       "quiz_item": {
         "scenario_prompt": "Where is the best place to find dry tinder and kindling in a forest after a heavy rainstorm?",
@@ -3694,10 +3689,12 @@
         "left_header": "Req 7a: Search Team Signaling Techniques",
         "right_header": "Req 7b: Signal Mirror Aiming Operations",
         "left_points": [
-          "(7a) Search Team Signaling Techniques: Rescuers scan vast wilderness terrain relying on visible reflections, billowing smoke columns, and rhythmic whistle calls. Deploying both visual and acoustic methods maximizes discovery probability across rugged topography."
+          "(7a) Search Team Signaling Techniques: Rescuers scan vast wilderness terrain relying on visible reflections, billowing smoke columns, and rhythmic whistle calls. Deploying both visual and acoustic methods maximizes discovery probability across rugged topography.",
+          "Mirror Flashing: Sweeping reflected sunlight beams across horizons alerts airborne search crews from great distances."
         ],
         "right_points": [
-          "(7b) Signal Mirror Aiming Operations: Glass and metal signal mirrors project intense flashes of reflected sunlight across great geographic distances. Aiming retroreflective mesh centers ensures the blinding beacon targets search aircraft directly."
+          "(7b) Signal Mirror Aiming Operations: Glass and metal signal mirrors project intense flashes of reflected sunlight across great geographic distances. Aiming retroreflective mesh centers ensures the blinding beacon targets search aircraft directly.",
+          "(7c) Universal Ground Air Signals: Universal ground-to-air visual codes convey concise tactical messages to aerial reconnaissance crews. Stamping symbols like X for medical aid or V for assistance guides search operations."
         ],
         "rows": [
           {
@@ -3707,26 +3704,27 @@
           },
           {
             "attribute": "Acoustic Signaling",
-            "left": "Req 7a: Search Team Signaling: Rescuers scan vast wilderness terrain relying on visible reflections, billowing smoke columns, and rhythmic whistle calls. Deploying both visual and acoustic methods maximizes discovery probability across rugged topography.",
-            "right": "Req 7b: Signal Mirror Aiming: Glass and metal signal mirrors project intense flashes of reflected sunlight across great geographic distances. Aiming retroreflective mesh centers ensures the blinding beacon targets search aircraft directly."
+            "left": "Mirror Flashing: Sweeping reflected sunlight beams across horizons alerts airborne search crews from great distances.",
+            "right": "(7c) Universal Ground Air Signals: Universal ground-to-air visual codes convey concise tactical messages to aerial reconnaissance crews. Stamping symbols like X for medical aid or V for assistance guides search operations."
           },
           {
             "attribute": "Smoke Columns",
-            "left": "Req 7c: Universal Ground Air Signals: Universal ground-to-air visual codes convey concise tactical messages to aerial reconnaissance crews. Stamping symbols like X for medical aid or V for assistance guides search operations.",
-            "right": "Acoustic Signaling: Blowing three distinct whistle blasts creates a recognizable acoustic distress signal across valleys."
+            "left": "Smoke Columns: Adding green boughs creates thick white smoke plumes visible to aerial observers.",
+            "right": "Ground Markers: Laying contrasting timber lines forms universal visual symbols recognized by rescue pilots."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 7 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 7 Worked Example: Emergency Search Signaling Systems",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Search Team Signaling": "Rescuers scan vast wilderness terrain relying on visible reflections, billowing smoke columns, and rhythmic whistle calls. Deploying both visual and acoustic methods maximizes discovery probability across rugged topography.",
-          "Req 7b - Signal Mirror Aiming": "Glass and metal signal mirrors project intense flashes of reflected sunlight across great geographic distances. Aiming retroreflective mesh centers ensures the blinding beacon targets search aircraft directly.",
-          "Req 7c - Universal Ground Air Signals": "Universal ground-to-air visual codes convey concise tactical messages to aerial reconnaissance crews. Stamping symbols like X for medical aid or V for assistance guides search operations."
+          "Phase 1 - Sound Whistle": "Blow three sharp audible blasts on your whistle and pause to listen for replies.",
+          "Phase 2 - Mirror Sighting": "Hold the mirror near your eye while extending your free hand toward target aircraft.",
+          "Phase 3 - Flash Aiming": "Direct the reflected sunlight spot across your fingers onto the passing rescue aircraft.",
+          "Phase 4 - Ground Marking": "Construct prominent ground geometric shapes using contrasting dead branches, rocks, or trampled snow."
         },
-        "sample_output": "Search and Rescue Signaling Techniques: When the sun is shining, the flash of light reflected with a signal mirror can be seen for miles (p. 36).",
-        "counselor_tip": "For Wilderness Survival Requirement 7 (Search and Rescue Signaling Techniques), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 36, p. 38))."
+        "sample_output": "Effective wilderness signaling combines audible devices, daytime smoke, reflective surfaces, and contrasting ground symbols to attract search teams. The international distress rule of three alerts rescuers that an emergency is occurring.",
+        "counselor_tip": "During the Wilderness Survival Requirement 7 conference on Emergency Search Signaling Systems, verify that the Scout can explain mirror flashing and demonstrate ground marking: Construct prominent ground geometric shapes using contrasting dead branches, rocks, or trampled snow."
       },
       "quiz_item": {
         "scenario_prompt": "Across the outdoors, what signal pattern is universally recognized as a call for help?",
@@ -3889,47 +3887,45 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 8: Priority of Hydration",
-        "right_header": "Req 8: Hydrate in Cold Climates",
+        "left_header": "Wilderness Water Purification Procedures: Core Principles",
+        "right_header": "Wilderness Water Purification Procedures: Field Execution",
         "left_points": [
-          "Priority of Hydration: Drink plenty of water (p. 40).",
-          "Hot Weather Dehydration: You can survive for days without food, but inhot weather without water, only hours (p. 40).",
-          "Cold Weather Fluid Loss: Dehydration happens in cold weather, too, even though you may not feel as thirsty (p. 40)."
+          "Thermal Boiling: Vigorous boiling for sixty seconds eliminates all bacteria, viruses, and protozoan waterborne cysts.",
+          "Chemical Halogenation: Chlorine dioxide tablets eradicate cryptosporidium oocysts when given full manufacturer contact time."
         ],
         "right_points": [
-          "Hydrate in Cold Climates: Dehydration happens in cold weather, too, even though you may not feel as thirsty (p. 40).",
-          "Maintain Clear Urine Output: The best rule is to drink plenty of water, enough so that your urine is clear, whenever you are in the outdoors (p. 40).",
-          "Collect Rain and Runoff: Ideally you will be able to find water where you are, from a lake, a stream, or melting snow, or by guiding rainwater down a tarp or tent fly (p. 40)."
+          "Mechanical Filtration: Hollow fiber membrane filters physically screen out harmful giardia cysts from turbid streams.",
+          "Water Clarification: Passing sediment through clean fabric bandanas prevents premature clogging of delicate filter pores."
         ],
         "rows": [
           {
             "attribute": "Thermal Boiling",
-            "left": "Priority of Hydration: Drink plenty of water (p. 40).",
-            "right": "Hydrate in Cold Climates: Dehydration happens in cold weather, too, even though you may not feel as thirsty (p. 40)."
+            "left": "Thermal Boiling: Vigorous boiling for sixty seconds eliminates all bacteria, viruses, and protozoan waterborne cysts.",
+            "right": "Mechanical Filtration: Hollow fiber membrane filters physically screen out harmful giardia cysts from turbid streams."
           },
           {
             "attribute": "Chemical Halogenation",
-            "left": "Hot Weather Dehydration: You can survive for days without food, but inhot weather without water, only hours (p. 40).",
-            "right": "Maintain Clear Urine Output: The best rule is to drink plenty of water, enough so that your urine is clear, whenever you are in the outdoors (p. 40)."
+            "left": "Chemical Halogenation: Chlorine dioxide tablets eradicate cryptosporidium oocysts when given full manufacturer contact time.",
+            "right": "Water Clarification: Passing sediment through clean fabric bandanas prevents premature clogging of delicate filter pores."
           },
           {
             "attribute": "Mechanical Filtration",
-            "left": "Cold Weather Fluid Loss: Dehydration happens in cold weather, too, even though you may not feel as thirsty (p. 40).",
-            "right": "Collect Rain and Runoff: Ideally you will be able to find water where you are, from a lake, a stream, or melting snow, or by guiding rainwater down a tarp or tent fly (p. 40)."
+            "left": "Mechanical Filtration: Hollow fiber membrane filters physically screen out harmful giardia cysts from turbid streams.",
+            "right": "Water Clarification: Passing sediment through clean fabric bandanas prevents premature clogging of delicate filter pores."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 8 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 8 Worked Example: Wilderness Water Purification Procedures",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Priority of Hydration": "Drink plenty of water (p. 40).",
-          "Hot Weather Dehydration": "You can survive for days without food, but inhot weather without water, only hours (p. 40).",
-          "Cold Weather Fluid Loss": "Dehydration happens in cold weather, too, even though you may not feel as thirsty (p. 40).",
-          "Clear Urine Hydration Check": "The best rule is to drink plenty of water, enough so that your urine is clear, whenever you are in the outdoors (p. 40)."
+          "Phase 1 - Clarify Water": "Pour turbid creek water through a clean cotton bandana to settle suspended sediment.",
+          "Phase 2 - Boil Water": "Bring filtered water to a vigorous rolling boil inside a metal cup over flames.",
+          "Phase 3 - Chemical Treatment": "Dissolve chlorine dioxide tablets into cold water following manufacturer wait time instructions carefully.",
+          "Phase 4 - Microfiltration Use": "Pump clarified water through a certified zero-point-one micron hollow fiber filter cartridge into clean containers."
         },
-        "sample_output": "Finding and Treating Drinking Water: Drink plenty of water (p. 40).",
-        "counselor_tip": "For Wilderness Survival Requirement 8 (Finding and Treating Drinking Water), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 40, p. 41))."
+        "sample_output": "Natural backcountry water sources harbor microscopic pathogens such as Giardia, Cryptosporidium, and harmful enteric bacteria. Purification methods including boiling, chemical halogenation, and microscopic filtration render wild water safe for human consumption.",
+        "counselor_tip": "During the Wilderness Survival Requirement 8 conference on Wilderness Water Purification Procedures, verify that the Scout can explain thermal boiling and demonstrate microfiltration use: Pump clarified water through a certified zero-point-one micron hollow fiber filter cartridge into clean containers."
       },
       "quiz_item": {
         "scenario_prompt": "What is the most reliable method for killing water borne pathogens in water collected from a backcountry stream?",
@@ -4078,47 +4074,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Predatory Wildlife Awareness",
-        "right_header": "Req 9: Face Predators and Retreat",
+        "left_header": "Wild Food Foraging Hazards: Core Principles",
+        "right_header": "Wild Food Foraging Hazards: Field Execution",
         "left_points": [
-          "Predatory Wildlife Awareness: Protecting Yourself in the Wilderness Predatory Animals Be especially aware of the kinds of predatory animals you might meet during your adventures (p. 49).",
-          "Curious Wolves and Cougars: Wolves, coyotes, and cougars (or panthers and pumas) are curious (p. 49).",
-          "Slowly Backing Away: So, if you happen upon such an animal, face the creature and slowly retreat from the area (p. 49)."
+          "Toxic Hazards: Ingesting unfamiliar wild mushrooms and plants risks violent digestive poisoning and debilitating dehydration.",
+          "Energy Conservation: Digesting complex wild foods requires metabolic energy and consumes precious bodily fluid reserves."
         ],
         "right_points": [
-          "Face Predators and Retreat: So, if you happen upon such an animal, face the creature and slowly retreat from the area (p. 49).",
-          "Wave Arms Overhead Slowly: Make yourself as \"big\" as possible by waving your arms and clothing above your head (p. 49).",
-          "Throw Rocks When Cornered: If you have no escape or become cornered, throw rocks and sticks (p. 49)."
+          "Survival Duration: Healthy humans survive weeks without food when protected from weather and adequately hydrated.",
+          "Poisoning Symptoms: Ingestion of wild toxins causes vomiting and severe diarrhea that hastens backcountry collapse."
         ],
         "rows": [
           {
             "attribute": "Toxic Hazards",
-            "left": "Predatory Wildlife Awareness: Protecting Yourself in the Wilderness Predatory Animals Be especially aware of the kinds of predatory animals you might meet during your adventures (p. 49).",
-            "right": "Face Predators and Retreat: So, if you happen upon such an animal, face the creature and slowly retreat from the area (p. 49)."
+            "left": "Toxic Hazards: Ingesting unfamiliar wild mushrooms and plants risks violent digestive poisoning and debilitating dehydration.",
+            "right": "Survival Duration: Healthy humans survive weeks without food when protected from weather and adequately hydrated."
           },
           {
             "attribute": "Energy Conservation",
-            "left": "Curious Wolves and Cougars: Wolves, coyotes, and cougars (or panthers and pumas) are curious (p. 49).",
-            "right": "Wave Arms Overhead Slowly: Make yourself as \"big\" as possible by waving your arms and clothing above your head (p. 49)."
+            "left": "Energy Conservation: Digesting complex wild foods requires metabolic energy and consumes precious bodily fluid reserves.",
+            "right": "Poisoning Symptoms: Ingestion of wild toxins causes vomiting and severe diarrhea that hastens backcountry collapse."
           },
           {
             "attribute": "Survival Duration",
-            "left": "Slowly Backing Away: So, if you happen upon such an animal, face the creature and slowly retreat from the area (p. 49).",
-            "right": "Throw Rocks When Cornered: If you have no escape or become cornered, throw rocks and sticks (p. 49)."
+            "left": "Survival Duration: Healthy humans survive weeks without food when protected from weather and adequately hydrated.",
+            "right": "Poisoning Symptoms: Ingestion of wild toxins causes vomiting and severe diarrhea that hastens backcountry collapse."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 9 Exemplar Workbook Entry: Wild",
+        "title": "Wilderness Survival Req 9 Worked Example: Wild Food Foraging Hazards",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Predatory Wildlife Awareness": "Protecting Yourself in the Wilderness Predatory Animals Be especially aware of the kinds of predatory animals you might meet during your adventures (p. 49).",
-          "Curious Wolves and Cougars": "Wolves, coyotes, and cougars (or panthers and pumas) are curious (p. 49).",
-          "Slowly Backing Away": "So, if you happen upon such an animal, face the creature and slowly retreat from the area (p. 49).",
-          "Looking Large to Predators": "Make yourself as \"big\" as possible by waving your arms and clothing above your head (p. 49)."
+          "Phase 1 - Assess Needs": "Recognize that hydration and thermal shelter take total priority over collecting edible food.",
+          "Phase 2 - Conserve Calories": "Limit strenuous physical movements to prevent burning vital stored glycogen and body fat.",
+          "Phase 3 - Avoid Ingestion": "Refuse to consume unidentified wild plants, mushrooms, or foul smelling insects in camp.",
+          "Phase 4 - Preserve Water": "Drink purified water regularly to support baseline cellular metabolism without stressing renal functions."
         },
-        "sample_output": "Wild Food Risks and Wildlife Safety: Protecting Yourself in the Wilderness Predatory Animals Be especially aware of the kinds of predatory animals you might meet during your adventures (p. 49).",
-        "counselor_tip": "For Wilderness Survival Requirement 9 (Wild Food Risks and Wildlife Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 49, p. 51))."
+        "sample_output": "A healthy human can survive several weeks without food by burning stored calories while conserving body water. Foraging unfamiliar wild plants carries severe risks of toxic ingestion, violent diarrhea, and rapid dehydration.",
+        "counselor_tip": "During the Wilderness Survival Requirement 9 conference on Wild Food Foraging Hazards, verify that the Scout can explain toxic hazards and demonstrate preserve water: Drink purified water regularly to support baseline cellular metabolism without stressing renal functions."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Wilderness Survival merit badge pamphlet advise against eating wild plants or hunting wildlife during most backcountry emergencies?",
@@ -4457,13 +4451,15 @@
         "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 10a: Backcountry Career Pathways",
+        "left_header": "Req 10a: Backcountry Career Pathways Exploration",
         "right_header": "Req 10b: Volunteer Service and Hobbies",
         "left_points": [
-          "(10a) Backcountry Career Pathways Exploration: Outdoor survival professions span emergency management, conservation enforcement, wildland firefighting, and experiential leadership instruction. Careers require extensive technical training, physical conditioning, risk management expertise, and specialized environmental credentials."
+          "(10a) Backcountry Career Pathways Exploration: Outdoor survival professions span emergency management, conservation enforcement, wildland firefighting, and experiential leadership instruction. Careers require extensive technical training, physical conditioning, risk management expertise, and specialized environmental credentials.",
+          "Ranger Training: Backcountry rangers complete extensive outdoor emergency care and wilderness technical rescue training courses."
         ],
         "right_points": [
-          "(10b) Volunteer Service and Hobbies: Wilderness competencies empower individuals to serve in volunteer search groups, disaster response networks, and youth scouting patrols. Continuing education in map navigation, first aid, and survival tactics strengthens community emergency readiness."
+          "(10b) Volunteer Service and Hobbies: Wilderness competencies empower individuals to serve in volunteer search groups, disaster response networks, and youth scouting patrols. Continuing education in map navigation, first aid, and survival tactics strengthens community emergency readiness.",
+          "Volunteer Teams: Community search teams train volunteers in ground tracking, navigation, and wilderness evacuation methods."
         ],
         "rows": [
           {
@@ -4473,25 +4469,27 @@
           },
           {
             "attribute": "Incident Command",
-            "left": "Req 10a: Backcountry Career Pathways: Outdoor survival professions span emergency management, conservation enforcement, wildland firefighting, and experiential leadership instruction. Careers require extensive technical training, physical conditioning, risk management expertise, and specialized environmental credentials.",
-            "right": "Req 10b: Volunteer Service: Wilderness competencies empower individuals to serve in volunteer search groups, disaster response networks, and youth scouting patrols. Continuing education in map navigation, first aid, and survival tactics strengthens community emergency readiness."
+            "left": "Ranger Training: Backcountry rangers complete extensive outdoor emergency care and wilderness technical rescue training courses.",
+            "right": "Volunteer Teams: Community search teams train volunteers in ground tracking, navigation, and wilderness evacuation methods."
           },
           {
             "attribute": "Volunteer Teams",
-            "left": "Ranger Training: Backcountry rangers complete extensive outdoor emergency care and wilderness technical rescue training courses.",
-            "right": "Incident Command: Search specialists study national incident command systems to coordinate complex missing person operations."
+            "left": "Volunteer Teams: Community search teams train volunteers in ground tracking, navigation, and wilderness evacuation methods.",
+            "right": "Career Pathways: Degrees in outdoor recreation or forestry prepare students for professional wilderness management roles."
           }
         ]
       },
       "worked_example": {
-        "title": "Wilderness Survival Req 10 Exemplar Workbook Entry",
+        "title": "Wilderness Survival Req 10 Worked Example: Outdoor Careers and Volunteerism",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 10a - Backcountry Career Pathways": "Outdoor survival professions span emergency management, conservation enforcement, wildland firefighting, and experiential leadership instruction. Careers require extensive technical training, physical conditioning, risk management expertise, and specialized environmental credentials.",
-          "Req 10b - Volunteer Service": "Wilderness competencies empower individuals to serve in volunteer search groups, disaster response networks, and youth scouting patrols. Continuing education in map navigation, first aid, and survival tactics strengthens community emergency readiness."
+          "Phase 1 - Research Careers": "Investigate educational requirements, salaries, and daily duties of professional wilderness search technicians.",
+          "Phase 2 - Identify Certifications": "List critical professional credentials including Wilderness First Responder and incident management qualifications.",
+          "Phase 3 - Interview Professional": "Speak with a park ranger or search specialist regarding daily operational field challenges.",
+          "Phase 4 - Explore Service": "Connect with local volunteer search organizations or amateur radio emergency communication groups."
         },
-        "sample_output": "Wilderness Survival Careers and Hobbies: A good way to begin is by completing the outdoor-oriented requirements for the ranks of Scouting (p. 9).",
-        "counselor_tip": "For Wilderness Survival Requirement 10 (Wilderness Survival Careers and Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 9, p. 22))."
+        "sample_output": "Wilderness survival skills prepare individuals for critical careers in backcountry search and rescue, park resource management, and outdoor education. Practical survival competencies also support volunteer trail patrol, emergency disaster services, and backcountry community youth leadership.",
+        "counselor_tip": "During the Wilderness Survival Requirement 10 conference on Outdoor Careers and Volunteerism, verify that the Scout can explain ranger training and demonstrate explore service: Connect with local volunteer search organizations or amateur radio emergency communication groups."
       },
       "quiz_item": {
         "scenario_prompt": "Which of the following is the best way to turn the skills learned in the Wilderness Survival merit badge into a lifelong capability or career foundation?",

@@ -47,8 +47,6 @@
 **Official Requirement 1a:** Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression illness, nitrogen narcosis, motion sickness, fatigue, overexertion, heat reactions, dehydration, injuries by aquatic life, and cuts and scrapes.
 **Source:** *Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Clinical Signs, First-Aid Treatment & Prevention Matrix
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Swimmers think ear pain during descent disappears naturally if they kick harder toward the bottom.
-- **Pamphlet Fact:** Descending with un-equalized middle ears causes tympanic membrane rupture, requiring immediate descent termination.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -56,7 +54,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
-![Scuba Diving Requirement 1 figure showing divers pinch nostrils and exhale gently to equalize middle ear pressure during descent.](/assets/pamphlet_images/scuba_diving_p003_img1.png)
+![Divers pinch nostrils and exhale gently to equalize middle ear pressure during descent.](/assets/pamphlet_images/scuba_diving_p003_img1.png)
 
 | Condition / Emergency | Recognizable Signs & Symptoms | Step-by-Step First-Aid Care | Field Prevention Standard |
 | :--- | :--- | :--- | :--- |
@@ -68,8 +66,6 @@
 **Official Requirement 1b:** Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions. Demonstrate the proper technique for performing CPR using a training device approved by your counselor.
 **Source:** *Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Skill Demonstration Checklist):** Req 1b Hands-On Skill Station & EDGE Verification Checklist (Conditions That Must Exist Before)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Scuba Diving Req 1b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Rescuers believe abdominal thrusts must be performed to drain seawater from submerged drowning victims.
-- **Pamphlet Fact:** Immediate chest compressions take absolute priority because seawater enters lungs in small frothy volumes.
 
 ![Student divers hold onto the pool edge while debriefing with an instructor.](/assets/pamphlet_images/scuba_diving_p020_img1.png)
 

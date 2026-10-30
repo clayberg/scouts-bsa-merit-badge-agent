@@ -46,10 +46,8 @@
 #### Req 1a: Personal Protective Equipment Standards
 **Official Requirement 1a:** Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing farm equipment. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
-- **Common Myth:** Loose cotton clothing keeps mechanics cooler without presenting any moving machine entanglement risk.
-- **Pamphlet Fact:** Untucked shirts or loose sleeves easily wrap around spinning tractor shafts causing severe injury.
 
-![Farm Mechanics Requirement 1 figure showing impact resistant safety glasses shield eyes against high speed flying metal fragments.](/assets/pamphlet_images/farm_mechanics_p003_img1.png)
+![Impact resistant safety glasses shield eyes against high speed flying metal fragments.](/assets/pamphlet_images/farm_mechanics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -61,8 +59,6 @@
 #### Req 1b: Farm Shop Layout Planning
 **Official Requirement 1b:** Draw a plan showing a well-equipped farm shop. Point out the shop's mandatory safety devices and features.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Organizer (Field Sketch & Diagram Canvas):** Req 1b Structured Technical Study & Explanation Matrix (Showing A Well-equipped Farm Shop)
-- **Common Myth:** Shop safety equipment can be stored anywhere as long as workers know where it sits.
-- **Pamphlet Fact:** Federal safety codes mandate unobstructed three-foot clearance radii around all electrical disconnect panels.
 
 ![A worker reads important hazard warnings and handling advice on a printed safety sheet.](/assets/pamphlet_images/farm_mechanics_p038_img1.png)
 
@@ -84,8 +80,6 @@
 #### Req 1c: Universal Equipment Safety Symbols
 **Official Requirement 1c:** Find all the universal warning and safety symbols on a piece of equipment and explain what they mean.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Universal Warning and Safety Symbols)
-- **Common Myth:** Safety decals on agricultural machinery use colors purely for visual brand styling.
-- **Pamphlet Fact:** Orange warning labels indicate potential hazards that could result in death or serious injury.
 
 ![A worker uses a flat metal file to smooth down edges of stock secured in a bench vise.](/assets/pamphlet_images/farm_mechanics_p025_img1.png)
 
@@ -98,8 +92,6 @@
 #### Req 1d: Chemical Safety Data Sheets
 **Official Requirement 1d:** Describe what a safety data sheet (SDS) is and tell why it is used. Obtain the SDS for any engine coolant, oil, grease, fuel, hydraulic or transmission fluid, or other flammable or hazardous materials you use in meeting the requirements for this merit badge.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Safety Data Sheet SDS)
-- **Common Myth:** Product labels provide all necessary emergency medical treatment instructions for chemical ingestion.
-- **Pamphlet Fact:** Safety data sheets provide emergency first aid instructions and personal protective equipment specifications.
 
 ![A hand rasp tool with a contoured wooden handle is used to shape and smooth rough wood.](/assets/pamphlet_images/farm_mechanics_p025_img2.png)
 
@@ -126,10 +118,8 @@
 #### Req 2a: Diesel Compression Ignition Cycles
 **Official Requirement 2a:** Diesel engine.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Diesel Engine)
-- **Common Myth:** Diesel fuel ignites spontaneously at room temperature without requiring heat or compression.
-- **Pamphlet Fact:** Diesel engine cylinders operate at compression ratios exceeding sixteen to one without spark plugs.
 
-![Farm Mechanics Requirement 2 figure showing diesel cylinders compress air until extreme heat ignites atomized fuel oil.](/assets/pamphlet_images/farm_mechanics_p007_img1.png)
+![Diesel cylinders compress air until extreme heat ignites atomized fuel oil.](/assets/pamphlet_images/farm_mechanics_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -140,8 +130,6 @@
 #### Req 2b: Fluid Power Transmission Circuits
 **Official Requirement 2b:** Hydraulic system.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Hydraulic System)
-- **Common Myth:** Hydraulic systems compress oil to store energy like a mechanical steel spring.
-- **Pamphlet Fact:** Pascal principle states that confined fluid pressure acts equally in all directions throughout a container.
 
 ![A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery.](/assets/pamphlet_images/farm_mechanics_p050_img1.png)
 
@@ -154,8 +142,6 @@
 #### Req 2c: Mechanical Drivetrain Power Flow
 **Official Requirement 2c:** Transmission or any other power system.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Transmission or Any Other Power)
-- **Common Myth:** Tractor transmissions only change vehicle travel speed without altering output wheel torque.
-- **Pamphlet Fact:** Clutches decouple engine flywheel rotation from transmission input shafts to prevent gear clash.
 
 ![A mechanic tightens fittings on an agricultural hydraulic cylinder using a hand wrench.](/assets/pamphlet_images/farm_mechanics_p051_img1.png)
 
@@ -181,10 +167,8 @@
 #### Req 3a: Striking Tool Handle Replacement
 **Official Requirement 3a:** Replace the handle of any tool found on the farm.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Replace the Handle of Any)
-- **Common Myth:** Any hardwood branch from the farm woodlot works reliably as a sledgehammer handle.
-- **Pamphlet Fact:** Steep grain runout on replacement wood handles creates weak points that snap under heavy shock.
 
-![Farm Mechanics Requirement 3 figure showing hardwood wedges spread tool handle tenons firmly against steel eye walls.](/assets/pamphlet_images/farm_mechanics_p012_img1.png)
+![Hardwood wedges spread tool handle tenons firmly against steel eye walls.](/assets/pamphlet_images/farm_mechanics_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -195,8 +179,6 @@
 #### Req 3b: Shop Fastener Storage Organization
 **Official Requirement 3b:** Organize a tool rack or a storage system for nails, bolts, nuts, and washers.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Organize A Tool Rack)
-- **Common Myth:** Hardware diameter determines total fastener load rating regardless of alloy grade markings.
-- **Pamphlet Fact:** Grade five bolts possess three radial slash markings on their hexagonal heads indicating tensile strength.
 
 ![A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.](/assets/pamphlet_images/farm_mechanics_p024_img1.png)
 
@@ -209,8 +191,6 @@
 #### Req 3c: Cold Chisel Crown Dressing
 **Official Requirement 3c:** Using a hand file, properly dress the mushroomed head of a chisel or punch.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Hand File Properly Dress the)
-- **Common Myth:** Hammer heads and cold chisels share identical metal hardness across striking surfaces.
-- **Pamphlet Fact:** Filing away mushroomed metal edges removes work-hardened steel before brittle slivers detach violently.
 
 ![A technician tests voltage across tractor battery terminals using a digital multimeter.](/assets/pamphlet_images/farm_mechanics_p053_img1.png)
 
@@ -223,8 +203,6 @@
 #### Req 3d: Screwdriver Blade Tip Restoration
 **Official Requirement 3d:** Using a hand file, correctly dress a screwdriver tip.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Hand File Correctly Dress A)
-- **Common Myth:** Tapering screwdriver tips into sharp knife edges helps them enter shallow screw slots.
-- **Pamphlet Fact:** Rounded screwdriver tips slip from screw slots and strip fastener drive recesses completely.
 
 ![A technician applies grease to a machinery fitting using a manual red lever grease gun.](/assets/pamphlet_images/farm_mechanics_p056_img1.png)
 
@@ -250,8 +228,6 @@
 #### Req 4a: Engine Fluid Lubrication Service
 **Official Requirement 4a:** On an engine-powered machine: Grease all fittings, change the oil and oil filter, clean the air filter, clean the radiator fins, and replace the fuel filters.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Engine-powered Machine Grease All Fittings)
-- **Common Myth:** Tightening oil filters with heavy metal strap wrenches prevents high pressure fluid leaks.
-- **Pamphlet Fact:** Spin-on oil filters require only three-quarters turn past initial gasket contact for reliable sealing.
 
 ![A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level.](/assets/pamphlet_images/farm_mechanics_p056_img2.png)
 
@@ -264,8 +240,6 @@
 #### Req 4b: Preoperational Machinery Inspection Checklists
 **Official Requirement 4b:** For any engine-powered machine, create a preoperational checklist; include checking the engine coolant, engine oil, hydraulic and/or transmission fluid, and battery voltage (using a voltmeter). Using your checklist, conduct a preoperational check of that machinery or equipment.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Engine-powered Machine Create A Preoperational)
-- **Common Myth:** Dashboard warning lights illuminate immediately when engine oil levels drop below safe thresholds.
-- **Pamphlet Fact:** A static battery resting voltage of twelve point two volts indicates fifty percent discharge.
 
 ![A container of engine antifreeze coolant provides protection against freezing and rust.](/assets/pamphlet_images/farm_mechanics_p058_img1.png)
 
@@ -280,8 +254,6 @@
 #### Req 4c: Winter Machinery Storage Preparation
 **Official Requirement 4c:** Prepare any farm machine for winter storage.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Farm Machine for Winter Storage)
-- **Common Myth:** Parking machinery under outdoor canvas tarps protects internal engine parts from winter condensation.
-- **Pamphlet Fact:** Stabilizing stored fuel prevents varnish buildup that clogs carburetor jets and fuel injector nozzles.
 
 ![A technician installs a fresh engine oil filter during scheduled machinery maintenance.](/assets/pamphlet_images/farm_mechanics_p058_img2.png)
 
@@ -299,7 +271,6 @@
 - **Pamphlet Fact:** Scheduled preventive maintenance costs significantly less than emergency field repairs during planting season.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Farm Mechanics merit badge pamphlet and workbook organizer for Req 5.
 - [ ] Farm Mechanics field toolkit, inspection gauge, and protective eyewear for Implement Dealership Maintenance Consultation.
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied.
 - [ ] Completed observation table and counselor review notes for Req 5.
@@ -337,8 +308,6 @@
 #### Req 6a: Hydraulic Hose Fitting Assembly
 **Official Requirement 6a:** Tightening hydraulic fittings.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Tightening Hydraulic Fittings)
-- **Common Myth:** Teflon tape wrapped on flared hydraulic threads seals high-pressure oil leaks reliably.
-- **Pamphlet Fact:** Using two wrenches prevents twisting the internal wire reinforcement braids of flexible hydraulic hoses.
 
 ![An operator carefully grinds a metal tool edge against a motorized shop bench grinder.](/assets/pamphlet_images/farm_mechanics_p031_img1.png)
 
@@ -351,8 +320,6 @@
 #### Req 6b: Engine Air Filter Servicing
 **Official Requirement 6b:** Checking the air filter.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Checking the Air Filter)
-- **Common Myth:** Washing paper air filter elements with diesel fuel restores factory air flow capacity.
-- **Pamphlet Fact:** Tapping paper filter ends lightly dislodges loose dust without tearing delicate pleated media fibers.
 
 ![A technician connects a laptop to a tractor engine to run computer diagnostic software.](/assets/pamphlet_images/farm_mechanics_p072_img1.png)
 
@@ -365,8 +332,6 @@
 #### Req 6c: Rotary Wire Wheel Deburring
 **Official Requirement 6c:** Cleaning a work piece with a wire-brush wheel.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Cleaning A Work Piece)
-- **Common Myth:** Worn wire wheels can be operated safely without wheel guards or spark arrestors.
-- **Pamphlet Fact:** Holding workpieces below wheel centerlines prevents spinning wire bristles from violently kicking parts upward.
 
 ![An experienced technician explains tractor systems to apprentices in an equipment shop.](/assets/pamphlet_images/farm_mechanics_p074_img1.png)
 

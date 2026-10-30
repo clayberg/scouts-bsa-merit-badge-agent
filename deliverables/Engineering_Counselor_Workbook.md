@@ -37,7 +37,6 @@
 ### Req 1: Manufactured Product Engineering Investigation
 **Official Requirement 1:** Select a manufactured item in your home (such as a toy or an appliance) and, under adult supervision and with the approval of your counselor, investigate how and why it works as it does. Find out what sort of engineering activities were needed to create it. Discuss with your counselor what you learned and how you got the information.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Manufactured Item in Your Home)
-> **Guide to Safe Scouting Warning:** Disconnect all power cords and discharge internal capacitors before opening appliance enclosures.
 - **Common Myth:** Consumer devices are engineered by a single person using one discipline.
 - **Pamphlet Fact:** Commercial products require multidisciplinary teams including mechanical, electrical, materials, and manufacturing engineers.
 
@@ -60,7 +59,6 @@
 ### Req 2: Major Engineering Achievement Analysis
 **Official Requirement 2:** Select an engineering achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out about the engineers who made this engineering feat possible, the special obstacles they had to overcome, and how this achievement has influenced the world today. Tell your counselor what you learned.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Engineering Achievement That Has)
-> **Guide to Safe Scouting Warning:** Follow internet safety guidelines and verify digital archive sources alongside adult counselors.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Engineering Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Monumental feats occur when an inventor experiences an instantaneous stroke of genius.
 - **Pamphlet Fact:** Major achievements require decades of collaborative mathematical calculations, logistical trials, and incremental prototype revisions.
@@ -84,7 +82,6 @@
 ### Req 3: Core Engineering Disciplines Comparison
 **Official Requirement 3:** Explain the work of six types of engineers. Pick two of the six types and explain how their work is related to engineering.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Work of Six Types of)
-> **Guide to Safe Scouting Warning:** Wear high visibility vests, steel toe boots, and hard hats when visiting industrial jobsites.
 - **Common Myth:** Engineers in different fields use completely unrelated scientific rules to solve problems.
 - **Pamphlet Fact:** All branches rely on fundamental conservation laws, calculus, material science, and the engineering method.
 
@@ -106,7 +103,6 @@
 ### Req 4: Professional Engineering Field Interview
 **Official Requirement 4 (Parent Overview):** Visit with an engineer (who may be your counselor, parent or guardian) and do the following: (a) Discuss the work this engineer does and the tools the engineer uses. (b) Discuss with the engineer a current project and the engineer's particular role in it. (c) Find out how the engineer's work is done and how results are achieved. (d) Ask to see the reports that the engineer writes concerning the project. (e) Discuss with your counselor what you learned about engineering from this visit.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Comply with all facility safety briefings and visitor badging protocols during site tours.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Engineering Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Engineers spend their entire working day operating machinery or building physical prototypes.
 - **Pamphlet Fact:** Most professional engineering hours involve computer modeling, mathematical analysis, design reviews, and technical writing.
@@ -121,8 +117,6 @@
 **Official Requirement 4a:** Discuss the work this engineer does and the tools the engineer uses.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Discuss the Work This Engineer)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Engineering Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Engineering tools are limited to manual hand tools like calipers and soldering irons.
-- **Pamphlet Fact:** Modern engineers primarily use computer aided design software, finite element simulators, and specialized diagnostic instruments.
 
 ![An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.](/assets/pamphlet_images/engineering_p039_img2.png)
 
@@ -135,10 +129,8 @@
 #### Req 4b: Active Project Role Examination
 **Official Requirement 4b:** Discuss with the engineer a current project and the engineer's particular role.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss with the Engineer A)
-- **Common Myth:** A lead project engineer oversees every single detailed calculation without specialized team delegation.
-- **Pamphlet Fact:** Engineers contribute as subsystem leads, materials analysts, or quality specialists within a larger structured project hierarchy.
 
-![Engineering Requirement 1 figure showing unplug electrical appliances completely before loosening any external housing screws.](/assets/pamphlet_images/engineering_p003_img1.png)
+![Unplug electrical appliances completely before loosening any external housing screws or fasteners.](/assets/pamphlet_images/engineering_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -149,10 +141,8 @@
 #### Req 4c: Engineering Methodology and Results
 **Official Requirement 4c:** Find out how the engineer's work is done and how results are achieved.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Out How the Engineer's Work)
-- **Common Myth:** Engineering outcomes are proven solely through intuition and trial error without rigorous documentation.
-- **Pamphlet Fact:** Engineers validate results by comparing experimental empirical data against predictive mathematical models and established codes.
 
-![Engineering Requirement 2 figure showing large municipal water treatment grids transformed modern human sanitation and disease.](/assets/pamphlet_images/engineering_p007_img1.png)
+![Large municipal water treatment grids transformed modern human sanitation and disease prevention.](/assets/pamphlet_images/engineering_p007_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -163,10 +153,8 @@
 #### Req 4d: Technical Project Documentation Review
 **Official Requirement 4d:** Ask to see the reports that the engineer writes concerning the project.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Ask to See)
-- **Common Myth:** Engineering reports are informal personal notes that only the original author needs to read.
-- **Pamphlet Fact:** Formal engineering documentation represents legally binding technical records subjected to peer audits and regulatory reviews.
 
-![Engineering Requirement 3 figure showing mechanical engineers design physical machines, thermal management systems, and dynamic.](/assets/pamphlet_images/engineering_p012_img1.png)
+![Mechanical engineers design physical machines, thermal management systems, and dynamic moving linkages.](/assets/pamphlet_images/engineering_p012_img1.png)
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -177,8 +165,6 @@
 #### Req 4e: Engineering Visit Learning Synthesis
 **Official Requirement 4e:** Discuss with your counselor what you learned about engineering from this visit.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
-- **Common Myth:** A site visit only serves to confirm whether someone enjoys working in an office.
-- **Pamphlet Fact:** Debriefing an engineering visit highlights how technical standards, communication skills, and safety ethics intersect in practice.
 
 ![A green printed circuit board features microchips engineered for household electronic items.](/assets/pamphlet_images/engineering_p019_img1.png)
 
@@ -191,7 +177,6 @@
 ### Req 5: Systems Engineering Design Process
 **Official Requirement 5:** Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or garage.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Systems Engineering Approach)
-> **Guide to Safe Scouting Warning:** Wear safety glasses and secure loose clothing or hair when operating fabrication hand tools.
 - **Common Myth:** Engineering design is a linear sequence where the initial drawing is constructed directly without changes.
 - **Pamphlet Fact:** Systems engineering relies on cyclical iteration where testing reveals flaws that force design revisions.
 
@@ -212,7 +197,6 @@
 ### Req 6: Applied Engineering Field Investigations
 **Official Requirement 6 (Parent Overview):** Do TWO of the following: (a) Transforming Motion. Using common materials or a construction set, make a simple model that will demonstrate motion. Explain how the model uses basic mechanical elements like levers and inclined planes to demonstrate motion. Describe an example where this mechanism is used in a real product. (b) Using Electricity. Make a list of 10 electrical appliances in your home. Find out approximately how much electricity each uses in one month. Learn how to find out the amount and cost of electricity used in your home during periods of light and heavy use. List five ways to conserve electricity. (c) Understanding Electronics. Using an electronic device such as a smartphone or tablet computer, find out how sound, video, text or images travel from one location to another. Explain how the device was designed for ease of use, function, and durability. (d) Using Materials. Do experiments to show the differences in strength and heat conductivity in wood, metal, and plastic. Discuss with your counselor what you have learned. (e) Converting Energy. Do an experiment to show how mechanical, heat, chemical, solar, and/or electrical energy may be converted from one or more types of energy to another. Explain your results. Describe to your counselor what energy is and how energy is converted and used in your surroundings. (f) Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need to go. (g) Building an Engineering Project. Enter a project in a science or engineering fair or similar competition. (This requirement may be met by participation on an engineering competition project team.) Discuss with your counselor what your project demonstrates, the kinds of questions visitors to the fair asked you, and how well you were able to answer their questions.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Use heat resistant gloves and insulated tools when conducting thermal or electrical experiments.
 - **Common Myth:** Engineering experiments require complex industrial laboratories to demonstrate valid mechanical or thermodynamic principles.
 - **Pamphlet Fact:** Accurate physical principles can be demonstrated using simple apparatus when variables are strictly isolated and measured.
 
@@ -225,8 +209,6 @@
 #### Req 6a: Kinetic Motion Transformation Modeling
 **Official Requirement 6a:** Transforming Motion. Using common materials or a construction set, make a simple model that will demonstrate motion. Explain how the model uses basic mechanical elements like levers and inclined planes to demonstrate motion. Describe an example where this mechanism is used in a real product.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Organizer (Skill Demonstration Checklist):** Req 6a Hands-On Skill Station & EDGE Verification Checklist (Transforming Motion Using Common Materials)
-- **Common Myth:** Simple machines create additional work and energy from nothing.
-- **Pamphlet Fact:** Mechanical elements trade input travel distance for output force while conserving total mechanical energy.
 
 ![A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.](/assets/pamphlet_images/engineering_p030_img1.png)
 
@@ -242,8 +224,6 @@
 #### Req 6b: Residential Electrical Power Audit
 **Official Requirement 6b:** Using Electricity. Make a list of 10 electrical appliances in your home. Find out approximately how much electricity each uses in one month. Learn how to find out the amount and cost of electricity used in your home during periods of light and heavy use. List five ways to conserve electricity.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Electricity Make A List of)
-- **Common Myth:** Appliances draw identical electrical power regardless of their heating or motor loads.
-- **Pamphlet Fact:** Resistance heating and compressor motors consume vastly more wattage than low voltage electronic displays.
 
 ![Students gather around a laptop computer to analyze manufactured consumer technology.](/assets/pamphlet_images/engineering_p019_img2.png)
 
@@ -259,8 +239,6 @@
 #### Req 6c: Digital Telecommunication Signal Transmission
 **Official Requirement 6c:** Understanding Electronics. Using an electronic device such as a smartphone or tablet computer, find out how sound, video, text or images travel from one location to another. Explain how the device was designed for ease of use, function, and durability.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Understanding Electronics Using An Electronic)
-- **Common Myth:** Smartphones transmit raw physical audio sound directly through the air to other phones.
-- **Pamphlet Fact:** Microphones convert sound waves into digital binary packets transmitted via modulated radio frequency waves.
 
 ![A handheld optical scanner reads encoded product data to verify consumer goods safely.](/assets/pamphlet_images/engineering_p021_img2.png)
 
@@ -275,8 +253,6 @@
 #### Req 6d: Comparative Material Properties Testing
 **Official Requirement 6d:** Using Materials. Do experiments to show the differences in strength and heat conductivity in wood, metal, and plastic. Discuss with your counselor what you have learned.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Organizer (2-Column Comparison Table):** Req 6d Technical Comparison Matrix (Materials Do Experiments)
-- **Common Myth:** A denser material always exhibits higher tensile strength and better thermal insulation.
-- **Pamphlet Fact:** Dense metals conduct heat rapidly while lightweight polymer foams and aerated wood provide superior insulation.
 
 ![Detailed highway flyovers demonstrate civil engineering designed for vehicular transit.](/assets/pamphlet_images/engineering_p026_img1.png)
 
@@ -291,8 +267,6 @@
 #### Req 6e: Thermodynamic Energy Conversion Analysis
 **Official Requirement 6e:** Converting Energy. Do an experiment to show how mechanical, heat, chemical, solar, and/or electrical energy may be converted from one or more types of energy to another. Explain your results. Describe to your counselor what energy is and how energy is converted and used in your surroundings.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Organizer (Skill Demonstration Checklist):** Req 6e Hands-On Skill Station & EDGE Verification Checklist (Converting Energy Do An Experiment)
-- **Common Myth:** Energy transformation systems can achieve one hundred percent mechanical or electrical efficiency.
-- **Pamphlet Fact:** Thermodynamic laws dictate that every real world energy conversion dissipates some energy as waste heat.
 
 ![The iconic Brooklyn Bridge illustrates monumental suspension bridge engineering.](/assets/pamphlet_images/engineering_p027_img1.png)
 
@@ -308,8 +282,6 @@
 #### Req 6f: Community Traffic Flow Dynamics
 **Official Requirement 6f:** Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Organizer (Skill Demonstration Checklist):** Req 6f Hands-On Skill Station & EDGE Verification Checklist (Moving People Find Out)
-- **Common Myth:** Adding extra highway lanes always permanently eliminates roadway traffic congestion bottlenecks.
-- **Pamphlet Fact:** Induced travel demand and merge bottlenecks often cause expanded highways to reach congestion quickly.
 
 ![Threaded fasteners provide mechanical fastening solutions essential in engineering.](/assets/pamphlet_images/engineering_p027_img2.png)
 
@@ -325,8 +297,6 @@
 #### Req 6g: Competitive Engineering Exhibition Project
 **Official Requirement 6g:** Building an Engineering Project. Enter a project in a science or engineering fair or similar competition. (This requirement may be met by participation on an engineering competition project team.) Discuss with your counselor what your project demonstrates, the kinds of questions visitors to the fair asked you, and how well you were able to answer their questions.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)* • **Organizer (Concept & Examples Notes):** Req 6g Structured Technical Study & Explanation Matrix (Building An Engineering Project Enter)
-- **Common Myth:** Judges at engineering fairs only evaluate aesthetic appearance and working prototype speed.
-- **Pamphlet Fact:** Evaluators prioritize the engineering design notebook, structured troubleshooting logs, and rigorous understanding of underlying physics.
 
 ![Professional engineers examine technical plans together to evaluate structural designs.](/assets/pamphlet_images/engineering_p038_img1.png)
 
@@ -341,7 +311,6 @@
 ### Req 7: Professional Engineer Licensure Requirements
 **Official Requirement 7:** Explain what it means to be a registered Professional Engineer (P. E.). Name the types of engineering work for which registration is most important.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Engineering Careers and Pathways)
-> **Guide to Safe Scouting Warning:** Never modify stamped structural calculations without written authorization from the engineer of record.
 - **Common Myth:** Any person who graduates with an engineering degree can legally stamp public building plans.
 - **Pamphlet Fact:** Only a registered Professional Engineer with a state license can stamp and seal municipal structural drawings.
 
@@ -364,7 +333,6 @@
 ### Req 8: Professional Engineering Ethical Codes
 **Official Requirement 8:** Study the Engineer's Code of Ethics. Explain how it is like the Scout Oath and Law.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Engineer's Code of Ethics)
-> **Guide to Safe Scouting Warning:** Report any observed structural defects or unsafe jobsite conditions immediately to designated safety officers.
 - **Common Myth:** Engineering ethics are optional guidelines that can be bypassed when project budgets run low.
 - **Pamphlet Fact:** Ethical canons are mandatory professional standards that require engineers to notify authorities if safety is compromised.
 
@@ -386,7 +354,6 @@
 ### Req 9: Engineering Career Exploration Pathways
 **Official Requirement 9:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)* • **Organizer (Career & Profession Exploration Card):** Req 9 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Maintain eye and hearing protection whenever shadowing engineers in operating manufacturing environments.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Engineering Req 9 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** An engineering career only requires high school shop classes without advanced university mathematics.
 - **Pamphlet Fact:** Professional engineering positions require a bachelor degree covering multi-variable calculus, differential equations, and physics.

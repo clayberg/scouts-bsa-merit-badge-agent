@@ -452,7 +452,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Combustion and Oxidation",
+        "left_header": "Req 1a: Combustion and Oxidation Fundamentals",
         "right_header": "Req 1c: Fire Development Life Cycle",
         "left_points": [
           "(1a) Combustion and Oxidation Fundamentals: Fire is rapid oxidation that transforms combustible materials into heated gas compounds. Solids and liquids must undergo pyrolysis or vaporization before flaming ignition occurs.",
@@ -475,22 +475,22 @@
           },
           {
             "attribute": "Combustion Products",
-            "left": "Req 1a: Combustion and Oxidation: Fire is rapid oxidation that transforms combustible materials into heated gas compounds. Solids and liquids must undergo pyrolysis or vaporization before flaming ignition occurs.",
-            "right": "Req 1b: Fire Tetrahedron: The fire tetrahedron models the four elements necessary to maintain flaming combustion. Removing any single component halts the ongoing chemical process and extinguishes the fire."
+            "left": "Combustion Products: Incomplete burning produces toxic carbon monoxide gas along with airborne particulate smoke.",
+            "right": "Thermal Transfer: Convection circulates superheated buoyant gases vertically toward enclosed interior ceiling surfaces."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 1 Exemplar Workbook Entry: Science",
+        "title": "Fire Safety Req 1 Worked Example: Fire Dynamics and Chemistry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Combustion and Oxidation": "Fire is rapid oxidation that transforms combustible materials into heated gas compounds. Solids and liquids must undergo pyrolysis or vaporization before flaming ignition occurs.",
-          "Req 1b - Fire Tetrahedron and Products": "The fire tetrahedron models the four elements necessary to maintain flaming combustion. Removing any single component halts the ongoing chemical process and extinguishes the fire.",
-          "Req 1c - Fire Development Life Cycle": "Fires develop through distinct stages comprising incipient, growth, fully developed, and decay phases. Flashover represents a sudden transition driven by radiant heat feedback from ceiling smoke layers.",
-          "Req 1d - Thermal Energy Transfer": "Heat moves via conduction through physical solids, convection across moving fluids and gases, and thermal radiation across open spaces. Convective currents drive hot gases upward while radiation ignites adjacent combustible objects."
+          "Phase 1 - Fuel Classification": "Identify whether the primary combustible matter is solid cellulose, liquid, or gas.",
+          "Phase 2 - Environment Assessment": "Measure ambient oxygen levels and evaluate ventilation pathways feeding incoming airflow.",
+          "Phase 3 - Thermal Tracking": "Locate ignition sources and track conduction paths through connected structural metal framing.",
+          "Phase 4 - Chain Disruption": "Introduce a dry chemical suppression agent to stop gas-phase radical propagation reactions."
         },
-        "sample_output": "Science and Hazards of Fire: Do the Safety with Flammable and Combustible Liquids (p. 6).",
-        "counselor_tip": "For Fire Safety Requirement 1 (Science and Hazards of Fire), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9))."
+        "sample_output": "Fire represents a rapid exothermic chemical reaction that converts fuel and oxidizer into combustion gases and thermal energy. Complete containment requires disrupting at least one element of the fire tetrahedron through cooling, smothering, fuel separation, or chemical inhibition.",
+        "counselor_tip": "During the Fire Safety Requirement 1 conference on Fire Dynamics and Chemistry, verify that the Scout can explain oxidation process and demonstrate chain disruption: Introduce a dry chemical suppression agent to stop gas-phase radical propagation reactions."
       },
       "quiz_item": {
         "scenario_prompt": "In Fire Safety Requirement 1, what are the four elements of the fire tetrahedron, and what is the correct procedure if you are inside a bedroom and the home smoke alarm sounds at night?",
@@ -890,19 +890,17 @@
         "Step 3 - Lever Compression: Squeeze the operating levers together smoothly to release pressurized extinguishing chemical powder.",
         "Step 4 - Base Sweep: Sweep nozzle side to side across the fuel base until completely extinguished."
       ],
-      "gear_checklist": [
-        "Official Fire Safety Merit Badge: Fire Extinguishers.",
-        "Field notebook, verification log sheet, and demonstration materials for Fire Extinguishers.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Fuel Class Classifications",
-        "right_header": "Req 2b: Extinguishing Agent",
+        "right_header": "Req 2b: Extinguishing Agent Compatibility Selection",
         "left_points": [
-          "(2a) Fuel Class Classifications: Fires are grouped into distinct classes based on the chemical nature of the burning fuel. Each class dictates specific extinguishing tactics to avoid accelerating flame spread."
+          "(2a) Fuel Class Classifications: Fires are grouped into distinct classes based on the chemical nature of the burning fuel. Each class dictates specific extinguishing tactics to avoid accelerating flame spread.",
+          "Class Classifications: Fuel properties determine specific fire classifications designated by lettered and geometric symbols."
         ],
         "right_points": [
-          "(2b) Extinguishing Agent Compatibility Selection: Extinguishers contain tailored agents such as water, carbon dioxide, dry chemicals, or wet potassium salts. Using an incompatible extinguisher risks explosive spattering, toxic reactions, or operator shock."
+          "(2b) Extinguishing Agent Compatibility Selection: Extinguishers contain tailored agents such as water, carbon dioxide, dry chemicals, or wet potassium salts. Using an incompatible extinguisher risks explosive spattering, toxic reactions, or operator shock.",
+          "(2c) Extinguisher and Blanket Operation: Operators execute the PASS method while maintaining a safe retreat path away from the fire. Fire blankets smother localized kitchen fires when carefully laid across the vessel rim."
         ],
         "rows": [
           {
@@ -912,26 +910,27 @@
           },
           {
             "attribute": "Extinguisher Rating",
-            "left": "Req 2a: Fuel Class Classifications: Fires are grouped into distinct classes based on the chemical nature of the burning fuel. Each class dictates specific extinguishing tactics to avoid accelerating flame spread.",
-            "right": "Req 2b: Extinguishing Agent: Extinguishers contain tailored agents such as water, carbon dioxide, dry chemicals, or wet potassium salts. Using an incompatible extinguisher risks explosive spattering, toxic reactions, or operator shock."
+            "left": "Class Classifications: Fuel properties determine specific fire classifications designated by lettered and geometric symbols.",
+            "right": "(2c) Extinguisher and Blanket Operation: Operators execute the PASS method while maintaining a safe retreat path away from the fire. Fire blankets smother localized kitchen fires when carefully laid across the vessel rim."
           },
           {
             "attribute": "Discharge Sweep",
-            "left": "Req 2c: Extinguisher and Blanket: Operators execute the PASS method while maintaining a safe retreat path away from the fire. Fire blankets smother localized kitchen fires when carefully laid across the vessel rim.",
-            "right": "Extinguisher Rating: Numerical extinguisher ratings specify relative extinguishing capability under standardized laboratory test conditions."
+            "left": "Discharge Sweep: Directing extinguishing stream across the base breaks up the active flame seat.",
+            "right": "Blanket Deprivation: Draping a fire blanket across cooking oil cuts off incoming atmospheric oxygen."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 2 Exemplar Workbook Entry: Fire Classes",
+        "title": "Fire Safety Req 2 Worked Example: Portable Fire Extinguishing Systems",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Fuel Class Classifications": "Fires are grouped into distinct classes based on the chemical nature of the burning fuel. Each class dictates specific extinguishing tactics to avoid accelerating flame spread.",
-          "Req 2b - Extinguishing Agent": "Extinguishers contain tailored agents such as water, carbon dioxide, dry chemicals, or wet potassium salts. Using an incompatible extinguisher risks explosive spattering, toxic reactions, or operator shock.",
-          "Req 2c - Extinguisher and Blanket": "Operators execute the PASS method while maintaining a safe retreat path away from the fire. Fire blankets smother localized kitchen fires when carefully laid across the vessel rim."
+          "Phase 1 - Pin Removal": "Pull safety pin firmly while breaking the plastic inspection tamper seal.",
+          "Phase 2 - Nozzle Aim": "Aim the discharge horn directly at the base of the burning material.",
+          "Phase 3 - Lever Compression": "Squeeze the operating levers together smoothly to release pressurized extinguishing chemical powder.",
+          "Phase 4 - Base Sweep": "Sweep nozzle side to side across the fuel base until completely extinguished."
         },
-        "sample_output": "Fire Classes and Portable Extinguishers: Explain the different classes of fires (p. 7).",
-        "counselor_tip": "For Fire Safety Requirement 2 (Fire Classes and Portable Extinguishers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9))."
+        "sample_output": "Portable fire extinguishers provide first-line defense against incipient stage fires categorized into classes A, B, C, D, and K based on fuel types. Proper application requires matching the correct agent to the specific burning material and executing the standard pull, aim, squeeze, and sweep sequence.",
+        "counselor_tip": "During the Fire Safety Requirement 2 conference on Portable Fire Extinguishing Systems, verify that the Scout can explain class classifications and demonstrate base sweep: Sweep nozzle side to side across the fuel base until completely extinguished."
       },
       "quiz_item": {
         "scenario_prompt": "During the PASS sequence for operating a portable fire extinguisher, where should you aim the nozzle before squeezing the lever?",
@@ -1417,13 +1416,9 @@
         "Step 3 - Lateral Roll: Roll back and forth continuously across ground surfaces until all flames collapse.",
         "Step 4 - Water Cooling: Apply clean cool potable water over burned skin for ten full minutes."
       ],
-      "gear_checklist": [
-        "Official Fire Safety Merit Badge: Fire-related Injuries.",
-        "Field notebook, verification log sheet, and demonstration materials for Fire-related Injuries.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Clothing Fire Smothering",
+        "left_header": "Req 3a: Clothing Fire Smothering Technique",
         "right_header": "Req 3c: Common Burn Injury Causes",
         "left_points": [
           "(3a) Clothing Fire Smothering Technique: Stop, drop, roll, cool, and call halts clothing combustion and limits dermal damage. Covering the eyes and mouth protects the respiratory tract from inhaling superheated thermal gases.",
@@ -1446,22 +1441,22 @@
           },
           {
             "attribute": "Cooling Protocol",
-            "left": "Req 3a: Clothing Fire Smothering: Stop, drop, roll, cool, and call halts clothing combustion and limits dermal damage. Covering the eyes and mouth protects the respiratory tract from inhaling superheated thermal gases.",
-            "right": "Req 3b: Fabric Flammability: Garment fit and fiber composition determine clothing fire risk and burn severity. Tight-fitting natural fibers ignite less readily than loose flowing synthetic fabrics that melt into dermal tissue."
+            "left": "Cooling Protocol: Cool clean water stabilizes skin temperature and stops deeper tissue thermal destruction.",
+            "right": "Inhalation Hazards: Toxic smoke particles sear delicate bronchial linings and cause severe airway swelling."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 3 Exemplar Workbook Entry: Preventing",
+        "title": "Fire Safety Req 3 Worked Example: Burn Injury Mitigation and Care",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Clothing Fire Smothering": "Stop, drop, roll, cool, and call halts clothing combustion and limits dermal damage. Covering the eyes and mouth protects the respiratory tract from inhaling superheated thermal gases.",
-          "Req 3b - Fabric Flammability and Burns": "Garment fit and fiber composition determine clothing fire risk and burn severity. Tight-fitting natural fibers ignite less readily than loose flowing synthetic fabrics that melt into dermal tissue.",
-          "Req 3c - Common Burn Injury Causes": "Scalds, contact burns, and radiant heat account for most home burn casualties. Keeping hot appliance cords tucked away and lowering water heater thermostats minimizes accidental thermal contact.",
-          "Req 3d - Airway Burns and Poisoning": "Inhaling hot smoke causes swelling of the laryngeal airway, resulting in rapid asphyxiation. Carbon monoxide binds to blood hemoglobin, depriving vital organs of oxygen despite unlabored breathing."
+          "Phase 1 - Immediate Stop": "Stop walking or running instantly to prevent feeding ambient airflow into flames.",
+          "Phase 2 - Ground Drop": "Drop directly to the ground and shield facial skin with both hands.",
+          "Phase 3 - Lateral Roll": "Roll back and forth continuously across ground surfaces until all flames collapse.",
+          "Phase 4 - Water Cooling": "Apply clean cool potable water over burned skin for ten full minutes."
         },
-        "sample_output": "Preventing and Treating Burn Injuries: Do the Safety with Flammable and Combustible Liquids (p. 7).",
-        "counselor_tip": "For Fire Safety Requirement 3 (Preventing and Treating Burn Injuries), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9))."
+        "sample_output": "Clothing fires ignite through open flame contact or radiant heat, producing severe thermal burns that deepen without rapid intervention. Emergency response combines prompt flame smothering, clean water cooling, and medical triage for inhalation injury and carbon monoxide exposure.",
+        "counselor_tip": "During the Fire Safety Requirement 3 conference on Burn Injury Mitigation and Care, verify that the Scout can explain suppression technique and demonstrate water cooling: Apply clean cool potable water over burned skin for ten full minutes."
       },
       "quiz_item": {
         "scenario_prompt": "Which physical sign on a fire victim strongly indicates a potentially life-threatening inhalation or airway burn requiring immediate emergency care?",
@@ -1762,13 +1757,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Fire Origin Classification",
+        "left_header": "Req 4a: Fire Origin Classification Categories",
         "right_header": "Req 4b: Arson Evidence and Prosecution",
         "left_points": [
-          "(4a) Fire Origin Classification Categories: Fire origins fall into natural, accidental, incendiary, or undetermined categories. Scientific investigation tests physical evidence against multiple working hypotheses to eliminate implausible ignition sources."
+          "(4a) Fire Origin Classification Categories: Fire origins fall into natural, accidental, incendiary, or undetermined categories. Scientific investigation tests physical evidence against multiple working hypotheses to eliminate implausible ignition sources.",
+          "Burn Pattern Analysis: V-shaped charring patterns along interior walls point downward toward initial origin points."
         ],
         "right_points": [
-          "(4b) Arson Evidence and Prosecution: Incendiary fires involve deliberate ignition where a person knew the property should not burn. Legal arson investigations require rigorous forensic documentation to support criminal court proceedings."
+          "(4b) Arson Evidence and Prosecution: Incendiary fires involve deliberate ignition where a person knew the property should not burn. Legal arson investigations require rigorous forensic documentation to support criminal court proceedings.",
+          "Cause Elimination: Certified investigators systematically eliminate electrical faults and heating equipment before declaring arson."
         ],
         "rows": [
           {
@@ -1778,25 +1775,27 @@
           },
           {
             "attribute": "Accelerant Detection",
-            "left": "Req 4a: Fire Origin Classification: Fire origins fall into natural, accidental, incendiary, or undetermined categories. Scientific investigation tests physical evidence against multiple working hypotheses to eliminate implausible ignition sources.",
-            "right": "Req 4b: Arson Evidence: Incendiary fires involve deliberate ignition where a person knew the property should not burn. Legal arson investigations require rigorous forensic documentation to support criminal court proceedings."
+            "left": "Burn Pattern Analysis: V-shaped charring patterns along interior walls point downward toward initial origin points.",
+            "right": "Cause Elimination: Certified investigators systematically eliminate electrical faults and heating equipment before declaring arson."
           },
           {
             "attribute": "Cause Elimination",
-            "left": "Burn Pattern Analysis: V-shaped charring patterns along interior walls point downward toward initial origin points.",
-            "right": "Accelerant Detection: Trained hydrocarbon sniffer dogs detect minute traces of petroleum fuels beneath charred floorboards."
+            "left": "Cause Elimination: Certified investigators systematically eliminate electrical faults and heating equipment before declaring arson.",
+            "right": "Forensic Preservation: Securing physical fire scenes preserves fragile ash residues and chemical accelerant samples."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 4 Exemplar Workbook Entry: Fire Origins",
+        "title": "Fire Safety Req 4 Worked Example: Fire Origin and Cause Determination",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Fire Origin Classification": "Fire origins fall into natural, accidental, incendiary, or undetermined categories. Scientific investigation tests physical evidence against multiple working hypotheses to eliminate implausible ignition sources.",
-          "Req 4b - Arson Evidence": "Incendiary fires involve deliberate ignition where a person knew the property should not burn. Legal arson investigations require rigorous forensic documentation to support criminal court proceedings."
+          "Phase 1 - Scene Securing": "Establish perimeter tape to restrict access and protect delicate burn patterns.",
+          "Phase 2 - Vector Tracing": "Trace char depth and directional V-patterns back toward the lowest burn point.",
+          "Phase 3 - Origin Identification": "Uncover the specific physical area where fuel and ignition source first united.",
+          "Phase 4 - Cause Categorization": "Assign origin classification according to physical evidence and laboratory test results."
         },
-        "sample_output": "Fire Origins and Arson Investigation: Teach your skill or topic to one or more Scouts using the EDGE method (p. 6).",
-        "counselor_tip": "For Fire Safety Requirement 4 (Fire Origins and Arson Investigation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9))."
+        "sample_output": "Trained fire investigators classify fire origins into natural, accidental, incendiary, or undetermined categories based on physical burn patterns and evidence. Incendiary classifications initiate criminal investigations focused on intentional property destruction and reckless endangerment.",
+        "counselor_tip": "During the Fire Safety Requirement 4 conference on Fire Origin and Cause Determination, verify that the Scout can explain burn pattern analysis and demonstrate cause categorization: Assign origin classification according to physical evidence and laboratory test results."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do fire investigators classify a blaze when the physical evidence is too heavily damaged to prove conclusively how it started?",
@@ -2717,23 +2716,17 @@
         "Step 3 - Route Mapping: Identify two clear unblocked exits from every single bedroom and common space.",
         "Step 4 - Family Assembly: Conduct an unannounced home escape drill ending at the assigned outdoor tree."
       ],
-      "gear_checklist": [
-        "Official Fire Safety Merit Badge: Fire Safety Hazards and First Aid.",
-        "Field notebook, verification log sheet, and demonstration materials for Fire Safety Hazards and First Aid.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Household Electrical",
+        "left_header": "Req 5a: Household Electrical and Appliance Hazards",
         "right_header": "Req 5e: Smoke and Monoxide Detectors",
         "left_points": [
           "(5a) Household Electrical and Appliance Hazards: Cooking, overloaded electrical circuits, and neglected dryer lint filters cause most household structure fires. Vigilant appliance monitoring and dedicated charging surfaces prevent catastrophic ignition events.",
-          "(5b) Seasonal and Holiday Fire Risks: Space heaters, dried holiday trees, and seasonal decorations create severe winter fire risks. Maintaining three feet of clear space around heaters and watering trees daily prevents flash ignition.",
-          "(5c) Candle Safety and Extinguishment: Candles require stable noncombustible bases located far from curtains and circulating room drafts. Snuffing candle flames with a bell snuffer eliminates flying sparks and splattered molten wax."
+          "(5b) Seasonal and Holiday Fire Risks: Space heaters, dried holiday trees, and seasonal decorations create severe winter fire risks. Maintaining three feet of clear space around heaters and watering trees daily prevents flash ignition."
         ],
         "right_points": [
           "(5e) Smoke and Monoxide Detectors: Smoke alarms detect combustion particles using photoelectric or ionization sensors, while carbon monoxide alarms measure toxic gas concentration. Local building codes dictate mandatory alarm placement on every level and outside sleeping rooms.",
-          "(5f) Alarm Testing and Replacement: Regular maintenance involves monthly button testing, vacuuming dust from sensor chambers, and annual battery replacement. Units surpassing their ten-year lifespan must be decommissioned and replaced with modern alarms.",
-          "(5g) Home Escape Planning Drills: Home fire escape plans designate two clear exits per room and an immovable outdoor meeting location. Practicing escape drills under low-visibility simulated conditions trains household members to crawl beneath heat."
+          "(5f) Alarm Testing and Replacement: Regular maintenance involves monthly button testing, vacuuming dust from sensor chambers, and annual battery replacement. Units surpassing their ten-year lifespan must be decommissioned and replaced with modern alarms."
         ],
         "rows": [
           {
@@ -2748,22 +2741,22 @@
           },
           {
             "attribute": "Lint Removal",
-            "left": "(5c) Candle Safety and Extinguishment: Candles require stable noncombustible bases located far from curtains and circulating room drafts. Snuffing candle flames with a bell snuffer eliminates flying sparks and splattered molten wax.",
-            "right": "(5g) Home Escape Planning Drills: Home fire escape plans designate two clear exits per room and an immovable outdoor meeting location. Practicing escape drills under low-visibility simulated conditions trains household members to crawl beneath heat."
+            "left": "Lint Removal: Clean dryer lint screens before every load to prevent heating element ignition.",
+            "right": "Battery Inspection: Damaged lithium rechargeable cells swell and vent violently inside indoor storage areas."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 5 Exemplar Workbook Entry: Home Fire",
+        "title": "Fire Safety Req 5 Worked Example: Residential Fire Prevention and Preparedness",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Household Electrical": "Cooking, overloaded electrical circuits, and neglected dryer lint filters cause most household structure fires. Vigilant appliance monitoring and dedicated charging surfaces prevent catastrophic ignition events.",
-          "Req 5b - Seasonal and Holiday Fire": "Space heaters, dried holiday trees, and seasonal decorations create severe winter fire risks. Maintaining three feet of clear space around heaters and watering trees daily prevents flash ignition.",
-          "Req 5c - Candle Safety": "Candles require stable noncombustible bases located far from curtains and circulating room drafts. Snuffing candle flames with a bell snuffer eliminates flying sparks and splattered molten wax.",
-          "Req 5d - Home Safety Checklist Audit": "Home safety checklists systematically identify structural hazards, combustible storage risks, and egress impediments. Periodic inspections ensure detection alarms and emergency ladders remain operable."
+          "Phase 1 - Hazard Audit": "Scan living spaces for overloaded power strips and pinched electrical appliance cords.",
+          "Phase 2 - Alarm Testing": "Depress the test button on each smoke alarm to confirm horn sounding.",
+          "Phase 3 - Route Mapping": "Identify two clear unblocked exits from every single bedroom and common space.",
+          "Phase 4 - Family Assembly": "Conduct an unannounced home escape drill ending at the assigned outdoor tree."
         },
-        "sample_output": "Home Fire Prevention and Escape: Do the Safety with Flammable and Combustible Liquids (p. 7).",
-        "counselor_tip": "For Fire Safety Requirement 5 (Home Fire Prevention and Escape), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9))."
+        "sample_output": "Residential fire prevention requires continuous management of cooking appliances, heating systems, electrical wiring, and combustible household storage. Establishing dual evacuation routes from every sleeping room and maintaining operational detection devices ensures rapid egress during structural fire emergencies.",
+        "counselor_tip": "During the Fire Safety Requirement 5 conference on Residential Fire Prevention and Preparedness, verify that the Scout can explain kitchen vigilance and demonstrate family assembly: Conduct an unannounced home escape drill ending at the assigned outdoor tree."
       },
       "quiz_item": {
         "scenario_prompt": "What is the number one leading cause of home structure fires and home fire injuries in the United States?",
@@ -3162,10 +3155,12 @@
         "left_header": "Req 6a: Volatile Liquid Storage Safety",
         "right_header": "Req 6b: Engine Refueling Procedures",
         "left_points": [
-          "(6a) Volatile Liquid Storage Safety: Flammable liquids flash readily at ambient room temperatures, whereas combustible liquids require external preheating to ignite. Both categories require storage in original sealed containers inside dedicated steel cabinets."
+          "(6a) Volatile Liquid Storage Safety: Flammable liquids flash readily at ambient room temperatures, whereas combustible liquids require external preheating to ignite. Both categories require storage in original sealed containers inside dedicated steel cabinets.",
+          "Vapor Travel: Heavy petroleum vapors creep along floors toward low-lying remote pilot light ignition points."
         ],
         "right_points": [
-          "(6b) Engine Refueling Procedures: Refueling machinery requires a completely cooled engine, an outdoor well-ventilated space, and grounded dispensing nozzles. Placing safety cans directly on the ground prevents static electrical discharges during fuel transfer."
+          "(6b) Engine Refueling Procedures: Refueling machinery requires a completely cooled engine, an outdoor well-ventilated space, and grounded dispensing nozzles. Placing safety cans directly on the ground prevents static electrical discharges during fuel transfer.",
+          "(6c) Hazardous Chemical Waste Disposal: Leftover solvents, gasoline, and oily paint thinners require disposal through designated municipal hazardous waste collection programs. Dumping volatile petroleum products into domestic drains or soil violates environmental laws and creates explosion hazards."
         ],
         "rows": [
           {
@@ -3175,26 +3170,27 @@
           },
           {
             "attribute": "Container Integrity",
-            "left": "Req 6a: Volatile Liquid Storage: Flammable liquids flash readily at ambient room temperatures, whereas combustible liquids require external preheating to ignite. Both categories require storage in original sealed containers inside dedicated steel cabinets.",
-            "right": "Req 6b: Engine Refueling Procedures: Refueling machinery requires a completely cooled engine, an outdoor well-ventilated space, and grounded dispensing nozzles. Placing safety cans directly on the ground prevents static electrical discharges during fuel transfer."
+            "left": "Vapor Travel: Heavy petroleum vapors creep along floors toward low-lying remote pilot light ignition points.",
+            "right": "(6c) Hazardous Chemical Waste Disposal: Leftover solvents, gasoline, and oily paint thinners require disposal through designated municipal hazardous waste collection programs. Dumping volatile petroleum products into domestic drains or soil violates environmental laws and creates explosion hazards."
           },
           {
             "attribute": "Engine Cool-down",
-            "left": "Req 6c: Hazardous Chemical Waste: Leftover solvents, gasoline, and oily paint thinners require disposal through designated municipal hazardous waste collection programs. Dumping volatile petroleum products into domestic drains or soil violates environmental laws and creates explosion hazards.",
-            "right": "Container Integrity: Store volatile fuels exclusively in certified red metal cans with self-closing spring lids."
+            "left": "Engine Cool-down: Allow small utility engines to cool completely before refilling empty fuel tanks.",
+            "right": "Community Disposal: Municipal hazardous waste roundups safely process unwanted mineral spirits and leftover fuels."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 6 Exemplar Workbook Entry: Flammable",
+        "title": "Fire Safety Req 6 Worked Example: Flammable Liquid Handling and Storage",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Volatile Liquid Storage": "Flammable liquids flash readily at ambient room temperatures, whereas combustible liquids require external preheating to ignite. Both categories require storage in original sealed containers inside dedicated steel cabinets.",
-          "Req 6b - Engine Refueling Procedures": "Refueling machinery requires a completely cooled engine, an outdoor well-ventilated space, and grounded dispensing nozzles. Placing safety cans directly on the ground prevents static electrical discharges during fuel transfer.",
-          "Req 6c - Hazardous Chemical Waste": "Leftover solvents, gasoline, and oily paint thinners require disposal through designated municipal hazardous waste collection programs. Dumping volatile petroleum products into domestic drains or soil violates environmental laws and creates explosion hazards."
+          "Phase 1 - Area Clearing": "Relocate equipment to outdoor ground surfaces ten feet away from structures.",
+          "Phase 2 - Thermal Cooling": "Allow internal combustion engines to cool for fifteen minutes before opening fuel caps.",
+          "Phase 3 - Ground Placement": "Set the fuel safety can directly onto bare dirt to eliminate static voltage.",
+          "Phase 4 - Controlled Pouring": "Insert pouring nozzle firmly into tank opening and fill leaving expansion head space."
         },
-        "sample_output": "Flammable and Combustible Liquids Safety: Do the Safety with Flammable and Combustible Liquids (p. 7).",
-        "counselor_tip": "For Fire Safety Requirement 6 (Flammable and Combustible Liquids Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9))."
+        "sample_output": "Flammable liquids emit combustible vapors at ordinary temperatures, creating severe flash fire and explosion risks if handled near open ignition sources. Safe storage mandates approved safety cans with flame arrestor screens, well-ventilated outbuildings, and authorized disposal programs.",
+        "counselor_tip": "During the Fire Safety Requirement 6 conference on Flammable Liquid Handling and Storage, verify that the Scout can explain vapor travel and demonstrate controlled pouring: Insert pouring nozzle firmly into tank opening and fill leaving expansion head space."
       },
       "quiz_item": {
         "scenario_prompt": "Why must you always remove a portable gasoline can from a pickup truck bed or car trunk and place it flat on the ground before filling it at a gas pump?",
@@ -3581,13 +3577,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Public Facility Architectural",
-        "right_header": "Req 7b: Commercial Fire Suppression",
+        "left_header": "Req 7a: Public Facility Architectural Design",
+        "right_header": "Req 7b: Commercial Fire Suppression Equipment",
         "left_points": [
-          "(7a) Public Facility Architectural Design: Public building designs integrate passive fire barriers, self-closing fire doors, and pressurized stairwells. These structural features divide large buildings into isolated smoke compartments that protect escaping occupants."
+          "(7a) Public Facility Architectural Design: Public building designs integrate passive fire barriers, self-closing fire doors, and pressurized stairwells. These structural features divide large buildings into isolated smoke compartments that protect escaping occupants.",
+          "Passive Compartmentation: Fire-rated drywall partitions slow horizontal flame spread between isolated internal building compartments."
         ],
         "right_points": [
-          "(7b) Commercial Fire Suppression Equipment: Commercial properties integrate automated water sprinkler networks, manual pull stations, duct smoke detectors, and voice evacuation systems. Central monitoring panels relay alarm signals directly to regional emergency response dispatch centers."
+          "(7b) Commercial Fire Suppression Equipment: Commercial properties integrate automated water sprinkler networks, manual pull stations, duct smoke detectors, and voice evacuation systems. Central monitoring panels relay alarm signals directly to regional emergency response dispatch centers.",
+          "(7c) Public Space Evacuation Precautions: Patrons in crowded venues must identify secondary emergency exits and note path obstructions immediately upon arrival. When alarms sound, occupants should calmly walk toward the nearest illuminated exit sign rather than main entrances."
         ],
         "rows": [
           {
@@ -3597,26 +3595,27 @@
           },
           {
             "attribute": "Active Suppression",
-            "left": "Req 7a: Public Facility: Public building designs integrate passive fire barriers, self-closing fire doors, and pressurized stairwells. These structural features divide large buildings into isolated smoke compartments that protect escaping occupants.",
-            "right": "Req 7b: Commercial Fire Suppression: Commercial properties integrate automated water sprinkler networks, manual pull stations, duct smoke detectors, and voice evacuation systems. Central monitoring panels relay alarm signals directly to regional emergency response dispatch centers."
+            "left": "Passive Compartmentation: Fire-rated drywall partitions slow horizontal flame spread between isolated internal building compartments.",
+            "right": "(7c) Public Space Evacuation Precautions: Patrons in crowded venues must identify secondary emergency exits and note path obstructions immediately upon arrival. When alarms sound, occupants should calmly walk toward the nearest illuminated exit sign rather than main entrances."
           },
           {
             "attribute": "Exit Identification",
-            "left": "Req 7c: Public Space Evacuation: Patrons in crowded venues must identify secondary emergency exits and note path obstructions immediately upon arrival. When alarms sound, occupants should calmly walk toward the nearest illuminated exit sign rather than main entrances.",
-            "right": "Active Suppression: Automatic fire sprinkler heads activate independently when localized heat melts individual solder links."
+            "left": "Exit Identification: Scan for illuminated green or red exit signs immediately upon entering public venues.",
+            "right": "Corridor Clearance: Keep fire exit corridors and stairwell vestibules unobstructed by trash or storage pallets."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 7 Exemplar Workbook Entry: Fire Safety",
+        "title": "Fire Safety Req 7 Worked Example: Public Facility Fire Protection",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Public Facility Architectural": "Public building designs integrate passive fire barriers, self-closing fire doors, and pressurized stairwells. These structural features divide large buildings into isolated smoke compartments that protect escaping occupants.",
-          "Req 7b - Commercial Fire Suppression": "Commercial properties integrate automated water sprinkler networks, manual pull stations, duct smoke detectors, and voice evacuation systems. Central monitoring panels relay alarm signals directly to regional emergency response dispatch centers.",
-          "Req 7c - Public Space Evacuation": "Patrons in crowded venues must identify secondary emergency exits and note path obstructions immediately upon arrival. When alarms sound, occupants should calmly walk toward the nearest illuminated exit sign rather than main entrances."
+          "Phase 1 - Exit Reconnaissance": "Scan indoor spaces upon arrival to locate two unobstructed emergency exterior exits.",
+          "Phase 2 - Path Verification": "Confirm exit corridors remain free of stacked boxes, locked gates, and furniture.",
+          "Phase 3 - Alarm Response": "Evacuate immediately via stairwells when automated horns or strobe lights activate.",
+          "Phase 4 - Door Checking": "Touch door handles with back of hand to test for heat before opening."
         },
-        "sample_output": "Fire Safety in Public Buildings: Fire safety in public buildings, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-        "counselor_tip": "For Fire Safety Requirement 7 (Fire Safety in Public Buildings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8))."
+        "sample_output": "Public building fire safety relies on integrated passive architectural compartmentation, active detection networks, and automatic sprinkler suppression systems. Occupants must identify multiple exit paths upon entering commercial venues and respond promptly to alarm notifications.",
+        "counselor_tip": "During the Fire Safety Requirement 7 conference on Public Facility Fire Protection, verify that the Scout can explain passive compartmentation and demonstrate door checking: Touch door handles with back of hand to test for heat before opening."
       },
       "quiz_item": {
         "scenario_prompt": "What should be your very first fire safety habit whenever you enter a movie theater, hotel floor, stadium, or other unfamiliar public building?",
@@ -4441,23 +4440,17 @@
         "Step 3 - Shielded Ignition: Strike match away from body and ignite tinder base from upwind sheltered position.",
         "Step 4 - Complete Extinguishment: Drown burning embers with water, stir ashes, and feel coals with bare hands."
       ],
-      "gear_checklist": [
-        "Official Fire Safety Merit Badge: Leave No Trace and Outdoor Ethics.",
-        "Field notebook, verification log sheet, and demonstration materials for Leave No Trace and Outdoor Ethics.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: Wilderness Fire Ethics",
+        "left_header": "Req 8a: Wilderness Fire Ethics Principles",
         "right_header": "Req 8e: Campsite Fire Lay Structures",
         "left_points": [
           "(8a) Wilderness Fire Ethics Principles: The Outdoor Code and Leave No Trace guidelines prioritize using established fire rings and collecting dead fallen wood. Wildfire risks dictate using lightweight backpacking stoves where wood gathering strips fragile natural ecosystems.",
-          "(8b) Match Handling and Differences: Lighting matches requires closing the matchbook cover and striking away from the body. Extinguished matchsticks must be felt with fingers to confirm zero heat before disposal in fire pits.",
-          "(8c) Flint and Steel Ignition: Striking high-carbon steel against sharp chert or flint casts sparks onto dry charred cotton cloth or fungus tinder. Nurturing the resulting ember inside a dry fibrous tinder nest produces sustainable open flames."
+          "(8b) Match Handling and Differences: Lighting matches requires closing the matchbook cover and striking away from the body. Extinguished matchsticks must be felt with fingers to confirm zero heat before disposal in fire pits."
         ],
         "right_points": [
           "(8e) Campsite Fire Lay Structures: Tepee, log cabin, and lean-to fire lays provide specific airflow dynamics for varying cooking and heating requirements. Fuel must be sorted by diameter into tinder shavings, finger-sized kindling, and wrist-sized fuel logs.",
-          "(8f) Portable Camp Stove Operation: Camp stoves provide controlled heat with minimal environmental footprint when operated on flat noncombustible ground. Lighting burners requires lighting the match first before gently opening control valves to prevent pooling vapor flare-ups.",
-          "(8g) Campsite Fire Defense Perimeter: Maintaining a fire-safe campsite requires twenty feet of clearance between open flames, sleeping tents, and tree limbs. Keeping full water buckets and shovels beside active rings ensures instantaneous response to escaped embers."
+          "(8f) Portable Camp Stove Operation: Camp stoves provide controlled heat with minimal environmental footprint when operated on flat noncombustible ground. Lighting burners requires lighting the match first before gently opening control valves to prevent pooling vapor flare-ups."
         ],
         "rows": [
           {
@@ -4472,22 +4465,22 @@
           },
           {
             "attribute": "Drown and Stir",
-            "left": "(8c) Flint and Steel Ignition: Striking high-carbon steel against sharp chert or flint casts sparks onto dry charred cotton cloth or fungus tinder. Nurturing the resulting ember inside a dry fibrous tinder nest produces sustainable open flames.",
-            "right": "(8g) Campsite Fire Defense Perimeter: Maintaining a fire-safe campsite requires twenty feet of clearance between open flames, sleeping tents, and tree limbs. Keeping full water buckets and shovels beside active rings ensures instantaneous response to escaped embers."
+            "left": "Drown and Stir: Drown embers in water, stir with a stick, and drown repeatedly until cold.",
+            "right": "Fuel Isolation: Store compressed liquid fuel canisters away from direct sunlight and radiant campfire heat."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 8 Exemplar Workbook Entry: Campfire",
+        "title": "Fire Safety Req 8 Worked Example: Wilderness and Campfire Protocols",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 8a - Wilderness Fire Ethics": "The Outdoor Code and Leave No Trace guidelines prioritize using established fire rings and collecting dead fallen wood. Wildfire risks dictate using lightweight backpacking stoves where wood gathering strips fragile natural ecosystems.",
-          "Req 8b - Match Handling": "Lighting matches requires closing the matchbook cover and striking away from the body. Extinguished matchsticks must be felt with fingers to confirm zero heat before disposal in fire pits.",
-          "Req 8c - Flint and Steel Ignition": "Striking high-carbon steel against sharp chert or flint casts sparks onto dry charred cotton cloth or fungus tinder. Nurturing the resulting ember inside a dry fibrous tinder nest produces sustainable open flames.",
-          "Req 8d - Charcoal Fire Management": "Charcoal chimney starters provide safe, chemical-free ignition for Dutch oven cookery. Coals must burn until coated with gray ash before cooking begins, and doused thoroughly before campsite departure."
+          "Phase 1 - Site Clearing": "Rake duff and pine needles ten feet outward exposing bare damp mineral soil.",
+          "Phase 2 - Kindling Assembly": "Stack dry tinder shavings inside a loose tepee surrounded by finger-sized kindling.",
+          "Phase 3 - Shielded Ignition": "Strike match away from body and ignite tinder base from upwind sheltered position.",
+          "Phase 4 - Complete Extinguishment": "Drown burning embers with water, stir ashes, and feel coals with bare hands."
         },
-        "sample_output": "Campfire and Stove Safety: Teach your skill or topic to one or more Scouts using the EDGE method (p. 7).",
-        "counselor_tip": "For Fire Safety Requirement 8 (Campfire and Stove Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9))."
+        "sample_output": "Campfire management integrates the Outdoor Code and Leave No Trace principles through site selection, fire ring preparation, and thorough extinguishing procedures. Using camp stoves, maintaining clear perimeters, and testing cooled coals with bare hands ensures wilderness fire containment.",
+        "counselor_tip": "During the Fire Safety Requirement 8 conference on Wilderness and Campfire Protocols, verify that the Scout can explain clearing clearance and demonstrate complete extinguishment: Drown burning embers with water, stir ashes, and feel coals with bare hands."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do you verify that a campfire is completely extinguished before your patrol leaves the campsite or goes to sleep?",
@@ -4806,12 +4799,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 9a: Wildfire Causes and Mitigation",
-        "right_header": "Req 9b: Wildfire Socioeconomic",
+        "right_header": "Req 9b: Wildfire Socioeconomic Environmental Impacts",
         "left_points": [
-          "(9a) Wildfire Causes and Mitigation: Wildland fires stem from lightning strikes, equipment sparks, downed power transmission lines, and escaped agricultural debris burns. Defensible space landscaping and seasonal burn bans mitigate ignition vectors across wildland-urban interface zones."
+          "(9a) Wildfire Causes and Mitigation: Wildland fires stem from lightning strikes, equipment sparks, downed power transmission lines, and escaped agricultural debris burns. Defensible space landscaping and seasonal burn bans mitigate ignition vectors across wildland-urban interface zones.",
+          "Defensible Perimeter: Clearing dry brush thirty feet around structures deprives advancing wildfire flames of fuel."
         ],
         "right_points": [
-          "(9b) Wildfire Socioeconomic Environmental Impacts: Wildfires destroy timber reserves, wipe out residential communities, pollute municipal watersheds, and incur billions in fire suppression expenses. Long-term impacts include chronic respiratory ailments, lost tourism revenue, and severe debris flows during post-fire rainstorms."
+          "(9b) Wildfire Socioeconomic Environmental Impacts: Wildfires destroy timber reserves, wipe out residential communities, pollute municipal watersheds, and incur billions in fire suppression expenses. Long-term impacts include chronic respiratory ailments, lost tourism revenue, and severe debris flows during post-fire rainstorms.",
+          "Slope Acceleration: Convective heat plumes preheat uphill vegetation, causing flames to run uphill rapidly."
         ],
         "rows": [
           {
@@ -4821,25 +4816,27 @@
           },
           {
             "attribute": "Ember Storms",
-            "left": "Req 9a: Wildfire Causes: Wildland fires stem from lightning strikes, equipment sparks, downed power transmission lines, and escaped agricultural debris burns. Defensible space landscaping and seasonal burn bans mitigate ignition vectors across wildland-urban interface zones.",
-            "right": "Req 9b: Wildfire Socioeconomic: Wildfires destroy timber reserves, wipe out residential communities, pollute municipal watersheds, and incur billions in fire suppression expenses. Long-term impacts include chronic respiratory ailments, lost tourism revenue, and severe debris flows during post-fire rainstorms."
+            "left": "Defensible Perimeter: Clearing dry brush thirty feet around structures deprives advancing wildfire flames of fuel.",
+            "right": "Slope Acceleration: Convective heat plumes preheat uphill vegetation, causing flames to run uphill rapidly."
           },
           {
             "attribute": "Slope Acceleration",
-            "left": "Defensible Perimeter: Clearing dry brush thirty feet around structures deprives advancing wildfire flames of fuel.",
-            "right": "Ember Storms: Lofted airborne firebrands drift miles downwind and ignite combustible asphalt roof shingles."
+            "left": "Slope Acceleration: Convective heat plumes preheat uphill vegetation, causing flames to run uphill rapidly.",
+            "right": "Environmental Degradation: Severe wildfires destroy protective soil canopies, triggering devastating post-fire watershed mudslides."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 9 Exemplar Workbook Entry: Wildland Fire",
+        "title": "Fire Safety Req 9 Worked Example: Wildland Fire Prevention and Impact",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 9a - Wildfire Causes": "Wildland fires stem from lightning strikes, equipment sparks, downed power transmission lines, and escaped agricultural debris burns. Defensible space landscaping and seasonal burn bans mitigate ignition vectors across wildland-urban interface zones.",
-          "Req 9b - Wildfire Socioeconomic": "Wildfires destroy timber reserves, wipe out residential communities, pollute municipal watersheds, and incur billions in fire suppression expenses. Long-term impacts include chronic respiratory ailments, lost tourism revenue, and severe debris flows during post-fire rainstorms."
+          "Phase 1 - Fuels Reduction": "Clear dry brush, leaves, and low tree branches within thirty feet of homes.",
+          "Phase 2 - Roof Maintenance": "Remove dead needles and dry leaves from house gutters and wooden deck joints.",
+          "Phase 3 - Weather Monitoring": "Check regional red flag warning notices and relative humidity before outdoor work.",
+          "Phase 4 - Barrier Creation": "Scrape noncombustible mineral soil firebreaks around high-value property perimeters and outbuildings."
         },
-        "sample_output": "Wildland Fire Causes and Impacts: List causes of wildland fires and ways to prevent them (p. 6).",
-        "counselor_tip": "For Fire Safety Requirement 9 (Wildland Fire Causes and Impacts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Wildland fires result from natural lightning strikes and human activities such as powerline arcing, debris burning, and unattended campfires. Uncontrolled conflagrations destroy watersheds, disrupt regional economies, damage timber resources, and degrade atmospheric air quality for hundreds of miles.",
+        "counselor_tip": "During the Fire Safety Requirement 9 conference on Wildland Fire Prevention and Impact, verify that the Scout can explain defensible perimeter and demonstrate barrier creation: Scrape noncombustible mineral soil firebreaks around high-value property perimeters and outbuildings."
       },
       "quiz_item": {
         "scenario_prompt": "Which post-fire environmental hazard frequently threatens communities located downstream of a steep watershed burned by a high-severity wildfire?",
@@ -5170,19 +5167,17 @@
         "Step 3 - Firefighter Interview: Interview firefighters regarding daily physical training routines and fire prevention inspection protocols.",
         "Step 4 - Career Research: Document educational prerequisites, civil service examinations, and paramedic certifications for career entry."
       ],
-      "gear_checklist": [
-        "Official Fire Safety Merit Badge: Fire Safety Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Fire Safety Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 10a: Fire Station Operations Visit",
-        "right_header": "Req 10b: Fire Protection Career",
+        "right_header": "Req 10b: Fire Protection Career Opportunities",
         "left_points": [
-          "(10a) Fire Station Operations Visit: Visiting a municipal fire station reveals how modern emergency crews operate engines, ladder trucks, heavy rescues, and medic ambulances. Firefighters lead community risk reduction programs, commercial building code inspections, and public smoke alarm installations."
+          "(10a) Fire Station Operations Visit: Visiting a municipal fire station reveals how modern emergency crews operate engines, ladder trucks, heavy rescues, and medic ambulances. Firefighters lead community risk reduction programs, commercial building code inspections, and public smoke alarm installations.",
+          "Pumper Mechanics: Fire engines house high-capacity centrifugal pumps, water tanks, and structural attack hose."
         ],
         "right_points": [
-          "(10b) Fire Protection Career Opportunities: Fire safety careers extend across municipal firefighting, industrial safety management, fire protection engineering, and forensic arson investigation. Professional qualifications demand degrees in fire science, national certifications, paramedic licensure, and physical agility assessments."
+          "(10b) Fire Protection Career Opportunities: Fire safety careers extend across municipal firefighting, industrial safety management, fire protection engineering, and forensic arson investigation. Professional qualifications demand degrees in fire science, national certifications, paramedic licensure, and physical agility assessments.",
+          "Community Education: Firefighters conduct public safety school visits and install free smoke detectors for families."
         ],
         "rows": [
           {
@@ -5192,25 +5187,27 @@
           },
           {
             "attribute": "Aerial Capabilities",
-            "left": "Req 10a: Fire Station Operations: Visiting a municipal fire station reveals how modern emergency crews operate engines, ladder trucks, heavy rescues, and medic ambulances. Firefighters lead community risk reduction programs, commercial building code inspections, and public smoke alarm installations.",
-            "right": "Req 10b: Fire Protection Career: Fire safety careers extend across municipal firefighting, industrial safety management, fire protection engineering, and forensic arson investigation. Professional qualifications demand degrees in fire science, national certifications, paramedic licensure, and physical agility assessments."
+            "left": "Pumper Mechanics: Fire engines house high-capacity centrifugal pumps, water tanks, and structural attack hose.",
+            "right": "Community Education: Firefighters conduct public safety school visits and install free smoke detectors for families."
           },
           {
             "attribute": "Community Education",
-            "left": "Pumper Mechanics: Fire engines house high-capacity centrifugal pumps, water tanks, and structural attack hose.",
-            "right": "Aerial Capabilities: Ladder trucks extend powered hydraulic ladders to provide elevated rescue and roof ventilation."
+            "left": "Community Education: Firefighters conduct public safety school visits and install free smoke detectors for families.",
+            "right": "Professional Engineering: Fire protection engineers calculate sprinkler hydraulic flow rates to meet life safety codes."
           }
         ]
       },
       "worked_example": {
-        "title": "Fire Safety Req 10 Exemplar Workbook Entry: Fire Service",
+        "title": "Fire Safety Req 10 Worked Example: Fire Service Operations and Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 10a - Fire Station Operations": "Visiting a municipal fire station reveals how modern emergency crews operate engines, ladder trucks, heavy rescues, and medic ambulances. Firefighters lead community risk reduction programs, commercial building code inspections, and public smoke alarm installations.",
-          "Req 10b - Fire Protection Career": "Fire safety careers extend across municipal firefighting, industrial safety management, fire protection engineering, and forensic arson investigation. Professional qualifications demand degrees in fire science, national certifications, paramedic licensure, and physical agility assessments."
+          "Phase 1 - Station Coordination": "Contact local fire department administration to schedule a formal educational station visit.",
+          "Phase 2 - Apparatus Inspection": "Inspect specialized pump panel controls, water tanks, and hose loads on structural engines.",
+          "Phase 3 - Firefighter Interview": "Interview firefighters regarding daily physical training routines and fire prevention inspection protocols.",
+          "Phase 4 - Career Research": "Document educational prerequisites, civil service examinations, and paramedic certifications for career entry."
         },
-        "sample_output": "Fire Service Vehicles and Careers: Visit a fire station in-person (p. 6).",
-        "counselor_tip": "For Fire Safety Requirement 10 (Fire Service Vehicles and Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Fire service careers encompass municipal structural suppression, emergency medical response, hazardous materials mitigation, fire investigation, and code enforcement. Specialized apparatus include structural pumpers carrying water and hose lines, aerial ladder trucks carrying rescue tools, and wildland brush trucks.",
+        "counselor_tip": "During the Fire Safety Requirement 10 conference on Fire Service Operations and Careers, verify that the Scout can explain pumper mechanics and demonstrate career research: Document educational prerequisites, civil service examinations, and paramedic certifications for career entry."
       },
       "quiz_item": {
         "scenario_prompt": "At a fire station, how does the primary mission of an aerial ladder truck differ from that of a fire engine (pumper)?",

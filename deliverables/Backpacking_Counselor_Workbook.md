@@ -74,8 +74,6 @@
 #### Req 2a: Ten Scout Basic Essentials
 **Official Requirement 2a:** List the 10 Scout Basic Essentials to be carried on any backpacking trek and explain why each item is necessary.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Basic Essentials to Be Carried)
-- **Common Myth:** Beginners assume the ten essentials are optional recommendations reserved exclusively for multi-week wilderness expeditions.
-- **Pamphlet Fact:** Each essential serves a specific survival function, such as preventing hypothermia or signaling rescuers during unexpected wilderness delays.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -83,7 +81,7 @@
 - [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
 - [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
-![Backpacking Requirement 2 figure showing topographic maps, liquid filled compasses, and redundant fire starters safeguard remote.](/assets/pamphlet_images/backpacking_p007_img1.png)
+![Topographic maps, liquid filled compasses, and redundant fire starters safeguard remote wilderness travelers.](/assets/pamphlet_images/backpacking_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -94,8 +92,6 @@
 #### Req 2b: Pack Weight Reduction Methods
 **Official Requirement 2b:** Describe 10 ways you can limit the weight and bulk to be carried in your pack without jeopardizing your health or safety.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (You Can Limit the Weight)
-- **Common Myth:** Hikers assume cutting toothbrush handles and discarding first aid tape are the primary methods for reducing pack bulk.
-- **Pamphlet Fact:** Repackaging bulky bulk food items and sharing tent bodies significantly reduces carried base weight without compromising comfort.
 
 ![A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.](/assets/pamphlet_images/backpacking_p053_img1.png)
 
@@ -121,10 +117,8 @@
 #### Req 3a: Trek Crew Size Limits
 **Official Requirement 3a:** Define limits on the number of backpackers appropriate for a trek crew.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Limits on the Number of)
-- **Common Myth:** Scouts assume larger groups traveling together always provide greater safety regardless of campsite overcrowding or trail damage.
-- **Pamphlet Fact:** Crews numbering between six and twelve people preserve patrol self-sufficiency while complying with federal wilderness area regulations.
 
-![Backpacking Requirement 3 figure showing patrol sizes between six and twelve backpackers balance wilderness safety and low impact.](/assets/pamphlet_images/backpacking_p012_img1.png)
+![Patrol sizes between six and twelve backpackers balance wilderness safety and low impact.](/assets/pamphlet_images/backpacking_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -135,8 +129,6 @@
 #### Req 3b: Patrol Crew Organization Structure
 **Official Requirement 3b:** Describe how a trek crew should be organized.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Trek Crew Should Be Organized)
-- **Common Myth:** Beginners think the crew leader must personally pitch every tent, cook every meal, and navigate every trail intersection.
-- **Pamphlet Fact:** Rotating functional responsibilities across all crew members builds individual self-reliance and prevents single points of camp failure.
 
 ![A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.](/assets/pamphlet_images/backpacking_p016_img1.png)
 
@@ -149,10 +141,8 @@
 #### Req 3c: Trek Risk Minimization Strategies
 **Official Requirement 3c:** Tell how you would minimize risk on a backpacking trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (You Would Minimize Risk)
-- **Common Myth:** Hikers assume risk management starts only after someone suffers an injury or gets trapped on high terrain.
-- **Pamphlet Fact:** Proactive trail risk management identifies environmental hazards early to avoid forced crossings of swollen mountain torrents.
 
-![Backpacking Requirement 1 figure showing synthetic layers wick sweat away from skin to maintain stable core body heat.](/assets/pamphlet_images/backpacking_p003_img1.png)
+![Synthetic layers wick sweat away from skin to maintain stable core body heat.](/assets/pamphlet_images/backpacking_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -163,8 +153,6 @@
 #### Req 3d: Emergency Response Plan Architecture
 **Official Requirement 3d:** Explain the purpose of an emergency response plan.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Emergency Response)
-- **Common Myth:** Scouts think an emergency response plan consists merely of keeping a mobile telephone in a pack pocket.
-- **Pamphlet Fact:** A comprehensive emergency response plan details exact primary and secondary evacuation corridors and satellite communicator contact numbers.
 
 ![Three Scouts wearing backpacks study a topographic trail map while planning their hiking route.](/assets/pamphlet_images/backpacking_p019_img1.png)
 
@@ -190,8 +178,6 @@
 #### Req 4a: Leave No Trace Principles
 **Official Requirement 4a:** Describe the importance of following the Leave No Trace Seven Principles and the Outdoor Code while backpacking, and at least five ways you can lessen the crew's impact on the environment.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** Hikers believe stepping off trail edges into vegetation is courteous behavior when passing muddy tread sections.
-- **Pamphlet Fact:** Traveling single file down the center of muddy trails stops vegetative trampling and prevents irreversible trail braiding.
 
 ![A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace.](/assets/pamphlet_images/backpacking_p063_img2.png)
 
@@ -204,8 +190,6 @@
 #### Req 4b: Backcountry Waste and Sanitation
 **Official Requirement 4b:** Describe proper methods of handling human and other wastes while on a backpacking trek. Describe the importance of and means to assure personal cleanliness while on a backpacking trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Handling Human and Other Wastes)
-- **Common Myth:** Campers think burying human waste underneath riverbank stones is sanitary because moving water cleanses pathogens quickly.
-- **Pamphlet Fact:** Catholes must be dug six to eight inches deep in organic soil two hundred feet from all water sources.
 
 ![A venomous coral snake displays red, yellow, and black banded rings along its slender body.](/assets/pamphlet_images/backpacking_p030_img1.png)
 
@@ -219,8 +203,6 @@
 #### Req 4c: Low Impact Campsite Selection
 **Official Requirement 4c:** Tell what factors are important in choosing a campsite.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Factors Are Important in Choosing)
-- **Common Myth:** Scouts assume soft grassy clearings right next to rivers represent ideal backcountry tent sites.
-- **Pamphlet Fact:** Selecting campsites on durable mineral soil, sand, or pine duff prevents long-term destruction of delicate meadow flora.
 
 ![A venomous pit viper coils defensively, illustrating dangerous snake hazards on hiking trails.](/assets/pamphlet_images/backpacking_p030_img2.png)
 
@@ -246,8 +228,6 @@
 #### Req 5a: Water Treatment Methodology Verification
 **Official Requirement 5a:** Demonstrate two ways to treat water and tell why water treatment is essential.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Treat Water and Tell Why)
-- **Common Myth:** Scouts assume chemical chlorine tablets instantly neutralize all aquatic pathogens upon mixing into cloudy stream water.
-- **Pamphlet Fact:** Purification tablets require up to four hours of exposure time to destroy tough Cryptosporidium oocysts in cold water.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -266,8 +246,6 @@
 #### Req 5b: Backcountry Hydration Management Protocol
 **Official Requirement 5b:** Explain to your counselor the importance of staying well-hydrated during a trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Staying Well-hydrated During A Trek)
-- **Common Myth:** Beginners believe feeling thirsty is the earliest and most reliable physiological warning of backcountry dehydration.
-- **Pamphlet Fact:** Breathing dry mountain air increases respiratory water loss significantly before sweat becomes visibly noticeable on skin.
 
 ![A backpacker hikes along an earthen trail using a wooden stick to navigate rough brush terrain.](/assets/pamphlet_images/backpacking_p030_img3.png)
 
@@ -293,8 +271,6 @@
 #### Req 6a: Topographic Map Interpretation Skills
 **Official Requirement 6a:** Demonstrate that you can read topographic maps.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)* • **Organizer (Skill Demonstration Checklist):** Req 6a Hands-On Skill Station & EDGE Verification Checklist (You Can Read Topographic)
-- **Common Myth:** Beginners assume contour lines on topographic maps represent man-made walking trails or logging access roads.
-- **Pamphlet Fact:** Index contours are heavier brown lines that display elevation numbers along their paths at regular intervals.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -321,8 +297,6 @@
 #### Req 6b: Field Position Triangulation Methods
 **Official Requirement 6b:** While on a trek, use a map and compass to establish your position on the ground at three different locations, OR use a GPS receiver to establish your position on a topographic map and on the ground at three different locations.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Trek Use A Map and)
-- **Common Myth:** Scouts think a handheld GPS receiver guarantees navigation accuracy without cross-checking batteries or physical paper maps.
-- **Pamphlet Fact:** Triangulating your position requires measuring compass bearings to three separate landmarks that produce an intersecting resection triangle.
 
 ![A Scout models appropriate warm-weather hiking attire including a sun hat, shorts, and boots.](/assets/pamphlet_images/backpacking_p034_img1.png)
 
@@ -343,8 +317,6 @@
 #### Req 6c: Wilderness Lost Protocol Execution
 **Official Requirement 6c:** Explain how to stay found, and what to do if you get lost.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Stay Found)
-- **Common Myth:** Hikers assume running downhill along creek beds is always the fastest way back to human civilization.
-- **Pamphlet Fact:** Hugging a tree and remaining stationary preserves search clues and prevents walking deeper into dangerous terrain.
 
 ![Lightweight synthetic clothing and a packable rain shell provide versatile weather protection.](/assets/pamphlet_images/backpacking_p034_img2.png)
 
@@ -391,8 +363,6 @@
 #### Req 8a: Backpacking Stove Fuel Comparison
 **Official Requirement 8a:** Explain the advantages and disadvantages of the different types of backpacking stoves using at least three different types of fuel.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)* • **Organizer (2-Column Comparison Table):** Req 8a Technical Comparison Matrix (Advantages and Disadvantages)
-- **Common Myth:** Hikers assume all backpacking stoves produce identical heat energy regardless of ambient temperatures or altitudes.
-- **Pamphlet Fact:** Liquid white gas burns reliably below zero degrees Fahrenheit, whereas inverted canisters struggle in subfreezing alpine weather.
 
 ![A water-resistant spiral journal protects trip notes, schedules, and sketches from moisture.](/assets/pamphlet_images/backpacking_p055_img1.png)
 
@@ -405,8 +375,6 @@
 #### Req 8b: Stove Operation and Safety
 **Official Requirement 8b:** Demonstrate that you know how to operate a backpacking stove safely and to handle liquid fuel safely. Resources: Trying Every Type of Backpacking Stove! (video) How To LIGHT a CAMP STOVE! Both Canister and Liquid Fuel Stoves (video)
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)* • **Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist (You Know)
-- **Common Myth:** Campers think filling a white gas fuel bottle to the very rim maximizes stove run time.
-- **Pamphlet Fact:** Filling liquid fuel tanks requires leaving an air space to permit proper hand pumping pressure.
 
 ![A Scout carries a fully packed expedition backpack adjusted with supportive shoulder straps.](/assets/pamphlet_images/backpacking_p056_img1.png)
 
@@ -422,8 +390,6 @@
 #### Req 8c: Backcountry Meal Cooking Execution
 **Official Requirement 8c:** Prepare three meals using a stove and fuel you can carry in a backpack.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Meals Using A Stove and)
-- **Common Myth:** Scouts think cooking raw meats and complex multi-pot recipes on the trail is simple and efficient.
-- **Pamphlet Fact:** Carbohydrate-dense dehydrated meals require less cooking fuel and provide rapid glycogen replacement during strenuous trail ascents.
 
 ![A Scout displays an organized collection of essential camping equipment and clothing for a trek.](/assets/pamphlet_images/backpacking_p057_img1.png)
 
@@ -436,8 +402,6 @@
 #### Req 8d: Camp Sanitation and Storage
 **Official Requirement 8d:** Demonstrate that you know how to keep cooking and eating gear clean and sanitary, and that you practice proper methods for food storage while on a backpacking trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)* • **Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist (You Know How to Keep)
-- **Common Myth:** Beginners believe keeping food bags inside backpacks inside tent vestibules protects rations from nocturnal rodents.
-- **Pamphlet Fact:** Hanging a bear bag requires suspending food ten feet high and four feet out from branches.
 
 ![A Scout organizes gear into internal compartments to properly distribute weight in a backpack.](/assets/pamphlet_images/backpacking_p058_img1.png)
 
@@ -463,8 +427,6 @@
 #### Req 9a: Patrol Hike Schedule Formulation
 **Official Requirement 9a:** Write a plan that includes a schedule for a patrol/crew backpacking hike of at least 2 miles. Resources: How To Plan Your First Backpacking Trip (video) Backpacking Trip Schedule (PDF)
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Includes A Schedule for A)
-- **Common Myth:** Beginners think trail hiking speed matches sidewalk walking speed regardless of steep topographic contours and pack loads.
-- **Pamphlet Fact:** Calculating trail schedules using distance plus elevation gain prevents crews from arriving at campsites after dark.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -484,8 +446,6 @@
 #### Req 9b: Prehike Crew Inspection Standards
 **Official Requirement 9b:** Conduct a prehike inspection of the patrol and its equipment.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (Prehike Inspection)
-- **Common Myth:** Scouts assume individual hikers always remember their essential survival gear without a formal patrol equipment check.
-- **Pamphlet Fact:** Checking every Scout's footwear, water supply, and rain shell before departure catches missing survival gear early.
 
 ![Scouts wearing work gloves haul away fallen branches to clear a wilderness campsite and trail.](/assets/pamphlet_images/backpacking_p067_img1.png)
 
@@ -498,8 +458,6 @@
 #### Req 9c: Pack Loading and Organization
 **Official Requirement 9c:** Show that you know how to properly pack your personal gear and your share of the crew's gear and food.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (You Know)
-- **Common Myth:** Hikers assume gear can be tossed randomly into an internal frame pack without altering walking stability.
-- **Pamphlet Fact:** Packing the sleeping bag into the bottom compartment creates a stable, shock-absorbing base for the pack.
 
 ![A hiker with a loaded pack stands on a rocky summit overlooking a scenic forested valley below.](/assets/pamphlet_images/backpacking_p069_img1.png)
 
@@ -512,8 +470,6 @@
 #### Req 9d: Pack Suspension System Fitting
 **Official Requirement 9d:** Show you can properly shoulder your pack and adjust it for proper wear.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (You Can Properly Shoulder)
-- **Common Myth:** Beginners believe shoulder straps should carry the entire downward weight of a loaded internal frame backpack.
-- **Pamphlet Fact:** Eighty percent of pack weight must rest securely on the hip bones rather than the shoulders.
 
 ![A hiker aligns an orienteering compass with topographic map contours to calculate a trail bearing.](/assets/pamphlet_images/backpacking_p074_img2.png)
 
@@ -526,8 +482,6 @@
 #### Req 9e: Loaded Shakedown Hike Execution
 **Official Requirement 9e:** While using the plan you developed for requirement 9(a), carry your fully loaded pack to complete a hike of at least 2 miles.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix (You Developed for Requirement 9(a)
-- **Common Myth:** Scouts think charging uphill at maximum speed is the best technique to finish a loaded backpacking hike.
-- **Pamphlet Fact:** Taking short, rhythmic rest steps on steep ascents conserves leg energy and maintains cardiovascular efficiency.
 
 ![Scouts in uniform navigate along an outdoor ridge using a handheld navigation device and map.](/assets/pamphlet_images/backpacking_p075_img1.png)
 
@@ -577,8 +531,6 @@
 **Official Requirement 11a:** Write a plan for a backpacking trek of at least five days using at least three different campsites and covering at least 30 miles. Your plan must include a description of and route to the trek area, a schedule (including a daily schedule), a list of food and equipment needs, a safety and emergency plan, and a budget.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)* • **Organizer (Activity & Observation Log):** Req 11a Quantitative Field Observation & Activity Log (Backpacking Trek)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Backpacking Req 11 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Hikers assume a five-day trek plan requires only a highway map showing the trail parking lot.
-- **Pamphlet Fact:** A thirty-mile trek plan must incorporate daily topographic elevation profiles, contingency bail-out trails, and water source reliability.
 
 **Gear & Readiness Checklist:**
 - [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
@@ -599,8 +551,6 @@
 **Official Requirement 11b:** Following the Leave No Trace Seven Principles and the Outdoor Code, take the trek as planned in requirement 11(a) that is at least five full days, covering at least 30 miles and utilizing at least three different campsites. While on trek, complete at least one service project approved by your counselor.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Backpacking Req 11b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Scouts think establishing a base camp and taking five consecutive day hikes fulfills thirty-mile trek requirements.
-- **Pamphlet Fact:** Moving camp across at least three distinct backcountry sites over five days tests crew endurance and camp efficiency.
 
 ![A portable pump-action water filter with flexible tubing purifies backcountry stream water.](/assets/pamphlet_images/backpacking_p084_img2.png)
 
@@ -614,8 +564,6 @@
 #### Req 11c: Daily Expedition Journaling Reflection
 **Official Requirement 11c:** Keep a daily journal during the trek that includes a day-by-day description of your activities, including notes about what worked well and thoughts about improvements that could be made for the next trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)* • **Organizer (Activity & Observation Log):** Req 11c Quantitative Field Observation & Activity Log (Daily Journal During the Trek)
-- **Common Myth:** Beginners think trail journals need only state the weather and bedtime hours to be useful.
-- **Pamphlet Fact:** Documenting specific equipment flaws, blister treatments, and meal performance in daily journals enables systemic improvements on subsequent treks.
 
 ![Four hikers carrying full packs navigate snowy terrain during a cold-weather mountain expedition.](/assets/pamphlet_images/backpacking_p091_img1.png)
 

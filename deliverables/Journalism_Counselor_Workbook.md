@@ -35,7 +35,6 @@
 ### Req 1: First Amendment Press Freedoms
 **Official Requirement 1:** Explain what freedom of the press is and how the First Amendment guarantees that you can voice your opinion. In your discussion, tell how to distinguish between fact and opinion, and explain the terms libel, slander, defamation, fair comment and criticism, public figure, privacy, and malice. Discuss how these matters relate to ethics in journalism.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Freedom of the Press)
-> **Guide to Safe Scouting Warning:** When covering controversial disputes, conduct public interviews in designated neutral locations and exit hostile situations promptly.
 - **Common Myth:** Freedom of the press allows reporters to publish any damaging statement without legal consequence.
 - **Pamphlet Fact:** The First Amendment does not protect reporters from civil liability when publishing defamatory falsehoods.
 
@@ -58,7 +57,6 @@
 ### Print & Online Journalism: News Analysis & Newsroom Tour
 **Official Requirement 2a (Parent Overview):** Option A, Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a "good" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Follow cybersecurity protocols by securing adult permission before visiting unfamiliar external news websites and message forums.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Journalism Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Digital articles are always more reliable than printed newspapers because websites update instantaneously.
 - **Pamphlet Fact:** Digital immediacy frequently increases errors, whereas traditional print undergoes rigorous multi-tier copy desk verification before press runs.
@@ -73,13 +71,6 @@
 **Official Requirement 2a(1):** On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (2-Column Comparison Table):** Req 2a(1) Technical Comparison Matrix (Same Day Read A Local)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Journalism Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Social media news feeds provide the same depth of verified factual reporting as traditional newspapers because user posts appear instantly from eyewitnesses.
-- **Pamphlet Fact:** Professional newspapers and magazines verify claims with multiple credible sources and provide investigative context that uncurated social media feeds lack.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Journalism Merit Badge Pamphlet: Newspaper Magazine and Online Journalism.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Newspaper Magazine and Online Journalism.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A youth writes digital stories on a laptop for online media publication formats.](/assets/pamphlet_images/journalism_p030_img1.png)
 
@@ -95,10 +86,8 @@
 #### Req 2a(2): Newsroom Editorial and Business Independence
 **Official Requirement 2a(2):** Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a "good" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 2a(2) Structured Technical Study & Explanation Matrix (Office of A Newspaper Magazine)
-- **Common Myth:** Commercial advertisers who purchase ads in a newspaper or on a news website have the power to approve news articles and suppress unfavorable stories.
-- **Pamphlet Fact:** Ethical news organizations enforce an absolute separation between the business office and the newsroom so that advertising dollars never dictate editorial decisions.
 
-![Journalism Requirement 1 figure showing the First Amendment shields independent reporting from government prior restraint.](/assets/pamphlet_images/journalism_p003_img1.png)
+![The First Amendment shields independent reporting from government prior restraint and political censorship.](/assets/pamphlet_images/journalism_p003_img1.png)
 
 | Req 2a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -113,7 +102,6 @@
 ### Radio & TV Journalism: Broadcast Newscasts & Station Tour
 **Official Requirement 2b (Parent Overview):** Option B, Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a "good" station. If possible, go with a reporter to cover a news event.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Follow cybersecurity protocols by securing adult permission before visiting unfamiliar external news websites and message forums.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Journalism Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Broadcast news scripts are written using identical sentence structures and vocabulary as printed newspaper articles.
 - **Pamphlet Fact:** Broadcast writing utilizes short conversational sentences, active voice, and phonetic spellings tailored specifically for spoken delivery.
@@ -128,8 +116,6 @@
 **Official Requirement 2b(1):** All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (2-Column Comparison Table):** Req 2b(1) Technical Comparison Matrix (Same Day Watch A Local)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Journalism Req 2b(1) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Radio newscasts contain far less news information than television broadcasts because audio reporting lacks on-screen graphics and video footage.
-- **Pamphlet Fact:** Radio news updates focus on tight sentences packed with facts that often deliver more individual news stories in five minutes than a half hour television broadcast filled with anchor banter, video transitions, and commercials.
 
 ![A broadcast journalist presents stories from behind a television studio news desk.](/assets/pamphlet_images/journalism_p028_img1.png)
 
@@ -145,8 +131,6 @@
 #### Req 2b(2): Broadcast Station Newsroom Operations Tour
 **Official Requirement 2b(2):** Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a "good" station. If possible, go with a reporter to cover a news event.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (Radio or Television Station Ask)
-- **Common Myth:** A broadcast station manager directs news reporters on how to cover stories and can censor factual reports that might offend local businesses.
-- **Pamphlet Fact:** Professional broadcast stations abide by strict ethical guidelines and federal licensing principles that require news directors to operate independently from commercial sales and station management pressure.
 
 ![A journalist prepares investigative news stories while exercising press freedoms.](/assets/pamphlet_images/journalism_p021_img1.png)
 
@@ -162,7 +146,6 @@
 ### Req 3: News Story Structure Mechanics
 **Official Requirement 3 (Parent Overview):** Discuss the differences between a hard news story and a feature story. Explain what the five W's and H are. Then do ONE of the following: (a) Choose a current or an unusual event of interest to you, and write either a hard news article OR a feature article about the event. Gear the article for print OR online OR audio OR video journalism. Share your article with your counselor. (b) With your parent or guardian's permission and counselor's approval, interview someone in your community who is influential because of his or her leadership, talent, career, or life experiences. Then present to your counselor either a written or oral report telling what you learned about this person. (c) With your parent or guardian's permission and counselor's approval, read an autobiography written by a journalist you want to learn more about. Write an article that tells what you learned about this person and the contributions this person has made to the field of journalism. (d) Attend a Scouting event and write a 200-word article (feature or hard news) about the event. Use either the inverted pyramid style or the chronological style. Review the article with your counselor, then submit it to your community newspaper or Scouting America local council or district newsletter for consideration.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Never approach moving machinery or restricted emergency perimeters while collecting field notes at active news events.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Journalism Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** A hard news lead should build suspense by withholding key facts until the final paragraph.
 - **Pamphlet Fact:** Hard news leads prioritize immediacy by presenting the most essential information in the very first sentence.
@@ -177,10 +160,8 @@
 **Official Requirement 3a:** Choose a current or an unusual event of interest to you, and write either a hard news article OR a feature article about the event. Gear the article for print OR online OR audio OR video journalism. Share your article with your counselor.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Current or An Unusual Event)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Journalism Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** A reporter can write one generic draft that works identically across print, online, and audio channels.
-- **Pamphlet Fact:** Print requires formal attribution structure, whereas audio requires brief conversational sentences that sound natural when read aloud.
 
-![Journalism Requirement 3 figure showing urgent reports deliver vital public interest facts without flowery description.](/assets/pamphlet_images/journalism_p012_img1.png)
+![Urgent reports deliver vital public interest facts without flowery description or dramatic suspense.](/assets/pamphlet_images/journalism_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -194,8 +175,6 @@
 **Official Requirement 3b:** With your parent or guardian's permission and counselor's approval, interview someone in your community who is influential because of his or her leadership, talent, career, or life experiences. Then present to your counselor either a written or oral report telling what you learned about this person.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Organizer (Career & Profession Exploration Card):** Req 3b Professional Career Interview Card
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Journalism Req 3b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Good profile interviews rely entirely on spontaneous conversation without advance research or prepared question lists.
-- **Pamphlet Fact:** Skilled journalists research an interviewee's background thoroughly and prepare specific open ended inquiries before conducting the interview.
 
 ![A student edits media content on a computer while producing a broadcast story.](/assets/pamphlet_images/journalism_p068_img1.png)
 
@@ -211,8 +190,6 @@
 **Official Requirement 3c:** With your parent or guardian's permission and counselor's approval, read an autobiography written by a journalist you want to learn more about. Write an article that tells what you learned about this person and the contributions this person has made to the field of journalism.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Autobiography Written by A Journalist)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Journalism Req 3c preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Autobiographies written by journalists focus solely on personal adventure rather than newsgathering ethics.
-- **Pamphlet Fact:** Journalist memoirs document technical tradecraft, ethical decision making, and historical press freedom battles in extensive detail.
 
 ![Digital publications demonstrate modern methods of sharing news and commentary.](/assets/pamphlet_images/journalism_p022_img1.png)
 
@@ -226,8 +203,6 @@
 #### Req 3d: Scouting Event Article Composition
 **Official Requirement 3d:** Attend a Scouting event and write a 200-word article (feature or hard news) about the event. Use either the inverted pyramid style or the chronological style. Review the article with your counselor, then submit it to your community newspaper or Scouting America local council or district newsletter for consideration.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Scouting Event and Write A)
-- **Common Myth:** Articles written about local Scouting activities do not require factual attribution or editorial review.
-- **Pamphlet Fact:** Scouting news stories must follow standard journalistic rigor, including verified participant names, dates, and counselor review.
 
 ![A reader engages with print journalism to stay informed on local and world events.](/assets/pamphlet_images/journalism_p023_img1.png)
 
@@ -242,7 +217,6 @@
 ### Req 4: Public Event News Reporting
 **Official Requirement 4 (Parent Overview):** Attend a public event and do ONE of the following: (a) Write two articles about the event, one using the inverted pyramid style and one using the chronological style. (b) Using a radio, television, or podcasting style, write a news story, a feature story, and a critical review of the event. (c) Take a series of photographs to help tell the story of the event in pictures. Include news photos and feature photos in your presentation. Write a brief synopsis of the event as well as captions for your photos.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain clear awareness of venue exits, avoid tripping hazards from audiovisual cables, and stay within designated media zones.
 - **Common Myth:** Taking notes from the back of an auditorium without talking to attendees produces complete public event coverage.
 - **Pamphlet Fact:** Thorough event journalism requires interviewing organizers and participants to capture multiple perspectives beyond podium speeches.
 
@@ -255,13 +229,6 @@
 #### Req 4a: Dual Structure Article Production
 **Official Requirement 4a:** Write two articles about the event, one using the inverted pyramid style and one using the chronological style.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Articles About the Event)
-- **Common Myth:** Chronological news writing simply copies raw field notes in order without editorial selection.
-- **Pamphlet Fact:** Chronological articles still require intentional narrative pacing, selective detail inclusion, and clear contextual signposts for readers.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Journalism Merit Badge Pamphlet: Public Event.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Public Event.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A computer keyboard serves as an essential tool for drafting journalistic stories.](/assets/pamphlet_images/journalism_p051_img1.png)
 
@@ -274,8 +241,6 @@
 #### Req 4b: Multimedia Broadcast Event Scripting
 **Official Requirement 4b:** Using a radio, television, or podcasting style, write a news story, a feature story, and a critical review of the event.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Radio Television or Podcasting Style)
-- **Common Myth:** A critical review is simply a reporter's personal rant without objective artistic or organizational standards.
-- **Pamphlet Fact:** A legitimate review applies established criteria, evidence based observations, and constructive critique to evaluate public presentations fairly.
 
 ![Action sports photography captures a swim meet for a published news article.](/assets/pamphlet_images/journalism_p052_img1.png)
 
@@ -288,8 +253,6 @@
 #### Req 4c: Photojournalism Storytelling and Captions
 **Official Requirement 4c:** Take a series of photographs to help tell the story of the event in pictures. Include news photos and feature photos in your presentation. Write a brief synopsis of the event as well as captions for your photos.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Series of Photographs to Help)
-- **Common Myth:** Photojournalists are allowed to alter digital images and remove background objects to create better compositions.
-- **Pamphlet Fact:** Journalistic ethics codes strictly forbid adding, moving, or removing image elements during digital darkroom processing.
 
 ![Engaging feature photography documents daily life aboard the space station.](/assets/pamphlet_images/journalism_p054_img1.png)
 
@@ -304,7 +267,6 @@
 ### Req 5: Professional Journalism Career Pathways
 **Official Requirement 5:** Identify three career opportunities that would use skills and knowledge in journalism. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 75, p. 77)* • **Organizer (Career & Profession Exploration Card):** Req 5 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Always research local safety conditions and travel with reliable communications gear when planning field reporting assignments.
 - **Common Myth:** Working as a journalist only requires owning a smartphone and posting updates to personal social media accounts.
 - **Pamphlet Fact:** Professional journalism demands formal training in libel law, investigative techniques, source cultivation, and strict ethical standards.
 

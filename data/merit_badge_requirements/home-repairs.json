@@ -262,19 +262,17 @@
         "Step 3 - Area Preparation: Position mechanical ventilation fans to discharge airborne dust through open exterior windows.",
         "Step 4 - Hazard Elimination: De-energize primary utility supply valves and circuit breakers before beginning mechanical work."
       ],
-      "gear_checklist": [
-        "Official Home Repairs Merit Badge: Home Repairs Hazards and First Aid.",
-        "Field notebook, verification log sheet, and demonstration materials for Home Repairs Hazards and First Aid.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Personal Protective Equipment",
-        "right_header": "Req 1b: Safe Workshop Operational",
+        "left_header": "Req 1a: Personal Protective Equipment Protocols",
+        "right_header": "Req 1b: Safe Workshop Operational Practices",
         "left_points": [
-          "(1a) Personal Protective Equipment Protocols: Repairing domestic structures exposes workers to particulate dust, pressurized lines, and mechanical pinch points. Personal protective equipment creates a vital barrier against acute workshop trauma."
+          "(1a) Personal Protective Equipment Protocols: Repairing domestic structures exposes workers to particulate dust, pressurized lines, and mechanical pinch points. Personal protective equipment creates a vital barrier against acute workshop trauma.",
+          "Eye Protection Standard: ANSI approved impact goggles prevent corneal punctures from flying wood or metal chips."
         ],
         "right_points": [
-          "(1b) Safe Workshop Operational Practices: Implementing standardized workshop rules minimizes common structural injuries and equipment malfunctions. Orderly tool staging keeps walkways clear of tripping obstacles and hazardous cords."
+          "(1b) Safe Workshop Operational Practices: Implementing standardized workshop rules minimizes common structural injuries and equipment malfunctions. Orderly tool staging keeps walkways clear of tripping obstacles and hazardous cords.",
+          "Ladder Fall Protection: Maintaining three points of contact on rung ladders drastically reduces tipping risks."
         ],
         "rows": [
           {
@@ -284,25 +282,27 @@
           },
           {
             "attribute": "Respiratory Hazard Filter",
-            "left": "Req 1a: Personal Protective: Repairing domestic structures exposes workers to particulate dust, pressurized lines, and mechanical pinch points. Personal protective equipment creates a vital barrier against acute workshop trauma.",
-            "right": "Req 1b: Safe Workshop Operational: Implementing standardized workshop rules minimizes common structural injuries and equipment malfunctions. Orderly tool staging keeps walkways clear of tripping obstacles and hazardous cords."
+            "left": "Eye Protection Standard: ANSI approved impact goggles prevent corneal punctures from flying wood or metal chips.",
+            "right": "Ladder Fall Protection: Maintaining three points of contact on rung ladders drastically reduces tipping risks."
           },
           {
             "attribute": "Ladder Fall Protection",
-            "left": "Eye Protection Standard: ANSI approved impact goggles prevent corneal punctures from flying wood or metal chips.",
-            "right": "Respiratory Hazard Filter: Proper particulate respirators block toxic silica particles and mold spores during demolition."
+            "left": "Ladder Fall Protection: Maintaining three points of contact on rung ladders drastically reduces tipping risks.",
+            "right": "Chemical Vapor Ventilation: Active mechanical exhaust fans prevent volatile organic fumes from concentrating in rooms."
           }
         ]
       },
       "worked_example": {
-        "title": "Home Repairs Req 1 Exemplar Workbook Entry: Home Repair",
+        "title": "Home Repairs Req 1 Worked Example: Home Repair Safety Protocols",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Personal Protective Equipment": "Repairing domestic structures exposes workers to particulate dust, pressurized lines, and mechanical pinch points. Personal protective equipment creates a vital barrier against acute workshop trauma.",
-          "Req 1b - Safe Workshop Operational": "Implementing standardized workshop rules minimizes common structural injuries and equipment malfunctions. Orderly tool staging keeps walkways clear of tripping obstacles and hazardous cords."
+          "Phase 1 - Risk Evaluation": "Identify electrical sources, chemical vapors, and structural pinch points across work surfaces.",
+          "Phase 2 - Equipment Selection": "Don fitted impact goggles, leather gloves, and dual cartridge organic vapor respirators.",
+          "Phase 3 - Area Preparation": "Position mechanical ventilation fans to discharge airborne dust through open exterior windows.",
+          "Phase 4 - Hazard Elimination": "De-energize primary utility supply valves and circuit breakers before beginning mechanical work."
         },
-        "sample_output": "Home Repair Safety and Hazard Prevention: Use a special respirator when working with toxic substances (p. 10).",
-        "counselor_tip": "For Home Repairs Requirement 1 (Home Repair Safety and Hazard Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Home Repairs Merit Badge Pamphlet (p. 10, p. 17))."
+        "sample_output": "Home maintenance projects present physical hazards that require personal protective equipment and situational awareness. Systematic risk assessment identifies chemical toxicity, mechanical pinch points, and electrical contact before tasks begin.",
+        "counselor_tip": "During the Home Repairs Requirement 1 conference on Home Repair Safety Protocols, verify that the Scout can explain eye protection standard and demonstrate hazard elimination: De-energize primary utility supply valves and circuit breakers before beginning mechanical work."
       },
       "quiz_item": {
         "scenario_prompt": "Before replacing a leaking compression faucet washer or repairing a damaged electrical wall switch for Home Repairs Requirement 1, what safety step is required first?",
@@ -927,23 +927,17 @@
         "Step 3 - Weatherstrip Fitting: Measure sash channels carefully before pressing adhesive foam strips into clean window jambs.",
         "Step 4 - Sealant Application: Extrude continuous beads of exterior caulk into gaps using steady caulking gun pressure."
       ],
-      "gear_checklist": [
-        "Official Home Repairs Merit Badge: Supervision Recondition Yard Tool.",
-        "Field notebook, verification log sheet, and demonstration materials for Supervision Recondition Yard Tool.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Yard Tool Reconditioning Methods",
         "right_header": "Req 2d: Masonry Asphalt Surface Patching",
         "left_points": [
           "(2a) Yard Tool Reconditioning Methods: Scraping rust, filing beveled edges, and applying protective oil prevents corrosion on steel yard implements. Proper seasonal conditioning ensures garden tools slice soil efficiently without handle splintering.",
-          "(2b) Weatherstripping Window Door Envelopes: Installing tubular rubber or bronze tension strips around door perimeters eliminates conditioned air loss. Correctly aligned weather seals maintain airtight compression without preventing door latch engagement.",
-          "(2c) Exterior Joint Caulking Techniques: Sealing structural gaps with weather resistant sealants blocks rainwater from penetrating building substrates. Clean joint channels allow backer rods and elastomeric caulking to form flexible moisture seals."
+          "(2b) Weatherstripping Window Door Envelopes: Installing tubular rubber or bronze tension strips around door perimeters eliminates conditioned air loss. Correctly aligned weather seals maintain airtight compression without preventing door latch engagement."
         ],
         "right_points": [
           "(2d) Masonry Asphalt Surface Patching: Filling pavement crevices prevents freeze and thaw cycles from heaving concrete footings or asphalt driveways. Chiseled edges and latex fortified patching compounds restore durable vehicular weight capacities.",
-          "(2e) Window Screen Mesh Replacement: Replacing punctured window insect screens requires square frames and proper spline tensioning techniques. Proper spline insertion draws fiberglass cloth taut without twisting aluminum frames out of square.",
-          "(2f) Window Glass Pane Installation: Removing broken glass fragments from wood sashes requires chiseling old rock hard putty away cleanly. Driving glazier points into wood frames secures replacement panes before fresh putty is beveled."
+          "(2e) Window Screen Mesh Replacement: Replacing punctured window insect screens requires square frames and proper spline tensioning techniques. Proper spline insertion draws fiberglass cloth taut without twisting aluminum frames out of square."
         ],
         "rows": [
           {
@@ -958,22 +952,22 @@
           },
           {
             "attribute": "Joint Caulk Bead",
-            "left": "(2c) Exterior Joint Caulking Techniques: Sealing structural gaps with weather resistant sealants blocks rainwater from penetrating building substrates. Clean joint channels allow backer rods and elastomeric caulking to form flexible moisture seals.",
-            "right": "(2f) Window Glass Pane Installation: Removing broken glass fragments from wood sashes requires chiseling old rock hard putty away cleanly. Driving glazier points into wood frames secures replacement panes before fresh putty is beveled."
+            "left": "Joint Caulk Bead: Smooth polyurethane caulking beads block external moisture migration through exterior siding gaps.",
+            "right": "Mortar Joint Tuckpointing: Polymer modified asphalt patch stabilizes fractured driveway slabs against freezing water infiltration."
           }
         ]
       },
       "worked_example": {
-        "title": "Home Repairs Req 2 Exemplar Workbook Entry: Exterior",
+        "title": "Home Repairs Req 2 Worked Example: Exterior Envelope Tool Maintenance",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Yard Tool Reconditioning": "Scraping rust, filing beveled edges, and applying protective oil prevents corrosion on steel yard implements. Proper seasonal conditioning ensures garden tools slice soil efficiently without handle splintering.",
-          "Req 2b - Weatherstripping Window Door": "Installing tubular rubber or bronze tension strips around door perimeters eliminates conditioned air loss. Correctly aligned weather seals maintain airtight compression without preventing door latch engagement.",
-          "Req 2c - Exterior Joint Caulking": "Sealing structural gaps with weather resistant sealants blocks rainwater from penetrating building substrates. Clean joint channels allow backer rods and elastomeric caulking to form flexible moisture seals.",
-          "Req 2d - Masonry Asphalt Surface": "Filling pavement crevices prevents freeze and thaw cycles from heaving concrete footings or asphalt driveways. Chiseled edges and latex fortified patching compounds restore durable vehicular weight capacities."
+          "Phase 1 - Surface Cleansing": "Scrape loose rust and flaking paint from metal surfaces using steel wire brushes.",
+          "Phase 2 - Tool Dressing": "Push a single cut mill file forward along tool bevels under uniform pressure.",
+          "Phase 3 - Weatherstrip Fitting": "Measure sash channels carefully before pressing adhesive foam strips into clean window jambs.",
+          "Phase 4 - Sealant Application": "Extrude continuous beads of exterior caulk into gaps using steady caulking gun pressure."
         },
-        "sample_output": "Exterior Maintenance and Weatherproofing Projects: The longer nap makes it possible to work paint into irregular surfaces such as concrete block and highly textured walls like stucco (p. 45).",
-        "counselor_tip": "For Home Repairs Requirement 2 (Exterior Maintenance and Weatherproofing Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49))."
+        "sample_output": "Exterior home maintenance preserves structural weather envelopes and extends the operating life of manual tools. Proper lubrication, weatherstripping, and joint sealant application prevent severe moisture damage to framing members.",
+        "counselor_tip": "During the Home Repairs Requirement 2 conference on Exterior Envelope Tool Maintenance, verify that the Scout can explain cutting edge sharpening and demonstrate sealant application: Extrude continuous beads of exterior caulk into gaps using steady caulking gun pressure."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you choose a roller cover with a longer nap when painting concrete block or stucco?",
@@ -1688,23 +1682,17 @@
         "Step 3 - Mechanical Clamping: Apply parallel bar clamps until slight glue squeeze out appears along joint seams.",
         "Step 4 - Surface Leveling: Sand dried wooden assemblies progressing through medium eighty to fine two-twenty grits."
       ],
-      "gear_checklist": [
-        "Official Home Repairs Merit Badge: Supervision Install Equipment Storing.",
-        "Field notebook, verification log sheet, and demonstration materials for Supervision Install Equipment Storing.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Tool Storage Cabinet",
+        "left_header": "Req 3a: Tool Storage Cabinet Construction",
         "right_header": "Req 3d: Wood Surface Staining Finishing",
         "left_points": [
           "(3a) Tool Storage Cabinet Construction: Building custom tool racks keeps sharp chisels and precision layout squares protected from workshop damage. Mounting backing boards directly into wall studs ensures tool racks support heavy metal equipment safely.",
-          "(3b) Sturdy Shop Workbench Construction: Building an ergonomic shop workbench requires heavy timber framing, bolted joints, and level surfaces. Sturdy cross braces prevent the bench from rocking while planing timber or using bench vises.",
-          "(3c) Wooden Furniture Structural Repair: Restoring broken furniture chairs and tables involves disassembling loose joints and removing old glue. Re-gluing with aliphatic wood glue under bar clamp pressure restores structural rigidity."
+          "(3b) Sturdy Shop Workbench Construction: Building an ergonomic shop workbench requires heavy timber framing, bolted joints, and level surfaces. Sturdy cross braces prevent the bench from rocking while planing timber or using bench vises."
         ],
         "right_points": [
           "(3d) Wood Surface Staining Finishing: Refinishing wooden doors, furniture, or architectural trim requires thorough sanding along natural wood grain. Thin, progressive coats of varnish or enamel paint deliver smooth, durable, protective finishes.",
-          "(3e) Sagging Door Gate Alignment: Sagging wooden gates and passage doors usually result from loosened hinge screws or racked corners. Installing diagonal tension rods or longer hinge screws into framing studs restores free swinging clearance.",
-          "(3f) Stair Tread Railing Securing: Loose stair steps and loose handrails pose serious fall hazards in residential staircases. Tightening carriage bolts and anchoring new hardwood balusters ensures handrails withstand heavy lateral loads."
+          "(3e) Sagging Door Gate Alignment: Sagging wooden gates and passage doors usually result from loosened hinge screws or racked corners. Installing diagonal tension rods or longer hinge screws into framing studs restores free swinging clearance."
         ],
         "rows": [
           {
@@ -1719,22 +1707,22 @@
           },
           {
             "attribute": "Furniture Tenon Clamping",
-            "left": "(3c) Wooden Furniture Structural Repair: Restoring broken furniture chairs and tables involves disassembling loose joints and removing old glue. Re-gluing with aliphatic wood glue under bar clamp pressure restores structural rigidity.",
-            "right": "(3f) Stair Tread Railing Securing: Loose stair steps and loose handrails pose serious fall hazards in residential staircases. Tightening carriage bolts and anchoring new hardwood balusters ensures handrails withstand heavy lateral loads."
+            "left": "Furniture Tenon Clamping: Polyvinyl acetate woodworking adhesive requires four hours under firm clamp pressure.",
+            "right": "Finish Surface Sanding: Sanding parallel with the wood grain prevents unsightly scratches across stained timber surfaces."
           }
         ]
       },
       "worked_example": {
-        "title": "Home Repairs Req 3 Exemplar Workbook Entry: Workshop",
+        "title": "Home Repairs Req 3 Worked Example: Furniture Shop Structure Repairs",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Tool Storage Cabinet": "Building custom tool racks keeps sharp chisels and precision layout squares protected from workshop damage. Mounting backing boards directly into wall studs ensures tool racks support heavy metal equipment safely.",
-          "Req 3b - Sturdy Shop Workbench": "Building an ergonomic shop workbench requires heavy timber framing, bolted joints, and level surfaces. Sturdy cross braces prevent the bench from rocking while planing timber or using bench vises.",
-          "Req 3c - Wooden Furniture Structural": "Restoring broken furniture chairs and tables involves disassembling loose joints and removing old glue. Re-gluing with aliphatic wood glue under bar clamp pressure restores structural rigidity.",
-          "Req 3d - Wood Surface Staining": "Refinishing wooden doors, furniture, or architectural trim requires thorough sanding along natural wood grain. Thin, progressive coats of varnish or enamel paint deliver smooth, durable, protective finishes."
+          "Phase 1 - Joinery Cleaning": "Scrape dried brittle glue from joint mortises using sharp narrow wood chisels.",
+          "Phase 2 - Adhesive Application": "Spread yellow aliphatic resin glue evenly across matching wooden contact surfaces.",
+          "Phase 3 - Mechanical Clamping": "Apply parallel bar clamps until slight glue squeeze out appears along joint seams.",
+          "Phase 4 - Surface Leveling": "Sand dried wooden assemblies progressing through medium eighty to fine two-twenty grits."
         },
-        "sample_output": "Workshop Setup and Woodwork Repairs: A good brush makes aworld of difference when working with enamel (p. 74).",
-        "counselor_tip": "For Home Repairs Requirement 3 (Workshop Setup and Woodwork Repairs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77))."
+        "sample_output": "Woodworking and furniture maintenance require solid joinery, correct fastener selection, and careful surface preparation. Constructing rigid workshop frames or repairing fractured joints demands accurate layout work and clamped glue cure times.",
+        "counselor_tip": "During the Home Repairs Requirement 3 conference on Furniture Shop Structure Repairs, verify that the Scout can explain tool storage organization and demonstrate surface leveling: Sand dried wooden assemblies progressing through medium eighty to fine two-twenty grits."
       },
       "quiz_item": {
         "scenario_prompt": "Why is enamel recommended when painting interior woodwork, doors, and house trim?",
@@ -2220,22 +2208,22 @@
           },
           {
             "attribute": "Terminal Loop Direction",
-            "left": "Req 4a: Circuit Breaker Fuse: Navigating main service panels requires locating master disconnect breakers and understanding branch load schedules. Safely resetting tripped toggle breakers involves moving levers fully off before snapping them.",
-            "right": "Req 4b: Cord Plug Socket Replacement: Fixing damaged electrical cords involves cutting back frayed insulation and installing polarized replacement plugs. Correct terminal polarity matches wide neutral prongs to ribbed insulation conductors for household user safety."
+            "left": "Terminal Loop Direction: Clockwise copper wire loops stay clamped firmly under tightening outlet brass screws.",
+            "right": "Wall Switch Grounding: Bare copper equipment grounding conductors must connect securely to green grounding screws."
           }
         ]
       },
       "worked_example": {
-        "title": "Home Repairs Req 4 Exemplar Workbook Entry: Basic",
+        "title": "Home Repairs Req 4 Worked Example: Electrical Distribution Fixture Repairs",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Circuit Breaker Fuse": "Navigating main service panels requires locating master disconnect breakers and understanding branch load schedules. Safely resetting tripped toggle breakers involves moving levers fully off before snapping them.",
-          "Req 4b - Cord Plug Socket Replacement": "Fixing damaged electrical cords involves cutting back frayed insulation and installing polarized replacement plugs. Correct terminal polarity matches wide neutral prongs to ribbed insulation conductors for household user safety.",
-          "Req 4c - Single Pole Switch": "Installing wall toggle switches requires controlling the hot leg of electrical branch circuits safely. Securing stripped copper conductors under terminal screws ensures uninterrupted grounding and reliable switch contact.",
-          "Req 4d - Electrical Wall Outlet": "Replacing worn wall outlets restores firm spring contact on cord prongs and prevents overheating. Matching hot wires to brass screws and neutrals to silver screws maintains household circuit polarity."
+          "Phase 1 - Circuit De-energization": "Switch off the designated branch circuit breaker at the main service electrical panel.",
+          "Phase 2 - Voltage Verification": "Confirm zero circuit power using a reliable non-contact voltage tester inside boxes.",
+          "Phase 3 - Terminal Disconnection": "Loosen terminal screws with insulated screwdrivers to release older electrical copper wiring.",
+          "Phase 4 - Conductor Re-termination": "Wrap stripped conductor ends clockwise around matching brass and silver terminal screw bodies."
         },
-        "sample_output": "Basic Household Electrical System Repairs: To reset the circuit and restore power, flip the switch to full \"off\" and then back to \"on.\" Circuit breaker fuses have a reset button or switch (p. 24).",
-        "counselor_tip": "For Home Repairs Requirement 4 (Basic Household Electrical System Repairs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26))."
+        "sample_output": "Residential electrical repairs require strict isolation of power feeds before opening device junction boxes. Verifying zero voltage with calibrated testing tools prevents lethal electric shocks and arc flash incidents.",
+        "counselor_tip": "During the Home Repairs Requirement 4 conference on Electrical Distribution Fixture Repairs, verify that the Scout can explain breaker panel safety and demonstrate conductor re-termination: Wrap stripped conductor ends clockwise around matching brass and silver terminal screw bodies."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do you properly reset a circuit breaker toggle that has tripped to the center position?",
@@ -2792,7 +2780,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Drain P-Trap Obstruction",
+        "left_header": "Req 5a: Drain P-Trap Obstruction Clearance",
         "right_header": "Req 5c: Toilet Tank Flush Repair",
         "left_points": [
           "(5a) Drain P-Trap Obstruction Clearance: Clearing blocked sink basins requires disassembling curved P-traps or operating manual drum augers. Physical extraction of hair and grease clumps restores gravity flow without corrosive chemicals.",
@@ -2815,22 +2803,22 @@
           },
           {
             "attribute": "Faucet Stem Rebuilding",
-            "left": "Req 5a: Drain P-Trap Obstruction: Clearing blocked sink basins requires disassembling curved P-traps or operating manual drum augers. Physical extraction of hair and grease clumps restores gravity flow without corrosive chemicals.",
-            "right": "Req 5b: Water Faucet Stem Overhaul: Rebuilding leaky sink faucets requires disassembling decorative handles and removing internal valve stems. Replacing scratched O-rings, neoprene washers, and brass seats restores water tight valve seals."
+            "left": "Faucet Stem Rebuilding: Worn neoprene seat washers cause continuous water dripping from compression faucet spouts.",
+            "right": "Toilet Flapper Alignment: Adjusting flapper chain slack prevents ghost flushing caused by leaking flush valves."
           }
         ]
       },
       "worked_example": {
-        "title": "Home Repairs Req 5 Exemplar Workbook Entry: Household",
+        "title": "Home Repairs Req 5 Worked Example: Domestic Plumbing Fixture Maintenance",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Drain P-Trap Obstruction": "Clearing blocked sink basins requires disassembling curved P-traps or operating manual drum augers. Physical extraction of hair and grease clumps restores gravity flow without corrosive chemicals.",
-          "Req 5b - Water Faucet Stem Overhaul": "Rebuilding leaky sink faucets requires disassembling decorative handles and removing internal valve stems. Replacing scratched O-rings, neoprene washers, and brass seats restores water tight valve seals.",
-          "Req 5c - Toilet Tank Flush Repair": "Repairing faulty toilet tanks requires diagnosing worn rubber flappers, faulty float valves, or misadjusted chains. Replacing fill valves and setting proper tank water heights prevents continuous freshwater waste.",
-          "Req 5d - Garden Hose Coupling Repair": "Restoring leaky garden hoses requires cutting away split casing cleanly with utility knives. Installing brass compression couplings and fresh vinyl hose washers stops water spraying at connections."
+          "Phase 1 - Supply Isolation": "Turn clockwise the angle stop valve beneath sinks to isolate pressurized water lines.",
+          "Phase 2 - Trap Removal": "Loosen slip nuts on sink P-traps using adjustable slip joint pliers over buckets.",
+          "Phase 3 - Obstruction Clearance": "Clear pipe hair and soap blockages by pushing manual hand snakes through drains.",
+          "Phase 4 - Component Assembly": "Seat fresh neoprene washers squarely onto stems before retightening packing nuts with wrenches."
         },
-        "sample_output": "Household Plumbing and Water Shut off Repairs: Traps in the shapes of a drum or J, S, or P, plus pipes to which the traps are connected (p. 32).",
-        "counselor_tip": "For Home Repairs Requirement 5 (Household Plumbing and Water Shut off Repairs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33))."
+        "sample_output": "Plumbing maintenance relies on isolating domestic water pressure before disassembling valves or pipe joints. Clearing mechanical blockages and replacing degraded rubber washers restores leak-free operation to drainage and supply systems.",
+        "counselor_tip": "During the Home Repairs Requirement 5 conference on Domestic Plumbing Fixture Maintenance, verify that the Scout can explain main shutoff location and demonstrate component assembly: Seat fresh neoprene washers squarely onto stems before retightening packing nuts with wrenches."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you never pour a caustic commercial drain cleaner into a completely clogged sink or tub?",
@@ -3623,13 +3611,11 @@
         "right_header": "Req 6e: Drywall Fastener Anchor Mounting",
         "left_points": [
           "(6a) Interior Wall Ceiling Painting: Painting interior ceilings and walls requires washing grime away and masking architectural moldings with tape. Rolling paint in uniform W patterns prevents roller lap marks across large surface areas.",
-          "(6b) Flooring Tile Surface Repair: Replacing cracked ceramic tiles or torn vinyl sheets requires scraping away old brittle mastic. Leveling subfloors and pressing new tiles into notched adhesive beds restores flat resilient floors.",
-          "(6c) Window Drapery Rod Installation: Hanging heavy window drapery requires leveling curtain rods accurately across window frame tops. Securing mounting brackets with toggle bolts or wood screws prevents wall anchor pullout failures."
+          "(6b) Flooring Tile Surface Repair: Replacing cracked ceramic tiles or torn vinyl sheets requires scraping away old brittle mastic. Leveling subfloors and pressing new tiles into notched adhesive beds restores flat resilient floors."
         ],
         "right_points": [
           "(6e) Drywall Fastener Anchor Mounting: Fastening heavy mirrors or hanging plant brackets requires selecting anchors matched to object weights. Threaded zinc anchors and hollow wall toggle bolts prevent fasteners from ripping through gypsum.",
-          "(6f) Picture Frame Corner Reinforcement: Reinforcing loose picture frames requires squaring corner joints and clamping them with band clamps. Installing metal corner brackets or wooden spline keys prevents framed artwork from falling apart.",
-          "(6g) Ceramic Glass Object Repair: Mending broken china or glass ornaments involves degreasing fracture surfaces thoroughly with isopropyl alcohol. Applying thin two part clear epoxy and supporting fragments during cure produces smooth repairs."
+          "(6f) Picture Frame Corner Reinforcement: Reinforcing loose picture frames requires squaring corner joints and clamping them with band clamps. Installing metal corner brackets or wooden spline keys prevents framed artwork from falling apart."
         ],
         "rows": [
           {
@@ -3644,22 +3630,22 @@
           },
           {
             "attribute": "Drywall Anchor Rating",
-            "left": "(6c) Window Drapery Rod Installation: Hanging heavy window drapery requires leveling curtain rods accurately across window frame tops. Securing mounting brackets with toggle bolts or wood screws prevents wall anchor pullout failures.",
-            "right": "(6g) Ceramic Glass Object Repair: Mending broken china or glass ornaments involves degreasing fracture surfaces thoroughly with isopropyl alcohol. Applying thin two part clear epoxy and supporting fragments during cure produces smooth repairs."
+            "left": "Drywall Anchor Rating: Threaded drywall anchors support substantially heavier shear loads than plastic expansion plugs.",
+            "right": "Porcelain Adhesive Bonding: Slow cure two-part epoxy resins bond fractured ceramic pottery fragments with waterproof strength."
           }
         ]
       },
       "worked_example": {
-        "title": "Home Repairs Req 6 Exemplar Workbook Entry: Interior",
+        "title": "Home Repairs Req 6 Worked Example: Interior Surface Fixture Restoration",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Interior Wall Ceiling": "Painting interior ceilings and walls requires washing grime away and masking architectural moldings with tape. Rolling paint in uniform W patterns prevents roller lap marks across large surface areas.",
-          "Req 6b - Flooring Tile Surface Repair": "Replacing cracked ceramic tiles or torn vinyl sheets requires scraping away old brittle mastic. Leveling subfloors and pressing new tiles into notched adhesive beds restores flat resilient floors.",
-          "Req 6c - Window Drapery Rod": "Hanging heavy window drapery requires leveling curtain rods accurately across window frame tops. Securing mounting brackets with toggle bolts or wood screws prevents wall anchor pullout failures.",
-          "Req 6d - Drywall Void Patching": "Fixing holes in gypsum drywall requires installing solid wood backer blocks for large voids. Applying self adhesive mesh tape and multiple coats of joint compound produces invisible repairs."
+          "Phase 1 - Hole Preparation": "Trim frayed drywall paper edges clean using sharp utility knife blades around holes.",
+          "Phase 2 - Backing Installation": "Fasten wood backing strips inside large drywall voids using coarse drywall screws.",
+          "Phase 3 - Compound Application": "Spread joint compound across fiberglass mesh tape using wide flexible drywall taping knives.",
+          "Phase 4 - Surface Smoothing": "Sand dried joint compound flush with wall planes using fine two-twenty grit abrasive blocks."
         },
-        "sample_output": "Interior Walls, Flooring, and Fixture Repairs: Take the blind from the window and place it on a floor, table, or workbench (p. 66).",
-        "counselor_tip": "For Home Repairs Requirement 6 (Interior Walls, Flooring, and Fixture Repairs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70))."
+        "sample_output": "Interior architectural repairs encompass drywall patching, floor tile replacement, and secure wall hanging installation. Proper surface preparation, mechanical fastening into wall studs, and careful adhesive selection produce durable repairs.",
+        "counselor_tip": "During the Home Repairs Requirement 6 conference on Interior Surface Fixture Restoration, verify that the Scout can explain roller paint application and demonstrate surface smoothing: Sand dried joint compound flush with wall planes using fine two-twenty grit abrasive blocks."
       },
       "quiz_item": {
         "scenario_prompt": "What should you do before pulling out the old frayed cords when repairing a window blind?",
@@ -3983,19 +3969,17 @@
         "Step 3 - Interview Preparation: Conduct informational interviews with licensed general contractors regarding everyday residential job duties.",
         "Step 4 - Training Selection: Identify vocational trade schools or union apprenticeship training centers offering accredited programs."
       ],
-      "gear_checklist": [
-        "Official Home Repairs Merit Badge: Home Repairs Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Home Repairs Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Trade Career Pathway",
-        "right_header": "Req 7b: Craftsmanship Hobby Lifestyle",
+        "left_header": "Req 7a: Trade Career Pathway Investigation",
+        "right_header": "Req 7b: Craftsmanship Hobby Lifestyle Exploration",
         "left_points": [
-          "(7a) Trade Career Pathway Investigation: Investigating careers in residential carpentry, electrical work, or plumbing reveals structured apprenticeship models. Trade professionals earn competitive salaries while mastering local building codes and modern construction technologies."
+          "(7a) Trade Career Pathway Investigation: Investigating careers in residential carpentry, electrical work, or plumbing reveals structured apprenticeship models. Trade professionals earn competitive salaries while mastering local building codes and modern construction technologies.",
+          "Vocational Apprenticeship Tracks: Paid trade apprenticeships combine hands-on mechanical training with classroom safety instruction courses."
         ],
         "right_points": [
-          "(7b) Craftsmanship Hobby Lifestyle Exploration: Applying home maintenance skills to hobbies enables Scouts to restore vintage furniture and build custom household goods. Engaging with historic preservation groups and community workshops builds practical craftsmanship and creative satisfaction."
+          "(7b) Craftsmanship Hobby Lifestyle Exploration: Applying home maintenance skills to hobbies enables Scouts to restore vintage furniture and build custom household goods. Engaging with historic preservation groups and community workshops builds practical craftsmanship and creative satisfaction.",
+          "Home Woodworking Hobbies: Equipping small home workshops enables building custom cabinetry and repairing antique furniture pieces."
         ],
         "rows": [
           {
@@ -4005,25 +3989,27 @@
           },
           {
             "attribute": "Residential Contractor Licensing",
-            "left": "Req 7a: Trade Career Pathway: Investigating careers in residential carpentry, electrical work, or plumbing reveals structured apprenticeship models. Trade professionals earn competitive salaries while mastering local building codes and modern construction technologies.",
-            "right": "Req 7b: Craftsmanship Hobby: Applying home maintenance skills to hobbies enables Scouts to restore vintage furniture and build custom household goods. Engaging with historic preservation groups and community workshops builds practical craftsmanship and creative satisfaction."
+            "left": "Vocational Apprenticeship Tracks: Paid trade apprenticeships combine hands-on mechanical training with classroom safety instruction courses.",
+            "right": "Home Woodworking Hobbies: Equipping small home workshops enables building custom cabinetry and repairing antique furniture pieces."
           },
           {
             "attribute": "Home Woodworking Hobbies",
-            "left": "Vocational Apprenticeship Tracks: Paid trade apprenticeships combine hands-on mechanical training with classroom safety instruction courses.",
-            "right": "Residential Contractor Licensing: Independent home repair contractors must carry comprehensive general liability insurance and surety bonds."
+            "left": "Home Woodworking Hobbies: Equipping small home workshops enables building custom cabinetry and repairing antique furniture pieces.",
+            "right": "Community Tool Libraries: Tool sharing cooperatives give hobbyists access to specialized machinery without massive capital purchases."
           }
         ]
       },
       "worked_example": {
-        "title": "Home Repairs Req 7 Exemplar Workbook Entry: Building",
+        "title": "Home Repairs Req 7 Worked Example: Vocational Craftsmanship Career Exploration",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Trade Career Pathway": "Investigating careers in residential carpentry, electrical work, or plumbing reveals structured apprenticeship models. Trade professionals earn competitive salaries while mastering local building codes and modern construction technologies.",
-          "Req 7b - Craftsmanship Hobby Lifestyle": "Applying home maintenance skills to hobbies enables Scouts to restore vintage furniture and build custom household goods. Engaging with historic preservation groups and community workshops builds practical craftsmanship and creative satisfaction."
+          "Phase 1 - Career Exploration": "Research state trade licensing boards regarding apprentice hour requirements and exam syllabi.",
+          "Phase 2 - Wage Analysis": "Compare entry level apprentice wages with experienced master technician compensation in construction.",
+          "Phase 3 - Interview Preparation": "Conduct informational interviews with licensed general contractors regarding everyday residential job duties.",
+          "Phase 4 - Training Selection": "Identify vocational trade schools or union apprenticeship training centers offering accredited programs."
         },
-        "sample_output": "Building Trades Careers and Repair Hobbies: Wall Works, Caulking, and Weather-Stripping PAINT TRAY ROLLERS Using rollers gets a paint job done quickly (p. 45).",
-        "counselor_tip": "For Home Repairs Requirement 7 (Building Trades Careers and Repair Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 65))."
+        "sample_output": "Home repair proficiency opens pathways into licensed building trades including plumbing, electrical work, and residential contracting. Developing practical maintenance capabilities also equips homeowners to tackle rewarding woodworking and DIY restoration hobbies.",
+        "counselor_tip": "During the Home Repairs Requirement 7 conference on Vocational Craftsmanship Career Exploration, verify that the Scout can explain vocational apprenticeship tracks and demonstrate training selection: Identify vocational trade schools or union apprenticeship training centers offering accredited programs."
       },
       "quiz_item": {
         "scenario_prompt": "When researching a career or hobby in residential painting and renovation, why is knowing the age of a home important before sanding or scraping walls?",

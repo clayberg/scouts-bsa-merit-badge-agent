@@ -263,13 +263,15 @@
         "Inspected Cycling equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Cycling Hazard Prevention",
+        "left_header": "Req 1a: Cycling Hazard Prevention Strategies",
         "right_header": "Req 1b: Bicycle Trailside First Aid",
         "left_points": [
-          "(1a) Cycling Hazard Prevention Strategies: Cyclists manage risks by maintaining scanning vigilance twenty seconds ahead to spot gravel, animals, and car doors. Group formations require verbal callouts for road hazards to protect trailing riders."
+          "(1a) Cycling Hazard Prevention Strategies: Cyclists manage risks by maintaining scanning vigilance twenty seconds ahead to spot gravel, animals, and car doors. Group formations require verbal callouts for road hazards to protect trailing riders.",
+          "Roadway Hazards: Surface potholes and slick sewer grates cause loss of steering control."
         ],
         "right_points": [
-          "(1b) Bicycle Trailside First Aid: Trailside first aid treats lacerations, friction blisters, and environmental temperature extremes during remote rides. Responders stabilize sprains with splints and monitor concussed riders for cognitive confusion."
+          "(1b) Bicycle Trailside First Aid: Trailside first aid treats lacerations, friction blisters, and environmental temperature extremes during remote rides. Responders stabilize sprains with splints and monitor concussed riders for cognitive confusion.",
+          "Concussion Assessment: Suspected head injury victims must stop riding and seek medical evaluation."
         ],
         "rows": [
           {
@@ -279,25 +281,27 @@
           },
           {
             "attribute": "Hydration Planning",
-            "left": "Req 1a: Cycling Hazard Prevention: Cyclists manage risks by maintaining scanning vigilance twenty seconds ahead to spot gravel, animals, and car doors. Group formations require verbal callouts for road hazards to protect trailing riders.",
-            "right": "Req 1b: Bicycle Trailside First Aid: Trailside first aid treats lacerations, friction blisters, and environmental temperature extremes during remote rides. Responders stabilize sprains with splints and monitor concussed riders for cognitive confusion."
+            "left": "Roadway Hazards: Surface potholes and slick sewer grates cause loss of steering control.",
+            "right": "Concussion Assessment: Suspected head injury victims must stop riding and seek medical evaluation."
           },
           {
             "attribute": "Concussion Assessment",
-            "left": "Roadway Hazards: Surface potholes and slick sewer grates cause loss of steering control.",
-            "right": "Hydration Planning: Riders must consume water and electrolyte fluids before feeling extreme thirst."
+            "left": "Concussion Assessment: Suspected head injury victims must stop riding and seek medical evaluation.",
+            "right": "Wound Management: Clean road abrasions thoroughly with potable water before applying sterile gauze."
           }
         ]
       },
       "worked_example": {
-        "title": "Cycling Req 1 Exemplar Workbook Entry: Cycling Hazards",
+        "title": "Cycling Req 1 Worked Example: Cycling Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Cycling Hazard Prevention": "Cyclists manage risks by maintaining scanning vigilance twenty seconds ahead to spot gravel, animals, and car doors. Group formations require verbal callouts for road hazards to protect trailing riders.",
-          "Req 1b - Bicycle Trailside First Aid": "Trailside first aid treats lacerations, friction blisters, and environmental temperature extremes during remote rides. Responders stabilize sprains with splints and monitor concussed riders for cognitive confusion."
+          "Phase 1 - Route Hazard Assessment": "Identify surface obstacles and narrow road shoulders prior to group departures.",
+          "Phase 2 - Medical Kit Packing": "Pack sterile dressings, adhesive bandages, and electrolyte powders in saddlebags.",
+          "Phase 3 - Heat Stress Response": "Move overheated cyclists into shade and loosen tight helmets or jerseys.",
+          "Phase 4 - Incident Documentation": "Record trail accident details and notify adult leadership of all injuries."
         },
-        "sample_output": "Cycling Hazards and First Aid: Sunburn can cause lasting skin damage and the potential for skin cancer (p. 86).",
-        "counselor_tip": "For Cycling Requirement 1 (Cycling Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cycling Merit Badge Pamphlet (p. 86, p. 87))."
+        "sample_output": "Cyclists prevent common roadway injuries by scanning road surfaces for debris and maintaining safe following distances. First aid preparation requires carrying sterile dressings and oral electrolytes to manage trauma and dehydration.",
+        "counselor_tip": "During the Cycling Requirement 1 conference on Cycling Hazards and First Aid, verify that the Scout can explain roadway hazards and demonstrate incident documentation: Record trail accident details and notify adult leadership of all injuries."
       },
       "quiz_item": {
         "scenario_prompt": "Before departing on a 25-mile troop road ride, you check a Scout's helmet and notice the front rim sits high on the forehead (4 fingers above the eyebrows) and the side straps form a loose loop below the chin. How must the helmet be adjusted?",
@@ -457,47 +461,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Courteous Riding Around Faster",
-        "right_header": "Req 2: Maintain Safe Passing Distance",
+        "left_header": "Bicycle Traffic Law Regulations: Core Principles",
+        "right_header": "Bicycle Traffic Law Regulations: Field Execution",
         "left_points": [
-          "Courteous Riding Around Faster Traffic: However, you should not delay faster drivers unnecessarily (p. 57).",
-          "Merging With Same-Speed Vehicle Traffic: If you are going the same speed as other vehicles, pull into line with them (p. 57).",
-          "Safe Clearance When Passing Vehicles: Don't ride too close to the vehicle you are passing (p. 57)."
+          "Vehicle Status: Bicycles hold statutory vehicle rights and must obey all traffic signals.",
+          "Lane Positioning: Ride on the right side except when turning left or passing."
         ],
         "right_points": [
-          "Maintain Safe Passing Distance: Don't ride too close to the vehicle you are passing (p. 57).",
-          "Merge Back Into Right Lane: After you pass, return to the right lane as soon as is convenient (p. 57).",
-          "Identify Driveway and Road Intersections: An intersection is any point, including a driveway, where the paths of two vehicles can cross (p. 57)."
+          "Signal Communication: Extend your left arm straight horizontally to indicate an impending left turn.",
+          "Door Zone Hazards: Maintain four feet of clearance from parked cars to avoid opening doors."
         ],
         "rows": [
           {
             "attribute": "Vehicle Status",
-            "left": "Courteous Riding Around Faster Traffic: However, you should not delay faster drivers unnecessarily (p. 57).",
-            "right": "Maintain Safe Passing Distance: Don't ride too close to the vehicle you are passing (p. 57)."
+            "left": "Vehicle Status: Bicycles hold statutory vehicle rights and must obey all traffic signals.",
+            "right": "Signal Communication: Extend your left arm straight horizontally to indicate an impending left turn."
           },
           {
             "attribute": "Lane Positioning",
-            "left": "Merging With Same-Speed Vehicle Traffic: If you are going the same speed as other vehicles, pull into line with them (p. 57).",
-            "right": "Merge Back Into Right Lane: After you pass, return to the right lane as soon as is convenient (p. 57)."
+            "left": "Lane Positioning: Ride on the right side except when turning left or passing.",
+            "right": "Door Zone Hazards: Maintain four feet of clearance from parked cars to avoid opening doors."
           },
           {
             "attribute": "Signal Communication",
-            "left": "Safe Clearance When Passing Vehicles: Don't ride too close to the vehicle you are passing (p. 57).",
-            "right": "Identify Driveway and Road Intersections: An intersection is any point, including a driveway, where the paths of two vehicles can cross (p. 57)."
+            "left": "Signal Communication: Extend your left arm straight horizontally to indicate an impending left turn.",
+            "right": "Door Zone Hazards: Maintain four feet of clearance from parked cars to avoid opening doors."
           }
         ]
       },
       "worked_example": {
-        "title": "Cycling Req 2 Exemplar Workbook Entry: Traffic Laws",
+        "title": "Cycling Req 2 Worked Example: Bicycle Traffic Law Regulations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Courteous Riding Around Faster Traffic": "However, you should not delay faster drivers unnecessarily (p. 57).",
-          "Merging with Same-Speed Vehicle": "If you are going the same speed as other vehicles, pull into line with them (p. 57).",
-          "Safe Clearance When Passing Vehicles": "Don't ride too close to the vehicle you are passing (p. 57).",
-          "Returning to the Right Lane": "After you pass, return to the right lane as soon as is convenient (p. 57)."
+          "Phase 1 - Traffic Law Review": "Check municipal codes regarding sidewalk bans and mandatory bicycle lane rules.",
+          "Phase 2 - Shoulder Check Scan": "Look over your left shoulder to confirm motor vehicle clearance before moving.",
+          "Phase 3 - Hand Signal Execution": "Display the hand signal clearly for three seconds prior to initiating turns.",
+          "Phase 4 - Intersection Lane Control": "Take the center of the travel lane when lanes are too narrow."
         },
-        "sample_output": "Traffic Laws and Roadway Positioning: However, you should not delay faster drivers unnecessarily (p. 57).",
-        "counselor_tip": "For Cycling Requirement 2 (Traffic Laws and Roadway Positioning), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cycling Merit Badge Pamphlet (p. 57, p. 59))."
+        "sample_output": "State vehicle codes grant bicycles the rights and responsibilities of motor vehicles on public roadways. Cyclists must ride with traffic flow and execute lane changes using progressive rearward visual shoulder checks.",
+        "counselor_tip": "During the Cycling Requirement 2 conference on Bicycle Traffic Law Regulations, verify that the Scout can explain vehicle status and demonstrate intersection lane control: Take the center of the travel lane when lanes are too narrow."
       },
       "quiz_item": {
         "scenario_prompt": "According to safe roadway positioning guidelines, what should you do when you are riding down a street at the same speed as surrounding motor vehicle traffic?",
@@ -656,47 +658,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Purpose of Bike Safety Guidelines",
-        "right_header": "Req 3: Follow Scouting Bike Safety Rules",
+        "left_header": "Cycling Safety Gear Standards: Core Principles",
+        "right_header": "Cycling Safety Gear Standards: Field Execution",
         "left_points": [
-          "Purpose of Bike Safety Guidelines: The Scouting America Bike Safety Guidelines are designed to make bicycle riding safer and more enjoyable for you and others (p. 94).",
-          "Counselor Safety Guideline Review: Review these guidelines with your merit badge counselor (p. 94).",
-          "Applying Safety Principles on Rides: As with all Scouting activities, these principles should be applied in your cycling event (p. 94)."
+          "Helmet Certification: Bicycle helmets must display a CPSC safety standard approval sticker inside.",
+          "Level Fitment: Position the front helmet rim two finger widths above the brow."
         ],
         "right_points": [
-          "Follow Scouting Bike Safety Rules: As with all Scouting activities, these principles should be applied in your cycling event (p. 94).",
-          "Fit and Fasten Approved Helmet: Bicycle helmets can reduce head injuries by 85 percent, according to the NHTSA (p. 94).",
-          "Verify Top Tube Stand over Clearance: Make sure you can stand over the top tube of your bicycle (p. 94)."
+          "High Visibility Clothing: Fluorescent neon jerseys increase rider contrast against complex urban background environments.",
+          "Eye Protection: Clear or tinted shatterproof lenses shield eyes from grit and insects."
         ],
         "rows": [
           {
             "attribute": "Helmet Certification",
-            "left": "Purpose of Bike Safety Guidelines: The Scouting America Bike Safety Guidelines are designed to make bicycle riding safer and more enjoyable for you and others (p. 94).",
-            "right": "Follow Scouting Bike Safety Rules: As with all Scouting activities, these principles should be applied in your cycling event (p. 94)."
+            "left": "Helmet Certification: Bicycle helmets must display a CPSC safety standard approval sticker inside.",
+            "right": "High Visibility Clothing: Fluorescent neon jerseys increase rider contrast against complex urban background environments."
           },
           {
             "attribute": "Level Fitment",
-            "left": "Counselor Safety Guideline Review: Review these guidelines with your merit badge counselor (p. 94).",
-            "right": "Fit and Fasten Approved Helmet: Bicycle helmets can reduce head injuries by 85 percent, according to the NHTSA (p. 94)."
+            "left": "Level Fitment: Position the front helmet rim two finger widths above the brow.",
+            "right": "Eye Protection: Clear or tinted shatterproof lenses shield eyes from grit and insects."
           },
           {
             "attribute": "High Visibility Clothing",
-            "left": "Applying Safety Principles on Rides: As with all Scouting activities, these principles should be applied in your cycling event (p. 94).",
-            "right": "Verify Top Tube Stand over Clearance: Make sure you can stand over the top tube of your bicycle (p. 94)."
+            "left": "High Visibility Clothing: Fluorescent neon jerseys increase rider contrast against complex urban background environments.",
+            "right": "Eye Protection: Clear or tinted shatterproof lenses shield eyes from grit and insects."
           }
         ]
       },
       "worked_example": {
-        "title": "Cycling Req 3 Exemplar Workbook Entry: Protective Gear",
+        "title": "Cycling Req 3 Worked Example: Cycling Safety Gear Standards",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Purpose of Bike Safety Guidelines": "The Scouting America Bike Safety Guidelines are designed to make bicycle riding safer and more enjoyable for you and others (p. 94).",
-          "Counselor Safety Guideline Review": "Review these guidelines with your merit badge counselor (p. 94).",
-          "Applying Safety Principles on Rides": "As with all Scouting activities, these principles should be applied in your cycling event (p. 94).",
-          "Helmet Head Injury Reduction": "Bicycle helmets can reduce head injuries by 85 percent, according to the NHTSA (p. 94)."
+          "Phase 1 - Helmet Placement Level": "Position the helmet flat on your head without tilting backward or forward.",
+          "Phase 2 - Side Strap Adjustment": "Form a snug V shape directly beneath each earlobe with side sliders.",
+          "Phase 3 - Chin Buckle Tension": "Fasten the chinstrap allowing only one finger between strap and throat.",
+          "Phase 4 - Gear Securing Protocol": "Tuck loose shoelaces into shoes and secure wide pant cuffs with bands."
         },
-        "sample_output": "Protective Gear and Helmet Fit: The Scouting America Bike Safety Guidelines are designed to make bicycle riding safer and more enjoyable for you and others (p. 94).",
-        "counselor_tip": "For Cycling Requirement 3 (Protective Gear and Helmet Fit), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cycling Merit Badge Pamphlet (p. 94, p. 95))."
+        "sample_output": "Proper cycling safety requires an approved helmet meeting Consumer Product Safety Commission standards fitted snug and level. High-visibility apparel and padded cycling shorts prevent road glare accidents and saddle chafing on extended tours.",
+        "counselor_tip": "During the Cycling Requirement 3 conference on Cycling Safety Gear Standards, verify that the Scout can explain helmet certification and demonstrate gear securing protocol: Tuck loose shoelaces into shoes and secure wide pant cuffs with bands."
       },
       "quiz_item": {
         "scenario_prompt": "According to the NHTSA statistics in the Scouting America Bike Safety Guidelines, by how much can wearing a bicycle helmet reduce the risk of head injuries?",
@@ -1329,17 +1329,15 @@
         "Inspected Cycling equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Pre-Ride Safety Inspection",
-        "right_header": "Req 4d: Bicycle Drivetrain Lubrication",
+        "left_header": "Req 4a: Pre-Ride Safety Inspection Points",
+        "right_header": "Req 4d: Bicycle Drivetrain Lubrication Points",
         "left_points": [
           "(4a) Pre-Ride Safety Inspection Points: A systematic pre-ride inspection examines wheel true, headset tightness, quick-release clamps, and cable tension. Catching loose hardware before riding prevents catastrophic mechanical failure at road speed.",
-          "(4b) Saddle and Handlebar Fitting: Set saddle height so the cyclist maintains a slight five to fifteen degree knee bend at bottom stroke. Handlebars should allow comfortable elbow flex without causing excessive spinal curvature or wrist pressure.",
-          "(4c) Brake and Derailleur Adjustment: Adjust brake barrel adjusters to remove cable slack and center the pads squarely on the rim braking track. Set derailleur high and low limit screws so the chain cannot overshoot into the spokes or frame."
+          "(4b) Saddle and Handlebar Fitting: Set saddle height so the cyclist maintains a slight five to fifteen degree knee bend at bottom stroke. Handlebars should allow comfortable elbow flex without causing excessive spinal curvature or wrist pressure."
         ],
         "right_points": [
           "(4d) Bicycle Drivetrain Lubrication Points: Apply targeted bicycle lubricant to chain pivot pins, derailleur pulleys, and brake pivot points while avoiding wheel rims. Wiping off exterior fluid keeps road grime from forming grinding paste inside moving parts.",
-          "(4e) Tire Tube Flat Repair: Repairing a flat tire involves unseating the bead with tire levers, patching or replacing the inner tube, and inspecting the tire casing. Checking the inside casing removes sharp thorns or wire fragments before reinstallation.",
-          "(4f) Bicycle Legal Compliance Standards: Local ordinances require bicycles ridden after sunset to feature a white front headlight and red rear reflector or lamp. Many jurisdictions also mandate audible warning devices like bells and functional braking systems."
+          "(4e) Tire Tube Flat Repair: Repairing a flat tire involves unseating the bead with tire levers, patching or replacing the inner tube, and inspecting the tire casing. Checking the inside casing removes sharp thorns or wire fragments before reinstallation."
         ],
         "rows": [
           {
@@ -1354,22 +1352,22 @@
           },
           {
             "attribute": "Chain Lubrication",
-            "left": "(4c) Brake and Derailleur Adjustment: Adjust brake barrel adjusters to remove cable slack and center the pads squarely on the rim braking track. Set derailleur high and low limit screws so the chain cannot overshoot into the spokes or frame.",
-            "right": "(4f) Bicycle Legal Compliance Standards: Local ordinances require bicycles ridden after sunset to feature a white front headlight and red rear reflector or lamp. Many jurisdictions also mandate audible warning devices like bells and functional braking systems."
+            "left": "Chain Lubrication: Apply bicycle lubricant to chain rollers and wipe away excess surface oil.",
+            "right": "Quick Release Security: Close quick release levers so they curve inward and leave palm impressions."
           }
         ]
       },
       "worked_example": {
-        "title": "Cycling Req 4 Exemplar Workbook Entry: Bicycle",
+        "title": "Cycling Req 4 Worked Example: Bicycle Maintenance and Inspection",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Pre-Ride Safety Inspection": "A systematic pre-ride inspection examines wheel true, headset tightness, quick-release clamps, and cable tension. Catching loose hardware before riding prevents catastrophic mechanical failure at road speed.",
-          "Req 4b - Saddle and Handlebar Fitting": "Set saddle height so the cyclist maintains a slight five to fifteen degree knee bend at bottom stroke. Handlebars should allow comfortable elbow flex without causing excessive spinal curvature or wrist pressure.",
-          "Req 4c - Brake and Derailleur": "Adjust brake barrel adjusters to remove cable slack and center the pads squarely on the rim braking track. Set derailleur high and low limit screws so the chain cannot overshoot into the spokes or frame.",
-          "Req 4d - Bicycle Drivetrain": "Apply targeted bicycle lubricant to chain pivot pins, derailleur pulleys, and brake pivot points while avoiding wheel rims. Wiping off exterior fluid keeps road grime from forming grinding paste inside moving parts."
+          "Phase 1 - Tire Air Inspection": "Inflate inner tubes using a floor gauge pump to specified sidewall PSI.",
+          "Phase 2 - Brake Squeeze Check": "Squeeze brake levers to verify one thumb width clearance before bar contact.",
+          "Phase 3 - Drivetrain Cleaning Lube": "Degrease chain links thoroughly before applying specialized synthetic bicycle lubricant drops.",
+          "Phase 4 - Cockpit Bolt Tightening": "Tighten stem and seatpost binder bolts evenly to prevent unexpected slippage."
         },
-        "sample_output": "Bicycle Inspection Fit and Maintenance: Review these guidelines with your merit badge counselor (p. 54).",
-        "counselor_tip": "For Cycling Requirement 4 (Bicycle Inspection Fit and Maintenance), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94))."
+        "sample_output": "Routine bicycle maintenance uses the ABC Quick Check protocol to ensure air pressure, brake pads, and chains function safely. Proper adjustments of seat height and handlebar reach prevent chronic joint strain and ensure responsive control.",
+        "counselor_tip": "During the Cycling Requirement 4 conference on Bicycle Maintenance and Inspection, verify that the Scout can explain tire pressure and demonstrate cockpit bolt tightening: Tighten stem and seatpost binder bolts evenly to prevent unexpected slippage."
       },
       "quiz_item": {
         "scenario_prompt": "When repairing a flat tire on a ride, what critical step prevents the new or patched tube from immediately puncturing again once inflated?",
@@ -1534,47 +1532,45 @@
         "Inspected Cycling equipment sized to the Scout and pre-session safety check card."
       ],
       "comparison_data": {
-        "left_header": "Req 5: Locking Brakes Before Mounting",
-        "right_header": "Req 5: Set Crank at Ten O'Clock",
+        "left_header": "Bicycle Handling and Control Skills: Core Principles",
+        "right_header": "Bicycle Handling and Control Skills: Field Execution",
         "left_points": [
-          "Locking Brakes Before Mounting: To mount the bicycle, engage the brakes to prevent the bike from rolling (p. 53).",
-          "Straddling the Bicycle Top Tube: Swing either leg up and over the bike and straddle the top tube (p. 53).",
-          "Pedal Power Position at Ten O'Clock: Use your foot to turn the crank backward until it reaches the 10 o'clock position (p. 53)."
+          "Power Pedal Start: Position your dominant pedal at the two o'clock position to begin forward motion.",
+          "Threshold Emergency Braking: Shift rider body weight backward over the rear wheel during hard braking stops."
         ],
         "right_points": [
-          "Set Crank at Ten O'Clock: Use your foot to turn the crank backward until it reaches the 10 o'clock position (p. 53).",
-          "Push Down and Rise Onto Saddle: As your body moves up and the bike moves forward, the saddle will move (p. 53).",
-          "Complete Second Pedal Stroke Smoothly: When the opposite pedal reaches the 12 o'clock position, make a second pedal stroke (p. 53)."
+          "Straight Line Scanning: Practice looking over your left shoulder while keeping handlebars tracking perfectly straight.",
+          "Predictable Turning Arc: Lean bicycle gently into turns while keeping inside pedal raised at twelve."
         ],
         "rows": [
           {
             "attribute": "Power Pedal Start",
-            "left": "Locking Brakes Before Mounting: To mount the bicycle, engage the brakes to prevent the bike from rolling (p. 53).",
-            "right": "Set Crank at Ten O'Clock: Use your foot to turn the crank backward until it reaches the 10 o'clock position (p. 53)."
+            "left": "Power Pedal Start: Position your dominant pedal at the two o'clock position to begin forward motion.",
+            "right": "Straight Line Scanning: Practice looking over your left shoulder while keeping handlebars tracking perfectly straight."
           },
           {
             "attribute": "Threshold Emergency Braking",
-            "left": "Straddling the Bicycle Top Tube: Swing either leg up and over the bike and straddle the top tube (p. 53).",
-            "right": "Push Down and Rise Onto Saddle: As your body moves up and the bike moves forward, the saddle will move (p. 53)."
+            "left": "Threshold Emergency Braking: Shift rider body weight backward over the rear wheel during hard braking stops.",
+            "right": "Predictable Turning Arc: Lean bicycle gently into turns while keeping inside pedal raised at twelve."
           },
           {
             "attribute": "Straight Line Scanning",
-            "left": "Pedal Power Position at Ten O'Clock: Use your foot to turn the crank backward until it reaches the 10 o'clock position (p. 53).",
-            "right": "Complete Second Pedal Stroke Smoothly: When the opposite pedal reaches the 12 o'clock position, make a second pedal stroke (p. 53)."
+            "left": "Straight Line Scanning: Practice looking over your left shoulder while keeping handlebars tracking perfectly straight.",
+            "right": "Predictable Turning Arc: Lean bicycle gently into turns while keeping inside pedal raised at twelve."
           }
         ]
       },
       "worked_example": {
-        "title": "Cycling Req 5 Exemplar Workbook Entry: Fundamental Bike",
+        "title": "Cycling Req 5 Worked Example: Bicycle Handling and Control Skills",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Locking Brakes Before Mounting": "To mount the bicycle, engage the brakes to prevent the bike from rolling (p. 53).",
-          "Straddling the Bicycle Top Tube": "Swing either leg up and over the bike and straddle the top tube (p. 53).",
-          "Pedal Power Position at Ten O'Clock": "Use your foot to turn the crank backward until it reaches the 10 o'clock position (p. 53).",
-          "Smooth Transition Onto the Saddle": "As your body moves up and the bike moves forward, the saddle will move (p. 53)."
+          "Phase 1 - High Pedal Launch": "Set the lead pedal to two o'clock and push down smoothly.",
+          "Phase 2 - Straight Tracking Balance": "Maintain steady cadence while keeping the front wheel centered within the lane.",
+          "Phase 3 - Shoulder Scanning Drill": "Glance backward over your shoulder without pulling the handlebar in that direction.",
+          "Phase 4 - Controlled Emergency Stop": "Slide weight behind saddle while squeezing both brake levers with controlled modulation."
         },
-        "sample_output": "Fundamental Bike Handling and Control: To mount the bicycle, engage the brakes to prevent the bike from rolling (p. 53).",
-        "counselor_tip": "For Cycling Requirement 5 (Fundamental Bike Handling and Control), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cycling Merit Badge Pamphlet (p. 53, p. 55))."
+        "sample_output": "Mastering bicycle handling involves smooth power starts, straight-line balance, predictable cornering, and rapid emergency braking. Cyclists must execute shoulder scans and standard hand signals without deviating from their travel line.",
+        "counselor_tip": "During the Cycling Requirement 5 conference on Bicycle Handling and Control Skills, verify that the Scout can explain power pedal start and demonstrate controlled emergency stop: Slide weight behind saddle while squeezing both brake levers with controlled modulation."
       },
       "quiz_item": {
         "scenario_prompt": "What is the proper technique for executing an emergency stop on a bicycle without pitching over the handlebars?",
@@ -3384,12 +3380,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 6a: Road Biking Tour Requirements",
-        "right_header": "Req 6b: Trail Surface Biking",
+        "right_header": "Req 6b: Trail Surface Biking Requirements",
         "left_points": [
-          "(6a) Road Biking Tour Requirements: The road biking option focuses on highway navigation, road safety tests, and multiple progressive endurance tours culminating in a fifty-mile ride. Cyclists must navigate traffic safely and sustain pedaling rhythm over asphalt terrain."
+          "(6a) Road Biking Tour Requirements: The road biking option focuses on highway navigation, road safety tests, and multiple progressive endurance tours culminating in a fifty-mile ride. Cyclists must navigate traffic safely and sustain pedaling rhythm over asphalt terrain.",
+          "Buddy System Discipline: Ride within conversational distance and monitor your partner for fatigue or mechanicals."
         ],
         "right_points": [
-          "(6b) Trail Surface Biking Requirements: The trail option tests off-road bike handling over gravel, roots, rocks, and uneven dirt paths across multiple off-road treks. Cyclists adapt tire pressures for traction and navigate varying trail grades while respecting wilderness path ethics."
+          "(6b) Trail Surface Biking Requirements: The trail option tests off-road bike handling over gravel, roots, rocks, and uneven dirt paths across multiple off-road treks. Cyclists adapt tire pressures for traction and navigate varying trail grades while respecting wilderness path ethics.",
+          "Trail Etiquette Rules: Yield the trail to hikers and announce passes to avoid startling horses."
         ],
         "rows": [
           {
@@ -3399,25 +3397,27 @@
           },
           {
             "attribute": "Touring Pace Cadence",
-            "left": "Req 6a: Road Biking Tour: The road biking option focuses on highway navigation, road safety tests, and multiple progressive endurance tours culminating in a fifty-mile ride. Cyclists must navigate traffic safely and sustain pedaling rhythm over asphalt terrain.",
-            "right": "Req 6b: Trail Surface Biking: The trail option tests off-road bike handling over gravel, roots, rocks, and uneven dirt paths across multiple off-road treks. Cyclists adapt tire pressures for traction and navigate varying trail grades while respecting wilderness path ethics."
+            "left": "Buddy System Discipline: Ride within conversational distance and monitor your partner for fatigue or mechanicals.",
+            "right": "Trail Etiquette Rules: Yield the trail to hikers and announce passes to avoid startling horses."
           },
           {
             "attribute": "Trail Etiquette Rules",
-            "left": "Buddy System Discipline: Ride within conversational distance and monitor your partner for fatigue or mechanicals.",
-            "right": "Touring Pace Cadence: Spin steady pedal cadence between seventy and ninety revolutions each minute continuously."
+            "left": "Trail Etiquette Rules: Yield the trail to hikers and announce passes to avoid startling horses.",
+            "right": "Rest Stop Nutrition: Consume carbohydrate snacks and fluids every forty-five minutes during long distance rides."
           }
         ]
       },
       "worked_example": {
-        "title": "Cycling Req 6 Exemplar Workbook Entry: Road and Trail",
+        "title": "Cycling Req 6 Worked Example: Structured Cycling Tour Execution",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Road Biking Tour Requirements": "The road biking option focuses on highway navigation, road safety tests, and multiple progressive endurance tours culminating in a fifty-mile ride. Cyclists must navigate traffic safely and sustain pedaling rhythm over asphalt terrain.",
-          "Req 6b - Trail Surface Biking": "The trail option tests off-road bike handling over gravel, roots, rocks, and uneven dirt paths across multiple off-road treks. Cyclists adapt tire pressures for traction and navigate varying trail grades while respecting wilderness path ethics."
+          "Phase 1 - Route Elevation Mapping": "Chart the course profile, resupply points, and emergency bailout locations in advance.",
+          "Phase 2 - Pre-Ride Buddy Briefing": "Review hand signals, planned pace, and rest stop locations with your partner.",
+          "Phase 3 - Cadence Nutrition Management": "Maintain steady pedaling and take regular fluid sips during each ride segment.",
+          "Phase 4 - Post-Ride Log Entry": "Record total mileage, elapsed time, weather conditions, and terrain in your cycling logbook."
         },
-        "sample_output": "Road and Trail Riding Endurances: Push your bike into the turn, keep your head up and look at your exit point, one finger on each brake lever (p. 80).",
-        "counselor_tip": "For Cycling Requirement 6 (Road and Trail Riding Endurances), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94))."
+        "sample_output": "Completing either the road biking or trail biking option requires rigorous route planning and strict adherence to the buddy system. Riders maintain continuous visual contact, monitor fatigue levels, and coordinate pacing across all scheduled touring miles.",
+        "counselor_tip": "During the Cycling Requirement 6 conference on Structured Cycling Tour Execution, verify that the Scout can explain buddy system discipline and demonstrate post-ride log entry: Record total mileage, elapsed time, weather conditions, and terrain in your cycling logbook."
       },
       "quiz_item": {
         "scenario_prompt": "Which technique gives you the best control when riding through a tight 90-degree turn on a trail?",

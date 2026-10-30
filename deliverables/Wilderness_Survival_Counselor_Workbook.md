@@ -53,10 +53,8 @@
 #### Req 1a: Backcountry Environmental First Aid
 **Official Requirement 1a:** Show or explain first aid for, and prevention of, injuries and conditions that could occur in backcountry settings, including: (1) Dehydration (2) Heatstroke (3) Hypothermia (4) Shock (5) Blisters (6) Eye injuries (7) Ankle and knee sprains (8) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (9) Bee stings (10) Bites of spiders (11) Sting of a scorpion (12) Bite of a wild mammal (13) Bite of a venomous snake.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 53, p. 58)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** A person suffering heatstroke will always sweat heavily during strenuous physical activity.
-- **Pamphlet Fact:** Heatstroke is a medical emergency requiring rapid active cooling with immersion or wet cloths.
 
-![Wilderness Survival Requirement 1 figure showing core temperature drops below ninety-five degrees Fahrenheit require immediate active.](/assets/pamphlet_images/wilderness_survival_p003_img1.png)
+![Core temperature drops below ninety-five degrees Fahrenheit require immediate active warming and sheltered insulation.](/assets/pamphlet_images/wilderness_survival_p003_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -79,8 +77,6 @@
 #### Req 1b: Scout Basic Essentials Preparedness
 **Official Requirement 1b:** Explain how the Scout Basic Essentials address hazards of survival situations and are basic to a survival kit.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 53, p. 58)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Basic Essentials Address Hazards of)
-- **Common Myth:** Basic essentials are luxury conveniences meant only for comfortable planned weekend campouts.
-- **Pamphlet Fact:** The Scout Basic Essentials provide survival tools to endure unexpected overnight outdoor exposure.
 
 ![Rescuers wrap an injured hiker in insulated blankets to treat severe hypothermia.](/assets/pamphlet_images/wilderness_survival_p054_img1.png)
 
@@ -93,10 +89,8 @@
 #### Req 1c: Wilderness Trip Plan Prevention
 **Official Requirement 1c:** Explain how a trip plan could help prevent a wilderness survival situation.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 53, p. 58)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Trip Plan Could Help Prevent)
-- **Common Myth:** Filing an exact travel route is unnecessary when hiking familiar local park trails.
-- **Pamphlet Fact:** A detailed trip plan directs searchers to specific trail corridors when overdue hikers vanish.
 
-![Wilderness Survival Requirement 2 figure showing immediate life threats and serious medical injuries require treatment.](/assets/pamphlet_images/wilderness_survival_p007_img1.png)
+![Immediate life threats and serious medical injuries require treatment before any other action.](/assets/pamphlet_images/wilderness_survival_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -193,8 +187,6 @@
 #### Req 5a: Severe Weather Exposure Survival
 **Official Requirement 5a:** Describe the steps you would take to survive in the following exposure conditions: (1) Cold and snowy (2) Wet (3) Hot and dry (4) Windy (5) At or on the water.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (You Would Take to Survive)
-- **Common Myth:** Leaving heavy clothes behind helps keep hikers cooler in hot arid desert conditions.
-- **Pamphlet Fact:** Desert survival strategies require resting in shade during daytime heat and moving at night.
 
 ![Saguaro cacti thrive in arid desert environments where water conservation is critical.](/assets/pamphlet_images/wilderness_survival_p044_img1.png)
 
@@ -211,8 +203,6 @@
 #### Req 5b: Outdoor Survival Clothing Systems
 **Official Requirement 5b:** Show that you know the proper clothing to wear while in the outdoors during extremely hot and cold weather and during wet conditions.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (You Know the Proper Clothing)
-- **Common Myth:** Heavy cotton denim pants offer adequate warmth and safety during wet winter backcountry conditions.
-- **Pamphlet Fact:** Wool and synthetic polymers retain insulating efficiency even after becoming soaked with cold water.
 
 ![Three Scouts stand equipped with daypacks along a lake shore for outdoor trekking.](/assets/pamphlet_images/wilderness_survival_p009_img3.png)
 
@@ -225,10 +215,8 @@
 #### Req 5c: Camp Wildlife Hazard Protection
 **Official Requirement 5c:** Explain how to protect yourself from bears and raccoons.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Protect Yourself from Bears and)
-- **Common Myth:** Keeping snack food inside your sleeping bag protects it securely from forest wildlife.
-- **Pamphlet Fact:** Hanging scented items twelve feet high and four feet outward prevents bear access.
 
-![Wilderness Survival Requirement 3 figure showing halting physical movement immediately prevents wandering deeper into unfamiliar.](/assets/pamphlet_images/wilderness_survival_p012_img1.png)
+![Halting physical movement immediately prevents wandering deeper into unfamiliar and dangerous wilderness terrain.](/assets/pamphlet_images/wilderness_survival_p012_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -239,8 +227,6 @@
 #### Req 5d: Forest and Snow Shelters
 **Official Requirement 5d:** Describe how to build or find survival shelters in a forest or in snow.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Skill Demonstration Checklist):** Req 5d Hands-On Skill Station & EDGE Verification Checklist (Survival Shelters in A Forest)
-- **Common Myth:** Digging into snow accelerates hypothermia because ice is inherently colder than surrounding ambient air.
-- **Pamphlet Fact:** A packed snow trench roofed with pine boughs traps radiating body heat effectively.
 
 ![A Scout scans distant wilderness terrain using binoculars to maintain orientation.](/assets/pamphlet_images/wilderness_survival_p021_img1.png)
 
@@ -253,8 +239,6 @@
 #### Req 5e: Improvised Low Impact Shelter
 **Official Requirement 5e:** Improvise a natural shelter. For the purpose of this demonstration, use techniques that have little negative impact on the environment. Spend a night in your shelter.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Improvise A Natural Shelter)
-- **Common Myth:** Chopping down live saplings is required to construct a sturdy wilderness survival debris shelter.
-- **Pamphlet Fact:** Selecting fallen dead boughs prevents permanent ecological damage to living forest trees and plants.
 
 ![Two Scouts examine a topographic trail map in a dense forest to stay on course.](/assets/pamphlet_images/wilderness_survival_p022_img1.png)
 
@@ -304,8 +288,6 @@
 #### Req 7a: Search Team Signaling Techniques
 **Official Requirement 7a:** Explain and show how lost or stranded Scouts could send signals to attract the attention of ground, airborne, or water search teams.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 36, p. 38)* • **Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Lost or Stranded Scouts Could)
-- **Common Myth:** Remaining completely silent and camouflaged makes search teams find lost individuals more efficiently.
-- **Pamphlet Fact:** Contrasting colors and dynamic movement attract human search eyes faster than static blending objects.
 
 ![A distant forest lookout tower provides a high vantage point for emergency signals.](/assets/pamphlet_images/wilderness_survival_p036_img1.png)
 
@@ -318,8 +300,6 @@
 #### Req 7b: Signal Mirror Aiming Operations
 **Official Requirement 7b:** Demonstrate how to use a signal mirror.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 36, p. 38)* • **Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist (Signal Mirror)
-- **Common Myth:** Signal mirrors only work if the sun is positioned directly behind your intended target.
-- **Pamphlet Fact:** Flashing a mirror beam can be seen over thirty miles away on clear sunny days.
 
 ![Two backpackers study a paper map to choose safe routes and maintain team morale.](/assets/pamphlet_images/wilderness_survival_p023_img1.png)
 
@@ -332,8 +312,6 @@
 #### Req 7c: Universal Ground Air Signals
 **Official Requirement 7c:** Describe from memory five ground-to-air signals and tell what they mean.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 36, p. 38)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Memory Five Ground-to-air Signals)
-- **Common Myth:** Airborne search crews can easily read full sentences written out on open river gravel bars.
-- **Pamphlet Fact:** A large capital letter V stamped into terrain indicates a party requires emergency assistance.
 
 ![A caregiver wraps cold hands in a soft cloth to provide gentle warming and comfort.](/assets/pamphlet_images/wilderness_survival_p024_img1.png)
 
@@ -411,8 +389,6 @@
 **Official Requirement 10a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 9, p. 22)* • **Organizer (Career & Profession Exploration Card):** Req 10a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Wilderness Survival Req 10a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Working as an outdoor guide requires neither formal training nor recognized professional safety accreditation.
-- **Pamphlet Fact:** Wilderness rangers complete rigorous natural resource degrees and law enforcement academy field courses.
 
 ![Parked vehicles buried under deep snow illustrate extreme winter weather hazards.](/assets/pamphlet_images/wilderness_survival_p009_img2.png)
 
@@ -428,8 +404,6 @@
 #### Req 10b: Volunteer Service and Hobbies
 **Official Requirement 10b:** Explore how you could use knowledge and skills from the Wilderness Survival merit badge to pursue a hobby or to serve as volunteer. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 9, p. 22)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)
-- **Common Myth:** Volunteer search and rescue operations accept untrained personnel during active emergency backcountry searches.
-- **Pamphlet Fact:** Volunteer search teams provide vital ground tracking support to local sheriffs during missing person incidents.
 
 ![Cotton balls soaked in petroleum jelly serve as dependable tinder for fire starting.](/assets/pamphlet_images/wilderness_survival_p033_img1.png)
 

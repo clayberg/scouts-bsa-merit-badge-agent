@@ -41,7 +41,6 @@
 ### Req 1: Avian Ecosystem Indicator Functions
 **Official Requirement 1:** Explain the need for bird study and why birds are useful indicators of the quality of the environment. Describe how birds are part of the ecosystem.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 61)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Need for Bird)
-> **Guide to Safe Scouting Warning:** Avoid approaching contaminated waterways or biohazard runoff areas when evaluating wetland bird habitats in the field.
 - **Common Myth:** Bird population changes simply reflect random weather shifts rather than measurable environmental health trends.
 - **Pamphlet Fact:** Birds occupy specific trophic niches across diverse habitats where population declines reveal pollutant toxicity and habitat fragmentation before human instruments register damage.
 
@@ -63,7 +62,6 @@
 ### Req 2: Avian Topography Anatomical Mapping
 **Official Requirement 2 (Parent Overview):** Show that you are familiar with the terms used to describe birds by doing the following: (a) Sketch or trace a perched bird and then label 15 different parts of the bird. (b) Sketch or trace an extended wing and label six types of wing feathers.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 18, p. 19)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Wash hands thoroughly with soap and water after handling wild bird feathers or study skins to avoid pathogen transfer.
 - **Common Myth:** Bird anatomy can be accurately recorded using common nontechnical words like tummy and wingtip.
 - **Pamphlet Fact:** Topography terminology establishes precise anatomic landmarks such as the supercilium, auriculars, and crissum to eliminate ambiguous field descriptions.
 
@@ -76,10 +74,8 @@
 #### Req 2a: Perched Bird Topographic Anatomy
 **Official Requirement 2a:** Sketch or trace a perched bird and then label 15 different parts of the bird.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 18, p. 19)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2a Structured Technical Study & Explanation Matrix (Perched Bird and Then)
-- **Common Myth:** Head markings on songbirds are continuous bands of uniform skin coloration.
-- **Pamphlet Fact:** The eye ring and malar stripe represent distinct feather tracts that separate closely related species.
 
-![Bird Study Requirement 2 figure showing precise topographic terms identify feather groupings critical for accurate wild bird.](/assets/pamphlet_images/bird_study_p007_img1.png)
+![Precise topographic terms identify feather groupings critical for accurate wild bird identification.](/assets/pamphlet_images/bird_study_p007_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -98,8 +94,6 @@
 #### Req 2b: Avian Wing Feather Classification
 **Official Requirement 2b:** Sketch or trace an extended wing and label six types of wing feathers.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 18, p. 19)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Structured Technical Study & Explanation Matrix (Extended Wing)
-- **Common Myth:** All wing feathers share identical quill structures and anchor directly to the humerus.
-- **Pamphlet Fact:** Primaries attach directly to the manus bone while secondaries anchor directly to the ulna.
 
 ![A songbird perches atop a wooden post, displaying clear anatomical field marks.](/assets/pamphlet_images/bird_study_p018_img1.png)
 
@@ -120,7 +114,6 @@
 ### Req 3: Avian Optical Equipment Operation
 **Official Requirement 3 (Parent Overview):** Demonstrate that you know how to properly use and care for binoculars, a spotting scope, or a monocular. (a) Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular. (b) Show how to adjust the eyepiece and how to focus for proper viewing. (c) Show how to properly care for and clean the lenses. (d) Describe when and where each type of viewing device would be most effective.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Never look directly at or near the sun through binoculars or spotting scopes because permanent blindness will occur instantly.
 - **Common Myth:** Higher magnification numbers always produce a sharper and superior bird watching image.
 - **Pamphlet Fact:** Magnification numbers indicate image enlargement power while the objective lens diameter determines total light gathering capability.
 
@@ -133,10 +126,8 @@
 #### Req 3a: Optics Specification Number Mechanics
 **Official Requirement 3a:** Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Specification Numbers Mean on Binoculars)
-- **Common Myth:** The second specification number on binoculars measures the focal length in inches.
-- **Pamphlet Fact:** An 8x42 binocular magnifies images eightfold and possesses a forty two millimeter front objective lens.
 
-![Bird Study Requirement 3 figure showing the first number indicates magnification while the second measures objective lens diameter.](/assets/pamphlet_images/bird_study_p012_img1.png)
+![The first number indicates magnification while the second measures objective lens diameter.](/assets/pamphlet_images/bird_study_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -147,8 +138,6 @@
 #### Req 3b: Eyepiece Diopter Focus Calibration
 **Official Requirement 3b:** Show how to adjust the eyepiece and how to focus for proper viewing.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Eyepiece and How to Focus)
-- **Common Myth:** Both binocular barrels focus simultaneously without adjusting individual eye strengths independently.
-- **Pamphlet Fact:** Adjusting the center focus wheel before setting the right diopter ring produces persistent optical blur.
 
 ![A technician carefully applies cleaning fluid to maintain delicate glass lenses.](/assets/pamphlet_images/bird_study_p046_img1.png)
 
@@ -161,10 +150,8 @@
 #### Req 3c: Coated Optical Lens Maintenance
 **Official Requirement 3c:** Show how to properly care for and clean the lenses.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Care for and Clean the)
-- **Common Myth:** Household glass cleaner and paper towels are ideal for maintaining expensive coated binocular lenses.
-- **Pamphlet Fact:** Wiping dusty optical glass with a dry cotton shirt scratches the anti reflective chemical coatings.
 
-![Bird Study Requirement 1 figure showing sensitive respiratory systems make birds rapid detectors of air pollutants across wetlands.](/assets/pamphlet_images/bird_study_p003_img1.png)
+![Sensitive respiratory systems make birds rapid detectors of air pollutants across wetlands.](/assets/pamphlet_images/bird_study_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -175,8 +162,6 @@
 #### Req 3d: Viewing Device Habitat Deployment
 **Official Requirement 3d:** Describe when and where each type of viewing device would be most effective.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Viewing Device Would Be Most)
-- **Common Myth:** Spotting scopes are universally superior to binoculars across all birding field environments.
-- **Pamphlet Fact:** A sixty power spotting scope proves ineffective for tracking warblers through dense brush.
 
 ![A color illustration shows the distinct plumage and field marks of a male mallard.](/assets/pamphlet_images/bird_study_p010_img1.png)
 
@@ -189,7 +174,6 @@
 ### Req 4: Bird Field Guide Interpretation
 **Official Requirement 4 (Parent Overview):** Demonstrate that you know how to use a bird field guide. Show your counselor that you are able to understand a range map by locating in the book and pointing out the wintering range, the breeding range, and/or the year-round range of one species of each of the following types of birds: (a) Seabird (b) Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Stay aware of surrounding trail terrain and obstacles while keeping eyes directed down into field guides or phone apps.
 - **Common Myth:** A species can be found anywhere within state borders regardless of seasonal calendar dates.
 - **Pamphlet Fact:** Field guide range maps use distinct color codes to separate summer breeding, wintering, and migration corridors.
 
@@ -202,8 +186,6 @@
 #### Req 4a: Pelagic Seabird Geographic Range
 **Official Requirement 4a:** Seabird.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Bird Study Seabird Principles)
-- **Common Myth:** Seabirds roost on inland freshwater lakes during the entire winter season.
-- **Pamphlet Fact:** Pelagic seabirds spend nonbreeding months on open ocean water miles from land.
 
 **Gear & Readiness Checklist:**
 - [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
@@ -222,8 +204,6 @@
 #### Req 4b: Plover Shorebird Migration Mapping
 **Official Requirement 4b:** Plover.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Bird Study Plover Principles)
-- **Common Myth:** Shorebird plovers stay in the same temperate coastal mudflats throughout their lives.
-- **Pamphlet Fact:** Arctic nesting plovers travel thousands of miles along shorelines to reach South American beaches.
 
 ![Detailed illustrations compare different types of bird feathers and shaft structures.](/assets/pamphlet_images/bird_study_p019_img1.png)
 
@@ -236,8 +216,6 @@
 #### Req 4c: Raptor Continental Distribution Mapping
 **Official Requirement 4c:** Falcon or hawk.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Falcon or Hawk)
-- **Common Myth:** Hawks and falcons maintain identical hunting territories during summer and winter seasons.
-- **Pamphlet Fact:** Many northern raptors hunt subarctic regions in summer and migrate south as prey hibernates.
 
 ![A microscopic diagram illustrates how feather barbs interlock to form flight surfaces.](/assets/pamphlet_images/bird_study_p020_img1.png)
 
@@ -250,8 +228,6 @@
 #### Req 4d: Neotropical Songbird Range Dynamics
 **Official Requirement 4d:** Warbler or vireo.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Warbler or Vireo)
-- **Common Myth:** Warblers remain in deciduous northern forests year round by eating tree seeds.
-- **Pamphlet Fact:** Neotropical warblers inhabit tropical rainforests during winter and temperate woodlands during summer.
 
 ![A watercolor painting illustrates a warbler perched among pine needles.](/assets/pamphlet_images/bird_study_p032_img1.png)
 
@@ -264,8 +240,6 @@
 #### Req 4e: Wading Bird Seasonal Distribution
 **Official Requirement 4e:** Heron or egret.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Heron or Egret)
-- **Common Myth:** Herons and egrets are universally nonmigratory because they nest near water year round.
-- **Pamphlet Fact:** Northern heron populations migrate southward to ice free wetlands while southern populations remain stationary.
 
 ![A compact spotting scope on a tabletop tripod offers high magnification for birding.](/assets/pamphlet_images/bird_study_p047_img2.png)
 
@@ -278,8 +252,6 @@
 #### Req 4f: Native Sparrow Habitat Range
 **Official Requirement 4f:** Sparrow.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix (Bird Study Sparrow Principles)
-- **Common Myth:** All sparrows are uniform urban residents that never travel away from human settlements.
-- **Pamphlet Fact:** Native sparrows occupy narrow grassland or brush niches that change seasonally across latitude.
 
 ![An illustration highlights how sparrows cling to grassland stalks while foraging.](/assets/pamphlet_images/bird_study_p050_img1.png)
 
@@ -292,7 +264,6 @@
 ### Req 5: Avian Field Notebook Documentation
 **Official Requirement 5 (Parent Overview):** Observe and be able to identify 20 species of wild birds. Prepare a field notebook, making a separate entry for each species, and record the following information from your field observations and other references. (a) Note the date and time. (b) Note the location and habitat. (c) Describe the bird's main feeding habitat and list two types of food that the bird is likely to eat. (d) Note whether the bird is a migrant or a summer, winter, or year-round resident of your area.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Remain vigilant for venomous snakes, stinging insects, and poison ivy when stepping off trail corridors to record observations.
 - **Common Myth:** A field notebook only needs a quick list of bird common names to be scientifically valid.
 - **Pamphlet Fact:** Scientific field notebooks record standardized metadata including weather, time, location, behavior, and habitat for every observation.
 
@@ -305,8 +276,6 @@
 #### Req 5a: Temporal Observation Record Keeping
 **Official Requirement 5a:** Note the date and time.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Note the Date and Time)
-- **Common Myth:** Bird activity and detection rates remain identical across all daylight and evening hours.
-- **Pamphlet Fact:** Avian vocalization and foraging peak during the first two hours following morning sunrise.
 
 **Gear & Readiness Checklist:**
 - [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
@@ -325,8 +294,6 @@
 #### Req 5b: Geographic Habitat Field Documentation
 **Official Requirement 5b:** Note the location and habitat.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Note the Location and Habitat)
-- **Common Myth:** Listing the city or town provides sufficient geographic detail for avian ecological studies.
-- **Pamphlet Fact:** Habitat descriptions must specify canopy density, understory plants, and nearby aquatic features.
 
 ![A pole-mounted feeder features a protective baffle to deter climbing predators.](/assets/pamphlet_images/bird_study_p060_img1.png)
 
@@ -339,8 +306,6 @@
 #### Req 5c: Foraging Ecology Dietary Documentation
 **Official Requirement 5c:** Describe the bird's main feeding habitat and list two types of food that the bird is likely to eat.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Bird's Main Feeding Habitat)
-- **Common Myth:** All songbirds consume identical mixtures of wild seeds dropped on the forest floor.
-- **Pamphlet Fact:** Birds employ specialized feeding strategies such as hawking insects or gleaning bark surfaces.
 
 ![A bright meadowlark sings with head thrown back, showing its yellow chest and black V.](/assets/pamphlet_images/bird_study_p061_img1.png)
 
@@ -353,8 +318,6 @@
 #### Req 5d: Seasonal Residency Status Classification
 **Official Requirement 5d:** Note whether the bird is a migrant or a summer, winter, or year-round resident of your area.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Note Whether the Bird)
-- **Common Myth:** Any bird seen in winter automatically remains in that exact location during breeding season.
-- **Pamphlet Fact:** Local residency categories classify species as permanent residents, breeding visitors, wintering birds, or passage migrants.
 
 ![Researchers attach an identification band to a wild bird while Scouts observe.](/assets/pamphlet_images/bird_study_p063_img1.png)
 
@@ -367,7 +330,6 @@
 ### Req 6: Avian Morphological Habitat Adaptations
 **Official Requirement 6 (Parent Overview):** Describe to your counselor how certain orders of birds are uniquely adapted to a specific habitat. In your description, include characteristics such as the size and shape of the following: (a) Beak (b) Body (c) Leg and foot (d) Feathers/plumage.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a safe distance from cliff edges and steep wetland banks when observing specialized waterbird adaptations.
 - **Common Myth:** Bird species differences represent arbitrary cosmetic variations rather than functional survival adaptations.
 - **Pamphlet Fact:** Evolutionary pressures shape avian skeletal structures, bill shapes, and plumage into specialized adaptations for discrete ecological niches.
 
@@ -380,8 +342,6 @@
 #### Req 6a: Avian Bill Structural Adaptations
 **Official Requirement 6a:** Beak.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Bird Study Beak Principles)
-- **Common Myth:** All bird beaks function as simple general purpose tweezers for picking up loose seeds.
-- **Pamphlet Fact:** Crossbill mandibles overlap laterally to pry open tightly sealed evergreen pine cone scales.
 
 ![A songbird perched on a twig demonstrates bold facial stripes and wing bars.](/assets/pamphlet_images/bird_study_p049_img1.png)
 
@@ -394,8 +354,6 @@
 #### Req 6b: Avian Body Shape Mechanics
 **Official Requirement 6b:** Body.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Bird Study Body Principles)
-- **Common Myth:** All birds possess equally lightweight, hollow bones to maximize high altitude soaring capability.
-- **Pamphlet Fact:** Pelagic divers possess dense bones and streamlined fusiform bodies to reduce underwater drag.
 
 ![A restored Aleutian goose grazes in green pasture after conservation recovery efforts.](/assets/pamphlet_images/bird_study_p072_img1.png)
 
@@ -408,8 +366,6 @@
 #### Req 6c: Avian Foot Locomotion Morphology
 **Official Requirement 6c:** Leg and foot.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Leg and Foot)
-- **Common Myth:** Bird feet consist of simple rigid claws that require constant muscle tension to grip.
-- **Pamphlet Fact:** Passerines possess an anisodactyl foot with an automatic tendon locking mechanism for perching.
 
 ![A burrowing owl perches on a wooden post, displaying distinctive yellow eyes and spots.](/assets/pamphlet_images/bird_study_p073_img1.png)
 
@@ -422,8 +378,6 @@
 #### Req 6d: Plumage Microstructure Environmental Specializations
 **Official Requirement 6d:** Feathers/plumage.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Bird Study Feathers/plumage Principles)
-- **Common Myth:** Feather layers serve only to generate flight and display bright decorative mating colors.
-- **Pamphlet Fact:** Ptarmigan grow dense feather layers over their nostrils and toes to survive subzero blizzards.
 
 ![Nuthatches and a woodpecker feed on suet plugs pressed into a hanging birch log.](/assets/pamphlet_images/bird_study_p077_img1.png)
 
@@ -436,7 +390,6 @@
 ### Req 7: Avian Bioacoustic Song Identification
 **Official Requirement 7:** Explain the function of a bird's song. Be able to identify five of the 20 species in your field notebook by song or call alone. Explain the difference between songs and calls. For each of these five species, enter a description of the song or call, and note the behavior of the bird making the sound. Note why you think the bird was making the call or song that you heard.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 51)* • **Organizer (2-Column Comparison Table):** Req 7 Technical Comparison Matrix (Function of A Bird's Song)
-> **Guide to Safe Scouting Warning:** Never use continuous recorded audio playback in the field because it exhausts breeding birds defending their territory.
 - **Common Myth:** Bird songs and bird calls represent identical vocalizations used interchangeably for social conversation.
 - **Pamphlet Fact:** Complex songs are primarily learned vocalizations used for territory defense and mate attraction while innate calls convey alarm or contact.
 
@@ -460,7 +413,6 @@
 ### Req 8: Citizen Science Avian Censusing
 **Official Requirement 8 (Parent Overview):** Do ONE of the following: (a) Go on a field trip with a local club or with others who are knowledgeable about birds in your area. (1) Keep a list or fill out a checklist of all the birds your group observed during the field trip. (2) Tell your counselor which birds your group saw and why some species were common and some were present in small numbers. (3) Tell your counselor what makes the area you visited good for finding birds. (b) By using a public library, the internet, or contacting the National Audubon Society, find the name and location of the Christmas Bird Count nearest your home and obtain the results of a recent count. (1) Explain what kinds of information are collected during the annual event. (2) Tell your counselor which species are most common, and explain why these birds are abundant. (3) Tell your counselor which species are uncommon, and explain why these were present in small numbers. If the number of birds of these species is decreasing, explain why, and what, if anything, could be done to reverse their decline. (c) Participate in a bird banding program with an approved federal or state agency, university researcher, bird observatory, or certified private individual. (1) Explain who is able to band birds and why. (2) Explain why birds get banded. (3) Explain what kinds of birds get banded. (4) Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Maintain situational awareness of traffic, muddy footing, and cold exposure during winter censuses or group trips.
 - **Common Myth:** Bird banding can be conducted casually by any hobbyist with home made metal rings.
 - **Pamphlet Fact:** Standardized scientific surveys like the Christmas Bird Count and licensed banding stations contribute vital long term census data to avian conservation.
 
@@ -473,9 +425,6 @@
 ### Req 8a: Organized Bird Club Excursion
 **Official Requirement 8a (Parent Overview):** Go on a field trip with a local club or with others who are knowledgeable about birds in your area. (1) Keep a list or fill out a checklist of all the birds your group observed during the field trip. (2) Tell your counselor which birds your group saw and why some species were common and some were present in small numbers. (3) Tell your counselor what makes the area you visited good for finding birds.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Maintain situational awareness of traffic, muddy footing, and cold exposure during winter censuses or group trips.
-- **Common Myth:** Participating in an organized field trip requires owning professional spotting scopes and expensive cameras.
-- **Pamphlet Fact:** Group birding trips utilize collective visual scanning and shared spotter optics to detect secretive species.
 
 **Official Pamphlet Summary:**
 - Scouts join an organized field excursion led by a local club or experienced birders, compiling a shared observation checklist. Traveling with seasoned naturalists sharpens field identification techniques and introduces ethical group birding etiquette.
@@ -484,8 +433,6 @@
 #### Req 8a(1): Field Trip Observational Bird Checklist
 **Official Requirement 8a(1):** Keep a list or fill out a checklist of all the birds your group observed during the field trip.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Activity & Observation Log):** Req 8a(1) Quantitative Field Observation & Activity Log (Fill Out A Checklist)
-- **Common Myth:** Scouts only need to record birds they personally spotted with their own eyes rather than species identified by the group guide.
-- **Pamphlet Fact:** Group field trip checklists record all species accurately confirmed by sight or sound by any member of the expedition.
 
 ![Printed wildlife checklists provide species inventories for local birding excursions.](/assets/pamphlet_images/bird_study_p058_img2.png)
 
@@ -498,8 +445,6 @@
 #### Req 8a(2): Species Abundance and Scarcity Factors
 **Official Requirement 8a(2):** Tell your counselor which birds your group saw and why some species were common and some were present in small numbers.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8a(2) Structured Technical Study & Explanation Matrix (Birds Species Were Common)
-- **Common Myth:** Rarely observed birds on an outing are always endangered or facing nationwide population collapse.
-- **Pamphlet Fact:** A bird may simply be uncommon locally due to specialized habitat requirements, secretive behavior, large territory sizes, or seasonal timing.
 
 ![A hummingbird hovers midair to feed on nectar from bright flowering garden plants.](/assets/pamphlet_images/bird_study_p088_img1.png)
 
@@ -512,8 +457,6 @@
 #### Req 8a(3): Habitat Diversity and Ecotone Value
 **Official Requirement 8a(3):** Tell your counselor what makes the area you visited good for finding birds.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8a(3) Structured Technical Study & Explanation Matrix (Area You Visited Good for)
-- **Common Myth:** Dense forest interiors always produce more bird species than open edges where different landscapes meet.
-- **Pamphlet Fact:** Edge habitats where two distinct ecosystems overlap typically support the greatest diversity of bird life because resources from both habitats are accessible.
 
 ![A stalking domestic cat represents a major predatory hazard to backyard wild birds.](/assets/pamphlet_images/bird_study_p089_img1.png)
 
@@ -526,8 +469,6 @@
 ### Req 8b: Christmas Bird Count Analysis
 **Official Requirement 8b (Parent Overview):** By using a public library, the internet, or contacting the National Audubon Society, find the name and location of the Christmas Bird Count nearest your home and obtain the results of a recent count. (1) Explain what kinds of information are collected during the annual event. (2) Tell your counselor which species are most common, and explain why these birds are abundant. (3) Tell your counselor which species are uncommon, and explain why these were present in small numbers. If the number of birds of these species is decreasing, explain why, and what, if anything, could be done to reverse their decline.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** Christmas Bird Counts tally birds only around suburban backyard bird feeding stations on Christmas Day.
-- **Pamphlet Fact:** Audubon Christmas Bird Counts represent the longest running community science bird database in North America.
 
 **Official Pamphlet Summary:**
 - Scouts locate their nearest historic Christmas Bird Count circle, retrieve official survey totals, and analyze local winter counts. Examining multi decade count records reveals shifts in northern species wintering ranges and regional population stability.
@@ -536,8 +477,6 @@
 #### Req 8b(1): Christmas Bird Count Data Collection
 **Official Requirement 8b(1):** Explain what kinds of information are collected during the annual event.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8b(1) Structured Technical Study & Explanation Matrix (Information Are Collected During the)
-- **Common Myth:** Christmas Bird Count teams record only unusual or rare birds and ignore familiar backyard species.
-- **Pamphlet Fact:** Every individual bird of every species detected must be counted along with detailed records of observer hours and miles covered.
 
 ![A young songbird fledgling perches on a twig, illustrating avian growth and plumage.](/assets/pamphlet_images/bird_study_p090_img1.png)
 
@@ -550,8 +489,6 @@
 #### Req 8b(2): Abundant Winter Bird Population Dynamics
 **Official Requirement 8b(2):** Tell your counselor which species are most common, and explain why these birds are abundant.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8b(2) Structured Technical Study & Explanation Matrix (Species Are Most Common)
-- **Common Myth:** Common winter birds thrive simply because cold temperatures kill off their natural predators.
-- **Pamphlet Fact:** Abundant winter species succeed primarily through dietary opportunism, efficient flock foraging, and exploitation of suburban feeders or seed-bearing vegetation.
 
 ![A certified wildlife handler uses the gentle bander's grip to safely hold a songbird.](/assets/pamphlet_images/bird_study_p091_img1.png)
 
@@ -564,8 +501,6 @@
 #### Req 8b(3): Uncommon Bird Species Decline Mitigation
 **Official Requirement 8b(3):** Tell your counselor which species are uncommon, and explain why these were present in small numbers. If the number of birds of these species is decreasing, explain why, and what, if anything, could be done to reverse their decline.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8b(3) Structured Technical Study & Explanation Matrix (Species Are Uncommon)
-- **Common Myth:** Setting out commercial birdseed in local backyards is sufficient to rescue declining migratory bird species.
-- **Pamphlet Fact:** Declining birds generally require large tracts of intact native breeding habitat and stopover wetlands rather than backyard feeding stations.
 
 | Req 8b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -577,8 +512,6 @@
 ### Req 8c: Scientific Bird Banding Operations
 **Official Requirement 8c (Parent Overview):** Participate in a bird banding program with an approved federal or state agency, university researcher, bird observatory, or certified private individual. (1) Explain who is able to band birds and why. (2) Explain why birds get banded. (3) Explain what kinds of birds get banded. (4) Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** Attaching plastic leg bands to wild songbirds does not require state or federal authorization.
-- **Pamphlet Fact:** Federal bird banding permits require rigorous multi year training and adherence to strict animal welfare standards.
 
 **Official Pamphlet Summary:**
 - Scouts observe an authorized bird banding operation run by certified researchers using mist nets and precise measuring tools. Learning banding protocols highlights how individual marking tracks avian longevity, dispersal, physiological condition, and survival rates.
@@ -587,8 +520,6 @@
 #### Req 8c(1): Bird Banding Licensure and Qualifications
 **Official Requirement 8c(1):** Explain who is able to band birds.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8c(1) Structured Technical Study & Explanation Matrix (Band Birds)
-- **Common Myth:** Anyone with a hunting license or biology degree can buy bird bands and tag birds in their backyard.
-- **Pamphlet Fact:** Only licensed banders holding specific permits from the federal government and state wildlife agencies may capture and tag wild birds.
 
 | Req 8c(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -599,8 +530,6 @@
 #### Req 8c(2): Scientific Purposes of Bird Banding
 **Official Requirement 8c(2):** Explain why birds get banded.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8c(2) Structured Technical Study & Explanation Matrix (Birds Get Banded)
-- **Common Myth:** Standard metal bird bands contain electronic GPS transmitters that beam live coordinates to satellites.
-- **Pamphlet Fact:** Most bird bands are lightweight numbered metal or color-coded plastic rings that yield data only when the bird is recaptured or found.
 
 | Req 8c(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -611,8 +540,6 @@
 #### Req 8c(3): Target Species for Banding Operations
 **Official Requirement 8c(3):** Explain what kinds of birds get banded.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8c(3) Structured Technical Study & Explanation Matrix (Birds Get Banded)
-- **Common Myth:** Banders place identically sized bands on all birds from tiny hummingbirds to large hawks.
-- **Pamphlet Fact:** Bands are manufactured in dozens of carefully calibrated gauge sizes engineered specifically for each species leg diameter.
 
 | Req 8c(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -623,8 +550,6 @@
 #### Req 8c(4): Banding Station Operations and Fieldwork
 **Official Requirement 8c(4):** Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8c(4) Structured Technical Study & Explanation Matrix (Birds Were Captured the Number)
-- **Common Myth:** Scouts visiting a banding station are permitted to independently untangle birds from delicate mist nets.
-- **Pamphlet Fact:** Trained licensed banders must extract birds from nets to prevent injury, while visiting Scouts typically assist with data logging, carrying holding bags, or observation.
 
 | Req 8c(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -635,7 +560,6 @@
 ### Req 9: Avian Habitat Enhancement Stewardship
 **Official Requirement 9 (Parent Overview):** Do ONE of the following. For the item you choose, describe what birds you hope to attract, and why. Describe the necessary maintenance required with the item that you choose. (a) Build a bird feeder and put it in an appropriate place in your yard or another location. (b) Build a birdbath and put it in an appropriate place. (c) Build a backyard sanctuary for birds by planting trees and shrubs for food and cover. (d) Build a nest box for a species of your choice using plans approved by your counselor. (e) Describe the elements of a backyard bird habitat for a given area and draw a plan for one, including lists of birds you hope to attract, appropriate plantings for food, cover, and nesting.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Wear safety glasses and work gloves when using saws, drills, and hammers to construct wooden bird structures.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Bird Study Req 9 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Setting up a feeder or birdbath requires no further human effort after initial outdoor installation.
 - **Pamphlet Fact:** Artificially provided bird resources require regular sanitation to prevent spreading deadly pathogens like salmonellosis and avian pox.
@@ -650,8 +574,6 @@
 **Official Requirement 9a:** Build a bird feeder and put it in an appropriate place in your yard or another location.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Organizer (Skill Demonstration Checklist):** Req 9a Hands-On Skill Station & EDGE Verification Checklist (Bird Feeder and Put)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Bird Study Req 9 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Cheap commercial bird seed mixtures packed with red milo attract desirable native songbirds.
-- **Pamphlet Fact:** Black oil sunflower seeds offer high fat content that sustains winter songbirds during freezing nights.
 
 ![A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.](/assets/pamphlet_images/bird_study_p082_img1.png)
 
@@ -664,8 +586,6 @@
 #### Req 9b: Avian Birdbath Installation Care
 **Official Requirement 9b:** Build a birdbath and put it in an appropriate place.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Organizer (Skill Demonstration Checklist):** Req 9b Hands-On Skill Station & EDGE Verification Checklist (Birdbath and Put)
-- **Common Myth:** Deep garden ornamental pools are ideal bathing and drinking spots for small wild songbirds.
-- **Pamphlet Fact:** Water depth in a birdbath must remain under two inches to prevent smaller songbirds from drowning.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -676,8 +596,6 @@
 #### Req 9c: Native Plant Backyard Sanctuary
 **Official Requirement 9c:** Build a backyard sanctuary for birds by planting trees and shrubs for food and cover.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Organizer (Skill Demonstration Checklist):** Req 9c Hands-On Skill Station & EDGE Verification Checklist (Backyard Sanctuary for Birds by)
-- **Common Myth:** Exotic ornamental flowering plants provide superior nutritional value for native wild bird populations.
-- **Pamphlet Fact:** Native plant species host significantly more caterpillars than nonnative ornamental garden trees and shrubs.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -689,8 +607,6 @@
 **Official Requirement 9d:** Build a nest box for a species of your choice using plans approved by your counselor.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Organizer (Skill Demonstration Checklist):** Req 9d Hands-On Skill Station & EDGE Verification Checklist (Nest Box for A Species)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Bird Study Req 9d preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Any wooden box with a large hole provides suitable shelter for native cavity nesters.
-- **Pamphlet Fact:** Nest box entrance hole dimensions must match target species precisely to exclude aggressive invasive starlings.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -701,8 +617,6 @@
 #### Req 9e: Backyard Habitat Architectural Plan
 **Official Requirement 9e:** Describe the elements of a backyard bird habitat for a given area and draw a plan for one, including lists of birds you hope to attract, appropriate plantings for food, cover, and nesting.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9e Structured Technical Study & Explanation Matrix (Elements of A Backyard Bird)
-- **Common Myth:** Drawing a simple yard sketch with one tree constitutes a comprehensive bird habitat plan.
-- **Pamphlet Fact:** Complete wildlife habitat plans must integrate water, food sources, canopy shelter, and predator buffers simultaneously.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -721,7 +635,6 @@
 ### Req 10: Avian Conservation Status Management
 **Official Requirement 10 (Parent Overview):** Do the following: (a) Explain the differences between extinct, endangered, and threatened. (b) Identify a bird species that is on the endangered or threatened list. Explain what caused their decline. Discuss with your counselor what can be done to reverse this trend and what can be done to help remove the species from the endangered or threatened list. (c) Explain how we can address birds that are in decline before they get to an endangered or threatened list. List how we can protect habitat. Identify threats that migratory birds face and how to protect food supply for birds.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Do not disclose exact nest locations of endangered or threatened birds on public social media platforms.
 - **Common Myth:** Extinction happens only through active commercial overhunting and cannot occur through modern habitat modification alone.
 - **Pamphlet Fact:** Species declines stem from complex combinations of habitat destruction, pesticide accumulation, window collisions, invasive predators, and climate disruption.
 
@@ -734,8 +647,6 @@
 #### Req 10a: Conservation Status Classification Criteria
 **Official Requirement 10a:** Explain the differences between extinct, endangered, and threatened.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)* • **Organizer (2-Column Comparison Table):** Req 10a Technical Comparison Matrix (Extinct Endangered and Threatened)
-- **Common Myth:** The terms threatened, endangered, and extinct represent interchangeable words describing rare animals generally.
-- **Pamphlet Fact:** Extinct means no living individuals remain anywhere on Earth while endangered means facing imminent extinction risk.
 
 ![A field observer scans mountain trees with binoculars while holding a nature guide.](/assets/pamphlet_images/bird_study_p031_img1.png)
 
@@ -748,8 +659,6 @@
 #### Req 10b: Imperiled Species Recovery Dynamics
 **Official Requirement 10b:** Identify a bird species that is on the endangered or threatened list. Explain what caused their decline. Discuss with your counselor what can be done to reverse this trend and what can be done to help remove the species from the endangered or threatened list.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (Bird Species)
-- **Common Myth:** Endangered species naturally rebound within two breeding seasons once hunting seasons are closed.
-- **Pamphlet Fact:** Whooping cranes declined to fewer than twenty wild individuals due to wetland drainage and hunting.
 
 | Req 10b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -762,8 +671,6 @@
 #### Req 10c: Migratory Bird Threat Mitigation
 **Official Requirement 10c:** Explain how we can address birds that are in decline before they get to an endangered or threatened list. List how we can protect habitat. Identify threats that migratory birds face and how to protect food supply for birds.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)* • **Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix (Can Address Birds)
-- **Common Myth:** Songbird population drops are caused entirely by deforestation occurring in foreign tropical nations.
-- **Pamphlet Fact:** Uncontrolled outdoor domestic cat predation kills over two billion wild birds in North America annually.
 
 | Req 10c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -776,7 +683,6 @@
 ### Req 11: Invasive Avian Ecological Impact
 **Official Requirement 11:** Identify a non-native bird (introduced to North America from a foreign country since 1800). Describe how non-native birds may become damaging to the ecosystem.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 18)* • **Organizer (Concept & Examples Notes):** Req 11 Structured Technical Study & Explanation Matrix (Non-native Bird Introduced to North)
-> **Guide to Safe Scouting Warning:** Never release captive nonnative cage birds into the wild because foreign pathogens can devastate native wildlife.
 - **Common Myth:** Nonnative introduced birds smoothly integrate into local ecosystems without harming existing native bird populations.
 - **Pamphlet Fact:** Invasive birds like European starlings and house sparrows outcompete native cavity nesting songbirds for scarce nest sites and food resources.
 
@@ -798,7 +704,6 @@
 ### Req 12: Avian Field Ethics Conservation
 **Official Requirement 12:** Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to bird study. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 56)* • **Organizer (Concept & Examples Notes):** Req 12 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-> **Guide to Safe Scouting Warning:** Immediately retreat if an adult bird performs distraction displays, screams alarm calls, or flushes from its nest.
 - **Common Myth:** Getting within two feet of an active wild bird nest causes no disruption to breeding success.
 - **Pamphlet Fact:** Following Leave No Trace and the Outdoor Code ensures birders avoid stressing nesting birds, trampling sensitive microhabitats, or degrading trails.
 
@@ -820,7 +725,6 @@
 ### Req 13: Avian Vocational Avocational Pathways
 **Official Requirement 13 (Parent Overview):** Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in Bird Study. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Wear appropriate field boots, high visibility gear, and tick protection when undertaking professional wildlife habitat surveys.
 - **Common Myth:** Bird related employment is limited strictly to working as a clerk inside retail pet stores.
 - **Pamphlet Fact:** Professional ornithology combines ecological field fieldwork, statistical population modeling, and laboratory genetics to guide wildlife conservation policies.
 
@@ -833,8 +737,6 @@
 #### Req 13a: Professional Ornithological Career Pathways
 **Official Requirement 13a:** Identify three career opportunities that would use skills and knowledge in Bird Study. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)* • **Organizer (Career & Profession Exploration Card):** Req 13a Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Wildlife biology careers involve only casual outdoor walks without formal data collection or report writing.
-- **Pamphlet Fact:** Professional wildlife biologists conduct standardized environmental impact surveys required before civil infrastructure construction begins.
 
 ![Pencil sketches depict sparrow profiles to highlight facial stripes and crown shape.](/assets/pamphlet_images/bird_study_p052_img1.png)
 
@@ -850,8 +752,6 @@
 #### Req 13b: Recreational Bird Watching Avocation
 **Official Requirement 13b:** Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)* • **Organizer (Concept & Examples Notes):** Req 13b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
-- **Common Myth:** Bird watching as a hobby requires spending thousands of dollars on high end optics immediately.
-- **Pamphlet Fact:** Recreational bird watching connects hobbyists to global citizen science projects like eBird without requiring academic degrees.
 
 | Req 13b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

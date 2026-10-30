@@ -34,7 +34,6 @@
 ### Req 1: Fish and Wildlife Conservation Principles
 **Official Requirement 1:** Describe the meaning and purposes of fish and wildlife conservation and management.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Fish and Wildlife Conservation and)
-> **Guide to Safe Scouting Warning:** Carry navigation aids and potable water when conducting field evaluations in remote game lands.
 - **Common Myth:** Conservation means completely locking away natural resources so humans cannot interact with wildlife.
 - **Pamphlet Fact:** Conservation represents the wise, sustainable use and active management of renewable natural resources.
 
@@ -55,7 +54,6 @@
 ### Req 2: State Wildlife Population Threat Assessment
 **Official Requirement 2:** List and discuss at least three major problems that continue to threaten your state's fish and wildlife resources.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Major Threats to Fish and Wildlife)
-> **Guide to Safe Scouting Warning:** Avoid handling dead wildlife carcasses encountered afield due to potential pathogen and parasite transmission.
 - **Common Myth:** Regulated hunting serves as the leading cause of wildlife species population decline today.
 - **Pamphlet Fact:** Habitat loss through agricultural conversion and urban development poses the greatest threat to wildlife.
 
@@ -76,7 +74,6 @@
 ### Req 3: Public Wildlife Stewardship Action Pathways
 **Official Requirement 3:** Describe some ways in which everyone can help with fish and wildlife conservation.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Everyone Can Help with Fish)
-> **Guide to Safe Scouting Warning:** Wear heavy leather gloves and eye protection when cleaning litter and metal debris from riparian corridors.
 - **Common Myth:** Public wildlife management receives all of its operational funding from general federal income taxes.
 - **Pamphlet Fact:** Hunting and fishing licenses combined with excise taxes on sporting equipment fund state conservation agencies.
 
@@ -97,7 +94,6 @@
 ### Req 4: State Wildlife Habitat Management Practices
 **Official Requirement 4:** List and describe five major fish and wildlife management practices used by managers in your state.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Major Fish and Wildlife Management)
-> **Guide to Safe Scouting Warning:** Stay behind designated safety perimeters and wear personal protective equipment near active prescribed fire operations.
 - **Common Myth:** Leaving a forest entirely undisturbed without fire or logging produces optimal habitat for all wildlife.
 - **Pamphlet Fact:** Active habitat manipulation like prescribed fire and timber thinning creates diverse successional stages vital for wildlife.
 
@@ -118,7 +114,6 @@
 ### Req 5: Wildlife Habitat Enhancement Project Options
 **Official Requirement 5 (Parent Overview):** Do ONE of the following: (a) Construct, erect, and check regularly at least two artificial nest boxes (wood duck, bluebird, squirrel, etc.) and keep written records for one nesting season. (b) Construct, erect, and check regularly bird feeders and keep written records daily over a two-week period of the kinds of birds visiting the feeders. (c) Develop and implement a fishery improvement project or a backyard wildlife habitat improvement project. Share the results with your counselor. (d) Design and construct a wildlife blind near a game trail, water hole, salt lick, bird feeder, or birdbath and take good photographs or make sketches from the blind of any combination of 10 wild birds, mammals, reptiles, or amphibians.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Secure extension ladders on stable ground and wear safety goggles when mounting nest boxes to trees.
 - **Common Myth:** Putting out bread crumbs and grain anywhere in a backyard safely benefits all local wild animals.
 - **Pamphlet Fact:** Improper feeding causes nutritional deficits, spreads avian disease, and attracts dangerous nuisance predators like raccoons.
 
@@ -131,10 +126,8 @@
 #### Req 5a: Artificial Nest Box Monitoring Program
 **Official Requirement 5a:** Construct, erect, and check regularly at least two artificial nest boxes (wood duck, bluebird, squirrel, etc.) and keep written records for one nesting season.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Erect and Check Regularly)
-- **Common Myth:** Nest boxes should have wooden perches beneath the entrance hole to help adult birds enter.
-- **Pamphlet Fact:** Perches provide handholds for predatory English sparrows and snakes to raid eggs and young birds.
 
-![Fish and Wildlife Management Requirement 5 figure showing mounting artificial nest boxes facing southeast protects fledglings from driving.](/assets/pamphlet_images/fish_and_wildlife_management_p005_img1.png)
+![Mounting artificial nest boxes facing southeast protects fledglings from driving prevailing rains.](/assets/pamphlet_images/fish_and_wildlife_management_p005_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -145,10 +138,8 @@
 #### Req 5b: Avian Feeding Station Daily Census
 **Official Requirement 5b:** Construct, erect, and check regularly bird feeders and keep written records daily over a two-week period of the kinds of birds visiting the feeders.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist (Erect and Check Regularly Bird)
-- **Common Myth:** Any standard wild bird seed blend attracts the same species of native woodland birds.
-- **Pamphlet Fact:** Different feeder styles and specific seeds like black oil sunflower or nyjer attract distinct avian guilds.
 
-![Fish and Wildlife Management Requirement 1 figure showing wise resource use maintains ecological balance while providing sustainable recreational.](/assets/pamphlet_images/fish_and_wildlife_management_p003_img1.png)
+![Wise resource use maintains ecological balance while providing sustainable recreational harvest opportunities.](/assets/pamphlet_images/fish_and_wildlife_management_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -159,10 +150,8 @@
 #### Req 5c: Aquatic or Terrestrial Habitat Enhancement
 **Official Requirement 5c:** Develop and implement a fishery improvement project or a backyard wildlife habitat improvement project. Share the results with your counselor.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Develop and Implement A Fishery)
-- **Common Myth:** Dumping random yard debris in a heap creates ideal habitat for all local small mammals.
-- **Pamphlet Fact:** Constructed brush piles require a sturdy crisscross foundation of heavy logs to maintain interior escape tunnels.
 
-![Fish and Wildlife Management Requirement 4 figure showing controlled fires consume accumulated forest litter and stimulate herbaceous browse seed.](/assets/pamphlet_images/fish_and_wildlife_management_p004_img1.png)
+![Controlled fires consume accumulated forest litter and stimulate herbaceous browse seed germination.](/assets/pamphlet_images/fish_and_wildlife_management_p004_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -174,10 +163,8 @@
 #### Req 5d: Wildlife Blind Construction and Observation
 **Official Requirement 5d:** Design and construct a wildlife blind near a game trail, water hole, salt lick, bird feeder, or birdbath and take good photographs or make sketches from the blind of any combination of 10 wild birds, mammals, reptiles, or amphibians.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 5d Hands-On Skill Station & EDGE Verification Checklist (Wildlife Blind Near A Game)
-- **Common Myth:** Wildlife blinds must be built with artificial camouflage tarps regardless of surrounding natural brush.
-- **Pamphlet Fact:** Natural vegetation woven into a burlap framework provides superior concealment and avoids startling wary animals.
 
-![Fish and Wildlife Management Requirement 2 figure showing roads and housing developments divide continuous home ranges into isolated migration.](/assets/pamphlet_images/fish_and_wildlife_management_p007_img1.png)
+![Roads and housing developments divide continuous home ranges into isolated migration fragments.](/assets/pamphlet_images/fish_and_wildlife_management_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -198,7 +185,6 @@
 ### Req 6: Wildlife Observation and Species Classification
 **Official Requirement 6 (Parent Overview):** Do ONE of the following: (a) Observe and record 25 species of wildlife. Your list may include mammals, birds, reptiles, amphibians, and fish. Write down when and where each animal was seen. (b) List the wildlife species in your state that are classified as endangered, threatened, exotic, non-native, game species, furbearers, or migratory game birds. Discuss with your counselor management practices in place or being developed for at least three of these species. (c) Start a scrapbook of North American fish and wildlife. Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish. Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them in your notebook accordingly. Articles and pictures may be taken from newspapers or science, nature, and outdoor magazines, or from other sources including the internet (with your parent or guardian's permission). Enter at least five articles on mammals, five on birds, five on reptiles, five on amphibians, and five on fish. Put each animal on a separate sheet in alphabetical order. Include pictures whenever possible.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Maintain safe viewing distances using binoculars to avoid provoking defensive attacks from wild animals.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Fish and Wildlife Management Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Any rare animal found in a state is legally classified as an officially endangered species.
 - **Pamphlet Fact:** Endangered status requires formal administrative biological assessment proving a species faces immediate extinction risk.
@@ -213,10 +199,8 @@
 **Official Requirement 6a:** Observe and record 25 species of wildlife. Your list may include mammals, birds, reptiles, amphibians, and fish. Write down when and where each animal was seen.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Activity & Observation Log):** Req 6a Quantitative Field Observation & Activity Log (Species of Wildlife)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Fish and Wildlife Management Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Domestic pets, farm livestock, and zoo animals count toward the wild species observation tally.
-- **Pamphlet Fact:** Field logs must document free-ranging, wild native or naturalized species observed in natural habitats.
 
-![Fish and Wildlife Management Requirement 6 figure showing recording date, time, weather, and specific microhabitat details validates wild animal.](/assets/pamphlet_images/fish_and_wildlife_management_p006_img1.png)
+![Recording date, time, weather, and specific microhabitat details validates wild animal sightings.](/assets/pamphlet_images/fish_and_wildlife_management_p006_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -229,10 +213,8 @@
 #### Req 6b: State Legal Wildlife Status Roster
 **Official Requirement 6b:** List the wildlife species in your state that are classified as endangered, threatened, exotic, non-native, game species, furbearers, or migratory game birds. Discuss with your counselor management practices in place or being developed for at least three of these species.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Wildlife Species in Your State)
-- **Common Myth:** Classifying an animal as a game species means hunters can harvest unlimited numbers year-round.
-- **Pamphlet Fact:** Game designations allow state biologists to enforce strict seasonal limits and protect breeding female populations.
 
-![Fish and Wildlife Management Requirement 3 figure showing excise taxes on sporting arms directly finance state wildlife restoration programs.](/assets/pamphlet_images/fish_and_wildlife_management_p012_img1.png)
+![Excise taxes on sporting arms directly finance state wildlife restoration programs.](/assets/pamphlet_images/fish_and_wildlife_management_p012_img1.png)
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -245,8 +227,6 @@
 **Official Requirement 6c:** Start a scrapbook of North American fish and wildlife. Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish. Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them in your notebook accordingly. Articles and pictures may be taken from newspapers or science, nature, and outdoor magazines, or from other sources including the internet (with your parent or guardian's permission). Enter at least five articles on mammals, five on birds, five on reptiles, five on amphibians, and five on fish. Put each animal on a separate sheet in alphabetical order. Include pictures whenever possible.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Start A Scrapbook of North)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Fish and Wildlife Management Req 6c with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** A wildlife scrapbook only needs pretty animal pictures cut out from outdoor magazines.
-- **Pamphlet Fact:** Entries must include informative articles detailing life histories, ecological threats, and management strategies.
 
 | Req 6c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -261,7 +241,6 @@
 ### Req 7: Fisheries Science Investigation Methods
 **Official Requirement 7 (Parent Overview):** Do ONE of the following: (a) Determine the age of five species of fish from scale samples or identify various age classes of one species in a lake and report the results. (b) Conduct a creel census on a small lake to estimate catch per unit effort and report the results to your counselor. (c) Examine the stomach contents of three fish and record the findings. It is not necessary to catch any fish for this option. (d) Make a freshwater aquarium. Include at least four species of native plants and four species of animal life, such as whirligig beetles, freshwater shrimp, tadpoles, water snails, and golden shiners. After 60 days of observation, discuss with your counselor the life cycles, food chains, and management needs you have recognized. Before completing this requirement, check local laws on releasing these organisms back into the wild, and follow your counselor's direction in disposing of these organisms humanely and safely.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Disinfect dissection tools thoroughly and wash hands with antibacterial soap after handling raw fish viscera.
 - **Common Myth:** A larger fish in a lake is always older than a smaller fish of the same species.
 - **Pamphlet Fact:** Food availability, genetics, and water temperature dictate fish growth rates, making scale annuli the true indicator.
 
@@ -274,8 +253,6 @@
 #### Req 7a: Fish Scale Annuli Age Determination
 **Official Requirement 7a:** Determine the age of five species of fish from scale samples or identify various age classes of one species in a lake and report the results.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Age of Five Species of)
-- **Common Myth:** Fish scales remain the exact same size throughout the life of the fish.
-- **Pamphlet Fact:** Scales grow proportionally with the fish, creating readable annual rings like cross-sections of tree trunks.
 
 ![Scouts inspect fish anatomy under magnification and release hatchery fish into a freshwater stream during management fieldwork.](/assets/ai_illustrations/fish_and_wildlife_management_req_7_topic_visual.png)
 
@@ -288,8 +265,6 @@
 #### Req 7b: Creel Census Angler Survey Execution
 **Official Requirement 7b:** Conduct a creel census on a small lake to estimate catch per unit effort and report the results to your counselor.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Creel Census on A Small)
-- **Common Myth:** Creel surveys are law enforcement inspections designed solely to catch anglers exceeding daily bag limits.
-- **Pamphlet Fact:** Creel censuses collect voluntary statistical data on angling effort and population dynamics for fisheries management.
 
 ![Scouts and their counselor examine aquatic specimens and water samples on an outdoor wooden table beside the river.](/assets/ai_illustrations/fish_and_wildlife_management_req_7_nano_hero.png)
 
@@ -302,8 +277,6 @@
 #### Req 7c: Fish Stomach Content Trophic Analysis
 **Official Requirement 7c:** Examine the stomach contents of three fish and record the findings. It is not necessary to catch any fish for this option.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Activity & Observation Log):** Req 7c Quantitative Field Observation & Activity Log (Examine the Stomach Contents)
-- **Common Myth:** Predatory game fish consume only smaller fish rather than insects and freshwater invertebrates.
-- **Pamphlet Fact:** Bass, trout, and panfish rely heavily on aquatic macroinvertebrates, terrestrial insects, and micro-crustaceans.
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -315,8 +288,6 @@
 #### Req 7d: Native Freshwater Micro Ecosystem Aquarium
 **Official Requirement 7d:** Make a freshwater aquarium. Include at least four species of native plants and four species of animal life, such as whirligig beetles, freshwater shrimp, tadpoles, water snails, and golden shiners. After 60 days of observation, discuss with your counselor the life cycles, food chains, and management needs you have recognized. Before completing this requirement, check local laws on releasing these organisms back into the wild, and follow your counselor's direction in disposing of these organisms humanely and safely.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist (Freshwater Aquarium Include)
-- **Common Myth:** Tropical fish food and artificial chemical additives should be used in a native wild aquarium.
-- **Pamphlet Fact:** Native aquariums rely on natural pond detritus, microorganisms, and balanced native plants for organic nutrient balance.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -330,7 +301,6 @@
 ### Req 8: Fish and Wildlife Professional Careers
 **Official Requirement 8:** Identify three career opportunities that would use skills and knowledge by fish and wildlife professionals. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6)* • **Organizer (Career & Profession Exploration Card):** Req 8 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Follow laboratory biosafety level protocols when analyzing biological tissue samples and chemical water reagents.
 - **Common Myth:** Working as a game warden or wildlife biologist involves simply hunting and fishing all day.
 - **Pamphlet Fact:** Wildlife professionals spend extensive hours analyzing biometric data, writing reports, conducting laboratory tests, and enforcing statutes.
 

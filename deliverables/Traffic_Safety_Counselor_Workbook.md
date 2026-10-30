@@ -49,10 +49,8 @@
 #### Req 1a: Driver Distraction Hazard Controls
 **Official Requirement 1a:** Explain why a distracted driver must not operate a motor vehicle. List five common distractions, explain how driver distractions contribute to traffic accidents, and tell how drivers can minimize distractions.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 17, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Distracted Driver Must Not)
-- **Common Myth:** Using a speakerphone allows a driver to maintain complete attention on the road ahead.
-- **Pamphlet Fact:** Hands-free calling produces inattention blindness, causing drivers to miss half of visual roadway cues.
 
-![Traffic Safety Requirement 1 figure showing taking eyes off the roadway for two seconds doubles vehicle crash risk.](/assets/pamphlet_images/traffic_safety_p003_img1.png)
+![Taking eyes off the roadway for two seconds doubles vehicle crash risk.](/assets/pamphlet_images/traffic_safety_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -64,8 +62,6 @@
 #### Req 1b: Substance Impairment Risk Factors
 **Official Requirement 1b:** Explain why a driver impaired by alcohol, drugs, or other substances must not operate a motor vehicle. Describe how alcohol, cold medications, and prescription and illegal drugs affect driving abilities. For the state where you live, find out what is the legal blood alcohol concentration and what are the consequences for driving while intoxicated or driving under the influence. Find out what the open-container law is in your state.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 17, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Driver Impaired by Alcohol Drugs)
-- **Common Myth:** Drinking black coffee or taking cold showers quickly restores driving coordination after consuming alcohol.
-- **Pamphlet Fact:** A blood alcohol concentration below the legal limit degrades peripheral vision and tracking skills.
 
 ![Drowsiness and severe fatigue severely impair a driver reaction times.](/assets/pamphlet_images/traffic_safety_p017_img1.png)
 
@@ -81,8 +77,6 @@
 #### Req 1c: Fatigued Driver Prevention Planning
 **Official Requirement 1c:** Explain why a fatigued driver must not operate a motor vehicle. Describe how drivers must plan to be alert for safely transporting families, friends, Scouts, and themselves.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 17, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Fatigued Driver Must Not)
-- **Common Myth:** Opening vehicle side windows or raising radio volume prevents microsleep episodes during night drives.
-- **Pamphlet Fact:** Drowsiness slows reaction speed and hazard recognition as severely as legal alcohol intoxication limits.
 
 ![An incapacitated motorist slumps over the steering wheel from impairment.](/assets/pamphlet_images/traffic_safety_p018_img1.png)
 
@@ -96,8 +90,6 @@
 #### Req 1d: Novice Driver Crash Mitigations
 **Official Requirement 1d:** Describe mistakes that new drivers make, how those mistakes increase their risk of collisions, how drivers can reduce this risk, and how driving behavior affects automobile insurance rates.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 17, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Mistakes That New Drivers)
-- **Common Myth:** Teenage crash rates stem primarily from vehicle mechanical failures rather than poor hazard assessment.
-- **Pamphlet Fact:** Graduated licensing programs reduce novice driver collision frequencies by limiting nighttime driving exposure.
 
 ![Boisterous teenage passengers represent a major distraction for drivers.](/assets/pamphlet_images/traffic_safety_p021_img1.png)
 
@@ -123,15 +115,8 @@
 #### Req 2a: Occupant Restraint Installation Standards
 **Official Requirement 2a:** Demonstrate how to wear a lap and shoulder belt properly. Explain why it is important for the driver and all passengers, including children sitting in age-appropriate seats, to always wear their seatbelts.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 37, p. 38)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Lap and Shoulder Belt)
-- **Common Myth:** Placing a shoulder harness underneath an arm provides equivalent restraint during frontal collisions.
-- **Pamphlet Fact:** Shoulder straps routed behind passenger backs allow severe upper body whip injuries during crashes.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Traffic Safety Merit Badge: Vehicle Safety.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Vehicle Safety.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Traffic Safety Requirement 2 figure showing lap belts must cross strong hip bones to prevent catastrophic abdominal crush injuries.](/assets/pamphlet_images/traffic_safety_p007_img1.png)
+![Lap belts must cross strong hip bones to prevent catastrophic abdominal crush injuries.](/assets/pamphlet_images/traffic_safety_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -143,8 +128,6 @@
 #### Req 2b: Motor Vehicle Safety Systems
 **Official Requirement 2b:** List five safety features found in motor vehicles besides occupant restraint systems. Describe each safety feature, how each works, and how each contributes to safety.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 37, p. 38)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Safety Features Found in Motor)
-- **Common Myth:** Antilock braking mechanisms are engineered to drastically shorten emergency stopping distances on ice.
-- **Pamphlet Fact:** Antilock brakes modulate caliper pressure faster than human drivers to preserve steering control.
 
 ![Properly adjusted head restraints prevent whiplash during rear collisions.](/assets/pamphlet_images/traffic_safety_p041_img1.png)
 
@@ -173,10 +156,8 @@
 **Official Requirement 3a:** Demonstrate that all driving lights and signaling lights are clear and operational. Show where the switches are for these lights. Explain how drivers use lights to drive safely and courteously and to communicate with other drivers.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Driving Lights and Signaling)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Traffic Safety Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Fog lights provide superior illumination during ordinary nighttime highway travel in clear conditions.
-- **Pamphlet Fact:** Amber hazard lamps indicate stationary road obstructions and warning conditions rather than turning intentions.
 
-![Traffic Safety Requirement 3 figure showing roadway grime on headlamp covers diminishes nighttime forward vision by over ninety percent.](/assets/pamphlet_images/traffic_safety_p012_img1.png)
+![Roadway grime on headlamp covers diminishes nighttime forward vision by over ninety percent.](/assets/pamphlet_images/traffic_safety_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -189,8 +170,6 @@
 #### Req 3b: Windshield Vision Maintenance Standards
 **Official Requirement 3b:** Explain issues that might affect the driver's ability to see through the front, rear, and side windows. Demonstrate with a smear-and-clear test if the windshield wiper blades will clear the windshield completely or need to be replaced. Describe instances in good and bad weather when windshield wipers are important to safe driving.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Issues That Might Affect the)
-- **Common Myth:** Adding plain tap water to washer reservoirs prevents windshield freezing during harsh winter conditions.
-- **Pamphlet Fact:** Smearing wiper blades leave oily water films that distort oncoming headlamp beams at night.
 
 ![Motor oil containers and oil filters represent essential components of routine vehicle maintenance.](/assets/pamphlet_images/traffic_safety_p044_img1.png)
 
@@ -205,8 +184,6 @@
 #### Req 3c: Tire Pressure Tread Inspection
 **Official Requirement 3c:** Demonstrate how to find the vehicle's recommended tire pressures, how to check tire pressures, and how to check for adequate tire tread depth. Explain why proper tire pressure and tread depth are important to traction, stopping distances, tire wear, and fuel economy.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Vehicle's Recommended Tire Pressures)
-- **Common Myth:** Tire inflation pressure should match the maximum pounds per square inch sidewall number.
-- **Pamphlet Fact:** Cold tire pressure checks prevent inaccurate high readings caused by internal highway friction heating.
 
 ![A vehicle rearview mirror helps drivers monitor traffic behind them to stay safe on the road.](/assets/pamphlet_images/traffic_safety_p041_img2.png)
 
@@ -220,8 +197,6 @@
 #### Req 3d: Emergency Tire Repair Procedures
 **Official Requirement 3d:** Check the vehicle for tools needed to change a flat tire or to use tire sealant to fix a puncture. Demonstrate you know how to change a flat tire and how to use tire sealant.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3d Hands-On Skill Station & EDGE Verification Checklist (Vehicle for Tools Needed to)
-- **Common Myth:** Automotive factory spare tires support normal highway travel speeds across hundreds of miles.
-- **Pamphlet Fact:** Emergency temporary sealant canisters can ruin internal electronic tire pressure monitor wheel sensors.
 
 ![An SRS airbag cover illustrates built-in vehicle supplemental restraint safety systems.](/assets/pamphlet_images/traffic_safety_p042_img1.png)
 
@@ -236,8 +211,6 @@
 **Official Requirement 3e:** In a location away from traffic hazards, mark off the reaction distances and braking distances that a car will travel as it makes an emergency stop at 25, 55, and 70 miles per hour on level dry and level wet pavement. Discuss how these distances change for normal and impaired drivers, for day and night driving, and for weather conditions. Note: Use the graphics template in the Traffic Safety merit badge pamphlet or one approved by your counselor to set up this demonstration.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Location Away from Traffic Hazards)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Traffic Safety Req 3e preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Vehicle braking distance represents the total space required to halt during roadway emergencies.
-- **Pamphlet Fact:** Braking distance quadruples whenever vehicle velocity doubles due to kinetic energy exponential increases.
 
 ![A pencil tire pressure gauge measures tire inflation levels during vehicle maintenance checks.](/assets/pamphlet_images/traffic_safety_p047_img1.png)
 
@@ -265,8 +238,6 @@
 #### Req 4a: Bicycle Vehicular Law Compliance
 **Official Requirement 4a:** Describe at least three examples of traffic laws that apply to drivers of motor vehicles and to bicyclists.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Traffic Laws That Apply to)
-- **Common Myth:** Bicycles possess automatic right-of-way over motor vehicles regardless of prevailing traffic signals.
-- **Pamphlet Fact:** Bicyclists on public roadways must travel with traffic flow rather than against facing motorists.
 
 ![A police officer speaks with a motorist during a routine traffic stop along a roadway.](/assets/pamphlet_images/traffic_safety_p052_img1.png)
 
@@ -279,8 +250,6 @@
 #### Req 4b: Law Enforcement Stop Protocols
 **Official Requirement 4b:** Explain procedures and etiquette a driver should follow if a law enforcement officer stops their vehicle.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Procedures and Etiquette A Driver)
-- **Common Myth:** Drivers should immediately exit their cars to greet approaching officers during traffic stops.
-- **Pamphlet Fact:** Reaching quickly into glove boxes or pockets without announcement creates perceived officer safety threats.
 
 ![Inserting a penny into tire grooves tests whether tread depth meets safe driving standards.](/assets/pamphlet_images/traffic_safety_p048_img1.png)
 
@@ -293,8 +262,6 @@
 #### Req 4c: Collision Response Reporting Requirements
 **Official Requirement 4c:** Explain procedures that drivers should follow if they are involved in a car accident.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Procedures That Drivers Should Follow)
-- **Common Myth:** Drivers in minor property accidents should leave vehicles blocking active traffic lanes indefinitely.
-- **Pamphlet Fact:** Leaving collision locations involving property damage or physical injury constitutes a criminal hit-and-run offense.
 
 ![A road bicycle features safety reflectors and gears required for sharing public roadways safely.](/assets/pamphlet_images/traffic_safety_p055_img1.png)
 
@@ -307,8 +274,6 @@
 #### Req 4d: Required Motor Vehicle Documentation
 **Official Requirement 4d:** Name the three documents that drivers are required by law to carry whenever they operate a motor vehicle.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Documents That Drivers)
-- **Common Myth:** Displaying a vehicle bill of sale excuses the absence of active registration.
-- **Pamphlet Fact:** Digital insurance cards on smartphones satisfy roadside legal verification requirements in most states.
 
 ![Pedestrians cross the street directly in front of an automobile at a designated crosswalk.](/assets/pamphlet_images/traffic_safety_p060_img1.png)
 
@@ -334,8 +299,6 @@
 #### Req 5a: Highway Safety Engineering Design
 **Official Requirement 5a:** Explain how road designs for intersections, medians, and road shoulders contribute to traffic safety. Discuss safety features of interstate highways.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 28, p. 68)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Road Designs for Intersections Medians)
-- **Common Myth:** Highway guardrails are engineered as rigid walls to deflect colliding cars into lanes.
-- **Pamphlet Fact:** Rumble strips milled into asphalt shoulders vibrate tires to prevent off-road ditch rollover crashes.
 
 ![Damaged asphalt road surfaces create hazardous steering conditions for cars.](/assets/pamphlet_images/traffic_safety_p032_img1.png)
 
@@ -349,8 +312,6 @@
 #### Req 5b: Traffic Control Sign Classification
 **Official Requirement 5b:** Explain how color and shape help drivers recognize and understand the information presented on traffic and roadway signs. Explain the purpose of different types of signs, signals, and pavement markings.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 28, p. 68)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Color and Shape Help Drivers)
-- **Common Myth:** Traffic signs use bright colors purely for decorative roadside community aesthetic appeal reasons.
-- **Pamphlet Fact:** Equilateral triangles pointing downward convey exclusive yield mandates requiring drivers to slow down.
 
 ![Children walk past an extended school bus stop arm requiring surrounding traffic to halt.](/assets/pamphlet_images/traffic_safety_p063_img1.png)
 
@@ -377,8 +338,6 @@
 #### Req 6a: Nighttime Pedestrian Visibility Comparisons
 **Official Requirement 6a:** Describe the difference in nighttime visibility between a properly lit bicycle and rider (or a pedestrian) wearing reflective material and a bicycle and rider with no lights (or a pedestrian) dressed in dark clothing without reflective material.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 55, p. 59)* • **Organizer (2-Column Comparison Table):** Req 6a Technical Comparison Matrix (Nighttime Visibility Between A Properly)
-- **Common Myth:** Pedestrians walking along unlit roads can assume drivers see them from distant headlights.
-- **Pamphlet Fact:** Standard white fabric reflects minimal light compared to microprismatic retroreflective tape at night.
 
 ![Flashing police cruiser lights illuminate a driver during an evening traffic enforcement stop.](/assets/pamphlet_images/traffic_safety_p053_img1.png)
 
@@ -391,8 +350,6 @@
 #### Req 6b: Pedestrian Roadway Safety Rules
 **Official Requirement 6b:** Name at least four safety measures that pedestrians, including hikers, should follow as they walk along or across streets or roadways.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 55, p. 59)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Safety Measures That Pedestrians Including)
-- **Common Myth:** Pedestrians should hike with the direction of vehicular traffic along rural roadway shoulders.
-- **Pamphlet Fact:** Walking against facing vehicular traffic allows pedestrians to observe and evade errant approaching vehicles.
 
 ![Desert highway signs guide motorists with mileage destinations and posted speed restrictions.](/assets/pamphlet_images/traffic_safety_p067_img1.png)
 
@@ -405,8 +362,6 @@
 #### Req 6c: School Bus Safety Compliance
 **Official Requirement 6c:** Name at least four safety measures that drivers of motor vehicles should follow if they approach a school bus making its stops at pick-up and drop-off locations.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 55, p. 59)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Safety Measures That Drivers of)
-- **Common Myth:** Motorists traveling in any direction may bypass school buses loading on divided highways.
-- **Pamphlet Fact:** Passing a stopped school bus displaying flashing red lights brings mandatory driver license suspensions.
 
 ![Flashing lights and crossing gates warn motorists of a high-speed train crossing the highway.](/assets/pamphlet_images/traffic_safety_p071_img2.png)
 
@@ -419,8 +374,6 @@
 #### Req 6d: Commercial Vehicle Blind Spots
 **Official Requirement 6d:** Discuss the risks associated with blind spots on cars and trucks and how drivers can prevent lane change crashes.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 55, p. 59)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Discuss the Risks Associated with)
-- **Common Myth:** Large truck rear mirrors eliminate all blind spots directly behind forty-foot freight trailers.
-- **Pamphlet Fact:** Commercial semi-trucks possess vast blind spots extending twenty feet directly in front of grills.
 
 ![A smiling youth wearing a helmet participates in a community bicycle safety rodeo obstacle course.](/assets/pamphlet_images/traffic_safety_p083_img1.png)
 
@@ -446,8 +399,6 @@
 #### Req 7a: Traffic Safety Professional Interview
 **Official Requirement 7a:** Interview a traffic law enforcement officer or a traffic safety professional in your community to identify what three traffic safety problems the officer is most concerned about. Discuss with your counselor possible ways to solve one of those problems.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Traffic Safety Careers and Pathways)
-- **Common Myth:** Police traffic officers prioritize revenue generation over reducing critical injury intersection collision rates.
-- **Pamphlet Fact:** Intersection red-light running consistently ranks among top municipal traffic collision causes reported by officers.
 
 ![A police officer in uniform represents law enforcement professionals who safeguard public roads.](/assets/pamphlet_images/traffic_safety_p081_img1.png)
 
@@ -461,8 +412,6 @@
 #### Req 7b: Personal Traffic Safety Pledge
 **Official Requirement 7b:** Write a personal traffic safety pledge, addressing three of your most concerning issues relating to traffic safety. Discuss your pledge with your counselor.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Personal Traffic Safety Pledge Addressing)
-- **Common Myth:** Personal driving pledges are simple informal promises without measurable impact on driving behavior.
-- **Pamphlet Fact:** Signed safety commitments establish explicit family boundaries against dangerous mobile phone use while driving.
 
 ![Teenagers display a large poster board to promote safety awareness across their local community.](/assets/pamphlet_images/traffic_safety_p085_img1.png)
 
@@ -476,8 +425,6 @@
 #### Req 7c: Community Traffic Safety Campaign
 **Official Requirement 7c:** Initiate and organize an activity or event to demonstrate the importance of traffic safety.
 **Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Initiate and Organize An Activity)
-- **Common Myth:** Organizing a community safety event requires expensive specialized municipal equipment and police barricades.
-- **Pamphlet Fact:** Hands-on bicycle helmet fitting stations significantly increase youth safety compliance rates across neighborhoods.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -492,11 +439,6 @@
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Traffic Safety Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Careers in traffic safety are restricted solely to uniformed municipal highway patrol police officers.
 - **Pamphlet Fact:** Transportation engineers combine physics and civil planning to reduce highway fatal collision frequencies significantly.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Traffic Safety Merit Badge: Traffic Safety Careers and Pathways.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Traffic Safety Careers and Pathways.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A vehicle safety belt buckle ensures passengers remain securely restrained while traveling.](/assets/pamphlet_images/traffic_safety_p082_img1.png)
 

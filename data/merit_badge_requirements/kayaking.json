@@ -376,13 +376,15 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Paddling Environmental Hazard",
+        "left_header": "Req 1a: Paddling Environmental Hazard Assessment",
         "right_header": "Req 1b: Paddler First Aid Protocols",
         "left_points": [
-          "(1a) Paddling Environmental Hazard Assessment: River hazards include sweepers, submerged rocks, and hydraulics that overpower paddling strokes. Scouting America requires portaging around all low head dams and unrated river obstructions."
+          "(1a) Paddling Environmental Hazard Assessment: River hazards include sweepers, submerged rocks, and hydraulics that overpower paddling strokes. Scouting America requires portaging around all low head dams and unrated river obstructions.",
+          "Weather Assessment: Check local barometric trends and lightning forecast before launching on water."
         ],
         "right_points": [
-          "(1b) Paddler First Aid Protocols: Paddlers must prevent friction blisters with loose grip and monitor companions for heat exhaustion or hypothermia. Early treatment requires moving patients to shelter, dry garments, and warm oral fluids."
+          "(1b) Paddler First Aid Protocols: Paddlers must prevent friction blisters with loose grip and monitor companions for heat exhaustion or hypothermia. Early treatment requires moving patients to shelter, dry garments, and warm oral fluids.",
+          "(1c) Safety Afloat Policy Application: The nine points of Safety Afloat provide the administrative safety framework for all Scouting boating activities. Every trip requires trained supervision, physical fitness screening, designated buddy pairs, and continuous equipment inspections."
         ],
         "rows": [
           {
@@ -392,26 +394,27 @@
           },
           {
             "attribute": "Hydration Rules",
-            "left": "Req 1a: Paddling Environmental: River hazards include sweepers, submerged rocks, and hydraulics that overpower paddling strokes. Scouting America requires portaging around all low head dams and unrated river obstructions.",
-            "right": "Req 1b: Paddler First Aid Protocols: Paddlers must prevent friction blisters with loose grip and monitor companions for heat exhaustion or hypothermia. Early treatment requires moving patients to shelter, dry garments, and warm oral fluids."
+            "left": "Weather Assessment: Check local barometric trends and lightning forecast before launching on water.",
+            "right": "(1c) Safety Afloat Policy Application: The nine points of Safety Afloat provide the administrative safety framework for all Scouting boating activities. Every trip requires trained supervision, physical fitness screening, designated buddy pairs, and continuous equipment inspections."
           },
           {
             "attribute": "Wind Hazards",
-            "left": "Req 1c: Safety Afloat Policy: The nine points of Safety Afloat provide the administrative safety framework for all Scouting boating activities. Every trip requires trained supervision, physical fitness screening, designated buddy pairs, and continuous equipment inspections.",
-            "right": "Hydration Rules: Carry one quart of potable water per paddler for short trips."
+            "left": "Wind Hazards: Offshore breezes push light kayaks into open waters against paddling strokes.",
+            "right": "Strainer Hazards: River current carries boats into downed trees that trap submerged paddlers."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 1 Exemplar Workbook Entry: Kayaking Hazards",
+        "title": "Kayaking Req 1 Worked Example: Kayaking Safety and Hazard Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Paddling Environmental Hazard": "River hazards include sweepers, submerged rocks, and hydraulics that overpower paddling strokes. Scouting America requires portaging around all low head dams and unrated river obstructions.",
-          "Req 1b - Paddler First Aid Protocols": "Paddlers must prevent friction blisters with loose grip and monitor companions for heat exhaustion or hypothermia. Early treatment requires moving patients to shelter, dry garments, and warm oral fluids.",
-          "Req 1c - Safety Afloat Policy": "The nine points of Safety Afloat provide the administrative safety framework for all Scouting boating activities. Every trip requires trained supervision, physical fitness screening, designated buddy pairs, and continuous equipment inspections."
+          "Phase 1 - Weather Assessment": "Review the local radar and marine forecast for approaching squalls before launching.",
+          "Phase 2 - Gear Inspection": "Fasten your personal flotation device and check all whistle attachment points.",
+          "Phase 3 - Route Floatation": "File a written float plan detailing launch times and river takeout locations.",
+          "Phase 4 - Safety Afloat": "Confirm designated adult leadership and qualified swimmer supervision before entering boats."
         },
-        "sample_output": "Kayaking Hazards and First Aid: Wash the area with soap and water and then apply a thin layer of an antibiotic ointment to prevent infection (p. 18).",
-        "counselor_tip": "For Kayaking Requirement 1 (Kayaking Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20))."
+        "sample_output": "Paddlers must identify environmental hazards including river strainers, sudden weather shifts, and immersion hypothermia before launching. Risk mitigation requires continuous monitoring of water conditions, thermal protection clothing, and strict adherence to Safety Afloat standards.",
+        "counselor_tip": "During the Kayaking Requirement 1 conference on Kayaking Safety and Hazard Management, verify that the Scout can explain weather assessment and demonstrate safety afloat: Confirm designated adult leadership and qualified swimmer supervision before entering boats."
       },
       "quiz_item": {
         "scenario_prompt": "Your kayak capsizes in calm lake water during a practice paddle. After performing a wet exit, what is your immediate priority in the water?",
@@ -570,47 +573,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Core Water Safety Standards",
-        "right_header": "Req 2: Submit Complete Health History",
+        "left_header": "Swimmer Classification Test Requirement: Core Principles",
+        "right_header": "Swimmer Classification Test Requirement: Field Execution",
         "left_points": [
-          "Core Water Safety Standards: Safety and First Aid (p. 11).",
-          "Mandatory Fitted Life Jackets: All persons onboard must wear a properly sized and fitted lifejacket (p. 11).",
-          "Required Participant Health History: A complete health history is required of all participants as evidence of fitness for kayaking activities (p. 11)."
+          "Entry Assessment: Jump feet first into water over head height and surface easily.",
+          "Stroke Distance: Complete one hundred yards continuously with seventy five yards strong stroke."
         ],
         "right_points": [
-          "Submit Complete Health History: A complete health history is required of all participants as evidence of fitness for kayaking activities (p. 11).",
-          "Obtain Parent Guardian Signature: Forms for minors must be signed by a parent or legal guardian (p. 11).",
-          "Report Recent Illnesses: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 11)."
+          "Resting Float: Conclude test by maintaining calm resting back float for sixty seconds.",
+          "Classification Requirement: Retest annually to maintain active swimmer status for all boating events."
         ],
         "rows": [
           {
             "attribute": "Entry Assessment",
-            "left": "Core Water Safety Standards: Safety and First Aid (p. 11).",
-            "right": "Submit Complete Health History: A complete health history is required of all participants as evidence of fitness for kayaking activities (p. 11)."
+            "left": "Entry Assessment: Jump feet first into water over head height and surface easily.",
+            "right": "Resting Float: Conclude test by maintaining calm resting back float for sixty seconds."
           },
           {
             "attribute": "Stroke Distance",
-            "left": "Mandatory Fitted Life Jackets: All persons onboard must wear a properly sized and fitted lifejacket (p. 11).",
-            "right": "Obtain Parent Guardian Signature: Forms for minors must be signed by a parent or legal guardian (p. 11)."
+            "left": "Stroke Distance: Complete one hundred yards continuously with seventy five yards strong stroke.",
+            "right": "Classification Requirement: Retest annually to maintain active swimmer status for all boating events."
           },
           {
             "attribute": "Resting Float",
-            "left": "Required Participant Health History: A complete health history is required of all participants as evidence of fitness for kayaking activities (p. 11).",
-            "right": "Report Recent Illnesses: Participants should be asked to relate any recent incidents of illness or injury just prior to the activity (p. 11)."
+            "left": "Resting Float: Conclude test by maintaining calm resting back float for sixty seconds.",
+            "right": "Classification Requirement: Retest annually to maintain active swimmer status for all boating events."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 2 Exemplar Workbook Entry: Swimmer Test",
+        "title": "Kayaking Req 2 Worked Example: Swimmer Classification Test Requirement",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Core Water Safety Standards": "Safety and First Aid (p. 11).",
-          "Mandatory Fitted Life Jackets": "All persons onboard must wear a properly sized and fitted lifejacket (p. 11).",
-          "Required Participant Health History": "A complete health history is required of all participants as evidence of fitness for kayaking activities (p. 11).",
-          "Parent or Guardian Signatures": "Forms for minors must be signed by a parent or legal guardian (p. 11)."
+          "Phase 1 - Feet First Jump": "Plunge feet first into water over head height to test recovery.",
+          "Phase 2 - Distance Strokes": "Swim seventy five yards using a strong, steady forward crawl or breaststroke.",
+          "Phase 3 - Resting Stroke": "Complete twenty five yards using an easy, relaxing elementary backstroke smoothly.",
+          "Phase 4 - Water Treading": "Rest motionless on your back for sixty seconds while breathing normally."
         },
-        "sample_output": "Swimmer Test and Fitness Qualification: Safety and First Aid (p. 11).",
-        "counselor_tip": "For Kayaking Requirement 2 (Swimmer Test and Fitness Qualification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 11, p. 37))."
+        "sample_output": "The Scouting America swimmer test establishes the water competency prerequisite for solo and tandem kayaking merit badge instruction. Scouts must jump feet first into deep water, swim one hundred yards using strong strokes, and execute an unassisted resting float.",
+        "counselor_tip": "During the Kayaking Requirement 2 conference on Swimmer Classification Test Requirement, verify that the Scout can explain entry assessment and demonstrate water treading: Rest motionless on your back for sixty seconds while breathing normally."
       },
       "quiz_item": {
         "scenario_prompt": "What must happen right before a kayaking trip even after all participants have submitted signed health histories?",
@@ -935,41 +936,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Life Jacket Selection",
+        "left_header": "Req 3a: Life Jacket Selection and Fitting",
         "right_header": "Req 3b: Kayaking Safety Gear Essentials",
         "left_points": [
-          "(3a) Life Jacket Selection And Fitting: Paddlers select life jackets rated for active paddling that offer large armholes and narrow chest panels. Proper fitting requires sequential strap cinching from the bottom waist belt up through the shoulder harnesses."
+          "(3a) Life Jacket Selection and Fitting: Paddlers select life jackets rated for active paddling that offer large armholes and narrow chest panels. Proper fitting requires sequential strap cinching from the bottom waist belt up through the shoulder harnesses.",
+          "Jacket Fitting: Tighten side adjustment straps from waist upward to ensure snug torso contact."
         ],
         "right_points": [
-          "(3b) Kayaking Safety Gear Essentials: Essential safety gear includes sound signaling devices, spare paddles, bailers or pumps, and floating throw bags. These tools allow paddlers to dewater flooded compartments and assist capsized companions during emergencies."
+          "(3b) Kayaking Safety Gear Essentials: Essential safety gear includes sound signaling devices, spare paddles, bailers or pumps, and floating throw bags. These tools allow paddlers to dewater flooded compartments and assist capsized companions during emergencies.",
+          "Signal Attachment: Secure an approved pealess marine whistle directly to life jacket exterior webbing."
         ],
         "rows": [
           {
             "attribute": "Jacket Fitting",
-            "left": "(3a) Life Jacket Selection And Fitting: Paddlers select life jackets rated for active paddling that offer large armholes and narrow chest panels. Proper fitting requires sequential strap cinching from the bottom waist belt up through the shoulder harnesses.",
+            "left": "(3a) Life Jacket Selection and Fitting: Paddlers select life jackets rated for active paddling that offer large armholes and narrow chest panels. Proper fitting requires sequential strap cinching from the bottom waist belt up through the shoulder harnesses.",
             "right": "(3b) Kayaking Safety Gear Essentials: Essential safety gear includes sound signaling devices, spare paddles, bailers or pumps, and floating throw bags. These tools allow paddlers to dewater flooded compartments and assist capsized companions during emergencies."
           },
           {
             "attribute": "Shoulder Check",
-            "left": "Req 3a: Life Jacket Selection: Paddlers select life jackets rated for active paddling that offer large armholes and narrow chest panels. Proper fitting requires sequential strap cinching from the bottom waist belt up through the shoulder harnesses.",
-            "right": "Req 3b: Kayaking Safety Gear: Essential safety gear includes sound signaling devices, spare paddles, bailers or pumps, and floating throw bags. These tools allow paddlers to dewater flooded compartments and assist capsized companions during emergencies."
+            "left": "Jacket Fitting: Tighten side adjustment straps from waist upward to ensure snug torso contact.",
+            "right": "Signal Attachment: Secure an approved pealess marine whistle directly to life jacket exterior webbing."
           },
           {
             "attribute": "Signal Attachment",
-            "left": "Jacket Fitting: Tighten side adjustment straps from waist upward to ensure snug torso contact.",
-            "right": "Shoulder Check: Pull up firmly on shoulder straps to verify vest stays below ears."
+            "left": "Signal Attachment: Secure an approved pealess marine whistle directly to life jacket exterior webbing.",
+            "right": "Flotation Inspection: Check foam panels for compression damage before boarding any paddle craft."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 3 Exemplar Workbook Entry: Life Jackets",
+        "title": "Kayaking Req 3 Worked Example: Personal Flotation and Safety Equipment",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Life Jacket Selection": "Paddlers select life jackets rated for active paddling that offer large armholes and narrow chest panels. Proper fitting requires sequential strap cinching from the bottom waist belt up through the shoulder harnesses.",
-          "Req 3b - Kayaking Safety Gear": "Essential safety gear includes sound signaling devices, spare paddles, bailers or pumps, and floating throw bags. These tools allow paddlers to dewater flooded compartments and assist capsized companions during emergencies."
+          "Phase 1 - Vest Loosening": "Loosen all adjustment straps before slipping the life jacket over your shoulders.",
+          "Phase 2 - Front Closure": "Fasten the front zipper and snap all waist buckles together securely.",
+          "Phase 3 - Strap Tightening": "Cinch the side straps starting at waist level up to ribs.",
+          "Phase 4 - Fit Test": "Have a buddy pull upward on shoulder straps to test security."
         },
-        "sample_output": "Life Jackets and Safety Equipment: In kayaking, as with any aquatic activity, the quality of the water can be a concern (p. 14).",
-        "counselor_tip": "For Kayaking Requirement 3 (Life Jackets and Safety Equipment), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43))."
+        "sample_output": "Kayakers must wear inherently buoyant Type III or Type V life jackets designed for unhindered arm movement. The craft must carry mandatory safety gear including sound signaling devices, bilge pumps, sponges, and rescue throw bags.",
+        "counselor_tip": "During the Kayaking Requirement 3 conference on Personal Flotation and Safety Equipment, verify that the Scout can explain jacket fitting and demonstrate fit test: Have a buddy pull upward on shoulder straps to test security."
       },
       "quiz_item": {
         "scenario_prompt": "Which environmental indicators warn you that a body of water may be unsafe or polluted for kayaking?",
@@ -1355,42 +1360,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Kayak Anatomy and Hull",
+        "left_header": "Req 4a: Kayak Anatomy and Hull Components",
         "right_header": "Req 4b: Kayak Design and Hull Dynamics",
         "left_points": [
-          "(4a) Kayak Anatomy And Hull Components: Scouts must identify key hull features including bow, stern, gunwales, foot braces, and deck bungees. Familiarity with internal bulkheads and drainage plugs ensures seaworthy vessel configuration before departure."
+          "(4a) Kayak Anatomy and Hull Components: Scouts must identify key hull features including bow, stern, gunwales, foot braces, and deck bungees. Familiarity with internal bulkheads and drainage plugs ensures seaworthy vessel configuration before departure.",
+          "Cockpit Coaming: Molded rim around cockpit opening accommodates spray skirt attachments during paddling."
         ],
         "right_points": [
-          "(4b) Kayak Design And Hull Dynamics: Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking."
+          "(4b) Kayak Design and Hull Dynamics: Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking.",
+          "(4c) Kayak Storage and Hull Maintenance: Maintain kayak hulls by washing away grit, tightening loose deck hardware, and shielding plastic from ultraviolet deterioration. Store hulls supported on padded racks indoors or under breathable protective tarps."
         ],
         "rows": [
           {
             "attribute": "Cockpit Coaming",
-            "left": "(4a) Kayak Anatomy And Hull Components: Scouts must identify key hull features including bow, stern, gunwales, foot braces, and deck bungees. Familiarity with internal bulkheads and drainage plugs ensures seaworthy vessel configuration before departure.",
-            "right": "(4b) Kayak Design And Hull Dynamics: Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking."
+            "left": "(4a) Kayak Anatomy and Hull Components: Scouts must identify key hull features including bow, stern, gunwales, foot braces, and deck bungees. Familiarity with internal bulkheads and drainage plugs ensures seaworthy vessel configuration before departure.",
+            "right": "(4b) Kayak Design and Hull Dynamics: Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking."
           },
           {
             "attribute": "Rocker Curve",
-            "left": "Req 4a: Kayak Anatomy And Hull: Scouts must identify key hull features including bow, stern, gunwales, foot braces, and deck bungees. Familiarity with internal bulkheads and drainage plugs ensures seaworthy vessel configuration before departure.",
-            "right": "Req 4b: Kayak Design And Hull: Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking."
+            "left": "Cockpit Coaming: Molded rim around cockpit opening accommodates spray skirt attachments during paddling.",
+            "right": "(4c) Kayak Storage and Hull Maintenance: Maintain kayak hulls by washing away grit, tightening loose deck hardware, and shielding plastic from ultraviolet deterioration. Store hulls supported on padded racks indoors or under breathable protective tarps."
           },
           {
             "attribute": "Bulkhead Walls",
-            "left": "Req 4c: Kayak Storage And Hull: Maintain kayak hulls by washing away grit, tightening loose deck hardware, and shielding plastic from ultraviolet deterioration. Store hulls supported on padded racks indoors or under breathable protective tarps.",
-            "right": "Rocker Curve: Bottom curvature from bow to stern determines maneuverability versus tracking stability."
+            "left": "Bulkhead Walls: Watertight internal partitions create buoyant air chambers inside bow and stern.",
+            "right": "Polyethylene Storage: Store plastic kayaks away from direct sunlight to prevent ultraviolet plastic warping."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 4 Exemplar Workbook Entry: Kayak Anatomy",
+        "title": "Kayaking Req 4 Worked Example: Kayak Characteristics and Care Fundamentals",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Kayak Anatomy and Hull": "Scouts must identify key hull features including bow, stern, gunwales, foot braces, and deck bungees. Familiarity with internal bulkheads and drainage plugs ensures seaworthy vessel configuration before departure.",
-          "Req 4b - Kayak Design and Hull": "Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking.",
-          "Req 4c - Kayak Storage and Hull": "Maintain kayak hulls by washing away grit, tightening loose deck hardware, and shielding plastic from ultraviolet deterioration. Store hulls supported on padded racks indoors or under breathable protective tarps."
+          "Phase 1 - Component Identification": "Point out the bow, stern, port, starboard, cockpit, and seat back.",
+          "Phase 2 - Hull Comparison": "Contrast the wide beam of recreational hulls against narrow touring kayak designs.",
+          "Phase 3 - Post Paddle Wash": "Rinse grit and salt residue from deck rigging using fresh tap water.",
+          "Phase 4 - Rack Storage": "Rest the dry hull upside down on padded crossbars under protective shade."
         },
-        "sample_output": "Kayak Anatomy Design and Care: Quality paddles have an oval shaft, which provides better control and comfort and helps you set the correct angle (p. 29).",
-        "counselor_tip": "For Kayaking Requirement 4 (Kayak Anatomy Design and Care), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35))."
+        "sample_output": "Kayaks vary in hull length, beam width, rocker profile, and deck rigging depending on recreational, touring, or whitewater purposes. Routine care involves rinsing hulls with fresh water, inspecting deck bungees, and storing boats on padded racks out of sunlight.",
+        "counselor_tip": "During the Kayaking Requirement 4 conference on Kayak Characteristics and Care Fundamentals, verify that the Scout can explain cockpit coaming and demonstrate rack storage: Rest the dry hull upside down on padded crossbars under protective shade."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do you check proper hand placement and sizing using the overhead kayak paddle rule of thumb?",
@@ -1784,10 +1792,12 @@
         "left_header": "Req 5a: Kayak Paddle Usage Mechanics",
         "right_header": "Req 5b: Double Bladed Paddle Anatomy",
         "left_points": [
-          "(5a) Kayak Paddle Usage Mechanics: Position hands shoulder width apart with a relaxed control hand grip and loose opposite hand. Rotate the torso smoothly from the hips to pull the power face through water without arm fatigue."
+          "(5a) Kayak Paddle Usage Mechanics: Position hands shoulder width apart with a relaxed control hand grip and loose opposite hand. Rotate the torso smoothly from the hips to pull the power face through water without arm fatigue.",
+          "Shaft Diameter: Match shaft thickness to hand size to prevent severe wrist strain."
         ],
         "right_points": [
-          "(5b) Double Bladed Paddle Anatomy: Key paddle anatomy includes the shaft, blades, ferrule connection mechanism, throat, and flexible drip rings. Asymmetric blade shapes minimize twisting fluttering forces as the paddle slices through surface water."
+          "(5b) Double Bladed Paddle Anatomy: Key paddle anatomy includes the shaft, blades, ferrule connection mechanism, throat, and flexible drip rings. Asymmetric blade shapes minimize twisting fluttering forces as the paddle slices through surface water.",
+          "(5c) Paddle Care and Maintenance Guidelines: Clean paddle shafts and connection ferrules thoroughly with fresh water after each paddling session. Inspect blades for cracking, nicks, or splintering, and hang paddles vertically in dry storage."
         ],
         "rows": [
           {
@@ -1797,26 +1807,27 @@
           },
           {
             "attribute": "Blade Spooning",
-            "left": "Req 5a: Kayak Paddle Usage Mechanics: Position hands shoulder width apart with a relaxed control hand grip and loose opposite hand. Rotate the torso smoothly from the hips to pull the power face through water without arm fatigue.",
-            "right": "Req 5b: Double Bladed Paddle Anatomy: Key paddle anatomy includes the shaft, blades, ferrule connection mechanism, throat, and flexible drip rings. Asymmetric blade shapes minimize twisting fluttering forces as the paddle slices through surface water."
+            "left": "Shaft Diameter: Match shaft thickness to hand size to prevent severe wrist strain.",
+            "right": "(5c) Paddle Care and Maintenance Guidelines: Clean paddle shafts and connection ferrules thoroughly with fresh water after each paddling session. Inspect blades for cracking, nicks, or splintering, and hang paddles vertically in dry storage."
           },
           {
             "attribute": "Drip Rings",
-            "left": "Req 5c: Paddle Care And Maintenance: Clean paddle shafts and connection ferrules thoroughly with fresh water after each paddling session. Inspect blades for cracking, nicks, or splintering, and hang paddles vertically in dry storage.",
-            "right": "Blade Spooning: Face the concave side of the paddle blade toward the rear."
+            "left": "Drip Rings: Position rubber drip rings six inches outward from your outer hand.",
+            "right": "Paddle Breakdown: Disassemble two piece shafts before storing to prevent ferrule corrosion locking."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 5 Exemplar Workbook Entry: Kayak Paddle",
+        "title": "Kayaking Req 5 Worked Example: Double Bladed Paddle Mechanics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Kayak Paddle Usage Mechanics": "Position hands shoulder width apart with a relaxed control hand grip and loose opposite hand. Rotate the torso smoothly from the hips to pull the power face through water without arm fatigue.",
-          "Req 5b - Double Bladed Paddle Anatomy": "Key paddle anatomy includes the shaft, blades, ferrule connection mechanism, throat, and flexible drip rings. Asymmetric blade shapes minimize twisting fluttering forces as the paddle slices through surface water.",
-          "Req 5c - Paddle Care and Maintenance": "Clean paddle shafts and connection ferrules thoroughly with fresh water after each paddling session. Inspect blades for cracking, nicks, or splintering, and hang paddles vertically in dry storage."
+          "Phase 1 - Blade Orientation": "Position concave spoon faces toward the rear with top edges angled forward.",
+          "Phase 2 - Grip Alignment": "Center hands slightly wider than shoulder width while centering paddle overhead.",
+          "Phase 3 - Torso Rotation": "Turn shoulders and core muscles to pull the blade through water.",
+          "Phase 4 - Joint Cleaning": "Rinse sand and grit from the shaft ferrule before clicking together."
         },
-        "sample_output": "Kayak Paddle Anatomy and Care: Following these tips will help you be better prepared from season to season (p. 33).",
-        "counselor_tip": "For Kayaking Requirement 5 (Kayak Paddle Anatomy and Care), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67))."
+        "sample_output": "Kayakers utilize double bladed paddles composed of a central shaft, ferrule joint, drip rings, and asymmetric blades. Efficient propulsion relies on torso rotation, centered hand placement, and keeping the power face oriented toward the stern.",
+        "counselor_tip": "During the Kayaking Requirement 5 conference on Double Bladed Paddle Mechanics, verify that the Scout can explain shaft diameter and demonstrate joint cleaning: Rinse sand and grit from the shaft ferrule before clicking together."
       },
       "quiz_item": {
         "scenario_prompt": "How should your hands and elbows be positioned when holding a kayak paddle in the basic ready position?",
@@ -2396,22 +2407,22 @@
           },
           {
             "attribute": "Buddy Rafting",
-            "left": "Req 6a: Wet Exit Capsizing: Perform wet exits by keeping calm, leaning forward toward the deck, and placing hands on the coaming. Slide the knees out of thigh braces and push the body free of the hull.",
-            "right": "Req 6b: Assisted Deep Water Reentry: Buddy reentries require stabilizing the victim kayak by rafting alongside the rescuer deck. The swimmer kicks horizontally to slide their chest across the stern deck before rotating inside."
+            "left": "Buddy Rafting: Grasp partner deck lines securely to stabilize boats during water rescue.",
+            "right": "T Rescue: Slide capsized kayak upside down across rescuer cockpit to drain water."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 6 Exemplar Workbook Entry: Wet Exits",
+        "title": "Kayaking Req 6 Worked Example: Capsizing Recoveries and Assisted Rescues",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Wet Exit Capsizing Procedures": "Perform wet exits by keeping calm, leaning forward toward the deck, and placing hands on the coaming. Slide the knees out of thigh braces and push the body free of the hull.",
-          "Req 6b - Assisted Deep Water Reentry": "Buddy reentries require stabilizing the victim kayak by rafting alongside the rescuer deck. The swimmer kicks horizontally to slide their chest across the stern deck before rotating inside.",
-          "Req 6c - Kayak Over Kayak Rescue": "Rescuers pull the victim boat bow perpendicular across their own cockpit to break water suction. Inverting and sliding the hull back and forth drains water before flipping it upright.",
-          "Req 6d - Heat Escape Lessening Posture": "The Heat Escape Lessening Posture preserves core temperature during cold water immersion waiting for rescue. Cross wrists tightly over the chest life jacket, press upper arms against ribs, and draw knees together."
+          "Phase 1 - Controlled Capsize": "Tip the kayak while tucking chin toward chest to protect face.",
+          "Phase 2 - Cockpit Release": "Push off the coaming rim and slide legs out of cockpit.",
+          "Phase 3 - Contact Hold": "Surface alongside the upright paddle while holding the boat grab loop.",
+          "Phase 4 - Hull Dewatering": "Assist partner in rolling drained boat upright across their cockpit coaming."
         },
-        "sample_output": "Wet Exits and Kayak Rescues: The paddler being rescued swims to the far end of the capsized boat (p. 56).",
-        "counselor_tip": "For Kayaking Requirement 6 (Wet Exits and Kayak Rescues), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57))."
+        "sample_output": "Self rescue and assisted buddy boat rescues are critical emergency skills for all open water kayakers. Scouts must master tucking during wet exits, maintaining contact with craft, and draining flooded hulls using T rescues.",
+        "counselor_tip": "During the Kayaking Requirement 6 conference on Capsizing Recoveries and Assisted Rescues, verify that the Scout can explain wet exit and demonstrate hull dewatering: Assist partner in rolling drained boat upright across their cockpit coaming."
       },
       "quiz_item": {
         "scenario_prompt": "Where should the swimmer position themselves during the boat-draining phase of a kayak-over-kayak T-rescue?",
@@ -3025,13 +3036,11 @@
         "right_header": "Req 7d: Reverse Sweep Turning Mechanics",
         "left_points": [
           "(7a) Forward Propulsion Power Stroke: Execute forward strokes by winding the torso and planting the blade near the footpegs. Pull the boat past the blade using core abdominal unwinding, releasing at the hip line.",
-          "(7b) Reverse Backstroke Execution Mechanics: The backstroke stops forward momentum and propels the kayak backward using the blade reverse face. Rotate shoulders to plant the blade aft and push forward smoothly toward your knees.",
-          "(7c) Forward Sweep Turning Stroke: The forward sweep turns the kayak away from the stroke side through a wide semi circle. Plant the blade near the bow stem and sweep in a wide lateral arc toward stern."
+          "(7b) Reverse Backstroke Execution Mechanics: The backstroke stops forward momentum and propels the kayak backward using the blade reverse face. Rotate shoulders to plant the blade aft and push forward smoothly toward your knees."
         ],
         "right_points": [
           "(7d) Reverse Sweep Turning Mechanics: Reverse sweeps rotate the kayak bow toward the paddling side from a stationary or moving position. Reach back toward the stern deck and sweep a wide outward arc toward the bow.",
-          "(7e) Lateral Draw Stroke Technique: The draw stroke moves the kayak sideways toward an approaching dock, buddy boat, or shoreline. Reach out broadside, immerse the blade vertically, and draw water directly inward toward your hip.",
-          "(7f) Stern Draw Steering Control: Stern draws act like rudders to correct heading wander without dropping forward boat momentum. Angle the blade face slightly outward near the stern and pull water inward toward centerline."
+          "(7e) Lateral Draw Stroke Technique: The draw stroke moves the kayak sideways toward an approaching dock, buddy boat, or shoreline. Reach out broadside, immerse the blade vertically, and draw water directly inward toward your hip."
         ],
         "rows": [
           {
@@ -3046,22 +3055,22 @@
           },
           {
             "attribute": "Forward Sweep",
-            "left": "(7c) Forward Sweep Turning Stroke: The forward sweep turns the kayak away from the stroke side through a wide semi circle. Plant the blade near the bow stem and sweep in a wide lateral arc toward stern.",
-            "right": "(7f) Stern Draw Steering Control: Stern draws act like rudders to correct heading wander without dropping forward boat momentum. Angle the blade face slightly outward near the stern and pull water inward toward centerline."
+            "left": "Forward Sweep: Trace a wide surface arc from bow to stern to turn.",
+            "right": "Side Draw: Reach out laterally and pull water straight inward toward the hip."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 7 Exemplar Workbook Entry: Solo Kayaking",
+        "title": "Kayaking Req 7 Worked Example: Fundamental Kayak Stroke Mechanics",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Forward Propulsion Power": "Execute forward strokes by winding the torso and planting the blade near the footpegs. Pull the boat past the blade using core abdominal unwinding, releasing at the hip line.",
-          "Req 7b - Reverse Backstroke Execution": "The backstroke stops forward momentum and propels the kayak backward using the blade reverse face. Rotate shoulders to plant the blade aft and push forward smoothly toward your knees.",
-          "Req 7c - Forward Sweep Turning Stroke": "The forward sweep turns the kayak away from the stroke side through a wide semi circle. Plant the blade near the bow stem and sweep in a wide lateral arc toward stern.",
-          "Req 7d - Reverse Sweep Turning": "Reverse sweeps rotate the kayak bow toward the paddling side from a stationary or moving position. Reach back toward the stern deck and sweep a wide outward arc toward the bow."
+          "Phase 1 - Forward Catch": "Submerge the blade cleanly near your toes with a nearly vertical shaft.",
+          "Phase 2 - Power Rotation": "Unwind your torso to drive the immersed blade backward alongside your hip.",
+          "Phase 3 - Clean Release": "Slice blade out of water beside hip before it creates drag.",
+          "Phase 4 - Recovery Phase": "Swing opposite blade forward in a fluid motion ready for next catch."
         },
-        "sample_output": "Solo Kayaking Fundamental Strokes: Once a new paddler has learned to propel a boat forward and backward, controlling strokes must be added to achieve more dynamic maneuverability (p. 75).",
-        "counselor_tip": "For Kayaking Requirement 7 (Solo Kayaking Fundamental Strokes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77))."
+        "sample_output": "Basic kayaking maneuvers require balanced blade immersion, clean catches, powerful torso propulsion, and smooth blade recoveries. Scouts must demonstrate forward strokes, reverse backstrokes, forward and reverse sweeps, and lateral draw strokes.",
+        "counselor_tip": "During the Kayaking Requirement 7 conference on Fundamental Kayak Stroke Mechanics, verify that the Scout can explain forward catch and demonstrate recovery phase: Swing opposite blade forward in a fluid motion ready for next catch."
       },
       "quiz_item": {
         "scenario_prompt": "How should you position your upper body at the start of a side draw stroke to move your kayak sideways toward a dock?",
@@ -3736,47 +3745,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Straight Course Tracking",
-        "right_header": "Req 8d: Emergency Stop Within Boat",
+        "left_header": "Req 8a: Straight Course Tracking and Trim",
+        "right_header": "Req 8d: Emergency Stop Within Boat Length",
         "left_points": [
-          "(8a) Straight Course Tracking And Trim: Paddle a straight course for twenty boat lengths by maintaining consistent stroke cadence and vertical shaft angles. Fix your gaze on a distant shoreline landmark to detect and correct minor hull yaw.",
-          "(8b) Stationary Pivot Turn Maneuvers: Spin the kayak within two boat lengths by alternating a forward sweep on one side with reverse sweep opposite. Keep the hull level and rotate the torso aggressively to complete the half circle turn.",
-          "(8c) Abeam Lateral Movement Execution: Move the boat ten feet sideways to port and starboard using consecutive vertical draw strokes. Slice the blade out or feather it underwater between pulls without bumping against the kayak hull."
+          "(8a) Straight Course Tracking and Trim: Paddle a straight course for twenty boat lengths by maintaining consistent stroke cadence and vertical shaft angles. Fix your gaze on a distant shoreline landmark to detect and correct minor hull yaw.",
+          "(8b) Stationary Pivot Turn Maneuvers: Spin the kayak within two boat lengths by alternating a forward sweep on one side with reverse sweep opposite. Keep the hull level and rotate the torso aggressively to complete the half circle turn."
         ],
         "right_points": [
           "(8d) Emergency Stop Within Boat Length: Arrest all forward momentum within a single boat length by applying firm alternating reverse backstrokes. Brace firmly against the footpegs and keep the paddle shaft low to maintain hull balance.",
-          "(8e) Dynamic Turning In Motion: Execute a ninety degree turn while maintaining forward speed by initiating an extended forward sweep on the outside. Tilt the kayak slightly away from the turn while continuing forward stroke momentum.",
-          "(8f) Reverse Linear Hull Maneuvering: Propel the kayak backward in a straight line for four boat lengths using balanced reverse strokes. Glance over alternating shoulders between strokes to monitor your course and avoid hazards."
+          "(8e) Dynamic Turning in Motion: Execute a ninety degree turn while maintaining forward speed by initiating an extended forward sweep on the outside. Tilt the kayak slightly away from the turn while continuing forward stroke momentum."
         ],
         "rows": [
           {
             "attribute": "Course Tracking",
-            "left": "(8a) Straight Course Tracking And Trim: Paddle a straight course for twenty boat lengths by maintaining consistent stroke cadence and vertical shaft angles. Fix your gaze on a distant shoreline landmark to detect and correct minor hull yaw.",
+            "left": "(8a) Straight Course Tracking and Trim: Paddle a straight course for twenty boat lengths by maintaining consistent stroke cadence and vertical shaft angles. Fix your gaze on a distant shoreline landmark to detect and correct minor hull yaw.",
             "right": "(8d) Emergency Stop Within Boat Length: Arrest all forward momentum within a single boat length by applying firm alternating reverse backstrokes. Brace firmly against the footpegs and keep the paddle shaft low to maintain hull balance."
           },
           {
             "attribute": "Boat Trimming",
             "left": "(8b) Stationary Pivot Turn Maneuvers: Spin the kayak within two boat lengths by alternating a forward sweep on one side with reverse sweep opposite. Keep the hull level and rotate the torso aggressively to complete the half circle turn.",
-            "right": "(8e) Dynamic Turning In Motion: Execute a ninety degree turn while maintaining forward speed by initiating an extended forward sweep on the outside. Tilt the kayak slightly away from the turn while continuing forward stroke momentum."
+            "right": "(8e) Dynamic Turning in Motion: Execute a ninety degree turn while maintaining forward speed by initiating an extended forward sweep on the outside. Tilt the kayak slightly away from the turn while continuing forward stroke momentum."
           },
           {
             "attribute": "Pivot Turns",
-            "left": "(8c) Abeam Lateral Movement Execution: Move the boat ten feet sideways to port and starboard using consecutive vertical draw strokes. Slice the blade out or feather it underwater between pulls without bumping against the kayak hull.",
-            "right": "(8f) Reverse Linear Hull Maneuvering: Propel the kayak backward in a straight line for four boat lengths using balanced reverse strokes. Glance over alternating shoulders between strokes to monitor your course and avoid hazards."
+            "left": "Pivot Turns: Alternate forward sweep with reverse sweep to spin boat within its length.",
+            "right": "Slalom Precision: Carve smooth figure eight loops around buoy markers without brushing hull sides."
           }
         ]
       },
       "worked_example": {
-        "title": "Kayaking Req 8 Exemplar Workbook Entry: Solo Kayak",
+        "title": "Kayaking Req 8 Worked Example: Advanced Solo Maneuvering and Boat Handling",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Straight Course Tracking": "Paddle a straight course for twenty boat lengths by maintaining consistent stroke cadence and vertical shaft angles. Fix your gaze on a distant shoreline landmark to detect and correct minor hull yaw.",
-          "Req 8b - Stationary Pivot Turn": "Spin the kayak within two boat lengths by alternating a forward sweep on one side with reverse sweep opposite. Keep the hull level and rotate the torso aggressively to complete the half circle turn.",
-          "Req 8c - Abeam Lateral Movement": "Move the boat ten feet sideways to port and starboard using consecutive vertical draw strokes. Slice the blade out or feather it underwater between pulls without bumping against the kayak hull.",
-          "Req 8d - Emergency Stop Within Boat": "Arrest all forward momentum within a single boat length by applying firm alternating reverse backstrokes. Brace firmly against the footpegs and keep the paddle shaft low to maintain hull balance."
+          "Phase 1 - Horizon Sighting": "Align your kayak bow with a fixed distant landmark to maintain course.",
+          "Phase 2 - Straight Line Drive": "Paddle twenty boat lengths using balanced forward strokes with steady hull trim.",
+          "Phase 3 - Emergency Stopping": "Execute firm, alternating reverse backstrokes to stop the boat within one length.",
+          "Phase 4 - Figure Eight Course": "Weave through paired marker buoys using carving sweeps and tight torso rotation."
         },
-        "sample_output": "Solo Kayak Maneuvering Course: When the paddle blade is put in the water, it should be placed in a way so the boat moves in the direction you want (p. 67).",
-        "counselor_tip": "For Kayaking Requirement 8 (Solo Kayak Maneuvering Course), verify the Scout's own observations and specific pamphlet details (Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78))."
+        "sample_output": "Advanced boat control integrates coordinated strokes to maintain trim, execute precise pivots, sideslip sideways, and navigate slalom courses. Solo paddlers must demonstrate directional stability over twenty boat lengths, emergency stops, and figure eight buoy navigation.",
+        "counselor_tip": "During the Kayaking Requirement 8 conference on Advanced Solo Maneuvering and Boat Handling, verify that the Scout can explain course tracking and demonstrate figure eight course: Weave through paired marker buoys using carving sweeps and tight torso rotation."
       },
       "quiz_item": {
         "scenario_prompt": "How does a kayaker transfer paddle energy efficiently into the boat during strokes and maneuvers?",

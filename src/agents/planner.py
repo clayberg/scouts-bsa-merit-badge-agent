@@ -1399,13 +1399,33 @@ def _build_slide_teaching_notes(
     _collect_sub_miscs_recursive(list((req_dict or {}).get("sub_requirements") or []))
 
     used_myths_in_deck = s_dict.get("_used_myths_in_deck")
-    _quiz_only_archs = (
+    _omit_misc_archs = (
         SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
+        SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value,
+        SlideArchetype.GEAR_CHECKLIST_GRID.value,
+        SlideArchetype.REQUIREMENTS_TRIAGE_MATRIX.value,
+        "SOURCES_AND_REFERENCES",
+        "COVER",
+    )
+    is_career_or_hobby_continuation = (
+        int(slide_idx_in_req) >= 1
+        and bool(
+            re.search(
+                r"\b(career|careers|profession|hobby|hobbies|job|jobs|occupation|employment)\b",
+                f"{clean_req_text} {clean_title}",
+                re.IGNORECASE,
+            )
+        )
+    )
+    should_consider_misc = (
+        arch not in _omit_misc_archs
+        and not quiz_item
+        and not is_career_or_hobby_continuation
     )
 
     chosen_pair: Optional[Tuple[str, str]] = None
-    if arch not in _quiz_only_archs and not quiz_item:
-        ordered_candidates: List[Tuple[str, str]] = []
+    ordered_candidates: List[Tuple[str, str]] = []
+    if should_consider_misc:
         if slide_idx_in_req == 0:
             if parent_myth and parent_fact:
                 ordered_candidates.append((parent_myth, parent_fact))
@@ -1432,15 +1452,13 @@ def _build_slide_teaching_notes(
                 if not isinstance(used_myths_in_deck, set) or cm_low not in used_myths_in_deck:
                     chosen_pair = (cm, cf)
                     break
-        if chosen_pair is None and ordered_candidates:
-            base_m, base_f = ordered_candidates[slide_idx_in_req % len(ordered_candidates)]
-            if not _is_generic_meta_misconception(base_m, base_f):
-                ctx_m = f"{base_m.rstrip('.!? ')} (specifically during \"{clean_title}\")."
-                chosen_pair = (ctx_m, base_f)
 
+    myth_txt = ""
+    fact_txt = ""
     if chosen_pair is not None:
         myth_txt, fact_txt = chosen_pair
-    else:
+    elif should_consider_misc and not ordered_candidates and int(slide_idx_in_req) == 0 and used_myths_in_deck is None:
+        # Standalone single-slide call without a requirement pool (e.g. unit test mock slide)
         myth_txt, fact_txt = _synthesize_subject_matter_misconception(
             clean_badge=clean_badge,
             clean_req=clean_req,
@@ -1457,49 +1475,70 @@ def _build_slide_teaching_notes(
             gear_checklist=gear_checklist,
             range_label=sub_range_label,
         )
-        if isinstance(used_myths_in_deck, set) and myth_txt.strip().lower() in used_myths_in_deck:
-            myth_txt = f"{myth_txt.rstrip('.!? ')} when working on \"{clean_title}\"."
 
     if isinstance(used_myths_in_deck, set) and myth_txt:
         used_myths_in_deck.add(myth_txt.strip().lower())
+    if isinstance(slide_dict, dict):
+        slide_dict["_selected_misconception_pair"] = (
+            {"misconception": myth_txt, "fact": fact_txt} if (myth_txt and fact_txt) else None
+        )
 
     # -------------------------------------------------------------------------
-    # CASE 1: REQUIREMENTS OVERVIEW MATRIX (SLIDE 2)
+    # CASE 1: REQUIREMENTS OVERVIEW MATRIX (SLIDE 2) — 4-Part Roadmap (No Forced Myth)
     # -------------------------------------------------------------------------
     if arch == SlideArchetype.REQUIREMENTS_TRIAGE_MATRIX.value or clean_req.lower() == "overview":
         ov = overview_summary or {}
-        in_class_list = ", ".join((ov.get("in_class") or [])[:5]) or "core concepts and safety rules"
-        station_list = ", ".join((ov.get("station") or [])[:5]) or "hands-on field skill stations"
-        prereq_list = ", ".join((ov.get("prereq") or [])[:5]) or "outdoor logs and home preparation"
+        in_class_items = (ov.get("in_class") or [])[:5]
+        station_items = (ov.get("station") or [])[:5]
+        prereq_items = (ov.get("prereq") or [])[:5]
+        in_class_list = ", ".join(in_class_items) or "core concepts and principles"
+        station_list = ", ".join(station_items)
+        prereq_list = ", ".join(prereq_items)
         total_r = ov.get("total_count", [str(len(pts))])[0]
+
+        track_sentences: List[str] = [
+            f"[Point to the Blue In-Class cards] Our discussion topics ({in_class_list}) cover the core concepts and principles we unpack as a patrol."
+        ]
+        if station_list:
+            track_sentences.append(
+                f"[Point to the Olive Skill Station cards] Our hands-on skill stations ({station_list}) are where you and your buddy practice and demonstrate techniques using the BSA EDGE method."
+            )
+        if prereq_list:
+            track_sentences.append(
+                f"[Point to the Red Prerequisite cards] Our campout, field, and home requirements ({prereq_list}) are the real-world logs and projects you bring to our counselor conference."
+            )
+
         pacing_line = (
             f"[PACING & MODALITY] 3 min | Syllabus Roadmap | EDGE: Explain & Plan. "
             f"[Gesture to the Requirements Overview grid on screen] Welcome to the {clean_badge} Merit Badge, Scouts! "
-            f"Over our sessions together, we will work through all {total_r} official requirements from your {clean_badge} Merit Badge Pamphlet, "
-            f"grouped into three practical tracks. "
-            f"[Point to the Blue In-Class cards] First, our discussion topics ({in_class_list}) cover the core knowledge and safety principles we unpack as a patrol. "
-            f"[Point to the Olive Skill Station cards] Second, our hands-on skill stations ({station_list}) are where you and your buddy physically practice and demonstrate techniques using the BSA EDGE method. "
-            f"[Point to the Red Prerequisite cards] Third, our campout, field, and home requirements ({prereq_list}) are the real-world logs and projects you bring to our counselor conference.{local_cue}{audience_cue}"
+            f"Over our sessions together, we will work through all {total_r} official requirements from your {clean_badge} Merit Badge Pamphlet. "
+            + " ".join(track_sentences)
+            + f"{local_cue}{audience_cue}"
         )
-        ask_line = (
-            f"[ASK SCOUTS FIRST] Looking at our {clean_badge} Requirements Overview matrix, which requirement track ({in_class_list} vs. {station_list}) requires pre-class or home-troop preparation before Blue Card sign-off?"
-        )
-        key_line = (
-            f"[EXPECTED PAMPHLET ANSWER KEY] Reference: Official {clean_badge} Merit Badge Pamphlet Table of Contents. "
-            f"[Expected Answer: Prerequisite and home-troop requirements ({prereq_list}) require field logs, campout execution, or family review outside the classroom, while {in_class_list} and {station_list} are completed in class.]"
-        )
-        misc_line = (
-            f"[COMMON MISCONCEPTION TO CORRECT] Myth: Attending a Merit Badge clinic automatically signs off every requirement on the Blue Card. "
-            f"BSA Pamphlet Fact: Under Scouting America Guide to Advancement Section 7.0.3.2, each Scout must individually fulfill every requirement as written, and home-troop prerequisites ({prereq_list}) must be verified with evidence."
-        )
+        if prereq_list:
+            ask_line = (
+                f"[ASK SCOUTS FIRST] Looking at our {clean_badge} Requirements Overview matrix, which requirements ({prereq_list}) require field logs, campout execution, or home-troop preparation before Blue Card sign-off?"
+            )
+            key_line = (
+                f"[EXPECTED PAMPHLET ANSWER KEY] Reference: Official {clean_badge} Merit Badge Pamphlet Table of Contents. "
+                f"[Expected Answer: Prerequisite and home-troop requirements ({prereq_list}) require field logs or preparation outside the classroom, while our in-class requirements ({in_class_list}{', ' + station_list if station_list else ''}) are completed during our sessions.]"
+            )
+        else:
+            ask_line = (
+                f"[ASK SCOUTS FIRST] Looking at our {clean_badge} Requirements Overview matrix, how will your buddy pair organize your {clean_badge} Workbook notes across {in_class_list}{', ' + station_list if station_list else ''}?"
+            )
+            key_line = (
+                f"[EXPECTED PAMPHLET ANSWER KEY] Reference: Official {clean_badge} Merit Badge Pamphlet Table of Contents. "
+                f"[Expected Answer: Every Scout completes the structured organizer for each requirement ({in_class_list}{', ' + station_list if station_list else ''}) and explains or demonstrates mastery individually during counselor review.]"
+            )
         rubric_line = (
             f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up a sample {clean_badge} Fillable Scout Workbook and Blue Card #34124] "
             f"Verify each Scout has their signed Application for Merit Badge (#34124) or Scoutbook connection and knows which requirements belong to Session 1 through Session 4."
         )
-        return "\n".join(_sanitize_no_ellipsis_or_emdash(ln) for ln in (pacing_line, ask_line, key_line, misc_line, rubric_line))
+        return "\n".join(_sanitize_no_ellipsis_or_emdash(ln) for ln in (pacing_line, ask_line, key_line, rubric_line))
 
     # -------------------------------------------------------------------------
-    # CASE 2: SOURCES & REFERENCES (FINAL SLIDE)
+    # CASE 2: SOURCES & REFERENCES (FINAL SLIDE) — 2-Part Checkout & Attribution
     # -------------------------------------------------------------------------
     if arch == "SOURCES_AND_REFERENCES" or clean_req.lower() == "sources":
         pacing_line = (
@@ -1509,22 +1548,11 @@ def _build_slide_teaching_notes(
             f"[Hold up a Blue Card or open Scoutbook] Bring your completed {clean_badge} Workbook logs, your field sketches or project artifacts, and your Blue Card or Scoutbook record when you come up for verification. "
             "As a quick note on the bottom card, this slide deck and companion workbook were built with the Scouts BSA Merit Badge Counselor Workbench created by Eric Clayberg of Troop 19 in Middleton, Massachusetts."
         )
-        ask_line = (
-            f"[ASK SCOUTS FIRST] Before coming up for your final {clean_badge} Blue Card (#34124) conference, what items and verification evidence should you have ready for your counselor?"
-        )
-        key_line = (
-            f"[EXPECTED PAMPHLET ANSWER KEY] Reference: Scouting America Guide to Advancement Section 7.0.3.2 and Official {clean_badge} Pamphlet. "
-            f"[Expected Answer: Bring your signed Blue Card (#34124) or Scoutbook record, any prerequisite logs or field artifacts, and be ready to explain or demonstrate any open requirement.]"
-        )
-        misc_line = (
-            "[COMMON MISCONCEPTION TO CORRECT] Myth: A partial Blue Card expires at the end of summer camp or the Merit Badge College. "
-            "BSA Pamphlet Fact: Under Scouting America rules, signed partial requirements on a Blue Card (#34124) never expire until the Scout turns 18."
-        )
         rubric_line = (
             "[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124 Applicant's Record and Counselor's Record] "
             "Initial each completed requirement in the Multi-Troop Blue Card Triage Matrix and issue a Smart Partial plan for any remaining home-troop follow-up items."
         )
-        return "\n".join(_sanitize_no_ellipsis_or_emdash(ln) for ln in (pacing_line, ask_line, key_line, misc_line, rubric_line))
+        return "\n".join(_sanitize_no_ellipsis_or_emdash(ln) for ln in (pacing_line, rubric_line))
 
     # Build non-redundant facilitator stage cues referencing the slide cards without reading them verbatim
     card_cue_parts: List[str] = []
@@ -1636,6 +1664,28 @@ def _build_slide_teaching_notes(
     _collect_sub_socratic_recursive(list((req_dict or {}).get("sub_requirements") or []))
 
     used_asks_in_deck = s_dict.get("_used_asks_in_deck")
+    chosen_socratic_q = ""
+    if arch not in (SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,) and not quiz_item and curated_socratic:
+        start_q_idx = slide_idx_in_req % len(curated_socratic)
+        rotated_q = curated_socratic[start_q_idx:] + curated_socratic[:start_q_idx]
+        for cand_q in rotated_q:
+            q_norm = cand_q.rstrip("?.! ").lower()
+            if not isinstance(used_asks_in_deck, set) or q_norm not in used_asks_in_deck:
+                chosen_socratic_q = cand_q.rstrip("?.! ") + "?"
+                break
+        if not chosen_socratic_q:
+            fallback_topic_asks = [
+                f"How do {topic_1} and {topic_2} reinforce each other in {clean_badge} {req_display_label}, and where would your patrol apply both on a troop outing?",
+                f"If a younger Scout asked you why {topic_1} matters alongside {topic_2} in {clean_badge} {req_display_label}, what real-world example would you give first?",
+                f"What is the practical connection between {topic_1} and {topic_2} during \"{clean_title},\" and what field clue tells you both are working?",
+                f"Before we unpack the cards on screen, how would your buddy pair use {topic_1} and {topic_2} to solve a real problem in {clean_badge} {req_display_label}?",
+                f"Between {topic_1} and {topic_2} on this slide, which one requires the most preparation ahead of time for {clean_badge} {req_display_label}, and why?",
+                f"When evaluating {clean_title} ({clean_badge} {req_display_label}), how does mastering {topic_1} prepare your patrol to handle {topic_2}?",
+            ]
+            chosen_socratic_q = fallback_topic_asks[tpl_idx % len(fallback_topic_asks)]
+        if chosen_socratic_q and isinstance(used_asks_in_deck, set):
+            used_asks_in_deck.add(chosen_socratic_q.rstrip("?.! ").lower())
+
     if arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
         qi = quiz_item or {}
         scenario = _sanitize_no_ellipsis_or_emdash(
@@ -1651,21 +1701,8 @@ def _build_slide_teaching_notes(
             ask_block = (
                 f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and why does it satisfy the {clean_badge} Merit Badge Pamphlet standard?"
             )
-    elif curated_socratic:
-        chosen_q = ""
-        start_q_idx = slide_idx_in_req % len(curated_socratic)
-        rotated_q = curated_socratic[start_q_idx:] + curated_socratic[:start_q_idx]
-        for cand_q in rotated_q:
-            q_norm = cand_q.rstrip("?.! ").lower()
-            if not isinstance(used_asks_in_deck, set) or q_norm not in used_asks_in_deck:
-                chosen_q = cand_q.rstrip("?.! ") + "?"
-                break
-        if not chosen_q:
-            base_q = rotated_q[0].rstrip("?.! ") + "?"
-            chosen_q = f"{base_q} (Focus on {topic_1} and {topic_2} on \"{clean_title}\".)"
-        if isinstance(used_asks_in_deck, set):
-            used_asks_in_deck.add(chosen_q.rstrip("?.! ").lower())
-        ask_block = f"[ASK SCOUTS FIRST] {chosen_q}"
+    elif chosen_socratic_q:
+        ask_block = f"[ASK SCOUTS FIRST] {chosen_socratic_q}"
     elif arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
         cd = comparison_data or {}
         left_h = _sanitize_no_ellipsis_or_emdash(str(cd.get("left_header") or topic_1))
@@ -1799,9 +1836,11 @@ def _build_slide_teaching_notes(
             f"{key_templates[tpl_idx]}"
         )
 
-    # 4. [COMMON MISCONCEPTION TO CORRECT]
+    # 4. [COMMON MISCONCEPTION TO CORRECT] — Selectively included only when a fresh, non-redundant misconception applies
     misc_block = (
         f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth_txt} | BSA Pamphlet Fact: {fact_txt}"
+        if (myth_txt and fact_txt)
+        else ""
     )
 
     # 5. [DEMONSTRATION & SIGN-OFF RUBRIC] — Never repeats clean_caption; 6 varied templates tailored to modality & verb
@@ -1822,10 +1861,10 @@ def _build_slide_teaching_notes(
         demo_action = (
             f"[Conduct a hands-on patrol gear shakedown for {clean_title}] Have buddy pairs physically inspect {topic_1} and {topic_2} and check off each item in their {wb_type_clean}."
         )
-    elif execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value or arch == SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value:
+    elif execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value:
         demo_actions = [
             f"[Hold up the station gear and model {topic_1} using the BSA EDGE method] Demonstrate {topic_1} followed by {topic_2} at half-speed, then coach buddy pairs as they practice.",
-            f"[Point to the skill station table] Walk a two-Scout buddy team through {topic_1} ({first_body.rstrip('.')}) and {topic_2}, verifying each hands-on step.",
+            f"[Point to the skill station table] Walk a two-Scout buddy team through {topic_1} and {topic_2}, verifying each hands-on step in sequence.",
             f"[Gesture to the practice station] Use Explain -> Demonstrate -> Guide -> Enable so every Scout physically performs {topic_1} and {topic_2} without prompts.",
             f"[Pause for live buddy station practice] Observe each pair executing {topic_1} and {topic_2}, correcting hand placement and sequence before sign-off.",
             f"[Hold up the field equipment for {req_display_label}] Model the transition from {topic_1} to {topic_2} and have each buddy pair demonstrate it back.",
@@ -1856,6 +1895,7 @@ def _build_slide_teaching_notes(
     return "\n".join(
         _sanitize_no_ellipsis_or_emdash(b)
         for b in (pacing_block, ask_block, key_block, misc_block, rubric_block)
+        if b and b.strip()
     )
 
 
@@ -2397,26 +2437,28 @@ def generate_slide_storyboard(
                 req_num=req_num,
                 slide_title=intro_title,
             )
+            intro_notes_ctx = {
+                "_used_myths_in_deck": used_myths_in_deck,
+                "_used_asks_in_deck": used_asks_in_deck,
+            }
+            intro_notes_str = _build_slide_teaching_notes(
+                badge_name=clean_badge,
+                req_num=req_num,
+                execution_mode=exec_mode,
+                slide_title=intro_title,
+                archetype="REQUIREMENT_INTRO",
+                req_text=req_text,
+                bullet_points=core_teaching_points[:4],
+                req_dict=req,
+                safety_callout=safety,
+                slide_dict=intro_notes_ctx,
+                slide_idx_in_req=0,
+            )
             slides.append(
                 SlideSpec(
                     title=intro_title,
                     bullet_points=core_teaching_points[:4],
-                    presenter_notes=_build_slide_teaching_notes(
-                        badge_name=clean_badge,
-                        req_num=req_num,
-                        execution_mode=exec_mode,
-                        slide_title=intro_title,
-                        archetype="REQUIREMENT_INTRO",
-                        req_text=req_text,
-                        bullet_points=core_teaching_points[:4],
-                        req_dict=req,
-                        safety_callout=safety,
-                        slide_dict={
-                            "_used_myths_in_deck": used_myths_in_deck,
-                            "_used_asks_in_deck": used_asks_in_deck,
-                        },
-                        slide_idx_in_req=0,
-                    ),
+                    presenter_notes=intro_notes_str,
                     safety_warning=safety,
                     diagram_path=None,
                     archetype="REQUIREMENT_INTRO",
@@ -2429,7 +2471,7 @@ def generate_slide_storyboard(
                     visual_caption="",
                     diagram_type="requirement_intro",
                     slide_role="instructional",
-                    misconception_pair=req_misc_pair if not safety else None,
+                    misconception_pair=(intro_notes_ctx.get("_selected_misconception_pair") or req_misc_pair) if not safety else None,
                     pamphlet_reference=req_pamphlet_ref,
                     workbook_table_ref=req_wb_ref,
                     gate_badges=req_gate_badges,
@@ -2589,29 +2631,31 @@ def generate_slide_storyboard(
             ts_for_notes = dict(ts)
             ts_for_notes["_used_myths_in_deck"] = used_myths_in_deck
             ts_for_notes["_used_asks_in_deck"] = used_asks_in_deck
+            ts_notes_str = _build_slide_teaching_notes(
+                badge_name=clean_badge,
+                req_num=req_num,
+                execution_mode=exec_mode,
+                slide_title=ts_title,
+                archetype=ts_layout,
+                req_text=req_text,
+                bullet_points=ts_bullets,
+                req_dict=req,
+                comparison_data=ts_comp,
+                worked_example=ts_we,
+                quiz_item=ts_quiz,
+                gear_checklist=ts_gear,
+                visual_caption=ts_caption,
+                has_visual=bool(ts_img),
+                safety_callout=slide_safety,
+                slide_dict=ts_for_notes,
+                slide_idx_in_req=child_slide_idx_in_req,
+            )
+            selected_slide_misc_pair = ts_for_notes.get("_selected_misconception_pair")
             slides.append(
                 SlideSpec(
                     title=ts_title,
                     bullet_points=ts_bullets,
-                    presenter_notes=_build_slide_teaching_notes(
-                        badge_name=clean_badge,
-                        req_num=req_num,
-                        execution_mode=exec_mode,
-                        slide_title=ts_title,
-                        archetype=ts_layout,
-                        req_text=req_text,
-                        bullet_points=ts_bullets,
-                        req_dict=req,
-                        comparison_data=ts_comp,
-                        worked_example=ts_we,
-                        quiz_item=ts_quiz,
-                        gear_checklist=ts_gear,
-                        visual_caption=ts_caption,
-                        has_visual=bool(ts_img),
-                        safety_callout=slide_safety,
-                        slide_dict=ts_for_notes,
-                        slide_idx_in_req=child_slide_idx_in_req,
-                    ),
+                    presenter_notes=ts_notes_str,
                     safety_warning=slide_safety,
                     diagram_path=str(ts_img) if ts_img else None,
                     archetype=ts_layout,
@@ -2628,7 +2672,7 @@ def generate_slide_storyboard(
                     visual_caption=ts_caption,
                     diagram_type="full_bleed_diagram" if ts_layout == "FULL_BLEED_IMAGE_EXPLAINER" else "topic_slide",
                     slide_role="instructional",
-                    misconception_pair=req_misc_pair if show_misc_on_this_slide else None,
+                    misconception_pair=selected_slide_misc_pair if (show_misc_on_this_slide and selected_slide_misc_pair) else None,
                     pamphlet_reference=req_pamphlet_ref,
                     workbook_table_ref=req_wb_ref,
                     gate_badges=req_gate_badges if t_idx == 1 else [],

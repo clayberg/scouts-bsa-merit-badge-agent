@@ -64,10 +64,8 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in whitewater activities, including branches and trees in water along a shore and stretching across the stream, rocks, hydraulics over ledges or low-head dams, strong wind, low water or air temperature, and thunder and lightning storms. Explain what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Whitewater Hazards and First Aid)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Branches along the outer bank create convenient handholds for pausing in heavy current.
-- **Pamphlet Fact:** Submerged trees sweep water through branches that snare equipment, clothing, and paddlers under continuous river pressure.
 
-![Whitewater Requirement 1 figure showing fallen river trees allow water passage while trapping boats against branches.](/assets/pamphlet_images/whitewater_p003_img1.png)
+![Fallen river trees allow water passage while trapping boats against branches with crushing force.](/assets/pamphlet_images/whitewater_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -79,8 +77,6 @@
 #### Req 1b: Whitewater Injuries and Illnesses
 **Official Requirement 1b:** Review with your counselor the prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in whitewater activities: cold-water shock; hypothermia; head, neck, and back injuries; heat-related illnesses; sunburn; dehydration; blisters; bruises; cuts; sprains and strains; shoulder dislocation; and submersion injuries.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** Hypothermia only occurs in near freezing winter water conditions rather than summer mountain rivers.
-- **Pamphlet Fact:** Rapid shivering depletes glycogen stores and impairs motor coordination within minutes of immersion in cold river rapids.
 
 ![A paddler secures and fits a life jacket properly before entering moving water.](/assets/pamphlet_images/whitewater_p018_img1.png)
 
@@ -100,10 +96,8 @@
 **Official Requirement 1c:** Discuss with your counselor the Scouting America Safety Afloat policy and the American Whitewater safety guidelines, including the use of helmet and life jackets.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Whitewater Req 1c inspection prior to hands-on station work.
-- **Common Myth:** Lifejackets are optional on calm river pools between major whitewater rapid sections.
-- **Pamphlet Fact:** Safety Afloat mandates trained adult supervision, continuous lifejacket wear, and designated safety kayakers for moving water trips.
 
-![Whitewater Requirement 3 figure showing mastery of basic flatwater strokes provides the mechanical foundation for moving water.](/assets/pamphlet_images/whitewater_p012_img1.png)
+![Mastery of basic flatwater strokes provides the mechanical foundation for moving water maneuvers.](/assets/pamphlet_images/whitewater_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -129,8 +123,6 @@
 **Official Requirement 2a:** Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream V, downstream V, riffle, eddy with an eddy line, ledge, river bend, shallows, current at different depths, drop, horizon line, and hydraulic.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Understanding of the Following River)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** All V formations on the river surface mark clear paths through shallow boulder gardens.
-- **Pamphlet Fact:** Downstream Vs mark channels of clear deep water, whereas upstream Vs mark rocks waiting to break hulls.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -138,7 +130,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
-![Whitewater Requirement 2 figure showing smooth water pointing downstream indicates the deepest unobstructed path.](/assets/pamphlet_images/whitewater_p007_img1.png)
+![Smooth water pointing downstream indicates the deepest unobstructed path through the rapid channel.](/assets/pamphlet_images/whitewater_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -149,8 +141,6 @@
 #### Req 2b: Wave Trains and Hydraulics
 **Official Requirement 2b:** Describe how waves form including standing waves and wave trains.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Waves Form Including Standing Waves)
-- **Common Myth:** River waves travel across the water surface toward shore just like ocean beach waves.
-- **Pamphlet Fact:** Standing waves remain fixed in geographical space as downstream water rushes rapidly through the stationary wave form.
 
 ![A boater holds a paddle horizontally overhead to signal a stop to other river runners.](/assets/pamphlet_images/whitewater_p063_img1.png)
 
@@ -163,8 +153,6 @@
 #### Req 2c: Boat Edging and Tilting
 **Official Requirement 2c:** Explain how to tilt or edge the boat without leaning your body (1) When entering and exiting an eddy. (2) When ferrying in downstream and upstream directions.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Tilt or Edge the Boat)
-- **Common Myth:** Leaning your head and upper torso over the side provides the stability needed for crossing eddy lines.
-- **Pamphlet Fact:** Tilting the hull exposes the smooth bottom to incoming current while keeping the upstream edge elevated safely.
 
 ![A crew in helmets paddles an inflatable raft through surging whitewater rapids.](/assets/pamphlet_images/whitewater_p043_img1.png)
 
@@ -178,8 +166,6 @@
 #### Req 2d: River Scouting and Portaging
 **Official Requirement 2d:** Explain when, why, and how you should scout a river while ashore, while on the river, and when you should portage your boat.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (You Should Scout A River)
-- **Common Myth:** Experienced paddlers can scout all Class II and Class III rapids entirely from their boats.
-- **Pamphlet Fact:** Bank scouting provides comprehensive elevation perspective on hidden ledge holes that are invisible from cockpit level.
 
 ![A canoeist demonstrates blade placement while executing a lateral draw stroke.](/assets/pamphlet_images/whitewater_p048_img2.png)
 
@@ -205,8 +191,6 @@
 #### Req 3a: Canoe Prerequisite Stroke Demonstration
 **Official Requirement 3a:** If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (You Will Be Using A)
-- **Common Myth:** The bow paddler controls the overall speed while the stern paddler performs all turning strokes.
-- **Pamphlet Fact:** Tandem canoe maneuvers require synchronized stroke timing and distinct roles between bow steering and stern power.
 
 ![The Safety Afloat emblem highlights proper life jacket usage for water activities.](/assets/pamphlet_images/whitewater_p010_img1.png)
 
@@ -219,8 +203,6 @@
 #### Req 3b: Kayak Prerequisite Stroke Demonstration
 **Official Requirement 3b:** If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (You Will Be Using A)
-- **Common Myth:** Reaching far backward during kayak stroke recovery increases overall forward propulsion across river pools.
-- **Pamphlet Fact:** Kayakers must maintain a rigid paddler box with elbows bent to protect delicate shoulder joints during strokes.
 
 ![An overhead view shows the curved path of a paddle blade turning a canoe.](/assets/pamphlet_images/whitewater_p050_img2.png)
 
@@ -246,8 +228,6 @@
 #### Req 4a(1): Tandem Canoe Bow Steering Strokes
 **Official Requirement 4a(1):** Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes in the Bow Cross)
-- **Common Myth:** Switching to an offside cross bow draw requires swapping top and bottom hand positions on the paddle shaft.
-- **Pamphlet Fact:** Bow paddlers perform the cross bow draw by rotating the torso across the opposite gunwale while keeping their original paddle grip unchanged.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -274,8 +254,6 @@
 #### Req 4a(2): Tandem Canoe Stern Control Strokes
 **Official Requirement 4a(2):** Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(2) Hands-On Skill Station & EDGE Verification Checklist (Strokes in the Stern Stern)
-- **Common Myth:** Dragging the paddle blade passively behind the canoe like a rudder controls river maneuvers better than applying active stern pry strokes.
-- **Pamphlet Fact:** Active forward strokes ending in a stern pry maintain boat speed and provide far greater directional control than passive dragging rudders in moving current.
 
 ![An arrow indicates the backward movement of a paddle during a reverse stroke.](/assets/pamphlet_images/whitewater_p050_img3.png)
 
@@ -296,8 +274,6 @@
 #### Req 4a(3): Tandem Canoe Braces and Recovery
 **Official Requirement 4a(3):** Demonstrate a high brace, low brace, and righting pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Skill Demonstration Checklist):** Req 4a(3) Hands-On Skill Station & EDGE Verification Checklist (High Brace Low Brace and)
-- **Common Myth:** Raising elbows high above the paddle shaft provides the greatest leverage when performing an emergency high brace.
-- **Pamphlet Fact:** Keeping elbows low and pointing downward protects the shoulder joint from dislocation while applying downward pressure to right the canoe.
 
 ![A paddler sits inside the cockpit of a whitewater kayak along the river shore.](/assets/pamphlet_images/whitewater_p055_img1.png)
 
@@ -323,8 +299,6 @@
 #### Req 4b(1): Solo Canoe Whitewater Maneuvering Strokes
 **Official Requirement 4b(1):** Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4b(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes Cross Forward Bow Draw)
-- **Common Myth:** Solo canoeists must swap their hand grip across the paddle when transitioning between onside draws and offside cross strokes.
-- **Pamphlet Fact:** Solo paddlers maintain their standard hand grip and rotate their torso across the gunwale to execute efficient offside cross forward and cross draw strokes.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -351,8 +325,6 @@
 #### Req 4b(2): Solo Canoe Bracing and Righting
 **Official Requirement 4b(2):** Demonstrate a high brace, low brace, and righting pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Skill Demonstration Checklist):** Req 4b(2) Hands-On Skill Station & EDGE Verification Checklist (High Brace Low Brace and)
-- **Common Myth:** Pushing down on the water surface with the paddle blade can right a heavily tilted canoe without moving the lower body.
-- **Pamphlet Fact:** Righting a canoe requires an active hip snap to roll the hull upright while the paddle blade provides only momentary surface support.
 
 ![Pointing a paddle toward a specific river channel directs downstream paddlers safely.](/assets/pamphlet_images/whitewater_p064_img2.png)
 
@@ -378,8 +350,6 @@
 #### Req 4c(1): Solo Kayak Directional Control Strokes
 **Official Requirement 4c(1):** Demonstrate the following strokes: bow draw, rudder, and sculling draw.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes Bow Draw Rudder and)
-- **Common Myth:** Wedging a stern rudder deeply under the kayak hull produces the sharpest turn in fast current.
-- **Pamphlet Fact:** Trailing the paddle blade near the stern with a slight outward angle lets moving water turn the kayak without stalling forward momentum.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -406,8 +376,6 @@
 #### Req 4c(2): Solo Kayak Recovery Bracing Techniques
 **Official Requirement 4c(2):** Demonstrate a high brace and low brace.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Skill Demonstration Checklist):** Req 4c(2) Hands-On Skill Station & EDGE Verification Checklist (High Brace and Low Brace)
-- **Common Myth:** Reaching both arms far out away from the kayak provides the most solid support during a high brace.
-- **Pamphlet Fact:** Keeping elbows bent and tucked inside the paddling box protects shoulder joints from dangerous dislocation while delivering maximum bracing leverage.
 
 ![A rescuer casts a throw bag toward a swimmer to perform an effective water rescue.](/assets/pamphlet_images/whitewater_p071_img2.png)
 
@@ -435,8 +403,6 @@
 **Official Requirement 5a:** Explain the International Scale of River Difficulty and apply the scale to the stretch of river approved by your counselor.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (International Scale of River Difficulty)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Whitewater Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Class numbers simply describe the height of the largest standing wave in the rapid.
-- **Pamphlet Fact:** Class I features easy moving water with small ripples, whereas Class II features wide clear channels.
 
 ![Clear river currents flow through a rocky mountain gorge showing river navigation paths.](/assets/pamphlet_images/whitewater_p025_img1.png)
 
@@ -449,8 +415,6 @@
 #### Req 5b: River Difficulty Factor Assessment
 **Official Requirement 5b:** Identify the specific characteristics of the river that are factors in your classification according to the International Scale.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Specific Characteristics of the River)
-- **Common Myth:** Only the presence of large waterfalls determines whether a river section is rated difficult.
-- **Pamphlet Fact:** Continuous boulder gardens and restricted channel widths raise the technical difficulty rating of a river section.
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -461,8 +425,6 @@
 #### Req 5c: Flow Rates and Seasonal Changes
 **Official Requirement 5c:** Discuss how the level of flow changes a river from one class to another and what effects different flow rates have on the features of a river and its hazards.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Discuss How the Level of)
-- **Common Myth:** Higher water levels always make river rapids smoother and easier for open boats to navigate.
-- **Pamphlet Fact:** Higher water levels drown out some boulder obstacles while creating violent hydraulic holes in other river sections.
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -508,8 +470,6 @@
 #### Req 7a: Whitewater Canoe Outfitting Design
 **Official Requirement 7a:** If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how they differ in design, materials, and purpose.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Completing This)
-- **Common Myth:** A canoe keel helps paddlers steer straight through rocky rapids without getting turned sideways.
-- **Pamphlet Fact:** Whitewater canoes lack sharp keels so that cross currents slide underneath without flipping the boat.
 
 | Req 7a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -520,8 +480,6 @@
 #### Req 7b: Whitewater Kayak Hull Characteristics
 **Official Requirement 7b:** If completing this merit badge in a kayak, describe the various types of kayaks used on moving water and explain how they differ in design, materials, and purpose.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Completing This)
-- **Common Myth:** All whitewater kayaks handle identically regardless of hull length, volume distribution, or deck design.
-- **Pamphlet Fact:** Creek boats feature high volume decks that resurface quickly, while playboats have flat ends for surfing.
 
 | Req 7b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -596,8 +554,6 @@
 #### Req 10a: River Launch and Landing
 **Official Requirement 10a:** Launch and land.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix (Launch and Land)
-- **Common Myth:** Pushing straight out perpendicular to fast current provides the smoothest launch from river banks.
-- **Pamphlet Fact:** Launching into current requires pointing the bow upstream or setting an immediate tilt toward downstream water.
 
 ![Tapping the top of a helmet signals that a paddler is safe and ready to proceed.](/assets/pamphlet_images/whitewater_p063_img3.png)
 
@@ -610,8 +566,6 @@
 #### Req 10b: Straight Line Forward Paddling
 **Official Requirement 10b:** Paddle forward in a straight line at least 10 boat lengths.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (Forward in A Straight Line)
-- **Common Myth:** Floating passively with current keeps a boat more stable than paddling vigorously through standing waves.
-- **Pamphlet Fact:** Active forward paddling creates hull speed through waves, preventing cross currents from spinning the craft sideways.
 
 | Req 10b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -622,8 +576,6 @@
 #### Req 10c: Reverse Backpaddling Control
 **Official Requirement 10c:** Backpaddle in a straight line at least five boat lengths.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix (Backpaddle in A Straight Line)
-- **Common Myth:** Backpaddling in moving water is dangerous and should never be used while descending rapids.
-- **Pamphlet Fact:** Backpaddling slows boat descent, buying critical time to evaluate downstream obstacles and choose clean lines.
 
 | Req 10c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -634,8 +586,6 @@
 #### Req 10d: Upstream Ferry Technique
 **Official Requirement 10d:** Ferry upstream from both sides of the river.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10d Structured Technical Study & Explanation Matrix (Ferry Upstream from Both Sides)
-- **Common Myth:** Pointing the bow straight across the river current moves the boat sideways without losing downstream position.
-- **Pamphlet Fact:** Setting a thirty-degree bow angle allows incoming current to push the boat sideways without washing downstream.
 
 | Req 10d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -646,8 +596,6 @@
 #### Req 10e: Downstream Ferry Maneuver
 **Official Requirement 10e:** Ferry downstream from both sides of the river.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix (Ferry Downstream from Both Sides)
-- **Common Myth:** Downstream ferrying requires high speed forward paddling straight toward downstream rocks and obstacles.
-- **Pamphlet Fact:** A downstream ferry uses backstrokes with the stern angled toward the destination bank to drift.
 
 | Req 10e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -658,8 +606,6 @@
 #### Req 10f: Eddy Turn Execution
 **Official Requirement 10f:** Eddy turn from both sides of an eddy.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10f Structured Technical Study & Explanation Matrix (Eddy Turn from Both Sides)
-- **Common Myth:** Boats naturally slide into eddies without any adjustment to paddler body posture or hull edge.
-- **Pamphlet Fact:** Carving into an eddy demands tilting the hull toward the calm water to prevent current catching the gunwale.
 
 | Req 10f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -670,8 +616,6 @@
 #### Req 10g: Eddy Peel Out Transition
 **Official Requirement 10g:** Peel out from both sides of an eddy.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10g Structured Technical Study & Explanation Matrix (Peel Out from Both Sides)
-- **Common Myth:** Paddlers should leave eddies slowly without tilting the hull to avoid tipping in turbulent water.
-- **Pamphlet Fact:** Driving from an eddy into main current requires setting a downstream tilt before crossing the eddy line.
 
 | Req 10g Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -695,8 +639,6 @@
 #### Req 11a: Capsized Self Rescue Procedures
 **Official Requirement 11a:** Self-rescue and procedures when capsized in moving water, including a wet exit if necessary.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Self-rescue and Procedures When Capsized)
-- **Common Myth:** Capsized kayakers should push their upper bodies upright against the water to breathe while inverted.
-- **Pamphlet Fact:** During a kayak wet exit, paddlers tuck forward toward the deck to protect their face while releasing skirts.
 
 ![A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.](/assets/pamphlet_images/whitewater_p071_img1.png)
 
@@ -709,8 +651,6 @@
 #### Req 11b: Throw Rope Deployment Technique
 **Official Requirement 11b:** Proper use of a throw rope to rescue a swimmer in whitewater.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Throw Rope to Rescue A)
-- **Common Myth:** Rescuers should coil wet throw rope in large loops around their elbows before throwing again.
-- **Pamphlet Fact:** Rescuers brace their feet behind rocks or sit low on the bank to avoid being pulled into current.
 
 | Req 11b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -721,8 +661,6 @@
 #### Req 11c: Swimmer Rope Receiving Form
 **Official Requirement 11c:** Proper technique for receiving a throw rope as a swimmer.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix (Technique for Receiving A Throw)
-- **Common Myth:** Swimmers should grab the throw line with both hands and pull hard against the shore rescuer.
-- **Pamphlet Fact:** Swimmers grasp the rope across their chest and roll onto their backs so water flows over their heads.
 
 | Req 11c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -733,8 +671,6 @@
 #### Req 11d: River Obstacle Portaging Route
 **Official Requirement 11d:** Portaging, where portaging would be appropriate.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix (Portaging Where Portaging)
-- **Common Myth:** Experienced whitewater paddlers run every rapid and view portaging as a failure of skill.
-- **Pamphlet Fact:** Portaging safely avoids unrunnable hazards, protecting both equipment and paddlers from high consequence injuries.
 
 | Req 11d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -745,8 +681,6 @@
 #### Req 11e: Three Craft Buddy Protocol
 **Official Requirement 11e:** The whitewater buddy system using at least three persons and three craft.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 11e Structured Technical Study & Explanation Matrix (Whitewater Buddy System)
-- **Common Myth:** Two boats are sufficient to provide complete mutual safety on whitewater river trips.
-- **Pamphlet Fact:** A three-craft pod ensures that one boat leads, one assists, and one remains positioned for rescue backup.
 
 | Req 11e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -770,8 +704,6 @@
 #### Req 12a: Written Whitewater Float Plan
 **Official Requirement 12a:** Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule, equipment, safety precautions, and emergency procedures.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Organizer (Concept & Examples Notes):** Req 12a Structured Technical Study & Explanation Matrix (Help to Prepare A Written)
-- **Common Myth:** A general estimate of the river name and day of paddling provides sufficient trip planning.
-- **Pamphlet Fact:** A thorough float plan lists exact put-in coordinates, takeout locations, evacuation roads, and regional emergency numbers.
 
 ![Scouts paddle a large whitewater raft together through foaming river waves.](/assets/pamphlet_images/whitewater_p043_img2.png)
 
@@ -784,8 +716,6 @@
 #### Req 12b: Landowner Permission and Regulations
 **Official Requirement 12b:** Determine local rules and obtain permission from landowners and land managers in advance.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Organizer (Concept & Examples Notes):** Req 12b Structured Technical Study & Explanation Matrix (Local Rules and Obtain Permission)
-- **Common Myth:** Scouts have legal rights to cross any private riverbank to scout rapids or launch boats.
-- **Pamphlet Fact:** Navigable waterways allow public transit, but riverbanks and launch ramps often remain strictly private property.
 
 | Req 12b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -796,8 +726,6 @@
 #### Req 12c: Safety Afloat Compliance Standards
 **Official Requirement 12c:** Explain what steps have been taken to comply with Scouting America Safety Afloat and the American Whitewater safety guidelines.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Organizer (Concept & Examples Notes):** Req 12c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** Wearing a lifejacket is the only requirement necessary to fulfill Safety Afloat guidelines on rivers.
-- **Pamphlet Fact:** Safety Afloat mandates designated qualified supervision, physical fitness, and trained lead and sweep boats throughout runs.
 
 | Req 12c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -808,8 +736,6 @@
 #### Req 12d: Gear Stowage and Lashing
 **Official Requirement 12d:** Show how to protect personal and group equipment from water and how to load and secure the containers in boats to be used in the trip. Execute the plans with other paddlers.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Organizer (Skill Demonstration Checklist):** Req 12d Hands-On Skill Station & EDGE Verification Checklist (Protect Personal and Group Equipment)
-- **Common Myth:** Tying dry bags to the top of canoe gunwales keeps them drier and easier to reach.
-- **Pamphlet Fact:** Tying bags low to hull thwarts prevents shifting loads that can destabilize a craft in rough water.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -821,8 +747,6 @@
 #### Req 12e: Post Trip Plan Evaluation
 **Official Requirement 12e:** Explain to your counselor how well your plans worked for each trip taken.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Organizer (Concept & Examples Notes):** Req 12e Structured Technical Study & Explanation Matrix (Well Your Plans Worked)
-- **Common Myth:** Completing the river run means the trip plan succeeded perfectly without any need for review.
-- **Pamphlet Fact:** Debriefing river runs identifies unexpected hazards, communication breakdowns, and areas for paddling technique refinement.
 
 | Req 12e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -55,7 +55,6 @@
 ### Req 2: Architectural Coatings Performance Characteristics
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Explain three ways that coatings can improve a surface. (b) Explain the differences between oil-based paints, acrylic-based paints, and water-based paints. (c) Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen. (d) Tell why each is best for these uses.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Alkyd oil based paints release high levels of volatile organic compounds requiring certified organic vapor respirators.
 - **Common Myth:** Paints function entirely as decorative coloring agents without serving structural protective barrier roles.
 - **Pamphlet Fact:** Protective paint films prevent moisture absorption, timber rot, fungal growth, and ferrous metal oxidation.
 
@@ -68,10 +67,8 @@
 #### Req 2a: Coating Surface Preservation Benefits
 **Official Requirement 2a:** Explain three ways that coatings can improve a surface.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Coatings Can Improve A Surface)
-- **Common Myth:** Unpainted lumber lasts just as long outdoors if sheltered under an overhanging porch roof.
-- **Pamphlet Fact:** Atmospheric moisture cycles warp and split unfinished wood fibers even when protected from direct rainfall.
 
-![Painting Requirement 2 figure showing continuous resin films block moisture vapor intrusion that causes wood rot and warping.](/assets/pamphlet_images/painting_p007_img1.png)
+![Continuous resin films block moisture vapor intrusion that causes wood rot and warping.](/assets/pamphlet_images/painting_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -82,8 +79,6 @@
 #### Req 2b: Paint Resin Chemistry Differences
 **Official Requirement 2b:** Explain the differences between oil-based paints, acrylic-based paints, and water-based paints.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Oil-based Paints Acrylic-based Paints and)
-- **Common Myth:** Water based paints and acrylic paints represent completely identical chemical mixtures with identical resin compounds.
-- **Pamphlet Fact:** Standard waterborne paints may use cheap vinyl polymers, whereas 100 percent acrylic formulations offer superior adhesion and flexibility.
 
 ![A youth applies a bright yellow coat of paint to an interior wall using a roller.](/assets/pamphlet_images/painting_p041_img1.png)
 
@@ -96,10 +91,8 @@
 #### Req 2c: Finish Sheen Application Locations
 **Official Requirement 2c:** Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (You Would Apply Enamel Paint)
-- **Common Myth:** High gloss paints hide surface dents and uneven seams better than flat luster finishes.
-- **Pamphlet Fact:** Glossy finishes reflect light at sharp angles, making surface dips, bumps, and nail pops noticeably visible.
 
-![Painting Requirement 1 figure showing mechanical exhaust fans draw volatile organic compounds safely away from indoor.](/assets/pamphlet_images/painting_p003_img1.png)
+![Mechanical exhaust fans draw volatile organic compounds safely away from indoor breathing zones.](/assets/pamphlet_images/painting_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -110,10 +103,8 @@
 #### Req 2d: Coating Functional Selection Criteria
 **Official Requirement 2d:** Tell why each is best for these uses.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Painting Requirement 2d Techniques)
-- **Common Myth:** Any interior wall paint performs reliably on exterior handrails if applied in two thick coats.
-- **Pamphlet Fact:** Interior coatings lack exterior ultraviolet inhibitors and mildewcides, causing rapid chalking and peeling when weathered outdoors.
 
-![Painting Requirement 3 figure showing acrylic latex caulking seals gaps around door casings to block drafts and moisture.](/assets/pamphlet_images/painting_p012_img1.png)
+![Acrylic latex caulking seals gaps around door casings to block drafts and moisture.](/assets/pamphlet_images/painting_p012_img1.png)
 
 | Req 2d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,12 +115,10 @@
 ### Req 3: Surface Repair and Painting
 **Official Requirement 3:** Prepare and paint two different surfaces using patching materials or caulking and the proper primers and topcoats. Suggested projects include an interior or exterior wall, a door, a piece of furniture, a concrete wall or floor, a porch rail, or a fence. Your counselor must preapprove the projects.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Surfaces Using Patching Materials or)
-> **Guide to Safe Scouting Warning:** Wear an N95 dust mask while sanding dried spackle to avoid breathing fine calcium carbonate dust.
 - **Common Myth:** Thick topcoat paint fills deep drywall dents and settles flush without requiring spackling paste.
 - **Pamphlet Fact:** Paint shrinks significantly as water evaporates, exaggerating surface hollows unless patched with rigid spackle compound.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 3.
 - [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
 - [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
 - [ ] Labeled portfolio work or finished studio piece for Patching, Priming, and Painting Surfaces.
@@ -153,12 +142,10 @@
 ### Req 4: Color Wheel Harmonization Projects
 **Official Requirement 4:** Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 31, p. 38)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Harmonizing Colors That You Have)
-> **Guide to Safe Scouting Warning:** Use water based artist acrylics or low odor craft paints in well ventilated rooms away from food surfaces.
 - **Common Myth:** Pairing two randomly chosen intense bright colors always produces an aesthetically harmonious finished project.
 - **Pamphlet Fact:** Unbalanced contrasting colors vibrate jarringly against eyes unless balanced by tinting, shading, or neutral tones.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 4.
 - [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
 - [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
 - [ ] Labeled portfolio work or finished studio piece for Color Wheel and Harmonizing Schemes.
@@ -180,12 +167,10 @@
 ### Req 5: Painting Equipment Maintenance Procedures
 **Official Requirement 5:** Show the right way to use, clean, maintain, and store painting equipment.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 54, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Right Painting Equipment)
-> **Guide to Safe Scouting Warning:** Never pour paint cleaning mineral spirits down residential sink drains or city stormwater catch basins.
 - **Common Myth:** Leaving dirty brushes resting tip down inside solvent jars keeps them soft without causing damage.
 - **Pamphlet Fact:** Resting brushes on their bristle tips permanently curls filaments, ruining the precision cutting edge forever.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 5.
 - [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
 - [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
 - [ ] Labeled portfolio work or finished studio piece for Tool Use, Cleaning, and Storage.
@@ -212,7 +197,6 @@
 - **Pamphlet Fact:** The top cap of a stepladder lacks stabilizing handholds, causing sudden tip overs and severe falls.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 6.
 - [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
 - [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
 - [ ] Labeled portfolio work or finished studio piece for Ladder Safety and Protective Gear.
@@ -255,7 +239,6 @@
 ### Req 8: Finishing Careers and Hobbies
 **Official Requirement 8 (Parent Overview):** Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Operating professional airless sprayers introduces fluid injection hazards requiring emergency surgical pressure relief protocols.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Painting Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Commercial painters only perform manual brush rolling without understanding substrate chemistry or digital equipment.
 - **Pamphlet Fact:** Modern industrial painters calculate dry film thickness, operate computerized plural component sprayers, and test adhesion.
@@ -270,8 +253,6 @@
 **Official Requirement 8a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)* • **Organizer (Career & Profession Exploration Card):** Req 8a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Painting Req 8a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Entry level painting jobs require no classroom instruction or formal technical apprenticeship training.
-- **Pamphlet Fact:** Union apprenticeship programs mandate hundreds of classroom hours in blueprint reading, chemistry, and safety.
 
 ![A decorative metal patio chair is coated in durable light blue enamel paint.](/assets/pamphlet_images/painting_p066_img1.png)
 
@@ -287,8 +268,6 @@
 #### Req 8b: Coating Hobbies and Lifestyle
 **Official Requirement 8b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)
-- **Common Myth:** Restoring antique wooden furniture with modern paint ruins all historical and aesthetic value automatically.
-- **Pamphlet Fact:** Careful conservation techniques and historically accurate milk paints preserve delicate wooden structures from degradation.
 
 ![A sturdy stepladder provides safe elevated access when painting high interior walls.](/assets/pamphlet_images/painting_p018_img1.png)
 

@@ -474,14 +474,13 @@
         "Step 4 - Emergency Check: Locate the charged dry chemical fire extinguisher before starting any torch operation."
       ],
       "gear_checklist": [
-        "Official Farm Mechanics merit badge pamphlet and workbook organizer for Req 1.",
         "Farm Mechanics field toolkit, inspection gauge, and protective eyewear for Farm Shop Safety Systems.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 1."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Personal Protective Equipment",
-        "right_header": "Req 1c: Universal Equipment Safety",
+        "left_header": "Req 1a: Personal Protective Equipment Standards",
+        "right_header": "Req 1c: Universal Equipment Safety Symbols",
         "left_points": [
           "(1a) Personal Protective Equipment Standards: Agricultural mechanics rely on close-fitting coveralls, heavy leather boots, and industrial eye protection to prevent catastrophic entanglement and impact injuries. Technicians must match respirator filter ratings to specific airborne solvents, paint fumes, and diesel exhaust.",
           "(1b) Farm Shop Layout Planning: A functional farm service shop features clearly marked walkways, dedicated welding ventilation bays, and illuminated emergency egress routes. Flammable chemical cabinets, eyewash stations, and heavy machinery lifts must follow strict clearance guidelines."
@@ -503,22 +502,22 @@
           },
           {
             "attribute": "Respiratory Mask Requirements",
-            "left": "Req 1a: Personal Protective: Agricultural mechanics rely on close-fitting coveralls, heavy leather boots, and industrial eye protection to prevent catastrophic entanglement and impact injuries. Technicians must match respirator filter ratings to specific airborne solvents, paint fumes, and diesel exhaust.",
-            "right": "Req 1b: Farm Shop Layout Planning: A functional farm service shop features clearly marked walkways, dedicated welding ventilation bays, and illuminated emergency egress routes. Flammable chemical cabinets, eyewash stations, and heavy machinery lifts must follow strict clearance guidelines."
+            "left": "Respiratory Mask Requirements: Dual cartridge respirators filter toxic solvent vapors during parts degreasing procedures.",
+            "right": "Hand Safety Rules: Heavy leather gloves protect hands during metal grinding and torch cutting."
           }
         ]
       },
       "worked_example": {
-        "title": "Farm Mechanics Req 1 Exemplar Workbook Entry: Farm Shop",
+        "title": "Farm Mechanics Req 1 Worked Example: Farm Shop Safety Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Personal Protective Equipment": "Agricultural mechanics rely on close-fitting coveralls, heavy leather boots, and industrial eye protection to prevent catastrophic entanglement and impact injuries. Technicians must match respirator filter ratings to specific airborne solvents, paint fumes, and diesel exhaust.",
-          "Req 1b - Farm Shop Layout Planning": "A functional farm service shop features clearly marked walkways, dedicated welding ventilation bays, and illuminated emergency egress routes. Flammable chemical cabinets, eyewash stations, and heavy machinery lifts must follow strict clearance guidelines.",
-          "Req 1c - Universal Equipment Safety": "Universal safety decals communicate immediate hazard severities through standardized caution yellow, warning orange, and danger red backgrounds. Operators must replace damaged or illegible pictograms immediately to preserve operational warnings.",
-          "Req 1d - Chemical Safety Data Sheets": "Safety data sheets detail sixteen standardized sections covering chemical composition, handling limits, fire hazards, and spill neutralization methods. Agricultural shops must maintain organized binders containing sheets for all lubricants, fuels, coolants, and cleaners."
+          "Phase 1 - Gear Selection": "Don chemical goggles and nitrile gloves before uncapping any hydraulic fluid reservoirs.",
+          "Phase 2 - Floor Inspection": "Clear all oil slicks and metal scrap from the active service bay floor.",
+          "Phase 3 - Shield Verification": "Confirm all protective guards on grinder wheels and drill presses remain securely fastened.",
+          "Phase 4 - Emergency Check": "Locate the charged dry chemical fire extinguisher before starting any torch operation."
         },
-        "sample_output": "Farm Shop Safety and Hazard Symbols: SDSs have 16 sections that provide general information about the chemical, identification, hazards, composition, safe handling practices, and emergency (p. 38).",
-        "counselor_tip": "For Farm Mechanics Requirement 1 (Farm Shop Safety and Hazard Symbols), verify the Scout's own observations and specific pamphlet details (Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56))."
+        "sample_output": "Farm equipment repair requires personal protective gear tailored to chemical, thermal, and mechanical hazards present in modern agricultural workshops. Technicians must inspect safety guards, emergency shutoffs, and fire extinguishers before starting machine service.",
+        "counselor_tip": "During the Farm Mechanics Requirement 1 conference on Farm Shop Safety Systems, verify that the Scout can explain eye protection standards and demonstrate emergency check: Locate the charged dry chemical fire extinguisher before starting any torch operation."
       },
       "quiz_item": {
         "scenario_prompt": "While inspecting a tractor and rotary mower attachment for Farm Mechanics Requirement 1, which safety rules apply to the Power Take-Off (PTO) shaft, Rollover Protective Structure (ROPS), and hydraulic lines?",
@@ -904,13 +903,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Diesel Compression Ignition",
-        "right_header": "Req 2b: Fluid Power Transmission",
+        "left_header": "Req 2a: Diesel Compression Ignition Cycles",
+        "right_header": "Req 2b: Fluid Power Transmission Circuits",
         "left_points": [
-          "(2a) Diesel Compression Ignition Cycles: Four-stroke diesel engines draw fresh air into the cylinder, compress it to extreme pressures, and inject atomized fuel directly into the superheated air mass. Rapid fuel expansion forces the piston downward to rotate the heavy steel crankshaft."
+          "(2a) Diesel Compression Ignition Cycles: Four-stroke diesel engines draw fresh air into the cylinder, compress it to extreme pressures, and inject atomized fuel directly into the superheated air mass. Rapid fuel expansion forces the piston downward to rotate the heavy steel crankshaft.",
+          "Compression Ignition Principles: Diesel cylinders compress air until extreme heat ignites atomized fuel oil."
         ],
         "right_points": [
-          "(2b) Fluid Power Transmission Circuits: Hydraulic systems convert mechanical engine rotation into fluid pressure using fixed or variable displacement pumps. Pressurized oil travels through control valves to push linear cylinder pistons or rotate hydraulic drive motors."
+          "(2b) Fluid Power Transmission Circuits: Hydraulic systems convert mechanical engine rotation into fluid pressure using fixed or variable displacement pumps. Pressurized oil travels through control valves to push linear cylinder pistons or rotate hydraulic drive motors.",
+          "(2c) Mechanical Drivetrain Power Flow: Mechanical transmissions employ countershaft gears, synchronizers, or planetary packs to alter torque and speed ratios between engine and drive wheels. Differential units divide torque evenly between drive tires while allowing independent wheel speeds during turns."
         ],
         "rows": [
           {
@@ -920,26 +921,27 @@
           },
           {
             "attribute": "Hydraulic Force Transfer",
-            "left": "Req 2a: Diesel Compression Ignition: Four-stroke diesel engines draw fresh air into the cylinder, compress it to extreme pressures, and inject atomized fuel directly into the superheated air mass. Rapid fuel expansion forces the piston downward to rotate the heavy steel crankshaft.",
-            "right": "Req 2b: Fluid Power Transmission: Hydraulic systems convert mechanical engine rotation into fluid pressure using fixed or variable displacement pumps. Pressurized oil travels through control valves to push linear cylinder pistons or rotate hydraulic drive motors."
+            "left": "Compression Ignition Principles: Diesel cylinders compress air until extreme heat ignites atomized fuel oil.",
+            "right": "(2c) Mechanical Drivetrain Power Flow: Mechanical transmissions employ countershaft gears, synchronizers, or planetary packs to alter torque and speed ratios between engine and drive wheels. Differential units divide torque evenly between drive tires while allowing independent wheel speeds during turns."
           },
           {
             "attribute": "Planetary Gear Operation",
-            "left": "Req 2c: Mechanical Drivetrain Power: Mechanical transmissions employ countershaft gears, synchronizers, or planetary packs to alter torque and speed ratios between engine and drive wheels. Differential units divide torque evenly between drive tires while allowing independent wheel speeds during turns.",
-            "right": "Hydraulic Force Transfer: Incompressible hydraulic oil transmits force through high pressure lines to cylinders."
+            "left": "Planetary Gear Operation: Planetary gearsets multiply engine torque to rotate drive axles under load.",
+            "right": "Fluid Reservoir Purpose: Reservoirs store excess oil while dissipating heat and releasing entrained air."
           }
         ]
       },
       "worked_example": {
-        "title": "Farm Mechanics Req 2 Exemplar Workbook Entry: Farm",
+        "title": "Farm Mechanics Req 2 Worked Example: Agricultural Machinery Power Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Diesel Compression Ignition": "Four-stroke diesel engines draw fresh air into the cylinder, compress it to extreme pressures, and inject atomized fuel directly into the superheated air mass. Rapid fuel expansion forces the piston downward to rotate the heavy steel crankshaft.",
-          "Req 2b - Fluid Power Transmission": "Hydraulic systems convert mechanical engine rotation into fluid pressure using fixed or variable displacement pumps. Pressurized oil travels through control valves to push linear cylinder pistons or rotate hydraulic drive motors.",
-          "Req 2c - Mechanical Drivetrain Power": "Mechanical transmissions employ countershaft gears, synchronizers, or planetary packs to alter torque and speed ratios between engine and drive wheels. Differential units divide torque evenly between drive tires while allowing independent wheel speeds during turns."
+          "Phase 1 - Diesel Tracing": "Trace diesel fuel flow from supply tank through primary filter to injectors.",
+          "Phase 2 - Pump Inspection": "Locate the engine-driven hydraulic pump and identify the high pressure outlet tube.",
+          "Phase 3 - Valve Operation": "Shift the directional spool valve to observe fluid extension of hydraulic cylinders.",
+          "Phase 4 - Gear Engagement": "Select lower transmission gears to observe increased axle torque and reduced wheel speed."
         },
-        "sample_output": "Farm Equipment Power and Transmission: Change fluids and filters at the recommended intervals (p. 50).",
-        "counselor_tip": "For Farm Mechanics Requirement 2 (Farm Equipment Power and Transmission), verify the Scout's own observations and specific pamphlet details (Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56))."
+        "sample_output": "Modern tractors combine diesel compression ignition, high pressure fluid power circuits, and multi-speed gearboxes to deliver tractive effort. Understanding energy transformation across thermodynamic, fluid dynamic, and mechanical drive paths enables efficient field troubleshooting.",
+        "counselor_tip": "During the Farm Mechanics Requirement 2 conference on Agricultural Machinery Power Systems, verify that the Scout can explain compression ignition principles and demonstrate gear engagement: Select lower transmission gears to observe increased axle torque and reduced wheel speed."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do most farm tractors lubricate the power train and operate the hydraulic system at the same time?",
@@ -1460,22 +1462,22 @@
           },
           {
             "attribute": "Chisel Dressing Technique",
-            "left": "Req 3a: Striking Tool Handle: Replacing tool handles involves boring out old wood, shaping the new hickory or ash tenon to fit the tool eye, and driving wedges. Proper grain orientation along the line of swing prevents premature handle fracture under heavy impact.",
-            "right": "Req 3b: Shop Fastener Storage: Fastener organization relies on divided bins indexed by diameter, thread pitch, length, and grade hardness ratings. Storing washers and nuts adjacent to corresponding bolt diameters speeds emergency field repairs during planting and harvest seasons."
+            "left": "Chisel Dressing Technique: Hand files dress mushroomed tool heads back to original chamfered edge profiles.",
+            "right": "Screwdriver Blade Profiles: Flat file strokes create parallel screwdriver tip faces that grip screw slots."
           }
         ]
       },
       "worked_example": {
-        "title": "Farm Mechanics Req 3 Exemplar Workbook Entry: Hand Tool",
+        "title": "Farm Mechanics Req 3 Worked Example: Farm Tool Maintenance Techniques",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Striking Tool Handle": "Replacing tool handles involves boring out old wood, shaping the new hickory or ash tenon to fit the tool eye, and driving wedges. Proper grain orientation along the line of swing prevents premature handle fracture under heavy impact.",
-          "Req 3b - Shop Fastener Storage": "Fastener organization relies on divided bins indexed by diameter, thread pitch, length, and grade hardness ratings. Storing washers and nuts adjacent to corresponding bolt diameters speeds emergency field repairs during planting and harvest seasons.",
-          "Req 3c - Cold Chisel Crown Dressing": "Repeated hammer strikes mushroom cold chisel crowns into ragged flanges of brittle, work-hardened steel. Mechanics clamp the chisel in a vise and file the crown back to its original chamfered profile without overheating the metal.",
-          "Req 3d - Screwdriver Blade Tip": "Worn flat-blade screwdrivers slip out of screw slots, burring fastener heads and endangering hands. Filing the tip square with parallel sides restores crisp engagement with screw drive recesses."
+          "Phase 1 - Head Securing": "Secure the damaged steel chisel vertically inside heavy serrated bench vise jaws.",
+          "Phase 2 - Metal Filing": "File mushroomed rim metal downward until establishing original factory steel bevel angles.",
+          "Phase 3 - Edge Smoothing": "Chamfer the outer striking crown perimeter using smooth forward diagonal file strokes.",
+          "Phase 4 - Surface Check": "Run shop towels across dressed steel to confirm removal of sharp burrs."
         },
-        "sample_output": "Hand Tool Maintenance and Storage: Choose a chisel only large enough for the task so that you use the full cutting edge (p. 24).",
-        "counselor_tip": "For Farm Mechanics Requirement 3 (Hand Tool Maintenance and Storage), verify the Scout's own observations and specific pamphlet details (Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25))."
+        "sample_output": "Agricultural hand tool maintenance requires regular restoration of wooden handles, striking surfaces, and driving tips to ensure safe operation. Systematic storage of nuts, bolts, and washers prevents equipment repair delays and fastener mismatches.",
+        "counselor_tip": "During the Farm Mechanics Requirement 3 conference on Farm Tool Maintenance Techniques, verify that the Scout can explain wood wedge fitting and demonstrate surface check: Run shop towels across dressed steel to confirm removal of sharp burrs."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you select a cold chisel that matches the width of the work and cut with its full cutting edge rather than just a corner?",
@@ -1871,12 +1873,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 4a: Engine Fluid Lubrication Service",
-        "right_header": "Req 4b: Preoperational Machinery",
+        "right_header": "Req 4b: Preoperational Machinery Inspection Checklists",
         "left_points": [
-          "(4a) Engine Fluid Lubrication Service: Routine machine servicing entails draining hot crankcase oil, replacing spin-on filters, cleaning dry air filter canisters, and flushing radiator fins. Flushing dirt from grease fittings prior to coupler engagement prevents pumping abrasive grit directly into bearing assemblies."
+          "(4a) Engine Fluid Lubrication Service: Routine machine servicing entails draining hot crankcase oil, replacing spin-on filters, cleaning dry air filter canisters, and flushing radiator fins. Flushing dirt from grease fittings prior to coupler engagement prevents pumping abrasive grit directly into bearing assemblies.",
+          "Grease Gun Calibration: Manual grease guns deliver specific ounce volumes per lever stroke during lubrication."
         ],
         "right_points": [
-          "(4b) Preoperational Machinery Inspection Checklists: Preoperational inspections require physical dipstick fluid checks, coolant level verification in expansion tanks, and multimeter battery voltage readings. Verifying tire pressures and hydraulic hose conditions prevents roadside breakdowns and field downtime."
+          "(4b) Preoperational Machinery Inspection Checklists: Preoperational inspections require physical dipstick fluid checks, coolant level verification in expansion tanks, and multimeter battery voltage readings. Verifying tire pressures and hydraulic hose conditions prevents roadside breakdowns and field downtime.",
+          "(4c) Winter Machinery Storage Preparation: Preparing farm machines for winter storage involves washing corrosive fertilizers, treating fuel with chemical stabilizers, and fogging cylinders. Relieving tension on rubber drive belts and blocking equipment off tires prevents flat-spotting and ozone cracking."
         ],
         "rows": [
           {
@@ -1886,26 +1890,27 @@
           },
           {
             "attribute": "Engine Oil Degradation",
-            "left": "Req 4a: Engine Fluid Lubrication: Routine machine servicing entails draining hot crankcase oil, replacing spin-on filters, cleaning dry air filter canisters, and flushing radiator fins. Flushing dirt from grease fittings prior to coupler engagement prevents pumping abrasive grit directly into bearing assemblies.",
-            "right": "Req 4b: Preoperational Machinery: Preoperational inspections require physical dipstick fluid checks, coolant level verification in expansion tanks, and multimeter battery voltage readings. Verifying tire pressures and hydraulic hose conditions prevents roadside breakdowns and field downtime."
+            "left": "Grease Gun Calibration: Manual grease guns deliver specific ounce volumes per lever stroke during lubrication.",
+            "right": "(4c) Winter Machinery Storage Preparation: Preparing farm machines for winter storage involves washing corrosive fertilizers, treating fuel with chemical stabilizers, and fogging cylinders. Relieving tension on rubber drive belts and blocking equipment off tires prevents flat-spotting and ozone cracking."
           },
           {
             "attribute": "Dry Air Filtration",
-            "left": "Req 4c: Winter Machinery Storage: Preparing farm machines for winter storage involves washing corrosive fertilizers, treating fuel with chemical stabilizers, and fogging cylinders. Relieving tension on rubber drive belts and blocking equipment off tires prevents flat-spotting and ozone cracking.",
-            "right": "Engine Oil Degradation: Heat and soot deplete engine oil additive packages during heavy fieldwork."
+            "left": "Dry Air Filtration: Compressed air bursts can tear microscopic filter paper pores, allowing dirt entry.",
+            "right": "Cooling Fin Clearing: Clogged radiator fins reduce airflow, causing severe engine overheating during tillage."
           }
         ]
       },
       "worked_example": {
-        "title": "Farm Mechanics Req 4 Exemplar Workbook Entry: Engine",
+        "title": "Farm Mechanics Req 4 Worked Example: Machinery Preventive Maintenance Operations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Engine Fluid Lubrication": "Routine machine servicing entails draining hot crankcase oil, replacing spin-on filters, cleaning dry air filter canisters, and flushing radiator fins. Flushing dirt from grease fittings prior to coupler engagement prevents pumping abrasive grit directly into bearing assemblies.",
-          "Req 4b - Preoperational Machinery": "Preoperational inspections require physical dipstick fluid checks, coolant level verification in expansion tanks, and multimeter battery voltage readings. Verifying tire pressures and hydraulic hose conditions prevents roadside breakdowns and field downtime.",
-          "Req 4c - Winter Machinery Storage": "Preparing farm machines for winter storage involves washing corrosive fertilizers, treating fuel with chemical stabilizers, and fogging cylinders. Relieving tension on rubber drive belts and blocking equipment off tires prevents flat-spotting and ozone cracking."
+          "Phase 1 - Fitting Prep": "Wipe grease zerks clean using clean cotton rags before attaching grease couplers.",
+          "Phase 2 - Lube Delivery": "Pump recommended grease into suspension fittings until new lubricant slightly purges seals.",
+          "Phase 3 - Drain Execution": "Remove crankcase oil drain plugs over catch pans while engines remain warm.",
+          "Phase 4 - Filter Install": "Lubricate new oil filter rubber gaskets with fresh engine oil before hand-tightening."
         },
-        "sample_output": "Engine Maintenance and Seasonal Storage: In any tractor, use the type of fluid or fluids recommended in the operator's manual (p. 56).",
-        "counselor_tip": "For Farm Mechanics Requirement 4 (Engine Maintenance and Seasonal Storage), verify the Scout's own observations and specific pamphlet details (Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58))."
+        "sample_output": "Comprehensive machinery preventive maintenance protects expensive engines, gearboxes, and cooling cores from premature abrasive wear and thermal breakdown. Establishing rigorous preoperational walkaround routines identifies loose hardware, fluid leaks, and low charge states before field operations commence.",
+        "counselor_tip": "During the Farm Mechanics Requirement 4 conference on Machinery Preventive Maintenance Operations, verify that the Scout can explain grease gun calibration and demonstrate filter install: Lubricate new oil filter rubber gaskets with fresh engine oil before hand-tightening."
       },
       "quiz_item": {
         "scenario_prompt": "What step should you always perform immediately before removing fill plugs, dipsticks, or drain plugs on an engine-powered farm machine?",
@@ -2057,53 +2062,50 @@
         "Step 4 - Report Synthesis: Document technician insights comparing scheduled upkeep costs against catastrophic in-season repairs."
       ],
       "gear_checklist": [
-        "Official Farm Mechanics merit badge pamphlet and workbook organizer for Req 5.",
         "Farm Mechanics field toolkit, inspection gauge, and protective eyewear for Implement Dealership Maintenance Consultation.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 5."
       ],
       "comparison_data": {
-        "left_header": "Req 5: Clean Tight Electrical Terminals",
-        "right_header": "Req 5: Check Terminals for Corrosion",
+        "left_header": "Implement Dealership Maintenance Consultation: Core Principles",
+        "right_header": "Implement Dealership Maintenance Consultation: Field Execution",
         "left_points": [
-          "Clean Tight Electrical Terminals: Keep electrical connections and terminals tight and clean (p. 52).",
-          "Gripping Connectors Not Wires: When handling those that must regularly be pulled apart and reconnected, always pull them apart by holding the connector, not the wire (p. 52).",
-          "Inspecting for Dirt and Corrosion: Before reconnecting them, check for dirt, debris, and corrosion (p. 52)."
+          "Dealership Service Interviews: Master technicians explain component wear patterns caused by abrasive agricultural soil particles.",
+          "Lubrication Interval Value: Scheduled grease cycles prevent costly premature bearing failure across tillage equipment."
         ],
         "right_points": [
-          "Check Terminals for Corrosion: Before reconnecting them, check for dirt, debris, and corrosion (p. 52).",
-          "Seat Electrical Connectors Firmly: Push connectors together firmly but do not force them (p. 52).",
-          "Inspect for Misaligned Pins: If you must use force, that could indicate problems with corrosion or misaligned pins (p. 52)."
+          "Fluid Analysis Benefits: Spectrographic oil testing reveals internal bronze and iron bushing wear patterns early.",
+          "Equipment Downtime Costs: In-season machine breakdowns produce severe financial losses through delayed planting operations."
         ],
         "rows": [
           {
             "attribute": "Dealership Service Interviews",
-            "left": "Clean Tight Electrical Terminals: Keep electrical connections and terminals tight and clean (p. 52).",
-            "right": "Check Terminals for Corrosion: Before reconnecting them, check for dirt, debris, and corrosion (p. 52)."
+            "left": "Dealership Service Interviews: Master technicians explain component wear patterns caused by abrasive agricultural soil particles.",
+            "right": "Fluid Analysis Benefits: Spectrographic oil testing reveals internal bronze and iron bushing wear patterns early."
           },
           {
             "attribute": "Lubrication Interval Value",
-            "left": "Gripping Connectors Not Wires: When handling those that must regularly be pulled apart and reconnected, always pull them apart by holding the connector, not the wire (p. 52).",
-            "right": "Seat Electrical Connectors Firmly: Push connectors together firmly but do not force them (p. 52)."
+            "left": "Lubrication Interval Value: Scheduled grease cycles prevent costly premature bearing failure across tillage equipment.",
+            "right": "Equipment Downtime Costs: In-season machine breakdowns produce severe financial losses through delayed planting operations."
           },
           {
             "attribute": "Fluid Analysis Benefits",
-            "left": "Inspecting for Dirt and Corrosion: Before reconnecting them, check for dirt, debris, and corrosion (p. 52).",
-            "right": "Inspect for Misaligned Pins: If you must use force, that could indicate problems with corrosion or misaligned pins (p. 52)."
+            "left": "Fluid Analysis Benefits: Spectrographic oil testing reveals internal bronze and iron bushing wear patterns early.",
+            "right": "Equipment Downtime Costs: In-season machine breakdowns produce severe financial losses through delayed planting operations."
           }
         ]
       },
       "worked_example": {
-        "title": "Farm Mechanics Req 5 Exemplar Workbook Entry: Implement",
+        "title": "Farm Mechanics Req 5 Worked Example: Implement Dealership Maintenance Consultation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Clean Tight Electrical Terminals": "Keep electrical connections and terminals tight and clean (p. 52).",
-          "Gripping Connectors Not Wires": "When handling those that must regularly be pulled apart and reconnected, always pull them apart by holding the connector, not the wire (p. 52).",
-          "Inspecting for Dirt and Corrosion": "Before reconnecting them, check for dirt, debris, and corrosion (p. 52).",
-          "Joining Connectors Without Force": "Push connectors together firmly but do not force them (p. 52)."
+          "Phase 1 - Interview Booking": "Contact the dealership service manager to schedule an informative shop maintenance interview.",
+          "Phase 2 - Question Prep": "Draft specific technical questions regarding common harvest season combine breakdown causes.",
+          "Phase 3 - Facility Walk": "Walk designated service bays observing specialized hydraulic diagnostic benches and calibration tools.",
+          "Phase 4 - Report Synthesis": "Document technician insights comparing scheduled upkeep costs against catastrophic in-season repairs."
         },
-        "sample_output": "Implement Dealer Preventive Maintenance Interview: Keep electrical connections and terminals tight and clean (p. 52).",
-        "counselor_tip": "For Farm Mechanics Requirement 5 (Implement Dealer Preventive Maintenance Interview), verify the Scout's own observations and specific pamphlet details (Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 52, p. 74))."
+        "sample_output": "Interviewing implement dealership service managers exposes the financial balance between scheduled maintenance expenditures and catastrophic field breakdown expenses. Dealership technicians emphasize that abrasive dirt contamination, inadequate lubrication, and uncorrected vibrations cause the majority of major mechanical failures.",
+        "counselor_tip": "During the Farm Mechanics Requirement 5 conference on Implement Dealership Maintenance Consultation, verify that the Scout can explain dealership service interviews and demonstrate report synthesis: Document technician insights comparing scheduled upkeep costs against catastrophic in-season repairs."
       },
       "quiz_item": {
         "scenario_prompt": "What is the proper preventive maintenance technique for handling electrical connectors that must be regularly unplugged and reconnected on farm implements?",
@@ -2484,10 +2486,12 @@
         "left_header": "Req 6a: Hydraulic Hose Fitting Assembly",
         "right_header": "Req 6b: Engine Air Filter Servicing",
         "left_points": [
-          "(6a) Hydraulic Hose Fitting Assembly: Tightening hydraulic fittings requires two matching wrenches to avoid twisting reinforced rubber hoses or damaging connector flare seats. Mechanics hand-thread nuts until snug before applying specified torque to create metal-to-metal high pressure seals."
+          "(6a) Hydraulic Hose Fitting Assembly: Tightening hydraulic fittings requires two matching wrenches to avoid twisting reinforced rubber hoses or damaging connector flare seats. Mechanics hand-thread nuts until snug before applying specified torque to create metal-to-metal high pressure seals.",
+          "Backup Wrench Usage: Mechanics hold fixed adapter bodies while torquing hydraulic hose swivel nuts."
         ],
         "right_points": [
-          "(6b) Engine Air Filter Servicing: Air cleaner inspection involves wiping canister seals, checking vacuum restriction gauges, and examining pleated paper elements against bright light. Pinholes or ruptured rubber end gaskets allow abrasive silica dust to enter engine cylinders, destroying rings."
+          "(6b) Engine Air Filter Servicing: Air cleaner inspection involves wiping canister seals, checking vacuum restriction gauges, and examining pleated paper elements against bright light. Pinholes or ruptured rubber end gaskets allow abrasive silica dust to enter engine cylinders, destroying rings.",
+          "(6c) Rotary Wire Wheel Deburring: Cleaning rusty components on a motorized wire-brush wheel requires rigid tool rest adjustment within one-eighth inch of bristles. Technicians hold workpieces firmly below wheel centerlines to prevent bristles from snagging metal parts from their grip."
         ],
         "rows": [
           {
@@ -2497,26 +2501,27 @@
           },
           {
             "attribute": "Air Element Inspection",
-            "left": "Req 6a: Hydraulic Hose Fitting: Tightening hydraulic fittings requires two matching wrenches to avoid twisting reinforced rubber hoses or damaging connector flare seats. Mechanics hand-thread nuts until snug before applying specified torque to create metal-to-metal high pressure seals.",
-            "right": "Req 6b: Engine Air Filter Servicing: Air cleaner inspection involves wiping canister seals, checking vacuum restriction gauges, and examining pleated paper elements against bright light. Pinholes or ruptured rubber end gaskets allow abrasive silica dust to enter engine cylinders, destroying rings."
+            "left": "Backup Wrench Usage: Mechanics hold fixed adapter bodies while torquing hydraulic hose swivel nuts.",
+            "right": "(6c) Rotary Wire Wheel Deburring: Cleaning rusty components on a motorized wire-brush wheel requires rigid tool rest adjustment within one-eighth inch of bristles. Technicians hold workpieces firmly below wheel centerlines to prevent bristles from snagging metal parts from their grip."
           },
           {
             "attribute": "Bench Grinder Safety",
-            "left": "Req 6c: Rotary Wire Wheel Deburring: Cleaning rusty components on a motorized wire-brush wheel requires rigid tool rest adjustment within one-eighth inch of bristles. Technicians hold workpieces firmly below wheel centerlines to prevent bristles from snagging metal parts from their grip.",
-            "right": "Air Element Inspection: Backlighting paper filter elements reveals tiny pinhole tears admitting engine grit."
+            "left": "Bench Grinder Safety: Wire wheels fling broken steel bristles at extreme velocities during workpiece cleaning.",
+            "right": "Thread Sealant Rules: Tapered pipe threads require liquid paste sealant rather than shredded teflon tape."
           }
         ]
       },
       "worked_example": {
-        "title": "Farm Mechanics Req 6 Exemplar Workbook Entry: Stepwise",
+        "title": "Farm Mechanics Req 6 Worked Example: Standard Shop Maintenance Procedures",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Hydraulic Hose Fitting": "Tightening hydraulic fittings requires two matching wrenches to avoid twisting reinforced rubber hoses or damaging connector flare seats. Mechanics hand-thread nuts until snug before applying specified torque to create metal-to-metal high pressure seals.",
-          "Req 6b - Engine Air Filter Servicing": "Air cleaner inspection involves wiping canister seals, checking vacuum restriction gauges, and examining pleated paper elements against bright light. Pinholes or ruptured rubber end gaskets allow abrasive silica dust to enter engine cylinders, destroying rings.",
-          "Req 6c - Rotary Wire Wheel Deburring": "Cleaning rusty components on a motorized wire-brush wheel requires rigid tool rest adjustment within one-eighth inch of bristles. Technicians hold workpieces firmly below wheel centerlines to prevent bristles from snagging metal parts from their grip."
+          "Phase 1 - Wrench Placement": "Place an open-end wrench on the fixed hydraulic connector body hex.",
+          "Phase 2 - Swivel Engagement": "Fit a flare nut wrench over the hose swivel fitting nut.",
+          "Phase 3 - Thread Alignment": "Thread the fitting by hand to avoid cross-threading fine hydraulic threads.",
+          "Phase 4 - Final Torquing": "Tighten the swivel nut to specified torque while holding the body motionless."
         },
-        "sample_output": "Stepwise Equipment Servicing Procedures: That is why you hear mechanics talk about \"bleeding the air\" out of brake lines (p. 50).",
-        "counselor_tip": "For Farm Mechanics Requirement 6 (Stepwise Equipment Servicing Procedures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52))."
+        "sample_output": "Agricultural mechanics must follow exact mechanical protocols when torquing high pressure hydraulic couplings, inspecting paper air elements, or using rotary wire wheels. Proper tool selection, such as dual wrenches on hose swivels, prevents twisted hoses and dangerous high pressure fluid leaks.",
+        "counselor_tip": "During the Farm Mechanics Requirement 6 conference on Standard Shop Maintenance Procedures, verify that the Scout can explain backup wrench usage and demonstrate final torquing: Tighten the swivel nut to specified torque while holding the body motionless."
       },
       "quiz_item": {
         "scenario_prompt": "Why must a hydraulic system contain no air bubbles and why do mechanics bleed air out of hydraulic brake lines?",
@@ -2688,47 +2693,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: National FFA Student Organization",
-        "right_header": "Req 7: Complete Formal Technical",
+        "left_header": "Farm Mechanics Career Pathways: Core Principles",
+        "right_header": "Farm Mechanics Career Pathways: Field Execution",
         "left_points": [
-          "National FFA Student Organization: Join the National FFA Organization, an agricultural education organization designed for students (p. 72).",
-          "Computerized Diagnostic Equipment Tools: As a tractor or farm equipment mechanic, you will work on computer-controlled machinery and use computerized diagnostic tools (p. 72).",
-          "Postsecondary Technical Training Programs: Employers generally prefer to hire people who have completed formal training programs after graduating from high school (p. 72)."
+          "Agricultural Service Techs: Mobile technicians diagnose complex electro-hydraulic systems on modern GPS-guided tractors and combines.",
+          "Heavy Equipment Mechanics: Dealership specialists overhaul diesel powerplants, planetary transmissions, and hydrostatic drive pumps."
         ],
         "right_points": [
-          "Complete Formal Technical Training: Employers generally prefer to hire people who have completed formal training programs after graduating from high school (p. 72).",
-          "Enroll in Manufacturer Programs: Many of the large tractor and equipment manufacturers have training programs to prepare individuals to work at their authorized dealerships (p. 72).",
-          "Attend Community College Courses: These training programs may be hosted at the dealerships or at community colleges or other technical institutes (p. 72)."
+          "Custom Fabricator Roles: Agricultural welders design and fabricate specialized livestock handling gates and tillage frames.",
+          "Certification Pathway Steps: Technical colleges provide two-year associate degrees paired with manufacturer equipment apprenticeships."
         ],
         "rows": [
           {
             "attribute": "Agricultural Service Techs",
-            "left": "National FFA Student Organization: Join the National FFA Organization, an agricultural education organization designed for students (p. 72).",
-            "right": "Complete Formal Technical Training: Employers generally prefer to hire people who have completed formal training programs after graduating from high school (p. 72)."
+            "left": "Agricultural Service Techs: Mobile technicians diagnose complex electro-hydraulic systems on modern GPS-guided tractors and combines.",
+            "right": "Custom Fabricator Roles: Agricultural welders design and fabricate specialized livestock handling gates and tillage frames."
           },
           {
             "attribute": "Heavy Equipment Mechanics",
-            "left": "Computerized Diagnostic Equipment Tools: As a tractor or farm equipment mechanic, you will work on computer-controlled machinery and use computerized diagnostic tools (p. 72).",
-            "right": "Enroll in Manufacturer Programs: Many of the large tractor and equipment manufacturers have training programs to prepare individuals to work at their authorized dealerships (p. 72)."
+            "left": "Heavy Equipment Mechanics: Dealership specialists overhaul diesel powerplants, planetary transmissions, and hydrostatic drive pumps.",
+            "right": "Certification Pathway Steps: Technical colleges provide two-year associate degrees paired with manufacturer equipment apprenticeships."
           },
           {
             "attribute": "Custom Fabricator Roles",
-            "left": "Postsecondary Technical Training Programs: Employers generally prefer to hire people who have completed formal training programs after graduating from high school (p. 72).",
-            "right": "Attend Community College Courses: These training programs may be hosted at the dealerships or at community colleges or other technical institutes (p. 72)."
+            "left": "Custom Fabricator Roles: Agricultural welders design and fabricate specialized livestock handling gates and tillage frames.",
+            "right": "Certification Pathway Steps: Technical colleges provide two-year associate degrees paired with manufacturer equipment apprenticeships."
           }
         ]
       },
       "worked_example": {
-        "title": "Farm Mechanics Req 7 Exemplar Workbook Entry: Careers",
+        "title": "Farm Mechanics Req 7 Worked Example: Farm Mechanics Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "National FFA Student Organization": "Join the National FFA Organization, an agricultural education organization designed for students (p. 72).",
-          "Computerized Diagnostic Equipment": "As a tractor or farm equipment mechanic, you will work on computer-controlled machinery and use computerized diagnostic tools (p. 72).",
-          "Postsecondary Technical Training": "Employers generally prefer to hire people who have completed formal training programs after graduating from high school (p. 72).",
-          "Manufacturer Authorized Dealership": "Many of the large tractor and equipment manufacturers have training programs to prepare individuals to work at their authorized dealerships (p. 72)."
+          "Phase 1 - Career Exploration": "Research three agricultural mechanic disciplines including mobile service tech and dealership rebuilder.",
+          "Phase 2 - Specialty Selection": "Select mobile field service technician as a target career for in-depth educational study.",
+          "Phase 3 - Program Research": "Investigate regional community college diesel technology associate degrees and dealer sponsorship options.",
+          "Phase 4 - Counselor Discussion": "Review required mechanical certifications and career advancement paths during your counselor meeting."
         },
-        "sample_output": "Careers in Modern Agricultural Mechanics: Join the National FFA Organization, an agricultural education organization designed for students (p. 72).",
-        "counselor_tip": "For Farm Mechanics Requirement 7 (Careers in Modern Agricultural Mechanics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 72, p. 73))."
+        "sample_output": "Agricultural equipment mechanics combines traditional diesel engine overhaul, hydraulic circuit engineering, and modern satellite telematics troubleshooting. Pursuing a career in farm mechanics requires technical college education, dealership apprenticeships, and continuing manufacturer certifications.",
+        "counselor_tip": "During the Farm Mechanics Requirement 7 conference on Farm Mechanics Career Pathways, verify that the Scout can explain agricultural service techs and demonstrate counselor discussion: Review required mechanical certifications and career advancement paths during your counselor meeting."
       },
       "quiz_item": {
         "scenario_prompt": "What type of preparation do agricultural equipment employers and authorized dealerships generally prefer when hiring farm mechanics?",

@@ -411,7 +411,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use step stools with locking caster wheels when reaching for volumes located on high shelves.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -481,13 +481,9 @@
         "Step 3 - Shelf Call Verification: Note the exact call number and walk to the corresponding stack range.",
         "Step 4 - Barcode Card Registration: Present proof of residence to obtain an active library card for checkouts."
       ],
-      "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet: Take a tour of a library.",
-        "Field notebook, verification log sheet, and demonstration materials for Take a tour of a library.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Public Library Facility",
+        "left_header": "Req 1a: Public Library Facility Orientation",
         "right_header": "Req 1c: Multi Genre Catalog Search",
         "left_points": [
           "(1a) Public Library Facility Orientation: A guided facility tour introduces public zones, media archives, and specialized patron services. Reference librarians explain organizational boundaries dividing fiction, periodicals, and non-print digital materials.",
@@ -510,22 +506,22 @@
           },
           {
             "attribute": "Call Number Labels",
-            "left": "Req 1a: Public Library Facility: A guided facility tour introduces public zones, media archives, and specialized patron services. Reference librarians explain organizational boundaries dividing fiction, periodicals, and non-print digital materials.",
-            "right": "Req 1b: Catalog Search Query: Computerized library catalogs use controlled vocabularies to index materials across searchable fields. Searching by subject headings yields broader relevant results than searching by title keywords alone."
+            "left": "Call Number Labels: Spine stickers display classification numbers to guide physical retrieval on stack shelves.",
+            "right": "Borrower Card Privileges: Registration establishes patron accounts granting access to physical books and digital databases."
           }
         ]
       },
       "worked_example": {
-        "title": "Reading Req 1 Exemplar Workbook Entry: Library",
+        "title": "Reading Req 1 Worked Example: Library Systems and Catalog Navigation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Public Library Facility": "A guided facility tour introduces public zones, media archives, and specialized patron services. Reference librarians explain organizational boundaries dividing fiction, periodicals, and non-print digital materials.",
-          "Req 1b - Catalog Search Query Strategy": "Computerized library catalogs use controlled vocabularies to index materials across searchable fields. Searching by subject headings yields broader relevant results than searching by title keywords alone.",
-          "Req 1c - Multi Genre Catalog Search": "Selecting materials across poetry, fiction, nonfiction, and biography demonstrates versatility across different literary sections. Each category occupies designated call number ranges or separate shelving areas.",
-          "Req 1d - Physical Stack Book Retrieval": "Stack navigation requires reading shelf markers from left to right and top to bottom. Call numbers correspond to exact positions marked on shelf ranges."
+          "Phase 1 - Information Desk Orientation": "Request an orientation tour from the circulation desk librarian to view sections.",
+          "Phase 2 - Digital Terminal Query": "Search the catalog terminal using author, title, and specific subject keywords.",
+          "Phase 3 - Shelf Call Verification": "Note the exact call number and walk to the corresponding stack range.",
+          "Phase 4 - Barcode Card Registration": "Present proof of residence to obtain an active library card for checkouts."
         },
-        "sample_output": "Library Organization and Catalog Searches: To find newspaper stories about your subject, check newspaper indexes on websites (p. 21).",
-        "counselor_tip": "For Reading Requirement 1 (Library Organization and Catalog Searches), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34))."
+        "sample_output": "Public libraries arrange collections using the Dewey Decimal Classification or Library of Congress system to ensure systematic retrieval. Online public access catalogs index materials through precise metadata fields including author, title, subject headings, and call numbers.",
+        "counselor_tip": "During the Reading Requirement 1 conference on Library Systems and Catalog Navigation, verify that the Scout can explain dewey decimal system and demonstrate barcode card registration: Present proof of residence to obtain an active library card for checkouts."
       },
       "quiz_item": {
         "scenario_prompt": "When using a library catalog to locate nonfiction research materials, how does the Dewey Decimal Classification system organize books on the shelves?",
@@ -766,7 +762,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure proper desk posture and screen blue-light filters during extended online catalog searches.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
       "syllabus_bucket": "In-Class Concept",
@@ -830,19 +826,17 @@
         "Step 3 - Curated List Review: Examine Newbery Medal, Coretta Scott King, or classic literature honor lists.",
         "Step 4 - Future Title Selection: Choose one prospective volume and record its summary for upcoming reading."
       ],
-      "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet: A book you have enjoyed.",
-        "Field notebook, verification log sheet, and demonstration materials for A book you have enjoyed.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Author Works Exploration",
         "right_header": "Req 2b: Curated Reading List Selection",
         "left_points": [
-          "(2a) Author Works Exploration: Investigating an author's broader catalog helps readers discover prequel novels, related short stories, or independent stand-alone works. Reference bibliographies provide accurate chronological lists of original publication dates."
+          "(2a) Author Works Exploration: Investigating an author's broader catalog helps readers discover prequel novels, related short stories, or independent stand-alone works. Reference bibliographies provide accurate chronological lists of original publication dates.",
+          "Author Bibliography Search: Reference tools and catalog records list complete published works by single authors."
         ],
         "right_points": [
-          "(2b) Curated Reading List Selection: Award lists such as the Michael L. Printz or Caldecott evaluate books against rigorous literary standards. Selecting from vetted lists introduces readers to notable cultural perspectives and complex storytelling structures."
+          "(2b) Curated Reading List Selection: Award lists such as the Michael L. Printz or Caldecott evaluate books against rigorous literary standards. Selecting from vetted lists introduces readers to notable cultural perspectives and complex storytelling structures.",
+          "Thematic Reading Selection: Exploring thematic lists exposes readers to diverse genres outside habitual reading preferences."
         ],
         "rows": [
           {
@@ -852,25 +846,27 @@
           },
           {
             "attribute": "Curated Award Selections",
-            "left": "Req 2a: Author Works Exploration: Investigating an author's broader catalog helps readers discover prequel novels, related short stories, or independent stand-alone works. Reference bibliographies provide accurate chronological lists of original publication dates.",
-            "right": "Req 2b: Curated Reading List: Award lists such as the Michael L. Printz or Caldecott evaluate books against rigorous literary standards. Selecting from vetted lists introduces readers to notable cultural perspectives and complex storytelling structures."
+            "left": "Author Bibliography Search: Reference tools and catalog records list complete published works by single authors.",
+            "right": "Thematic Reading Selection: Exploring thematic lists exposes readers to diverse genres outside habitual reading preferences."
           },
           {
             "attribute": "Thematic Reading Selection",
-            "left": "Author Bibliography Search: Reference tools and catalog records list complete published works by single authors.",
-            "right": "Curated Award Selections: Recognized literary award lists highlight exceptional prose across fiction and informational texts."
+            "left": "Thematic Reading Selection: Exploring thematic lists exposes readers to diverse genres outside habitual reading preferences.",
+            "right": "Reading Goal Planning: Documenting target titles creates an intentional reading pathway for personal development."
           }
         ]
       },
       "worked_example": {
-        "title": "Reading Req 2 Exemplar Workbook Entry: Exploring Authors",
+        "title": "Reading Req 2 Worked Example: Author Bibliography and Reading Lists",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Author Works Exploration": "Investigating an author's broader catalog helps readers discover prequel novels, related short stories, or independent stand-alone works. Reference bibliographies provide accurate chronological lists of original publication dates.",
-          "Req 2b - Curated Reading List": "Award lists such as the Michael L. Printz or Caldecott evaluate books against rigorous literary standards. Selecting from vetted lists introduces readers to notable cultural perspectives and complex storytelling structures."
+          "Phase 1 - Favorite Title Selection": "Pick a previously enjoyed book and record the primary author full name.",
+          "Phase 2 - Complete Bibliography": "Consult an authoritative author website or library database for their other titles.",
+          "Phase 3 - Curated List Review": "Examine Newbery Medal, Coretta Scott King, or classic literature honor lists.",
+          "Phase 4 - Future Title Selection": "Choose one prospective volume and record its summary for upcoming reading."
         },
-        "sample_output": "Exploring Authors and Recommended Books: Your librarian can help you find newspaper indexes to locate the newspaper articles you want (p. 20).",
-        "counselor_tip": "For Reading Requirement 2 (Exploring Authors and Recommended Books), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34))."
+        "sample_output": "Examining an author's complete bibliography reveals recurrent themes, evolving styles, and connected series across publication histories. Curated book lists compiled by literacy organizations introduce high quality literature across diverse historical eras.",
+        "counselor_tip": "During the Reading Requirement 2 conference on Author Bibliography and Reading Lists, verify that the Scout can explain author bibliography search and demonstrate future title selection: Choose one prospective volume and record its summary for upcoming reading."
       },
       "quiz_item": {
         "scenario_prompt": "Once you identify a book you really enjoyed, what is the best way to find all the other books written by that same writer at the library?",
@@ -1212,7 +1208,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Take ten-minute visual breaks every hour to prevent eye fatigue during long reading sessions.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
       "syllabus_bucket": "In-Class Concept",
@@ -1283,10 +1279,12 @@
         "left_header": "Req 3a: Written Book Review Composition",
         "right_header": "Req 3b: Book and Film Comparison",
         "left_points": [
-          "(3a) Written Book Review Composition: An effective written review balances brief plot orientation with thoughtful analysis of literary elements. Reviewers identify strengths, point out flaws, and specify ideal reader demographics."
+          "(3a) Written Book Review Composition: An effective written review balances brief plot orientation with thoughtful analysis of literary elements. Reviewers identify strengths, point out flaws, and specify ideal reader demographics.",
+          "Four Genre Requirement: Readers explore varied literary forms like poetry, fiction, biography, and informational texts."
         ],
         "right_points": [
-          "(3b) Book and Film Comparison: Comparing a written narrative with its cinematic adaptation highlights differences between prose interiority and visual storytelling. Analyzing narrative cuts, character composites, and pacing alterations sharpens analytical judgment."
+          "(3b) Book and Film Comparison: Comparing a written narrative with its cinematic adaptation highlights differences between prose interiority and visual storytelling. Analyzing narrative cuts, character composites, and pacing alterations sharpens analytical judgment.",
+          "(3c) Patrol Book Talk Delivery: A book talk acts like a commercial designed to hook listeners and inspire them to read the title. Presenters highlight dramatic conflicts, read compelling excerpts, and withhold final resolutions."
         ],
         "rows": [
           {
@@ -1296,26 +1294,27 @@
           },
           {
             "attribute": "Constructive Review Drafting",
-            "left": "Req 3a: Written Book Review: An effective written review balances brief plot orientation with thoughtful analysis of literary elements. Reviewers identify strengths, point out flaws, and specify ideal reader demographics.",
-            "right": "Req 3b: Book and Film Comparison: Comparing a written narrative with its cinematic adaptation highlights differences between prose interiority and visual storytelling. Analyzing narrative cuts, character composites, and pacing alterations sharpens analytical judgment."
+            "left": "Four Genre Requirement: Readers explore varied literary forms like poetry, fiction, biography, and informational texts.",
+            "right": "(3c) Patrol Book Talk Delivery: A book talk acts like a commercial designed to hook listeners and inspire them to read the title. Presenters highlight dramatic conflicts, read compelling excerpts, and withhold final resolutions."
           },
           {
             "attribute": "Cinematic Adaptation Comparison",
-            "left": "Req 3c: Patrol Book Talk Delivery: A book talk acts like a commercial designed to hook listeners and inspire them to read the title. Presenters highlight dramatic conflicts, read compelling excerpts, and withhold final resolutions.",
-            "right": "Constructive Review Drafting: Critical written evaluations identify plot strengths, character arcs, and target audience recommendations."
+            "left": "Cinematic Adaptation Comparison: Film adaptations frequently alter narrative subplots and internal monologues for visual pacing.",
+            "right": "Oral Book Presentation: Dynamic book talks convey central themes to engage peers without spoiling endings."
           }
         ]
       },
       "worked_example": {
-        "title": "Reading Req 3 Exemplar Workbook Entry: Literary Genres",
+        "title": "Reading Req 3 Worked Example: Multi Genre Reading and Response",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Written Book Review": "An effective written review balances brief plot orientation with thoughtful analysis of literary elements. Reviewers identify strengths, point out flaws, and specify ideal reader demographics.",
-          "Req 3b - Book and Film Comparison": "Comparing a written narrative with its cinematic adaptation highlights differences between prose interiority and visual storytelling. Analyzing narrative cuts, character composites, and pacing alterations sharpens analytical judgment.",
-          "Req 3c - Patrol Book Talk Delivery": "A book talk acts like a commercial designed to hook listeners and inspire them to read the title. Presenters highlight dramatic conflicts, read compelling excerpts, and withhold final resolutions."
+          "Phase 1 - Four Genre Selection": "Select one fiction title, one biography, one nonfiction volume, and poetry.",
+          "Phase 2 - Daily Reading Schedule": "Maintain a consistent daily reading schedule with active notes on key passages.",
+          "Phase 3 - Response Method Selection": "Choose a written critique, comparative movie analysis, or an oral presentation.",
+          "Phase 4 - Critical Response Delivery": "Complete the chosen reflection project and share insights directly with your counselor."
         },
-        "sample_output": "Literary Genres and Book Reviews: Requirement 3 asks you to read books of different types (p. 20).",
-        "counselor_tip": "For Reading Requirement 3 (Literary Genres and Book Reviews), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36))."
+        "sample_output": "Reading across four distinct literary genres cultivates critical thinking and broadens linguistic vocabulary. Synthesizing each text through written reviews, cinematic comparisons, or oral book talks demonstrates comprehension and evaluation.",
+        "counselor_tip": "During the Reading Requirement 3 conference on Multi Genre Reading and Response, verify that the Scout can explain four genre requirement and demonstrate critical response delivery: Complete the chosen reflection project and share insights directly with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "What does the Reading merit badge pamphlet say a reader is expected to do when reading a fantasy novel about places and events that cannot be logically true?",
@@ -1403,7 +1402,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear protective safety glasses and work under adult supervision when operating shop tools.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1476,53 +1475,47 @@
         "Step 3 - Sequential Project Construction: Execute each manual step methodically using the specified tools and safety equipment.",
         "Step 4 - Final Project Presentation: Display the completed project to your counselor and discuss lessons learned."
       ],
-      "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet: Read a nonfiction book or magazine.",
-        "Field notebook, verification log sheet, and demonstration materials for Read a nonfiction book or magazine.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Reading for Fun and Discovery",
-        "right_header": "Req 4: Combine Review with Persuasion",
+        "left_header": "Instructional Nonfiction Project Execution: Core Principles",
+        "right_header": "Instructional Nonfiction Project Execution: Field Execution",
         "left_points": [
-          "Reading for Fun and Discovery: Reading for Information. by discussing with your counselor what you have Reading is for fun and for discovery (p. 36).",
-          "Engaging Book Talk Presentations: A \"book talk\" is an engaging presentation or discussion about a book, aimed at generating interest and encouraging others to read (p. 36).",
-          "Review and Pitch Combination: It can be thought of as a mix between a book review and a sales pitch (p. 36)."
+          "Procedural Text Interpretation: Instructional guides outline tools, materials, and sequential steps for practical execution.",
+          "Prior Permission Protocols: Scouts obtain parental and counselor approval before beginning any physical instructional project."
         ],
         "right_points": [
-          "Combine Review With Persuasion: It can be thought of as a mix between a book review and a sales pitch (p. 36).",
-          "Deliver Spoiler Free Overviews: Provide a brief overview of the book without giving away any spoilers (p. 36).",
-          "Introduce Plot and Characters: Mention the main plot, setting, and key characters (p. 36)."
+          "Iterative Step Following: Readers follow technical directions sequentially to avoid structural errors during fabrication.",
+          "Counselor Project Demonstration: Presenting the finished item validates technical reading accuracy and practical skill mastery."
         ],
         "rows": [
           {
             "attribute": "Procedural Text Interpretation",
-            "left": "Reading for Fun and Discovery: Reading for Information. by discussing with your counselor what you have Reading is for fun and for discovery (p. 36).",
-            "right": "Combine Review With Persuasion: It can be thought of as a mix between a book review and a sales pitch (p. 36)."
+            "left": "Procedural Text Interpretation: Instructional guides outline tools, materials, and sequential steps for practical execution.",
+            "right": "Iterative Step Following: Readers follow technical directions sequentially to avoid structural errors during fabrication."
           },
           {
             "attribute": "Prior Permission Protocols",
-            "left": "Engaging Book Talk Presentations: A \"book talk\" is an engaging presentation or discussion about a book, aimed at generating interest and encouraging others to read (p. 36).",
-            "right": "Deliver Spoiler Free Overviews: Provide a brief overview of the book without giving away any spoilers (p. 36)."
+            "left": "Prior Permission Protocols: Scouts obtain parental and counselor approval before beginning any physical instructional project.",
+            "right": "Counselor Project Demonstration: Presenting the finished item validates technical reading accuracy and practical skill mastery."
           },
           {
             "attribute": "Iterative Step Following",
-            "left": "Review and Pitch Combination: It can be thought of as a mix between a book review and a sales pitch (p. 36).",
-            "right": "Introduce Plot and Characters: Mention the main plot, setting, and key characters (p. 36)."
+            "left": "Iterative Step Following: Readers follow technical directions sequentially to avoid structural errors during fabrication.",
+            "right": "Counselor Project Demonstration: Presenting the finished item validates technical reading accuracy and practical skill mastery."
           }
         ]
       },
       "worked_example": {
-        "title": "Reading Req 4 Exemplar Workbook Entry: Instructional",
+        "title": "Reading Req 4 Worked Example: Instructional Nonfiction Project Execution",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Reading for Fun and Discovery": "Reading for Information. by discussing with your counselor what you have Reading is for fun and for discovery (p. 36).",
-          "Engaging Book Talk Presentations": "A \"book talk\" is an engaging presentation or discussion about a book, aimed at generating interest and encouraging others to read (p. 36).",
-          "Review and Pitch Combination": "It can be thought of as a mix between a book review and a sales pitch (p. 36).",
-          "Spoiler Free Book Overviews": "Provide a brief overview of the book without giving away any spoilers (p. 36)."
+          "Phase 1 - Instructional Guide Selection": "Choose a reputable book or magazine detailing a technical how-to activity.",
+          "Phase 2 - Permission Plan Approval": "Present the project scope and safety plan to parents and your counselor.",
+          "Phase 3 - Sequential Project Construction": "Execute each manual step methodically using the specified tools and safety equipment.",
+          "Phase 4 - Final Project Presentation": "Display the completed project to your counselor and discuss lessons learned."
         },
-        "sample_output": "Instructional Reading and Hands-On Projects: Reading for Information. by discussing with your counselor what you have Reading is for fun and for discovery (p. 36).",
-        "counselor_tip": "For Reading Requirement 4 (Instructional Reading and Hands-On Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reading Merit Badge Pamphlet (p. 36, p. 41))."
+        "sample_output": "Procedural nonfiction manuals explain sequential techniques necessary to construct physical objects or execute technical processes. Successfully translating written directions into a completed project validates practical reading comprehension and troubleshooting ability.",
+        "counselor_tip": "During the Reading Requirement 4 conference on Instructional Nonfiction Project Execution, verify that the Scout can explain procedural text interpretation and demonstrate final project presentation: Display the completed project to your counselor and discuss lessons learned."
       },
       "quiz_item": {
         "scenario_prompt": "How does the Reading merit badge pamphlet describe the purpose and style of a 'book talk'?",
@@ -1614,7 +1607,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Adhere to the Cyber CHIP guidelines and avoid sharing personal data while browsing online.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1685,53 +1678,47 @@
         "Step 3 - Cross Source Fact Checking: Compare documented facts, cited figures, and editorial angles across both articles.",
         "Step 4 - Counselor Discussion: Present a balanced analysis of both perspectives during your counselor conference."
       ],
-      "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet: World Around You.",
-        "Field notebook, verification log sheet, and demonstration materials for World Around You.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Researching Personal Interest",
-        "right_header": "Req 5: Select Accurate Current Sources",
+        "left_header": "Current Events Source Analysis: Core Principles",
+        "right_header": "Current Events Source Analysis: Field Execution",
         "left_points": [
-          "Researching Personal Interest Subjects: For requirement 5 you will research subjects that interest (p. 31).",
-          "Nonfiction Current Topic Selections: You can pick any current topic, but your reading selections for requirement 5 will be mostly, if not entirely, nonfiction (p. 31).",
-          "Accurate Up to Date Sources: Your goal is to learn about the world around you by reading the most accurate and up-to-date sources you can find (p. 31)."
+          "Dual Source Comparison: Consulting two distinct publications reveals diverse editorial viewpoints on identical subjects.",
+          "Critical Evidence Evaluation: Discerning readers evaluate factual reporting against unverified claims and speculative assertions."
         ],
         "right_points": [
-          "Select Accurate Current Sources: Your goal is to learn about the world around you by reading the most accurate and up-to-date sources you can find (p. 31).",
-          "Investigate New Curiosity Topics: Maybe there is some particular topic you have wanted to learn about but have never found anybody to ask (p. 31).",
-          "Deepen Existing Subject Knowledge: Or perhaps the reis a topic with which you are familiar but want to know (p. 31)."
+          "Parental Internet Permission: Scouts secure parent or guardian authorization before accessing online journalism resources.",
+          "Current Events Synthesis: Analyzing contemporary news items builds civic awareness and informed personal viewpoints."
         ],
         "rows": [
           {
             "attribute": "Dual Source Comparison",
-            "left": "Researching Personal Interest Subjects: For requirement 5 you will research subjects that interest (p. 31).",
-            "right": "Select Accurate Current Sources: Your goal is to learn about the world around you by reading the most accurate and up-to-date sources you can find (p. 31)."
+            "left": "Dual Source Comparison: Consulting two distinct publications reveals diverse editorial viewpoints on identical subjects.",
+            "right": "Parental Internet Permission: Scouts secure parent or guardian authorization before accessing online journalism resources."
           },
           {
             "attribute": "Critical Evidence Evaluation",
-            "left": "Nonfiction Current Topic Selections: You can pick any current topic, but your reading selections for requirement 5 will be mostly, if not entirely, nonfiction (p. 31).",
-            "right": "Investigate New Curiosity Topics: Maybe there is some particular topic you have wanted to learn about but have never found anybody to ask (p. 31)."
+            "left": "Critical Evidence Evaluation: Discerning readers evaluate factual reporting against unverified claims and speculative assertions.",
+            "right": "Current Events Synthesis: Analyzing contemporary news items builds civic awareness and informed personal viewpoints."
           },
           {
             "attribute": "Parental Internet Permission",
-            "left": "Accurate Up to Date Sources: Your goal is to learn about the world around you by reading the most accurate and up-to-date sources you can find (p. 31).",
-            "right": "Deepen Existing Subject Knowledge: Or perhaps the reis a topic with which you are familiar but want to know (p. 31)."
+            "left": "Parental Internet Permission: Scouts secure parent or guardian authorization before accessing online journalism resources.",
+            "right": "Current Events Synthesis: Analyzing contemporary news items builds civic awareness and informed personal viewpoints."
           }
         ]
       },
       "worked_example": {
-        "title": "Reading Req 5 Exemplar Workbook Entry: Reading",
+        "title": "Reading Req 5 Worked Example: Current Events Source Analysis",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Researching Personal Interest Subjects": "For requirement 5 you will research subjects that interest (p. 31).",
-          "Nonfiction Current Topic Selections": "You can pick any current topic, but your reading selections for requirement 5 will be mostly, if not entirely, nonfiction (p. 31).",
-          "Accurate Up to Date Sources": "Your goal is to learn about the world around you by reading the most accurate and up-to-date sources you can find (p. 31).",
-          "Answering Unasked Curiosity Questions": "Maybe there is some particular topic you have wanted to learn about but have never found anybody to ask (p. 31)."
+          "Phase 1 - Topic Scope Selection": "Select an urgent global issue, environmental challenge, or community current event.",
+          "Phase 2 - Source Material Gathering": "Collect two separate journalistic or reference accounts examining the chosen issue.",
+          "Phase 3 - Cross Source Fact Checking": "Compare documented facts, cited figures, and editorial angles across both articles.",
+          "Phase 4 - Counselor Discussion": "Present a balanced analysis of both perspectives during your counselor conference."
         },
-        "sample_output": "Reading About the World Around You: For requirement 5 you will research subjects that interest (p. 31).",
-        "counselor_tip": "For Reading Requirement 5 (Reading About the World Around You), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reading Merit Badge Pamphlet (p. 31, p. 41))."
+        "sample_output": "Investigating contemporary issues across distinct media formats exposes readers to contrasting perspectives and evidentiary standards. Comparing news articles, periodicals, and specialized field manuals builds information literacy and critical source verification.",
+        "counselor_tip": "During the Reading Requirement 5 conference on Current Events Source Analysis, verify that the Scout can explain dual source comparison and demonstrate counselor discussion: Present a balanced analysis of both perspectives during your counselor conference."
       },
       "quiz_item": {
         "scenario_prompt": "What is the main goal of your reading selections when researching topics for Requirement 5?",
@@ -2193,7 +2180,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow Youth Protection Guidelines by maintaining two-deep adult leadership during all volunteer activities.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2268,11 +2255,7 @@
         "Step 3 - Four Hour Execution: Complete four dedicated service hours while maintaining a detailed activity time log.",
         "Step 4 - Reflection Discussion: Review service outcomes, challenges, and personal insights with your merit badge counselor."
       ],
-      "gear_checklist": [
-        "Official Reading Merit Badge Pamphlet: Your Counselor's and Parent.",
-        "Field notebook, verification log sheet, and demonstration materials for Your Counselor's and Parent.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 6a: Reading to Homebound Individuals",
         "right_header": "Req 6c: Youth Storytelling and Reading",
@@ -2297,22 +2280,22 @@
           },
           {
             "attribute": "Active Community Service",
-            "left": "Req 6a: Reading to Homebound: Reading aloud to hospital patients or homebound individuals requires clear vocal modulation, patience, and empathetic engagement. Volunteers adjust their reading pace to match listener comfort and preferences.",
-            "right": "Req 6b: Library Facility Volunteer: Volunteering in school or public libraries involves shelving returned materials, repairing torn bindings, and preparing seasonal book displays. These operational tasks support staff and keep collections organized for patrons."
+            "left": "Active Community Service: Service expands equitable access to reading materials for underserved community members.",
+            "right": "Service Reflection Conference: Discussing volunteer impact with the counselor solidifies leadership and citizenship values."
           }
         ]
       },
       "worked_example": {
-        "title": "Reading Req 6 Exemplar Workbook Entry: Community Service",
+        "title": "Reading Req 6 Worked Example: Community Literacy Volunteer Service",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Reading to Homebound": "Reading aloud to hospital patients or homebound individuals requires clear vocal modulation, patience, and empathetic engagement. Volunteers adjust their reading pace to match listener comfort and preferences.",
-          "Req 6b - Library Facility Volunteer": "Volunteering in school or public libraries involves shelving returned materials, repairing torn bindings, and preparing seasonal book displays. These operational tasks support staff and keep collections organized for patrons.",
-          "Req 6c - Youth Storytelling": "Sharing books with younger children stimulates early childhood language acquisition and builds lifelong reading enthusiasm. Readers use expressive character voices and interactive open-ended questions to maintain youthful attention.",
-          "Req 6d - Community Book Swap": "Organizing a book exchange allows participants to trade finished titles for fresh reading material at zero cost. Organizers establish genre sorting tables, trade guidelines, and collection schedules."
+          "Phase 1 - Service Option Selection": "Select one literacy service pathway aligned with community needs and talents.",
+          "Phase 2 - Activity Approval Coordination": "Secure counselor permission and coordinate service logistics with host site coordinators.",
+          "Phase 3 - Four Hour Execution": "Complete four dedicated service hours while maintaining a detailed activity time log.",
+          "Phase 4 - Reflection Discussion": "Review service outcomes, challenges, and personal insights with your merit badge counselor."
         },
-        "sample_output": "Community Service Through Literacy: Reading aloud is a different skill from reading to yourself (p. 43).",
-        "counselor_tip": "For Reading Requirement 6 (Community Service Through Literacy), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45))."
+        "sample_output": "Devoting four hours to literacy service reinforces the Scout Oath of helping other people at all times. Service activities like library volunteering, oral reading, or book drives expand community access to literature.",
+        "counselor_tip": "During the Reading Requirement 6 conference on Community Literacy Volunteer Service, verify that the Scout can explain four hour commitment and demonstrate reflection discussion: Review service outcomes, challenges, and personal insights with your merit badge counselor."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Reading merit badge pamphlet, what adjustment must you make when reading aloud so that you do not lose your audience?",
@@ -2395,7 +2378,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Verify workplace ergonomics and lighting standards when setting up professional reading workstations.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)",
       "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2465,47 +2448,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Fulfilling Literature Focused",
-        "right_header": "Req 7: Pursue Lifelong Research Roles",
+        "left_header": "Reading Related Career Exploration: Core Principles",
+        "right_header": "Reading Related Career Exploration: Field Execution",
         "left_points": [
-          "Fulfilling Literature Focused Careers: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting (p. 12).",
-          "Analysis and Communication Skills: Such careers often involve skills like analysis, communication, and creative thinking (p. 12).",
-          "Lifelong Learning and Research: Many reading-focused roles allow individuals to immerse themselves in stories, ideas, or academic research, making them ideal for lifelong learners (p. 12)."
+          "Career Pathway Identification: Professional fields like publishing, law, and education rely heavily upon reading mastery.",
+          "Educational Prerequisite Analysis: Career preparation requires degrees, state certifications, and structured practical internship experiences."
         ],
         "right_points": [
-          "Pursue Lifelong Research Roles: Many reading-focused roles allow individuals to immerse themselves in stories, ideas, or academic research, making them ideal for lifelong learners (p. 12).",
-          "Manage Library Resource Collections: Examples of careers in this realm include librarians, who manage collections of books and digital resources while guiding others in their reading (p. 12).",
-          "Refine Content as an Editor: Editors and proofreaders are another path; they play a critical role in refining written content for publication (p. 12)."
+          "Economic Outlook Research: Labor statistics provide starting compensation figures and long range industry growth forecasts.",
+          "Professional Counselor Presentation: Sharing structured vocational research with the counselor clarifies future educational goals."
         ],
         "rows": [
           {
             "attribute": "Career Pathway Identification",
-            "left": "Fulfilling Literature Focused Careers: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting (p. 12).",
-            "right": "Pursue Lifelong Research Roles: Many reading-focused roles allow individuals to immerse themselves in stories, ideas, or academic research, making them ideal for lifelong learners (p. 12)."
+            "left": "Career Pathway Identification: Professional fields like publishing, law, and education rely heavily upon reading mastery.",
+            "right": "Economic Outlook Research: Labor statistics provide starting compensation figures and long range industry growth forecasts."
           },
           {
             "attribute": "Educational Prerequisite Analysis",
-            "left": "Analysis and Communication Skills: Such careers often involve skills like analysis, communication, and creative thinking (p. 12).",
-            "right": "Manage Library Resource Collections: Examples of careers in this realm include librarians, who manage collections of books and digital resources while guiding others in their reading (p. 12)."
+            "left": "Educational Prerequisite Analysis: Career preparation requires degrees, state certifications, and structured practical internship experiences.",
+            "right": "Professional Counselor Presentation: Sharing structured vocational research with the counselor clarifies future educational goals."
           },
           {
             "attribute": "Economic Outlook Research",
-            "left": "Lifelong Learning and Research: Many reading-focused roles allow individuals to immerse themselves in stories, ideas, or academic research, making them ideal for lifelong learners (p. 12).",
-            "right": "Refine Content as an Editor: Editors and proofreaders are another path; they play a critical role in refining written content for publication (p. 12)."
+            "left": "Economic Outlook Research: Labor statistics provide starting compensation figures and long range industry growth forecasts.",
+            "right": "Professional Counselor Presentation: Sharing structured vocational research with the counselor clarifies future educational goals."
           }
         ]
       },
       "worked_example": {
-        "title": "Reading Req 7 Exemplar Workbook Entry: Careers",
+        "title": "Reading Req 7 Worked Example: Reading Related Career Exploration",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Fulfilling Literature Focused Careers": "Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting (p. 12).",
-          "Analysis and Communication Skills": "Such careers often involve skills like analysis, communication, and creative thinking (p. 12).",
-          "Lifelong Learning and Research": "Many reading-focused roles allow individuals to immerse themselves in stories, ideas, or academic research, making them ideal for lifelong learners (p. 12).",
-          "Librarian Collection Management Roles": "Examples of careers in this realm include librarians, who manage collections of books and digital resources while guiding others in their reading (p. 12)."
+          "Phase 1 - Three Vocation Identification": "Identify three distinct professions that rely fundamentally on analytical reading abilities.",
+          "Phase 2 - Primary Career Selection": "Choose one specific vocation for detailed investigation using official labor databases.",
+          "Phase 3 - Training and Cost Compilation": "Record degree requirements, certification exams, estimated tuition expenses, and entry salaries.",
+          "Phase 4 - Labor Market Counselor Briefing": "Discuss employment growth projections and career longevity prospects with your counselor."
         },
-        "sample_output": "Careers in Reading and Literature: Careers that center around reading can be incredibly fulfilling for those who have apassion for books, literature, or gathering and interpreting (p. 12).",
-        "counselor_tip": "For Reading Requirement 7 (Careers in Reading and Literature), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reading Merit Badge Pamphlet (p. 12, p. 46))."
+        "sample_output": "Professions in publishing, legal research, library science, and technical editing depend entirely upon advanced reading and analytical literacy. Thoroughly researching educational prerequisites, entry costs, and employment projections prepares Scouts for realistic career pathways.",
+        "counselor_tip": "During the Reading Requirement 7 conference on Reading Related Career Exploration, verify that the Scout can explain career pathway identification and demonstrate labor market counselor briefing: Discuss employment growth projections and career longevity prospects with your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "In the publishing industry, which professionals specialize in refining and polishing written content before it is published?",

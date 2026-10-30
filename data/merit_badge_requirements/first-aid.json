@@ -727,47 +727,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Emergency Assessment and Scene",
-        "right_header": "Req 1d: Airway Management and Breathing",
+        "left_header": "Req 1a: Emergency Scene Safety and Assessment",
+        "right_header": "Req 1d: Airway and Breathing Management",
         "left_points": [
-          "(1a) Emergency Assessment and Scene Safety: Assessing an emergency begins with scanning for continuing physical threats to rescuers and bystanders. Once the area is secure, the responder systematically assesses patient consciousness, breathing, and circulatory integrity.",
-          "(1b) Emergency Medical Assistance Acquisition: Urban homes rely on wireline or cellular nine one one dispatchers who receive immediate location data. Backcountry expeditions require satellite communication messengers or written notes carried by paired runners.",
-          "(1c) Infection Control and Waste Disposal: Standard precautions require personal protective equipment including medical gloves and pocket masks for all fluid contact. Contaminated dressings and personal protective equipment must be sealed in marked hazardous waste containers."
+          "(1a) Emergency Scene Safety and Assessment: Assessing an emergency begins with scanning for continuing physical threats to rescuers and bystanders. Once the area is secure, the responder systematically assesses patient consciousness, breathing, and circulatory integrity.",
+          "(1b) Calling Help from Any Location: Urban homes rely on wireline or cellular nine one one dispatchers who receive immediate location data. Backcountry expeditions require satellite communication messengers or written notes carried by paired runners."
         ],
         "right_points": [
-          "(1d) Airway Management and Breathing Assessment: Airway evaluation involves opening the oral passage using appropriate maneuvers based on mechanism of injury. Management includes clearing obstructions and observing chest movement to confirm adequate tidal volume.",
-          "(1e) Systematic Victim Physical Examination: The physical examination follows the primary survey to identify non-life-threatening lacerations, fractures, and contusions. Responders examine anatomical regions sequentially while noting pain, deformities, swelling, and circulatory status.",
-          "(1f) Circulatory Shock Pathophysiology: Shock represents circulatory collapse where tissues and vital organs receive inadequate oxygenated blood flow. Without immediate intervention, cellular starvation triggers irreversible multi-system organ failure and sudden cardiac death."
+          "(1d) Airway and Breathing Management: Airway evaluation involves opening the oral passage using appropriate maneuvers based on mechanism of injury. Management includes clearing obstructions and observing chest movement to confirm adequate tidal volume.",
+          "(1e) Thorough Head to Toe Examination: The physical examination follows the primary survey to identify non-life-threatening lacerations, fractures, and contusions. Responders examine anatomical regions sequentially while noting pain, deformities, swelling, and circulatory status."
         ],
         "rows": [
           {
             "attribute": "Scene Safety Check",
-            "left": "(1a) Emergency Assessment and Scene Safety: Assessing an emergency begins with scanning for continuing physical threats to rescuers and bystanders. Once the area is secure, the responder systematically assesses patient consciousness, breathing, and circulatory integrity.",
-            "right": "(1d) Airway Management and Breathing Assessment: Airway evaluation involves opening the oral passage using appropriate maneuvers based on mechanism of injury. Management includes clearing obstructions and observing chest movement to confirm adequate tidal volume."
+            "left": "(1a) Emergency Scene Safety and Assessment: Assessing an emergency begins with scanning for continuing physical threats to rescuers and bystanders. Once the area is secure, the responder systematically assesses patient consciousness, breathing, and circulatory integrity.",
+            "right": "(1d) Airway and Breathing Management: Airway evaluation involves opening the oral passage using appropriate maneuvers based on mechanism of injury. Management includes clearing obstructions and observing chest movement to confirm adequate tidal volume."
           },
           {
             "attribute": "Primary Patient Assessment",
-            "left": "(1b) Emergency Medical Assistance Acquisition: Urban homes rely on wireline or cellular nine one one dispatchers who receive immediate location data. Backcountry expeditions require satellite communication messengers or written notes carried by paired runners.",
-            "right": "(1e) Systematic Victim Physical Examination: The physical examination follows the primary survey to identify non-life-threatening lacerations, fractures, and contusions. Responders examine anatomical regions sequentially while noting pain, deformities, swelling, and circulatory status."
+            "left": "(1b) Calling Help from Any Location: Urban homes rely on wireline or cellular nine one one dispatchers who receive immediate location data. Backcountry expeditions require satellite communication messengers or written notes carried by paired runners.",
+            "right": "(1e) Thorough Head to Toe Examination: The physical examination follows the primary survey to identify non-life-threatening lacerations, fractures, and contusions. Responders examine anatomical regions sequentially while noting pain, deformities, swelling, and circulatory status."
           },
           {
             "attribute": "Emergency Notification Protocol",
-            "left": "(1c) Infection Control and Waste Disposal: Standard precautions require personal protective equipment including medical gloves and pocket masks for all fluid contact. Contaminated dressings and personal protective equipment must be sealed in marked hazardous waste containers.",
-            "right": "(1f) Circulatory Shock Pathophysiology: Shock represents circulatory collapse where tissues and vital organs receive inadequate oxygenated blood flow. Without immediate intervention, cellular starvation triggers irreversible multi-system organ failure and sudden cardiac death."
+            "left": "Emergency Notification Protocol: Dispatch specific bystanders with clear instructions to dial emergency dispatch and obtain defibrillators.",
+            "right": "Protective Barrier Standard: Put on nonlatex gloves and eye protection before initiating contact with body fluids."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 1 Exemplar Workbook Entry: Scene",
+        "title": "First Aid Req 1 Worked Example: Emergency Assessment and Handling Protocols",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 1a - Emergency Assessment": "Assessing an emergency begins with scanning for continuing physical threats to rescuers and bystanders. Once the area is secure, the responder systematically assesses patient consciousness, breathing, and circulatory integrity.",
-          "Req 1b - Emergency Medical Assistance": "Urban homes rely on wireline or cellular nine one one dispatchers who receive immediate location data. Backcountry expeditions require satellite communication messengers or written notes carried by paired runners.",
-          "Req 1c - Infection Control and Waste": "Standard precautions require personal protective equipment including medical gloves and pocket masks for all fluid contact. Contaminated dressings and personal protective equipment must be sealed in marked hazardous waste containers.",
-          "Req 1d - Airway Management": "Airway evaluation involves opening the oral passage using appropriate maneuvers based on mechanism of injury. Management includes clearing obstructions and observing chest movement to confirm adequate tidal volume."
+          "Phase 1 - Scene Evaluation": "Survey the surrounding environment to identify fire downed wires or toxic chemical hazards.",
+          "Phase 2 - Responsiveness Check": "Tap the victim shoulders firmly while asking loud questions to evaluate neurological responsiveness.",
+          "Phase 3 - Emergency Activation": "Direct a designated bystander to contact nine one one and fetch an automated defibrillator.",
+          "Phase 4 - Primary Survey": "Open the airway to verify normal chest rise and check for life-threatening bleeding."
         },
-        "sample_output": "Scene Assessment and Emergency Response: Do not move the victim unless you absolutely have to for safety reasons (p. 19).",
-        "counselor_tip": "For First Aid Requirement 1 (Scene Assessment and Emergency Response), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21))."
+        "sample_output": "Emergency management begins with a systematic survey to protect responders while securing the immediate scene. Rescuers next perform a rapid primary assessment prioritizing airway, breathing, circulation, and definitive medical evacuation.",
+        "counselor_tip": "During the First Aid Requirement 1 conference on Emergency Assessment and Handling Protocols, verify that the Scout can explain scene safety check and demonstrate primary survey: Open the airway to verify normal chest rise and check for life-threatening bleeding."
       },
       "quiz_item": {
         "scenario_prompt": "During a woodland trail hike, your patrol discovers an adult hiker lying at the base of a wet rock ledge with bright red blood spurting from a lower-leg wound and a downed power line 25 feet uphill. What is your patrol's immediate first-aid sequence?",
@@ -1245,41 +1243,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Medical Records and Health",
-        "right_header": "Req 2b: Personal First Aid Kit Assembly",
+        "left_header": "Req 2a: Scout Annual Health Record",
+        "right_header": "Req 2b: Personal and Patrol Aid Kits",
         "left_points": [
-          "(2a) Medical Records and Health History: The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites."
+          "(2a) Scout Annual Health Record: The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites.",
+          "Medical Form Documentation: Review participant health records to identify severe allergies chronic illnesses and current medications."
         ],
         "right_points": [
-          "(2b) Personal First Aid Kit Assembly: A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions."
+          "(2b) Personal and Patrol Aid Kits: A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions.",
+          "Backcountry Kit Packing: Assemble sterile gauze adhesive tape moleskin and antiseptic wipes inside waterproof storage bags."
         ],
         "rows": [
           {
             "attribute": "Medical Form Documentation",
-            "left": "(2a) Medical Records and Health History: The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites.",
-            "right": "(2b) Personal First Aid Kit Assembly: A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions."
+            "left": "(2a) Scout Annual Health Record: The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites.",
+            "right": "(2b) Personal and Patrol Aid Kits: A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions."
           },
           {
             "attribute": "Tetanus Immunization Currency",
-            "left": "Req 2a: Scout Annual Health Record: The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites.",
-            "right": "Req 2b: Personal and Patrol Aid Kits: A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions."
+            "left": "Medical Form Documentation: Review participant health records to identify severe allergies chronic illnesses and current medications.",
+            "right": "Backcountry Kit Packing: Assemble sterile gauze adhesive tape moleskin and antiseptic wipes inside waterproof storage bags."
           },
           {
             "attribute": "Backcountry Kit Packing",
-            "left": "Medical Form Documentation: Review participant health records to identify severe allergies chronic illnesses and current medications.",
-            "right": "Tetanus Immunization Currency: Verify that tetanus vaccination boosters were administered within the previous ten calendar years."
+            "left": "Backcountry Kit Packing: Assemble sterile gauze adhesive tape moleskin and antiseptic wipes inside waterproof storage bags.",
+            "right": "Supply Inspection Frequency: Inspect medical kit components prior to each outing to replace expired sterile items."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 2 Exemplar Workbook Entry: Health Records",
+        "title": "First Aid Req 2 Worked Example: Emergency Preparedness and Medical Records",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Medical Records and Health": "The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites.",
-          "Req 2b - Personal First Aid Kit": "A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions."
+          "Phase 1 - Health Form Review": "Review medical records for preexisting medical conditions severe allergies and current prescription medications.",
+          "Phase 2 - Kit Component Inspection": "Inspect the hiking first aid kit to verify sterile seals and check expiration dates.",
+          "Phase 3 - Equipment Packing": "Pack essential dressings cohesive bandages antiseptic wipes and blister treatments in waterproof bags.",
+          "Phase 4 - Kit Storage": "Store the completed medical kit in an easily accessible top pocket of your backpack."
         },
-        "sample_output": "Health Records and First Aid Kits: Check the victim for a medical ID bracelet, necklace, or information card (p. 93).",
-        "counselor_tip": "For First Aid Requirement 2 (Health Records and First Aid Kits), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101))."
+        "sample_output": "The Annual Health and Medical Record documents vital baseline conditions, tetanus immunization currency, and prescription drug schedules. Comprehensive medical kits must be stocked with sterile supplies tailored to backcountry environmental risks.",
+        "counselor_tip": "During the First Aid Requirement 2 conference on Emergency Preparedness and Medical Records, verify that the Scout can explain medical form documentation and demonstrate kit storage: Store the completed medical kit in an easily accessible top pocket of your backpack."
       },
       "quiz_item": {
         "scenario_prompt": "Why must a Scout who carries a prescribed emergency medical kit keep it with them on the trail rather than stored back at base camp?",
@@ -2944,47 +2946,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Contusion and Hematoma",
-        "right_header": "Req 3i: Friction Blister Prevention",
+        "left_header": "Req 3a: Bruises and Closed Hematomas",
+        "right_header": "Req 3i: Blisters on Hands, Feet, and Shoulders",
         "left_points": [
-          "(3a) Contusion and Hematoma Management: Contusions and hematomas result from blunt impact damaging capillaries while the overlying epidermis remains intact. Cold compresses applied for twenty minutes limit subcutaneous swelling and reduce localized pain.",
-          "(3b) Thermal Burn Severity Care: Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings.",
-          "(3c) Chemical Exposure Decontamination: Chemical burns require immediate dry powder removal followed by continuous irrigation with water for twenty minutes. Responders remove contaminated clothing during flushing to prevent prolonged caustic contact with underlying tissues."
+          "(3a) Bruises and Closed Hematomas: Contusions and hematomas result from blunt impact damaging capillaries while the overlying epidermis remains intact. Cold compresses applied for twenty minutes limit subcutaneous swelling and reduce localized pain.",
+          "(3b) Thermal Burns and Scalds: Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings."
         ],
         "right_points": [
-          "(3i) Friction Blister Prevention Management: Blisters develop when repetitive mechanical shear separates skin layers, filling the space with sterile fluid. Prevention relies on friction-reducing tape, while care involves donut-shaped moleskin padding to relieve direct pressure.",
-          "(3j) Puncture Wound First Aid: Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation.",
-          "(3k) Toxic Plant Dermatitis Treatment: Urushiol resin binds to skin proteins within minutes, triggering delayed hypersensitivity allergic contact dermatitis. Washing skin with soap within twenty minutes removes unbound oil, while calamine lotion relieves itching."
+          "(3i) Blisters on Hands, Feet, and Shoulders: Blisters develop when repetitive mechanical shear separates skin layers, filling the space with sterile fluid. Prevention relies on friction-reducing tape, while care involves donut-shaped moleskin padding to relieve direct pressure.",
+          "(3j) Splinters and Fishhook Punctures: Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation."
         ],
         "rows": [
           {
             "attribute": "Contusion Cold Therapy",
-            "left": "(3a) Contusion and Hematoma Management: Contusions and hematomas result from blunt impact damaging capillaries while the overlying epidermis remains intact. Cold compresses applied for twenty minutes limit subcutaneous swelling and reduce localized pain.",
-            "right": "(3i) Friction Blister Prevention Management: Blisters develop when repetitive mechanical shear separates skin layers, filling the space with sterile fluid. Prevention relies on friction-reducing tape, while care involves donut-shaped moleskin padding to relieve direct pressure."
+            "left": "(3a) Bruises and Closed Hematomas: Contusions and hematomas result from blunt impact damaging capillaries while the overlying epidermis remains intact. Cold compresses applied for twenty minutes limit subcutaneous swelling and reduce localized pain.",
+            "right": "(3i) Blisters on Hands, Feet, and Shoulders: Blisters develop when repetitive mechanical shear separates skin layers, filling the space with sterile fluid. Prevention relies on friction-reducing tape, while care involves donut-shaped moleskin padding to relieve direct pressure."
           },
           {
             "attribute": "Thermal Scald Cooling",
-            "left": "(3b) Thermal Burn Severity Care: Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings.",
-            "right": "(3j) Puncture Wound First Aid: Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation."
+            "left": "(3b) Thermal Burns and Scalds: Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings.",
+            "right": "(3j) Splinters and Fishhook Punctures: Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation."
           },
           {
             "attribute": "Chemical Irrigation Protocol",
-            "left": "(3c) Chemical Exposure Decontamination: Chemical burns require immediate dry powder removal followed by continuous irrigation with water for twenty minutes. Responders remove contaminated clothing during flushing to prevent prolonged caustic contact with underlying tissues.",
-            "right": "(3k) Toxic Plant Dermatitis Treatment: Urushiol resin binds to skin proteins within minutes, triggering delayed hypersensitivity allergic contact dermatitis. Washing skin with soap within twenty minutes removes unbound oil, while calamine lotion relieves itching."
+            "left": "Chemical Irrigation Protocol: Brush away dry powders completely before flushing contaminated skin with copious clean water.",
+            "right": "Tick Removal Technique: Grasp attached ticks against the skin with fine tweezers and pull steadily backward."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 3 Exemplar Workbook Entry: Treating Closed",
+        "title": "First Aid Req 3 Worked Example: Closed Wounds and Environmental Injuries",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Contusion and Hematoma": "Contusions and hematomas result from blunt impact damaging capillaries while the overlying epidermis remains intact. Cold compresses applied for twenty minutes limit subcutaneous swelling and reduce localized pain.",
-          "Req 3b - Thermal Burn Severity Care": "Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings.",
-          "Req 3c - Chemical Exposure": "Chemical burns require immediate dry powder removal followed by continuous irrigation with water for twenty minutes. Responders remove contaminated clothing during flushing to prevent prolonged caustic contact with underlying tissues.",
-          "Req 3d - Electrical Burn Emergency": "Electrical currents cause internal tissue damage along conduction pathways and can disrupt normal cardiac rhythm. Responders must verify power de-energization before approaching, then evaluate for cardiac arrest and dual burn wounds."
+          "Phase 1 - Source Removal": "Remove the victim from the heat source chemical agent or environmental cold immediately.",
+          "Phase 2 - Wound Cooling": "Cool thermal burns with clean running water or apply cold packs to closed contusions.",
+          "Phase 3 - Protective Dressing": "Cover the damaged skin surface with a clean dry nonstick sterile dressing loosely.",
+          "Phase 4 - Medical Escalation": "Monitor systemic vital signs and transport the patient to professional clinical care promptly."
         },
-        "sample_output": "Treating Closed Wounds and Burns: The bites of mosquitoes, chiggers, and nosee-ums are irritating but not usually dangerous (p. 14).",
-        "counselor_tip": "For First Aid Requirement 3 (Treating Closed Wounds and Burns), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82))."
+        "sample_output": "Closed wounds require cold application and compression to limit subcutaneous bleeding without causing tissue frostbite. Burns and environmental dermal injuries require immediate thermal cessation, flushing, and protective dry dressings.",
+        "counselor_tip": "During the First Aid Requirement 3 conference on Closed Wounds and Environmental Injuries, verify that the Scout can explain contusion cold therapy and demonstrate medical escalation: Monitor systemic vital signs and transport the patient to professional clinical care promptly."
       },
       "quiz_item": {
         "scenario_prompt": "How should you remove an embedded tick found during a daily trail inspection?",
@@ -3460,45 +3460,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Epistaxis and Nosebleed",
-        "right_header": "Req 4c: Severe Hemorrhage Pressure",
+        "left_header": "Req 4a: Managing Acute Nosebleeds",
+        "right_header": "Req 4c: Severe Arterial and Venous Bleeding",
         "left_points": [
-          "(4a) Epistaxis and Nosebleed Management: Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.",
-          "(4b) Minor Laceration and Abrasion Care: Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing."
+          "(4a) Managing Acute Nosebleeds: Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.",
+          "(4b) Mild Cuts and Abrasions: Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing."
         ],
         "right_points": [
-          "(4c) Severe Hemorrhage Pressure Hemostasis: Deep extremity lacerations can sever major arteries and veins, producing life-threatening rapid blood volume loss. Responders maintain uninterrupted direct pressure with sterile dressings and prepare for immediate tourniquet application.",
-          "(4d) Tourniquet Application and Indications: A commercial tourniquet is indicated when direct pressure cannot control catastrophic limb hemorrhage. Responders tighten the windlass until bleeding stops, write the time on the device, and maintain continuous monitoring."
+          "(4c) Severe Arterial and Venous Bleeding: Deep extremity lacerations can sever major arteries and veins, producing life-threatening rapid blood volume loss. Responders maintain uninterrupted direct pressure with sterile dressings and prepare for immediate tourniquet application.",
+          "(4d) Appropriate Tourniquet Application: A commercial tourniquet is indicated when direct pressure cannot control catastrophic limb hemorrhage. Responders tighten the windlass until bleeding stops, write the time on the device, and maintain continuous monitoring."
         ],
         "rows": [
           {
             "attribute": "Direct Wound Compression",
-            "left": "(4a) Epistaxis and Nosebleed Management: Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.",
-            "right": "(4c) Severe Hemorrhage Pressure Hemostasis: Deep extremity lacerations can sever major arteries and veins, producing life-threatening rapid blood volume loss. Responders maintain uninterrupted direct pressure with sterile dressings and prepare for immediate tourniquet application."
+            "left": "(4a) Managing Acute Nosebleeds: Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.",
+            "right": "(4c) Severe Arterial and Venous Bleeding: Deep extremity lacerations can sever major arteries and veins, producing life-threatening rapid blood volume loss. Responders maintain uninterrupted direct pressure with sterile dressings and prepare for immediate tourniquet application."
           },
           {
             "attribute": "Anterior Epistaxis Care",
-            "left": "(4b) Minor Laceration and Abrasion Care: Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing.",
-            "right": "(4d) Tourniquet Application and Indications: A commercial tourniquet is indicated when direct pressure cannot control catastrophic limb hemorrhage. Responders tighten the windlass until bleeding stops, write the time on the device, and maintain continuous monitoring."
+            "left": "(4b) Mild Cuts and Abrasions: Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing.",
+            "right": "(4d) Appropriate Tourniquet Application: A commercial tourniquet is indicated when direct pressure cannot control catastrophic limb hemorrhage. Responders tighten the windlass until bleeding stops, write the time on the device, and maintain continuous monitoring."
           },
           {
             "attribute": "Tourniquet Placement Standard",
-            "left": "Req 4a: Managing Acute Nosebleeds: Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.",
-            "right": "Req 4b: Mild Cuts and Abrasions: Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing."
+            "left": "Tourniquet Placement Standard: Place commercial windlass tourniquets two inches above severe limb bleeding if pressure fails.",
+            "right": "Tourniquet Time Documentation: Write the exact time of tourniquet application directly on the white security band."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 4 Exemplar Workbook Entry: Controlling",
+        "title": "First Aid Req 4 Worked Example: Hemorrhage Control and Bleeding Wounds",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Epistaxis and Nosebleed": "Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.",
-          "Req 4b - Minor Laceration and Abrasion": "Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing.",
-          "Req 4c - Severe Hemorrhage Pressure": "Deep extremity lacerations can sever major arteries and veins, producing life-threatening rapid blood volume loss. Responders maintain uninterrupted direct pressure with sterile dressings and prepare for immediate tourniquet application.",
-          "Req 4d - Tourniquet Application": "A commercial tourniquet is indicated when direct pressure cannot control catastrophic limb hemorrhage. Responders tighten the windlass until bleeding stops, write the time on the device, and maintain continuous monitoring."
+          "Phase 1 - Barrier Protection": "Put on medical examination gloves before initiating contact with any active bleeding site.",
+          "Phase 2 - Direct Pressure": "Apply firm continuous pressure directly over the wound using sterile gauze pads.",
+          "Phase 3 - Pressure Bandage": "Wrap an elastic or roller bandage snugly around the dressing to maintain compression.",
+          "Phase 4 - Tourniquet Placement": "Apply a commercial tourniquet two inches above severe bleeding if pressure dressings fail."
         },
-        "sample_output": "Controlling Mild and Severe Bleeding: An abrasion is a wound that occurs as a result of the outer layers of the skin being rubbed or scraped (p. 37).",
-        "counselor_tip": "For First Aid Requirement 4 (Controlling Mild and Severe Bleeding), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40))."
+        "sample_output": "Direct pressure applied over a sterile dressing remains the primary intervention for minor and moderate hemorrhage. Arterial bleeding from extremities that fails to stop with pressure requires rapid commercial windlass tourniquet placement.",
+        "counselor_tip": "During the First Aid Requirement 4 conference on Hemorrhage Control and Bleeding Wounds, verify that the Scout can explain direct wound compression and demonstrate tourniquet placement: Apply a commercial tourniquet two inches above severe bleeding if pressure dressings fail."
       },
       "quiz_item": {
         "scenario_prompt": "What is the proper first aid procedure for treating a typical nosebleed?",
@@ -4080,45 +4080,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Foreign Body Airway Obstruction",
-        "right_header": "Req 5c: Systemic Anaphylactic Shock",
+        "left_header": "Req 5a: Airway Obstruction and Choking",
+        "right_header": "Req 5c: Life Threatening Anaphylaxis",
         "left_points": [
-          "(5a) Foreign Body Airway Obstruction: Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.",
-          "(5b) Acute Asthma Bronchospasm Care: Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance."
+          "(5a) Airway Obstruction and Choking: Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.",
+          "(5b) Acute Asthma Attacks: Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance."
         ],
         "right_points": [
-          "(5c) Systemic Anaphylactic Shock Management: Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh.",
-          "(5d) Toxic Inhalation Respiratory Injury: Inhalation of hot smoke, carbon monoxide, or toxic chemical vapors causes airway burns and hypoxia. Responders remove the patient to fresh air without endangering themselves and monitor respiratory stability closely."
+          "(5c) Life Threatening Anaphylaxis: Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh.",
+          "(5d) Smoke and Fume Inhalation: Inhalation of hot smoke, carbon monoxide, or toxic chemical vapors causes airway burns and hypoxia. Responders remove the patient to fresh air without endangering themselves and monitor respiratory stability closely."
         ],
         "rows": [
           {
             "attribute": "Foreign Body Relief",
-            "left": "(5a) Foreign Body Airway Obstruction: Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.",
-            "right": "(5c) Systemic Anaphylactic Shock Management: Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh."
+            "left": "(5a) Airway Obstruction and Choking: Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.",
+            "right": "(5c) Life Threatening Anaphylaxis: Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh."
           },
           {
             "attribute": "Bronchospasm Rescue Therapy",
-            "left": "(5b) Acute Asthma Bronchospasm Care: Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance.",
-            "right": "(5d) Toxic Inhalation Respiratory Injury: Inhalation of hot smoke, carbon monoxide, or toxic chemical vapors causes airway burns and hypoxia. Responders remove the patient to fresh air without endangering themselves and monitor respiratory stability closely."
+            "left": "(5b) Acute Asthma Attacks: Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance.",
+            "right": "(5d) Smoke and Fume Inhalation: Inhalation of hot smoke, carbon monoxide, or toxic chemical vapors causes airway burns and hypoxia. Responders remove the patient to fresh air without endangering themselves and monitor respiratory stability closely."
           },
           {
-            "attribute": "Anaphylaxis Epinephrine",
-            "left": "Req 5a: Airway Obstruction: Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.",
-            "right": "Req 5b: Acute Asthma Attacks: Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance."
+            "attribute": "Anaphylaxis Epinephrine Administration",
+            "left": "Anaphylaxis Epinephrine Administration: Inject epinephrine into the outer thigh immediately when systemic allergic airway compromise occurs.",
+            "right": "Altitude Sickness Management: Descend to lower elevations immediately whenever acute mountain sickness symptoms worsen along trails."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 5 Exemplar Workbook Entry: Recognizing",
+        "title": "First Aid Req 5 Worked Example: Respiratory Emergencies and Airway Clearance",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Foreign Body Airway": "Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.",
-          "Req 5b - Acute Asthma Bronchospasm": "Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance.",
-          "Req 5c - Systemic Anaphylactic Shock": "Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh.",
-          "Req 5d - Toxic Inhalation Respiratory": "Inhalation of hot smoke, carbon monoxide, or toxic chemical vapors causes airway burns and hypoxia. Responders remove the patient to fresh air without endangering themselves and monitor respiratory stability closely."
+          "Phase 1 - Obstruction Verification": "Ask the choking victim if they can speak cough or breathe before intervening.",
+          "Phase 2 - Physical Maneuvers": "Deliver five back blows followed by five inward upward abdominal thrusts repeatedly.",
+          "Phase 3 - Medication Assistance": "Help an asthmatic patient locate and inhale their prescribed rescue bronchodilator medicine.",
+          "Phase 4 - Epinephrine Administration": "Inject an epinephrine auto-injector into the anterolateral thigh for signs of anaphylaxis."
         },
-        "sample_output": "Recognizing and Treating Breathing Emergencies: Rewarm the area only if there is no chance of refreezing (p. 61).",
-        "counselor_tip": "For First Aid Requirement 5 (Recognizing and Treating Breathing Emergencies), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63))."
+        "sample_output": "Breathing emergencies compromise oxygen delivery through airway obstruction, bronchospasm, or alveolar gas exchange impairment. Responders must recognize respiratory distress early and provide foreign body clearing, prescribed inhalers, or epinephrine.",
+        "counselor_tip": "During the First Aid Requirement 5 conference on Respiratory Emergencies and Airway Clearance, verify that the Scout can explain foreign body relief and demonstrate epinephrine administration: Inject an epinephrine auto-injector into the anterolateral thigh for signs of anaphylaxis."
       },
       "quiz_item": {
         "scenario_prompt": "What should you do first when a conscious adult is clutching their throat, cannot speak, cough, or breathe, and nods that they are choking?",
@@ -4832,47 +4832,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Syncope and Fainting Management",
-        "right_header": "Req 6d: Substance Overdose Emergency",
+        "left_header": "Req 6a: Simple Fainting Episodes",
+        "right_header": "Req 6d: Overdose and Alcohol Poisoning",
         "left_points": [
-          "(6a) Syncope and Fainting Management: Syncope occurs when transient reduction of blood flow to the brain causes sudden, brief loss of consciousness. Responders position the patient supine, loosen constrictive clothing, and ensure normal breathing returns promptly.",
-          "(6b) Diabetic Hypoglycemic Emergency Care: Hypoglycemia develops when blood glucose drops below normal levels, causing confusion, diaphoresis, and eventual unconsciousness. Conscious patients receive oral glucose or sweet juice, while unconscious individuals require urgent nine one one dispatch.",
-          "(6c) Epileptic Seizure Supportive Care: Seizures result from abnormal electrical activity in the brain, causing sudden motor convulsions and altered awareness. First aid requires clearing nearby hazards, cushioning the head, and placing the patient in recovery position afterward."
+          "(6a) Simple Fainting Episodes: Syncope occurs when transient reduction of blood flow to the brain causes sudden, brief loss of consciousness. Responders position the patient supine, loosen constrictive clothing, and ensure normal breathing returns promptly.",
+          "(6b) Diabetic Low Blood Sugar: Hypoglycemia develops when blood glucose drops below normal levels, causing confusion, diaphoresis, and eventual unconsciousness. Conscious patients receive oral glucose or sweet juice, while unconscious individuals require urgent nine one one dispatch."
         ],
         "right_points": [
-          "(6d) Substance Overdose Emergency Response: Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise.",
-          "(6e) Hypoxic Underwater Blackout Prevention: Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing.",
-          "(6f) Cold Water Shock Drowning: Sudden immersion in cold water triggers rapid hyperventilation, cardiac strain, and early muscular incapacitation. First aid involves prompt extrication from water, removing wet clothing, gentle rewarming, and treating for near drowning."
+          "(6d) Overdose and Alcohol Poisoning: Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise.",
+          "(6e) Underwater Hypoxic Blackout: Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing."
         ],
         "rows": [
           {
             "attribute": "Recovery Position Alignment",
-            "left": "(6a) Syncope and Fainting Management: Syncope occurs when transient reduction of blood flow to the brain causes sudden, brief loss of consciousness. Responders position the patient supine, loosen constrictive clothing, and ensure normal breathing returns promptly.",
-            "right": "(6d) Substance Overdose Emergency Response: Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise."
+            "left": "(6a) Simple Fainting Episodes: Syncope occurs when transient reduction of blood flow to the brain causes sudden, brief loss of consciousness. Responders position the patient supine, loosen constrictive clothing, and ensure normal breathing returns promptly.",
+            "right": "(6d) Overdose and Alcohol Poisoning: Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise."
           },
           {
             "attribute": "Hypoglycemic Glucose Administration",
-            "left": "(6b) Diabetic Hypoglycemic Emergency Care: Hypoglycemia develops when blood glucose drops below normal levels, causing confusion, diaphoresis, and eventual unconsciousness. Conscious patients receive oral glucose or sweet juice, while unconscious individuals require urgent nine one one dispatch.",
-            "right": "(6e) Hypoxic Underwater Blackout Prevention: Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing."
+            "left": "(6b) Diabetic Low Blood Sugar: Hypoglycemia develops when blood glucose drops below normal levels, causing confusion, diaphoresis, and eventual unconsciousness. Conscious patients receive oral glucose or sweet juice, while unconscious individuals require urgent nine one one dispatch.",
+            "right": "(6e) Underwater Hypoxic Blackout: Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing."
           },
           {
             "attribute": "Seizure Environmental Protection",
-            "left": "(6c) Epileptic Seizure Supportive Care: Seizures result from abnormal electrical activity in the brain, causing sudden motor convulsions and altered awareness. First aid requires clearing nearby hazards, cushioning the head, and placing the patient in recovery position afterward.",
-            "right": "(6f) Cold Water Shock Drowning: Sudden immersion in cold water triggers rapid hyperventilation, cardiac strain, and early muscular incapacitation. First aid involves prompt extrication from water, removing wet clothing, gentle rewarming, and treating for near drowning."
+            "left": "Seizure Environmental Protection: Clear hard objects from the surrounding area and cushion the head during convulsions.",
+            "right": "Opioid Reversal Intervention: Administer intranasal naloxone promptly to restore spontaneous respiration during suspected narcotic overdose emergencies."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 6 Exemplar Workbook Entry: Responding",
+        "title": "First Aid Req 6 Worked Example: Loss of Consciousness Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Syncope and Fainting": "Syncope occurs when transient reduction of blood flow to the brain causes sudden, brief loss of consciousness. Responders position the patient supine, loosen constrictive clothing, and ensure normal breathing returns promptly.",
-          "Req 6b - Diabetic Hypoglycemic": "Hypoglycemia develops when blood glucose drops below normal levels, causing confusion, diaphoresis, and eventual unconsciousness. Conscious patients receive oral glucose or sweet juice, while unconscious individuals require urgent nine one one dispatch.",
-          "Req 6c - Epileptic Seizure Supportive": "Seizures result from abnormal electrical activity in the brain, causing sudden motor convulsions and altered awareness. First aid requires clearing nearby hazards, cushioning the head, and placing the patient in recovery position afterward.",
-          "Req 6d - Substance Overdose Emergency": "Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise."
+          "Phase 1 - Airway Verification": "Verify that the unconscious individual is breathing normally and has a clear airway.",
+          "Phase 2 - Recovery Position": "Roll an uninjured breathing victim onto their side into the stable recovery position.",
+          "Phase 3 - Environmental Protection": "Clear away hard furniture sharp rocks or hazardous objects from around seizing individuals.",
+          "Phase 4 - Emergency Notification": "Call nine one one immediately and monitor breathing until professional medical responders arrive."
         },
-        "sample_output": "Responding to Loss of Consciousness: A loss of consciousness for more than two minutes is a serious medical condition (p. 63).",
-        "counselor_tip": "For First Aid Requirement 6 (Responding to Loss of Consciousness), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72))."
+        "sample_output": "Unconsciousness stems from neurological disruptions, metabolic imbalances, intoxication, or severe environmental and electrical trauma. First aid focuses on maintaining a clear airway, protecting from secondary impact, and identifying reversible causes.",
+        "counselor_tip": "During the First Aid Requirement 6 conference on Loss of Consciousness Management, verify that the Scout can explain recovery position alignment and demonstrate emergency notification: Call nine one one immediately and monitor breathing until professional medical responders arrive."
       },
       "quiz_item": {
         "scenario_prompt": "Which action is safe and appropriate when caring for someone who has lost consciousness?",
@@ -5590,47 +5588,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Myocardial Infarction Biological",
-        "right_header": "Req 7d: Cardiopulmonary Resuscitation",
+        "left_header": "Req 7a: Understanding Coronary Heart Attacks",
+        "right_header": "Req 7d: Proper Chest Compression Technique",
         "left_points": [
-          "(7a) Myocardial Infarction Biological Mechanism: A myocardial infarction happens when atherosclerotic plaque rupture or a blood clot obstructs a coronary artery. Deprived of oxygenated blood, heart muscle cells rapidly experience ischemic damage and begin dying.",
-          "(7b) Heart Attack Symptom Recognition: Signs include crushing chest tightness radiating to the jaw, neck, back, or left arm, accompanied by sweating. First aid requires calling nine one one, keeping the patient calm, and administering chewable aspirin.",
-          "(7c) Cardiac Arrest Verification Conditions: CPR is indicated solely when an individual is completely unresponsive and exhibits absent or abnormal agonal breathing. Responders quickly verify lack of responsiveness and inadequate breathing before starting chest compressions without delay."
+          "(7a) Understanding Coronary Heart Attacks: A myocardial infarction happens when atherosclerotic plaque rupture or a blood clot obstructs a coronary artery. Deprived of oxygenated blood, heart muscle cells rapidly experience ischemic damage and begin dying.",
+          "(7b) Heart Attack Signs and Care: Signs include crushing chest tightness radiating to the jaw, neck, back, or left arm, accompanied by sweating. First aid requires calling nine one one, keeping the patient calm, and administering chewable aspirin."
         ],
         "right_points": [
-          "(7d) Cardiopulmonary Resuscitation Technique Standards: High-quality CPR maintains an adult compression depth of two to two point four inches at continuous speed. Responders perform thirty chest compressions followed by two ventilations, allowing full chest wall recoil between compressions.",
-          "(7e) Automated External Defibrillator Function: An AED analyzes heart rhythms to detect shockable ventricular fibrillation and pulseless ventricular tachycardia dysrhythmias. Defibrillation momentarily stops chaotic electrical activity, allowing the heart natural pacemaker to reestablish an organized rhythm.",
-          "(7f) AED Operational Demonstration Steps: Operating an AED involves powering the unit, attaching adhesive pads to bare skin, and following audible prompts. Responders stand clear during rhythm analysis and shock delivery, resuming chest compressions immediately after every discharge."
+          "(7d) Proper Chest Compression Technique: High-quality CPR maintains an adult compression depth of two to two point four inches at continuous speed. Responders perform thirty chest compressions followed by two ventilations, allowing full chest wall recoil between compressions.",
+          "(7e) Automated External Defibrillator Purpose: An AED analyzes heart rhythms to detect shockable ventricular fibrillation and pulseless ventricular tachycardia dysrhythmias. Defibrillation momentarily stops chaotic electrical activity, allowing the heart natural pacemaker to reestablish an organized rhythm."
         ],
         "rows": [
           {
             "attribute": "Coronary Ischemia Recognition",
-            "left": "(7a) Myocardial Infarction Biological Mechanism: A myocardial infarction happens when atherosclerotic plaque rupture or a blood clot obstructs a coronary artery. Deprived of oxygenated blood, heart muscle cells rapidly experience ischemic damage and begin dying.",
-            "right": "(7d) Cardiopulmonary Resuscitation Technique Standards: High-quality CPR maintains an adult compression depth of two to two point four inches at continuous speed. Responders perform thirty chest compressions followed by two ventilations, allowing full chest wall recoil between compressions."
+            "left": "(7a) Understanding Coronary Heart Attacks: A myocardial infarction happens when atherosclerotic plaque rupture or a blood clot obstructs a coronary artery. Deprived of oxygenated blood, heart muscle cells rapidly experience ischemic damage and begin dying.",
+            "right": "(7d) Proper Chest Compression Technique: High-quality CPR maintains an adult compression depth of two to two point four inches at continuous speed. Responders perform thirty chest compressions followed by two ventilations, allowing full chest wall recoil between compressions."
           },
           {
             "attribute": "Aspirin Antiplatelet Administration",
-            "left": "(7b) Heart Attack Symptom Recognition: Signs include crushing chest tightness radiating to the jaw, neck, back, or left arm, accompanied by sweating. First aid requires calling nine one one, keeping the patient calm, and administering chewable aspirin.",
-            "right": "(7e) Automated External Defibrillator Function: An AED analyzes heart rhythms to detect shockable ventricular fibrillation and pulseless ventricular tachycardia dysrhythmias. Defibrillation momentarily stops chaotic electrical activity, allowing the heart natural pacemaker to reestablish an organized rhythm."
+            "left": "(7b) Heart Attack Signs and Care: Signs include crushing chest tightness radiating to the jaw, neck, back, or left arm, accompanied by sweating. First aid requires calling nine one one, keeping the patient calm, and administering chewable aspirin.",
+            "right": "(7e) Automated External Defibrillator Purpose: An AED analyzes heart rhythms to detect shockable ventricular fibrillation and pulseless ventricular tachycardia dysrhythmias. Defibrillation momentarily stops chaotic electrical activity, allowing the heart natural pacemaker to reestablish an organized rhythm."
           },
           {
             "attribute": "CPR Compression Metrics",
-            "left": "(7c) Cardiac Arrest Verification Conditions: CPR is indicated solely when an individual is completely unresponsive and exhibits absent or abnormal agonal breathing. Responders quickly verify lack of responsiveness and inadequate breathing before starting chest compressions without delay.",
-            "right": "(7f) AED Operational Demonstration Steps: Operating an AED involves powering the unit, attaching adhesive pads to bare skin, and following audible prompts. Responders stand clear during rhythm analysis and shock delivery, resuming chest compressions immediately after every discharge."
+            "left": "CPR Compression Metrics: Deliver continuous chest compressions at two inches depth and one hundred beats speed.",
+            "right": "Automated Defibrillation Sequence: Attach adhesive electrode pads to bare dry skin and follow automated audible prompts."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 7 Exemplar Workbook Entry: Heart Attack",
+        "title": "First Aid Req 7 Worked Example: Myocardial Infarction and Defibrillation",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Myocardial Infarction": "A myocardial infarction happens when atherosclerotic plaque rupture or a blood clot obstructs a coronary artery. Deprived of oxygenated blood, heart muscle cells rapidly experience ischemic damage and begin dying.",
-          "Req 7b - Heart Attack Symptom": "Signs include crushing chest tightness radiating to the jaw, neck, back, or left arm, accompanied by sweating. First aid requires calling nine one one, keeping the patient calm, and administering chewable aspirin.",
-          "Req 7c - Cardiac Arrest Verification": "CPR is indicated solely when an individual is completely unresponsive and exhibits absent or abnormal agonal breathing. Responders quickly verify lack of responsiveness and inadequate breathing before starting chest compressions without delay.",
-          "Req 7d - Cardiopulmonary Resuscitation": "High-quality CPR maintains an adult compression depth of two to two point four inches at continuous speed. Responders perform thirty chest compressions followed by two ventilations, allowing full chest wall recoil between compressions."
+          "Phase 1 - Emergency Dispatch": "Recognize heart attack symptoms and immediately instruct a bystander to call nine one one.",
+          "Phase 2 - Comfort Positioning": "Place the conscious patient in a comfortable seated position leaning against a firm wall.",
+          "Phase 3 - Aspirin Administration": "Encourage the conscious non-allergic patient to chew one adult or two low-dose aspirins.",
+          "Phase 4 - AED Readiness": "Position an automated external defibrillator beside the patient in case cardiac arrest occurs."
         },
-        "sample_output": "Heart Attack, CPR, and AED: Cold- and Heat-Related Conditions and Injuries Cold- and Heat-Related Conditions and Injuries The human body works best if it has a constant temperature (p. 59).",
-        "counselor_tip": "For First Aid Requirement 7 (Heart Attack, CPR, and AED), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63))."
+        "sample_output": "A heart attack occurs when coronary artery blood flow is blocked, causing ischemic myocardial muscle damage. Recognizing symptoms such as retrosternal crushing pain, nausea, and shortness of breath allows prompt life-saving intervention.",
+        "counselor_tip": "During the First Aid Requirement 7 conference on Myocardial Infarction and Defibrillation, verify that the Scout can explain coronary ischemia recognition and demonstrate aed readiness: Position an automated external defibrillator beside the patient in case cardiac arrest occurs."
       },
       "quiz_item": {
         "scenario_prompt": "What exact conditions must exist before you begin performing CPR on a person?",
@@ -6737,45 +6733,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Musculoskeletal Injury",
-        "right_header": "Req 8c: Fracture and Dislocation",
+        "left_header": "Req 8a: Comparing Strains, Sprains, and Fractures",
+        "right_header": "Req 8c: Sprain, Fracture, and Dislocation Signs",
         "left_points": [
-          "(8a) Musculoskeletal Injury Classification Comparison: Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.",
-          "(8b) Muscle Strain and Rupture Care: Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage."
+          "(8a) Comparing Strains, Sprains, and Fractures: Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.",
+          "(8b) Muscle Strain and Tendon Care: Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage."
         ],
         "right_points": [
-          "(8c) Fracture and Dislocation Complications: Sprains, fractures, and dislocations produce acute pain, swelling, ecchymosis, and loss of normal joint function. Complications include neurovascular impingement, permanent articular cartilage degradation, chronic joint instability, and secondary tissue necrosis.",
-          "(8d) Orthopedic Bandaging and Sling Application: Arm slings support the forearm while a swathe binds the extremity against the chest to immobilize shoulder bones. Cravat bandages and figure-eight elastic wraps support sprained ankles and knees without creating arterial occlusion."
+          "(8c) Sprain, Fracture, and Dislocation Signs: Sprains, fractures, and dislocations produce acute pain, swelling, ecchymosis, and loss of normal joint function. Complications include neurovascular impingement, permanent articular cartilage degradation, chronic joint instability, and secondary tissue necrosis.",
+          "(8d) Applying Slings and Roller Bandages: Arm slings support the forearm while a swathe binds the extremity against the chest to immobilize shoulder bones. Cravat bandages and figure-eight elastic wraps support sprained ankles and knees without creating arterial occlusion."
         ],
         "rows": [
           {
-            "attribute": "Musculoskeletal Injury",
-            "left": "(8a) Musculoskeletal Injury Classification Comparison: Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.",
-            "right": "(8c) Fracture and Dislocation Complications: Sprains, fractures, and dislocations produce acute pain, swelling, ecchymosis, and loss of normal joint function. Complications include neurovascular impingement, permanent articular cartilage degradation, chronic joint instability, and secondary tissue necrosis."
+            "attribute": "Musculoskeletal Injury Differentiation",
+            "left": "(8a) Comparing Strains, Sprains, and Fractures: Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.",
+            "right": "(8c) Sprain, Fracture, and Dislocation Signs: Sprains, fractures, and dislocations produce acute pain, swelling, ecchymosis, and loss of normal joint function. Complications include neurovascular impingement, permanent articular cartilage degradation, chronic joint instability, and secondary tissue necrosis."
           },
           {
             "attribute": "Neurovascular Status Verification",
-            "left": "(8b) Muscle Strain and Rupture Care: Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage.",
-            "right": "(8d) Orthopedic Bandaging and Sling Application: Arm slings support the forearm while a swathe binds the extremity against the chest to immobilize shoulder bones. Cravat bandages and figure-eight elastic wraps support sprained ankles and knees without creating arterial occlusion."
+            "left": "(8b) Muscle Strain and Tendon Care: Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage.",
+            "right": "(8d) Applying Slings and Roller Bandages: Arm slings support the forearm while a swathe binds the extremity against the chest to immobilize shoulder bones. Cravat bandages and figure-eight elastic wraps support sprained ankles and knees without creating arterial occlusion."
           },
           {
             "attribute": "Sling Swathe Immobilization",
-            "left": "Req 8a: Comparing Strains, Sprains: Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.",
-            "right": "Req 8b: Muscle Strain and Tendon: Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage."
+            "left": "Sling Swathe Immobilization: Support the forearm with an arm sling and bind the arm against torso.",
+            "right": "Adjacent Joint Stabilization: Immobilize the joints immediately above and below a suspected long bone fracture site."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 8 Exemplar Workbook Entry: Splinting",
+        "title": "First Aid Req 8 Worked Example: Musculoskeletal Trauma and Splinting Techniques",
         "artifact_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
         "fields": {
-          "Req 8a - Musculoskeletal Injury": "Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.",
-          "Req 8b - Muscle Strain and Rupture": "Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage.",
-          "Req 8c - Fracture and Dislocation": "Sprains, fractures, and dislocations produce acute pain, swelling, ecchymosis, and loss of normal joint function. Complications include neurovascular impingement, permanent articular cartilage degradation, chronic joint instability, and secondary tissue necrosis.",
-          "Req 8d - Orthopedic Bandaging": "Arm slings support the forearm while a swathe binds the extremity against the chest to immobilize shoulder bones. Cravat bandages and figure-eight elastic wraps support sprained ankles and knees without creating arterial occlusion."
+          "Phase 1 - Neurovascular Check": "Check distal pulse capillary refill temperature and neurological sensation in the injured limb.",
+          "Phase 2 - Gentle Support": "Support the injured extremity gently in the position found without attempting bone realignment.",
+          "Phase 3 - Splint Application": "Secure a rigid or padded splint across the injury immobilizing adjacent joints securely.",
+          "Phase 4 - Bandage Monitoring": "Recheck distal pulses and finger or toe sensation to verify that bandages remain nonconstrictive."
         },
-        "sample_output": "Splinting Muscle and Bone Injuries: Open fractures can occur when the sharp bone ends penetrate the skin or when an object goes through the skin from the outside and breaks the bone (p. 45).",
-        "counselor_tip": "For First Aid Requirement 8 (Splinting Muscle and Bone Injuries), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47))."
+        "sample_output": "Musculoskeletal trauma involves stretching, tearing, or fracturing of bones, ligaments, tendons, and surrounding joint capsules. Splinting stabilizes damaged structures in the position found, immobilizing both the joint.",
+        "counselor_tip": "During the First Aid Requirement 8 conference on Musculoskeletal Trauma and Splinting Techniques, verify that the Scout can explain musculoskeletal injury differentiation and demonstrate bandage monitoring: Recheck distal pulses and finger or toe sensation to verify that bandages remain nonconstrictive."
       },
       "quiz_item": {
         "scenario_prompt": "What is the fundamental rule when splinting a suspected fracture or dislocation?",
@@ -7259,45 +7255,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 9a: Spinal Cord Injury",
-        "right_header": "Req 9c: Open Cranial Wound Bandaging",
+        "left_header": "Req 9a: Head and Spine Injury Risks",
+        "right_header": "Req 9c: Bandaging Open Head Wounds",
         "left_points": [
-          "(9a) Spinal Cord Injury Pathophysiology: Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.",
-          "(9b) Concussion Symptoms and Assessment: A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest."
+          "(9a) Head and Spine Injury Risks: Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.",
+          "(9b) Concussion Signs and First Aid: A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest."
         ],
         "right_points": [
-          "(9c) Open Cranial Wound Bandaging: Scalp lacerations bleed profusely due to high vascularity within the dense subcutaneous cranial layers. Responders apply sterile dressings secured by triangular bandages folded as broad cravats or full cranial caps.",
-          "(9d) Spinal Trauma Immobilization Management: First aid for suspected spinal injury requires holding the head and neck aligned manually in neutral position. Responders reassure the patient, instruct them to remain completely still, and summon emergency medical services."
+          "(9c) Bandaging Open Head Wounds: Scalp lacerations bleed profusely due to high vascularity within the dense subcutaneous cranial layers. Responders apply sterile dressings secured by triangular bandages folded as broad cravats or full cranial caps.",
+          "(9d) Stabilizing Neck and Back Injuries: First aid for suspected spinal injury requires holding the head and neck aligned manually in neutral position. Responders reassure the patient, instruct them to remain completely still, and summon emergency medical services."
         ],
         "rows": [
           {
             "attribute": "Spinal Alignment Preservation",
-            "left": "(9a) Spinal Cord Injury Pathophysiology: Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.",
-            "right": "(9c) Open Cranial Wound Bandaging: Scalp lacerations bleed profusely due to high vascularity within the dense subcutaneous cranial layers. Responders apply sterile dressings secured by triangular bandages folded as broad cravats or full cranial caps."
+            "left": "(9a) Head and Spine Injury Risks: Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.",
+            "right": "(9c) Bandaging Open Head Wounds: Scalp lacerations bleed profusely due to high vascularity within the dense subcutaneous cranial layers. Responders apply sterile dressings secured by triangular bandages folded as broad cravats or full cranial caps."
           },
           {
             "attribute": "Trauma Airway Technique",
-            "left": "(9b) Concussion Symptoms and Assessment: A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest.",
-            "right": "(9d) Spinal Trauma Immobilization Management: First aid for suspected spinal injury requires holding the head and neck aligned manually in neutral position. Responders reassure the patient, instruct them to remain completely still, and summon emergency medical services."
+            "left": "(9b) Concussion Signs and First Aid: A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest.",
+            "right": "(9d) Stabilizing Neck and Back Injuries: First aid for suspected spinal injury requires holding the head and neck aligned manually in neutral position. Responders reassure the patient, instruct them to remain completely still, and summon emergency medical services."
           },
           {
             "attribute": "Scalp Laceration Dressing",
-            "left": "Req 9a: Head and Spine Injury Risks: Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.",
-            "right": "Req 9b: Concussion Signs and First: A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest."
+            "left": "Scalp Laceration Dressing: Apply sterile dressings with triangular bandages without pressing inward on depressed cranial fractures.",
+            "right": "Concussion Rest Protocol: Remove athletes showing dizziness confusion or photophobia from activity for complete physical rest."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 9 Exemplar Workbook Entry: Head, Neck",
+        "title": "First Aid Req 9 Worked Example: Head and Spinal Cord Trauma",
         "artifact_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
         "fields": {
-          "Req 9a - Spinal Cord Injury": "Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.",
-          "Req 9b - Concussion Symptoms": "A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest.",
-          "Req 9c - Open Cranial Wound Bandaging": "Scalp lacerations bleed profusely due to high vascularity within the dense subcutaneous cranial layers. Responders apply sterile dressings secured by triangular bandages folded as broad cravats or full cranial caps.",
-          "Req 9d - Spinal Trauma Immobilization": "First aid for suspected spinal injury requires holding the head and neck aligned manually in neutral position. Responders reassure the patient, instruct them to remain completely still, and summon emergency medical services."
+          "Phase 1 - Manual Stabilization": "Place your hands on both sides of the head to prevent neck movement.",
+          "Phase 2 - Airway Evaluation": "Open the airway using the jaw-thrust maneuver without tilting the cervical neck backward.",
+          "Phase 3 - Scalp Wound Dressing": "Place a sterile dressing over scalp wounds applying light pressure around bone edges.",
+          "Phase 4 - Concussion Monitoring": "Assess pupil equality orientation to time and place and observe for persistent nausea."
         },
-        "sample_output": "Head, Neck, and Spine Injuries: The backbone (spinal column) is made up of small bones called vertebrae that surround and protect the spinal cord (p. 41).",
-        "counselor_tip": "For First Aid Requirement 9 (Head, Neck, and Spine Injuries), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56))."
+        "sample_output": "Trauma to the head, neck, and back can damage neural pathways, resulting in paralysis, respiratory arrest, or death. Management prioritizes manual cervical spine stabilization, maintaining an open airway, and identifying subtle concussion symptoms.",
+        "counselor_tip": "During the First Aid Requirement 9 conference on Head and Spinal Cord Trauma, verify that the Scout can explain spinal alignment preservation and demonstrate concussion monitoring: Assess pupil equality orientation to time and place and observe for persistent nausea."
       },
       "quiz_item": {
         "scenario_prompt": "When someone suffers a hard fall or a blow to the head, what should a first aider always assume?",
@@ -7841,45 +7837,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 10a: Patient Movement Conditions",
-        "right_header": "Req 10c: Smoke Evacuation Drag",
+        "left_header": "Req 10a: An injured person",
+        "right_header": "Req 10c: Smoke Filled Room Rescues",
         "left_points": [
-          "(10a) Patient Movement Conditions and Criteria: Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.",
-          "(10b) Transport Method Decision Guidelines: Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails."
+          "(10a) An injured person: Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.",
+          "(10b) Selecting Appropriate Rescue Carries: Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails."
         ],
         "right_points": [
-          "(10c) Smoke Evacuation Drag Techniques: Smoke inhalation and heated toxic gases rise toward ceilings, making floor-level air significantly safer. Responders crawl low beneath smoke layers, utilizing a shirt drag or blanket carry to extract victims.",
-          "(10d) Assisted Ambulation Extremity Transport: Transferring a patient with lower limb injuries requires offloading weight from the affected joint. Two rescuers position themselves on either side of the patient, providing walking support or a two-handed seat."
+          "(10c) Smoke Filled Room Rescues: Smoke inhalation and heated toxic gases rise toward ceilings, making floor-level air significantly safer. Responders crawl low beneath smoke layers, utilizing a shirt drag or blanket carry to extract victims.",
+          "(10d) Sprained Ankle Two Person Carries: Transferring a patient with lower limb injuries requires offloading weight from the affected joint. Two rescuers position themselves on either side of the patient, providing walking support or a two-handed seat."
         ],
         "rows": [
           {
             "attribute": "Patient Relocation Indications",
-            "left": "(10a) Patient Movement Conditions and Criteria: Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.",
-            "right": "(10c) Smoke Evacuation Drag Techniques: Smoke inhalation and heated toxic gases rise toward ceilings, making floor-level air significantly safer. Responders crawl low beneath smoke layers, utilizing a shirt drag or blanket carry to extract victims."
+            "left": "(10a) An injured person: Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.",
+            "right": "(10c) Smoke Filled Room Rescues: Smoke inhalation and heated toxic gases rise toward ceilings, making floor-level air significantly safer. Responders crawl low beneath smoke layers, utilizing a shirt drag or blanket carry to extract victims."
           },
           {
             "attribute": "Transport Method Selection",
-            "left": "(10b) Transport Method Decision Guidelines: Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails.",
-            "right": "(10d) Assisted Ambulation Extremity Transport: Transferring a patient with lower limb injuries requires offloading weight from the affected joint. Two rescuers position themselves on either side of the patient, providing walking support or a two-handed seat."
+            "left": "(10b) Selecting Appropriate Rescue Carries: Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails.",
+            "right": "(10d) Sprained Ankle Two Person Carries: Transferring a patient with lower limb injuries requires offloading weight from the affected joint. Two rescuers position themselves on either side of the patient, providing walking support or a two-handed seat."
           },
           {
             "attribute": "Low Smoke Extraction",
-            "left": "Req 10a: An injured person: Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.",
-            "right": "Req 10b: Selecting Appropriate: Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails."
+            "left": "Low Smoke Extraction: Crawl beneath rising toxic smoke layers using a blanket drag to extract victims.",
+            "right": "Improvised Litter Testing: Test improvised pole and jacket stretchers with uninjured weight before carrying injured casualties."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 10 Exemplar Workbook Entry: Safe Patient",
+        "title": "First Aid Req 10 Worked Example: Emergency Patient Transport and Movement",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 10a - Patient Movement Conditions": "Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.",
-          "Req 10b - Transport Method Decision": "Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails.",
-          "Req 10c - Smoke Evacuation Drag": "Smoke inhalation and heated toxic gases rise toward ceilings, making floor-level air significantly safer. Responders crawl low beneath smoke layers, utilizing a shirt drag or blanket carry to extract victims.",
-          "Req 10d - Assisted Ambulation": "Transferring a patient with lower limb injuries requires offloading weight from the affected joint. Two rescuers position themselves on either side of the patient, providing walking support or a two-handed seat."
+          "Phase 1 - Hazard Assessment": "Assess the scene to determine whether immediate physical threats necessitate urgent patient movement.",
+          "Phase 2 - Method Selection": "Select a transport technique appropriate for patient injuries rescuer numbers and local terrain.",
+          "Phase 3 - Rescuer Command": "Coordinate all lifters under a single designated leader who counts before movement.",
+          "Phase 4 - Smooth Transport": "Carry the patient smoothly while constantly monitoring their airway breathing and spinal stability."
         },
-        "sample_output": "Safe Patient Carries and Stretchers: Make a stretcher out of two poles (longer than the victim is tall), for example, strong branches, tool handles, oars, or the poles from a wall tent (p. 15).",
-        "counselor_tip": "For First Aid Requirement 10 (Safe Patient Carries and Stretchers), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34))."
+        "sample_output": "Unnecessary movement of injured patients risks converting closed fractures into compound injuries or aggravating spinal trauma. Transport is justified only when immediate environmental hazards threaten survival or when coordinating wilderness rescue.",
+        "counselor_tip": "During the First Aid Requirement 10 conference on Emergency Patient Transport and Movement, verify that the Scout can explain patient relocation indications and demonstrate smooth transport: Carry the patient smoothly while constantly monitoring their airway breathing and spinal stability."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do you construct an improvised shirt stretcher using two strong poles?",
@@ -8531,47 +8527,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 11a: Fluid Balance and Hyponatremia",
-        "right_header": "Req 11d: Exertional Heatstroke Emergency",
+        "left_header": "Req 11a: Dehydration and Overhydration Risks",
+        "right_header": "Req 11d: Life Threatening Heatstroke",
         "left_points": [
-          "(11a) Fluid Balance and Hyponatremia: Dehydration reduces blood volume and impairs sweating, whereas over-hydration dilutes vital blood electrolytes causing cerebral edema. Prevention involves monitoring urine color and balancing water intake with electrolyte-containing foods during sustained exertion.",
-          "(11b) Exercise-Induced Heat Cramp Care: Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes.",
-          "(11c) Heat Exhaustion Clinical Management: Heat exhaustion develops when heavy perspiration depletes body fluids and salts without adequate replacement. Signs include pale, cool, clammy skin, fatigue, and normal mental status, managed by shade and fan cooling."
+          "(11a) Dehydration and Overhydration Risks: Dehydration reduces blood volume and impairs sweating, whereas over-hydration dilutes vital blood electrolytes causing cerebral edema. Prevention involves monitoring urine color and balancing water intake with electrolyte-containing foods during sustained exertion.",
+          "(11b) Exertional Heat Cramps: Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes."
         ],
         "right_points": [
-          "(11d) Exertional Heatstroke Emergency Interventions: Heatstroke occurs when thermoregulatory mechanisms fail, raising core temperature above one hundred four degrees Fahrenheit. Manifestations include altered mental state, confusion, coma, and demands urgent whole-body immersion in ice water.",
-          "(11e) Cold-Induced Angina Pectoris Assessment: Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one.",
-          "(11f) Accidental Hypothermia Rewarming Protocols: Hypothermia develops when heat loss exceeds heat production, lowering internal body temperature below ninety-five degrees. Treatment involves removing wet clothes, wrapping in warm windproof blankets, and avoiding rough physical movements."
+          "(11d) Life Threatening Heatstroke: Heatstroke occurs when thermoregulatory mechanisms fail, raising core temperature above one hundred four degrees Fahrenheit. Manifestations include altered mental state, confusion, coma, and demands urgent whole-body immersion in ice water.",
+          "(11e) Cold Induced Chest Pain: Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one."
         ],
         "rows": [
           {
             "attribute": "Heatstroke Emergency Cooling",
-            "left": "(11a) Fluid Balance and Hyponatremia: Dehydration reduces blood volume and impairs sweating, whereas over-hydration dilutes vital blood electrolytes causing cerebral edema. Prevention involves monitoring urine color and balancing water intake with electrolyte-containing foods during sustained exertion.",
-            "right": "(11d) Exertional Heatstroke Emergency Interventions: Heatstroke occurs when thermoregulatory mechanisms fail, raising core temperature above one hundred four degrees Fahrenheit. Manifestations include altered mental state, confusion, coma, and demands urgent whole-body immersion in ice water."
+            "left": "(11a) Dehydration and Overhydration Risks: Dehydration reduces blood volume and impairs sweating, whereas over-hydration dilutes vital blood electrolytes causing cerebral edema. Prevention involves monitoring urine color and balancing water intake with electrolyte-containing foods during sustained exertion.",
+            "right": "(11d) Life Threatening Heatstroke: Heatstroke occurs when thermoregulatory mechanisms fail, raising core temperature above one hundred four degrees Fahrenheit. Manifestations include altered mental state, confusion, coma, and demands urgent whole-body immersion in ice water."
           },
           {
             "attribute": "Hyponatremia Prevention Rule",
-            "left": "(11b) Exercise-Induced Heat Cramp Care: Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes.",
-            "right": "(11e) Cold-Induced Angina Pectoris Assessment: Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one."
+            "left": "(11b) Exertional Heat Cramps: Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes.",
+            "right": "(11e) Cold Induced Chest Pain: Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one."
           },
           {
             "attribute": "Cold Induced Angina",
-            "left": "(11c) Heat Exhaustion Clinical Management: Heat exhaustion develops when heavy perspiration depletes body fluids and salts without adequate replacement. Signs include pale, cool, clammy skin, fatigue, and normal mental status, managed by shade and fan cooling.",
-            "right": "(11f) Accidental Hypothermia Rewarming Protocols: Hypothermia develops when heat loss exceeds heat production, lowering internal body temperature below ninety-five degrees. Treatment involves removing wet clothes, wrapping in warm windproof blankets, and avoiding rough physical movements."
+            "left": "Cold Induced Angina: Stop physical exertion and warm the patient upon developing chest pressure during snowstorms.",
+            "right": "Accidental Hypothermia Insulation: Wrap hypothermic patients in dry sleeping bags and windproof tarps avoiding rough movement."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 11 Exemplar Workbook Entry: Heat and Cold",
+        "title": "First Aid Req 11 Worked Example: Thermal Exposure and Temperature Emergencies",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 11a - Fluid Balance": "Dehydration reduces blood volume and impairs sweating, whereas over-hydration dilutes vital blood electrolytes causing cerebral edema. Prevention involves monitoring urine color and balancing water intake with electrolyte-containing foods during sustained exertion.",
-          "Req 11b - Exercise-Induced Heat Cramp": "Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes.",
-          "Req 11c - Heat Exhaustion Clinical": "Heat exhaustion develops when heavy perspiration depletes body fluids and salts without adequate replacement. Signs include pale, cool, clammy skin, fatigue, and normal mental status, managed by shade and fan cooling.",
-          "Req 11d - Exertional Heatstroke": "Heatstroke occurs when thermoregulatory mechanisms fail, raising core temperature above one hundred four degrees Fahrenheit. Manifestations include altered mental state, confusion, coma, and demands urgent whole-body immersion in ice water."
+          "Phase 1 - Environmental Relocation": "Move the patient out of direct sunlight or freezing wind into shelter immediately.",
+          "Phase 2 - Heatstroke Cooling": "Immerse heatstroke patients in cold water or apply wet cloths to neck and armpits.",
+          "Phase 3 - Hypothermia Insulation": "Remove wet garments and wrap a hypothermic patient in dry sleeping bags and tarps.",
+          "Phase 4 - Vital Monitoring": "Monitor mental status respiration and summon immediate professional evacuation for severe thermal illness."
         },
-        "sample_output": "Heat and Cold Emergencies: One type of heatstroke develops in young, healthy people from dehydration and over exertion in hot weather, especially in high humidity (p. 59).",
-        "counselor_tip": "For First Aid Requirement 11 (Heat and Cold Emergencies), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63))."
+        "sample_output": "Thermal illness stems from the body inability to balance metabolic heat production with environmental heat exchange. Interventions range from rapid active water immersion for heatstroke to warm sweetened hydration for mild hypothermia.",
+        "counselor_tip": "During the First Aid Requirement 11 conference on Thermal Exposure and Temperature Emergencies, verify that the Scout can explain heatstroke emergency cooling and demonstrate vital monitoring: Monitor mental status respiration and summon immediate professional evacuation for severe thermal illness."
       },
       "quiz_item": {
         "scenario_prompt": "What happens inside the body during heatstroke that makes it an immediate life-threatening emergency?",
@@ -9060,45 +9054,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 12a: Acute Situational Stress",
-        "right_header": "Req 12c: Self-Harm and Danger Indicators",
+        "left_header": "Req 12a: Recognizing Stressful Scouting Situations",
+        "right_header": "Req 12c: Warning Signs of Self Harm",
         "left_points": [
-          "(12a) Acute Situational Stress Reactions: High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.",
-          "(12b) Stress Inoculation and Management: Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming."
+          "(12a) Recognizing Stressful Scouting Situations: High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.",
+          "(12b) Preparing and Managing Stress: Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming."
         ],
         "right_points": [
-          "(12c) Self-Harm and Danger Indicators: Signs that someone may present a danger include verbalizing hopelessness, dramatic mood swings, and sudden social isolation. Additional red flags involve reckless behavior, collecting lethal means, and preoccupation with death or self-harm.",
-          "(12d) Crisis Intervention and Escalation: When someone threatens self-harm or violence, responders must stay with the person and maintain calm presence. Scouts must immediately alert qualified adult leaders, call emergency dispatch, or dial the national suicide lifeline."
+          "(12c) Warning Signs of Self Harm: Signs that someone may present a danger include verbalizing hopelessness, dramatic mood swings, and sudden social isolation. Additional red flags involve reckless behavior, collecting lethal means, and preoccupation with death or self-harm.",
+          "(12d) Taking Immediate Protective Action: When someone threatens self-harm or violence, responders must stay with the person and maintain calm presence. Scouts must immediately alert qualified adult leaders, call emergency dispatch, or dial the national suicide lifeline."
         ],
         "rows": [
           {
             "attribute": "Sympathetic Arousal Recognition",
-            "left": "(12a) Acute Situational Stress Reactions: High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.",
-            "right": "(12c) Self-Harm and Danger Indicators: Signs that someone may present a danger include verbalizing hopelessness, dramatic mood swings, and sudden social isolation. Additional red flags involve reckless behavior, collecting lethal means, and preoccupation with death or self-harm."
+            "left": "(12a) Recognizing Stressful Scouting Situations: High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.",
+            "right": "(12c) Warning Signs of Self Harm: Signs that someone may present a danger include verbalizing hopelessness, dramatic mood swings, and sudden social isolation. Additional red flags involve reckless behavior, collecting lethal means, and preoccupation with death or self-harm."
           },
           {
             "attribute": "Stress Inoculation Strategy",
-            "left": "(12b) Stress Inoculation and Management: Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming.",
-            "right": "(12d) Crisis Intervention and Escalation: When someone threatens self-harm or violence, responders must stay with the person and maintain calm presence. Scouts must immediately alert qualified adult leaders, call emergency dispatch, or dial the national suicide lifeline."
+            "left": "(12b) Preparing and Managing Stress: Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming.",
+            "right": "(12d) Taking Immediate Protective Action: When someone threatens self-harm or violence, responders must stay with the person and maintain calm presence. Scouts must immediately alert qualified adult leaders, call emergency dispatch, or dial the national suicide lifeline."
           },
           {
             "attribute": "Self Harm Warning Signs",
-            "left": "Req 12a: Recognizing Stressful: High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.",
-            "right": "Req 12b: Preparing and Managing: Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming."
+            "left": "Self Harm Warning Signs: Recognize talk of hopelessness social withdrawal and giving away prized personal possessions.",
+            "right": "Crisis Intervention Escalation: Report threats of self harm immediately to trusted adult leaders or crisis hotlines."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 12 Exemplar Workbook Entry: Stress",
+        "title": "First Aid Req 12 Worked Example: Psychological First Aid and Crisis Support",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 12a - Acute Situational Stress": "High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.",
-          "Req 12b - Stress Inoculation": "Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming.",
-          "Req 12c - Self-Harm and Danger": "Signs that someone may present a danger include verbalizing hopelessness, dramatic mood swings, and sudden social isolation. Additional red flags involve reckless behavior, collecting lethal means, and preoccupation with death or self-harm.",
-          "Req 12d - Crisis Intervention": "When someone threatens self-harm or violence, responders must stay with the person and maintain calm presence. Scouts must immediately alert qualified adult leaders, call emergency dispatch, or dial the national suicide lifeline."
+          "Phase 1 - Stress Recognition": "Identify physiological signs of acute stress such as hyperventilation trembling or withdrawal.",
+          "Phase 2 - Calming Reassurance": "Provide calm reassuring communication while moving the stressed individual to a quiet space.",
+          "Phase 3 - Threat Assessment": "Listen for direct or indirect statements regarding self-harm or violence toward other people.",
+          "Phase 4 - Adult Engagement": "Notify trusted adult leaders or contact crisis hotlines immediately for dangerous situations."
         },
-        "sample_output": "Stress Reactions and Mental Health: How to Handle an Emergency How to Handle an Emergency Even the best plans can fall apart (p. 17).",
-        "counselor_tip": "For First Aid Requirement 12 (Stress Reactions and Mental Health), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102))."
+        "sample_output": "Psychological first aid addresses acute stress reactions and behavioral emergencies through empathetic listening and de-escalation. Responders must recognize danger signs to self or others and connect struggling individuals with adult leaders.",
+        "counselor_tip": "During the First Aid Requirement 12 conference on Psychological First Aid and Crisis Support, verify that the Scout can explain sympathetic arousal recognition and demonstrate adult engagement: Notify trusted adult leaders or contact crisis hotlines immediately for dangerous situations."
       },
       "quiz_item": {
         "scenario_prompt": "What should you do immediately if you suspect a fellow Scout or friend might be a danger to themselves or others?",
@@ -9696,45 +9690,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 13a: Ophthalmic Foreign Body",
-        "right_header": "Req 13c: Foodborne Illness Rehydration",
+        "left_header": "Req 13a: Foreign Objects in the Eye",
+        "right_header": "Req 13c: Food Poisoning and Dehydration",
         "left_points": [
-          "(13a) Ophthalmic Foreign Body Irrigation: Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.",
-          "(13b) Dental Avulsion Preservation Care: A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes."
+          "(13a) Foreign Objects in the Eye: Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.",
+          "(13b) Dental and Knocked Out Teeth: A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes."
         ],
         "right_points": [
-          "(13c) Foodborne Illness Rehydration Therapy: Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits.",
-          "(13d) Acute Abdomen Triage Assessment: Acute abdominal pain may signal serious surgical conditions such as acute appendicitis, bowel obstruction, or internal bleeding. Responders place the patient in a comfortable position, avoid giving food or drink, and arrange medical assessment."
+          "(13c) Food Poisoning and Dehydration: Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits.",
+          "(13d) Acute Abdominal Pain Assessment: Acute abdominal pain may signal serious surgical conditions such as acute appendicitis, bowel obstruction, or internal bleeding. Responders place the patient in a comfortable position, avoid giving food or drink, and arrange medical assessment."
         ],
         "rows": [
           {
             "attribute": "Ophthalmic Foreign Irrigation",
-            "left": "(13a) Ophthalmic Foreign Body Irrigation: Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.",
-            "right": "(13c) Foodborne Illness Rehydration Therapy: Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits."
+            "left": "(13a) Foreign Objects in the Eye: Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.",
+            "right": "(13c) Food Poisoning and Dehydration: Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits."
           },
           {
             "attribute": "Avulsed Tooth Transport",
-            "left": "(13b) Dental Avulsion Preservation Care: A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes.",
-            "right": "(13d) Acute Abdomen Triage Assessment: Acute abdominal pain may signal serious surgical conditions such as acute appendicitis, bowel obstruction, or internal bleeding. Responders place the patient in a comfortable position, avoid giving food or drink, and arrange medical assessment."
+            "left": "(13b) Dental and Knocked Out Teeth: A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes.",
+            "right": "(13d) Acute Abdominal Pain Assessment: Acute abdominal pain may signal serious surgical conditions such as acute appendicitis, bowel obstruction, or internal bleeding. Responders place the patient in a comfortable position, avoid giving food or drink, and arrange medical assessment."
           },
           {
             "attribute": "Food Poisoning Rehydration",
-            "left": "Req 13a: Foreign Objects in the Eye: Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.",
-            "right": "Req 13b: Dental and Knocked Out: A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes."
+            "left": "Food Poisoning Rehydration: Replace fluid and electrolyte losses from food poisoning using frequent small oral sips.",
+            "right": "Stroke FAST Assessment: Evaluate facial drooping arm drift and slurred speech before calling emergency medical dispatchers."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 13 Exemplar Workbook Entry: Eye, Dental",
+        "title": "First Aid Req 13 Worked Example: Specialized Medical and Dental Emergencies",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 13a - Ophthalmic Foreign Body": "Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.",
-          "Req 13b - Dental Avulsion Preservation": "A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes.",
-          "Req 13c - Foodborne Illness": "Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits.",
-          "Req 13d - Acute Abdomen Triage": "Acute abdominal pain may signal serious surgical conditions such as acute appendicitis, bowel obstruction, or internal bleeding. Responders place the patient in a comfortable position, avoid giving food or drink, and arrange medical assessment."
+          "Phase 1 - Eye Flushing": "Flush foreign particles from the eye gently using sterile saline or clean potable water.",
+          "Phase 2 - Tooth Preservation": "Handle a knocked-out tooth by the crown and place it in milk immediately.",
+          "Phase 3 - Rehydration Support": "Provide small sips of oral electrolyte solution for vomiting and diarrhea from food poisoning.",
+          "Phase 4 - Stroke Assessment": "Check facial droop arm drift and slurred speech before calling nine one one immediately."
         },
-        "sample_output": "Eye, Dental, Abdominal, and Stroke Care: Left untreated, heat exhaustion can develop into heatstroke (p. 63).",
-        "counselor_tip": "For First Aid Requirement 13 (Eye, Dental, Abdominal, and Stroke Care), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80))."
+        "sample_output": "Miscellaneous emergencies encompass ocular trauma, dental avulsions, gastrointestinal distress, and acute cerebral vascular strokes. Fast intervention preserves sight, maintains replantable dentition, prevents foodborne dehydration, and minimizes stroke-induced brain death.",
+        "counselor_tip": "During the First Aid Requirement 13 conference on Specialized Medical and Dental Emergencies, verify that the Scout can explain ophthalmic foreign irrigation and demonstrate stroke assessment: Check facial droop arm drift and slurred speech before calling nine one one immediately."
       },
       "quiz_item": {
         "scenario_prompt": "How should you preserve a knocked-out permanent tooth while transporting the patient to a dentist?",
@@ -9888,47 +9882,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 14: Careful Movement Decisions",
-        "right_header": "Req 14: Escape Immediate Hazards",
+        "left_header": "First Aid Instruction Methodology: Core Principles",
+        "right_header": "First Aid Instruction Methodology: Field Execution",
         "left_points": [
-          "Careful Movement Decisions: Moving an Ill or Injured Person The decision to move an accident victim should be made carefully (p. 29).",
-          "Professional Rescue Equipment: In many cases, there will be emergency medical crews, fire department personnel, or others with special equipment and training who will transport (p. 29).",
-          "Immediate Scene Hazards: If, however, someone is in danger from fire, smoke, water, electrical hazards, poisonous gases, exposure, or other immediate danger, you must move (p. 29)."
+          "EDGE Method Framework: Utilize Explain Demonstrate Guide and Enable steps to teach practical first aid skills.",
+          "Instructional Skill Demonstration: Demonstrate the complete first aid procedure slowly while describing each required manual movement."
         ],
         "right_points": [
-          "Escape Immediate Hazards: If, however, someone is in danger from fire, smoke, water, electrical hazards, poisonous gases, exposure, or other immediate danger, you must move (p. 29).",
-          "Position For Treatment: You might also need to move an injured person in order to give that person proper care, or reach another victim (p. 29).",
-          "Protect Rescuer Safety: Move the person only as far as is necessary, and do not endanger yourself (p. 29)."
+          "Coached Practical Application: Provide immediate positive feedback while guiding students through initial hands on bandage practice.",
+          "Independent Learner Verification: Enable students to perform first aid techniques independently without instructional assistance or prompting."
         ],
         "rows": [
           {
             "attribute": "EDGE Method Framework",
-            "left": "Careful Movement Decisions: Moving an Ill or Injured Person The decision to move an accident victim should be made carefully (p. 29).",
-            "right": "Escape Immediate Hazards: If, however, someone is in danger from fire, smoke, water, electrical hazards, poisonous gases, exposure, or other immediate danger, you must move (p. 29)."
+            "left": "EDGE Method Framework: Utilize Explain Demonstrate Guide and Enable steps to teach practical first aid skills.",
+            "right": "Coached Practical Application: Provide immediate positive feedback while guiding students through initial hands on bandage practice."
           },
           {
             "attribute": "Instructional Skill Demonstration",
-            "left": "Professional Rescue Equipment: In many cases, there will be emergency medical crews, fire department personnel, or others with special equipment and training who will transport (p. 29).",
-            "right": "Position For Treatment: You might also need to move an injured person in order to give that person proper care, or reach another victim (p. 29)."
+            "left": "Instructional Skill Demonstration: Demonstrate the complete first aid procedure slowly while describing each required manual movement.",
+            "right": "Independent Learner Verification: Enable students to perform first aid techniques independently without instructional assistance or prompting."
           },
           {
             "attribute": "Coached Practical Application",
-            "left": "Immediate Scene Hazards: If, however, someone is in danger from fire, smoke, water, electrical hazards, poisonous gases, exposure, or other immediate danger, you must move (p. 29).",
-            "right": "Protect Rescuer Safety: Move the person only as far as is necessary, and do not endanger yourself (p. 29)."
+            "left": "Coached Practical Application: Provide immediate positive feedback while guiding students through initial hands on bandage practice.",
+            "right": "Independent Learner Verification: Enable students to perform first aid techniques independently without instructional assistance or prompting."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 14 Exemplar Workbook Entry: Teaching First",
+        "title": "First Aid Req 14 Worked Example: First Aid Instruction Methodology",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Careful Movement Decisions": "Moving an Ill or Injured Person The decision to move an accident victim should be made carefully (p. 29).",
-          "Professional Rescue Equipment": "In many cases, there will be emergency medical crews, fire department personnel, or others with special equipment and training who will transport (p. 29).",
-          "Immediate Scene Hazards": "If, however, someone is in danger from fire, smoke, water, electrical hazards, poisonous gases, exposure, or other immediate danger, you must move (p. 29).",
-          "Access for Care": "You might also need to move an injured person in order to give that person proper care, or reach another victim (p. 29)."
+          "Phase 1 - Skill Explanation": "Explain the purpose indications and procedural steps of the selected first aid skill.",
+          "Phase 2 - Rescuer Demonstration": "Demonstrate the first aid procedure completely while explaining each manual action clearly.",
+          "Phase 3 - Guided Practice": "Guide the student through hands-on practice while providing immediate supportive corrective coaching.",
+          "Phase 4 - Independent Enablement": "Enable the student to perform the complete first aid skill independently without assistance."
         },
-        "sample_output": "Teaching First Aid With EDGE: Moving an Ill or Injured Person The decision to move an accident victim should be made carefully (p. 29).",
-        "counselor_tip": "For First Aid Requirement 14 (Teaching First Aid With EDGE), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 29, p. 33))."
+        "sample_output": "Instructional planning using the Explain, Demonstrate, Guide, Enable method ensures structured skill transfer and practical retention. The counselor guides lesson design to incorporate hands-on practice, constructive feedback, and objective skill evaluation.",
+        "counselor_tip": "During the First Aid Requirement 14 conference on First Aid Instruction Methodology, verify that the Scout can explain edge method framework and demonstrate independent enablement: Enable the student to perform the complete first aid skill independently without assistance."
       },
       "quiz_item": {
         "scenario_prompt": "What do the four letters of the Scouting EDGE teaching method stand for?",
@@ -10426,45 +10418,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 15a: Emergency Station Facility",
-        "right_header": "Req 15c: EMS Career Pathways",
+        "left_header": "Req 15a: Visiting an EMS Station",
+        "right_header": "Req 15c: Exploring EMS Career Paths",
         "left_points": [
-          "(15a) Emergency Station Facility Exploration: Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.",
-          "(15b) Paramedic Career Field Interview: Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives."
+          "(15a) Visiting an EMS Station: Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.",
+          "(15b) Interviewing an EMS Professional: Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives."
         ],
         "right_points": [
-          "(15c) EMS Career Pathways and Qualifications: Emergency services careers include basic emergency medical technicians, advanced paramedics, flight nurses, and tactical rescue specialists. Career research examines prerequisite anatomy coursework, extensive hospital clinical rotations, field internships, and national testing.",
-          "(15d) Emergency Skills for Outdoor Hobbies: Emergency medical skills enhance personal outdoor hobbies such as mountaineering, whitewater kayaking, search and rescue, and ski patrol. Advanced wilderness first responder certifications prepare outdoor enthusiasts to manage severe environmental emergencies independently."
+          "(15c) Exploring EMS Career Paths: Emergency services careers include basic emergency medical technicians, advanced paramedics, flight nurses, and tactical rescue specialists. Career research examines prerequisite anatomy coursework, extensive hospital clinical rotations, field internships, and national testing.",
+          "(15d) Volunteer and Wilderness Rescue Pursuits: Emergency medical skills enhance personal outdoor hobbies such as mountaineering, whitewater kayaking, search and rescue, and ski patrol. Advanced wilderness first responder certifications prepare outdoor enthusiasts to manage severe environmental emergencies independently."
         ],
         "rows": [
           {
             "attribute": "Emergency Facility Exploration",
-            "left": "(15a) Emergency Station Facility Exploration: Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.",
-            "right": "(15c) EMS Career Pathways and Qualifications: Emergency services careers include basic emergency medical technicians, advanced paramedics, flight nurses, and tactical rescue specialists. Career research examines prerequisite anatomy coursework, extensive hospital clinical rotations, field internships, and national testing."
+            "left": "(15a) Visiting an EMS Station: Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.",
+            "right": "(15c) Exploring EMS Career Paths: Emergency services careers include basic emergency medical technicians, advanced paramedics, flight nurses, and tactical rescue specialists. Career research examines prerequisite anatomy coursework, extensive hospital clinical rotations, field internships, and national testing."
           },
           {
             "attribute": "EMS Practitioner Interview",
-            "left": "(15b) Paramedic Career Field Interview: Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives.",
-            "right": "(15d) Emergency Skills for Outdoor Hobbies: Emergency medical skills enhance personal outdoor hobbies such as mountaineering, whitewater kayaking, search and rescue, and ski patrol. Advanced wilderness first responder certifications prepare outdoor enthusiasts to manage severe environmental emergencies independently."
+            "left": "(15b) Interviewing an EMS Professional: Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives.",
+            "right": "(15d) Volunteer and Wilderness Rescue Pursuits: Emergency medical skills enhance personal outdoor hobbies such as mountaineering, whitewater kayaking, search and rescue, and ski patrol. Advanced wilderness first responder certifications prepare outdoor enthusiasts to manage severe environmental emergencies independently."
           },
           {
             "attribute": "Paramedic Licensure Requirements",
-            "left": "Req 15a: Visiting an EMS Station: Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.",
-            "right": "Req 15b: Interviewing an EMS: Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives."
+            "left": "Paramedic Licensure Requirements: Research state licensing requirements prerequisite anatomy coursework and clinical internship training hours for paramedics.",
+            "right": "Backcountry First Aid: Apply emergency medical skills toward outdoor recreation hobbies such as mountaineering and ski patrol."
           }
         ]
       },
       "worked_example": {
-        "title": "First Aid Req 15 Exemplar Workbook Entry: Emergency",
+        "title": "First Aid Req 15 Worked Example: Emergency Medical Service Exploration",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 15a - Emergency Station Facility": "Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.",
-          "Req 15b - Paramedic Career Field": "Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives.",
-          "Req 15c - EMS Career Pathways": "Emergency services careers include basic emergency medical technicians, advanced paramedics, flight nurses, and tactical rescue specialists. Career research examines prerequisite anatomy coursework, extensive hospital clinical rotations, field internships, and national testing.",
-          "Req 15d - Emergency Skills for Outdoor": "Emergency medical skills enhance personal outdoor hobbies such as mountaineering, whitewater kayaking, search and rescue, and ski patrol. Advanced wilderness first responder certifications prepare outdoor enthusiasts to manage severe environmental emergencies independently."
+          "Phase 1 - Facility Contact": "Contact a local emergency medical service station to schedule an informational instructional visit.",
+          "Phase 2 - Professional Interview": "Interview on-duty emergency medical responders regarding their training certification requirements and daily duties.",
+          "Phase 3 - Career Exploration": "Research state licensing requirements prerequisite college coursework and associated tuition expenses for paramedics.",
+          "Phase 4 - Counselor Discussion": "Discuss career paths and personal outdoor hobby applications with your merit badge counselor."
         },
-        "sample_output": "Emergency Medical Services Careers: You might also need to move an injured person in order to give that person proper care, or reach another victim (p. 25).",
-        "counselor_tip": "For First Aid Requirement 15 (Emergency Medical Services Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29))."
+        "sample_output": "Emergency medical services encompass pre-hospital triage, acute trauma care, and community disaster response systems. Exploring emergency medical careers reveals diverse opportunities across municipal fire rescue, wilderness SAR, and hospital settings.",
+        "counselor_tip": "During the First Aid Requirement 15 conference on Emergency Medical Service Exploration, verify that the Scout can explain emergency facility exploration and demonstrate counselor discussion: Discuss career paths and personal outdoor hobby applications with your merit badge counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Why do professional emergency medical crews handle most patient transport rather than untrained bystanders?",

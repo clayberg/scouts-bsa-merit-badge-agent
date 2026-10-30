@@ -265,12 +265,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 1a: Trail Hazard Risk Management",
-        "right_header": "Req 1b: Wilderness Medical Emergency",
+        "right_header": "Req 1b: Wilderness Medical Emergency Care",
         "left_points": [
-          "(1a) Trail Hazard Risk Management: Hikers mitigate trail perils by researching terrain conditions, monitoring weather shifts, and maintaining situational awareness around wildlife or steep drop-offs. Anticipating hazards through pre-trip briefings reduces accidental falls and exposure injuries."
+          "(1a) Trail Hazard Risk Management: Hikers mitigate trail perils by researching terrain conditions, monitoring weather shifts, and maintaining situational awareness around wildlife or steep drop-offs. Anticipating hazards through pre-trip briefings reduces accidental falls and exposure injuries.",
+          "Lightning Hazard Protocols: Hikers caught in exposed terrain must seek low ground and assume lightning crouch."
         ],
         "right_points": [
-          "(1b) Wilderness Medical Emergency Care: Wilderness first aid prioritizes treating life threats, stabilizing core body temperature, and managing environmental trauma in remote backcountry settings. Prompt intervention prevents minor ailments like blisters or mild dehydration from escalating into debilitating emergencies."
+          "(1b) Wilderness Medical Emergency Care: Wilderness first aid prioritizes treating life threats, stabilizing core body temperature, and managing environmental trauma in remote backcountry settings. Prompt intervention prevents minor ailments like blisters or mild dehydration from escalating into debilitating emergencies.",
+          "Heatstroke Clinical Response: Immediate immersion or cold water dousing lowers dangerous core body temperature during heatstroke."
         ],
         "rows": [
           {
@@ -280,25 +282,27 @@
           },
           {
             "attribute": "Hypothermia Thermal Regulation",
-            "left": "Req 1a: Trail Hazard Risk Management: Hikers mitigate trail perils by researching terrain conditions, monitoring weather shifts, and maintaining situational awareness around wildlife or steep drop-offs. Anticipating hazards through pre-trip briefings reduces accidental falls and exposure injuries.",
-            "right": "Req 1b: Wilderness Medical Emergency: Wilderness first aid prioritizes treating life threats, stabilizing core body temperature, and managing environmental trauma in remote backcountry settings. Prompt intervention prevents minor ailments like blisters or mild dehydration from escalating into debilitating emergencies."
+            "left": "Lightning Hazard Protocols: Hikers caught in exposed terrain must seek low ground and assume lightning crouch.",
+            "right": "Heatstroke Clinical Response: Immediate immersion or cold water dousing lowers dangerous core body temperature during heatstroke."
           },
           {
             "attribute": "Heatstroke Clinical Response",
-            "left": "Lightning Hazard Protocols: Hikers caught in exposed terrain must seek low ground and assume lightning crouch.",
-            "right": "Hypothermia Thermal Regulation: Shivering signals mild hypothermia requiring immediate dry clothing layers and warm caloric liquids."
+            "left": "Heatstroke Clinical Response: Immediate immersion or cold water dousing lowers dangerous core body temperature during heatstroke.",
+            "right": "Blister Prevention Taping: Moleskin or athletic tape applied over hot spots stops friction before blisters form."
           }
         ]
       },
       "worked_example": {
-        "title": "Hiking Req 1 Exemplar Workbook Entry: Trail Hazards",
+        "title": "Hiking Req 1 Worked Example: Trail Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Trail Hazard Risk Management": "Hikers mitigate trail perils by researching terrain conditions, monitoring weather shifts, and maintaining situational awareness around wildlife or steep drop-offs. Anticipating hazards through pre-trip briefings reduces accidental falls and exposure injuries.",
-          "Req 1b - Wilderness Medical Emergency": "Wilderness first aid prioritizes treating life threats, stabilizing core body temperature, and managing environmental trauma in remote backcountry settings. Prompt intervention prevents minor ailments like blisters or mild dehydration from escalating into debilitating emergencies."
+          "Phase 1 - Route Assessment": "Review weather forecasts and topographical route profiles to pinpoint high risk trail segments.",
+          "Phase 2 - Gear Preparation": "Pack comprehensive first aid supplies, extra thermal layers, and dependable water purification tablets.",
+          "Phase 3 - Patrol Monitoring": "Observe fellow hikers regularly for subtle indicators of physical exhaustion, dehydration, or chilling.",
+          "Phase 4 - Emergency Treatment": "Provide prompt medical care for injuries while maintaining calm leadership during field evacuations."
         },
-        "sample_output": "Trail Hazards and Wilderness First Aid: The first sign of dehydration usually is dark urine (p. 48).",
-        "counselor_tip": "For Hiking Requirement 1 (Trail Hazards and Wilderness First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50))."
+        "sample_output": "Hiking safety demands proactive identification of environmental risks such as severe weather, flash floods, venomous wildlife, and steep drop-offs before departure. Prepared hikers carry the Scout Basic Essentials and maintain training to stabilize medical emergencies ranging from hypothermia to heatstroke.",
+        "counselor_tip": "During the Hiking Requirement 1 conference on Trail Hazards and First Aid, verify that the Scout can explain lightning hazard protocols and demonstrate emergency treatment: Provide prompt medical care for injuries while maintaining calm leadership during field evacuations."
       },
       "quiz_item": {
         "scenario_prompt": "Before setting out on a 10-mile or 20-mile day hike for Hiking Requirement 1, what preparation and trail practices prevent the most common backcountry emergencies?",
@@ -692,10 +696,12 @@
         "left_header": "Req 2a: Trail Practices and Etiquette",
         "right_header": "Req 2b: Leave No Trace Principles",
         "left_points": [
-          "(2a) Trail Practices and Etiquette: Safe trail conduct balances personal awareness with consideration for other recreationists and wildlife. Hikers must observe right of way customs, maintain group spacing, and handle nighttime road travel with active illumination."
+          "(2a) Trail Practices and Etiquette: Safe trail conduct balances personal awareness with consideration for other recreationists and wildlife. Hikers must observe right of way customs, maintain group spacing, and handle nighttime road travel with active illumination.",
+          "Durable Surface Travel: Walking directly through trail center puddles prevents widening pathways and trampling fragile vegetation."
         ],
         "right_points": [
-          "(2b) Leave No Trace Principles: The Leave No Trace Seven Principles establish a framework for minimizing human impact on wilderness ecosystems. Travelers pack out waste, respect wildlife, minimize campfire impacts, and preserve natural artifacts for future visitors."
+          "(2b) Leave No Trace Principles: The Leave No Trace Seven Principles establish a framework for minimizing human impact on wilderness ecosystems. Travelers pack out waste, respect wildlife, minimize campfire impacts, and preserve natural artifacts for future visitors.",
+          "(2c) Outdoor Code Trail Application: The Outdoor Code commits Scouts to be clean in outdoor manners, careful with fire, considerate in the outdoors, and conservation minded. Applying these tenets means treating natural resources with reverence and leaving campsites cleaner than found."
         ],
         "rows": [
           {
@@ -705,26 +711,27 @@
           },
           {
             "attribute": "Footwear Fit Tolerance",
-            "left": "Req 2a: Trail Practices: Safe trail conduct balances personal awareness with consideration for other recreationists and wildlife. Hikers must observe right of way customs, maintain group spacing, and handle nighttime road travel with active illumination.",
-            "right": "Req 2b: Leave No Trace Principles: The Leave No Trace Seven Principles establish a framework for minimizing human impact on wilderness ecosystems. Travelers pack out waste, respect wildlife, minimize campfire impacts, and preserve natural artifacts for future visitors."
+            "left": "Durable Surface Travel: Walking directly through trail center puddles prevents widening pathways and trampling fragile vegetation.",
+            "right": "(2c) Outdoor Code Trail Application: The Outdoor Code commits Scouts to be clean in outdoor manners, careful with fire, considerate in the outdoors, and conservation minded. Applying these tenets means treating natural resources with reverence and leaving campsites cleaner than found."
           },
           {
             "attribute": "Night Visibility Equipment",
-            "left": "Req 2c: Outdoor Code Trail: The Outdoor Code commits Scouts to be clean in outdoor manners, careful with fire, considerate in the outdoors, and conservation minded. Applying these tenets means treating natural resources with reverence and leaving campsites cleaner than found.",
-            "right": "Footwear Fit Tolerance: Hiking boots need thumb width toe clearance to prevent bruised toenails during descents."
+            "left": "Night Visibility Equipment: Hikers along roadways at night must wear reflective clothing and carry active lights.",
+            "right": "Sock Moisture Management: Synthetic or merino wool socks wick foot perspiration to reduce skin maceration risks."
           }
         ]
       },
       "worked_example": {
-        "title": "Hiking Req 2 Exemplar Workbook Entry: Safe Practices",
+        "title": "Hiking Req 2 Worked Example: Outdoor Ethics and Foot Care",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Trail Practices and Etiquette": "Safe trail conduct balances personal awareness with consideration for other recreationists and wildlife. Hikers must observe right of way customs, maintain group spacing, and handle nighttime road travel with active illumination.",
-          "Req 2b - Leave No Trace Principles": "The Leave No Trace Seven Principles establish a framework for minimizing human impact on wilderness ecosystems. Travelers pack out waste, respect wildlife, minimize campfire impacts, and preserve natural artifacts for future visitors.",
-          "Req 2c - Outdoor Code Trail": "The Outdoor Code commits Scouts to be clean in outdoor manners, careful with fire, considerate in the outdoors, and conservation minded. Applying these tenets means treating natural resources with reverence and leaving campsites cleaner than found."
+          "Phase 1 - Boot Selection": "Choose sturdy hiking boots broken in previously with appropriate socks for complete comfort.",
+          "Phase 2 - Morning Prep": "Trim toenails straight across and apply lubrication or protective tape to high friction zones.",
+          "Phase 3 - Trail Etiquette": "Yield the right of way to uphill travelers and pack out all personal trash.",
+          "Phase 4 - Rest Maintenance": "Remove footwear during extended rest stops to air dry feet and exchange damp socks."
         },
-        "sample_output": "Safe Practices and Outdoor Ethics: Leave No Trace and The Outdoor Code are principles that help you respect the environment and be considerate to others who are enjoying the outdoors (p. 28).",
-        "counselor_tip": "For Hiking Requirement 2 (Safe Practices and Outdoor Ethics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29))."
+        "sample_output": "Practicing outdoor ethics requires adherence to the Leave No Trace Seven Principles and the Outdoor Code to preserve backcountry habitats for others. Proper foot hygiene, including selecting fitted hiking boots and managing sock moisture, prevents debilitating blisters and soft tissue damage.",
+        "counselor_tip": "During the Hiking Requirement 2 conference on Outdoor Ethics and Foot Care, verify that the Scout can explain durable surface travel and demonstrate rest maintenance: Remove footwear during extended rest stops to air dry feet and exchange damp socks."
       },
       "quiz_item": {
         "scenario_prompt": "When should a hiking group begin applying the Leave No Trace Seven Principles and the Outdoor Code?",
@@ -882,47 +889,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Risks of Unprepared Hiking",
-        "right_header": "Req 3: Build Baseline Aerobic Fitness",
+        "left_header": "Aerobic Fitness and Conditioning: Core Principles",
+        "right_header": "Aerobic Fitness and Conditioning: Field Execution",
         "left_points": [
-          "Risks of Unprepared Hiking: Setting off on a hike without properly preparing can have disastrous results (p. 33).",
-          "Physical Readiness and Gear: Make sure you are ready, from your physical condition to the best gear for the trip (p. 33).",
-          "Fitness for Trail Enjoyment: To enjoy hiking to the fullest, you will want to be in good shape (p. 33)."
+          "Cardiovascular Stamina Demands: Aerobic respiration provides steady oxygen delivery to working leg muscles during continuous hiking miles.",
+          "Progressive Pack Weighting: Training with gradually increasing pack weight develops core stability and prevents muscle strain injuries."
         ],
         "right_points": [
-          "Build Baseline Aerobic Fitness: To enjoy hiking to the fullest, you will want to be in good shape (p. 33).",
-          "Design a Conditioning Schedule: That is why requirement 3 calls for developing a plan for conditioning yourself (p. 33).",
-          "Increase Trail Mileage Gradually: Begin with short trips, increasing the length of your journeys as you become more fit (p. 33)."
+          "Target Heart Rate: Sustaining heart rates within aerobic training zones maximizes endurance gains without causing premature fatigue.",
+          "Muscle Recovery Hydration: Post workout stretching combined with electrolyte replenishment restores glycogen and repairs strained muscle fibers."
         ],
         "rows": [
           {
             "attribute": "Cardiovascular Stamina Demands",
-            "left": "Risks of Unprepared Hiking: Setting off on a hike without properly preparing can have disastrous results (p. 33).",
-            "right": "Build Baseline Aerobic Fitness: To enjoy hiking to the fullest, you will want to be in good shape (p. 33)."
+            "left": "Cardiovascular Stamina Demands: Aerobic respiration provides steady oxygen delivery to working leg muscles during continuous hiking miles.",
+            "right": "Target Heart Rate: Sustaining heart rates within aerobic training zones maximizes endurance gains without causing premature fatigue."
           },
           {
             "attribute": "Progressive Pack Weighting",
-            "left": "Physical Readiness and Gear: Make sure you are ready, from your physical condition to the best gear for the trip (p. 33).",
-            "right": "Design a Conditioning Schedule: That is why requirement 3 calls for developing a plan for conditioning yourself (p. 33)."
+            "left": "Progressive Pack Weighting: Training with gradually increasing pack weight develops core stability and prevents muscle strain injuries.",
+            "right": "Muscle Recovery Hydration: Post workout stretching combined with electrolyte replenishment restores glycogen and repairs strained muscle fibers."
           },
           {
             "attribute": "Target Heart Rate",
-            "left": "Fitness for Trail Enjoyment: To enjoy hiking to the fullest, you will want to be in good shape (p. 33).",
-            "right": "Increase Trail Mileage Gradually: Begin with short trips, increasing the length of your journeys as you become more fit (p. 33)."
+            "left": "Target Heart Rate: Sustaining heart rates within aerobic training zones maximizes endurance gains without causing premature fatigue.",
+            "right": "Muscle Recovery Hydration: Post workout stretching combined with electrolyte replenishment restores glycogen and repairs strained muscle fibers."
           }
         ]
       },
       "worked_example": {
-        "title": "Hiking Req 3 Exemplar Workbook Entry: Aerobic",
+        "title": "Hiking Req 3 Worked Example: Aerobic Fitness and Conditioning",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Risks of Unprepared Hiking": "Setting off on a hike without properly preparing can have disastrous results (p. 33).",
-          "Physical Readiness and Gear": "Make sure you are ready, from your physical condition to the best gear for the trip (p. 33).",
-          "Fitness for Trail Enjoyment": "To enjoy hiking to the fullest, you will want to be in good shape (p. 33).",
-          "Structured Personal Conditioning Plans": "That is why requirement 3 calls for developing a plan for conditioning yourself (p. 33)."
+          "Phase 1 - Baseline Assessment": "Measure current resting heart rate and walk three continuous miles to test endurance.",
+          "Phase 2 - Cardiovascular Scheduling": "Perform thirty minutes of aerobic activity three times weekly to build lung capacity.",
+          "Phase 3 - Distance Increments": "Increase weekly conditioning hike distances by two miles while monitoring personal physical exertion.",
+          "Phase 4 - Pack Weighting": "Add five pounds to daypacks during final preparatory walks before ten mile attempts."
         },
-        "sample_output": "Aerobic Conditioning for Long Hikes: Setting off on a hike without properly preparing can have disastrous results (p. 33).",
-        "counselor_tip": "For Hiking Requirement 3 (Aerobic Conditioning for Long Hikes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Hiking Merit Badge Pamphlet (p. 33, p. 41))."
+        "sample_output": "Hiking acts as sustained aerobic exercise that raises heart rates, builds pulmonary endurance, and strengthens major lower body muscle groups. Progressive conditioning requires structured weekly cardiovascular workouts and short training hikes with incrementally weighted backpacks.",
+        "counselor_tip": "During the Hiking Requirement 3 conference on Aerobic Fitness and Conditioning, verify that the Scout can explain cardiovascular stamina demands and demonstrate pack weighting: Add five pounds to daypacks during final preparatory walks before ten mile attempts."
       },
       "quiz_item": {
         "scenario_prompt": "What practical conditioning strategy does the Hiking merit badge pamphlet recommend to prepare for 10-mile and 20-mile Scout hikes?",
@@ -1449,22 +1454,22 @@
           },
           {
             "attribute": "Caloric Trail Consumption",
-            "left": "Req 4a: First Ten Mile Hike: The initial 10-mile trek tests baseline stamina, gear fit, and route navigation under controlled conditions. Scouts validate their pacing and identify gear rubbing or hydration shortcomings early.",
-            "right": "Req 4b: Second Ten Mile Hike: The second 10-mile hike reinforces endurance and allows adjustments to pack distribution and foot protection based on the first trek. Hikers explore varied topography to expand trail versatility."
+            "left": "Caloric Trail Consumption: Eating small carbohydrate snacks every hour maintains blood sugar levels during long treks.",
+            "right": "Continuous Mileage Rule: Official hikes must consist of continuous trekking miles without vehicular travel or interruptions."
           }
         ]
       },
       "worked_example": {
-        "title": "Hiking Req 4 Exemplar Workbook Entry: Executing Ten",
+        "title": "Hiking Req 4 Worked Example: Endurance Trekking and Hike Planning",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - First Ten Mile Hike": "The initial 10-mile trek tests baseline stamina, gear fit, and route navigation under controlled conditions. Scouts validate their pacing and identify gear rubbing or hydration shortcomings early.",
-          "Req 4b - Second Ten Mile Hike": "The second 10-mile hike reinforces endurance and allows adjustments to pack distribution and foot protection based on the first trek. Hikers explore varied topography to expand trail versatility.",
-          "Req 4c - Third Ten Mile Hike": "The third trek builds intermediate stamina and sharpens group communication over sustained elevation changes. Scouts practice proactive hot spot management and consistent hourly calorie intake.",
-          "Req 4d - Fourth Ten Mile Hike": "The final 10-mile hike serves as the qualifying benchmark before attempting the grueling 20-mile endurance test. Hikers refine their self-monitoring routines and verify pack readiness for extended mileage."
+          "Phase 1 - Route Drafting": "Plot primary trails, alternative escape paths, and water replenishment spots on topographic maps.",
+          "Phase 2 - Counselor Approval": "Submit the written hike plan to your merit badge counselor before starting footwork.",
+          "Phase 3 - Trail Execution": "Maintain regular rest stops and continuous hydration while trekking the prescribed course distance.",
+          "Phase 4 - Return Notification": "Check in with designated safety contacts immediately upon concluding the final trail mileage."
         },
-        "sample_output": "Executing Ten and Twenty Mile Hikes: Mark on a map any places you can cut your trip short if weather, weariness, or injuries surprise you along the way (p. 41).",
-        "counselor_tip": "For Hiking Requirement 4 (Executing Ten and Twenty Mile Hikes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43))."
+        "sample_output": "Completing four 10-mile hikes and one continuous 20-mile hike tests physical conditioning, logistical planning, and navigational competence. Every hike requires submitting a written plan detailing route waypoints, elevation profiles, weather hazards, and emergency check-in procedures.",
+        "counselor_tip": "During the Hiking Requirement 4 conference on Endurance Trekking and Hike Planning, verify that the Scout can explain written flight plan and demonstrate return notification: Check in with designated safety contacts immediately upon concluding the final trail mileage."
       },
       "quiz_item": {
         "scenario_prompt": "Which preparation step does the Hiking merit badge pamphlet specifically emphasize when planning your 20-mile hike?",
@@ -1617,47 +1622,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Milestone Distance Trek",
-        "right_header": "Req 5: Record Departure and Pacing",
+        "left_header": "Post Hike Reflection Reports: Core Principles",
+        "right_header": "Post Hike Reflection Reports: Field Execution",
         "left_points": [
-          "Milestone Distance Trek Completion: Go! 20-Mile Hike Twenty miles is a long way, but with the hiking you've done sofar, you will be ready (p. 41).",
-          "Documenting Planned Exit Points: Mark on a map any places you can cut your trip short if weather, weariness, or injuries surprise you along the way (p. 41).",
-          "Pacing Daylight Trail Hours: Have a good breakfast and get an early start so that you can finish your hike before dark (p. 41)."
+          "Route Documentation Standards: Accurate hike logs include trail names, total mileage, elevation gain, and elapsed moving time.",
+          "Environmental Observation Logs: Recording wildlife sightings and changing plant zones deepens environmental awareness during backcountry journeys."
         ],
         "right_points": [
-          "Record Departure and Pacing: Have a good breakfast and get an early start so that you can finish your hike before dark (p. 41).",
-          "Note Foot Care Adjustments: Carry extra socks that you can change into during the day (p. 41).",
-          "Evaluate Nutrition and Energy: Pack plenty of high-energy foods both for your lunch as well as for trail snacks throughout the day (p. 41)."
+          "Equipment Performance Review: Evaluating how gear performed in wet weather guides equipment choices for future treks.",
+          "Physical Health Assessment: Documenting foot hot spots and physical fatigue levels assists conditioning for future treks."
         ],
         "rows": [
           {
             "attribute": "Route Documentation Standards",
-            "left": "Milestone Distance Trek Completion: Go! 20-Mile Hike Twenty miles is a long way, but with the hiking you've done sofar, you will be ready (p. 41).",
-            "right": "Record Departure and Pacing: Have a good breakfast and get an early start so that you can finish your hike before dark (p. 41)."
+            "left": "Route Documentation Standards: Accurate hike logs include trail names, total mileage, elevation gain, and elapsed moving time.",
+            "right": "Equipment Performance Review: Evaluating how gear performed in wet weather guides equipment choices for future treks."
           },
           {
             "attribute": "Environmental Observation Logs",
-            "left": "Documenting Planned Exit Points: Mark on a map any places you can cut your trip short if weather, weariness, or injuries surprise you along the way (p. 41).",
-            "right": "Note Foot Care Adjustments: Carry extra socks that you can change into during the day (p. 41)."
+            "left": "Environmental Observation Logs: Recording wildlife sightings and changing plant zones deepens environmental awareness during backcountry journeys.",
+            "right": "Physical Health Assessment: Documenting foot hot spots and physical fatigue levels assists conditioning for future treks."
           },
           {
             "attribute": "Equipment Performance Review",
-            "left": "Pacing Daylight Trail Hours: Have a good breakfast and get an early start so that you can finish your hike before dark (p. 41).",
-            "right": "Evaluate Nutrition and Energy: Pack plenty of high-energy foods both for your lunch as well as for trail snacks throughout the day (p. 41)."
+            "left": "Equipment Performance Review: Evaluating how gear performed in wet weather guides equipment choices for future treks.",
+            "right": "Physical Health Assessment: Documenting foot hot spots and physical fatigue levels assists conditioning for future treks."
           }
         ]
       },
       "worked_example": {
-        "title": "Hiking Req 5 Exemplar Workbook Entry: Written Post Hike",
+        "title": "Hiking Req 5 Worked Example: Post Hike Reflection Reports",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Milestone Distance Trek Completion": "Go! 20-Mile Hike Twenty miles is a long way, but with the hiking you've done sofar, you will be ready (p. 41).",
-          "Documenting Planned Exit Points": "Mark on a map any places you can cut your trip short if weather, weariness, or injuries surprise you along the way (p. 41).",
-          "Pacing Daylight Trail Hours": "Have a good breakfast and get an early start so that you can finish your hike before dark (p. 41).",
-          "Foot Care Log Observations": "Carry extra socks that you can change into during the day (p. 41)."
+          "Phase 1 - Data Logging": "Record GPS track coordinates, start and finish times, and total elapsed trail mileage.",
+          "Phase 2 - Weather Description": "Note temperature fluctuations, wind conditions, and precipitation experienced across the entire route.",
+          "Phase 3 - Field Reflections": "Write detailed paragraphs covering wildlife encounters, scenic landmarks, and unexpected trail challenges.",
+          "Phase 4 - Counselor Review": "Present the completed written hike report to your counselor for constructive feedback."
         },
-        "sample_output": "Written Post Hike Trek Reports: Go! 20-Mile Hike Twenty miles is a long way, but with the hiking you've done sofar, you will be ready (p. 41).",
-        "counselor_tip": "For Hiking Requirement 5 (Written Post Hike Trek Reports), verify the Scout's own observations and specific pamphlet details (Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43))."
+        "sample_output": "Documenting every completed hike through a detailed written report captures vital field data, navigational observations, and personal growth. Reports must record dates, route descriptions, weather patterns, flora and fauna sightings, and gear performance evaluations.",
+        "counselor_tip": "During the Hiking Requirement 5 conference on Post Hike Reflection Reports, verify that the Scout can explain route documentation standards and demonstrate counselor review: Present the completed written hike report to your counselor for constructive feedback."
       },
       "quiz_item": {
         "scenario_prompt": "What must you include in each written report after completing the hikes in Requirement 4, and why is documenting challenges valuable?",

@@ -37,7 +37,6 @@
 ### Req 1: Local Motor Carrier Network
 **Official Requirement 1:** List the major truck lines serving your town.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 10, p. 12)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Major Truck Lines Serving Your)
-> **Guide to Safe Scouting Warning:** Wear high-visibility reflective vests and steel-toed boots when observing commercial terminal marshalling yards.
 - **Common Myth:** Every motor carrier operates identical routes with uniform terminal network capabilities across communities.
 - **Pamphlet Fact:** Regional less-than-truckload carriers maintain dedicated terminal docks to consolidate daily cross-dock freight.
 
@@ -58,7 +57,6 @@
 ### Req 2: Commerce Freight Distribution Role
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Describe the role of truck transportation within commerce (the movement of goods, funds, and information). (b) Describe how trucks fit into a company's supply chain. This could be a manufacturer, importer, wholesaler, or retailer. (c) On paper, map out how goods that are manufactured overseas are transported to a retailer in this country.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain safe stopping distances from commercial delivery trucks maneuvering inside crowded warehouse loading bays.
 - **Common Myth:** Trucking operates completely isolated from global marine shipping containers and railroad networks.
 - **Pamphlet Fact:** Truck transportation handles the majority of domestic commercial freight tonnage through intermodal integration.
 
@@ -71,10 +69,8 @@
 #### Req 2a: Commercial Cargo Velocity
 **Official Requirement 2a:** Describe the role of truck transportation within commerce (the movement of goods, funds, and information)
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Role of Truck Transportation Within)
-- **Common Myth:** Truck transportation represents only vehicle driving rather than integrated financial and cargo management.
-- **Pamphlet Fact:** Motor freight bridges producers and consumers by synchronizing physical cargo with billing records.
 
-![Truck Transportation Requirement 2 figure showing motor carriage provides essential first-mile collection and final-mile retail store.](/assets/pamphlet_images/truck_transportation_p007_img1.png)
+![Motor carriage provides essential first-mile collection and final-mile retail store delivery services.](/assets/pamphlet_images/truck_transportation_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -85,8 +81,6 @@
 #### Req 2b: Supply Chain Logistics
 **Official Requirement 2b:** Describe how trucks fit into a company's supply chain. This could be a manufacturer, importer, wholesaler, or retailer.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Trucks Fit Into A Company's)
-- **Common Myth:** Manufacturing supply chains can function smoothly using solely railway or air cargo movements.
-- **Pamphlet Fact:** Truck fleets provide point-to-point agility that fixed-path transportation systems cannot achieve alone.
 
 ![A delivery worker unloads cardboard boxes from a cargo van using a hand truck in a neighborhood.](/assets/pamphlet_images/truck_transportation_p015_img1.png)
 
@@ -100,10 +94,8 @@
 #### Req 2c: International Multimodal Transit
 **Official Requirement 2c:** On paper, map out how goods that are manufactured overseas are transported to a retailer in this country.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Paper Map Out)
-- **Common Myth:** Overseas goods travel directly from foreign manufacturing plants to stores inside one single vehicle.
-- **Pamphlet Fact:** Ocean container shipments require intermodal transfers before highway tractors deliver cargo inland.
 
-![Truck Transportation Requirement 1 figure showing common carriers offer scheduled freight service to the general shipping public daily.](/assets/pamphlet_images/truck_transportation_p003_img1.png)
+![Common carriers offer scheduled freight service to the general shipping public daily.](/assets/pamphlet_images/truck_transportation_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -122,7 +114,6 @@
 ### Req 3: Gasoline and Diesel Powertrains
 **Official Requirement 3:** Describe the difference between the gasoline engine and the diesel engine that power trucks. List the advantages of each.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 31, p. 32)* • **Organizer (2-Column Comparison Table):** Req 3 Technical Comparison Matrix (Gasoline Engine and the Diesel)
-> **Guide to Safe Scouting Warning:** Never open hot pressurized coolant systems or touch high-pressure diesel common rail fuel plumbing.
 - **Common Myth:** Gasoline and diesel truck engines share identical ignition mechanics and fuel delivery components.
 - **Pamphlet Fact:** Diesel engines utilize high compression ratios to ignite fuel without electrical spark plug systems.
 
@@ -144,7 +135,6 @@
 ### Req 4: Motor Carrier Terminal Operations
 **Official Requirement 4 (Parent Overview):** Visit a truck terminal and complete items 4(a) through 4(e). After your visit, share what you have learned with your counselor. (a) Find out what kind of maintenance program the company follows to help keep its fleet, drivers, and the roadway safe. (b) Find out how dispatchers maintain communication with drivers on the road. (c) Talk with a professional truck driver about safety. Learn about the truck driver's rules of the road for safe driving. List five safe-driving rules every professional truck driver must follow. (d) Review the driver's log and find out what kind of information the log contains. (e) Learn about important federal regulations that help ensure public safety.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Obey marked pedestrian walkways and avoid vehicle blind spots inside active motor carrier maintenance shops.
 - **Common Myth:** Truck terminals function merely as vehicle parking lots with zero structured maintenance oversight.
 - **Pamphlet Fact:** Federal motor safety regulations mandate driver qualification files, regular mechanical inspections, and rest hours.
 
@@ -157,13 +147,6 @@
 #### Req 4a: Fleet Preventive Maintenance
 **Official Requirement 4a:** Find out what kind of maintenance program the company follows to help keep its fleet, drivers, and the roadway safe.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Out What Kind of Maintenance)
-- **Common Myth:** Trucking companies only repair equipment after parts break down completely during highway transport.
-- **Pamphlet Fact:** Scheduled preventive maintenance prevents catastrophic highway component failures and roadside out-of-service violations.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Truck Transportation Merit: Truck Transportation Careers and Pathways.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Truck Transportation Careers and Pathways.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A truck driver speaks with Scouts from the cab during an educational truck terminal visit.](/assets/pamphlet_images/truck_transportation_p030_img1.png)
 
@@ -176,8 +159,6 @@
 #### Req 4b: Fleet Dispatch Telematics
 **Official Requirement 4b:** Find out how dispatchers maintain communication with drivers on the road.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Out How Dispatchers Maintain Communication)
-- **Common Myth:** Dispatch centers rely exclusively on two-way citizens band radios to reach highway drivers.
-- **Pamphlet Fact:** Cellular and satellite telematics relay navigation alerts, load manifests, and real-time tractor diagnostics.
 
 ![A commercial Mayflower moving truck travels through a city delivering household freight.](/assets/pamphlet_images/truck_transportation_p009_img1.png)
 
@@ -190,10 +171,8 @@
 #### Req 4c: Defensive Driving Standards
 **Official Requirement 4c:** Talk with a professional truck driver about safety. Learn about the truck driver's rules of the road for safe driving. List five safe-driving rules every professional truck driver must follow.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Truck Transportation Careers and Pathways)
-- **Common Myth:** Large commercial tractor-trailers stop within identical braking distances as passenger sedans.
-- **Pamphlet Fact:** Professional commercial drivers maintain generous following cushions and scan far ahead for roadway hazards.
 
-![Truck Transportation Requirement 3 figure showing diesel cylinders compress air until intense heat auto-ignites injected fuel mist smoothly.](/assets/pamphlet_images/truck_transportation_p012_img1.png)
+![Diesel cylinders compress air until intense heat auto-ignites injected fuel mist smoothly.](/assets/pamphlet_images/truck_transportation_p012_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -206,8 +185,6 @@
 #### Req 4d: Electronic Logging Records
 **Official Requirement 4d:** Review the driver's log and find out what kind of information the log contains.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Organizer (Activity & Observation Log):** Req 4d Quantitative Field Observation & Activity Log (Driver's Log and Find Out)
-- **Common Myth:** Drivers create log entries by handwriting rough daily mileage estimates at weekly intervals.
-- **Pamphlet Fact:** Electronic logging devices record engine run time, geographic position, and duty status automatically.
 
 ![A waste management truck uses hydraulic arms to lift and empty large commercial containers.](/assets/pamphlet_images/truck_transportation_p015_img2.png)
 
@@ -220,8 +197,6 @@
 #### Req 4e: Federal Motor Safety Regulations
 **Official Requirement 4e:** Learn about important federal regulations that help ensure public safety.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Learn About Important Federal Regulations)
-- **Common Myth:** Individual highway transport companies invent their own arbitrary highway safety and operating limits.
-- **Pamphlet Fact:** Federal Motor Carrier Safety Administration rules govern vehicle weight thresholds and operator rest breaks.
 
 ![A fleet of heavy diesel semi-trucks stands parked at a commercial transportation terminal.](/assets/pamphlet_images/truck_transportation_p031_img1.png)
 
@@ -234,7 +209,6 @@
 ### Req 5: Trucking Enterprise Organization
 **Official Requirement 5 (Parent Overview):** Do the following: (a) Outline the general organization of a trucking company. Describe what each department does. (b) List five positions with trucking companies and describe each one.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow visitor safety protocols and remain clear of forklift traffic lanes when visiting carrier offices.
 - **Common Myth:** A trucking company consists solely of vehicle drivers managed directly by one owner.
 - **Pamphlet Fact:** Trucking operations coordinate specialized departments including dispatch, safety, billing, maintenance, and freight sales.
 
@@ -247,13 +221,6 @@
 #### Req 5a: Corporate Carrier Organization
 **Official Requirement 5a:** Outline the general organization of a trucking company. Describe what each department.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Outline the General Organization)
-- **Common Myth:** Every office employee at a trucking terminal handles identical random logistical duties daily.
-- **Pamphlet Fact:** Trucking departments manage dedicated responsibilities that support continuous commercial freight movement.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Truck Transportation Merit: Outline The General Organization.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Outline The General Organization.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A driver daily logbook tracks commercial service hours to comply with federal highway regulations.](/assets/pamphlet_images/truck_transportation_p023_img1.png)
 
@@ -267,8 +234,6 @@
 #### Req 5b: Professional Motor Carrier Careers
 **Official Requirement 5b:** List five positions with trucking companies and describe each one.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Positions with Trucking Companies)
-- **Common Myth:** Trucking organizations offer career opportunities exclusively for individuals holding commercial driver licenses.
-- **Pamphlet Fact:** Modern motor carriers employ diverse personnel spanning safety directors, diesel technicians, and freight dispatchers.
 
 ![A Scout examines a heavy-duty diesel engine under the hood of a commercial semi-truck.](/assets/pamphlet_images/truck_transportation_p032_img1.png)
 
@@ -281,7 +246,6 @@
 ### Req 6: Government Regulatory Authorities
 **Official Requirement 6:** Name five government agencies that work closely with the trucking industry. Describe their role.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 22, p. 29)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Government Agencies That Work Closely)
-> **Guide to Safe Scouting Warning:** Do not enter active highway weigh station lanes or commercial inspection pits without authorization.
 - **Common Myth:** One single government agency controls all commercial vehicle design, highway safety, and driver taxation.
 - **Pamphlet Fact:** Regulatory enforcement spans multiple agencies managing highway safety, infrastructure protection, and environmental compliance.
 
@@ -303,7 +267,6 @@
 ### Req 7: Commercial Truck Configurations
 **Official Requirement 7:** List five different kinds of trucks. Tell the service each provides.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 12, p. 36)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Trucks Tell the Service Each)
-> **Guide to Safe Scouting Warning:** Never climb bulk cargo tanks or approach unchocked flatbed trailers during forklift loading operations.
 - **Common Myth:** Standard enclosed dry van semi-trailers transport all commercial agricultural and industrial products safely.
 - **Pamphlet Fact:** Truck configurations match specific payload densities, temperature requirements, and unloading dock environments.
 
@@ -325,7 +288,6 @@
 ### Req 8: Freight Shipping Preparation
 **Official Requirement 8 (Parent Overview):** Assume that you are going to ship by truck 500 pounds of goods (freight class 65) from your town to another town 500 miles away. Your shipment must arrive within three days. Explain in writing: (a) How to prepare the shipment (b) How to compare at least three carriers for time in transit and rates (c) How to choose which carrier to use (d) How to insure the shipment for damages
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Ensure cargo loads remain banded and centered on sturdy pallets to prevent handling injuries.
 - **Common Myth:** Commercial freight pricing depends solely on total shipment weight without regard to commodity density.
 - **Pamphlet Fact:** Freight classification, palletized packaging, carrier tariffs, and cargo insurance determine total shipment cost.
 
@@ -338,8 +300,6 @@
 #### Req 8a: Freight Cargo Preparation
 **Official Requirement 8a:** How to prepare the shipment.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Truck Transportation Shipment Principles)
-- **Common Myth:** Loose cardboard boxes placed directly on trailer floors survive regional freight handling safely.
-- **Pamphlet Fact:** Shrink wrapping and metal banding prevent freight shifting and cargo damage during terminal transfers.
 
 ![A freight bill of lading outlines shipping terms, cargo weights, and delivery destinations.](/assets/pamphlet_images/truck_transportation_p037_img1.png)
 
@@ -352,8 +312,6 @@
 #### Req 8b: Carrier Rate Comparison
 **Official Requirement 8b:** How to compare at least three carriers for time in transit and rates.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (2-Column Comparison Table):** Req 8b Technical Comparison Matrix (Carriers for Time in Transit)
-- **Common Myth:** All motor freight carriers charge identical tariffs for transporting identical cargo weights and distances.
-- **Pamphlet Fact:** Carrier rate tariffs reflect terminal network density, direct lane authority, and guaranteed transit times.
 
 ![A technician services the wheel assembly and brakes on a commercial transport vehicle.](/assets/pamphlet_images/truck_transportation_p033_img1.png)
 
@@ -366,8 +324,6 @@
 #### Req 8c: Carrier Selection Criteria
 **Official Requirement 8c:** How to choose which carrier to use.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Truck Transportation Carrier Principles)
-- **Common Myth:** Choosing the lowest quoted transportation price always provides the most effective shipping solution.
-- **Pamphlet Fact:** Selecting motor carriers involves balancing transit reliability records against base transportation freight costs.
 
 ![A forklift operator moves packaged freight pallets inside a commercial shipping warehouse.](/assets/pamphlet_images/truck_transportation_p036_img1.png)
 
@@ -380,8 +336,6 @@
 #### Req 8d: Transit Cargo Insurance
 **Official Requirement 8d:** How to insure the shipment for damages.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Insure the Shipment for Damages)
-- **Common Myth:** Carriers automatically reimburse full retail value for damaged cargo without declared value coverage.
-- **Pamphlet Fact:** Third-party transit insurance protects shippers beyond the limited liability caps of standard tariffs.
 
 ![A semi-truck carefully steers between tight orange cones during a professional driving trial.](/assets/pamphlet_images/truck_transportation_p041_img2.png)
 
@@ -394,7 +348,6 @@
 ### Req 9: Transportation Logistics Terminology
 **Official Requirement 9:** Explain the following terms: bill of lading, ETA, logbook, intermodal, containers, tariff, shippers, carrier, consignee, drayage, and cartage.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 37, p. 46)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Bill of Lading ETA Logbook)
-> **Guide to Safe Scouting Warning:** Always review hazardous material shipping papers and container placards before moving transport equipment.
 - **Common Myth:** Terms like bill of lading, tariff, and drayage represent interchangeable informal commercial slang.
 - **Pamphlet Fact:** Standardized shipping terminology establishes clear legal liabilities between shippers, carriers, consignees, and terminal operators.
 
@@ -415,7 +368,6 @@
 ### Req 10: Transportation Career Pathways
 **Official Requirement 10:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Career & Profession Exploration Card):** Req 10 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Use appropriate personal protective equipment and obey laboratory rules when observing vehicle technician training.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Truck Transportation Req 10 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Working in the trucking industry offers no professional advancement beyond basic entry-level positions.
 - **Pamphlet Fact:** Transportation careers extend beyond driving to encompass fleet safety managers, mechanics, and freight dispatchers.

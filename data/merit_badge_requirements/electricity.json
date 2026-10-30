@@ -643,17 +643,15 @@
         "Engineering logbook and technical specification sheet for Electricity Requirement 1."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Residential Service",
+        "left_header": "Req 1a: Residential Service Disconnection Procedures",
         "right_header": "Req 1d: Electrical Shock Triage Protocol",
         "left_points": [
           "(1a) Residential Service Disconnection Procedures: Service panels house individual branch circuit breakers along with a primary main disconnect. Throwing the main breaker cuts all incoming utility electrical potential from distribution buses.",
-          "(1b) Live Conductor Victim Extraction: Direct physical contact with a live victim transfers dangerous electrical current directly into the rescuer. Rescuers must use dry, nonconductive objects to push live wires away.",
-          "(1c) Downed Utility Wire Evacuation: Downed lines charge vehicle frames and surrounding soil, generating hazardous voltage gradients across the ground surface. Occupants must jump clear without contacting the metal frame and shuffle away."
+          "(1b) Live Conductor Victim Extraction: Direct physical contact with a live victim transfers dangerous electrical current directly into the rescuer. Rescuers must use dry, nonconductive objects to push live wires away."
         ],
         "right_points": [
           "(1d) Electrical Shock Triage Protocol: Electrical current passing across the human torso can arrest respiratory function and disrupt cardiac rhythm. Responders must initiate cardiopulmonary resuscitation and deploy automated external defibrillators immediately.",
-          "(1e) Electrical Thermal Burn Treatment: Electrical current generates intense resistive heat that travels through dense internal tissues between entry and exit contact wounds. First aiders cover visible wounds with clean dry dressings without applying ointments.",
-          "(1f) Class C Electrical Suppression: Electrical fires ignite when overloaded conductors or arcing components ignite nearby framing or wiring insulation. De-energizing the circuit precedes suppression using nonconductive Class C extinguishing agents."
+          "(1e) Electrical Thermal Burn Treatment: Electrical current generates intense resistive heat that travels through dense internal tissues between entry and exit contact wounds. First aiders cover visible wounds with clean dry dressings without applying ointments."
         ],
         "rows": [
           {
@@ -668,22 +666,22 @@
           },
           {
             "attribute": "Vehicle Wire Contact",
-            "left": "(1c) Downed Utility Wire Evacuation: Downed lines charge vehicle frames and surrounding soil, generating hazardous voltage gradients across the ground surface. Occupants must jump clear without contacting the metal frame and shuffle away.",
-            "right": "(1f) Class C Electrical Suppression: Electrical fires ignite when overloaded conductors or arcing components ignite nearby framing or wiring insulation. De-energizing the circuit precedes suppression using nonconductive Class C extinguishing agents."
+            "left": "Vehicle Wire Contact: Remaining seated inside rubber insulated vehicles shields passengers from dangerous step voltage differentials.",
+            "right": "Electrical Fire Extinguishment: Carbon dioxide extinguishers smother energized equipment flames without creating electrical shock paths for operators."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 1 Exemplar Workbook Entry: Responding",
+        "title": "Electricity Req 1 Worked Example: Electrical Emergency Response Procedures",
         "artifact_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
         "fields": {
-          "Req 1a - Residential Service": "Service panels house individual branch circuit breakers along with a primary main disconnect. Throwing the main breaker cuts all incoming utility electrical potential from distribution buses.",
-          "Req 1b - Live Conductor Victim": "Direct physical contact with a live victim transfers dangerous electrical current directly into the rescuer. Rescuers must use dry, nonconductive objects to push live wires away.",
-          "Req 1c - Downed Utility Wire": "Downed lines charge vehicle frames and surrounding soil, generating hazardous voltage gradients across the ground surface. Occupants must jump clear without contacting the metal frame and shuffle away.",
-          "Req 1d - Electrical Shock Triage": "Electrical current passing across the human torso can arrest respiratory function and disrupt cardiac rhythm. Responders must initiate cardiopulmonary resuscitation and deploy automated external defibrillators immediately."
+          "Phase 1 - Main Service Disconnection": "Push the primary residential breaker handle firmly into the off position right away.",
+          "Phase 2 - Conductor Separation Action": "Push the live conductor off the victim using a dry wooden broom handle.",
+          "Phase 3 - Vital Sign Assessment": "Check the unconscious victim for regular breathing and begin chest compressions if absent.",
+          "Phase 4 - Burn Area Protection": "Cover entrance and exit burn points loosely using sterile dry nonstick dressing pads."
         },
-        "sample_output": "Responding to Electrical Emergencies: Continue to monitor the person's breathing until medical help arrives (p. 46).",
-        "counselor_tip": "For Electricity Requirement 1 (Responding to Electrical Emergencies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69))."
+        "sample_output": "Electrical emergency management requires rapid disconnection of live circuits before initiating victim extraction or fire suppression. Rescuers must use nonconductive materials and maintain structural isolation to prevent becoming secondary conduits for lethal voltage.",
+        "counselor_tip": "During the Electricity Requirement 1 conference on Electrical Emergency Response Procedures, verify that the Scout can explain main panel isolation and demonstrate burn area protection: Cover entrance and exit burn points loosely using sterile dry nonstick dressing pads."
       },
       "quiz_item": {
         "scenario_prompt": "You discover a person in contact with a damaged, live 120-volt extension cord who is unable to let go due to muscular tet any. According to Electricity Requirement 1, what must you do first?",
@@ -842,47 +840,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Home Safety Inspection Goal",
-        "right_header": "Req 2: Review Electrical Safety",
+        "left_header": "Home Electrical Safety Inspection: Core Principles",
+        "right_header": "Home Electrical Safety Inspection: Field Execution",
         "left_points": [
-          "Home Safety Inspection Goal: For requirement 2, you will need to complete an electrical safety inspection of your home (p. 51).",
-          "Checking Everyday Electrical Items: Here are some items you can check in your home today to ensure electrical safety (p. 51).",
-          "Electrical Safety Foundation Guidelines: These tips come from the Electrical Safety Foundation International and can be found at esfi. org (p. 51)."
+          "Cording Integrity Assessment: Flexible appliance cords with cracked outer jackets expose copper conductors to grounding hazards.",
+          "Receptacle Loading Boundaries: Octopus receptacle adapters draw excessive amperes through single wall boxes causing insulation breakdown."
         ],
         "right_points": [
-          "Review Electrical Safety Guidelines: These tips come from the Electrical Safety Foundation International and can be found at esfi. org (p. 51).",
-          "Inspect Every Room Systematically: Make an electrical safety checklist and walk through each room of your house, checking on each aspect of electrical safety (p. 51).",
-          "Discuss Findings With Counselor: You can go over your list with your counselor later and discuss what you found (p. 51)."
+          "Wet Location Protection: Moisture prone bathroom outlets require functional ground fault interrupters to prevent electrocution.",
+          "Clearance Zone Maintenance: Electrical distribution panel doors require thirty inches of unobstructed width for servicing."
         ],
         "rows": [
           {
             "attribute": "Cording Integrity Assessment",
-            "left": "Home Safety Inspection Goal: For requirement 2, you will need to complete an electrical safety inspection of your home (p. 51).",
-            "right": "Review Electrical Safety Guidelines: These tips come from the Electrical Safety Foundation International and can be found at esfi. org (p. 51)."
+            "left": "Cording Integrity Assessment: Flexible appliance cords with cracked outer jackets expose copper conductors to grounding hazards.",
+            "right": "Wet Location Protection: Moisture prone bathroom outlets require functional ground fault interrupters to prevent electrocution."
           },
           {
             "attribute": "Receptacle Loading Boundaries",
-            "left": "Checking Everyday Electrical Items: Here are some items you can check in your home today to ensure electrical safety (p. 51).",
-            "right": "Inspect Every Room Systematically: Make an electrical safety checklist and walk through each room of your house, checking on each aspect of electrical safety (p. 51)."
+            "left": "Receptacle Loading Boundaries: Octopus receptacle adapters draw excessive amperes through single wall boxes causing insulation breakdown.",
+            "right": "Clearance Zone Maintenance: Electrical distribution panel doors require thirty inches of unobstructed width for servicing."
           },
           {
             "attribute": "Wet Location Protection",
-            "left": "Electrical Safety Foundation Guidelines: These tips come from the Electrical Safety Foundation International and can be found at esfi. org (p. 51).",
-            "right": "Discuss Findings With Counselor: You can go over your list with your counselor later and discuss what you found (p. 51)."
+            "left": "Wet Location Protection: Moisture prone bathroom outlets require functional ground fault interrupters to prevent electrocution.",
+            "right": "Clearance Zone Maintenance: Electrical distribution panel doors require thirty inches of unobstructed width for servicing."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 2 Exemplar Workbook Entry: Home",
+        "title": "Electricity Req 2 Worked Example: Home Electrical Safety Inspection",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Home Safety Inspection Goal": "For requirement 2, you will need to complete an electrical safety inspection of your home (p. 51).",
-          "Checking Everyday Electrical Items": "Here are some items you can check in your home today to ensure electrical safety (p. 51).",
-          "Electrical Safety Foundation": "These tips come from the Electrical Safety Foundation International and can be found at esfi. org (p. 51).",
-          "Room-by-Room Inspection Checklist": "Make an electrical safety checklist and walk through each room of your house, checking on each aspect of electrical safety (p. 51)."
+          "Phase 1 - Panel Clearance Check": "Confirm clear access space extending thirty-six inches outward from the electrical panel front.",
+          "Phase 2 - Cord Insulation Review": "Examine appliance power cords for brittle insulation, outer jacket splits, or exposed strands.",
+          "Phase 3 - Receptacle Tester Validation": "Plug a three-wire receptacle tester into every room outlet to confirm ground continuity.",
+          "Phase 4 - Interrupter Button Testing": "Press the test button on ground fault receptacles to confirm power cuts off."
         },
-        "sample_output": "Home Electrical Safety Inspection: For requirement 2, you will need to complete an electrical safety inspection of your home (p. 51).",
-        "counselor_tip": "For Electricity Requirement 2 (Home Electrical Safety Inspection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 51, p. 57))."
+        "sample_output": "Residential electrical safety evaluations systematically identify degraded conductor insulation, missing device covers, and overloaded branch circuits. Routine testing of ground fault interrupters and visual hardware reviews mitigate home fire and electrocution hazards.",
+        "counselor_tip": "During the Electricity Requirement 2 conference on Home Electrical Safety Inspection, verify that the Scout can explain cording integrity assessment and demonstrate interrupter button testing: Press the test button on ground fault receptacles to confirm power cuts off."
       },
       "quiz_item": {
         "scenario_prompt": "Why is it important to check for outlets that have loose-fitting plugs during your home electrical safety inspection?",
@@ -1033,53 +1029,50 @@
         "Step 4 - Magnetic Polarity Demonstration: Bring the energized nail tip near a compass needle to show attraction and repulsion."
       ],
       "gear_checklist": [
-        "Official Electricity merit badge pamphlet and workbook organizer for Req 3.",
         "Electricity field toolkit, inspection gauge, and protective eyewear for Electromagnet Construction and Polarity.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 3."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Magnetic Fields Around Wires",
-        "right_header": "Req 3: Insert Compass Into Tube",
+        "left_header": "Electromagnet Construction and Polarity: Core Principles",
+        "right_header": "Electromagnet Construction and Polarity: Field Execution",
         "left_points": [
-          "Magnetic Fields Around Wires: This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-          "Winding the Insulated Wire Coil: Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube (p. 18).",
-          "Positioning the Compass: Slide a small compass into the middle of the cardboard tube (p. 18)."
+          "Magnetic Core Selection: Soft iron cores concentrate lines of magnetic flux produced by surrounding wire coils.",
+          "Ampere Turns Relationship: Increasing the number of coiled conductor turns multiplies the resulting electromagnetic strength."
         ],
         "right_points": [
-          "Insert Compass Into Tube: Slide a small compass into the middle of the cardboard tube (p. 18).",
-          "Toggle the Paper Clip Switch: Swivel the paper clip against and away from one thumbtack to switch the electric circuit (p. 18).",
-          "Observe Compass Needle Deflection: Watch what happens to the compass needle as you open and close the circuit (p. 18)."
+          "Poles Polarity Rule: Reversing current direction through coil windings swaps the north and south magnetic poles.",
+          "Coil Wire Insulation: Enameled magnet wire prevents adjacent winding coils from shorting current through the core."
         ],
         "rows": [
           {
             "attribute": "Magnetic Core Selection",
-            "left": "Magnetic Fields Around Wires: This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-            "right": "Insert Compass Into Tube: Slide a small compass into the middle of the cardboard tube (p. 18)."
+            "left": "Magnetic Core Selection: Soft iron cores concentrate lines of magnetic flux produced by surrounding wire coils.",
+            "right": "Poles Polarity Rule: Reversing current direction through coil windings swaps the north and south magnetic poles."
           },
           {
             "attribute": "Ampere Turns Relationship",
-            "left": "Winding the Insulated Wire Coil: Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube (p. 18).",
-            "right": "Toggle the Paper Clip Switch: Swivel the paper clip against and away from one thumbtack to switch the electric circuit (p. 18)."
+            "left": "Ampere Turns Relationship: Increasing the number of coiled conductor turns multiplies the resulting electromagnetic strength.",
+            "right": "Coil Wire Insulation: Enameled magnet wire prevents adjacent winding coils from shorting current through the core."
           },
           {
             "attribute": "Poles Polarity Rule",
-            "left": "Positioning the Compass: Slide a small compass into the middle of the cardboard tube (p. 18).",
-            "right": "Observe Compass Needle Deflection: Watch what happens to the compass needle as you open and close the circuit (p. 18)."
+            "left": "Poles Polarity Rule: Reversing current direction through coil windings swaps the north and south magnetic poles.",
+            "right": "Coil Wire Insulation: Enameled magnet wire prevents adjacent winding coils from shorting current through the core."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 3 Exemplar Workbook Entry: Building",
+        "title": "Electricity Req 3 Worked Example: Electromagnet Construction and Polarity",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Magnetic Fields Around Wires": "This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-          "Winding the Insulated Wire Coil": "Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube (p. 18).",
-          "Positioning the Compass Inside": "Slide a small compass into the middle of the cardboard tube (p. 18).",
-          "Operating the Paper Clip Switch": "Swivel the paper clip against and away from one thumbtack to switch the electric circuit (p. 18)."
+          "Phase 1 - Wire Coiling Process": "Wrap fifty turns of enameled magnet wire tightly around a large iron nail.",
+          "Phase 2 - Terminal Insulation Stripping": "Scrape away enamel coating from both wire ends using medium grit sandpaper sheets.",
+          "Phase 3 - Circuit Power Application": "Connect bare wire ends across a single D-cell battery holder with alligator clips.",
+          "Phase 4 - Magnetic Polarity Demonstration": "Bring the energized nail tip near a compass needle to show attraction and repulsion."
         },
-        "sample_output": "Building a Simple Electromagnet: This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-        "counselor_tip": "For Electricity Requirement 3 (Building a Simple Electromagnet), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 19))."
+        "sample_output": "Coiling insulated magnet wire around a ferrous core concentrates magnetic flux when an electric current flows. The magnetic field strength scales directly with coil winding density and direct current amperage.",
+        "counselor_tip": "During the Electricity Requirement 3 conference on Electromagnet Construction and Polarity, verify that the Scout can explain magnetic core selection and demonstrate magnetic polarity demonstration: Bring the energized nail tip near a compass needle to show attraction and repulsion."
       },
       "quiz_item": {
         "scenario_prompt": "What happens when you close the circuit in a simple electromagnet wrapped around a tube containing a compass?",
@@ -1386,13 +1379,15 @@
         "Engineering logbook and technical specification sheet for Electricity Requirement 4."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Current Flow Direction",
-        "right_header": "Req 4b: Electrical Generation Methods",
+        "left_header": "Req 4a: Current Flow Direction Characteristics",
+        "right_header": "Req 4b: Electrical Generation Methods Analysis",
         "left_points": [
-          "(4a) Current Flow Direction Characteristics: Direct current flows continuously in a single direction, making it ideal for portable battery devices and electronics. Alternating current reverses polarity sixty times per second, enabling efficient high voltage grid transmission via step down transformers."
+          "(4a) Current Flow Direction Characteristics: Direct current flows continuously in a single direction, making it ideal for portable battery devices and electronics. Alternating current reverses polarity sixty times per second, enabling efficient high voltage grid transmission via step down transformers.",
+          "Current Flow Polarity: Direct current flows continuously in one direction while alternating current reverses direction periodically."
         ],
         "right_points": [
-          "(4b) Electrical Generation Methods Analysis: Electrical energy generation converts mechanical, chemical, light, thermal, or pressure energy into moving electric charge. Rotating magnetic coils, electrochemical cells, and photovoltaic semiconductors represent the primary generation methods."
+          "(4b) Electrical Generation Methods Analysis: Electrical energy generation converts mechanical, chemical, light, thermal, or pressure energy into moving electric charge. Rotating magnetic coils, electrochemical cells, and photovoltaic semiconductors represent the primary generation methods.",
+          "Chemical Energy Production: Electrochemical batteries produce steady direct current by spontaneous chemical oxidation and reduction reactions."
         ],
         "rows": [
           {
@@ -1402,25 +1397,27 @@
           },
           {
             "attribute": "Voltage Transformation Capability",
-            "left": "Req 4a: Current Flow Direction: Direct current flows continuously in a single direction, making it ideal for portable battery devices and electronics. Alternating current reverses polarity sixty times per second, enabling efficient high voltage grid transmission via step down transformers.",
-            "right": "Req 4b: Electrical Generation: Electrical energy generation converts mechanical, chemical, light, thermal, or pressure energy into moving electric charge. Rotating magnetic coils, electrochemical cells, and photovoltaic semiconductors represent the primary generation methods."
+            "left": "Current Flow Polarity: Direct current flows continuously in one direction while alternating current reverses direction periodically.",
+            "right": "Chemical Energy Production: Electrochemical batteries produce steady direct current by spontaneous chemical oxidation and reduction reactions."
           },
           {
             "attribute": "Chemical Energy Production",
-            "left": "Current Flow Polarity: Direct current flows continuously in one direction while alternating current reverses direction periodically.",
-            "right": "Voltage Transformation Capability: Alternating current voltages step up or down efficiently using electromagnetic core transformers."
+            "left": "Chemical Energy Production: Electrochemical batteries produce steady direct current by spontaneous chemical oxidation and reduction reactions.",
+            "right": "Electromagnetic Generator Motion: Spinning copper coils within fixed magnetic fields generates utility scale alternating current electricity."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 4 Exemplar Workbook Entry: Direct",
+        "title": "Electricity Req 4 Worked Example: Current Dynamics and Generation",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Current Flow Direction": "Direct current flows continuously in a single direction, making it ideal for portable battery devices and electronics. Alternating current reverses polarity sixty times per second, enabling efficient high voltage grid transmission via step down transformers.",
-          "Req 4b - Electrical Generation Methods": "Electrical energy generation converts mechanical, chemical, light, thermal, or pressure energy into moving electric charge. Rotating magnetic coils, electrochemical cells, and photovoltaic semiconductors represent the primary generation methods."
+          "Phase 1 - Polarity Flow Identification": "Trace single direction direct current flow from battery negative terminals through loads.",
+          "Phase 2 - Transformer Principle Analysis": "Diagram how alternating magnetic fields induce stepped voltages across secondary transformer coils.",
+          "Phase 3 - Chemical Generation Setup": "Assemble a simple voltaic wet cell using copper and zinc strips in electrolyte.",
+          "Phase 4 - Induction Generation": "Spin an iron armature between ceramic field magnets to produce measurable alternating current."
         },
-        "sample_output": "Direct Current and Alternating Current: The transfer of electricity in one direction. cycle (p. 28).",
-        "counselor_tip": "For Electricity Requirement 4 (Direct Current and Alternating Current), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37))."
+        "sample_output": "Direct current maintains unidirectional electron flow, whereas alternating current periodically reverses direction at fixed cycles per second. Transformers step alternating current voltages up for low loss transmission and step them down for consumer safety.",
+        "counselor_tip": "During the Electricity Requirement 4 conference on Current Dynamics and Generation, verify that the Scout can explain current flow polarity and demonstrate induction generation: Spin an iron armature between ceramic field magnets to produce measurable alternating current."
       },
       "quiz_item": {
         "scenario_prompt": "How many complete cycles per second does ordinary household alternating current experience in the United States?",
@@ -1583,47 +1580,45 @@
         "Engineering logbook and technical specification sheet for Electricity Requirement 5."
       ],
       "comparison_data": {
-        "left_header": "Req 5: Electromagnetic Force in Wires",
-        "right_header": "Req 5: Place Compass Inside Coil",
+        "left_header": "Electric Bell Circuit Operation: Core Principles",
+        "right_header": "Electric Bell Circuit Operation: Field Execution",
         "left_points": [
-          "Electromagnetic Force in Wires: This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-          "Coiling Wire Around Cores: Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube (p. 18).",
-          "Testing Magnetic Field Direction: Slide a small compass into the middle of the cardboard tube (p. 18)."
+          "Electromagnet Bell Core: The soft iron core pulls the striker whenever direct current flows through windings.",
+          "Interrupter Contact Screw: Vibrating contacts mechanically break coil circuit connection to drop the striker spring."
         ],
         "right_points": [
-          "Place Compass Inside Coil: Slide a small compass into the middle of the cardboard tube (p. 18).",
-          "Operate the Circuit Switch: Swivel the paper clip against and away from one thumbtack to switch the electric circuit (p. 18).",
-          "Watch the Magnetic Response: Watch what happens to the compass needle as you open and close the circuit (p. 18)."
+          "Striker Armature Spring: Flexible spring steel snaps the clapper back against contacts to repeat ringing.",
+          "Gong Impact Vibration: Mechanical impacts against the metallic bell gong produce clear audible warning tones."
         ],
         "rows": [
           {
             "attribute": "Electromagnet Bell Core",
-            "left": "Electromagnetic Force in Wires: This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-            "right": "Place Compass Inside Coil: Slide a small compass into the middle of the cardboard tube (p. 18)."
+            "left": "Electromagnet Bell Core: The soft iron core pulls the striker whenever direct current flows through windings.",
+            "right": "Striker Armature Spring: Flexible spring steel snaps the clapper back against contacts to repeat ringing."
           },
           {
             "attribute": "Interrupter Contact Screw",
-            "left": "Coiling Wire Around Cores: Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube (p. 18).",
-            "right": "Operate the Circuit Switch: Swivel the paper clip against and away from one thumbtack to switch the electric circuit (p. 18)."
+            "left": "Interrupter Contact Screw: Vibrating contacts mechanically break coil circuit connection to drop the striker spring.",
+            "right": "Gong Impact Vibration: Mechanical impacts against the metallic bell gong produce clear audible warning tones."
           },
           {
             "attribute": "Striker Armature Spring",
-            "left": "Testing Magnetic Field Direction: Slide a small compass into the middle of the cardboard tube (p. 18).",
-            "right": "Watch the Magnetic Response: Watch what happens to the compass needle as you open and close the circuit (p. 18)."
+            "left": "Striker Armature Spring: Flexible spring steel snaps the clapper back against contacts to repeat ringing.",
+            "right": "Gong Impact Vibration: Mechanical impacts against the metallic bell gong produce clear audible warning tones."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 5 Exemplar Workbook Entry: How Batteries",
+        "title": "Electricity Req 5 Worked Example: Electric Bell Circuit Operation",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Electromagnetic Force in Wires": "This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-          "Coiling Wire Around Cores": "Wrap a length of insulated (plastic-coated) wire about 20 times around a cardboard tube (p. 18).",
-          "Testing Magnetic Field Direction": "Slide a small compass into the middle of the cardboard tube (p. 18).",
-          "Opening and Closing Circuits": "Swivel the paper clip against and away from one thumbtack to switch the electric circuit (p. 18)."
+          "Phase 1 - Schematic Circuit Drafting": "Draw the series circuit linking the battery, momentary switch, coil, and contact screw.",
+          "Phase 2 - Component Purpose Labeling": "Label the electromagnet, flexible spring armature, clapper hammer, gong, and electrical contacts.",
+          "Phase 3 - Electrical Continuity Tracing": "Trace current flow from the battery terminal through closed contacts into coil windings.",
+          "Phase 4 - Interruption Cycle Explanation": "Explain how armature motion separates contacts to collapse the magnetic field instantly."
         },
-        "sample_output": "How Batteries and Electric Bells Work: This experiment shows that a wire carrying a current is surrounded by an invisible magnetic field, or force, and it illustrates how closely electricity (p. 18).",
-        "counselor_tip": "For Electricity Requirement 5 (How Batteries and Electric Bells Work), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 18, p. 49))."
+        "sample_output": "An electric bell circuit combines a direct current power source, an electromagnetic coil, a spring mounted armature, and contact points. When current flows, the energized electromagnet pulls the armature hammer against the gong, breaking the circuit and resetting the spring.",
+        "counselor_tip": "During the Electricity Requirement 5 conference on Electric Bell Circuit Operation, verify that the Scout can explain electromagnet bell core and demonstrate interruption cycle explanation: Explain how armature motion separates contacts to collapse the magnetic field instantly."
       },
       "quiz_item": {
         "scenario_prompt": "What causes the striker in a standard DC electric bell to move back and forth repeatedly instead of striking the gong just once?",
@@ -2078,8 +2073,8 @@
         "Engineering logbook and technical specification sheet for Electricity Requirement 6."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Circuit Overload Prevention",
-        "right_header": "Req 6c: Overcurrent Protective Device",
+        "left_header": "Req 6a: Circuit Overload Prevention Methods",
+        "right_header": "Req 6c: Overcurrent Protective Device Operation",
         "left_points": [
           "(6a) Circuit Overload Prevention Methods: An overloaded circuit draws higher current than the distribution wire and breaker are rated to carry safely. Distributing high wattage appliances across separate circuits keeps thermal stress within design parameters.",
           "(6b) Branch Circuit Current Calculations: Scouts calculate branch circuit demand by summing device nameplate wattages and dividing by one hundred twenty volts. If calculated total amperes exceed eighty percent of breaker capacity, loads require redistribution."
@@ -2101,22 +2096,22 @@
           },
           {
             "attribute": "Sacrificial Link Protection",
-            "left": "Req 6a: Circuit Overload Prevention: An overloaded circuit draws higher current than the distribution wire and breaker are rated to carry safely. Distributing high wattage appliances across separate circuits keeps thermal stress within design parameters.",
-            "right": "Req 6b: Branch Circuit Current: Scouts calculate branch circuit demand by summing device nameplate wattages and dividing by one hundred twenty volts. If calculated total amperes exceed eighty percent of breaker capacity, loads require redistribution."
+            "left": "Sacrificial Link Protection: Fuses contain low melting point alloy links that open during severe overcurrent conditions.",
+            "right": "Breaker Handle Alignment: Tripped circuit breakers display intermediate handle positions between full on and full off."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 6 Exemplar Workbook Entry: Preventing",
+        "title": "Electricity Req 6 Worked Example: Circuit Overload and Protection",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Circuit Overload Prevention": "An overloaded circuit draws higher current than the distribution wire and breaker are rated to carry safely. Distributing high wattage appliances across separate circuits keeps thermal stress within design parameters.",
-          "Req 6b - Branch Circuit Current": "Scouts calculate branch circuit demand by summing device nameplate wattages and dividing by one hundred twenty volts. If calculated total amperes exceed eighty percent of breaker capacity, loads require redistribution.",
-          "Req 6c - Overcurrent Protective Device": "Fuses contain sacrificial metal strips calibrated to melt when excessive current produces destructive heat. Circuit breakers use bimetallic thermal elements or electromagnets to release a spring loaded mechanical latch.",
-          "Req 6d - Overcurrent Device Triage": "A blown screw-in fuse shows a blackened glass window or broken metal link inside the plug body. Resetting a tripped breaker requires pushing the lever to off to engage the spring before turning."
+          "Phase 1 - Conductor Rating Identification": "Identify the branch wire gauge and corresponding fifteen or twenty ampere circuit limit.",
+          "Phase 2 - Appliance Wattage Summation": "Sum the nameplate wattage ratings of all electrical devices plugged into the circuit.",
+          "Phase 3 - Current Amperage Calculation": "Divide the total accumulated wattage by one hundred twenty volts to find amperes.",
+          "Phase 4 - Breaker Reset Sequence": "Push the tripped breaker handle firmly into off before flipping it back."
         },
-        "sample_output": "Preventing Circuit Overloads and Short Circuits: The fuse box or circuit breaker panel is typically located in a utility room, in an electric room, in a mechanical room, or near the main power feed (p. 46).",
-        "counselor_tip": "For Electricity Requirement 6 (Preventing Circuit Overloads and Short Circuits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48))."
+        "sample_output": "Branch circuits carry strict ampere capacities governed by copper conductor cross sectional gauge and insulation thermal ratings. Overloading occurs when concurrent appliance wattage draws total current exceeding breaker trip thresholds, risking structural fires.",
+        "counselor_tip": "During the Electricity Requirement 6 conference on Circuit Overload and Protection, verify that the Scout can explain conductor thermal threshold and demonstrate breaker reset sequence: Push the tripped breaker handle firmly into off before flipping it back."
       },
       "quiz_item": {
         "scenario_prompt": "What happens inside a fuse when the electric current on a circuit becomes greater than the fuse is designed to handle?",
@@ -2270,47 +2265,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Incoming Utility Service Wires",
-        "right_header": "Req 7: Operate the Main Switch",
+        "left_header": "Room Wiring Layout Diagram: Core Principles",
+        "right_header": "Room Wiring Layout Diagram: Field Execution",
         "left_points": [
-          "Incoming Utility Service Wires: Electric current comes into your home on overhead or underground wires (p. 46).",
-          "Meter to Breaker Panel: From your electrical meter, heavy, well-insulated wires run to a main distribution center or breaker box, where the main disconnect switch is located (p. 46).",
-          "Shutting Off House Current: If necessary, you can use that switch to shut off all electric current in your house (p. 46)."
+          "Plan View Symbols: Standard architectural electrical plans use specific circle and line symbols for receptacles.",
+          "Branch Circuit Mapping: Switching individual breakers off isolates specific wall outlets and ceiling lighting fixtures."
         ],
         "right_points": [
-          "Operate the Main Switch: If necessary, you can use that switch to shut off all electric current in your house (p. 46).",
-          "Find the Service Panel: The fuse box or circuit breaker panel is typically located in a utility room, in an electric room, in a mechanical room, or near the main power feed (p. 46).",
-          "Protect Individual Branch Circuits: They prevent currents that are too strong from traveling into your home's branch circuits (p. 46)."
+          "Shared Conductor Runs: Multiple lighting fixtures and utility receptacles frequently connect in parallel across one breaker.",
+          "Panel Index Correlation: Clear labeling inside panel door directories links specific living spaces to assigned breakers."
         ],
         "rows": [
           {
             "attribute": "Plan View Symbols",
-            "left": "Incoming Utility Service Wires: Electric current comes into your home on overhead or underground wires (p. 46).",
-            "right": "Operate the Main Switch: If necessary, you can use that switch to shut off all electric current in your house (p. 46)."
+            "left": "Plan View Symbols: Standard architectural electrical plans use specific circle and line symbols for receptacles.",
+            "right": "Shared Conductor Runs: Multiple lighting fixtures and utility receptacles frequently connect in parallel across one breaker."
           },
           {
             "attribute": "Branch Circuit Mapping",
-            "left": "Meter to Breaker Panel: From your electrical meter, heavy, well-insulated wires run to a main distribution center or breaker box, where the main disconnect switch is located (p. 46).",
-            "right": "Find the Service Panel: The fuse box or circuit breaker panel is typically located in a utility room, in an electric room, in a mechanical room, or near the main power feed (p. 46)."
+            "left": "Branch Circuit Mapping: Switching individual breakers off isolates specific wall outlets and ceiling lighting fixtures.",
+            "right": "Panel Index Correlation: Clear labeling inside panel door directories links specific living spaces to assigned breakers."
           },
           {
             "attribute": "Shared Conductor Runs",
-            "left": "Shutting Off House Current: If necessary, you can use that switch to shut off all electric current in your house (p. 46).",
-            "right": "Protect Individual Branch Circuits: They prevent currents that are too strong from traveling into your home's branch circuits (p. 46)."
+            "left": "Shared Conductor Runs: Multiple lighting fixtures and utility receptacles frequently connect in parallel across one breaker.",
+            "right": "Panel Index Correlation: Clear labeling inside panel door directories links specific living spaces to assigned breakers."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 7 Exemplar Workbook Entry: Mapping Room",
+        "title": "Electricity Req 7 Worked Example: Room Wiring Layout Diagram",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Incoming Utility Service Wires": "Electric current comes into your home on overhead or underground wires (p. 46).",
-          "Meter to Breaker Panel": "From your electrical meter, heavy, well-insulated wires run to a main distribution center or breaker box, where the main disconnect switch is located (p. 46).",
-          "Shutting Off House Current": "If necessary, you can use that switch to shut off all electric current in your house (p. 46).",
-          "Typical Breaker Panel Locations": "The fuse box or circuit breaker panel is typically located in a utility room, in an electric room, in a mechanical room, or near the main power feed (p. 46)."
+          "Phase 1 - Room Layout Measurement": "Sketch the architectural floor outline of the selected room including doors and windows.",
+          "Phase 2 - Electrical Symbol Placement": "Draw standard blueprint symbols for every outlet receptacle, wall switch, and light fixture.",
+          "Phase 3 - Circuit Breaker Identification": "Switch off branch breakers individually to identify which breaker feeds each room device.",
+          "Phase 4 - Distribution Pathway Tracing": "Draw dotted lines connecting all room fixtures to their identified service panel breaker."
         },
-        "sample_output": "Mapping Room Floor Plan Wiring: Electric current comes into your home on overhead or underground wires (p. 46).",
-        "counselor_tip": "For Electricity Requirement 7 (Mapping Room Floor Plan Wiring), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 55))."
+        "sample_output": "A residential wiring diagram details the layout of luminaires, wall switches, and duplex receptacles within a room. Mapping each device to its specific distribution breaker ensures clear maintenance awareness and prevents unexpected shocks.",
+        "counselor_tip": "During the Electricity Requirement 7 conference on Room Wiring Layout Diagram, verify that the Scout can explain plan view symbols and demonstrate distribution pathway tracing: Draw dotted lines connecting all room fixtures to their identified service panel breaker."
       },
       "quiz_item": {
         "scenario_prompt": "What must your room floor plan wiring diagram show in addition to the locations of all lights, switches, and outlets?",
@@ -2689,7 +2682,6 @@
         "Step 4 - Conservation Strategy: Identify five household behavioral changes that reduce overall kilowatt-hour consumption each month."
       ],
       "gear_checklist": [
-        "Official Electricity merit badge pamphlet and workbook organizer for Req 8.",
         "Electricity field toolkit, inspection gauge, and protective eyewear for Electrical Consumption and Metering.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 8."
@@ -2698,10 +2690,12 @@
         "left_header": "Req 8a: Meter Consumption and Billing",
         "right_header": "Req 8b: Utility Tariff Fee Analysis",
         "left_points": [
-          "(8a) Meter Consumption and Billing: Electric meters register cumulative energy consumption using either cyclometer digital numbers or five geared analog dials. Multiplying the kilowatt-hour difference by the rate tariff calculates the total baseline energy expense."
+          "(8a) Meter Consumption and Billing: Electric meters register cumulative energy consumption using either cyclometer digital numbers or five geared analog dials. Multiplying the kilowatt-hour difference by the rate tariff calculates the total baseline energy expense.",
+          "Meter Dial Interpretation: Mechanical meter dials rotate in alternating directions to register cumulative energy consumption."
         ],
         "right_points": [
-          "(8b) Utility Tariff Fee Analysis: Electric bills itemize generation charges, delivery tariffs, and statutory taxes or administrative surcharges. These separate line items support grid maintenance, public assistance programs, and local municipal franchise fees."
+          "(8b) Utility Tariff Fee Analysis: Electric bills itemize generation charges, delivery tariffs, and statutory taxes or administrative surcharges. These separate line items support grid maintenance, public assistance programs, and local municipal franchise fees.",
+          "(8c) Household Energy Conservation Practices: Residential energy conservation targets major thermal loads such as space conditioning, water heating, and refrigeration. Installing programmable thermostats, sealing air leaks, and utilizing high efficiency luminaires dramatically lower energy draw."
         ],
         "rows": [
           {
@@ -2711,26 +2705,27 @@
           },
           {
             "attribute": "Kilowatt Hour Metric",
-            "left": "Req 8a: Meter Consumption: Electric meters register cumulative energy consumption using either cyclometer digital numbers or five geared analog dials. Multiplying the kilowatt-hour difference by the rate tariff calculates the total baseline energy expense.",
-            "right": "Req 8b: Utility Tariff Fee Analysis: Electric bills itemize generation charges, delivery tariffs, and statutory taxes or administrative surcharges. These separate line items support grid maintenance, public assistance programs, and local municipal franchise fees."
+            "left": "Meter Dial Interpretation: Mechanical meter dials rotate in alternating directions to register cumulative energy consumption.",
+            "right": "(8c) Household Energy Conservation Practices: Residential energy conservation targets major thermal loads such as space conditioning, water heating, and refrigeration. Installing programmable thermostats, sealing air leaks, and utilizing high efficiency luminaires dramatically lower energy draw."
           },
           {
             "attribute": "Billing Component Breakdown",
-            "left": "Req 8c: Household Energy: Residential energy conservation targets major thermal loads such as space conditioning, water heating, and refrigeration. Installing programmable thermostats, sealing air leaks, and utilizing high efficiency luminaires dramatically lower energy draw.",
-            "right": "Kilowatt Hour Metric: One kilowatt-hour equals one thousand watts of continuous power consumption for one hour."
+            "left": "Billing Component Breakdown: Electric utility invoices separate volumetric energy supply charges from fixed distribution infrastructure fees.",
+            "right": "Efficiency Conservation Actions: Lowering heating thermostats and using energy efficient lighting significantly reduces monthly energy draw."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 8 Exemplar Workbook Entry: Reading",
+        "title": "Electricity Req 8 Worked Example: Electrical Consumption and Metering",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Meter Consumption and Billing": "Electric meters register cumulative energy consumption using either cyclometer digital numbers or five geared analog dials. Multiplying the kilowatt-hour difference by the rate tariff calculates the total baseline energy expense.",
-          "Req 8b - Utility Tariff Fee Analysis": "Electric bills itemize generation charges, delivery tariffs, and statutory taxes or administrative surcharges. These separate line items support grid maintenance, public assistance programs, and local municipal franchise fees.",
-          "Req 8c - Household Energy Conservation": "Residential energy conservation targets major thermal loads such as space conditioning, water heating, and refrigeration. Installing programmable thermostats, sealing air leaks, and utilizing high efficiency luminaires dramatically lower energy draw."
+          "Phase 1 - Meter Dial Reading": "Record the pointer positions on all electric utility meter dials from left to right.",
+          "Phase 2 - Energy Consumption Calculation": "Subtract the prior billed meter reading from current figures to find kilowatt-hours consumed.",
+          "Phase 3 - Financial Cost Computation": "Multiply calculated kilowatt-hours by the stated utility rate to determine total energy costs.",
+          "Phase 4 - Conservation Strategy": "Identify five household behavioral changes that reduce overall kilowatt-hour consumption each month."
         },
-        "sample_output": "Reading Meters and Conserving Energy: On the fourth dial, the pointer is between 9 and 0 (p. 57).",
-        "counselor_tip": "For Electricity Requirement 8 (Reading Meters and Conserving Energy), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58))."
+        "sample_output": "Utility meters measure cumulative electrical energy consumption in kilowatt-hours over distinct billing periods. Analyzing billing tariffs, utility fees, and consumption habits allows families to enact effective conservation measures.",
+        "counselor_tip": "During the Electricity Requirement 8 conference on Electrical Consumption and Metering, verify that the Scout can explain meter dial interpretation and demonstrate conservation strategy: Identify five household behavioral changes that reduce overall kilowatt-hour consumption each month."
       },
       "quiz_item": {
         "scenario_prompt": "When reading an analog dial electric meter and the pointer is between 9 and 0, which digit should you write down?",
@@ -3201,7 +3196,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Fundamental Electrical Property",
+        "left_header": "Req 9a: Fundamental Electrical Property Terms",
         "right_header": "Req 9c: System Conditions and Faults",
         "left_points": [
           "(9a) Fundamental Electrical Property Terms: Current represents the flow of electric charge, while voltage expresses electrical potential difference between points. Resistance quantifies opposition to current flow, and power represents the time rate of energy consumption.",
@@ -3224,22 +3219,22 @@
           },
           {
             "attribute": "Grounding Reference Path",
-            "left": "Req 9a: Fundamental Electrical: Current represents the flow of electric charge, while voltage expresses electrical potential difference between points. Resistance quantifies opposition to current flow, and power represents the time rate of energy consumption.",
-            "right": "Req 9b: Standard Electrical Units: Amperes measure current volume, volts quantify electrical pressure, and ohms express conductor resistance. Watts measure instantaneous electrical power, while watt-hours quantify total energy expended over time."
+            "left": "Grounding Reference Path: Electrical ground establishes a zero volt reference point and safety fault return path.",
+            "right": "Current Rectification Equipment: Solid state rectifiers convert alternating current into smooth direct current for digital circuits."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 9 Exemplar Workbook Entry: Core",
+        "title": "Electricity Req 9 Worked Example: Electrical Theory and Terminology",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 9a - Fundamental Electrical": "Current represents the flow of electric charge, while voltage expresses electrical potential difference between points. Resistance quantifies opposition to current flow, and power represents the time rate of energy consumption.",
-          "Req 9b - Standard Electrical Units": "Amperes measure current volume, volts quantify electrical pressure, and ohms express conductor resistance. Watts measure instantaneous electrical power, while watt-hours quantify total energy expended over time.",
-          "Req 9c - System Conditions and Faults": "An open circuit completely breaks continuity, halting all current flow, whereas a short circuit bypasses load resistance entirely. Overvoltage conditions deliver excessive potential difference that can damage sensitive semiconductor components.",
-          "Req 9d - Distribution Equipment": "Inverters convert direct current into alternating current, while rectifiers change alternating current into direct current. Ground fault circuit interrupters monitor current balance between ungrounded and neutral lines to prevent electrocution."
+          "Phase 1 - Fundamental Terminology": "Define current, voltage, resistance, electrical energy, and power using precise physical descriptions.",
+          "Phase 2 - Standard Units Matching": "Pair each electrical quantity with its international metric unit of measurement and symbol.",
+          "Phase 3 - Circuit Condition Analysis": "Compare open circuits, short circuits, grounded lines, and overvoltage states using schematic diagrams.",
+          "Phase 4 - Equipment Role Examination": "Explain how transformers, rectifiers, inverters, and interrupters modify and protect electrical distribution."
         },
-        "sample_output": "Core Electrical Terms and Equipment: Usually identified by black or red insulation. insulation (p. 29).",
-        "counselor_tip": "For Electricity Requirement 9 (Core Electrical Terms and Equipment), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53))."
+        "sample_output": "Electrical systems function according to fundamental physical principles governing charge motion, potential difference, and material impedance. Specialized equipment transforms voltage levels, rectifies alternating waveform polarities, and routes stray fault currents safely to earth.",
+        "counselor_tip": "During the Electricity Requirement 9 conference on Electrical Theory and Terminology, verify that the Scout can explain current flow measurement and demonstrate equipment role examination: Explain how transformers, rectifiers, inverters, and interrupters modify and protect electrical distribution."
       },
       "quiz_item": {
         "scenario_prompt": "Which electrical device converts direct current from a battery or solar panel into alternating current for household appliances?",
@@ -3873,17 +3868,15 @@
         "Engineering logbook and technical specification sheet for Electricity Requirement 10."
       ],
       "comparison_data": {
-        "left_header": "Req 10a: Basic Switched Indicator",
-        "right_header": "Req 10d: Double Throw Switching",
+        "left_header": "Req 10a: Basic Switched Indicator Circuit",
+        "right_header": "Req 10d: Double Throw Switching Mechanism",
         "left_points": [
           "(10a) Basic Switched Indicator Circuit: A basic control circuit places a mechanical switch or telegraph key in series with an electrical load and battery. Closing the switch provides an unbroken conductive path for current flow to activate the device.",
-          "(10b) Direct Current Motor Assembly: Electric motors convert direct current electrical energy into mechanical rotational torque through magnetic field interactions. Commutators or scraped coil leads alternate rotor magnetic polarity at each half rotation to sustain continuous turning.",
-          "(10c) Variable Rheostat Resistance Construction: A rheostat acts as a variable resistor by moving a sliding contact along a coiled resistive wire. Lengthening the conductor path increases circuit resistance, reducing current flow to dim lamps or slow motors."
+          "(10b) Direct Current Motor Assembly: Electric motors convert direct current electrical energy into mechanical rotational torque through magnetic field interactions. Commutators or scraped coil leads alternate rotor magnetic polarity at each half rotation to sustain continuous turning."
         ],
         "right_points": [
           "(10d) Double Throw Switching Mechanism: A single pole double throw switch incorporates a movable center contact that pivots between two alternate terminal positions. This configuration routes supply current selectively to one of two distinct indicator loads.",
-          "(10e) Three Way Lighting Control: Three-way switching circuits use two single pole double throw switches linked by a pair of traveler conductors. Flipping either switch completes or interrupts the circuit path regardless of the other switch position.",
-          "(10f) Series and Parallel Circuits: Series circuits provide a single conductive loop where total resistance equals the sum of individual component resistances. Parallel circuits provide independent conductive branches where each branch receives full source voltage."
+          "(10e) Three Way Lighting Control: Three-way switching circuits use two single pole double throw switches linked by a pair of traveler conductors. Flipping either switch completes or interrupts the circuit path regardless of the other switch position."
         ],
         "rows": [
           {
@@ -3898,22 +3891,22 @@
           },
           {
             "attribute": "Variable Rheostat Function",
-            "left": "(10c) Variable Rheostat Resistance Construction: A rheostat acts as a variable resistor by moving a sliding contact along a coiled resistive wire. Lengthening the conductor path increases circuit resistance, reducing current flow to dim lamps or slow motors.",
-            "right": "(10f) Series and Parallel Circuits: Series circuits provide a single conductive loop where total resistance equals the sum of individual component resistances. Parallel circuits provide independent conductive branches where each branch receives full source voltage."
+            "left": "Variable Rheostat Function: Sliding rheostat contacts adjust internal conductor resistance to control circuit current delivery.",
+            "right": "Rotary Motor Induction: Commutators switch armature coil polarities to sustain continuous shaft rotation inside magnetic fields."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 10 Exemplar Workbook Entry: Hands-On",
+        "title": "Electricity Req 10 Worked Example: Circuit Construction and Experiments",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 10a - Basic Switched Indicator": "A basic control circuit places a mechanical switch or telegraph key in series with an electrical load and battery. Closing the switch provides an unbroken conductive path for current flow to activate the device.",
-          "Req 10b - Direct Current Motor": "Electric motors convert direct current electrical energy into mechanical rotational torque through magnetic field interactions. Commutators or scraped coil leads alternate rotor magnetic polarity at each half rotation to sustain continuous turning.",
-          "Req 10c - Variable Rheostat Resistance": "A rheostat acts as a variable resistor by moving a sliding contact along a coiled resistive wire. Lengthening the conductor path increases circuit resistance, reducing current flow to dim lamps or slow motors.",
-          "Req 10d - Double Throw Switching": "A single pole double throw switch incorporates a movable center contact that pivots between two alternate terminal positions. This configuration routes supply current selectively to one of two distinct indicator loads."
+          "Phase 1 - Series Circuit Assembly": "Wire two incandescent lamps in series across a battery and single pole switch.",
+          "Phase 2 - Series Performance Observation": "Close the switch and record lamp brightness, then unscrew one lamp to test continuity.",
+          "Phase 3 - Parallel Circuit Rewiring": "Reconnect both incandescent lamps across the battery in parallel using separate branch jumpers.",
+          "Phase 4 - Comparative Difference Analysis": "Compare parallel lamp brightness and independent branch operation against the series circuit baseline."
         },
-        "sample_output": "Hands-On Electrical Circuit Projects: A flash of light and a smell of burning insulation indicate a short circuit (p. 48).",
-        "counselor_tip": "For Electricity Requirement 10 (Hands-On Electrical Circuit Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49))."
+        "sample_output": "Practical circuit construction validates theoretical electrical behaviors by linking loads, power cells, and controlling switches. Breadboarding series and parallel loads demonstrates how circuit topology dictates voltage distribution, current draw, and component reliability.",
+        "counselor_tip": "During the Electricity Requirement 10 conference on Circuit Construction and Experiments, verify that the Scout can explain series circuit continuity and demonstrate comparative difference analysis: Compare parallel lamp brightness and independent branch operation against the series circuit baseline."
       },
       "quiz_item": {
         "scenario_prompt": "What happens when you connect two lamps in a parallel circuit with a battery and then unscrew one of the lamps?",
@@ -4075,47 +4068,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 11: General Electrical Industry",
-        "right_header": "Req 11: Compare Degree and Trade Paths",
+        "left_header": "Electrical Trade Career Pathways: Core Principles",
+        "right_header": "Electrical Trade Career Pathways: Field Execution",
         "left_points": [
-          "General Electrical Industry Areas: The electrical industry has several general areas with many types of careers available in each area (p. 73).",
-          "Manufacturing Construction and Engineering: These areas include manufacturing, construction, merchandising, operating, servicing or maintaining, and engineering electrical parts, equipment (p. 73).",
-          "College and Vocational Education: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 73)."
+          "Apprenticeship Training Standards: Union and trade apprenticeships require four years of classroom instruction and field work.",
+          "Licensure Exam Requirements: Professional electricians must pass thorough examinations covering the National Electrical Code regulations."
         ],
         "right_points": [
-          "Compare Degree and Trade Paths: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 73).",
-          "Complete High School Education: Some companies allow on-the-job training, but almost all require at least a high school diploma (p. 73).",
-          "Explore Power Generation Stations: In electricity manufacturing (electrical generating stations, transmission, and distribution substation systems) positions are available (p. 73)."
+          "Engineering Degree Prerequisites: Electrical engineering careers demand accredited university bachelor degrees in calculus and physics.",
+          "Career Industry Diversity: Qualified electrical personnel work in power generation, industrial automation, telecommunications, and construction."
         ],
         "rows": [
           {
             "attribute": "Apprenticeship Training Standards",
-            "left": "General Electrical Industry Areas: The electrical industry has several general areas with many types of careers available in each area (p. 73).",
-            "right": "Compare Degree and Trade Paths: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 73)."
+            "left": "Apprenticeship Training Standards: Union and trade apprenticeships require four years of classroom instruction and field work.",
+            "right": "Engineering Degree Prerequisites: Electrical engineering careers demand accredited university bachelor degrees in calculus and physics."
           },
           {
             "attribute": "Licensure Exam Requirements",
-            "left": "Manufacturing Construction and Engineering: These areas include manufacturing, construction, merchandising, operating, servicing or maintaining, and engineering electrical parts, equipment (p. 73).",
-            "right": "Complete High School Education: Some companies allow on-the-job training, but almost all require at least a high school diploma (p. 73)."
+            "left": "Licensure Exam Requirements: Professional electricians must pass thorough examinations covering the National Electrical Code regulations.",
+            "right": "Career Industry Diversity: Qualified electrical personnel work in power generation, industrial automation, telecommunications, and construction."
           },
           {
             "attribute": "Engineering Degree Prerequisites",
-            "left": "College and Vocational Education: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 73).",
-            "right": "Explore Power Generation Stations: In electricity manufacturing (electrical generating stations, transmission, and distribution substation systems) positions are available (p. 73)."
+            "left": "Engineering Degree Prerequisites: Electrical engineering careers demand accredited university bachelor degrees in calculus and physics.",
+            "right": "Career Industry Diversity: Qualified electrical personnel work in power generation, industrial automation, telecommunications, and construction."
           }
         ]
       },
       "worked_example": {
-        "title": "Electricity Req 11 Exemplar Workbook Entry: Exploring",
+        "title": "Electricity Req 11 Worked Example: Electrical Trade Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "General Electrical Industry Areas": "The electrical industry has several general areas with many types of careers available in each area (p. 73).",
-          "Manufacturing Construction": "These areas include manufacturing, construction, merchandising, operating, servicing or maintaining, and engineering electrical parts, equipment (p. 73).",
-          "College and Vocational Education": "Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 73).",
-          "Diploma and Training Requirements": "Some companies allow on-the-job training, but almost all require at least a high school diploma (p. 73)."
+          "Phase 1 - Career Field Exploration": "Identify three distinct career opportunities utilizing applied electrical science and practical trade skills.",
+          "Phase 2 - Education Pathway Selection": "Select one specific electrical trade or engineering profession for detailed career research.",
+          "Phase 3 - Action Phase 3": "Document the necessary postsecondary degrees, vocational apprenticeships, state licenses, and associated costs.",
+          "Phase 4 - Career Trajectory Summary": "Compile findings into a structured report outlining job responsibilities, compensation, and career growth."
         },
-        "sample_output": "Exploring Careers in Electricity: The electrical industry has several general areas with many types of careers available in each area (p. 73).",
-        "counselor_tip": "For Electricity Requirement 11 (Exploring Careers in Electricity), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electricity Merit Badge Pamphlet (p. 73, p. 74))."
+        "sample_output": "The electrical industry encompasses varied career tracks ranging from licensed residential and commercial electricians to professional electrical engineers. Entering these fields requires formal technical education, apprenticeships, passing licensing examinations, and mastering National Electrical Code safety standards.",
+        "counselor_tip": "During the Electricity Requirement 11 conference on Electrical Trade Career Pathways, verify that the Scout can explain apprenticeship training standards and demonstrate career trajectory summary: Compile findings into a structured report outlining job responsibilities, compensation, and career growth."
       },
       "quiz_item": {
         "scenario_prompt": "Which statement accurately describes the education and training requirements across different careers in the electrical industry?",

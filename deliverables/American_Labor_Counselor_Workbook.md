@@ -35,7 +35,6 @@
 ### Req 1: American Worker Concerns and Priorities
 **Official Requirement 1:** Using resources available to you, learn about working people and work-related concerns. List and briefly describe or give examples of at least EIGHT concerns of American workers. These may include, but are not limited to, working conditions, workplace safety, hours, wages, seniority, job security, equal-opportunity employment and discrimination, guest workers, automation and technologies that replace workers, unemployment, layoffs, outsourcing, and employee benefits such as health care, child care, profit sharing, continuing education, and retirement benefits.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 12, p. 44)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Contemporary Workplace Concerns)
-> **Guide to Safe Scouting Warning:** When interviewing laborers or touring worksites, remain inside designated pedestrian lanes and wear high-visibility vests.
 - **Common Myth:** Scouts often believe that modern worker concerns center entirely around hourly take-home pay.
 - **Pamphlet Fact:** American worker priorities encompass retirement funding, occupational safety guidelines, healthcare provisions, and job security guarantees.
 
@@ -58,7 +57,6 @@
 ### Req 2: Labor Organization Site Visit Protocols
 **Official Requirement 2 (Parent Overview):** With your counselor's and parent or guardian's approval and permission, visit the office or attend a meeting of a local union, a central labor council, or an employee organization, or contact one of these organizations via the internet. Then do the following: (a) Find out what the organization does. (b) Share the list of issues and concerns you made for requirement 1. Ask the people you communicate with which issues are of greatest interest or concern to them and why. (c) Draw a diagram showing how the organization is structured, from the local to the national level, if applicable.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Obtain Youth Protection trained adult accompaniment before visiting offsite union halls or conducting internet conferences.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete American Labor Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Beginners often think labor unions only exist at individual job sites without broader affiliations.
 - **Pamphlet Fact:** Local unions typically affiliate with national federations and regional labor councils for legislative and bargaining solidarity.
@@ -73,15 +71,8 @@
 **Official Requirement 2a:** Find out what the organization.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Out What the Organization)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete American Labor Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Novices often assume all labor organizations function solely as political action committees.
-- **Pamphlet Fact:** Labor organizations primarily exist to negotiate employment terms, administer healthcare trusts, and run certified apprenticeship schools.
 
-**Gear & Readiness Checklist:**
-- [ ] Official American Labor Merit Badge: With your counselor's and parent.
-- [ ] Field notebook, verification log sheet, and demonstration materials for With your counselor's and parent.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![American Labor Requirement 2 figure showing local union headquarters coordinate member dispatch schedules, apprenticeship courses.](/assets/pamphlet_images/american_labor_p007_img1.png)
+![Local union headquarters coordinate member dispatch schedules, apprenticeship courses, and community outreach programs.](/assets/pamphlet_images/american_labor_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,8 +83,6 @@
 #### Req 2b: Worker Issue Alignment Comparison
 **Official Requirement 2b:** Share the list of issues and concerns you made for requirement 1. Ask the people you communicate with which issues are of greatest interest or concern to them.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Issues and Concerns You Made)
-- **Common Myth:** Scouts sometimes think union leaders and rank-and-file workers always prioritize the exact same issues.
-- **Pamphlet Fact:** Surveys frequently show varying concerns between apprentice trainees seeking training and veteran workers prioritizing retirement pensions.
 
 ![Garment workers carry protest banners advocating for safer working conditions and fair wages.](/assets/pamphlet_images/american_labor_p017_img1.png)
 
@@ -107,10 +96,8 @@
 #### Req 2c: Union Structural Hierarchy Mapping
 **Official Requirement 2c:** Draw a diagram showing how the organization is structured, from the local to the national level, if applicable.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2c Structured Technical Study & Explanation Matrix (Showing How the Organization Is)
-- **Common Myth:** Many individuals assume national labor leaders dictate all decisions to local union halls.
-- **Pamphlet Fact:** Local unions operate autonomously under specific bylaws, electing their own officers and voting on contracts.
 
-![American Labor Requirement 1 figure showing base compensation rates must adjust periodically to match regional consumer price index.](/assets/pamphlet_images/american_labor_p003_img1.png)
+![Base compensation rates must adjust periodically to match regional consumer price index escalations.](/assets/pamphlet_images/american_labor_p003_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -129,7 +116,6 @@
 ### Req 3: Core Labor Union Concepts
 **Official Requirement 3:** Explain to your counselor what labor unions are, what they do, and what services they provide to members. In your discussion, show that you understand the concepts of labor, management, collective bargaining, negotiation, union shops, open shops, grievance procedures, mediation, arbitration, work stoppages, strikes, and lockouts.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 19, p. 34)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Labor Union Structure and Federation)
-> **Guide to Safe Scouting Warning:** When studying labor strikes or picket lines, maintain respectful physical distance from active demonstration zones.
 - **Common Myth:** Scouts frequently confuse mediation with binding arbitration when resolving labor contract impasses.
 - **Pamphlet Fact:** Mediators recommend non-binding compromises, whereas arbitrators issue binding legal rulings that both parties must obey.
 
@@ -151,7 +137,6 @@
 ### Req 4: Labor Management Relationship Models
 **Official Requirement 4:** Explain what is meant by the adversarial model of labor-management relations, compared with a cooperative-bargaining style.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 49, p. 57)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Adversarial vs. Cooperative Labor Models)
-> **Guide to Safe Scouting Warning:** During simulation exercises, practice professional verbal decorum to model constructive workplace conflict resolution.
 - **Common Myth:** People often believe labor relations are naturally hostile and cannot function cooperatively.
 - **Pamphlet Fact:** Modern labor-management partnerships frequently use interest-based bargaining to achieve mutual gains and market competitiveness.
 
@@ -172,7 +157,6 @@
 ### Req 5: American Labor Movement History
 **Official Requirement 5 (Parent Overview):** Do ONE of the following: (a) Develop a time line of significant events in the history of the American labor movement from the 1770s to the present. (b) Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show, illustrating three major achievements of the American labor movement and how those achievements affect American workers. (c) With your counselor's and parent or guardian's approval and permission, watch a movie that addresses organized labor in the United States. Afterward, discuss the movie with your counselor and explain what you learned. (d) Read a biography (with your counselor's approval) of someone who has made a contribution to the American labor movement. Explain what contribution this person has made to the American labor movement.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow internet safety guidelines and parental oversight protocols when conducting online historical archive research.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your American Labor Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Beginners often think modern workplace protections like the weekend were voluntarily created by employers.
 - **Pamphlet Fact:** The forty-hour workweek, minimum wage, and overtime pay were secured through decades of labor strikes and legislation.
@@ -187,8 +171,6 @@
 **Official Requirement 5a:** Develop a timeline of significant events in the history of the American labor movement from the 1770s to the present.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (American Labor Origins and Evolution)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your American Labor Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Scouts sometimes think labor unions only started forming during the Great Depression.
-- **Pamphlet Fact:** American trade unions formed as early as the 1790s among skilled urban artisans such as shoemakers and printers.
 
 ![A union leader delivers an address to members while presenting labor contract documents.](/assets/pamphlet_images/american_labor_p018_img1.png)
 
@@ -201,8 +183,6 @@
 #### Req 5b: Labor Achievement Exhibit Creation
 **Official Requirement 5b:** Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show, illustrating three major achievements of the American labor movement and how those achievements affect American workers.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Exhibit A Scrapbook or A)
-- **Common Myth:** Novices often assume child labor ended naturally due to changing social manners alone.
-- **Pamphlet Fact:** Federal child labor bans required constitutional testing, intense union lobbying, and the Fair Labor Standards Act of 1938.
 
 ![Laborers assemble during a historic industrial dispute to demand improved conditions.](/assets/pamphlet_images/american_labor_p013_img1.png)
 
@@ -216,8 +196,6 @@
 **Official Requirement 5c:** With your counselor's and parent or guardian's approval and permission, watch a movie that addresses organized labor in the United States. Afterward, discuss the movie with your counselor and explain what you learned.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Permission Watch A Movie That)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete American Labor Req 5c with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Viewers frequently confuse dramatic Hollywood embellishments with strict historical labor events.
-- **Pamphlet Fact:** Cinema often dramatizes composite characters, requiring scouts to cross-reference film scenes with verified historical records.
 
 ![Labor organizer A. Philip Randolph championed fair employment and union representation.](/assets/pamphlet_images/american_labor_p018_img2.png)
 
@@ -232,8 +210,6 @@
 **Official Requirement 5d:** Read a biography (with your counselor's approval) of someone who has made a contribution to the American labor movement. Explain what contribution this person has made to the American labor movement.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Biography Someone Made Contribution)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your American Labor Req 5d preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Many believe labor leaders acted solely as public orators without administrative organizational roles.
-- **Pamphlet Fact:** Effective labor pioneers spent years establishing strike relief funds, legal defense teams, and grassroots communication networks.
 
 ![Union members carry signs along a picket line demanding workplace safety and security.](/assets/pamphlet_images/american_labor_p031_img1.png)
 
@@ -247,7 +223,6 @@
 ### Req 6: Workforce Globalization Economic Impact
 **Official Requirement 6:** Explain the term globalization. Discuss with your counselor some effects of globalization on the workforce in the United States. Explain how this global workforce fits into the economic system of this country.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 12, p. 24)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Globalization and Workforce Impacts)
-> **Guide to Safe Scouting Warning:** When researching international supply chains online, verify sources against reputable governmental and academic economic databases.
 - **Common Myth:** People often believe globalization only causes domestic job losses without generating new economic opportunities.
 - **Pamphlet Fact:** While globalization disrupts domestic manufacturing, it simultaneously expands export logistics, high-tech engineering, and international service sectors.
 
@@ -270,7 +245,6 @@
 ### Req 7: Contemporary Labor Issue Debate
 **Official Requirement 7:** Choose a labor issue of widespread interest to American workers, an issue in the news currently or known to you from your work on this merit badge. Before your counselor, or in writing, argue both sides of the issue, first taking management's side, then presenting labor's or the employee's point of view. In your presentation, summarize the basic rights and responsibilities of employers and employees, including union members and nonunion members.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 43, p. 55)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Major Labor Issue Case Study)
-> **Guide to Safe Scouting Warning:** Maintain civility and avoid personal insults when debating sensitive workplace and economic topics.
 - **Common Myth:** Beginners often assume one side in a labor dispute is always completely ethical while the other is wrong.
 - **Pamphlet Fact:** Labor disputes involve genuine competing needs, balancing enterprise profitability and investment against employee security and safety.
 
@@ -293,7 +267,6 @@
 ### Req 8: Business Stakeholder Motivations and Compromise
 **Official Requirement 8:** Discuss with your counselor the different goals that may motivate the owners of a business, its stockholders, its customers, its employees, the employees' representatives, the community, and public officials. Explain why agreements and compromises are made and how they affect each group in achieving its goals.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 46, p. 47)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Collective Bargaining Negotiations)
-> **Guide to Safe Scouting Warning:** When analyzing corporate closures or layoffs, address the real human and community economic impacts with maturity.
 - **Common Myth:** Scouts often think businesses exist solely to satisfy the desires of stockholders while ignoring other groups.
 - **Pamphlet Fact:** Sustainable enterprises must balance shareholder profits against employee retention, customer satisfaction, and municipal tax support.
 
@@ -315,7 +288,6 @@
 ### Req 9: Labor Relations Professional Careers
 **Official Requirement 9:** Learn about opportunities in the field of labor relations. Choose one career in which you are interested and discuss with your counselor the major responsibilities of that position and the qualifications, education, and training such a position requires.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 58, p. 61)* • **Organizer (Career & Profession Exploration Card):** Req 9 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Observe professional workplace etiquette and data privacy standards when conducting informational interviews with industry professionals.
 - **Common Myth:** Many believe labor relations careers only exist within labor unions.
 - **Pamphlet Fact:** Corporations, government agencies, non-profit institutions, and independent consulting firms all employ dedicated labor relations specialists.
 

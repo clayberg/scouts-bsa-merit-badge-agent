@@ -35,7 +35,6 @@
 ### Req 1: Global Auction History Evolution
 **Official Requirement 1:** Discuss with your counselor the history of auctions worldwide. Cite where these auctions were held and the types of items sold.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
-> **Guide to Safe Scouting Warning:** Maintain safe situational awareness when handling historical artifacts or touring aged estate archives during provenance research.
 - **Common Myth:** Auctions originated as a modern American invention for selling salvaged agricultural equipment and surplus household goods.
 - **Pamphlet Fact:** Auctions originated in ancient Babylon and Rome thousands of years before American colonial auction houses formed.
 
@@ -57,7 +56,6 @@
 ### Req 2: Operational Auction Team Roles
 **Official Requirement 2:** Describe to your counselor the different roles in an auction.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Roles in An Auction)
-> **Guide to Safe Scouting Warning:** Position ringmen and runners clear of falling merchandise and vehicular traffic lanes in live auction rings.
 - **Common Myth:** The auctioneer manages the entire auction alone from the podium without needing clerical or spotting support.
 - **Pamphlet Fact:** Professional auctions require ringmen, clerks, runners, and cashiers working simultaneously to ensure legal and financial accuracy.
 
@@ -78,7 +76,6 @@
 ### Req 3: Auction Versus Traditional Sales
 **Official Requirement 3:** Describe to your counselor the differences and similarities between the auction method and the traditional method of sales.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 16-21* • **Organizer (2-Column Comparison Table):** Req 3 Technical Comparison Matrix (Similarities Between the Auction)
-> **Guide to Safe Scouting Warning:** Examine auction preview sites for trip hazards, loose electrical cables, and unstable stacked lot staging.
 - **Common Myth:** Auctions are only suitable as a desperate last resort for distressed goods sold below wholesale value.
 - **Pamphlet Fact:** Auctions frequently achieve record premium prices for unique assets through intense, transparent open market competitive bidding.
 
@@ -99,7 +96,6 @@
 ### Req 4: Professional Auctioneer Field Engagement
 **Official Requirement 4 (Parent Overview):** With permission from your parents or Guardian, contact a professional auctioneer and record an interview with the auctioneer that lasts approximately 5 to 10 minutes. Do one of the following: (A) Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer. (B) Attend a live auction of any type. Take notes on what is occurring during the auction and how the auctioneer interacts with the bidders, and discuss them with your counselor. (C) View an online auction until the sale is concluded and discuss it with your counselor.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 22-27* • **Group Organizer:** Activity & Observation Log
-> **Guide to Safe Scouting Warning:** Wear high visibility vests and stay within authorized visitor pathways when shadowing auctioneers in active commercial yards.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Auctioneering Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Auctioneers only work during the few hours when they stand at the podium calling bids.
 - **Pamphlet Fact:** Auctioneers dedicate eighty percent of their business time to marketing, cataloging, contract negotiation, and settlement accounting.
@@ -114,10 +110,8 @@
 **Official Requirement 4A:** Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4A Structured Technical Study & Explanation Matrix (Shadow That Auctioneer for A)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Auctioneering Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Shadowing an auctioneer consists entirely of listening to rapid chant practice in an office setting.
-- **Pamphlet Fact:** Shadowing exposes candidates to lot staging, client contract negotiations, consignor accounting, and equipment load outs.
 
-![Auctioneering Requirement 4 figure showing prepare concise questions covering business licensing, client acquisition, and daily.](/assets/pamphlet_images/auctioneering_p004_img1.png)
+![Prepare concise questions covering business licensing, client acquisition, and daily operational auction hurdles.](/assets/pamphlet_images/auctioneering_p004_img1.png)
 
 | Req 4A Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -128,10 +122,8 @@
 #### Req 4B: Live Auction Field Observation
 **Official Requirement 4B:** Attend a live auction of any type. Take notes on what is occurring during the auction and how the auctioneer interacts with the bidders, and discuss them with your counselor.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4B Structured Technical Study & Explanation Matrix (Live Auction)
-- **Common Myth:** Bid spotters only look for bidders who jump up or wave their arms frantically.
-- **Pamphlet Fact:** Trained ringmen watch for subtle physical cues like pen taps, slight head nods, and raised eyebrows.
 
-![Auctioneering Requirement 6 figure showing a chant alternates between the current bid accepted and the next bid requested.](/assets/pamphlet_images/auctioneering_p006_img1.png)
+![A chant alternates between the current bid accepted and the next bid requested.](/assets/pamphlet_images/auctioneering_p006_img1.png)
 
 | Req 4B Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -143,8 +135,6 @@
 #### Req 4C: Online Auction Process Analysis
 **Official Requirement 4C:** View an online auction until the sale is concluded and discuss it with your counselor.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4C Structured Technical Study & Explanation Matrix (View An Online Auction Until)
-- **Common Myth:** Online auctions close instantly at a predetermined minute regardless of active last second bids.
-- **Pamphlet Fact:** Most online auction software features dynamic soft close timers extending bidding whenever late bids occur.
 
 | Req 4C Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -155,7 +145,6 @@
 ### Req 5: Asset Categories and Formats
 **Official Requirement 5 (Parent Overview):** Discuss with your counselor: (A) Types of assets sold at auction (B) Types of customers you would be selling these assets for (C) List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus a simulcast auction
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Confirm stable footing and beware of blind spots around heavy equipment display ramps during asset previews.
 - **Common Myth:** Online auctions have made live in person outcry auctions obsolete across every commercial asset category.
 - **Pamphlet Fact:** Live auctions remain the preferred industry standard for livestock, heavy machinery, and local community benefit sales.
 
@@ -168,10 +157,8 @@
 #### Req 5A: Auctionable Asset Classifications
 **Official Requirement 5A:** Types of assets sold at auction.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5A Structured Technical Study & Explanation Matrix (Assets Sold at Auction)
-- **Common Myth:** Only second hand used household furniture and old knickknacks sell at commercial auctions.
-- **Pamphlet Fact:** Multimillion dollar industrial manufacturing plants, commercial real estate, and municipal utilities routinely sell at auction.
 
-![Auctioneering Requirement 5 figure showing auction companies appraise and liquidate real estate, construction machinery, municipal.](/assets/pamphlet_images/auctioneering_p005_img1.png)
+![Auction companies appraise and liquidate real estate, construction machinery, municipal fleets, and fine art.](/assets/pamphlet_images/auctioneering_p005_img1.png)
 
 | Req 5A Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -182,8 +169,6 @@
 #### Req 5B: Auction Consignor Client Types
 **Official Requirement 5B:** Types of customers you would be selling these assets.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5B Structured Technical Study & Explanation Matrix (Customers You Would Be Selling)
-- **Common Myth:** Auction clients are simply casual everyday shoppers who want to get rid of junk.
-- **Pamphlet Fact:** Primary consignors include fiduciary attorneys, commercial banking officers, estate executors, and corporate liquidators.
 
 | Req 5B Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -194,8 +179,6 @@
 #### Req 5C: Auction Delivery Format Selection
 **Official Requirement 5C:** List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus a simulcast auction.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Organizer (2-Column Comparison Table):** Req 5C Technical Comparison Matrix (Auction Formats and the Benefits)
-- **Common Myth:** Simulcast auctions require remote bidders to phone in bids manually to an assistant.
-- **Pamphlet Fact:** Simulcast platforms stream live audio and video while instantly syncing internet clicks with floor bidding.
 
 | Comparison Dimension | Absolute No-Reserve Auction Format | Reserve Minimum-Price Auction Format |
 | :--- | :--- | :--- |
@@ -206,7 +189,6 @@
 ### Req 6: Auction Chant Development Practice
 **Official Requirement 6:** Develop and practice your auction chant. Perform the auction chant for your counselor and at a unit meeting.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Develop and Practice Your Auction)
-> **Guide to Safe Scouting Warning:** Drink room temperature water and halt vocal practice immediately if experiencing acute throat irritation or strain.
 - **Common Myth:** An auctioneer chants rapidly solely to confuse bidders into bidding higher than they intended.
 - **Pamphlet Fact:** The chant establishes a rhythmic, clear cadence that communicates current bids and next asking prices transparently.
 
@@ -228,7 +210,6 @@
 ### Req 7: Unit Meeting Auction Execution
 **Official Requirement 7:** Plan a simple live or online auction at your unit meeting and document the steps from start to finish.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Simple Live or Online Auction)
-> **Guide to Safe Scouting Warning:** Keep aisle pathways unobstructed and assign two Scouts to lift any display boxes weighing over twenty pounds.
 - **Common Myth:** A unit auction can be run spontaneously without preparing catalog sheets or registering numbered bidder paddles.
 - **Pamphlet Fact:** Careful pre-auction cataloging and assigned bidder paddles are essential to prevent disputes over who placed winning bids.
 
@@ -249,7 +230,6 @@
 ### Req 8: Auction Industry Career Pathway
 **Official Requirement 8 (Parent Overview):** Describe for your counselor the steps you can take to become involved in the auction industry, both as a youth and an adult. Investigate and describe to your counselor what it takes to become a professional auctioneer, including (A) Auction Schools (B) Licensing (C) Future Career Paths
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 46-51* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Wear steel toed work boots and follow OSHA guidelines when assisting with physical setup in industrial auction warehouses.
 - **Common Myth:** Anyone who can speak quickly can legally set up an auction business without schooling or licensing.
 - **Pamphlet Fact:** Most jurisdictions mandate formal auction school graduation, state board licensing examinations, surety bonding, and strict ethical compliance.
 
@@ -262,8 +242,6 @@
 #### Req 8A: Auction School Curriculum Standards
 **Official Requirement 8A:** Auction Schools.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 46-51* • **Organizer (Concept & Examples Notes):** Req 8A Structured Technical Study & Explanation Matrix (Auction Schools)
-- **Common Myth:** Auction schools only teach students how to speak fast into a microphone.
-- **Pamphlet Fact:** Curricula cover Uniform Commercial Code, escrow trust accounting, business law, marketing, and asset appraisal.
 
 ![Four-panel auction career pathway showing ringman work, vocal drills, academy training, and charity auctions.](/assets/ai_illustrations/auctioneering_req_8_topic_visual.png)
 
@@ -276,8 +254,6 @@
 #### Req 8B: State Auctioneer Licensing Requirements
 **Official Requirement 8B:** Licensing.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 46-51* • **Organizer (Concept & Examples Notes):** Req 8B Structured Technical Study & Explanation Matrix (Auctioneering Licensing Principles)
-- **Common Myth:** Auctioneer licenses issued in one state automatically permit unrestricted sales in all other states.
-- **Pamphlet Fact:** Auctioneers must verify reciprocity agreements or obtain separate licenses in each state where they conduct sales.
 
 ![Professional auctioneer mentoring a Scout on auction training, state licensing, and industry standards.](/assets/ai_illustrations/auctioneering_req_8_nano_hero.png)
 
@@ -290,8 +266,6 @@
 #### Req 8C: Auction Industry Career Specializations
 **Official Requirement 8C:** Future Career Paths.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 46-51* • **Organizer (Career & Profession Exploration Card):** Req 8C Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Every auctioneer operates as a generalist selling mixed boxes of everyday secondhand merchandise.
-- **Pamphlet Fact:** Top auctioneers specialize in high value niches like classic automobiles, purebred cattle, or heavy construction equipment.
 
 | Career Research Dimension | Pamphlet & Industry Findings | Professional Interview / Source Notes |
 | :--- | :--- | :--- |
@@ -302,7 +276,6 @@
 ### Req 9: Merit Badge Program Feedback
 **Official Requirement 9:** Complete the survey below to complete the test lab requirements
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Survey Below)
-> **Guide to Safe Scouting Warning:** Follow youth online safety guidelines and obtain parental permission before submitting digital program feedback surveys.
 - **Common Myth:** The merit badge survey is an optional test where answers are graded as right or wrong.
 - **Pamphlet Fact:** The survey is a constructive feedback tool used by curriculum developers to improve future badge materials.
 

@@ -43,7 +43,7 @@
 - **Common Myth:** Weather and climate mean the exact same atmospheric condition over short durations.
 - **Pamphlet Fact:** Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions.
 
-![Weather Requirement 2 figure showing severe weather watches indicate atmospheric parameters support rapid severe convective.](/assets/pamphlet_images/weather_p007_img1.png)
+![Severe weather watches indicate atmospheric parameters support rapid severe convective storm development.](/assets/pamphlet_images/weather_p007_img1.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -267,16 +267,13 @@
 **Official Requirement 10a:** Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer. Keep a daily weather log for one week using information from this instrument as well as from other sources such as local radio and television stations, NOAA Weather Radio All Hazards, and internet sources (with your parent or guardian's permission). Record the following information at the same time every day: wind direction and speed, temperature, precipitation, and types of clouds. Be sure to make a note of any morning dew or frost. In the log, also list the weather forecasts from radio or television at the same time each day and show how the weather really turned.
 **Source:** *Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 10a Hands-On Skill Station & EDGE Verification Checklist (Instruments Wind Vane Anemometer Rain)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Weather Req 10a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Placing a rain gauge right next to an exterior house wall ensures accurate readings.
-- **Pamphlet Fact:** Rain gauges must be elevated above ground level to eliminate splashing from surrounding soil.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Weather merit badge pamphlet and daily observation log for Req 10.
 - [ ] Thermometer, barometer, anemometer, or rain gauge reference instruments.
 - [ ] NOAA synoptic weather charts, cloud identification chart, and ruler.
 - [ ] Completed weather data table and forecast notes for Weather Instruments and Professional Visits.
 
-![Weather Requirement 1 figure showing meteorology examines physical atmospheric dynamics across short and medium temporal horizons.](/assets/pamphlet_images/weather_p003_img1.png)
+![Meteorology examines physical atmospheric dynamics across short and medium temporal horizons.](/assets/pamphlet_images/weather_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -291,10 +288,8 @@
 #### Req 10b: Operational Meteorology Facility Field Study
 **Official Requirement 10b:** Visit a National Weather Service office or talk with a local radio or television weathercaster, private meteorologist, local agricultural extension service officer, or university meteorology instructor. Find out what type of weather is most dangerous or damaging to your community. Determine how severe weather and flood warnings reach the homes in your community.
 **Source:** *Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (National Weather Service Office or)
-- **Common Myth:** Television weathercasters create every weather prediction independently without utilizing federal National Weather Service data.
-- **Pamphlet Fact:** National Weather Service stations launch automated weather balloons twice daily to gather upper atmospheric profiles.
 
-![Weather Requirement 3 figure showing nOAA weather radio broadcasts continuous local forecasts across seven dedicated VHF.](/assets/pamphlet_images/weather_p012_img1.png)
+![NOAA weather radio broadcasts continuous local forecasts across seven dedicated VHF frequencies.](/assets/pamphlet_images/weather_p012_img1.png)
 
 | Req 10b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -327,7 +322,7 @@
 ### Req 12: Meteorological Careers and Professional Pathways
 **Official Requirement 12:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 74)* • **Organizer (Career & Profession Exploration Card):** Req 12 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** Observe computer workstation ergonomic standards and prevent eye strain during long forecasting shifts.
+> **Guide to Safe Scouting Warning:** Obtain parent or guardian permission before conducting internet research or scheduling a workplace visit with a meteorology professional.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Weather Req 12 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** All professional weather careers consist entirely of on air television news broadcasts.
 - **Pamphlet Fact:** Operational meteorologists frequently complete specialized degree coursework in atmospheric thermodynamics, physics, and advanced calculus.

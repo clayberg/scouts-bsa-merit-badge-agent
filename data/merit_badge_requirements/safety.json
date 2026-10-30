@@ -259,12 +259,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 1a: Core Safety Concept Definitions",
-        "right_header": "Req 1b: Systematic Hazard Management",
+        "right_header": "Req 1b: Systematic Hazard Management Strategies",
         "left_points": [
-          "(1a) Core Safety Concept Definitions: Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments."
+          "(1a) Core Safety Concept Definitions: Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments.",
+          "Risk Reduction: Systematic controls eliminate potential dangers before operational activities begin in earnest."
         ],
         "right_points": [
-          "(1b) Systematic Hazard Management Strategies: Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability."
+          "(1b) Systematic Hazard Management Strategies: Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability.",
+          "Control Hierarchy: Physical hazard elimination provides significantly higher protection than behavioral personal warnings."
         ],
         "rows": [
           {
@@ -274,25 +276,27 @@
           },
           {
             "attribute": "Hazard Definition",
-            "left": "Req 1a: Core Safety Concept: Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments.",
-            "right": "Req 1b: Systematic Hazard Management: Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability."
+            "left": "Risk Reduction: Systematic controls eliminate potential dangers before operational activities begin in earnest.",
+            "right": "Control Hierarchy: Physical hazard elimination provides significantly higher protection than behavioral personal warnings."
           },
           {
             "attribute": "Control Hierarchy",
-            "left": "Risk Reduction: Systematic controls eliminate potential dangers before operational activities begin in earnest.",
-            "right": "Hazard Definition: Unsafe physical conditions or reckless actions directly create severe injury risks."
+            "left": "Control Hierarchy: Physical hazard elimination provides significantly higher protection than behavioral personal warnings.",
+            "right": "Situational Readiness: Continuous environmental observation prevents unexpected workplace incidents during troop project work."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 1 Exemplar Workbook Entry: Understanding",
+        "title": "Safety Req 1 Worked Example: Fundamental Hazard Assessment Principles",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Core Safety Concept": "Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments.",
-          "Req 1b - Systematic Hazard Management": "Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability."
+          "Phase 1 - Area Survey": "Scan every physical location to identify existing mechanical and environmental dangers.",
+          "Phase 2 - Risk Evaluation": "Measure the probability and potential severity of every identified hazard accurately.",
+          "Phase 3 - Control Selection": "Install physical barriers or implement administrative operating rules before beginning.",
+          "Phase 4 - Continuous Monitoring": "Reassess the activity site periodically to catch newly emerging hazard conditions."
         },
-        "sample_output": "Understanding Safety and Hazard Management: Not a day goes by without a story about some victim who was hurt or killed in an accident (p. 10).",
-        "counselor_tip": "For Safety Requirement 1 (Understanding Safety and Hazard Management), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15))."
+        "sample_output": "Safety represents an active state of operational readiness achieved by identifying conditions capable of causing physical harm. Hazard management relies on systematic elimination, engineering controls, administrative procedures, and personal protective equipment to lower risks.",
+        "counselor_tip": "During the Safety Requirement 1 conference on Fundamental Hazard Assessment Principles, verify that the Scout can explain risk reduction and demonstrate continuous monitoring: Reassess the activity site periodically to catch newly emerging hazard conditions."
       },
       "quiz_item": {
         "scenario_prompt": "In risk management and personal safety at home, school, or camp, what is the difference between a hazard and a risk, and why must both smoke and carbon monoxide (CO) alarms be maintained?",
@@ -983,16 +987,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 2a: Common Home Injury Prevention",
-        "right_header": "Req 2d: Domestic Checklist Safety",
+        "right_header": "Req 2d: Domestic Checklist Safety Inspection",
         "left_points": [
           "(2a) Common Home Injury Prevention: Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets.",
-          "(2b) Consumer Fireworks Hazard Awareness: Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually.",
-          "(2c) Residential Fire Ignition Controls: Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires."
+          "(2b) Consumer Fireworks Hazard Awareness: Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually."
         ],
         "right_points": [
           "(2d) Domestic Checklist Safety Inspection: Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs.",
-          "(2e) Residential Emergency Fire Evacuation: A reliable fire escape blueprint plots two unobstructed egress passages out of each living area toward an exterior assembly landmark. Conducting practical timed escape drills ensures every household member reacts instinctively without panic.",
-          "(2f) Natural Disaster Family Planning: Severe weather events require robust evacuation plans tailored to regional threats like floods, tornadoes, or wildfires. Packing portable survival kits and designating out-of-town emergency contacts establishes household resilience during prolonged municipal infrastructure failures."
+          "(2e) Residential Emergency Fire Evacuation: A reliable fire escape blueprint plots two unobstructed egress passages out of each living area toward an exterior assembly landmark. Conducting practical timed escape drills ensures every household member reacts instinctively without panic."
         ],
         "rows": [
           {
@@ -1007,22 +1009,22 @@
           },
           {
             "attribute": "Smoke Alarms",
-            "left": "(2c) Residential Fire Ignition Controls: Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires.",
-            "right": "(2f) Natural Disaster Family Planning: Severe weather events require robust evacuation plans tailored to regional threats like floods, tornadoes, or wildfires. Packing portable survival kits and designating out-of-town emergency contacts establishes household resilience during prolonged municipal infrastructure failures."
+            "left": "Smoke Alarms: Test battery operated smoke detectors monthly to ensure reliable operational capability.",
+            "right": "Evacuation Routes: Identify two distinct emergency exit passageways from every residential bedroom."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 2 Exemplar Workbook Entry: Family and Home",
+        "title": "Safety Req 2 Worked Example: Residential Hazard Mitigation Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Common Home Injury Prevention": "Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets.",
-          "Req 2b - Consumer Fireworks Hazard": "Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually.",
-          "Req 2c - Residential Fire Ignition": "Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires.",
-          "Req 2d - Domestic Checklist Safety": "Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs."
+          "Phase 1 - Walkthrough Inspection": "Traverse every room with an adult family member using the checklist.",
+          "Phase 2 - Fire Plan": "Draw structural escape diagrams showing primary and secondary doors or windows.",
+          "Phase 3 - Drill Execution": "Practice exiting the building rapidly during a timed home fire simulation.",
+          "Phase 4 - Kit Assembly": "Assemble essential emergency disaster rations, water, and specialized communication equipment."
         },
-        "sample_output": "Family and Home Safety Planning: If time allows, bedding can be used in an emergency to aid an escape (by tying sheets together to make a rope) or cushion a fall (p. 51).",
-        "counselor_tip": "For Safety Requirement 2 (Family and Home Safety Planning), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52))."
+        "sample_output": "Home safety requires systematic evaluation of structural spaces, heating appliances, electrical circuits, and storage practices. Establishing functional escape plans and natural disaster protocols protects household residents against preventable domestic tragedies.",
+        "counselor_tip": "During the Safety Requirement 2 conference on Residential Hazard Mitigation Systems, verify that the Scout can explain fall prevention and demonstrate kit assembly: Assemble essential emergency disaster rations, water, and specialized communication equipment."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Safety merit badge pamphlet, what is the leading cause of residential fires?",
@@ -1350,12 +1352,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 3a: Youth Crime Risk Dynamics",
-        "right_header": "Req 3b: Physical Residential Security",
+        "right_header": "Req 3b: Physical Residential Security Assessment",
         "left_points": [
-          "(3a) Youth Crime Risk Dynamics: Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety."
+          "(3a) Youth Crime Risk Dynamics: Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety.",
+          "Entry Security: Install heavy deadbolt locks on exterior doors to deter forced entry."
         ],
         "right_points": [
-          "(3b) Physical Residential Security Assessment: A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches."
+          "(3b) Physical Residential Security Assessment: A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches.",
+          "Perimeter Lighting: Mount motion sensor floodlights to illuminate vulnerable residential yard access ways."
         ],
         "rows": [
           {
@@ -1365,25 +1369,27 @@
           },
           {
             "attribute": "Landscape Pruning",
-            "left": "Req 3a: Youth Crime Risk Dynamics: Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety.",
-            "right": "Req 3b: Physical Residential: A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches."
+            "left": "Entry Security: Install heavy deadbolt locks on exterior doors to deter forced entry.",
+            "right": "Perimeter Lighting: Mount motion sensor floodlights to illuminate vulnerable residential yard access ways."
           },
           {
             "attribute": "Perimeter Lighting",
-            "left": "Entry Security: Install heavy deadbolt locks on exterior doors to deter forced entry.",
-            "right": "Landscape Pruning: Trim bushes near ground windows to remove concealment opportunities for intruders."
+            "left": "Perimeter Lighting: Mount motion sensor floodlights to illuminate vulnerable residential yard access ways.",
+            "right": "Theft Deterrence: Keep personal electronics and expensive gear concealed while walking in public."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 3 Exemplar Workbook Entry: Crime Prevention",
+        "title": "Safety Req 3 Worked Example: Community Crime Prevention Protocols",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Youth Crime Risk Dynamics": "Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety.",
-          "Req 3b - Physical Residential Security": "A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches."
+          "Phase 1 - Perimeter Scan": "Walk the home exterior to locate unlit areas and fragile entryways.",
+          "Phase 2 - Hardware Check": "Test door deadbolts and window sash latches for firm mechanical engagement.",
+          "Phase 3 - Security Audit": "Fill out the security checklist documenting every vulnerable lock or opening.",
+          "Phase 4 - Remediate Vulnerabilities": "Install supplemental window pins, trim concealing shrubbery, and replace weak screws."
         },
-        "sample_output": "Crime Prevention and Home Security: Hardware on these home security devices should be accessible from inside the house (p. 22).",
-        "counselor_tip": "For Safety Requirement 3 (Crime Prevention and Home Security), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40))."
+        "sample_output": "Protecting personal property and physical wellbeing requires understanding criminal tactics and maintaining solid structural barriers. Performing a physical property audit reveals vulnerable access points, defective locking mechanisms, and illumination blind spots.",
+        "counselor_tip": "During the Safety Requirement 3 conference on Community Crime Prevention Protocols, verify that the Scout can explain entry security and demonstrate remediate vulnerabilities: Install supplemental window pins, trim concealing shrubbery, and replace weak screws."
       },
       "quiz_item": {
         "scenario_prompt": "How should hardware on home security devices and locks be installed to prevent tampering?",
@@ -1879,22 +1885,22 @@
           },
           {
             "attribute": "Active Threats",
-            "left": "Req 4a: Public Facility Emergency: Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness.",
-            "right": "Req 4b: Outdoor Camp Shelter: Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact."
+            "left": "Active Threats: Run away immediately from gunshots if an unobstructed escape route exists.",
+            "right": "Suspicious Activity: Report unattended luggage or unusual behaviors to facility security personnel promptly."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 4 Exemplar Workbook Entry: Public Venue",
+        "title": "Safety Req 4 Worked Example: Public Venue Threat Response",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Public Facility Emergency": "Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness.",
-          "Req 4b - Outdoor Camp Shelter": "Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact.",
-          "Req 4c - Active Threat Survival": "The Run, Hide, Fight protocol defines the universal civilian response doctrine against active violence in public spaces. Escaping the immediate hazard zone takes precedence, followed by locking and barricading interior rooms when flight is impossible.",
-          "Req 4d - Suspicious Activity Reporting": "The national campaign If You See Something, Say Something trains citizens to recognize observable indicators of terrorism and crime. Reporting unattended parcels, unauthorized access attempts, or surveillance of infrastructure to authorities preserves community safety."
+          "Phase 1 - Orientation Reconnaissance": "Note the two nearest exit corridors whenever entering an unfamiliar venue.",
+          "Phase 2 - Camp Sheltering": "Move patrol members into engineered storm buildings when weather alarms sound.",
+          "Phase 3 - Run Hide Fight": "Escape active shooters if possible, barricade doors if trapped, or fight.",
+          "Phase 4 - Anomaly Reporting": "Notify facility managers immediately when discovering anomalous packages or suspicious tampering."
         },
-        "sample_output": "Public Venue and Camp Safety: Also, fires give off poisonous carbon monoxide in even a ventilated tent (p. 63).",
-        "counselor_tip": "For Safety Requirement 4 (Public Venue and Camp Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65))."
+        "sample_output": "Public spaces present unique crowd dynamics and structural evacuation challenges during fires, natural events, or hostile threats. Maintaining situational awareness and identifying secondary emergency egress routes ensures prompt survival action during sudden emergencies.",
+        "counselor_tip": "During the Safety Requirement 4 conference on Public Venue Threat Response, verify that the Scout can explain exit awareness and demonstrate anomaly reporting: Notify facility managers immediately when discovering anomalous packages or suspicious tampering."
       },
       "quiz_item": {
         "scenario_prompt": "Why must Scouts never use liquid-fuel stoves, heaters, lanterns, or candles inside a tent?",
@@ -2281,13 +2287,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Organizational Youth Protection",
+        "left_header": "Req 5a: Organizational Youth Protection Policies",
         "right_header": "Req 5b: Abuse Recognition and Resistance",
         "left_points": [
-          "(5a) Organizational Youth Protection Policies: Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms."
+          "(5a) Organizational Youth Protection Policies: Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms.",
+          "Two-Deep Leadership: Maintain two registered adult leaders on all official troop scouting trips."
         ],
         "right_points": [
-          "(5b) Abuse Recognition and Resistance: Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols."
+          "(5b) Abuse Recognition and Resistance: Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols.",
+          "(5c) Mandatory Abuse Reporting Channels: Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling."
         ],
         "rows": [
           {
@@ -2297,26 +2305,27 @@
           },
           {
             "attribute": "One-on-One Contact",
-            "left": "Req 5a: Organizational Youth: Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms.",
-            "right": "Req 5b: Abuse Recognition: Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols."
+            "left": "Two-Deep Leadership: Maintain two registered adult leaders on all official troop scouting trips.",
+            "right": "(5c) Mandatory Abuse Reporting Channels: Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling."
           },
           {
             "attribute": "Recognize Resist Report",
-            "left": "Req 5c: Mandatory Abuse Reporting: Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling.",
-            "right": "One-on-One Contact: Prohibit one-on-one contact between adults and youth in all settings."
+            "left": "Recognize Resist Report: Identify boundary violations immediately, resist unwanted interactions, and report to authorities.",
+            "right": "Scouts First Helpline: Call the twenty-four-hour helpline to report any suspected youth mistreatment."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 5 Exemplar Workbook Entry: Safeguarding Youth",
+        "title": "Safety Req 5 Worked Example: Youth Protection Operational Guidelines",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Organizational Youth": "Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms.",
-          "Req 5b - Abuse Recognition": "Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols.",
-          "Req 5c - Mandatory Abuse Reporting": "Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling."
+          "Phase 1 - Policy Verification": "Confirm that all troop activities maintain mandatory two-deep adult leader supervision.",
+          "Phase 2 - Boundary Monitoring": "Ensure buddy pairs remain intact and private tenting separation rules are honored.",
+          "Phase 3 - Resist Encroachment": "Speak up firmly whenever adult or peer behavior crosses acceptable personal boundaries.",
+          "Phase 4 - Prompt Reporting": "Contact the Scout Executive or Scouts First Helpline immediately regarding suspicious conduct."
         },
-        "sample_output": "Safeguarding Youth in Scouting Activities: Report attempted or actual molestation to a parent, guardian, or other trusted adult (p. 28).",
-        "counselor_tip": "For Safety Requirement 5 (Safeguarding Youth in Scouting Activities), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29))."
+        "sample_output": "Scouting America enforces rigorous Youth Protection policies to create a secure, positive environment across all scouting programs. Understanding personal boundaries, recognizing grooming behaviors, and knowing how to utilize mandatory reporting channels safeguards youth integrity.",
+        "counselor_tip": "During the Safety Requirement 5 conference on Youth Protection Operational Guidelines, verify that the Scout can explain two-deep leadership and demonstrate prompt reporting: Contact the Scout Executive or Scouts First Helpline immediately regarding suspicious conduct."
       },
       "quiz_item": {
         "scenario_prompt": "What are the three steps of personal protection taught in the Safety merit badge pamphlet to defend against abuse?",
@@ -2676,13 +2685,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Pedestrian Street Defense",
-        "right_header": "Req 6b: Restaurant Venue Altercation",
+        "left_header": "Req 6a: Pedestrian Street Defense Measures",
+        "right_header": "Req 6b: Restaurant Venue Altercation Avoidance",
         "left_points": [
-          "(6a) Pedestrian Street Defense Measures: Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly."
+          "(6a) Pedestrian Street Defense Measures: Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly.",
+          "Street Vigilance: Walk confidently with head up and avoid distraction from mobile smartphone screens."
         ],
         "right_points": [
-          "(6b) Restaurant Venue Altercation Avoidance: Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls."
+          "(6b) Restaurant Venue Altercation Avoidance: Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls.",
+          "(6c) Social Setting Boundary Defense: Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure."
         ],
         "rows": [
           {
@@ -2692,26 +2703,27 @@
           },
           {
             "attribute": "Social Accountability",
-            "left": "Req 6a: Pedestrian Street Defense: Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly.",
-            "right": "Req 6b: Restaurant Venue Altercation: Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls."
+            "left": "Street Vigilance: Walk confidently with head up and avoid distraction from mobile smartphone screens.",
+            "right": "(6c) Social Setting Boundary Defense: Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure."
           },
           {
             "attribute": "Firm Refusal",
-            "left": "Req 6c: Social Setting Boundary: Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure.",
-            "right": "Social Accountability: Attend public venues with trusted companions and monitor beverage cups continuously."
+            "left": "Firm Refusal: State unequivocal verbal refusals immediately when physical boundaries are violated by anyone.",
+            "right": "Safe Departure: Arrange independent personal transportation before attending unfamiliar social events or dates."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 6 Exemplar Workbook Entry: Preventing",
+        "title": "Safety Req 6 Worked Example: Personal Assault Prevention Strategies",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Pedestrian Street Defense": "Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly.",
-          "Req 6b - Restaurant Venue Altercation": "Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls.",
-          "Req 6c - Social Setting Boundary": "Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure."
+          "Phase 1 - Spatial Awareness": "Walk in well-lit areas away from alleys and maintain wide personal distance.",
+          "Phase 2 - Social Buddying": "Designate a trusted friend to verify safety check-ins throughout any large party.",
+          "Phase 3 - Boundary Setting": "Deliver clear verbal commands to stop whenever an individual advances unwanted touch.",
+          "Phase 4 - Strategic Egress": "Move directly toward populated areas or security stations if pursued or threatened."
         },
-        "sample_output": "Preventing Personal and Social Assault: Learning how drugs can affect you may help prevent accidents (p. 17).",
-        "counselor_tip": "For Safety Requirement 6 (Preventing Personal and Social Assault), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43))."
+        "sample_output": "Preventing physical and sexual assault requires acute situational awareness, proactive environmental appraisal, and firm personal boundary enforcement. Developing assertive de-escalation communication and maintaining reliable exit avenues protects individuals across diverse social settings.",
+        "counselor_tip": "During the Safety Requirement 6 conference on Personal Assault Prevention Strategies, verify that the Scout can explain street vigilance and demonstrate strategic egress: Move directly toward populated areas or security stations if pursued or threatened."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Safety merit badge pamphlet advise avoiding people who use illegal drugs, even if you do not use drugs yourself?",
@@ -3355,17 +3367,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Online Crime Victimization",
-        "right_header": "Req 7d: Identity Theft Prevention",
+        "left_header": "Req 7a: Online Crime Victimization Defense",
+        "right_header": "Req 7d: Identity Theft Prevention Protocols",
         "left_points": [
           "(7a) Online Crime Victimization Defense: Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions.",
-          "(7b) Digital Financial Scam Recognition: Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes.",
-          "(7c) Comprehensive Digital Security Controls: Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception."
+          "(7b) Digital Financial Scam Recognition: Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes."
         ],
         "right_points": [
           "(7d) Identity Theft Prevention Protocols: Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings.",
-          "(7e) Social Media Exploitation Hazards: Predators and thieves harvest personal routine schedules, real-time location data, and school affiliations from social profiles. Configuring strict private audience settings and declining connection requests from unverified individuals eliminates dangerous reconnaissance.",
-          "(7f) Digital Harassment Legal Consequences: Cyberbullying, non-consensual sharing of intimate media, and stalking through text messages constitute serious criminal violations. Digital communications leave permanent server forensic logs that law enforcement agencies routinely subpoena during criminal prosecutions."
+          "(7e) Social Media Exploitation Hazards: Predators and thieves harvest personal routine schedules, real-time location data, and school affiliations from social profiles. Configuring strict private audience settings and declining connection requests from unverified individuals eliminates dangerous reconnaissance."
         ],
         "rows": [
           {
@@ -3380,22 +3390,22 @@
           },
           {
             "attribute": "Identity Shielding",
-            "left": "(7c) Comprehensive Digital Security Controls: Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception.",
-            "right": "(7f) Digital Harassment Legal Consequences: Cyberbullying, non-consensual sharing of intimate media, and stalking through text messages constitute serious criminal violations. Digital communications leave permanent server forensic logs that law enforcement agencies routinely subpoena during criminal prosecutions."
+            "left": "Identity Shielding: Conceal social security numbers and birthdates from public online profile biographies.",
+            "right": "Digital Footprint: Remember that shared digital photographs and texts persist permanently on servers."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 7 Exemplar Workbook Entry: Online Security",
+        "title": "Safety Req 7 Worked Example: Digital Security Threat Mitigation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Online Crime Victimization": "Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions.",
-          "Req 7b - Digital Financial Scam": "Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes.",
-          "Req 7c - Comprehensive Digital": "Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception.",
-          "Req 7d - Identity Theft Prevention": "Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings."
+          "Phase 1 - Account Hardening": "Enable multi-factor authentication on every primary email and banking service profile.",
+          "Phase 2 - Scam Triage": "Evaluate unsolicited electronic messages for urgent monetary demands or suspicious attachments.",
+          "Phase 3 - Privacy Lockdown": "Restrict public visibility settings on personal social media platforms to friends.",
+          "Phase 4 - Incident Escalation": "Report digital harassment and extortion attempts to platform administrators and parents."
         },
-        "sample_output": "Online Security and Cybercrime Prevention: Never share your internet password with anyone other than your parent, guardian, or other responsible adults in your family (p. 18).",
-        "counselor_tip": "For Safety Requirement 7 (Online Security and Cybercrime Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59))."
+        "sample_output": "Operating safely on digital networks requires understanding social engineering, credential hygiene, and identity security. Defending personal data against phishing scams, malware exploitation, and cyberbullying preserves personal reputation and financial assets.",
+        "counselor_tip": "During the Safety Requirement 7 conference on Digital Security Threat Mitigation, verify that the Scout can explain phishing defense and demonstrate incident escalation: Report digital harassment and extortion attempts to platform administrators and parents."
       },
       "quiz_item": {
         "scenario_prompt": "With whom is it acceptable for a Scout to share an internet password?",
@@ -4020,17 +4030,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: Urban Pedestrian Safety",
+        "left_header": "Req 8a: Urban Pedestrian Safety Fundamentals",
         "right_header": "Req 8d: Public Bus Commuter Safety",
         "left_points": [
           "(8a) Urban Pedestrian Safety Fundamentals: Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards.",
-          "(8b) Private Passenger Vehicle Protocols: Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue.",
-          "(8c) Commercial Rideshare Verification Procedures: Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory."
+          "(8b) Private Passenger Vehicle Protocols: Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue."
         ],
         "right_points": [
           "(8d) Public Bus Commuter Safety: Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours.",
-          "(8e) Subway Rail Platform Awareness: Subway systems feature electrical third-rail hazards and moving train pinch points along platform edges. Commuters must remain back from yellow warning strips and select populated train cars containing emergency intercom controls.",
-          "(8f) Commercial Aviation Passenger Procedures: Aviation safety relies on paying attention to crew briefings, reviewing exit locations, and keeping seatbelts buckled in seat compartments. In sudden cabin decompression events, donning personal oxygen masks immediately preserves consciousness to assist others."
+          "(8e) Subway Rail Platform Awareness: Subway systems feature electrical third-rail hazards and moving train pinch points along platform edges. Commuters must remain back from yellow warning strips and select populated train cars containing emergency intercom controls."
         ],
         "rows": [
           {
@@ -4045,22 +4053,22 @@
           },
           {
             "attribute": "Rideshare Verification",
-            "left": "(8c) Commercial Rideshare Verification Procedures: Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory.",
-            "right": "(8f) Commercial Aviation Passenger Procedures: Aviation safety relies on paying attention to crew briefings, reviewing exit locations, and keeping seatbelts buckled in seat compartments. In sudden cabin decompression events, donning personal oxygen masks immediately preserves consciousness to assist others."
+            "left": "Rideshare Verification: Match vehicle license plates and driver identities before entering any rideshare car.",
+            "right": "Aviation Preparedness: Count seat rows to the nearest cabin emergency exit upon boarding."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 8 Exemplar Workbook Entry: Safe Practices",
+        "title": "Safety Req 8 Worked Example: Multi-Modal Travel Safety Protocols",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Urban Pedestrian Safety": "Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards.",
-          "Req 8b - Private Passenger Vehicle": "Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue.",
-          "Req 8c - Commercial Rideshare": "Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory.",
-          "Req 8d - Public Bus Commuter Safety": "Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours."
+          "Phase 1 - Pedestrian Crossing": "Look left, right, and left again before stepping into street intersections.",
+          "Phase 2 - Passenger Protocol": "Wear your seatbelt continuously and refuse to ride with impaired drivers.",
+          "Phase 3 - Transit Awareness": "Stay well behind yellow platform safety lines while waiting for trains.",
+          "Phase 4 - Cabin Briefing": "Review passenger safety instruction cards carefully prior to every aircraft takeoff."
         },
-        "sample_output": "Safe Practices for Everyday Travel: As a minor, you should choose an ICE contact, probably your parent or guardian, who can give consent for emergency medical treatment (p. 35).",
-        "counselor_tip": "For Safety Requirement 8 (Safe Practices for Everyday Travel), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38))."
+        "sample_output": "Safe transit across municipal and regional networks demands strict adherence to mode-specific safety behaviors and environmental vigilance. Whether walking, riding in passenger vehicles, using public transit, or flying, prepared travelers proactively anticipate transport risks.",
+        "counselor_tip": "During the Safety Requirement 8 conference on Multi-Modal Travel Safety Protocols, verify that the Scout can explain pedestrian vigilance and demonstrate cabin briefing: Review passenger safety instruction cards carefully prior to every aircraft takeoff."
       },
       "quiz_item": {
         "scenario_prompt": "Why should a minor select a parent or guardian as their 'In Case of Emergency' (ICE) contact on their mobile phone?",
@@ -4415,13 +4423,15 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 9a: Occupational Safety Career",
-        "right_header": "Req 9b: Community Safety Volunteer",
+        "left_header": "Req 9a: Occupational Safety Career Exploration",
+        "right_header": "Req 9b: Community Safety Volunteer Opportunities",
         "left_points": [
-          "(9a) Occupational Safety Career Exploration: Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors."
+          "(9a) Occupational Safety Career Exploration: Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors.",
+          "Industrial Hygiene: Occupational hygienists measure environmental airborne contaminants to protect industrial manufacturing workforces."
         ],
         "right_points": [
-          "(9b) Community Safety Volunteer Opportunities: Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises."
+          "(9b) Community Safety Volunteer Opportunities: Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises.",
+          "Safety Engineering: Engineers design mechanical machine guards and failsafe interlocks on factory production lines."
         ],
         "rows": [
           {
@@ -4431,25 +4441,27 @@
           },
           {
             "attribute": "Emergency Management",
-            "left": "Req 9a: Occupational Safety Career: Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors.",
-            "right": "Req 9b: Community Safety Volunteer: Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises."
+            "left": "Industrial Hygiene: Occupational hygienists measure environmental airborne contaminants to protect industrial manufacturing workforces.",
+            "right": "Safety Engineering: Engineers design mechanical machine guards and failsafe interlocks on factory production lines."
           },
           {
             "attribute": "Safety Engineering",
-            "left": "Industrial Hygiene: Occupational hygienists measure environmental airborne contaminants to protect industrial manufacturing workforces.",
-            "right": "Emergency Management: Disaster response coordinators draft municipal evacuation plans to preserve civilian lives."
+            "left": "Safety Engineering: Engineers design mechanical machine guards and failsafe interlocks on factory production lines.",
+            "right": "Volunteer Service: Community emergency response teams train citizen volunteers in basic disaster response skills."
           }
         ]
       },
       "worked_example": {
-        "title": "Safety Req 9 Exemplar Workbook Entry: Careers",
+        "title": "Safety Req 9 Worked Example: Professional Safety Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Occupational Safety Career": "Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors.",
-          "Req 9b - Community Safety Volunteer": "Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises."
+          "Phase 1 - Career Research": "Investigate professional credentials, collegiate programs, and industry safety technician certifications.",
+          "Phase 2 - Interview Practitioner": "Interview an active occupational safety officer or municipal emergency response specialist.",
+          "Phase 3 - Skill Assessment": "Evaluate required analytical capabilities, regulatory compliance duties, and salary advancement opportunities.",
+          "Phase 4 - Community Engagement": "Join a volunteer emergency squad, search team, or youth safety committee."
         },
-        "sample_output": "Careers and Service in Safety: Fire inspectors help prevent fires from happening by checking buildings to be sure fire ordinances, laws, and codes are followed (p. 77).",
-        "counselor_tip": "For Safety Requirement 9 (Careers and Service in Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79))."
+        "sample_output": "Occupational safety, industrial hygiene, emergency management, and loss prevention offer rewarding careers centered on human protection. Exploring vocational opportunities or volunteering in local emergency services builds community resilience and professional skills.",
+        "counselor_tip": "During the Safety Requirement 9 conference on Professional Safety Career Pathways, verify that the Scout can explain industrial hygiene and demonstrate community engagement: Join a volunteer emergency squad, search team, or youth safety committee."
       },
       "quiz_item": {
         "scenario_prompt": "Which safety professional focuses on planning ceiling sprinkler systems and fire protection equipment in public buildings?",

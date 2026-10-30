@@ -354,19 +354,20 @@
         "Step 4 - Hazard Inspection: Check charging cables and power bricks for frayed insulation or exposed wiring."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 1.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Digital Safety and Personal Health."
       ],
       "comparison_data": {
         "left_header": "Req 1a: Digital Safety Video Review",
-        "right_header": "Req 1b: Digital Footprint Protection",
+        "right_header": "Req 1b: Digital Footprint Protection Strategies",
         "left_points": [
-          "(1a) Digital Safety Video Review: Scouts complete guided digital awareness viewing alongside adult leadership. The material covers defensive responses to unexpected online interactions."
+          "(1a) Digital Safety Video Review: Scouts complete guided digital awareness viewing alongside adult leadership. The material covers defensive responses to unexpected online interactions.",
+          "Digital Footprint Retention: Search engines index public profiles permanently even after local file deletion occurs."
         ],
         "right_points": [
-          "(1b) Digital Footprint Protection Strategies: Online activities generate traceable behavioral records across multiple platform databases. Controlling application permissions curtails unwanted tracking across commercial advertising networks."
+          "(1b) Digital Footprint Protection Strategies: Online activities generate traceable behavioral records across multiple platform databases. Controlling application permissions curtails unwanted tracking across commercial advertising networks.",
+          "(1c) Workstation Injury Prevention Guidelines: Continuous keyboard and screen use can cause repetitive strain injuries and ocular exhaustion. Implementing structured rest intervals and workstation adjustments maintains physical wellbeing."
         ],
         "rows": [
           {
@@ -376,26 +377,27 @@
           },
           {
             "attribute": "Device Telemetry Permissions",
-            "left": "Req 1a: Digital Safety Video Review: Scouts complete guided digital awareness viewing alongside adult leadership. The material covers defensive responses to unexpected online interactions.",
-            "right": "Req 1b: Digital Footprint Protection: Online activities generate traceable behavioral records across multiple platform databases. Controlling application permissions curtails unwanted tracking across commercial advertising networks."
+            "left": "Digital Footprint Retention: Search engines index public profiles permanently even after local file deletion occurs.",
+            "right": "(1c) Workstation Injury Prevention Guidelines: Continuous keyboard and screen use can cause repetitive strain injuries and ocular exhaustion. Implementing structured rest intervals and workstation adjustments maintains physical wellbeing."
           },
           {
             "attribute": "Repetitive Strain Prevention",
-            "left": "Req 1c: Workstation Injury: Continuous keyboard and screen use can cause repetitive strain injuries and ocular exhaustion. Implementing structured rest intervals and workstation adjustments maintains physical wellbeing.",
-            "right": "Device Telemetry Permissions: Disabling background geolocation services reduces unintended broadcast of your physical coordinates."
+            "left": "Repetitive Strain Prevention: Taking regular breaks every twenty minutes protects musculoskeletal health during computer use.",
+            "right": "Lithium Battery Care: Damaged power packs require immediate disposal in designated hazardous recycling containers."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 1 Exemplar Workbook Entry: Digital",
+        "title": "Cybersecurity Req 1 Worked Example: Digital Safety and Physical Wellbeing",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 1a - Digital Safety Video Review": "Scouts complete guided digital awareness viewing alongside adult leadership. The material covers defensive responses to unexpected online interactions.",
-          "Req 1b - Digital Footprint Protection": "Online activities generate traceable behavioral records across multiple platform databases. Controlling application permissions curtails unwanted tracking across commercial advertising networks.",
-          "Req 1c - Workstation Injury Prevention": "Continuous keyboard and screen use can cause repetitive strain injuries and ocular exhaustion. Implementing structured rest intervals and workstation adjustments maintains physical wellbeing."
+          "Phase 1 - Video Review": "Watch the personal digital safety video with parent or guardian permission.",
+          "Phase 2 - Permission Audit": "Review application privacy settings to disable unneeded location tracking on phones.",
+          "Phase 3 - Ergonomic Setup": "Position computer screens at eye level to prevent neck and back fatigue.",
+          "Phase 4 - Hazard Inspection": "Check charging cables and power bricks for frayed insulation or exposed wiring."
         },
-        "sample_output": "Digital Safety and Personal Health: (a) Research and explain Cryptography (p. 7).",
-        "counselor_tip": "For Cybersecurity Requirement 1 (Digital Safety and Personal Health), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "Digital safety requires personal vigilance, deliberate privacy configuration, and ergonomic physical work habits. Scouts learn defensive online habits alongside physical precautions against posture strain and battery hazards.",
+        "counselor_tip": "During the Cybersecurity Requirement 1 conference on Digital Safety and Physical Wellbeing, verify that the Scout can explain digital footprint retention and demonstrate hazard inspection: Check charging cables and power bricks for frayed insulation or exposed wiring."
       },
       "quiz_item": {
         "scenario_prompt": "In Cybersecurity Requirement 1, how do the three pillars of the CIA Triad (Confidentiality, Integrity, and Availability) protect an organization's information systems?",
@@ -711,47 +713,50 @@
         "Step 4 - Counselor Discussion: Present your ethical framework and personal rules of conduct to your counselor."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 2.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Cyber Ethics and Scout Law."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Scout Law in Cyberspace",
-        "right_header": "Req 2b: Ethical Conduct in Computing",
+        "right_header": "Req 2b: Ethical Conduct in Computing Environments",
         "left_points": [
-          "(2a) Scout Law In Cyberspace: The twelve points of the Scout Law govern electronic behavior just like outdoor wilderness conduct. Scouts evaluate how their digital messages affect real people across network systems."
+          "(2a) Scout Law in Cyberspace: The twelve points of the Scout Law govern electronic behavior just like outdoor wilderness conduct. Scouts evaluate how their digital messages affect real people across network systems.",
+          "Digital Trust Principles: Operating online honorably builds lasting trust between network administrators and community members."
         ],
         "right_points": [
-          "(2b) Ethical Conduct In Computing Environments: Encountering logged-in workstations or exposed directories tests personal integrity and ethical boundaries. Ethical computing principles mandate securing the station and alerting responsible technical administrators."
+          "(2b) Ethical Conduct in Computing Environments: Encountering logged-in workstations or exposed directories tests personal integrity and ethical boundaries. Ethical computing principles mandate securing the station and alerting responsible technical administrators.",
+          "Responsible Disclosure Practice: Report discovered software security weaknesses quietly to system administrators without exploiting them."
         ],
         "rows": [
           {
             "attribute": "Digital Trust Principles",
-            "left": "(2a) Scout Law In Cyberspace: The twelve points of the Scout Law govern electronic behavior just like outdoor wilderness conduct. Scouts evaluate how their digital messages affect real people across network systems.",
-            "right": "(2b) Ethical Conduct In Computing Environments: Encountering logged-in workstations or exposed directories tests personal integrity and ethical boundaries. Ethical computing principles mandate securing the station and alerting responsible technical administrators."
+            "left": "(2a) Scout Law in Cyberspace: The twelve points of the Scout Law govern electronic behavior just like outdoor wilderness conduct. Scouts evaluate how their digital messages affect real people across network systems.",
+            "right": "(2b) Ethical Conduct in Computing Environments: Encountering logged-in workstations or exposed directories tests personal integrity and ethical boundaries. Ethical computing principles mandate securing the station and alerting responsible technical administrators."
           },
           {
             "attribute": "Unattended Terminal Ethics",
-            "left": "Req 2a: Scout Law In Cyberspace: The twelve points of the Scout Law govern electronic behavior just like outdoor wilderness conduct. Scouts evaluate how their digital messages affect real people across network systems.",
-            "right": "Req 2b: Ethical Conduct In Computing: Encountering logged-in workstations or exposed directories tests personal integrity and ethical boundaries. Ethical computing principles mandate securing the station and alerting responsible technical administrators."
+            "left": "Digital Trust Principles: Operating online honorably builds lasting trust between network administrators and community members.",
+            "right": "Responsible Disclosure Practice: Report discovered software security weaknesses quietly to system administrators without exploiting them."
           },
           {
             "attribute": "Responsible Disclosure Practice",
-            "left": "Digital Trust Principles: Operating online honorably builds lasting trust between network administrators and community members.",
-            "right": "Unattended Terminal Ethics: Securing an open workstation protects private files and respects colleague personal boundaries."
+            "left": "Responsible Disclosure Practice: Report discovered software security weaknesses quietly to system administrators without exploiting them.",
+            "right": "Intellectual Property Respect: Downloading pirated software violates copyright laws and introduces dangerous hidden malware payloads."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 2 Exemplar Workbook Entry: Cyber",
+        "title": "Cybersecurity Req 2 Worked Example: Cyber Ethics and Moral Responsibility",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Scout Law in Cyberspace": "The twelve points of the Scout Law govern electronic behavior just like outdoor wilderness conduct. Scouts evaluate how their digital messages affect real people across network systems.",
-          "Req 2b - Ethical Conduct in Computing": "Encountering logged-in workstations or exposed directories tests personal integrity and ethical boundaries. Ethical computing principles mandate securing the station and alerting responsible technical administrators."
+          "Phase 1 - Law Reflection": "Select three points of the Scout Law relevant to online communication.",
+          "Phase 2 - Scenario Analysis": "Identify ethical dilemmas encountered when accessing public workstation computer terminals.",
+          "Phase 3 - Action Determination": "Formulate appropriate actions when discovering sensitive unprotected files on shared drives.",
+          "Phase 4 - Counselor Discussion": "Present your ethical framework and personal rules of conduct to your counselor."
         },
-        "sample_output": "Cyber Ethics and Scout Law: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption (p. 7).",
-        "counselor_tip": "For Cybersecurity Requirement 2 (Cyber Ethics and Scout Law), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "Computing ethics demand adherence to principles of honesty, respect, and property boundaries online. Scouts apply the Scout Law to maintain integrity during digital interactions and hardware usage.",
+        "counselor_tip": "During the Cybersecurity Requirement 2 conference on Cyber Ethics and Moral Responsibility, verify that the Scout can explain digital trust principles and demonstrate counselor discussion: Present your ethical framework and personal rules of conduct to your counselor."
       },
       "quiz_item": {
         "scenario_prompt": "If you accidentally discover an unprotected folder containing student grades on a school network, what is the ethical action that aligns with the Scout Law?",
@@ -1073,19 +1078,20 @@
         "Step 4 - Synthesis Presentation: Review trade-offs between strict confidentiality controls and rapid emergency system availability."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 3.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Core Cybersecurity Principles and Systems."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Critical Computer Systems",
-        "right_header": "Req 3b: Foundational CIA Triad",
+        "left_header": "Req 3a: Critical Computer Systems Protection",
+        "right_header": "Req 3b: Foundational CIA Triad Principles",
         "left_points": [
-          "(3a) Critical Computer Systems Protection: Different computational architectures require tailored defenses based on their operational roles and public connectivity. Critical targets include enterprise cloud databases, industrial control sensors, and embedded vehicular networks."
+          "(3a) Critical Computer Systems Protection: Different computational architectures require tailored defenses based on their operational roles and public connectivity. Critical targets include enterprise cloud databases, industrial control sensors, and embedded vehicular networks.",
+          "Critical Infrastructure Defense: Municipal water treatment networks require continuous defenses against remote adversary unauthorized manipulation."
         ],
         "right_points": [
-          "(3b) Foundational CIA Triad Principles: The CIA Triad forms the foundational model for designing secure information technology systems. Balancing privacy, record accuracy, and operational uptime dictates architectural defense decisions."
+          "(3b) Foundational CIA Triad Principles: The CIA Triad forms the foundational model for designing secure information technology systems. Balancing privacy, record accuracy, and operational uptime dictates architectural defense decisions.",
+          "Data Integrity Verification: Digital signatures detect unauthorized alterations to vital enterprise database financial records reliably."
         ],
         "rows": [
           {
@@ -1095,25 +1101,27 @@
           },
           {
             "attribute": "Data Confidentiality Controls",
-            "left": "Req 3a: Critical Computer Systems: Different computational architectures require tailored defenses based on their operational roles and public connectivity. Critical targets include enterprise cloud databases, industrial control sensors, and embedded vehicular networks.",
-            "right": "Req 3b: Foundational CIA Triad: The CIA Triad forms the foundational model for designing secure information technology systems. Balancing privacy, record accuracy, and operational uptime dictates architectural defense decisions."
+            "left": "Critical Infrastructure Defense: Municipal water treatment networks require continuous defenses against remote adversary unauthorized manipulation.",
+            "right": "Data Integrity Verification: Digital signatures detect unauthorized alterations to vital enterprise database financial records reliably."
           },
           {
             "attribute": "Data Integrity Verification",
-            "left": "Critical Infrastructure Defense: Municipal water treatment networks require continuous defenses against remote adversary unauthorized manipulation.",
-            "right": "Data Confidentiality Controls: Encryption scrambles private patient medical databases against unauthorized viewing during storage transfers."
+            "left": "Data Integrity Verification: Digital signatures detect unauthorized alterations to vital enterprise database financial records reliably.",
+            "right": "System Availability Resilience: Redundant server arrays guarantee uninterrupted public access to emergency medical dispatch systems."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 3 Exemplar Workbook Entry: Core",
+        "title": "Cybersecurity Req 3 Worked Example: Cybersecurity Architecture and Foundational",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Critical Computer Systems": "Different computational architectures require tailored defenses based on their operational roles and public connectivity. Critical targets include enterprise cloud databases, industrial control sensors, and embedded vehicular networks.",
-          "Req 3b - Foundational CIA Triad": "The CIA Triad forms the foundational model for designing secure information technology systems. Balancing privacy, record accuracy, and operational uptime dictates architectural defense decisions."
+          "Phase 1 - System Identification": "Identify three distinct categories of computer systems requiring robust cyber protection.",
+          "Phase 2 - Infrastructure Analysis": "Explain how compromised industrial control systems can cause physical community harm.",
+          "Phase 3 - Triad Definition": "Define confidentiality, integrity, and availability using specific real-world security scenarios.",
+          "Phase 4 - Synthesis Presentation": "Review trade-offs between strict confidentiality controls and rapid emergency system availability."
         },
-        "sample_output": "Core Cybersecurity Principles and Systems: (a) Research and explain Cryptography (p. 6).",
-        "counselor_tip": "For Cybersecurity Requirement 3 (Core Cybersecurity Principles and Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Modern infrastructure depends on interconnected computational systems spanning cloud, enterprise, and operational technologies. Defending these architectures requires balanced implementation of confidentiality, integrity, and availability controls.",
+        "counselor_tip": "During the Cybersecurity Requirement 3 conference on Cybersecurity Architecture and Foundational, verify that the Scout can explain critical infrastructure defense and demonstrate synthesis presentation: Review trade-offs between strict confidentiality controls and rapid emergency system availability."
       },
       "quiz_item": {
         "scenario_prompt": "If an attacker secretly alters the account balances in a bank database without stealing the data or taking the server offline, which principle of the C.I.A. Triad was primarily violated?",
@@ -1973,23 +1981,20 @@
         "Step 4 - Surface Mapping: Document all personal networked devices, installed software packages, and cloud accounts."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 4.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Cyber Threats Vulnerabilities and Attacks."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Vulnerabilities, Threats",
-        "right_header": "Req 4d: Phishing Detection and Deception",
+        "left_header": "Req 4a: Vulnerabilities, Threats, and Exploits",
+        "right_header": "Req 4d: Phishing Detection and Deception Defense",
         "left_points": [
           "(4a) Vulnerabilities, Threats, and Exploits: Flaws in software logic provide pathways for attackers to execute unauthorized commands. Understanding the relationship between system weaknesses and attack vectors enables proactive defense.",
-          "(4b) Malware Classification and Mechanics: Malicious software variants execute unauthorized behaviors ranging from stealthy surveillance to total data destruction. Studying malware execution models illustrates why automated defenses and backups are required.",
-          "(4c) Public Wireless Network Risks: Open wireless networks present interception opportunities for packet sniffing and rogue access points. Using encrypted tunnels and disabling automatic connection protocols mitigates intercept risks."
+          "(4b) Malware Classification and Mechanics: Malicious software variants execute unauthorized behaviors ranging from stealthy surveillance to total data destruction. Studying malware execution models illustrates why automated defenses and backups are required."
         ],
         "right_points": [
           "(4d) Phishing Detection and Deception Defense: Social engineering attacks rely on impersonation to manipulate users into surrendering credentials. Scrutinizing transport headers and domain records uncovers deceptive messaging campaigns.",
-          "(4e) Cyber Incident Case Analysis: Analyzing recent security incidents reveals how common configuration errors permit extensive unauthorized access. Examining historical breaches provides practical lessons for hardening modern network perimeters.",
-          "(4f) Personal Attack Surface Mapping: An individual attack surface encompasses all entry points an attacker might target. Cataloging accounts, hardware devices, and network connections enables systematic vulnerability mitigation."
+          "(4e) Cyber Incident Case Analysis: Analyzing recent security incidents reveals how common configuration errors permit extensive unauthorized access. Examining historical breaches provides practical lessons for hardening modern network perimeters."
         ],
         "rows": [
           {
@@ -2004,22 +2009,22 @@
           },
           {
             "attribute": "Public Wireless Sniffing",
-            "left": "(4c) Public Wireless Network Risks: Open wireless networks present interception opportunities for packet sniffing and rogue access points. Using encrypted tunnels and disabling automatic connection protocols mitigates intercept risks.",
-            "right": "(4f) Personal Attack Surface Mapping: An individual attack surface encompasses all entry points an attacker might target. Cataloging accounts, hardware devices, and network connections enables systematic vulnerability mitigation."
+            "left": "Public Wireless Sniffing: Unencrypted public hotspot connections allow eavesdroppers to intercept unprotected network transmission packets.",
+            "right": "Deceptive Phishing Signals: Fraudulent emails disguise real sender identities to trick users into revealing credentials."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 4 Exemplar Workbook Entry: Cyber",
+        "title": "Cybersecurity Req 4 Worked Example: Threat Landscapes and Attack Surfaces",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Vulnerabilities, Threats": "Flaws in software logic provide pathways for attackers to execute unauthorized commands. Understanding the relationship between system weaknesses and attack vectors enables proactive defense.",
-          "Req 4b - Malware Classification": "Malicious software variants execute unauthorized behaviors ranging from stealthy surveillance to total data destruction. Studying malware execution models illustrates why automated defenses and backups are required.",
-          "Req 4c - Public Wireless Network Risks": "Open wireless networks present interception opportunities for packet sniffing and rogue access points. Using encrypted tunnels and disabling automatic connection protocols mitigates intercept risks.",
-          "Req 4d - Phishing Detection": "Social engineering attacks rely on impersonation to manipulate users into surrendering credentials. Scrutinizing transport headers and domain records uncovers deceptive messaging campaigns."
+          "Phase 1 - Term Distinction": "Define vulnerabilities, threats, and exploits using examples from popular web applications.",
+          "Phase 2 - Malware Investigation": "Research the propagation methods and destructive payload actions of contemporary ransomware.",
+          "Phase 3 - Wireless Audit": "Identify encryption standards used on home routers versus unencrypted public hotspots.",
+          "Phase 4 - Surface Mapping": "Document all personal networked devices, installed software packages, and cloud accounts."
         },
-        "sample_output": "Cyber Threats Vulnerabilities and Attacks: (a) Research and explain Cryptography (p. 7).",
-        "counselor_tip": "For Cybersecurity Requirement 4 (Cyber Threats Vulnerabilities and Attacks), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "Security risk involves recognizing how active threats exploit system flaws to breach defenses. Identifying malware behaviors, wireless risks, and deceptive engineering safeguards personal systems.",
+        "counselor_tip": "During the Cybersecurity Requirement 4 conference on Threat Landscapes and Attack Surfaces, verify that the Scout can explain vulnerability exploitation mechanics and demonstrate surface mapping: Document all personal networked devices, installed software packages, and cloud accounts."
       },
       "quiz_item": {
         "scenario_prompt": "What is a primary risk of connecting to an open public Wi-Fi hotspot at a coffee shop, and how can you reduce that risk?",
@@ -3474,19 +3479,20 @@
         "Step 4 - Multi-Factor Setup: Configure time-based one-time password authenticators on essential personal email or gaming accounts."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 5.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Defensive Technologies and System Hardening."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Defensive Security Technologies",
-        "right_header": "Req 5b: Operating System Patch",
+        "left_header": "Req 5a: Defensive Security Technologies Overview",
+        "right_header": "Req 5b: Operating System Patch Management",
         "left_points": [
-          "(5a) Defensive Security Technologies Overview: Layered defensive technologies inspect, filter, and isolate network traffic across diverse operational boundaries. Combining firewalls with intrusion detection systems delivers defense in depth across internal subnets."
+          "(5a) Defensive Security Technologies Overview: Layered defensive technologies inspect, filter, and isolate network traffic across diverse operational boundaries. Combining firewalls with intrusion detection systems delivers defense in depth across internal subnets.",
+          "Firewall Packet Filtering: Network firewalls inspect incoming transmission packets to block unauthorized external access attempts."
         ],
         "right_points": [
-          "(5b) Operating System Patch Management: Vendors distribute security patches to remediate logic flaws discovered by security researchers. Operating unpatched legacy software exposes systems to known automated exploit kits."
+          "(5b) Operating System Patch Management: Vendors distribute security patches to remediate logic flaws discovered by security researchers. Operating unpatched legacy software exposes systems to known automated exploit kits.",
+          "(5c) System Hardening and Authentication: Hardening endpoint devices involves establishing strong credential policies, enabling multi-factor authentication, and restricting administrative privileges. Hands-on configuration reinforces practical defensive safeguards across personal workstations."
         ],
         "rows": [
           {
@@ -3496,26 +3502,27 @@
           },
           {
             "attribute": "Automated Software Updates",
-            "left": "Req 5a: Defensive Security: Layered defensive technologies inspect, filter, and isolate network traffic across diverse operational boundaries. Combining firewalls with intrusion detection systems delivers defense in depth across internal subnets.",
-            "right": "Req 5b: Operating System Patch: Vendors distribute security patches to remediate logic flaws discovered by security researchers. Operating unpatched legacy software exposes systems to known automated exploit kits."
+            "left": "Firewall Packet Filtering: Network firewalls inspect incoming transmission packets to block unauthorized external access attempts.",
+            "right": "(5c) System Hardening and Authentication: Hardening endpoint devices involves establishing strong credential policies, enabling multi-factor authentication, and restricting administrative privileges. Hands-on configuration reinforces practical defensive safeguards across personal workstations."
           },
           {
             "attribute": "Strong Passphrase Construction",
-            "left": "Req 5c: System Hardening: Hardening endpoint devices involves establishing strong credential policies, enabling multi-factor authentication, and restricting administrative privileges. Hands-on configuration reinforces practical defensive safeguards across personal workstations.",
-            "right": "Automated Software Updates: Applying vendor security updates closes known system vulnerabilities before attackers exploit them."
+            "left": "Strong Passphrase Construction: Combining multiple unrelated dictionary words creates high-entropy credentials resistant to cracking.",
+            "right": "Multi-Factor Authentication Value: Secondary verification codes prevent account takeovers even when primary passwords become compromised."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 5 Exemplar Workbook Entry: Defensive",
+        "title": "Cybersecurity Req 5 Worked Example: Defensive Technologies and Hardening Techniques",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Defensive Security": "Layered defensive technologies inspect, filter, and isolate network traffic across diverse operational boundaries. Combining firewalls with intrusion detection systems delivers defense in depth across internal subnets.",
-          "Req 5b - Operating System Patch": "Vendors distribute security patches to remediate logic flaws discovered by security researchers. Operating unpatched legacy software exposes systems to known automated exploit kits.",
-          "Req 5c - System Hardening": "Hardening endpoint devices involves establishing strong credential policies, enabling multi-factor authentication, and restricting administrative privileges. Hands-on configuration reinforces practical defensive safeguards across personal workstations."
+          "Phase 1 - Defense Review": "Research operational mechanisms of firewalls, intrusion detection engines, and virtual private networks.",
+          "Phase 2 - Update Verification": "Check operating system patch levels and enable automatic security update delivery mechanisms.",
+          "Phase 3 - Password Evaluation": "Construct high-entropy passphrases exceeding sixteen characters with diverse symbols and numbers.",
+          "Phase 4 - Multi-Factor Setup": "Configure time-based one-time password authenticators on essential personal email or gaming accounts."
         },
-        "sample_output": "Defensive Technologies and System Hardening: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption (p. 7).",
-        "counselor_tip": "For Cybersecurity Requirement 5 (Defensive Technologies and System Hardening), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "Defense in depth combines multiple security layers to protect networks from unauthorized penetration. Regular patching, access control management, and hardware firewalls form core defensive strategies.",
+        "counselor_tip": "During the Cybersecurity Requirement 5 conference on Defensive Technologies and Hardening Techniques, verify that the Scout can explain firewall packet filtering and demonstrate multi-factor setup: Configure time-based one-time password authenticators on essential personal email or gaming accounts."
       },
       "quiz_item": {
         "scenario_prompt": "Why is enabling automatic operating system and application updates one of the most effective cyber defenses?",
@@ -4318,19 +4325,20 @@
         "Step 4 - Cryptanalysis Demonstration: Analyze letter frequencies in ciphertext to identify common English language character patterns."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 6.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Applied Cryptography and Secure Connections."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Cryptographic Applications",
-        "right_header": "Req 6b: Transport Encryption",
+        "left_header": "Req 6a: Cryptographic Applications and Use Cases",
+        "right_header": "Req 6b: Transport Encryption and Certificate Validation",
         "left_points": [
-          "(6a) Cryptographic Applications and Use Cases: Cryptographic systems secure data across diverse computing contexts including full disk storage and banking transactions. Understanding symmetric and asymmetric frameworks clarifies modern privacy mechanisms."
+          "(6a) Cryptographic Applications and Use Cases: Cryptographic systems secure data across diverse computing contexts including full disk storage and banking transactions. Understanding symmetric and asymmetric frameworks clarifies modern privacy mechanisms.",
+          "Asymmetric Key Handshake: Public key infrastructure exchanges encryption keys safely across insecure public transmission routes."
         ],
         "right_points": [
-          "(6b) Transport Encryption and Certificate Validation: Transport Layer Security validates web server authenticity and establishes encrypted communications channels. Browsers display security certificates detailing the issuing authority, domain name, and cryptographic cipher."
+          "(6b) Transport Encryption and Certificate Validation: Transport Layer Security validates web server authenticity and establishes encrypted communications channels. Browsers display security certificates detailing the issuing authority, domain name, and cryptographic cipher.",
+          "(6c) Cipher Design and Decryption Analysis: Creating custom ciphers demonstrates fundamental concepts of character transposition and mathematical substitution. Exploring classical encryption models highlights the necessity of modern high-entropy mathematical algorithms."
         ],
         "rows": [
           {
@@ -4340,26 +4348,27 @@
           },
           {
             "attribute": "Browser Certificate Validation",
-            "left": "Req 6a: Cryptographic Applications: Cryptographic systems secure data across diverse computing contexts including full disk storage and banking transactions. Understanding symmetric and asymmetric frameworks clarifies modern privacy mechanisms.",
-            "right": "Req 6b: Transport Encryption: Transport Layer Security validates web server authenticity and establishes encrypted communications channels. Browsers display security certificates detailing the issuing authority, domain name, and cryptographic cipher."
+            "left": "Asymmetric Key Handshake: Public key infrastructure exchanges encryption keys safely across insecure public transmission routes.",
+            "right": "(6c) Cipher Design and Decryption Analysis: Creating custom ciphers demonstrates fundamental concepts of character transposition and mathematical substitution. Exploring classical encryption models highlights the necessity of modern high-entropy mathematical algorithms."
           },
           {
             "attribute": "Substitution Cipher Mechanics",
-            "left": "Req 6c: Cipher Design and Decryption: Creating custom ciphers demonstrates fundamental concepts of character transposition and mathematical substitution. Exploring classical encryption models highlights the necessity of modern high-entropy mathematical algorithms.",
-            "right": "Browser Certificate Validation: Web browsers verify domain ownership by checking digital certificates issued by authorities."
+            "left": "Substitution Cipher Mechanics: Classical Caesar ciphers shift plaintext letters by fixed alphabetical index offsets predictably.",
+            "right": "Frequency Analysis Flaws: Common language letter frequencies reveal monoalphabetic substitution ciphers to experienced cryptanalysts."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 6 Exemplar Workbook Entry: Applied",
+        "title": "Cybersecurity Req 6 Worked Example: Cryptographic Systems and Ciphers",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a - Cryptographic Applications": "Cryptographic systems secure data across diverse computing contexts including full disk storage and banking transactions. Understanding symmetric and asymmetric frameworks clarifies modern privacy mechanisms.",
-          "Req 6b - Transport Encryption": "Transport Layer Security validates web server authenticity and establishes encrypted communications channels. Browsers display security certificates detailing the issuing authority, domain name, and cryptographic cipher.",
-          "Req 6c - Cipher Design and Decryption": "Creating custom ciphers demonstrates fundamental concepts of character transposition and mathematical substitution. Exploring classical encryption models highlights the necessity of modern high-entropy mathematical algorithms."
+          "Phase 1 - Algorithm Exploration": "Research symmetric and asymmetric cryptographic algorithms used to secure stored database records.",
+          "Phase 2 - Certificate Inspection": "Inspect web browser lock icons to verify public key certificate validity dates.",
+          "Phase 3 - Cipher Construction": "Build a substitution cipher wheel to encode and decode short plaintext messages.",
+          "Phase 4 - Cryptanalysis Demonstration": "Analyze letter frequencies in ciphertext to identify common English language character patterns."
         },
-        "sample_output": "Applied Cryptography and Secure Connections: Share your public key with others (and your counselor) (p. 7).",
-        "counselor_tip": "For Cybersecurity Requirement 6 (Applied Cryptography and Secure Connections), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "Cryptography protects data at rest and data in transit using mathematical transformation algorithms. Verifying public key certificates ensures privacy and prevents man-in-the-middle interception during web browsing.",
+        "counselor_tip": "During the Cybersecurity Requirement 6 conference on Cryptographic Systems and Ciphers, verify that the Scout can explain asymmetric key handshake and demonstrate cryptanalysis demonstration: Analyze letter frequencies in ciphertext to identify common English language character patterns."
       },
       "quiz_item": {
         "scenario_prompt": "How can you verify that your connection to a website is encrypted before entering login credentials or payment details?",
@@ -4520,53 +4529,50 @@
         "Step 4 - Defense Planning: Outline mitigation steps including guest network isolation and administrative password changes."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 7.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Securing Connected IoT Devices."
       ],
       "comparison_data": {
-        "left_header": "Req 7: Connected IoT Device Ecosystem",
-        "right_header": "Req 7: Identify Three Device Encryption",
+        "left_header": "Internet of Things Device Security: Core Principles",
+        "right_header": "Internet of Things Device Security: Field Execution",
         "left_points": [
-          "Connected IoT Device Ecosystem: Describe Connected Devices and Internet of Things (Io T) (p. 6).",
-          "Cryptographic Safeguards for Smart Devices: (a) Research and explain Cryptography (p. 6).",
-          "Encryption Scenarios for Connected Hardware: (a) Research and explain Cryptography (p. 6)."
+          "Smart Appliance Risks: Internet connected household devices often run outdated firmware with hardcoded default passwords.",
+          "Network Segmentation Defenses: Isolating smart appliances on separate virtual local networks protects family computing devices."
         ],
         "right_points": [
-          "Identify Three Device Encryption Scenarios: (a) Research and explain Cryptography (p. 6).",
-          "Configure Encrypted Mobile Control App: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption (p. 6).",
-          "Share Public Keys Across Devices: Share your public key with others (and your counselor) (p. 6)."
+          "Remote Sensor Utilities: Connected thermostats adjust indoor climate automatically based on real-time household occupancy sensors.",
+          "Firmware Patching Protocols: Installing vendor security firmware remediates discovered vulnerabilities in embedded device microcontrollers."
         ],
         "rows": [
           {
             "attribute": "Smart Appliance Risks",
-            "left": "Connected IoT Device Ecosystem: Describe Connected Devices and Internet of Things (Io T) (p. 6).",
-            "right": "Identify Three Device Encryption Scenarios: (a) Research and explain Cryptography (p. 6)."
+            "left": "Smart Appliance Risks: Internet connected household devices often run outdated firmware with hardcoded default passwords.",
+            "right": "Remote Sensor Utilities: Connected thermostats adjust indoor climate automatically based on real-time household occupancy sensors."
           },
           {
             "attribute": "Network Segmentation Defenses",
-            "left": "Cryptographic Safeguards for Smart Devices: (a) Research and explain Cryptography (p. 6).",
-            "right": "Configure Encrypted Mobile Control App: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption (p. 6)."
+            "left": "Network Segmentation Defenses: Isolating smart appliances on separate virtual local networks protects family computing devices.",
+            "right": "Firmware Patching Protocols: Installing vendor security firmware remediates discovered vulnerabilities in embedded device microcontrollers."
           },
           {
             "attribute": "Remote Sensor Utilities",
-            "left": "Encryption Scenarios for Connected Hardware: (a) Research and explain Cryptography (p. 6).",
-            "right": "Share Public Keys Across Devices: Share your public key with others (and your counselor) (p. 6)."
+            "left": "Remote Sensor Utilities: Connected thermostats adjust indoor climate automatically based on real-time household occupancy sensors.",
+            "right": "Firmware Patching Protocols: Installing vendor security firmware remediates discovered vulnerabilities in embedded device microcontrollers."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 7 Exemplar Workbook Entry: Securing",
+        "title": "Cybersecurity Req 7 Worked Example: Internet of Things Device Security",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Connected IoT Device Ecosystem": "Describe Connected Devices and Internet of Things (Io T) (p. 6).",
-          "Cryptographic Safeguards for Smart": "(a) Research and explain Cryptography (p. 6).",
-          "Encryption Scenarios for Connected": "(a) Research and explain Cryptography (p. 6).",
-          "Securing Apps for Smart Devices": "Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption (p. 6)."
+          "Phase 1 - Device Inventory": "Identify four connected consumer electronic devices present in modern smart home households.",
+          "Phase 2 - Benefit Analysis": "Document operational conveniences provided by remote wireless connectivity on chosen smart appliances.",
+          "Phase 3 - Risk Assessment": "Analyze vulnerabilities arising from unpatched embedded firmware and hardcoded manufacturer passwords.",
+          "Phase 4 - Defense Planning": "Outline mitigation steps including guest network isolation and administrative password changes."
         },
-        "sample_output": "Securing Connected IoT Devices: Describe Connected Devices and Internet of Things (Io T) (p. 6).",
-        "counselor_tip": "For Cybersecurity Requirement 7 (Securing Connected IoT Devices), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 8))."
+        "sample_output": "Internet of Things devices introduce ubiquitous computing convenience alongside expanded physical and network vulnerabilities. Securing smart appliances requires network segmentation, firmware updates, and credential replacement.",
+        "counselor_tip": "During the Cybersecurity Requirement 7 conference on Internet of Things Device Security, verify that the Scout can explain smart appliance risks and demonstrate defense planning: Outline mitigation steps including guest network isolation and administrative password changes."
       },
       "quiz_item": {
         "scenario_prompt": "Which set of steps best secures connected Internet of Things (IoT) devices in your home?",
@@ -5003,19 +5009,20 @@
         "Step 4 - Patrol Presentation: Deliver an interactive cybersecurity awareness briefing featuring a live password security demonstration."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 8.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Cybersecurity Competitions and Troop Presentations."
       ],
       "comparison_data": {
         "left_header": "Req 8a: Cyber Competition Exploration",
-        "right_header": "Req 8b: Collaborative Cyber Competition",
+        "right_header": "Req 8b: Collaborative Cyber Competition Participation",
         "left_points": [
-          "(8a) Cyber Competition Exploration: National cybersecurity programs introduce youth to cyber defense, operating system hardening, and network administration. Scouts research program guidelines, competition divisions, and required team technical competencies."
+          "(8a) Cyber Competition Exploration: National cybersecurity programs introduce youth to cyber defense, operating system hardening, and network administration. Scouts research program guidelines, competition divisions, and required team technical competencies.",
+          "Cyber Competition Scope: Youth defense competitions challenge students to secure virtual operating systems against attacks."
         ],
         "right_points": [
-          "(8b) Collaborative Cyber Competition Participation: Participating in structured cyber challenges allows scouts to apply defensive techniques against simulated adversarial attacks. Teams collaborate under timed conditions to identify misconfigurations and secure vulnerable systems."
+          "(8b) Collaborative Cyber Competition Participation: Participating in structured cyber challenges allows scouts to apply defensive techniques against simulated adversarial attacks. Teams collaborate under timed conditions to identify misconfigurations and secure vulnerable systems.",
+          "(8c) Patrol Cybersecurity Presentation Design: Preparing and delivering a technical presentation strengthens instructional communication and mastery of core concepts. Scouts include practical demonstrations illustrating real-world defenses like password complexity or phishing indicators."
         ],
         "rows": [
           {
@@ -5025,26 +5032,27 @@
           },
           {
             "attribute": "Blue Team Tactics",
-            "left": "Req 8a: Cyber Competition: National cybersecurity programs introduce youth to cyber defense, operating system hardening, and network administration. Scouts research program guidelines, competition divisions, and required team technical competencies.",
-            "right": "Req 8b: Collaborative Cyber: Participating in structured cyber challenges allows scouts to apply defensive techniques against simulated adversarial attacks. Teams collaborate under timed conditions to identify misconfigurations and secure vulnerable systems."
+            "left": "Cyber Competition Scope: Youth defense competitions challenge students to secure virtual operating systems against attacks.",
+            "right": "(8c) Patrol Cybersecurity Presentation Design: Preparing and delivering a technical presentation strengthens instructional communication and mastery of core concepts. Scouts include practical demonstrations illustrating real-world defenses like password complexity or phishing indicators."
           },
           {
-            "attribute": "Capture The Flag",
-            "left": "Req 8c: Patrol Cybersecurity: Preparing and delivering a technical presentation strengthens instructional communication and mastery of core concepts. Scouts include practical demonstrations illustrating real-world defenses like password complexity or phishing indicators.",
-            "right": "Blue Team Tactics: Hardening system services and closing unauthorized open ports secures virtual competition machines."
+            "attribute": "Capture the Flag",
+            "left": "Capture the Flag: Security challenges present puzzles involving cryptography, network packet forensics, and reverse engineering.",
+            "right": "Patrol Education Impact: Demonstrating password entropy to younger Scouts promotes safe digital security habits troopwide."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 8 Exemplar Workbook Entry",
+        "title": "Cybersecurity Req 8 Worked Example: Cybersecurity Competitions and Community Outreach",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Cyber Competition Exploration": "National cybersecurity programs introduce youth to cyber defense, operating system hardening, and network administration. Scouts research program guidelines, competition divisions, and required team technical competencies.",
-          "Req 8b - Collaborative Cyber": "Participating in structured cyber challenges allows scouts to apply defensive techniques against simulated adversarial attacks. Teams collaborate under timed conditions to identify misconfigurations and secure vulnerable systems.",
-          "Req 8c - Patrol Cybersecurity": "Preparing and delivering a technical presentation strengthens instructional communication and mastery of core concepts. Scouts include practical demonstrations illustrating real-world defenses like password complexity or phishing indicators."
+          "Phase 1 - Activity Research": "Research national youth cybersecurity competitions including CyberPatriot and collegiate defense challenges.",
+          "Phase 2 - Team Organization": "Assemble a patrol team to practice basic system hardening on test images.",
+          "Phase 3 - Exercise Execution": "Participate in a capture-the-flag competition focusing on network analysis and cryptography.",
+          "Phase 4 - Patrol Presentation": "Deliver an interactive cybersecurity awareness briefing featuring a live password security demonstration."
         },
-        "sample_output": "Cybersecurity Competitions and Troop Presentations: (a) Research and explain Cryptography (p. 7).",
-        "counselor_tip": "For Cybersecurity Requirement 8 (Cybersecurity Competitions and Troop Presentations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "Educational cyber competitions challenge students to identify vulnerabilities and defend simulated enterprise network infrastructures. Participating in structured challenges builds practical team collaboration and defensive security skills.",
+        "counselor_tip": "During the Cybersecurity Requirement 8 conference on Cybersecurity Competitions and Community Outreach, verify that the Scout can explain cyber competition scope and demonstrate patrol presentation: Deliver an interactive cybersecurity awareness briefing featuring a live password security demonstration."
       },
       "quiz_item": {
         "scenario_prompt": "What is the primary goal of participating in a Scouting-approved cybersecurity competition or giving a troop cybersecurity presentation?",
@@ -5366,19 +5374,20 @@
         "Step 4 - Career Interview: Interview a practicing practitioner regarding daily responsibilities, toolsets, and foundational career advice."
       ],
       "gear_checklist": [
-        "Official Cybersecurity merit badge pamphlet and workbook organizer for Req 9.",
         "Computer or workstation with approved development or analysis tools.",
         "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
         "Saved project files, screenshots, or code listing for Cybersecurity Careers and Workplace Roles."
       ],
       "comparison_data": {
-        "left_header": "Req 9a: Cybersecurity Career Pathways",
-        "right_header": "Req 9b: Industry Workplace Observation",
+        "left_header": "Req 9a: Cybersecurity Career Pathways Analysis",
+        "right_header": "Req 9b: Industry Workplace Observation Visit",
         "left_points": [
-          "(9a) Cybersecurity Career Pathways Analysis: Cybersecurity professionals operate across every sector of modern industry, finance, healthcare, and government service. Exploring job descriptions highlights technical requirements, salary expectations, and day-to-day responsibilities."
+          "(9a) Cybersecurity Career Pathways Analysis: Cybersecurity professionals operate across every sector of modern industry, finance, healthcare, and government service. Exploring job descriptions highlights technical requirements, salary expectations, and day-to-day responsibilities.",
+          "Security Analyst Operations: Monitoring enterprise security event feeds allows analysts to detect and isolate intrusions."
         ],
         "right_points": [
-          "(9b) Industry Workplace Observation Visit: Visiting an operational enterprise security department provides direct insight into professional monitoring and defense routines. Observing analysts and engineers connects academic badge requirements with real-world infrastructure defense."
+          "(9b) Industry Workplace Observation Visit: Visiting an operational enterprise security department provides direct insight into professional monitoring and defense routines. Observing analysts and engineers connects academic badge requirements with real-world infrastructure defense.",
+          "Certification Value Proposition: Vendor neutral credentials validate foundational security knowledge alongside university computer science degrees."
         ],
         "rows": [
           {
@@ -5388,25 +5397,27 @@
           },
           {
             "attribute": "Digital Forensics Practice",
-            "left": "Req 9a: Cybersecurity Career: Cybersecurity professionals operate across every sector of modern industry, finance, healthcare, and government service. Exploring job descriptions highlights technical requirements, salary expectations, and day-to-day responsibilities.",
-            "right": "Req 9b: Industry Workplace: Visiting an operational enterprise security department provides direct insight into professional monitoring and defense routines. Observing analysts and engineers connects academic badge requirements with real-world infrastructure defense."
+            "left": "Security Analyst Operations: Monitoring enterprise security event feeds allows analysts to detect and isolate intrusions.",
+            "right": "Certification Value Proposition: Vendor neutral credentials validate foundational security knowledge alongside university computer science degrees."
           },
           {
             "attribute": "Certification Value Proposition",
-            "left": "Security Analyst Operations: Monitoring enterprise security event feeds allows analysts to detect and isolate intrusions.",
-            "right": "Digital Forensics Practice: Forensic examiners recover volatile system memory and storage artifacts following major breaches."
+            "left": "Certification Value Proposition: Vendor neutral credentials validate foundational security knowledge alongside university computer science degrees.",
+            "right": "Workplace Facility Tours: Visiting enterprise operations centers shows how collaborative teams respond to live threats."
           }
         ]
       },
       "worked_example": {
-        "title": "Cybersecurity Req 9 Exemplar Workbook Entry",
+        "title": "Cybersecurity Req 9 Worked Example: Cybersecurity Career Pathways and Industry",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Cybersecurity Career Pathways": "Cybersecurity professionals operate across every sector of modern industry, finance, healthcare, and government service. Exploring job descriptions highlights technical requirements, salary expectations, and day-to-day responsibilities.",
-          "Req 9b - Industry Workplace": "Visiting an operational enterprise security department provides direct insight into professional monitoring and defense routines. Observing analysts and engineers connects academic badge requirements with real-world infrastructure defense."
+          "Phase 1 - Career Identification": "Identify three distinct career specializations within modern corporate and government cybersecurity.",
+          "Phase 2 - Pathway Research": "Research required educational degrees, professional certifications, and training costs for one specialization.",
+          "Phase 3 - Organization Inquiry": "Contact a local business, university, or municipal IT department employing cybersecurity professionals.",
+          "Phase 4 - Career Interview": "Interview a practicing practitioner regarding daily responsibilities, toolsets, and foundational career advice."
         },
-        "sample_output": "Cybersecurity Careers and Workplace Roles: Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption (p. 7).",
-        "counselor_tip": "For Cybersecurity Requirement 9 (Cybersecurity Careers and Workplace Roles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "The cybersecurity field offers diverse career pathways spanning threat analysis, digital forensics, engineering, and policy development. Professional roles require combinations of formal education, technical certifications, and hands-on laboratory experience.",
+        "counselor_tip": "During the Cybersecurity Requirement 9 conference on Cybersecurity Career Pathways and Industry, verify that the Scout can explain security analyst operations and demonstrate career interview: Interview a practicing practitioner regarding daily responsibilities, toolsets, and foundational career advice."
       },
       "quiz_item": {
         "scenario_prompt": "What combination of preparation is most commonly required to build a successful career in the cybersecurity field?",

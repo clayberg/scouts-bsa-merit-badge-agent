@@ -425,14 +425,10 @@
         "Step 3 - Equipment Assessment: Record recommended barrier gloves, eye shields, and respirator ratings in your notebook.",
         "Step 4 - Storage Evaluation: Establish proper ventilation, temperature boundaries, and dedicated cabinet locations for each container."
       ],
-      "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet: Chemistry and Safety.",
-        "Field notebook, verification log sheet, and demonstration materials for Chemistry and Safety.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 1a: Safety Data Sheet Comparison",
-        "right_header": "Req 1c: Hazard Communication Pictogram",
+        "right_header": "Req 1c: Hazard Communication Pictogram Meanings",
         "left_points": [
           "(1a) Safety Data Sheet Comparison: Comparing chemical dossiers reveals how molecular structure dictates flammability, vapor pressure, and toxicity ratings. Sucrose possesses low volatility, whereas alcohol and aerosolized fluoropolymer sprays release ignitable vapors rapidly.",
           "(1b) Personal Protective Equipment Selection: Personal protective equipment forms a physical barrier against dermal absorption, splashes, and airborne droplets. High vapor concentrations or aerosol sprays require organic vapor respirators rather than simple particulate dust masks."
@@ -454,22 +450,22 @@
           },
           {
             "attribute": "Handling Protocols",
-            "left": "Req 1a: Safety Data Sheet Comparison: Comparing chemical dossiers reveals how molecular structure dictates flammability, vapor pressure, and toxicity ratings. Sucrose possesses low volatility, whereas alcohol and aerosolized fluoropolymer sprays release ignitable vapors rapidly.",
-            "right": "Req 1b: Personal Protective: Personal protective equipment forms a physical barrier against dermal absorption, splashes, and airborne droplets. High vapor concentrations or aerosol sprays require organic vapor respirators rather than simple particulate dust masks."
+            "left": "Handling Protocols: Section seven details safe operational handling practices and essential vapor control procedures.",
+            "right": "Physical Properties: Section nine documents boiling points, vapor pressures, solubility limits, and flash point thresholds."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 1 Exemplar Workbook Entry: Chemical Safety",
+        "title": "Chemistry Req 1 Worked Example: Chemical Safety Data Analysis",
         "artifact_type": "HAZARD_5COL",
         "fields": {
-          "Req 1a - Safety Data Sheet Comparison": "Comparing chemical dossiers reveals how molecular structure dictates flammability, vapor pressure, and toxicity ratings. Sucrose possesses low volatility, whereas alcohol and aerosolized fluoropolymer sprays release ignitable vapors rapidly.",
-          "Req 1b - Personal Protective Equipment": "Personal protective equipment forms a physical barrier against dermal absorption, splashes, and airborne droplets. High vapor concentrations or aerosol sprays require organic vapor respirators rather than simple particulate dust masks.",
-          "Req 1c - Hazard Communication": "Globally Harmonized System pictograms use red diamond borders enclosing black symbols to signal specific danger classes. Transport trucks, warehouse containers, and retail spray cans display these standardized symbols across local communities.",
-          "Req 1d - Safe Chemical Storage": "Segregating incompatible chemical families prevents accidental exothermic reactions, toxic gas releases, or catastrophic fires. Flammable liquids demand grounded metal storage cabinets separated from oxidizers, acids, and domestic living spaces."
+          "Phase 1 - Document Retrieval": "Download official safety sheets directly from manufacturer websites for all target substances.",
+          "Phase 2 - Section Comparison": "Compare health hazard classifications and exposure limits listed across section two tables.",
+          "Phase 3 - Equipment Assessment": "Record recommended barrier gloves, eye shields, and respirator ratings in your notebook.",
+          "Phase 4 - Storage Evaluation": "Establish proper ventilation, temperature boundaries, and dedicated cabinet locations for each container."
         },
-        "sample_output": "Chemical Safety and Data Sheets: An SDS allows the hazardous chemical manufacturer to alert the chemical user and emergency personnel about important safety information (p. 22).",
-        "counselor_tip": "For Chemistry Requirement 1 (Chemical Safety and Data Sheets), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23))."
+        "sample_output": "Safety Data Sheets provide standardized sixteen section profiles covering chemical hazards, handling protocols, and toxicological data. Chemists evaluate physical properties and exposure routes to select appropriate engineering controls and personal equipment.",
+        "counselor_tip": "During the Chemistry Requirement 1 conference on Chemical Safety Data Analysis, verify that the Scout can explain hazard identification and demonstrate storage evaluation: Establish proper ventilation, temperature boundaries, and dedicated cabinet locations for each container."
       },
       "quiz_item": {
         "scenario_prompt": "While preparing a dilute acid solution in a laboratory for Chemistry Requirement 1, what is the correct safety procedure and why must you consult the Safety Data Sheet (SDS) first?",
@@ -850,19 +846,17 @@
         "Step 3 - Surfactant Scrub: Wash vigorously with bar soap for twenty seconds before completing a water rinse.",
         "Step 4 - Culture Exposure: Inoculate warm yeast suspensions with varying concentrations of rubbing alcohol to measure gas."
       ],
-      "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet: Chemistry and First.",
-        "Field notebook, verification log sheet, and demonstration materials for Chemistry and First.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Antiseptic Action Hypothesis",
-        "right_header": "Req 2b: Soap Emulsification Washing",
+        "left_header": "Req 2a: Antiseptic Action Hypothesis Formulation",
+        "right_header": "Req 2b: Soap Emulsification Washing Demonstration",
         "left_points": [
-          "(2a) Antiseptic Action Hypothesis Formulation: Developing a testable hypothesis requires analyzing whether an agent removes soil physically or deactivates microorganisms biochemically. Controlled trials compare surfactant emulsification against biochemical protein coagulation."
+          "(2a) Antiseptic Action Hypothesis Formulation: Developing a testable hypothesis requires analyzing whether an agent removes soil physically or deactivates microorganisms biochemically. Controlled trials compare surfactant emulsification against biochemical protein coagulation.",
+          "Surfactant Mechanics: Hydrophobic tails bind nonpolar oils while hydrophilic heads interact directly with water molecules."
         ],
         "right_points": [
-          "(2b) Soap Emulsification Washing Demonstration: Water molecules cannot dissolve nonpolar lipids because strong hydrogen bonding repels hydrophobic hydrocarbon chains. Introducing surfactant soap bridges this polarity gap, encapsulating oil droplets within spherical micelles for rinsing."
+          "(2b) Soap Emulsification Washing Demonstration: Water molecules cannot dissolve nonpolar lipids because strong hydrogen bonding repels hydrophobic hydrocarbon chains. Introducing surfactant soap bridges this polarity gap, encapsulating oil droplets within spherical micelles for rinsing.",
+          "(2c) Alcohol Yeast Growth Inhibition: Baker's yeast metabolizes sugars to produce carbon dioxide gas in warm aqueous environments under anaerobic conditions. Adding isopropyl alcohol disrupts fungal plasma membranes and denatures metabolic enzymes, halting gas production measurably."
         ],
         "rows": [
           {
@@ -872,26 +866,27 @@
           },
           {
             "attribute": "Membrane Disruption",
-            "left": "Req 2a: Antiseptic Action Hypothesis: Developing a testable hypothesis requires analyzing whether an agent removes soil physically or deactivates microorganisms biochemically. Controlled trials compare surfactant emulsification against biochemical protein coagulation.",
-            "right": "Req 2b: Soap Emulsification Washing: Water molecules cannot dissolve nonpolar lipids because strong hydrogen bonding repels hydrophobic hydrocarbon chains. Introducing surfactant soap bridges this polarity gap, encapsulating oil droplets within spherical micelles for rinsing."
+            "left": "Surfactant Mechanics: Hydrophobic tails bind nonpolar oils while hydrophilic heads interact directly with water molecules.",
+            "right": "(2c) Alcohol Yeast Growth Inhibition: Baker's yeast metabolizes sugars to produce carbon dioxide gas in warm aqueous environments under anaerobic conditions. Adding isopropyl alcohol disrupts fungal plasma membranes and denatures metabolic enzymes, halting gas production measurably."
           },
           {
             "attribute": "Emulsification Process",
-            "left": "Req 2c: Alcohol Yeast Growth: Baker's yeast metabolizes sugars to produce carbon dioxide gas in warm aqueous environments under anaerobic conditions. Adding isopropyl alcohol disrupts fungal plasma membranes and denatures metabolic enzymes, halting gas production measurably.",
-            "right": "Membrane Disruption: Alcohols dissolve lipid bilayer envelopes, causing rapid intracellular leakage and cellular lysis."
+            "left": "Emulsification Process: Mechanical agitation suspends insoluble particulate debris within aqueous micelle spheres for rinsing.",
+            "right": "Protein Denaturation: Alcohol solutions coagulate vital structural enzymes to eliminate active bacterial metabolic pathways permanently."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 2 Exemplar Workbook Entry: First Aid",
+        "title": "Chemistry Req 2 Worked Example: Antiseptic Chemistry and Sanitation",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Antiseptic Action Hypothesis": "Developing a testable hypothesis requires analyzing whether an agent removes soil physically or deactivates microorganisms biochemically. Controlled trials compare surfactant emulsification against biochemical protein coagulation.",
-          "Req 2b - Soap Emulsification Washing": "Water molecules cannot dissolve nonpolar lipids because strong hydrogen bonding repels hydrophobic hydrocarbon chains. Introducing surfactant soap bridges this polarity gap, encapsulating oil droplets within spherical micelles for rinsing.",
-          "Req 2c - Alcohol Yeast Growth": "Baker's yeast metabolizes sugars to produce carbon dioxide gas in warm aqueous environments under anaerobic conditions. Adding isopropyl alcohol disrupts fungal plasma membranes and denatures metabolic enzymes, halting gas production measurably."
+          "Phase 1 - Soil Preparation": "Coat clean hands thoroughly with a mixture of vegetable oil and cocoa.",
+          "Phase 2 - Water Rinse": "Rinse hands beneath running tap water without soap and record the cleanliness.",
+          "Phase 3 - Surfactant Scrub": "Wash vigorously with bar soap for twenty seconds before completing a water rinse.",
+          "Phase 4 - Culture Exposure": "Inoculate warm yeast suspensions with varying concentrations of rubbing alcohol to measure gas."
         },
-        "sample_output": "First Aid Surfactants and Antiseptics: Fill a clear empty plastic bottle half full of water (p. 40).",
-        "counselor_tip": "For Chemistry Requirement 2 (First Aid Surfactants and Antiseptics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68))."
+        "sample_output": "Soaps function as amphiphilic surfactants that emulsify nonpolar organic soils and disrupt microbial cell membranes. Alcohols denature essential cellular proteins and dissolve lipid bilayers, arresting bacterial replication across superficial epidermal abrasions.",
+        "counselor_tip": "During the Chemistry Requirement 2 conference on Antiseptic Chemistry and Sanitation, verify that the Scout can explain surfactant mechanics and demonstrate culture exposure: Inoculate warm yeast suspensions with varying concentrations of rubbing alcohol to measure gas."
       },
       "quiz_item": {
         "scenario_prompt": "Why is soap necessary to wash cooking oil and trapped powder off your hands when plain water fails?",
@@ -1226,19 +1221,17 @@
         "Step 3 - Reagent Testing: Dispense equal portions of cabbage extract into five clear transparent sample testing cups.",
         "Step 4 - pH Recording: Add vinegar, soda, water, ammonia, and lemon juice while documenting all color shifts."
       ],
-      "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet: Chemistry and Cooking After Successfully.",
-        "Field notebook, verification log sheet, and demonstration materials for Chemistry and Cooking After Successfully.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Maillard Browning Reaction",
+        "left_header": "Req 3a: Maillard Browning Reaction Analysis",
         "right_header": "Req 3b: Anthocyanin Household pH Testing",
         "left_points": [
-          "(3a) Maillard Browning Reaction Analysis: The Maillard reaction occurs when carbonyl groups of reducing sugars react with amino groups of proteins under heat. This multistep synthesis yields diverse ring structures, pyrazines, and brown melanoidins that redefine food texture and taste."
+          "(3a) Maillard Browning Reaction Analysis: The Maillard reaction occurs when carbonyl groups of reducing sugars react with amino groups of proteins under heat. This multistep synthesis yields diverse ring structures, pyrazines, and brown melanoidins that redefine food texture and taste.",
+          "Maillard Condensation: Reducing sugars react with amino acids to generate complex aromatic melanoidin polymer pigments."
         ],
         "right_points": [
-          "(3b) Anthocyanin Household pH Testing: Red cabbage contains flavylium cation anthocyanins that undergo protonation and deprotonation as solution pH changes. Tracking chromatic shifts from red through green enables reliable pH estimation of household liquids without digital meters."
+          "(3b) Anthocyanin Household pH Testing: Red cabbage contains flavylium cation anthocyanins that undergo protonation and deprotonation as solution pH changes. Tracking chromatic shifts from red through green enables reliable pH estimation of household liquids without digital meters.",
+          "Anthocyanin Indicators: Red cabbage pigment changes molecular configuration and color across varying hydronium ion concentrations."
         ],
         "rows": [
           {
@@ -1248,25 +1241,27 @@
           },
           {
             "attribute": "Chemical Transformation",
-            "left": "Req 3a: Maillard Browning Reaction: The Maillard reaction occurs when carbonyl groups of reducing sugars react with amino groups of proteins under heat. This multistep synthesis yields diverse ring structures, pyrazines, and brown melanoidins that redefine food texture and taste.",
-            "right": "Req 3b: Anthocyanin Household pH: Red cabbage contains flavylium cation anthocyanins that undergo protonation and deprotonation as solution pH changes. Tracking chromatic shifts from red through green enables reliable pH estimation of household liquids without digital meters."
+            "left": "Maillard Condensation: Reducing sugars react with amino acids to generate complex aromatic melanoidin polymer pigments.",
+            "right": "Anthocyanin Indicators: Red cabbage pigment changes molecular configuration and color across varying hydronium ion concentrations."
           },
           {
             "attribute": "Anthocyanin Indicators",
-            "left": "Maillard Condensation: Reducing sugars react with amino acids to generate complex aromatic melanoidin polymer pigments.",
-            "right": "Chemical Transformation: Heat driven covalent bond restructuring produces entirely new chemical compounds with distinct aromas."
+            "left": "Anthocyanin Indicators: Red cabbage pigment changes molecular configuration and color across varying hydronium ion concentrations.",
+            "right": "Hydrogen Ion Scale: Logarithmic pH measurements indicate relative acidity or alkalinity in common aqueous culinary solutions."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 3 Exemplar Workbook Entry: Culinary",
+        "title": "Chemistry Req 3 Worked Example: Culinary Chemical Reaction Analysis",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Maillard Browning Reaction": "The Maillard reaction occurs when carbonyl groups of reducing sugars react with amino groups of proteins under heat. This multistep synthesis yields diverse ring structures, pyrazines, and brown melanoidins that redefine food texture and taste.",
-          "Req 3b - Anthocyanin Household pH": "Red cabbage contains flavylium cation anthocyanins that undergo protonation and deprotonation as solution pH changes. Tracking chromatic shifts from red through green enables reliable pH estimation of household liquids without digital meters."
+          "Phase 1 - Food Browning": "Heat a slice of bread or protein in a pan until brown.",
+          "Phase 2 - Indicator Extraction": "Boil chopped red cabbage leaves in distilled water to extract dark purple anthocyanins.",
+          "Phase 3 - Reagent Testing": "Dispense equal portions of cabbage extract into five clear transparent sample testing cups.",
+          "Phase 4 - pH Recording": "Add vinegar, soda, water, ammonia, and lemon juice while documenting all color shifts."
         },
-        "sample_output": "Culinary Reactions and pH Indicators: When people hear the word chemicals, they may feel afraid (p. 15).",
-        "counselor_tip": "For Chemistry Requirement 3 (Culinary Reactions and pH Indicators), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17))."
+        "sample_output": "Thermal cooking triggers complex chemical transformations including the condensation of reducing sugars with amino acids. Acid base chemistry in culinary ingredients can be monitored using naturally occurring plant anthocyanin indicator solutions.",
+        "counselor_tip": "During the Chemistry Requirement 3 conference on Culinary Chemical Reaction Analysis, verify that the Scout can explain maillard condensation and demonstrate ph recording: Add vinegar, soda, water, ammonia, and lemon juice while documenting all color shifts."
       },
       "quiz_item": {
         "scenario_prompt": "What happens to the molecules in food when a Maillard browning reaction takes place during cooking?",
@@ -1750,11 +1745,11 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Waterproofing Textile Coating",
+        "left_header": "Req 4a: Waterproofing Textile Coating Evaluation",
         "right_header": "Req 4c: Atomic Emission Flame Testing",
         "left_points": [
           "(4a) Waterproofing Textile Coating Evaluation: Waterproofing agents coat synthetic fibers with low surface energy compounds like wax, silicone, or polyurethane. Testing bead formation and hydrostatic penetration determines whether a treatment preserves breathability or provides an impermeable barrier.",
-          "(4b) Combustion Classes And Extinguishing: Fires are classified into Classes A, B, C, and D based on whether the combustible material is solid, liquid, electrical, or metal. Extinguishers suffocate flames with carbon dioxide, interrupt chemical chain reactions with dry powders, or cool fuels with water."
+          "(4b) Combustion Classes and Extinguishing: Fires are classified into Classes A, B, C, and D based on whether the combustible material is solid, liquid, electrical, or metal. Extinguishers suffocate flames with carbon dioxide, interrupt chemical chain reactions with dry powders, or cool fuels with water."
         ],
         "right_points": [
           "(4c) Atomic Emission Flame Testing: Thermal energy in a flame promotes valence electrons of metal cations into higher quantum energy orbitals. Returning to lower energy ground states releases photons of discrete wavelengths, producing distinctive emission colors like yellow sodium or crimson lithium.",
@@ -1768,27 +1763,27 @@
           },
           {
             "attribute": "Fire Triangle",
-            "left": "(4b) Combustion Classes And Extinguishing: Fires are classified into Classes A, B, C, and D based on whether the combustible material is solid, liquid, electrical, or metal. Extinguishers suffocate flames with carbon dioxide, interrupt chemical chain reactions with dry powders, or cool fuels with water.",
+            "left": "(4b) Combustion Classes and Extinguishing: Fires are classified into Classes A, B, C, and D based on whether the combustible material is solid, liquid, electrical, or metal. Extinguishers suffocate flames with carbon dioxide, interrupt chemical chain reactions with dry powders, or cool fuels with water.",
             "right": "(4d) Interfacial Nylon Polymerization Synthesis: Synthesizing nylon involves an interfacial condensation polymerization between hexamethylenediamine and sebacoyl chloride. As the two immiscible solutions meet, monomers link together at the liquid boundary, releasing hydrochloric acid byproduct as polymer strands are drawn."
           },
           {
             "attribute": "Atomic Emission",
-            "left": "Req 4a: Waterproofing Textile: Waterproofing agents coat synthetic fibers with low surface energy compounds like wax, silicone, or polyurethane. Testing bead formation and hydrostatic penetration determines whether a treatment preserves breathability or provides an impermeable barrier.",
-            "right": "Req 4b: Combustion Classes: Fires are classified into Classes A, B, C, and D based on whether the combustible material is solid, liquid, electrical, or metal. Extinguishers suffocate flames with carbon dioxide, interrupt chemical chain reactions with dry powders, or cool fuels with water."
+            "left": "Atomic Emission: Excited electrons emit characteristic visible wavelengths as they transition down to ground states.",
+            "right": "Polymer Synthesis: Diamines react with diacid chlorides at liquid interfaces to form continuous nylon polyamide filaments."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 4 Exemplar Workbook Entry: Camping",
+        "title": "Chemistry Req 4 Worked Example: Outdoor Chemistry and Combustion",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Waterproofing Textile Coating": "Waterproofing agents coat synthetic fibers with low surface energy compounds like wax, silicone, or polyurethane. Testing bead formation and hydrostatic penetration determines whether a treatment preserves breathability or provides an impermeable barrier.",
-          "Req 4b - Combustion Classes": "Fires are classified into Classes A, B, C, and D based on whether the combustible material is solid, liquid, electrical, or metal. Extinguishers suffocate flames with carbon dioxide, interrupt chemical chain reactions with dry powders, or cool fuels with water.",
-          "Req 4c - Atomic Emission Flame Testing": "Thermal energy in a flame promotes valence electrons of metal cations into higher quantum energy orbitals. Returning to lower energy ground states releases photons of discrete wavelengths, producing distinctive emission colors like yellow sodium or crimson lithium.",
-          "Req 4d - Interfacial Nylon": "Synthesizing nylon involves an interfacial condensation polymerization between hexamethylenediamine and sebacoyl chloride. As the two immiscible solutions meet, monomers link together at the liquid boundary, releasing hydrochloric acid byproduct as polymer strands are drawn."
+          "Phase 1 - Fabric Treatment": "Apply silicone spray to one fabric square while leaving an identical square untreated.",
+          "Phase 2 - Penetration Testing": "Measure water droplet absorption time on both fabric samples to determine coating efficacy.",
+          "Phase 3 - Extinguisher Review": "Match Class A, B, C, and D fire scenarios to correct extinguishing agents.",
+          "Phase 4 - Element Burning": "Introduce metal salt solutions into a clean flame to observe characteristic atomic emissions."
         },
-        "sample_output": "Camping Waterproofing and Fire Chemistry: Cook and stir for about three minutes, until the onion becomes translucent (p. 21).",
-        "counselor_tip": "For Chemistry Requirement 4 (Camping Waterproofing and Fire Chemistry), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40))."
+        "sample_output": "Outdoor survival equipment relies on hydrophobic chemical coatings to repel moisture and manage interfacial surface tension. Understanding combustion chemistry, flame emission spectra, and condensation polymerization informs outdoor safety and material selection.",
+        "counselor_tip": "During the Chemistry Requirement 4 conference on Outdoor Chemistry and Combustion, verify that the Scout can explain hydrophobic repulsion and demonstrate element burning: Introduce metal salt solutions into a clean flame to observe characteristic atomic emissions."
       },
       "quiz_item": {
         "scenario_prompt": "Why must you wear safety goggles and protective gloves when handling strong drain cleaners or concentrated acids?",
@@ -1948,47 +1943,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Water Boiling and Steam",
-        "right_header": "Req 5: Condense Steam into Liquid",
+        "left_header": "Sustainable Materials Life Cycle: Core Principles",
+        "right_header": "Sustainable Materials Life Cycle: Field Execution",
         "left_points": [
-          "Water Boiling and Steam: Heating the teakettle brought the water to its boiling point temperature, where it began to boil, making steam (p. 52).",
-          "Ice Cooling in Straw: The steam passed through the straw and was cooled by the ice (p. 52).",
-          "Steam Condensation Collection: The cooled steam condensed, became a liquid, and dripped down into the glass (p. 52)."
+          "Bioplastic Synthesis: Corn starch fermentation produces lactic acid monomers that polymerize into compostable polylactic plastic.",
+          "Chemical Depolymerization: Catalytic glycolysis breaks long chain plastic bonds to yield virgin quality monomer raw materials."
         ],
         "right_points": [
-          "Condense Steam into Liquid: The cooled steam condensed, became a liquid, and dripped down into the glass (p. 52).",
-          "Pour Oil into Bottle: Fill an empty 2-liter bottle with 3 or 4 inches of cooking oil, baby oil, or mineral oil (p. 52).",
-          "Add Water and Coloring: Add approximately the same amount of water and a few drops of food coloring (p. 52)."
+          "Electrochemical Recovery: Hydrometallurgical acid leaching extracts high purity lithium and cobalt salts from spent battery cells.",
+          "Single Use Alternatives: Molded cellulose fibers and marine degradable polyhydroxyalkanoates replace conventional expanded polystyrene packaging."
         ],
         "rows": [
           {
             "attribute": "Bioplastic Synthesis",
-            "left": "Water Boiling and Steam: Heating the teakettle brought the water to its boiling point temperature, where it began to boil, making steam (p. 52).",
-            "right": "Condense Steam into Liquid: The cooled steam condensed, became a liquid, and dripped down into the glass (p. 52)."
+            "left": "Bioplastic Synthesis: Corn starch fermentation produces lactic acid monomers that polymerize into compostable polylactic plastic.",
+            "right": "Electrochemical Recovery: Hydrometallurgical acid leaching extracts high purity lithium and cobalt salts from spent battery cells."
           },
           {
             "attribute": "Chemical Depolymerization",
-            "left": "Ice Cooling in Straw: The steam passed through the straw and was cooled by the ice (p. 52).",
-            "right": "Pour Oil into Bottle: Fill an empty 2-liter bottle with 3 or 4 inches of cooking oil, baby oil, or mineral oil (p. 52)."
+            "left": "Chemical Depolymerization: Catalytic glycolysis breaks long chain plastic bonds to yield virgin quality monomer raw materials.",
+            "right": "Single Use Alternatives: Molded cellulose fibers and marine degradable polyhydroxyalkanoates replace conventional expanded polystyrene packaging."
           },
           {
             "attribute": "Electrochemical Recovery",
-            "left": "Steam Condensation Collection: The cooled steam condensed, became a liquid, and dripped down into the glass (p. 52).",
-            "right": "Add Water and Coloring: Add approximately the same amount of water and a few drops of food coloring (p. 52)."
+            "left": "Electrochemical Recovery: Hydrometallurgical acid leaching extracts high purity lithium and cobalt salts from spent battery cells.",
+            "right": "Single Use Alternatives: Molded cellulose fibers and marine degradable polyhydroxyalkanoates replace conventional expanded polystyrene packaging."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 5 Exemplar Workbook Entry: Reducing",
+        "title": "Chemistry Req 5 Worked Example: Sustainable Materials Life Cycle",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Water Boiling and Steam": "Heating the teakettle brought the water to its boiling point temperature, where it began to boil, making steam (p. 52).",
-          "Ice Cooling in Straw": "The steam passed through the straw and was cooled by the ice (p. 52).",
-          "Steam Condensation Collection": "The cooled steam condensed, became a liquid, and dripped down into the glass (p. 52).",
-          "Oil Layer in Bottle": "Fill an empty 2-liter bottle with 3 or 4 inches of cooking oil, baby oil, or mineral oil (p. 52)."
+          "Phase 1 - Material Audit": "Categorize household single use items into petroleum polymers, cellulose fibers, and electrochemical cells.",
+          "Phase 2 - Degradation Research": "Compare degradation timescales of high density polyethylene versus compostable polyhydroxyalkanoate biopolymers in soil.",
+          "Phase 3 - Recycling Assessment": "Identify chemical solvent dissolution methods that separate multilayer foil and plastic snack packaging.",
+          "Phase 4 - Proposal Formulation": "Draft a neighborhood action plan outlining transitions to reusable containers and battery reclamation."
         },
-        "sample_output": "Reducing Single-Use Environmental Impacts: Heating the teakettle brought the water to its boiling point temperature, where it began to boil, making steam (p. 52).",
-        "counselor_tip": "For Chemistry Requirement 5 (Reducing Single-Use Environmental Impacts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58))."
+        "sample_output": "Polymer chemists synthesize biodegradable polylactic acids from agricultural starches to replace durable petroleum based plastics. Advanced chemical recycling depolymerizes discarded consumer plastics and battery cathodes back into pure monomer feedstocks for reuse.",
+        "counselor_tip": "During the Chemistry Requirement 5 conference on Sustainable Materials Life Cycle, verify that the Scout can explain bioplastic synthesis and demonstrate proposal formulation: Draft a neighborhood action plan outlining transitions to reusable containers and battery reclamation."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do chemists help reduce the long-term environmental impact of single-use items like plastic bags and straws?",
@@ -2142,47 +2135,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Particulate Pollution Sources",
-        "right_header": "Req 6: Identify Human Dust Sources",
+        "left_header": "Foundational Chemistry Subdisciplines Overview: Core Principles",
+        "right_header": "Foundational Chemistry Subdisciplines Overview: Field Execution",
         "left_points": [
-          "Particulate Pollution Sources: There are many sources of liquid and solid particulate pollution (p. 9).",
-          "Natural Volcanic Emissions: Volcanoes and forest fires are two natural sources (p. 9).",
-          "Human Fossil Fuel Emissions: Humans contribute much more from activities like grinding and spraying, which cause dust, and burning fossil fuels like coal, diesel (p. 9)."
+          "Organic Chemistry: Carbon backbone molecules govern synthetic pharmaceuticals, polymer textiles, fuels, and biological metabolic compounds.",
+          "Inorganic Chemistry: Metallic complexes, crystal semiconductors, mineral salts, and industrial transition catalysts form noncarbon materials."
         ],
         "right_points": [
-          "Identify Human Dust Sources: Humans contribute much more from activities like grinding and spraying, which cause dust, and burning fossil fuels like coal, diesel (p. 9).",
-          "Measure Airborne Particle Size: In general, the smaller the particle, the longer it will stay airborne (p. 9).",
-          "Track Long-Range Pollution Transport: This is a big problem because particulate pollution can be carried across the United States or even to countries overseas (p. 9)."
+          "Analytical Chemistry: Chromatography, mass spectrometry, and spectroscopy quantify trace chemical compounds in complex environmental mixtures.",
+          "Physical Chemistry: Thermodynamics, chemical kinetics, and quantum mechanics describe the fundamental energy governing molecular interactions."
         ],
         "rows": [
           {
             "attribute": "Organic Chemistry",
-            "left": "Particulate Pollution Sources: There are many sources of liquid and solid particulate pollution (p. 9).",
-            "right": "Identify Human Dust Sources: Humans contribute much more from activities like grinding and spraying, which cause dust, and burning fossil fuels like coal, diesel (p. 9)."
+            "left": "Organic Chemistry: Carbon backbone molecules govern synthetic pharmaceuticals, polymer textiles, fuels, and biological metabolic compounds.",
+            "right": "Analytical Chemistry: Chromatography, mass spectrometry, and spectroscopy quantify trace chemical compounds in complex environmental mixtures."
           },
           {
             "attribute": "Inorganic Chemistry",
-            "left": "Natural Volcanic Emissions: Volcanoes and forest fires are two natural sources (p. 9).",
-            "right": "Measure Airborne Particle Size: In general, the smaller the particle, the longer it will stay airborne (p. 9)."
+            "left": "Inorganic Chemistry: Metallic complexes, crystal semiconductors, mineral salts, and industrial transition catalysts form noncarbon materials.",
+            "right": "Physical Chemistry: Thermodynamics, chemical kinetics, and quantum mechanics describe the fundamental energy governing molecular interactions."
           },
           {
             "attribute": "Analytical Chemistry",
-            "left": "Human Fossil Fuel Emissions: Humans contribute much more from activities like grinding and spraying, which cause dust, and burning fossil fuels like coal, diesel (p. 9).",
-            "right": "Track Long-Range Pollution Transport: This is a big problem because particulate pollution can be carried across the United States or even to countries overseas (p. 9)."
+            "left": "Analytical Chemistry: Chromatography, mass spectrometry, and spectroscopy quantify trace chemical compounds in complex environmental mixtures.",
+            "right": "Physical Chemistry: Thermodynamics, chemical kinetics, and quantum mechanics describe the fundamental energy governing molecular interactions."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 6 Exemplar Workbook Entry: Five Core",
+        "title": "Chemistry Req 6 Worked Example: Foundational Chemistry Subdisciplines Overview",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Particulate Pollution Sources": "There are many sources of liquid and solid particulate pollution (p. 9).",
-          "Natural Volcanic Emissions": "Volcanoes and forest fires are two natural sources (p. 9).",
-          "Human Fossil Fuel Emissions": "Humans contribute much more from activities like grinding and spraying, which cause dust, and burning fossil fuels like coal, diesel (p. 9).",
-          "Airborne Particle Size Behavior": "In general, the smaller the particle, the longer it will stay airborne (p. 9)."
+          "Phase 1 - Branch Identification": "List organic, inorganic, physical, analytical, and biochemistry subdisciplines in a study log.",
+          "Phase 2 - Application Mapping": "Document daily consumer products and biological processes associated with each identified chemistry branch.",
+          "Phase 3 - Cross Discipline Analysis": "Trace how physical chemical laws explain enzyme catalysis investigated within modern biochemical research.",
+          "Phase 4 - Counselor Discussion": "Present your comparative subdiscipline chart and explain everyday examples of each chemistry field."
         },
-        "sample_output": "Five Core Fields of Chemistry: There are many sources of liquid and solid particulate pollution (p. 9).",
-        "counselor_tip": "For Chemistry Requirement 6 (Five Core Fields of Chemistry), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80))."
+        "sample_output": "Chemistry divides into organic, inorganic, analytical, physical, and biochemistry disciplines that investigate molecular structure and energy. These branches intersect continuously, such as analytical techniques quantifying biochemical enzymes or physical models explaining inorganic catalyst behavior.",
+        "counselor_tip": "During the Chemistry Requirement 6 conference on Foundational Chemistry Subdisciplines Overview, verify that the Scout can explain organic chemistry and demonstrate counselor discussion: Present your comparative subdiscipline chart and explain everyday examples of each chemistry field."
       },
       "quiz_item": {
         "scenario_prompt": "Why are very fine particulate pollutants from burning coal or diesel fuel especially concerning for air quality?",
@@ -2346,47 +2337,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Interdisciplinary Science",
-        "right_header": "Req 7: Compare Graduate Degree Timelines",
+        "left_header": "Chemical Regulatory Agencies Oversight: Core Principles",
+        "right_header": "Chemical Regulatory Agencies Oversight: Field Execution",
         "left_points": [
-          "Interdisciplinary Science Foundations: Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
-          "Graduate Chemistry Education: Many chemists stay in school after earning a bachelor's degree and earn advanced degrees (p. 17).",
-          "Master and Doctorate Timelines: The master's degree typically requires two years of study, and the doctorate requires at least four years beyond the undergraduate degree (p. 17)."
+          "Environmental Protection: The Environmental Protection Agency enforces the Toxic Substances Control Act to protect ecosystems.",
+          "Food Safety: The Food and Drug Administration ensures pharmaceutical efficacy and monitors food additive tolerances."
         ],
         "right_points": [
-          "Compare Graduate Degree Timelines: The master's degree typically requires two years of study, and the doctorate requires at least four years beyond the undergraduate degree (p. 17).",
-          "Examine Everyday Chemical Products: Scarcely anything used by society is untouched by chemistry (p. 17).",
-          "Survey Industrial Employer Sectors: Chemical companies big and small employ chemists, as do pharmaceutical companies, large manufacturers, utilities, and biotechnology companies (p. 17)."
+          "Workplace Standards: The Occupational Safety and Health Administration mandates permissible exposure limits and safety sheets.",
+          "Regulatory History: Historic industrial disasters like Love Canal prompted comprehensive federal chemical safety legislative acts."
         ],
         "rows": [
           {
             "attribute": "Environmental Protection",
-            "left": "Interdisciplinary Science Foundations: Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
-            "right": "Compare Graduate Degree Timelines: The master's degree typically requires two years of study, and the doctorate requires at least four years beyond the undergraduate degree (p. 17)."
+            "left": "Environmental Protection: The Environmental Protection Agency enforces the Toxic Substances Control Act to protect ecosystems.",
+            "right": "Workplace Standards: The Occupational Safety and Health Administration mandates permissible exposure limits and safety sheets."
           },
           {
             "attribute": "Food Safety",
-            "left": "Graduate Chemistry Education: Many chemists stay in school after earning a bachelor's degree and earn advanced degrees (p. 17).",
-            "right": "Examine Everyday Chemical Products: Scarcely anything used by society is untouched by chemistry (p. 17)."
+            "left": "Food Safety: The Food and Drug Administration ensures pharmaceutical efficacy and monitors food additive tolerances.",
+            "right": "Regulatory History: Historic industrial disasters like Love Canal prompted comprehensive federal chemical safety legislative acts."
           },
           {
             "attribute": "Workplace Standards",
-            "left": "Master and Doctorate Timelines: The master's degree typically requires two years of study, and the doctorate requires at least four years beyond the undergraduate degree (p. 17).",
-            "right": "Survey Industrial Employer Sectors: Chemical companies big and small employ chemists, as do pharmaceutical companies, large manufacturers, utilities, and biotechnology companies (p. 17)."
+            "left": "Workplace Standards: The Occupational Safety and Health Administration mandates permissible exposure limits and safety sheets.",
+            "right": "Regulatory History: Historic industrial disasters like Love Canal prompted comprehensive federal chemical safety legislative acts."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 7 Exemplar Workbook Entry: Government",
+        "title": "Chemistry Req 7 Worked Example: Chemical Regulatory Agencies Oversight",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Interdisciplinary Science Foundations": "Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
-          "Graduate Chemistry Education": "Many chemists stay in school after earning a bachelor's degree and earn advanced degrees (p. 17).",
-          "Master and Doctorate Timelines": "The master's degree typically requires two years of study, and the doctorate requires at least four years beyond the undergraduate degree (p. 17).",
-          "Societal Impact of Chemistry": "Scarcely anything used by society is untouched by chemistry (p. 17)."
+          "Phase 1 - Agency Research": "Research the historical establishment, legal mandates, and oversight scopes of EPA, FDA, and OSHA.",
+          "Phase 2 - Regulation Tracking": "Identify specific consumer products regulated by each agency, including cosmetics, pesticides, and factory solvents.",
+          "Phase 3 - Incident Analysis": "Examine how the creation of OSHA transformed factory worker chemical exposure safety standards.",
+          "Phase 4 - Presentation Preparation": "Prepare notes summarizing each agency's role in protecting public health and community environments."
         },
-        "sample_output": "Government Chemical Oversight Agencies: Careers in Chemistry. physics, mathematics, and computer science (p. 17).",
-        "counselor_tip": "For Chemistry Requirement 7 (Government Chemical Oversight Agencies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92))."
+        "sample_output": "Federal agencies enforce statutory frameworks to mitigate chemical hazards in consumer goods, industrial workplaces, and natural ecosystems. The EPA, FDA, and OSHA regulate environmental releases, pharmaceutical purity, and occupational workplace exposure thresholds respectively.",
+        "counselor_tip": "During the Chemistry Requirement 7 conference on Chemical Regulatory Agencies Oversight, verify that the Scout can explain environmental protection and demonstrate presentation preparation: Prepare notes summarizing each agency's role in protecting public health and community environments."
       },
       "quiz_item": {
         "scenario_prompt": "Which set of government agencies provides oversight for pharmaceuticals, workplace chemical exposure, and environmental protection?",
@@ -2772,19 +2761,17 @@
         "Step 3 - Professional Interview: Inquire about required academic degrees, daily instrumentation use, and specialized workplace safety certifications.",
         "Step 4 - Career Synthesis: Summarize educational milestones, job duties, and industrial contributions in your merit badge binder."
       ],
-      "gear_checklist": [
-        "Official Chemistry Merit Badge Pamphlet: Chemistry Careers and Pathways.",
-        "Field notebook, verification log sheet, and demonstration materials for Chemistry Careers and Pathways.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: Research Laboratory Facility",
-        "right_header": "Req 8b: Chemical Manufacturing Plant",
+        "left_header": "Req 8a: Research Laboratory Facility Tour",
+        "right_header": "Req 8b: Chemical Manufacturing Plant Exploration",
         "left_points": [
-          "(8a) Research Laboratory Facility Tour: Touring a research facility exposes Scouts to specialized diagnostic tools like nuclear magnetic resonance spectrometers and fume hoods. Conversations with PhD chemists and technicians illuminate the years of academic study and safety protocols required."
+          "(8a) Research Laboratory Facility Tour: Touring a research facility exposes Scouts to specialized diagnostic tools like nuclear magnetic resonance spectrometers and fume hoods. Conversations with PhD chemists and technicians illuminate the years of academic study and safety protocols required.",
+          "Academic Research: Laboratory scientists design novel synthetic pathways and characterize reaction mechanisms using advanced instrumentation."
         ],
         "right_points": [
-          "(8b) Chemical Manufacturing Plant Exploration: Commercial chemical plants translate small scale reactions into ton scale industrial processes using heat exchangers and distillation towers. Observing these plants demonstrates how engineers maintain process safety, minimize waste, and control mass energy balances."
+          "(8b) Chemical Manufacturing Plant Exploration: Commercial chemical plants translate small scale reactions into ton scale industrial processes using heat exchangers and distillation towers. Observing these plants demonstrates how engineers maintain process safety, minimize waste, and control mass energy balances.",
+          "(8c) Chemistry Career Path Investigation: Investigating chemistry careers reveals diverse roles in pharmacology, forensics, material science, and agricultural engineering. Each specialization requires specific coursework, laboratory internships, and adherence to professional ethics and safety accreditations."
         ],
         "rows": [
           {
@@ -2794,26 +2781,27 @@
           },
           {
             "attribute": "Industrial Manufacturing",
-            "left": "Req 8a: Research Laboratory Facility: Touring a research facility exposes Scouts to specialized diagnostic tools like nuclear magnetic resonance spectrometers and fume hoods. Conversations with PhD chemists and technicians illuminate the years of academic study and safety protocols required.",
-            "right": "Req 8b: Chemical Manufacturing Plant: Commercial chemical plants translate small scale reactions into ton scale industrial processes using heat exchangers and distillation towers. Observing these plants demonstrates how engineers maintain process safety, minimize waste, and control mass energy balances."
+            "left": "Academic Research: Laboratory scientists design novel synthetic pathways and characterize reaction mechanisms using advanced instrumentation.",
+            "right": "(8c) Chemistry Career Path Investigation: Investigating chemistry careers reveals diverse roles in pharmacology, forensics, material science, and agricultural engineering. Each specialization requires specific coursework, laboratory internships, and adherence to professional ethics and safety accreditations."
           },
           {
             "attribute": "Quality Assurance",
-            "left": "Req 8c: Chemistry Career Path: Investigating chemistry careers reveals diverse roles in pharmacology, forensics, material science, and agricultural engineering. Each specialization requires specific coursework, laboratory internships, and adherence to professional ethics and safety accreditations.",
-            "right": "Industrial Manufacturing: Chemical engineers scale laboratory bench reactions up to massive continuous flow commercial reactors."
+            "left": "Quality Assurance: Analytical technicians test manufactured product batches against strict purity standards using automated chromatography.",
+            "right": "Career Pathways: Chemistry degrees open diverse opportunities across forensic science, materials engineering, patent law, and medicine."
           }
         ]
       },
       "worked_example": {
-        "title": "Chemistry Req 8 Exemplar Workbook Entry: Chemistry",
+        "title": "Chemistry Req 8 Worked Example: Chemical Professions and Facilities",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 8a - Research Laboratory Facility": "Touring a research facility exposes Scouts to specialized diagnostic tools like nuclear magnetic resonance spectrometers and fume hoods. Conversations with PhD chemists and technicians illuminate the years of academic study and safety protocols required.",
-          "Req 8b - Chemical Manufacturing Plant": "Commercial chemical plants translate small scale reactions into ton scale industrial processes using heat exchangers and distillation towers. Observing these plants demonstrates how engineers maintain process safety, minimize waste, and control mass energy balances.",
-          "Req 8c - Chemistry Career Path": "Investigating chemistry careers reveals diverse roles in pharmacology, forensics, material science, and agricultural engineering. Each specialization requires specific coursework, laboratory internships, and adherence to professional ethics and safety accreditations."
+          "Phase 1 - Option Selection": "Choose between touring a research laboratory, visiting a chemical manufacturer, or researching careers.",
+          "Phase 2 - Site Scheduling": "Contact facility managers or professional chemists to schedule an educational visit and interview.",
+          "Phase 3 - Professional Interview": "Inquire about required academic degrees, daily instrumentation use, and specialized workplace safety certifications.",
+          "Phase 4 - Career Synthesis": "Summarize educational milestones, job duties, and industrial contributions in your merit badge binder."
         },
-        "sample_output": "Chemistry Laboratories and Career Paths: Students training as chemical technicians take courses in chemistry with emphasis on laboratory procedures, test methods, and instruments used for analysis (p. 93).",
-        "counselor_tip": "For Chemistry Requirement 8 (Chemistry Laboratories and Career Paths), verify the Scout's own observations and specific pamphlet details (Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94))."
+        "sample_output": "Professional chemistry careers span academic research laboratories, industrial manufacturing facilities, quality control labs, and environmental consulting firms. Practitioners combine rigorous university degrees, laboratory apprenticeships, and safety certifications to innovate materials and protect public health.",
+        "counselor_tip": "During the Chemistry Requirement 8 conference on Chemical Professions and Facilities, verify that the Scout can explain academic research and demonstrate career synthesis: Summarize educational milestones, job duties, and industrial contributions in your merit badge binder."
       },
       "quiz_item": {
         "scenario_prompt": "What education and training typically qualify a student to work as a chemical technician?",

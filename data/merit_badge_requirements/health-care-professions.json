@@ -288,7 +288,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Clinical observers must follow standard bloodborne pathogen precautions and maintain strict distance from sterile operative fields.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 17)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 17)",
       "syllabus_bucket": "In-Class Concept",
@@ -358,13 +358,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Doctoral Clinical Healthcare",
-        "right_header": "Req 1b: Medical Licensing Educational",
+        "left_header": "Req 1a: Doctoral Clinical Healthcare Roles",
+        "right_header": "Req 1b: Medical Licensing Educational Tracks",
         "left_points": [
-          "(1a) Doctoral Clinical Healthcare Roles: Physicians conduct physical examinations, order imaging studies, interpret laboratory panels, and perform complex invasive surgeries. Podiatrists and chiropractors concentrate on lower extremity and spinal biomechanical function to restore mobility."
+          "(1a) Doctoral Clinical Healthcare Roles: Physicians conduct physical examinations, order imaging studies, interpret laboratory panels, and perform complex invasive surgeries. Podiatrists and chiropractors concentrate on lower extremity and spinal biomechanical function to restore mobility.",
+          "Allopathic Practice Scope: Licensed medical doctors diagnose complex pathologies and manage comprehensive systemic patient treatment plans."
         ],
         "right_points": [
-          "(1b) Medical Licensing Educational Tracks: Doctoral practitioners complete four years of professional schooling followed by specialized clinical training programs. State regulatory boards mandate national licensing examinations, criminal background checks, and active malpractice insurance coverage."
+          "(1b) Medical Licensing Educational Tracks: Doctoral practitioners complete four years of professional schooling followed by specialized clinical training programs. State regulatory boards mandate national licensing examinations, criminal background checks, and active malpractice insurance coverage.",
+          "Podiatric Surgical Care: Podiatrists complete four years of podiatric medical school and hospital surgical residencies."
         ],
         "rows": [
           {
@@ -374,25 +376,27 @@
           },
           {
             "attribute": "Osteopathic Manipulative Medicine",
-            "left": "Req 1a: Doctoral Clinical Healthcare: Physicians conduct physical examinations, order imaging studies, interpret laboratory panels, and perform complex invasive surgeries. Podiatrists and chiropractors concentrate on lower extremity and spinal biomechanical function to restore mobility.",
-            "right": "Req 1b: Medical Licensing: Doctoral practitioners complete four years of professional schooling followed by specialized clinical training programs. State regulatory boards mandate national licensing examinations, criminal background checks, and active malpractice insurance coverage."
+            "left": "Allopathic Practice Scope: Licensed medical doctors diagnose complex pathologies and manage comprehensive systemic patient treatment plans.",
+            "right": "Podiatric Surgical Care: Podiatrists complete four years of podiatric medical school and hospital surgical residencies."
           },
           {
             "attribute": "Podiatric Surgical Care",
-            "left": "Allopathic Practice Scope: Licensed medical doctors diagnose complex pathologies and manage comprehensive systemic patient treatment plans.",
-            "right": "Osteopathic Manipulative Medicine: Osteopathic physicians incorporate neuromusculoskeletal structural manipulation into standard medical and surgical patient care."
+            "left": "Podiatric Surgical Care: Podiatrists complete four years of podiatric medical school and hospital surgical residencies.",
+            "right": "Licensing Examination Sequence: Physicians must pass comprehensive multi-step examinations before receiving independent state medical licenses."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 1 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 1 Worked Example: Primary Medical Diagnostic Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 1a - Doctoral Clinical Healthcare": "Physicians conduct physical examinations, order imaging studies, interpret laboratory panels, and perform complex invasive surgeries. Podiatrists and chiropractors concentrate on lower extremity and spinal biomechanical function to restore mobility.",
-          "Req 1b - Medical Licensing Educational": "Doctoral practitioners complete four years of professional schooling followed by specialized clinical training programs. State regulatory boards mandate national licensing examinations, criminal background checks, and active malpractice insurance coverage."
+          "Phase 1 - Specialty Selection": "Select three distinct doctoral health professions from the approved diagnostic career list.",
+          "Phase 2 - Role Differentiation": "Record daily clinical duties and diagnostic procedures performed by each chosen practitioner.",
+          "Phase 3 - Education Mapping": "Document specific undergraduate prerequisites, doctoral degree curricula, and postgraduate residency requirements.",
+          "Phase 4 - Credential Review": "Compare state medical board examination sequences and mandatory board certification renewal standards."
         },
-        "sample_output": "Primary Diagnosing and Prescribing Clinicians: Such information can usually be obtained from your state'sprofessional licensing board or the equivalent (p. 16).",
-        "counselor_tip": "For Health Care Professions Requirement 1 (Primary Diagnosing and Prescribing Clinicians), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 17))."
+        "sample_output": "Physicians and specialized doctoral practitioners diagnose illnesses, interpret diagnostic tests, and prescribe comprehensive therapeutic regimens. Medical education requires rigorous undergraduate preparation followed by accredited doctoral studies and postgraduate clinical residencies.",
+        "counselor_tip": "During the Health Care Professions Requirement 1 conference on Primary Medical Diagnostic Careers, verify that the Scout can explain allopathic practice scope and demonstrate credential review: Compare state medical board examination sequences and mandatory board certification renewal standards."
       },
       "quiz_item": {
         "scenario_prompt": "In Health Care Professions Requirement 1, how do physicians (MD/DO), physician assistants (PAs), registered nurses (RNs), pharmacists (PharmD), and allied health technologists collaborate on an interprofessional patient care team?",
@@ -755,7 +759,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Healthcare personnel must practice hand hygiene before and after every patient contact to prevent nosocomial infections.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 27)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 27)",
       "syllabus_bucket": "In-Class Concept",
@@ -826,12 +830,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Nursing Care Delivery Roles",
-        "right_header": "Req 2b: Nursing Licensure Educational",
+        "right_header": "Req 2b: Nursing Licensure Educational Pathways",
         "left_points": [
-          "(2a) Nursing Care Delivery Roles: Registered nurses coordinate overall inpatient recovery, while certified nursing assistants manage continuous activities of daily living. Physician assistants and nurse midwives conduct physical exams, interpret diagnostics, and formulate individualized care plans."
+          "(2a) Nursing Care Delivery Roles: Registered nurses coordinate overall inpatient recovery, while certified nursing assistants manage continuous activities of daily living. Physician assistants and nurse midwives conduct physical exams, interpret diagnostics, and formulate individualized care plans.",
+          "Physician Assistant Scope: Physician assistants examine patients, prescribe medications, and assist during complex operative surgical procedures."
         ],
         "right_points": [
-          "(2b) Nursing Licensure Educational Pathways: Licensure pathways range from vocational nursing diplomas and associate degrees to master's level advanced practice credentials. Candidates must graduate from state-approved programs and achieve passing marks on standardized national competency examinations."
+          "(2b) Nursing Licensure Educational Pathways: Licensure pathways range from vocational nursing diplomas and associate degrees to master's level advanced practice credentials. Candidates must graduate from state-approved programs and achieve passing marks on standardized national competency examinations.",
+          "Nurse Midwife Practice: Certified nurse midwives deliver infants and manage comprehensive gynecological care for healthy women."
         ],
         "rows": [
           {
@@ -841,25 +847,27 @@
           },
           {
             "attribute": "Registered Nurse Responsibilities",
-            "left": "Req 2a: Nursing Care Delivery Roles: Registered nurses coordinate overall inpatient recovery, while certified nursing assistants manage continuous activities of daily living. Physician assistants and nurse midwives conduct physical exams, interpret diagnostics, and formulate individualized care plans.",
-            "right": "Req 2b: Nursing Licensure: Licensure pathways range from vocational nursing diplomas and associate degrees to master's level advanced practice credentials. Candidates must graduate from state-approved programs and achieve passing marks on standardized national competency examinations."
+            "left": "Physician Assistant Scope: Physician assistants examine patients, prescribe medications, and assist during complex operative surgical procedures.",
+            "right": "Nurse Midwife Practice: Certified nurse midwives deliver infants and manage comprehensive gynecological care for healthy women."
           },
           {
             "attribute": "Nurse Midwife Practice",
-            "left": "Physician Assistant Scope: Physician assistants examine patients, prescribe medications, and assist during complex operative surgical procedures.",
-            "right": "Registered Nurse Responsibilities: Registered nurses assess patient vital stability, administer prescribed medications, and coordinate acute care."
+            "left": "Nurse Midwife Practice: Certified nurse midwives deliver infants and manage comprehensive gynecological care for healthy women.",
+            "right": "Nursing Assistant Duties: Certified nursing assistants assist patients with basic personal hygiene, feeding, and vital measurements."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 2 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 2 Worked Example: Collaborative Nursing and Clinical Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 2a - Nursing Care Delivery Roles": "Registered nurses coordinate overall inpatient recovery, while certified nursing assistants manage continuous activities of daily living. Physician assistants and nurse midwives conduct physical exams, interpret diagnostics, and formulate individualized care plans.",
-          "Req 2b - Nursing Licensure Educational": "Licensure pathways range from vocational nursing diplomas and associate degrees to master's level advanced practice credentials. Candidates must graduate from state-approved programs and achieve passing marks on standardized national competency examinations."
+          "Phase 1 - Profession Triage": "Choose three nursing or mid-level practitioner pathways from the second career list.",
+          "Phase 2 - Care Scope Outline": "Contrast bedside nursing interventions with diagnostic prescribing responsibilities of advanced clinical practitioners.",
+          "Phase 3 - Degree Comparison": "Chart educational progressions ranging from state certificate programs to Master of Science degrees.",
+          "Phase 4 - Licensure Examination Audit": "Identify relevant credentialing tests including the NCLEX examination or national physician assistant boards."
         },
-        "sample_output": "Nursing and Physician Assistant Careers: The roles of PAs and Advanced Practice Registered Nurses (APRNs) are very similar (see the APRN section on page 30), although their educational pathway (p. 16).",
-        "counselor_tip": "For Health Care Professions Requirement 2 (Nursing and Physician Assistant Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 27))."
+        "sample_output": "Nursing and mid-level clinicians provide vital direct patient care, execute clinical interventions, and monitor treatment responses. Advanced practice nurses and physician assistants practice under collaborative or independent models depending on state regulations.",
+        "counselor_tip": "During the Health Care Professions Requirement 2 conference on Collaborative Nursing and Clinical Careers, verify that the Scout can explain physician assistant scope and demonstrate licensure examination audit: Identify relevant credentialing tests including the NCLEX examination or national physician assistant boards."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do the roles and educational pathways of Physician Assistants (PAs) compare with those of Advanced Practice Registered Nurses (APRNs)?",
@@ -1206,7 +1214,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Therapists must employ proper gait belt transfer mechanics to prevent catastrophic patient falls during mobility training.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 47, p. 51)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 47, p. 51)",
       "syllabus_bucket": "In-Class Concept",
@@ -1276,13 +1284,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Rehabilitative Care Clinical",
-        "right_header": "Req 3b: Therapy Credentialing Academic",
+        "left_header": "Req 3a: Rehabilitative Care Clinical Roles",
+        "right_header": "Req 3b: Therapy Credentialing Academic Standards",
         "left_points": [
-          "(3a) Rehabilitative Care Clinical Roles: Physical therapists restore ambulation and joint biomechanics, while occupational therapists modify tasks and environments for cognitive and sensory recovery. Orthotists and prosthetists work alongside technicians to design, cast, fit, and align corrective biomechanical devices."
+          "(3a) Rehabilitative Care Clinical Roles: Physical therapists restore ambulation and joint biomechanics, while occupational therapists modify tasks and environments for cognitive and sensory recovery. Orthotists and prosthetists work alongside technicians to design, cast, fit, and align corrective biomechanical devices.",
+          "Physical Therapy Objectives: Physical therapists design therapeutic exercise regimens to restore joint mobility, balance, and muscular strength."
         ],
         "right_points": [
-          "(3b) Therapy Credentialing Academic Standards: Physical and occupational therapists complete accredited clinical doctoral or master's degrees containing extensive clinical internship rotations. Technicians frequently enter the field through specialized vocational associate degrees or supervised laboratory apprenticeships."
+          "(3b) Therapy Credentialing Academic Standards: Physical and occupational therapists complete accredited clinical doctoral or master's degrees containing extensive clinical internship rotations. Technicians frequently enter the field through specialized vocational associate degrees or supervised laboratory apprenticeships.",
+          "Prosthetic Device Fabrication: Orthotists and prosthetists evaluate patients, fabricate artificial limbs, and adjust corrective external braces."
         ],
         "rows": [
           {
@@ -1292,25 +1302,27 @@
           },
           {
             "attribute": "Occupational Therapy Function",
-            "left": "Req 3a: Rehabilitative Care Clinical: Physical therapists restore ambulation and joint biomechanics, while occupational therapists modify tasks and environments for cognitive and sensory recovery. Orthotists and prosthetists work alongside technicians to design, cast, fit, and align corrective biomechanical devices.",
-            "right": "Req 3b: Therapy Credentialing: Physical and occupational therapists complete accredited clinical doctoral or master's degrees containing extensive clinical internship rotations. Technicians frequently enter the field through specialized vocational associate degrees or supervised laboratory apprenticeships."
+            "left": "Physical Therapy Objectives: Physical therapists design therapeutic exercise regimens to restore joint mobility, balance, and muscular strength.",
+            "right": "Prosthetic Device Fabrication: Orthotists and prosthetists evaluate patients, fabricate artificial limbs, and adjust corrective external braces."
           },
           {
             "attribute": "Prosthetic Device Fabrication",
-            "left": "Physical Therapy Objectives: Physical therapists design therapeutic exercise regimens to restore joint mobility, balance, and muscular strength.",
-            "right": "Occupational Therapy Function: Occupational therapists teach adaptive strategies to help injured individuals accomplish essential daily living activities."
+            "left": "Prosthetic Device Fabrication: Orthotists and prosthetists evaluate patients, fabricate artificial limbs, and adjust corrective external braces.",
+            "right": "Appliance Technician Support: Medical appliance technicians construct, repair, and maintain orthopedic braces and support devices under supervision."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 3 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 3 Worked Example: Rehabilitation and Mobility Therapy Professions",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 3a - Rehabilitative Care Clinical": "Physical therapists restore ambulation and joint biomechanics, while occupational therapists modify tasks and environments for cognitive and sensory recovery. Orthotists and prosthetists work alongside technicians to design, cast, fit, and align corrective biomechanical devices.",
-          "Req 3b - Therapy Credentialing": "Physical and occupational therapists complete accredited clinical doctoral or master's degrees containing extensive clinical internship rotations. Technicians frequently enter the field through specialized vocational associate degrees or supervised laboratory apprenticeships."
+          "Phase 1 - Rehabilitation Selection": "Select three rehabilitation or biomechanical assistive career tracks from the designated specialty group.",
+          "Phase 2 - Clinical Duty Differentiation": "Differentiate gross motor physical therapy from fine motor adaptive occupational therapy clinical interventions.",
+          "Phase 3 - Academic Level Mapping": "Record necessary degrees ranging from specialized technical certificates to clinical Doctor of Physical Therapy.",
+          "Phase 4 - Certification Validation": "Review state licensing requirements, clinical practicum hours, and national board certification board exams."
         },
-        "sample_output": "Rehabilitation and Therapeutic Support Careers: These technicians make appliances such as artificial limbs or braces (p. 47).",
-        "counselor_tip": "For Health Care Professions Requirement 3 (Rehabilitation and Therapeutic Support Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 47, p. 51))."
+        "sample_output": "Rehabilitation specialists restore physiological function, enhance gross and fine motor skills, and fabricate custom assistive mobility equipment. Interdisciplinary teams tailor therapeutic exercise programs and adaptive devices to maximize patient independence in domestic and occupational environments.",
+        "counselor_tip": "During the Health Care Professions Requirement 3 conference on Rehabilitation and Mobility Therapy Professions, verify that the Scout can explain physical therapy objectives and demonstrate certification validation: Review state licensing requirements, clinical practicum hours, and national board certification board exams."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do Medical Appliance Technicians typically acquire their skills, and how do they interact with orthotists or prosthetists?",
@@ -1657,7 +1669,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Radiology personnel must use lead shielding and dosimeter badges to keep radiation exposure as low as reasonably achievable.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 51, p. 57)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 51, p. 57)",
       "syllabus_bucket": "In-Class Concept",
@@ -1727,13 +1739,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Diagnostic Technology Healthcare",
-        "right_header": "Req 4b: Technical Licensing Education",
+        "left_header": "Req 4a: Diagnostic Technology Healthcare Roles",
+        "right_header": "Req 4b: Technical Licensing Education Requirements",
         "left_points": [
-          "(4a) Diagnostic Technology Healthcare Roles: Diagnostic specialists execute clinical lab assays, operate computed tomography equipment, and obtain ultrasound scans to evaluate internal anatomy. Biomedical engineers support these operations by testing, calibrating, and developing life-support machinery and surgical instrumentation."
+          "(4a) Diagnostic Technology Healthcare Roles: Diagnostic specialists execute clinical lab assays, operate computed tomography equipment, and obtain ultrasound scans to evaluate internal anatomy. Biomedical engineers support these operations by testing, calibrating, and developing life-support machinery and surgical instrumentation.",
+          "Biomedical Engineering Design: Biomedical engineers invent diagnostic equipment, artificial organs, and advanced software for hospital clinical environments."
         ],
         "right_points": [
-          "(4b) Technical Licensing Education Requirements: Education paths range from focused clinical phlebotomy certifications to master's degrees in biomedical engineering or clinical laboratory science. Technologists maintain professional certification through organizations such as the American Registry of Radiologic Technologists."
+          "(4b) Technical Licensing Education Requirements: Education paths range from focused clinical phlebotomy certifications to master's degrees in biomedical engineering or clinical laboratory science. Technologists maintain professional certification through organizations such as the American Registry of Radiologic Technologists.",
+          "Phlebotomy Specimen Collection: Phlebotomists draw venous blood samples safely following strict sterile techniques and patient identification protocols."
         ],
         "rows": [
           {
@@ -1743,25 +1757,27 @@
           },
           {
             "attribute": "Medical Laboratory Analysis",
-            "left": "Req 4a: Diagnostic Technology: Diagnostic specialists execute clinical lab assays, operate computed tomography equipment, and obtain ultrasound scans to evaluate internal anatomy. Biomedical engineers support these operations by testing, calibrating, and developing life-support machinery and surgical instrumentation.",
-            "right": "Req 4b: Technical Licensing: Education paths range from focused clinical phlebotomy certifications to master's degrees in biomedical engineering or clinical laboratory science. Technologists maintain professional certification through organizations such as the American Registry of Radiologic Technologists."
+            "left": "Biomedical Engineering Design: Biomedical engineers invent diagnostic equipment, artificial organs, and advanced software for hospital clinical environments.",
+            "right": "Phlebotomy Specimen Collection: Phlebotomists draw venous blood samples safely following strict sterile techniques and patient identification protocols."
           },
           {
             "attribute": "Phlebotomy Specimen Collection",
-            "left": "Biomedical Engineering Design: Biomedical engineers invent diagnostic equipment, artificial organs, and advanced software for hospital clinical environments.",
-            "right": "Medical Laboratory Analysis: Medical technologists analyze blood and bodily fluids to detect microscopic pathogens and biochemical abnormalities."
+            "left": "Phlebotomy Specimen Collection: Phlebotomists draw venous blood samples safely following strict sterile techniques and patient identification protocols.",
+            "right": "Radiologic Imaging Execution: Radiologic technologists position patients accurately to produce diagnostic radiographic images using controlled ionizing radiation."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 4 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 4 Worked Example: Diagnostic and Health Technology Professions",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 4a - Diagnostic Technology": "Diagnostic specialists execute clinical lab assays, operate computed tomography equipment, and obtain ultrasound scans to evaluate internal anatomy. Biomedical engineers support these operations by testing, calibrating, and developing life-support machinery and surgical instrumentation.",
-          "Req 4b - Technical Licensing Education": "Education paths range from focused clinical phlebotomy certifications to master's degrees in biomedical engineering or clinical laboratory science. Technologists maintain professional certification through organizations such as the American Registry of Radiologic Technologists."
+          "Phase 1 - Technology Field Selection": "Choose three diagnostic technology, laboratory analysis, or engineering professions from the fourth group.",
+          "Phase 2 - Analytical Function Review": "Analyze the specialized diagnostic or technical duties performed by each selected healthcare professional.",
+          "Phase 3 - Educational Prerequisite": "Detail the degree levels, clinical internships, and safety training mandated for each technical field.",
+          "Phase 4 - Regulatory Certification Audit": "Research state licenses, registry credentials, and continuing safety education requirements for each discipline."
         },
-        "sample_output": "Diagnostic Imaging and Laboratory Professions: There is no specific college program for this specialty; rather training is on the job (p. 51).",
-        "counselor_tip": "For Health Care Professions Requirement 4 (Diagnostic Imaging and Laboratory Professions), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 51, p. 57))."
+        "sample_output": "Diagnostic technologists and medical engineers generate critical analytical data and operate sophisticated instrumentation necessary for medical decision-making. These specialists perform laboratory assays, capture radiological imaging, and innovate medical hardware used throughout healthcare systems.",
+        "counselor_tip": "During the Health Care Professions Requirement 4 conference on Diagnostic and Health Technology Professions, verify that the Scout can explain biomedical engineering design and demonstrate regulatory certification audit: Research state licenses, registry credentials, and continuing safety education requirements for each discipline."
       },
       "quiz_item": {
         "scenario_prompt": "What is the working relationship between a Radiologic Technologist and a Radiologist in patient care?",
@@ -2247,7 +2263,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Scouts visiting clinical spaces must adhere to facility dress codes, wear required personal protective gear, and respect patient privacy zones.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2330,13 +2346,11 @@
         "right_header": "Req 5d: Clinical Tools and Technology",
         "left_points": [
           "(5a) Career Motivation and Purpose: Healthcare professionals often select their fields due to personal encounters with illness, passion for biological sciences, or a service ethic. Discussing initial motivations highlights the dedication needed to complete demanding healthcare training programs.",
-          "(5b) Professional Work Satisfactions: Practitioners find deep satisfaction in solving complex diagnostic puzzles, witnessing patient recoveries, and forming enduring therapeutic alliances. Understanding job satisfaction helps candidates assess whether a clinical role aligns with their personal values.",
-          "(5c) Clinical Practice Workplace Challenges: Healthcare workers face substantial challenges including administrative burdens, electronic documentation demands, and emotional stress from patient suffering. Navigating systemic resource constraints and long shifts requires deliberate personal resilience strategies."
+          "(5b) Professional Work Satisfactions: Practitioners find deep satisfaction in solving complex diagnostic puzzles, witnessing patient recoveries, and forming enduring therapeutic alliances. Understanding job satisfaction helps candidates assess whether a clinical role aligns with their personal values."
         ],
         "right_points": [
           "(5d) Clinical Tools and Technology: Modern healthcare delivery depends on diverse equipment ranging from basic diagnostic stethoscopes to advanced electronic health record systems. Each instrument requires precise operational proficiency, routine calibration, and meticulous infection control decontamination.",
-          "(5e) Unexpected Clinical Career Realities: Professionals often discover that interpersonal communication and business administration play far larger roles than anticipated during school. Learning about surprising career realities prevents idealized assumptions about day-to-day healthcare environments.",
-          "(5f) Continuing Medical Education Standards: State licensing boards and professional colleges mandate annual continuing education credits to ensure ongoing clinical competency. Providers complete approved seminars, simulation training, peer reviews, and re-certification examinations throughout their careers."
+          "(5e) Unexpected Clinical Career Realities: Professionals often discover that interpersonal communication and business administration play far larger roles than anticipated during school. Learning about surprising career realities prevents idealized assumptions about day-to-day healthcare environments."
         ],
         "rows": [
           {
@@ -2351,22 +2365,22 @@
           },
           {
             "attribute": "Instrument Identification Focus",
-            "left": "(5c) Clinical Practice Workplace Challenges: Healthcare workers face substantial challenges including administrative burdens, electronic documentation demands, and emotional stress from patient suffering. Navigating systemic resource constraints and long shifts requires deliberate personal resilience strategies.",
-            "right": "(5f) Continuing Medical Education Standards: State licensing boards and professional colleges mandate annual continuing education credits to ensure ongoing clinical competency. Providers complete approved seminars, simulation training, peer reviews, and re-certification examinations throughout their careers."
+            "left": "Instrument Identification Focus: Observe the specialized diagnostic instruments, personal protective equipment, and electronic documentation software in use.",
+            "right": "Continuing Competency Tracking: Record how licensed professionals fulfill mandatory annual continuing education credits to renew state certifications."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 5 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 5 Worked Example: Clinical Workplace Professional Observation",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 5a - Career Motivation and Purpose": "Healthcare professionals often select their fields due to personal encounters with illness, passion for biological sciences, or a service ethic. Discussing initial motivations highlights the dedication needed to complete demanding healthcare training programs.",
-          "Req 5b - Professional Work": "Practitioners find deep satisfaction in solving complex diagnostic puzzles, witnessing patient recoveries, and forming enduring therapeutic alliances. Understanding job satisfaction helps candidates assess whether a clinical role aligns with their personal values.",
-          "Req 5c - Clinical Practice Workplace": "Healthcare workers face substantial challenges including administrative burdens, electronic documentation demands, and emotional stress from patient suffering. Navigating systemic resource constraints and long shifts requires deliberate personal resilience strategies.",
-          "Req 5d - Clinical Tools and Technology": "Modern healthcare delivery depends on diverse equipment ranging from basic diagnostic stethoscopes to advanced electronic health record systems. Each instrument requires precise operational proficiency, routine calibration, and meticulous infection control decontamination."
+          "Phase 1 - Professional Contact": "Contact a practicing healthcare specialist and secure permission for an informational workplace interview.",
+          "Phase 2 - Interview Schedule Preparation": "Prepare structured questions exploring career choice motivations, professional satisfactions, and common workplace obstacles.",
+          "Phase 3 - Equipment Observation": "Identify primary clinical tools, diagnostic hardware, and safety barriers utilized during standard patient encounters.",
+          "Phase 4 - Career Findings Synthesis": "Summarize interview responses detailing surprising career aspects and mandatory continuing education certification requirements."
         },
-        "sample_output": "Workplace Visit and Professional Interview: However, there are many other careers to consider (p. 7).",
-        "counselor_tip": "For Health Care Professions Requirement 5 (Workplace Visit and Professional Interview), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23))."
+        "sample_output": "Conducting an observational interview with an active healthcare professional offers firsthand insight into clinical routines, patient dynamics, and daily operations. Scouts examine workplace culture, technical equipment, continuing professional development, and practical career challenges.",
+        "counselor_tip": "During the Health Care Professions Requirement 5 conference on Clinical Workplace Professional Observation, verify that the Scout can explain workplace visit planning and demonstrate career findings synthesis: Summarize interview responses detailing surprising career aspects and mandatory continuing education certification requirements."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Health Care Professions merit badge pamphlet, what major demographic trend is driving strong demand and workforce shortages across health care careers?",
@@ -2454,7 +2468,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ethical medical practice demands immediate disclosure of clinical errors to ensure timely patient protective intervention.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 9, p. 16)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 9, p. 16)",
       "syllabus_bucket": "In-Class Concept",
@@ -2518,47 +2532,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Interdisciplinary Healthcare",
-        "right_header": "Req 6: Verify State Licensing Rules",
+        "left_header": "Physician Oath Ethical Foundations: Core Principles",
+        "right_header": "Physician Oath Ethical Foundations: Field Execution",
         "left_points": [
-          "Interdisciplinary Healthcare Delivery Teams: Physicians and Physician Assistants PHYSICIANS and PHYSICIAN ASSISTANTS Many different professionals play a part in the delivery of healthcare (p. 9).",
-          "State Medical Licensing Variations: As these laws vary somewhat around the country, information on licensing for each profession cannot be included here (p. 9).",
-          "State Professional Licensing Boards: Such information can usually be obtained from your state'sprofessional licensing board or the equivalent (p. 9)."
+          "Historic Ethical Covenant: The Hippocratic Oath established ethical standards prioritizing patient beneficence and non-maleficence above personal gain.",
+          "Primum Non Nocere Principle: The core duty of doing no harm directs physicians to prevent unnecessary therapeutic interventions."
         ],
         "right_points": [
-          "Verify State Licensing Rules: Such information can usually be obtained from your state'sprofessional licensing board or the equivalent (p. 9).",
-          "Complete Accredited Medical Education: This professional is trained in the practice of medicine and surgery at a medical school granting a Doctor of Medicine (MD) degree (p. 9).",
-          "Choose a Clinical Specialty: Their area of specialty will determine the type of patients they will treat (p. 9)."
+          "Modern Declaration Updates: Contemporary medical oaths emphasize human rights, social justice, and mutual respect among interprofessional colleagues.",
+          "Moral Trust Foundation: Public trust in medicine depends upon physicians upholding professional integrity and respecting human dignity."
         ],
         "rows": [
           {
             "attribute": "Historic Ethical Covenant",
-            "left": "Interdisciplinary Healthcare Delivery Teams: Physicians and Physician Assistants PHYSICIANS and PHYSICIAN ASSISTANTS Many different professionals play a part in the delivery of healthcare (p. 9).",
-            "right": "Verify State Licensing Rules: Such information can usually be obtained from your state'sprofessional licensing board or the equivalent (p. 9)."
+            "left": "Historic Ethical Covenant: The Hippocratic Oath established ethical standards prioritizing patient beneficence and non-maleficence above personal gain.",
+            "right": "Modern Declaration Updates: Contemporary medical oaths emphasize human rights, social justice, and mutual respect among interprofessional colleagues."
           },
           {
             "attribute": "Primum Non Nocere Principle",
-            "left": "State Medical Licensing Variations: As these laws vary somewhat around the country, information on licensing for each profession cannot be included here (p. 9).",
-            "right": "Complete Accredited Medical Education: This professional is trained in the practice of medicine and surgery at a medical school granting a Doctor of Medicine (MD) degree (p. 9)."
+            "left": "Primum Non Nocere Principle: The core duty of doing no harm directs physicians to prevent unnecessary therapeutic interventions.",
+            "right": "Moral Trust Foundation: Public trust in medicine depends upon physicians upholding professional integrity and respecting human dignity."
           },
           {
             "attribute": "Modern Declaration Updates",
-            "left": "State Professional Licensing Boards: Such information can usually be obtained from your state'sprofessional licensing board or the equivalent (p. 9).",
-            "right": "Choose a Clinical Specialty: Their area of specialty will determine the type of patients they will treat (p. 9)."
+            "left": "Modern Declaration Updates: Contemporary medical oaths emphasize human rights, social justice, and mutual respect among interprofessional colleagues.",
+            "right": "Moral Trust Foundation: Public trust in medicine depends upon physicians upholding professional integrity and respecting human dignity."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 6 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 6 Worked Example: Physician Oath Ethical Foundations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Interdisciplinary Healthcare Delivery": "Physicians and Physician Assistants PHYSICIANS and PHYSICIAN ASSISTANTS Many different professionals play a part in the delivery of healthcare (p. 9).",
-          "State Medical Licensing Variations": "As these laws vary somewhat around the country, information on licensing for each profession cannot be included here (p. 9).",
-          "State Professional Licensing Boards": "Such information can usually be obtained from your state'sprofessional licensing board or the equivalent (p. 9).",
-          "Doctor of Medicine Training": "This professional is trained in the practice of medicine and surgery at a medical school granting a Doctor of Medicine (MD) degree (p. 9)."
+          "Phase 1 - Historic Text Review": "Read both the classical Hippocratic Oath and modern versions such as the Geneva Declaration.",
+          "Phase 2 - Principle Analysis": "Identify fundamental ethical principles including patient beneficence, non-maleficence, patient autonomy, and professional confidentiality.",
+          "Phase 3 - Ethical Dilemma Exploration": "Discuss realistic scenarios where physicians balance patient welfare against complex medical treatment limitations.",
+          "Phase 4 - Counselor Dialogue Delivery": "Explain personal interpretations of the oath's moral responsibilities during the merit badge conference."
         },
-        "sample_output": "Ethical Principles of the Physician's Oath: Physicians and Physician Assistants PHYSICIANS and PHYSICIAN ASSISTANTS Many different professionals play a part in the delivery of healthcare (p. 9).",
-        "counselor_tip": "For Health Care Professions Requirement 6 (Ethical Principles of the Physician's Oath), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 9, p. 16))."
+        "sample_output": "The Physician's Oath, rooted in the classical Hippocratic Oath and updated through declarations like the Geneva Declaration, establishes the moral contract between doctors and society. It binds physicians to prioritize patient welfare, maintain absolute confidentiality, and practice with humility and integrity.",
+        "counselor_tip": "During the Health Care Professions Requirement 6 conference on Physician Oath Ethical Foundations, verify that the Scout can explain historic ethical covenant and demonstrate counselor dialogue delivery: Explain personal interpretations of the oath's moral responsibilities during the merit badge conference."
       },
       "quiz_item": {
         "scenario_prompt": "What is the core purpose of the Physician's Oath in medical training and clinical practice?",
@@ -2650,7 +2662,7 @@
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never discuss patient information in public hospital areas such as cafeterias, elevators, or waiting rooms.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 12, p. 14)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 12, p. 14)",
       "syllabus_bucket": "In-Class Concept",
@@ -2716,47 +2728,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Sensitive Personal Health",
-        "right_header": "Req 7: Protect Sensitive Patient",
+        "left_header": "Patient Confidentiality and HIPAA: Core Principles",
+        "right_header": "Patient Confidentiality and HIPAA: Field Execution",
         "left_points": [
-          "Sensitive Personal Health Disclosures: Patients may share information that is very personal (p. 12).",
-          "Open Patient Provider Communication: Communication between the professional and the patient is a key element in discovering what the health problem or diagnosis (p. 12).",
-          "Building Trust for Diagnosis: If the patient does not trust the professional to keep information confidential, the patient might not share information that could be critical to establishing (p. 12)."
+          "Confidentiality Builds Trust: Honest disclosure occurs only when patients trust that their private medical information remains protected.",
+          "Federal HIPAA Mandates: The Health Insurance Portability and Accountability Act establishes national rules safeguarding protected patient records."
         ],
         "right_points": [
-          "Protect Sensitive Patient Disclosures: If the patient does not trust the professional to keep information confidential, the patient might not share information that could be critical to establishing (p. 12).",
-          "Encourage Honest Medical Histories: The patient may be especially reluctant to admit to drug or alcohol abuse, or to provide specifics about their sexual activity (p. 12).",
-          "Process Authorized Insurance Claims: However, health insurance companies usually require the patient to share their health information with the company (p. 12)."
+          "Protected Information Scope: Protected health information includes patient names, diagnoses, treatment notes, laboratory results, and billing statements.",
+          "Minimum Necessary Rule: Healthcare employees may access only the minimum protected information required to perform assigned duties."
         ],
         "rows": [
           {
             "attribute": "Confidentiality Builds Trust",
-            "left": "Sensitive Personal Health Disclosures: Patients may share information that is very personal (p. 12).",
-            "right": "Protect Sensitive Patient Disclosures: If the patient does not trust the professional to keep information confidential, the patient might not share information that could be critical to establishing (p. 12)."
+            "left": "Confidentiality Builds Trust: Honest disclosure occurs only when patients trust that their private medical information remains protected.",
+            "right": "Protected Information Scope: Protected health information includes patient names, diagnoses, treatment notes, laboratory results, and billing statements."
           },
           {
             "attribute": "Federal HIPAA Mandates",
-            "left": "Open Patient Provider Communication: Communication between the professional and the patient is a key element in discovering what the health problem or diagnosis (p. 12).",
-            "right": "Encourage Honest Medical Histories: The patient may be especially reluctant to admit to drug or alcohol abuse, or to provide specifics about their sexual activity (p. 12)."
+            "left": "Federal HIPAA Mandates: The Health Insurance Portability and Accountability Act establishes national rules safeguarding protected patient records.",
+            "right": "Minimum Necessary Rule: Healthcare employees may access only the minimum protected information required to perform assigned duties."
           },
           {
             "attribute": "Protected Information Scope",
-            "left": "Building Trust for Diagnosis: If the patient does not trust the professional to keep information confidential, the patient might not share information that could be critical to establishing (p. 12).",
-            "right": "Process Authorized Insurance Claims: However, health insurance companies usually require the patient to share their health information with the company (p. 12)."
+            "left": "Protected Information Scope: Protected health information includes patient names, diagnoses, treatment notes, laboratory results, and billing statements.",
+            "right": "Minimum Necessary Rule: Healthcare employees may access only the minimum protected information required to perform assigned duties."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 7 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 7 Worked Example: Patient Confidentiality and HIPAA",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Sensitive Personal Health Disclosures": "Patients may share information that is very personal (p. 12).",
-          "Open Patient Provider Communication": "Communication between the professional and the patient is a key element in discovering what the health problem or diagnosis (p. 12).",
-          "Building Trust for Diagnosis": "If the patient does not trust the professional to keep information confidential, the patient might not share information that could be critical to establishing (p. 12).",
-          "Disclosing High Risk Behaviors": "The patient may be especially reluctant to admit to drug or alcohol abuse, or to provide specifics about their sexual activity (p. 12)."
+          "Phase 1 - Trust Concept Examination": "Analyze why confidential communication is essential for obtaining accurate patient histories and diagnoses.",
+          "Phase 2 - HIPAA Legislation Review": "Identify the core privacy, security, and breach notification rules established by federal HIPAA legislation.",
+          "Phase 3 - Protected Data Identification": "Classify distinct categories of protected health information including medical records and demographic identifiers.",
+          "Phase 4 - Compliance Scenario Evaluation": "Assess real-world clinical scenarios demonstrating appropriate data sharing and prohibited privacy disclosures."
         },
-        "sample_output": "Patient Confidentiality and HIPAA Standards: Patients may share information that is very personal (p. 12).",
-        "counselor_tip": "For Health Care Professions Requirement 7 (Patient Confidentiality and HIPAA Standards), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 12, p. 14))."
+        "sample_output": "Patient confidentiality encourages open communication by ensuring that sensitive medical details remain strictly private between individuals and their healthcare providers. The Health Insurance Portability and Accountability Act establishes federal standards safeguarding protected health information across electronic, written, and verbal communications.",
+        "counselor_tip": "During the Health Care Professions Requirement 7 conference on Patient Confidentiality and HIPAA, verify that the Scout can explain confidentiality builds trust and demonstrate compliance scenario evaluation: Assess real-world clinical scenarios demonstrating appropriate data sharing and prohibited privacy disclosures."
       },
       "quiz_item": {
         "scenario_prompt": "Why is strict confidentiality between a patient and a health care provider essential for effective medical diagnosis and treatment?",
@@ -2852,7 +2862,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "New medical technologies must undergo thorough post-market surveillance to detect unexpected adverse effects in diverse populations.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 45, p. 57)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 45, p. 57)",
       "syllabus_bucket": "In-Class Concept",
@@ -2918,47 +2928,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Outpatient and Rehabilitation",
-        "right_header": "Req 8: Prepare Patients and Equipment",
+        "left_header": "Medical Innovation and Discoveries: Core Principles",
+        "right_header": "Medical Innovation and Discoveries: Field Execution",
         "left_points": [
-          "Outpatient and Rehabilitation Settings: Outpatient clinics, doctors' offices, nursing homes, rehabilitation centers, home health (p. 45).",
-          "Supervised Clinical Laboratory Roles: This is person serves in an entry-level position and might perform tasks in the laboratory under the supervision of the Medical Laboratory Scientist (p. 45).",
-          "Routine Laboratory Testing Duties: They might prepare the patient for procedures, do routine laboratory tests, enter data and prepare equipment (p. 45)."
+          "Emerging Biotechnology Impact: Breakthrough gene therapies target hereditary diseases by correcting defective genetic sequences within human cells.",
+          "Artificial Intelligence Diagnostics: Machine learning algorithms assist radiologists by detecting microscopic cancerous lesions on diagnostic imaging scans."
         ],
         "right_points": [
-          "Prepare Patients and Equipment: They might prepare the patient for procedures, do routine laboratory tests, enter data and prepare equipment (p. 45).",
-          "Complete Vocational Laboratory Training: Vocational training or an associate degree is required (p. 45).",
-          "Explore Laboratory Science Careers: If you're not sure you want to be an MLS, this is one way to explore the career without getting the four-year degree (p. 45)."
+          "Translational Research Process: Laboratory discoveries undergo extensive multi-phase clinical trials before receiving regulatory approval for human administration.",
+          "Healthcare Equity Considerations: Medical innovations must become accessible and affordable to prevent widening health outcome disparities."
         ],
         "rows": [
           {
             "attribute": "Emerging Biotechnology Impact",
-            "left": "Outpatient and Rehabilitation Settings: Outpatient clinics, doctors' offices, nursing homes, rehabilitation centers, home health (p. 45).",
-            "right": "Prepare Patients and Equipment: They might prepare the patient for procedures, do routine laboratory tests, enter data and prepare equipment (p. 45)."
+            "left": "Emerging Biotechnology Impact: Breakthrough gene therapies target hereditary diseases by correcting defective genetic sequences within human cells.",
+            "right": "Translational Research Process: Laboratory discoveries undergo extensive multi-phase clinical trials before receiving regulatory approval for human administration."
           },
           {
             "attribute": "Artificial Intelligence Diagnostics",
-            "left": "Supervised Clinical Laboratory Roles: This is person serves in an entry-level position and might perform tasks in the laboratory under the supervision of the Medical Laboratory Scientist (p. 45).",
-            "right": "Complete Vocational Laboratory Training: Vocational training or an associate degree is required (p. 45)."
+            "left": "Artificial Intelligence Diagnostics: Machine learning algorithms assist radiologists by detecting microscopic cancerous lesions on diagnostic imaging scans.",
+            "right": "Healthcare Equity Considerations: Medical innovations must become accessible and affordable to prevent widening health outcome disparities."
           },
           {
             "attribute": "Translational Research Process",
-            "left": "Routine Laboratory Testing Duties: They might prepare the patient for procedures, do routine laboratory tests, enter data and prepare equipment (p. 45).",
-            "right": "Explore Laboratory Science Careers: If you're not sure you want to be an MLS, this is one way to explore the career without getting the four-year degree (p. 45)."
+            "left": "Translational Research Process: Laboratory discoveries undergo extensive multi-phase clinical trials before receiving regulatory approval for human administration.",
+            "right": "Healthcare Equity Considerations: Medical innovations must become accessible and affordable to prevent widening health outcome disparities."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 8 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 8 Worked Example: Medical Innovation and Discoveries",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Outpatient and Rehabilitation Settings": "Outpatient clinics, doctors' offices, nursing homes, rehabilitation centers, home health (p. 45).",
-          "Supervised Clinical Laboratory Roles": "This is person serves in an entry-level position and might perform tasks in the laboratory under the supervision of the Medical Laboratory Scientist (p. 45).",
-          "Routine Laboratory Testing Duties": "They might prepare the patient for procedures, do routine laboratory tests, enter data and prepare equipment (p. 45).",
-          "Associate and Vocational Training": "Vocational training or an associate degree is required (p. 45)."
+          "Phase 1 - Current Discovery Research": "Research a credible recent medical breakthrough using reputable scientific journals or news organizations.",
+          "Phase 2 - Mechanism Investigation": "Investigate the underlying scientific mechanism and clinical application of the selected medical discovery.",
+          "Phase 3 - Care Delivery Assessment": "Evaluate how this novel therapy or tool alters patient outcomes, survival rates, or comfort.",
+          "Phase 4 - Counselor Synthesis": "Present the discovery to your counselor highlighting both clinical advantages and implementation challenges."
         },
-        "sample_output": "Modern Medical Advancements and Discoveries: Outpatient clinics, doctors' offices, nursing homes, rehabilitation centers, home health (p. 45).",
-        "counselor_tip": "For Health Care Professions Requirement 8 (Modern Medical Advancements and Discoveries), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 45, p. 57))."
+        "sample_output": "Recent technological breakthroughs, such as CRISPR gene editing, mRNA vaccine platforms, and artificial intelligence diagnostic algorithms, transform patient care delivery. Analyzing these advancements requires examining their clinical efficacy, potential therapeutic limitations, and broader societal accessibility.",
+        "counselor_tip": "During the Health Care Professions Requirement 8 conference on Medical Innovation and Discoveries, verify that the Scout can explain emerging biotechnology impact and demonstrate counselor synthesis: Present the discovery to your counselor highlighting both clinical advantages and implementation challenges."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do advances in diagnostic laboratory methods and medical technology affect patient care and clinical workflows?",
@@ -3041,7 +3049,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Volunteers at health events must report any bodily fluid spills immediately to facility staff for certified hazardous cleanup.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 18, p. 46)",
       "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 18, p. 46)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3117,47 +3125,45 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad."
       ],
       "comparison_data": {
-        "left_header": "Req 9: Postgraduate Residency",
-        "right_header": "Req 9: Observe Clinical Decision Making",
+        "left_header": "Community Healthcare Volunteer Service: Core Principles",
+        "right_header": "Community Healthcare Volunteer Service: Field Execution",
         "left_points": [
-          "Postgraduate Residency and Fellowships: DOs, like MDs, continue their training with Residency and Fellowships in any of the specialty areas listed (p. 18).",
-          "Preventive and Diagnostic Care: Both allopathic (MD) and osteopathic (DO) physicians diagnose and treat illnesses and injuries and advise patients on preventive measures to help them (p. 18).",
-          "Clinical Decision Making Process: To arrive at a diagnosis and decide on a treatment, physicians Interested in a Career in Medicine (p. 18)."
+          "Service Project Approval: Obtain explicit counselor and parental permission before committing to any health-related community volunteer opportunity.",
+          "Public Health Engagement: Support community blood drives or health fairs by registering participants and distributing educational literature."
         ],
         "right_points": [
-          "Observe Clinical Decision Making: To arrive at a diagnosis and decide on a treatment, physicians Interested in a Career in Medicine (p. 18).",
-          "Commit to Community Service: Pursuing a health-professional career is rewarding, but it also takes a lot of hard work and dedication (p. 18).",
-          "Reflect on Career Fit: Their answers can help you determine if a health-professional career is right for you and can help you choose the specific profession (p. 18)."
+          "Non-Clinical Volunteer Scope: Perform logistical tasks while leaving clinical examinations and diagnostic testing to licensed medical staff.",
+          "Service Reflection Documentation: Record volunteer duties, observed team collaboration, and personal impressions to share during counselor discussions."
         ],
         "rows": [
           {
             "attribute": "Service Project Approval",
-            "left": "Postgraduate Residency and Fellowships: DOs, like MDs, continue their training with Residency and Fellowships in any of the specialty areas listed (p. 18).",
-            "right": "Observe Clinical Decision Making: To arrive at a diagnosis and decide on a treatment, physicians Interested in a Career in Medicine (p. 18)."
+            "left": "Service Project Approval: Obtain explicit counselor and parental permission before committing to any health-related community volunteer opportunity.",
+            "right": "Non-Clinical Volunteer Scope: Perform logistical tasks while leaving clinical examinations and diagnostic testing to licensed medical staff."
           },
           {
             "attribute": "Public Health Engagement",
-            "left": "Preventive and Diagnostic Care: Both allopathic (MD) and osteopathic (DO) physicians diagnose and treat illnesses and injuries and advise patients on preventive measures to help them (p. 18).",
-            "right": "Commit to Community Service: Pursuing a health-professional career is rewarding, but it also takes a lot of hard work and dedication (p. 18)."
+            "left": "Public Health Engagement: Support community blood drives or health fairs by registering participants and distributing educational literature.",
+            "right": "Service Reflection Documentation: Record volunteer duties, observed team collaboration, and personal impressions to share during counselor discussions."
           },
           {
             "attribute": "Non-Clinical Volunteer Scope",
-            "left": "Clinical Decision Making Process: To arrive at a diagnosis and decide on a treatment, physicians Interested in a Career in Medicine (p. 18).",
-            "right": "Reflect on Career Fit: Their answers can help you determine if a health-professional career is right for you and can help you choose the specific profession (p. 18)."
+            "left": "Non-Clinical Volunteer Scope: Perform logistical tasks while leaving clinical examinations and diagnostic testing to licensed medical staff.",
+            "right": "Service Reflection Documentation: Record volunteer duties, observed team collaboration, and personal impressions to share during counselor discussions."
           }
         ]
       },
       "worked_example": {
-        "title": "Health Care Professions Req 9 Exemplar Workbook Entry",
+        "title": "Health Care Professions Req 9 Worked Example: Community Healthcare Volunteer Service",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Postgraduate Residency and Fellowships": "DOs, like MDs, continue their training with Residency and Fellowships in any of the specialty areas listed (p. 18).",
-          "Preventive and Diagnostic Care": "Both allopathic (MD) and osteopathic (DO) physicians diagnose and treat illnesses and injuries and advise patients on preventive measures to help them (p. 18).",
-          "Clinical Decision Making Process": "To arrive at a diagnosis and decide on a treatment, physicians Interested in a Career in Medicine (p. 18).",
-          "Dedication to Healthcare Service": "Pursuing a health-professional career is rewarding, but it also takes a lot of hard work and dedication (p. 18)."
+          "Phase 1 - Project Selection": "Identify a local health fair, blood drive, or screening clinic needing community volunteer assistance.",
+          "Phase 2 - Permission Procurement": "Secure written approval from parents, guardians, and the merit badge counselor before volunteering.",
+          "Phase 3 - Service Execution": "Assist event staff with participant registration, directional guidance, literature distribution, or donor refreshments.",
+          "Phase 4 - Experience Reporting": "Present a structured report to the counselor describing volunteer contributions and public health observations."
         },
-        "sample_output": "Community Health Service and Volunteering: DOs, like MDs, continue their training with Residency and Fellowships in any of the specialty areas listed (p. 18).",
-        "counselor_tip": "For Health Care Professions Requirement 9 (Community Health Service and Volunteering), verify the Scout's own observations and specific pamphlet details (Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 18, p. 46))."
+        "sample_output": "Volunteering at community health fairs, mobile screening clinics, or donor blood drives provides valuable service while exposing Scouts to public health operations. Participants observe how healthcare volunteers coordinate logistics, direct community members, and educate the public on disease prevention.",
+        "counselor_tip": "During the Health Care Professions Requirement 9 conference on Community Healthcare Volunteer Service, verify that the Scout can explain service project approval and demonstrate experience reporting: Present a structured report to the counselor describing volunteer contributions and public health observations."
       },
       "quiz_item": {
         "scenario_prompt": "What combination of academic and practical steps does the merit badge pamphlet recommend for a Scout exploring a career in health care?",

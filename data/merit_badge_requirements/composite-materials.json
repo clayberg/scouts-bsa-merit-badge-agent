@@ -355,10 +355,12 @@
         "left_header": "Req 1a: Composite Shop Hazard Mitigation",
         "right_header": "Req 1b: Material Storage and Disposal",
         "left_points": [
-          "(1a) Composite Shop Hazard Mitigation: Thermoset resins and airborne fiber reinforcement fragments present immediate inhalation risks and contact dermatitis hazards. Personal protective equipment must include fitted respirators, impervious aprons, and nitrile gloves."
+          "(1a) Composite Shop Hazard Mitigation: Thermoset resins and airborne fiber reinforcement fragments present immediate inhalation risks and contact dermatitis hazards. Personal protective equipment must include fitted respirators, impervious aprons, and nitrile gloves.",
+          "Vapor Control: Active exhaust ventilation removes volatile organic styrene fumes from indoor laminating work areas."
         ],
         "right_points": [
-          "(1b) Material Storage and Disposal: Resin hardeners and catalyst compounds demand cool storage away from direct sunlight and metal contamination. Liquid wastes must cure into inert solid pucks before disposal in approved industrial waste streams."
+          "(1b) Material Storage and Disposal: Resin hardeners and catalyst compounds demand cool storage away from direct sunlight and metal contamination. Liquid wastes must cure into inert solid pucks before disposal in approved industrial waste streams.",
+          "(1c) Safety Data Sheet Interpretation: Safety Data Sheets provide standardized sixteen-section chemical safety dossiers covering health hazards and emergency responses. Workers review exposure limits, personal protective equipment requirements, and spill containment protocols before handling materials."
         ],
         "rows": [
           {
@@ -368,26 +370,27 @@
           },
           {
             "attribute": "Resin Toxicity",
-            "left": "Req 1a: Composite Shop Hazard: Thermoset resins and airborne fiber reinforcement fragments present immediate inhalation risks and contact dermatitis hazards. Personal protective equipment must include fitted respirators, impervious aprons, and nitrile gloves.",
-            "right": "Req 1b: Material Storage: Resin hardeners and catalyst compounds demand cool storage away from direct sunlight and metal contamination. Liquid wastes must cure into inert solid pucks before disposal in approved industrial waste streams."
+            "left": "Vapor Control: Active exhaust ventilation removes volatile organic styrene fumes from indoor laminating work areas.",
+            "right": "(1c) Safety Data Sheet Interpretation: Safety Data Sheets provide standardized sixteen-section chemical safety dossiers covering health hazards and emergency responses. Workers review exposure limits, personal protective equipment requirements, and spill containment protocols before handling materials."
           },
           {
             "attribute": "Fiber Protection",
-            "left": "Req 1c: Safety Data Sheet: Safety Data Sheets provide standardized sixteen-section chemical safety dossiers covering health hazards and emergency responses. Workers review exposure limits, personal protective equipment requirements, and spill containment protocols before handling materials.",
-            "right": "Resin Toxicity: Uncured epoxy and polyester liquid resins irritate human skin and trigger severe sensitization."
+            "left": "Fiber Protection: Airborne glass particulates penetrate lung tissue without tightly fitted particulate respirators.",
+            "right": "Thermal Hazard: Catalyzed thermoset liquid generates rapid exothermic heat that can melt ordinary mixing vessels."
           }
         ]
       },
       "worked_example": {
-        "title": "Composite Materials Req 1 Exemplar Workbook Entry",
+        "title": "Composite Materials Req 1 Worked Example: Composite Fabrication Hazard Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Composite Shop Hazard": "Thermoset resins and airborne fiber reinforcement fragments present immediate inhalation risks and contact dermatitis hazards. Personal protective equipment must include fitted respirators, impervious aprons, and nitrile gloves.",
-          "Req 1b - Material Storage and Disposal": "Resin hardeners and catalyst compounds demand cool storage away from direct sunlight and metal contamination. Liquid wastes must cure into inert solid pucks before disposal in approved industrial waste streams.",
-          "Req 1c - Safety Data Sheet": "Safety Data Sheets provide standardized sixteen-section chemical safety dossiers covering health hazards and emergency responses. Workers review exposure limits, personal protective equipment requirements, and spill containment protocols before handling materials."
+          "Phase 1 - Workspace Setup": "Position intake and exhaust blowers to draw toxic styrene vapors away from workers.",
+          "Phase 2 - Gear Donning": "Put on heavy nitrile gloves, chemical splash goggles, and an organic vapor respirator.",
+          "Phase 3 - Material Handling": "Measure hardener volumes using calibrated dispensers to prevent uncontrolled thermal runaway during polymerization.",
+          "Phase 4 - Waste Containment": "Submerge contaminated mixing sticks and solvent rags in airtight metal containers with water."
         },
-        "sample_output": "Composite Hazards and Safety Data: Working on projects for this merit badge is similar to work you have done for other badges involving tools, paints, and coatings or other chemicals (p. 44).",
-        "counselor_tip": "For Composite Materials Requirement 1 (Composite Hazards and Safety Data), verify the Scout's own observations and specific pamphlet details (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46))."
+        "sample_output": "Composite fabrications present chemical vapors, skin contact risks, and airborne particulate hazards during cutting or sanding. Scouts must wear certified eye protection, nitrile gloves, and organic vapor respirators in ventilated workspaces.",
+        "counselor_tip": "During the Composite Materials Requirement 1 conference on Composite Fabrication Hazard Management, verify that the Scout can explain vapor control and demonstrate waste containment: Submerge contaminated mixing sticks and solvent rags in airtight metal containers with water."
       },
       "quiz_item": {
         "scenario_prompt": "Before mixing two-part epoxy or polyester resin with fiberglass or carbon fiber reinforcement for Composite Materials Requirement 1, what safety precautions are mandatory?",
@@ -707,13 +710,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Composite Material Historical",
-        "right_header": "Req 2b: Material Property Comparative",
+        "left_header": "Req 2a: Composite Material Historical Development",
+        "right_header": "Req 2b: Material Property Comparative Analysis",
         "left_points": [
-          "(2a) Composite Material Historical Development: Composite technology evolved from ancient mud bricks reinforced with straw to advanced aerospace carbon prepregs. Modern composites integrate engineered fibers into tailored thermoset or thermoplastic matrices for optimized strength."
+          "(2a) Composite Material Historical Development: Composite technology evolved from ancient mud bricks reinforced with straw to advanced aerospace carbon prepregs. Modern composites integrate engineered fibers into tailored thermoset or thermoplastic matrices for optimized strength.",
+          "Ancient Composites: Straw mixed with mud bricks created durable structural building units in ancient Mesopotamia."
         ],
         "right_points": [
-          "(2b) Material Property Comparative Analysis: Comparing composites against structural metals reveals significant advantages in strength-to-weight ratios and corrosion resistance. Metals exhibit uniform isotropic strength in all directions while composites demonstrate engineered directional load performance."
+          "(2b) Material Property Comparative Analysis: Comparing composites against structural metals reveals significant advantages in strength-to-weight ratios and corrosion resistance. Metals exhibit uniform isotropic strength in all directions while composites demonstrate engineered directional load performance.",
+          "Material Anisotropy: Fiber composites carry directional loads efficiently unlike isotropic metals with uniform structural strength."
         ],
         "rows": [
           {
@@ -723,25 +728,27 @@
           },
           {
             "attribute": "Matrix Function",
-            "left": "Req 2a: Composite Material: Composite technology evolved from ancient mud bricks reinforced with straw to advanced aerospace carbon prepregs. Modern composites integrate engineered fibers into tailored thermoset or thermoplastic matrices for optimized strength.",
-            "right": "Req 2b: Material Property: Comparing composites against structural metals reveals significant advantages in strength-to-weight ratios and corrosion resistance. Metals exhibit uniform isotropic strength in all directions while composites demonstrate engineered directional load performance."
+            "left": "Ancient Composites: Straw mixed with mud bricks created durable structural building units in ancient Mesopotamia.",
+            "right": "Material Anisotropy: Fiber composites carry directional loads efficiently unlike isotropic metals with uniform structural strength."
           },
           {
             "attribute": "Material Anisotropy",
-            "left": "Ancient Composites: Straw mixed with mud bricks created durable structural building units in ancient Mesopotamia.",
-            "right": "Matrix Function: Polymer matrix transfers mechanical load stress across individual oriented reinforcement fibers evenly."
+            "left": "Material Anisotropy: Fiber composites carry directional loads efficiently unlike isotropic metals with uniform structural strength.",
+            "right": "Corrosion Resistance: Fiberglass structures resist marine galvanic degradation far better than structural carbon steel plates."
           }
         ]
       },
       "worked_example": {
-        "title": "Composite Materials Req 2 Exemplar Workbook Entry",
+        "title": "Composite Materials Req 2 Worked Example: Composite Structure Material Foundations",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Composite Material Historical": "Composite technology evolved from ancient mud bricks reinforced with straw to advanced aerospace carbon prepregs. Modern composites integrate engineered fibers into tailored thermoset or thermoplastic matrices for optimized strength.",
-          "Req 2b - Material Property Comparative": "Comparing composites against structural metals reveals significant advantages in strength-to-weight ratios and corrosion resistance. Metals exhibit uniform isotropic strength in all directions while composites demonstrate engineered directional load performance."
+          "Phase 1 - Specimen Selection": "Gather normalized test coupons of structural aluminum, carbon laminate, mild steel, and oak.",
+          "Phase 2 - Mass Assessment": "Measure dimensions and compute bulk density across all four coupon materials with calipers.",
+          "Phase 3 - Deflection Testing": "Apply identical cantilever weights to evaluate bending deflection across composite and metallic specimens.",
+          "Phase 4 - Environmental Comparison": "Chart galvanic corrosion, heat conductivity, and tensile values using standard engineering reference handbooks."
         },
-        "sample_output": "History and Properties of Composites: Boats, trucks, sports cars, storage tanks, pipes, and ducts, almost anything imaginable, we rebuilt using composites (p. 19).",
-        "counselor_tip": "For Composite Materials Requirement 2 (History and Properties of Composites), verify the Scout's own observations and specific pamphlet details (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20))."
+        "sample_output": "Composites combine two or more distinct materials to yield structural properties superior to individual components. Engineers select fiber reinforcements embedded in polymer matrices to balance tensile strength, weight, and corrosion resistance.",
+        "counselor_tip": "During the Composite Materials Requirement 2 conference on Composite Structure Material Foundations, verify that the Scout can explain ancient composites and demonstrate environmental comparison: Chart galvanic corrosion, heat conductivity, and tensile values using standard engineering reference handbooks."
       },
       "quiz_item": {
         "scenario_prompt": "How did the use of modern composite materials change during and immediately after World War II?",
@@ -1120,13 +1127,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Reinforcement Fiber Performance",
-        "right_header": "Req 3b: Thermoset Polymer Matrix",
+        "left_header": "Req 3a: Reinforcement Fiber Performance Characteristics",
+        "right_header": "Req 3b: Thermoset Polymer Matrix Properties",
         "left_points": [
-          "(3a) Reinforcement Fiber Performance Characteristics: Scouts analyze glass, carbon, and aramid fabrics to evaluate weight, tensile performance, and impact tolerance. Reviewing reinforcement Safety Data Sheets reveals mandatory ventilation thresholds and skin irritation precautions."
+          "(3a) Reinforcement Fiber Performance Characteristics: Scouts analyze glass, carbon, and aramid fabrics to evaluate weight, tensile performance, and impact tolerance. Reviewing reinforcement Safety Data Sheets reveals mandatory ventilation thresholds and skin irritation precautions.",
+          "Fiberglass Utility: E-glass fabric provides economical tensile strength, electrical insulation, and chemical corrosion resistance."
         ],
         "right_points": [
-          "(3b) Thermoset Polymer Matrix Properties: Thermoset resins range from economical polyesters to corrosion-resistant vinyl esters and high-strength adhesive epoxies. Chemical data sheets specify critical handling precautions, cure shrinkage rates, and VOC emission levels."
+          "(3b) Thermoset Polymer Matrix Properties: Thermoset resins range from economical polyesters to corrosion-resistant vinyl esters and high-strength adhesive epoxies. Chemical data sheets specify critical handling precautions, cure shrinkage rates, and VOC emission levels.",
+          "(3c) Novel Composite Engineering Applications: Scouts conceptualize novel composite applications by matching unique polymer matrix capabilities to demanding environmental challenges. Advanced formulations solve structural weight challenges across renewable energy systems and biomedical prosthetics."
         ],
         "rows": [
           {
@@ -1136,26 +1145,27 @@
           },
           {
             "attribute": "Carbon Dominance",
-            "left": "Req 3a: Reinforcement Fiber: Scouts analyze glass, carbon, and aramid fabrics to evaluate weight, tensile performance, and impact tolerance. Reviewing reinforcement Safety Data Sheets reveals mandatory ventilation thresholds and skin irritation precautions.",
-            "right": "Req 3b: Thermoset Polymer Matrix: Thermoset resins range from economical polyesters to corrosion-resistant vinyl esters and high-strength adhesive epoxies. Chemical data sheets specify critical handling precautions, cure shrinkage rates, and VOC emission levels."
+            "left": "Fiberglass Utility: E-glass fabric provides economical tensile strength, electrical insulation, and chemical corrosion resistance.",
+            "right": "(3c) Novel Composite Engineering Applications: Scouts conceptualize novel composite applications by matching unique polymer matrix capabilities to demanding environmental challenges. Advanced formulations solve structural weight challenges across renewable energy systems and biomedical prosthetics."
           },
           {
             "attribute": "Aramid Toughness",
-            "left": "Req 3c: Novel Composite Engineering: Scouts conceptualize novel composite applications by matching unique polymer matrix capabilities to demanding environmental challenges. Advanced formulations solve structural weight challenges across renewable energy systems and biomedical prosthetics.",
-            "right": "Carbon Dominance: High modulus carbon fibers deliver exceptional stiffness, low density, and extreme tensile capabilities."
+            "left": "Aramid Toughness: Kevlar woven fabrics resist high-energy ballistic impacts while adding minimal structural mass.",
+            "right": "Matrix Systems: Polyester, vinylester, and epoxy resins bind fibers and determine ultimate thermal endurance."
           }
         ]
       },
       "worked_example": {
-        "title": "Composite Materials Req 3 Exemplar Workbook Entry",
+        "title": "Composite Materials Req 3 Worked Example: Reinforcement and Resin Formulations",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Reinforcement Fiber": "Scouts analyze glass, carbon, and aramid fabrics to evaluate weight, tensile performance, and impact tolerance. Reviewing reinforcement Safety Data Sheets reveals mandatory ventilation thresholds and skin irritation precautions.",
-          "Req 3b - Thermoset Polymer Matrix": "Thermoset resins range from economical polyesters to corrosion-resistant vinyl esters and high-strength adhesive epoxies. Chemical data sheets specify critical handling precautions, cure shrinkage rates, and VOC emission levels.",
-          "Req 3c - Novel Composite Engineering": "Scouts conceptualize novel composite applications by matching unique polymer matrix capabilities to demanding environmental challenges. Advanced formulations solve structural weight challenges across renewable energy systems and biomedical prosthetics."
+          "Phase 1 - Fabric Inspection": "Examine weave patterns, areal weights, and drape characteristics of fiberglass, carbon, and aramid.",
+          "Phase 2 - Resin Ratio": "Calculate stoichiometric mass ratios for epoxy, polyester, and vinylester resin systems accurately.",
+          "Phase 3 - SDS Analysis": "Review section eleven toxicological data sheets for catalyst hazards across all three systems.",
+          "Phase 4 - Application Mapping": "Match each reinforcement fabric and resin combination to an appropriate high-performance operational environment."
         },
-        "sample_output": "Reinforcements and Resin Matrix Systems: Resins used in composites can be either thermoset or thermoplastic (p. 31).",
-        "counselor_tip": "For Composite Materials Requirement 3 (Reinforcements and Resin Matrix Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35))."
+        "sample_output": "Reinforcement fibers provide tensile resistance while surrounding thermoset resins transfer shear loads and resist environmental wear. Fabricators select glass, carbon, or aramid fibers matched with compatible epoxy or vinyl ester systems.",
+        "counselor_tip": "During the Composite Materials Requirement 3 conference on Reinforcement and Resin Formulations, verify that the Scout can explain fiberglass utility and demonstrate application mapping: Match each reinforcement fabric and resin combination to an appropriate high-performance operational environment."
       },
       "quiz_item": {
         "scenario_prompt": "What is the fundamental difference between thermoset resins and thermoplastic resins?",
@@ -1451,13 +1461,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Commercial Manufacturing",
-        "right_header": "Req 4b: Composite Technical Information",
+        "left_header": "Req 4a: Commercial Manufacturing Facility Tour",
+        "right_header": "Req 4b: Composite Technical Information Research",
         "left_points": [
-          "(4a) Commercial Manufacturing Facility Tour: Visiting an active composite enterprise provides direct exposure to cleanroom prepreg layup, autoclaves, and infusion systems. Scouts observe quality control testing protocols and structural repair methods used in commercial production."
+          "(4a) Commercial Manufacturing Facility Tour: Visiting an active composite enterprise provides direct exposure to cleanroom prepreg layup, autoclaves, and infusion systems. Scouts observe quality control testing protocols and structural repair methods used in commercial production.",
+          "Autoclave Curing: Pressurized heated autoclaves eliminate structural voids and consolidate aerospace composite prepreg plies."
         ],
         "right_points": [
-          "(4b) Composite Technical Information Research: Researching accredited composite trade associations and research institutes exposes scouts to cutting-edge material innovations. Web research focuses on automated manufacturing processes, recycling developments, and aerospace qualification standards."
+          "(4b) Composite Technical Information Research: Researching accredited composite trade associations and research institutes exposes scouts to cutting-edge material innovations. Web research focuses on automated manufacturing processes, recycling developments, and aerospace qualification standards.",
+          "Pultrusion Speed: Continuous pulling of resin-wetted roving strands through heated steel dies produces constant profiles."
         ],
         "rows": [
           {
@@ -1467,25 +1479,27 @@
           },
           {
             "attribute": "Vacuum Infusion",
-            "left": "Req 4a: Commercial Manufacturing: Visiting an active composite enterprise provides direct exposure to cleanroom prepreg layup, autoclaves, and infusion systems. Scouts observe quality control testing protocols and structural repair methods used in commercial production.",
-            "right": "Req 4b: Composite Technical: Researching accredited composite trade associations and research institutes exposes scouts to cutting-edge material innovations. Web research focuses on automated manufacturing processes, recycling developments, and aerospace qualification standards."
+            "left": "Autoclave Curing: Pressurized heated autoclaves eliminate structural voids and consolidate aerospace composite prepreg plies.",
+            "right": "Pultrusion Speed: Continuous pulling of resin-wetted roving strands through heated steel dies produces constant profiles."
           },
           {
             "attribute": "Pultrusion Speed",
-            "left": "Autoclave Curing: Pressurized heated autoclaves eliminate structural voids and consolidate aerospace composite prepreg plies.",
-            "right": "Vacuum Infusion: Atmospheric pressure drives liquid resin through sealed dry fibers under airtight nylon films."
+            "left": "Pultrusion Speed: Continuous pulling of resin-wetted roving strands through heated steel dies produces constant profiles.",
+            "right": "Repair Scarfing: Grinding shallow bevels into damaged laminate layers restores structural load transfer continuity."
           }
         ]
       },
       "worked_example": {
-        "title": "Composite Materials Req 4 Exemplar Workbook Entry",
+        "title": "Composite Materials Req 4 Worked Example: Industrial Production and Repair",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Commercial Manufacturing": "Visiting an active composite enterprise provides direct exposure to cleanroom prepreg layup, autoclaves, and infusion systems. Scouts observe quality control testing protocols and structural repair methods used in commercial production.",
-          "Req 4b - Composite Technical": "Researching accredited composite trade associations and research institutes exposes scouts to cutting-edge material innovations. Web research focuses on automated manufacturing processes, recycling developments, and aerospace qualification standards."
+          "Phase 1 - Site Coordination": "Secure counselor approval and parental permission before contacting local composite manufacturing facilities.",
+          "Phase 2 - Facility Tour": "Observe automated fiber placement, vacuum infusion tables, and high-temperature curing ovens directly.",
+          "Phase 3 - Technical Interview": "Ask manufacturing technicians about core materials, release agents, and nondestructive defect testing.",
+          "Phase 4 - Report Synthesis": "Document industrial resin delivery methods and structural repair standards for counselor review."
         },
-        "sample_output": "Investigating Composite Manufacturing in Action: This will help you develop a list of questions to ask (p. 40).",
-        "counselor_tip": "For Composite Materials Requirement 4 (Investigating Composite Manufacturing in Action), verify the Scout's own observations and specific pamphlet details (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41))."
+        "sample_output": "Modern composite fabrication spans hand layup, automated vacuum infusion, filament winding, and high-pressure autoclave consolidation. Industrial repair facilities inspect damaged laminates using ultrasonic testing and restore structural continuity using step-scarf joints.",
+        "counselor_tip": "During the Composite Materials Requirement 4 conference on Industrial Production and Repair, verify that the Scout can explain autoclave curing and demonstrate report synthesis: Document industrial resin delivery methods and structural repair standards for counselor review."
       },
       "quiz_item": {
         "scenario_prompt": "Why do composite manufacturers often incorporate balsa wood, foam, or honeycomb into a laminate?",
@@ -1872,13 +1886,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Hands-on Composite Project",
-        "right_header": "Req 5b: Fabrication Facility Safety",
+        "left_header": "Req 5a: Hands-on Composite Project Fabrication",
+        "right_header": "Req 5b: Fabrication Facility Safety Management",
         "left_points": [
-          "(5a) Hands-on Composite Project Fabrication: Scouts fabricate two functional composite articles using approved safety protocols and verified wet layup techniques. At least one project originates directly from the official merit badge pamphlet instructional guide."
+          "(5a) Hands-on Composite Project Fabrication: Scouts fabricate two functional composite articles using approved safety protocols and verified wet layup techniques. At least one project originates directly from the official merit badge pamphlet instructional guide.",
+          "Mold Preparation: Applying paste wax and polyvinyl alcohol release film prevents parts from adhering permanently."
         ],
         "right_points": [
-          "(5b) Fabrication Facility Safety Management: Safe project fabrication requires an isolated workshop equipped with adequate cross-flow exhaust and spark-free electrical tools. An authorized adult supervisor monitors chemical dispensing, fire prevention protocols, and PPE compliance continuously."
+          "(5b) Fabrication Facility Safety Management: Safe project fabrication requires an isolated workshop equipped with adequate cross-flow exhaust and spark-free electrical tools. An authorized adult supervisor monitors chemical dispensing, fire prevention protocols, and PPE compliance continuously.",
+          "(5c) Composite Project Quality Evaluation: Counselors and scouts evaluate finished projects against predefined rubrics measuring dimensional accuracy, fiber alignment, and void reduction. Evaluating structural stiffness and edge trimming quality reinforces high manufacturing craftsmanship standards."
         ],
         "rows": [
           {
@@ -1888,26 +1904,27 @@
           },
           {
             "attribute": "Resin Wetout",
-            "left": "Req 5a: Hands-on Composite Project: Scouts fabricate two functional composite articles using approved safety protocols and verified wet layup techniques. At least one project originates directly from the official merit badge pamphlet instructional guide.",
-            "right": "Req 5b: Fabrication Facility Safety: Safe project fabrication requires an isolated workshop equipped with adequate cross-flow exhaust and spark-free electrical tools. An authorized adult supervisor monitors chemical dispensing, fire prevention protocols, and PPE compliance continuously."
+            "left": "Mold Preparation: Applying paste wax and polyvinyl alcohol release film prevents parts from adhering permanently.",
+            "right": "(5c) Composite Project Quality Evaluation: Counselors and scouts evaluate finished projects against predefined rubrics measuring dimensional accuracy, fiber alignment, and void reduction. Evaluating structural stiffness and edge trimming quality reinforces high manufacturing craftsmanship standards."
           },
           {
             "attribute": "Consolidation Pressure",
-            "left": "Req 5c: Composite Project Quality: Counselors and scouts evaluate finished projects against predefined rubrics measuring dimensional accuracy, fiber alignment, and void reduction. Evaluating structural stiffness and edge trimming quality reinforces high manufacturing craftsmanship standards.",
-            "right": "Resin Wetout: Fully saturating woven fibers with squeegees eliminates dry spots and trapped air bubbles."
+            "left": "Consolidation Pressure: Clamping molds or drawing vacuum consolidates laminate layers and increases fiber volume fraction.",
+            "right": "Quality Inspection: Tapping cured laminates with plastic inspection hammers reveals internal delaminations and hidden voids."
           }
         ]
       },
       "worked_example": {
-        "title": "Composite Materials Req 5 Exemplar Workbook Entry",
+        "title": "Composite Materials Req 5 Worked Example: Project Fabrication and Quality Evaluation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Hands-on Composite Project": "Scouts fabricate two functional composite articles using approved safety protocols and verified wet layup techniques. At least one project originates directly from the official merit badge pamphlet instructional guide.",
-          "Req 5b - Fabrication Facility Safety": "Safe project fabrication requires an isolated workshop equipped with adequate cross-flow exhaust and spark-free electrical tools. An authorized adult supervisor monitors chemical dispensing, fire prevention protocols, and PPE compliance continuously.",
-          "Req 5c - Composite Project Quality": "Counselors and scouts evaluate finished projects against predefined rubrics measuring dimensional accuracy, fiber alignment, and void reduction. Evaluating structural stiffness and edge trimming quality reinforces high manufacturing craftsmanship standards."
+          "Phase 1 - Mold Preparation": "Polish clean mold surfaces with three coats of carnauba paste wax thoroughly.",
+          "Phase 2 - Fabric Cutting": "Cut reinforcement cloth plies using clean shears to match mold geometry patterns.",
+          "Phase 3 - Resin Lamination": "Mix measured epoxy batches and saturate woven fabric layers using flexible plastic spreaders.",
+          "Phase 4 - Quality Audit": "Evaluate cured parts alongside your counselor by checking surface hardness and laminate thickness."
         },
-        "sample_output": "Building and Evaluating Composite Projects: This ensures that the structural properties of the laminate are not weakened (p. 60).",
-        "counselor_tip": "For Composite Materials Requirement 5 (Building and Evaluating Composite Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70))."
+        "sample_output": "Scouts construct two distinct composite projects using proper mold preparation, precise resin mixing, and controlled reinforcement wetout. Completed items undergo objective evaluations covering surface finish, structural stiffness, void content, and dimensional accuracy.",
+        "counselor_tip": "During the Composite Materials Requirement 5 conference on Project Fabrication and Quality Evaluation, verify that the Scout can explain mold preparation and demonstrate quality audit: Evaluate cured parts alongside your counselor by checking surface hardness and laminate thickness."
       },
       "quiz_item": {
         "scenario_prompt": "How should you join pieces of fiberglass reinforcement across multiple layers in a composite project?",
@@ -2262,13 +2279,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Professional Composite Career",
-        "right_header": "Req 6b: Recreational Composite Crafting",
+        "left_header": "Req 6a: Professional Composite Career Pathways",
+        "right_header": "Req 6b: Recreational Composite Crafting Applications",
         "left_points": [
-          "(6a) Professional Composite Career Pathways: Professional composite careers encompass chemical engineering, computer-aided design, quality assurance, and non-destructive testing technician roles. Research explores four-year engineering degrees, vocational apprenticeship programs, starting salaries, and long-term industry demand."
+          "(6a) Professional Composite Career Pathways: Professional composite careers encompass chemical engineering, computer-aided design, quality assurance, and non-destructive testing technician roles. Research explores four-year engineering degrees, vocational apprenticeship programs, starting salaries, and long-term industry demand.",
+          "Materials Engineering: Materials scientists develop high-temperature thermoplastic resins and advanced carbon nanotube matrix formulations."
         ],
         "right_points": [
-          "(6b) Recreational Composite Crafting Applications: Composite fabrication skills empower hobbyists to build competitive racing drones, custom canoes, and lightweight camping equipment. Scouts investigate local maker spaces, specialized enthusiast associations, and affordable vacuum bagging equipment kits."
+          "(6b) Recreational Composite Crafting Applications: Composite fabrication skills empower hobbyists to build competitive racing drones, custom canoes, and lightweight camping equipment. Scouts investigate local maker spaces, specialized enthusiast associations, and affordable vacuum bagging equipment kits.",
+          "Tooling Fabrication: Master toolmakers machine precision invar molds to match thermal expansion rates of carbon."
         ],
         "rows": [
           {
@@ -2278,25 +2297,27 @@
           },
           {
             "attribute": "Aerospace Design",
-            "left": "Req 6a: Professional Composite: Professional composite careers encompass chemical engineering, computer-aided design, quality assurance, and non-destructive testing technician roles. Research explores four-year engineering degrees, vocational apprenticeship programs, starting salaries, and long-term industry demand.",
-            "right": "Req 6b: Recreational Composite: Composite fabrication skills empower hobbyists to build competitive racing drones, custom canoes, and lightweight camping equipment. Scouts investigate local maker spaces, specialized enthusiast associations, and affordable vacuum bagging equipment kits."
+            "left": "Materials Engineering: Materials scientists develop high-temperature thermoplastic resins and advanced carbon nanotube matrix formulations.",
+            "right": "Tooling Fabrication: Master toolmakers machine precision invar molds to match thermal expansion rates of carbon."
           },
           {
             "attribute": "Tooling Fabrication",
-            "left": "Materials Engineering: Materials scientists develop high-temperature thermoplastic resins and advanced carbon nanotube matrix formulations.",
-            "right": "Aerospace Design: Structural engineers calculate stress tensors and design optimized carbon composite aircraft wing skins."
+            "left": "Tooling Fabrication: Master toolmakers machine precision invar molds to match thermal expansion rates of carbon.",
+            "right": "Hobby Applications: Amateur rocketry builders roll custom composite motor casings to withstand extreme internal pressures."
           }
         ]
       },
       "worked_example": {
-        "title": "Composite Materials Req 6 Exemplar Workbook Entry",
+        "title": "Composite Materials Req 6 Worked Example: Composite Careers and Recreations",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 6a - Professional Composite Career": "Professional composite careers encompass chemical engineering, computer-aided design, quality assurance, and non-destructive testing technician roles. Research explores four-year engineering degrees, vocational apprenticeship programs, starting salaries, and long-term industry demand.",
-          "Req 6b - Recreational Composite": "Composite fabrication skills empower hobbyists to build competitive racing drones, custom canoes, and lightweight camping equipment. Scouts investigate local maker spaces, specialized enthusiast associations, and affordable vacuum bagging equipment kits."
+          "Phase 1 - Career Exploration": "Research credential pathways, educational degrees, and median salaries for composite materials engineers.",
+          "Phase 2 - Trade Analysis": "Investigate aerospace airframe repair apprenticeships and industry certifications required for manufacturing technicians.",
+          "Phase 3 - Hobby Investigation": "Identify specialized composite molding equipment used by model rocketry and surfboard makers.",
+          "Phase 4 - Counselor Discussion": "Present findings regarding educational investments, career growth trajectories, and personal recreation opportunities."
         },
-        "sample_output": "Composite Careers and Hobby Applications: You might work in design, creating new applications for composite materials (p. 72).",
-        "counselor_tip": "For Composite Materials Requirement 6 (Composite Careers and Hobby Applications), verify the Scout's own observations and specific pamphlet details (Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74))."
+        "sample_output": "Composite materials drive high-demand careers in aerospace engineering, automotive design, marine architecture, and medical prosthetics development. Hobbyists leverage similar vacuum bagging and molding techniques to craft custom archery bows, surfboards, and radio-controlled aircraft.",
+        "counselor_tip": "During the Composite Materials Requirement 6 conference on Composite Careers and Recreations, verify that the Scout can explain materials engineering and demonstrate counselor discussion: Present findings regarding educational investments, career growth trajectories, and personal recreation opportunities."
       },
       "quiz_item": {
         "scenario_prompt": "What determines the level of education or training required beyond high school for a career in composites?",

@@ -117,53 +117,47 @@
         "Step 3 - Thermal Care: Loosen tight gear and fan overheated instrument operators resting in shade.",
         "Step 4 - Transport Evacuation: Document incident coordinates and move injured personnel to the nearest roadway access."
       ],
-      "gear_checklist": [
-        "Official Surveying Merit Badge Pamphlet: First aid for the types.",
-        "Field notebook, verification log sheet, and demonstration materials for First aid for the types.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1: Advanced Hypothermia Shivering",
-        "right_header": "Req 1: Cover Head and Rewarm",
+        "left_header": "Survey Field First Aid: Core Principles",
+        "right_header": "Survey Field First Aid: Field Execution",
         "left_points": [
-          "Advanced Hypothermia Shivering Loss: As the victim becomes colder, however, the shivering will stop (p. 15).",
-          "Cognitive Symptoms of Hypothermia: Other symptoms may include irritability, disorientation, sleepiness, incoherence, and the inability to think clearly or rationally (p. 15).",
-          "Warming the Victim Safely: Cover the head with a warm hat or other covering, and offer hot drinks (p. 15)."
+          "Brush Clearance Protocol: Sharp cutting tools require wide clearance circles to prevent accidental crew lacerations.",
+          "Snakebite Emergency Care: Restrict movement and keep bite locations immobilized below heart level during evacuation."
         ],
         "right_points": [
-          "Cover Head and Rewarm: Cover the head with a warm hat or other covering, and offer hot drinks (p. 15).",
-          "Cleanse Minor Cuts Thoroughly: Minor injuries usually require little attention other than cleansing with soap, water, and disinfectant (p. 15).",
-          "Apply Dry Sterile Dressing: Leave them to heal in the air, or cover them lightly with a dry, sterile dressing (p. 15)."
+          "Tick Exposure Mitigation: Tuck pant cuffs inside boots and perform hourly skin checks across brush.",
+          "Heat Exhaustion Response: Move affected crew members into shaded terrain and administer small water sips."
         ],
         "rows": [
           {
             "attribute": "Brush Clearance Protocol",
-            "left": "Advanced Hypothermia Shivering Loss: As the victim becomes colder, however, the shivering will stop (p. 15).",
-            "right": "Cover Head and Rewarm: Cover the head with a warm hat or other covering, and offer hot drinks (p. 15)."
+            "left": "Brush Clearance Protocol: Sharp cutting tools require wide clearance circles to prevent accidental crew lacerations.",
+            "right": "Tick Exposure Mitigation: Tuck pant cuffs inside boots and perform hourly skin checks across brush."
           },
           {
             "attribute": "Snakebite Emergency Care",
-            "left": "Cognitive Symptoms of Hypothermia: Other symptoms may include irritability, disorientation, sleepiness, incoherence, and the inability to think clearly or rationally (p. 15).",
-            "right": "Cleanse Minor Cuts Thoroughly: Minor injuries usually require little attention other than cleansing with soap, water, and disinfectant (p. 15)."
+            "left": "Snakebite Emergency Care: Restrict movement and keep bite locations immobilized below heart level during evacuation.",
+            "right": "Heat Exhaustion Response: Move affected crew members into shaded terrain and administer small water sips."
           },
           {
             "attribute": "Tick Exposure Mitigation",
-            "left": "Warming the Victim Safely: Cover the head with a warm hat or other covering, and offer hot drinks (p. 15).",
-            "right": "Apply Dry Sterile Dressing: Leave them to heal in the air, or cover them lightly with a dry, sterile dressing (p. 15)."
+            "left": "Tick Exposure Mitigation: Tuck pant cuffs inside boots and perform hourly skin checks across brush.",
+            "right": "Heat Exhaustion Response: Move affected crew members into shaded terrain and administer small water sips."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 1 Exemplar Workbook Entry: Field First Aid",
+        "title": "Surveying Req 1 Worked Example: Survey Field First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Advanced Hypothermia Shivering Loss": "As the victim becomes colder, however, the shivering will stop (p. 15).",
-          "Cognitive Symptoms of Hypothermia": "Other symptoms may include irritability, disorientation, sleepiness, incoherence, and the inability to think clearly or rationally (p. 15).",
-          "Warming the Victim Safely": "Cover the head with a warm hat or other covering, and offer hot drinks (p. 15).",
-          "Minor Wound Cleansing Basics": "Minor injuries usually require little attention other than cleansing with soap, water, and disinfectant (p. 15)."
+          "Phase 1 - Kit Assessment": "Check field first aid packs for antiseptic wipes, compression wraps, and shears.",
+          "Phase 2 - Laceration Treatment": "Irrigate open puncture wounds with potable water before applying sterile pressure dressings.",
+          "Phase 3 - Thermal Care": "Loosen tight gear and fan overheated instrument operators resting in shade.",
+          "Phase 4 - Transport Evacuation": "Document incident coordinates and move injured personnel to the nearest roadway access."
         },
-        "sample_output": "Field First Aid and Hazard Awareness: As the victim becomes colder, however, the shivering will stop (p. 15).",
-        "counselor_tip": "For Surveying Requirement 1 (Field First Aid and Hazard Awareness), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 15, p. 16))."
+        "sample_output": "Surveying crews operate in remote brush where immediate medical care is inaccessible. Field party chiefs must maintain specialized trauma kits to treat lacerations, envenomations, and thermal exposure before transport.",
+        "counselor_tip": "During the Surveying Requirement 1 conference on Survey Field First Aid, verify that the Scout can explain brush clearance protocol and demonstrate transport evacuation: Document incident coordinates and move injured personnel to the nearest roadway access."
       },
       "quiz_item": {
         "scenario_prompt": "While conducting a land survey along a brushy roadside utility corridor, what safety precautions apply to setting up your tripod and holding a telescoping leveling rod?",
@@ -467,19 +461,17 @@
         "Step 3 - Radial Pointing: Turn clockwise to each boundary corner to record horizontal angles and distances.",
         "Step 4 - Closure Verification: Resight the initial backsight corner to verify that orientation drifted zero seconds."
       ],
-      "gear_checklist": [
-        "Official Surveying Merit Badge Pamphlet: Set an instrument.",
-        "Field notebook, verification log sheet, and demonstration materials for Set an instrument.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Total Station Radial",
-        "right_header": "Req 2b: Satellite Position Distance",
+        "left_header": "Req 2a: Total Station Radial Measurements",
+        "right_header": "Req 2b: Satellite Position Distance Comparison",
         "left_points": [
-          "(2a) Total Station Radial Measurements: Setting an optical instrument over a designated corner allows measuring horizontal angles and radial distances to adjacent property markers. Backsighting a second established corner ensures all recorded angles reference a stable azimuthal baseline."
+          "(2a) Total Station Radial Measurements: Setting an optical instrument over a designated corner allows measuring horizontal angles and radial distances to adjacent property markers. Backsighting a second established corner ensures all recorded angles reference a stable azimuthal baseline.",
+          "Instrument Centering Routine: Plumb the optical sight directly over the station tack before leveling footplates."
         ],
         "right_points": [
-          "(2b) Satellite Position Distance Comparison: Collecting satellite positioning coordinates at three identical boundary markers provides an independent check against optical total station distances. Comparing ground EDM measurements with computed GPS inverse distances reveals baseline discrepancies caused by canopy interference or multipath errors."
+          "(2b) Satellite Position Distance Comparison: Collecting satellite positioning coordinates at three identical boundary markers provides an independent check against optical total station distances. Comparing ground EDM measurements with computed GPS inverse distances reveals baseline discrepancies caused by canopy interference or multipath errors.",
+          "Radial Point Sighting: Sight target prisms at perimeter corners to obtain direct azimuths and distances."
         ],
         "rows": [
           {
@@ -489,25 +481,27 @@
           },
           {
             "attribute": "Reference Sighting Zero",
-            "left": "Req 2a: Total Station Radial: Setting an optical instrument over a designated corner allows measuring horizontal angles and radial distances to adjacent property markers. Backsighting a second established corner ensures all recorded angles reference a stable azimuthal baseline.",
-            "right": "Req 2b: Satellite Position Distance: Collecting satellite positioning coordinates at three identical boundary markers provides an independent check against optical total station distances. Comparing ground EDM measurements with computed GPS inverse distances reveals baseline discrepancies caused by canopy interference or multipath errors."
+            "left": "Instrument Centering Routine: Plumb the optical sight directly over the station tack before leveling footplates.",
+            "right": "Radial Point Sighting: Sight target prisms at perimeter corners to obtain direct azimuths and distances."
           },
           {
             "attribute": "Radial Point Sighting",
-            "left": "Instrument Centering Routine: Plumb the optical sight directly over the station tack before leveling footplates.",
-            "right": "Reference Sighting Zero: Align the horizontal circle crosshairs precisely on the reference corner before measurement."
+            "left": "Radial Point Sighting: Sight target prisms at perimeter corners to obtain direct azimuths and distances.",
+            "right": "Data Logging Integrity: Record every raw clockwise angle and horizontal distance immediately within bound fieldbooks."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 2 Exemplar Workbook Entry: Radial Lot",
+        "title": "Surveying Req 2 Worked Example: Radial Boundary Traverse Measurements",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Total Station Radial": "Setting an optical instrument over a designated corner allows measuring horizontal angles and radial distances to adjacent property markers. Backsighting a second established corner ensures all recorded angles reference a stable azimuthal baseline.",
-          "Req 2b - Satellite Position Distance": "Collecting satellite positioning coordinates at three identical boundary markers provides an independent check against optical total station distances. Comparing ground EDM measurements with computed GPS inverse distances reveals baseline discrepancies caused by canopy interference or multipath errors."
+          "Phase 1 - Station Setup": "Plant tripod shoes firmly into soil over the primary boundary corner monument.",
+          "Phase 2 - Backsight Initialization": "Sight the secondary corner target and zero the total station horizontal circle.",
+          "Phase 3 - Radial Pointing": "Turn clockwise to each boundary corner to record horizontal angles and distances.",
+          "Phase 4 - Closure Verification": "Resight the initial backsight corner to verify that orientation drifted zero seconds."
         },
-        "sample_output": "Radial Lot Surveying and GPS Comparison: GPS receivers process signals from the satellites to calculate location (p. 19).",
-        "counselor_tip": "For Surveying Requirement 2 (Radial Lot Surveying and GPS Comparison), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23))."
+        "sample_output": "Radial surveying establishes unknown lot boundary locations by measuring horizontal angles and slope distances from a single instrument station. The crew references an established baseline corner to determine the polar coordinates of all secondary perimeter markers.",
+        "counselor_tip": "During the Surveying Requirement 2 conference on Radial Boundary Traverse Measurements, verify that the Scout can explain instrument centering routine and demonstrate closure verification: Resight the initial backsight corner to verify that orientation drifted zero seconds."
       },
       "quiz_item": {
         "scenario_prompt": "How does the Global Positioning System (GPS) determine the location of a property corner compared to traditional radial surveying?",
@@ -661,47 +655,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Graphical Map Drawing Approach",
-        "right_header": "Req 3: Review Drafting Tool Scales",
+        "left_header": "Scaled Boundary Plat Drafting: Core Principles",
+        "right_header": "Scaled Boundary Plat Drafting: Field Execution",
         "left_points": [
-          "Graphical Map Drawing Approach: If you are not quite ready for trigonometry, you will need to draw your map geographically (p. 50).",
-          "Essential Manual Drafting Tools: Use grid-ruled paper if possible, and a separate straightedge, drafting scale, and protractor (p. 50).",
-          "Protractor and Scale Varieties: So many versions of drafting scales and protractors are available that your counselor might need to show you how to use the particular instruments (p. 50)."
+          "Baseline Orientation Placement: Position the reference baseline on drafting media before plotting radial boundary angles.",
+          "Protractor Alignment Technique: Center the protractor vertex exactly over the station point to lay off angles."
         ],
         "right_points": [
-          "Review Drafting Tool Scales: So many versions of drafting scales and protractors are available that your counselor might need to show you how to use the particular instruments (p. 50).",
-          "Calculate Appropriate Drawing Scale: You can figure what scale to use to make the lot fit on your paper (p. 50).",
-          "Position Lot and Title: Position the lot so that it fits nicely onto your paper, and leave room for a title block, preferably in the lower right corner of your map (p. 50)."
+          "Engineering Scale Division: Lay off measured radial distances along angle rays using certified engineering ratios.",
+          "Mandatory Plat Elements: Include a true north arrow, title block, certification date, and bar scale."
         ],
         "rows": [
           {
             "attribute": "Baseline Orientation Placement",
-            "left": "Graphical Map Drawing Approach: If you are not quite ready for trigonometry, you will need to draw your map geographically (p. 50).",
-            "right": "Review Drafting Tool Scales: So many versions of drafting scales and protractors are available that your counselor might need to show you how to use the particular instruments (p. 50)."
+            "left": "Baseline Orientation Placement: Position the reference baseline on drafting media before plotting radial boundary angles.",
+            "right": "Engineering Scale Division: Lay off measured radial distances along angle rays using certified engineering ratios."
           },
           {
             "attribute": "Protractor Alignment Technique",
-            "left": "Essential Manual Drafting Tools: Use grid-ruled paper if possible, and a separate straightedge, drafting scale, and protractor (p. 50).",
-            "right": "Calculate Appropriate Drawing Scale: You can figure what scale to use to make the lot fit on your paper (p. 50)."
+            "left": "Protractor Alignment Technique: Center the protractor vertex exactly over the station point to lay off angles.",
+            "right": "Mandatory Plat Elements: Include a true north arrow, title block, certification date, and bar scale."
           },
           {
             "attribute": "Engineering Scale Division",
-            "left": "Protractor and Scale Varieties: So many versions of drafting scales and protractors are available that your counselor might need to show you how to use the particular instruments (p. 50).",
-            "right": "Position Lot and Title: Position the lot so that it fits nicely onto your paper, and leave room for a title block, preferably in the lower right corner of your map (p. 50)."
+            "left": "Engineering Scale Division: Lay off measured radial distances along angle rays using certified engineering ratios.",
+            "right": "Mandatory Plat Elements: Include a true north arrow, title block, certification date, and bar scale."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 3 Exemplar Workbook Entry: Scale Map",
+        "title": "Surveying Req 3 Worked Example: Scaled Boundary Plat Drafting",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Graphical Map Drawing Approach": "If you are not quite ready for trigonometry, you will need to draw your map geographically (p. 50).",
-          "Essential Manual Drafting Tools": "Use grid-ruled paper if possible, and a separate straightedge, drafting scale, and protractor (p. 50).",
-          "Protractor and Scale Varieties": "So many versions of drafting scales and protractors are available that your counselor might need to show you how to use the particular instruments (p. 50).",
-          "Selecting Map Drawing Scale": "You can figure what scale to use to make the lot fit on your paper (p. 50)."
+          "Phase 1 - Sheet Layout": "Fasten drafting paper to the drawing board using low-tack masking tape strips.",
+          "Phase 2 - Station Plotting": "Establish the instrument station and draw the initial backsight reference meridian line.",
+          "Phase 3 - Radial Raying": "Mark calculated perimeter corners along scaled radial vectors originating from the station.",
+          "Phase 4 - Boundary Inking": "Connect corner points with crisp boundary lines and annotate distances and bearings."
         },
-        "sample_output": "Scale Map Plotting From Field Notes: If you are not quite ready for trigonometry, you will need to draw your map geographically (p. 50).",
-        "counselor_tip": "For Surveying Requirement 3 (Scale Map Plotting From Field Notes), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 50, p. 54))."
+        "sample_output": "Surveyors translate raw field notes into accurate boundary plats using engineering scales, drafting protractors, and standardized cartographic symbols. Every property plat must display an accurate orientation arrow, numerical scale, graphic bar, title block, and lot geometry.",
+        "counselor_tip": "During the Surveying Requirement 3 conference on Scaled Boundary Plat Drafting, verify that the Scout can explain baseline orientation placement and demonstrate boundary inking: Connect corner points with crisp boundary lines and annotate distances and bearings."
       },
       "quiz_item": {
         "scenario_prompt": "Where is the standard preferred location for placing the title block when laying out your survey map on paper?",
@@ -855,53 +847,47 @@
         "Step 3 - Foresight Subtraction: Sight the rod held over the forward corner to calculate its elevation.",
         "Step 4 - Loop Closing: Run leveling turns through all five corners back to the initial benchmark."
       ],
-      "gear_checklist": [
-        "Official Surveying Merit Badge Pamphlet: Corner Markers.",
-        "Field notebook, verification log sheet, and demonstration materials for Corner Markers.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Assumed Hundred-Foot Benchmark",
-        "right_header": "Req 4: Set Up Surveying Level",
+        "left_header": "Differential Level Elevation Loop: Core Principles",
+        "right_header": "Differential Level Elevation Loop: Field Execution",
         "left_points": [
-          "Assumed Hundred-Foot Benchmark: In requirement 5, an elevation of 100 feet is assumed for one point measured in requirement 2 (p. 31).",
-          "Determining Remaining Corner Elevations: The elevations of the other four corners you measured in requirement 2 are then determined (p. 31).",
-          "Operating the Surveying Level: We have already seen what levels are, and generally how they work; we will now use one (p. 31)."
+          "Benchmark Elevation Assignment: Assign the starting corner monument an arbitrary datum elevation of one hundred feet.",
+          "Backsight Rod Reading: Add the backsight rod value to known benchmark elevation to find instrument height."
         ],
         "right_points": [
-          "Set Up Surveying Level: We have already seen what levels are, and generally how they work; we will now use one (p. 31).",
-          "Prepare Graduated Leveling Rod: If you used a leveling rod when you took measurements for requirement 2, and if you are using the same rod for this leveling requirement, you already know (p. 31).",
-          "Inspect Leveling Rod Markings: Otherwise, take a close look at the leveling rod (p. 31)."
+          "Foresight Corner Observation: Subtract foresight rod readings from instrument height to calculate new corner elevations.",
+          "Level Loop Closure: Close the level circuit back onto the starting benchmark to compute vertical closure error."
         ],
         "rows": [
           {
             "attribute": "Benchmark Elevation Assignment",
-            "left": "Assumed Hundred-Foot Benchmark: In requirement 5, an elevation of 100 feet is assumed for one point measured in requirement 2 (p. 31).",
-            "right": "Set Up Surveying Level: We have already seen what levels are, and generally how they work; we will now use one (p. 31)."
+            "left": "Benchmark Elevation Assignment: Assign the starting corner monument an arbitrary datum elevation of one hundred feet.",
+            "right": "Foresight Corner Observation: Subtract foresight rod readings from instrument height to calculate new corner elevations."
           },
           {
             "attribute": "Backsight Rod Reading",
-            "left": "Determining Remaining Corner Elevations: The elevations of the other four corners you measured in requirement 2 are then determined (p. 31).",
-            "right": "Prepare Graduated Leveling Rod: If you used a leveling rod when you took measurements for requirement 2, and if you are using the same rod for this leveling requirement, you already know (p. 31)."
+            "left": "Backsight Rod Reading: Add the backsight rod value to known benchmark elevation to find instrument height.",
+            "right": "Level Loop Closure: Close the level circuit back onto the starting benchmark to compute vertical closure error."
           },
           {
             "attribute": "Foresight Corner Observation",
-            "left": "Operating the Surveying Level: We have already seen what levels are, and generally how they work; we will now use one (p. 31).",
-            "right": "Inspect Leveling Rod Markings: Otherwise, take a close look at the leveling rod (p. 31)."
+            "left": "Foresight Corner Observation: Subtract foresight rod readings from instrument height to calculate new corner elevations.",
+            "right": "Level Loop Closure: Close the level circuit back onto the starting benchmark to compute vertical closure error."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 4 Exemplar Workbook Entry: Differential",
+        "title": "Surveying Req 4 Worked Example: Differential Level Elevation Loop",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Assumed Hundred-Foot Benchmark": "In requirement 5, an elevation of 100 feet is assumed for one point measured in requirement 2 (p. 31).",
-          "Determining Remaining Corner": "The elevations of the other four corners you measured in requirement 2 are then determined (p. 31).",
-          "Operating the Surveying Level": "We have already seen what levels are, and generally how they work; we will now use one (p. 31).",
-          "Using the Leveling Rod": "If you used a leveling rod when you took measurements for requirement 2, and if you are using the same rod for this leveling requirement, you already know (p. 31)."
+          "Phase 1 - Level Placement": "Set the optical level midway between the starting benchmark and forward corner.",
+          "Phase 2 - Backsight Addition": "Record the vertical rod reading on the benchmark to calculate instrument height.",
+          "Phase 3 - Foresight Subtraction": "Sight the rod held over the forward corner to calculate its elevation.",
+          "Phase 4 - Loop Closing": "Run leveling turns through all five corners back to the initial benchmark."
         },
-        "sample_output": "Differential Leveling and Corner Elevations: In requirement 5, an elevation of 100 feet is assumed for one point measured in requirement 2 (p. 31).",
-        "counselor_tip": "For Surveying Requirement 4 (Differential Leveling and Corner Elevations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 31, p. 57))."
+        "sample_output": "Differential leveling establishes precise vertical elevations across property markers using an optical level and graduated leveling rod. Starting from an assumed benchmark elevation of one hundred feet, surveyors compute heights of instrument and foresight readings to close the circuit.",
+        "counselor_tip": "During the Surveying Requirement 4 conference on Differential Level Elevation Loop, verify that the Scout can explain benchmark elevation assignment and demonstrate loop closing: Run leveling turns through all five corners back to the initial benchmark."
       },
       "quiz_item": {
         "scenario_prompt": "If your benchmark is assumed to be 100.00 feet, your backsight reading on the benchmark is 4.50 feet, and your foresight reading on Corner B is 6.50 feet, what is the elevation of Corner B?",
@@ -1055,47 +1041,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Beyond Simple Field Measurement",
-        "right_header": "Req 5: Gather Physical Boundary Evidence",
+        "left_header": "Property Deed Legal Analysis: Core Principles",
+        "right_header": "Property Deed Legal Analysis: Field Execution",
         "left_points": [
-          "Beyond Simple Field Measurement: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-          "Surveyors as Land Detectives: In many ways, surveyors are alot like detectives (p. 11).",
-          "Field Measurements as Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11)."
+          "Courthouse Registry Search: Retrieve official property deed records from the county clerk or land recorder.",
+          "Grantor Grantee Identification: Locate the grantor transferring real estate and the grantee receiving the land title."
         ],
         "right_points": [
-          "Gather Physical Boundary Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
-          "Look Beyond Field Measurements: Most surveys require more evidence than just the field measurements (p. 11).",
-          "Examine Deeds and Easements: Deeds, wills, and easements describe the land and give information about who owns it and who has rights (p. 11)."
+          "Metes Bounds Inspection: Follow the legal boundary narrative tracking bearings, distances, and adjoining land parcels.",
+          "Encumbrance Covenant Review: Identify recorded utility easements, roadway access reservations, and restrictive covenants within property descriptions."
         ],
         "rows": [
           {
             "attribute": "Courthouse Registry Search",
-            "left": "Beyond Simple Field Measurement: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-            "right": "Gather Physical Boundary Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11)."
+            "left": "Courthouse Registry Search: Retrieve official property deed records from the county clerk or land recorder.",
+            "right": "Metes Bounds Inspection: Follow the legal boundary narrative tracking bearings, distances, and adjoining land parcels."
           },
           {
             "attribute": "Grantor Grantee Identification",
-            "left": "Surveyors as Land Detectives: In many ways, surveyors are alot like detectives (p. 11).",
-            "right": "Look Beyond Field Measurements: Most surveys require more evidence than just the field measurements (p. 11)."
+            "left": "Grantor Grantee Identification: Locate the grantor transferring real estate and the grantee receiving the land title.",
+            "right": "Encumbrance Covenant Review: Identify recorded utility easements, roadway access reservations, and restrictive covenants within property descriptions."
           },
           {
             "attribute": "Metes Bounds Inspection",
-            "left": "Field Measurements as Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
-            "right": "Examine Deeds and Easements: Deeds, wills, and easements describe the land and give information about who owns it and who has rights (p. 11)."
+            "left": "Metes Bounds Inspection: Follow the legal boundary narrative tracking bearings, distances, and adjoining land parcels.",
+            "right": "Encumbrance Covenant Review: Identify recorded utility easements, roadway access reservations, and restrictive covenants within property descriptions."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 5 Exemplar Workbook Entry: Property Deeds",
+        "title": "Surveying Req 5 Worked Example: Property Deed Legal Analysis",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Beyond Simple Field Measurement": "If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-          "Surveyors as Land Detectives": "In many ways, surveyors are alot like detectives (p. 11).",
-          "Field Measurements as Evidence": "When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
-          "Written and Physical Evidence": "Most surveys require more evidence than just the field measurements (p. 11)."
+          "Phase 1 - Document Retrieval": "Obtain a certified deed copy from the county recorder or title company.",
+          "Phase 2 - Party Verification": "Identify the legal names of the grantor and grantee in the premise clause.",
+          "Phase 3 - Description Tracing": "Trace the metes and bounds narrative starting from the designated point of beginning.",
+          "Phase 4 - Encumbrance Review": "Highlight recorded easements, road rights of way, and municipal restrictions affecting property use."
         },
-        "sample_output": "Property Deeds and Legal Land Records: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-        "counselor_tip": "For Surveying Requirement 5 (Property Deeds and Legal Land Records), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61))."
+        "sample_output": "Property deeds serve as legal instruments transferring land ownership while describing physical boundary locations in recorded public registries. Surveyors inspect deeds to extract metes and bounds descriptions, verify title rights, and locate historical boundary monuments.",
+        "counselor_tip": "During the Surveying Requirement 5 conference on Property Deed Legal Analysis, verify that the Scout can explain courthouse registry search and demonstrate encumbrance review: Highlight recorded easements, road rights of way, and municipal restrictions affecting property use."
       },
       "quiz_item": {
         "scenario_prompt": "Why does the Surveying merit badge pamphlet compare land surveyors to detectives when preparing a boundary survey?",
@@ -1247,47 +1231,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6: Thirty-Six Township Sections",
-        "right_header": "Req 6: Verify Section Square Mileage",
+        "left_header": "Modern Surveying Technology Evaluation: Core Principles",
+        "right_header": "Modern Surveying Technology Evaluation: Field Execution",
         "left_points": [
-          "Thirty-Six Township Sections: Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagram shown here (p. 12).",
-          "Standard Section Numbering Pattern: This diagram shows the numbering of a township's 36 sections (p. 12).",
-          "Square Mile Section Acreage: Except in a fewspecial cases, each section is approximately one mile square and contains approximately 640 acres (p. 12)."
+          "Drone Photogrammetry Rapidness: Aerial imagery platforms map large topographies quickly using overlapping detailed digital photographs.",
+          "Laser Scanner Pointclouds: Terrestrial scanners generate dense spatial coordinate point clouds of complex structures rapidly."
         ],
         "right_points": [
-          "Verify Section Square Mileage: Except in a fewspecial cases, each section is approximately one mile square and contains approximately 640 acres (p. 12).",
-          "Divide Sections Into Quarters: Each section may be divided into halves, quarters, and smaller subdivisions, all according to rigidly standardized directions from the government (p. 12).",
-          "Identify Irregularly Shaped Lots: Irregularly shaped subdivisions may be called lots (p. 12)."
+          "Vegetation Penetration Limitations: Aerial optical cameras cannot see ground terrain beneath thick deciduous forest leaf canopies.",
+          "Ground Control Necessity: Modern sensor data requires surveyed ground control points to achieve certified boundary accuracy."
         ],
         "rows": [
           {
             "attribute": "Drone Photogrammetry Rapidness",
-            "left": "Thirty-Six Township Sections: Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagram shown here (p. 12).",
-            "right": "Verify Section Square Mileage: Except in a fewspecial cases, each section is approximately one mile square and contains approximately 640 acres (p. 12)."
+            "left": "Drone Photogrammetry Rapidness: Aerial imagery platforms map large topographies quickly using overlapping detailed digital photographs.",
+            "right": "Vegetation Penetration Limitations: Aerial optical cameras cannot see ground terrain beneath thick deciduous forest leaf canopies."
           },
           {
             "attribute": "Laser Scanner Pointclouds",
-            "left": "Standard Section Numbering Pattern: This diagram shows the numbering of a township's 36 sections (p. 12).",
-            "right": "Divide Sections Into Quarters: Each section may be divided into halves, quarters, and smaller subdivisions, all according to rigidly standardized directions from the government (p. 12)."
+            "left": "Laser Scanner Pointclouds: Terrestrial scanners generate dense spatial coordinate point clouds of complex structures rapidly.",
+            "right": "Ground Control Necessity: Modern sensor data requires surveyed ground control points to achieve certified boundary accuracy."
           },
           {
             "attribute": "Vegetation Penetration Limitations",
-            "left": "Square Mile Section Acreage: Except in a fewspecial cases, each section is approximately one mile square and contains approximately 640 acres (p. 12).",
-            "right": "Identify Irregularly Shaped Lots: Irregularly shaped subdivisions may be called lots (p. 12)."
+            "left": "Vegetation Penetration Limitations: Aerial optical cameras cannot see ground terrain beneath thick deciduous forest leaf canopies.",
+            "right": "Ground Control Necessity: Modern sensor data requires surveyed ground control points to achieve certified boundary accuracy."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 6 Exemplar Workbook Entry: Emerging Drone",
+        "title": "Surveying Req 6 Worked Example: Modern Surveying Technology Evaluation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Thirty-Six Township Sections": "Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagram shown here (p. 12).",
-          "Standard Section Numbering Pattern": "This diagram shows the numbering of a township's 36 sections (p. 12).",
-          "Square Mile Section Acreage": "Except in a fewspecial cases, each section is approximately one mile square and contains approximately 640 acres (p. 12).",
-          "Standardized Section Subdivision Rules": "Each section may be divided into halves, quarters, and smaller subdivisions, all according to rigidly standardized directions from the government (p. 12)."
+          "Phase 1 - Platform Selection": "Evaluate whether the site requires aerial photogrammetry or dense terrestrial laser scanning.",
+          "Phase 2 - Control Surveying": "Establish calibrated ground control targets across the project site with total stations.",
+          "Phase 3 - Sensor Mission": "Execute automated drone flight passes or set up tripod laser scanning sweeps.",
+          "Phase 4 - Pointcloud Processing": "Register point clouds and extract planimetric features into digital drafting software packages."
         },
-        "sample_output": "Emerging Drone and Laser Scanning Systems: Each township is divided into 36 one-mile squares, called sections, which are numbered as shown in the diagram shown here (p. 12).",
-        "counselor_tip": "For Surveying Requirement 6 (Emerging Drone and Laser Scanning Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40))."
+        "sample_output": "Unmanned aerial vehicles and terrestrial laser scanners capture millions of spatial coordinate points across vast survey projects in minutes. Surveyors balance rapid data collection against high capital costs, heavy computational post-processing requirements, and canopy penetration limits.",
+        "counselor_tip": "During the Surveying Requirement 6 conference on Modern Surveying Technology Evaluation, verify that the Scout can explain drone photogrammetry rapidness and demonstrate pointcloud processing: Register point clouds and extract planimetric features into digital drafting software packages."
       },
       "quiz_item": {
         "scenario_prompt": "What is a major limitation of using drones and laser scanners when performing a property boundary survey?",
@@ -1445,47 +1427,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7: Modern Surveyor Role Evolution",
-        "right_header": "Req 7: Collect Field Coordinate Evidence",
+        "left_header": "Global Positioning System Surveying: Core Principles",
+        "right_header": "Global Positioning System Surveying: Field Execution",
         "left_points": [
-          "Modern Surveyor Role Evolution: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-          "Spatial and Legal Investigation: In many ways, surveyors are alot like detectives (p. 11).",
-          "Collecting Accurate Field Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11)."
+          "Satellite Trilateral Ranging: Ground receivers calculate precise distances to orbiting satellites using synchronized atomic clock signals.",
+          "Constellation Orbital Geometry: Four or more visible satellites provide necessary mathematical trilateration for spatial positioning."
         ],
         "right_points": [
-          "Collect Field Coordinate Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
-          "Cross-Check Historical Survey Records: Most surveys require more evidence than just the field measurements (p. 11).",
-          "Review Property Ownership Documents: Deeds, wills, and easements describe the land and give information about who owns it and who has rights (p. 11)."
+          "Kinematic Correction Networks: Active kinematic base stations transmit differential corrections to rover units over radio links.",
+          "Multipath Signal Interference: Reflected satellite radio waves bouncing off buildings degrade receiver coordinate measurement accuracy."
         ],
         "rows": [
           {
             "attribute": "Satellite Trilateral Ranging",
-            "left": "Modern Surveyor Role Evolution: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-            "right": "Collect Field Coordinate Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11)."
+            "left": "Satellite Trilateral Ranging: Ground receivers calculate precise distances to orbiting satellites using synchronized atomic clock signals.",
+            "right": "Kinematic Correction Networks: Active kinematic base stations transmit differential corrections to rover units over radio links."
           },
           {
             "attribute": "Constellation Orbital Geometry",
-            "left": "Spatial and Legal Investigation: In many ways, surveyors are alot like detectives (p. 11).",
-            "right": "Cross-Check Historical Survey Records: Most surveys require more evidence than just the field measurements (p. 11)."
+            "left": "Constellation Orbital Geometry: Four or more visible satellites provide necessary mathematical trilateration for spatial positioning.",
+            "right": "Multipath Signal Interference: Reflected satellite radio waves bouncing off buildings degrade receiver coordinate measurement accuracy."
           },
           {
             "attribute": "Kinematic Correction Networks",
-            "left": "Collecting Accurate Field Evidence: When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
-            "right": "Review Property Ownership Documents: Deeds, wills, and easements describe the land and give information about who owns it and who has rights (p. 11)."
+            "left": "Kinematic Correction Networks: Active kinematic base stations transmit differential corrections to rover units over radio links.",
+            "right": "Multipath Signal Interference: Reflected satellite radio waves bouncing off buildings degrade receiver coordinate measurement accuracy."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 7 Exemplar Workbook Entry: How Satellite",
+        "title": "Surveying Req 7 Worked Example: Global Positioning System Surveying",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Modern Surveyor Role Evolution": "If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-          "Spatial and Legal Investigation": "In many ways, surveyors are alot like detectives (p. 11).",
-          "Collecting Accurate Field Evidence": "When they make measurements in the field, they are gathering evidence for the survey that they are preparing (p. 11).",
-          "Integrating Data and Records": "Most surveys require more evidence than just the field measurements (p. 11)."
+          "Phase 1 - Site Reconnaissance": "Select open station locations free from tall tree canopies and steel structures.",
+          "Phase 2 - Base Initialization": "Mount the GNSS base receiver over a known control mark and calibrate.",
+          "Phase 3 - Rover Data Collection": "Plumb the rover antenna rod over unknown points to acquire fixed positions.",
+          "Phase 4 - Residual Evaluation": "Inspect horizontal and vertical precision readouts before storing coordinate data in dataloggers."
         },
-        "sample_output": "How Satellite Navigation Transforms Modern Surveying: If your answer is, \"Measure things,\" you are only partly correct (p. 11).",
-        "counselor_tip": "For Surveying Requirement 7 (How Satellite Navigation Transforms Modern Surveying), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12))."
+        "sample_output": "The Global Positioning System utilizes a constellation of orbiting satellites transmitting radio signals to determine precise ground coordinates. Survey-grade receivers leverage Real-Time Kinematic networks to establish millimeter-level control points across extensive geographic regions.",
+        "counselor_tip": "During the Surveying Requirement 7 conference on Global Positioning System Surveying, verify that the Scout can explain satellite trilateral ranging and demonstrate residual evaluation: Inspect horizontal and vertical precision readouts before storing coordinate data in dataloggers."
       },
       "quiz_item": {
         "scenario_prompt": "How has the Global Positioning System (GPS) fundamentally changed how surveyors establish control points across long distances?",
@@ -1643,47 +1623,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Mapping and Construction Layout",
-        "right_header": "Req 8: Research College Degree Programs",
+        "left_header": "Surveying Profession Career Pathways: Core Principles",
+        "right_header": "Surveying Profession Career Pathways: Field Execution",
         "left_points": [
-          "Mapping and Construction Layout: Surveying principles are used in mapping land features and to lay out the positions for what is to be built on land (buildings, parking lots) (p. 10).",
-          "Depth of Professional Surveying: While earning this badge, you will barely scratch the surface of surveying (p. 10).",
-          "College Study and Apprenticeship: Becoming a surveyor generally takes several years of study in college and even more years of training and experience (p. 10)."
+          "Licensed Surveyor Responsibilities: Professional land surveyors legally certify property boundaries and prepare recorded subdivision plats.",
+          "Geodetic Engineering Roles: Geodesists determine precise planetary crustal movements using satellite arrays and gravity measurements."
         ],
         "right_points": [
-          "Research College Degree Programs: Becoming a surveyor generally takes several years of study in college and even more years of training and experience (p. 10).",
-          "Study Math and Law: Furthermore, surveying involves extensive knowledge of law as well as measurements and mathematics (p. 10).",
-          "Explore Summer Field Internships: Your experience might, however, entice you to learn more about it in college or at a summer job (p. 10)."
+          "Hydrographic Mapping Opportunities: Hydrographers map underwater lakebeds and coastal shipping channels using sonar acoustic bathymetry.",
+          "Licensure Examination Steps: Aspiring surveyors pass national fundamentals and principles examinations before earning state licensure."
         ],
         "rows": [
           {
             "attribute": "Licensed Surveyor Responsibilities",
-            "left": "Mapping and Construction Layout: Surveying principles are used in mapping land features and to lay out the positions for what is to be built on land (buildings, parking lots) (p. 10).",
-            "right": "Research College Degree Programs: Becoming a surveyor generally takes several years of study in college and even more years of training and experience (p. 10)."
+            "left": "Licensed Surveyor Responsibilities: Professional land surveyors legally certify property boundaries and prepare recorded subdivision plats.",
+            "right": "Hydrographic Mapping Opportunities: Hydrographers map underwater lakebeds and coastal shipping channels using sonar acoustic bathymetry."
           },
           {
             "attribute": "Geodetic Engineering Roles",
-            "left": "Depth of Professional Surveying: While earning this badge, you will barely scratch the surface of surveying (p. 10).",
-            "right": "Study Math and Law: Furthermore, surveying involves extensive knowledge of law as well as measurements and mathematics (p. 10)."
+            "left": "Geodetic Engineering Roles: Geodesists determine precise planetary crustal movements using satellite arrays and gravity measurements.",
+            "right": "Licensure Examination Steps: Aspiring surveyors pass national fundamentals and principles examinations before earning state licensure."
           },
           {
             "attribute": "Hydrographic Mapping Opportunities",
-            "left": "College Study and Apprenticeship: Becoming a surveyor generally takes several years of study in college and even more years of training and experience (p. 10).",
-            "right": "Explore Summer Field Internships: Your experience might, however, entice you to learn more about it in college or at a summer job (p. 10)."
+            "left": "Hydrographic Mapping Opportunities: Hydrographers map underwater lakebeds and coastal shipping channels using sonar acoustic bathymetry.",
+            "right": "Licensure Examination Steps: Aspiring surveyors pass national fundamentals and principles examinations before earning state licensure."
           }
         ]
       },
       "worked_example": {
-        "title": "Surveying Req 8 Exemplar Workbook Entry: Surveying",
+        "title": "Surveying Req 8 Worked Example: Surveying Profession Career Pathways",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Mapping and Construction Layout": "Surveying principles are used in mapping land features and to lay out the positions for what is to be built on land (buildings, parking lots) (p. 10).",
-          "Depth of Professional Surveying": "While earning this badge, you will barely scratch the surface of surveying (p. 10).",
-          "College Study and Apprenticeship": "Becoming a surveyor generally takes several years of study in college and even more years of training and experience (p. 10).",
-          "Mathematics and Boundary Law": "Furthermore, surveying involves extensive knowledge of law as well as measurements and mathematics (p. 10)."
+          "Phase 1 - Career Exploration": "Research specialized roles in boundary surveying, construction staking, and geodetic mapping.",
+          "Phase 2 - Academic Preparation": "Identify accredited university degree programs in surveying engineering or geomatics science disciplines.",
+          "Phase 3 - Internship Apprenticeship": "Gain four years of verified field and office experience under licensed surveyors.",
+          "Phase 4 - Professional Certification": "Pass state licensing board examinations to earn legal authority to seal plats."
         },
-        "sample_output": "Surveying Careers, Licensure, and Education: Surveying principles are used in mapping land features and to lay out the positions for what is to be built on land (buildings, parking lots) (p. 10).",
-        "counselor_tip": "For Surveying Requirement 8 (Surveying Careers, Licensure, and Education), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61))."
+        "sample_output": "Professional surveying combines geospatial field measurement, civil engineering principles, and legal property boundary law. Candidates pursue specialized associate or bachelor degrees, complete rigorous apprenticeship internships, and pass state licensing examinations.",
+        "counselor_tip": "During the Surveying Requirement 8 conference on Surveying Profession Career Pathways, verify that the Scout can explain licensed surveyor responsibilities and demonstrate professional certification: Pass state licensing board examinations to earn legal authority to seal plats."
       },
       "quiz_item": {
         "scenario_prompt": "In addition to mathematics and measurement techniques, what other major subject area must a professional land surveyor study extensively?",

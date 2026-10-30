@@ -62,10 +62,8 @@
 #### Req 1a: Climbing Hazard Mitigation Planning
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Climbing Hazards and First Aid)
-- **Common Myth:** Sunny mornings guarantee stable climbing conditions throughout the entire afternoon outdoor session.
-- **Pamphlet Fact:** Weather shifts produce slick rock, requiring descent before rain saturates holds and ropes.
 
-![Climbing Requirement 1 figure showing climbers and belayers must wear approved helmets within active crag rockfall zones.](/assets/pamphlet_images/climbing_p003_img1.png)
+![Climbers and belayers must wear approved helmets within active crag rockfall zones.](/assets/pamphlet_images/climbing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -76,8 +74,6 @@
 #### Req 1b: Climbing Medical Emergency Management
 **Official Requirement 1b:** Show that you know first aid for and how to prevent injuries or illnesses that could occur during climbing activities, including heat and cold reactions, dehydration, stopped breathing, sprains, abrasions, fractures, rope burns, blisters, snakebite, concussions, and insect bites or stings.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Mild dehydration only causes thirst without impairing balance, grip strength, or cognitive judgment.
-- **Pamphlet Fact:** Heat exhaustion requires shade, cool liquids, and resting, while heat stroke requires emergency cooling.
 
 ![A climber demonstrates hand placement and body positioning on an outdoor rock face.](/assets/pamphlet_images/climbing_p031_img2.png)
 
@@ -90,10 +86,8 @@
 #### Req 1c: Cardiopulmonary Resuscitation Criteria Evaluation
 **Official Requirement 1c:** Identify the conditions that must exist before performing CPR on a person.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Conditions That Must Exist Before)
-- **Common Myth:** Agonal gasping indicates adequate breathing and means emergency chest compressions are unnecessary.
-- **Pamphlet Fact:** CPR begins immediately when an unresponsive victim has no pulse and stopped normal breathing.
 
-![Climbing Requirement 2 figure showing travel on established trails to preserve sensitive vegetation growing around cliff bases.](/assets/pamphlet_images/climbing_p007_img1.png)
+![Travel on established trails to preserve sensitive vegetation growing around cliff bases.](/assets/pamphlet_images/climbing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -160,8 +154,6 @@
 #### Req 4a: Yosemite Decimal System Classification
 **Official Requirement 4a:** Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where you will demonstrate your climbing skills.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Difficulty of Climbs Is Classified)
-- **Common Myth:** The decimal in Yosemite ratings works as a standard mathematical fraction rather than difficulty levels.
-- **Pamphlet Fact:** Decimal numbers past five indicate technical difficulty, with five point ten exceeding five point seven.
 
 ![A hard climbing helmet and sticky rubber rock shoes provide safety and friction on stone.](/assets/pamphlet_images/climbing_p008_img1.png)
 
@@ -174,10 +166,8 @@
 #### Req 4b: Climbing Discipline Comparative Analysis
 **Official Requirement 4b:** Explain the following: top-rope climbing, lead climbing, and bouldering.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Top-rope Climbing Lead Climbing and)
-- **Common Myth:** Top-rope climbing and lead climbing create identical forces on the belay anchor system.
-- **Pamphlet Fact:** Bouldering focuses on short unroped climbs over pads, whereas lead climbers trail their rope upwards.
 
-![Climbing Requirement 3 figure showing wear form-fitting athletic layers that cannot catch inside active belay friction hardware.](/assets/pamphlet_images/climbing_p012_img1.png)
+![Wear form-fitting athletic layers that cannot catch inside active belay friction hardware.](/assets/pamphlet_images/climbing_p012_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -188,8 +178,6 @@
 #### Req 4c: Crag Environmental Safety Evaluation
 **Official Requirement 4c:** Evaluate the safety of a particular climbing area. Consider weather, visibility, the condition of the climbing surface, and any other environmental hazards.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Safety of A Particular Climbing)
-- **Common Myth:** A sunny morning guarantees that rock conditions remain solid and safe throughout the afternoon.
-- **Pamphlet Fact:** Wet rock, deteriorating sunlight, and high winds create severe objective hazards requiring immediate session shutdown.
 
 ![A smiling girl wearing a climbing helmet reaches the top of a rock climbing route.](/assets/pamphlet_images/climbing_p015_img1.png)
 
@@ -203,8 +191,6 @@
 #### Req 4d: Emergency Evacuation Aid Planning
 **Official Requirement 4d:** Determine how to summon aid to the climbing area in case of an emergency. Discuss what medical training is needed for your group when climbing and rappelling in remote areas.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Summon Aid to the Climbing)
-- **Common Myth:** Calling nine one one from a remote crag guarantees instant medical evacuation by helicopter.
-- **Pamphlet Fact:** Backcountry climbing requires wilderness first responders because professional rescue teams take hours to arrive.
 
 ![A young climber scales the vertical wooden slats of an engineered climbing tower.](/assets/pamphlet_images/climbing_p016_img1.png)
 
@@ -231,8 +217,6 @@
 #### Req 5a: Climber Standard Verbal Commands
 **Official Requirement 5a:** Climbers.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Climbing Climbers Principles)
-- **Common Myth:** Climbers can let go of the rock immediately after yelling the word tension.
-- **Pamphlet Fact:** Climbers call for tension to rest, and must wait for confirmation before releasing grip.
 
 ![A climber rests against a natural rock cliff face while supported by a secure harness.](/assets/pamphlet_images/climbing_p083_img1.png)
 
@@ -245,8 +229,6 @@
 #### Req 5b: Rappeller Descent Voice Signals
 **Official Requirement 5b:** Rappellers.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Climbing Rappellers Principles)
-- **Common Myth:** Rappellers do not need verbal commands if they see their own ropes touch ground.
-- **Pamphlet Fact:** Rappellers check the rappel line drop, confirm on rappel, and wait for the reply.
 
 ![Climbing pioneer Royal Robbins advocated clean climbing ethics and environmental preservation.](/assets/pamphlet_images/climbing_p018_img1.png)
 
@@ -259,8 +241,6 @@
 #### Req 5c: Belayer Verbal Safety Responses
 **Official Requirement 5c:** Belayers.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Climbing Belayers Principles)
-- **Common Myth:** Belayers say belay on while still adjusting rope slack in the belay device.
-- **Pamphlet Fact:** Belayers only state belay on after verifying the device, locked carabiner, and brake hand position.
 
 ![An isolated image illustrates balanced three-point climbing technique and body posture.](/assets/pamphlet_images/climbing_p031_img3.png)
 
@@ -273,8 +253,6 @@
 #### Req 5d: Bouldering Spotter Communication Protocols
 **Official Requirement 5d:** Boulderers and their spotters.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Boulderers and Their Spotters)
-- **Common Myth:** Spotters are expected to catch a boulderer full body weight in their arms.
-- **Pamphlet Fact:** Boulderers shout falling to alert spotters to guide their torso onto crash pads.
 
 ![A coiled rattlesnake illustrates wildlife hazards encountered near outdoor climbing crags.](/assets/pamphlet_images/climbing_p032_img1.png)
 
@@ -300,8 +278,6 @@
 #### Req 6a: Climbing Rope Type Standards
 **Official Requirement 6a:** Describe the kinds of rope acceptable for use in climbing and rappelling.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Rope Acceptable for Use in)
-- **Common Myth:** Any hardware-store nylon rope of matching diameter is safe for technical rock climbing.
-- **Pamphlet Fact:** UIAA-approved dynamic ropes absorb high-energy lead falls, while static ropes lack critical dynamic elasticity.
 
 ![A secured climber wearing a helmet maintains balance while reaching for an overhead hold.](/assets/pamphlet_images/climbing_p042_img1.png)
 
@@ -314,8 +290,6 @@
 #### Req 6b: Rope Physical Wear Examination
 **Official Requirement 6b:** Show how to examine a rope for signs of wear or damage.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Examine A Rope for Signs)
-- **Common Myth:** A rope is completely safe as long as the outer colored sheath shows no tears.
-- **Pamphlet Fact:** Pinching a damaged rope reveals flat spots where inner core fibers have snapped invisibly.
 
 ![A climber in a helmet balances footwork and handholds while ascending a steep rock face.](/assets/pamphlet_images/climbing_p036_img1.png)
 
@@ -328,8 +302,6 @@
 #### Req 6c: Rope Damage Prevention Methods
 **Official Requirement 6c:** Discuss ways to prevent a rope from being damaged.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Discuss Ways to Prevent A)
-- **Common Myth:** Ropes can be washed using industrial detergents and dried in direct outdoor sunlight.
-- **Pamphlet Fact:** Rope tarps prevent dirt particles from penetrating sheath fibers and cutting internal load-bearing cores.
 
 ![A group of climbers with helmets and harnesses prepares equipment at an outdoor crag.](/assets/pamphlet_images/climbing_p039_img1.png)
 
@@ -342,8 +314,6 @@
 #### Req 6d: Rope Retirement Decision Criteria
 **Official Requirement 6d:** Explain when and how a rope should be retired.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Rope Should Be Retired)
-- **Common Myth:** A climbing rope lasts indefinitely if it only gets used a few weekends annually.
-- **Pamphlet Fact:** Ropes facing severe factor-two falls or chemical contact must be retired and cut into pieces.
 
 ![Neatly coiled dynamic climbing ropes hang organized to prevent damage and tangling.](/assets/pamphlet_images/climbing_p044_img1.png)
 
@@ -356,8 +326,6 @@
 #### Req 6e: Rope Coiling Storage Technique
 **Official Requirement 6e:** Properly coil a rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Coil A Rope)
-- **Common Myth:** Stuffing a rope loosely into a duffel bag works just as well as coiling.
-- **Pamphlet Fact:** Properly coiled ropes deploy cleanly without forming twisted pigtail kinks that jam belay hardware.
 
 ![A climber carries a neatly coiled climbing rope over his shoulders on a rock summit.](/assets/pamphlet_images/climbing_p045_img1.png)
 
@@ -383,8 +351,6 @@
 #### Req 7a: Figure Eight Bight Knot
 **Official Requirement 7a:** Figure eight on a bight.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Figure Eight on A Bight)
-- **Common Myth:** A bowline knot is just as easy to inspect visually as a figure eight.
-- **Pamphlet Fact:** The figure eight on a bight provides an anchor loop that resists slipping under heavy loads.
 
 **Gear & Readiness Checklist:**
 - [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners.
@@ -403,8 +369,6 @@
 #### Req 7b: Figure Eight Follow-Through Tie-In
 **Official Requirement 7b:** Figure eight follow-through.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Figure Eight Follow-through)
-- **Common Myth:** Clipping a carabiner into harness loops is safer than tying in directly with rope.
-- **Pamphlet Fact:** The figure eight follow-through provides visual symmetry, making partner cross-checks fast and error-free.
 
 ![Climbers organize ropes and protective helmets inside a sturdy wooden gear storage trunk.](/assets/pamphlet_images/climbing_p050_img1.png)
 
@@ -417,8 +381,6 @@
 #### Req 7c: Water Knot Webbing Splice
 **Official Requirement 7c:** Water knot.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Water Knot)
-- **Common Myth:** Water knots can be tied in standard round climbing ropes instead of tubular webbing.
-- **Pamphlet Fact:** Water knots require frequent inspection because cyclic loading causes the tails to creep inward.
 
 ![Ropes, carabiners, and climbing harnesses are laid out on a ground tarp for inspection.](/assets/pamphlet_images/climbing_p052_img2.png)
 
@@ -431,8 +393,6 @@
 #### Req 7d: Double Fisherman Joining Knot
 **Official Requirement 7d:** Double fisherman's knot (grapevine knot)
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Double Fisherman's Knot Grapevine Knot)
-- **Common Myth:** A single fisherman knot holds just as securely as a double fisherman knot.
-- **Pamphlet Fact:** The double fisherman forms two interlocking double overhand knots that do not slip under tension.
 
 ![A climber wearing a safety helmet hangs suspended from a tensioned belay system rope.](/assets/pamphlet_images/climbing_p057_img1.png)
 
@@ -445,8 +405,6 @@
 #### Req 7e: Prusik Friction Hitch Rigging
 **Official Requirement 7e:** Prusik hitch applied to rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Prusik Hitch Applied to Rope)
-- **Common Myth:** The accessory cord used for a Prusik can have the same diameter as the climbing rope.
-- **Pamphlet Fact:** A Prusik hitch grips tightly on larger ropes under load but slides easily when pushed by hand.
 
 ![A diagram illustrates proper top-rope anchor positioning, belayer stance, and climber path.](/assets/pamphlet_images/climbing_p062_img2.png)
 
@@ -474,8 +432,6 @@
 **Official Requirement 8a:** Commercially made climbing harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Commercially Made Climbing Harness)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Climbing Req 8 inspection prior to hands-on station work.
-- **Common Myth:** Leg loops must be tightened as firmly as the waistbelt to hold body weight.
-- **Pamphlet Fact:** Modern harness waistbelts must sit above the iliac crest to ensure upright suspension after falls.
 
 ![A young climber wearing a safety helmet adjusts and secures his waist harness strap.](/assets/pamphlet_images/climbing_p043_img1.png)
 
@@ -489,8 +445,6 @@
 **Official Requirement 8b:** Climbing helmet.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Climbing Helmet)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Climbing Req 8b inspection prior to hands-on station work.
-- **Common Myth:** Any athletic sports helmet provides equal protection against sharp falling crag rocks.
-- **Pamphlet Fact:** Climbing helmets are rated for overhead rock impacts, unlike cycling helmets designed for forward collisions.
 
 ![A climber in a red helmet maintains balance while walking down a steep rock incline.](/assets/pamphlet_images/climbing_p084_img1.png)
 
@@ -503,8 +457,6 @@
 #### Req 8c: Rappelling Hand Protection Gloves
 **Official Requirement 8c:** Climbing or rappelling gloves.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Climbing or Rappelling Gloves)
-- **Common Myth:** Gloves should be worn while climbing rock faces to improve handhold grip strength.
-- **Pamphlet Fact:** Leather palm gloves prevent blistering friction burns while maintaining tactile control of moving ropes.
 
 ![A locking carabiner connects a friction belay device to the climber waist harness loop.](/assets/pamphlet_images/climbing_p086_img1.png)
 
@@ -551,8 +503,6 @@
 #### Req 10a: Belaying Mechanical Purpose Significance
 **Official Requirement 10a:** Explain the importance of belaying climbers and rappellers and when it is necessary.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix (Belaying Climbers and Rappellers)
-- **Common Myth:** Belaying is only necessary when a climber is ascending, not when lowering back down.
-- **Pamphlet Fact:** Top-rope belayers catch falls instantly, whereas rappellers control their own descent requiring fireman backups.
 
 ![Multiple slings converge to form a redundant and balanced top-rope climbing anchor.](/assets/pamphlet_images/climbing_p062_img1.png)
 
@@ -565,8 +515,6 @@
 #### Req 10b: Climber Active Belay Execution
 **Official Requirement 10b:** Belay three different climbers on three different routes.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (Belay Three Different Climbers)
-- **Common Myth:** A belayer should keep the rope pulled as tight as possible at all times.
-- **Pamphlet Fact:** Belaying different routes demands adjusting slack feeding speeds to match variable climber progression tempos.
 
 ![A climber navigates a narrow rock crevice using hand and foot holds on a natural route.](/assets/pamphlet_images/climbing_p088_img1.png)
 
@@ -579,8 +527,6 @@
 #### Req 10c: Climbing Backup Belayer Redundancy
 **Official Requirement 10c:** Serve as a backup belayer on three different climbs.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix (Serve As A Backup Belayer)
-- **Common Myth:** The backup belayer holds the guide strand running upwards directly to the climbing anchor.
-- **Pamphlet Fact:** Backup belayers stand behind the primary belayer holding the brake strand with relaxed slack.
 
 ![A climber ascends a steep rock face while secured to an overhead belay rope.](/assets/pamphlet_images/climbing_p088_img2.png)
 
@@ -593,8 +539,6 @@
 #### Req 10d: Rappeller Descent Belay Management
 **Official Requirement 10d:** Belay three different rappellers on three different routes.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Organizer (Concept & Examples Notes):** Req 10d Structured Technical Study & Explanation Matrix (Belay Three Different Rappellers)
-- **Common Myth:** Rappellers never require a belay because their descent device provides its own brake.
-- **Pamphlet Fact:** Belaying a rappeller via top rope or fireman backup arrests uncontrolled runaway friction descents.
 
 | Req 10d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -605,8 +549,6 @@
 #### Req 10e: Rappeller Backup Belay Protection
 **Official Requirement 10e:** Serve as a backup belayer on three different rappels.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix (Serve As A Backup Belayer)
-- **Common Myth:** Backup belayers on rappels must stand right next to the top cliff edge.
-- **Pamphlet Fact:** A fireman belayer pulls down on the rappel rope from below to stop descents.
 
 | Req 10e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -630,8 +572,6 @@
 #### Req 11a: Direct Harness Tie-In Method
 **Official Requirement 11a:** Show the correct way to directly tie a belay rope to your harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Directly Tie A Belay Rope)
-- **Common Myth:** Clipping the rope to harness loops with a locking carabiner replaces tying.
-- **Pamphlet Fact:** The rope must pass through both structural harness loops, never around the belay loop alone.
 
 **Gear & Readiness Checklist:**
 - [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners.
@@ -650,8 +590,6 @@
 #### Req 11b: Ascent Route Climbing Execution
 **Official Requirement 11b:** Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Climb at Least Three Different)
-- **Common Myth:** Successful climbing relies primarily on massive upper-body pull-up strength and large arm muscles.
-- **Pamphlet Fact:** Climbing with straight arms transfers weight onto skeletal structure, conserving critical forearm endurance.
 
 | Req 11b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -675,8 +613,6 @@
 #### Req 12a: Rappelling Safety Rope Attachment
 **Official Requirement 12a:** Show the correct way to directly tie a belay rope to your harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 12a Structured Technical Study & Explanation Matrix (Directly Tie A Belay Rope)
-- **Common Myth:** Rappelling belays can be clipped into any convenient gear loop on the harness.
-- **Pamphlet Fact:** The belay backup rope must tie into structural harness points using a figure eight follow-through.
 
 **Gear & Readiness Checklist:**
 - [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners.
@@ -695,8 +631,6 @@
 #### Req 12b: Descender Rigging Hardware Connection
 **Official Requirement 12b:** Using a carabiner and a rappel device, attach a rappel rope to your harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 12b Structured Technical Study & Explanation Matrix (Carabiner and A Rappel Device)
-- **Common Myth:** A rappel carabiner can be left unlocked if the gate faces away from you.
-- **Pamphlet Fact:** The descender attaches strictly to the designated belay loop using a locked carabiner.
 
 | Req 12b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -707,8 +641,6 @@
 #### Req 12c: Controlled Cliff Descent Execution
 **Official Requirement 12c:** Rappel down three different rock faces or three rappel routes on a climbing wall. Use verbal signals to communicate with a belayer, and demonstrate good rappelling technique.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Skill Demonstration Checklist):** Req 12c Hands-On Skill Station & EDGE Verification Checklist (Rappel Down Three Different Rock)
-- **Common Myth:** Bouncing outward off the rock face like movie stuntmen makes rappelling much safer.
-- **Pamphlet Fact:** Walking backward smoothly down the cliff prevents shock-loading the anchor system and avoids burns.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

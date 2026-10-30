@@ -44,10 +44,8 @@
 #### Req 1a: Leatherwork Shop Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Leatherwork Hazards and First Aid)
-- **Common Myth:** Utility knives with snap blades work identically to professional leather round knives.
-- **Pamphlet Fact:** Round knives require two hands on the grip to maintain positive cutting control.
 
-![Leatherwork Requirement 1 figure showing strop cutting edges frequently on leather boards charged with fine jewelers rouge.](/assets/pamphlet_images/leatherwork_p003_img1.png)
+![Strop cutting edges frequently on leather boards charged with fine jewelers rouge.](/assets/pamphlet_images/leatherwork_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -58,8 +56,6 @@
 #### Req 1b: Leatherwork First Aid Protocols
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while working with leather, including minor cuts and scratches, puncture wounds, ingested poisoning, and reactions from exposure to chemicals such as dyes, cements, and finishes used in leatherworking.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Rinsing leather chemical splashes with cold water always neutralizes severe dermal toxicity.
-- **Pamphlet Fact:** Direct pressure with clean sterile gauze controls venous bleeding from punch slips.
 
 ![Proper leather footwear fitting highlights commercial applications of leather goods.](/assets/pamphlet_images/leatherwork_p008_img1.png)
 
@@ -85,10 +81,8 @@
 #### Req 2a: Leather Sources and Origins
 **Official Requirement 2a:** Where leather comes from.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Leather Comes)
-- **Common Myth:** Animals are raised commercially solely for harvest of their external surface pelts.
-- **Pamphlet Fact:** Raw cattle hides undergo preservation curing using coarse rock salt immediately after harvest.
 
-![Leatherwork Requirement 2 figure showing animal skins arrive at tanneries as byproduct hides from commercial meat processing.](/assets/pamphlet_images/leatherwork_p007_img1.png)
+![Animal skins arrive at tanneries as byproduct hides from commercial meat processing.](/assets/pamphlet_images/leatherwork_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -99,8 +93,6 @@
 #### Req 2b: Commercial Animal Hide Varieties
 **Official Requirement 2b:** Kinds of hides that are used to make leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Hides Used Leather)
-- **Common Myth:** All mammalian hides possess identical fiber structures and uniform cross sectional densities.
-- **Pamphlet Fact:** Deerskin contains loose fibrous structures that remain exceptionally pliable after repetitive soaking.
 
 ![Wild game like moose provide specialty hides used in traditional leather crafting.](/assets/pamphlet_images/leatherwork_p014_img1.png)
 
@@ -113,8 +105,6 @@
 #### Req 2c: Primary Commercial Leather Classes
 **Official Requirement 2c:** Five types of leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Leatherwork Leather Principles)
-- **Common Myth:** Bonded leather consists of solid hide sheets pressed together with natural pine resins.
-- **Pamphlet Fact:** Chrome tanned hides resist heat and water but cannot accept traditional stamping impressions.
 
 ![Cattle hides serve as the primary commercial source for vegetable tanned leather.](/assets/pamphlet_images/leatherwork_p015_img1.png)
 
@@ -127,8 +117,6 @@
 #### Req 2d: Leather Selection and Utilization
 **Official Requirement 2d:** Best uses for each type of leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Leatherwork Leather Principles)
-- **Common Myth:** Soft garment suede serves effectively for load bearing outdoor belt construction projects.
-- **Pamphlet Fact:** Heavy ten ounce vegetable cowhide provides rigidity necessary for durable equestrian holsters.
 
 ![A spray bottle, sponge, and modeling styluses prepare damp leather for tooling.](/assets/pamphlet_images/leatherwork_p020_img1.png)
 
@@ -154,8 +142,6 @@
 #### Req 3a: Pattern Transfer and Layout
 **Official Requirement 3a:** Pattern layout and transfer.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Pattern Layout and Transfer)
-- **Common Myth:** Pencil graphite washes off damp vegetable leather surfaces without leaving permanent gray residue.
-- **Pamphlet Fact:** Blunt styluses compress leather grain without piercing delicate vegetable tanned surface fibers.
 
 ![Traditional cutting and punching tools require proper safety handling techniques.](/assets/pamphlet_images/leatherwork_p012_img1.png)
 
@@ -168,8 +154,6 @@
 #### Req 3b: Precision Leather Cutting Techniques
 **Official Requirement 3b:** Cutting leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Cutting Leather)
-- **Common Myth:** Pressing blades through thick leather in single cuts ensures completely vertical edges.
-- **Pamphlet Fact:** Multiple shallow blade passes produce cleaner edges than one forceful downward cut.
 
 ![Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.](/assets/pamphlet_images/leatherwork_p019_img3.png)
 
@@ -182,8 +166,6 @@
 #### Req 3c: Hole Punching Methods
 **Official Requirement 3c:** Punching holes.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Punching Holes)
-- **Common Myth:** Steel hole punches operate safely against steel metal bench vices without damage.
-- **Pamphlet Fact:** Drive punches require scrap leather backing over granite slabs to prevent anvil damage.
 
 ![A rotary hole punch tool creates clean perforations for lacing and hardware rivets.](/assets/pamphlet_images/leatherwork_p021_img1.png)
 
@@ -196,8 +178,6 @@
 #### Req 3d: Carving and Stamping Execution
 **Official Requirement 3d:** Carving or stamping surface designs.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Carving or Stamping Surface)
-- **Common Myth:** Swivel knives should slice through half the total thickness of thin leather.
-- **Pamphlet Fact:** Background shaders depress damp grain without slicing internal structural steer hide fibers.
 
 ![Hands plait leather strands through each other to create an unbroken braided strap.](/assets/pamphlet_images/leatherwork_p068_img1.png)
 
@@ -210,8 +190,6 @@
 #### Req 3e: Dye and Finish Application
 **Official Requirement 3e:** Applying dye or stain and finish to the project.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Applying Dye or Stain)
-- **Common Myth:** Applying heavy coats of thick oil dye hides uneven initial surface stamping.
-- **Pamphlet Fact:** Dampening leather with water before applying water stains prevents dark lap streaks.
 
 ![A finished two-tone paracord lanyard demonstrates successful round plaiting craft.](/assets/pamphlet_images/leatherwork_p069_img1.png)
 
@@ -224,8 +202,6 @@
 #### Req 3f: Assembly by Mechanical Stitching
 **Official Requirement 3f:** Assembly by lacing or stitching.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix (Assembly by Lacing or Stitching)
-- **Common Myth:** Single needle lock stitches hold stronger than hand sewn interlocking saddle stitches.
-- **Pamphlet Fact:** Dual needle saddle stitches stay locked together even if external surface threads wear.
 
 ![An artisan works at an assembly bench producing specialty commercial leatherwork.](/assets/pamphlet_images/leatherwork_p088_img1.png)
 
@@ -238,8 +214,6 @@
 #### Req 3g: Hardware Fastener Setting Techniques
 **Official Requirement 3g:** Setting snaps and rivets.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix (Setting Snaps and Rivets)
-- **Common Myth:** Striking snap setters with steel carpenters hammers prevents internal post barrel distortion.
-- **Pamphlet Fact:** Snaps must match the specific leather thickness to prevent post crushing failures.
 
 ![Bundled dyed leather hides demonstrate varied textures and finishes from tanneries.](/assets/pamphlet_images/leatherwork_p090_img1.png)
 
@@ -252,8 +226,6 @@
 #### Req 3h: Edge Beveling and Dressing
 **Official Requirement 3h:** Dressing edges.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix (Dressing Edges)
-- **Common Myth:** Sanding edges with coarse sandpaper produces smooth factory grade edge burnishing shine.
-- **Pamphlet Fact:** Friction slicking melts natural hide proteins together into water resistant glassy borders.
 
 | Req 3h Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -298,8 +270,6 @@
 #### Req 5a: Commercial Tanning Industrial Process
 **Official Requirement 5a:** Learn about the commercial tanning process. Report about it to your counselor.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About the Commercial Tanning)
-- **Common Myth:** Modern commercial tanneries soak hides exclusively in open static wooden yard vats.
-- **Pamphlet Fact:** Rotating tanning drums accelerate chemical penetration from weeks down to single production shifts.
 
 ![A youth cleans and conditions a leather horse saddle to prevent cracking and wear.](/assets/pamphlet_images/leatherwork_p080_img1.png)
 
@@ -313,8 +283,6 @@
 #### Req 5b: Small Game Hide Tanning
 **Official Requirement 5b:** Tan the skin of a small animal. Describe the safety precautions you will take and the tanning method that you used.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Tan the Skin of A)
-- **Common Myth:** Leaving thin fat layers on skins keeps dried home tanned leather naturally supple.
-- **Pamphlet Fact:** Scraping every scrap of subcutaneous fat off raw pelts prevents bacterial grain rot.
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -326,8 +294,6 @@
 #### Req 5c: Leather Care and Restoration
 **Official Requirement 5c:** Recondition or show that you can take proper care of your shoes, a baseball glove, a saddle, furniture, or other articles of leather. Discuss with your counselor the advantages or disadvantages of leather vs. synthetic materials.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Recondition or Show That You)
-- **Common Myth:** Petroleum jelly serves as an ideal waterproof dressing for fine equestrian saddles.
-- **Pamphlet Fact:** Neatsfoot oil replaces lost natural lipids without degrading underlying hide vegetable tannage.
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -339,8 +305,6 @@
 #### Req 5d: Professional Leathercraft Enterprise Exploration
 **Official Requirement 5d:** Visit a leather-related business. This could be a leathercraft supply company, a tannery, a leather goods or shoe factory, or a saddle shop. Report on your visit to your counselor.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Leather-related Business This)
-- **Common Myth:** Industrial leather manufacturers construct all commercial goods using automated synthetic textile machinery.
-- **Pamphlet Fact:** Custom saddle shops hand carve heavy skirting leather using traditional swivel knives.
 
 | Req 5d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

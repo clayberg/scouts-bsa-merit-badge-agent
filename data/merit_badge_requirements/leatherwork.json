@@ -275,13 +275,15 @@
         "Protective finish, stamps/mallet, and tool sheath for safe stowage."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Leatherwork Shop Hazard",
+        "left_header": "Req 1a: Leatherwork Shop Hazard Mitigation",
         "right_header": "Req 1b: Leatherwork First Aid Protocols",
         "left_points": [
-          "(1a) Leatherwork Shop Hazard Mitigation: Scouts must anticipate tool slippage by securing damp hides firmly against stable cutting mats. Proper posture keeps free hands behind the travel line of rotary blades and stitching awls."
+          "(1a) Leatherwork Shop Hazard Mitigation: Scouts must anticipate tool slippage by securing damp hides firmly against stable cutting mats. Proper posture keeps free hands behind the travel line of rotary blades and stitching awls.",
+          "Blade Maintenance: Strop cutting edges frequently on leather boards charged with fine jewelers rouge."
         ],
         "right_points": [
-          "(1b) Leatherwork First Aid Protocols: Immediate first aid protocols address swift laceration management and eye decontamination from liquid stains. Accidental solvent ingestion mandates immediate Poison Control contact rather than induced vomiting."
+          "(1b) Leatherwork First Aid Protocols: Immediate first aid protocols address swift laceration management and eye decontamination from liquid stains. Accidental solvent ingestion mandates immediate Poison Control contact rather than induced vomiting.",
+          "Mallet Selection: Strike steel drive punches exclusively using wooden, rawhide, or poly mallets."
         ],
         "rows": [
           {
@@ -291,25 +293,27 @@
           },
           {
             "attribute": "Ventilation Standards",
-            "left": "Req 1a: Leatherwork Shop Hazard: Scouts must anticipate tool slippage by securing damp hides firmly against stable cutting mats. Proper posture keeps free hands behind the travel line of rotary blades and stitching awls.",
-            "right": "Req 1b: Leatherwork First Aid: Immediate first aid protocols address swift laceration management and eye decontamination from liquid stains. Accidental solvent ingestion mandates immediate Poison Control contact rather than induced vomiting."
+            "left": "Blade Maintenance: Strop cutting edges frequently on leather boards charged with fine jewelers rouge.",
+            "right": "Mallet Selection: Strike steel drive punches exclusively using wooden, rawhide, or poly mallets."
           },
           {
             "attribute": "Mallet Selection",
-            "left": "Blade Maintenance: Strop cutting edges frequently on leather boards charged with fine jewelers rouge.",
-            "right": "Ventilation Standards: Work with solvent cements outdoors or under dedicated mechanical exhaust hoods."
+            "left": "Mallet Selection: Strike steel drive punches exclusively using wooden, rawhide, or poly mallets.",
+            "right": "Chemical Handling: Wear nitrile gloves whenever applying alcohol dyes or petroleum based conditioners."
           }
         ]
       },
       "worked_example": {
-        "title": "Leatherwork Req 1 Exemplar Workbook Entry: Leatherwork",
+        "title": "Leatherwork Req 1 Worked Example: Shop Safety and Hazards",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Leatherwork Shop Hazard": "Scouts must anticipate tool slippage by securing damp hides firmly against stable cutting mats. Proper posture keeps free hands behind the travel line of rotary blades and stitching awls.",
-          "Req 1b - Leatherwork First Aid": "Immediate first aid protocols address swift laceration management and eye decontamination from liquid stains. Accidental solvent ingestion mandates immediate Poison Control contact rather than induced vomiting."
+          "Phase 1 - Edge Inspection": "Examine all cutting edges under bright bench lamps for micro burrs.",
+          "Phase 2 - Personal Protection": "Don wrap safety glasses and thick shop aprons before cutting stock.",
+          "Phase 3 - Workstation Clearing": "Remove clutter and align resilient poly pounding slabs on firm benches.",
+          "Phase 4 - Chemical Staging": "Position open dye pots inside wide secondary trays to catch spills."
         },
-        "sample_output": "Leatherwork Safety and First Aid: A piece of cardboard rubbed with jeweler's rouge should be used for honing the swivel and utility knife blades (p. 10).",
-        "counselor_tip": "For Leatherwork Requirement 1 (Leatherwork Safety and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11))."
+        "sample_output": "Leathercraft hand tools demand razor sharp edges that cut without excessive downward muscle pressure. Work areas require nonflammable surfaces and active ventilation during solvent cementing or chemical dyeing.",
+        "counselor_tip": "During the Leatherwork Requirement 1 conference on Shop Safety and Hazards, verify that the Scout can explain blade maintenance and demonstrate chemical staging: Position open dye pots inside wide secondary trays to catch spills."
       },
       "quiz_item": {
         "scenario_prompt": "When cutting, tooling, and dyeing vegetable-tanned leather for Leatherwork Requirement 1, which workshop safety practices are required?",
@@ -781,7 +785,7 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Leather Sources and Origins",
-        "right_header": "Req 2c: Primary Commercial Leather",
+        "right_header": "Req 2c: Primary Commercial Leather Classes",
         "left_points": [
           "(2a) Leather Sources and Origins: Commercial leather derives almost exclusively as a co product of the livestock meat packing industry. Unprocessed skins quickly rot without rapid salting and controlled storage before tannery processing.",
           "(2b) Commercial Animal Hide Varieties: Tanners select specific animal skins like cowhide, sheepskin, pigskin, and goat based on grain tightness. Steer hide yields thick tooling leather, while sheepskins offer soft pliable garment linings."
@@ -803,22 +807,22 @@
           },
           {
             "attribute": "Suede Splitting",
-            "left": "Req 2a: Leather Sources and Origins: Commercial leather derives almost exclusively as a co product of the livestock meat packing industry. Unprocessed skins quickly rot without rapid salting and controlled storage before tannery processing.",
-            "right": "Req 2b: Commercial Animal Hide: Tanners select specific animal skins like cowhide, sheepskin, pigskin, and goat based on grain tightness. Steer hide yields thick tooling leather, while sheepskins offer soft pliable garment linings."
+            "left": "Suede Splitting: Mechanical splitters slice fibrous corium layers away from grain surfaces cleanly.",
+            "right": "Tannage Selection: Vegetable tanning utilizes natural tree bark extracts to stabilize wet hides."
           }
         ]
       },
       "worked_example": {
-        "title": "Leatherwork Req 2 Exemplar Workbook Entry: Origins",
+        "title": "Leatherwork Req 2 Worked Example: Leather Origin and Types",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Leather Sources and Origins": "Commercial leather derives almost exclusively as a co product of the livestock meat packing industry. Unprocessed skins quickly rot without rapid salting and controlled storage before tannery processing.",
-          "Req 2b - Commercial Animal Hide": "Tanners select specific animal skins like cowhide, sheepskin, pigskin, and goat based on grain tightness. Steer hide yields thick tooling leather, while sheepskins offer soft pliable garment linings.",
-          "Req 2c - Primary Commercial Leather": "Primary market categories include vegetable tanned leather, chrome tanned hides, oil tanned stock, suede, and rawhide. Each material undergoes distinctive chemical baths that dramatically shift working characteristics.",
-          "Req 2d - Leather Selection": "Selecting appropriate leather weights ensures personal projects endure mechanical stress and weather exposure. Heavy vegetable bends suit protective sheaths, whereas chrome tanned hides excel in flexible moccasins."
+          "Phase 1 - Source Identification": "Classify animal origins by examining natural follicle patterns across surface grain.",
+          "Phase 2 - Tannage Evaluation": "Check hide stiffness to distinguish bark tanned bends from mineral tanned sides.",
+          "Phase 3 - Thickness Gauging": "Measure hide weight in ounces using calibrated bench spring thickness calipers.",
+          "Phase 4 - Application Matching": "Assign heavy oak bark bends to structural belts and lightweight calfskin."
         },
-        "sample_output": "Origins and Types of Leather: Chrome tanned leather (leather that has been tanned with chemicals that contain chromium salts) normally is used for items that call for a soft (p. 15).",
-        "counselor_tip": "For Leatherwork Requirement 2 (Origins and Types of Leather), verify the Scout's own observations and specific pamphlet details (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21))."
+        "sample_output": "Tanneries transform raw animal hides into resilient materials through chemical curing, unhairing, and fiber tanning. Different mammals yield distinct grain structures that dictate leather flexibility, tensile strength, and water resistance.",
+        "counselor_tip": "During the Leatherwork Requirement 2 conference on Leather Origin and Types, verify that the Scout can explain rawhide origins and demonstrate application matching: Assign heavy oak bark bends to structural belts and lightweight calfskin."
       },
       "quiz_item": {
         "scenario_prompt": "Which tanning method uses tree bark extracts to produce a firm, stiff leather suited for carving and stamping?",
@@ -1649,13 +1653,11 @@
         "right_header": "Req 3e: Dye and Finish Application",
         "left_points": [
           "(3a) Pattern Transfer and Layout: Patterns transfer onto cased leather by tracing lines through tracing film using smooth styluses. Proper alignment preserves hide grain direction and avoids irregular stretching during final assembly.",
-          "(3b) Precision Leather Cutting Techniques: Cutting leather requires sharp rotary blades or head knives guided along heavy metal rulers. Workpieces rest flat upon self healing cutting mats to protect blade apexes from chipping.",
-          "(3c) Hole Punching Methods: Rotary and drive punches create circular openings for lace, hardware, and stitching channels. Punches must stand vertically to produce straight bores through thick multi layer laminated seams."
+          "(3b) Precision Leather Cutting Techniques: Cutting leather requires sharp rotary blades or head knives guided along heavy metal rulers. Workpieces rest flat upon self healing cutting mats to protect blade apexes from chipping."
         ],
         "right_points": [
           "(3e) Dye and Finish Application: Liquid dyes penetrate unsealed vegetable leather fibers using wool daubers or airbrush sprayers. Acrylic topcoats seal pigments and shield grain from environmental moisture and skin oils.",
-          "(3f) Assembly by Mechanical Stitching: Scouts join assembled panels using waxed thread saddle stitching or decorative leather lacing. Consistent thread tension ensures seams remain water resistant and visually balanced across runs.",
-          "(3g) Hardware Fastener Setting Techniques: Hardware installation utilizes dedicated setting anvils that cup curved rivet heads during swaging. Correct post length allows stems to flare securely without tearing surrounding hide fibers."
+          "(3f) Assembly by Mechanical Stitching: Scouts join assembled panels using waxed thread saddle stitching or decorative leather lacing. Consistent thread tension ensures seams remain water resistant and visually balanced across runs."
         ],
         "rows": [
           {
@@ -1670,22 +1672,22 @@
           },
           {
             "attribute": "Beveling Technique",
-            "left": "(3c) Hole Punching Methods: Rotary and drive punches create circular openings for lace, hardware, and stitching channels. Punches must stand vertically to produce straight bores through thick multi layer laminated seams.",
-            "right": "(3g) Hardware Fastener Setting Techniques: Hardware installation utilizes dedicated setting anvils that cup curved rivet heads during swaging. Correct post length allows stems to flare securely without tearing surrounding hide fibers."
+            "left": "Beveling Technique: Tilt stamping tools slightly backward while striking to avoid harsh ridge lines.",
+            "right": "Edge Slicking: Rub wet beveled borders with dense hardwood wheels until glossy friction burns."
           }
         ]
       },
       "worked_example": {
-        "title": "Leatherwork Req 3 Exemplar Workbook Entry: Crafting",
+        "title": "Leatherwork Req 3 Worked Example: Leather Project Fabrication Steps",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Pattern Transfer and Layout": "Patterns transfer onto cased leather by tracing lines through tracing film using smooth styluses. Proper alignment preserves hide grain direction and avoids irregular stretching during final assembly.",
-          "Req 3b - Precision Leather Cutting": "Cutting leather requires sharp rotary blades or head knives guided along heavy metal rulers. Workpieces rest flat upon self healing cutting mats to protect blade apexes from chipping.",
-          "Req 3c - Hole Punching Methods": "Rotary and drive punches create circular openings for lace, hardware, and stitching channels. Punches must stand vertically to produce straight bores through thick multi layer laminated seams.",
-          "Req 3d - Carving and Stamping": "Carving begins by incising outlines with swivel knives followed by decorative beveling stamps. Consistent mallet pressure controls depth and shading across geometric or floral leather motifs."
+          "Phase 1 - Pattern Tracing": "Scribe layout lines onto grain surfaces using polished blunt steel styluses.",
+          "Phase 2 - Perimeter Cutting": "Draw utility blades along metal straightedges firmly into self healing mats.",
+          "Phase 3 - Edge Beveling": "Run grooved edging tools along cut borders to trim square corners.",
+          "Phase 4 - Project Assembly": "Stitch aligned seam holes securely using traditional dual needle saddle stitches."
         },
-        "sample_output": "Crafting and Finishing Leather Articles: Use these for measuring, pattern and design layout, and for cutting straight lines (p. 19).",
-        "counselor_tip": "For Leatherwork Requirement 3 (Crafting and Finishing Leather Articles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53))."
+        "sample_output": "Crafting durable leather articles integrates precise template transfer, square edge cutting, and uniform hole spacing. Proper surface casing allows carving tools and stamps to leave crisp, lasting impressions.",
+        "counselor_tip": "During the Leatherwork Requirement 3 conference on Leather Project Fabrication Steps, verify that the Scout can explain moisture casing and demonstrate project assembly: Stitch aligned seam holes securely using traditional dual needle saddle stitches."
       },
       "quiz_item": {
         "scenario_prompt": "Why should you avoid using unpainted steel rulers and squares when laying out patterns on leather?",
@@ -1841,47 +1843,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Decorative Leather Braiding",
-        "right_header": "Req 4: Evaluate Everyday Gear Materials",
+        "left_header": "Lacing and Braiding Execution: Core Principles",
+        "right_header": "Lacing and Braiding Execution: Field Execution",
         "left_points": [
-          "Decorative Leather Braiding Technique: Another popular type of leather crafting involves the braiding technique (p. 68).",
-          "Tight Strand Lanyard Tension: Once you master this technique, you can make all kinds of things, including the lanyard described in the following steps. \u0007Pull all strands tight (p. 68).",
-          "Everyday Synthetic Material Options: Synthetics We have many choices when it comes to selecting the materials we use every day to make our lives easier (p. 68)."
+          "Strand Preparation: Skive lace ends to uniform thicknesses before beginning four strand plaits.",
+          "Tension Uniformity: Pull every cross strand with identical hand pressure throughout the plait."
         ],
         "right_points": [
-          "Evaluate Everyday Gear Materials: Synthetics We have many choices when it comes to selecting the materials we use every day to make our lives easier (p. 68).",
-          "Compare Leather and Synthetics: Hiking boots, backpacks, and many other products can be made from either leather or synthetic materials like nylon, plastic, vinyl, or rubber (p. 68).",
-          "Weigh Material Performance Factors: Here are a few points to consider (p. 68)."
+          "Core Alignment: Center internal support cords squarely between exterior braiding strands during work.",
+          "Terminal Knotting: Secure braided endings using terminal Turk head knots or metal crimps."
         ],
         "rows": [
           {
             "attribute": "Strand Preparation",
-            "left": "Decorative Leather Braiding Technique: Another popular type of leather crafting involves the braiding technique (p. 68).",
-            "right": "Evaluate Everyday Gear Materials: Synthetics We have many choices when it comes to selecting the materials we use every day to make our lives easier (p. 68)."
+            "left": "Strand Preparation: Skive lace ends to uniform thicknesses before beginning four strand plaits.",
+            "right": "Core Alignment: Center internal support cords squarely between exterior braiding strands during work."
           },
           {
             "attribute": "Tension Uniformity",
-            "left": "Tight Strand Lanyard Tension: Once you master this technique, you can make all kinds of things, including the lanyard described in the following steps. \u0007Pull all strands tight (p. 68).",
-            "right": "Compare Leather and Synthetics: Hiking boots, backpacks, and many other products can be made from either leather or synthetic materials like nylon, plastic, vinyl, or rubber (p. 68)."
+            "left": "Tension Uniformity: Pull every cross strand with identical hand pressure throughout the plait.",
+            "right": "Terminal Knotting: Secure braided endings using terminal Turk head knots or metal crimps."
           },
           {
             "attribute": "Core Alignment",
-            "left": "Everyday Synthetic Material Options: Synthetics We have many choices when it comes to selecting the materials we use every day to make our lives easier (p. 68).",
-            "right": "Weigh Material Performance Factors: Here are a few points to consider (p. 68)."
+            "left": "Core Alignment: Center internal support cords squarely between exterior braiding strands during work.",
+            "right": "Terminal Knotting: Secure braided endings using terminal Turk head knots or metal crimps."
           }
         ]
       },
       "worked_example": {
-        "title": "Leatherwork Req 4 Exemplar Workbook Entry: Braiding",
+        "title": "Leatherwork Req 4 Worked Example: Lacing and Braiding Execution",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Decorative Leather Braiding Technique": "Another popular type of leather crafting involves the braiding technique (p. 68).",
-          "Tight Strand Lanyard Tension": "Once you master this technique, you can make all kinds of things, including the lanyard described in the following steps. \u0007Pull all strands tight (p. 68).",
-          "Everyday Synthetic Material Options": "Synthetics We have many choices when it comes to selecting the materials we use every day to make our lives easier (p. 68).",
-          "Leather Versus Synthetic Gear": "Hiking boots, backpacks, and many other products can be made from either leather or synthetic materials like nylon, plastic, vinyl, or rubber (p. 68)."
+          "Phase 1 - Strand Sizing": "Cut uniform lace strips to five times the finished cord length.",
+          "Phase 2 - Anchor Setup": "Secure strand heads into bench vices using protective smooth wooden jaws.",
+          "Phase 3 - Plait Sequence": "Weave outer strands sequentially behind internal groups toward center crossing lines.",
+          "Phase 4 - Terminal Securing": "Lock finished braid ends with whipped waxed thread wraps or knots."
         },
-        "sample_output": "Braiding Leather and Synthetic Cord age: Another popular type of leather crafting involves the braiding technique (p. 68).",
-        "counselor_tip": "For Leatherwork Requirement 4 (Braiding Leather and Synthetic Cord age), verify the Scout's own observations and specific pamphlet details (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 68, p. 74))."
+        "sample_output": "Plaiting cords involves interweaving three or more flexible strands over a core or open center. Maintaining uniform tension prevents uneven bulges and produces structurally sound lanyards or woggle knots.",
+        "counselor_tip": "During the Leatherwork Requirement 4 conference on Lacing and Braiding Execution, verify that the Scout can explain strand preparation and demonstrate terminal securing: Lock finished braid ends with whipped waxed thread wraps or knots."
       },
       "quiz_item": {
         "scenario_prompt": "How does solid vinyl compare to natural leather when used in footwear or outdoor gear during warm weather?",
@@ -2376,7 +2376,7 @@
         "Protective finish, stamps/mallet, and tool sheath for safe stowage."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Commercial Tanning Industrial",
+        "left_header": "Req 5a: Commercial Tanning Industrial Process",
         "right_header": "Req 5c: Leather Care and Restoration",
         "left_points": [
           "(5a) Commercial Tanning Industrial Process: Industrial tanneries wash, flesh, pickle, and tumble hides in rotating chemical drums containing chromium or vegetable extracts. Mechanical splitters and heated vacuum driers ensure uniform thickness and consistent moisture balance.",
@@ -2399,22 +2399,22 @@
           },
           {
             "attribute": "Fatliquor Replenishment",
-            "left": "Req 5a: Commercial Tanning: Industrial tanneries wash, flesh, pickle, and tumble hides in rotating chemical drums containing chromium or vegetable extracts. Mechanical splitters and heated vacuum driers ensure uniform thickness and consistent moisture balance.",
-            "right": "Req 5b: Small Game Hide Tanning: Small animal tanning demands thorough fleshing, salting, and soaking in aluminum alum or brain solutions. Constant mechanical stretching over breaking beams while drying prevents collagen fibers from stiffening into rawhide."
+            "left": "Fatliquor Replenishment: Drum tumbling oils restore lubricating films between collagen fibers after tanning.",
+            "right": "Leather Reconditioning: Warm damp cloths remove gritty trail dust before applying conditioning oils."
           }
         ]
       },
       "worked_example": {
-        "title": "Leatherwork Req 5 Exemplar Workbook Entry: Tanning Hides",
+        "title": "Leatherwork Req 5 Worked Example: Tanning and Leather Care",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Commercial Tanning Industrial": "Industrial tanneries wash, flesh, pickle, and tumble hides in rotating chemical drums containing chromium or vegetable extracts. Mechanical splitters and heated vacuum driers ensure uniform thickness and consistent moisture balance.",
-          "Req 5b - Small Game Hide Tanning": "Small animal tanning demands thorough fleshing, salting, and soaking in aluminum alum or brain solutions. Constant mechanical stretching over breaking beams while drying prevents collagen fibers from stiffening into rawhide.",
-          "Req 5c - Leather Care and Restoration": "Reconditioning restores flexibility to dry articles by dissolving dirt with saddle soap and replenishing natural oils. Periodic maintenance preserves tensile strength, prevents surface cracking, and extends gear service life.",
-          "Req 5d - Professional Leathercraft": "Visiting leather businesses reveals specialized machinery including splitters, clicking presses, and heavy duty walking foot stitchers. Craftsmen demonstrate professional workflow stages from whole side inspection to final buffing."
+          "Phase 1 - Surface Dusting": "Brush away caked dirt using stiff natural horsehair bench detailing brushes.",
+          "Phase 2 - Lather Cleaning": "Work damp saddle soap into leather grain using circular hand motions.",
+          "Phase 3 - Soap Removal": "Wipe away lifted grime residues using clean damp cotton terry cloths.",
+          "Phase 4 - Oil Nourishment": "Massage neatsfoot oil sparingly into dried leather pores with soft flannels."
         },
-        "sample_output": "Tanning Hides and Leather Care: Whether it's a small, custom-leather shop or a large industry (tannery, apparel manufacturer, etc.), it will be exciting to explore the endless ways (p. 88).",
-        "counselor_tip": "For Leatherwork Requirement 5 (Tanning Hides and Leather Care), verify the Scout's own observations and specific pamphlet details (Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90))."
+        "sample_output": "Hides become durable leather through chemical tanning baths that permanently stabilize animal collagen fibers against rot. Regular maintenance using clean damp cloths and rich conditioners preserves leather flexibility for decades.",
+        "counselor_tip": "During the Leatherwork Requirement 5 conference on Tanning and Leather Care, verify that the Scout can explain tannery liming and demonstrate oil nourishment: Massage neatsfoot oil sparingly into dried leather pores with soft flannels."
       },
       "quiz_item": {
         "scenario_prompt": "What should you always do before taking photographs during a tour of a leather shop or tannery?",

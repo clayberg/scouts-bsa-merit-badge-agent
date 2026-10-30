@@ -347,10 +347,12 @@
         "left_header": "Req 1a: Electrical Grounding Systems",
         "right_header": "Req 1b: Electrical Burn Mitigation",
         "left_points": [
-          "(1a) Electrical Grounding Systems: Station equipment requires separate alternating current mains safety grounds, direct current return conductors, and heavy external lightning grounding systems. Copper grounding busses bond transceiver chassis directly to exterior ground rods driven into the soil."
+          "(1a) Electrical Grounding Systems: Station equipment requires separate alternating current mains safety grounds, direct current return conductors, and heavy external lightning grounding systems. Copper grounding busses bond transceiver chassis directly to exterior ground rods driven into the soil.",
+          "Ground Rod Depth: Heavy copper rods must reach eight feet into soil for proper discharge dissipation."
         ],
         "right_points": [
-          "(1b) Electrical Burn Mitigation: Radio frequency current produces severe subsurface flesh burns when live transmitter conductors contact unprotected skin. Victims require immediate cooling with clean water and professional medical evaluation for deep muscle destruction."
+          "(1b) Electrical Burn Mitigation: Radio frequency current produces severe subsurface flesh burns when live transmitter conductors contact unprotected skin. Victims require immediate cooling with clean water and professional medical evaluation for deep muscle destruction.",
+          "(1c) Lithium Battery Safety: Punctured or overcharged lithium cells can experience thermal runaway, venting toxic gases and combusting at extreme temperatures. Station operators must isolate deformed batteries inside metal safety containers away from flammable structures."
         ],
         "rows": [
           {
@@ -360,26 +362,27 @@
           },
           {
             "attribute": "Bleeder Resistor Role",
-            "left": "Req 1a: Electrical Grounding Systems: Station equipment requires separate alternating current mains safety grounds, direct current return conductors, and heavy external lightning grounding systems. Copper grounding busses bond transceiver chassis directly to exterior ground rods driven into the soil.",
-            "right": "Req 1b: Electrical Burn Mitigation: Radio frequency current produces severe subsurface flesh burns when live transmitter conductors contact unprotected skin. Victims require immediate cooling with clean water and professional medical evaluation for deep muscle destruction."
+            "left": "Ground Rod Depth: Heavy copper rods must reach eight feet into soil for proper discharge dissipation.",
+            "right": "(1c) Lithium Battery Safety: Punctured or overcharged lithium cells can experience thermal runaway, venting toxic gases and combusting at extreme temperatures. Station operators must isolate deformed batteries inside metal safety containers away from flammable structures."
           },
           {
             "attribute": "RF Burn Origin",
-            "left": "Req 1c: Lithium Battery Safety: Punctured or overcharged lithium cells can experience thermal runaway, venting toxic gases and combusting at extreme temperatures. Station operators must isolate deformed batteries inside metal safety containers away from flammable structures.",
-            "right": "Bleeder Resistor Role: Power supply capacitors discharge lethal stored high voltages through bleeder resistors safely."
+            "left": "RF Burn Origin: High frequency alternating current touching exposed flesh induces deep thermal tissue destruction.",
+            "right": "Battery Vent Space: Damaged lithium cells generate explosive toxic gas mixtures when thermal runaway reactions initiate."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 1 Exemplar Workbook Entry: Electrical",
+        "title": "Radio Req 1 Worked Example: Radio Station Safety Protocols",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Electrical Grounding Systems": "Station equipment requires separate alternating current mains safety grounds, direct current return conductors, and heavy external lightning grounding systems. Copper grounding busses bond transceiver chassis directly to exterior ground rods driven into the soil.",
-          "Req 1b - Electrical Burn Mitigation": "Radio frequency current produces severe subsurface flesh burns when live transmitter conductors contact unprotected skin. Victims require immediate cooling with clean water and professional medical evaluation for deep muscle destruction.",
-          "Req 1c - Lithium Battery Safety": "Punctured or overcharged lithium cells can experience thermal runaway, venting toxic gases and combusting at extreme temperatures. Station operators must isolate deformed batteries inside metal safety containers away from flammable structures."
+          "Phase 1 - Earth Rod Placement": "Drive an eight foot copper clad steel rod completely into moist outdoor ground.",
+          "Phase 2 - Arrestor Line Bonding": "Connect heavy gauge copper strap from coax arrestors directly to external ground electrodes.",
+          "Phase 3 - Capacitor Voltage Discharge": "Place an insulated grounding stick against power filter capacitors before touching internal components.",
+          "Phase 4 - Cell Damage Inspection": "Check rechargeable radio battery enclosures for outward swelling, punctures, or excessive casing heat."
         },
-        "sample_output": "Electrical Grounding and Radio Safety: Also, a good RF ground is important to make the whole station work at its best; the ground provides the \"return path\" for the radio waves you are sending (p. 35).",
-        "counselor_tip": "For Radio Requirement 1 (Electrical Grounding and Radio Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 35, p. 37))."
+        "sample_output": "Radio installations demand low resistance bonding between chassis frames, lightning protection arrestors, and physical earth grounding rods. Operators must isolate high voltage circuits before servicing power supplies and store lithium battery packs in fireproof containers.",
+        "counselor_tip": "During the Radio Requirement 1 conference on Radio Station Safety Protocols, verify that the Scout can explain ground rod depth and demonstrate cell damage inspection: Check rechargeable radio battery enclosures for outward swelling, punctures, or excessive casing heat."
       },
       "quiz_item": {
         "scenario_prompt": "What is the single most critical safety rule when choosing a location to erect an outdoor amateur radio mast or wire antenna?",
@@ -1091,7 +1094,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain safe exclusion distances from microwave dish feeds and high gain directional antennas during active radio transmission.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
       "syllabus_bucket": "In-Class Concept",
@@ -1160,10 +1163,12 @@
         "left_header": "Req 2a: Electromagnetic Spectrum Mapping",
         "right_header": "Req 2b: Radio Communication Categories",
         "left_points": [
-          "(2a) Electromagnetic Spectrum Mapping: Scouts chart radio frequency allocations across the medium, high, very high, ultra high, and microwave segments between three hundred kilohertz and three gigahertz. The chart illustrates how wavelength decreases proportionally as carrier frequency rises."
+          "(2a) Electromagnetic Spectrum Mapping: Scouts chart radio frequency allocations across the medium, high, very high, ultra high, and microwave segments between three hundred kilohertz and three gigahertz. The chart illustrates how wavelength decreases proportionally as carrier frequency rises.",
+          "Speed of Light: Radio electromagnetic waves travel through space at three hundred million meters every second."
         ],
         "right_points": [
-          "(2b) Radio Communication Categories: Radio transmission is the intentional radiation of electromagnetic signals through space to convey sound, telemetry, or data. Two way communication systems enable reciprocal conversations between stations, unlike unidirectional commercial and noncommercial public broadcasts."
+          "(2b) Radio Communication Categories: Radio transmission is the intentional radiation of electromagnetic signals through space to convey sound, telemetry, or data. Two way communication systems enable reciprocal conversations between stations, unlike unidirectional commercial and noncommercial public broadcasts.",
+          "Band Division Bounds: Medium frequency spans three hundred kilohertz to three thousand kilohertz within spectrum charts."
         ],
         "rows": [
           {
@@ -1173,25 +1178,27 @@
           },
           {
             "attribute": "Wavelength Inversion",
-            "left": "Req 2a: Electromagnetic Spectrum: Scouts chart radio frequency allocations across the medium, high, very high, ultra high, and microwave segments between three hundred kilohertz and three gigahertz. The chart illustrates how wavelength decreases proportionally as carrier frequency rises.",
-            "right": "Req 2b: Radio Communication: Radio transmission is the intentional radiation of electromagnetic signals through space to convey sound, telemetry, or data. Two way communication systems enable reciprocal conversations between stations, unlike unidirectional commercial and noncommercial public broadcasts."
+            "left": "Speed of Light: Radio electromagnetic waves travel through space at three hundred million meters every second.",
+            "right": "Band Division Bounds: Medium frequency spans three hundred kilohertz to three thousand kilohertz within spectrum charts."
           },
           {
             "attribute": "Band Division Bounds",
-            "left": "Speed of Light: Radio electromagnetic waves travel through space at three hundred million meters every second.",
-            "right": "Wavelength Inversion: Higher carrier frequencies generate shorter wavelengths according to the fundamental wave speed equation."
+            "left": "Band Division Bounds: Medium frequency spans three hundred kilohertz to three thousand kilohertz within spectrum charts.",
+            "right": "Two Way Transmission: Transceivers alternately transmit and receive voice signals along simplex or repeater shared frequencies."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 2 Exemplar Workbook Entry: Electromagnetic",
+        "title": "Radio Req 2 Worked Example: Radio Wave Spectrum Fundamentals",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Electromagnetic Spectrum": "Scouts chart radio frequency allocations across the medium, high, very high, ultra high, and microwave segments between three hundred kilohertz and three gigahertz. The chart illustrates how wavelength decreases proportionally as carrier frequency rises.",
-          "Req 2b - Radio Communication": "Radio transmission is the intentional radiation of electromagnetic signals through space to convey sound, telemetry, or data. Two way communication systems enable reciprocal conversations between stations, unlike unidirectional commercial and noncommercial public broadcasts."
+          "Phase 1 - Frequency Axis Layout": "Draw a horizontal logarithmic axis spanning three hundred kilohertz to three gigahertz.",
+          "Phase 2 - Band Segment Partition": "Mark frequency boundary lines for medium, high, very high, and ultra high bands.",
+          "Phase 3 - Service Band Allocation": "Label standard commercial broadcast, amateur radio, maritime safety, and microwave radar operating channels.",
+          "Phase 4 - Metric Scale Calculation": "Calculate wavelength values across plotted frequency decades using standard wave velocity mathematical equations."
         },
-        "sample_output": "Electromagnetic Spectrum and Radio Services: That is, if you choose the amateur radio option, you will find it most helpful to locate the various amateur radio bands (p. 20).",
-        "counselor_tip": "For Radio Requirement 2 (Electromagnetic Spectrum and Radio Services), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24))."
+        "sample_output": "The electromagnetic spectrum arranges radio signals in order of increasing frequency and decreasing wavelength from medium frequency through microwave bands. Radio systems convert information into alternating electrical currents that emit oscillating electromagnetic fields from transmitting antennas.",
+        "counselor_tip": "During the Radio Requirement 2 conference on Radio Wave Spectrum Fundamentals, verify that the Scout can explain speed of light and demonstrate metric scale calculation: Calculate wavelength values across plotted frequency decades using standard wave velocity mathematical equations."
       },
       "quiz_item": {
         "scenario_prompt": "Why are local police and public safety radio systems typically assigned frequencies in the VHF and UHF portions of the spectrum?",
@@ -1517,7 +1524,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never erect wire skywave antennas near overhead utility lines or residential power distribution feeds.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 76)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 76)",
       "syllabus_bucket": "In-Class Concept",
@@ -1586,12 +1593,14 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 3a: Radio Propagation Mechanisms",
-        "right_header": "Req 3b: Standard Time Station",
+        "right_header": "Req 3b: Standard Time Station Propagation",
         "left_points": [
-          "(3a) Radio Propagation Mechanisms: Diagrams of radio propagation show how ground waves travel along the terrain, tropospheric waves bridge the horizon, and skywaves bounce between ionospheric layers and the earth. Higher solar ionization allows higher frequencies to refract back down."
+          "(3a) Radio Propagation Mechanisms: Diagrams of radio propagation show how ground waves travel along the terrain, tropospheric waves bridge the horizon, and skywaves bounce between ionospheric layers and the earth. Higher solar ionization allows higher frequencies to refract back down.",
+          "Ground Wave Range: Low frequency radio energy follows earth surface contours over distances of several miles."
         ],
         "right_points": [
-          "(3b) Standard Time Station Propagation: National Institute of Standards and Technology stations WWV and WWVH broadcast reference frequencies and solar geophysical alerts continuously. Radio listeners evaluate which carrier frequencies propagate clearly to predict global band openings."
+          "(3b) Standard Time Station Propagation: National Institute of Standards and Technology stations WWV and WWVH broadcast reference frequencies and solar geophysical alerts continuously. Radio listeners evaluate which carrier frequencies propagate clearly to predict global band openings.",
+          "(3c) Local and Distant Signals: Local stations deliver reliable, steady signals across line of sight or ground wave paths without atmospheric skip. Distant DX contacts depend on favorable ionospheric refraction or tropospheric ducting, creating variable signal strengths."
         ],
         "rows": [
           {
@@ -1601,26 +1610,27 @@
           },
           {
             "attribute": "Ionosphere Refraction",
-            "left": "Req 3a: Radio Propagation Mechanisms: Diagrams of radio propagation show how ground waves travel along the terrain, tropospheric waves bridge the horizon, and skywaves bounce between ionospheric layers and the earth. Higher solar ionization allows higher frequencies to refract back down.",
-            "right": "Req 3b: Standard Time Station: National Institute of Standards and Technology stations WWV and WWVH broadcast reference frequencies and solar geophysical alerts continuously. Radio listeners evaluate which carrier frequencies propagate clearly to predict global band openings."
+            "left": "Ground Wave Range: Low frequency radio energy follows earth surface contours over distances of several miles.",
+            "right": "(3c) Local and Distant Signals: Local stations deliver reliable, steady signals across line of sight or ground wave paths without atmospheric skip. Distant DX contacts depend on favorable ionospheric refraction or tropospheric ducting, creating variable signal strengths."
           },
           {
             "attribute": "Skip Zone Silence",
-            "left": "Req 3c: Local and Distant Signals: Local stations deliver reliable, steady signals across line of sight or ground wave paths without atmospheric skip. Distant DX contacts depend on favorable ionospheric refraction or tropospheric ducting, creating variable signal strengths.",
-            "right": "Ionosphere Refraction: Ionized atmospheric regions bend high frequency skywaves back down toward distant ground receiving stations."
+            "left": "Skip Zone Silence: The skip zone represents geographic ground space between groundwave coverage and first skywave return.",
+            "right": "Beacon Frequency Monitoring: Standard time stations announce solar propagation conditions hourly on several precise shortwave frequencies."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 3 Exemplar Workbook Entry: Radio Wave",
+        "title": "Radio Req 3 Worked Example: Radio Wave Propagation Dynamics",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Radio Propagation Mechanisms": "Diagrams of radio propagation show how ground waves travel along the terrain, tropospheric waves bridge the horizon, and skywaves bounce between ionospheric layers and the earth. Higher solar ionization allows higher frequencies to refract back down.",
-          "Req 3b - Standard Time Station": "National Institute of Standards and Technology stations WWV and WWVH broadcast reference frequencies and solar geophysical alerts continuously. Radio listeners evaluate which carrier frequencies propagate clearly to predict global band openings.",
-          "Req 3c - Local and Distant Signals": "Local stations deliver reliable, steady signals across line of sight or ground wave paths without atmospheric skip. Distant DX contacts depend on favorable ionospheric refraction or tropospheric ducting, creating variable signal strengths."
+          "Phase 1 - Earth Layer Sketching": "Draw curved earth topography beneath concentric ionospheric D, E, and F molecular layers.",
+          "Phase 2 - Propagation Path Tracing": "Sketch distinct groundwave curves, line of sight horizons, and refracted skywave skip angles.",
+          "Phase 3 - Station Beacon Tuning": "Tune an external shortwave receiver to WWV standard broadcasts on five or ten megahertz.",
+          "Phase 4 - Audio Quality Analysis": "Evaluate solar flux indices and signal strength reports transmitted during hourly voice announcements."
         },
-        "sample_output": "Radio Wave Propagation and DX ing: Unlike shortwave stations, many medium-wave stations do not offer QSL cards, but they can confirm your reception viaemail or even with a letter (p. 72).",
-        "counselor_tip": "For Radio Requirement 3 (Radio Wave Propagation and DX ing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 76))."
+        "sample_output": "Radio waves propagate through ground wave paths, direct line of sight paths, and ionospheric skywave refraction depending on frequency and solar activity. Stations WWV and WWVH broadcast continuous standard time and geophysical alerts that reveal current high frequency band conditions.",
+        "counselor_tip": "During the Radio Requirement 3 conference on Radio Wave Propagation Dynamics, verify that the Scout can explain ground wave range and demonstrate audio quality analysis: Evaluate solar flux indices and signal strength reports transmitted during hourly voice announcements."
       },
       "quiz_item": {
         "scenario_prompt": "What must a shortwave or medium-wave listener include in a reception report to receive a QSL card or verification from a distant station?",
@@ -2054,7 +2064,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Keep mobile phone handsets and portable two way radios clear of medical cardiac pacemakers during active transmission bursts.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 29, p. 76)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 29, p. 76)",
       "syllabus_bucket": "In-Class Concept",
@@ -2147,22 +2157,22 @@
           },
           {
             "attribute": "Frequency Deviation",
-            "left": "Req 4a: Analog Modulation Modes: Continuous wave turns an RF carrier on and off, AM varies carrier amplitude, and FM deviates carrier frequency. Single sideband removes the carrier and one sideband to achieve superior power efficiency and narrow bandwidth.",
-            "right": "Req 4b: Digital Transmission: Digital standards such as Bluetooth, Wi Fi, and 5G convert analog audio and binary data into coded symbol streams. Digital signal processors detect and correct transmission bit errors to maintain pristine reception until threshold limits."
+            "left": "Frequency Deviation: Frequency modulation alters carrier frequency slightly according to the amplitude of applied audio signals.",
+            "right": "Fiber Optical Speeds: Physical glass fiber optic lines transfer data gigabits faster than shared wireless channels."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 4 Exemplar Workbook Entry: Modulation Methods",
+        "title": "Radio Req 4 Worked Example: Signal Modulation and Encoding",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Analog Modulation Modes": "Continuous wave turns an RF carrier on and off, AM varies carrier amplitude, and FM deviates carrier frequency. Single sideband removes the carrier and one sideband to achieve superior power efficiency and narrow bandwidth.",
-          "Req 4b - Digital Transmission": "Digital standards such as Bluetooth, Wi Fi, and 5G convert analog audio and binary data into coded symbol streams. Digital signal processors detect and correct transmission bit errors to maintain pristine reception until threshold limits.",
-          "Req 4c - Modulation Range Tradeoffs": "Transmitter power, receiver sensitivity, operating frequency, and modulation bandwidth determine the effective range of a radio signal. Narrowband modes concentrate RF energy into tight frequency spectrum slices to achieve long distance reception.",
-          "Req 4d - Wireless and Fiber Bandwidth": "Wi Fi radio links share limited atmospheric spectrum subject to multipath cancellation, physical obstruction, and regulatory power caps. Hard wired twisted pair cables and fiber optic lines provide massive dedicated bandwidth free from RF interference."
+          "Phase 1 - Carrier Wave Display": "Observe an unmodulated sinusoidal radio frequency carrier wave on an electronic oscilloscope screen.",
+          "Phase 2 - Modulation Type Selection": "Apply voice audio signals to demonstrate amplitude variation versus carrier frequency shift characteristics.",
+          "Phase 3 - Sideband Spectrum Inspection": "View single sideband power distribution on a spectrum analyzer to observe carrier suppression efficiency.",
+          "Phase 4 - Digital Packet Comparison": "Benchmark local wireless local area network throughput rates against direct wired Ethernet connections."
         },
-        "sample_output": "Modulation Methods and Digital Encoding: The carrier is modulated by the on and off keying (p. 29).",
-        "counselor_tip": "For Radio Requirement 4 (Modulation Methods and Digital Encoding), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 29, p. 76))."
+        "sample_output": "Modulation techniques superimpose audio and data intelligence onto high frequency alternating carrier waves. Digital standards use complex phase shifting and error correction algorithms to transmit high data volumes within crowded frequency bands.",
+        "counselor_tip": "During the Radio Requirement 4 conference on Signal Modulation and Encoding, verify that the Scout can explain carrier wave onset and demonstrate digital packet comparison: Benchmark local wireless local area network throughput rates against direct wired Ethernet connections."
       },
       "quiz_item": {
         "scenario_prompt": "How does a continuous wave (CW) transmitter encode Morse code messages onto a radio signal?",
@@ -2630,7 +2640,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Ensure antenna feedlines pass through an approved lightning surge protector bonded directly to an outdoor grounding rod.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 27, p. 32)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 27, p. 32)",
       "syllabus_bucket": "In-Class Concept",
@@ -2702,7 +2712,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Electronic Diagram",
+        "left_header": "Req 5a: Electronic Diagram Interpretation",
         "right_header": "Req 5c: Consumer Radio Applications",
         "left_points": [
           "(5a) Electronic Diagram Interpretation: Block diagrams display the major functional stages of electronic equipment as connected geometric boxes to explain overall signal flow. Schematic diagrams use standardized graphic symbols to show individual transistors, resistors, capacitors, and physical wire junctions.",
@@ -2725,22 +2735,22 @@
           },
           {
             "attribute": "Antenna Coupling Path",
-            "left": "Req 5a: Electronic Diagram: Block diagrams display the major functional stages of electronic equipment as connected geometric boxes to explain overall signal flow. Schematic diagrams use standardized graphic symbols to show individual transistors, resistors, capacitors, and physical wire junctions.",
-            "right": "Req 5b: Radio Station Block: A station block diagram traces sound from a microphone into a transceiver, through an external power amplifier, down coaxial feedline, and out the antenna. Incoming signals follow the reverse path from antenna to audio speaker."
+            "left": "Antenna Coupling Path: Feedline coax cables transfer radio frequency power from transmitter output stages to radiating antennas.",
+            "right": "Tone Alert Activation: Specific Area Message Encoding decodes digital headers to trigger emergency receiver alarms automatically."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 5 Exemplar Workbook Entry: Station Hardware",
+        "title": "Radio Req 5 Worked Example: Radio Station Hardware Architecture",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5a - Electronic Diagram": "Block diagrams display the major functional stages of electronic equipment as connected geometric boxes to explain overall signal flow. Schematic diagrams use standardized graphic symbols to show individual transistors, resistors, capacitors, and physical wire junctions.",
-          "Req 5b - Radio Station Block": "A station block diagram traces sound from a microphone into a transceiver, through an external power amplifier, down coaxial feedline, and out the antenna. Incoming signals follow the reverse path from antenna to audio speaker.",
-          "Req 5c - Consumer Radio Applications": "Modern consumer devices rely heavily on embedded radio transceivers for daily operation. Wi Fi laptops, cordless landline phones, garage door openers, and Bluetooth headphones all transmit encoded radio signals across microwave frequencies.",
-          "Req 5d - Emergency Weather Radios": "NOAA Weather Radio broadcasts continuous weather reports and emergency warnings from local National Weather Service forecast offices. Radios with Specific Area Message Encoding technology monitor digital headers to alert users to hazards affecting their county."
+          "Phase 1 - Stage Layout Drawing": "Draw labelled geometric blocks representing the station microphone, transceiver, amplifier, and exterior antenna.",
+          "Phase 2 - Signal Flow Interconnection": "Draw directional arrows illustrating transmit and receive signal paths between each drawn component block.",
+          "Phase 3 - Weather Receiver Configuration": "Program specific county Federal Information Processing System codes into a National Weather Radio receiver.",
+          "Phase 4 - RFID Tag Scanning": "Scan a passive high frequency radio identification card against an electronic access control reader."
         },
-        "sample_output": "Station Hardware and Everyday Radio: The transceiver is a device that combines a transmitter (to send radio signals) and a receiver (to receive radio signals) (p. 27).",
-        "counselor_tip": "For Radio Requirement 5 (Station Hardware and Everyday Radio), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 27, p. 32))."
+        "sample_output": "Radio hardware links power sources, audio transducers, amplification stages, and radiating antenna elements into functioning communication stations. Diagnostic block diagrams trace signal pathways from microphones and antennas through mixer stages, filters, and audio amplifiers.",
+        "counselor_tip": "During the Radio Requirement 5 conference on Radio Station Hardware Architecture, verify that the Scout can explain block diagram purpose and demonstrate rfid tag scanning: Scan a passive high frequency radio identification card against an electronic access control reader."
       },
       "quiz_item": {
         "scenario_prompt": "In a radio station block diagram, what is the role of the coaxial feed line?",
@@ -3076,7 +3086,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never transmit intentional false distress signals or profane language over municipal or amateur radio communication channels.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 10, p. 43)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 10, p. 43)",
       "syllabus_bucket": "In-Class Concept",
@@ -3144,13 +3154,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Telecommunications Regulatory",
-        "right_header": "Req 6b: Radio Station Identification",
+        "left_header": "Req 6a: Telecommunications Regulatory Bodies",
+        "right_header": "Req 6b: Radio Station Identification Calls",
         "left_points": [
-          "(6a) Telecommunications Regulatory Bodies: The Federal Communications Commission is a United States government agency that regulates commercial, public, and private communications. The International Telecommunication Union is a United Nations agency that coordinates global spectrum allocations and satellite orbits."
+          "(6a) Telecommunications Regulatory Bodies: The Federal Communications Commission is a United States government agency that regulates commercial, public, and private communications. The International Telecommunication Union is a United Nations agency that coordinates global spectrum allocations and satellite orbits.",
+          "Federal Commission Mandate: The Federal Communications Commission regulates non federal radio, wire, satellite, and cable domestic telecommunications."
         ],
         "right_points": [
-          "(6b) Radio Station Identification Calls: Call signs serve as unique legal identifiers assigned to radio stations by regulatory authorities. Commercial stations generally use four letter names starting with K or W, while amateur operators hold alphanumeric call signs indicating country and license class."
+          "(6b) Radio Station Identification Calls: Call signs serve as unique legal identifiers assigned to radio stations by regulatory authorities. Commercial stations generally use four letter names starting with K or W, while amateur operators hold alphanumeric call signs indicating country and license class.",
+          "(6c) International Phonetic Communications: The international phonetic alphabet assigns specific words to each letter of the alphabet to eliminate misunderstandings over noisy voice channels. Critical information like call signs, coordinates, and emergency traffic must be spelled phonetically."
         ],
         "rows": [
           {
@@ -3160,26 +3172,27 @@
           },
           {
             "attribute": "Global Spectrum Coordination",
-            "left": "Req 6a: Telecommunications: The Federal Communications Commission is a United States government agency that regulates commercial, public, and private communications. The International Telecommunication Union is a United Nations agency that coordinates global spectrum allocations and satellite orbits.",
-            "right": "Req 6b: Radio Station Identification: Call signs serve as unique legal identifiers assigned to radio stations by regulatory authorities. Commercial stations generally use four letter names starting with K or W, while amateur operators hold alphanumeric call signs indicating country and license class."
+            "left": "Federal Commission Mandate: The Federal Communications Commission regulates non federal radio, wire, satellite, and cable domestic telecommunications.",
+            "right": "(6c) International Phonetic Communications: The international phonetic alphabet assigns specific words to each letter of the alphabet to eliminate misunderstandings over noisy voice channels. Critical information like call signs, coordinates, and emergency traffic must be spelled phonetically."
           },
           {
             "attribute": "Broadcast Station Prefixes",
-            "left": "Req 6c: International Phonetic: The international phonetic alphabet assigns specific words to each letter of the alphabet to eliminate misunderstandings over noisy voice channels. Critical information like call signs, coordinates, and emergency traffic must be spelled phonetically.",
-            "right": "Global Spectrum Coordination: The International Telecommunication Union coordinates international frequency allocations to prevent harmful cross border interference."
+            "left": "Broadcast Station Prefixes: United States broadcast stations historically receive call signs beginning with letters K or W.",
+            "right": "Aviation Phonetic Alphabet: Standard phonetic alphabets substitute distinct multi syllable words for letters to guarantee audio voice clarity."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 6 Exemplar Workbook Entry: Radio Regulations",
+        "title": "Radio Req 6 Worked Example: Telecommunications Spectrum Governance",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Telecommunications Regulatory": "The Federal Communications Commission is a United States government agency that regulates commercial, public, and private communications. The International Telecommunication Union is a United Nations agency that coordinates global spectrum allocations and satellite orbits.",
-          "Req 6b - Radio Station Identification": "Call signs serve as unique legal identifiers assigned to radio stations by regulatory authorities. Commercial stations generally use four letter names starting with K or W, while amateur operators hold alphanumeric call signs indicating country and license class.",
-          "Req 6c - International Phonetic": "The international phonetic alphabet assigns specific words to each letter of the alphabet to eliminate misunderstandings over noisy voice channels. Critical information like call signs, coordinates, and emergency traffic must be spelled phonetically."
+          "Phase 1 - Regulatory Domain Comparison": "Contrast domestic Federal Communications Commission enforcement powers against treaty based International Telecommunication Union coordination.",
+          "Phase 2 - Call Sign Structure Analysis": "Deconstruct sample amateur and broadcast station call signs into nationality prefixes and operating zones.",
+          "Phase 3 - Phonetic Alphabet Recitation": "Spell personal name and troop identification aloud using standard International Civil Aviation Organization phonetics.",
+          "Phase 4 - Radio Log Entry Practice": "Record station call signs, operating frequencies, signal reports, and Greenwich Mean Time in station logbooks."
         },
-        "sample_output": "Radio Regulations and Operating Procedures: Each is a message in itself, with two meanings, one with a question mark following, one (p. 10).",
-        "counselor_tip": "For Radio Requirement 6 (Radio Regulations and Operating Procedures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 10, p. 43))."
+        "sample_output": "Radio regulations manage spectrum allocation to prevent destructive interference between commercial broadcasters, maritime navigators, emergency services, and amateur operators. Station call signs identify transmitting operators while international phonetic words ensure critical operational details transmit clearly over noisy channels.",
+        "counselor_tip": "During the Radio Requirement 6 conference on Telecommunications Spectrum Governance, verify that the Scout can explain federal commission mandate and demonstrate radio log entry practice: Record station call signs, operating frequencies, signal reports, and Greenwich Mean Time in station logbooks."
       },
       "quiz_item": {
         "scenario_prompt": "How does a three-letter Q-signal change its meaning during a Morse code or digital contact?",
@@ -3687,7 +3700,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Turn off or isolate damaged cellular phone batteries showing signs of physical impact, denting, or liquid intrusion.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33)",
       "syllabus_bucket": "In-Class Concept",
@@ -3782,22 +3795,22 @@
           },
           {
             "attribute": "Atomic Clock Synchronization",
-            "left": "Req 7a: Cellular Network: Cellular networks divide coverage areas into geographic cells, each served by a base station running computerized frequency reuse. In contrast, broadcast radio uses high power transmitters covering whole regions, and hobby radio involves direct peer communication.",
-            "right": "Req 7b: Aviation Mode Operations: Airplane mode disables cellular, Wi Fi, and Bluetooth radio transmitters inside mobile phones. Airlines require this mode during flight to prevent stray radio emissions from interfering with aircraft navigation and communication systems."
+            "left": "Atomic Clock Synchronization: Cellular base stations pull precise time stamps from Global Positioning System atomic clock constellations.",
+            "right": "Network Congestion Vulnerability: Heavy emergency telephone traffic jams local cellular network switches during severe widespread natural disasters."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 7 Exemplar Workbook Entry: Cellular Networks",
+        "title": "Radio Req 7 Worked Example: Cellular Telecommunications Systems",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Cellular Network Architecture": "Cellular networks divide coverage areas into geographic cells, each served by a base station running computerized frequency reuse. In contrast, broadcast radio uses high power transmitters covering whole regions, and hobby radio involves direct peer communication.",
-          "Req 7b - Aviation Mode Operations": "Airplane mode disables cellular, Wi Fi, and Bluetooth radio transmitters inside mobile phones. Airlines require this mode during flight to prevent stray radio emissions from interfering with aircraft navigation and communication systems.",
-          "Req 7c - Satellite Geolocation": "Cell phones maintain accurate time by synchronizing with network cell towers locked to atomic clocks. They calculate location and elevation by measuring time delays of radio signals received from GPS and GNSS satellite constellations.",
-          "Req 7d - Emergency Mobile": "Cell phones provide instant access to emergency 911 dispatch and automated location reporting during personal emergencies. However, physical dead zones in remote wilderness and network congestion during regional disasters severely limit their reliability."
+          "Phase 1 - Cellular Setting Inspection": "Access device network settings menus to observe cellular carrier bands, Wi Fi, and Bluetooth radios.",
+          "Phase 2 - Airplane Mode Toggle": "Activate airplane mode to verify the instant cessation of all wireless transmission hardware activities.",
+          "Phase 3 - Location Service Calibration": "Compare phone elevation and coordinate readouts against known geographic topographic bench marks and maps.",
+          "Phase 4 - Induction Coil Alignment": "Position a cellular handset over a wireless charging pad to observe electromagnetic induction charging coupling."
         },
-        "sample_output": "Cellular Networks and Mobile Technology: Block Diagrams, Schematics, Modulation, and Cell phones Cell phones Cell phones use radio waves to allow you to communicate with friends and family (p. 32).",
-        "counselor_tip": "For Radio Requirement 7 (Cellular Networks and Mobile Technology), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33))."
+        "sample_output": "Cellular networks divide geographic coverage territories into contiguous cells served by computer controlled base station transceivers. Smartphones combine two way ultra high frequency transceivers with satellite positioning chips to provide data, emergency calling, and navigation.",
+        "counselor_tip": "During the Radio Requirement 7 conference on Cellular Telecommunications Systems, verify that the Scout can explain cellular handover method and demonstrate induction coil alignment: Position a cellular handset over a wireless charging pad to observe electromagnetic induction charging coupling."
       },
       "quiz_item": {
         "scenario_prompt": "Why is a modern smartphone considered both a computer and a complete two-way radio station?",
@@ -6647,7 +6660,7 @@
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Confirm transmitter output power does not exceed licensed regulatory boundaries or human radio frequency exposure thresholds.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -6718,7 +6731,6 @@
         "Step 4 - Regulatory Compliance Review: Check operating power, frequency boundaries, and legal station identification rules against governing federal communications standards."
       ],
       "gear_checklist": [
-        "Official Radio merit badge pamphlet and workbook organizer for Req 8.",
         "Radio field toolkit, inspection gauge, and protective eyewear for Operational Radio Specializations.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 8."
@@ -6747,22 +6759,22 @@
           },
           {
             "attribute": "Direction Finding Bearings",
-            "left": "Req 8a: Amateur Radio Licensing: Amateur radio exists to advance technical radio skills, train volunteer emergency communicators, and promote international goodwill. Licensed operators build personal stations, communicate worldwide via HF skywaves, bounce signals off satellites, and provide storm spotting communications.",
-            "right": "Req 8b: Commercial Radio: Radio broadcasting involves transmitting audio programming to the general public over assigned AM and FM channels. Stations must adhere to stringent FCC regulations regarding carrier frequency tolerance, maximum effective radiated power, and automated Emergency Alert System equipment."
+            "left": "Direction Finding Bearings: Direction finding teams cross reference directional antenna compass bearings to pinpoint hidden radio transmitter locations.",
+            "right": "Unlicensed FRS Bounds: Family Radio Service handheld radios operate on preprogrammed channels with fixed non detachable antennas strictly."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 8 Exemplar Workbook Entry: Hands-On Radio",
+        "title": "Radio Req 8 Worked Example: Operational Radio Specializations",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 8a - Amateur Radio Licensing": "Amateur radio exists to advance technical radio skills, train volunteer emergency communicators, and promote international goodwill. Licensed operators build personal stations, communicate worldwide via HF skywaves, bounce signals off satellites, and provide storm spotting communications.",
-          "Req 8b - Commercial Radio Broadcasting": "Radio broadcasting involves transmitting audio programming to the general public over assigned AM and FM channels. Stations must adhere to stringent FCC regulations regarding carrier frequency tolerance, maximum effective radiated power, and automated Emergency Alert System equipment.",
-          "Req 8c - Shortwave Signal Monitoring": "Shortwave listening allows enthusiasts to tune in international news broadcasts, time standard stations, and utility transmissions across the HF spectrum. Medium wave AM broadcast listening focuses on night skywave reception of distant domestic radio stations.",
-          "Req 8d - Radio Direction Finding": "Amateur Radio Direction Finding combines radio monitoring skills with wilderness orienteering to locate hidden radio transmitters. Operators use directional antennas, attenuators, and topographic compass bearings to track down search and rescue beacons or rogue transmitters."
+          "Phase 1 - Specialized Path Selection": "Choose one specific study track from amateur radio, broadcasting, shortwave listening, direction finding, or walkie talkies.",
+          "Phase 2 - Hardware Configuration Setup": "Assemble authorized transceivers, directional loop antennas, or shortwave receiver listening equipment for chosen track operations.",
+          "Phase 3 - Field Monitoring Execution": "Log technical reception parameters, frequency data, call signs, and signal strength across four operational listening periods.",
+          "Phase 4 - Regulatory Compliance Review": "Check operating power, frequency boundaries, and legal station identification rules against governing federal communications standards."
         },
-        "sample_output": "Hands-On Radio Operating Options: These stations are fun to listen to, and many shortwave listeners (SWLs) spend all of their listening time on SWB stations (p. 72).",
-        "counselor_tip": "For Radio Requirement 8 (Hands-On Radio Operating Options), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73))."
+        "sample_output": "Scouts explore specialized radio pathways by engaging with amateur radio, commercial broadcasting, shortwave listening, radio direction finding, or family walkie talkies. Each pathway involves specific technical operating protocols, frequency limits, and regulatory licensing requirements.",
+        "counselor_tip": "During the Radio Requirement 8 conference on Operational Radio Specializations, verify that the Scout can explain amateur license levels and demonstrate regulatory compliance review: Check operating power, frequency boundaries, and legal station identification rules against governing federal communications standards."
       },
       "quiz_item": {
         "scenario_prompt": "What makes listening to international shortwave broadcast stations such as Voice of America, China Radio International, and Radio Havana educational for a Scout?",
@@ -7035,7 +7047,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Climb antenna towers only with certified fall arrest harnesses, hard hats, and approved professional safety equipment.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 85, p. 87)",
       "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 85, p. 87)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -7109,19 +7121,20 @@
         "Step 4 - Professional Volunteer: Conduct a structured informational interview with a licensed radio technician or volunteer emergency radio coordinator."
       ],
       "gear_checklist": [
-        "Official Radio merit badge pamphlet and workbook organizer for Req 9.",
         "Radio field toolkit, inspection gauge, and protective eyewear for Radio Careers and Public Service.",
         "Manufacturer technical manual or BSA reference guide for the system studied.",
         "Completed observation table and counselor review notes for Req 9."
       ],
       "comparison_data": {
-        "left_header": "Req 9a: Telecommunications Engineering",
-        "right_header": "Req 9b: Volunteer Emergency",
+        "left_header": "Req 9a: Telecommunications Engineering Careers",
+        "right_header": "Req 9b: Volunteer Emergency Communications",
         "left_points": [
-          "(9a) Telecommunications Engineering Careers: Careers in radio span wireless network design, radar systems engineering, broadcast engineering, and military communications maintenance. These roles typically require degrees in electrical engineering, computer science, or specialized trade school certifications."
+          "(9a) Telecommunications Engineering Careers: Careers in radio span wireless network design, radar systems engineering, broadcast engineering, and military communications maintenance. These roles typically require degrees in electrical engineering, computer science, or specialized trade school certifications.",
+          "Engineering Degree Path: Electrical engineering university degrees prepare students for high frequency antenna design careers."
         ],
         "right_points": [
-          "(9b) Volunteer Emergency Communications: Scouts can leverage radio knowledge to support community events, severe weather spotting through Skywarn, and disaster communications with ARES. Building amateur radio stations provides lifelong technical learning, global friendship, and public service opportunities."
+          "(9b) Volunteer Emergency Communications: Scouts can leverage radio knowledge to support community events, severe weather spotting through Skywarn, and disaster communications with ARES. Building amateur radio stations provides lifelong technical learning, global friendship, and public service opportunities.",
+          "Emergency Service Net: Volunteer amateur operators deploy portable solar stations to provide emergency disaster relief."
         ],
         "rows": [
           {
@@ -7131,25 +7144,27 @@
           },
           {
             "attribute": "Avionics Maintenance Role",
-            "left": "Req 9a: Telecommunications: Careers in radio span wireless network design, radar systems engineering, broadcast engineering, and military communications maintenance. These roles typically require degrees in electrical engineering, computer science, or specialized trade school certifications.",
-            "right": "Req 9b: Volunteer Emergency: Scouts can leverage radio knowledge to support community events, severe weather spotting through Skywarn, and disaster communications with ARES. Building amateur radio stations provides lifelong technical learning, global friendship, and public service opportunities."
+            "left": "Engineering Degree Path: Electrical engineering university degrees prepare students for high frequency antenna design careers.",
+            "right": "Emergency Service Net: Volunteer amateur operators deploy portable solar stations to provide emergency disaster relief."
           },
           {
             "attribute": "Emergency Service Net",
-            "left": "Engineering Degree Path: Electrical engineering university degrees prepare students for high frequency antenna design careers.",
-            "right": "Avionics Maintenance Role: Certified avionics technicians inspect and calibrate aircraft radar and navigational communication transceivers."
+            "left": "Emergency Service Net: Volunteer amateur operators deploy portable solar stations to provide emergency disaster relief.",
+            "right": "Broadcast Field Engineer: Broadcast engineers maintain high power transmitters and comply with federal spectral emission rules."
           }
         ]
       },
       "worked_example": {
-        "title": "Radio Req 9 Exemplar Workbook Entry: Radio Careers",
+        "title": "Radio Req 9 Worked Example: Radio Careers and Public Service",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Telecommunications": "Careers in radio span wireless network design, radar systems engineering, broadcast engineering, and military communications maintenance. These roles typically require degrees in electrical engineering, computer science, or specialized trade school certifications.",
-          "Req 9b - Volunteer Emergency": "Scouts can leverage radio knowledge to support community events, severe weather spotting through Skywarn, and disaster communications with ARES. Building amateur radio stations provides lifelong technical learning, global friendship, and public service opportunities."
+          "Phase 1 - Career Field Exploration": "Select a specific professional radio occupation such as cellular network engineering or avionics radio maintenance.",
+          "Phase 2 - Educational Pathway Research": "Document the technical degree programs, vocational certifications, and apprenticeship requirements supporting that specific profession.",
+          "Phase 3 - Economic Prospect Analysis": "Research median annual compensation ranges, job growth forecasts, and advancement opportunities across regional telecommunications markets.",
+          "Phase 4 - Professional Volunteer": "Conduct a structured informational interview with a licensed radio technician or volunteer emergency radio coordinator."
         },
-        "sample_output": "Radio Careers and Volunteer Service: Talk to any operators, technicians, or engineers you meet about their positions, how they trained for the work, what they (p. 85).",
-        "counselor_tip": "For Radio Requirement 9 (Radio Careers and Volunteer Service), verify the Scout's own observations and specific pamphlet details (Official Scouting America Radio Merit Badge Pamphlet (p. 85, p. 87))."
+        "sample_output": "Radio career opportunities encompass radio frequency hardware engineering, cellular network architecture, commercial broadcast engineering, and avionics maintenance. Volunteers and hobbyists apply similar technical competencies to coordinate emergency disaster communications and community event safety networks.",
+        "counselor_tip": "During the Radio Requirement 9 conference on Radio Careers and Public Service, verify that the Scout can explain engineering degree path and demonstrate professional volunteer: Conduct a structured informational interview with a licensed radio technician or volunteer emergency radio coordinator."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Radio merit badge pamphlet, what is a practical way for a Scout to gain early hands-on experience toward a career in radio?",

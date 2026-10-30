@@ -376,13 +376,15 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Aquatic Sailing Hazard",
+        "left_header": "Req 1a: Aquatic Sailing Hazard Mitigation",
         "right_header": "Req 1b: Nautical First Aid Treatment",
         "left_points": [
-          "(1a) Aquatic Sailing Hazard Mitigation: Helmsmen identify dynamic risks including shifting shoals, squall lines, and swinging booms. Crew members communicate warnings before tacking to avoid traumatic blunt impact injuries."
+          "(1a) Aquatic Sailing Hazard Mitigation: Helmsmen identify dynamic risks including shifting shoals, squall lines, and swinging booms. Crew members communicate warnings before tacking to avoid traumatic blunt impact injuries.",
+          "Boom Strike Hazard: Sudden accidental jibes swing heavy aluminum spars violently across the open cockpit."
         ],
         "right_points": [
-          "(1b) Nautical First Aid Treatment: Cold water immersion triggers sudden gasping that can cause immediate submersion drowning. Sailors treat friction blisters with clean protective dressings and prevent dehydration through regular fluid consumption."
+          "(1b) Nautical First Aid Treatment: Cold water immersion triggers sudden gasping that can cause immediate submersion drowning. Sailors treat friction blisters with clean protective dressings and prevent dehydration through regular fluid consumption.",
+          "(1c) Safety Afloat Sailing Protocols: The nine points establish qualified supervision and personal flotation requirements across all aquatic operations. Buddy pairs monitor each other during heavy weather maneuvers and maintain visual craft contact."
         ],
         "rows": [
           {
@@ -392,26 +394,27 @@
           },
           {
             "attribute": "Cold Water Immersion",
-            "left": "Req 1a: Aquatic Sailing Hazard: Helmsmen identify dynamic risks including shifting shoals, squall lines, and swinging booms. Crew members communicate warnings before tacking to avoid traumatic blunt impact injuries.",
-            "right": "Req 1b: Nautical First Aid Treatment: Cold water immersion triggers sudden gasping that can cause immediate submersion drowning. Sailors treat friction blisters with clean protective dressings and prevent dehydration through regular fluid consumption."
+            "left": "Boom Strike Hazard: Sudden accidental jibes swing heavy aluminum spars violently across the open cockpit.",
+            "right": "(1c) Safety Afloat Sailing Protocols: The nine points establish qualified supervision and personal flotation requirements across all aquatic operations. Buddy pairs monitor each other during heavy weather maneuvers and maintain visual craft contact."
           },
           {
             "attribute": "Entanglement Risk",
-            "left": "Req 1c: Safety Afloat Sailing: The nine points establish qualified supervision and personal flotation requirements across all aquatic operations. Buddy pairs monitor each other during heavy weather maneuvers and maintain visual craft contact.",
-            "right": "Cold Water Immersion: Sudden thermal shock causes involuntary gasping and rapid loss of muscular control."
+            "left": "Entanglement Risk: Loose coiled sheets wrap around crew limbs during rapid capsize recovery drills.",
+            "right": "Overhead Electrical Hazards: Aluminum masts conduct lethal electrical current when contacting low hanging power lines."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 1 Exemplar Workbook Entry",
+        "title": "Small-Boat Sailing Req 1 Worked Example: Small-Boat Sailing Hazard Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Aquatic Sailing Hazard": "Helmsmen identify dynamic risks including shifting shoals, squall lines, and swinging booms. Crew members communicate warnings before tacking to avoid traumatic blunt impact injuries.",
-          "Req 1b - Nautical First Aid Treatment": "Cold water immersion triggers sudden gasping that can cause immediate submersion drowning. Sailors treat friction blisters with clean protective dressings and prevent dehydration through regular fluid consumption.",
-          "Req 1c - Safety Afloat Sailing": "The nine points establish qualified supervision and personal flotation requirements across all aquatic operations. Buddy pairs monitor each other during heavy weather maneuvers and maintain visual craft contact."
+          "Phase 1 - Hazard Assessment": "Scan launch channels for submerged shoals and low hanging utility line obstacles.",
+          "Phase 2 - Rigging Review": "Check all cotter pins and stay adjusters for secure mechanical locking rings.",
+          "Phase 3 - Crew Briefing": "Assign clear capsize roles and review boom collision avoidance safety duck protocols.",
+          "Phase 4 - Gear Securing": "Stow loose halyards and first aid kits within watertight underseat storage lockers."
         },
-        "sample_output": "Sailing Hazards and First Aid: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 1 (Sailing Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Sailing demands continuous anticipation of shifting atmospheric conditions and physical rigging hazards. Helmsmen must coordinate crew movement while monitoring environmental indicators to prevent water emergencies.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 1 conference on Small-Boat Sailing Hazard Management, verify that the Scout can explain boom strike hazard and demonstrate gear securing: Stow loose halyards and first aid kits within watertight underseat storage lockers."
       },
       "quiz_item": {
         "scenario_prompt": "While sailing a centerboard dinghy under BSA Safety Afloat rules, what are the three most important safety actions regarding lifejackets, the boom, and a capsize?",
@@ -495,7 +498,7 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Scouting Swimmer Classification Standard",
+      "topic_title": "Req 2: Scouting Swimmer Classification",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
@@ -570,47 +573,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Pre-Sail Readiness Check",
-        "right_header": "Req 2: Verify Rescue Support",
+        "left_header": "Scouting Swimmer Classification: Core Principles",
+        "right_header": "Scouting Swimmer Classification: Field Execution",
         "left_points": [
-          "Pre-Sail Readiness Check: Explain the importance of this task before setting sail (p. 6).",
-          "Counselor Capsize Supervision: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Rescue Boat Standby: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6)."
+          "Deep Water Entry: Jump feet first into water over head depth and level off smoothly.",
+          "Continuous Lap Distance: Swim one hundred yards continuously using strong forward arm strokes without resting."
         ],
         "right_points": [
-          "Verify Rescue Support: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Check Hull Drainage: Self-bailing boats are acceptable for this requirement (p. 6).",
-          "Review Seamanship Skills: Do Demonstrate a working knowledge of marlinespike seamanship (p. 6)."
+          "Stroke Mechanics Variety: Complete seventy five yards using an assertive forward stroke and twenty five breaststroke.",
+          "Resting Float Recovery: Maintain an effortless resting back float with minimal arm or leg movement."
         ],
         "rows": [
           {
             "attribute": "Deep Water Entry",
-            "left": "Pre-Sail Readiness Check: Explain the importance of this task before setting sail (p. 6).",
-            "right": "Verify Rescue Support: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6)."
+            "left": "Deep Water Entry: Jump feet first into water over head depth and level off smoothly.",
+            "right": "Stroke Mechanics Variety: Complete seventy five yards using an assertive forward stroke and twenty five breaststroke."
           },
           {
             "attribute": "Continuous Lap Distance",
-            "left": "Counselor Capsize Supervision: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-            "right": "Check Hull Drainage: Self-bailing boats are acceptable for this requirement (p. 6)."
+            "left": "Continuous Lap Distance: Swim one hundred yards continuously using strong forward arm strokes without resting.",
+            "right": "Resting Float Recovery: Maintain an effortless resting back float with minimal arm or leg movement."
           },
           {
             "attribute": "Stroke Mechanics Variety",
-            "left": "Rescue Boat Standby: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-            "right": "Review Seamanship Skills: Do Demonstrate a working knowledge of marlinespike seamanship (p. 6)."
+            "left": "Stroke Mechanics Variety: Complete seventy five yards using an assertive forward stroke and twenty five breaststroke.",
+            "right": "Resting Float Recovery: Maintain an effortless resting back float with minimal arm or leg movement."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 2 Exemplar Workbook Entry",
+        "title": "Small-Boat Sailing Req 2 Worked Example: Scouting Swimmer Classification",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Pre-Sail Readiness Check": "Explain the importance of this task before setting sail (p. 6).",
-          "Counselor Capsize Supervision": "Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Rescue Boat Standby": "A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Self-Bailing Boat Qualification": "Self-bailing boats are acceptable for this requirement (p. 6)."
+          "Phase 1 - Surface Plunge": "Leap cleanly into deep water feet first and level off without thrashing.",
+          "Phase 2 - Stroke Execution": "Propel forward seventy five yards using strong side or steady crawl strokes.",
+          "Phase 3 - Form Transition": "Switch stroke directly into twenty five yards of restful orthodox breaststroke technique.",
+          "Phase 4 - Buoyant Rest": "Roll backward into an motionless resting float while controlling regular breathing rhythm."
         },
-        "sample_output": "Scouting America Swimmer Qualification: Explain the importance of this task before setting sail (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 2 (Scouting America Swimmer Qualification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Completing the swimmer classification verifies stamina and comfort during deep water capsizes. Sailors execute jumps into deep water, swim continuous laps, and demonstrate effortless surface floating.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 2 conference on Scouting Swimmer Classification, verify that the Scout can explain deep water entry and demonstrate buoyant rest: Roll backward into an motionless resting float while controlling regular breathing rhythm."
       },
       "quiz_item": {
         "scenario_prompt": "What must a Scout demonstrate to pass the Scouting America swimmer test before participating in small-boat sailing requirements?",
@@ -773,47 +774,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 3: Supervised Capsize Readiness",
-        "right_header": "Req 3: Inspect Hull Design",
+        "left_header": "Sailing Craft Anatomy Function: Core Principles",
+        "right_header": "Sailing Craft Anatomy Function: Field Execution",
         "left_points": [
-          "Supervised Capsize Readiness: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Standby Tow Vessel: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Self-Bailing Cockpit Features: Self-bailing boats are acceptable for this requirement (p. 6)."
+          "Centerboard Hydrodynamic Lift: Lowered underwater foils counteract sideways leeway drift created by aerodynamic sail force.",
+          "Rudder Directional Steering: Pivoting underwater blades redirect stern water flow to pivot the vessel bow."
         ],
         "right_points": [
-          "Inspect Hull Design: Self-bailing boats are acceptable for this requirement (p. 6).",
-          "Explain Component Functions: Explain the importance of this task before setting sail (p. 6).",
-          "Sailboat Parts and Functions: Review the Small-Boat Sailing pamphlet standards for sailboat parts and functions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18)."
+          "Standing Rigging Support: Wire stays and shrouds stabilize aluminum masts against tremendous aerodynamic sail strain.",
+          "Running Rigging Adjustment: Halyards hoist sail corners while mainsheets trim boom angles against the wind."
         ],
         "rows": [
           {
             "attribute": "Centerboard Hydrodynamic Lift",
-            "left": "Supervised Capsize Readiness: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-            "right": "Inspect Hull Design: Self-bailing boats are acceptable for this requirement (p. 6)."
+            "left": "Centerboard Hydrodynamic Lift: Lowered underwater foils counteract sideways leeway drift created by aerodynamic sail force.",
+            "right": "Standing Rigging Support: Wire stays and shrouds stabilize aluminum masts against tremendous aerodynamic sail strain."
           },
           {
             "attribute": "Rudder Directional Steering",
-            "left": "Standby Tow Vessel: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-            "right": "Explain Component Functions: Explain the importance of this task before setting sail (p. 6)."
+            "left": "Rudder Directional Steering: Pivoting underwater blades redirect stern water flow to pivot the vessel bow.",
+            "right": "Running Rigging Adjustment: Halyards hoist sail corners while mainsheets trim boom angles against the wind."
           },
           {
             "attribute": "Standing Rigging Support",
-            "left": "Self-Bailing Cockpit Features: Self-bailing boats are acceptable for this requirement (p. 6).",
-            "right": "Sailboat Parts and Functions: Review the Small-Boat Sailing pamphlet standards for sailboat parts and functions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18)."
+            "left": "Standing Rigging Support: Wire stays and shrouds stabilize aluminum masts against tremendous aerodynamic sail strain.",
+            "right": "Running Rigging Adjustment: Halyards hoist sail corners while mainsheets trim boom angles against the wind."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 3 Exemplar Workbook Entry",
+        "title": "Small-Boat Sailing Req 3 Worked Example: Sailing Craft Anatomy Function",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Supervised Capsize Readiness": "Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Standby Tow Vessel": "A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Self-Bailing Cockpit Features": "Self-bailing boats are acceptable for this requirement (p. 6).",
-          "Pre-Launch Rigging Inspection": "Explain the importance of this task before setting sail (p. 6)."
+          "Phase 1 - Hull Inspection": "Examine the fiberglass hull, transom fittings, and cockpit self bailers for structural damage.",
+          "Phase 2 - Foil Installation": "Insert the centerboard or secure the daggerboard within the reinforced keel trunk.",
+          "Phase 3 - Rudder Attachment": "Mount pintles securely into gudgeons and lock the safety retaining clip down.",
+          "Phase 4 - Spar Rigging": "Secure shrouds and forestay before stepping the mast into the mast step."
         },
-        "sample_output": "Sailboat Parts and Functions: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 3 (Sailboat Parts and Functions), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Dinghies utilize daggerboards or centerboards to generate hydrodynamic lift preventing downwind sideways leeway drift. The rudder and tiller assemble at the transom to redirect stern water flow and control vessel heading.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 3 conference on Sailing Craft Anatomy Function, verify that the Scout can explain centerboard hydrodynamic lift and demonstrate spar rigging: Secure shrouds and forestay before stepping the mast into the mast step."
       },
       "quiz_item": {
         "scenario_prompt": "Which part of a small sailboat provides lateral resistance in the water to keep the boat from sliding sideways when sailing across or into the wind?",
@@ -1448,16 +1447,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 4a: Safety Afloat Nine Points",
-        "right_header": "Req 4d: Inclement Weather Response",
+        "right_header": "Req 4d: Inclement Weather Response Tactics",
         "left_points": [
           "(4a) Safety Afloat Nine Points: Safety Afloat establishes mandatory supervision, physical fitness standards, and designated craft boundaries. Qualified adult leaders verify weather conditions and maintain active buddy pairs throughout the float.",
-          "(4b) Maritime Navigation Rules Road: Port tack vessels yield to starboard tack vessels, and windward vessels give way to leeward craft. Overtaking vessels must stay clear of overtaken craft regardless of sail trim configurations.",
-          "(4c) Water And Wind Hazards: High winds increase heeling forces, requiring crew weight shifts and rapid sheet easing to prevent capsizes. Choppy wave conditions induce leeway drift, reduce forward boat speed, and swamp low freeboard hulls."
+          "(4b) Maritime Navigation Rules Road: Port tack vessels yield to starboard tack vessels, and windward vessels give way to leeward craft. Overtaking vessels must stay clear of overtaken craft regardless of sail trim configurations."
         ],
         "right_points": [
           "(4d) Inclement Weather Response Tactics: Sudden temperature drops, shifting winds, and darkening clouds indicate incoming frontal storms. Skippers should drop sails immediately, secure loose gear, and paddle toward safe harbor shelters.",
-          "(4e) Float Plan Route Preparation: A written float plan documents boat hull markings, crew identities, intended waypoints, and expected return times. Shoreside monitors use this vital record to direct rescue authorities if boats become overdue.",
-          "(4f) Nautical Personal Protective Gear: Proper gear includes non skid sailing shoes, polarized sunglasses with safety retainers, and snug thermal apparel. Wet suits or dry suits trap insulating layers against cold spray to preserve core warmth."
+          "(4e) Float Plan Route Preparation: A written float plan documents boat hull markings, crew identities, intended waypoints, and expected return times. Shoreside monitors use this vital record to direct rescue authorities if boats become overdue."
         ],
         "rows": [
           {
@@ -1466,28 +1463,28 @@
             "right": "(4d) Inclement Weather Response Tactics: Sudden temperature drops, shifting winds, and darkening clouds indicate incoming frontal storms. Skippers should drop sails immediately, secure loose gear, and paddle toward safe harbor shelters."
           },
           {
-            "attribute": "Right Of Way",
+            "attribute": "Right of Way",
             "left": "(4b) Maritime Navigation Rules Road: Port tack vessels yield to starboard tack vessels, and windward vessels give way to leeward craft. Overtaking vessels must stay clear of overtaken craft regardless of sail trim configurations.",
             "right": "(4e) Float Plan Route Preparation: A written float plan documents boat hull markings, crew identities, intended waypoints, and expected return times. Shoreside monitors use this vital record to direct rescue authorities if boats become overdue."
           },
           {
             "attribute": "Thermal Clothing Selection",
-            "left": "(4c) Water And Wind Hazards: High winds increase heeling forces, requiring crew weight shifts and rapid sheet easing to prevent capsizes. Choppy wave conditions induce leeway drift, reduce forward boat speed, and swamp low freeboard hulls.",
-            "right": "(4f) Nautical Personal Protective Gear: Proper gear includes non skid sailing shoes, polarized sunglasses with safety retainers, and snug thermal apparel. Wet suits or dry suits trap insulating layers against cold spray to preserve core warmth."
+            "left": "Thermal Clothing Selection: Layer synthetic fleece and windproof shells while avoiding heat draining wet cotton fabrics.",
+            "right": "Squall Visual Indicators: Dark towering cumulonimbus clouds signal sudden violent gusts and rapid wind shifts."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 4 Exemplar Workbook Entry: Safety",
+        "title": "Small-Boat Sailing Req 4 Worked Example: Pre-Voyage Safety Weather Planning",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Safety Afloat Nine Points": "Safety Afloat establishes mandatory supervision, physical fitness standards, and designated craft boundaries. Qualified adult leaders verify weather conditions and maintain active buddy pairs throughout the float.",
-          "Req 4b - Maritime Navigation Rules": "Port tack vessels yield to starboard tack vessels, and windward vessels give way to leeward craft. Overtaking vessels must stay clear of overtaken craft regardless of sail trim configurations.",
-          "Req 4c - Water and Wind Hazards": "High winds increase heeling forces, requiring crew weight shifts and rapid sheet easing to prevent capsizes. Choppy wave conditions induce leeway drift, reduce forward boat speed, and swamp low freeboard hulls.",
-          "Req 4d - Inclement Weather Response": "Sudden temperature drops, shifting winds, and darkening clouds indicate incoming frontal storms. Skippers should drop sails immediately, secure loose gear, and paddle toward safe harbor shelters."
+          "Phase 1 - Document Creation": "Draft a float plan detailing vessel description, intended course, and emergency contact numbers.",
+          "Phase 2 - Barometer Monitoring": "Check local marine weather broadcasts for squall warnings and falling atmospheric barometric trends.",
+          "Phase 3 - Gear Selection": "Don closed toe non marking deck shoes and layered moisture wicking synthetic apparel.",
+          "Phase 4 - Navigation Briefing": "Review port and starboard tack right of way rules before leaving the marina."
         },
-        "sample_output": "Safety Afloat and Weather Planning: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 4 (Safety Afloat and Weather Planning), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Pre-voyage preparation requires filing detailed float plans and evaluating impending meteorological pressure shifts. Skippers assess navigational collision regulations and dress in thermal synthetic layers to mitigate exposure risks.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 4 conference on Pre-Voyage Safety Weather Planning, verify that the Scout can explain float plan dispatch and demonstrate navigation briefing: Review port and starboard tack right of way rules before leaving the marina."
       },
       "quiz_item": {
         "scenario_prompt": "According to the navigation rules of the road, what happens when two sailboats approach each other on opposite tacks?",
@@ -1641,47 +1638,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Pre-Sail Wind Assessment",
-        "right_header": "Req 5: Spot Onshore Indicators",
+        "left_header": "Wind Direction Indicator Identification: Core Principles",
+        "right_header": "Wind Direction Indicator Identification: Field Execution",
         "left_points": [
-          "Pre-Sail Wind Assessment: Explain the importance of this task before setting sail (p. 6).",
-          "Capsize Drill Supervision: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Rescue Boat Positioning: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6)."
+          "Masthead Fly Observation: Pivoting wind vanes mounted at mastheads indicate instantaneous apparent wind direction overhead.",
+          "Surface Water Ripples: Dark patches of ripples moving across calm water reveal approaching fresh wind gusts."
         ],
         "right_points": [
-          "Spot Onshore Indicators: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Read Water Ripples: Self-bailing boats are acceptable for this requirement (p. 6).",
-          "Cross-Check Wind Direction: Cross-check your Wind Direction and Wind Indicators technique, measurements, and results (p. 26)."
+          "Facial Sensory Perception: Turning face directly into the breeze reveals accurate wind bearing across both cheeks.",
+          "Shrouded Sail Telltales: Streaming yarn ribbons taped on sail fabric indicate laminar air attachment or stall."
         ],
         "rows": [
           {
             "attribute": "Masthead Fly Observation",
-            "left": "Pre-Sail Wind Assessment: Explain the importance of this task before setting sail (p. 6).",
-            "right": "Spot Onshore Indicators: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6)."
+            "left": "Masthead Fly Observation: Pivoting wind vanes mounted at mastheads indicate instantaneous apparent wind direction overhead.",
+            "right": "Facial Sensory Perception: Turning face directly into the breeze reveals accurate wind bearing across both cheeks."
           },
           {
             "attribute": "Surface Water Ripples",
-            "left": "Capsize Drill Supervision: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-            "right": "Read Water Ripples: Self-bailing boats are acceptable for this requirement (p. 6)."
+            "left": "Surface Water Ripples: Dark patches of ripples moving across calm water reveal approaching fresh wind gusts.",
+            "right": "Shrouded Sail Telltales: Streaming yarn ribbons taped on sail fabric indicate laminar air attachment or stall."
           },
           {
             "attribute": "Facial Sensory Perception",
-            "left": "Rescue Boat Positioning: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-            "right": "Cross-Check Wind Direction: Cross-check your Wind Direction and Wind Indicators technique, measurements, and results (p. 26)."
+            "left": "Facial Sensory Perception: Turning face directly into the breeze reveals accurate wind bearing across both cheeks.",
+            "right": "Shrouded Sail Telltales: Streaming yarn ribbons taped on sail fabric indicate laminar air attachment or stall."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 5 Exemplar Workbook Entry: Wind",
+        "title": "Small-Boat Sailing Req 5 Worked Example: Wind Direction Indicator Identification",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Pre-Sail Wind Assessment": "Explain the importance of this task before setting sail (p. 6).",
-          "Capsize Drill Supervision": "Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Rescue Boat Positioning": "A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Self-Bailing Craft Selection": "Self-bailing boats are acceptable for this requirement (p. 6)."
+          "Phase 1 - Shoreline Observation": "Check shoreline flags and wave direction to determine general prevailing true wind bearing.",
+          "Phase 2 - Masthead Alignment": "Look directly upward at the masthead vane to confirm localized surface wind angles.",
+          "Phase 3 - Sail Ribbon Check": "Observe windward and leeward jib telltales while slowly heading into the breeze.",
+          "Phase 4 - Course Plotting": "Identify the no sail zone boundaries before releasing shore dock mooring lines."
         },
-        "sample_output": "Wind Direction and Indicators: Explain the importance of this task before setting sail (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 5 (Wind Direction and Indicators), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Sensing true and apparent wind enables helmsmen to choose appropriate points of sail before casting off. Sailors observe surface ripples, masthead fly telltales, and shore flags to plan dock departures without entering irons.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 5 conference on Wind Direction Indicator Identification, verify that the Scout can explain masthead fly observation and demonstrate course plotting: Identify the no sail zone boundaries before releasing shore dock mooring lines."
       },
       "quiz_item": {
         "scenario_prompt": "How can a sailor accurately identify the wind direction before leaving the dock or beach?",
@@ -2613,47 +2608,45 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Pre-Sail Rigging Safety",
+        "left_header": "Req 6a: Pre-Sail Rigging Safety Inspection",
         "right_header": "Req 6f: Heaving to Safety Position",
         "left_points": [
           "(6a) Pre-Sail Rigging Safety Inspection: Rigging inspection confirms hull integrity, rudder pin retention, and halyard shackle locks before launch. Crew members secure drain plugs tightly to prevent catastrophic cockpit flooding while underway.",
-          "(6b) Dock Departure Underway Maneuvers: Departing requires pushing the bow onto a reach before trimming sheets to gather forward steerage. Helmsmen coordinate line release so wind pushes the hull cleanly into open navigation channels.",
-          "(6c) Course Sail Trim Points: Beating demands tight sail trim and lowered foils, while reaching eases sails halfway out. When running before the wind, centerboards are raised halfway to reduce underwater drag and leeway friction."
+          "(6b) Dock Departure Underway Maneuvers: Departing requires pushing the bow onto a reach before trimming sheets to gather forward steerage. Helmsmen coordinate line release so wind pushes the hull cleanly into open navigation channels."
         ],
         "right_points": [
-          "(6f) Heaving To Safety Position: The safety position arrests forward movement by backing the jib and lashing the helm down. The mainsail feathers harmlessly, holding the boat stable in open water for crew rest or reefing.",
-          "(6g) Capsize And Overboard Rescue: During capsizes, crew members stay with the hull, lower sails, and apply body weight on the centerboard. Rescuing an overboard sailor requires circling downwind and luffing alongside on a close reach.",
-          "(6h) Aground Vessel Recovery Actions: Running aground requires immediate sail easing to eliminate heeling and forward drive against shoals. Crew members raise the centerboard, shift weight aft, and use paddles to push into deeper water."
+          "(6f) Heaving to Safety Position: The safety position arrests forward movement by backing the jib and lashing the helm down. The mainsail feathers harmlessly, holding the boat stable in open water for crew rest or reefing.",
+          "(6g) Capsize and Overboard Rescue: During capsizes, crew members stay with the hull, lower sails, and apply body weight on the centerboard. Rescuing an overboard sailor requires circling downwind and luffing alongside on a close reach."
         ],
         "rows": [
           {
             "attribute": "Controlled Tack Rotation",
             "left": "(6a) Pre-Sail Rigging Safety Inspection: Rigging inspection confirms hull integrity, rudder pin retention, and halyard shackle locks before launch. Crew members secure drain plugs tightly to prevent catastrophic cockpit flooding while underway.",
-            "right": "(6f) Heaving To Safety Position: The safety position arrests forward movement by backing the jib and lashing the helm down. The mainsail feathers harmlessly, holding the boat stable in open water for crew rest or reefing."
+            "right": "(6f) Heaving to Safety Position: The safety position arrests forward movement by backing the jib and lashing the helm down. The mainsail feathers harmlessly, holding the boat stable in open water for crew rest or reefing."
           },
           {
             "attribute": "Controlled Jibe Sweep",
             "left": "(6b) Dock Departure Underway Maneuvers: Departing requires pushing the bow onto a reach before trimming sheets to gather forward steerage. Helmsmen coordinate line release so wind pushes the hull cleanly into open navigation channels.",
-            "right": "(6g) Capsize And Overboard Rescue: During capsizes, crew members stay with the hull, lower sails, and apply body weight on the centerboard. Rescuing an overboard sailor requires circling downwind and luffing alongside on a close reach."
+            "right": "(6g) Capsize and Overboard Rescue: During capsizes, crew members stay with the hull, lower sails, and apply body weight on the centerboard. Rescuing an overboard sailor requires circling downwind and luffing alongside on a close reach."
           },
           {
             "attribute": "Capsize Daggerboard Leverage",
-            "left": "(6c) Course Sail Trim Points: Beating demands tight sail trim and lowered foils, while reaching eases sails halfway out. When running before the wind, centerboards are raised halfway to reduce underwater drag and leeway friction.",
-            "right": "(6h) Aground Vessel Recovery Actions: Running aground requires immediate sail easing to eliminate heeling and forward drive against shoals. Crew members raise the centerboard, shift weight aft, and use paddles to push into deeper water."
+            "left": "Capsize Daggerboard Leverage: Stand on the exposed daggerboard foil to lever the submerged mast upright.",
+            "right": "Overboard Rescue Approach: Circle back on a close reach to stop boat momentum beside the victim."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 6 Exemplar Workbook Entry",
+        "title": "Small-Boat Sailing Req 6 Worked Example: Underway Boat Handling Seamanship",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Pre-Sail Rigging Safety": "Rigging inspection confirms hull integrity, rudder pin retention, and halyard shackle locks before launch. Crew members secure drain plugs tightly to prevent catastrophic cockpit flooding while underway.",
-          "Req 6b - Dock Departure Underway": "Departing requires pushing the bow onto a reach before trimming sheets to gather forward steerage. Helmsmen coordinate line release so wind pushes the hull cleanly into open navigation channels.",
-          "Req 6c - Course Sail Trim Points": "Beating demands tight sail trim and lowered foils, while reaching eases sails halfway out. When running before the wind, centerboards are raised halfway to reduce underwater drag and leeway friction.",
-          "Req 6d - Tacking and Jibing Maneuvers": "Tacking turns the bow through the eye of the wind while crew shifts smoothly across cockpit decks. Jibing swings the stern through the wind, demanding active boom centering to cushion crossing loads."
+          "Phase 1 - Hull Inspection": "Inspect drain plugs, check standing wire rigging, and confirm centerboard deployment functionality.",
+          "Phase 2 - Departure Clearance": "Cast off dock lines while pushing the bow toward a clear reach angle.",
+          "Phase 3 - Course Execution": "Steer an approved course demonstrating close hauled beating, beam reaching, and broad running.",
+          "Phase 4 - Mooring Securing": "Luff sails completely into the wind while easing sheets to stop beside dock."
         },
-        "sample_output": "On-the-Water Sailing Maneuvers: Explain the importance of this task before setting sail (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 6 (On-the-Water Sailing Maneuvers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Mastering dinghy seamanship requires smooth coordination between helmsman and crew across all points of sail. Sailors maintain balanced trim, execute controlled tacks and jibes, and demonstrate swift capsize recovery procedures.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 6 conference on Underway Boat Handling Seamanship, verify that the Scout can explain controlled tack rotation and demonstrate mooring securing: Luff sails completely into the wind while easing sheets to stop beside dock."
       },
       "quiz_item": {
         "scenario_prompt": "In what specific ways do you recover a small sailboat that has stalled head-to-wind in irons?",
@@ -3060,39 +3053,42 @@
         "left_header": "Req 7a: Essential Nautical Knot Tying",
         "right_header": "Req 7b: Line Throwing and Coiling",
         "left_points": [
-          "(7a) Essential Nautical Knot Tying: Sailors master knots including the bowline for halyard loops and figure eights for stopper knots. Clove hitches and two half hitches secure temporary mooring fenders, while cleat hitches belay halyards."
+          "(7a) Essential Nautical Knot Tying: Sailors master knots including the bowline for halyard loops and figure eights for stopper knots. Clove hitches and two half hitches secure temporary mooring fenders, while cleat hitches belay halyards.",
+          "Bowline Non Slip Loop: Form an unshakeable fixed eye loop that will not slip under load."
         ],
         "right_points": [
-          "(7b) Line Throwing And Coiling: Heaving a line requires splitting coils evenly between throwing and holding hands before launching forward. Faking down lays cordage in alternating loops across decks to run freely through blocks without kink snarls."
+          "(7b) Line Throwing and Coiling: Heaving a line requires splitting coils evenly between throwing and holding hands before launching forward. Faking down lays cordage in alternating loops across decks to run freely through blocks without kink snarls.",
+          "(7c) Synthetic Cordage Fiber Construction: Modern sailboats employ synthetic fibers tailored specifically to distinct deck applications and loads. Dacron resists elongation for halyards, nylon provides shock absorption for dock lines, and polypropylene floats."
         ],
         "rows": [
           {
             "attribute": "Bowline Non Slip Loop",
             "left": "(7a) Essential Nautical Knot Tying: Sailors master knots including the bowline for halyard loops and figure eights for stopper knots. Clove hitches and two half hitches secure temporary mooring fenders, while cleat hitches belay halyards.",
-            "right": "(7b) Line Throwing And Coiling: Heaving a line requires splitting coils evenly between throwing and holding hands before launching forward. Faking down lays cordage in alternating loops across decks to run freely through blocks without kink snarls."
+            "right": "(7b) Line Throwing and Coiling: Heaving a line requires splitting coils evenly between throwing and holding hands before launching forward. Faking down lays cordage in alternating loops across decks to run freely through blocks without kink snarls."
           },
           {
             "attribute": "Cleat Hitch Security",
-            "left": "Req 7a: Essential Nautical Knot: Sailors master knots including the bowline for halyard loops and figure eights for stopper knots. Clove hitches and two half hitches secure temporary mooring fenders, while cleat hitches belay halyards.",
-            "right": "Req 7b: Line Throwing And Coiling: Heaving a line requires splitting coils evenly between throwing and holding hands before launching forward. Faking down lays cordage in alternating loops across decks to run freely through blocks without kink snarls."
+            "left": "Bowline Non Slip Loop: Form an unshakeable fixed eye loop that will not slip under load.",
+            "right": "(7c) Synthetic Cordage Fiber Construction: Modern sailboats employ synthetic fibers tailored specifically to distinct deck applications and loads. Dacron resists elongation for halyards, nylon provides shock absorption for dock lines, and polypropylene floats."
           },
           {
             "attribute": "Dacron Halyard Strength",
-            "left": "Req 7c: Synthetic Cordage Fiber: Modern sailboats employ synthetic fibers tailored specifically to distinct deck applications and loads. Dacron resists elongation for halyards, nylon provides shock absorption for dock lines, and polypropylene floats.",
-            "right": "Cleat Hitch Security: Wrap a clean locking hitch around deck cleats without jamming redundant hitches."
+            "left": "Dacron Halyard Strength: Low stretch polyester fibers maintain steady sail shape without stretching under hoist tension.",
+            "right": "Faking Down Preparedness: Flake sheets in overlapping figure eight patterns for rapid, jam free line running."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 7 Exemplar Workbook Entry",
+        "title": "Small-Boat Sailing Req 7 Worked Example: Marlinespike Seamanship Line Handling",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 7a - Essential Nautical Knot Tying": "Sailors master knots including the bowline for halyard loops and figure eights for stopper knots. Clove hitches and two half hitches secure temporary mooring fenders, while cleat hitches belay halyards.",
-          "Req 7b - Line Throwing and Coiling": "Heaving a line requires splitting coils evenly between throwing and holding hands before launching forward. Faking down lays cordage in alternating loops across decks to run freely through blocks without kink snarls.",
-          "Req 7c - Synthetic Cordage Fiber": "Modern sailboats employ synthetic fibers tailored specifically to distinct deck applications and loads. Dacron resists elongation for halyards, nylon provides shock absorption for dock lines, and polypropylene floats."
+          "Phase 1 - Knot Execution": "Tie a secure bowline and figure eight stopper knot in specified line ends.",
+          "Phase 2 - Cleat Fastening": "Wrap a round turn, figure eight crosses, and reverse locking half hitch on cleats.",
+          "Phase 3 - Line Throwing": "Coil half the line in each hand and heave smoothly toward target crew.",
+          "Phase 4 - Cordage Inspection": "Evaluate nylon versus polyester lines for stretch, sun rot, and core abrasion damage."
         },
-        "sample_output": "Marlinespike Seamanship and Knots: Do Demonstrate a working knowledge of marlinespike seamanship (p. 7).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 7 (Marlinespike Seamanship and Knots), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8))."
+        "sample_output": "Marlinespike seamanship encompasses knot craft, cordage materials, and line storage methods on deck. Sailors select synthetic fibers based on stretch requirements and coil lines neatly to ensure foul free deployment.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 7 conference on Marlinespike Seamanship Line Handling, verify that the Scout can explain bowline non slip loop and demonstrate cordage inspection: Evaluate nylon versus polyester lines for stretch, sun rot, and core abrasion damage."
       },
       "quiz_item": {
         "scenario_prompt": "Which knot is known as the king of knots on a sailboat because it forms a fixed loop that never slips under load yet unties easily afterward?",
@@ -3239,47 +3235,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Routine Gear Inspection",
-        "right_header": "Req 8: Rinse Hull and Gear",
+        "left_header": "Annual Sailboat Maintenance Care: Core Principles",
+        "right_header": "Annual Sailboat Maintenance Care: Field Execution",
         "left_points": [
-          "Routine Gear Inspection: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Hull and Hardware Care: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Sail Folding and Storage: Self-bailing boats are acceptable for this requirement (p. 6)."
+          "Freshwater Hardware Rinse: Wash salt crystals off stainless blocks and anodized aluminum spars to stop corrosion.",
+          "Fiberglass Gelcoat Protection: Apply marine paste wax on topsides to shield gelcoat against destructive solar rays."
         ],
         "right_points": [
-          "Rinse Hull and Gear: Self-bailing boats are acceptable for this requirement (p. 6).",
-          "Dry and Stow Sails: Explain the importance of this task before setting sail (p. 6).",
-          "Inspect Standing Rigging: Cross-check your You would care for and maintain technique, measurements, and results with a patrol (p. 38)."
+          "Sail Cleaning Mildew: Wash sailcloth with mild freshwater detergent and dry completely before winterizing inside bags.",
+          "Winter Storage Elevation: Support stored boat hulls on shaped bunks off the ground under ventilated covers."
         ],
         "rows": [
           {
             "attribute": "Freshwater Hardware Rinse",
-            "left": "Routine Gear Inspection: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-            "right": "Rinse Hull and Gear: Self-bailing boats are acceptable for this requirement (p. 6)."
+            "left": "Freshwater Hardware Rinse: Wash salt crystals off stainless blocks and anodized aluminum spars to stop corrosion.",
+            "right": "Sail Cleaning Mildew: Wash sailcloth with mild freshwater detergent and dry completely before winterizing inside bags."
           },
           {
             "attribute": "Fiberglass Gelcoat Protection",
-            "left": "Hull and Hardware Care: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-            "right": "Dry and Stow Sails: Explain the importance of this task before setting sail (p. 6)."
+            "left": "Fiberglass Gelcoat Protection: Apply marine paste wax on topsides to shield gelcoat against destructive solar rays.",
+            "right": "Winter Storage Elevation: Support stored boat hulls on shaped bunks off the ground under ventilated covers."
           },
           {
             "attribute": "Sail Cleaning Mildew",
-            "left": "Sail Folding and Storage: Self-bailing boats are acceptable for this requirement (p. 6).",
-            "right": "Inspect Standing Rigging: Cross-check your You would care for and maintain technique, measurements, and results with a patrol (p. 38)."
+            "left": "Sail Cleaning Mildew: Wash sailcloth with mild freshwater detergent and dry completely before winterizing inside bags.",
+            "right": "Winter Storage Elevation: Support stored boat hulls on shaped bunks off the ground under ventilated covers."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 8 Exemplar Workbook Entry",
+        "title": "Small-Boat Sailing Req 8 Worked Example: Annual Sailboat Maintenance Care",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Routine Gear Inspection": "Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-          "Hull and Hardware Care": "A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).",
-          "Sail Folding and Storage": "Self-bailing boats are acceptable for this requirement (p. 6).",
-          "Annual Maintenance Schedule": "Explain the importance of this task before setting sail (p. 6)."
+          "Phase 1 - Hardware Wash": "Flush salt crystals from cam cleats, blocks, and mast tangs using clean freshwater.",
+          "Phase 2 - Hull Inspection": "Check fiberglass gelcoat surfaces for stress cracks, gouges, and loose deck joint rivets.",
+          "Phase 3 - Sail Inspection": "Examine sail stitching, bolt ropes, and batten pockets for torn seams or chafe.",
+          "Phase 4 - Winter Layup": "Drain cockpit bilges and position hulls onto cradles beneath breathable canvas winter tarps."
         },
-        "sample_output": "Year-Round Sailboat Maintenance: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 8 (Year-Round Sailboat Maintenance), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7))."
+        "sample_output": "Preserving sailing craft requires consistent seasonal inspections, freshwater rinses, and proper winterization storage. Sailors wash salt deposits from aluminum hardware, protect hulls with UV covers, and store dry sails indoors.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 8 conference on Annual Sailboat Maintenance Care, verify that the Scout can explain freshwater hardware rinse and demonstrate winter layup: Drain cockpit bilges and position hulls onto cradles beneath breathable canvas winter tarps."
       },
       "quiz_item": {
         "scenario_prompt": "What routine maintenance step should be performed after taking a small sailboat out of the water, especially after sailing in salt or brackish water?",
@@ -3428,47 +3422,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Essential Sailing Vocabulary",
-        "right_header": "Req 9: Define Nautical Terms",
+        "left_header": "Sailing Terminology and Architecture: Core Principles",
+        "right_header": "Sailing Terminology and Architecture: Field Execution",
         "left_points": [
-          "Essential Sailing Vocabulary: Do Demonstrate a working knowledge of marlinespike seamanship (p. 6).",
-          "Points of Sail and Boat Types: Review the Small-Boat Sailing pamphlet standards for points of sail and boat types, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-          "Hull and Keel Configurations: Explain the advantages and disadvantages (p. 6)."
+          "Points of Sail: Orienting boat heading across wind zones defines close hauled, reaching, and running.",
+          "Monohull Ballast Stability: Weighted keels generate righting moments when monohulls heel over under wind pressure."
         ],
         "right_points": [
-          "Define Nautical Terms: Explain the advantages and disadvantages (p. 6).",
-          "Chart Points of Sail: Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot (p. 6).",
-          "Compare Rig Types: Explain the advantages and disadvantages (p. 6)."
+          "Multihull Form Stability: Wide beam spacing between twin catamaran hulls provides immense resistance against initial heeling.",
+          "Catboat Single Sail: Simple catboats carry one mainsail on an unstayed mast stepped near the bow."
         ],
         "rows": [
           {
-            "attribute": "Points Of Sail",
-            "left": "Essential Sailing Vocabulary: Do Demonstrate a working knowledge of marlinespike seamanship (p. 6).",
-            "right": "Define Nautical Terms: Explain the advantages and disadvantages (p. 6)."
+            "attribute": "Points of Sail",
+            "left": "Points of Sail: Orienting boat heading across wind zones defines close hauled, reaching, and running.",
+            "right": "Multihull Form Stability: Wide beam spacing between twin catamaran hulls provides immense resistance against initial heeling."
           },
           {
             "attribute": "Monohull Ballast Stability",
-            "left": "Points of Sail and Boat Types: Review the Small-Boat Sailing pamphlet standards for points of sail and boat types, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-            "right": "Chart Points of Sail: Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot (p. 6)."
+            "left": "Monohull Ballast Stability: Weighted keels generate righting moments when monohulls heel over under wind pressure.",
+            "right": "Catboat Single Sail: Simple catboats carry one mainsail on an unstayed mast stepped near the bow."
           },
           {
             "attribute": "Multihull Form Stability",
-            "left": "Hull and Keel Configurations: Explain the advantages and disadvantages (p. 6).",
-            "right": "Compare Rig Types: Explain the advantages and disadvantages (p. 6)."
+            "left": "Multihull Form Stability: Wide beam spacing between twin catamaran hulls provides immense resistance against initial heeling.",
+            "right": "Catboat Single Sail: Simple catboats carry one mainsail on an unstayed mast stepped near the bow."
           }
         ]
       },
       "worked_example": {
-        "title": "Small-Boat Sailing Req 9 Exemplar Workbook Entry: Points",
+        "title": "Small-Boat Sailing Req 9 Worked Example: Sailing Terminology and Architecture",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Essential Sailing Vocabulary": "Do Demonstrate a working knowledge of marlinespike seamanship (p. 6).",
-          "Points of Sail Angles": "Points of Sail and Boat Types: Review the Small-Boat Sailing pamphlet standards for points of sail and boat types, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-          "Hull and Keel Configurations": "Explain the advantages and disadvantages (p. 6).",
-          "Modern Rig Designs": "Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot (p. 6)."
+          "Phase 1 - Angle Mapping": "Diagram the wind clock illustrating the no sail zone, reaches, and downwind run.",
+          "Phase 2 - Terminology Review": "Define nautical terms including port, starboard, windward, leeward, tack, and jibe for counselors.",
+          "Phase 3 - Rig Comparison": "Contrast single sail catboats with fractional sloops carrying both mainsails and jibs.",
+          "Phase 4 - Hull Comparison": "Compare weighted keel monohull righting dynamics with twin hull catamaran stability mechanisms."
         },
-        "sample_output": "Points of Sail and Boat Types: Do Demonstrate a working knowledge of marlinespike seamanship (p. 6).",
-        "counselor_tip": "For Small-Boat Sailing Requirement 9 (Points of Sail and Boat Types), verify the Scout's own observations and specific pamphlet details (Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 8))."
+        "sample_output": "Sailors describe courses relative to wind direction using defined terms including beating, reaching, and running. Yacht designers categorize modern sailboats into mono-hulls, catamarans, and trimarans based on stability mechanisms.",
+        "counselor_tip": "During the Small-Boat Sailing Requirement 9 conference on Sailing Terminology and Architecture, verify that the Scout can explain points of sail and demonstrate hull comparison: Compare weighted keel monohull righting dynamics with twin hull catamaran stability mechanisms."
       },
       "quiz_item": {
         "scenario_prompt": "On which point of sail does the wind blow at a right angle (90 degrees) to the side of the boat, often providing the fastest and easiest sailing angle for most small boats?",

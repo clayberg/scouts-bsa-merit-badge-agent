@@ -47,10 +47,8 @@
 #### Req 1a: Welding Shop Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while welding, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Welding Hazards and First Aid)
-- **Common Myth:** Beginners often think moving combustible rags ten feet away guarantees complete fire prevention.
-- **Pamphlet Fact:** Sparks and molten slag can travel up to thirty-five feet across open shop floors.
 
-![Welding Requirement 1 figure showing arc flash creates ultraviolet radiation that causes painful corneal burns.](/assets/pamphlet_images/welding_p003_img1.png)
+![Arc flash creates ultraviolet radiation that causes painful corneal burns without immediate noticeable symptoms.](/assets/pamphlet_images/welding_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -61,8 +59,6 @@
 #### Req 1b: Welding Injury First Aid
 **Official Requirement 1b:** Show that you know first aid for, and the prevention of, injuries or illnesses that could occur while welding, including electrical shock, eye injuries, burns, fume inhalation, dizziness, skin irritation, and exposure to hazardous chemicals, including filler metals and welding gases.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Welding Hazards and First Aid)
-- **Common Myth:** Putting greasy ointment or ice on thermal contact burns accelerates skin healing.
-- **Pamphlet Fact:** Cool clean water must soothe thermal burns while ice causes further skin damage.
 
 ![A manufacturer safety warning label lists hazards including electric shock, fumes, and arc rays.](/assets/pamphlet_images/welding_p021_img1.png)
 
@@ -88,8 +84,6 @@
 #### Req 2a: Safety Data Sheet Evaluation
 **Official Requirement 2a:** With your counselor, discuss general safety precautions and safety data sheets (SDS) related to welding. Explain the importance of the SDS.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Discuss General Safety Precautions and)
-- **Common Myth:** Safety Data Sheets are administrative paperwork without relevance to daily shop work.
-- **Pamphlet Fact:** Safety Data Sheets identify acute inhalation toxicity and specific fire extinguishing media for fluxes.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
@@ -97,7 +91,7 @@
 - [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding.
 - [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
-![Welding Requirement 2 figure showing safety Data Sheets document hazardous decomposition products generated during thermal.](/assets/pamphlet_images/welding_p007_img1.png)
+![Safety Data Sheets document hazardous decomposition products generated during thermal decomposition of fluxes.](/assets/pamphlet_images/welding_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -109,8 +103,6 @@
 #### Req 2b: Welding Apparel and Gear
 **Official Requirement 2b:** Describe the appropriate safety gear and clothing that must be worn when welding. Then, present yourself properly dressed for welding, in protective equipment, clothing, and footwear.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Safety Gear and Clothing)
-- **Common Myth:** Athletic running shoes with rubber soles provide adequate foot protection in welding booths.
-- **Pamphlet Fact:** Stray slag easily burns through mesh running shoes and ignites inner synthetic linings.
 
 ![Compressed gas cylinders with dual-gauge regulators supply shielding gas for welding arcs.](/assets/pamphlet_images/welding_p027_img1.png)
 
@@ -124,10 +116,8 @@
 #### Req 2c: Equipment Maintenance and Storage
 **Official Requirement 2c:** Explain and demonstrate the proper care and storage of welding equipment, tools, and protective clothing and footwear.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)* • **Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist (Care and Storage of Welding)
-- **Common Myth:** Leaving welding cables strewn across wet shop floors causes no long-term insulation damage.
-- **Pamphlet Fact:** Foot traffic and oil exposure degrade rubber cable jackets, causing hazardous electrical leaks.
 
-![Welding Requirement 3 figure showing welding fuses metallic parts together through atomic bonding across liquid or solid.](/assets/pamphlet_images/welding_p012_img1.png)
+![Welding fuses metallic parts together through atomic bonding across liquid or solid interfaces.](/assets/pamphlet_images/welding_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -196,8 +186,6 @@
 #### Req 5a: Comparative Welding Process Analysis
 **Official Requirement 5a:** Select two welding processes, and make a list of the different components of the equipment required for each process. Discuss one advantage and one limitation for each process.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Welding Processes)
-- **Common Myth:** Wire feed GMAW machines are always cheaper and more portable than stick welding units.
-- **Pamphlet Fact:** Stick welding equipment requires no bulky gas cylinders and handles field welding in remote wind.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
@@ -217,8 +205,6 @@
 #### Req 5b: Welding Station Setup Configuration
 **Official Requirement 5b:** Choose one welding process. Set up the process you have chosen, including gas regulators, work clamps, cables, filler materials, and equipment settings. Have your counselor inspect and approve the area for the welding process you have chosen.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Welding Process Set Up the)
-- **Common Myth:** Tightening wire drive roll tension all the way prevents wire slippage inside gun liners.
-- **Pamphlet Fact:** Excessive roller tension deforms welding wire and causes severe feeding jams inside gun liners.
 
 ![A danger sign reminds workers to wear protective eye gear to avoid painful welding flash burns.](/assets/pamphlet_images/welding_p023_img1.png)
 
@@ -246,8 +232,6 @@
 #### Req 6a: Initial Letter Bead Execution
 **Official Requirement 6a:** Using a metal scribe or soapstone, sketch your initial onto a metal plate, and weld a bead on the plate following the pattern of your initial.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6a Structured Technical Study & Explanation Matrix (Metal Scribe or Soapstone)
-- **Common Myth:** Tracing curved lines requires waving the torch tip erratically across the metal surface.
-- **Pamphlet Fact:** Maintaining uniform travel speed and arc length around curves preserves consistent bead width.
 
 ![A three-dimensional diagram illustrates a completed weld bead joining two flat steel plates.](/assets/pamphlet_images/welding_p072_img1.png)
 
@@ -268,8 +252,6 @@
 #### Req 6b: Surface Padding Plate Buildup
 **Official Requirement 6b:** Cover a small plate (approximately 3" x 3" x 1/4") with weld beads side by side.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Cover A Small Plate Approximately)
-- **Common Myth:** Weld padding involves laying isolated passes with gaps between successive beads.
-- **Pamphlet Fact:** Beads must overlap by fifty percent to create a uniform, solid buildup surface.
 
 ![A metal plate displays continuous weld beads, illustrating joint penetration and surface slag.](/assets/pamphlet_images/welding_p033_img3.png)
 
@@ -282,8 +264,6 @@
 #### Req 6c: Square Groove Butt Tacking
 **Official Requirement 6c:** Tack two plates together in a square groove butt joint.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Tack Two Plates Together)
-- **Common Myth:** Plates in a square butt joint must be jammed tight with zero root opening.
-- **Pamphlet Fact:** A slight root opening allows the arc to penetrate completely through base metal plate thickness.
 
 ![A longitudinal crack along a finished weld bead demonstrates a critical structural weld defect.](/assets/pamphlet_images/welding_p039_img1.png)
 
@@ -296,8 +276,6 @@
 #### Req 6d: Square Groove Butt Welding
 **Official Requirement 6d:** Weld the two plates together from 6(c) on both sides.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Plates Together from 6(c)
-- **Common Myth:** Welding only one side of a thick butt joint achieves total structural joint capacity.
-- **Pamphlet Fact:** Single-sided welds without backing leave unfused roots that crack easily under bending stress.
 
 ![A mobile field welder wearing a protective helmet fabricates steel frames at an outdoor site.](/assets/pamphlet_images/welding_p040_img1.png)
 
@@ -310,8 +288,6 @@
 #### Req 6e: Tee Joint Fillet Welding
 **Official Requirement 6e:** Tack two plates together in a T joint, have your counselor inspect it, then weld a T joint with fillet weld on both sides.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Tack Two Plates Together)
-- **Common Myth:** Directing the arc solely onto the bottom plate naturally pulls molten puddle into the upright plate.
-- **Pamphlet Fact:** The arc must bisect both plate faces equally to achieve complete root and side fusion.
 
 ![A welder wearing dark safety lenses applies an oxy-fuel torch flame to melt metal along a seam.](/assets/pamphlet_images/welding_p070_img1.png)
 
@@ -324,8 +300,6 @@
 #### Req 6f: Lap Joint Fillet Welding
 **Official Requirement 6f:** Tack two plates together in a lap joint, have your counselor inspect it, then weld a lap joint with fillet weld on both sides.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix (Tack Two Plates Together)
-- **Common Myth:** The exposed top edge of a lap joint requires direct arc heating to melt properly.
-- **Pamphlet Fact:** Targeting the top edge directly melts it away prematurely and creates severe edge underfill.
 
 ![Horizontal weld beads run across a practice metal coupon to demonstrate torch speed control.](/assets/pamphlet_images/welding_p072_img3.png)
 
@@ -351,8 +325,6 @@
 #### Req 7a: Welding Career Pathways Exploration
 **Official Requirement 7a:** Find out about three career opportunities in the welding industry. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why the profession might interest.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)* • **Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Every welding job requires an identical four-year university engineering degree.
-- **Pamphlet Fact:** Many specialized welding careers rely on vocational technical diplomas and trade union apprenticeships.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
@@ -373,8 +345,6 @@
 #### Req 7b: American Welding Society Role
 **Official Requirement 7b:** Discuss the role of the American Welding Society in the welding profession.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)* • **Organizer (Career & Profession Exploration Card):** Req 7b Career & Professional Pathway Investigation Matrix
-- **Common Myth:** The American Welding Society is merely a social club for hobbyist fabricators.
-- **Pamphlet Fact:** The American Welding Society establishes legally binding structural codes used in bridge and building construction.
 
 ![Two metal plates are joined together along a flat seam with a solid weld bead.](/assets/pamphlet_images/welding_p072_img4.png)
 

@@ -41,7 +41,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain clean indoor air circulation when evaluating household chemical storage areas.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 15, p. 93)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 15, p. 93)",
       "syllabus_bucket": "In-Class Concept",
@@ -107,47 +107,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1: Meaning of Sustaining Resources",
-        "right_header": "Req 1: Protect Resources for Tomorrow",
+        "left_header": "Foundations of Sustainable Stewardship: Core Principles",
+        "right_header": "Foundations of Sustainable Stewardship: Field Execution",
         "left_points": [
-          "Meaning of Sustaining Resources: To \"sustain\" a thing is to keep it up or continue (p. 15).",
-          "Responsible Resource Harvesting Methods: Sustainable, then, relates to methods of harvesting or using resources in ways that do not squander or permanently damage them (p. 15).",
-          "Preserving Future Natural Resources: A sustainable lifestyle or society meets today's needs without depleting (completely using up) natural resources for future generations (p. 15)."
+          "Brundtland Definition: Meeting current needs without compromising future generational resources defines true sustainability.",
+          "Triple Bottom Line: Ecological protection, community welfare, and economic viability operate as interdependent pillars."
         ],
         "right_points": [
-          "Protect Resources for Tomorrow: A sustainable lifestyle or society meets today's needs without depleting (completely using up) natural resources for future generations (p. 15).",
-          "Support Global Development Goals: At its heart are the 17 Sustainable Development Goals (SDGs), which are urgent calls for action by all developed and developing countries (p. 15).",
-          "Balance Three Sustainability Pillars: Achieving sustain ability requires balancing environmental, social, and economic needs (p. 15)."
+          "Resource Stewardship: Regenerative harvesting rates prevent renewable natural stocks from facing permanent collapse.",
+          "Intergenerational Equity: Present consumption habits directly determine environmental quality available to future societies."
         ],
         "rows": [
           {
             "attribute": "Brundtland Definition",
-            "left": "Meaning of Sustaining Resources: To \"sustain\" a thing is to keep it up or continue (p. 15).",
-            "right": "Protect Resources for Tomorrow: A sustainable lifestyle or society meets today's needs without depleting (completely using up) natural resources for future generations (p. 15)."
+            "left": "Brundtland Definition: Meeting current needs without compromising future generational resources defines true sustainability.",
+            "right": "Resource Stewardship: Regenerative harvesting rates prevent renewable natural stocks from facing permanent collapse."
           },
           {
             "attribute": "Triple Bottom Line",
-            "left": "Responsible Resource Harvesting Methods: Sustainable, then, relates to methods of harvesting or using resources in ways that do not squander or permanently damage them (p. 15).",
-            "right": "Support Global Development Goals: At its heart are the 17 Sustainable Development Goals (SDGs), which are urgent calls for action by all developed and developing countries (p. 15)."
+            "left": "Triple Bottom Line: Ecological protection, community welfare, and economic viability operate as interdependent pillars.",
+            "right": "Intergenerational Equity: Present consumption habits directly determine environmental quality available to future societies."
           },
           {
             "attribute": "Resource Stewardship",
-            "left": "Preserving Future Natural Resources: A sustainable lifestyle or society meets today's needs without depleting (completely using up) natural resources for future generations (p. 15).",
-            "right": "Balance Three Sustainability Pillars: Achieving sustain ability requires balancing environmental, social, and economic needs (p. 15)."
+            "left": "Resource Stewardship: Regenerative harvesting rates prevent renewable natural stocks from facing permanent collapse.",
+            "right": "Intergenerational Equity: Present consumption habits directly determine environmental quality available to future societies."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 1 Exemplar Workbook Entry: Core",
+        "title": "Sustainability Req 1 Worked Example: Foundations of Sustainable Stewardship",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Meaning of Sustaining Resources": "To \"sustain\" a thing is to keep it up or continue (p. 15).",
-          "Responsible Resource Harvesting": "Sustainable, then, relates to methods of harvesting or using resources in ways that do not squander or permanently damage them (p. 15).",
-          "Preserving Future Natural Resources": "A sustainable lifestyle or society meets today's needs without depleting (completely using up) natural resources for future generations (p. 15).",
-          "United Nations Development Goals": "At its heart are the 17 Sustainable Development Goals (SDGs), which are urgent calls for action by all developed and developing countries (p. 15)."
+          "Phase 1 - Daily Audit": "Document all personal consumable resource expenditures across one single calendar day.",
+          "Phase 2 - Category Sorting": "Classify recorded resource expenditures into environmental, economic, or social impact categories.",
+          "Phase 3 - Future Assessment": "Estimate replenishment times required by nature to regenerate consumed raw resources.",
+          "Phase 4 - Action Commitment": "Select two daily habits to replace with sustainable low waste alternatives."
         },
-        "sample_output": "Core Principles of Global Sustainability: To \"sustain\" a thing is to keep it up or continue (p. 15).",
-        "counselor_tip": "For Sustainability Requirement 1 (Core Principles of Global Sustainability), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 15, p. 93))."
+        "sample_output": "Sustainability balances environmental conservation, social equity, and economic stability to maintain planetary carrying capacity. Personal choices preserve natural resources so subsequent generations inherit stable, functioning ecological systems.",
+        "counselor_tip": "During the Sustainability Requirement 1 conference on Foundations of Sustainable Stewardship, verify that the Scout can explain brundtland definition and demonstrate action commitment: Select two daily habits to replace with sustainable low waste alternatives."
       },
       "quiz_item": {
         "scenario_prompt": "What does sustainability mean in Scouting and global resource management, and what are its three interconnected pillars?",
@@ -495,7 +493,7 @@
       "action_verb": "Discuss",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Avoid touching electrical pump wiring or corroded copper pipes during meter inspections.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -571,10 +569,12 @@
         "left_header": "Req 2a: Household Water Bill Evaluation",
         "right_header": "Req 2b: Municipal Water Cycle Diagram",
         "left_points": [
-          "(2a) Household Water Bill Evaluation: Reviewing twelve months of utility statements reveals peak outdoor summer irrigation surges. Comparing monthly volume per capita identifies seasonal waste."
+          "(2a) Household Water Bill Evaluation: Reviewing twelve months of utility statements reveals peak outdoor summer irrigation surges. Comparing monthly volume per capita identifies seasonal waste.",
+          "Aquifer Depletion: Withdrawing groundwater faster than seasonal recharge causes permanent sub-surface storage loss."
         ],
         "right_points": [
-          "(2b) Municipal Water Cycle Diagram: A watershed diagram traces water from mountain reservoirs through municipal filtration plants into household taps. After draining, wastewater travels through sewers to biological treatment facilities."
+          "(2b) Municipal Water Cycle Diagram: A watershed diagram traces water from mountain reservoirs through municipal filtration plants into household taps. After draining, wastewater travels through sewers to biological treatment facilities.",
+          "(2c) Regional Drought and Flood Management: Extreme weather cycles produce severe droughts or flash flooding that overwhelm local infrastructure. Native plantings and retention basins slow runoff and recharge local water tables."
         ],
         "rows": [
           {
@@ -584,26 +584,27 @@
           },
           {
             "attribute": "Low-Flow Fixtures",
-            "left": "Req 2a: Household Water Bill: Reviewing twelve months of utility statements reveals peak outdoor summer irrigation surges. Comparing monthly volume per capita identifies seasonal waste.",
-            "right": "Req 2b: Municipal Water Cycle: A watershed diagram traces water from mountain reservoirs through municipal filtration plants into household taps. After draining, wastewater travels through sewers to biological treatment facilities."
+            "left": "Aquifer Depletion: Withdrawing groundwater faster than seasonal recharge causes permanent sub-surface storage loss.",
+            "right": "(2c) Regional Drought and Flood Management: Extreme weather cycles produce severe droughts or flash flooding that overwhelm local infrastructure. Native plantings and retention basins slow runoff and recharge local water tables."
           },
           {
             "attribute": "Stormwater Runoff",
-            "left": "Req 2c: Regional Drought And Flood: Extreme weather cycles produce severe droughts or flash flooding that overwhelm local infrastructure. Native plantings and retention basins slow runoff and recharge local water tables.",
-            "right": "Low-Flow Fixtures: Aerators and pressure valves reduce fixture flow rates without diminishing utility."
+            "left": "Stormwater Runoff: Impervious concrete surfaces channel urban pollutants directly into pristine natural waterways.",
+            "right": "Graywater Reclamation: Untreated laundry water safely irrigates non-edible landscaping under approved sanitary guidelines."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 2 Exemplar Workbook Entry: Household",
+        "title": "Sustainability Req 2 Worked Example: Water Resource Management Systems",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Household Water Bill": "Reviewing twelve months of utility statements reveals peak outdoor summer irrigation surges. Comparing monthly volume per capita identifies seasonal waste.",
-          "Req 2b - Municipal Water Cycle Diagram": "A watershed diagram traces water from mountain reservoirs through municipal filtration plants into household taps. After draining, wastewater travels through sewers to biological treatment facilities.",
-          "Req 2c - Regional Drought and Flood": "Extreme weather cycles produce severe droughts or flash flooding that overwhelm local infrastructure. Native plantings and retention basins slow runoff and recharge local water tables."
+          "Phase 1 - Meter Inspection": "Locate the main water meter and record base consumption index digits.",
+          "Phase 2 - Leak Detection": "Monitor dial movements while all home fixtures remain completely shut off.",
+          "Phase 3 - Fixture Measurement": "Time how quickly household faucets fill a marked one-gallon bucket container.",
+          "Phase 4 - Conservation Planning": "Install low-flow aerators and fix faulty toilet flapper valves throughout plumbing."
         },
-        "sample_output": "Household Water Use and Supply: They can develop slowly or quickly; flash floods can come with no warning at all (p. 29).",
-        "counselor_tip": "For Sustainability Requirement 2 (Household Water Use and Supply), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32))."
+        "sample_output": "Freshwater conservation preserves limited municipal water supplies and protects natural watershed ecosystems. Analyzing domestic consumption reveals peak usage periods and guides effective plumbing modifications.",
+        "counselor_tip": "During the Sustainability Requirement 2 conference on Water Resource Management Systems, verify that the Scout can explain aquifer depletion and demonstrate conservation planning: Install low-flow aerators and fix faulty toilet flapper valves throughout plumbing."
       },
       "quiz_item": {
         "scenario_prompt": "Which event is the most common natural disaster in the United States?",
@@ -964,7 +965,7 @@
       "action_verb": "Discuss",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Wash hands thoroughly with soap after handling decomposing compost piles or moldy food scraps.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1039,13 +1040,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Food Production Sustainability",
+        "left_header": "Req 3a: Food Production Sustainability Comparison",
         "right_header": "Req 3b: Global Food Supply Limitations",
         "left_points": [
-          "(3a) Food Production Sustainability Comparison: Comparing land, water, and feed requirements across plant crops, beef, poultry, and aquaculture reveals disparate ecological footprints. Plant-based proteins generally require fewer inputs and produce less greenhouse gas than livestock."
+          "(3a) Food Production Sustainability Comparison: Comparing land, water, and feed requirements across plant crops, beef, poultry, and aquaculture reveals disparate ecological footprints. Plant-based proteins generally require fewer inputs and produce less greenhouse gas than livestock.",
+          "Trophic Calorie Loss: Feeding crops to livestock loses ninety percent of base food energy."
         ],
         "right_points": [
-          "(3b) Global Food Supply Limitations: Climate extremes, geopolitical conflicts, distribution logistics, and economic inequality limit regional access to nutritious food. When droughts ruin staple harvests, vulnerable populations face severe supply interruptions."
+          "(3b) Global Food Supply Limitations: Climate extremes, geopolitical conflicts, distribution logistics, and economic inequality limit regional access to nutritious food. When droughts ruin staple harvests, vulnerable populations face severe supply interruptions.",
+          "(3c) Household Food Waste Reduction: Tracking kitchen waste over a two-week baseline reveals patterns of overpurchasing and premature spoilage. Introducing deliberate portioning and backyard composting diverts organic material from municipal waste streams."
         ],
         "rows": [
           {
@@ -1055,26 +1058,27 @@
           },
           {
             "attribute": "Agricultural Water Footprint",
-            "left": "Req 3a: Food Production: Comparing land, water, and feed requirements across plant crops, beef, poultry, and aquaculture reveals disparate ecological footprints. Plant-based proteins generally require fewer inputs and produce less greenhouse gas than livestock.",
-            "right": "Req 3b: Global Food Supply: Climate extremes, geopolitical conflicts, distribution logistics, and economic inequality limit regional access to nutritious food. When droughts ruin staple harvests, vulnerable populations face severe supply interruptions."
+            "left": "Trophic Calorie Loss: Feeding crops to livestock loses ninety percent of base food energy.",
+            "right": "(3c) Household Food Waste Reduction: Tracking kitchen waste over a two-week baseline reveals patterns of overpurchasing and premature spoilage. Introducing deliberate portioning and backyard composting diverts organic material from municipal waste streams."
           },
           {
             "attribute": "Soil Microbiome Health",
-            "left": "Req 3c: Household Food Waste: Tracking kitchen waste over a two-week baseline reveals patterns of overpurchasing and premature spoilage. Introducing deliberate portioning and backyard composting diverts organic material from municipal waste streams.",
-            "right": "Agricultural Water Footprint: Irrigating grain crops consumes thousands of liters per kilogram of beef."
+            "left": "Soil Microbiome Health: Synthetic pesticide overuse degrades natural fungal and bacterial networks within soil.",
+            "right": "Methane Landfill Emissions: Decomposing food scraps trapped inside oxygen-deprived landfills emit potent greenhouse gas."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 3 Exemplar Workbook Entry",
+        "title": "Sustainability Req 3 Worked Example: Sustainable Food Production Systems",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 3a - Food Production": "Comparing land, water, and feed requirements across plant crops, beef, poultry, and aquaculture reveals disparate ecological footprints. Plant-based proteins generally require fewer inputs and produce less greenhouse gas than livestock.",
-          "Req 3b - Global Food Supply": "Climate extremes, geopolitical conflicts, distribution logistics, and economic inequality limit regional access to nutritious food. When droughts ruin staple harvests, vulnerable populations face severe supply interruptions.",
-          "Req 3c - Household Food Waste": "Tracking kitchen waste over a two-week baseline reveals patterns of overpurchasing and premature spoilage. Introducing deliberate portioning and backyard composting diverts organic material from municipal waste streams."
+          "Phase 1 - Food Origin Mapping": "Trace country of origin labels for five common grocery pantry items.",
+          "Phase 2 - Food Waste Weighing": "Collect and weigh all uneaten kitchen scraps in a bucket daily.",
+          "Phase 3 - Meal Planning Design": "Create weekly portion menus to utilize leftovers before spoilage occurs rapidly.",
+          "Phase 4 - Backyard Compost Setup": "Mix nitrogen-rich food scraps with carbon leaves in aerated outdoor bins."
         },
-        "sample_output": "Sustainable Food Production and Waste: Producing and delivering enough food to feed the world'speople is a serious challenge (p. 40).",
-        "counselor_tip": "For Sustainability Requirement 3 (Sustainable Food Production and Waste), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42))."
+        "sample_output": "Agricultural food production requires enormous inputs of freshwater, synthetic fertilizers, fossil fuels, and fertile topsoil. Choosing low-trophic plant foods and minimizing food spoilage significantly lessens global environmental degradation.",
+        "counselor_tip": "During the Sustainability Requirement 3 conference on Sustainable Food Production Systems, verify that the Scout can explain trophic calorie loss and demonstrate backyard compost setup: Mix nitrogen-rich food scraps with carbon leaves in aerated outdoor bins."
       },
       "quiz_item": {
         "scenario_prompt": "According to United Nations projections, approximately how many people will live on Earth by the year 2050?",
@@ -1409,7 +1413,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear high-visibility reflective vests and stay on sidewalks when conducting neighborhood traffic surveys.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 58, p. 78)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 58, p. 78)",
       "syllabus_bucket": "In-Class Concept",
@@ -1477,13 +1481,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Sustainable Urban Neighborhood",
-        "right_header": "Req 4b: Community Practice Remediation",
+        "left_header": "Req 4a: Sustainable Urban Neighborhood Sketch",
+        "right_header": "Req 4b: Community Practice Remediation Plan",
         "left_points": [
-          "(4a) Sustainable Urban Neighborhood Sketch: Designing a compact community sketch places schools, jobs, grocery stores, and homes within fifteen minutes of walking or biking. Prioritizing light rail and micro-mobility paths reduces asphalt roadways and traffic congestion."
+          "(4a) Sustainable Urban Neighborhood Sketch: Designing a compact community sketch places schools, jobs, grocery stores, and homes within fifteen minutes of walking or biking. Prioritizing light rail and micro-mobility paths reduces asphalt roadways and traffic congestion.",
+          "Mixed-Use Zoning: Integrating residential apartments with retail storefronts reduces daily automobile commuting distances."
         ],
         "right_points": [
-          "(4b) Community Practice Remediation Plan: Identifying localized waste practices, such as uncontrolled leaf blowing or lack of public recycling receptacles, enables targeted civic solutions. Drafting a practical proposal presents measurable corrective steps to local municipal boards."
+          "(4b) Community Practice Remediation Plan: Identifying localized waste practices, such as uncontrolled leaf blowing or lack of public recycling receptacles, enables targeted civic solutions. Drafting a practical proposal presents measurable corrective steps to local municipal boards.",
+          "(4c) Residential Housing Sustainability Audit: Evaluating attic insulation depth, window glazing efficiency, orientation toward passive winter sun, and water fixtures yields a comprehensive home rating. Upgrading insulation and sealing ductwork lowers utility costs and fossil fuel consumption."
         ],
         "rows": [
           {
@@ -1493,26 +1499,27 @@
           },
           {
             "attribute": "Active Transportation",
-            "left": "Req 4a: Sustainable Urban: Designing a compact community sketch places schools, jobs, grocery stores, and homes within fifteen minutes of walking or biking. Prioritizing light rail and micro-mobility paths reduces asphalt roadways and traffic congestion.",
-            "right": "Req 4b: Community Practice: Identifying localized waste practices, such as uncontrolled leaf blowing or lack of public recycling receptacles, enables targeted civic solutions. Drafting a practical proposal presents measurable corrective steps to local municipal boards."
+            "left": "Mixed-Use Zoning: Integrating residential apartments with retail storefronts reduces daily automobile commuting distances.",
+            "right": "(4c) Residential Housing Sustainability Audit: Evaluating attic insulation depth, window glazing efficiency, orientation toward passive winter sun, and water fixtures yields a comprehensive home rating. Upgrading insulation and sealing ductwork lowers utility costs and fossil fuel consumption."
           },
           {
             "attribute": "Urban Tree Canopy",
-            "left": "Req 4c: Residential Housing: Evaluating attic insulation depth, window glazing efficiency, orientation toward passive winter sun, and water fixtures yields a comprehensive home rating. Upgrading insulation and sealing ductwork lowers utility costs and fossil fuel consumption.",
-            "right": "Active Transportation: Dedicated bicycle lanes and pedestrian walkways encourage healthy, carbon-free personal mobility."
+            "left": "Urban Tree Canopy: Planting street trees lowers urban heat island temperatures while filtering airborne particulates.",
+            "right": "Bioswale Filtration: Vegetated roadside swales absorb toxic road runoff before entering subterranean storm sewers."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 4 Exemplar Workbook Entry: Designing",
+        "title": "Sustainability Req 4 Worked Example: Sustainable Community Infrastructure Design",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Sustainable Urban": "Designing a compact community sketch places schools, jobs, grocery stores, and homes within fifteen minutes of walking or biking. Prioritizing light rail and micro-mobility paths reduces asphalt roadways and traffic congestion.",
-          "Req 4b - Community Practice": "Identifying localized waste practices, such as uncontrolled leaf blowing or lack of public recycling receptacles, enables targeted civic solutions. Drafting a practical proposal presents measurable corrective steps to local municipal boards.",
-          "Req 4c - Residential Housing": "Evaluating attic insulation depth, window glazing efficiency, orientation toward passive winter sun, and water fixtures yields a comprehensive home rating. Upgrading insulation and sealing ductwork lowers utility costs and fossil fuel consumption."
+          "Phase 1 - Neighborhood Survey": "Walk local neighborhood streets and map pedestrian sidewalk connectivity and bike corridors.",
+          "Phase 2 - Land Use Mapping": "Identify municipal zoning boundaries separating commercial businesses from residential home districts.",
+          "Phase 3 - Green Space Analysis": "Calculate walking distances from neighborhood homes to publicly accessible municipal parks.",
+          "Phase 4 - Sustainable Sketching": "Draw a master plan incorporating transit stops, solar housing, and walkways."
         },
-        "sample_output": "Designing Sustainable Communities and Housing: In this way, cities determine whether proposed development projects meet the community's needs and should be high priority (p. 58).",
-        "counselor_tip": "For Sustainability Requirement 4 (Designing Sustainable Communities and Housing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 58, p. 78))."
+        "sample_output": "Sustainable communities integrate high-density mixed-use zoning with accessible public transit networks and protected green spaces. Thoughtful urban design minimizes automobile dependence while preserving permeable soils for groundwater recharge.",
+        "counselor_tip": "During the Sustainability Requirement 4 conference on Sustainable Community Infrastructure Design, verify that the Scout can explain mixed-use zoning and demonstrate sustainable sketching: Draw a master plan incorporating transit stops, solar housing, and walkways."
       },
       "quiz_item": {
         "scenario_prompt": "What tool helps a city identify issues like urban blight or foreclosure and determine whether proposed projects meet community needs?",
@@ -1842,7 +1849,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never touch bare wires, open breaker panels, or insert metal objects into electrical wall outlets.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)",
       "syllabus_bucket": "In-Class Concept",
@@ -1910,13 +1917,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Renewable Energy Resource",
-        "right_header": "Req 5b: Household Energy Consumption",
+        "left_header": "Req 5a: Renewable Energy Resource Analysis",
+        "right_header": "Req 5b: Household Energy Consumption Profiling",
         "left_points": [
-          "(5a) Renewable Energy Resource Analysis: Evaluating fossil fuels alongside solar, hydro, wind, nuclear, and geothermal energy illustrates distinct environmental tradeoffs. While fossil fuels offer dispatchable energy, renewable resources produce minimal greenhouse emissions during operation."
+          "(5a) Renewable Energy Resource Analysis: Evaluating fossil fuels alongside solar, hydro, wind, nuclear, and geothermal energy illustrates distinct environmental tradeoffs. While fossil fuels offer dispatchable energy, renewable resources produce minimal greenhouse emissions during operation.",
+          "Coal Combustion Byproducts: Burning coal produces airborne sulfur dioxide, toxic fly ash, and carbon dioxide."
         ],
         "right_points": [
-          "(5b) Household Energy Consumption Profiling: Listing residential heating, cooling, cooking, refrigeration, and transportation reveals major family energy drivers. Identifying significant energy draws enables targeted behavioral and mechanical efficiency improvements."
+          "(5b) Household Energy Consumption Profiling: Listing residential heating, cooling, cooking, refrigeration, and transportation reveals major family energy drivers. Identifying significant energy draws enables targeted behavioral and mechanical efficiency improvements.",
+          "(5c) Home Energy Reduction Actions: Adjusting window shades, moderating thermostats, washing laundry in cold water, and replacing furnace filters reduce energy load. Implementing low-cost modifications cuts fossil fuel demand without sacrificing comfort."
         ],
         "rows": [
           {
@@ -1926,26 +1935,27 @@
           },
           {
             "attribute": "Solar Photovoltaic Efficiency",
-            "left": "Req 5a: Renewable Energy Resource: Evaluating fossil fuels alongside solar, hydro, wind, nuclear, and geothermal energy illustrates distinct environmental tradeoffs. While fossil fuels offer dispatchable energy, renewable resources produce minimal greenhouse emissions during operation.",
-            "right": "Req 5b: Household Energy Consumption: Listing residential heating, cooling, cooking, refrigeration, and transportation reveals major family energy drivers. Identifying significant energy draws enables targeted behavioral and mechanical efficiency improvements."
+            "left": "Coal Combustion Byproducts: Burning coal produces airborne sulfur dioxide, toxic fly ash, and carbon dioxide.",
+            "right": "(5c) Home Energy Reduction Actions: Adjusting window shades, moderating thermostats, washing laundry in cold water, and replacing furnace filters reduce energy load. Implementing low-cost modifications cuts fossil fuel demand without sacrificing comfort."
           },
           {
             "attribute": "Phantom Power Losses",
-            "left": "Req 5c: Home Energy Reduction: Adjusting window shades, moderating thermostats, washing laundry in cold water, and replacing furnace filters reduce energy load. Implementing low-cost modifications cuts fossil fuel demand without sacrificing comfort.",
-            "right": "Solar Photovoltaic Efficiency: Modern rooftop panels convert incoming solar radiation directly into usable direct current."
+            "left": "Phantom Power Losses: Electronic appliances consume standby electricity continuously even when turned completely off.",
+            "right": "Thermal Building Envelope: Quality attic insulation prevents expensive heat loss through ceilings during winter months."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 5 Exemplar Workbook Entry: Energy",
+        "title": "Sustainability Req 5 Worked Example: Energy Generation and Conservation",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Renewable Energy Resource": "Evaluating fossil fuels alongside solar, hydro, wind, nuclear, and geothermal energy illustrates distinct environmental tradeoffs. While fossil fuels offer dispatchable energy, renewable resources produce minimal greenhouse emissions during operation.",
-          "Req 5b - Household Energy Consumption": "Listing residential heating, cooling, cooking, refrigeration, and transportation reveals major family energy drivers. Identifying significant energy draws enables targeted behavioral and mechanical efficiency improvements.",
-          "Req 5c - Home Energy Reduction Actions": "Adjusting window shades, moderating thermostats, washing laundry in cold water, and replacing furnace filters reduce energy load. Implementing low-cost modifications cuts fossil fuel demand without sacrificing comfort."
+          "Phase 1 - Energy Audit": "Inspect household electrical breaker boxes and list major high-voltage power appliances.",
+          "Phase 2 - Thermostat Adjustment": "Program heating and cooling thermostats five degrees closer to outside ambient temperatures.",
+          "Phase 3 - Lighting Replacement": "Swap inefficient incandescent light bulbs with high-efficiency light emitting diode lamps.",
+          "Phase 4 - Phantom Load Elimination": "Connect home computer equipment into smart power strips to eliminate standby draw."
         },
-        "sample_output": "Energy Sources and Home Conservation: Start by turning off computers, televisions, and lights when you are not using them (p. 62).",
-        "counselor_tip": "For Sustainability Requirement 5 (Energy Sources and Home Conservation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64))."
+        "sample_output": "Fossil fuel combustion releases greenhouse gases and particulates that alter climate and degrade human respiration. Transitioning toward renewable solar, wind, and geothermal power while conserving household electricity stabilizes regional energy grids.",
+        "counselor_tip": "During the Sustainability Requirement 5 conference on Energy Generation and Conservation, verify that the Scout can explain coal combustion byproducts and demonstrate phantom load elimination: Connect home computer equipment into smart power strips to eliminate standby draw."
       },
       "quiz_item": {
         "scenario_prompt": "What thermostat settings does the Sustainability merit badge pamphlet recommend to conserve energy in winter and summer?",
@@ -2276,7 +2286,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Use heavy work gloves when sorting broken glass, crushed tin cans, or sharp metal recyclables.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72)",
       "syllabus_bucket": "In-Class Concept",
@@ -2344,13 +2354,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Personal Possessions Needs",
-        "right_header": "Req 6b: Overconsumption Multi-Level",
+        "left_header": "Req 6a: Personal Possessions Needs Assessment",
+        "right_header": "Req 6b: Overconsumption Multi-Level Impact Analysis",
         "left_points": [
-          "(6a) Personal Possessions Needs Assessment: Classifying fifteen possessions as vital survival needs or discretionary wants builds conscious consumer habits. Identifying excess stuff helps Scouts donate usable surplus goods to community shelters."
+          "(6a) Personal Possessions Needs Assessment: Classifying fifteen possessions as vital survival needs or discretionary wants builds conscious consumer habits. Identifying excess stuff helps Scouts donate usable surplus goods to community shelters.",
+          "Raw Material Extraction: Mining metals and petroleum for electronics causes substantial habitat destruction and chemical runoff."
         ],
         "right_points": [
-          "(6b) Overconsumption Multi-Level Impact Analysis: Accumulating excessive personal possessions strains household finances, consumes valuable cleaning time, and creates community clutter. Globally, overconsumption drives intensive resource extraction and overwhelms municipal landfills with persistent solid waste."
+          "(6b) Overconsumption Multi-Level Impact Analysis: Accumulating excessive personal possessions strains household finances, consumes valuable cleaning time, and creates community clutter. Globally, overconsumption drives intensive resource extraction and overwhelms municipal landfills with persistent solid waste.",
+          "(6c) Waste Pathways and Plastic Classification: Plastic debris enters storm drains and rivers, converging in oceanic trash vortices through wind and rotating currents. Numbered resin codes classify plastic chemistry from PETE one through other seven, determining proper handling."
         ],
         "rows": [
           {
@@ -2360,26 +2372,27 @@
           },
           {
             "attribute": "Ocean Plastic Accumulation",
-            "left": "Req 6a: Personal Possessions Needs: Classifying fifteen possessions as vital survival needs or discretionary wants builds conscious consumer habits. Identifying excess stuff helps Scouts donate usable surplus goods to community shelters.",
-            "right": "Req 6b: Overconsumption Multi-Level: Accumulating excessive personal possessions strains household finances, consumes valuable cleaning time, and creates community clutter. Globally, overconsumption drives intensive resource extraction and overwhelms municipal landfills with persistent solid waste."
+            "left": "Raw Material Extraction: Mining metals and petroleum for electronics causes substantial habitat destruction and chemical runoff.",
+            "right": "(6c) Waste Pathways and Plastic Classification: Plastic debris enters storm drains and rivers, converging in oceanic trash vortices through wind and rotating currents. Numbered resin codes classify plastic chemistry from PETE one through other seven, determining proper handling."
           },
           {
             "attribute": "Resin Identification Codes",
-            "left": "Req 6c: Waste Pathways And Plastic: Plastic debris enters storm drains and rivers, converging in oceanic trash vortices through wind and rotating currents. Numbered resin codes classify plastic chemistry from PETE one through other seven, determining proper handling.",
-            "right": "Ocean Plastic Accumulation: Rotating subtropical gyres concentrate discarded single-use plastics into massive pelagic garbage patches."
+            "left": "Resin Identification Codes: Triangular chasing-arrow symbols on plastics indicate chemical polymer composition, not recyclability.",
+            "right": "Planned Product Obsolescence: Designing fragile consumer electronics with non-replaceable batteries accelerates premature municipal disposal."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 6 Exemplar Workbook Entry: Consumer",
+        "title": "Sustainability Req 6 Worked Example: Material Goods Lifecycle Analysis",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Personal Possessions Needs": "Classifying fifteen possessions as vital survival needs or discretionary wants builds conscious consumer habits. Identifying excess stuff helps Scouts donate usable surplus goods to community shelters.",
-          "Req 6b - Overconsumption Multi-Level": "Accumulating excessive personal possessions strains household finances, consumes valuable cleaning time, and creates community clutter. Globally, overconsumption drives intensive resource extraction and overwhelms municipal landfills with persistent solid waste.",
-          "Req 6c - Waste Pathways and Plastic": "Plastic debris enters storm drains and rivers, converging in oceanic trash vortices through wind and rotating currents. Numbered resin codes classify plastic chemistry from PETE one through other seven, determining proper handling."
+          "Phase 1 - Possessions Inventory": "List fifteen personal items from your bedroom, including clothing, gadgets, and hygiene products.",
+          "Phase 2 - Need Classification": "Categorize each item strictly as a biological survival need or discretionary convenience want.",
+          "Phase 3 - Plastic Code Audit": "Inspect five packaging containers and identify the resin identification code number stamped underneath.",
+          "Phase 4 - Declutter Donation": "Sort surplus outgrown possessions and deliver clean items to a local thrift charity."
         },
-        "sample_output": "Consumer Stuff and Plastic Waste: Assist a charity with a sale (p. 71).",
-        "counselor_tip": "For Sustainability Requirement 6 (Consumer Stuff and Plastic Waste), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72))."
+        "sample_output": "Consumer goods require raw material extraction, chemical processing, global shipping, and eventual municipal disposal. Distinguishing essential needs from discretionary wants reduces consumer clutter and prevents plastic accumulation in oceans.",
+        "counselor_tip": "During the Sustainability Requirement 6 conference on Material Goods Lifecycle Analysis, verify that the Scout can explain raw material extraction and demonstrate declutter donation: Sort surplus outgrown possessions and deliver clean items to a local thrift charity."
       },
       "quiz_item": {
         "scenario_prompt": "Which material is commonly used to make disposable to-go cups, food boxes, and protective packaging?",
@@ -3019,7 +3032,7 @@
       "action_verb": "Discuss",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Use sun protection and stay on marked trail pathways when surveying sensitive outdoor wetland ecosystems.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -3098,17 +3111,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Sustainable Development Goals",
-        "right_header": "Req 7d: Human Population Ecological",
+        "left_header": "Req 7a: Sustainable Development Goals Framework",
+        "right_header": "Req 7d: Human Population Ecological Pressures",
         "left_points": [
           "(7a) Sustainable Development Goals Framework: The seventeen United Nations Sustainable Development Goals provide an actionable global blueprint for peace and ecological prosperity. Addressing clean water, clean energy, and poverty eradication simultaneously protects both people and natural ecosystems.",
-          "(7b) Planetary Life-Support Systems Interaction: Earth's biosphere relies on interdependent interactions between soils, ocean currents, atmospheric gases, and nutrient cycles. Disrupting topsoil microbiomes or ocean chemistry destabilizes global climate and agricultural productivity.",
-          "(7c) Product Life Cycle Evaluation: A cradle-to-grave life cycle assessment evaluates raw material extraction, factory processing, transportation, consumer use, and ultimate disposal. Sustainable industrial design ensures products can be completely disassembled and recycled."
+          "(7b) Planetary Life-Support Systems Interaction: Earth's biosphere relies on interdependent interactions between soils, ocean currents, atmospheric gases, and nutrient cycles. Disrupting topsoil microbiomes or ocean chemistry destabilizes global climate and agricultural productivity."
         ],
         "right_points": [
           "(7d) Human Population Ecological Pressures: A growing human population increases global demand for freshwater, arable cropland, timber, and electrical generation. Deforestation, fossil fuel emissions, and groundwater overextraction put future planetary habitability at risk.",
-          "(7e) Biodiversity Loss And Restoration: Species decline stems from habitat destruction, chemical pollution, invasive species introductions, overharvesting, and rapid climate shifts. Protecting contiguous migratory corridors and restoring native flora helps reverse dangerous extinction trends.",
-          "(7f) Century Climate Temperature Trends: Examining century-long meteorological temperature anomaly charts demonstrates a distinct, persistent global warming trajectory. Greenhouse gas concentrations, industrial particulate aerosols, and land cover changes drive these worldwide climate shifts."
+          "(7e) Biodiversity Loss and Restoration: Species decline stems from habitat destruction, chemical pollution, invasive species introductions, overharvesting, and rapid climate shifts. Protecting contiguous migratory corridors and restoring native flora helps reverse dangerous extinction trends."
         ],
         "rows": [
           {
@@ -3119,26 +3130,26 @@
           {
             "attribute": "Ocean Acidification",
             "left": "(7b) Planetary Life-Support Systems Interaction: Earth's biosphere relies on interdependent interactions between soils, ocean currents, atmospheric gases, and nutrient cycles. Disrupting topsoil microbiomes or ocean chemistry destabilizes global climate and agricultural productivity.",
-            "right": "(7e) Biodiversity Loss And Restoration: Species decline stems from habitat destruction, chemical pollution, invasive species introductions, overharvesting, and rapid climate shifts. Protecting contiguous migratory corridors and restoring native flora helps reverse dangerous extinction trends."
+            "right": "(7e) Biodiversity Loss and Restoration: Species decline stems from habitat destruction, chemical pollution, invasive species introductions, overharvesting, and rapid climate shifts. Protecting contiguous migratory corridors and restoring native flora helps reverse dangerous extinction trends."
           },
           {
             "attribute": "Life Cycle Assessment",
-            "left": "(7c) Product Life Cycle Evaluation: A cradle-to-grave life cycle assessment evaluates raw material extraction, factory processing, transportation, consumer use, and ultimate disposal. Sustainable industrial design ensures products can be completely disassembled and recycled.",
-            "right": "(7f) Century Climate Temperature Trends: Examining century-long meteorological temperature anomaly charts demonstrates a distinct, persistent global warming trajectory. Greenhouse gas concentrations, industrial particulate aerosols, and land cover changes drive these worldwide climate shifts."
+            "left": "Life Cycle Assessment: Evaluating cradle-to-grave material flows reveals hidden environmental burdens throughout commercial manufacturing.",
+            "right": "Habitat Fragmentation: Dividing contiguous wilderness into isolated patches accelerates catastrophic local animal population declines."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 7 Exemplar Workbook Entry: Planetary",
+        "title": "Sustainability Req 7 Worked Example: Global Environmental Biosphere Systems",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Sustainable Development Goals": "The seventeen United Nations Sustainable Development Goals provide an actionable global blueprint for peace and ecological prosperity. Addressing clean water, clean energy, and poverty eradication simultaneously protects both people and natural ecosystems.",
-          "Req 7b - Planetary Life-Support": "Earth's biosphere relies on interdependent interactions between soils, ocean currents, atmospheric gases, and nutrient cycles. Disrupting topsoil microbiomes or ocean chemistry destabilizes global climate and agricultural productivity.",
-          "Req 7c - Product Life Cycle Evaluation": "A cradle-to-grave life cycle assessment evaluates raw material extraction, factory processing, transportation, consumer use, and ultimate disposal. Sustainable industrial design ensures products can be completely disassembled and recycled.",
-          "Req 7d - Human Population Ecological": "A growing human population increases global demand for freshwater, arable cropland, timber, and electrical generation. Deforestation, fossil fuel emissions, and groundwater overextraction put future planetary habitability at risk."
+          "Phase 1 - System Selection": "Select two planetary systems, such as atmospheric weather and oceanic currents, for study.",
+          "Phase 2 - Cycle Diagramming": "Sketch interconnected feedback loops illustrating how carbon moves between soils, plants, and air.",
+          "Phase 3 - Historical Analysis": "Examine one hundred years of global temperature anomaly records using certified climate charts.",
+          "Phase 4 - Species Assessment": "Research one threatened regional wildlife species and list specific human-caused habitat stressors."
         },
-        "sample_output": "Planetary Systems and Biodiversity Protection: You can also work with your Scout troop and local schools to transform school property into an educational wildlife garden (p. 81).",
-        "counselor_tip": "For Sustainability Requirement 7 (Planetary Systems and Biodiversity Protection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85))."
+        "sample_output": "Planetary life-support systems depend on delicate geochemical balances across atmospheric, oceanic, and terrestrial realms. Human activities alter these nutrient cycles and climate systems, requiring coordinated international goals to protect biodiversity.",
+        "counselor_tip": "During the Sustainability Requirement 7 conference on Global Environmental Biosphere Systems, verify that the Scout can explain biogeochemical cycles and demonstrate species assessment: Research one threatened regional wildlife species and list specific human-caused habitat stressors."
       },
       "quiz_item": {
         "scenario_prompt": "Which of the following is a direct benefit that biodiversity provides to human quality of life on Earth?",
@@ -3478,7 +3489,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Extinguish campfires completely with water and stir ashes until cold to the touch before leaving.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36)",
       "syllabus_bucket": "In-Class Concept",
@@ -3551,42 +3562,45 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Campsite Sustainability Field",
+        "left_header": "Req 8a: Campsite Sustainability Field Observations",
         "right_header": "Req 8b: Scouting Values and Stewardship",
         "left_points": [
-          "(8a) Campsite Sustainability Field Observations: Observing troop transportation, campsite firewood gathering, graywater disposal, and trail erosion reveals operational sustainability in the field. Documenting practical successes and missteps helps patrols improve future backcountry procedures."
+          "(8a) Campsite Sustainability Field Observations: Observing troop transportation, campsite firewood gathering, graywater disposal, and trail erosion reveals operational sustainability in the field. Documenting practical successes and missteps helps patrols improve future backcountry procedures.",
+          "Campfire Impact Reduction: Using portable gas backpacking stoves prevents soil sterilization caused by heavy open ground fires."
         ],
         "right_points": [
-          "(8b) Scouting Values And Stewardship: The Scout Oath, Scout Law, Outdoor Code, and Leave No Trace principles charge Scouts to be clean, thrifty, and conservation-minded. Applying these core values builds lifelong personal stewardship of public lands and community resources."
+          "(8b) Scouting Values and Stewardship: The Scout Oath, Scout Law, Outdoor Code, and Leave No Trace principles charge Scouts to be clean, thrifty, and conservation-minded. Applying these core values builds lifelong personal stewardship of public lands and community resources.",
+          "(8c) Household Family Behavioral Commitments: Selecting five specific domestic habits, such as shortening showers and carpooling, embeds sustainability into daily family routines. Sharing these practical commitments with counselor guidance ensures accountable, long-term family adherence."
         ],
         "rows": [
           {
             "attribute": "Campfire Impact Reduction",
             "left": "(8a) Campsite Sustainability Field Observations: Observing troop transportation, campsite firewood gathering, graywater disposal, and trail erosion reveals operational sustainability in the field. Documenting practical successes and missteps helps patrols improve future backcountry procedures.",
-            "right": "(8b) Scouting Values And Stewardship: The Scout Oath, Scout Law, Outdoor Code, and Leave No Trace principles charge Scouts to be clean, thrifty, and conservation-minded. Applying these core values builds lifelong personal stewardship of public lands and community resources."
+            "right": "(8b) Scouting Values and Stewardship: The Scout Oath, Scout Law, Outdoor Code, and Leave No Trace principles charge Scouts to be clean, thrifty, and conservation-minded. Applying these core values builds lifelong personal stewardship of public lands and community resources."
           },
           {
             "attribute": "Backcountry Waste Packing",
-            "left": "Req 8a: Campsite Sustainability: Observing troop transportation, campsite firewood gathering, graywater disposal, and trail erosion reveals operational sustainability in the field. Documenting practical successes and missteps helps patrols improve future backcountry procedures.",
-            "right": "Req 8b: Scouting Values: The Scout Oath, Scout Law, Outdoor Code, and Leave No Trace principles charge Scouts to be clean, thrifty, and conservation-minded. Applying these core values builds lifelong personal stewardship of public lands and community resources."
+            "left": "Campfire Impact Reduction: Using portable gas backpacking stoves prevents soil sterilization caused by heavy open ground fires.",
+            "right": "(8c) Household Family Behavioral Commitments: Selecting five specific domestic habits, such as shortening showers and carpooling, embeds sustainability into daily family routines. Sharing these practical commitments with counselor guidance ensures accountable, long-term family adherence."
           },
           {
             "attribute": "Scout Law Conservation",
-            "left": "Req 8c: Household Family Behavioral: Selecting five specific domestic habits, such as shortening showers and carpooling, embeds sustainability into daily family routines. Sharing these practical commitments with counselor guidance ensures accountable, long-term family adherence.",
-            "right": "Backcountry Waste Packing: Packing out all food remnants and trash maintains natural foraging behaviors among native wildlife."
+            "left": "Scout Law Conservation: Being thrifty means using scarce materials wisely and repairing broken equipment rather than discarding.",
+            "right": "Domestic Conservation Habits: Practicing daily water and energy thrift at home extends backcountry ethics into urban environments."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 8 Exemplar Workbook Entry: Outdoor",
+        "title": "Sustainability Req 8 Worked Example: Scouting Outdoor Conservation Ethics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Campsite Sustainability Field": "Observing troop transportation, campsite firewood gathering, graywater disposal, and trail erosion reveals operational sustainability in the field. Documenting practical successes and missteps helps patrols improve future backcountry procedures.",
-          "Req 8b - Scouting Values": "The Scout Oath, Scout Law, Outdoor Code, and Leave No Trace principles charge Scouts to be clean, thrifty, and conservation-minded. Applying these core values builds lifelong personal stewardship of public lands and community resources.",
-          "Req 8c - Household Family Behavioral": "Selecting five specific domestic habits, such as shortening showers and carpooling, embeds sustainability into daily family routines. Sharing these practical commitments with counselor guidance ensures accountable, long-term family adherence."
+          "Phase 1 - Campsite Evaluation": "Walk through the campsite and document fire ring ash, erosion, and vegetation damage.",
+          "Phase 2 - Carpool Logistics": "Organize troop passenger seating to minimize the total number of vehicles driving to camp.",
+          "Phase 3 - Dishwashing Sump": "Dispose of strained gray dishwater two hundred feet away from lakes and running streams.",
+          "Phase 4 - Family Action Plan": "Implement five daily conservation habits at home, including short showers and power conservation."
         },
-        "sample_output": "Outdoor Ethics and Sustainable Habits: These are often more nutritious, tastier, and more productive per unit of land than the original species (p. 23).",
-        "counselor_tip": "For Sustainability Requirement 8 (Outdoor Ethics and Sustainable Habits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36))."
+        "sample_output": "Practicing the Outdoor Code and Leave No Trace principles on troop campouts minimizes human impact on backcountry trails. Translating these outdoor ethics into everyday domestic habits protects vital resources across local communities.",
+        "counselor_tip": "During the Sustainability Requirement 8 conference on Scouting Outdoor Conservation Ethics, verify that the Scout can explain campfire impact reduction and demonstrate family action plan: Implement five daily conservation habits at home, including short showers and power conservation."
       },
       "quiz_item": {
         "scenario_prompt": "How have modern agricultural practices and improved crop varieties affected farm resource use?",
@@ -3682,7 +3696,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Comply with occupational eye, foot, and head personal protective equipment standards during field career site tours.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 97, p. 99)",
       "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 97, p. 99)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -3750,47 +3764,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Interdisciplinary Scientific",
-        "right_header": "Req 9: Evaluate Project Ecological",
+        "left_header": "Sustainability Career Pathway Exploration: Core Principles",
+        "right_header": "Sustainability Career Pathway Exploration: Field Execution",
         "left_points": [
-          "Interdisciplinary Scientific Collaboration: Scientists in all fields working together and with the community will be needed to help solve the increasingly complex problems our world is facing (p. 97).",
-          "Exploring Sustainability Career Paths: Here are some career paths in sustain ability that may be of interest (p. 97).",
-          "Role of Environmental Consultants: Environmental consultants study the ecological impacts of conservation, development, and industry projects and recommend solutions to environmental (p. 97)."
+          "Environmental Engineering Duties: Engineers design advanced biological water treatment plants, industrial scrubbers, and solid waste facilities.",
+          "Renewable Energy Specialists: Solar and wind technicians install, calibrate, and maintain high-voltage clean power generation equipment."
         ],
         "right_points": [
-          "Evaluate Project Ecological Impacts: Environmental consultants study the ecological impacts of conservation, development, and industry projects and recommend solutions to environmental (p. 97).",
-          "Manage Public Ecological Resources: Natural resource managers care for ecological resources for private and public organizations (p. 97).",
-          "Lead Nature Education Programs: Park naturalists provide education programs to people of all ages (p. 97)."
+          "Urban Planning Roles: Municipal planners create comprehensive transit maps, pedestrian corridors, and sustainable zoning regulations for communities.",
+          "Ecological Science Careers: Wildlife biologists monitor endangered species population health, wetland migration corridors, and forest restoration."
         ],
         "rows": [
           {
             "attribute": "Environmental Engineering Duties",
-            "left": "Interdisciplinary Scientific Collaboration: Scientists in all fields working together and with the community will be needed to help solve the increasingly complex problems our world is facing (p. 97).",
-            "right": "Evaluate Project Ecological Impacts: Environmental consultants study the ecological impacts of conservation, development, and industry projects and recommend solutions to environmental (p. 97)."
+            "left": "Environmental Engineering Duties: Engineers design advanced biological water treatment plants, industrial scrubbers, and solid waste facilities.",
+            "right": "Urban Planning Roles: Municipal planners create comprehensive transit maps, pedestrian corridors, and sustainable zoning regulations for communities."
           },
           {
             "attribute": "Renewable Energy Specialists",
-            "left": "Exploring Sustainability Career Paths: Here are some career paths in sustain ability that may be of interest (p. 97).",
-            "right": "Manage Public Ecological Resources: Natural resource managers care for ecological resources for private and public organizations (p. 97)."
+            "left": "Renewable Energy Specialists: Solar and wind technicians install, calibrate, and maintain high-voltage clean power generation equipment.",
+            "right": "Ecological Science Careers: Wildlife biologists monitor endangered species population health, wetland migration corridors, and forest restoration."
           },
           {
             "attribute": "Urban Planning Roles",
-            "left": "Role of Environmental Consultants: Environmental consultants study the ecological impacts of conservation, development, and industry projects and recommend solutions to environmental (p. 97).",
-            "right": "Lead Nature Education Programs: Park naturalists provide education programs to people of all ages (p. 97)."
+            "left": "Urban Planning Roles: Municipal planners create comprehensive transit maps, pedestrian corridors, and sustainable zoning regulations for communities.",
+            "right": "Ecological Science Careers: Wildlife biologists monitor endangered species population health, wetland migration corridors, and forest restoration."
           }
         ]
       },
       "worked_example": {
-        "title": "Sustainability Req 9 Exemplar Workbook Entry: Careers",
+        "title": "Sustainability Req 9 Worked Example: Sustainability Career Pathway Exploration",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Interdisciplinary Scientific": "Scientists in all fields working together and with the community will be needed to help solve the increasingly complex problems our world is facing (p. 97).",
-          "Exploring Sustainability Career Paths": "Here are some career paths in sustain ability that may be of interest (p. 97).",
-          "Role of Environmental Consultants": "Environmental consultants study the ecological impacts of conservation, development, and industry projects and recommend solutions to environmental (p. 97).",
-          "Work of Resource Managers": "Natural resource managers care for ecological resources for private and public organizations (p. 97)."
+          "Phase 1 - Career Identification": "Select one sustainability profession, such as solar photovoltaic technician or civil environmental engineer.",
+          "Phase 2 - Education Research": "Investigate required undergraduate degree majors, trade apprenticeships, and specialized industry professional certifications.",
+          "Phase 3 - Daily Operations": "Document the primary daily responsibilities, field inspection duties, and software tools used.",
+          "Phase 4 - Counselor Presentation": "Prepare a five-minute structured verbal briefing explaining career preparation pathways and personal interest."
         },
-        "sample_output": "Careers in Environmental Sustainability: Scientists in all fields working together and with the community will be needed to help solve the increasingly complex problems our world is facing (p. 97).",
-        "counselor_tip": "For Sustainability Requirement 9 (Careers in Environmental Sustainability), verify the Scout's own observations and specific pamphlet details (Official Scouting America Sustainability Merit Badge Pamphlet (p. 97, p. 99))."
+        "sample_output": "Modern sustainability careers span environmental engineering, renewable energy technology, urban planning, corporate sustainability management, and ecological sciences. Professionals utilize life-cycle analysis, regulatory knowledge, and technical monitoring to build resilient communities.",
+        "counselor_tip": "During the Sustainability Requirement 9 conference on Sustainability Career Pathway Exploration, verify that the Scout can explain environmental engineering duties and demonstrate counselor presentation: Prepare a five-minute structured verbal briefing explaining career preparation pathways and personal interest."
       },
       "quiz_item": {
         "scenario_prompt": "Which sustainability professional focuses on carrying out programs to reestablish damaged natural ecosystems?",

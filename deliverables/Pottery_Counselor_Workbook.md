@@ -68,10 +68,8 @@
 #### Req 2a: Clay Body Formulation Properties
 **Official Requirement 2a:** Explain the properties and ingredients of a good clay body for the following: (1) Making sculpture using the hand-building method (2) Throwing on the wheel.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Properties and Ingredients)
-- **Common Myth:** Potters sometimes believe pure kaolin yields the most workable material for delicate wheel projects.
-- **Pamphlet Fact:** Pure kaolin lacks necessary plasticity and requires ball clay blends to survive wheel tension.
 
-![Pottery Requirement 2 figure showing coarse fired grog particles open clay pores to release trapped drying moisture.](/assets/pamphlet_images/pottery_p007_img1.png)
+![Coarse fired grog particles open clay pores to release trapped drying moisture.](/assets/pamphlet_images/pottery_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -83,8 +81,6 @@
 #### Req 2b: Potter Wheel Drive Systems
 **Official Requirement 2b:** Tell how three different kinds of potter's wheels work.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Potter's Wheels Work)
-- **Common Myth:** Students often think all non-electric potter wheels require identical kicking techniques during throwing.
-- **Pamphlet Fact:** Treadle wheels use side-to-side lever pumps while kick wheels require circular centrifugal foot sweeps.
 
 ![Distinct handcrafted vessels demonstrate the visual contrast between raw clay texture and smooth colored glaze.](/assets/pamphlet_images/pottery_p028_img1.png)
 
@@ -154,11 +150,8 @@
 #### Req 5a: Hand Building Vessel Construction
 **Official Requirement 5a:** Make a slab pot, a coil pot, and a pinch pot.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Slab Pot A Coil Pot)
-- **Common Myth:** Beginners often think coil layers can simply be stacked loosely on top of each other.
-- **Pamphlet Fact:** Coil layers must be thoroughly blended together on interior surfaces to prevent structural separation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Pottery merit badge pamphlet and studio sketch book for Req 5.
 - [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
 - [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
 - [ ] Labeled portfolio work or finished studio piece for Hand Building Wheel Throwing and Firing.
@@ -174,10 +167,8 @@
 #### Req 5b: Figurine Modeling and Venting
 **Official Requirement 5b:** Make a human or animal figurine or decorative sculpture.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist (Human or Animal Figurine or)
-- **Common Myth:** Scouts sometimes believe solid clay sculptures survive firing if heated very slowly.
-- **Pamphlet Fact:** Solid clay thicker than one inch rarely dries completely and typically fractures during firing.
 
-![Pottery Requirement 1 figure showing wet sponges trap toxic respirable silica dust before particles become airborne hazards.](/assets/pamphlet_images/pottery_p003_img1.png)
+![Wet sponges trap toxic respirable silica dust before particles become airborne hazards.](/assets/pamphlet_images/pottery_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -188,10 +179,8 @@
 #### Req 5c: Wheel Throwing Functional Forms
 **Official Requirement 5c:** Throw a functional form on a potter's wheel.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Throw A Functional Form)
-- **Common Myth:** New throwers often assume pulling taller walls requires pulling upward with high wheel speed.
-- **Pamphlet Fact:** Slowing wheel speed during wall pulls prevents centrifugal force from flaring and collapsing tall cylinders.
 
-![Pottery Requirement 3 figure showing drafting cutaway profile views shows internal wall thickness alongside external.](/assets/pamphlet_images/pottery_p012_img1.png)
+![Drafting cutaway profile views shows internal wall thickness alongside external silhouette shapes.](/assets/pamphlet_images/pottery_p012_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -202,8 +191,6 @@
 #### Req 5d: Kiln Loading and Firing
 **Official Requirement 5d:** Help an experienced adult to load and fire a kiln OR describe in detail how to load and fire a kiln.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Help An Experienced Adult)
-- **Common Myth:** Novices assume glazed pots can touch each other in the kiln just like greenware.
-- **Pamphlet Fact:** Glaze melts into liquid glass during firing, fusing touching pieces into an inseparable lump.
 
 ![A handcrafted black Raku tea bowl exhibits subtle hand-formed contours typical of historical ceramic styles.](/assets/pamphlet_images/pottery_p020_img1.png)
 
@@ -253,8 +240,6 @@
 **Official Requirement 7a:** Visit the kiln yard at a local college or other craft school. Learn how the different kinds of kilns work, including low fire electric, gas or propane high fire, wood or salt/soda, and raku.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Kiln Yard at A Local)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Pottery Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Students often believe electric kilns can easily perform atmospheric fuel reduction firings.
-- **Pamphlet Fact:** Electric coils quickly burn out and fail if deprived of oxygen in reduction atmospheres.
 
 ![Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing.](/assets/pamphlet_images/pottery_p024_img1.png)
 
@@ -268,8 +253,6 @@
 #### Req 7b: Museum and Gallery Observation
 **Official Requirement 7b:** Visit a museum, art exhibit, art gallery, artists' co-op, or artist's studio that features pottery. After your visit, share with your counselor what you have learned.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Museum Art Exhibit Art Gallery)
-- **Common Myth:** Gallery visitors often think hand-built vessels lack the precision and durability of wheel-thrown work.
-- **Pamphlet Fact:** Master hand builders achieve exquisite geometric tolerances and wall uniformity matching wheel thrown standards.
 
 ![An ornate painted porcelain platter displays detailed historical glaze patterns and botanical artwork.](/assets/pamphlet_images/pottery_p020_img2.png)
 
@@ -284,8 +267,6 @@
 **Official Requirement 7c:** Using resources from the library, magazines, the internet (with your parent or guardian's permission), and other outlets, learn about the historical and cultural importance of pottery. Share what you discovered with your counselor.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Resources from the Library Magazines)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Pottery Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** People often believe prehistoric pottery served solely utilitarian food storage purposes without artistic intent.
-- **Pamphlet Fact:** Ancient potters integrated detailed cultural symbols, regional slips, and ceremonial motifs into daily vessels.
 
 ![Colorful hand-painted ceramic bowls display diverse glaze finishes and patterns in a pottery studio display.](/assets/pamphlet_images/pottery_p025_img1.png)
 

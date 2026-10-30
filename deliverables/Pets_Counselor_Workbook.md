@@ -31,7 +31,6 @@
 ### Req 1: Four Month Pet Care Record
 **Official Requirement 1:** Present evidence that you have cared for a pet for four months. Get approval before you start. Note: Work done for other merit badges cannot be used for this requirement.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Evidence That You Have Cared)
-> **Guide to Safe Scouting Warning:** Wash hands thoroughly with warm water and soap after handling animal feed, cages, or waste.
 - **Common Myth:** Scouts can retroactively record pet care duties completed months prior to meeting their counselor.
 - **Pamphlet Fact:** Scouts must consult their counselor and receive formal approval before initiating the four-month tracking period.
 
@@ -54,7 +53,6 @@
 ### Req 2: Pet Husbandry Essay and Laws
 **Official Requirement 2:** Write in 200 words or more about the care, feeding, and housing of your pet. Tell some interesting facts about it. Tell why you have this kind of pet. Give local laws, if any, relating to the pet you keep.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Words or More About the)
-> **Guide to Safe Scouting Warning:** Store pet food in airtight containers to prevent bacterial contamination and keep rodents out of feed.
 - **Common Myth:** Commercial table scraps provide balanced nutrition and eliminate the need for commercial pet diets.
 - **Pamphlet Fact:** Table scraps lack vital balanced nutrients and frequently contain toxic ingredients such as onions or xylitol.
 
@@ -78,15 +76,9 @@
 ### Req 3: Pet Literature Study Discussion
 **Official Requirement 3:** Show that you have read a book or pamphlet, approved by your counselor, about your kind of pet. Discuss with your counselor what you have learned from what you read.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (You Have Read A Book)
-> **Guide to Safe Scouting Warning:** Never attempt medical procedures or administer over the counter human medications based on literature without veterinary guidance.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Pets Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Casual internet forums and video blogs offer the same scientific accuracy as peer-reviewed literature.
 - **Pamphlet Fact:** Counselor-approved published books offer vetted veterinary knowledge verified by professional animal care specialists.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Pets Merit Badge Pamphlet: That you have read a book.
-- [ ] Field notebook, verification log sheet, and demonstration materials for That you have read a book.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A uniformed Scout pours fresh water into a dish inside a furnished glass terrarium habitat for a pet.](/assets/ai_illustrations/pets_req_3_nano_hero.png)
 
@@ -106,7 +98,6 @@
 ### Req 4: Exhibition or Behavior Training
 **Official Requirement 4 (Parent Overview):** Do ONE of the following: (a) Show your pet in a pet show. (b) Train a pet in three or more tricks or special abilities.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Use secure leashes, harnesses, or transport crates in public settings to prevent escapes or conflicts.
 - **Common Myth:** Effective animal training requires physical punishment and aggressive dominance to enforce obedience.
 - **Pamphlet Fact:** Humane behavior modification relies on consistent positive reinforcement, timing, and rewarding voluntary compliance.
 
@@ -119,13 +110,6 @@
 #### Req 4a: Pet Show Ring Exhibition
 **Official Requirement 4a:** Show your pet in a pet show.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Pet in A Pet)
-- **Common Myth:** Pet shows evaluate only purebred pedigrees and exclude mixed-breed or rescued companion animals.
-- **Pamphlet Fact:** Many 4-H, school, and community shows feature companion classes that reward care, condition, and handling.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Pets Merit Badge Pamphlet: Your pet in a pet.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Your pet in a pet.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A boy pours clean litter into a tray to maintain clean sanitation for a pet cat.](/assets/pamphlet_images/pets_p021_img2.png)
 
@@ -138,10 +122,8 @@
 #### Req 4b: Three Behavior Command Training
 **Official Requirement 4b:** Train a pet in three or more tricks or special abilities.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Train A Pet)
-- **Common Myth:** Older animals or non-canine species like cats and rodents cannot learn conditioned behavioral cues.
-- **Pamphlet Fact:** Operant conditioning principles apply across birds, mammals, and reptiles using species-appropriate food rewards.
 
-![Pets Requirement 1 figure showing scouts must secure counselor authorization before starting the four month care record.](/assets/pamphlet_images/pets_p003_img1.png)
+![Scouts must secure counselor authorization before starting the four month care record tracking.](/assets/pamphlet_images/pets_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -152,7 +134,6 @@
 ### Req 5: Pet Careers or Avocations
 **Official Requirement 5 (Parent Overview):** Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this. Resource: Animal Hobbies (video)
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Observe all clinical biohazard and handling safety warnings when touring animal shelters or hospitals.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Pets Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Veterinary medicine is the only viable professional vocation within the domestic pet industry.
 - **Pamphlet Fact:** The pet industry encompasses veterinary technology, hydrotherapy, behavior consulting, facility management, and dietary research.
@@ -167,8 +148,6 @@
 **Official Requirement 5a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)* • **Organizer (Career & Profession Exploration Card):** Req 5a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Pets Req 5a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Entering animal care professions requires only affection for animals without rigorous science coursework.
-- **Pamphlet Fact:** Animal careers require substantial mastery of chemistry, mammalian anatomy, pharmacology, and behavioral biology.
 
 ![A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines.](/assets/pamphlet_images/pets_p020_img1.png)
 
@@ -184,8 +163,6 @@
 #### Req 5b: Pet Hobby Lifestyle Integration
 **Official Requirement 5b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this. Resource: Animal Hobbies (video)
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)
-- **Common Myth:** Animal hobbies like therapy work or agility require no formal training or organization affiliation.
-- **Pamphlet Fact:** Registered therapy teams and agility competitors must pass standardized evaluations administered by recognized kennel associations.
 
 ![A smiling girl cares for three small puppies to demonstrate pet handling and affection.](/assets/pamphlet_images/pets_p009_img1.png)
 

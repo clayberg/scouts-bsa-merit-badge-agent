@@ -53,8 +53,6 @@
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Kayaking Hazards and First Aid)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Small river dams are safe to paddle over during normal water flow.
-- **Pamphlet Fact:** Low head dams create powerful reverse roller currents that trap kayaks beneath the surface.
 
 ![Scouts and counselor demonstrate Kayaking Requirement 1 field procedures and safety checks.](/assets/pamphlet_images/kayaking_p003_img1.png)
 
@@ -67,8 +65,6 @@
 #### Req 1b: Paddler First Aid Protocols
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock and hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** Hypothermia occurs exclusively in freezing winter conditions below thirty two degrees.
-- **Pamphlet Fact:** Mild hypothermia impairs fine motor skills and judgment before severe shivering begins.
 
 ![Rescuers insulate a shivering hypothermia victim on shore using a warm tarp.](/assets/pamphlet_images/kayaking_p019_img1.png)
 
@@ -87,8 +83,6 @@
 #### Req 1c: Safety Afloat Policy Application
 **Official Requirement 1c:** Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to kayaking.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** Scout patrols can organize independent river trips without adult aquatics leadership.
-- **Pamphlet Fact:** Safety Afloat mandates adult supervision with current aquatics training for all unit paddling trips.
 
 ![Severe weather and lightning pose critical environmental hazards for kayakers.](/assets/pamphlet_images/kayaking_p016_img1.png)
 
@@ -138,8 +132,6 @@
 #### Req 3a: Life Jacket Selection and Fitting
 **Official Requirement 3a:** Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Characteristics of Life Jackets)
-- **Common Myth:** Bulky offshore Type I life jackets are ideal for maneuvering nimble recreational kayaks.
-- **Pamphlet Fact:** Type III life jackets offer freedom of arm rotation needed for continuous paddling.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -159,8 +151,6 @@
 #### Req 3b: Kayaking Safety Gear Essentials
 **Official Requirement 3b:** Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Safety Equipment Such As A)
-- **Common Myth:** A whistle is unnecessary if paddlers have strong voices for shouting across water.
-- **Pamphlet Fact:** Synthetic deck sponges soak up remaining hull water that manual bilge pumps miss.
 
 ![A float plan form outlines trip details and emergency contacts before paddling.](/assets/pamphlet_images/kayaking_p013_img1.png)
 
@@ -186,8 +176,6 @@
 #### Req 4a: Kayak Anatomy and Hull Components
 **Official Requirement 4a:** Name and point out the major parts of a kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Out the Major)
-- **Common Myth:** The cockpit refers to the outer bottom surface of the kayak hull.
-- **Pamphlet Fact:** The bow is the front end and the stern is the rear end.
 
 ![Swimmers prepare proper life jacket equipment before participating in paddling.](/assets/pamphlet_images/kayaking_p033_img1.png)
 
@@ -200,8 +188,6 @@
 #### Req 4b: Kayak Design and Hull Dynamics
 **Official Requirement 4b:** Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in the design of each type.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix (Recreational Whitewater and Sea or)
-- **Common Myth:** Hull width has no bearing on how stable a kayak feels on calm water.
-- **Pamphlet Fact:** Wider hulls provide initial stability while narrower hulls deliver superior forward cruising speed.
 
 ![A medical thermometer helps monitor body temperatures during hypothermia care.](/assets/pamphlet_images/kayaking_p020_img1.png)
 
@@ -215,8 +201,6 @@
 #### Req 4c: Kayak Storage and Hull Maintenance
 **Official Requirement 4c:** Explain the care, maintenance, and storage of a kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Care Maintenance and Storage)
-- **Common Myth:** Leaving kayaks strapped tightly on roof racks all summer protects hull alignment.
-- **Pamphlet Fact:** Storing plastic kayaks on their side gunwales prevents hull flat spots called oil canning.
 
 ![Kayakers paddling together monitor each other for dehydration and heat exhaustion.](/assets/pamphlet_images/kayaking_p021_img1.png)
 
@@ -242,8 +226,6 @@
 #### Req 5a: Kayak Paddle Usage Mechanics
 **Official Requirement 5a:** Correct methods for the use of a kayak paddle.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Kayaking Kayak Principles)
-- **Common Myth:** Kayaking strokes derive all forward pulling force exclusively from arm and shoulder muscles.
-- **Pamphlet Fact:** Proper paddling rhythm relies on core stomach rotation rather than repetitive bicep pulling.
 
 ![A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.](/assets/pamphlet_images/kayaking_p067_img1.png)
 
@@ -256,8 +238,6 @@
 #### Req 5b: Double Bladed Paddle Anatomy
 **Official Requirement 5b:** Parts of a paddle.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Kayaking Requirement 5b Techniques)
-- **Common Myth:** Both sides of an asymmetric kayak paddle blade possess identical hydrodynamic shapes.
-- **Pamphlet Fact:** The ferrule is the center joint that connects two piece paddle shafts.
 
 ![An instructor assists scouts with sizing personal flotation devices and paddles.](/assets/pamphlet_images/kayaking_p035_img1.png)
 
@@ -270,8 +250,6 @@
 #### Req 5c: Paddle Care and Maintenance Guidelines
 **Official Requirement 5c:** The care and maintenance of a paddle.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Care and Maintenance)
-- **Common Myth:** Paddle shafts require petroleum lubricants inside the ferrule joint to slide together.
-- **Pamphlet Fact:** Storing multi piece paddles separated prevents salt water galvanic corrosion of locking pins.
 
 ![Different paddle blade shapes and angles illustrate essential equipment options.](/assets/pamphlet_images/kayaking_p036_img1.png)
 
@@ -297,8 +275,6 @@
 #### Req 6a: Wet Exit Capsizing Procedures
 **Official Requirement 6a:** Safely capsize and perform a wet exit.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Capsize and Perform A Wet)
-- **Common Myth:** Swimmers should kick violently against the boat bottom while trapped upside down.
-- **Pamphlet Fact:** Forward tucking protects the paddler face from submerged logs and rocky bottom strikes.
 
 ![A kayaker demonstrates a controlled wet exit maneuver inside a training pool.](/assets/pamphlet_images/kayaking_p054_img1.png)
 
@@ -311,8 +287,6 @@
 #### Req 6b: Assisted Deep Water Reentry
 **Official Requirement 6b:** Reenter the kayak with assistance from a buddy boat.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Reenter the Kayak with Assistance)
-- **Common Myth:** Swimmers can leap vertically into a cockpit without capsizing the assisting kayak.
-- **Pamphlet Fact:** Heel hook reentries allow low center of gravity entry into unstable empty kayaks.
 
 ![A Coast Guard approved life vest provides buoyant protection for paddling trips.](/assets/pamphlet_images/kayaking_p037_img1.png)
 
@@ -325,8 +299,6 @@
 #### Req 6c: Kayak Over Kayak Rescue
 **Official Requirement 6c:** Demonstrate a kayak-over-kayak rescue.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6c Hands-On Skill Station & EDGE Verification Checklist (Kayak-over-kayak Rescue)
-- **Common Myth:** A fully flooded kayak must be towed all the way to shore.
-- **Pamphlet Fact:** Seesawing the capsized kayak breaks hull suction and empties water through cockpit.
 
 ![Matched kayak paddles display blade designs suitable for varied paddling styles.](/assets/pamphlet_images/kayaking_p043_img1.png)
 
@@ -339,8 +311,6 @@
 #### Req 6d: Heat Escape Lessening Posture
 **Official Requirement 6d:** Demonstrate the HELP position.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6d Hands-On Skill Station & EDGE Verification Checklist (HELP Position)
-- **Common Myth:** Swimming continuously in freezing water keeps core body temperature warmer than floating.
-- **Pamphlet Fact:** Crossing arms over the life jacket and raising knees protects high heat loss areas.
 
 ![A portable hand bilge pump expels water from flooded kayak cockpits quickly.](/assets/pamphlet_images/kayaking_p043_img3.png)
 
@@ -353,8 +323,6 @@
 #### Req 6e: Shoreline Towing and Dewatering
 **Official Requirement 6e:** Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Capsize the Kayak)
-- **Common Myth:** One swimmer can effortlessly carry a waterlogged thirty gallon kayak up sand dunes.
-- **Pamphlet Fact:** Walking a swamped kayak into shoreline surf prevents waves from pounding boat hulls.
 
 ![Rescuers execute a T-rescue maneuver to empty water from an overturned kayak.](/assets/pamphlet_images/kayaking_p057_img1.png)
 
@@ -380,8 +348,6 @@
 #### Req 7a: Forward Propulsion Power Stroke
 **Official Requirement 7a:** Forward stroke.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Forward Stroke)
-- **Common Myth:** Wide swinging forward paddle strokes propel a kayak faster than tight vertical strokes.
-- **Pamphlet Fact:** Planting the blade close to the hull produces forward motion without unnecessary yawing.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -400,8 +366,6 @@
 #### Req 7b: Reverse Backstroke Execution Mechanics
 **Official Requirement 7b:** Backstroke.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Kayaking Backstroke Principles)
-- **Common Myth:** Reverse paddling requires flipping the paddle completely around inside the paddler hands.
-- **Pamphlet Fact:** Looking over your shoulder before backstroking prevents collisions with unseen water obstructions.
 
 ![A paddler reenters an emptied kayak with assistance from a rescue partner.](/assets/pamphlet_images/kayaking_p057_img2.png)
 
@@ -414,8 +378,6 @@
 #### Req 7c: Forward Sweep Turning Stroke
 **Official Requirement 7c:** Forward sweep.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Forward Sweep)
-- **Common Myth:** Forward sweep strokes push the kayak straight ahead while maintaining precise course tracking.
-- **Pamphlet Fact:** Carving a wide horizontal arc far from the hull maximizes turning torque.
 
 ![A young paddler steers a sit-on-top kayak across a swimming pool practice area.](/assets/pamphlet_images/kayaking_p072_img1.png)
 
@@ -428,8 +390,6 @@
 #### Req 7d: Reverse Sweep Turning Mechanics
 **Official Requirement 7d:** Reverse sweep.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Reverse Sweep)
-- **Common Myth:** Reverse sweeps spin the boat toward the opposite side of a forward sweep.
-- **Pamphlet Fact:** A reverse sweep plants near the stern and pushes water away toward bow.
 
 ![A sweeping paddle stroke helps turn the kayak smoothly through the pool water.](/assets/pamphlet_images/kayaking_p075_img2.png)
 
@@ -442,8 +402,6 @@
 #### Req 7e: Lateral Draw Stroke Technique
 **Official Requirement 7e:** Draw stroke.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Organizer (Field Sketch & Diagram Canvas):** Req 7e Structured Technical Study & Explanation Matrix (Kayaking Stroke Principles)
-- **Common Myth:** Angling the draw paddle shaft horizontally pulls the boat sideways without any tipping.
-- **Pamphlet Fact:** Keeping the paddle shaft vertical directs all lateral force directly toward the boat.
 
 ![A reverse paddle stroke slows forward momentum and backs the kayak into position.](/assets/pamphlet_images/kayaking_p075_img3.png)
 
@@ -464,8 +422,6 @@
 #### Req 7f: Stern Draw Steering Control
 **Official Requirement 7f:** Stern draw.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Organizer (Field Sketch & Diagram Canvas):** Req 7f Structured Technical Study & Explanation Matrix (Kayaking Stern Principles)
-- **Common Myth:** Stern draws bring the boat to a dead stop faster than reverse backstrokes.
-- **Pamphlet Fact:** A stern draw provides micro steering corrections while maintaining forward paddling boat speed.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -497,8 +453,6 @@
 #### Req 8a: Straight Course Tracking and Trim
 **Official Requirement 8a:** Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Straight Line for to Boat)
-- **Common Myth:** Looking down at the kayak bow helps paddlers maintain a straight heading.
-- **Pamphlet Fact:** Equal cadence and stroke depth on both sides keeps the hull tracking true.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
@@ -517,8 +471,6 @@
 #### Req 8b: Stationary Pivot Turn Maneuvers
 **Official Requirement 8b:** Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Pivot from A Stationary Position)
-- **Common Myth:** A kayak requires forward momentum in order to pivot its hull one hundred eighty degrees.
-- **Pamphlet Fact:** Combining opposite sweeps spins the kayak in place without drifting forward or backward.
 
 | Req 8b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -529,8 +481,6 @@
 #### Req 8c: Abeam Lateral Movement Execution
 **Official Requirement 8c:** Move abeam to the right 10 feet and to the left 10 feet.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Move Abeam to the Right)
-- **Common Myth:** Paddlers can move directly sideways by repeatedly pushing water away from the hull.
-- **Pamphlet Fact:** Slicing the blade through water between pulls prevents capsizing toward the active paddle.
 
 | Req 8c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -541,8 +491,6 @@
 #### Req 8d: Emergency Stop Within Boat Length
 **Official Requirement 8d:** Stop the boat in one boat length.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Stop the Boat in One)
-- **Common Myth:** Trailing the paddle flat in water provides enough drag to stop immediate momentum.
-- **Pamphlet Fact:** Short, powerful reverse strokes counter forward inertia without flipping or turning the kayak.
 
 | Req 8d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -553,8 +501,6 @@
 #### Req 8e: Dynamic Turning in Motion
 **Official Requirement 8e:** While maintaining forward motion, turn the kayak 90 degrees to the right and left.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn the)
-- **Common Myth:** Kayaks must come to a complete stop before turning ninety degrees into channels.
-- **Pamphlet Fact:** Edging the hull outward helps carve a clean turning arc through the water.
 
 | Req 8e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -565,8 +511,6 @@
 #### Req 8f: Reverse Linear Hull Maneuvering
 **Official Requirement 8f:** Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix (Move the Kayak Backward)
-- **Common Myth:** Paddlers can reverse safely without ever looking behind them toward the stern.
-- **Pamphlet Fact:** Torso rotation is even more critical during reverse paddling to monitor your path.
 
 | Req 8f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -577,8 +521,6 @@
 #### Req 8g: Buoyed Figure Eight Course Navigation
 **Official Requirement 8g:** Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8g Structured Technical Study & Explanation Matrix (Kayak in A Buoyed Figure)
-- **Common Myth:** Paddlers must maintain high paddling speed to navigate tight figure eight buoy courses.
-- **Pamphlet Fact:** Initiating turns early prevents the kayak bow from swinging wide around obstacles.
 
 | Req 8g Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

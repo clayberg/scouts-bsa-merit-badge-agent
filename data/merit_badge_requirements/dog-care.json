@@ -276,7 +276,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Keep unfamiliar breeds separated during breed demonstrations to prevent predatory drift or territorial disputes.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)",
       "syllabus_bucket": "In-Class Concept",
@@ -342,48 +342,47 @@
         "Step 3 - Historical Tracking: Document early domestication timelines from prehistoric human encampments through modern selective breed development.",
         "Step 4 - Trait Evaluation: Compare original working performance traits against contemporary domestic companion role behavior patterns."
       ],
-      "gear_checklist": [
-        "Official Dog Care Merit Badge Pamphlet: Dog Care Origins and Evolution.",
-        "Field notebook, verification log sheet, and demonstration materials for Dog Care Origins and Evolution.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Canine Domestication",
-        "right_header": "Req 1b: Major Breed Group",
+        "left_header": "Req 1a: Canine Domestication and Evolution",
+        "right_header": "Req 1b: Major Breed Group Characteristics",
         "left_points": [
-          "(1a) Canine Domestication And Evolution: Canine domestication began when ancestral wolves scavenged hunter encampments and forged cooperative hunting bonds. Fossil records reveal mutual survival partnerships that predated agrarian civilization."
+          "(1a) Canine Domestication and Evolution: Canine domestication began when ancestral wolves scavenged hunter encampments and forged cooperative hunting bonds. Fossil records reveal mutual survival partnerships that predated agrarian civilization.",
+          "Domestication Timeline: Archaeological evidence shows domestic canines emerged from ancestral canids over fifteen thousand years ago."
         ],
         "right_points": [
-          "(1b) Major Breed Group Characteristics: The seven primary breed groups reflect historical functional roles ranging from pest control to sled hauling. Structural characteristics such as coat texture and stamina directly correlate with ancestral working environments."
+          "(1b) Major Breed Group Characteristics: The seven primary breed groups reflect historical functional roles ranging from pest control to sled hauling. Structural characteristics such as coat texture and stamina directly correlate with ancestral working environments.",
+          "(1c) Individual Breed Profile Analysis: Evaluating individual breed profiles requires examining physical standards, temperamental tendencies, and ancestral task specializations. Detailed study demonstrates how morphology dictates modern performance and daily exercise requirements."
         ],
         "rows": [
           {
             "attribute": "Domestication Timeline",
-            "left": "(1a) Canine Domestication And Evolution: Canine domestication began when ancestral wolves scavenged hunter encampments and forged cooperative hunting bonds. Fossil records reveal mutual survival partnerships that predated agrarian civilization.",
+            "left": "(1a) Canine Domestication and Evolution: Canine domestication began when ancestral wolves scavenged hunter encampments and forged cooperative hunting bonds. Fossil records reveal mutual survival partnerships that predated agrarian civilization.",
             "right": "(1b) Major Breed Group Characteristics: The seven primary breed groups reflect historical functional roles ranging from pest control to sled hauling. Structural characteristics such as coat texture and stamina directly correlate with ancestral working environments."
           },
           {
             "attribute": "Working Group Roles",
-            "left": "Req 1a: Canine Domestication: Canine domestication began when ancestral wolves scavenged hunter encampments and forged cooperative hunting bonds. Fossil records reveal mutual survival partnerships that predated agrarian civilization.",
-            "right": "Req 1b: Major Breed Group: The seven primary breed groups reflect historical functional roles ranging from pest control to sled hauling. Structural characteristics such as coat texture and stamina directly correlate with ancestral working environments."
+            "left": "Domestication Timeline: Archaeological evidence shows domestic canines emerged from ancestral canids over fifteen thousand years ago.",
+            "right": "(1c) Individual Breed Profile Analysis: Evaluating individual breed profiles requires examining physical standards, temperamental tendencies, and ancestral task specializations. Detailed study demonstrates how morphology dictates modern performance and daily exercise requirements."
           },
           {
             "attribute": "Hound Group Scenting",
-            "left": "Req 1c: Individual Breed Profile: Evaluating individual breed profiles requires examining physical standards, temperamental tendencies, and ancestral task specializations. Detailed study demonstrates how morphology dictates modern performance and daily exercise requirements.",
-            "right": "Working Group Roles: Draft pulling and property guarding duties require robust bone structure and calm temperaments."
+            "left": "Hound Group Scenting: Olfactory tracking dogs possess long pendulous ears that stir ground scent toward nostrils.",
+            "right": "Herding Group Instincts: Instinctive flanking maneuvers allow active gathering breeds to guide livestock across open pasture."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 1 Exemplar Workbook Entry: Dog Origins",
+        "title": "Dog Care Req 1 Worked Example: Canine Domestication and Breeds",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Canine Domestication": "Canine domestication began when ancestral wolves scavenged hunter encampments and forged cooperative hunting bonds. Fossil records reveal mutual survival partnerships that predated agrarian civilization.",
-          "Req 1b - Major Breed Group": "The seven primary breed groups reflect historical functional roles ranging from pest control to sled hauling. Structural characteristics such as coat texture and stamina directly correlate with ancestral working environments.",
-          "Req 1c - Individual Breed Profile": "Evaluating individual breed profiles requires examining physical standards, temperamental tendencies, and ancestral task specializations. Detailed study demonstrates how morphology dictates modern performance and daily exercise requirements."
+          "Phase 1 - Group Classification": "Classify selected purebred specimens into their official American Kennel Club registry groups accurately.",
+          "Phase 2 - Trait Mapping": "Map specific anatomical head profiles to original historical hunting or working functional tasks.",
+          "Phase 3 - Historical Tracking": "Document early domestication timelines from prehistoric human encampments through modern selective breed development.",
+          "Phase 4 - Trait Evaluation": "Compare original working performance traits against contemporary domestic companion role behavior patterns."
         },
-        "sample_output": "Dog Origins Groups and Breeds: The wide range of shape, size, color, and personality of purebred dogs is the result of controlled breeding and selection (p. 12).",
-        "counselor_tip": "For Dog Care Requirement 1 (Dog Origins Groups and Breeds), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13))."
+        "sample_output": "Selective breeding transformed ancestral hunter companions into seven recognized working categories possessing specialized structural traits. Handlers evaluate anatomical adaptations such as muzzle length and bone density to match historical purposes.",
+        "counselor_tip": "During the Dog Care Requirement 1 conference on Canine Domestication and Breeds, verify that the Scout can explain domestication timeline and demonstrate trait evaluation: Compare original working performance traits against contemporary domestic companion role behavior patterns."
       },
       "quiz_item": {
         "scenario_prompt": "When observing an unfamiliar dog in Dog Care Requirement 1, which combination of canine body language signals indicates the dog is fearful, stressed, or defensive and should not be crowded?",
@@ -471,7 +470,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Approach the dog calmly from the side when palpating bony landmarks to avoid startle bite responses.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46)",
       "syllabus_bucket": "In-Class Concept",
@@ -537,47 +536,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2: Puppy Growth and Maturity",
-        "right_header": "Req 2: Compare Lifespans by Size",
+        "left_header": "Canine Skeletal Anatomy Examination: Core Principles",
+        "right_header": "Canine Skeletal Anatomy Examination: Field Execution",
         "left_points": [
-          "Puppy Growth and Maturity: Getting to Know Your Dog. will mark their A puppy is considered mature at its first birthday, but it might take longer than a year for it to reach full size (p. 27).",
-          "Behavioral Maturity Timeline: And its personality might continue to be puppy like for much longer (p. 27).",
-          "Lifespan Across Breed Sizes: Small and medium-sized dogs live about 15 years; a largedog might live only nine to 12 years (p. 27)."
+          "Withers Elevation Point: The dorsal ridge formed by third through fifth thoracic vertebrae determines shoulder height.",
+          "Stifle Joint Function: The true knee joint connects femur and tibia to provide hindlimb propulsion."
         ],
         "right_points": [
-          "Compare Lifespans by Size: Small and medium-sized dogs live about 15 years; a largedog might live only nine to 12 years (p. 27).",
-          "Locate External Body Parts: Each of these body parts differs among breeds as do other features such as the dog'ssize and its hair color (p. 27).",
-          "Observe Territorial Scent Marking: Male dogs are particularly territorial and the scent from their anal glands (p. 27)."
+          "Pastern Shock Absorption: Angled metacarpal bones between carpus and foot pads absorb downward landing impact forces.",
+          "Hock Joint Mechanics: The canine tarsus raises the heel above ground level for efficient spring motion."
         ],
         "rows": [
           {
             "attribute": "Withers Elevation Point",
-            "left": "Puppy Growth and Maturity: Getting to Know Your Dog. will mark their A puppy is considered mature at its first birthday, but it might take longer than a year for it to reach full size (p. 27).",
-            "right": "Compare Lifespans by Size: Small and medium-sized dogs live about 15 years; a largedog might live only nine to 12 years (p. 27)."
+            "left": "Withers Elevation Point: The dorsal ridge formed by third through fifth thoracic vertebrae determines shoulder height.",
+            "right": "Pastern Shock Absorption: Angled metacarpal bones between carpus and foot pads absorb downward landing impact forces."
           },
           {
             "attribute": "Stifle Joint Function",
-            "left": "Behavioral Maturity Timeline: And its personality might continue to be puppy like for much longer (p. 27).",
-            "right": "Locate External Body Parts: Each of these body parts differs among breeds as do other features such as the dog'ssize and its hair color (p. 27)."
+            "left": "Stifle Joint Function: The true knee joint connects femur and tibia to provide hindlimb propulsion.",
+            "right": "Hock Joint Mechanics: The canine tarsus raises the heel above ground level for efficient spring motion."
           },
           {
             "attribute": "Pastern Shock Absorption",
-            "left": "Lifespan Across Breed Sizes: Small and medium-sized dogs live about 15 years; a largedog might live only nine to 12 years (p. 27).",
-            "right": "Observe Territorial Scent Marking: Male dogs are particularly territorial and the scent from their anal glands (p. 27)."
+            "left": "Pastern Shock Absorption: Angled metacarpal bones between carpus and foot pads absorb downward landing impact forces.",
+            "right": "Hock Joint Mechanics: The canine tarsus raises the heel above ground level for efficient spring motion."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 2 Exemplar Workbook Entry: Canine Anatomy",
+        "title": "Dog Care Req 2 Worked Example: Canine Skeletal Anatomy Examination",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Puppy Growth and Maturity": "Getting to Know Your Dog. will mark their A puppy is considered mature at its first birthday, but it might take longer than a year for it to reach full size (p. 27).",
-          "Behavioral Maturity Timeline": "And its personality might continue to be puppy like for much longer (p. 27).",
-          "Lifespan Across Breed Sizes": "Small and medium-sized dogs live about 15 years; a largedog might live only nine to 12 years (p. 27).",
-          "Anatomical Variation by Breed": "Each of these body parts differs among breeds as do other features such as the dog'ssize and its hair color (p. 27)."
+          "Phase 1 - Cranial Identification": "Identify cranial landmarks including the muzzle, stop, flews, and prominent occiput bone clearly.",
+          "Phase 2 - Forequarter Palpation": "Locate the withers, point of shoulder, elbow joint, and angled front pasterns sequentially.",
+          "Phase 3 - Hindquarter Examination": "Palpate the stifle joint, hock, rear pastern, and tail set along the spine.",
+          "Phase 4 - Conformation Review": "Cross check measured body proportions against standard anatomical charts to confirm physical correctness."
         },
-        "sample_output": "Canine Anatomy and Body Parts: Getting to Know Your Dog. will mark their A puppy is considered mature at its first birthday, but it might take longer than a year for it to reach full size (p. 27).",
-        "counselor_tip": "For Dog Care Requirement 2 (Canine Anatomy and Body Parts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46))."
+        "sample_output": "Precise anatomical terminology enables handlers to evaluate structural conformation and communicate injuries to veterinarians. Identifying landmarks like the stop, occiput, withers, and stifle reveals physical soundness.",
+        "counselor_tip": "During the Dog Care Requirement 2 conference on Canine Skeletal Anatomy Examination, verify that the Scout can explain withers elevation point and demonstrate conformation review: Cross check measured body proportions against standard anatomical charts to confirm physical correctness."
       },
       "quiz_item": {
         "scenario_prompt": "How does the typical lifespan of a small or medium dog compare to that of a large dog?",
@@ -896,7 +893,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never introduce an unvaccinated puppy to unknown dogs in public parks during early socialization.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)",
       "syllabus_bucket": "In-Class Concept",
@@ -962,48 +959,47 @@
         "Step 3 - Household Assessment: Evaluate family schedule limitations, financial reserves, yard fencing, and local community leash ordinances.",
         "Step 4 - Temperament Screening: Assess littermate behavioral responses to novel stimuli before finalizing adoption or purchase decisions."
       ],
-      "gear_checklist": [
-        "Official Dog Care Merit Badge Pamphlet: House-training Obedience Training and Socialization.",
-        "Field notebook, verification log sheet, and demonstration materials for House-training Obedience Training and Socialization.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Canine Training",
-        "right_header": "Req 3b: Responsible Pet Ownership",
+        "left_header": "Req 3a: Canine Training and Socialization",
+        "right_header": "Req 3b: Responsible Pet Ownership Standards",
         "left_points": [
-          "(3a) Canine Training And Socialization: Crate training leverages the denning instinct of canines to teach bladder control without physical punishment. Obedience training establishes clear human canine communication that ensures domestic harmony."
+          "(3a) Canine Training and Socialization: Crate training leverages the denning instinct of canines to teach bladder control without physical punishment. Obedience training establishes clear human canine communication that ensures domestic harmony.",
+          "Socialization Window Criticality: Early neurological development between three and fourteen weeks dictates lifetime stress resilience capabilities."
         ],
         "right_points": [
-          "(3b) Responsible Pet Ownership Standards: Responsible guardianship requires providing preventative healthcare, parasite management, and legal confinement throughout life. Owners must invest financial resources and time to maintain animal well."
+          "(3b) Responsible Pet Ownership Standards: Responsible guardianship requires providing preventative healthcare, parasite management, and legal confinement throughout life. Owners must invest financial resources and time to maintain animal well.",
+          "(3c) Breed Temperament Selection Criteria: Matching breed characteristics with family routines prevents animal abandonment and behavioral stress. Prospective owners must evaluate shedding, vocalization tendencies, exercise requirements, and innate working drives."
         ],
         "rows": [
           {
             "attribute": "Socialization Window Criticality",
-            "left": "(3a) Canine Training And Socialization: Crate training leverages the denning instinct of canines to teach bladder control without physical punishment. Obedience training establishes clear human canine communication that ensures domestic harmony.",
+            "left": "(3a) Canine Training and Socialization: Crate training leverages the denning instinct of canines to teach bladder control without physical punishment. Obedience training establishes clear human canine communication that ensures domestic harmony.",
             "right": "(3b) Responsible Pet Ownership Standards: Responsible guardianship requires providing preventative healthcare, parasite management, and legal confinement throughout life. Owners must invest financial resources and time to maintain animal well."
           },
           {
             "attribute": "House Training Physiology",
-            "left": "Req 3a: Canine Training: Crate training leverages the denning instinct of canines to teach bladder control without physical punishment. Obedience training establishes clear human canine communication that ensures domestic harmony.",
-            "right": "Req 3b: Responsible Pet Ownership: Responsible guardianship requires providing preventative healthcare, parasite management, and legal confinement throughout life. Owners must invest financial resources and time to maintain animal well."
+            "left": "Socialization Window Criticality: Early neurological development between three and fourteen weeks dictates lifetime stress resilience capabilities.",
+            "right": "(3c) Breed Temperament Selection Criteria: Matching breed characteristics with family routines prevents animal abandonment and behavioral stress. Prospective owners must evaluate shedding, vocalization tendencies, exercise requirements, and innate working drives."
           },
           {
             "attribute": "Owner Legal Stewardship",
-            "left": "Req 3c: Breed Temperament Selection: Matching breed characteristics with family routines prevents animal abandonment and behavioral stress. Prospective owners must evaluate shedding, vocalization tendencies, exercise requirements, and innate working drives.",
-            "right": "House Training Physiology: Immature bladders require outdoor elimination opportunities immediately after eating, sleeping, or active playing."
+            "left": "Owner Legal Stewardship: Responsible guardianship encompasses continuous veterinary care, rabies compliance, and confinement fencing management.",
+            "right": "Temperament Selection Matching: High energy working drives overwhelm sedentary households lacking daily physical and mental enrichment."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 3 Exemplar Workbook Entry: Training",
+        "title": "Dog Care Req 3 Worked Example: Behavior Management and Ownership",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Canine Training": "Crate training leverages the denning instinct of canines to teach bladder control without physical punishment. Obedience training establishes clear human canine communication that ensures domestic harmony.",
-          "Req 3b - Responsible Pet Ownership": "Responsible guardianship requires providing preventative healthcare, parasite management, and legal confinement throughout life. Owners must invest financial resources and time to maintain animal well.",
-          "Req 3c - Breed Temperament Selection": "Matching breed characteristics with family routines prevents animal abandonment and behavioral stress. Prospective owners must evaluate shedding, vocalization tendencies, exercise requirements, and innate working drives."
+          "Phase 1 - Socialization Planning": "Expose young canines gradually to diverse surfaces, sounds, people, and neutral vaccinated dogs.",
+          "Phase 2 - Elimination Scheduling": "Establish predictable feeding intervals and escort the puppy outside after waking and playing.",
+          "Phase 3 - Household Assessment": "Evaluate family schedule limitations, financial reserves, yard fencing, and local community leash ordinances.",
+          "Phase 4 - Temperament Screening": "Assess littermate behavioral responses to novel stimuli before finalizing adoption or purchase decisions."
         },
-        "sample_output": "Training Socialization and Breed Selection: From performing in the circus to rounding up herds of sheep, dogs of all ages can be trained to do a variety of tasks (p. 35).",
-        "counselor_tip": "For Dog Care Requirement 3 (Training Socialization and Breed Selection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38))."
+        "sample_output": "Early environmental exposure and consistent positive reinforcement establish stable adult behavior patterns in dogs. Selecting a pet requires matching household activity levels and space with breed energy demands.",
+        "counselor_tip": "During the Dog Care Requirement 3 conference on Behavior Management and Ownership, verify that the Scout can explain socialization window criticality and demonstrate temperament screening: Assess littermate behavioral responses to novel stimuli before finalizing adoption or purchase decisions."
       },
       "quiz_item": {
         "scenario_prompt": "According to the Dog Care merit badge pamphlet, what is the primary goal of training a family pet?",
@@ -1091,7 +1087,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Store canine food bags in airtight bins to prevent rodent contamination and toxic mold growth.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54)",
       "syllabus_bucket": "In-Class Concept",
@@ -1161,47 +1157,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4: Early Puppy Tooth Development",
-        "right_header": "Req 4: Evaluate Moisture in Food",
+        "left_header": "Daily Care and Management Log: Core Principles",
+        "right_header": "Daily Care and Management Log: Field Execution",
         "left_points": [
-          "Early Puppy Tooth Development: Feeding canned food to your puppy may be necessary at first because of the lack of tooth development (p. 43).",
-          "Transitioning to Softened Kibble: However, try to soak dry food in water to soften it and feed it to your dog as soon as possible (p. 43).",
-          "Moisture Content in Canned Food: Canned foods are more flavorful, but they are mostly water (p. 43)."
+          "Portion Control Measurement: Measuring dry kibble using standard kitchen scales prevents silent chronic canine obesity development.",
+          "Body Condition Scoring: Palpable ribs without excess fat covering confirm proper caloric intake and fitness."
         ],
         "right_points": [
-          "Evaluate Moisture in Food: Canned foods are more flavorful, but they are mostly water (p. 43).",
-          "Compare Kibble Nutrient Density: Pound for pound, they do not provide as much nutrition for a puppy as dry kibble (p. 43).",
-          "Switch to Adult Formula: Be sure to keep plenty of fresh, When your dog reaches bone growth maturity (which varies with each breed), it's time to switch to an \"adultdog (p. 43)."
+          "Hydration Sanitation Protocols: Scrubbing canine water bowls daily prevents pathogenic bacterial biofilm buildup from forming.",
+          "Grooming Health Inspection: Regular brushing sessions expose hidden parasitic infestations, cutaneous lumps, and foreign grass awns."
         ],
         "rows": [
           {
             "attribute": "Portion Control Measurement",
-            "left": "Early Puppy Tooth Development: Feeding canned food to your puppy may be necessary at first because of the lack of tooth development (p. 43).",
-            "right": "Evaluate Moisture in Food: Canned foods are more flavorful, but they are mostly water (p. 43)."
+            "left": "Portion Control Measurement: Measuring dry kibble using standard kitchen scales prevents silent chronic canine obesity development.",
+            "right": "Hydration Sanitation Protocols: Scrubbing canine water bowls daily prevents pathogenic bacterial biofilm buildup from forming."
           },
           {
             "attribute": "Body Condition Scoring",
-            "left": "Transitioning to Softened Kibble: However, try to soak dry food in water to soften it and feed it to your dog as soon as possible (p. 43).",
-            "right": "Compare Kibble Nutrient Density: Pound for pound, they do not provide as much nutrition for a puppy as dry kibble (p. 43)."
+            "left": "Body Condition Scoring: Palpable ribs without excess fat covering confirm proper caloric intake and fitness.",
+            "right": "Grooming Health Inspection: Regular brushing sessions expose hidden parasitic infestations, cutaneous lumps, and foreign grass awns."
           },
           {
             "attribute": "Hydration Sanitation Protocols",
-            "left": "Moisture Content in Canned Food: Canned foods are more flavorful, but they are mostly water (p. 43).",
-            "right": "Switch to Adult Formula: Be sure to keep plenty of fresh, When your dog reaches bone growth maturity (which varies with each breed), it's time to switch to an \"adultdog (p. 43)."
+            "left": "Hydration Sanitation Protocols: Scrubbing canine water bowls daily prevents pathogenic bacterial biofilm buildup from forming.",
+            "right": "Grooming Health Inspection: Regular brushing sessions expose hidden parasitic infestations, cutaneous lumps, and foreign grass awns."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 4 Exemplar Workbook Entry: Two Month Daily",
+        "title": "Dog Care Req 4 Worked Example: Daily Care and Management Log",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Early Puppy Tooth Development": "Feeding canned food to your puppy may be necessary at first because of the lack of tooth development (p. 43).",
-          "Transitioning to Softened Kibble": "However, try to soak dry food in water to soften it and feed it to your dog as soon as possible (p. 43).",
-          "Moisture Content in Canned Food": "Canned foods are more flavorful, but they are mostly water (p. 43).",
-          "Nutritional Density of Kibble": "Pound for pound, they do not provide as much nutrition for a puppy as dry kibble (p. 43)."
+          "Phase 1 - Daily Rationing": "Weigh calibrated daily kibble portions divided into consistent morning and evening scheduled feedings.",
+          "Phase 2 - Exercise Logging": "Record exact outdoor exercise duration, activity type, and weather conditions in the journal.",
+          "Phase 3 - Weekly Weighing": "Measure canine body mass on calibrated scales at the same time each week.",
+          "Phase 4 - Condition Auditing": "Palpate the ribcage and spine to update the standard nine point body chart."
         },
-        "sample_output": "Two Month Daily Care Log: Feeding canned food to your puppy may be necessary at first because of the lack of tooth development (p. 43).",
-        "counselor_tip": "For Dog Care Requirement 4 (Two Month Daily Care Log), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54))."
+        "sample_output": "Maintaining a two month care log tracks feeding amounts, daily exercise duration, and weekly weight. Consistent documentation reveals nutritional trends, digestive health changes, and behavioral developmental progress over time.",
+        "counselor_tip": "During the Dog Care Requirement 4 conference on Daily Care and Management Log, verify that the Scout can explain portion control measurement and demonstrate condition auditing: Palpate the ribcage and spine to update the standard nine point body chart."
       },
       "quiz_item": {
         "scenario_prompt": "Why does dry kibble provide more nutrition pound for pound than canned dog food?",
@@ -1284,7 +1278,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Never tie a dog to stationary objects with slip chains or choke collars unattended.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41)",
       "syllabus_bucket": "In-Class Concept",
@@ -1350,47 +1344,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5: Introducing Light Leash Pressure",
-        "right_header": "Req 5: Schedule Frequent Short Practice",
+        "left_header": "Obedience Training and Commands: Core Principles",
+        "right_header": "Obedience Training and Commands: Field Execution",
         "left_points": [
-          "Introducing Light Leash Pressure: After the dog is used to the leash, take up your end of it and walk around with your pet, applying little or no pressure (p. 37).",
-          "Building Leash Comfort Gradually: Gradually, over a short period, increase your control until your dog is completely comfortable being on the leash (p. 37).",
-          "Frequent Short Training Sessions: Multiple, short periods of training are most effective (p. 37)."
+          "Operant Marker Timing: Delivering reward markers within one second captures precise mechanical body positions accurately.",
+          "Lure Dispersion Mechanics: Guiding treats close to the nose redirects canine center of gravity backward."
         ],
         "right_points": [
-          "Schedule Frequent Short Practice: Multiple, short periods of training are most effective (p. 37).",
-          "Limit Puppy Lessons: Four or five sessions a day, five to 10 minutes each, works well for puppies (p. 37).",
-          "Extend Adult Dog Sessions: Older dogs can tolerate sessions of up to 20 minutes long (p. 37)."
+          "Equipment Safety Standards: Flat nylon buckle collars and six foot leather leashes ensure humane handling.",
+          "Release Cue Discipline: Teaching release words clarifies exact terminal points for stationary sit stay behaviors."
         ],
         "rows": [
           {
             "attribute": "Operant Marker Timing",
-            "left": "Introducing Light Leash Pressure: After the dog is used to the leash, take up your end of it and walk around with your pet, applying little or no pressure (p. 37).",
-            "right": "Schedule Frequent Short Practice: Multiple, short periods of training are most effective (p. 37)."
+            "left": "Operant Marker Timing: Delivering reward markers within one second captures precise mechanical body positions accurately.",
+            "right": "Equipment Safety Standards: Flat nylon buckle collars and six foot leather leashes ensure humane handling."
           },
           {
             "attribute": "Lure Dispersion Mechanics",
-            "left": "Building Leash Comfort Gradually: Gradually, over a short period, increase your control until your dog is completely comfortable being on the leash (p. 37).",
-            "right": "Limit Puppy Lessons: Four or five sessions a day, five to 10 minutes each, works well for puppies (p. 37)."
+            "left": "Lure Dispersion Mechanics: Guiding treats close to the nose redirects canine center of gravity backward.",
+            "right": "Release Cue Discipline: Teaching release words clarifies exact terminal points for stationary sit stay behaviors."
           },
           {
             "attribute": "Equipment Safety Standards",
-            "left": "Frequent Short Training Sessions: Multiple, short periods of training are most effective (p. 37).",
-            "right": "Extend Adult Dog Sessions: Older dogs can tolerate sessions of up to 20 minutes long (p. 37)."
+            "left": "Equipment Safety Standards: Flat nylon buckle collars and six foot leather leashes ensure humane handling.",
+            "right": "Release Cue Discipline: Teaching release words clarifies exact terminal points for stationary sit stay behaviors."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 5 Exemplar Workbook Entry: Obedience",
+        "title": "Dog Care Req 5 Worked Example: Obedience Training and Commands",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Introducing Light Leash Pressure": "After the dog is used to the leash, take up your end of it and walk around with your pet, applying little or no pressure (p. 37).",
-          "Building Leash Comfort Gradually": "Gradually, over a short period, increase your control until your dog is completely comfortable being on the leash (p. 37).",
-          "Frequent Short Training Sessions": "Multiple, short periods of training are most effective (p. 37).",
-          "Ideal Puppy Session Length": "Four or five sessions a day, five to 10 minutes each, works well for puppies (p. 37)."
+          "Phase 1 - Reward Luring": "Hold high value treats directly before the canine muzzle to prompt motion.",
+          "Phase 2 - Position Capturing": "Mark the exact instant hips contact ground with a clear verbal cue.",
+          "Phase 3 - Reward Reinforcement": "Deliver food reward immediately while the dog remains resting in the desired posture.",
+          "Phase 4 - Release Execution": "Introduce terminal release cues before stepping backward to conclude the training repetition safely."
         },
-        "sample_output": "Obedience Commands and Training Equipment: After the dog is used to the leash, take up your end of it and walk around with your pet, applying little or no pressure (p. 37).",
-        "counselor_tip": "For Dog Care Requirement 5 (Obedience Commands and Training Equipment), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41))."
+        "sample_output": "Positive reinforcement obedience training uses verbal markers and food lures to shape voluntary canine actions. Handlers build reliable responses using standard six foot leashes, flat buckle collars, and consistent cues.",
+        "counselor_tip": "During the Dog Care Requirement 5 conference on Obedience Training and Commands, verify that the Scout can explain operant marker timing and demonstrate release execution: Introduce terminal release cues before stepping backward to conclude the training repetition safely."
       },
       "quiz_item": {
         "scenario_prompt": "What training schedule works best when teaching basic obedience commands to a puppy?",
@@ -1944,7 +1936,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Check asphalt pavement surface temperatures with the back of your hand before walking dogs.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)",
       "syllabus_bucket": "In-Class Concept",
@@ -2016,53 +2008,47 @@
         "Step 3 - Dental Cleaning: Brush canine teeth biweekly using soft bristles and veterinary approved enzymatic pet toothpaste.",
         "Step 4 - Nail Trimming: Clip distal claws gradually using scissor clippers while avoiding the pink inner quick."
       ],
-      "gear_checklist": [
-        "Official Dog Care Merit Badge Pamphlet: The proper vaccination schedule.",
-        "Field notebook, verification log sheet, and demonstration materials for The proper vaccination schedule.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Core Vaccination Immunization",
+        "left_header": "Req 6a: Core Vaccination Immunization Protocol",
         "right_header": "Req 6d: Coat and Nail Grooming",
         "left_points": [
           "(6a) Core Vaccination Immunization Protocol: Core vaccines protect against deadly pathogens like parvovirus, distemper, adenovirus, and rabies. Serial boosters ensure protective antibody titers as maternal immunity declines during early development.",
-          "(6b) Parasite And Vector Prophylaxis: Preventing fleas, ticks, heartworms, and intestinal worms requires oral or topical veterinary preventatives. Controlling environmental eggs and treating intermediate hosts stops cyclical reinfestation.",
-          "(6c) Canine Dental Care Hygiene: Daily dental hygiene prevents tartar buildup, gingivitis, and systemic organ damage from oral bacteria. Scouts use enzymatic pet toothpaste and finger brushes to clean the outer tooth surfaces."
+          "(6b) Parasite and Vector Prophylaxis: Preventing fleas, ticks, heartworms, and intestinal worms requires oral or topical veterinary preventatives. Controlling environmental eggs and treating intermediate hosts stops cyclical reinfestation."
         ],
         "right_points": [
-          "(6d) Coat And Nail Grooming: Frequent coat brushing removes dead hair and distributes skin oils, while nail maintenance prevents painful splayed toes. Grooming routines provide opportunities to detect cutaneous tumors and external parasites early.",
-          "(6e) Seasonal Climate Care Adjustments: Extreme summer heat risks fatal hyperthermia, while winter freezing causes hypothermia and paw pad cracking. Handlers must adjust outdoor exercise hours and hydration based on ambient weather extremes.",
-          "(6f) Spaying And Neutering Considerations: Surgical neutering and spaying prevent unwanted litters, reduce roaming, and eliminate uterine infections like pyometra. Gonadectomy timing should be coordinated with a veterinarian based on breed growth plates."
+          "(6d) Coat and Nail Grooming: Frequent coat brushing removes dead hair and distributes skin oils, while nail maintenance prevents painful splayed toes. Grooming routines provide opportunities to detect cutaneous tumors and external parasites early.",
+          "(6e) Seasonal Climate Care Adjustments: Extreme summer heat risks fatal hyperthermia, while winter freezing causes hypothermia and paw pad cracking. Handlers must adjust outdoor exercise hours and hydration based on ambient weather extremes."
         ],
         "rows": [
           {
             "attribute": "Maternally Derived Antibodies",
             "left": "(6a) Core Vaccination Immunization Protocol: Core vaccines protect against deadly pathogens like parvovirus, distemper, adenovirus, and rabies. Serial boosters ensure protective antibody titers as maternal immunity declines during early development.",
-            "right": "(6d) Coat And Nail Grooming: Frequent coat brushing removes dead hair and distributes skin oils, while nail maintenance prevents painful splayed toes. Grooming routines provide opportunities to detect cutaneous tumors and external parasites early."
+            "right": "(6d) Coat and Nail Grooming: Frequent coat brushing removes dead hair and distributes skin oils, while nail maintenance prevents painful splayed toes. Grooming routines provide opportunities to detect cutaneous tumors and external parasites early."
           },
           {
             "attribute": "Mosquito Vector Transmission",
-            "left": "(6b) Parasite And Vector Prophylaxis: Preventing fleas, ticks, heartworms, and intestinal worms requires oral or topical veterinary preventatives. Controlling environmental eggs and treating intermediate hosts stops cyclical reinfestation.",
+            "left": "(6b) Parasite and Vector Prophylaxis: Preventing fleas, ticks, heartworms, and intestinal worms requires oral or topical veterinary preventatives. Controlling environmental eggs and treating intermediate hosts stops cyclical reinfestation.",
             "right": "(6e) Seasonal Climate Care Adjustments: Extreme summer heat risks fatal hyperthermia, while winter freezing causes hypothermia and paw pad cracking. Handlers must adjust outdoor exercise hours and hydration based on ambient weather extremes."
           },
           {
             "attribute": "Periodontal Plaque Mineralization",
-            "left": "(6c) Canine Dental Care Hygiene: Daily dental hygiene prevents tartar buildup, gingivitis, and systemic organ damage from oral bacteria. Scouts use enzymatic pet toothpaste and finger brushes to clean the outer tooth surfaces.",
-            "right": "(6f) Spaying And Neutering Considerations: Surgical neutering and spaying prevent unwanted litters, reduce roaming, and eliminate uterine infections like pyometra. Gonadectomy timing should be coordinated with a veterinarian based on breed growth plates."
+            "left": "Periodontal Plaque Mineralization: Daily enzymatic brushing prevents oral bacteria from causing systemic cardiac and renal damage.",
+            "right": "Ungual Quick Recession: Trimming toenail tips biweekly forces blood supply quicks to recede back safely."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 6 Exemplar Workbook Entry: Preventive",
+        "title": "Dog Care Req 6 Worked Example: Canine Preventative Healthcare Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Core Vaccination Immunization": "Core vaccines protect against deadly pathogens like parvovirus, distemper, adenovirus, and rabies. Serial boosters ensure protective antibody titers as maternal immunity declines during early development.",
-          "Req 6b - Parasite and Vector": "Preventing fleas, ticks, heartworms, and intestinal worms requires oral or topical veterinary preventatives. Controlling environmental eggs and treating intermediate hosts stops cyclical reinfestation.",
-          "Req 6c - Canine Dental Care Hygiene": "Daily dental hygiene prevents tartar buildup, gingivitis, and systemic organ damage from oral bacteria. Scouts use enzymatic pet toothpaste and finger brushes to clean the outer tooth surfaces.",
-          "Req 6d - Coat and Nail Grooming": "Frequent coat brushing removes dead hair and distributes skin oils, while nail maintenance prevents painful splayed toes. Grooming routines provide opportunities to detect cutaneous tumors and external parasites early."
+          "Phase 1 - Vaccination Tracking": "Maintain precise veterinary records of required core distemper, adenovirus, parvovirus, and rabies immunizations.",
+          "Phase 2 - Parasite Administration": "Administer monthly oral or topical heartworm and flea preventatives according to canine weight.",
+          "Phase 3 - Dental Cleaning": "Brush canine teeth biweekly using soft bristles and veterinary approved enzymatic pet toothpaste.",
+          "Phase 4 - Nail Trimming": "Clip distal claws gradually using scissor clippers while avoiding the pink inner quick."
         },
-        "sample_output": "Preventive Healthcare Grooming and Parasites: Bowel movements and feces might become irregular (p. 55).",
-        "counselor_tip": "For Dog Care Requirement 6 (Preventive Healthcare Grooming and Parasites), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56))."
+        "sample_output": "Preventative medicine combines veterinary core immunizations, vector control protocols, and home dental and nail grooming. Routine coat brushing and seasonal climate adjustments maintain canine health across varying local environments.",
+        "counselor_tip": "During the Dog Care Requirement 6 conference on Canine Preventative Healthcare Management, verify that the Scout can explain maternally derived antibodies and demonstrate nail trimming: Clip distal claws gradually using scissor clippers while avoiding the pink inner quick."
       },
       "quiz_item": {
         "scenario_prompt": "Where on a dog's body should you place your fingers to check its pulse?",
@@ -2862,23 +2848,17 @@
         "Step 3 - Splint Support: Secure injured extremities against body contours using rolled conform bandage wrap firmly.",
         "Step 4 - Transport Preparation: Slide the immobilized canine onto a blanket stretcher for transport to emergency clinics."
       ],
-      "gear_checklist": [
-        "Official Dog Care Merit Badge Pamphlet: Emergency First Aid and Prevention.",
-        "Field notebook, verification log sheet, and demonstration materials for Emergency First Aid and Prevention.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 7a: Injured Dog Handling Precautions",
-        "right_header": "Req 7e: Vehicular Trauma Emergency",
+        "right_header": "Req 7e: Vehicular Trauma Emergency Response",
         "left_points": [
           "(7a) Injured Dog Handling Precautions: Approaching injured animals requires gentle movements, soft vocal tones, and physical containment techniques. Handlers must protect themselves from reflexive fear bites before addressing trauma.",
-          "(7b) Emergency Muzzle Application Technique: Constructing a temporary muzzle from cloth strips or leashes secures the mouth safely. The tie loops over the bridge of the nose and knots behind ears.",
-          "(7c) Wound Treatment And Bite First-Aid: Flush canine skin wounds with sterile saline and apply direct pressure to stem hemorrhage. Human bite wounds require immediate soap washing and medical attention to prevent pasteurella infection."
+          "(7b) Emergency Muzzle Application Technique: Constructing a temporary muzzle from cloth strips or leashes secures the mouth safely. The tie loops over the bridge of the nose and knots behind ears."
         ],
         "right_points": [
           "(7e) Vehicular Trauma Emergency Response: Vehicular impacts often cause internal hemorrhage, pneumothorax, and spinal injuries that require rigid horizontal stretchers. Keep the dog warm with blankets while transporting immediately to veterinary trauma centers.",
-          "(7f) Canine First Aid Kit Essentials: Dedicated canine medical kits contain digital thermometers, bandage shears, sterile saline, and cohesive wrap. Keeping emergency hospital contacts and poison control numbers inside saves essential diagnostic minutes.",
-          "(7g) Risks Of Home Medical Treatment: Administering human medications or delaying diagnostic evaluation can induce fatal poisoning or organ failure. Early veterinary intervention remains essential for systemic infections, bloat, and metabolic crises."
+          "(7f) Canine First Aid Kit Essentials: Dedicated canine medical kits contain digital thermometers, bandage shears, sterile saline, and cohesive wrap. Keeping emergency hospital contacts and poison control numbers inside saves essential diagnostic minutes."
         ],
         "rows": [
           {
@@ -2893,22 +2873,22 @@
           },
           {
             "attribute": "Direct Pressure Hemostasis",
-            "left": "(7c) Wound Treatment And Bite First-Aid: Flush canine skin wounds with sterile saline and apply direct pressure to stem hemorrhage. Human bite wounds require immediate soap washing and medical attention to prevent pasteurella infection.",
-            "right": "(7g) Risks Of Home Medical Treatment: Administering human medications or delaying diagnostic evaluation can induce fatal poisoning or organ failure. Early veterinary intervention remains essential for systemic infections, bloat, and metabolic crises."
+            "left": "Direct Pressure Hemostasis: Apply sterile gauze pads firmly over bleeding lacerations to establish initial clotting.",
+            "right": "Rigid Spinal Transport: Transport vehicular trauma victims on rigid boards to avoid worsening spinal column fractures."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 7 Exemplar Workbook Entry: Canine First Aid",
+        "title": "Dog Care Req 7 Worked Example: Emergency First Aid and Trauma",
         "artifact_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
         "fields": {
-          "Req 7a - Injured Dog Handling": "Approaching injured animals requires gentle movements, soft vocal tones, and physical containment techniques. Handlers must protect themselves from reflexive fear bites before addressing trauma.",
-          "Req 7b - Emergency Muzzle Application": "Constructing a temporary muzzle from cloth strips or leashes secures the mouth safely. The tie loops over the bridge of the nose and knots behind ears.",
-          "Req 7c - Wound Treatment and Bite": "Flush canine skin wounds with sterile saline and apply direct pressure to stem hemorrhage. Human bite wounds require immediate soap washing and medical attention to prevent pasteurella infection.",
-          "Req 7d - Canine Bandaging and Dressing": "Dressing wounds involves sterile contact pads, cushioning cotton wrap, and protective cohesive outer tape. Proper tensioning maintains circulation while keeping protective dressings clean and dry during transport."
+          "Phase 1 - Safety Restraint": "Fabricate and loop a temporary gauze muzzle around the jaws before touching wounds.",
+          "Phase 2 - Bleeding Control": "Press sterile gauze pads over bleeding soft tissue lacerations using constant direct pressure.",
+          "Phase 3 - Splint Support": "Secure injured extremities against body contours using rolled conform bandage wrap firmly.",
+          "Phase 4 - Transport Preparation": "Slide the immobilized canine onto a blanket stretcher for transport to emergency clinics."
         },
-        "sample_output": "Canine First Aid and Emergencies: Keeping Your Dog Healthy. heartworm society. org Heart worm disease can affect dogs in every state (p. 57).",
-        "counselor_tip": "For Dog Care Requirement 7 (Canine First Aid and Emergencies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68))."
+        "sample_output": "Emergency first aid requires securing the handler with a temporary muzzle before assessing trauma or bleeding. Victims of blunt vehicular impact require stabilization and immediate transport on rigid stretchers.",
+        "counselor_tip": "During the Dog Care Requirement 7 conference on Emergency First Aid and Trauma, verify that the Scout can explain defensive bite reaction and demonstrate transport preparation: Slide the immobilized canine onto a blanket stretcher for transport to emergency clinics."
       },
       "quiz_item": {
         "scenario_prompt": "How are heartworms and tapeworms transmitted to dogs?",
@@ -3000,7 +2980,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Do not touch quarantined animals or put fingers through kennel gates during tours.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3062,53 +3042,47 @@
         "Step 3 - Staff Interview: Interview veterinarians and veterinary technicians regarding daily sanitization and disease prevention protocols.",
         "Step 4 - Presentation Synthesis: Compile gathered operational data into a structured report for your merit badge counselor."
       ],
-      "gear_checklist": [
-        "Official Dog Care Merit Badge Pamphlet: Veterinary Hospital or An Animal.",
-        "Field notebook, verification log sheet, and demonstration materials for Veterinary Hospital or An Animal.",
-        "Buddy-pair checklist and counselor review rubric."
-      ],
+      "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8: Mia cis Early Carnivore Ancestor",
-        "right_header": "Req 8: Trace Early Canine Dentition",
+        "left_header": "Veterinary Hospital and Shelter Facility: Core Principles",
+        "right_header": "Veterinary Hospital and Shelter Facility: Field Execution",
         "left_points": [
-          "Mia cis Early Carnivore Ancestor: The origin of dogs can be traced to an animal called Mia cis, which looked more like a weasel than a dog (p. 9).",
-          "Prehistoric Carnivore Physical Traits: This small, flesh-eating creature had short legs, a long tail, five toes, and teeth like those of today's carnivores (p. 9).",
-          "Cynodictis Canine Dentition Traits: The next important ancestor, called Cynodictis was the first to have doglikecharacteristics, such as a shortened fifth toe, 42 teeth, and longer legs (p. 9)."
+          "Biosecurity Intake Quarantines: Physical isolation wards prevent airborne viral transmission from newly admitted unknown strays.",
+          "Surgical Suite Sterility: Operating rooms require positive pressure ventilation and strict surgical scrubbing protocols daily."
         ],
         "right_points": [
-          "Trace Early Canine Dentition: The next important ancestor, called Cynodictis was the first to have doglikecharacteristics, such as a shortened fifth toe, 42 teeth, and longer legs (p. 9).",
-          "Compare Tomarctus Physical Features: Then came a descendent of Cynodictis, called Tomarctus, which resembled today's dogs (p. 9).",
-          "Identify Evolved Dewclaw Anatomy: This animal had short, erect ears, long legs and tail, and adewclaw that had developed from the shortened fifth toe (p. 9)."
+          "Diagnostic Radiography Shielding: Lead aprons and thyroid shields protect veterinary technicians from scattered diagnostic radiation.",
+          "Enrichment Housing Protocols: Cleanable interactive toys reduce chronic cortisol stress levels in confined shelter kenneled dogs."
         ],
         "rows": [
           {
             "attribute": "Biosecurity Intake Quarantines",
-            "left": "Mia cis Early Carnivore Ancestor: The origin of dogs can be traced to an animal called Mia cis, which looked more like a weasel than a dog (p. 9).",
-            "right": "Trace Early Canine Dentition: The next important ancestor, called Cynodictis was the first to have doglikecharacteristics, such as a shortened fifth toe, 42 teeth, and longer legs (p. 9)."
+            "left": "Biosecurity Intake Quarantines: Physical isolation wards prevent airborne viral transmission from newly admitted unknown strays.",
+            "right": "Diagnostic Radiography Shielding: Lead aprons and thyroid shields protect veterinary technicians from scattered diagnostic radiation."
           },
           {
             "attribute": "Surgical Suite Sterility",
-            "left": "Prehistoric Carnivore Physical Traits: This small, flesh-eating creature had short legs, a long tail, five toes, and teeth like those of today's carnivores (p. 9).",
-            "right": "Compare Tomarctus Physical Features: Then came a descendent of Cynodictis, called Tomarctus, which resembled today's dogs (p. 9)."
+            "left": "Surgical Suite Sterility: Operating rooms require positive pressure ventilation and strict surgical scrubbing protocols daily.",
+            "right": "Enrichment Housing Protocols: Cleanable interactive toys reduce chronic cortisol stress levels in confined shelter kenneled dogs."
           },
           {
             "attribute": "Diagnostic Radiography Shielding",
-            "left": "Cynodictis Canine Dentition Traits: The next important ancestor, called Cynodictis was the first to have doglikecharacteristics, such as a shortened fifth toe, 42 teeth, and longer legs (p. 9).",
-            "right": "Identify Evolved Dewclaw Anatomy: This animal had short, erect ears, long legs and tail, and adewclaw that had developed from the shortened fifth toe (p. 9)."
+            "left": "Diagnostic Radiography Shielding: Lead aprons and thyroid shields protect veterinary technicians from scattered diagnostic radiation.",
+            "right": "Enrichment Housing Protocols: Cleanable interactive toys reduce chronic cortisol stress levels in confined shelter kenneled dogs."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 8 Exemplar Workbook Entry: Veterinary",
+        "title": "Dog Care Req 8 Worked Example: Veterinary Hospital and Shelter Facility",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Mia cis Early Carnivore Ancestor": "The origin of dogs can be traced to an animal called Mia cis, which looked more like a weasel than a dog (p. 9).",
-          "Prehistoric Carnivore Physical Traits": "This small, flesh-eating creature had short legs, a long tail, five toes, and teeth like those of today's carnivores (p. 9).",
-          "Cynodictis Canine Dentition Traits": "The next important ancestor, called Cynodictis was the first to have doglikecharacteristics, such as a shortened fifth toe, 42 teeth, and longer legs (p. 9).",
-          "Tomarctus Modern Dog Resemblance": "Then came a descendent of Cynodictis, called Tomarctus, which resembled today's dogs (p. 9)."
+          "Phase 1 - Facility Coordination": "Schedule an educational tour with facility administrators at a local animal hospital.",
+          "Phase 2 - Operations Observation": "Observe intake processing, surgical preparation suites, diagnostic laboratories, and isolated treatment wards.",
+          "Phase 3 - Staff Interview": "Interview veterinarians and veterinary technicians regarding daily sanitization and disease prevention protocols.",
+          "Phase 4 - Presentation Synthesis": "Compile gathered operational data into a structured report for your merit badge counselor."
         },
-        "sample_output": "Veterinary Hospital or Shelter Visit: The origin of dogs can be traced to an animal called Mia cis, which looked more like a weasel than a dog (p. 9).",
-        "counselor_tip": "For Dog Care Requirement 8 (Veterinary Hospital or Shelter Visit), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37))."
+        "sample_output": "Touring a shelter or hospital demonstrates clinical hygiene, patient intake procedures, and community adoption programs. Scouts observe how veterinary teams maintain quarantine barriers and administer medical care daily.",
+        "counselor_tip": "During the Dog Care Requirement 8 conference on Veterinary Hospital and Shelter Facility, verify that the Scout can explain biosecurity intake quarantines and demonstrate presentation synthesis: Compile gathered operational data into a structured report for your merit badge counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Which prehistoric ancestor was the first to develop dog like features such as longer legs, a shortened fifth toe, and 42 teeth?",
@@ -3196,7 +3170,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Keep leashes securely gripped to prevent dogs from breaking away near traffic or pedestrians.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34)",
       "syllabus_bucket": "In-Class Concept",
@@ -3260,47 +3234,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9: Inside Leg Dewclaw Location",
-        "right_header": "Req 9: Inspect Paw Structure",
+        "left_header": "Community Canine Laws and Ordinances: Core Principles",
+        "right_header": "Community Canine Laws and Ordinances: Field Execution",
         "left_points": [
-          "Inside Leg Dewclaw Location: However, a fifth toe, or dewclaw, is often found on the inside leg above the paw on the forearms, hind legs (p. 30).",
-          "Vestigial Fifth Toe Origin: The dewclaw is left over from the dog's early days and has no use today (p. 30).",
-          "Predatory Leg and Paw: Dog legs and paws are built for seeking and stalking prey (p. 30)."
+          "Rabies Tag Mandate: State laws require current rabies vaccination tags affixed to collars during public outings.",
+          "Physical Leash Compliance: Municipal statutes require standard six foot leashes in designated urban public zones."
         ],
         "right_points": [
-          "Inspect Paw Structure: Dog legs and paws are built for seeking and stalking prey (p. 30).",
-          "Assess Limb Muscle Conditioning: Muscles of the fore- and hindquarters give endurance, and bone length promotes movement (p. 30).",
-          "Check Cushioning Paw Pads: The pads on the bottom of the paws cushion the impact of running and muffle noise (p. 30)."
+          "Public Waste Ordinances: Failing to collect canine feces incurs municipal environmental contamination misdemeanor fines.",
+          "Barking Nuisance Statutes: Continuous barking exceeding fifteen minutes violates residential quiet enjoyment noise pollution ordinances."
         ],
         "rows": [
           {
             "attribute": "Rabies Tag Mandate",
-            "left": "Inside Leg Dewclaw Location: However, a fifth toe, or dewclaw, is often found on the inside leg above the paw on the forearms, hind legs (p. 30).",
-            "right": "Inspect Paw Structure: Dog legs and paws are built for seeking and stalking prey (p. 30)."
+            "left": "Rabies Tag Mandate: State laws require current rabies vaccination tags affixed to collars during public outings.",
+            "right": "Public Waste Ordinances: Failing to collect canine feces incurs municipal environmental contamination misdemeanor fines."
           },
           {
             "attribute": "Physical Leash Compliance",
-            "left": "Vestigial Fifth Toe Origin: The dewclaw is left over from the dog's early days and has no use today (p. 30).",
-            "right": "Assess Limb Muscle Conditioning: Muscles of the fore- and hindquarters give endurance, and bone length promotes movement (p. 30)."
+            "left": "Physical Leash Compliance: Municipal statutes require standard six foot leashes in designated urban public zones.",
+            "right": "Barking Nuisance Statutes: Continuous barking exceeding fifteen minutes violates residential quiet enjoyment noise pollution ordinances."
           },
           {
             "attribute": "Public Waste Ordinances",
-            "left": "Predatory Leg and Paw: Dog legs and paws are built for seeking and stalking prey (p. 30).",
-            "right": "Check Cushioning Paw Pads: The pads on the bottom of the paws cushion the impact of running and muffle noise (p. 30)."
+            "left": "Public Waste Ordinances: Failing to collect canine feces incurs municipal environmental contamination misdemeanor fines.",
+            "right": "Barking Nuisance Statutes: Continuous barking exceeding fifteen minutes violates residential quiet enjoyment noise pollution ordinances."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 9 Exemplar Workbook Entry: Community Dog",
+        "title": "Dog Care Req 9 Worked Example: Community Canine Laws and Ordinances",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Inside Leg Dewclaw Location": "However, a fifth toe, or dewclaw, is often found on the inside leg above the paw on the forearms, hind legs (p. 30).",
-          "Vestigial Fifth Toe Origin": "The dewclaw is left over from the dog's early days and has no use today (p. 30).",
-          "Predatory Leg and Paw": "Dog legs and paws are built for seeking and stalking prey (p. 30).",
-          "Muscular Endurance and Stride": "Muscles of the fore- and hindquarters give endurance, and bone length promotes movement (p. 30)."
+          "Phase 1 - Ordinance Research": "Research local city and county municipal code chapters governing domestic canine animal control.",
+          "Phase 2 - Statute Verification": "Identify specific municipal regulations regarding leash lengths, tethering limits, and rabies licensing.",
+          "Phase 3 - Compliance Inspection": "Verify personal pet compliance regarding county license tags, microchip registration, and vaccination records.",
+          "Phase 4 - Counselor Discussion": "Present findings regarding legal owner liabilities and local animal control officer enforcement authority."
         },
-        "sample_output": "Community Dog Laws and Ordinances: However, a fifth toe, or dewclaw, is often found on the inside leg above the paw on the forearms, hind legs (p. 30).",
-        "counselor_tip": "For Dog Care Requirement 9 (Community Dog Laws and Ordinances), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34))."
+        "sample_output": "Local ordinances govern rabies licensing, leash containment, nuisance barking, and waste removal on public property. Understanding these statutes ensures community safety and protects owners from legal liability and fines.",
+        "counselor_tip": "During the Dog Care Requirement 9 conference on Community Canine Laws and Ordinances, verify that the Scout can explain rabies tag mandate and demonstrate counselor discussion: Present findings regarding legal owner liabilities and local animal control officer enforcement authority."
       },
       "quiz_item": {
         "scenario_prompt": "What are the two main functions of the thick pads on the bottom of a dog's paws?",
@@ -3586,7 +3558,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Wear closed toe steel shank boots when handling large animals in professional facilities.",
+      "safety_callout": "",
       "pamphlet_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)",
       "pamphlet_page_citation": "Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -3656,41 +3628,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 10a: Professional Canine Career",
-        "right_header": "Req 10b: Canine Sports and Lifestyle",
+        "left_header": "Req 10a: Professional Canine Career Exploration",
+        "right_header": "Req 10b: Canine Sports and Lifestyle Hobbies",
         "left_points": [
-          "(10a) Professional Canine Career Exploration: Veterinarians, veterinary technicians, and professional service dog trainers require specialized education and practical experience. Choosing a career path involves researching credentialing bodies, training costs, and compensation prospects."
+          "(10a) Professional Canine Career Exploration: Veterinarians, veterinary technicians, and professional service dog trainers require specialized education and practical experience. Choosing a career path involves researching credentialing bodies, training costs, and compensation prospects.",
+          "Veterinary Academic Rigor: Earning a Doctor of Veterinary Medicine requires rigorous four year post graduate education."
         ],
         "right_points": [
-          "(10b) Canine Sports And Lifestyle Hobbies: Participating in dog sports like agility, tracking, or canicross promotes personal fitness and human canine teamwork. Enthusiasts invest in specialized harnesses, safety equipment, and trial entry fees to compete."
+          "(10b) Canine Sports and Lifestyle Hobbies: Participating in dog sports like agility, tracking, or canicross promotes personal fitness and human canine teamwork. Enthusiasts invest in specialized harnesses, safety equipment, and trial entry fees to compete.",
+          "Professional Trainer Accreditation: Certification organizations require hundreds of logged hands on behavioral coaching hours."
         ],
         "rows": [
           {
             "attribute": "Veterinary Academic Rigor",
             "left": "(10a) Professional Canine Career Exploration: Veterinarians, veterinary technicians, and professional service dog trainers require specialized education and practical experience. Choosing a career path involves researching credentialing bodies, training costs, and compensation prospects.",
-            "right": "(10b) Canine Sports And Lifestyle Hobbies: Participating in dog sports like agility, tracking, or canicross promotes personal fitness and human canine teamwork. Enthusiasts invest in specialized harnesses, safety equipment, and trial entry fees to compete."
+            "right": "(10b) Canine Sports and Lifestyle Hobbies: Participating in dog sports like agility, tracking, or canicross promotes personal fitness and human canine teamwork. Enthusiasts invest in specialized harnesses, safety equipment, and trial entry fees to compete."
           },
           {
             "attribute": "Technician Credentialing Standards",
-            "left": "Req 10a: Professional Canine Career: Veterinarians, veterinary technicians, and professional service dog trainers require specialized education and practical experience. Choosing a career path involves researching credentialing bodies, training costs, and compensation prospects.",
-            "right": "Req 10b: Canine Sports And Lifestyle: Participating in dog sports like agility, tracking, or canicross promotes personal fitness and human canine teamwork. Enthusiasts invest in specialized harnesses, safety equipment, and trial entry fees to compete."
+            "left": "Veterinary Academic Rigor: Earning a Doctor of Veterinary Medicine requires rigorous four year post graduate education.",
+            "right": "Professional Trainer Accreditation: Certification organizations require hundreds of logged hands on behavioral coaching hours."
           },
           {
             "attribute": "Professional Trainer Accreditation",
-            "left": "Veterinary Academic Rigor: Earning a Doctor of Veterinary Medicine requires rigorous four year post graduate education.",
-            "right": "Technician Credentialing Standards: Licensed veterinary technicians must pass national board exams covering pharmacology and anesthesia."
+            "left": "Professional Trainer Accreditation: Certification organizations require hundreds of logged hands on behavioral coaching hours.",
+            "right": "Canine Search Logistics: Disaster canine handling demands intense search and rescue wilderness navigation survival skills."
           }
         ]
       },
       "worked_example": {
-        "title": "Dog Care Req 10 Exemplar Workbook Entry: Canine Careers",
+        "title": "Dog Care Req 10 Worked Example: Professional Canine Careers and Lifestyles",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 10a - Professional Canine Career": "Veterinarians, veterinary technicians, and professional service dog trainers require specialized education and practical experience. Choosing a career path involves researching credentialing bodies, training costs, and compensation prospects.",
-          "Req 10b - Canine Sports and Lifestyle": "Participating in dog sports like agility, tracking, or canicross promotes personal fitness and human canine teamwork. Enthusiasts invest in specialized harnesses, safety equipment, and trial entry fees to compete."
+          "Phase 1 - Career Identification": "Select three distinct professional canine career paths within veterinary science or behavioral training.",
+          "Phase 2 - Pathway Research": "Research required academic degrees, technical certifications, licensure examinations, and prerequisites for one chosen field.",
+          "Phase 3 - Financial Analysis": "Outline associated tuition expenses, specialized equipment costs, insurance, and projected entry level compensation.",
+          "Phase 4 - Portfolio Compilation": "Summarize findings into a structured career profile report for merit badge counselor review."
         },
-        "sample_output": "Canine Careers and Lifelong Hobbies: As a dog owner, you can be the trainer and the handler (p. 74).",
-        "counselor_tip": "For Dog Care Requirement 10 (Canine Careers and Lifelong Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78))."
+        "sample_output": "Professional canine careers range from veterinary medicine and clinical pathology to behavioral training and grooming. Each profession demands dedicated academic study, specialized clinical equipment investments, and hands on handling expertise.",
+        "counselor_tip": "During the Dog Care Requirement 10 conference on Professional Canine Careers and Lifestyles, verify that the Scout can explain veterinary academic rigor and demonstrate portfolio compilation: Summarize findings into a structured career profile report for merit badge counselor review."
       },
       "quiz_item": {
         "scenario_prompt": "Besides teaching dogs to respond to commands, what is an essential part of a professional dog trainer's job?",

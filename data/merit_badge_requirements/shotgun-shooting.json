@@ -972,16 +972,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 1a: Projectile Dynamics and Hazards",
-        "right_header": "Req 1f: Wildlife Resource Conservation",
+        "right_header": "Req 1f: Wildlife Resource Conservation Principles",
         "left_points": [
           "(1a) Projectile Dynamics and Hazards: A projectile is an object propelled through the air by external force such as expanding gunpowder gases. High velocity shot charges create extensive impact hazards, requiring restricted shooting zones and dense berms.",
-          "(1b) Universal Gun Handling Rules: Fundamental safety mandates pointing muzzles downrange, keeping fingers off triggers, and unchambering ammunition until ready to shoot. Mechanical safeties serve as secondary supplements rather than replacements for strict gun handling discipline.",
-          "(1c) Home Firearm Access Safety: Scouts must decline peer requests to handle firearms at home and redirect visitors away from storage areas. If a visitor persists, the Scout must notify a parent or adult guardian immediately."
+          "(1b) Universal Gun Handling Rules: Fundamental safety mandates pointing muzzles downrange, keeping fingers off triggers, and unchambering ammunition until ready to shoot. Mechanical safeties serve as secondary supplements rather than replacements for strict gun handling discipline."
         ],
         "right_points": [
           "(1f) Wildlife Resource Conservation Principles: Modern wildlife management balances game populations against carrying capacities through regulated harvest seasons. Hunters contribute conservation funds through excise taxes on sporting arms and hunting license purchases.",
-          "(1g) Hunter Education Regulations: Hunter safety education courses teach basic outdoor survival, ethical shot placement, and game regulations. Completing official coursework certifies that hunters understand local seasons, weapon restrictions, and private land access rules.",
-          "(1h) Range Hygiene and Sanitation: Discharging shotshell primers and lead shot leaves fine chemical residues on shooters hands and clothing. Shooters must wash with cold water and deleading soap while avoiding eating or face touching on the range."
+          "(1g) Hunter Education Regulations: Hunter safety education courses teach basic outdoor survival, ethical shot placement, and game regulations. Completing official coursework certifies that hunters understand local seasons, weapon restrictions, and private land access rules."
         ],
         "rows": [
           {
@@ -996,22 +994,22 @@
           },
           {
             "attribute": "Action Safety",
-            "left": "(1c) Home Firearm Access Safety: Scouts must decline peer requests to handle firearms at home and redirect visitors away from storage areas. If a visitor persists, the Scout must notify a parent or adult guardian immediately.",
-            "right": "(1h) Range Hygiene and Sanitation: Discharging shotshell primers and lead shot leaves fine chemical residues on shooters hands and clothing. Shooters must wash with cold water and deleading soap while avoiding eating or face touching on the range."
+            "left": "Action Safety: Keep the shotgun action open and fully unloaded until standing on the firing station.",
+            "right": "Hearing Protection: Wear properly rated earmuffs or fitted earplugs to prevent permanent sensorineural hearing damage."
           }
         ]
       },
       "worked_example": {
-        "title": "Shotgun Shooting Req 1 Exemplar Workbook Entry: Firearm",
+        "title": "Shotgun Shooting Req 1 Worked Example: Shotgun Safety and Ethics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Projectile Dynamics": "A projectile is an object propelled through the air by external force such as expanding gunpowder gases. High velocity shot charges create extensive impact hazards, requiring restricted shooting zones and dense berms.",
-          "Req 1b - Universal Gun Handling Rules": "Fundamental safety mandates pointing muzzles downrange, keeping fingers off triggers, and unchambering ammunition until ready to shoot. Mechanical safeties serve as secondary supplements rather than replacements for strict gun handling discipline.",
-          "Req 1c - Home Firearm Access Safety": "Scouts must decline peer requests to handle firearms at home and redirect visitors away from storage areas. If a visitor persists, the Scout must notify a parent or adult guardian immediately.",
-          "Req 1d - Eye and Ear Protection": "High noise levels from shotgun muzzle blasts cause irreversible inner ear trauma requiring earmuffs or formable plugs. Impact resistant safety glasses shield the eyes from unburnt powder flakes, broken clay fragments, and ejector debris."
+          "Phase 1 - Clear the Action": "Open the shotgun breech mechanism and visually check that the chamber remains completely empty.",
+          "Phase 2 - Don Protective Equipment": "Fit ANSI rated safety glasses and properly seated earplugs before entering the active range.",
+          "Phase 3 - Position the Muzzle": "Keep the barrel pointed downrange at forty-five degrees while walking toward your shooting station.",
+          "Phase 4 - Wash Hands Thoroughly": "Scrub hands and face with cold water and lead-removing soap before consuming any food."
         },
-        "sample_output": "Firearm Safety Rules and Shooting Ethics: Do not shoot power line insulators, pipeline valves, signs, or similar property (p. 57).",
-        "counselor_tip": "For Shotgun Shooting Requirement 1 (Firearm Safety Rules and Shooting Ethics), verify the Scout's own observations and specific pamphlet details (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86))."
+        "sample_output": "Modern shotgun safety requires absolute muzzle awareness, diligent action management, and strict compliance with local firearm regulations. Scouts must master protective gear use, personal range hygiene, and hunter conservation ethics before handling live ammunition.",
+        "counselor_tip": "During the Shotgun Shooting Requirement 1 conference on Shotgun Safety and Ethics, verify that the Scout can explain muzzle control and demonstrate wash hands thoroughly: Scrub hands and face with cold water and lead-removing soap before consuming any food."
       },
       "quiz_item": {
         "scenario_prompt": "Before loading a 12-gauge shotgun on the range, why must you check the barrel for obstructions and verify that no smaller 20-gauge shell is mixed into your ammunition pouch?",
@@ -3004,10 +3002,12 @@
         "left_header": "Req 2a: Modern Shotshell Systems",
         "right_header": "Req 2b: Muzzleloading Shotgun Systems",
         "left_points": [
-          "(2a) Modern Shotshell Systems: Modern shotguns operate via break, pump, autoloader, or bolt actions, firing self-contained shotshells consisting of hull, primer, powder, wad, and pellets. Safe marksmanship requires identifying barrel stampings, selecting correct choke tubes, and maintaining proper swing-through follow-through mechanics."
+          "(2a) Modern Shotshell Systems: Modern shotguns operate via break, pump, autoloader, or bolt actions, firing self-contained shotshells consisting of hull, primer, powder, wad, and pellets. Safe marksmanship requires identifying barrel stampings, selecting correct choke tubes, and maintaining proper swing-through follow-through mechanics.",
+          "Bore Gauge Sizing: Shotgun gauge numbers indicate the lead ball count weighing exactly one pound."
         ],
         "right_points": [
-          "(2b) Muzzleloading Shotgun Systems: Muzzleloading shotguns load loose black powder, over-powder cards, cushion wads, shot, and over-shot cards through the muzzle. Shooters use marked ramrods to verify firm wad seating against powder charges before capping the nipple."
+          "(2b) Muzzleloading Shotgun Systems: Muzzleloading shotguns load loose black powder, over-powder cards, cushion wads, shot, and over-shot cards through the muzzle. Shooters use marked ramrods to verify firm wad seating against powder charges before capping the nipple.",
+          "Shell Component Stacking: Modern shotshells assemble primer, powder charge, plastic wad column, and shot inside cases."
         ],
         "rows": [
           {
@@ -3017,25 +3017,27 @@
           },
           {
             "attribute": "Choke Pattern Control",
-            "left": "Req 2a: Modern Shotshell Systems: Modern shotguns operate via break, pump, autoloader, or bolt actions, firing self-contained shotshells consisting of hull, primer, powder, wad, and pellets. Safe marksmanship requires identifying barrel stampings, selecting correct choke tubes, and maintaining proper swing-through follow-through mechanics.",
-            "right": "Req 2b: Muzzleloading Shotgun: Muzzleloading shotguns load loose black powder, over-powder cards, cushion wads, shot, and over-shot cards through the muzzle. Shooters use marked ramrods to verify firm wad seating against powder charges before capping the nipple."
+            "left": "Bore Gauge Sizing: Shotgun gauge numbers indicate the lead ball count weighing exactly one pound.",
+            "right": "Shell Component Stacking: Modern shotshells assemble primer, powder charge, plastic wad column, and shot inside cases."
           },
           {
             "attribute": "Shell Component Stacking",
-            "left": "Bore Gauge Sizing: Shotgun gauge numbers indicate the lead ball count weighing exactly one pound.",
-            "right": "Choke Pattern Control: Constriction at the muzzle narrows the pellet spread for longer distance target breaking."
+            "left": "Shell Component Stacking: Modern shotshells assemble primer, powder charge, plastic wad column, and shot inside cases.",
+            "right": "Muzzleloader Powder Rules: Black powder or approved synthetic black powder substitutes are the only acceptable propellants."
           }
         ]
       },
       "worked_example": {
-        "title": "Shotgun Shooting Req 2 Exemplar Workbook Entry: Live",
+        "title": "Shotgun Shooting Req 2 Worked Example: Shotgun Mechanics and Marksmanship",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Modern Shotshell Systems": "Modern shotguns operate via break, pump, autoloader, or bolt actions, firing self-contained shotshells consisting of hull, primer, powder, wad, and pellets. Safe marksmanship requires identifying barrel stampings, selecting correct choke tubes, and maintaining proper swing-through follow-through mechanics.",
-          "Req 2b - Muzzleloading Shotgun Systems": "Muzzleloading shotguns load loose black powder, over-powder cards, cushion wads, shot, and over-shot cards through the muzzle. Shooters use marked ramrods to verify firm wad seating against powder charges before capping the nipple."
+          "Phase 1 - Check Chamber Markings": "Inspect the barrel stamping to verify correct gauge and maximum allowable shotshell length.",
+          "Phase 2 - Mount the Stock": "Place the recoil pad firmly into your shoulder pocket beneath the collarbone.",
+          "Phase 3 - Align Visual Sight": "Look down the rib, aligning the front bead directly with the target.",
+          "Phase 4 - Follow Through Smoothly": "Maintain your cheek weld on the comb while swinging past the broken target."
         },
-        "sample_output": "Live Range Qualification and Shotgun Options: Sinceit is a close-range sport, guns with skeet or improved cylinder chokes using No. 8 or No. 9 (p. 47).",
-        "counselor_tip": "For Shotgun Shooting Requirement 2 (Live Range Qualification and Shotgun Options), verify the Scout's own observations and specific pamphlet details (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57))."
+        "sample_output": "Shotgun operation centers on matching ammunition specifications to barrel markings, managing internal choke dimensions, and executing consistent gun mounts. Whether firing modern break-action breechloaders or traditional black powder muzzleloaders, shooters must follow disciplined loading and firing protocols.",
+        "counselor_tip": "During the Shotgun Shooting Requirement 2 conference on Shotgun Mechanics and Marksmanship, verify that the Scout can explain bore gauge sizing and demonstrate follow through smoothly: Maintain your cheek weld on the comb while swinging past the broken target."
       },
       "quiz_item": {
         "scenario_prompt": "In standard skeet shooting, why do shooters typically prefer a skeet or improved cylinder choke paired with No. 8 or No. 9 shot?",
@@ -3186,47 +3188,45 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3: Safety First in Marksmanship",
-        "right_header": "Req 3: Master All Safety Rules",
+        "left_header": "Firearm Careers and Vocations: Core Principles",
+        "right_header": "Firearm Careers and Vocations: Field Execution",
         "left_points": [
-          "Safety First In Marksmanship: In marksmanship, nothing is more important than safety (p. 25).",
-          "Shared Range Safety Responsibility: Participants in range and target activities assume a vital responsibility that affects the lives of others (p. 25).",
-          "Practicing Disciplined Safety Habits: It is critically important to learn and practice all of the shotgun safety rules (p. 25)."
+          "Range Safety Careers: Certified range safety officers manage live firing lines and supervise facility safety protocols.",
+          "Gunsmithing Technical Training: Professional gunsmiths complete extensive machining, metallurgy, and stock fitting vocational degree coursework."
         ],
         "right_points": [
-          "Master All Safety Rules: It is critically important to learn and practice all of the shotgun safety rules (p. 25).",
-          "Handle Firearms With Discipline: When handled correctly and used properly, a shotgun is not dangerous (p. 25).",
-          "Maintain Precision Shooting Equipment: A shotgun, like any other precision machine, instrument, or piece of sports equipment, is manufactured to perform a specific task (p. 25)."
+          "Coaching Certification Paths: Certified shotgun coaches teach scholastic clay target programs and develop competitive youth athletes.",
+          "Wildlife Law Enforcement: Conservation officers enforce hunting regulations, investigate poaching, and manage public wildlife resources."
         ],
         "rows": [
           {
             "attribute": "Range Safety Careers",
-            "left": "Safety First In Marksmanship: In marksmanship, nothing is more important than safety (p. 25).",
-            "right": "Master All Safety Rules: It is critically important to learn and practice all of the shotgun safety rules (p. 25)."
+            "left": "Range Safety Careers: Certified range safety officers manage live firing lines and supervise facility safety protocols.",
+            "right": "Coaching Certification Paths: Certified shotgun coaches teach scholastic clay target programs and develop competitive youth athletes."
           },
           {
             "attribute": "Gunsmithing Technical Training",
-            "left": "Shared Range Safety Responsibility: Participants in range and target activities assume a vital responsibility that affects the lives of others (p. 25).",
-            "right": "Handle Firearms With Discipline: When handled correctly and used properly, a shotgun is not dangerous (p. 25)."
+            "left": "Gunsmithing Technical Training: Professional gunsmiths complete extensive machining, metallurgy, and stock fitting vocational degree coursework.",
+            "right": "Wildlife Law Enforcement: Conservation officers enforce hunting regulations, investigate poaching, and manage public wildlife resources."
           },
           {
             "attribute": "Coaching Certification Paths",
-            "left": "Practicing Disciplined Safety Habits: It is critically important to learn and practice all of the shotgun safety rules (p. 25).",
-            "right": "Maintain Precision Shooting Equipment: A shotgun, like any other precision machine, instrument, or piece of sports equipment, is manufactured to perform a specific task (p. 25)."
+            "left": "Coaching Certification Paths: Certified shotgun coaches teach scholastic clay target programs and develop competitive youth athletes.",
+            "right": "Wildlife Law Enforcement: Conservation officers enforce hunting regulations, investigate poaching, and manage public wildlife resources."
           }
         ]
       },
       "worked_example": {
-        "title": "Shotgun Shooting Req 3 Exemplar Workbook Entry: Shooting",
+        "title": "Shotgun Shooting Req 3 Worked Example: Firearm Careers and Vocations",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Safety First in Marksmanship": "In marksmanship, nothing is more important than safety (p. 25).",
-          "Shared Range Safety Responsibility": "Participants in range and target activities assume a vital responsibility that affects the lives of others (p. 25).",
-          "Practicing Disciplined Safety Habits": "It is critically important to learn and practice all of the shotgun safety rules (p. 25).",
-          "Safe Operation Through Training": "When handled correctly and used properly, a shotgun is not dangerous (p. 25)."
+          "Phase 1 - Identify Target Pathway": "Select a specific firearm career such as conservation law enforcement or professional gunsmithing.",
+          "Phase 2 - Research Certification Costs": "Calculate the required expenses for licensing courses, armorer certifications, and formal education.",
+          "Phase 3 - Interview Field Professionals": "Speak with certified range masters, gunsmiths, or wildlife officers regarding daily career responsibilities.",
+          "Phase 4 - Create Training Timelines": "Outline a multi-year plan listing prerequisite credentials, shooting leagues, and apprentice milestones."
         },
-        "sample_output": "Shooting Sports Careers and Hobbies: In marksmanship, nothing is more important than safety (p. 25).",
-        "counselor_tip": "For Shotgun Shooting Requirement 3 (Shooting Sports Careers and Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 25, p. 30))."
+        "sample_output": "Firearm handling skills support vocations in conservation law enforcement, professional gunsmithing, commercial range operations, and scholastic coaching. Pursuing these pathways requires extensive professional certifications, formal apprenticeships, and significant investments in specialized tools and range fees.",
+        "counselor_tip": "During the Shotgun Shooting Requirement 3 conference on Firearm Careers and Vocations, verify that the Scout can explain range safety careers and demonstrate create training timelines: Outline a multi-year plan listing prerequisite credentials, shooting leagues, and apprentice milestones."
       },
       "quiz_item": {
         "scenario_prompt": "Which organization governs formal competitive skeet shooting events across the United States and supports shooters advancing in the sport?",

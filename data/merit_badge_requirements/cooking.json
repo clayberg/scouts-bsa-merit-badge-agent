@@ -538,7 +538,7 @@
       ],
       "comparison_data": {
         "left_header": "Req 1a: Kitchen Hazard Mitigation Plans",
-        "right_header": "Req 1c: Cross Contamination Prevention",
+        "right_header": "Req 1c: Cross Contamination Prevention Protocols",
         "left_points": [
           "(1a) Kitchen Hazard Mitigation Plans: Camp kitchens contain burn, cut, and fire hazards that require preventative positioning and designated cooking zones. Establishing a clear perimeter keeps non-cooks away from hot pots and open flames.",
           "(1b) Cooking First Aid Procedures: Minor cooking injuries require immediate treatment to limit tissue damage and prevent infection. Cool minor thermal burns with cold running potable water rather than applying butter or ice."
@@ -560,22 +560,22 @@
           },
           {
             "attribute": "Cutting Board Isolation",
-            "left": "Req 1a: Kitchen Hazard Mitigation: Camp kitchens contain burn, cut, and fire hazards that require preventative positioning and designated cooking zones. Establishing a clear perimeter keeps non-cooks away from hot pots and open flames.",
-            "right": "Req 1b: Cooking First Aid Procedures: Minor cooking injuries require immediate treatment to limit tissue damage and prevent infection. Cool minor thermal burns with cold running potable water rather than applying butter or ice."
+            "left": "Cutting Board Isolation: Prepare raw poultry on nonporous boards separated completely from ready to eat vegetables.",
+            "right": "Poultry Cooking Temperature: Cook all raw poultry until internal meat probes register one hundred sixty five degrees."
           }
         ]
       },
       "worked_example": {
-        "title": "Cooking Req 1 Exemplar Workbook Entry: Kitchen Safety",
+        "title": "Cooking Req 1 Worked Example: Kitchen Health and Safety Protocols",
         "artifact_type": "HAZARD_5COL",
         "fields": {
-          "Req 1a - Kitchen Hazard Mitigation": "Camp kitchens contain burn, cut, and fire hazards that require preventative positioning and designated cooking zones. Establishing a clear perimeter keeps non-cooks away from hot pots and open flames.",
-          "Req 1b - Cooking First Aid Procedures": "Minor cooking injuries require immediate treatment to limit tissue damage and prevent infection. Cool minor thermal burns with cold running potable water rather than applying butter or ice.",
-          "Req 1c - Cross Contamination": "Perishable foods must remain packed in waterproof bags surrounded by crushed ice below forty degrees Fahrenheit. Raw animal proteins must never contact ready-to-eat vegetables, utensils, or unwashed hands.",
-          "Req 1d - Foodborne Illness": "Food intolerances cause digestive distress, whereas immune-mediated food allergies can trigger life-threatening anaphylaxis. Cook teams must know patrol member dietary restrictions before drafting ingredients and shopping lists."
+          "Phase 1 - Hand Cleansing": "Wash hands vigorously using warm water and antibacterial soap for twenty seconds.",
+          "Phase 2 - Station Sanitizing": "Wipe food prep surfaces with dilute bleach solution using a clean cloth.",
+          "Phase 3 - Temperature Verification": "Check refrigerator thermometers to confirm internal storage temperatures stay below forty degrees.",
+          "Phase 4 - Glove Disposal": "Discard disposable nitrile gloves immediately after handling raw meats or poultry pieces."
         },
-        "sample_output": "Kitchen Safety and Food Sanitation: They must know how to properly prepare and store foods to help prevent cross-contamination and avoid the spread of food-related illnesses (p. 64).",
-        "counselor_tip": "For Cooking Requirement 1 (Kitchen Safety and Food Sanitation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71))."
+        "sample_output": "Food preparation requires strict sanitation standards to prevent pathogenic bacterial growth and physical injury in the kitchen. Handlers must sanitize prep stations with chlorine bleach solutions and keep perishable items outside the danger zone.",
+        "counselor_tip": "During the Cooking Requirement 1 conference on Kitchen Health and Safety Protocols, verify that the Scout can explain temperature danger zone and demonstrate glove disposal: Discard disposable nitrile gloves immediately after handling raw meats or poultry pieces."
       },
       "quiz_item": {
         "scenario_prompt": "While preparing chicken fajitas at camp, a Scout uses a plastic cutting board and chef's knife to slice raw chicken breast, and then reaches for fresh bell peppers and tortillas to slice for a cold side salad. What food-safety step is required first?",
@@ -1135,7 +1135,7 @@
       ],
       "comparison_data": {
         "left_header": "Req 2a: MyPlate Food Group Servings",
-        "right_header": "Req 2c: Caloric Expenditure Activity",
+        "right_header": "Req 2c: Caloric Expenditure Activity Tracking",
         "left_points": [
           "(2a) MyPlate Food Group Servings: MyPlate establishes specific daily serving recommendations across fruits, vegetables, grains, protein, and dairy. Portion control aligns with individual age, sex, and daily physical exertion.",
           "(2b) Oils and Added Sugars: Excess saturated fats, trans fats, and refined sugars raise cardiovascular disease and diabetes risks. Healthy unsaturated oils from plants and fish should replace solid animal fats."
@@ -1157,22 +1157,22 @@
           },
           {
             "attribute": "Caloric Energy Balance",
-            "left": "Req 2a: MyPlate Food Group Servings: MyPlate establishes specific daily serving recommendations across fruits, vegetables, grains, protein, and dairy. Portion control aligns with individual age, sex, and daily physical exertion.",
-            "right": "Req 2b: Oils and Added Sugars: Excess saturated fats, trans fats, and refined sugars raise cardiovascular disease and diabetes risks. Healthy unsaturated oils from plants and fish should replace solid animal fats."
+            "left": "Caloric Energy Balance: Daily energy expenditure from physical exertion must balance total calories consumed from foods.",
+            "right": "Added Sugar Restraint: Keep added sugars below ten percent of your total daily caloric intake."
           }
         ]
       },
       "worked_example": {
-        "title": "Cooking Req 2 Exemplar Workbook Entry: Daily Nutrition",
+        "title": "Cooking Req 2 Worked Example: Patrol Nutrition and Dietary Guidelines",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 2a - MyPlate Food Group Servings": "MyPlate establishes specific daily serving recommendations across fruits, vegetables, grains, protein, and dairy. Portion control aligns with individual age, sex, and daily physical exertion.",
-          "Req 2b - Oils and Added Sugars": "Excess saturated fats, trans fats, and refined sugars raise cardiovascular disease and diabetes risks. Healthy unsaturated oils from plants and fish should replace solid animal fats.",
-          "Req 2c - Caloric Expenditure Activity": "Tracking daily exertion over five days reveals baseline caloric requirements for various lifestyle conditions. Backpacking or sports significantly increase daily energy expenditure beyond sedentary levels.",
-          "Req 2d - Personal Dietary Habit": "Reviewing personal meal logs against MyPlate standards reveals nutritional deficiencies or excess processed food consumption. Small adjustments toward whole fruits and lean proteins improve long-term vitality."
+          "Phase 1 - Food Group Logging": "Record every food item eaten across all meals in a pocket notebook.",
+          "Phase 2 - Activity Level Estimation": "Calculate daily metabolic burn by rating physical exertion against established lifestyle activity charts.",
+          "Phase 3 - Caloric Need Calculation": "Determine total basal calories required using standard age, weight, and activity formulas.",
+          "Phase 4 - Menu Adjustment": "Modify daily meal portions until caloric intake matches calculated physical energy requirements."
         },
-        "sample_output": "Daily Nutrition and MyPlate Guidelines: The average 12-year-old female who exercises 30 to 60 minutes per day should consume about 2,000 calories a day (p. 54).",
-        "counselor_tip": "For Cooking Requirement 2 (Daily Nutrition and MyPlate Guidelines), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61))."
+        "sample_output": "The USDA MyPlate model organizes balanced nutrition into vegetables, fruits, grains, protein foods, and dairy groups. Active individuals must match caloric intake to daily metabolic expenditure while minimizing empty sugars.",
+        "counselor_tip": "During the Cooking Requirement 2 conference on Patrol Nutrition and Dietary Guidelines, verify that the Scout can explain plate proportion balance and demonstrate menu adjustment: Modify daily meal portions until caloric intake matches calculated physical energy requirements."
       },
       "quiz_item": {
         "scenario_prompt": "According to the USDA daily food plan in the Cooking merit badge pamphlet, about how many calories per day should an average 12-year-old male who exercises 30 to 60 minutes daily consume?",
@@ -1675,22 +1675,22 @@
           },
           {
             "attribute": "Camp Stove Efficiency",
-            "left": "Req 3a: Core Cooking Methods: Different culinary methods apply radiant, conductive, or convective heat transfer to transform raw foods into digestible meals. Maintaining proper cooking temperatures prevents burning while ensuring thorough internal pasteurization.",
-            "right": "Req 3b: Camp Stove Comparative: Camp stoves provide immediate heat control, operate in wet conditions, and leave no charred ground scars. Wood fires require extensive fuel gathering and produce fluctuating temperatures that char cookware."
+            "left": "Camp Stove Efficiency: Pressurized fuel stoves boil water rapidly and leave no ground thermal scars.",
+            "right": "Aroma and Appetite: Volatile food aromas stimulate digestive salivary enzymes and enhance perceived flavor complexity."
           }
         ]
       },
       "worked_example": {
-        "title": "Cooking Req 3 Exemplar Workbook Entry: Fundamental",
+        "title": "Cooking Req 3 Worked Example: Culinary Techniques and Camp Stoves",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Core Cooking Methods Overview": "Different culinary methods apply radiant, conductive, or convective heat transfer to transform raw foods into digestible meals. Maintaining proper cooking temperatures prevents burning while ensuring thorough internal pasteurization.",
-          "Req 3b - Camp Stove Comparative": "Camp stoves provide immediate heat control, operate in wet conditions, and leave no charred ground scars. Wood fires require extensive fuel gathering and produce fluctuating temperatures that char cookware.",
-          "Req 3c - Meal Course Timing": "Coordinating multi-course meals requires calculating backward from the target serving time based on recipe cook durations. Staggering preparation ensures hot items finish cooking simultaneously without cooling on prep tables.",
-          "Req 3d - Sensory Impact on Eating": "Perception of food involves the integrated sensory processing of taste buds, olfactory receptors, and mouthfeel texture. Visual appearance and aromatic steam trigger anticipatory digestive saliva production."
+          "Phase 1 - Stove Base Setup": "Place the camp stove firmly on a level, stable, nonflammable ground surface.",
+          "Phase 2 - Fuel Connection": "Attach pressurized gas canisters firmly while checking rubber seals for leak odors.",
+          "Phase 3 - Burner Ignition": "Light the match first before turning the stove fuel control valve counterclockwise.",
+          "Phase 4 - Heat Modulation": "Adjust the control knob to produce a steady blue flame without soot."
         },
-        "sample_output": "Fundamental Cooking Methods and Equipment: Some of the tastiest meals you will make and eat as a Scout will be cooked in a Dutch oven (p. 24).",
-        "counselor_tip": "For Cooking Requirement 3 (Fundamental Cooking Methods and Equipment), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cooking Merit Badge Pamphlet (p. 24, p. 36))."
+        "sample_output": "Mastering fundamental cooking methods allows patrols to prepare diverse ingredients using appropriate heat controls. Camp stoves provide instant flame modulation and eliminate the soot and fuel gathering of open fires.",
+        "counselor_tip": "During the Cooking Requirement 3 conference on Culinary Techniques and Camp Stoves, verify that the Scout can explain baking heat distribution and demonstrate heat modulation: Adjust the control knob to produce a steady blue flame without soot."
       },
       "quiz_item": {
         "scenario_prompt": "Why is a cast-iron Dutch oven particularly well suited for slow simmering and baking in a camp kitchen?",
@@ -2322,13 +2322,11 @@
         "right_header": "Req 4d: Five Method Cooking Execution",
         "left_points": [
           "(4a) Home Three Day Menus: Developing home meal plans requires balancing daily macronutrients across nine distinct meals plus dessert. Incorporating variety prevents palate fatigue while providing comprehensive vitamins.",
-          "(4b) Recipe Budgeting and Shopping: Recipes must be scaled to the number of diners, and shopping lists must reflect unit pricing. Calculating cost per meal teaches practical financial management and resource conservation.",
-          "(4c) Counselor Meal Plan Review: Reviewing menus and shopping lists with the counselor verifies nutritional balance and realistic preparation logistics. Counselors check that planned recipes utilize required cooking techniques before meal execution."
+          "(4b) Recipe Budgeting and Shopping: Recipes must be scaled to the number of diners, and shopping lists must reflect unit pricing. Calculating cost per meal teaches practical financial management and resource conservation."
         ],
         "right_points": [
           "(4d) Five Method Cooking Execution: Scouts must prepare and serve one breakfast, one lunch, and one dinner using five different cooking methods. Meals must be shared with at least one adult family member or guardian.",
-          "(4e) Cooking Timeline and Verification: Executing timed meals ensures all hot foods arrive at the table at optimal serving temperatures. An adult supervisor verifies proper culinary execution and kitchen safety directly to the counselor.",
-          "(4f) Meal Evaluation and Reflection: Gathering feedback from adult diners provides constructive insights into flavor balance, texture, and visual presentation. Self-reflection helps young cooks identify workflow bottlenecks and seasoning corrections."
+          "(4e) Cooking Timeline and Verification: Executing timed meals ensures all hot foods arrive at the table at optimal serving temperatures. An adult supervisor verifies proper culinary execution and kitchen safety directly to the counselor."
         ],
         "rows": [
           {
@@ -2343,22 +2341,22 @@
           },
           {
             "attribute": "Technique Diversity Standard",
-            "left": "(4c) Counselor Meal Plan Review: Reviewing menus and shopping lists with the counselor verifies nutritional balance and realistic preparation logistics. Counselors check that planned recipes utilize required cooking techniques before meal execution.",
-            "right": "(4f) Meal Evaluation and Reflection: Gathering feedback from adult diners provides constructive insights into flavor balance, texture, and visual presentation. Self-reflection helps young cooks identify workflow bottlenecks and seasoning corrections."
+            "left": "Technique Diversity Standard: Employ at least five distinct cooking techniques across the three prepared meals.",
+            "right": "Post Meal Feedback Collection: Collect honest diner evaluations on food presentation, taste, and overall meal timing."
           }
         ]
       },
       "worked_example": {
-        "title": "Cooking Req 4 Exemplar Workbook Entry: Planning",
+        "title": "Cooking Req 4 Worked Example: Home Meal Planning and Preparation",
         "artifact_type": "MEAL_PLANNER_AND_COST_TABLE",
         "fields": {
-          "Req 4a - Home Three Day Menus": "Developing home meal plans requires balancing daily macronutrients across nine distinct meals plus dessert. Incorporating variety prevents palate fatigue while providing comprehensive vitamins.",
-          "Req 4b - Recipe Budgeting and Shopping": "Recipes must be scaled to the number of diners, and shopping lists must reflect unit pricing. Calculating cost per meal teaches practical financial management and resource conservation.",
-          "Req 4c - Counselor Meal Plan Review": "Reviewing menus and shopping lists with the counselor verifies nutritional balance and realistic preparation logistics. Counselors check that planned recipes utilize required cooking techniques before meal execution.",
-          "Req 4d - Five Method Cooking Execution": "Scouts must prepare and serve one breakfast, one lunch, and one dinner using five different cooking methods. Meals must be shared with at least one adult family member or guardian."
+          "Phase 1 - Recipe Selection": "Choose balanced recipes meeting MyPlate criteria and utilizing five distinct cooking methods.",
+          "Phase 2 - Ingredient Inventory": "Check household pantry shelves before listing remaining grocery items and calculating prices.",
+          "Phase 3 - Timed Meal Execution": "Follow a written timeline to prepare and cook all course components concurrently.",
+          "Phase 4 - Family Dining Service": "Plate hot food neatly and present the meal to your adult guest."
         },
-        "sample_output": "Planning and Cooking Home Meals: With good planning and preparation before you start cooking, you will be able to successfully prepare healthy and delicious meals at home (p. 21).",
-        "counselor_tip": "For Cooking Requirement 4 (Planning and Cooking Home Meals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38))."
+        "sample_output": "Home cooking builds nutritional independence through budgeting, recipe execution, and kitchen time management. Scouts execute balanced menus across multiple culinary techniques and evaluate family dining outcomes.",
+        "counselor_tip": "During the Cooking Requirement 4 conference on Home Meal Planning and Preparation, verify that the Scout can explain three day menu planning and demonstrate family dining service: Plate hot food neatly and present the meal to your adult guest."
       },
       "quiz_item": {
         "scenario_prompt": "Before selecting recipes and writing a grocery list for home meals, what should a Scout check first regarding the people being served?",
@@ -3173,13 +3171,11 @@
         "right_header": "Req 5e: Camp Snack Dessert Preparation",
         "left_points": [
           "(5a) Patrol Camp Menu Formulation: Menu planning for a patrol of up to eight youth requires high-energy foods that travel well without spoiling. The menu must include four substantial meals, one nutritious snack, and one Dutch oven dessert.",
-          "(5b) Camp Recipe Scaling Budget: Recipes must be mathematically scaled to match patrol headcounts, calculating ingredient bulk needs accurately. Group shopping budgets must divide expenses equitably among all participating patrol members.",
-          "(5c) Camp Menu Counselor Consultation: Reviewing camp menus with the counselor validates gear requirements, cooler packing plans, and safety preparations. The counselor verifies that planned recipes meet group nutritional guidelines and budget constraints."
+          "(5b) Camp Recipe Scaling Budget: Recipes must be mathematically scaled to match patrol headcounts, calculating ingredient bulk needs accurately. Group shopping budgets must divide expenses equitably among all participating patrol members."
         ],
         "right_points": [
           "(5e) Camp Snack Dessert Preparation: Preparing field snacks and desserts teaches bakers how to manage charcoal heat on Dutch oven lids. Serving fresh baked cobbler or trail mix boosts patrol morale during long evenings.",
-          "(5f) Patrol Meal Review Critique: Conducting an after-action meal review gives patrol members voice regarding food seasoning, quantity, and presentation. The cook analyzes what preparation steps caused delays and shares lessons with counselors.",
-          "(5g) Camp Sanitation and Cleanup: The three-pot dishwashing method uses hot soapy wash water, warm rinse water, and chemical or boiling sanitizer. Solid food scraps must be strained into trash bags, and greywater broadcast away from campsites."
+          "(5f) Patrol Meal Review Critique: Conducting an after-action meal review gives patrol members voice regarding food seasoning, quantity, and presentation. The cook analyzes what preparation steps caused delays and shares lessons with counselors."
         ],
         "rows": [
           {
@@ -3194,22 +3190,22 @@
           },
           {
             "attribute": "Three Basin Sanitizing",
-            "left": "(5c) Camp Menu Counselor Consultation: Reviewing camp menus with the counselor validates gear requirements, cooler packing plans, and safety preparations. The counselor verifies that planned recipes meet group nutritional guidelines and budget constraints.",
-            "right": "(5g) Camp Sanitation and Cleanup: The three-pot dishwashing method uses hot soapy wash water, warm rinse water, and chemical or boiling sanitizer. Solid food scraps must be strained into trash bags, and greywater broadcast away from campsites."
+            "left": "Three Basin Sanitizing: Wash camp dishes in soapy water, rinse in clear, and sanitize hot.",
+            "right": "Bear Resistant Food Cache: Hang patrol food bags twelve feet high and four feet from trunks."
           }
         ]
       },
       "worked_example": {
-        "title": "Cooking Req 5 Exemplar Workbook Entry: Patrol Camp Menu",
+        "title": "Cooking Req 5 Worked Example: Outdoor Patrol Cooking Operations",
         "artifact_type": "MEAL_PLANNER_AND_COST_TABLE",
         "fields": {
-          "Req 5a - Patrol Camp Menu Formulation": "Menu planning for a patrol of up to eight youth requires high-energy foods that travel well without spoiling. The menu must include four substantial meals, one nutritious snack, and one Dutch oven dessert.",
-          "Req 5b - Camp Recipe Scaling Budget": "Recipes must be mathematically scaled to match patrol headcounts, calculating ingredient bulk needs accurately. Group shopping budgets must divide expenses equitably among all participating patrol members.",
-          "Req 5c - Camp Menu Counselor": "Reviewing camp menus with the counselor validates gear requirements, cooler packing plans, and safety preparations. The counselor verifies that planned recipes meet group nutritional guidelines and budget constraints.",
-          "Req 5d - Outdoor Stove Meal Execution": "Cooking two patrol meals on camp stoves requires managing wind screens, burner valves, and heavy skillets. Cooks must maintain steady simmer temperatures to thoroughly cook ingredients without scorching pan bottoms."
+          "Phase 1 - Kitchen Site Perimeter": "Establish a ten foot safety perimeter separating cooking stoves from tent areas.",
+          "Phase 2 - Three Pot Setup": "Fill three basins with wash water, clear rinse water, and sanitizing rinse.",
+          "Phase 3 - Skillet Meal Cooking": "Cook patrol entrees over the camp stove using moderate heat and spatulas.",
+          "Phase 4 - Greywater Disposal": "Strain food particles from dishwater and scatter dispersed droplets far from camps."
         },
-        "sample_output": "Patrol Camp Menu and Cooking: Portability is important to trail cooking, especially as you consider the combined weight of your food and equipment while planning your trip (p. 21).",
-        "counselor_tip": "For Cooking Requirement 5 (Patrol Camp Menu and Cooking), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50))."
+        "sample_output": "Camp cooking requires organizing patrol gear, rationing perishables, and maintaining field sanitation away from home plumbing. Patrol cooks prepare balanced outdoor meals using portable stoves, Dutch ovens, and three-pot wash stations.",
+        "counselor_tip": "During the Cooking Requirement 5 conference on Outdoor Patrol Cooking Operations, verify that the Scout can explain patrol menu nutrition and demonstrate greywater disposal: Strain food particles from dishwater and scatter dispersed droplets far from camps."
       },
       "quiz_item": {
         "scenario_prompt": "How should a patrol handle food scraps and wash water when cleaning up a camp kitchen under Leave No Trace principles?",
@@ -3844,17 +3840,15 @@
         "Three-pot dish washing station (hot soapy wash, clear hot rinse, sanitizing soak) and biodegradable soap."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Backpacking Daily Menu",
-        "right_header": "Req 6d: Backcountry Cooking Meal",
+        "left_header": "Req 6a: Backpacking Daily Menu Formulation",
+        "right_header": "Req 6d: Backcountry Cooking Meal Execution",
         "left_points": [
           "(6a) Backpacking Daily Menu Formulation: Planning trail menus requires calculating daily calorie burn during strenuous hiking across varied elevations. Menus must feature lightweight, shelf-stable ingredients that rehydrate quickly with boiled water.",
-          "(6b) Trail Grocery Shopping Budget: Creating a trail shopping list requires calculating portion weights and total trip food costs. Selecting lightweight dehydrated staples from grocery aisles keeps expenses reasonable compared to prepackaged freeze-dried pouches.",
-          "(6c) Trail Repackaging Food Storage: Repackaging removes cardboard boxes, glass jars, and heavy exterior packaging before hitting the trail. Portioned dry meals fit compactly into resealable bags marked with cooking liquid instructions."
+          "(6b) Trail Grocery Shopping Budget: Creating a trail shopping list requires calculating portion weights and total trip food costs. Selecting lightweight dehydrated staples from grocery aisles keeps expenses reasonable compared to prepackaged freeze-dried pouches."
         ],
         "right_points": [
           "(6d) Backcountry Cooking Meal Execution: Scouts cook two trail meals and a snack in the field, including one meal over campfire coals or backpacking stoves. Backpackers must operate compact stoves safely on mineral soil away from dry vegetation.",
-          "(6e) Backcountry Dining Meal Critique: Gathering evaluations on trail meals helps scouts assess calorie sufficiency, ease of rehydration, and flavor satisfaction. The cook reflects on fuel consumption rates and recipe rehydration times with the counselor.",
-          "(6f) Patrol Load Distribution Cleanup: Splitting collective food weight and cook gear evenly across patrol packs ensures fair physical burden sharing. Backcountry kitchen cleanup requires straining dish water through sumps and hanging bear bags."
+          "(6e) Backcountry Dining Meal Critique: Gathering evaluations on trail meals helps scouts assess calorie sufficiency, ease of rehydration, and flavor satisfaction. The cook reflects on fuel consumption rates and recipe rehydration times with the counselor."
         ],
         "rows": [
           {
@@ -3869,22 +3863,22 @@
           },
           {
             "attribute": "Trail Stove Efficiency",
-            "left": "(6c) Trail Repackaging Food Storage: Repackaging removes cardboard boxes, glass jars, and heavy exterior packaging before hitting the trail. Portioned dry meals fit compactly into resealable bags marked with cooking liquid instructions.",
-            "right": "(6f) Patrol Load Distribution Cleanup: Splitting collective food weight and cook gear evenly across patrol packs ensures fair physical burden sharing. Backcountry kitchen cleanup requires straining dish water through sumps and hanging bear bags."
+            "left": "Trail Stove Efficiency: Compact canister stoves boil small volumes of mountain water using minimal fuel.",
+            "right": "Backcountry Bear Protection: Store all aromatic trail food securely inside rigid certified bear canisters overnight."
           }
         ]
       },
       "worked_example": {
-        "title": "Cooking Req 6 Exemplar Workbook Entry: Backpacking",
+        "title": "Cooking Req 6 Worked Example: Trail and Backpacking Nutrition",
         "artifact_type": "MEAL_PLANNER_AND_COST_TABLE",
         "fields": {
-          "Req 6a - Backpacking Daily Menu": "Planning trail menus requires calculating daily calorie burn during strenuous hiking across varied elevations. Menus must feature lightweight, shelf-stable ingredients that rehydrate quickly with boiled water.",
-          "Req 6b - Trail Grocery Shopping Budget": "Creating a trail shopping list requires calculating portion weights and total trip food costs. Selecting lightweight dehydrated staples from grocery aisles keeps expenses reasonable compared to prepackaged freeze-dried pouches.",
-          "Req 6c - Trail Repackaging Food": "Repackaging removes cardboard boxes, glass jars, and heavy exterior packaging before hitting the trail. Portioned dry meals fit compactly into resealable bags marked with cooking liquid instructions.",
-          "Req 6d - Backcountry Cooking Meal": "Scouts cook two trail meals and a snack in the field, including one meal over campfire coals or backpacking stoves. Backpackers must operate compact stoves safely on mineral soil away from dry vegetation."
+          "Phase 1 - Trail Food Repackaging": "Transfer dehydrated ingredients into labeled zip bags while discarding excess cardboard packaging.",
+          "Phase 2 - Weight Distribution": "Distribute food packs evenly among patrol members according to personal pack capacity.",
+          "Phase 3 - Backpacking Stove Cooking": "Heat mountain stream water to boiling using an ultralight trail canister stove.",
+          "Phase 4 - Sump Water Disposal": "Filter dish rinse water through bandanas and scatter droplets two hundred feet away."
         },
-        "sample_output": "Backpacking and Trail Meal Preparation: If plans call for fishing one afternoon, for example, consider having the day's catch for dinner that evening (p. 21).",
-        "counselor_tip": "For Cooking Requirement 6 (Backpacking and Trail Meal Preparation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38))."
+        "sample_output": "Backpacking meals demand high caloric density, minimal pack weight, and durable packaging to endure rugged trail conditions. Hikers repackage dry goods into resealable bags to eliminate garbage bulk and preserve wilderness areas.",
+        "counselor_tip": "During the Cooking Requirement 6 conference on Trail and Backpacking Nutrition, verify that the Scout can explain caloric density threshold and demonstrate sump water disposal: Filter dish rinse water through bandanas and scatter droplets two hundred feet away."
       },
       "quiz_item": {
         "scenario_prompt": "Why do backpackers repackage store-bought ingredients into resealable plastic bags before heading onto the trail?",
@@ -4224,13 +4218,15 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Professional Culinary Career",
+        "left_header": "Req 7a: Professional Culinary Career Pathways",
         "right_header": "Req 7b: Culinary Arts Personal Hobbies",
         "left_points": [
-          "(7a) Professional Culinary Career Pathways: Researching culinary vocations exposes scouts to diverse professional roles including executive chefs, registered dietitians, and food scientists. Understanding credential requirements, apprentice training, and equipment expenses prepares aspiring food industry professionals."
+          "(7a) Professional Culinary Career Pathways: Researching culinary vocations exposes scouts to diverse professional roles including executive chefs, registered dietitians, and food scientists. Understanding credential requirements, apprentice training, and equipment expenses prepares aspiring food industry professionals.",
+          "Executive Chef Leadership: Oversee commercial kitchen operations, staff training, recipe creation, and strict inventory budgets."
         ],
         "right_points": [
-          "(7b) Culinary Arts Personal Hobbies: Exploring cooking as a lifelong recreational hobby enables individuals to prepare healthful, affordable meals and host family gatherings. Joining cooking clubs or taking community workshops expands culinary skills without professional career commitments."
+          "(7b) Culinary Arts Personal Hobbies: Exploring cooking as a lifelong recreational hobby enables individuals to prepare healthful, affordable meals and host family gatherings. Joining cooking clubs or taking community workshops expands culinary skills without professional career commitments.",
+          "Culinary Apprenticeship Models: Combine paid commercial kitchen employment with formal classroom instruction under master chefs."
         ],
         "rows": [
           {
@@ -4240,25 +4236,27 @@
           },
           {
             "attribute": "Registered Dietitian Credentials",
-            "left": "Req 7a: Professional Culinary Career: Researching culinary vocations exposes scouts to diverse professional roles including executive chefs, registered dietitians, and food scientists. Understanding credential requirements, apprentice training, and equipment expenses prepares aspiring food industry professionals.",
-            "right": "Req 7b: Culinary Arts Personal: Exploring cooking as a lifelong recreational hobby enables individuals to prepare healthful, affordable meals and host family gatherings. Joining cooking clubs or taking community workshops expands culinary skills without professional career commitments."
+            "left": "Executive Chef Leadership: Oversee commercial kitchen operations, staff training, recipe creation, and strict inventory budgets.",
+            "right": "Culinary Apprenticeship Models: Combine paid commercial kitchen employment with formal classroom instruction under master chefs."
           },
           {
             "attribute": "Culinary Apprenticeship Models",
-            "left": "Executive Chef Leadership: Oversee commercial kitchen operations, staff training, recipe creation, and strict inventory budgets.",
-            "right": "Registered Dietitian Credentials: Earn accredited university degrees and complete clinical internships to practice nutritional counseling."
+            "left": "Culinary Apprenticeship Models: Combine paid commercial kitchen employment with formal classroom instruction under master chefs.",
+            "right": "Home Baking Mastery: Cultivate artisanal sourdough bread baking techniques through temperature and fermentation timing control."
           }
         ]
       },
       "worked_example": {
-        "title": "Cooking Req 7 Exemplar Workbook Entry: Culinary Careers",
+        "title": "Cooking Req 7 Worked Example: Culinary Careers and Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Professional Culinary Career": "Researching culinary vocations exposes scouts to diverse professional roles including executive chefs, registered dietitians, and food scientists. Understanding credential requirements, apprentice training, and equipment expenses prepares aspiring food industry professionals.",
-          "Req 7b - Culinary Arts Personal": "Exploring cooking as a lifelong recreational hobby enables individuals to prepare healthful, affordable meals and host family gatherings. Joining cooking clubs or taking community workshops expands culinary skills without professional career commitments."
+          "Phase 1 - Career Field Research": "Investigate professional culinary institutes, community college programs, and registered food apprenticeship pathways.",
+          "Phase 2 - Certification Requirement Audit": "Review state sanitation credentials, industry food handler certificates, and specialized hospitality degrees.",
+          "Phase 3 - Cost Benefit Analysis": "Calculate tuition expenses against starting culinary wages across various commercial hospitality roles.",
+          "Phase 4 - Counselor Career Presentation": "Present your researched culinary vocation and educational pathway to your merit badge counselor."
         },
-        "sample_output": "Culinary Careers and Lifelong Hobbies: Careers in the Food Industry With greater innovation and new emerging technologies, more career paths within the food industry evolve every year (p. 79).",
-        "counselor_tip": "For Cooking Requirement 7 (Culinary Careers and Lifelong Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Cooking Merit Badge Pamphlet (p. 79, p. 81))."
+        "sample_output": "Culinary training opens diverse vocational pathways in commercial restaurants, institutional food management, and specialized nutritional counseling. Cooking also serves as an enriching lifelong hobby that supports personal wellness and hospitality.",
+        "counselor_tip": "During the Cooking Requirement 7 conference on Culinary Careers and Hobbies, verify that the Scout can explain executive chef leadership and demonstrate counselor career presentation: Present your researched culinary vocation and educational pathway to your merit badge counselor."
       },
       "quiz_item": {
         "scenario_prompt": "Which stage of the food industry involves transporting raw harvests from farms or ranches and transforming them into packaged edible products?",

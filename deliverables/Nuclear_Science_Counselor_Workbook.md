@@ -51,10 +51,8 @@
 #### Req 1a: Ionizing Radiation Energy Differences
 **Official Requirement 1a:** Explain radiation and the difference between ionizing and nonionizing radiation.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (2-Column Comparison Table):** Req 1a Technical Comparison Matrix (Radiation and the Difference Between)
-- **Common Myth:** Cell phones and home Wi-Fi routers emit dangerous ionizing waves that strip atomic electrons.
-- **Pamphlet Fact:** Radiofrequency signals are nonionizing and lack the quantum energy required to break molecular bonds.
 
-![Nuclear Science Requirement 1 figure showing electromagnetic waves with frequencies above ultraviolet possess adequate photon energy.](/assets/pamphlet_images/nuclear_science_p003_img1.png)
+![Electromagnetic waves with frequencies above ultraviolet possess adequate photon energy to eject orbital electrons.](/assets/pamphlet_images/nuclear_science_p003_img1.png)
 
 | Comparison Dimension | External Radiation Exposure | Radioactive Material Contamination |
 | :--- | :--- | :--- |
@@ -65,8 +63,6 @@
 #### Req 1b: The ALARA Radiation Principle
 **Official Requirement 1b:** Explain the ALARA principle. Explain what process you would go through to ensure your dose is kept ALARA when performing the requirements in this merit badge.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (ALARA Principle Explain What Process)
-- **Common Myth:** Radiation safety standards define an absolute zero exposure requirement for any laboratory experiment.
-- **Pamphlet Fact:** The ALARA standard balances acceptable risk against practical shielding, distance, and task duration controls.
 
 ![A world map illustrates geographic variations in natural background radiation exposure.](/assets/pamphlet_images/nuclear_science_p068_img1.png)
 
@@ -80,8 +76,6 @@
 #### Req 1c: Radiation Hazard Warning Trefoil
 **Official Requirement 1c:** Describe the radiation hazard symbol and explain where it should be used.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Radiation Hazard Symbol)
-- **Common Myth:** The radiation trefoil symbol indicates toxic biological waste or hazardous corrosive chemicals.
-- **Pamphlet Fact:** The trefoil exclusively marks areas, containers, and devices that emit ionizing radiation.
 
 ![A student smiles while holding a colorful ball-and-stick model representing atomic bonds.](/assets/pamphlet_images/nuclear_science_p020_img1.png)
 
@@ -94,8 +88,6 @@
 #### Req 1d: Naturally Occurring Radioactive Materials
 **Official Requirement 1d:** Explain how we are exposed to ionizing radiation from outside the earth as well as on earth every day. List four examples of Naturally Occurring Radioactive Materials (NORM) that are in your house or grocery store and explain why they are radioactive.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Are Exposed to Ionizing Radiation)
-- **Common Myth:** All detectable radiation originates from human nuclear reactors and industrial atomic weapons testing.
-- **Pamphlet Fact:** Cosmic rays, soil minerals, and food isotopes contribute eighty percent of average background doses.
 
 ![A diffusion cloud chamber reveals visible condensation tracks left by ionizing radiation.](/assets/pamphlet_images/nuclear_science_p034_img1.png)
 
@@ -109,8 +101,6 @@
 #### Req 1e: Dose Calculation and Contamination
 **Official Requirement 1e:** Explain the difference between radiation exposure and contamination. Describe the hazards of radiation to humans, the environment, and wildlife. Calculate your approximate annual radiation dose and compare it to a typical expected dose of someone who works in a nuclear power plant.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (2-Column Comparison Table):** Req 1e Technical Comparison Matrix (Radiation Exposure and Contamination)
-- **Common Myth:** Standing near an irradiated patient transfers radioactive particles directly to your clothes.
-- **Pamphlet Fact:** External irradiation leaves no physical residue, whereas loose radioactive particulates create true contamination.
 
 ![An educational chart illustrates alpha, beta, and gamma radiation penetration mechanisms.](/assets/pamphlet_images/nuclear_science_p035_img1.png)
 
@@ -138,10 +128,8 @@
 #### Req 2a: Subatomic Particles and Ionization
 **Official Requirement 2a:** Explain the following terms: atom, nucleus, proton, neutron, electron, quark, isotope; alpha particle, beta particle, gamma ray, X-ray; ionization, radioactivity, radioisotope, and stability.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Atom Nucleus Proton Neutron Electron)
-- **Common Myth:** Gamma rays are particulate fragments of shattered nucleons expelled during spontaneous atomic fission.
-- **Pamphlet Fact:** Gamma radiation consists of massless high energy electromagnetic photons emitted from de-exciting nuclei.
 
-![Nuclear Science Requirement 2 figure showing protons and neutrons reside inside the nucleus while electrons orbit within discrete.](/assets/pamphlet_images/nuclear_science_p007_img1.png)
+![Protons and neutrons reside inside the nucleus while electrons orbit within discrete energy shells.](/assets/pamphlet_images/nuclear_science_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -154,8 +142,6 @@
 #### Req 2b: Isotope Modeling and Notation
 **Official Requirement 2b:** Choose an element from the periodic table. Construct 3-D models for the atoms of three isotopes of this element, showing neutrons, protons, and electrons. Write down the isotope notation for each model including the atomic and mass numbers. In a separate model or diagram, explain or show how quarks make up protons and neutrons.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Element from the Periodic Table)
-- **Common Myth:** Adding neutrons to a nucleus always increases atomic instability and induces rapid decay.
-- **Pamphlet Fact:** Specific neutron to proton ratios are required to maintain strong force stability across nuclei.
 
 ![A massive particle detector inside a circular accelerator tracks subatomic collision paths.](/assets/pamphlet_images/nuclear_science_p019_img1.png)
 
@@ -192,10 +178,8 @@
 #### Req 3a: Accelerator Operating Principles
 **Official Requirement 3a:** Explain how a particle accelerator works.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Particle Accelerator Works)
-- **Common Myth:** Accelerators propel particles using pressurized compressed gases like pneumatic tube systems.
-- **Pamphlet Fact:** Accelerators utilize synchronized alternating radiofrequency electric fields to accelerate charged particles.
 
-![Nuclear Science Requirement 3 figure showing radiofrequency cavities supply oscillating electric fields that transfer kinetic.](/assets/pamphlet_images/nuclear_science_p012_img1.png)
+![Radiofrequency cavities supply oscillating electric fields that transfer kinetic momentum to charged particle bunches.](/assets/pamphlet_images/nuclear_science_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -206,8 +190,6 @@
 ### Req 3b: Nuclear Research Facilities
 **Official Requirement 3b (Parent Overview):** Do ONE of the following: (1) Visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus or nucleons. (2) List three particle accelerators and describe several experiments conducted and their associated basic science and practical applications.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** Subatomic research facilities require high enriched fissile reactor fuel to run accelerator experiments.
-- **Pamphlet Fact:** Accelerators use standard electrical power grids to energize magnets and radiofrequency beam cavities.
 
 **Official Pamphlet Summary:**
 - Scientists at facilities like Fermilab, CERN, or university cyclotrons probe fundamental matter by colliding accelerated particles. Visiting researchers observe massive detectors designed to measure subatomic particles and nuclear binding energies.
@@ -216,8 +198,6 @@
 #### Req 3b(1): Nuclear Research Facility Visit
 **Official Requirement 3b(1):** Visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus or nucleons.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Organizer (Concept & Examples Notes):** Req 3b(1) Structured Technical Study & Explanation Matrix (Accelerator Research Lab or University)
-- **Common Myth:** Nuclear scientists observe individual protons and neutrons by placing atomic samples under high-powered optical microscopes.
-- **Pamphlet Fact:** Atomic nuclei and nucleons are far smaller than light wavelengths, requiring scientists to bombard targets with accelerated particle beams and measure resulting collision angles and energies to infer nuclear structure.
 
 ![A digital graphic displays thousands of subatomic particle trajectories after a collision.](/assets/pamphlet_images/nuclear_science_p023_img1.png)
 
@@ -230,8 +210,6 @@
 #### Req 3b(2): Particle Accelerator Types and Applications
 **Official Requirement 3b(2):** List three particle accelerators and describe several experiments conducted and their associated basic science and practical applications.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Organizer (Concept & Examples Notes):** Req 3b(2) Structured Technical Study & Explanation Matrix (Particle Accelerators and Describe Several)
-- **Common Myth:** Particle accelerators serve only theoretical high-energy physics research and have no practical everyday applications outside advanced physics laboratories.
-- **Pamphlet Fact:** Most operational particle accelerators worldwide are compact machines deployed in hospitals and factories for cancer radiation therapy, medical isotope production, and semiconductor manufacturing.
 
 ![PET brain scans display blood flow changes before and after surgery using nuclear imaging.](/assets/pamphlet_images/nuclear_science_p041_img1.png)
 
@@ -257,11 +235,8 @@
 #### Req 4a: Electroscope Radiation Detection
 **Official Requirement 4a:** Build an electroscope. Show how it works. Place a radiation source near the electroscope ball and explain the effect it causes. Adults must handle radioactive materials.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Electroscope Show How It Works)
-- **Common Myth:** The electroscope leaves collapse because radioactive rays physically push the aluminum foil downward.
-- **Pamphlet Fact:** Ionized air molecules transfer charge to the metal terminal, neutralizing the electrostatic charge on the leaves.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 4.
 - [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Classic Nuclear Science Experiments.
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied.
 - [ ] Completed observation table and counselor review notes for Req 4.
@@ -280,8 +255,6 @@
 #### Req 4b: Cloud Chamber Vapor Tracks
 **Official Requirement 4b:** Make a cloud chamber. Show how it can be used to see the tracks caused by radiation. Adults must handle radioactive materials and dry ice. Explain what is happening.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist (Cloud Chamber)
-- **Common Myth:** Cloud chamber operation requires radioactive sources that emit intense thermal heat to form vapor.
-- **Pamphlet Fact:** Cloud chambers require intense cold from dry ice to maintain the supersaturated alcohol vapor condition.
 
 ![A robotic planetary rover navigates Martian terrain using nuclear radioisotope technology.](/assets/pamphlet_images/nuclear_science_p046_img1.png)
 
@@ -297,8 +270,6 @@
 #### Req 4c: Half Life Coin Simulation
 **Official Requirement 4c:** Perform an experiment demonstrating half-life using nonradioactive materials such as candy, coins, or other small items. Discuss decay chains.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Experiment Demonstrating Half-life Using Nonradioactive)
-- **Common Myth:** An atom with a one hour half-life is guaranteed to decay at exactly thirty minutes.
-- **Pamphlet Fact:** Radioactive decay is stochastic, meaning half-life measures the statistical duration for half of a population to decay.
 
 ![A researcher holds ceramic uranium fuel pellets used to generate power in nuclear reactors.](/assets/pamphlet_images/nuclear_science_p056_img1.png)
 
@@ -325,8 +296,6 @@
 #### Req 5a: Radiation Meter Survey Testing
 **Official Requirement 5a:** Using a radiation survey meter and a radioactive source, show how the counts per minute change as the source gets closer to or farther from the radiation detector. Adults must handle radioactive materials. Place three different materials between the source and the detector, then explain any differences in the measurements per minute. Explain how time, distance, and shielding can reduce an individual's radiation dose.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Radiation Survey Meter and A)
-- **Common Myth:** Survey meter counts per minute directly equal the absorbed biological dose in human sieverts.
-- **Pamphlet Fact:** Survey meters count discrete ionization pulses, which require isotope specific conversion factors to calculate biological dose.
 
 ![Stacks of coins demonstrate exponential radioactive decay rates during a half-life lab.](/assets/pamphlet_images/nuclear_science_p037_img1.png)
 
@@ -342,8 +311,6 @@
 #### Req 5b: Home Radon Gas Testing
 **Official Requirement 5b:** Describe how radon is detected in homes. Discuss the steps taken for the long-term and short-term test methods, tell how to interpret the results, and explain when each type of test should be used. Explain the health concerns related to radon gas and tell what steps can be taken to reduce radon in buildings.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Radon Is Detected in Homes)
-- **Common Myth:** Opening basement windows for one afternoon permanently removes radon hazards from residential living areas.
-- **Pamphlet Fact:** Radon continuously enters from bedrock, requiring active sub-slab depressurization systems for sustained long term remediation.
 
 ![A national map identifies the locations of commercial nuclear power reactors across America.](/assets/pamphlet_images/nuclear_science_p061_img1.png)
 
@@ -358,8 +325,6 @@
 #### Req 5c: Clinical X-Ray Room Layout
 **Official Requirement 5c:** Visit a place where X-rays are used. Draw a floor plan of this room. Show where the unit, the unit operator, and the patient would be when the X-ray unit is operated. Explain the precautions taken and the importance of those precautions for the safety of the operator.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5c Structured Technical Study & Explanation Matrix (Place Where X-rays)
-- **Common Myth:** Diagnostic X-ray equipment leaves lingering airborne radiation inside the examination room after beam shutoff.
-- **Pamphlet Fact:** X-rays are electromagnetic waves that vanish instantly once electrical power to the vacuum tube ceases.
 
 ![A portable Geiger-Mueller survey meter measures ionizing radiation counts in the field.](/assets/pamphlet_images/nuclear_science_p070_img1.png)
 
@@ -398,8 +363,6 @@
 **Official Requirement 6a:** Make a drawing showing how nuclear fission happens. Observe a mousetrap reactor (setup by an adult) and use it to explain how a chain reaction could be started. Explain how a chain reaction could be stopped or controlled in a nuclear reactor. Explain what is meant by a "critical mass.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6a Hands-On Skill Station & EDGE Verification Checklist (Drawing Showing How Nuclear Fission)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Nuclear Science Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Chain reactions in power reactors multiply uncontrollably without constant human electrical power input.
-- **Pamphlet Fact:** Nuclear reactors are engineered with negative temperature reactivity coefficients that naturally slow fission as core temperatures rise.
 
 ![Mousetraps loaded with ping-pong balls demonstrate a chain reaction inside a clear case.](/assets/pamphlet_images/nuclear_science_p055_img1.png)
 
@@ -424,8 +387,6 @@
 **Official Requirement 6b:** Visit a local nuclear power plant or nuclear reactor either in person or online (with your parent or guardian's permission). Learn how a reactor works and how the plant generates electricity. Find out what percentage of electricity in the United States and in your state is generated by nuclear power plants and by other methods. Make a graph of the information you find.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Local Nuclear Power Plant or)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Nuclear Science Req 6b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** The massive concrete cooling towers at nuclear power plants release plumes of radioactive smoke.
-- **Pamphlet Fact:** Cooling towers discharge clean condensed water vapor produced by cooling the secondary nonradioactive turbine steam loop.
 
 ![A handheld radiation detector checks radioactivity emitted from an orange glazed plate.](/assets/pamphlet_images/nuclear_science_p071_img1.png)
 
@@ -470,7 +431,6 @@
 - **Pamphlet Fact:** Nuclear careers thrive across research universities, industrial testing firms, aerospace contractors, and hospital radiation oncology clinics.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 8.
 - [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Careers In Nuclear Science.
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied.
 - [ ] Completed observation table and counselor review notes for Req 8.

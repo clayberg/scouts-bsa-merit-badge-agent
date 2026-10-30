@@ -67,11 +67,6 @@
 - **Common Myth:** Standard prescription eyeglasses provide sufficient eye protection during high energy physical demonstrations.
 - **Pamphlet Fact:** Impact-rated polycarbonate goggles protect cornea tissue against high velocity fragments and shattered glass apparatus.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Physics Merit Badge Pamphlet: Physics Lab Safety, PPE & Hazard Prevention.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Physics Lab Safety, PPE & Hazard Prevention.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
 ![Scouts and counselor demonstrate Physics Requirement 1 field procedures and safety checks.](/assets/pamphlet_images/physics_p003_img1.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
@@ -90,7 +85,6 @@
 ### Req 2: Fundamental Physics Discipline Scope
 **Official Requirement 2:** What is Physics? Define physics in your own words and discuss with your counselor various areas of physics.
 **Source:** *Physics Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Physics Define Physics in Your)
-> **Guide to Safe Scouting Warning:** Never shine direct optical laser beams into the ocular paths of laboratory participants during optical branch demonstrations.
 - **Common Myth:** Physics consists solely of theoretical mathematics without practical observation of real physical phenomena.
 - **Pamphlet Fact:** Physics is the fundamental science studying matter, energy, spacetime, and the interactions governing physical reality.
 
@@ -112,7 +106,6 @@
 ### Req 3: Fundamental Mechanics and Wave Principles
 **Official Requirement 3:** Fundamentals of Physics. Explain these key physics concepts: force, motion, energy, and waves. Provide real-world examples demonstrating each principle.
 **Source:** *Physics Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Fundamentals of Physics Explain These)
-> **Guide to Safe Scouting Warning:** Maintain safe standoff perimeters around rotating mechanical linkages to prevent entanglement injuries from kinetic flywheel energy.
 - **Common Myth:** Objects require continuous applied contact force to sustain constant forward motion in frictionless space.
 - **Pamphlet Fact:** Forces transfer energy through mechanical work and momentum changes across defined displacement distances.
 
@@ -135,16 +128,10 @@
 ### Req 4A: Newton's Laws in Action: Balloon-Powered Car: Core Requirements & Field Demonstration
 **Official Requirement 4A:** Option A: Newton's Laws in Action: Balloon-Powered Car. Make and test a balloon-powered car to show how force and motion interact.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Skill Demonstration Checklist):** Req 4A Hands-On Skill Station & EDGE Verification Checklist (Newton's Laws in Action Balloon-Powered)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** The balloon car moves forward because escaping air pushes against the ambient room air behind the exhaust nozzle.
 - **Pamphlet Fact:** Escaping compressed gas exerts an equal and opposite reaction force that propels the vehicle chassis forward.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Physics Merit Badge Pamphlet: Hands-On Experimentation Conduct THREE Physics.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Hands-On Experimentation Conduct THREE Physics.
-- [ ] Buddy-pair checklist and counselor review rubric.
-
-![Physics Requirement 4 figure showing stated testable predictions must link quantifiable variables before beginning.](/assets/pamphlet_images/physics_p004_img1.png)
+![Stated testable predictions must link quantifiable variables before beginning physical lab measurements.](/assets/pamphlet_images/physics_p004_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -162,14 +149,8 @@
 ### Req 4B: Momentum: Stacked Ball Drop: Core Requirements & Field Demonstration
 **Official Requirement 4B:** Option B: Momentum: Stacked Ball Drop. Drop different-sized stacked balls to show momentum.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4B Structured Technical Study & Explanation Matrix (Momentum Stacked Ball Drop Drop)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** Dropping stacked balls increases total system energy beyond the initial gravitational potential energy.
 - **Pamphlet Fact:** Energy conservation and momentum transfer through elastic collisions concentrate velocity into the lowest mass top sphere.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Physics Merit Badge Pamphlet: Hands-On Experimentation Conduct THREE Physics.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Hands-On Experimentation Conduct THREE Physics.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.](/assets/pamphlet_images/physics_p009_img1.png)
 
@@ -189,14 +170,8 @@
 ### Req 4C: Centrifugal Force: Core Requirements & Field Demonstration
 **Official Requirement 4C:** Option C: Centrifugal Force. Make spinning toys to demonstrate centrifugal force.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Skill Demonstration Checklist):** Req 4C Hands-On Skill Station & EDGE Verification Checklist (Centrifugal Force Make Spinning Toys)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** A real physical centrifugal force pushes spinning masses radially outward away from the rotation axis.
 - **Pamphlet Fact:** Centrifugal force is an apparent inertial sensation experienced within a rotating reference frame rather than a true external push.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Physics Merit Badge Pamphlet: Hands-On Experimentation Conduct THREE Physics.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Hands-On Experimentation Conduct THREE Physics.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -214,14 +189,8 @@
 ### Req 4D: Centripetal Force: Core Requirements & Field Demonstration
 **Official Requirement 4D:** Option D: Centripetal Force. Swing a water bucket or tray filled with water glasses to demonstrate centripetal force.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Skill Demonstration Checklist):** Req 4D Hands-On Skill Station & EDGE Verification Checklist (Centripetal Force Swing A Water)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** Gravity turns off when an open bucket of water swings upside down through the vertical circular apex.
 - **Pamphlet Fact:** The bucket base or tension cord provides the inward centripetal acceleration preventing water from falling out at the apex.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Physics Merit Badge Pamphlet: Hands-On Experimentation Conduct THREE Physics.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Hands-On Experimentation Conduct THREE Physics.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -239,7 +208,6 @@
 ### Req 4E: Balance: Core Requirements & Field Demonstration
 **Official Requirement 4E:** Option E: Balance. Explore center of gravity, inertia, and harmonic motion using a Tweety Bopper.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4E Structured Technical Study & Explanation Matrix (Balance Explore Center of Gravity)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** Heavy objects always tip over faster than lightweight objects regardless of geometric center of gravity position.
 - **Pamphlet Fact:** An object remains stable when its vertical center of gravity falls directly within its physical supporting base area.
 
@@ -259,7 +227,6 @@
 ### Req 4F: Visualize Sound: Core Requirements & Field Demonstration
 **Official Requirement 4F:** Option F: Visualize Sound. Visualize Chladni patterns using a tonoscope.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4F Structured Technical Study & Explanation Matrix (Visualize Sound Visualize Chladni Patterns)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** Sound vibrations displace sand grains uniformly across the entire surface of an oscillating flat plate.
 - **Pamphlet Fact:** Resonant acoustic frequencies produce standing acoustic waves whose nodal lines trap dry particulate matter into Chladni figures.
 
@@ -279,14 +246,8 @@
 ### Req 4G: Cartesian Diver: Core Requirements & Field Demonstration
 **Official Requirement 4G:** Option G: Cartesian Diver. Demonstrate buoyancy and the ideal gas law with Cartesian divers.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Skill Demonstration Checklist):** Req 4G Hands-On Skill Station & EDGE Verification Checklist (Cartesian Diver Demonstrate Buoyancy)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** The Cartesian diver sinks because the flexible bottle walls push down directly on the dropper glass stem.
 - **Pamphlet Fact:** Squeezing the bottle compresses internal trapped air, increasing diver density until it exceeds water density and sinks.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Physics Merit Badge Pamphlet: Hands-On Experimentation Conduct THREE Physics.
-- [ ] Field notebook, verification log sheet, and demonstration materials for Hands-On Experimentation Conduct THREE Physics.
-- [ ] Buddy-pair checklist and counselor review rubric.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -304,7 +265,6 @@
 ### Req 4H: Air Pressure: Bernoulli's principle and the Coandă Effect: Core Requirements & Field Demonstration
 **Official Requirement 4H:** Option H: Air Pressure: Bernoulli's principle and the Coandă Effect. Balance different objects in a stream of air.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4H Structured Technical Study & Explanation Matrix (Air Pressure Bernoulli's Principle)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** The suspended ball balances merely because the direct upward impact force of air blows it against gravity.
 - **Pamphlet Fact:** Coanda attachment and high velocity low pressure air pockets create net aerodynamic lift supporting the suspended sphere.
 
@@ -324,7 +284,6 @@
 ### Req 4I: Electromagnet: Core Requirements & Field Demonstration
 **Official Requirement 4I:** Option I: Electromagnet. Make an electromagnet and explore how to increase its strength.
 **Source:** *Physics Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4I Structured Technical Study & Explanation Matrix (Electromagnet Make An Electromagnet)
-> **Guide to Safe Scouting Warning:** Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.
 - **Common Myth:** Permanent magnets and electric coils generate magnetic forces through electrostatic charge accumulation on exterior surfaces.
 - **Pamphlet Fact:** Magnetic field strength scales directly with coil turn density and electric current magnitude through the ferromagnetic core.
 
@@ -344,7 +303,6 @@
 ### Req 5: Everyday Environmental and Technological Physics
 **Official Requirement 5 (Parent Overview):** Physics All Around You. Discuss with your counselor: (a) Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances. (b) Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration. (c) Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation. (d) Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering.
 **Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Disconnect power cords and avoid contacting moving parts when inspecting the mechanical drives of household appliances.
 - **Common Myth:** Physics principles apply solely inside high tech laboratories and have little relevance to routine household activities.
 - **Pamphlet Fact:** Physical laws govern everyday conveniences from automotive hydraulic brakes to orbital communication satellite relays.
 
@@ -357,10 +315,8 @@
 #### Req 5a: Domestic Applied Physical Technologies
 **Official Requirement 5a:** Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances.
 **Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Physics in Everyday Life)
-- **Common Myth:** Refrigerator cooling systems operate by pumping cold air directly into food storage compartments.
-- **Pamphlet Fact:** Microwave ovens heat water molecules through dielectric resonance, while vehicle brakes convert kinetic energy into friction heat.
 
-![Physics Requirement 5 figure showing incompressible brake fluids transmit pedal force uniformly across caliper pistons via.](/assets/pamphlet_images/physics_p005_img1.png)
+![Incompressible brake fluids transmit pedal force uniformly across caliper pistons via Pascal law.](/assets/pamphlet_images/physics_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -372,8 +328,6 @@
 #### Req 5b: Orbital Mechanics and Astronautics
 **Official Requirement 5b:** Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration.
 **Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Physics in Space Exploration)
-- **Common Myth:** Spacecraft cannot maneuver inside orbital space because there is no surrounding atmosphere to push.
-- **Pamphlet Fact:** Rocket propulsion functions via Newton third law by expelling combustion mass at high supersonic velocities into vacuum.
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -385,8 +339,6 @@
 #### Req 5c: Environmental Thermodynamics and Energy
 **Official Requirement 5c:** Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation.
 **Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Physics in the Environment)
-- **Common Myth:** Wind turbines produce electrical power by pushing incoming air currents forward like massive outdoor fans.
-- **Pamphlet Fact:** Photovoltaic cells use the photoelectric effect to release conduction electrons directly from doped silicon semi-conductor junctions.
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -398,8 +350,6 @@
 #### Req 5d: Practical Scouting Mechanical Systems
 **Official Requirement 5d:** Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering.
 **Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Physics in Scouting Explain How)
-- **Common Myth:** Campfire flames heat cooking pots exclusively through upward thermal conduction across surrounding ambient air molecules.
-- **Pamphlet Fact:** Pioneering shear lashing friction resists axial timber displacement by distributing tension loads across hemp cord wraps.
 
 | Req 5d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -411,7 +361,6 @@
 ### Unsolved Mysteries of Physics: Core Requirements & Field Demonstration
 **Official Requirement 6A (Parent Overview):** Option A: Unsolved Mysteries of Physics. Discuss the following with your counselor.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Do not view high intensity optical telescope focal planes without certified solar absorption filters in place.
 - **Common Myth:** Dark matter is simply normal interstellar gas clouds that telescopes cannot illuminate with optical light.
 - **Pamphlet Fact:** Galactic rotation anomalies indicate that nonluminous dark matter constitutes roughly eighty percent of all cosmic matter.
 
@@ -424,8 +373,6 @@
 #### Req 6A(a): Dark Matter and Dark Energy
 **Official Requirement 6A(a):** Dark Matter & Dark Energy. Scientists know it exists.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6A(a) Structured Technical Study & Explanation Matrix (Dark Matter Dark Energy Scientists)
-- **Common Myth:** Dark matter and dark energy represent the same mysterious substance observed in different regions of space.
-- **Pamphlet Fact:** Dark matter acts as an attractive gravitational glue pulling galaxies together, while dark energy exerts a repulsive pressure accelerating cosmic expansion.
 
 ![Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.](/assets/pamphlet_images/physics_p015_img1.png)
 
@@ -439,8 +386,6 @@
 #### Req 6A(b): Black Holes and Traversable Wormholes
 **Official Requirement 6A(b):** Black Holes & Wormholes. Can we harness their energy or travel through them.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6A(b) Structured Technical Study & Explanation Matrix (Black Holes Wormholes Can We)
-- **Common Myth:** A black hole acts like a giant cosmic vacuum cleaner actively roaming space to suck in distant planets.
-- **Pamphlet Fact:** An object orbiting a black hole experiences normal Newtonian gravity unless it crosses within the event horizon where escape velocity exceeds the speed of light.
 
 | Req 6A(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -452,7 +397,6 @@
 ### Quantum Mechanics & Computing: Core Requirements & Field Demonstration
 **Official Requirement 6B (Parent Overview):** Option B: Quantum Mechanics & Computing. Discuss the following with your counselor.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Do not view high intensity optical telescope focal planes without certified solar absorption filters in place.
 - **Common Myth:** Quantum computers process information like standard computers but simply utilize faster silicon transistor clocks.
 - **Pamphlet Fact:** Quantum superposition allows qubits to process complex combinatorial states simultaneously through quantum entanglement matrices.
 
@@ -465,8 +409,6 @@
 #### Req 6B(a): Principles of Quantum Computing Systems
 **Official Requirement 6B(a):** Quantum Computers. How can super fast computers be made of atoms instead of microchips.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6B(a) Structured Technical Study & Explanation Matrix (Quantum Computers How Can Super)
-- **Common Myth:** Quantum computers are simply faster desktop computers that run everyday programs and games at hyper speeds.
-- **Pamphlet Fact:** Quantum processors excel only at specialized mathematical tasks such as prime factorization and quantum physical simulations by taking advantage of interference among computational paths.
 
 | Req 6B(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -478,8 +420,6 @@
 #### Req 6B(b): Quantum Entanglement and Information Transfer
 **Official Requirement 6B(b):** Quantum Entanglement. Can we communicate instantly across space.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6B(b) Structured Technical Study & Explanation Matrix (Quantum Entanglement Can We Communicate)
-- **Common Myth:** Entangled particles allow observers to transmit instant telegraph messages or voice communications across interstellar distances.
-- **Pamphlet Fact:** Measuring one entangled particle instantly determines its partner state, but retrieving meaningful information still requires a classical speed of light communication channel.
 
 | Req 6B(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -491,7 +431,6 @@
 ### Space Exploration & Astrophysics: Core Requirements & Field Demonstration
 **Official Requirement 6C (Parent Overview):** Option C: Space Exploration & Astrophysics. Discuss the following with your counselor.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Do not view high intensity optical telescope focal planes without certified solar absorption filters in place.
 - **Common Myth:** Black holes act like giant cosmic vacuum cleaners sucking in distant solar systems instantly.
 - **Pamphlet Fact:** Gravitational waves create microscopic spatial strains detected by laser interferometers when massive black holes merge.
 
@@ -504,8 +443,6 @@
 #### Req 6C(a): Physics of Martian Planetary Habitation
 **Official Requirement 6C(a):** Colonizing Mars. How can physics help humans live on other planets.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6C(a) Structured Technical Study & Explanation Matrix (Colonizing Mars How Can Physics)
-- **Common Myth:** Astronauts on Mars can breathe outdoors simply by wearing warm coats because the planet holds a thick carbon dioxide atmosphere.
-- **Pamphlet Fact:** Surface atmospheric pressure on Mars is less than one percent of Earth atmospheric pressure, requiring pressurized habitats and active shielding against solar radiation.
 
 | Req 6C(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -517,8 +454,6 @@
 #### Req 6C(b): Mechanics of Deep Interstellar Travel
 **Official Requirement 6C(b):** Interstellar Travel. Can we reach other stars with warp drives or solar sails.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6C(b) Structured Technical Study & Explanation Matrix (Interstellar Travel Can We Reach)
-- **Common Myth:** Solar sails move through space by catching the physical solar wind of charged gas particles blowing from stars.
-- **Pamphlet Fact:** Solar sails generate thrust primarily from the radiation pressure of photons bouncing off highly reflective surfaces rather than ionized gas.
 
 | Req 6C(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -530,7 +465,6 @@
 ### Advanced Theories & Future Discoveries: Core Requirements & Field Demonstration
 **Official Requirement 6D (Parent Overview):** Option D: Advanced Theories & Future Discoveries. Discuss the following with your counselor.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Do not view high intensity optical telescope focal planes without certified solar absorption filters in place.
 - **Common Myth:** Theoretical physicists accept unverified mathematical string equations as confirmed facts without requiring empirical proof.
 - **Pamphlet Fact:** String theory attempts to unite standard gauge bosons with gravity by modeling particles as vibrating one dimensional filaments.
 
@@ -543,8 +477,6 @@
 #### Req 6D(a): Relativistic Time Dilation and Spacetime
 **Official Requirement 6D(a):** Time Travel. Is it possible under extreme conditions.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6D(a) Structured Technical Study & Explanation Matrix (Time Travel Is It Possible)
-- **Common Myth:** Time travel backward into the past is an engineering problem that humans will solve with faster spaceships.
-- **Pamphlet Fact:** Relativity allows forward time travel through kinematic time dilation, but traveling backward into the past produces causality paradoxes unsupported by physics evidence.
 
 | Req 6D(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -556,8 +488,6 @@
 #### Req 6D(b): Centripetal Acceleration in Space Stations
 **Official Requirement 6D(b):** Artificial Gravity. Can we create Earth-like gravity in space stations.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6D(b) Structured Technical Study & Explanation Matrix (Artificial Gravity Can We Create)
-- **Common Myth:** Science fiction anti-gravity plating exists as a known physical field that engineers can install beneath floors in space stations.
-- **Pamphlet Fact:** Physics knows no mechanism to generate true gravitational fields without mass, so space stations must rely on rotational inertia and normal forces to simulate gravity.
 
 | Req 6D(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -569,7 +499,6 @@
 ### Req 7A: Fastest Pinewood Derby Car: Core Requirements & Field Demonstration
 **Official Requirement 7A:** Option A: Fastest Pinewood Derby Car. Build pinewood derby cars using physics principles to get the fastest time on the track.
 **Source:** *Physics Test Lab Resource Guide, pp. 40-45* • **Organizer (Skill Demonstration Checklist):** Req 7A Hands-On Skill Station & EDGE Verification Checklist (Fastest Pinewood Derby Car Build)
-> **Guide to Safe Scouting Warning:** Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Physics Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Placing heavy ballast weight over the front wheels makes Pinewood Derby cars roll faster down slopes.
 - **Pamphlet Fact:** Placing ballast mass rearward raises initial gravitational potential energy while wheel polishing minimizes friction.
@@ -590,7 +519,6 @@
 ### Req 7B: Rube Goldberg Machine: Core Requirements & Field Demonstration
 **Official Requirement 7B:** Option B: Rube Goldberg Machine. Build a machine using household materials to perform a simple task. You can use examples of tasks from the annual Rube Goldberg competition, or you can create your own task.
 **Source:** *Physics Test Lab Resource Guide, pp. 40-45* • **Organizer (Skill Demonstration Checklist):** Req 7B Hands-On Skill Station & EDGE Verification Checklist (Rube Goldberg Machine Build A)
-> **Guide to Safe Scouting Warning:** Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Physics Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Rube Goldberg mechanisms can run indefinitely without continuous external potential energy inputs along the chain.
 - **Pamphlet Fact:** Each link in a compound mechanism transfers momentum and potential energy through discrete mechanical steps.
@@ -612,7 +540,6 @@
 ### Req 7C: Egg Drop Challenge: Core Requirements & Field Demonstration
 **Official Requirement 7C:** Option C: Egg Drop Challenge. Explore the physics of energy and momentum by building a structure using household materials to prevent an egg from breaking when dropped from a significant height. The location of the egg drop must be approved by your counselor.
 **Source:** *Physics Test Lab Resource Guide, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7C Structured Technical Study & Explanation Matrix (Egg Drop Challenge Explore the)
-> **Guide to Safe Scouting Warning:** Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Physics Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Rigid unyielding impact shields protect an egg better than soft deformable crumple zone structures.
 - **Pamphlet Fact:** Crumple zones and shock absorption extend deceleration time, minimizing peak impact force experienced by the egg.
@@ -634,7 +561,6 @@
 ### Req 7D: Water Bottle Rockets: Core Requirements & Field Demonstration
 **Official Requirement 7D:** Option D: Water Bottle Rockets. Explore propulsion and Newton's Third Law. The challenge is to land an air pressured rocket, using water as a propellant, exactly at a specific distance (for example, 70 m) from launch point, three times, with extra points for flight duration.
 **Source:** *Physics Test Lab Resource Guide, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7D Structured Technical Study & Explanation Matrix (Water Bottle Rockets Explore Propulsion)
-> **Guide to Safe Scouting Warning:** Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Physics Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Adding maximum pressurized air without any water propellant launches bottle rockets to the highest altitudes.
 - **Pamphlet Fact:** Water propellant provides high reactive mass, producing significantly greater forward momentum than compressed air alone.
@@ -656,7 +582,6 @@
 ### Req 7E: Design your Own Physics Challenge: Core Requirements & Field Demonstration
 **Official Requirement 7E:** Option E: Design your Own Physics Challenge. Create a physics challenge with your counselor's approval.
 **Source:** *Physics Test Lab Resource Guide, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7E Structured Technical Study & Explanation Matrix (Own Physics Challenge Create A)
-> **Guide to Safe Scouting Warning:** Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Physics Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** A valid physics challenge only needs an impressive visual demonstration without measurable quantitative parameters.
 - **Pamphlet Fact:** Self-designed physics challenges require quantifiable criteria, reproducible test procedures, and verified mathematical models.
@@ -677,7 +602,6 @@
 ### Req 8: Physics Vocations and Avocational Pursuits
 **Official Requirement 8 (Parent Overview):** Careers. Do ONE of the following: (a) Explore careers related to this badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Physics Test Lab Resource Guide, pp. 46-51* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Ensure safe posture and appropriate screen ergonomics when conducting extended digital database career research.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Physics Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** A physics degree qualifies graduates solely for academic classroom teaching or abstract laboratory research positions.
 - **Pamphlet Fact:** Physics training develops advanced mathematical modeling, data science, and quantitative problem-solving skills valued across high-technology industries.
@@ -692,8 +616,6 @@
 **Official Requirement 8a:** Explore careers related to this badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Physics Test Lab Resource Guide, pp. 46-51* • **Organizer (Career & Profession Exploration Card):** Req 8a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Physics Req 8a with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Entry-level physics jobs require no formal post-secondary mathematics or laboratory instrumentation training.
-- **Pamphlet Fact:** Professional physicists typically require graduate doctoral degrees for independent research, though applied roles accept baccalaureates.
 
 ![Four-panel physics career pathways showing astrophysics, medical imaging, acoustics engineering, and telescope making.](/assets/ai_illustrations/physics_req_8_topic_visual.png)
 
@@ -709,8 +631,6 @@
 #### Req 8b: Lifelong Applied Physics Avocations
 **Official Requirement 8b:** Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.
 **Source:** *Physics Test Lab Resource Guide, pp. 46-51* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)
-- **Common Myth:** Engaging in physics hobbies requires millions of dollars in industrial grade particle accelerator equipment.
-- **Pamphlet Fact:** Amateur telescope making and amateur radio operation reinforce optical diffraction and electromagnetic wave principles.
 
 | Req 8b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -723,7 +643,6 @@
 ### Req 9: Experimental Test Laboratory Evaluation
 **Official Requirement 9:** Complete the survey below to complete the test lab requirements
 **Source:** *Physics Test Lab Resource Guide, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Survey Below)
-> **Guide to Safe Scouting Warning:** Safely store and power down all laboratory equipment before completing post-experiment administrative evaluation forms.
 - **Common Myth:** Submitting curriculum survey responses is an optional administrative step with no connection to badge completion.
 - **Pamphlet Fact:** Laboratory survey completion provides essential feedback on experimental clarity, equipment usability, and pedagogical effectiveness.
 

@@ -487,7 +487,6 @@
         "Step 4 - Range Clearing: Hang bows on racks before stepping forward to collect spent arrows."
       ],
       "gear_checklist": [
-        "Official Archery merit badge pamphlet and range scorecard for Req 1.",
         "Properly sized recurve or compound bow with matched arrows and quiver.",
         "Armguard, finger tab or release aid, and bowstring wax.",
         "Range safety checklist and target grouping log for Range Safety Rules and Whistle Commands."
@@ -516,22 +515,22 @@
           },
           {
             "attribute": "Whistle Signals",
-            "left": "Req 1a: Projectile Physics: A projectile is any object propelled through space by the application of external force. Fired arrows carry high momentum that demands controlled shooting zones and constant physical respect.",
-            "right": "Req 1b: Five Range Safety Rules: Range rules mandate keeping arrows pointed downrange, drawing only on command, and shooting designated targets. Archers must never dry fire a bow or point nocked arrows at people."
+            "left": "Whistle Signals: Whistle blasts provide unambiguous emergency auditory cues heard across active shooting lines.",
+            "right": "Safe Retrieval: Proper arrow pulling requires placing one hand flat against the target face."
           }
         ]
       },
       "worked_example": {
-        "title": "Archery Req 1 Exemplar Workbook Entry: Range Safety",
+        "title": "Archery Req 1 Worked Example: Archery Range Safety Protocol",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Projectile Physics": "A projectile is any object propelled through space by the application of external force. Fired arrows carry high momentum that demands controlled shooting zones and constant physical respect.",
-          "Req 1b - Five Range Safety Rules": "Range rules mandate keeping arrows pointed downrange, drawing only on command, and shooting designated targets. Archers must never dry fire a bow or point nocked arrows at people.",
-          "Req 1c - Range Whistle Command System": "Whistle commands standardize range cadence to coordinate shooting, retrieval, and emergency stops without verbal confusion. One blast signals shooting, two signals line approach, three signals retrieval, and five signals an immediate emergency stop.",
-          "Req 1d - Safe Target Arrow Extraction": "Archers must approach targets from the side to avoid walking into exposed arrow nocks. Extract arrows by grasping the shaft close to the target face while supporting the boss with your opposite hand."
+          "Phase 1 - Line Approach": "Walk calmly to the waiting line until the rangemaster gives clearance.",
+          "Phase 2 - Straddle Position": "Place one foot on each side of the marked shooting line.",
+          "Phase 3 - Bow Loading": "Keep the bow pointed downrange while snapping the nock in place.",
+          "Phase 4 - Range Clearing": "Hang bows on racks before stepping forward to collect spent arrows."
         },
-        "sample_output": "Range Safety Rules and Whistle Commands: One blast on a whistle, \"Commence shooting.\" You may pick up an arrow and shoot this end (p. 11).",
-        "counselor_tip": "For Archery Requirement 1 (Range Safety Rules and Whistle Commands), verify the Scout's own observations and specific pamphlet details (Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13))."
+        "sample_output": "Archery range operations require strict enforcement of safety protocols and whistle commands to prevent severe projectile injuries. Archers must handle bows as lethal equipment and operate exclusively within designated safety perimeters.",
+        "counselor_tip": "During the Archery Requirement 1 conference on Archery Range Safety Protocol, verify that the Scout can explain projectile energy and demonstrate range clearing: Hang bows on racks before stepping forward to collect spent arrows."
       },
       "quiz_item": {
         "scenario_prompt": "While shooting on the archery range, an arrow slips off your bow rest and lands on the ground 4 feet in front of the shooting line while other archers are still at full draw. What must you do?",
@@ -1252,14 +1251,13 @@
         "Step 4 - Vane Fletching: Apply fletching glue along the vane base using an indexed jig."
       ],
       "gear_checklist": [
-        "Official Archery merit badge pamphlet and range scorecard for Req 2.",
         "Properly sized recurve or compound bow with matched arrows and quiver.",
         "Armguard, finger tab or release aid, and bowstring wax.",
         "Range safety checklist and target grouping log for Arrow Anatomy, Materials, and Construction."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Arrow Anatomy and Parts",
-        "right_header": "Req 2c: Principal Shaft Material",
+        "right_header": "Req 2c: Principal Shaft Material Selection",
         "left_points": [
           "(2a) Arrow Anatomy and Parts: An arrow consists of five primary components: the point, shaft, crest, fletching, and nock. Each component serves a distinct ballistic role in aerodynamic flight, structural balance, and string connection.",
           "(2b) Arrow Types and Profiles: Archery disciplines employ distinct arrow types including target arrows, field arrows, and flu-flu arrows. Flu-flu arrows utilize oversized spiral fletchings to rapidly decelerate shots taken at airborne targets."
@@ -1281,22 +1279,22 @@
           },
           {
             "attribute": "Material Types",
-            "left": "Req 2a: Arrow Anatomy and Parts: An arrow consists of five primary components: the point, shaft, crest, fletching, and nock. Each component serves a distinct ballistic role in aerodynamic flight, structural balance, and string connection.",
-            "right": "Req 2b: Arrow Types and Profiles: Archery disciplines employ distinct arrow types including target arrows, field arrows, and flu-flu arrows. Flu-flu arrows utilize oversized spiral fletchings to rapidly decelerate shots taken at airborne targets."
+            "left": "Material Types: Modern arrow shafts utilize wood, tubular aluminum, carbon fiber, or composite materials.",
+            "right": "Fletching Attachment: Fletching jigs position vanes at precise angles ensuring true in-flight stabilization."
           }
         ]
       },
       "worked_example": {
-        "title": "Archery Req 2 Exemplar Workbook Entry: Arrow Anatomy",
+        "title": "Archery Req 2 Worked Example: Arrow Construction and Maintenance",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Arrow Anatomy and Parts": "An arrow consists of five primary components: the point, shaft, crest, fletching, and nock. Each component serves a distinct ballistic role in aerodynamic flight, structural balance, and string connection.",
-          "Req 2b - Arrow Types and Profiles": "Archery disciplines employ distinct arrow types including target arrows, field arrows, and flu-flu arrows. Flu-flu arrows utilize oversized spiral fletchings to rapidly decelerate shots taken at airborne targets.",
-          "Req 2c - Principal Shaft Material": "Arrow shafts are manufactured from cedar wood, extruded aluminum, carbon composite, and hybrid aluminum-carbon. Each material offers specific weight, spine tolerance, and durability characteristics for distinct archers.",
-          "Req 2d - Arrow Fabrication and Repair": "Building an arrow requires squaring the shaft ends, adhering inserts, positioning vanes with an indexed jig, and seating nocks. Re-fletching damaged arrows requires scraping old adhesive cleanly from the shaft surface without gouging base fibers."
+          "Phase 1 - Shaft Inspection": "Flex the bare shaft while listening carefully for cracking carbon fibers.",
+          "Phase 2 - Component Cleaning": "Clean the shaft interior and exterior using isopropyl alcohol soaked cotton swabs.",
+          "Phase 3 - Nock Installation": "Seat the plastic nock firmly into the shaft end without adhesive.",
+          "Phase 4 - Vane Fletching": "Apply fletching glue along the vane base using an indexed jig."
         },
-        "sample_output": "Arrow Anatomy, Materials, and Construction: They slow the arrow's flight and make it drop quickly. Hunting arrows use longer fletchings, usually 4 to 5 inches long (p. 18).",
-        "counselor_tip": "For Archery Requirement 2 (Arrow Anatomy, Materials, and Construction), verify the Scout's own observations and specific pamphlet details (Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22))."
+        "sample_output": "Arrow design demands precise alignment of points, shafts, fletching, and nocks to match specific bow draw weights. Improperly spined or damaged arrow shafts can fracture under launch forces and cause catastrophic puncture wounds.",
+        "counselor_tip": "During the Archery Requirement 2 conference on Arrow Construction and Maintenance, verify that the Scout can explain shaft anatomy and demonstrate vane fletching: Apply fletching glue along the vane base using an indexed jig."
       },
       "quiz_item": {
         "scenario_prompt": "Why do hunting arrows typically feature 4 to 5 inch fletchings mounted with a strong spiral?",
@@ -1621,19 +1619,20 @@
         "Step 4 - Gear Examination: Check leather surfaces for worn stitching or stiff cracking before shooting."
       ],
       "gear_checklist": [
-        "Official Archery merit badge pamphlet and range scorecard for Req 3.",
         "Properly sized recurve or compound bow with matched arrows and quiver.",
         "Armguard, finger tab or release aid, and bowstring wax.",
         "Range safety checklist and target grouping log for Protective Gear and Archery Terminology."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Protective Archery Accessory",
+        "left_header": "Req 3a: Protective Archery Accessory Essentials",
         "right_header": "Req 3b: Archery Terminology and Metrics",
         "left_points": [
-          "(3a) Protective Archery Accessory Essentials: Shooting tabs and gloves protect delicate finger nerves from repetitive high-friction string abrasion. Arm guards prevent painful forearm bruising, while quivers keep sharp arrows organized safely on the shooting line."
+          "(3a) Protective Archery Accessory Essentials: Shooting tabs and gloves protect delicate finger nerves from repetitive high-friction string abrasion. Arm guards prevent painful forearm bruising, while quivers keep sharp arrows organized safely on the shooting line.",
+          "Finger Protection: Finger tabs shield nerve endings from painful friction caused by taut bowstrings."
         ],
         "right_points": [
-          "(3b) Archery Terminology and Metrics: Draw length measures the distance from the nock point to the bow pivot point at full extension plus one and three quarters inches. Draw weight represents the mechanical pull force, while barebow shooting relies entirely on instinctive aiming without sights."
+          "(3b) Archery Terminology and Metrics: Draw length measures the distance from the nock point to the bow pivot point at full extension plus one and three quarters inches. Draw weight represents the mechanical pull force, while barebow shooting relies entirely on instinctive aiming without sights.",
+          "Draw Weight: Peak draw weight represents the force required to pull bows to anchor."
         ],
         "rows": [
           {
@@ -1643,25 +1642,27 @@
           },
           {
             "attribute": "Arm Guards",
-            "left": "Req 3a: Protective Archery Accessory: Shooting tabs and gloves protect delicate finger nerves from repetitive high-friction string abrasion. Arm guards prevent painful forearm bruising, while quivers keep sharp arrows organized safely on the shooting line.",
-            "right": "Req 3b: Archery Terminology: Draw length measures the distance from the nock point to the bow pivot point at full extension plus one and three quarters inches. Draw weight represents the mechanical pull force, while barebow shooting relies entirely on instinctive aiming without sights."
+            "left": "Finger Protection: Finger tabs shield nerve endings from painful friction caused by taut bowstrings.",
+            "right": "Draw Weight: Peak draw weight represents the force required to pull bows to anchor."
           },
           {
             "attribute": "Draw Weight",
-            "left": "Finger Protection: Finger tabs shield nerve endings from painful friction caused by taut bowstrings.",
-            "right": "Arm Guards: Arm guards protect inner forearm soft tissue from severe bowstring slap."
+            "left": "Draw Weight: Peak draw weight represents the force required to pull bows to anchor.",
+            "right": "Barebow Setup: Barebow archery prohibits sights, clickers, draw checks, and stabilizing rod accessories."
           }
         ]
       },
       "worked_example": {
-        "title": "Archery Req 3 Exemplar Workbook Entry: Protective Gear",
+        "title": "Archery Req 3 Worked Example: Archery Equipment and Terminology",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Protective Archery Accessory": "Shooting tabs and gloves protect delicate finger nerves from repetitive high-friction string abrasion. Arm guards prevent painful forearm bruising, while quivers keep sharp arrows organized safely on the shooting line.",
-          "Req 3b - Archery Terminology": "Draw length measures the distance from the nock point to the bow pivot point at full extension plus one and three quarters inches. Draw weight represents the mechanical pull force, while barebow shooting relies entirely on instinctive aiming without sights."
+          "Phase 1 - Guard Placement": "Strap the arm guard securely around your bow arm inner forearm.",
+          "Phase 2 - Tab Fitting": "Slide the finger tab ring over your drawing hand middle finger.",
+          "Phase 3 - Quiver Attachment": "Clip the hip quiver to your belt with arrow nocks rearward.",
+          "Phase 4 - Gear Examination": "Check leather surfaces for worn stitching or stiff cracking before shooting."
         },
-        "sample_output": "Protective Gear and Archery Terminology: The hunting arm guard usually is wider and longer than guards used on field and target ranges (p. 25).",
-        "counselor_tip": "For Archery Requirement 3 (Protective Gear and Archery Terminology), verify the Scout's own observations and specific pamphlet details (Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26))."
+        "sample_output": "Archery accessories protect the shooter from repetitive strain while standardizing release mechanics and equipment handling. Understanding draw metrics ensures the archer selects bows that fit personal physical capabilities without risking joint injury.",
+        "counselor_tip": "During the Archery Requirement 3 conference on Archery Equipment and Terminology, verify that the Scout can explain finger protection and demonstrate gear examination: Check leather surfaces for worn stitching or stiff cracking before shooting."
       },
       "quiz_item": {
         "scenario_prompt": "Besides preventing blisters on your fingertips, why do skilled archers always wear a shooting glove or finger tab?",
@@ -2115,7 +2116,6 @@
         "Step 4 - Total Calculation: Sum all arrow values across each end to compute round totals."
       ],
       "gear_checklist": [
-        "Official Archery merit badge pamphlet and range scorecard for Req 4.",
         "Properly sized recurve or compound bow with matched arrows and quiver.",
         "Armguard, finger tab or release aid, and bowstring wax.",
         "Range safety checklist and target grouping log for Archery Disciplines and Target Scoring."
@@ -2144,22 +2144,22 @@
           },
           {
             "attribute": "Target Colors",
-            "left": "Req 4a: Ends and Rounds Distinction: An end is a specific cluster of arrows shot consecutively during a single turn on the shooting line. A round is the cumulative sum of multiple ends fired across prescribed target distances.",
-            "right": "Req 4b: Archery Disciplines: Target archery occurs on flat fields with marked distances shooting at multicolor concentric rings. Field archery navigates rugged outdoor terrain with varied elevations, while 3-D archery uses life-size foam animal replicas."
+            "left": "Target Colors: World Archery targets use yellow, red, blue, black, and white rings.",
+            "right": "Line Breaker: Arrows touching a dividing line earn the higher adjacent scoring ring."
           }
         ]
       },
       "worked_example": {
-        "title": "Archery Req 4 Exemplar Workbook Entry: Archery",
+        "title": "Archery Req 4 Worked Example: Archery Rounds and Scoring",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Ends and Rounds Distinction": "An end is a specific cluster of arrows shot consecutively during a single turn on the shooting line. A round is the cumulative sum of multiple ends fired across prescribed target distances.",
-          "Req 4b - Archery Disciplines": "Target archery occurs on flat fields with marked distances shooting at multicolor concentric rings. Field archery navigates rugged outdoor terrain with varied elevations, while 3-D archery uses life-size foam animal replicas.",
-          "Req 4c - World Archery Target Scoring": "The World Archery target face uses five concentric colored circles divided into ten scoring rings. Rings score from ten points in the center gold out to one point in the outer white ring.",
-          "Req 4d - Field and Indoor Target": "NFAA field targets feature black faces with a white center bullseye scoring five points for the center spot, four for the inner ring, and three for the outer ring. NFAA indoor targets feature a blue outer field with a white center scoring five points."
+          "Phase 1 - Score Recording": "Call arrow values aloud starting from highest points to lowest.",
+          "Phase 2 - Value Writing": "Record each score neatly in the individual score sheet columns.",
+          "Phase 3 - Line Confirmation": "Inspect touching line boundaries closely before extracting arrows from target faces.",
+          "Phase 4 - Total Calculation": "Sum all arrow values across each end to compute round totals."
         },
-        "sample_output": "Archery Disciplines and Target Scoring: Different target faces and shooting distances are used for 14 targets (p. 52).",
-        "counselor_tip": "For Archery Requirement 4 (Archery Disciplines and Target Scoring), verify the Scout's own observations and specific pamphlet details (Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58))."
+        "sample_output": "Competitive archery evaluates shooting accuracy through structured ends and rounds recorded on standardized multi-ring targets. Different competitive formats adapt distance, target size, and scoring scales to test distinct field skills.",
+        "counselor_tip": "During the Archery Requirement 4 conference on Archery Rounds and Scoring, verify that the Scout can explain end definition and demonstrate total calculation: Sum all arrow values across each end to compute round totals."
       },
       "quiz_item": {
         "scenario_prompt": "How are points assigned from the center outward on a standard five-color World Archery Federation target face?",
@@ -4080,7 +4080,6 @@
         "Step 4 - Clean Release: Relax your draw fingers smoothly while keeping your bow arm motionless."
       ],
       "gear_checklist": [
-        "Official Archery merit badge pamphlet and range scorecard for Req 5.",
         "Properly sized recurve or compound bow with matched arrows and quiver.",
         "Armguard, finger tab or release aid, and bowstring wax.",
         "Range safety checklist and target grouping log for Bow Maintenance and Shooting Qualification."
@@ -4089,10 +4088,12 @@
         "left_header": "Req 5a: Recurve and Longbow Operation",
         "right_header": "Req 5b: Compound Bow Architecture",
         "left_points": [
-          "(5a) Recurve and Longbow Operation: Recurve bows feature forward-curving limb tips that yield increased arrow speed, while longbows have straight limbs forming an arc when strung. Archers must name the riser, limbs, tips, arrow shelf, and bowstring, and use a bow stringer for safe assembly."
+          "(5a) Recurve and Longbow Operation: Recurve bows feature forward-curving limb tips that yield increased arrow speed, while longbows have straight limbs forming an arc when strung. Archers must name the riser, limbs, tips, arrow shelf, and bowstring, and use a bow stringer for safe assembly.",
+          "Limb Stress: Drawing a bowstring stores potential kinetic energy within laminated limb cores."
         ],
         "right_points": [
-          "(5b) Compound Bow Architecture: Compound bows utilize eccentric cams, cables, and split limbs to produce significant mechanical let-off at full draw. Proper care requires checking cable slides, lubricating cam axles, and storing bows in protective padded cases."
+          "(5b) Compound Bow Architecture: Compound bows utilize eccentric cams, cables, and split limbs to produce significant mechanical let-off at full draw. Proper care requires checking cable slides, lubricating cam axles, and storing bows in protective padded cases.",
+          "Anchor Point: Consistent anchor points beneath the jawbone produce reliable shot-to-shot trajectory consistency."
         ],
         "rows": [
           {
@@ -4102,25 +4103,27 @@
           },
           {
             "attribute": "String Maintenance",
-            "left": "Req 5a: Recurve and Longbow: Recurve bows feature forward-curving limb tips that yield increased arrow speed, while longbows have straight limbs forming an arc when strung. Archers must name the riser, limbs, tips, arrow shelf, and bowstring, and use a bow stringer for safe assembly.",
-            "right": "Req 5b: Compound Bow Architecture: Compound bows utilize eccentric cams, cables, and split limbs to produce significant mechanical let-off at full draw. Proper care requires checking cable slides, lubricating cam axles, and storing bows in protective padded cases."
+            "left": "Limb Stress: Drawing a bowstring stores potential kinetic energy within laminated limb cores.",
+            "right": "Anchor Point: Consistent anchor points beneath the jawbone produce reliable shot-to-shot trajectory consistency."
           },
           {
             "attribute": "Anchor Point",
-            "left": "Limb Stress: Drawing a bowstring stores potential kinetic energy within laminated limb cores.",
-            "right": "String Maintenance: Regular application of bowstring wax prevents fiber drying, fraying, and premature snapping."
+            "left": "Anchor Point: Consistent anchor points beneath the jawbone produce reliable shot-to-shot trajectory consistency.",
+            "right": "Follow Through: Archers must maintain posture until the arrow strikes downrange target materials."
           }
         ]
       },
       "worked_example": {
-        "title": "Archery Req 5 Exemplar Workbook Entry: Bow Maintenance",
+        "title": "Archery Req 5 Worked Example: Bow Mechanics and Shooting Performance",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Recurve and Longbow Operation": "Recurve bows feature forward-curving limb tips that yield increased arrow speed, while longbows have straight limbs forming an arc when strung. Archers must name the riser, limbs, tips, arrow shelf, and bowstring, and use a bow stringer for safe assembly.",
-          "Req 5b - Compound Bow Architecture": "Compound bows utilize eccentric cams, cables, and split limbs to produce significant mechanical let-off at full draw. Proper care requires checking cable slides, lubricating cam axles, and storing bows in protective padded cases."
+          "Phase 1 - Stance Setup": "Place feet shoulder width apart perpendicular to the target center.",
+          "Phase 2 - String Nocking": "Snap the arrow nock onto the string below the brass bead.",
+          "Phase 3 - Anchor Draw": "Pull smoothly to your corner of mouth anchor point under control.",
+          "Phase 4 - Clean Release": "Relax your draw fingers smoothly while keeping your bow arm motionless."
         },
-        "sample_output": "Bow Maintenance and Shooting Qualification: Inspect the string carefully before and after each day'sshooting (p. 29).",
-        "counselor_tip": "For Archery Requirement 5 (Bow Maintenance and Shooting Qualification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33))."
+        "sample_output": "Shooting proficiency requires mastering bow nomenclature, equipment maintenance, and the fundamental steps of shooting under certified range supervision. Proper form integrates stance, nocking, drawing, anchoring, aiming, releasing, and following through consistently on every single arrow.",
+        "counselor_tip": "During the Archery Requirement 5 conference on Bow Mechanics and Shooting Performance, verify that the Scout can explain limb stress and demonstrate clean release: Relax your draw fingers smoothly while keeping your bow arm motionless."
       },
       "quiz_item": {
         "scenario_prompt": "What must you do if you discover that one or more main strands of your bowstring are broken during your pre-shooting inspection?",
