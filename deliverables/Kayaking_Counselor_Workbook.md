@@ -12,14 +12,14 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Kayaking Safety And Hazard Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Kayaking Safety and Hazard Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Swimmer Classification Test Requirement | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 11, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Personal Flotation And Safety Equipment | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Kayak Characteristics And Care Fundamentals | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Personal Flotation and Safety Equipment | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Kayak Characteristics and Care Fundamentals | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Double Bladed Paddle Mechanics | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Capsizing Recoveries And Assisted Rescues | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Capsizing Recoveries and Assisted Rescues | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Fundamental Kayak Stroke Mechanics | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Advanced Solo Maneuvering And Boat Handling | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Advanced Solo Maneuvering and Boat Handling | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -35,7 +35,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Kayaking Safety And Hazard Management
+### Req 1: Kayaking Safety and Hazard Management
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock and hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains. (c) Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to kayaking.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Never paddle downriver toward strainers, fallen logs, or low head dams where trapped hydraulic currents can pin hulls.
@@ -122,7 +122,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Personal Flotation And Safety Equipment
+### Req 3: Personal Flotation and Safety Equipment
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking. (b) Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Fasten all buckles and cinch adjustment straps snugly before setting foot into the kayak launch area.
@@ -135,7 +135,7 @@
 - Signal Attachment: Secure an approved pealess marine whistle directly to life jacket exterior webbing.
 - Flotation Inspection: Check foam panels for compression damage before boarding any paddle craft.
 
-#### Req 3a: Life Jacket Selection And Fitting
+#### Req 3a: Life Jacket Selection and Fitting
 **Official Requirement 3a:** Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Characteristics of Life Jackets)
 - **Common Myth:** Bulky offshore Type I life jackets are ideal for maneuvering nimble recreational kayaks.
@@ -170,7 +170,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Kayak Characteristics And Care Fundamentals
+### Req 4: Kayak Characteristics and Care Fundamentals
 **Official Requirement 4 (Parent Overview):** Do the following: (a) Name and point out the major parts of a kayak. (b) Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in the design of each type. (c) Explain the care, maintenance, and storage of a kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Never drag composite or plastic kayaks across abrasive gravel or concrete boat ramps during transport.
@@ -183,9 +183,9 @@
 - Bulkhead Walls: Watertight internal partitions create buoyant air chambers inside bow and stern.
 - Polyethylene Storage: Store plastic kayaks away from direct sunlight to prevent ultraviolet plastic warping.
 
-#### Req 4a: Kayak Anatomy And Hull Components
+#### Req 4a: Kayak Anatomy and Hull Components
 **Official Requirement 4a:** Name and point out the major parts of a kayak.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Out The Major)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Out the Major)
 - **Common Myth:** The cockpit refers to the outer bottom surface of the kayak hull.
 - **Pamphlet Fact:** The bow is the front end and the stern is the rear end.
 
@@ -197,7 +197,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Kayak Design And Hull Dynamics
+#### Req 4b: Kayak Design and Hull Dynamics
 **Official Requirement 4b:** Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in the design of each type.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix (Recreational Whitewater and Sea or)
 - **Common Myth:** Hull width has no bearing on how stable a kayak feels on calm water.
@@ -212,7 +212,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Kayak Storage And Hull Maintenance
+#### Req 4c: Kayak Storage and Hull Maintenance
 **Official Requirement 4c:** Explain the care, maintenance, and storage of a kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Care Maintenance and Storage)
 - **Common Myth:** Leaving kayaks strapped tightly on roof racks all summer protects hull alignment.
@@ -267,7 +267,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Paddle Care And Maintenance Guidelines
+#### Req 5c: Paddle Care and Maintenance Guidelines
 **Official Requirement 5c:** The care and maintenance of a paddle.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Care and Maintenance)
 - **Common Myth:** Paddle shafts require petroleum lubricants inside the ferrule joint to slide together.
@@ -281,7 +281,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Capsizing Recoveries And Assisted Rescues
+### Req 6: Capsizing Recoveries and Assisted Rescues
 **Official Requirement 6 (Parent Overview):** Using a properly equipped kayak with an open cockpit, a sit-on-top, or an inflatable kayak, do the following: (a) Safely capsize and perform a wet exit. (b) Reenter the kayak with assistance from a buddy boat. (c) Demonstrate a kayak-over-kayak rescue. (d) Demonstrate the HELP position. (e) Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Maintain continuous physical contact with both paddle and kayak hull during every wet exit.
@@ -310,7 +310,7 @@
 
 #### Req 6b: Assisted Deep Water Reentry
 **Official Requirement 6b:** Reenter the kayak with assistance from a buddy boat.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Reenter The Kayak With Assistance)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Reenter the Kayak with Assistance)
 - **Common Myth:** Swimmers can leap vertically into a cockpit without capsizing the assisting kayak.
 - **Pamphlet Fact:** Heel hook reentries allow low center of gravity entry into unstable empty kayaks.
 
@@ -350,9 +350,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6e: Shoreline Towing And Dewatering
+#### Req 6e: Shoreline Towing and Dewatering
 **Official Requirement 6e:** Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Capsize The Kayak)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Capsize the Kayak)
 - **Common Myth:** One swimmer can effortlessly carry a waterlogged thirty gallon kayak up sand dunes.
 - **Pamphlet Fact:** Walking a swamped kayak into shoreline surf prevents waves from pounding boat hulls.
 
@@ -481,7 +481,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Advanced Solo Maneuvering And Boat Handling
+### Req 8: Advanced Solo Maneuvering and Boat Handling
 **Official Requirement 8 (Parent Overview):** As a solo paddler, use a properly equipped kayak to demonstrate the following: (a) Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak. (b) Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths. (c) Move abeam to the right 10 feet and to the left 10 feet. (d) Stop the boat in one boat length. (e) While maintaining forward motion, turn the kayak 90 degrees to the right and left. (f) Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes. (g) Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Scan three boat lengths ahead continuously to avoid shallow sandbars, buoys, and other craft.
@@ -494,7 +494,7 @@
 - Pivot Turns: Alternate forward sweep with reverse sweep to spin boat within its length.
 - Slalom Precision: Carve smooth figure eight loops around buoy markers without brushing hull sides.
 
-#### Req 8a: Straight Course Tracking And Trim
+#### Req 8a: Straight Course Tracking and Trim
 **Official Requirement 8a:** Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Straight Line for to Boat)
 - **Common Myth:** Looking down at the kayak bow helps paddlers maintain a straight heading.
@@ -516,7 +516,7 @@
 
 #### Req 8b: Stationary Pivot Turn Maneuvers
 **Official Requirement 8b:** Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Pivot From A Stationary Position)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Pivot from A Stationary Position)
 - **Common Myth:** A kayak requires forward momentum in order to pivot its hull one hundred eighty degrees.
 - **Pamphlet Fact:** Combining opposite sweeps spins the kayak in place without drifting forward or backward.
 
@@ -528,7 +528,7 @@
 
 #### Req 8c: Abeam Lateral Movement Execution
 **Official Requirement 8c:** Move abeam to the right 10 feet and to the left 10 feet.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Move Abeam to The Right)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Move Abeam to the Right)
 - **Common Myth:** Paddlers can move directly sideways by repeatedly pushing water away from the hull.
 - **Pamphlet Fact:** Slicing the blade through water between pulls prevents capsizing toward the active paddle.
 
@@ -540,7 +540,7 @@
 
 #### Req 8d: Emergency Stop Within Boat Length
 **Official Requirement 8d:** Stop the boat in one boat length.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Stop The Boat in One)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Stop the Boat in One)
 - **Common Myth:** Trailing the paddle flat in water provides enough drag to stop immediate momentum.
 - **Pamphlet Fact:** Short, powerful reverse strokes counter forward inertia without flipping or turning the kayak.
 
@@ -550,9 +550,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8e: Dynamic Turning In Motion
+#### Req 8e: Dynamic Turning in Motion
 **Official Requirement 8e:** While maintaining forward motion, turn the kayak 90 degrees to the right and left.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn The)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn the)
 - **Common Myth:** Kayaks must come to a complete stop before turning ninety degrees into channels.
 - **Pamphlet Fact:** Edging the hull outward helps carve a clean turning arc through the water.
 
@@ -564,7 +564,7 @@
 
 #### Req 8f: Reverse Linear Hull Maneuvering
 **Official Requirement 8f:** Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes.
-**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix (Move The Kayak Backward)
+**Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix (Move the Kayak Backward)
 - **Common Myth:** Paddlers can reverse safely without ever looking behind them toward the stern.
 - **Pamphlet Fact:** Torso rotation is even more critical during reverse paddling to monitor your path.
 

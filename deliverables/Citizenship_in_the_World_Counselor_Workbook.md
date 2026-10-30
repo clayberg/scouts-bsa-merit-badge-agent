@@ -33,7 +33,7 @@
 
 ### Req 1: Global Citizenship and World Community
 **Official Requirement 1:** Explain what citizenship in the world means to you and what you think it takes to be a good world citizen.
-**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 13, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Citizenship in The World Means)
+**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 13, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Citizenship in the World Means)
 > **Guide to Safe Scouting Warning:** Maintain cyber privacy by never sharing personal contact details when connecting with international correspondents online.
 - **Common Myth:** World citizenship requires allegiance to a single world government that replaces individual nation states.
 - **Pamphlet Fact:** World citizenship describes a personal ethical awareness of global interconnectedness while honoring national loyalty.
@@ -48,13 +48,13 @@
 - Universal Human Rights: World citizens respect fundamental individual liberties across diverse national and cultural borders.
 - Global Interdependence: Nations depend on international trade networks to satisfy domestic consumer and industrial needs.
 - Civic Engagement: Responsible world citizens participate actively in community projects addressing global environmental challenges.
-- Cultural Empathy: Thoughtful dialogue dismantles national prejudices and fosters mutual trust among disparate populations.
+- Cultural Empathy: Thoughtful dialogue dismantles national prejudices and builds mutual trust among disparate populations.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
 ### Req 2: United States Citizenship Obligations
 **Official Requirement 2:** Explain how one becomes a citizen in the United States, and explain the rights, duties, and obligations of U. S. citizenship. Discuss the similarities and differences between the rights, duties, and obligations of U. S. citizens and the citizens of two other countries.
-**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 12, p. 13)* • **Organizer (2-Column Comparison Table):** Req 2 Technical Comparison Matrix (Becomes A Citizen in The)
+**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 12, p. 13)* • **Organizer (2-Column Comparison Table):** Req 2 Technical Comparison Matrix (Becomes A Citizen in the)
 > **Guide to Safe Scouting Warning:** Protect official identification documents such as birth certificates and naturalization papers in water-resistant fireproof storage.
 - **Common Myth:** Every country in the world grants automatic birthright citizenship to infants born within its physical borders.
 - **Pamphlet Fact:** Most nations follow jus sanguinis citizenship principles based strictly on parental heritage rather than location.
@@ -89,7 +89,7 @@
 
 #### Req 3a: Current Events and National Interest
 **Official Requirement 3a:** Pick a current world event. In relation to this current event, discuss with your counselor how a country's national interest and its relationship with other countries might affect areas such as its security, its economy, its values, and the health of its citizens.
-**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 32, p. 42)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Current World Event In Relation)
+**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 32, p. 42)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Current World Event in Relation)
 - **Common Myth:** Countries enter foreign alliances out of pure generosity without assessing their own strategic interests.
 - **Pamphlet Fact:** Sovereign foreign policy aims primarily to protect national security, trade wealth, and political independence.
 
@@ -205,7 +205,7 @@
 
 #### Req 5a: Constitutional and Nonconstitutional Governance
 **Official Requirement 5a:** Discuss the differences between constitutional and nonconstitutional governments.
-**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Discuss The Differences Between Constitutional)
+**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Discuss the Differences Between Constitutional)
 - **Common Myth:** Nonconstitutional rulers must always follow existing statutory precedents established by previous national leaders.
 - **Pamphlet Fact:** Nonconstitutional leaders hold unrestrained executive power to alter, suspend, or abolish national statutes.
 
@@ -324,7 +324,7 @@
 
 #### Req 7a: State Department Digital Resources
 **Official Requirement 7a:** Visit the website of the U. S. State Department. Learn more about an issue you find interesting that is discussed on this website.
-**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Website of The U S)
+**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Website of the U S)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the World Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** State Department travel advisories provide static tourist advice that rarely updates over time.
 - **Pamphlet Fact:** Travel advisories update continuously based on real-time security assessments and health conditions.
@@ -357,7 +357,7 @@
 
 #### Req 7c: Intercultural Youth Exchange
 **Official Requirement 7c:** Visit with a student or Scout from another country and discuss the typical values, holidays, ethnic foods, and traditions practiced or enjoyed there.
-**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Student or Scout From Another)
+**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Student or Scout from Another)
 - **Common Myth:** Youth from foreign nations share few interests or daily concerns with American teenagers.
 - **Pamphlet Fact:** Teenagers worldwide share common goals regarding education, friendships, music, and family life.
 
@@ -371,7 +371,7 @@
 
 #### Req 7d: World Scouting Movement Events
 **Official Requirement 7d:** Attend or participate in a World Organization of the Scouting Movement (WOSM) event such as the World Scout Jamboree, World Scout Moot, World Scout Congress, Jamboree Over The Air, or Jamboree Over The Internet. Attendance at a national or regional Jamboree sponsored by a WOSM-National Scout Organization is also allowed.
-**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (World Organization of The Scouting)
+**Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (World Organization of the Scouting)
 - **Common Myth:** Scouting America is an isolated organization with no formal ties to scouts in other nations.
 - **Pamphlet Fact:** Scouting America is a founding member of the World Organization of the Scout Movement.
 

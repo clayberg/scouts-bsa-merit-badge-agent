@@ -35,7 +35,7 @@
 
 ### Req 1: Foundations of Civic Community Engagement
 **Official Requirement 1:** Discuss with your counselor what citizenship in the community means and what it takes to be a good citizen in your community. Discuss the rights, duties, and obligations of citizenship, and explain how you can demonstrate good citizenship in your community, Scouting unit, place of worship, or school.
-**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 10, p. 11)* • **Organizer (Skill Demonstration Checklist):** Req 1 Hands-On Skill Station & EDGE Verification Checklist (Discuss With Your Counselor What)
+**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 10, p. 11)* • **Organizer (Skill Demonstration Checklist):** Req 1 Hands-On Skill Station & EDGE Verification Checklist (Discuss with Your Counselor What)
 > **Guide to Safe Scouting Warning:** All scout discussions with adult counselors must follow Scouting America two-deep leadership policies in public or visible settings.
 - **Common Myth:** A person fulfills community citizenship simply by residing within city boundaries and avoiding criminal behavior.
 - **Pamphlet Fact:** True citizenship demands active civic participation, including voting, serving public needs, and defending community members' civil rights.
@@ -185,7 +185,7 @@
 
 #### Req 3b: Public Debate Perspective Analysis
 **Official Requirement 3b:** Choose one of the issues discussed at the meeting where a difference of opinions was expressed, and explain to your counselor why you agree with one opinion more than you do another one.
-**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)* • **Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix (Issues Discussed At The Meeting)
+**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)* • **Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix (Issues Discussed at the Meeting)
 - **Common Myth:** Civic debate analysis requires agreeing with the final vote outcome chosen by the elected council.
 - **Pamphlet Fact:** Scouts may defend a minority dissenting perspective if they provide logical arguments grounded in public welfare.
 
@@ -233,7 +233,7 @@
 
 #### Req 4b: Municipal Government Official Interview
 **Official Requirement 4b:** With your counselor's and a parent or guardian's approval, interview one person from the branch of government you identified in requirement 4(a). Ask what is being done about this issue and how young people can help.
-**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Person From The Branch of)
+**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Person from the Branch of)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the Community Req 4b with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Interviewing a government official means advocating aggressively for a personal political outcome.
 - **Pamphlet Fact:** The civic interview is an information-gathering dialogue designed to understand administrative processes and operational constraints.
@@ -259,7 +259,7 @@
 
 ### Req 5: Cinematic Civic Leadership Analysis
 **Official Requirement 5:** With the approval of your counselor and a parent or guardian, watch a movie that shows how the actions of one individual or group of individuals can have a positive effect on a community. Discuss with your counselor what you learned from the movie about what it means to be a valuable and concerned member of the community.
-**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 29, p. 30)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Movie That Shows How The)
+**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 29, p. 30)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Movie That Shows How the)
 > **Guide to Safe Scouting Warning:** All film selections must receive advance parental and counselor screening approval to verify age-appropriate content.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the Community Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Effective community improvement depicted in movies results from solitary heroic actions without broader public cooperation.
@@ -282,7 +282,7 @@
 
 ### Req 6: Taxpayer Funded Community Services
 **Official Requirement 6:** List some of the services (such as the library, recreation center, public transportation, and public safety) your community provides that are funded by taxpayers. Tell your counselor why these services are important to your community.
-**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 20, p. 23)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Services Such As The Library)
+**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 20, p. 23)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Services Such As the Library)
 > **Guide to Safe Scouting Warning:** When touring municipal service sites like transit hubs or public works depots, obey all posted hazard signs.
 - **Common Myth:** Public municipal services generate sufficient internal user fees to operate without subsidization from taxpayer revenues.
 - **Pamphlet Fact:** Facilities like parks, public transit, and emergency services rely primarily on general tax revenue allocations to remain accessible.
@@ -346,7 +346,7 @@
 
 #### Req 7c: Volunteer Service Hours Completion
 **Official Requirement 7c:** With your counselor's and your parent or guardian's approval, contact the organization you chose for requirement 7(b), and find out what young people can do to help. While working on this merit badge, volunteer at least eight hours of your time for the organization. After your volunteer experience is over, discuss what you have learned with your counselor.
-**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Contact The Organization You Chose)
+**Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Contact the Organization You Chose)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the Community Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Scouts may count service hours completed for school graduation or court mandates toward this badge.
 - **Pamphlet Fact:** The service hours must be dedicated explicitly to fulfilling this requirement with advance counselor and parental approval.

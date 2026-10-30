@@ -91,7 +91,7 @@
 
 #### Req 1c: Searcher Field Pack Equipment
 **Official Requirement 1c:** Discuss how the safety gear carried by SAR team members in their field packs addresses SAR hazards.
-**Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Discuss How The Safety Gear)
+**Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Discuss How the Safety Gear)
 - **Common Myth:** Searcher pack contents mirror standard backpacking gear without requiring specialized technical search rescue tools.
 - **Pamphlet Fact:** SAR field packs contain specialized gear including personal protective equipment, signaling devices, and tracking tools.
 
@@ -118,7 +118,7 @@
 
 #### Req 2a: Trip Planning and Buddy Accountability
 **Official Requirement 2a:** Explain how a trip plan and the buddy system help Scouts with staying found and getting found.
-**Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Trip Plan and The Buddy)
+**Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Trip Plan and the Buddy)
 - **Common Myth:** Notifying a family member verbally about a general park destination provides sufficient search direction.
 - **Pamphlet Fact:** A documented trip plan establishes search containment boundaries and narrows initial route-and-ridge search tasks.
 
@@ -202,7 +202,7 @@
 
 #### Req 3a: Five Ds of Map Reading
 **Official Requirement 3a:** Point out and explain the 5 D's (Date, Description, Details, Direction or Declination, Distance) of the map.
-**Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Out and Explain The D's)
+**Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Out and Explain the D's)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Search and Rescue Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** The map date only matters for historical research and does not impact wilderness navigation.
 - **Pamphlet Fact:** The five Ds verify map freshness, landscape features, legend symbols, magnetic variance, and travel measurements.
@@ -302,7 +302,7 @@
 - Unified Command Structure: Interagency leaders coordinate multi-jurisdictional rescue operations under common incident management objectives.
 - Standard clear text terminology eliminates radio confusion between fire, police, and volunteers.
 - Manageable Span Control: Supervisors oversee three to seven responders to maintain operational efficiency and safety.
-- Agency Training Exercises: Regular multi-agency mock disaster drills build seamless operational cooperation before actual incidents.
+- Agency Training Exercises: Regular multi-agency mock disaster drills build smooth operational cooperation before actual incidents.
 
 #### Req 4a: Incident Command and Patrol Structure
 **Official Requirement 4a:** Explain how a local ICS is organized and how it compares with Scouting's patrol method.

@@ -13,11 +13,11 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Declaration Preamble Analysis | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 14, p. 15) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Historical Contributors And Community | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Contemporary Events And Heritage | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Historic Preservation And Places | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Cultural Media And Heritage | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Heritage Careers And Education | Discuss | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 33, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Historical Contributors and Community | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Contemporary Events and Heritage | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Historic Preservation and Places | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Cultural Media and Heritage | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Heritage Careers and Education | Discuss | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America American Heritage Merit Badge Pamphlet (p. 33, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -53,7 +53,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Historical Contributors And Community
+### Req 2: Historical Contributors and Community
 **Official Requirement 2 (Parent Overview):** Do TWO of the following: (a) Select two individuals from American history, one a political leader (a president, senator, etc.) and the other a private citizen (a writer, religious leader, etc.). Find out about each person's accomplishments and compare the contributions each has made to America's heritage. (b) With your counselor's approval, choose an organization that has promoted some type of positive change in American society. Find out why the organization believed this change was necessary and how it helped to accomplish the change. Discuss how this organization is related to events or situations from America's past. (c) With your counselor's approval, interview two veterans of the U. S. military. Find out what their experiences were like. Ask the veterans what they believe they accomplished. (d) With your counselor's approval, interview three people in your community of different ages and occupations. Ask these people what America means to them, what they think is special about this country, and what American traditions they feel are important to preserve.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Obtain counselor and parental permission before contacting interview subjects, and conduct all youth interviews with two registered adults present.
@@ -67,9 +67,9 @@
 - Voluntary Association Influence: Civic organizations mobilize citizens to reform workplace safety, public education, and civil rights.
 - Community Memory Value: Senior residents preserve eyewitness accounts of technological shifts, neighborhood changes, and civic traditions.
 
-#### Req 2a: Historical Leaders And Citizens
+#### Req 2a: Historical Leaders and Citizens
 **Official Requirement 2a:** Select two individuals from American history, one a political leader (a president, senator, etc.) and the other a private citizen (a writer, religious leader, etc.). Find out about each person's accomplishments and compare the contributions each has made to America's heritage.
-**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Organizer (2-Column Comparison Table):** Req 2a Technical Comparison Matrix (Individuals From American History)
+**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Organizer (2-Column Comparison Table):** Req 2a Technical Comparison Matrix (Individuals from American History)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your American Heritage Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Only presidents and legislators determined the course of American legal and social developments.
 - **Pamphlet Fact:** Private citizens frequently influenced national policy through journalism, grassroots organizing, literature, and social reform.
@@ -102,7 +102,7 @@
 
 #### Req 2c: Military Veteran Oral Histories
 **Official Requirement 2c:** With your counselor's approval, interview two veterans of the U. S. military. Find out what their experiences were like. Ask the veterans what they believe they accomplished.
-**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Veterans of The U S)
+**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Veterans of the U S)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your American Heritage Req 2c preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** All military veterans share identical combat perspectives regardless of their specific era or branch.
 - **Pamphlet Fact:** Veterans provide specific tactical, logistical, and emotional insights that rarely appear in textbook summaries.
@@ -135,7 +135,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Contemporary Events And Heritage
+### Req 3: Contemporary Events and Heritage
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Select a topic related to the United States that is currently in the news. Describe to your counselor what is happening. Explain how today's events are related to or affected by the events and values of America's past. (b) For the following, describe its adoption, tell about any changes since its adoption, and explain how each one continues to influence Americans today: the flag, the Pledge of Allegiance, the Great Seal of the United States, the motto, and the national anthem. (c) Research your family's history. Find out how various events and situations in American history affected your family. If your family immigrated to America, tell the reasons why. Share what you find with your counselor.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Protect family genealogical records, birth certificates, and sensitive identifying documents in secure folders without publishing private data online.
@@ -148,9 +148,9 @@
 - Genealogical Context Link: Ancestral migration records illuminate how wartime mobilizations and economic panics displaced family households.
 - Primary Source Preservation: Family documents like ship manifests and naturalization certificates provide irreplaceable historical evidence.
 
-#### Req 3a: Current Events In History
+#### Req 3a: Current Events in History
 **Official Requirement 3a:** Select a topic related to the United States that is currently in the news. Describe to your counselor what is happening. Explain how today's events are related to or affected by the events and values of America's past.
-**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Topic Related to The United)
+**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Topic Related to the United)
 - **Common Myth:** Current news stories occur in complete isolation from previous American historical events.
 - **Pamphlet Fact:** Modern legal and economic issues develop from established constitutional precedents and historical policy choices.
 
@@ -169,7 +169,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: National Symbols And Emblems
+#### Req 3b: National Symbols and Emblems
 **Official Requirement 3b:** For the following, describe its adoption, tell about any changes since its adoption, and explain how each one continues to influence Americans today: the flag, the Pledge of Allegiance, the Great Seal of the United States, the motto, and the national anthem.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Adoption Tell About Any Changes)
 - **Common Myth:** The American flag and the Pledge of Allegiance remained unchanged since their initial adoption.
@@ -200,7 +200,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Historic Preservation And Places
+### Req 4: Historic Preservation and Places
 **Official Requirement 4 (Parent Overview):** Do TWO of the following: (a) Explain the National Register of Historic Places and how a property becomes eligible for listing in the National Register of Historic Places. Make a map of your local area, marking the points of historical interest. Tell about any National Register properties in your area. Share the map with your counselor, and describe the historical points you have indicated. (b) Research an event of historical importance that took place in or near your area. If possible, visit the place. Tell your counselor about the event and how it affected local history. Describe how the area looked then and what it now looks like. (c) Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part. Find out how the area has changed over the past 50 years and try to explain why. (d) Take an active part in a program about an event or person in American history. Report to your counselor about the program, the part you took, and the subject. (e) Visit a historic trail or walk in your area. After your visit, share with your counselor what you have learned. Discuss the importance of this location and explain why you think it might qualify for National Register listing.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Wear sturdy closed-toe shoes and stay on designated walking paths while surveying historic structures, ruins, or trail surfaces.
@@ -210,7 +210,7 @@
 **Official Pamphlet Summary:**
 - National Register Criteria: Designated landmarks must possess integrity of location, design, setting, materials, workmanship, and feeling.
 - Historic resource maps identify spatial connections between municipal settlements, transport lines, and industrial sites.
-- Historic Trail Preservation: Preserved transit corridors showcase physical terrain challenges encountered by pioneer migrants and expeditionary forces.
+- Historic Trail Preservation: Preserved transit corridors display physical terrain challenges encountered by pioneer migrants and expeditionary forces.
 - Living History Standards: Accurate public historical interpretation requires rigorous adherence to period material culture and documented facts.
 
 #### Req 4a: National Historic Register Mapping
@@ -255,7 +255,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Neighborhood Origins And Evolution
+#### Req 4c: Neighborhood Origins and Evolution
 **Official Requirement 4c:** Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part. Find out how the area has changed over the past 50 years and try to explain.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Town Neighborhood Started Ethnic)
 - **Common Myth:** Local town boundaries and ethnic demographic distributions remained unchanged throughout twentieth-century industrial expansion.
@@ -301,7 +301,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Cultural Media And Heritage
+### Req 5: Cultural Media and Heritage
 **Official Requirement 5 (Parent Overview):** Do ONE of the following: (a) Watch two motion pictures (with the approval and permission of your counselor and parent or guardian) that are set in some period of American history. Describe to your counselor how accurate each film is with regard to the historical events depicted and also with regard to the way the characters are portrayed. (b) Read a biography (with your counselor's approval) of someone who has made a contribution to America's heritage. Tell some things you admire about this individual and some things you do not admire. Explain why you think this person has made a positive or a negative contribution to America's heritage. (c) Listen to recordings of popular songs from various periods of American history. Share five of these songs with your counselor, and describe how each song reflects the way people felt about the period in which it was popular. If a recording is not available, have a copy of the lyrics available.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Protect hearing by keeping audio headphones at moderate volume levels while listening to archival sound recordings.
@@ -348,9 +348,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Historical Music And Culture
+#### Req 5c: Historical Music and Culture
 **Official Requirement 5c:** Listen to recordings of popular songs from various periods of American history. Share five of these songs with your counselor, and describe how each song reflects the way people felt about the period in which it was popular. If a recording is not available, have a copy of the lyrics available.
-**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Recordings of Popular Songs From)
+**Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Recordings of Popular Songs from)
 - **Common Myth:** Historical songs were written purely for entertainment and carried no serious political or social commentary.
 - **Pamphlet Fact:** Work songs and protest ballads captured working-class perspectives rarely preserved in official political speeches of the era.
 
@@ -364,7 +364,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Heritage Careers And Education
+### Req 6: Heritage Careers and Education
 **Official Requirement 6:** Discuss with your counselor the career opportunities in American heritage. Pick one that interests you and explain how to prepare for this career. Discuss what education and training are required for this career.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 33, p. 60)* • **Organizer (Career & Profession Exploration Card):** Req 6 Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Wear nitrile gloves and safety glasses when handling fragile historical artifacts or chemical conservator cleaning solvents in laboratory workspaces.

@@ -155,7 +155,7 @@
 
 #### Req 2f: Visible Mending and Upcycling
 **Official Requirement 2f:** Upcycle by practicing visible mending to patch a piece of clothing or material.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix (Upcycle By Practicing Visible Mending)
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix (Upcycle by Practicing Visible Mending)
 - **Common Myth:** Visible mending hides tears completely by blending camouflage thread colors into damaged cloth.
 - **Pamphlet Fact:** Visible mending intentionally displays contrasting stitches and patches to celebrate textile longevity and repair.
 
@@ -226,7 +226,7 @@
 
 #### Req 3A(2): Camp Utensil Holder Pocket Assembly
 **Official Requirement 3A(2):** Thread the machine and the bobbin.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3A(2) Structured Technical Study & Explanation Matrix (Thread The Machine and The)
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3A(2) Structured Technical Study & Explanation Matrix (Thread the Machine and the)
 - **Common Myth:** Dividing pockets on a utensil roll requires only single vertical seams without top reinforcement.
 - **Pamphlet Fact:** Backstitching across the upper edge of every pocket divider keeps heavy metal utensils from tearing the seam apart during camp use.
 
@@ -238,7 +238,7 @@
 
 #### Req 3A(3): Heavy Duty Equipment Storage Bag
 **Official Requirement 3A(3):** Explain how to properly clean and oil the machine and change the needle.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3A(3) Structured Technical Study & Explanation Matrix (Oil The Machine and Change)
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3A(3) Structured Technical Study & Explanation Matrix (Oil the Machine and Change)
 - **Common Myth:** Lightweight plain cotton fabric with raw interior seams holds sharp steel tent stakes without tearing.
 - **Pamphlet Fact:** Sharp stake tips punch through single layers of light cotton unless you use heavy nylon or canvas with reinforced seams.
 
@@ -475,7 +475,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3B(c): Cast On and Bind Off Procedures
+#### Req 3B(c): Cast on and Bind Off Procedures
 **Official Requirement 3B(c):** Using knitting needles, demonstrate how to tie a slip knot, cast on and bind off.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Skill Demonstration Checklist):** Req 3B(c) Hands-On Skill Station & EDGE Verification Checklist (Knitting Needles)
 - **Common Myth:** Pulling cast-on loops as tightly as possible against the needle makes the beginning edge neater.
@@ -908,7 +908,7 @@
 
 #### Req 3F(2): Quilt Sandwich Layering and Basting
 **Official Requirement 3F(2):** Make a sandwich with backing and batting. Baste.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Skill Demonstration Checklist):** Req 3F(2) Hands-On Skill Station & EDGE Verification Checklist (Sandwich With Backing and Batting)
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Skill Demonstration Checklist):** Req 3F(2) Hands-On Skill Station & EDGE Verification Checklist (Sandwich with Backing and Batting)
 - **Common Myth:** Batting and backing fabric can be cut to the exact finished dimensions of the quilt top before basting and quilting.
 - **Pamphlet Fact:** Backing and batting must extend at least two to four inches beyond the quilt top on all sides to accommodate shrinkage and shifting during stitching.
 
@@ -921,7 +921,7 @@
 
 #### Req 3F(3): Hand Quilting Stitch Execution Techniques
 **Official Requirement 3F(3):** Hand quilt with a running stitch or big stitch.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3F(3) Structured Technical Study & Explanation Matrix (Hand Quilt With A Running)
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3F(3) Structured Technical Study & Explanation Matrix (Hand Quilt with A Running)
 - **Common Myth:** Hand quilting requires pushing the needle completely through the quilt sandwich with one hand and pulling it from the underside with the other.
 - **Pamphlet Fact:** Quilters rock the needle with the top hand while feeling underneath with the other hand to load multiple small stitches onto the needle before pulling thread.
 
@@ -946,7 +946,7 @@
 
 #### Req 3F(5): Quilt Edge Binding Application Techniques
 **Official Requirement 3F(5):** Bind to finish the edge of the quilt.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3F(5) Structured Technical Study & Explanation Matrix (Bind to Finish The Edge)
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3F(5) Structured Technical Study & Explanation Matrix (Bind to Finish the Edge)
 - **Common Myth:** Cutting quilt binding strips along single raw edges without folding creates a durable edge finish that will not fray over time.
 - **Pamphlet Fact:** Double fold binding provides two layers of protective fabric over the vulnerable quilt edge to resist abrasion from everyday handling.
 
@@ -961,7 +961,7 @@
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Art Visit A Quilt or)
 > **Guide to Safe Scouting Warning:** Maintain designated viewing boundaries and avoid touching historical textile fibers without white gloves.
 - **Common Myth:** Textile exhibits display only decorative tapestries without practical or structural sewing elements.
-- **Pamphlet Fact:** Historic textile exhibits highlight intricate structural piecing, hand quilting, and tailored garment engineering.
+- **Pamphlet Fact:** Historic textile exhibits highlight detailed structural piecing, hand quilting, and tailored garment engineering.
 
 **Gear & Readiness Checklist:**
 - [ ] Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 4.
@@ -1040,7 +1040,7 @@
 
 #### Req 6b: Personal Fiber Arts Avocation
 **Official Requirement 6b:** Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Fiber arts hobbies require expensive studio setups before a beginner can produce functional projects.
 - **Pamphlet Fact:** Basic hand needles, thrifted fabrics, and embroidery floss enable high level personal craftsmanship affordably.
 

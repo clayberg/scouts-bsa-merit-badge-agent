@@ -74,7 +74,7 @@
 
 #### Req 1c: Range Whistle Command System
 **Official Requirement 1c:** Explain the four whistle commands used on the range.
-**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Whistle Commands Used on The)
+**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Whistle Commands Used on the)
 - **Common Myth:** Whistle commands are optional guidelines that archers can ignore during informal practice.
 - **Pamphlet Fact:** Three whistle blasts give the explicit command to walk downrange and score.
 
@@ -88,7 +88,7 @@
 
 #### Req 1d: Safe Target Arrow Extraction
 **Official Requirement 1d:** Explain how to safely remove arrows from the target and return them to your quiver.
-**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Remove Arrows From The Target)
+**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Remove Arrows from the Target)
 - **Common Myth:** Yanking an arrow by its fletching is the fastest method to clear targets.
 - **Pamphlet Fact:** One hand must brace the target face while the other grips the shaft near the boss.
 
@@ -181,7 +181,7 @@
 
 #### Req 2d(1): Bare Shaft Arrow Fabrication
 **Official Requirement 2d(1):** Make a complete arrow from a bare shaft using appropriate equipment available.
-**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Skill Demonstration Checklist):** Req 2d(1) Hands-On Skill Station & EDGE Verification Checklist (Arrow From A Bare Shaft)
+**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Skill Demonstration Checklist):** Req 2d(1) Hands-On Skill Station & EDGE Verification Checklist (Arrow from A Bare Shaft)
 - **Common Myth:** Arrow fletchings can be spaced by eye around the shaft without affecting arrow flight.
 - **Pamphlet Fact:** A fletching jig is required to space three vanes exactly 120 degrees apart with a uniform helical or straight angle so the arrow stabilizes properly in flight.
 
@@ -195,7 +195,7 @@
 
 #### Req 2d(2): Arrow Inspection and Component Repair
 **Official Requirement 2d(2):** To demonstrate arrow repair, inspect the shafts and prepare and replace at least three vanes, one point, and one nock. You may use as many arrows as necessary to accomplish this. The repairs can be done on wood, fiberglass, or aluminum arrows.
-**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Skill Demonstration Checklist):** Req 2d(2) Hands-On Skill Station & EDGE Verification Checklist (Arrow Repair Inspect The Shafts)
+**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Skill Demonstration Checklist):** Req 2d(2) Hands-On Skill Station & EDGE Verification Checklist (Arrow Repair Inspect the Shafts)
 - **Common Myth:** A cracked or splintered arrow shaft can be safely shot if the damaged section is reinforced with adhesive tape.
 - **Pamphlet Fact:** Any arrow shaft showing cracks, splits, or structural fatigue must be discarded immediately because a damaged shaft can shatter violently upon release.
 
@@ -512,7 +512,7 @@
 
 #### Req 5b(4): Professional Compound Bow String Replacement
 **Official Requirement 5b(4):** Explain why it is necessary to have the string or cable on a compound bow replaced at an archery shop.
-**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 5b(4) Structured Technical Study & Explanation Matrix (Necessary to Have The String)
+**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 5b(4) Structured Technical Study & Explanation Matrix (Necessary to Have the String)
 - **Common Myth:** Archers can safely change compound bowstrings at home by having a partner pull the limbs together by hand.
 - **Pamphlet Fact:** Specialized bow presses found in pro shops are required to compress compound limbs evenly without bending the riser or releasing hazardous limb energy.
 
@@ -524,7 +524,7 @@
 
 #### Req 5b(5): Bowstring Nocking Point Placement
 **Official Requirement 5b(5):** Locate and mark with dental floss, crimp-on, or other method, the nocking point on the bowstring of the bow you are using.
-**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 5b(5) Structured Technical Study & Explanation Matrix (Mark With Dental Floss Crimp-on)
+**Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 5b(5) Structured Technical Study & Explanation Matrix (Mark with Dental Floss Crimp-on)
 - **Common Myth:** Placing the nocking point exactly perpendicular to the arrow rest yields the straightest arrow flight.
 - **Pamphlet Fact:** Setting the nocking point approximately one-eighth to one-quarter inch above true square prevents the arrow fletching from striking the rest during release.
 

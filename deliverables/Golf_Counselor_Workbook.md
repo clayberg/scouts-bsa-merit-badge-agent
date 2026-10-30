@@ -82,7 +82,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(1)(b): PDGA Scoring Rules And Procedures
+#### Req 2b(1)(b): PDGA Scoring Rules and Procedures
 **Official Requirement 2b(1)(b):** Describe the seven areas of Scoring (808)
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(1)(b) Structured Technical Study & Explanation Matrix (Areas of Scoring)
 - **Common Myth:** A disc golfer can wait until the entire round is finished to write down scores for all eighteen holes from memory.
@@ -96,7 +96,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): Disc Golf History And Accessibility
+#### Req 2b(2): Disc Golf History and Accessibility
 **Official Requirement 2b(2):** Tell about the history of disc golf and why it is an inclusive game.
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (History of Disc Golf)
 - **Common Myth:** Disc golf originated as an exclusive country club sport requiring expensive specialized gear and costly memberships.
@@ -139,7 +139,7 @@
 
 #### Req 2b(3)(b): Pioneering Contributions of Ed Headrick
 **Official Requirement 2b(3)(b):** Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(3)(b) Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(3)(b) Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 - **Common Myth:** Ed Headrick simply invented plastic throwing discs for recreational beach games rather than developing competitive disc golf.
 - **Pamphlet Fact:** Ed Headrick engineered the standardized metal basket target with catching chains, laid out the first permanent course, and founded the Professional Disc Golf Association.
 
@@ -395,7 +395,7 @@
 
 #### Req 2b(6)(a): Official Disc Golf Tournament Rules
 **Official Requirement 2b(6)(a):** Follow the PDGA Official Rules of Disc Golf.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(6)(a) Structured Technical Study & Explanation Matrix (Follow The PDGA Official)
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(6)(a) Structured Technical Study & Explanation Matrix (Follow the PDGA Official)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Any player in the group may throw whenever they feel ready regardless of which lie is farthest from the basket.
 - **Pamphlet Fact:** Official PDGA rules mandate that the player whose lie is farthest from the target throws first to ensure player safety and orderly play.

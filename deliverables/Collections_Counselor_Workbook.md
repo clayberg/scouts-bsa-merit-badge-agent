@@ -73,7 +73,7 @@
 **Official Pamphlet Summary:**
 - Curatorial Selection: Thoughtful collectors upgrade individual specimen condition rather than merely accumulating redundant items.
 - Thematic Refinement: Mature collections evolve from broad miscellaneous items into tightly specialized subject areas.
-- Milestone Tracking: Documenting notable additions marks pivotal shifts in personal knowledge and curatorial interests.
+- Milestone Tracking: Documenting notable additions marks major shifts in personal knowledge and curatorial interests.
 - Acquisition Channels: Expanding sourcing networks introduces rare specimens through peer exchanges and field visits.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
@@ -291,7 +291,7 @@
 
 #### Req 5f: Identification Numbers and Authenticity Marks
 **Official Requirement 5f:** Explain to your counselor the purpose of and reason for the identification number (if applicable), series, brand name (if any), and any other special identification marks.
-**Source:** *Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Reason for The Identification Number)
+**Source:** *Official Scouting America Collections Merit Badge Pamphlet (p. 35, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Reason for the Identification Number)
 - **Common Myth:** Scouts believe stamped identification numbers are decorative accents placed arbitrarily by manufacturers.
 - **Pamphlet Fact:** Factory serial numbers and date codes authenticate production years, limited runs, and verified provenance chains.
 

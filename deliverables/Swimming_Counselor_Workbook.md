@@ -12,16 +12,16 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Water Safety And Health Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Water Safety and Health Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Swimmer Classification Practical Evaluation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 8, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Aquatic Stroke Mechanics Demonstration | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Continuous Multi-Stroke Distance Endurance | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 53) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Non-Swimming Aquatic Rescue Procedures | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Water Survival And Flotation Positions | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Surface Diving And Submerged Retrieval | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Water Survival and Flotation Positions | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Surface Diving and Submerged Retrieval | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8a** | Standing & Shallow Dives: Core Requirements & Field Demonstration | Show | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8b** | Snorkeling & Mask/Snorkel Clearing: Core Requirements & Field Demonstration | Demonstrate | `Hands-On Skill Station` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 15, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Aerobic Conditioning And Aquatic Therapy | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Aerobic Conditioning and Aquatic Therapy | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -36,7 +36,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Water Safety And Health Management
+### Req 1: Water Safety and Health Management
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Review with your counselor how Scouting America's Safe Swim Defense guidelines anticipate and deal with common drowning situations such as unfenced residential pools, nonswimmers entering deep water, risky behaviors, medical impairment in the water, drop-offs, cold water, murky water, river currents, rip currents, and surf. (b) Discuss the prevention and treatment of health concerns that could occur while swimming, including hypothermia, dehydration, sunburn, heat exhaustion, heatstroke, muscle cramps, hyperventilation, spinal injury, stings and bites, and cuts and scrapes.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never allow swimming activities to proceed without dedicated rescue equipment and vigilant adult lookouts.
@@ -73,7 +73,7 @@
 
 #### Req 1b: Aquatic Health Concerns Management
 **Official Requirement 1b:** Discuss the prevention and treatment of health concerns that could occur while swimming, including hypothermia, dehydration, sunburn, heat exhaustion, heatstroke, muscle cramps, hyperventilation, spinal injury, stings and bites, and cuts and scrapes.
-**Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention and Treatment)
+**Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention and Treatment)
 - **Common Myth:** Muscle cramps during swimming are minor discomforts that resolve without exiting the pool.
 - **Pamphlet Fact:** Cramps incapacitate limb movement and require immediate calm exit and gentle stretching.
 
@@ -122,7 +122,7 @@
 
 #### Req 3a: Front Crawl Propulsion Technique
 **Official Requirement 3a:** Demonstrate the front crawl or the trudgen using good form.
-**Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Front Crawl or The Trudgen)
+**Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 41, p. 52)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Front Crawl or the Trudgen)
 - **Common Myth:** Lifting the head straight forward out of the water improves breathing efficiency.
 - **Pamphlet Fact:** Rotary breathing requires turning the face sideways into the bow wave trough.
 
@@ -232,9 +232,9 @@
 - Line Tender Duty: Rescuers secure coiled rope lines while tenders pull both parties ashore.
 - Swimmer Risk: Panicked victims will climb onto swimming rescuers, forcing both individuals below water.
 
-#### Req 5a: Reaching And Throwing Techniques
+#### Req 5a: Reaching and Throwing Techniques
 **Official Requirement 5a:** Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects. Explain why swimming rescues should not be attempted when a reaching or throwing rescue is possible, and explain why and how a rescue swimmer should avoid contact with the victim.
-**Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Water Rescue Methods By Reaching)
+**Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Water Rescue Methods by Reaching)
 - **Common Myth:** Rescuers should stand upright on slippery pool edges while extending heavy reaching poles.
 - **Pamphlet Fact:** Lying prone distributes weight and prevents the distressed swimmer from pulling you.
 
@@ -268,7 +268,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Water Survival And Flotation Positions
+### Req 6: Water Survival and Flotation Positions
 **Official Requirement 6 (Parent Overview):** Do the following: (a) Float faceup in a resting position for at least three minutes with minimal movement. (b) Demonstrate survival floating for at least five minutes. (c) While wearing a properly fitted U. S. Coast Guard-approved life jacket, demonstrate the HELP and huddle positions. Explain their purposes. (d) Explain why swimming or survival floating will hasten the onset of hypothermia in cold water.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 30, p. 32)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Terminate cold water survival drills immediately if any Scout exhibits violent shivering or slurred speech.
@@ -346,7 +346,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Surface Diving And Submerged Retrieval
+### Req 7: Surface Diving and Submerged Retrieval
 **Official Requirement 7 (Parent Overview):** In water over your head, but not to exceed 10 feet, do the following: (a) Use the feetfirst method of surface diving and bring an object up from the bottom. (b) Do a headfirst surface dive (pike or tuck), and bring the object up again. (c) Do a headfirst surface dive to a depth of at least 5 feet and swim underwater for three strokes. Come to the surface, take a breath, and repeat the sequence twice.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Prohibit repeated breath holding or hyperventilation drills during deep water surface dive training.
@@ -387,7 +387,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c: Submerged Stroking And Breathing Cycle
+#### Req 7c: Submerged Stroking and Breathing Cycle
 **Official Requirement 7c:** Do a headfirst surface dive to a depth of at least 5 feet and swim underwater for three strokes. Come to the surface, take a breath, and repeat the sequence twice.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Headfirst Surface Dive to A)
 - **Common Myth:** Opening the eyes wide underwater causes permanent corneal damage in chlorinated pools.
@@ -474,7 +474,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Aerobic Conditioning And Aquatic Therapy
+### Req 9: Aerobic Conditioning and Aquatic Therapy
 **Official Requirement 9:** Explain the health benefits of regular aerobic exercise, and discuss why swimming is favored as both fitness and therapeutic exercise.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 62, p. 63)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Health Benefits of Regular Aerobic)
 > **Guide to Safe Scouting Warning:** Never push training past the point of severe exhaustion or ignore chest tightness while swimming.

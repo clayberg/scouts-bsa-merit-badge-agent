@@ -14,7 +14,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Local Motor Carrier Network | List | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 10, p. 12) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Commerce Freight Distribution Role | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Gasoline And Diesel Powertrains | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 31, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Gasoline and Diesel Powertrains | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 31, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Motor Carrier Terminal Operations | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Trucking Enterprise Organization | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Government Regulatory Authorities | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 22, p. 29) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -85,7 +85,7 @@
 #### Req 2b: Supply Chain Logistics
 **Official Requirement 2b:** Describe how trucks fit into a company's supply chain. This could be a manufacturer, importer, wholesaler, or retailer.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Trucks Fit Into A Company's)
-- **Common Myth:** Manufacturing supply chains can function seamlessly using solely railway or air cargo movements.
+- **Common Myth:** Manufacturing supply chains can function smoothly using solely railway or air cargo movements.
 - **Pamphlet Fact:** Truck fleets provide point-to-point agility that fixed-path transportation systems cannot achieve alone.
 
 ![A delivery worker unloads cardboard boxes from a cargo van using a hand truck in a neighborhood.](/assets/pamphlet_images/truck_transportation_p015_img1.png)
@@ -119,9 +119,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Gasoline And Diesel Powertrains
+### Req 3: Gasoline and Diesel Powertrains
 **Official Requirement 3:** Describe the difference between the gasoline engine and the diesel engine that power trucks. List the advantages of each.
-**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 31, p. 32)* • **Organizer (2-Column Comparison Table):** Req 3 Technical Comparison Matrix (Gasoline Engine and The Diesel)
+**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 31, p. 32)* • **Organizer (2-Column Comparison Table):** Req 3 Technical Comparison Matrix (Gasoline Engine and the Diesel)
 > **Guide to Safe Scouting Warning:** Never open hot pressurized coolant systems or touch high-pressure diesel common rail fuel plumbing.
 - **Common Myth:** Gasoline and diesel truck engines share identical ignition mechanics and fuel delivery components.
 - **Pamphlet Fact:** Diesel engines utilize high compression ratios to ignite fuel without electrical spark plug systems.
@@ -246,7 +246,7 @@
 
 #### Req 5a: Corporate Carrier Organization
 **Official Requirement 5a:** Outline the general organization of a trucking company. Describe what each department.
-**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Outline The General Organization)
+**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Outline the General Organization)
 - **Common Myth:** Every office employee at a trucking terminal handles identical random logistical duties daily.
 - **Pamphlet Fact:** Trucking departments manage dedicated responsibilities that support continuous commercial freight movement.
 
@@ -266,7 +266,7 @@
 
 #### Req 5b: Professional Motor Carrier Careers
 **Official Requirement 5b:** List five positions with trucking companies and describe each one.
-**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Positions With Trucking Companies)
+**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Positions with Trucking Companies)
 - **Common Myth:** Trucking organizations offer career opportunities exclusively for individuals holding commercial driver licenses.
 - **Pamphlet Fact:** Modern motor carriers employ diverse personnel spanning safety directors, diesel technicians, and freight dispatchers.
 
@@ -302,7 +302,7 @@
 
 ### Req 7: Commercial Truck Configurations
 **Official Requirement 7:** List five different kinds of trucks. Tell the service each provides.
-**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 12, p. 36)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Trucks Tell The Service Each)
+**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 12, p. 36)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Trucks Tell the Service Each)
 > **Guide to Safe Scouting Warning:** Never climb bulk cargo tanks or approach unchocked flatbed trailers during forklift loading operations.
 - **Common Myth:** Standard enclosed dry van semi-trailers transport all commercial agricultural and industrial products safely.
 - **Pamphlet Fact:** Truck configurations match specific payload densities, temperature requirements, and unloading dock environments.
@@ -379,7 +379,7 @@
 
 #### Req 8d: Transit Cargo Insurance
 **Official Requirement 8d:** How to insure the shipment for damages.
-**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Insure The Shipment for Damages)
+**Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Insure the Shipment for Damages)
 - **Common Myth:** Carriers automatically reimburse full retail value for damaged cargo without declared value coverage.
 - **Pamphlet Fact:** Third-party transit insurance protects shippers beyond the limited liability caps of standard tariffs.
 
@@ -406,7 +406,7 @@
 
 **Official Pamphlet Summary:**
 - The bill of lading acts as a formal contract between shipper and carrier.
-- Standardized shipping containers move seamlessly between ocean vessels, freight trains, and highway trucks.
+- Standardized shipping containers move smoothly between ocean vessels, freight trains, and highway trucks.
 - Drayage carriers haul ocean containers across short distances between marine terminals and warehouses.
 - The consignee receives delivered freight cargo and signs the carrier delivery receipt paperwork.
 

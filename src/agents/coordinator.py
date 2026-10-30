@@ -706,7 +706,7 @@ def run_merit_badge_workflow(
         if generate_counselor_workbook_markdown is not None:
             try:
                 wb_md = generate_counselor_workbook_markdown(research_res, counselor_info=counselor_info)
-                safe_slug = badge_name.strip().replace(" ", "_")
+                safe_slug = badge_name.strip().replace(",", "").replace(" ", "_").replace("/", "_")
                 wb_file = GENERATED_DECKS_DIR / f"{safe_slug}_Counselor_Workbook.md"
                 wb_file.write_text(wb_md, encoding="utf-8")
                 workbook_path = str(wb_file)

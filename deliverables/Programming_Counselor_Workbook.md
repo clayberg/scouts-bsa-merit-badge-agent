@@ -12,12 +12,12 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Computer Safety And Ergonomics | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: History Of Programming Languages | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Programming Languages And Applications | List | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Computer Safety and Ergonomics | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: History of Programming Languages | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Programming Languages and Applications | List | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Software Intellectual Property Law | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Software Development Project Practice | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Careers And Hobbies In Computing | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Careers and Hobbies in Computing | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -30,7 +30,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Computer Safety And Ergonomics
+### Req 1: Computer Safety and Ergonomics
 **Official Requirement 1 (Parent Overview):** Safety. Do the following: (a) View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission). (b) Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Position power cords away from walkways and keep open beverage containers off equipment desks to eliminate shock hazards.
@@ -46,7 +46,7 @@
 
 #### Req 1a: Digital Safety Video Instruction
 **Official Requirement 1a:** View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission)
-**Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (View The Personal Safety Awareness)
+**Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Programming Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Digital security safeguards only matter when entering credit card numbers into commercial shopping carts.
 - **Pamphlet Fact:** Source code repositories often expose private identity markers through commit log email addresses.
@@ -59,7 +59,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Ergonomics And Injury Prevention
+#### Req 1b: Ergonomics and Injury Prevention
 **Official Requirement 1b:** Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss First Aid and Prevention)
 - **Common Myth:** Screen brightness settings have zero impact on physical eye strain during evening coding sprints.
@@ -73,7 +73,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: History Of Programming Languages
+### Req 2: History of Programming Languages
 **Official Requirement 2:** History. Discuss with your counselor the history of programming and the evolution of programming languages, including at least three milestones related to the advancement or development of programming over time.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Programming Origins and Evolution)
 > **Guide to Safe Scouting Warning:** Maintain stable desk seating and organized cabling while examining vintage hardware displays or legacy computer apparatus.
@@ -95,7 +95,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Programming Languages And Applications
+### Req 3: Programming Languages and Applications
 **Official Requirement 3 (Parent Overview):** General Knowledge. Do the following: (a) Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why. (b) Describe three different programmed devices you rely on every day.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Disconnect household appliances from wall power before examining microcontroller housing panels or wiring harnesses.
@@ -108,7 +108,7 @@
 - System Programming Role: C delivers bare metal execution efficiency inside microcontrollers and operating system kernels.
 - Embedded Controller Logic: Digital thermostats execute firmware control loops reading sensors to switch physical relays.
 
-#### Req 3a: Popular Languages And Industries
+#### Req 3a: Popular Languages and Industries
 **Official Requirement 3a:** Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Popular Programming Languages in Use)
 - **Common Myth:** Software engineers always choose the single newest programming language for every commercial project.
@@ -246,7 +246,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Careers And Hobbies In Computing
+### Req 6: Careers and Hobbies in Computing
 **Official Requirement 6 (Parent Overview):** Careers. Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Follow ergonomic recommendations and schedule screen time limits to prevent sedentary health problems during career exploration.
@@ -258,7 +258,7 @@
 - Computer science degree curricula prioritize discrete mathematics, data structures, and algorithmic complexity.
 - Apprenticeship Value: Practical coding bootcamps and open source contributions provide alternative career entry points.
 - Quality Assurance Duty: Testing engineers write automated scripts to identify software bugs before customer deployments.
-- Hobby Project Community: Open robotics clubs foster applied programming skills outside commercial enterprise environments.
+- Hobby Project Community: Open robotics clubs build applied programming skills outside commercial enterprise environments.
 
 #### Req 6a: Software Engineering Career Exploration
 **Official Requirement 6a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
@@ -278,7 +278,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Computing Hobbies And Lifestyle
+#### Req 6b: Computing Hobbies and Lifestyle
 **Official Requirement 6b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)
 - **Common Myth:** Programming skills offer zero personal value unless utilized to earn full time corporate employment.

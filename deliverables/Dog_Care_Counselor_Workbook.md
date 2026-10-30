@@ -12,16 +12,16 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Canine Domestication And Breeds | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Canine Domestication and Breeds | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Canine Skeletal Anatomy Examination | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 27, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Behavior Management And Ownership | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Daily Care And Management Log | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Obedience Training And Commands | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Behavior Management and Ownership | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Daily Care and Management Log | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Obedience Training and Commands | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Canine Preventative Healthcare Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Emergency First Aid And Trauma | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Veterinary Hospital And Shelter Facility | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Community Canine Laws And Ordinances | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **10** | Req 10: Professional Canine Careers And Lifestyles | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Emergency First Aid and Trauma | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Veterinary Hospital and Shelter Facility | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Community Canine Laws and Ordinances | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **10** | Req 10: Professional Canine Careers and Lifestyles | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -33,7 +33,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Canine Domestication And Breeds
+### Req 1: Canine Domestication and Breeds
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Briefly discuss the historical origin and domestication of the dog. (b) Describe some common characteristics of the dogs that make up each of the seven major dog groups. (c) Tell some specific characteristics of seven breeds of dogs (one from each major group), OR give a short history of one breed.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Keep unfamiliar breeds separated during breed demonstrations to prevent predatory drift or territorial disputes.
@@ -46,9 +46,9 @@
 - Hound Group Scenting: Olfactory tracking dogs possess long pendulous ears that stir ground scent toward nostrils.
 - Herding Group Instincts: Instinctive flanking maneuvers allow active gathering breeds to guide livestock across open pasture.
 
-#### Req 1a: Canine Domestication And Evolution
+#### Req 1a: Canine Domestication and Evolution
 **Official Requirement 1a:** Briefly discuss the historical origin and domestication of the dog.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Briefly Discuss The Historical Origin)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Briefly Discuss the Historical Origin)
 - **Common Myth:** Canine domestication began only after agricultural humans settled permanent farm communities.
 - **Pamphlet Fact:** Mitochondrial DNA studies place canine domestication alongside hunter gatherers prior to agricultural settlement.
 
@@ -67,7 +67,7 @@
 
 #### Req 1b: Major Breed Group Characteristics
 **Official Requirement 1b:** Describe some common characteristics of the dogs that make up each of the seven major dog groups.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Common Characteristics of The Dogs)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Common Characteristics of the Dogs)
 - **Common Myth:** Breed group classifications serve only show ring appearance rather than functional working capabilities.
 - **Pamphlet Fact:** Each recognized group represents selective physical standards developed for specialized labor or sport.
 
@@ -119,11 +119,11 @@
 - Withers Elevation Point: The dorsal ridge formed by third through fifth thoracic vertebrae determines shoulder height.
 - The true knee joint connects femur and tibia to provide hindlimb propulsion.
 - Pastern Shock Absorption: Angled metacarpal bones between carpus and foot pads absorb downward landing impact forces.
-- Hock Joint Mechanics: The canine tarsus elevates the heel above ground level for efficient spring motion.
+- Hock Joint Mechanics: The canine tarsus raises the heel above ground level for efficient spring motion.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Behavior Management And Ownership
+### Req 3: Behavior Management and Ownership
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Explain the importance of house-training, obedience training, and socialization training for your dog. (b) Explain what "responsible pet ownership" means. (c) Explain what issues (including temperament) must be considered when deciding on what breed of dog to get as a family pet.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never introduce an unvaccinated puppy to unknown dogs in public parks during early socialization.
@@ -136,7 +136,7 @@
 - Owner Legal Stewardship: Responsible guardianship encompasses continuous veterinary care, rabies compliance, and confinement fencing management.
 - Temperament Selection Matching: High energy working drives overwhelm sedentary households lacking daily physical and mental enrichment.
 
-#### Req 3a: Canine Training And Socialization
+#### Req 3a: Canine Training and Socialization
 **Official Requirement 3a:** Explain the importance of house-training, obedience training, and socialization training for your dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (House-training Obedience Training and Socialization)
 - **Common Myth:** Rubbing a dog nose in indoor accidents teaches effective housebreaking through corrective punishment.
@@ -178,7 +178,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Daily Care And Management Log
+### Req 4: Daily Care and Management Log
 **Official Requirement 4:** For two months, keep and care for your dog. Maintain a log of your activities during this period that includes these items: feeding schedule, types of food used, amount fed, exercise periods, training schedule, a weekly body weight record, grooming and bathing schedules, veterinary care, if necessary, and costs. Also include a brief description of the type of housing/shelter arrangements you have for your dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 43, p. 54)* • **Organizer (Activity & Observation Log):** Req 4 Quantitative Field Observation & Activity Log (Months Keep and Care)
 > **Guide to Safe Scouting Warning:** Store canine food bags in airtight bins to prevent rodent contamination and toxic mold growth.
@@ -201,7 +201,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Obedience Training And Commands
+### Req 5: Obedience Training and Commands
 **Official Requirement 5:** Explain the correct way to obedience train a dog and what equipment you would need. Show with your dog any three of these commands: "come," "sit," "down," "heel," "stay," "fetch," "get it," and "drop it." Resources: 10 Most Basic Commands Every Dog Owner Should Know (video) How To Teach Your Dog the Basics (video)
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 37, p. 41)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Obedience Train A Dog)
 > **Guide to Safe Scouting Warning:** Never tie a dog to stationary objects with slip chains or choke collars unattended.
@@ -238,7 +238,7 @@
 
 #### Req 6a: Core Vaccination Immunization Protocol
 **Official Requirement 6a:** Discuss the proper vaccination schedule for a dog in your area from puppyhood through adulthood.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Discuss The Proper Vaccination Schedule)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Discuss the Proper Vaccination Schedule)
 - **Common Myth:** A single vaccination shot at eight weeks confers permanent lifetime immunity against parvo.
 - **Pamphlet Fact:** Puppy core vaccines require serial administration every three to four weeks until sixteen weeks of age.
 
@@ -250,9 +250,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Parasite And Vector Prophylaxis
+#### Req 6b: Parasite and Vector Prophylaxis
 **Official Requirement 6b:** Discuss the control methods for preventing fleas, ticks, heartworms, and intestinal parasites (worms) for a dog in your area from puppyhood through adulthood.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Discuss The Control Methods for)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Discuss the Control Methods for)
 - **Common Myth:** Visible fleas on coat fur represent the entire parasite population living in the environment.
 - **Pamphlet Fact:** Mosquitoes transmit Dirofilaria immitis larvae, requiring continuous monthly preventive medication regardless of indoor living.
 
@@ -278,9 +278,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d: Coat And Nail Grooming
+#### Req 6d: Coat and Nail Grooming
 **Official Requirement 6d:** Discuss the benefits of grooming your dog's coat and nails on a regular basis.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Discuss The Benefits of Grooming)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Discuss the Benefits of Grooming)
 - **Common Myth:** Dog claws wear down naturally on soil and never require clipping unless they split.
 - **Pamphlet Fact:** Regular nail trims prevent skeletal compensation and painful orthopedic joint damage from flattened splayed paws.
 
@@ -294,7 +294,7 @@
 
 #### Req 6e: Seasonal Climate Care Adjustments
 **Official Requirement 6e:** Discuss with your counselor any seasonal conditions (like hot summers, cold winters, or extreme humidity) where you live that need to be considered for your dog.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Any)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Any)
 - **Common Myth:** Shaving double coated dogs in summer keeps them cooler than leaving coats natural.
 - **Pamphlet Fact:** Brachycephalic and heavy coated breeds suffer rapid heatstroke because dogs cool primarily via panting.
 
@@ -306,9 +306,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6f: Spaying And Neutering Considerations
+#### Req 6f: Spaying and Neutering Considerations
 **Official Requirement 6f:** Discuss with your counselor the considerations and advantages of spaying or neutering your dog.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 - **Common Myth:** Female dogs should experience at least one heat cycle or litter before being spayed.
 - **Pamphlet Fact:** Surgical sterilization eliminates reproductive cancer risks and reduces territorial roaming and urine marking behaviors.
 
@@ -320,7 +320,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Emergency First Aid And Trauma
+### Req 7: Emergency First Aid and Trauma
 **Official Requirement 7 (Parent Overview):** Do the following: (a) Explain precautions to take in handling a hurt dog. (b) Show how to put on an emergency muzzle. (c) Explain how to treat wounds. Explain first aid for a dog bite. (d) Show how to put on a simple dressing and bandage the foot, body, or head of your dog. (e) Explain what to do if a dog is hit by a car. (f) List the things needed in every dog owner's first-aid kit. (g) Tell the dangers of home treatment of a serious ailment. (h) Briefly discuss the cause and method of spread, the signs and symptoms and the methods of prevention of rabies, parvovirus, distemper, and heartworms in dogs.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Never place an emergency muzzle on a vomiting dog to avoid fatal airway aspiration.
@@ -361,7 +361,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c: Wound Treatment And Bite First-Aid
+#### Req 7c: Wound Treatment and Bite First-Aid
 **Official Requirement 7c:** Explain how to treat wounds. Explain first aid for a dog bite.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 7c Clinical Signs, First-Aid Treatment & Prevention Matrix
 - **Common Myth:** Dog saliva possesses natural antiseptic properties that heal open skin punctures without treatment.
@@ -376,7 +376,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7d: Canine Bandaging And Dressing Techniques
+#### Req 7d: Canine Bandaging and Dressing Techniques
 **Official Requirement 7d:** Show how to put on a simple dressing and bandage the foot, body, or head of your dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist (Put on A Simple Dressing)
 - **Common Myth:** Elastic bandages should be stretched to maximum tension to keep foot dressings secure.
@@ -392,7 +392,7 @@
 
 #### Req 7e: Vehicular Trauma Emergency Response
 **Official Requirement 7e:** Explain what to do if a dog is hit by a car.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Dog Is Hit By A)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Dog Is Hit by A)
 - **Common Myth:** A dog hit by a car should be walked immediately to check leg fractures.
 - **Pamphlet Fact:** Blunt vehicular trauma causes internal bleeding and pneumothorax that worsen without horizontal stabilization.
 
@@ -416,7 +416,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7g: Risks Of Home Medical Treatment
+#### Req 7g: Risks of Home Medical Treatment
 **Official Requirement 7g:** Tell the dangers of home treatment of a serious ailment.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Organizer (Concept & Examples Notes):** Req 7g Structured Technical Study & Explanation Matrix (Dangers of Home Treatment)
 - **Common Myth:** Human over the counter cold medications safely relieve canine fever and respiratory congestion.
@@ -428,7 +428,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7h: Infectious Diseases And Prevention
+#### Req 7h: Infectious Diseases and Prevention
 **Official Requirement 7h:** Briefly discuss the cause and method of spread, the signs and symptoms and the methods of prevention of rabies, parvovirus, distemper, and heartworms in dogs.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Organizer (Concept & Examples Notes):** Req 7h Structured Technical Study & Explanation Matrix (Briefly Discuss)
 - **Common Myth:** Canine distemper and parvovirus spread only through direct skin contact between sick dogs.
@@ -440,7 +440,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Veterinary Hospital And Shelter Facility
+### Req 8: Veterinary Hospital and Shelter Facility
 **Official Requirement 8:** Visit a veterinary hospital or an animal shelter and give a report about your visit to your counselor.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 9, p. 37)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Veterinary Hospital or An Animal)
 > **Guide to Safe Scouting Warning:** Do not touch quarantined animals or put fingers through kennel gates during tours.
@@ -466,9 +466,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Community Canine Laws And Ordinances
+### Req 9: Community Canine Laws and Ordinances
 **Official Requirement 9:** Know the laws and ordinances involving dogs that are in force in your community.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Know The Laws and Ordinances)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 30, p. 34)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Know the Laws and Ordinances)
 > **Guide to Safe Scouting Warning:** Keep leashes securely gripped to prevent dogs from breaking away near traffic or pedestrians.
 - **Common Myth:** Leash laws apply only to aggressive dog breeds within designated public residential zones.
 - **Pamphlet Fact:** Municipal leash laws and mandatory rabies licensing safeguard public health and reduce bite risks.
@@ -487,7 +487,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 10: Professional Canine Careers And Lifestyles
+### Req 10: Professional Canine Careers and Lifestyles
 **Official Requirement 10 (Parent Overview):** Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in working with dogs. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in working with dogs to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Wear closed toe steel shank boots when handling large animals in professional facilities.
@@ -517,9 +517,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 10b: Canine Sports And Lifestyle Hobbies
+#### Req 10b: Canine Sports and Lifestyle Hobbies
 **Official Requirement 10b:** Identify how you might use the skills and knowledge in working with dogs to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)* • **Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Canine sports hobbies require no athletic conditioning or financial commitment beyond a backyard.
 - **Pamphlet Fact:** Dog agility sports demand structured cardiovascular human training, obstacle course equipment, and competition registration.
 

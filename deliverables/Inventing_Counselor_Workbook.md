@@ -12,15 +12,15 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Invention Fundamentals And Economics | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Inventor Methods And Research | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Invention Fundamentals and Economics | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Inventor Methods and Research | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Intellectual Property Protection Systems | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Invention Sharing And Public Domain | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 25) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Product Evaluation And Improvement | Explain | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Inventing Merit Badge Pamphlet (p. 52, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Invention Design And Modeling Process | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Prototype Fabrication And Testing | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Inventing Merit Badge Pamphlet (p. 73, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Collaborative Engineering And Exploration | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Inventing Merit Badge Pamphlet (p. 54, p. 84) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Inventor Skills And Career Pathways | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Inventing Merit Badge Pamphlet (p. 53, p. 89) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Invention Sharing and Public Domain | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 25) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Product Evaluation and Improvement | Explain | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Inventing Merit Badge Pamphlet (p. 52, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Invention Design and Modeling Process | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Prototype Fabrication and Testing | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Inventing Merit Badge Pamphlet (p. 73, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Collaborative Engineering and Exploration | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Inventing Merit Badge Pamphlet (p. 54, p. 84) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Inventor Skills and Career Pathways | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Inventing Merit Badge Pamphlet (p. 53, p. 89) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -35,7 +35,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Invention Fundamentals And Economics
+### Req 1: Invention Fundamentals and Economics
 **Official Requirement 1 (Parent Overview):** In your own words, define inventing. Then do the following: (a) Explain to your counselor the role of inventors and their inventions in the economic development of the United States. (b) List three inventions and state how they have helped humankind.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Wear ANSI approved eye protection when handling mechanical components during initial invention demonstrations.
@@ -62,7 +62,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Humankind Health And Welfare
+#### Req 1b: Humankind Health and Welfare
 **Official Requirement 1b:** List three inventions and state how they have helped humankind.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Inventions and State How They)
 - **Common Myth:** Only complex digital electronic inventions have produced meaningful improvements in daily human welfare.
@@ -76,7 +76,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Inventor Methods And Research
+### Req 2: Inventor Methods and Research
 **Official Requirement 2 (Parent Overview):** Do ONE of the following: (a) With your parent or guardian's permission and counselor's approval, interview an adult who has invented a useful item or process. Report what you learned to your counselor. (b) Read about three inventors. Select the one you find most interesting and tell your counselor what you learned.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Obtain parent permission and monitor digital privacy protocols when conducting interviews or web research.
@@ -108,11 +108,11 @@
 
 #### Req 2b: Historical Inventor Biographical Analysis
 **Official Requirement 2b:** Read about three inventors. Select the one you find most interesting and tell your counselor what you learned.
-**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Inventors Select The One You)
+**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Inventors Select the One You)
 - **Common Myth:** Historical inventors worked entirely alone without relying on earlier published scientific research.
 - **Pamphlet Fact:** Historical inventors kept exhaustive laboratory notebooks documenting chemical ratios and mechanical tolerances daily.
 
-![A digital model of a supersonic reconnaissance aircraft showcases advanced aerospace design.](/assets/pamphlet_images/inventing_p065_img2.png)
+![A digital model of a supersonic reconnaissance aircraft displays advanced aerospace design.](/assets/pamphlet_images/inventing_p065_img2.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -151,7 +151,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Patent Specifications And Claims
+#### Req 3b: Patent Specifications and Claims
 **Official Requirement 3b:** Explain the components of a patent and the different types of patents available.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Components of A Patent)
 - **Common Myth:** Design patents provide legal protection for internal mechanical gears and electronic operating systems.
@@ -197,7 +197,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Invention Sharing And Public Domain
+### Req 4: Invention Sharing and Public Domain
 **Official Requirement 4:** Discuss with your counselor the types of inventions that are appropriate to share with others, and explain why. Tell your counselor about one unpatented invention and its impact on society.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 25)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Discuss Inventions Unpatented Invention)
 > **Guide to Safe Scouting Warning:** Ensure shared emergency inventions adhere to established product safety standards before public deployment.
@@ -219,7 +219,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Product Evaluation And Improvement
+### Req 5: Product Evaluation and Improvement
 **Official Requirement 5:** Choose a commercially available product that you have used on an overnight camping trip with your troop. Make recommendations for improving the product, and make a sketch that shows your recommendations. Discuss your recommendations with your counselor.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 52, p. 54)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5 Hands-On Skill Station & EDGE Verification Checklist (Commercially Available Product That You)
 > **Guide to Safe Scouting Warning:** Use safe drafting tools and avoid altering pressurized or structural camping equipment without supervision.
@@ -250,7 +250,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Invention Design And Modeling Process
+### Req 6: Invention Design and Modeling Process
 **Official Requirement 6 (Parent Overview):** Think of an item you would like to invent that would solve a problem for your family, troop, chartered organization, community, or a special-interest group. Then do the following, while keeping a notebook to record your progress. (a) Talk to potential users of your invention and determine their needs. Then, based on what you have learned, write a statement describing the invention and how it would help solve a problem. This statement should include a detailed sketch of the invention. (b) Create a model of the invention using clay, cardboard, or any other readily available material. List the materials necessary to build a working prototype of the invention. (c) Share the idea and the model with your counselor and potential users of your invention. Record their feedback in your notebook.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Use cutting mats and keep fingers clear of utility knife blades when cutting cardboard mockups.
@@ -263,7 +263,7 @@
 - Rapid Concept Mockup: Inexpensive corrugated cardboard models validate physical scale before committing to expensive materials.
 - Stakeholder Feedback Documentation: Logging user critiques in bound project notebooks drives informed secondary design revisions.
 
-#### Req 6a: User Research And Problem Definition
+#### Req 6a: User Research and Problem Definition
 **Official Requirement 6a:** Talk to potential users of your invention and determine their needs. Then, based on what you have learned, write a statement describing the invention and how it would help solve a problem. This statement should include a detailed sketch of the invention.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6a Structured Technical Study & Explanation Matrix (Talk to Potential Users)
 - **Common Myth:** Engineers instinctively understand user needs without conducting structured stakeholder interviews or surveys.
@@ -292,9 +292,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Concept Modeling And Materials Listing
+#### Req 6b: Concept Modeling and Materials Listing
 **Official Requirement 6b:** Create a model of the invention using clay, cardboard, or any other readily available material. List the materials necessary to build a working prototype of the invention.
-**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Model of The Invention Using)
+**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Model of the Invention Using)
 - **Common Myth:** Full scale metal prototypes must be built before testing basic physical dimensions.
 - **Pamphlet Fact:** Mockups test physical ergonomics and spatial relationships without requiring expensive manufacturing tools.
 
@@ -307,9 +307,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c: Stakeholder Review And Feedback Logging
+#### Req 6c: Stakeholder Review and Feedback Logging
 **Official Requirement 6c:** Share the idea and the model with your counselor and potential users of your invention. Record their feedback in your notebook.
-**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Organizer (Activity & Observation Log):** Req 6c Quantitative Field Observation & Activity Log (Idea and The Model)
+**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Organizer (Activity & Observation Log):** Req 6c Quantitative Field Observation & Activity Log (Idea and the Model)
 - **Common Myth:** User feedback is only useful after the final commercial product is completely manufactured.
 - **Pamphlet Fact:** Constructive user critiques highlight awkward handling quirks that designers miss due to familiarity.
 
@@ -322,9 +322,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Prototype Fabrication And Testing
+### Req 7: Prototype Fabrication and Testing
 **Official Requirement 7:** Build a working prototype of the item you invented for requirement 6. Test and evaluate the invention. Among the aspects to consider in your evaluation are cost, usefulness, marketability, appearance, and function. Describe how your original vision and expectations for your invention are similar or dissimilar to the prototype you built. Have your counselor evaluate and critique your prototype. Note: Before you begin building the prototype, you must have your counselor's approval, based on the design and building plans you have already shared.
-**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 73, p. 75)* • **Organizer (Skill Demonstration Checklist):** Req 7 Hands-On Skill Station & EDGE Verification Checklist (Working Prototype of The Item)
+**Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 73, p. 75)* • **Organizer (Skill Demonstration Checklist):** Req 7 Hands-On Skill Station & EDGE Verification Checklist (Working Prototype of the Item)
 > **Guide to Safe Scouting Warning:** Wear safety glasses and work in a well ventilated space when using workshop tools and adhesives.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Inventing Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** A working prototype that operates successfully once will never fail during regular daily use.
@@ -352,7 +352,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Collaborative Engineering And Exploration
+### Req 8: Collaborative Engineering and Exploration
 **Official Requirement 8 (Parent Overview):** Do ONE of the following: (a) Participate with a club or team (robotics team, science club, or engineering club) that builds a useful item. Share your experience with your counselor. (b) Visit a museum or exhibit dedicated to an inventor or invention, and create a presentation of your visit to share with a group such as your troop or patrol.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 54, p. 84)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Observe all workshop safety zones and electrical lockouts during team fabrication activities.
@@ -360,7 +360,7 @@
 - **Pamphlet Fact:** Engineering teams leverage specialized member roles to solve complex fabrication challenges efficiently.
 
 **Official Pamphlet Summary:**
-- Team engineering competitions foster specialized technical coordination across mechanics, wiring, and code.
+- Team engineering competitions build specialized technical coordination across mechanics, wiring, and code.
 - Museum Innovation Immersion: Examining historical prototype galleries reveals incremental technological evolutionary stages across diverse eras.
 - Team Milestone Tracking: Structured engineering reviews ensure complex collaborative projects meet strict delivery schedule milestones.
 - Public Presentation Delivery: Explaining technological exhibits to troop audiences reinforces personal mastery of complex engineering.
@@ -394,7 +394,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Inventor Skills And Career Pathways
+### Req 9: Inventor Skills and Career Pathways
 **Official Requirement 9:** Discuss with your counselor the diverse skills, education, training, and experience it takes to be an inventor. Discuss how you can prepare yourself to be creative and inventive to solve problems at home, in school, and in your community. Discuss three career fields that might utilize the skills of an inventor.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 53, p. 89)* • **Organizer (Career & Profession Exploration Card):** Req 9 Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Maintain proper ergonomic posture and eye rest cycles during extensive CAD design sessions.
@@ -411,7 +411,7 @@
 
 **Official Pamphlet Summary:**
 - Multidisciplinary Skill Synthesis: Modern inventing demands proficiency across physics, spatial drafting, material chemistry, and finance.
-- Practicing deliberate lateral thinking exercises fosters creative solutions to mundane household challenges.
+- Practicing deliberate lateral thinking exercises builds creative solutions to mundane household challenges.
 - Market Feasibility Assessment: Comprehensive business plans analyze tooling costs, distribution channels, and retail profit margins.
 - Professional Career Pathways: Engineering disciplines offer structured vocational avenues for developing commercial technological innovations.
 

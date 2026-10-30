@@ -232,7 +232,7 @@
 
 #### Req 5a: Exploration Sponsoring Institution Engagement
 **Official Requirement 5a:** With your parent or guardian's permission and counselor's approval, visit either in person or via the internet an exploration sponsoring organization (such as The Explorers Club, National Geographic Society, Smithsonian Institution, American Alpine Club, World Wildlife Fund, or similar organization). Find out what type(s) of exploration the organization supports.
-**Source:** *Official Scouting America Exploration Merit Badge Pamphlet (p. 73, p. 79)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Person or Via The Internet)
+**Source:** *Official Scouting America Exploration Merit Badge Pamphlet (p. 73, p. 79)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Person or Via the Internet)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Exploration Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Exploration societies exist solely as private social dining clubs for wealthy global travelers.
 - **Pamphlet Fact:** These institutions distribute peer-reviewed research grants, publish academic journals, and set international conservation safety standards.
@@ -409,7 +409,7 @@
 
 #### Req 7a: Qualified Expedition Leader Supervision
 **Official Requirement 7a:** Make your preparations under the supervision of a trained expedition leader, expedition planner, or other qualified adult experienced in exploration (such as a school science teacher, museum representative, or qualified instructor)
-**Source:** *Official Scouting America Exploration Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Preparations Under The Supervision)
+**Source:** *Official Scouting America Exploration Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Preparations Under the Supervision)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Exploration Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Any adult companion qualifies as an experienced expedition planner regardless of their outdoor background.
 - **Pamphlet Fact:** Mentors must possess demonstrated field experience, risk assessment training, or subject matter expertise in the operational environment.

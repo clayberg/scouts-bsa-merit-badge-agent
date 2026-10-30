@@ -104,7 +104,7 @@
 
 #### Req 2b: Consumer Fireworks Hazard Awareness
 **Official Requirement 2b:** Discuss the dangers involved with the use of fireworks.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss The Dangers)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss the Dangers)
 - **Common Myth:** Handheld sparklers are harmless novelty toys suitable for unsupervised young children.
 - **Pamphlet Fact:** Sparkler tips burn at temperatures exceeding twelve hundred degrees Fahrenheit, hot enough to melt glass and ignite clothing.
 
@@ -132,7 +132,7 @@
 
 #### Req 2d: Domestic Checklist Safety Inspection
 **Official Requirement 2d:** Using the Home Safety Checklist in the Safety merit badge pamphlet, or one approved by your counselor, inspect your home or a similar building for hazards with an adult. Review your checklist and findings with your counselor.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Home Safety Checklist in The)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Home Safety Checklist in the)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Safety Req 2d preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** A passing inspection conducted three years ago guarantees current home safety standards.
 - **Pamphlet Fact:** Regular quarterly checklist audits catch degraded equipment, expired fire extinguishers, and new clutter before accidents happen.
@@ -211,7 +211,7 @@
 
 #### Req 3b: Physical Residential Security Assessment
 **Official Requirement 3b:** Using a Home Security Checklist in the Safety merit badge pamphlet or one approved by your counselor, inspect your home or a similar building for crime security measures with an adult. Review your checklist and findings with your counselor.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Home Security Checklist in The)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Home Security Checklist in the)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Safety Req 3b preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Standard interior spring latch door locks offer adequate protection against forced home entry.
 - **Pamphlet Fact:** Spring latches can be bypassed in seconds using simple hand tools unless backed by a heavy-duty deadbolt.
@@ -240,7 +240,7 @@
 
 #### Req 4a: Public Facility Emergency Egress
 **Official Requirement 4a:** How a person would safely exit from public buildings, a hotel, and a stadium in an emergency.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Person Would Safely Exit From)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Person Would Safely Exit from)
 - **Common Myth:** Elevators provide the fastest evacuation route from upper floors of a burning hotel.
 - **Pamphlet Fact:** Elevators can lose electrical power, fill with smoke, or open directly onto burning floors.
 
@@ -254,7 +254,7 @@
 
 #### Req 4b: Outdoor Camp Shelter Protocols
 **Official Requirement 4b:** How and why Scouts would take shelter at camp.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Would Take Shelter At Camp)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Would Take Shelter at Camp)
 - **Common Myth:** Gathering beneath a tall, isolated tree provides adequate shelter from driving rain and lightning.
 - **Pamphlet Fact:** Tall solitary trees attract direct ground strikes and transmit fatal side-flash electrical currents to nearby individuals.
 
@@ -323,7 +323,7 @@
 
 #### Req 5b: Abuse Recognition and Resistance
 **Official Requirement 5b:** Discuss with your counselor what situations and behaviors would prompt you to Recognize, Resist, and Report a possible abuse situation.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
 - **Common Myth:** Abuse always involves sudden physical violence rather than gradual manipulative boundary erosion.
 - **Pamphlet Fact:** Perpetrators frequently use subtle emotional manipulation, special privileges, and secrecy to cross boundaries gradually.
 
@@ -378,7 +378,7 @@
 
 #### Req 6b: Restaurant Venue Altercation Avoidance
 **Official Requirement 6b:** Assault at a restaurant event.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Assault At A Restaurant Event)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Assault at A Restaurant Event)
 - **Common Myth:** Defending personal pride by trading insults is necessary when challenged in a public venue.
 - **Pamphlet Fact:** Verbal engagement escalates conflict; withdrawing immediately preserves physical safety and prevents criminal entanglements.
 
@@ -392,7 +392,7 @@
 
 #### Req 6c: Social Setting Boundary Defense
 **Official Requirement 6c:** Sexual assault at a party or on a date.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Sexual Assault At A Party)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Sexual Assault at A Party)
 - **Common Myth:** Sexual assault is committed almost exclusively by masked predators hiding in dark alleys.
 - **Pamphlet Fact:** Most sexual assaults are committed by acquaintances, classmates, or dating partners who disregard explicit verbal boundaries.
 
@@ -419,7 +419,7 @@
 
 #### Req 7a: Online Crime Victimization Defense
 **Official Requirement 7a:** How to avoid being the victim of online crimes.
-**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Avoid Being The Victim of)
+**Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Avoid Being the Victim of)
 - **Common Myth:** Having active antivirus software guarantees total immunity from online criminal exploits.
 - **Pamphlet Fact:** Antivirus cannot prevent users from willingly surrendering credentials to fraudulent websites or social engineers.
 

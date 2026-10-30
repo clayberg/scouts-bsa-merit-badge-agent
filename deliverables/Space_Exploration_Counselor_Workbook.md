@@ -103,7 +103,7 @@
 
 ### Req 2: Space Pioneers Biographical Study
 **Official Requirement 2:** Design a collector's card, with a picture on the front and information on the back, about your favorite space pioneer. Share your card and discuss four other space pioneers with your counselor.
-**Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 23, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Collector's Card With A Picture)
+**Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 23, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Collector's Card with A Picture)
 > **Guide to Safe Scouting Warning:** Handle paper cutters and archival laminating presses with designated mechanical safety shields engaged.
 - **Common Myth:** Early rocket pioneers achieved orbital flight during their initial workshop engine tests.
 - **Pamphlet Fact:** Konstantin Tsiolkovsky derived the rocket equation mathematically without ever building working hardware.
@@ -348,7 +348,7 @@
 
 #### Req 5a: Crewed Robotic Mission Comparison
 **Official Requirement 5a:** Discuss with your counselor a robotic space exploration mission and a historic crewed mission. Tell about each mission's major discoveries, its importance, and what was learned from it about the planets, moons, or regions of space explored.
-**Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Discuss With Your Counselor A)
+**Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor A)
 - **Common Myth:** Robotic rovers have already returned more physical soil samples than crewed missions.
 - **Pamphlet Fact:** Apollo astronauts gathered hundreds of kilograms of pristine bedrock from diverse landing sites.
 
@@ -363,7 +363,7 @@
 
 #### Req 5b: Planetary Mission Digital Media
 **Official Requirement 5b:** Using articles from the internet, photographs and text, create a blog, website, or slide show about a current planetary mission or use magazine photographs, news clippings, and articles from the internet to make a scrapbook about a current planetary mission.
-**Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist (Articles From The Internet)
+**Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist (Articles from the Internet)
 - **Common Myth:** Planetary mission web logs only publish artist impressions rather than scientific telemetry.
 - **Pamphlet Fact:** Space agencies publish raw mission telemetry and calibrated imagery files for public research.
 

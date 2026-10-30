@@ -202,7 +202,7 @@
 
 #### Req 4d: Emergency Evacuation Aid Planning
 **Official Requirement 4d:** Determine how to summon aid to the climbing area in case of an emergency. Discuss what medical training is needed for your group when climbing and rappelling in remote areas.
-**Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Summon Aid to The Climbing)
+**Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Summon Aid to the Climbing)
 - **Common Myth:** Calling nine one one from a remote crag guarantees instant medical evacuation by helicopter.
 - **Pamphlet Fact:** Backcountry climbing requires wilderness first responders because professional rescue teams take hours to arrive.
 
@@ -516,7 +516,7 @@
 
 ### Req 9: Pre-Climb CHECK Inspection System
 **Official Requirement 9:** Identify the elements of the CHECK system and describe the meaning of each one to your counselor.
-**Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Elements of The CHECK System)
+**Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 59, p. 60)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Elements of the CHECK System)
 > **Guide to Safe Scouting Warning:** Both partners must physically touch and visually verify each CHECK element before committing to ropes.
 - **Common Myth:** Experienced climbers can skip buddy safety checks if they tied their own gear carefully.
 - **Pamphlet Fact:** The CHECK acronym stands for Clothing, Harness, Environment, Carabiners, and Knots in pre-climb buddy inspections.
@@ -649,7 +649,7 @@
 
 #### Req 11b: Ascent Route Climbing Execution
 **Official Requirement 11b:** Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer.
-**Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Climb At Least Three Different)
+**Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Climb at Least Three Different)
 - **Common Myth:** Successful climbing relies primarily on massive upper-body pull-up strength and large arm muscles.
 - **Pamphlet Fact:** Climbing with straight arms transfers weight onto skeletal structure, conserving critical forearm endurance.
 

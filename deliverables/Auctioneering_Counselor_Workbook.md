@@ -34,7 +34,7 @@
 
 ### Req 1: Global Auction History Evolution
 **Official Requirement 1:** Discuss with your counselor the history of auctions worldwide. Cite where these auctions were held and the types of items sold.
-**Source:** *Auctioneering Test Lab Resource Guide, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Auctioneering Test Lab Resource Guide, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Guide to Safe Scouting Warning:** Maintain safe situational awareness when handling historical artifacts or touring aged estate archives during provenance research.
 - **Common Myth:** Auctions originated as a modern American invention for selling salvaged agricultural equipment and surplus household goods.
 - **Pamphlet Fact:** Auctions originated in ancient Babylon and Rome thousands of years before American colonial auction houses formed.
@@ -77,7 +77,7 @@
 
 ### Req 3: Auction Versus Traditional Sales
 **Official Requirement 3:** Describe to your counselor the differences and similarities between the auction method and the traditional method of sales.
-**Source:** *Auctioneering Test Lab Resource Guide, pp. 16-21* • **Organizer (2-Column Comparison Table):** Req 3 Technical Comparison Matrix (Similarities Between The Auction)
+**Source:** *Auctioneering Test Lab Resource Guide, pp. 16-21* • **Organizer (2-Column Comparison Table):** Req 3 Technical Comparison Matrix (Similarities Between the Auction)
 > **Guide to Safe Scouting Warning:** Examine auction preview sites for trip hazards, loose electrical cables, and unstable stacked lot staging.
 - **Common Myth:** Auctions are only suitable as a desperate last resort for distressed goods sold below wholesale value.
 - **Pamphlet Fact:** Auctions frequently achieve record premium prices for unique assets through intense, transparent open market competitive bidding.
@@ -167,7 +167,7 @@
 
 #### Req 5A: Auctionable Asset Classifications
 **Official Requirement 5A:** Types of assets sold at auction.
-**Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5A Structured Technical Study & Explanation Matrix (Assets Sold At Auction)
+**Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5A Structured Technical Study & Explanation Matrix (Assets Sold at Auction)
 - **Common Myth:** Only second hand used household furniture and old knickknacks sell at commercial auctions.
 - **Pamphlet Fact:** Multimillion dollar industrial manufacturing plants, commercial real estate, and municipal utilities routinely sell at auction.
 
@@ -193,7 +193,7 @@
 
 #### Req 5C: Auction Delivery Format Selection
 **Official Requirement 5C:** List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus a simulcast auction.
-**Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Organizer (2-Column Comparison Table):** Req 5C Technical Comparison Matrix (Auction Formats and The Benefits)
+**Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Organizer (2-Column Comparison Table):** Req 5C Technical Comparison Matrix (Auction Formats and the Benefits)
 - **Common Myth:** Simulcast auctions require remote bidders to phone in bids manually to an assistant.
 - **Pamphlet Fact:** Simulcast platforms stream live audio and video while instantly syncing internet clicks with floor bidding.
 

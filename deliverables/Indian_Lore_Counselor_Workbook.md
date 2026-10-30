@@ -163,7 +163,7 @@
 
 #### Req 4b: Adopted Native American Contributions
 **Official Requirement 4b:** Describe eight things adopted by others from American Indians.
-**Source:** *Official Scouting America Indian Lore Merit Badge Pamphlet (p. 9, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Adopted By Others From American)
+**Source:** *Official Scouting America Indian Lore Merit Badge Pamphlet (p. 9, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Adopted by Others from American)
 - **Common Myth:** People often think modern sports like lacrosse and snowshoe racing were invented by European settlers.
 - **Pamphlet Fact:** Lacrosse, snowshoes, toboggans, and rubber balls originated among Native American nations centuries before colonial contact.
 
@@ -205,9 +205,9 @@
 
 #### Req 5a: Museum Artifact Exhibition Analysis
 **Official Requirement 5a:** Visit a museum either in-person or virtually to see American Indian exhibitions and collections. Discuss with your counselor what you observed or learned from two exhibitions and identify 10 artifacts by tribe or nation, their shape, size, and use.
-**Source:** *Official Scouting America Indian Lore Merit Badge Pamphlet (p. 37, p. 92)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Museum Either In-person or Virtually)
+**Source:** *Official Scouting America Indian Lore Merit Badge Pamphlet (p. 37, p. 92)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Museum Either in-person or Virtually)
 - **Common Myth:** Visitors often assume museum artifacts were simple crude survival tools made without artistic design.
-- **Pamphlet Fact:** Indigenous artifacts demonstrate master engineering, intricate aesthetic ornamentation, and deep spiritual symbolism.
+- **Pamphlet Fact:** Indigenous artifacts demonstrate master engineering, detailed aesthetic ornamentation, and deep spiritual symbolism.
 
 ![A historical map traces the forced relocation routes taken during the Trail of Tears.](/assets/pamphlet_images/indian_lore_p037_img1.png)
 

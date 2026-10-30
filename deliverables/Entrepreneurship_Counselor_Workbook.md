@@ -271,7 +271,7 @@
 
 #### Req 5c(3): Revenue Allocation and Reinvestment Strategy
 **Official Requirement 5c(3):** Describe what will happen with the money you make from the sales of your product or service.
-**Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5c(3) Structured Technical Study & Explanation Matrix (Will Happen With The Money)
+**Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5c(3) Structured Technical Study & Explanation Matrix (Will Happen with the Money)
 - **Common Myth:** All cash collected from customers can be immediately withdrawn and spent as personal pocket money.
 - **Pamphlet Fact:** Gross revenue must first pay for replacement inventory, operating overhead, and debt repayment before any net earnings can be taken home.
 
@@ -348,7 +348,7 @@
 
 #### Req 5e(2): Digital Outreach and Online Promotion
 **Official Requirement 5e(2):** Explain how you will utilize the internet and social media to increase awareness of your product or service.
-**Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5e(2) Structured Technical Study & Explanation Matrix (You Will Utilize The Internet)
+**Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5e(2) Structured Technical Study & Explanation Matrix (You Will Utilize the Internet)
 - **Common Myth:** Posting a business advertisement on personal social media guarantees instant viral sales without targeted community engagement or adult guidance.
 - **Pamphlet Fact:** Online business promotion requires consistent posting of professional content, active parent or guardian supervision, and strict adherence to digital safety guidelines.
 

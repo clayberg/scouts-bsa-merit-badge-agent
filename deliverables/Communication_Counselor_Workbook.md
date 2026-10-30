@@ -19,7 +19,7 @@
 | **5** | Req 5: Public Meeting Objective Report | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Communication Merit Badge Pamphlet (p. 30, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Instructional Skill Teaching Plan | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Communication Merit Badge Pamphlet (p. 37, p. 39) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Mass Media Written Publications | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Ceremonial Master Of Ceremonies | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Ceremonial Master of Ceremonies | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Communication Career Pathway Research | Explain | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Communication Merit Badge Pamphlet (p. 71, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -131,7 +131,7 @@
 **Official Requirement 2a:** Think of a creative way to describe yourself using, for example, a collage, short story or autobiography, drawing or series of photographs, or a song or skit. Using the aid you created, make a presentation to your counselor about yourself.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Think of A Creative)
 - **Common Myth:** A creative personal presentation requires displaying every possession and childhood memory chronologically.
-- **Pamphlet Fact:** Selecting three to five pivotal artifacts creates a focused, memorable personal presentation.
+- **Pamphlet Fact:** Selecting three to five major artifacts creates a focused, memorable personal presentation.
 
 ![Communication Requirement 2 figure showing choose collages or photographs that illustrate personal background attributes and values.](/assets/pamphlet_images/communication_p007_img1.png)
 
@@ -326,7 +326,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Ceremonial Master Of Ceremonies
+### Req 8: Ceremonial Master of Ceremonies
 **Official Requirement 8:** Plan a troop or crew court of honor, campfire program, or an interfaith worship service. Have the patrol leaders' council approve it, then write the script and prepare the program. Serve as master of ceremonies.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 57, p. 68)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Crew Court of Honor Campfire)
 > **Guide to Safe Scouting Warning:** Check stage stairs, lighting cords, and campfire perimeters for clear walking pathways.

@@ -82,7 +82,7 @@
 
 #### Req 2b: Enterprise Workplace Operational Deployments
 **Official Requirement 2b:** Identify five examples of how AI is currently used in the workplace.
-**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Currently Used in The Workplace)
+**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Currently Used in the Workplace)
 - **Common Myth:** Workplace AI tools operate exclusively as text generation bots rather than industrial monitoring engines.
 - **Pamphlet Fact:** Modern enterprise diagnostic systems process acoustic vibration telemetry to schedule proactive maintenance before mechanical failures occur.
 
@@ -94,9 +94,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c: Academic And Educational Implementations
+#### Req 2c: Academic and Educational Implementations
 **Official Requirement 2c:** Identify five examples of how AI can be used at school or in support of your education.
-**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Can Be Used At School)
+**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Can Be Used at School)
 - **Common Myth:** Digital classroom tutoring platforms simply present predetermined textbook pages regardless of individual user mastery.
 - **Pamphlet Fact:** Educational software platforms deploy item response theory algorithms to adjust quiz difficulty based on student response patterns.
 
@@ -121,7 +121,7 @@
 
 #### Req 2e: Historical Artificial Intelligence Milestones
 **Official Requirement 2e:** Create a timeline with five key milestones in the development of artificial intelligence.
-**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Timeline With Five Key Milestones)
+**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Timeline with Five Key Milestones)
 - **Common Myth:** Artificial intelligence development originated during the launch of cloud-hosted commercial neural networks in 2012.
 - **Pamphlet Fact:** The 1956 Dartmouth Summer Research Project formally established artificial intelligence as an independent academic research field.
 
@@ -172,7 +172,7 @@
 
 #### Req 3c: School Administrative Automation Tools
 **Official Requirement 3c:** Identify five examples of how automation can be used at school or in support of your education.
-**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Automation Can Be Used At)
+**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Automation Can Be Used at)
 - **Common Myth:** Automated student record systems require human administrators to confirm each individual daily entrance timestamp.
 - **Pamphlet Fact:** Automated school attendance systems log student entrance scans directly to central administration servers via card badges.
 
@@ -196,7 +196,7 @@
 
 #### Req 3e: Automation Technological Historical Milestones
 **Official Requirement 3e:** Create a timeline with five significant milestones in automation development.
-**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Timeline With Five Significant Milestones)
+**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Timeline with Five Significant Milestones)
 - **Common Myth:** Mechanical automation originated exclusively with the invention of semiconductor microprocessors in modern silicon factories.
 - **Pamphlet Fact:** The 1788 Watt centrifugal governor introduced self-regulating feedback loops to control industrial steam engine operations.
 
@@ -329,7 +329,7 @@
 
 #### Req 6a: Neural Training Process Limitations
 **Official Requirement 6a:** Discuss the learning process for AI and its limitations.
-**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Discuss The Learning Process)
+**Source:** *Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Discuss the Learning Process)
 - **Common Myth:** Language models possess internal conceptual knowledge and understand the literal meaning of their outputs.
 - **Pamphlet Fact:** Large language models calculate token probabilities based on historical training data rather than conscious reasoning.
 

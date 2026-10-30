@@ -190,7 +190,7 @@
 
 ### Req 4: Abandoned Mine Site Hazards
 **Official Requirement 4:** Discuss with your counselor the dangers someone might encounter at an abandoned mine or quarry.
-**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 76)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 76)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Guide to Safe Scouting Warning:** Never enter an abandoned mine opening, adit, or quarry pit under any circumstances.
 - **Common Myth:** Abandoned mines look stable if the wooden framing timbers appear intact and dry from outside.
 - **Pamphlet Fact:** Dry rot weakens old wood timbers internally, allowing sudden roof collapse under minimal ground vibration.
@@ -225,7 +225,7 @@
 
 #### Req 5a: Comparative Virtual Mine Tours
 **Official Requirement 5a:** With your parent or guardian's approval and your counselor's assistance, use the internet to find and take a virtual tour of two types of mines. Determine the similarities and differences between them regarding resource exploration, mine planning and permitting, types of equipment used, and the minerals produced. Discuss with your counselor what you learned from your internet-based mine tours.
-**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Assistance Use The Internet)
+**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Assistance Use the Internet)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Mining in Society Req 5a with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Surface mines and underground mines share the same equipment sizes and haul truck dimensions.
 - **Pamphlet Fact:** Surface mines utilize ultra-class haul trucks reaching four hundred tons, while underground mines use compact low-profile loaders.
@@ -310,7 +310,7 @@
 
 #### Req 5f: Local Mine Historical Study
 **Official Requirement 5f:** Learn about the history of a local mine, including what is or was mined there, how the deposit was found, the mining techniques and processes used, and how the mined resource is or was used. Find out from a historian, community leader, or business person how mining has affected your community. Note any social, cultural, or economic consequences of mining in your area. Share what you have learned with your counselor.
-**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Learn About The History)
+**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Learn About the History)
 - **Common Myth:** Historic local mines closed exclusively because every single trace of subsurface mineral was extracted.
 - **Pamphlet Fact:** Mines often closed when extraction costs exceeded prevailing market prices or groundwater pumping became uneconomical.
 
@@ -375,7 +375,7 @@
 
 #### Req 6c: Post-Mining Land Transformation
 **Official Requirement 6c:** Discuss with your counselor what values society has about returning the land to the benefit of wildlife and people after mining has ended. Discuss the transformation of the Summit Bechtel Reserve from a mine site to its current role.
-**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
+**Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
 - **Common Myth:** Reclaimed mine property cannot safely support high-adventure human activities or complex permanent infrastructure.
 - **Pamphlet Fact:** Engineered reclamation creates stable ground suitable for national jamborees, zip lines, and major recreational complexes.
 

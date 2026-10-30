@@ -12,9 +12,9 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Laboratory Safety And Equipment Protection | Explain | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 4-9 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Laboratory Safety and Equipment Protection | Explain | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 4-9 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Fundamental Physics Discipline Scope | Discuss | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 10-15 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Fundamental Mechanics And Wave Principles | Explain | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Fundamental Mechanics and Wave Principles | Explain | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4A** | Newton's Laws in Action: Balloon-Powered Car: Core Requirements & Field Demonstration | Show | `Hands-On Skill Station` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4B** | Momentum: Stacked Ball Drop: Core Requirements & Field Demonstration | Show | `In-Class Discussion` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4C** | Centrifugal Force: Core Requirements & Field Demonstration | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -24,7 +24,7 @@
 | **4G** | Cartesian Diver: Core Requirements & Field Demonstration | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4H** | Air Pressure: Bernoulli's principle and the Coandă Effect: Core Requirements & Field Demonstration | Explain | `In-Class Discussion` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4I** | Electromagnet: Core Requirements & Field Demonstration | Explain | `In-Class Discussion` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Everyday Environmental And Technological Physics | Discuss | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 28-33 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Everyday Environmental and Technological Physics | Discuss | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 28-33 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6A** | Unsolved Mysteries of Physics: Core Requirements & Field Demonstration | Discuss | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 34-39 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6B** | Quantum Mechanics & Computing: Core Requirements & Field Demonstration | Discuss | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 34-39 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6C** | Space Exploration & Astrophysics: Core Requirements & Field Demonstration | Discuss | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 34-39 | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -34,7 +34,7 @@
 | **7C** | Egg Drop Challenge: Core Requirements & Field Demonstration | Explain | `In-Class Discussion` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 40-45 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7D** | Water Bottle Rockets: Core Requirements & Field Demonstration | Explain | `In-Class Discussion` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 40-45 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7E** | Design your Own Physics Challenge: Core Requirements & Field Demonstration | Explain | `In-Class Discussion` | **In-Class Demonstration** | Physics Test Lab Resource Guide, pp. 40-45 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Physics Vocations And Avocational Pursuits | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Physics Test Lab Resource Guide, pp. 46-51 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Physics Vocations and Avocational Pursuits | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Physics Test Lab Resource Guide, pp. 46-51 | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Experimental Test Laboratory Evaluation | Complete | `In-Class Discussion` | **In-Class Concept** | Physics Test Lab Resource Guide, pp. 52-57 | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -60,7 +60,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Laboratory Safety And Equipment Protection
+### Req 1: Laboratory Safety and Equipment Protection
 **Official Requirement 1:** Safety. Before conducting any experiments, explain to your counselor the safety precautions and personal protective equipment necessary for working with physics-related equipment.
 **Source:** *Physics Test Lab Resource Guide, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Safety Before Conducting Any Experiments)
 > **Guide to Safe Scouting Warning:** Wear ANSI Z87.1 approved safety spectacles and tie back loose hair before operating pressurized apparatus or thermal sources.
@@ -109,7 +109,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Fundamental Mechanics And Wave Principles
+### Req 3: Fundamental Mechanics and Wave Principles
 **Official Requirement 3:** Fundamentals of Physics. Explain these key physics concepts: force, motion, energy, and waves. Provide real-world examples demonstrating each principle.
 **Source:** *Physics Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Fundamentals of Physics Explain These)
 > **Guide to Safe Scouting Warning:** Maintain safe standoff perimeters around rotating mechanical linkages to prevent entanglement injuries from kinetic flywheel energy.
@@ -269,7 +269,7 @@
 | **2. Visualize Chladni patterns using a tonoscope.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- A tonoscope translates vocal sound waves into structural geometric patterns upon a flexible resonant membrane. Vibrational nodes remain stationary while anti-nodes throw light particles into intricate symmetrical Chladni figures.
+- A tonoscope translates vocal sound waves into structural geometric patterns upon a flexible resonant membrane. Vibrational nodes remain stationary while anti-nodes throw light particles into detailed symmetrical Chladni figures.
 - Scouts BSA Test Lab Resource Guide: Physics Requirement 6 ?.
 - Physicists try to explain the universe and apply these concepts to novel technologies.
 - Discuss one option with your counselor: (A) Option A: Unsolved Mysteries of Physics.
@@ -341,7 +341,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Everyday Environmental And Technological Physics
+### Req 5: Everyday Environmental and Technological Physics
 **Official Requirement 5 (Parent Overview):** Physics All Around You. Discuss with your counselor: (a) Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances. (b) Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration. (c) Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation. (d) Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering.
 **Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Disconnect power cords and avoid contacting moving parts when inspecting the mechanical drives of household appliances.
@@ -369,7 +369,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b: Orbital Mechanics And Astronautics
+#### Req 5b: Orbital Mechanics and Astronautics
 **Official Requirement 5b:** Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration.
 **Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Physics in Space Exploration)
 - **Common Myth:** Spacecraft cannot maneuver inside orbital space because there is no surrounding atmosphere to push.
@@ -382,9 +382,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Environmental Thermodynamics And Energy
+#### Req 5c: Environmental Thermodynamics and Energy
 **Official Requirement 5c:** Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation.
-**Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Physics in The Environment)
+**Source:** *Physics Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Physics in the Environment)
 - **Common Myth:** Wind turbines produce electrical power by pushing incoming air currents forward like massive outdoor fans.
 - **Pamphlet Fact:** Photovoltaic cells use the photoelectric effect to release conduction electrons directly from doped silicon semi-conductor junctions.
 
@@ -421,7 +421,7 @@
 - Scouts BSA Test Lab Resource Guide: Physics Requirement 6 ?.
 - Physicists try to explain the universe and apply these concepts to novel technologies.
 
-#### Req 6A(a): Dark Matter And Dark Energy
+#### Req 6A(a): Dark Matter and Dark Energy
 **Official Requirement 6A(a):** Dark Matter & Dark Energy. Scientists know it exists.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6A(a) Structured Technical Study & Explanation Matrix (Dark Matter Dark Energy Scientists)
 - **Common Myth:** Dark matter and dark energy represent the same mysterious substance observed in different regions of space.
@@ -436,7 +436,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6A(b): Black Holes And Traversable Wormholes
+#### Req 6A(b): Black Holes and Traversable Wormholes
 **Official Requirement 6A(b):** Black Holes & Wormholes. Can we harness their energy or travel through them.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6A(b) Structured Technical Study & Explanation Matrix (Black Holes Wormholes Can We)
 - **Common Myth:** A black hole acts like a giant cosmic vacuum cleaner actively roaming space to suck in distant planets.
@@ -462,7 +462,7 @@
 - Scouts BSA Test Lab Resource Guide: Physics Requirement 6 ?.
 - Physicists try to explain the universe and apply these concepts to novel technologies.
 
-#### Req 6B(a): Principles Of Quantum Computing Systems
+#### Req 6B(a): Principles of Quantum Computing Systems
 **Official Requirement 6B(a):** Quantum Computers. How can super fast computers be made of atoms instead of microchips.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6B(a) Structured Technical Study & Explanation Matrix (Quantum Computers How Can Super)
 - **Common Myth:** Quantum computers are simply faster desktop computers that run everyday programs and games at hyper speeds.
@@ -475,7 +475,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6B(b): Quantum Entanglement And Information Transfer
+#### Req 6B(b): Quantum Entanglement and Information Transfer
 **Official Requirement 6B(b):** Quantum Entanglement. Can we communicate instantly across space.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6B(b) Structured Technical Study & Explanation Matrix (Quantum Entanglement Can We Communicate)
 - **Common Myth:** Entangled particles allow observers to transmit instant telegraph messages or voice communications across interstellar distances.
@@ -501,7 +501,7 @@
 - Scouts BSA Test Lab Resource Guide: Physics Requirement 6 ?.
 - Physicists try to explain the universe and apply these concepts to novel technologies.
 
-#### Req 6C(a): Physics Of Martian Planetary Habitation
+#### Req 6C(a): Physics of Martian Planetary Habitation
 **Official Requirement 6C(a):** Colonizing Mars. How can physics help humans live on other planets.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6C(a) Structured Technical Study & Explanation Matrix (Colonizing Mars How Can Physics)
 - **Common Myth:** Astronauts on Mars can breathe outdoors simply by wearing warm coats because the planet holds a thick carbon dioxide atmosphere.
@@ -514,7 +514,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6C(b): Mechanics Of Deep Interstellar Travel
+#### Req 6C(b): Mechanics of Deep Interstellar Travel
 **Official Requirement 6C(b):** Interstellar Travel. Can we reach other stars with warp drives or solar sails.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6C(b) Structured Technical Study & Explanation Matrix (Interstellar Travel Can We Reach)
 - **Common Myth:** Solar sails move through space by catching the physical solar wind of charged gas particles blowing from stars.
@@ -540,7 +540,7 @@
 - Scouts BSA Test Lab Resource Guide: Physics Requirement 6 ?.
 - Physicists try to explain the universe and apply these concepts to novel technologies.
 
-#### Req 6D(a): Relativistic Time Dilation And Spacetime
+#### Req 6D(a): Relativistic Time Dilation and Spacetime
 **Official Requirement 6D(a):** Time Travel. Is it possible under extreme conditions.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6D(a) Structured Technical Study & Explanation Matrix (Time Travel Is It Possible)
 - **Common Myth:** Time travel backward into the past is an engineering problem that humans will solve with faster spaceships.
@@ -553,7 +553,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6D(b): Centripetal Acceleration In Space Stations
+#### Req 6D(b): Centripetal Acceleration in Space Stations
 **Official Requirement 6D(b):** Artificial Gravity. Can we create Earth-like gravity in space stations.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6D(b) Structured Technical Study & Explanation Matrix (Artificial Gravity Can We Create)
 - **Common Myth:** Science fiction anti-gravity plating exists as a known physical field that engineers can install beneath floors in space stations.
@@ -572,7 +572,7 @@
 > **Guide to Safe Scouting Warning:** Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Physics Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Placing heavy ballast weight over the front wheels makes Pinewood Derby cars roll faster down slopes.
-- **Pamphlet Fact:** Placing ballast mass rearward elevates initial gravitational potential energy while wheel polishing minimizes friction.
+- **Pamphlet Fact:** Placing ballast mass rearward raises initial gravitational potential energy while wheel polishing minimizes friction.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -611,7 +611,7 @@
 
 ### Req 7C: Egg Drop Challenge: Core Requirements & Field Demonstration
 **Official Requirement 7C:** Option C: Egg Drop Challenge. Explore the physics of energy and momentum by building a structure using household materials to prevent an egg from breaking when dropped from a significant height. The location of the egg drop must be approved by your counselor.
-**Source:** *Physics Test Lab Resource Guide, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7C Structured Technical Study & Explanation Matrix (Egg Drop Challenge Explore The)
+**Source:** *Physics Test Lab Resource Guide, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7C Structured Technical Study & Explanation Matrix (Egg Drop Challenge Explore the)
 > **Guide to Safe Scouting Warning:** Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Physics Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Rigid unyielding impact shields protect an egg better than soft deformable crumple zone structures.
@@ -674,7 +674,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Physics Vocations And Avocational Pursuits
+### Req 8: Physics Vocations and Avocational Pursuits
 **Official Requirement 8 (Parent Overview):** Careers. Do ONE of the following: (a) Explore careers related to this badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Physics Test Lab Resource Guide, pp. 46-51* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Ensure safe posture and appropriate screen ergonomics when conducting extended digital database career research.

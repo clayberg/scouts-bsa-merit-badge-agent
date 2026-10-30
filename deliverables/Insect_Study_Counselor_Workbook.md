@@ -61,7 +61,7 @@
 
 #### Req 1b: Insect Bite Medical Treatment
 **Official Requirement 1b:** Discuss the prevention of and treatment for health concerns that could occur while working with ants and bees, including insect bites and anaphylactic shock.
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 36, p. 72)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 36, p. 72)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
 - **Common Myth:** Scouts sometimes believe that systemic anaphylaxis symptoms always develop hours after the initial sting.
 - **Pamphlet Fact:** Severe anaphylactic shock can manifest within minutes of envenomation, causing rapid airway closure.
 
@@ -88,7 +88,7 @@
 
 #### Req 2a: Arthropod Distinguishing Diagnostic Characteristics
 **Official Requirement 2a:** Tell how insects are different from other animals.
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Insects Are Different From Other)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Insects Are Different from Other)
 - **Common Myth:** Scouts sometimes think an insect has red blood and an internal spine.
 - **Pamphlet Fact:** Insects lack an internal vertebral column and circulate clear or yellowish hemolymph through a dorsal vessel.
 
@@ -102,7 +102,7 @@
 
 #### Req 2b: Arachnid and Myriapod Differentiation
 **Official Requirement 2b:** Show how insects are different from millipedes and spiders.
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Insects Are Different From Millipedes)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Insects Are Different from Millipedes)
 - **Common Myth:** Scouts frequently guess that millipedes possess a thousand legs and inflict venomous stings.
 - **Pamphlet Fact:** Millipedes possess two pairs of legs per body segment, feed as detritivores, and do not possess stingers.
 
@@ -116,7 +116,7 @@
 
 #### Req 2c: Insect Anatomical Body Parts
 **Official Requirement 2c:** Point out and name the main parts of an insect.
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Out and Name The Main)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Out and Name the Main)
 - **Common Myth:** Scouts often assume that an insect breathes through mouthparts on its head.
 - **Pamphlet Fact:** Insects respire through lateral abdominal and thoracic spiracles connected to an internal network of tracheal tubes.
 
@@ -130,7 +130,7 @@
 
 #### Req 2d: Major Insect Taxonomic Orders
 **Official Requirement 2d:** Describe the characteristics that distinguish the major orders of insects.
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Characteristics That Distinguish The Major)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Characteristics That Distinguish the Major)
 - **Common Myth:** Scouts commonly believe all winged insects have four functional flight wings of identical texture.
 - **Pamphlet Fact:** Beetles convert their forewings into hardened protective elytra, while true flies reduce hindwings into balancing halteres.
 
@@ -233,7 +233,7 @@
 
 #### Req 4c: Taxonomic Scrapbook Collection
 **Official Requirement 4c:** Make a scrapbook of the 20 insects you observe in 4(b). Include photographs, sketches, illustrations, and articles. Label each insect with its common and scientific names, where possible. Share your scrapbook with your counselor. Resources: How To Start a Bug Collection (video) How To Make an Insect Collection: Spreading (video) Collecting Insects: Tools and Supplies (video) Insect Collecting, Tools & Tips (video)
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist (Scrapbook of The Insects You)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist (Scrapbook of the Insects You)
 - **Common Myth:** Scouts commonly think that common folk names are standardized across all field guide literature.
 - **Pamphlet Fact:** Common names vary widely by geographic region, making universal binomial Latin nomenclature essential for accurate identification.
 
@@ -285,7 +285,7 @@
 
 #### Req 5a: Eusocial Versus Solitary Behaviors
 **Official Requirement 5a:** Tell things that make social insects different from solitary insects.
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Social Insects Different From Solitary)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Social Insects Different from Solitary)
 - **Common Myth:** Scouts often think all bee and wasp species dwell together in massive communal hives.
 - **Pamphlet Fact:** Over ninety percent of native bee species lead solitary lives, nesting individually in soil or hollow stems.
 
@@ -326,7 +326,7 @@
 
 #### Req 5b(d): Beehive Comb Brood and Honey Assessment
 **Official Requirement 5b(d):** 2. Study a hive of bees. Remove the combs and find the queen. Estimate the amount of brood and count the number of queen cells. Explain how to determine the amount of honey in the hive. (If you are allergic to bee stings, pick option (1) above.)
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5b(d) Structured Technical Study & Explanation Matrix (Hive of Bees Remove The)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5b(d) Structured Technical Study & Explanation Matrix (Hive of Bees Remove the)
 - **Common Myth:** Queen bee cells look identical to standard hexagonal worker brood cells across the surface of the comb.
 - **Pamphlet Fact:** Queen cells are distinctive vertical structures resembling textured peanut shells that hang downward from comb edges rather than flush horizontal hexagons.
 
@@ -356,7 +356,7 @@
 
 #### Req 6a: Trophic Food Web Linkages
 **Official Requirement 6a:** Tell how insects fit in the food web of other insects, fish, birds, and mammals.
-**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Insects Fit in The Food)
+**Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Insects Fit in the Food)
 - **Common Myth:** Scouts commonly believe apex predators like eagles do not depend on tiny insects.
 - **Pamphlet Fact:** Eagles prey on fish and small mammals whose survival depends directly on aquatic insect larvae and terrestrial bugs.
 

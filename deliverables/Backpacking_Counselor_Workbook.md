@@ -13,14 +13,14 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Backcountry Health Hazards Management | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 22, p. 30) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Essential Gear And Weight Control | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Essential Gear and Weight Control | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Trek Crew Organization Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Environmental Ethics And Sanitation | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Water Treatment And Hydration | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Topographic Navigation And Orientation | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Environmental Ethics and Sanitation | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Water Treatment and Hydration | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Topographic Navigation and Orientation | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Inclement Weather Preparation Strategies | Prepare | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 22) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Backcountry Stove Operation Management | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Hike Planning And Pack Fitting | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Hike Planning and Pack Fitting | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **10** | Req 10: Multi-Day Wilderness Treks Participation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **11** | Req 11: Thirty Mile Trek Expedition Planning | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
@@ -39,7 +39,7 @@
 
 ### Req 1: Backcountry Health Hazards Management
 **Official Requirement 1:** Discuss the prevention of and treatment for the health concerns that could occur while backpacking, including hypothermia, heat reactions, frostbite, dehydration, insect stings, tick bites, snakebite, and blisters.
-**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 22, p. 30)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
+**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 22, p. 30)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
 > **Guide to Safe Scouting Warning:** Never cut, tourniquet, or suction a venomous snakebite in the backcountry because tissue necrosis accelerates rapidly.
 - **Common Myth:** Scouts often think shivering means hypothermia has already reached its final and most dangerous stage.
 - **Pamphlet Fact:** Shivering ceases during severe hypothermia when core body temperature drops below ninety degrees Fahrenheit, signaling a medical emergency.
@@ -58,7 +58,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Essential Gear And Weight Control
+### Req 2: Essential Gear and Weight Control
 **Official Requirement 2 (Parent Overview):** Do the following: (a) List the 10 Scout Basic Essentials to be carried on any backpacking trek and explain why each item is necessary. (b) Describe 10 ways you can limit the weight and bulk to be carried in your pack without jeopardizing your health or safety.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never leave behind navigation tools, extra warmth, or signaling equipment to chase an arbitrary base weight goal.
@@ -93,7 +93,7 @@
 
 #### Req 2b: Pack Weight Reduction Methods
 **Official Requirement 2b:** Describe 10 ways you can limit the weight and bulk to be carried in your pack without jeopardizing your health or safety.
-**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (You Can Limit The Weight)
+**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (You Can Limit the Weight)
 - **Common Myth:** Hikers assume cutting toothbrush handles and discarding first aid tape are the primary methods for reducing pack bulk.
 - **Pamphlet Fact:** Repackaging bulky bulk food items and sharing tent bodies significantly reduces carried base weight without compromising comfort.
 
@@ -120,7 +120,7 @@
 
 #### Req 3a: Trek Crew Size Limits
 **Official Requirement 3a:** Define limits on the number of backpackers appropriate for a trek crew.
-**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Limits on The Number of)
+**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Limits on the Number of)
 - **Common Myth:** Scouts assume larger groups traveling together always provide greater safety regardless of campsite overcrowding or trail damage.
 - **Pamphlet Fact:** Crews numbering between six and twelve people preserve patrol self-sufficiency while complying with federal wilderness area regulations.
 
@@ -174,7 +174,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Environmental Ethics And Sanitation
+### Req 4: Environmental Ethics and Sanitation
 **Official Requirement 4 (Parent Overview):** Do the following: (a) Describe the importance of following the Leave No Trace Seven Principles and the Outdoor Code while backpacking, and at least five ways you can lessen the crew's impact on the environment. (b) Describe proper methods of handling human and other wastes while on a backpacking trek. Describe the importance of and means to assure personal cleanliness while on a backpacking trek. (c) Tell what factors are important in choosing a campsite.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never store food, lip balm, sunscreen, or trash inside sleeping shelters within designated bear country.
@@ -201,7 +201,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Backcountry Waste And Sanitation
+#### Req 4b: Backcountry Waste and Sanitation
 **Official Requirement 4b:** Describe proper methods of handling human and other wastes while on a backpacking trek. Describe the importance of and means to assure personal cleanliness while on a backpacking trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Handling Human and Other Wastes)
 - **Common Myth:** Campers think burying human waste underneath riverbank stones is sanitary because moving water cleanses pathogens quickly.
@@ -230,7 +230,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Water Treatment And Hydration
+### Req 5: Water Treatment and Hydration
 **Official Requirement 5 (Parent Overview):** Do the following: (a) Demonstrate two ways to treat water and tell why water treatment is essential. (b) Explain to your counselor the importance of staying well-hydrated during a trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Never let untreated intake hoses touch clean output reservoirs when operating mechanical backcountry pump filters.
@@ -277,7 +277,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Topographic Navigation And Orientation
+### Req 6: Topographic Navigation and Orientation
 **Official Requirement 6 (Parent Overview):** Do the following: (a) Demonstrate that you can read topographic maps. (b) While on a trek, use a map and compass to establish your position on the ground at three different locations, OR use a GPS receiver to establish your position on a topographic map and on the ground at three different locations. (c) Explain how to stay found, and what to do if you get lost.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Never split up a lost patrol to search for trails without leaving marked compass bearings and rendezvous deadlines.
@@ -356,7 +356,7 @@
 
 ### Req 7: Inclement Weather Preparation Strategies
 **Official Requirement 7:** Tell how to properly prepare for and deal with inclement weather.
-**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 22)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Deal With Inclement Weather)
+**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 22)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Deal with Inclement Weather)
 > **Guide to Safe Scouting Warning:** Descend immediately from exposed ridges, summits, and open meadows when thunderstorms appear within ten miles.
 - **Common Myth:** Scouts believe severe hypothermia requires freezing sub-zero temperatures and heavy snowfall to endanger backpackers.
 - **Pamphlet Fact:** Hypothermia happens frequently in fifty-degree weather when wind evaporates cold rain from wet cotton clothing.
@@ -402,7 +402,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8b: Stove Operation And Safety
+#### Req 8b: Stove Operation and Safety
 **Official Requirement 8b:** Demonstrate that you know how to operate a backpacking stove safely and to handle liquid fuel safely. Resources: Trying Every Type of Backpacking Stove! (video) How To LIGHT a CAMP STOVE! Both Canister and Liquid Fuel Stoves (video)
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)* • **Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist (You Know)
 - **Common Myth:** Campers think filling a white gas fuel bottle to the very rim maximizes stove run time.
@@ -433,7 +433,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8d: Camp Sanitation And Storage
+#### Req 8d: Camp Sanitation and Storage
 **Official Requirement 8d:** Demonstrate that you know how to keep cooking and eating gear clean and sanitary, and that you practice proper methods for food storage while on a backpacking trek.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)* • **Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist (You Know How to Keep)
 - **Common Myth:** Beginners believe keeping food bags inside backpacks inside tent vestibules protects rations from nocturnal rodents.
@@ -447,7 +447,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Hike Planning And Pack Fitting
+### Req 9: Hike Planning and Pack Fitting
 **Official Requirement 9 (Parent Overview):** Do the following: (a) Write a plan that includes a schedule for a patrol/crew backpacking hike of at least 2 miles. Resources: How To Plan Your First Backpacking Trip (video) Backpacking Trip Schedule (PDF) (b) Conduct a prehike inspection of the patrol and its equipment. (c) Show that you know how to properly pack your personal gear and your share of the crew's gear and food. (d) Show you can properly shoulder your pack and adjust it for proper wear. (e) While using the plan you developed for requirement 9(a), carry your fully loaded pack to complete a hike of at least 2 miles.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Do not exceed twenty-five to thirty percent of your clean body weight when loading a full backpack.
@@ -495,7 +495,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9c: Pack Loading And Organization
+#### Req 9c: Pack Loading and Organization
 **Official Requirement 9c:** Show that you know how to properly pack your personal gear and your share of the crew's gear and food.
 **Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (You Know)
 - **Common Myth:** Hikers assume gear can be tossed randomly into an internal frame pack without altering walking stability.
@@ -613,7 +613,7 @@
 
 #### Req 11c: Daily Expedition Journaling Reflection
 **Official Requirement 11c:** Keep a daily journal during the trek that includes a day-by-day description of your activities, including notes about what worked well and thoughts about improvements that could be made for the next trek.
-**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)* • **Organizer (Activity & Observation Log):** Req 11c Quantitative Field Observation & Activity Log (Daily Journal During The Trek)
+**Source:** *Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)* • **Organizer (Activity & Observation Log):** Req 11c Quantitative Field Observation & Activity Log (Daily Journal During the Trek)
 - **Common Myth:** Beginners think trail journals need only state the weather and bedtime hours to be useful.
 - **Pamphlet Fact:** Documenting specific equipment flaws, blister treatments, and meal performance in daily journals enables systemic improvements on subsequent treks.
 

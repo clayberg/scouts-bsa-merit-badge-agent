@@ -417,7 +417,7 @@
 - **Common Myth:** Commercial production greenhouses and conservatory display greenhouses use the exact same layouts and climate control goals.
 - **Pamphlet Fact:** Production greenhouses prioritize high-density crop turnover, uniform light, and automated efficiency, whereas conservatories focus on diverse plant preservation, varied microclimates, and public visitor pathways.
 
-![A full fruit tree with dense foliage showcases proper horticultural pruning and long-term garden cultivation.](/assets/pamphlet_images/plant_science_p068_img1.png)
+![A full fruit tree with dense foliage displays proper horticultural pruning and long-term garden cultivation.](/assets/pamphlet_images/plant_science_p068_img1.png)
 
 | Horticulture Phase | Site & Specimen Measurements | Care & Maintenance Actions | Counselor Verification |
 | :--- | :--- | :--- | :--- |
@@ -660,7 +660,7 @@
 - Park Forest Scout Camp: The Plant Science pamphlet for Requirement 8c(1) details visit a park, forest, Scout camp, or other natural area near your home, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).
 - Req 8c(1) Standard (Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)): Visit a park, forest, Scout camp, or other natural area near your home. While you are there: (a) Determine which species of plants are the largest and which are the most abundant. Note whether they cast shade on other plants. (b) Using information from maps, textbooks, or the internet, describe the environmental factors that may influence the presence of plants on your site, including latitude, climate, air and soil temperature, soil type and pH, geology, hydrology, and topography. (c) Record any differences in the types of plants you see at the edge of a forest, near water, in burned areas, or near a road or railroad.
 
-#### Req 8c(1)(a): Dominant Species And Canopy Stratification
+#### Req 8c(1)(a): Dominant Species and Canopy Stratification
 **Official Requirement 8c(1)(a):** Determine which species of plants are the largest and which are the most abundant. Note whether they cast shade on other plants.
 **Source:** *Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)* • **Organizer (Field Botany Specimen Catalog):** Req 8c(1)(a) Field Botany Transect, Voucher Specimen & Taxonomy Matrix
 - **Common Myth:** The most abundant small ground plant in a forest always controls the ecological conditions of that habitat.

@@ -12,11 +12,11 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Fundamentals Of Aerodynamics And Flight | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Model Aircraft Construction And Flight | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Fundamentals of Aerodynamics and Flight | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Model Aircraft Construction and Flight | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Practical Aircraft Flight Operations Management | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Airport Infrastructure And Airspace Systems | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Aviation Pilot Certification And Careers | Explain | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Airport Infrastructure and Airspace Systems | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Aviation Pilot Certification and Careers | Explain | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -29,7 +29,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Fundamentals Of Aerodynamics And Flight
+### Req 1: Fundamentals of Aerodynamics and Flight
 **Official Requirement 1 (Parent Overview):** Aviation Basics and Mechanics of Flight. Do the following: (a) Define "aircraft." Describe three kinds of aircraft today, and their typical uses. (b) Provide a brief overview of the evolution of flight, and discuss three notable times in history important to aviation. (c) Explain the difference between a fixed wing and a rotary wing aircraft, and the benefits of each. (d) Explain the operation of piston, turbine, and jet engines. (e) Using a model aircraft, describe the four forces that act on an aircraft in flight. (f) Explain how an airfoil generates lift, specifically noting Bernoulli's principle. (g) Identify and describe the aerodynamic control surfaces on the aircraft of your choice, and explain how they operate to control its attitude and direction of flight. (h) Explain the purposes and functions of the various instruments found in a typical single-engine aircraft: attitude indicator, heading indicator, altimeter, airspeed indicator, turn and bank indicator, vertical speed indicator, compass, navigation, communication, and engine performance indicators.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Never touch or rotate an aircraft propeller because the magneto grounding switch might fail.
@@ -42,7 +42,7 @@
 - Three Axis Motion: Deflecting flight surfaces rotates the airplane along lateral, longitudinal, and vertical axes.
 - Ram air pressure from the pitot tube directly powers standard airspeed indicators.
 
-#### Req 1a: Aircraft Categories And Operational Missions
+#### Req 1a: Aircraft Categories and Operational Missions
 **Official Requirement 1a:** Define "aircraft." Describe three kinds of aircraft today, and their typical uses.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Aircraft Describe Three Kinds of)
 - **Common Myth:** Every flying vehicle requires fixed wings to qualify as an aircraft.
@@ -56,7 +56,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Historical Milestones In Aviation Development
+#### Req 1b: Historical Milestones in Aviation Development
 **Official Requirement 1b:** Provide a brief overview of the evolution of flight, and discuss three notable times in history important to aviation.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Aviation Origins and Evolution)
 - **Common Myth:** The Wright brothers succeeded solely by building the first lightweight gasoline engine.
@@ -70,7 +70,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Fixed And Rotary Wing Comparison
+#### Req 1c: Fixed and Rotary Wing Comparison
 **Official Requirement 1c:** Explain the difference between a fixed wing and a rotary wing aircraft, and the benefits.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (2-Column Comparison Table):** Req 1c Technical Comparison Matrix (Fixed Wing and A Rotary)
 - **Common Myth:** Helicopters and airplanes generate aerodynamic lift through completely different physical laws.
@@ -98,9 +98,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: Equilibrium Of Four Aerodynamic Forces
+#### Req 1e: Equilibrium of Four Aerodynamic Forces
 **Official Requirement 1e:** Using a model aircraft, describe the four forces that act on an aircraft in flight.
-**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Model Aircraft Describe The Four)
+**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Model Aircraft Describe the Four)
 - **Common Myth:** Thrust must exceed drag for an airplane to maintain constant cruise speed.
 - **Pamphlet Fact:** Thrust equals drag and lift equals weight during steady, unaccelerated level flight.
 
@@ -112,7 +112,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1f: Airfoil Lift And Bernoulli Principle
+#### Req 1f: Airfoil Lift and Bernoulli Principle
 **Official Requirement 1f:** Explain how an airfoil generates lift, specifically noting Bernoulli's principle.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Airfoil Generates Lift Specifically Noting)
 - **Common Myth:** Equal transit time forces air parcels to rejoin simultaneously at the trailing edge.
@@ -128,7 +128,7 @@
 
 #### Req 1g: Primary Aerodynamic Flight Control Surfaces
 **Official Requirement 1g:** Identify and describe the aerodynamic control surfaces on the aircraft of your choice, and explain how they operate to control its attitude and direction of flight.
-**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Aerodynamic Control Surfaces on The)
+**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Aerodynamic Control Surfaces on the)
 - **Common Myth:** Turning the control wheel primarily moves the rudder to bank the aircraft.
 - **Pamphlet Fact:** Turning the control wheel deflects the ailerons to produce roll and bank angle.
 
@@ -142,7 +142,7 @@
 
 #### Req 1h: Single Engine Cockpit Flight Instruments
 **Official Requirement 1h:** Explain the purposes and functions of the various instruments found in a typical single-engine aircraft: attitude indicator, heading indicator, altimeter, airspeed indicator, turn and bank indicator, vertical speed indicator, compass, navigation, communication, and engine performance indicators.
-**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix (Functions of The Various Instruments)
+**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix (Functions of the Various Instruments)
 - **Common Myth:** The altimeter calculates height above the ground using active radar reflections.
 - **Pamphlet Fact:** Standard barometric altimeters measure ambient atmospheric static pressure changes to determine sea-level altitude.
 
@@ -154,7 +154,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Model Aircraft Construction And Flight
+### Req 2: Model Aircraft Construction and Flight
 **Official Requirement 2 (Parent Overview):** Principles of Flight. Do ONE of the following: (a) Build a model FPG-9. Get others in your troop or patrol to make their own model, then organize a competition to test the precision of flight and landing of the models. (b) Build a rubber-band driven balsa wood airplane. Fly the plane for 25 feet in a straight line, with a smooth landing. (c) Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain The Recreational UAS Safety Test (TRUST) certification, and fly the aircraft with a successful take-off and landing.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Wear safety goggles when cutting foam or winding rubber motors to prevent eye injuries.
@@ -203,7 +203,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c: Electric Drone Safety And Operations
+#### Req 2c: Electric Drone Safety and Operations
 **Official Requirement 2c:** Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain The Recreational UAS Safety Test (TRUST) certification, and fly the aircraft with a successful take-off and landing.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)* • **Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist (Obtain A Fuel-driven or Battery-powered)
 - **Common Myth:** Recreational drone operators are exempt from federal airspace rules and safety regulations.
@@ -232,7 +232,7 @@
 - Cockpit magnetic compass readings require corrections for internal electrical equipment interference.
 - Flight Simulator Stabilization: Cross-checking cockpit instruments maintains established altitude and heading throughout simulated flight.
 
-#### Req 3a: Flight Simulator Heading And Navigation
+#### Req 3a: Flight Simulator Heading and Navigation
 **Official Requirement 3a:** Using a flight simulator software package, set a course and fly the headings you have established with a successful take-off and landing.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Flight Simulator Software Package)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Aviation Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
@@ -261,7 +261,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Aircraft Maintenance Inspections And Schedules
+#### Req 3c: Aircraft Maintenance Inspections and Schedules
 **Official Requirement 3c:** Observe and/or participate in an aircraft maintenance activity. Describe the maintenance schedule and requirements for an aircraft of your choice.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (And/or Participate in An Aircraft)
 - **Common Myth:** Private aircraft maintenance occurs only when an onboard system stops functioning properly.
@@ -309,7 +309,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Airport Infrastructure And Airspace Systems
+### Req 4: Airport Infrastructure and Airspace Systems
 **Official Requirement 4 (Parent Overview):** Airport Operations. Do ONE of the following: (a) Visit an airport. After the visit, report on how the facilities are used, how runways are numbered, and how runways are determined to be "active." (b) Visit a Federal Aviation Administration facility: Airport Traffic Control Tower (ATCT), Terminal Radar Approach Control (TRACON), Air Route Traffic Control Center (ARTCC), or Flight Standards District Office (FSDO). Report on the operation and your impressions of the facility. (c) Visit a military aviation facility. Learn how that facility supports defense and/or civilian activities. Report on the operation and your impressions of the facility. (d) Visit an aviation museum or attend an air show. Report on your impressions of the museum or show, and what you learned from the experience.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Stay behind yellow runway hold lines until air traffic control issues explicit crossing clearance.
@@ -322,7 +322,7 @@
 - Terminal Radar Management: TRACON facilities sequence arriving and departing aircraft within thirty miles of busy airports.
 - Rotating Airport Beacon: Civilian land airports display alternating white and green flashes during night operations.
 
-#### Req 4a: Airport Layout And Runway Designation
+#### Req 4a: Airport Layout and Runway Designation
 **Official Requirement 4a:** Visit an airport. After the visit, report on how the facilities are used, how runways are numbered, and how runways are determined to be "active.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Airport Facilities Used Runways)
 - **Common Myth:** Runways can be used interchangeably regardless of current surface wind speed and direction.
@@ -364,7 +364,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d: Aviation Museum And Airshow Observation
+#### Req 4d: Aviation Museum and Airshow Observation
 **Official Requirement 4d:** Visit an aviation museum or attend an air show. Report on your impressions of the museum or show, and what you learned from the experience.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Aviation Museum or Attend An)
 - **Common Myth:** Vintage fabric aircraft in museums operated on modern digital avionics and autopilot computers.
@@ -377,7 +377,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Aviation Pilot Certification And Careers
+### Req 5: Aviation Pilot Certification and Careers
 **Official Requirement 5 (Parent Overview):** Personal & Professional Aviation Opportunities. Do the following: (a) Explain the following: the student pilot, the recreational pilot, the remote pilot, and the private pilot certificates. (b) Describe the benefits of the instrument rating. (c) Explain the following: the commercial pilot certificate, the airline transport pilot certificate, and certified flight instructor (CFI). (d) Identify an Aviation Exploring Post and/or Civil Air Patrol facility in your area. Learn about their activities and membership requirements. (e) Identify three career opportunities that would use skills and knowledge in aviation. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** A non-instrument rated pilot must never intentionally enter clouds or areas of reduced visibility.
@@ -390,9 +390,9 @@
 - Remote Pilot Operations: Commercial drone operators must earn an FAA Part 107 remote pilot certificate.
 - Major airline first officers typically require an airline transport pilot certificate qualification.
 
-#### Req 5a: Basic Pilot Certificates And Ratings
+#### Req 5a: Basic Pilot Certificates and Ratings
 **Official Requirement 5a:** Explain the following: the student pilot, the recreational pilot, the remote pilot, and the private pilot certificates.
-**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Student Pilot The Recreational Pilot)
+**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Student Pilot the Recreational Pilot)
 - **Common Myth:** Student pilots can carry non-pilot friends as passengers during solo cross-country training.
 - **Pamphlet Fact:** Federal regulations strictly prohibit student pilots from carrying any passengers in the aircraft.
 
@@ -404,9 +404,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b: Benefits Of The Instrument Rating
+#### Req 5b: Benefits of the Instrument Rating
 **Official Requirement 5b:** Describe the benefits of the instrument rating.
-**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Benefits of The Instrument Rating)
+**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Benefits of the Instrument Rating)
 - **Common Myth:** Basic private pilots can legally fly through thin clouds if they maintain wings level.
 - **Pamphlet Fact:** Entering clouds without an instrument rating and IFR flight plan violates federal aviation regulations.
 
@@ -416,9 +416,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Advanced Commercial And Professional Certifications
+#### Req 5c: Advanced Commercial and Professional Certifications
 **Official Requirement 5c:** Explain the following: the commercial pilot certificate, the airline transport pilot certificate, and certified flight instructor (CFI)
-**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Commercial Pilot Certificate The Airline)
+**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Commercial Pilot Certificate the Airline)
 - **Common Myth:** A commercial pilot license allows someone to captain a Boeing 777 passenger airliner immediately.
 - **Pamphlet Fact:** Airline captains must hold an Airline Transport Pilot certificate with specific aircraft type ratings.
 
@@ -428,9 +428,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d: Youth Aviation Organizations And Programs
+#### Req 5d: Youth Aviation Organizations and Programs
 **Official Requirement 5d:** Identify an Aviation Exploring Post and/or Civil Air Patrol facility in your area. Learn about their activities and membership requirements.
-**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Aviation Exploring Post And/or Civil)
+**Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Aviation Exploring Post and/or Civil)
 - **Common Myth:** Civil Air Patrol cadet programs are reserved strictly for active-duty military enlistees.
 - **Pamphlet Fact:** Civil Air Patrol is a civilian auxiliary welcoming youth interested in aerospace and leadership.
 
@@ -441,7 +441,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5e: Aeronautical Career Pathways And Requirements
+#### Req 5e: Aeronautical Career Pathways and Requirements
 **Official Requirement 5e:** Identify three career opportunities that would use skills and knowledge in aviation. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Career & Profession Exploration Card):** Req 5e Career & Professional Pathway Investigation Matrix
 - **Common Myth:** Aircraft maintenance technicians do not need federal licensing if they work under engineers.

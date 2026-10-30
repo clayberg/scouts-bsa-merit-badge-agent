@@ -111,7 +111,7 @@
 
 #### Req 2a: Life Jacket Selection Protocols
 **Official Requirement 2a:** Discuss with your counselor the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding. Then demonstrate how to select and fit a life jacket for water sports activities.
-**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Discuss with Your Counselor the)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
 - **Common Myth:** A loose life jacket is safer because it allows freer arm movement while turning.
 - **Pamphlet Fact:** Loose life jackets can ride up over the face and obstruct breathing during falls.
@@ -127,7 +127,7 @@
 
 #### Req 2b: Water Sports Safety Code
 **Official Requirement 2b:** Review and discuss the Water Sports Safety Code with your counselor. Promise that you will live up to it and follow it in all water work for this merit badge. Review the safety precautions that must be used by the boat operator in pulling waterskiers and wakeboarders.
-**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss The Water Sports Safety)
+**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss the Water Sports Safety)
 - **Common Myth:** The safety code is merely optional advice that boaters can discard on quiet lakes.
 - **Pamphlet Fact:** The safety code constitutes strict operating rules mandated by maritime law and Scouting policy.
 
@@ -166,7 +166,7 @@
 
 ### Req 4: Skier Hand Signal Communication
 **Official Requirement 4:** Show the following skier signals to the safety observer in the boat: skier safe, faster, slower, turns, back to dock, cut motor, skier in water.
-**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Skier Signals to The Safety)
+**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Skier Signals to the Safety)
 > **Guide to Safe Scouting Warning:** Signal skier safe immediately after falling so the observer knows you are conscious and uninjured.
 - **Common Myth:** Yelling loudly from behind the boat is an effective way to request speed changes.
 - **Pamphlet Fact:** Outboard engine roar and wind noise completely drown out shouts from a towed skier.
@@ -206,7 +206,7 @@
 
 #### Req 5a: Deepwater Start Execution
 **Official Requirement 5a:** Show how to enter the water from a boat and make a deepwater start without help.
-**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Enter The Water From A)
+**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Enter the Water from A)
 - **Common Myth:** Pulling the handle inward toward your chest helps pull you out of the water.
 - **Pamphlet Fact:** Bending your arms exhausts back muscles and tips your center of balance backward.
 
@@ -226,7 +226,7 @@
 
 #### Req 5b: Wake Crossing Traversal
 **Official Requirement 5b:** Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling.
-**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Starting From Outside The Wakes)
+**Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Starting from Outside the Wakes)
 - **Common Myth:** Skiing directly parallel across wake rollers prevents the ski tips from catching water.
 - **Pamphlet Fact:** Hitting wakes parallel causes skis to slide sideways and triggers violent rotational falls.
 

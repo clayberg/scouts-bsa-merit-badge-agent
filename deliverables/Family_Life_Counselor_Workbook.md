@@ -38,7 +38,7 @@
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 9, p. 10)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Outline on What A Family)
 > **Guide to Safe Scouting Warning:** Maintain emotional confidentiality when discussing personal family dynamics and follow Youth Protection guidelines during conferences.
 - **Common Myth:** Families only consist of parents and children living under one traditional roof.
-- **Pamphlet Fact:** Families encompass diverse supportive structures including extended relatives, guardians, foster placements, and blended households.
+- **Pamphlet Fact:** Families encompass diverse supportive structures including extended relatives, guardians, build placements, and blended households.
 
 ![Illustrated scenes show family members cooperating on household chores, outdoor gardening, and meaningful dinner table conversations.](/assets/ai_illustrations/family_life_req_1_nano_hero.png)
 
@@ -144,7 +144,7 @@
 
 #### Req 5a: Project Objective and Purpose
 **Official Requirement 5a:** The objective or goal of the project.
-**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Objective or Goal of The)
+**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Objective or Goal of the)
 - **Common Myth:** A vague idea like making things look better serves as a valid objective.
 - **Pamphlet Fact:** A clear project objective must specify measurable criteria and an intended functional improvement for the household.
 
@@ -177,7 +177,7 @@
 
 #### Req 5c: Project Results and Reflection
 **Official Requirement 5c:** The results of the project.
-**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Results of The Project)
+**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Results of the Project)
 - **Common Myth:** A project is considered failed if unexpected setbacks altered the initial aesthetic outcome.
 - **Pamphlet Fact:** Valuable learning comes from analyzing deviations and understanding how team adaptation resolved unexpected project hurdles.
 
@@ -229,9 +229,9 @@
 - Creating a formal agenda ensures that critical topics such as moral values, budgeting, and home safety receive dedicated attention. Reviewing topics with guardians beforehand guarantees that sensitive matters are approached with proper care and maturity.
 - Req 6b Standard (Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)): Prepare a meeting agenda that includes the following topics, review it with your parent or guardian, and then carry out one or more family meetings: (1) How living the principles of the Scout Oath and Scout Law contributes to your family life (2) The greatest dangers and addictions facing youth in today's society (examples include mental health challenges, use of tobacco products, alcohol, or drugs and other items such as debts, social media, etc.) (3) Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature. (4) Personal and family finances (5) A crisis situation within your family and whom you can turn to for support during these situations. (6) The effect of technology on your family (7) Good etiquette and manners.
 
-#### Req 6b(1): Scout Values In Family Living
+#### Req 6b(1): Scout Values in Family Living
 **Official Requirement 6b(1):** How living the principles of the Scout Oath and Scout Law contributes to your family life.
-**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(1) Structured Technical Study & Explanation Matrix (Living The Principles)
+**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(1) Structured Technical Study & Explanation Matrix (Living the Principles)
 - **Common Myth:** The Scout Oath and Scout Law apply only to uniformed troop meetings, outdoor campouts, and community service projects rather than everyday interactions with family members.
 - **Pamphlet Fact:** Living the Scout Oath and Law begins inside the home because practicing daily duties to family, helping others without complaint, and treating relatives with courtesy form the foundation of a Scout's character.
 
@@ -243,7 +243,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(2): Youth Dangers And Modern Addictions
+#### Req 6b(2): Youth Dangers and Modern Addictions
 **Official Requirement 6b(2):** The greatest dangers and addictions facing youth in today's society (examples include mental health challenges, use of tobacco products, alcohol, or drugs and other items such as debts, social media, etc.)
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(2) Structured Technical Study & Explanation Matrix (Greatest Dangers and Addictions Facing)
 - **Common Myth:** Addiction involves only physical substances like illicit drugs and alcohol, excluding digital activities, social media compulsion, or excessive spending habits.
@@ -257,7 +257,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(3): Adolescent Maturation And Responsible Choices
+#### Req 6b(3): Adolescent Maturation and Responsible Choices
 **Official Requirement 6b(3):** Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(3) Structured Technical Study & Explanation Matrix (Discuss Bodily Changes Affect)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Family Life Req 6b(3) with your parent or guardian's approval in compliance with BSA Youth Protection.
@@ -272,7 +272,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(4): Personal And Family Financial Management
+#### Req 6b(4): Personal and Family Financial Management
 **Official Requirement 6b(4):** Personal and family finances.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(4) Structured Technical Study & Explanation Matrix (Personal and Family Finances)
 - **Common Myth:** Household budgeting and financial management are strictly adult concerns that do not involve or depend on the daily spending habits and resource use of youth.
@@ -286,7 +286,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(5): Family Crisis Response And Support Systems
+#### Req 6b(5): Family Crisis Response and Support Systems
 **Official Requirement 6b(5):** A crisis situation within your family and whom you can turn to for support during these situations.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(5) Structured Technical Study & Explanation Matrix (Crisis Situation Within Your Family)
 - **Common Myth:** Families must handle all emergencies, grief, or financial crises entirely on their own behind closed doors to avoid showing vulnerability or burdening others.
@@ -300,7 +300,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(6): Technology Impact On Family Communication
+#### Req 6b(6): Technology Impact on Family Communication
 **Official Requirement 6b(6):** The effect of technology on your family.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(6) Structured Technical Study & Explanation Matrix (Technology on Your Family)
 - **Common Myth:** Smartphones and digital media disrupt family life only when someone accesses inappropriate content or encounters online predators.
@@ -314,7 +314,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(7): Everyday Etiquette And Family Manners
+#### Req 6b(7): Everyday Etiquette and Family Manners
 **Official Requirement 6b(7):** Good etiquette and manners.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 6b(7) Structured Technical Study & Explanation Matrix (Etiquette and Manners)
 - **Common Myth:** Good manners and etiquette are rigid, formal rules meant only for special social events, fancy dinners, and public ceremonies rather than daily interactions at home.
@@ -330,7 +330,7 @@
 
 ### Req 7: Role of Effective Guardianship
 **Official Requirement 7:** Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or guardian's role and responsibilities in the family.
-**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 60)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Your)
+**Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 60)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)
 > **Guide to Safe Scouting Warning:** Recognize that discussions about parenting require emotional sensitivity and respect for diverse guardian backgrounds.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Family Life Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Being an effective parent simply means giving children everything they want without rules.

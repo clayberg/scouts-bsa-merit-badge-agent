@@ -42,7 +42,7 @@
 - **Common Myth:** Scouts often think primitive signaling methods could only send simple binary alarms rather than full sentences.
 - **Pamphlet Fact:** Systems like Polybius square torches and Chappe semaphores encoded complete alphabetic texts and vocabularies.
 
-![Panels showcase directional trail blazing signs, covert hand signals, and sunlight mirror flashing across woodland scenery.](/assets/ai_illustrations/signs_signals_and_codes_req_1_nano_hero.png)
+![Panels display directional trail blazing signs, covert hand signals, and sunlight mirror flashing across woodland scenery.](/assets/ai_illustrations/signs_signals_and_codes_req_1_nano_hero.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -95,7 +95,7 @@
 
 #### Req 3a: Morse Code Transmission Methods
 **Official Requirement 3a:** Describe what Morse code is and the various means by which it can be sent. Spell your first name using Morse code. Send or receive a message of six to 10 words using Morse code.
-**Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Morse Code Is and The)
+**Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Morse Code Is and the)
 - **Common Myth:** Scouts think sending Morse code faster makes messages easier to understand for the listening station.
 - **Pamphlet Fact:** Clear spacing between characters matters far more than raw sending speed during telegraphy reception.
 
@@ -197,7 +197,7 @@
 - Transmitting text requires snapping flags quickly into letter positions without pausing between transitions unless repeating letters. Senders cross flags low in front of the body to indicate word breaks to the receiver.
 - Req 4c Standard (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)): After 4(a) and 4(b) have been completed, do the following: (1) Spell your first name using semaphore. Send or receive a message of six to 10 words using semaphore. (2) Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.
 
-#### Req 4c(1): Semaphore Name And Message Transmission
+#### Req 4c(1): Semaphore Name and Message Transmission
 **Official Requirement 4c(1):** Spell your first name using semaphore. Send or receive a message of six to 10 words using semaphore.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4c(1) Structured Technical Study & Explanation Matrix (Spell Your First Name Using)
 - **Common Myth:** Signalers can transmit a complete sentence continuously without pausing or resetting their flags between individual words.
@@ -218,7 +218,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c(2): Nautical Flag Identification And Significance
+#### Req 4c(2): Nautical Flag Identification and Significance
 **Official Requirement 4c(2):** Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4c(2) Structured Technical Study & Explanation Matrix (Illustrations Nautical Flags Discuss)
 - **Common Myth:** Nautical flags function solely as an alphabet to spell out written words letter by letter.
@@ -245,7 +245,7 @@
 
 #### Req 5a: Braille Alphabet Tactile Recognition
 **Official Requirement 5a:** Either by sight or by touch, identify the letters of the braille alphabet that spell your name. By sight or touch, decode a braille message at least six words long.
-**Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Sight or By Touch)
+**Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Sight or by Touch)
 - **Common Myth:** Pressing down hard with fingertips helps readers feel subtle braille dot patterns more distinctly.
 - **Pamphlet Fact:** Heavy finger pressure dulls fingertip tactile receptors and flattens paper embossed dots over time.
 
@@ -404,7 +404,7 @@
 
 #### Req 8e: Counselor Approved Field Signals
 **Official Requirement 8e:** An activity selected by you and your counselor.
-**Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Activity Selected By You)
+**Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Activity Selected by You)
 - **Common Myth:** Specialized recreational diving signals vary randomly between different dive resort shops and diving regions.
 - **Pamphlet Fact:** Underwater hand signals are standardized globally by diving agencies to ensure diver safety worldwide.
 

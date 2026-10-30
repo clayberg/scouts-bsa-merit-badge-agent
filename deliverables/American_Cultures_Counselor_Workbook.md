@@ -73,7 +73,7 @@
 
 #### Req 1c: Heritage Tradition Oral Interview
 **Official Requirement 1c:** Talk with a person from one of the groups about the heritage and traditions of the group. Report on what you learn.
-**Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 31, p. 32)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Talk With A Person)
+**Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 31, p. 32)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Talk with A Person)
 - **Common Myth:** An oral history interview should follow a rigid checklist of rapid factual quiz questions.
 - **Pamphlet Fact:** Effective oral interviews rely on conversational listening and open questions about family heritage.
 
@@ -165,7 +165,7 @@
 **Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 40, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Contribution Made to Our Country)
 > **Guide to Safe Scouting Warning:** Consult reputable academic and library archives to avoid unreliable online revisionist claims or fabricated biographical quotes.
 - **Common Myth:** Historical contributions only count if the individual served as an elected political official.
-- **Pamphlet Fact:** Groundbreaking contributions frequently originate from scientists, labor organizers, artists, and community activists.
+- **Pamphlet Fact:** Pioneering contributions frequently originate from scientists, labor organizers, artists, and community activists.
 
 ![A Scout converses with peers of different faith traditions on a brick staircase.](/assets/pamphlet_images/american_cultures_p044_img1.png)
 

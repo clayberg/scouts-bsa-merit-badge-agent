@@ -69,7 +69,7 @@
 
 #### Req 2a: Ancient Nonferrous Alloy History
 **Official Requirement 2a:** Name two nonferrous alloys used by pre-Iron Age metalworkers. Name the metals that are combined to form these alloys.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Nonferrous Alloys Used By pre-Iron)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Nonferrous Alloys Used by pre-Iron)
 - **Common Myth:** Ancient bronze tools consisted of pure melted copper beaten directly into sharp cutting shapes.
 - **Pamphlet Fact:** Bronze is an intentional alloy composed primarily of copper combined with approximately twelve percent tin.
 
@@ -84,7 +84,7 @@
 
 #### Req 2b: Modern Ferrous Alloy Varieties
 **Official Requirement 2b:** Name three ferrous alloys used by modern metalworkers.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Ferrous Alloys Used By Modern)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Ferrous Alloys Used by Modern)
 - **Common Myth:** All ferrous steels contain identical ingredients and behave identically when heated and struck.
 - **Pamphlet Fact:** Variations in carbon content, chromium, and molybdenum yield vastly different hardness levels and weldability.
 
@@ -133,7 +133,7 @@
 
 **Official Pamphlet Summary:**
 - Cold Working: Repetitive hammering along bend lines increases surface rigidity and resists further displacement.
-- Dislocation Density: Plastic deformation creates internal crystalline lattice jams that elevate the material yield point.
+- Dislocation Density: Plastic deformation creates internal crystalline lattice jams that raise the material yield point.
 - Oxidation Colors: Surface oxide layers reflect specific thermal plateaus during the steel tool tempering process.
 - Thermal Cycling: Controlled heating dissolves trapped internal stresses to restore malleability across deformed workpieces.
 
@@ -161,7 +161,7 @@
 
 #### Req 3b: Thermal Annealing and Realignment
 **Official Requirement 3b:** Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to remove the 45-degree bend. Note the amount of effort that is required to overcome the yield point.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Soften The Work-hardened Piece)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Soften the Work-hardened Piece)
 - **Common Myth:** An annealed nonferrous plate stays soft even after severe subsequent bending and forming.
 - **Pamphlet Fact:** Every subsequent bending action re-introduces dislocations, steadily re-hardening the metal until annealed again.
 
@@ -176,7 +176,7 @@
 
 #### Req 3c: Steel Tempering and Toolmaking
 **Official Requirement 3c:** Make a temper color index from a flat piece of steel. Using hand tools, make and temper a center punch of medium-carbon or high-carbon steel.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Temper Color Index From A)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Temper Color Index from A)
 - **Common Myth:** A center punch tip should be left as hard as possible without tempering.
 - **Pamphlet Fact:** An untempered high-carbon punch tip fractures immediately upon the first heavy hammer strike.
 
@@ -221,7 +221,7 @@
 
 #### Req 4b: Metalcraft Hobby and Guilds
 **Official Requirement 4b:** Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Setting up a home metalworking hobby requires purchasing expensive computerized factory machinery.
 - **Pamphlet Fact:** Traditional hand tool forgings and jewelry pieces require modest footprints and rudimentary hand tooling.
 
@@ -266,7 +266,7 @@
 
 #### Req 5a(2): Sheet Metal Project Dimensioned Sketches
 **Official Requirement 5a(2):** Create a sketch of two objects to make from sheet metal. Include each component's dimensions on your sketch, which need not be to scale.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5a(2) Structured Technical Study & Explanation Matrix (Objects to Make From Sheet)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5a(2) Structured Technical Study & Explanation Matrix (Objects to Make from Sheet)
 - **Common Myth:** A sheet metal sketch only requires the final finished dimensions of the assembled box.
 - **Pamphlet Fact:** Sketches must calculate additional width for folded edges, wired rims, and joined seams to prevent undersized components.
 
@@ -357,7 +357,7 @@
 
 #### Req 5b(2): Jewelry Component Layout and Dimensioning
 **Official Requirement 5b(2):** Create a sketch of two objects to make from sheet silver. Include each component's dimensions on your sketch, which need not be to scale.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5b(2) Structured Technical Study & Explanation Matrix (Objects to Make From Sheet)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5b(2) Structured Technical Study & Explanation Matrix (Objects to Make from Sheet)
 - **Common Myth:** The flat length of a silver ring blank equals the exact inside diameter of the finished ring.
 - **Pamphlet Fact:** Ring blanks require adding one material thickness to the inside circumference calculation to compensate for metal stretching and compression during bending.
 
@@ -389,7 +389,7 @@
 - Hard Soldering on Sheet Copper: Hard soldering nonferrous metals requires tight-fitting, mechanically clean joints coated in flux to prevent oxidation under an open flame. Silver solder flows toward the hottest section of the metal once the workpiece reaches melting temperature (p. 54).
 - Req 5b(3) Standard (Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)): Make two objects out of 18- or 20-gauge sheet copper. Use patterns either provided by your counselor or made by you and approved by your counselor. Both objects must include a soldered joint. If you have prior silversmithing experience, you may substitute sterling silver, nickel silver, or lead-free pewter. (a) At least one object must include a sawed component you have made yourself. (b) At least one object must include a sunken part you have made yourself. (c) Clean and polish your objects.
 
-#### Req 5b(3)(a): Pierced Metalwork With Jeweler Saw
+#### Req 5b(3)(a): Pierced Metalwork with Jeweler Saw
 **Official Requirement 5b(3)(a):** At least one object must include a sawed component you have made yourself.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5b(3)(a) Structured Technical Study & Explanation Matrix (Object Must Include A Sawed)
 - **Common Myth:** Jeweler saw blades cut on the forward pushing stroke like a carpenter handsaw.
@@ -575,7 +575,7 @@
 
 #### Req 5d(3)(a): Forged Taper Drawing Technique
 **Official Requirement 5d(3)(a):** Draw out by forging a taper.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5d(3)(a) Structured Technical Study & Explanation Matrix (Out By Forging A Taper)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5d(3)(a) Structured Technical Study & Explanation Matrix (Out by Forging A Taper)
 - **Common Myth:** Spinning and hammering a round rod continuously in a circle is the quickest way to forge a tapered point.
 - **Pamphlet Fact:** Forging a taper as a square profile first maintains the internal integrity of the steel and prevents the tip from splitting.
 
@@ -595,7 +595,7 @@
 
 #### Req 5d(3)(b): Curved U-Bend Anvil Horn Forging
 **Official Requirement 5d(3)(b):** Use the horn of the anvil by forging a U -shaped bend.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(3)(b) Structured Technical Study & Explanation Matrix (Horn of The Anvil By)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(3)(b) Structured Technical Study & Explanation Matrix (Horn of the Anvil by)
 - **Common Myth:** Striking the steel directly against the top of the anvil horn is the correct method to force it into a curve.
 - **Pamphlet Fact:** Hammer blows must strike the steel just past the anvil horn so the metal bends smoothly without thinning or crushing.
 
@@ -619,7 +619,7 @@
 
 #### Req 5d(3)(d): Right-Angle Bend on Anvil Edge
 **Official Requirement 5d(3)(d):** Use the edge of the anvil to bend metal by forging an L -shaped bend.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(3)(d) Structured Technical Study & Explanation Matrix (Edge of The Anvil to)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(3)(d) Structured Technical Study & Explanation Matrix (Edge of the Anvil to)
 - **Common Myth:** A sharp ninety-degree anvil edge produces the cleanest right-angle bend without damaging the steel.
 - **Pamphlet Fact:** Bending over a sharp edge creates severe stress concentration and cracks the inner corner of the steel.
 
@@ -631,7 +631,7 @@
 
 #### Req 5d(4): Hot-Forged Functional Project Fabrication
 **Official Requirement 5d(4):** Using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging. Be sure you have your counselor's approval before you begin. (a) Include a decorative twist on one object. (b) Include a hammer-riveted joint in one object. (c) Preserve your work from oxidation.
-**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(4) Structured Technical Study & Explanation Matrix (Low-carbon Steel At Least 1/4)
+**Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(4) Structured Technical Study & Explanation Matrix (Low-carbon Steel at Least 1/4)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Metalwork Req 5d(4) preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Forged project components can be cut and bent cold as long as the decorative elements are heated in the forge.
 - **Pamphlet Fact:** Both required projects must be shaped hot from quarter-inch stock using the anvil and hammer to demonstrate proper blacksmithing skill.

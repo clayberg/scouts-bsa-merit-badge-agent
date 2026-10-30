@@ -65,7 +65,7 @@
 
 #### Req 1b: Field Injury Treatment Protocols
 **Official Requirement 1b:** Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope splinters, rope burns, cuts, scratches, insect bites and stings, hypothermia, dehydration, heat exhaustion, heatstroke, sunburn, and falls.
-**Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
+**Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
 - **Common Myth:** Rope friction burns heal faster when left open to circulate fresh air.
 - **Pamphlet Fact:** Open friction abrasions require sterile wash and occlusive dressings to prevent infection.
 
@@ -112,7 +112,7 @@
 
 #### Req 2b: Mechanical Knots and Tackle
 **Official Requirement 2b:** Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch.
-**Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Rope Tackle and The Following)
+**Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Rope Tackle and the Following)
 - **Common Myth:** A standard bowline can substitute for a butterfly knot in midline pulls.
 - **Pamphlet Fact:** Three-way midline stress capsizes a bowline, whereas a butterfly knot handles multidirectional loads.
 

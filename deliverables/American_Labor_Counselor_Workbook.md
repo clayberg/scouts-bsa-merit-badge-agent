@@ -71,7 +71,7 @@
 
 #### Req 2a: Labor Organization Functional Discovery
 **Official Requirement 2a:** Find out what the organization.
-**Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Out What The Organization)
+**Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Out What the Organization)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete American Labor Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Novices often assume all labor organizations function solely as political action committees.
 - **Pamphlet Fact:** Labor organizations primarily exist to negotiate employment terms, administer healthcare trusts, and run certified apprenticeship schools.
@@ -106,7 +106,7 @@
 
 #### Req 2c: Union Structural Hierarchy Mapping
 **Official Requirement 2c:** Draw a diagram showing how the organization is structured, from the local to the national level, if applicable.
-**Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2c Structured Technical Study & Explanation Matrix (Showing How The Organization Is)
+**Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2c Structured Technical Study & Explanation Matrix (Showing How the Organization Is)
 - **Common Myth:** Many individuals assume national labor leaders dictate all decisions to local union halls.
 - **Pamphlet Fact:** Local unions operate autonomously under specific bylaws, electing their own officers and voting on contracts.
 

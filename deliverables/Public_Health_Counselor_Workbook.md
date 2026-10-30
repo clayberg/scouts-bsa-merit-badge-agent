@@ -90,7 +90,7 @@
 
 #### Req 1d: Pathogen Classification and Vector Control
 **Official Requirement 1d:** For all 10 diseases from 1(c), explain the type or form of the disease (viral, bacterial, environmental, toxin), any possible vectors for transmission, ways to help prevent exposure or the spread of infection, and available treatments.
-**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Diseases From 1(c)
+**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Diseases from 1(c)
 - **Common Myth:** All infectious diseases require an animal or insect vector to move between hosts.
 - **Pamphlet Fact:** Many pathogens spread directly through airborne respiratory droplets, contaminated drinking water, or surface fomites.
 
@@ -159,7 +159,7 @@
 
 ### Req 3: Safe Drinking Water Sanitation Methods
 **Official Requirement 3:** Discuss the importance of safe drinking water in terms of the spread of disease. Then, demonstrate two ways for making water safe to drink that can be used while at camp. In your demonstration, explain how dishes and utensils should be washed, dried, and kept sanitary at home and in camp.
-**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 32, p. 53)* • **Organizer (Skill Demonstration Checklist):** Req 3 Hands-On Skill Station & EDGE Verification Checklist (Discuss The Importance of Safe)
+**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 32, p. 53)* • **Organizer (Skill Demonstration Checklist):** Req 3 Hands-On Skill Station & EDGE Verification Checklist (Discuss the Importance of Safe)
 > **Guide to Safe Scouting Warning:** Allow boiled water to cool before handling, and store chemical purification tablets in child-resistant moisture-proof containers.
 - **Common Myth:** Crystal clear mountain stream water is naturally pure and completely safe to drink untreated.
 - **Pamphlet Fact:** Clear wilderness streams frequently harbor microscopic Giardia cysts and bacterial pathogens shed by wild animals.
@@ -353,7 +353,7 @@
 
 #### Req 6a: Air Water and Noise Pollution
 **Official Requirement 6a:** Describe the health dangers from air, water, and noise pollution.
-**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Health Dangers From Air Water)
+**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Health Dangers from Air Water)
 - **Common Myth:** Noise pollution only causes temporary ringing in the ears without creating permanent physical physiological damage.
 - **Pamphlet Fact:** Prolonged exposure to intense sound vibrations permanently shears and destroys non-regenerating microscopic cochlear hair cells.
 
@@ -367,7 +367,7 @@
 
 #### Req 6b: Tobacco and Alcohol Health Impacts
 **Official Requirement 6b:** Describe health dangers from tobacco use and alcohol and drug abuse.
-**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Health Dangers From Tobacco)
+**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Health Dangers from Tobacco)
 - **Common Myth:** Alcohol is a stimulant beverage because it frequently causes people to become loud and animated.
 - **Pamphlet Fact:** Alcohol is a pharmacological central nervous system depressant that suppresses cerebral cortical inhibitory controls.
 
@@ -381,7 +381,7 @@
 
 #### Req 6c: Prescription and Illicit Drug Risks
 **Official Requirement 6c:** Describe the health dangers from abusing illegal and prescription drugs.
-**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Health Dangers From Abusing Illegal)
+**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Health Dangers from Abusing Illegal)
 - **Common Myth:** Medications prescribed by licensed medical doctors are completely non-addictive and harmless when taken without prescription.
 - **Pamphlet Fact:** Prescription analgesics and stimulants carry high risks of severe physical dependency, respiratory arrest, and overdose.
 
@@ -435,7 +435,7 @@
 
 #### Req 7a(2): Public Health Agency Website Analysis
 **Official Requirement 7a(2):** Familiarize yourself with your city, county, state, or a federal health agency's website.
-**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7a(2) Structured Technical Study & Explanation Matrix (Familiarize Yourself With Your City)
+**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7a(2) Structured Technical Study & Explanation Matrix (Familiarize Yourself with Your City)
 - **Common Myth:** Government public health websites publish only administrative contact directories rather than active disease tracking and sanitation inspection data.
 - **Pamphlet Fact:** Official health agency portals deliver active epidemiological surveillance data, restaurant sanitation grades, environmental hazard notices, and vital statistics directly to the public.
 
@@ -486,7 +486,7 @@
 
 #### Req 7b(3): Disaster Response and Environmental Cleanup
 **Official Requirement 7b(3):** Discuss the kinds of public assistance the agency is able to provide in case of disasters such as floods, storms, tornadoes, earthquakes, and other acts of destruction. Your discussion can include the cleanup necessary after the disaster.
-**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7b(3) Structured Technical Study & Explanation Matrix (Discuss The Kinds of Public)
+**Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7b(3) Structured Technical Study & Explanation Matrix (Discuss the Kinds of Public)
 - **Common Myth:** Disaster relief from public health agencies focuses entirely on physical search and rescue rather than environmental sanitization and water safety.
 - **Pamphlet Fact:** Public health agencies safeguard disaster survivors against deadly secondary hazards like contaminated drinking water, toxic mold proliferation, and foodborne illness during post disaster cleanup.
 

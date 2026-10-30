@@ -80,7 +80,7 @@
 
 ### Req 2: Equine Anatomy and Physiological Functions
 **Official Requirement 2:** Name 15 parts of a horse and discuss the function of each with your counselor.
-**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 12)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Horse and Discuss The Function)
+**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 12)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Horse and Discuss the Function)
 > **Guide to Safe Scouting Warning:** Keep your body oriented facing the horse rear when palpating lower cannon bones and hocks.
 - **Common Myth:** The equine hock bends forward in the same anatomical direction as human knee joints.
 - **Pamphlet Fact:** The stifle joint corresponds anatomically to the human knee and drives forward hindquarter propulsion.
@@ -101,7 +101,7 @@
 
 ### Req 3: Equine Breeds and Performance Traits
 **Official Requirement 3:** Name four breeds of horses. Explain the special features for which each breed is known.
-**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 16, p. 52)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Breeds of Horses Explain The)
+**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 16, p. 52)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Breeds of Horses Explain the)
 > **Guide to Safe Scouting Warning:** Match equine temperament and breed athleticism to rider experience level before mounting strange stock.
 - **Common Myth:** All horse breeds possess identical bone density and muscle composition for athletic tasks.
 - **Pamphlet Fact:** Thoroughbreds excel at intermediate galloping distances due to deep chests and lean skeletal geometry.
@@ -325,7 +325,7 @@
 
 #### Req 11a: Straight Line Walk Movement
 **Official Requirement 11a:** Walk the horse in a straight line for 60 feet.
-**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Walk The Horse in A)
+**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Walk the Horse in A)
 - **Common Myth:** Staring down at the horse ears helps the rider steer in a straight line.
 - **Pamphlet Fact:** Looking forward toward a distant horizon marker keeps the horse tracking straight and true.
 
@@ -345,7 +345,7 @@
 
 #### Req 11b: Walking Half Circle Figure
 **Official Requirement 11b:** Walk the horse in a half-circle of not more than 16 feet in radius.
-**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Walk The Horse in A)
+**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Walk the Horse in A)
 - **Common Myth:** Pulling the inside rein hard across the neck properly executes a small diameter circle.
 - **Pamphlet Fact:** Inside leg pressure against the girth bends the equine barrel along the arc of the turn.
 
@@ -359,7 +359,7 @@
 
 #### Req 11c: Straight Line Jog Pace
 **Official Requirement 11c:** Trot or jog the horse in a straight line for 60 feet.
-**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix (Trot or Jog The Horse)
+**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix (Trot or Jog the Horse)
 - **Common Myth:** A trot has four distinct footfalls like a walk and requires aggressive rein kicking.
 - **Pamphlet Fact:** A true jog or trot is a two beat gait with alternating diagonal leg pairs.
 
@@ -373,7 +373,7 @@
 
 #### Req 11d: Jogging Half Circle Maneuver
 **Official Requirement 11d:** Trot or jog the horse in a half-circle of not more than 30 feet in radius.
-**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix (Trot or Jog The Horse)
+**Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix (Trot or Jog the Horse)
 - **Common Myth:** Leaning toward the inside of the turn helps the trotting horse balance better.
 - **Pamphlet Fact:** Centrifugal force on turns requires active rider balance and outside leg support behind girth.
 

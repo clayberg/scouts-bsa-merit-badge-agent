@@ -94,7 +94,7 @@
 
 #### Req 1d: Foodborne Illness and Allergies
 **Official Requirement 1d:** Discuss with your counselor food allergies, food intolerance, and food-related illnesses and diseases. Explain why someone who handles or prepares food needs to be aware of these concerns.
-**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Food)
+**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Food)
 - **Common Myth:** Scouts assume removing nuts from a finished dish makes it safe for allergic diners.
 - **Pamphlet Fact:** Trace proteins left on surfaces or cookware can trigger acute anaphylactic shock in sensitive individuals.
 
@@ -109,7 +109,7 @@
 
 #### Req 1e: Allergen Ingredient Label Analysis
 **Official Requirement 1e:** Discuss with your counselor why reading food labels is important. Explain how to identify common allergens such as peanuts, tree nuts, milk, eggs, wheat, soy, and shellfish.
-**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Why)
+**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Why)
 - **Common Myth:** Beginners believe product brand loyalty guarantees an item remains free of new allergens.
 - **Pamphlet Fact:** Food manufacturers alter ingredient formulations and manufacturing line procedures without obvious package redesigns.
 
@@ -202,7 +202,7 @@
 
 #### Req 2e: Nutrition Facts Panel Interpretation
 **Official Requirement 2e:** Discuss the following food label terms: calorie, fat, saturated fat, trans fat, cholesterol, sodium, carbohydrate, dietary fiber, sugar, and protein. Explain how to calculate total carbohydrates and nutritional values for two servings, based on the serving size specified on the label.
-**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Discuss The Following Food)
+**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Discuss the Following Food)
 - **Common Myth:** Scouts think a single snack wrapper always equals one standard dietary serving.
 - **Pamphlet Fact:** Manufacturers frequently list two or three servings within a single portable package.
 
@@ -658,7 +658,7 @@
 
 #### Req 7b: Culinary Arts Personal Hobbies
 **Official Requirement 7b:** Identify how you might use the skills and knowledge in cooking to pursue a personal hobby or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 79, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Cooking Merit Badge Pamphlet (p. 79, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Scouts think recreational home cooking requires buying expensive professional commercial appliances.
 - **Pamphlet Fact:** Basic standard home kitchen tools and sharp knives suffice to master advanced culinary techniques.
 

@@ -34,7 +34,7 @@
 
 ### Req 1: Constitutional Framework and Core Principles
 **Official Requirement 1:** What is the Constitution of the United States? What does the Constitution do? What principles does it reflect? Why is it important to have a Constitution?
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Constitution of The United States)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Constitution of the United States)
 > **Guide to Safe Scouting Warning:** Maintain digital security by consulting verified archives such as the National Archives website.
 - **Common Myth:** A common misunderstanding is that the Constitution grants citizens their fundamental personal rights.
 - **Pamphlet Fact:** The Constitution recognizes preexisting natural rights and places strict legal boundaries on governmental infringement.
@@ -58,7 +58,7 @@
 
 ### Req 2: Preamble Purposes and Civic Impact
 **Official Requirement 2:** List the six purposes for creating the United States Constitution set forth in the Preamble to the Constitution. How do these purposes affect your family and community?
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Creating The United States Constitution)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Creating the United States Constitution)
 > **Guide to Safe Scouting Warning:** When surveying municipal operations or interviewing public servants, remain in public meeting spaces with a buddy.
 - **Common Myth:** A common misunderstanding is that the Preamble grants enforceable police powers to federal court judges.
 - **Pamphlet Fact:** The Preamble outlines guiding governmental intentions but conveys no direct statutory or regulatory powers.
@@ -182,7 +182,7 @@
 
 #### Req 4b: Bill of Rights Protections
 **Official Requirement 4b:** Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment.
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Bill of Rights The First)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Bill of Rights the First)
 - **Common Myth:** A common misunderstanding is that the original Bill of Rights automatically bound state governments in 1791.
 - **Pamphlet Fact:** The original Bill of Rights restricted only federal actions until Fourteenth Amendment incorporation occurred.
 
@@ -196,7 +196,7 @@
 
 #### Req 4c: National Motto Traditional Significance
 **Official Requirement 4c:** E Pluribus Unum, the traditional United States motto.
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Pluribus Unum The Traditional United)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Pluribus Unum the Traditional United)
 - **Common Myth:** A common misunderstanding is that E Pluribus Unum was chosen primarily for commercial coinage branding.
 - **Pamphlet Fact:** The Continental Congress selected the phrase for the Great Seal to symbolize thirteen sovereign states uniting.
 
@@ -276,7 +276,7 @@
 
 #### Req 6c: National Crises and Obstacles
 **Official Requirement 6c:** What difficulties the nation faced that the author wished to discuss.
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Difficulties The Nation Faced)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Difficulties the Nation Faced)
 - **Common Myth:** A common misunderstanding is that historic speeches addressed only minor disagreements between political parties.
 - **Pamphlet Fact:** Historic national speeches confronted existential challenges that threatened the survival or unity of the republic.
 
@@ -304,7 +304,7 @@
 
 #### Req 6e: Enduring Historical National Significance
 **Official Requirement 6e:** Why the speech is important to the nation's history.
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Speech Is Important to The)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Speech Is Important to the)
 - **Common Myth:** A common misunderstanding is that a speech's importance ends as soon as the applause concludes.
 - **Pamphlet Fact:** Enduring speeches reshape public policy, cultural identity, and future constitutional interpretations for subsequent generations.
 
@@ -318,7 +318,7 @@
 
 #### Req 6f: Personal Passage Reflection
 **Official Requirement 6f:** Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor.
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix (Sentence or Two From The)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix (Sentence or Two from the)
 - **Common Myth:** A common misunderstanding is that any famous soundbite fulfills this requirement without personal connection.
 - **Pamphlet Fact:** Counselors evaluate whether the Scout can explain personal relevance and moral meaning behind the selected lines.
 
@@ -351,7 +351,7 @@
 - **Common Myth:** A common misunderstanding is that any old neighborhood building qualifies as an official National Historic Landmark.
 - **Pamphlet Fact:** Sites must be formally designated by the federal Secretary of the Interior for national historical significance.
 
-![Interior view of the U. S. Capitol Rotunda showcasing historical paintings and the coffered dome canopy.](/assets/pamphlet_images/citizenship_in_the_nation_p034_img1.png)
+![Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.](/assets/pamphlet_images/citizenship_in_the_nation_p034_img1.png)
 
 | Req 7a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -391,7 +391,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7d: National Monument In-Depth Research
+#### Req 7d: National Monument in-Depth Research
 **Official Requirement 7d:** Choose a United States national monument that interests you. Using books, brochures, the internet (with your parent or guardian's permission), and other resources, find out more about the monument. Tell your counselor what you learned, and explain why the monument is important to this country's citizens.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (United States National Monument That)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the Nation Req 7d with your parent or guardian's approval in compliance with BSA Youth Protection.
@@ -408,7 +408,7 @@
 
 ### Req 8: Congressional Representation and Advocacy
 **Official Requirement 8:** Name your representatives in the United States Congress. Write to your representative in Congress explaining your views on a national issue. Show your correspondence, along with any response you receive, to your counselor.
-**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 14, p. 43)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Representatives in The United States)
+**Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 14, p. 43)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Representatives in the United States)
 > **Guide to Safe Scouting Warning:** Do not include sensitive personal identity details like Social Security numbers or private phone numbers in letters.
 - **Common Myth:** A common misunderstanding is that letters from youth constituents are discarded without being read by legislative staff.
 - **Pamphlet Fact:** Congressional offices log and categorize all constituent letters to brief representatives on district voter sentiment.

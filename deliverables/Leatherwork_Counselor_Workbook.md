@@ -223,7 +223,7 @@
 
 #### Req 3f: Assembly by Mechanical Stitching
 **Official Requirement 3f:** Assembly by lacing or stitching.
-**Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix (Assembly By Lacing or Stitching)
+**Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix (Assembly by Lacing or Stitching)
 - **Common Myth:** Single needle lock stitches hold stronger than hand sewn interlocking saddle stitches.
 - **Pamphlet Fact:** Dual needle saddle stitches stay locked together even if external surface threads wear.
 
@@ -297,7 +297,7 @@
 
 #### Req 5a: Commercial Tanning Industrial Process
 **Official Requirement 5a:** Learn about the commercial tanning process. Report about it to your counselor.
-**Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About The Commercial Tanning)
+**Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About the Commercial Tanning)
 - **Common Myth:** Modern commercial tanneries soak hides exclusively in open static wooden yard vats.
 - **Pamphlet Fact:** Rotating tanning drums accelerate chemical penetration from weeks down to single production shifts.
 
@@ -312,7 +312,7 @@
 
 #### Req 5b: Small Game Hide Tanning
 **Official Requirement 5b:** Tan the skin of a small animal. Describe the safety precautions you will take and the tanning method that you used.
-**Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Tan The Skin of A)
+**Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Tan the Skin of A)
 - **Common Myth:** Leaving thin fat layers on skins keeps dried home tanned leather naturally supple.
 - **Pamphlet Fact:** Scraping every scrap of subcutaneous fat off raw pelts prevents bacterial grain rot.
 

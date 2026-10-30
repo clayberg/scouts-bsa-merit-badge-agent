@@ -51,7 +51,7 @@
 
 #### Req 1a: Digital Safety Video Review
 **Official Requirement 1a:** View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission)
-**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (View The Personal Safety Awareness)
+**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Cybersecurity Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Digital safety videos are strictly intended for adults rather than active youth users.
 - **Pamphlet Fact:** Viewing mandatory youth protection modules provides baseline rules for identifying suspicious digital interactions.
@@ -103,7 +103,7 @@
 - Responsible Disclosure Practice: Report discovered software security weaknesses quietly to system administrators without exploiting them.
 - Intellectual Property Respect: Downloading pirated software violates copyright laws and introduces dangerous hidden malware payloads.
 
-#### Req 2a: Scout Law In Cyberspace
+#### Req 2a: Scout Law in Cyberspace
 **Official Requirement 2a:** Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Relate People Internet Computers)
 - **Common Myth:** Online anonymity removes personal accountability for hurtful commentary posted on public message boards.
@@ -117,7 +117,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Ethical Conduct In Computing Environments
+#### Req 2b: Ethical Conduct in Computing Environments
 **Official Requirement 2b:** Discuss with your counselor examples of ethical and unethical behavior in cyberspace. Include how to act responsibly when you encounter situations such as: coming across an unattended or unlocked computer or mobile device; observing someone type their password or seeing it written down near a computer; or discovering a website that is not properly secured. Explain why these situations require good judgment, and how the Scout Law and personal values should guide your actions.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss Ethical Unethical Behavior)
 - **Common Myth:** Browsing open directories on an unlocked computer is permissible if nothing gets modified.
@@ -333,7 +333,7 @@
 
 #### Req 5b(1): Operating System Security Patch Value
 **Official Requirement 5b(1):** Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent.
-**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5b(1) Structured Technical Study & Explanation Matrix (Installing The Latest Updates)
+**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5b(1) Structured Technical Study & Explanation Matrix (Installing the Latest Updates)
 - **Common Myth:** Operating system updates exist primarily to change user interfaces and add cosmetic features rather than protect systems from intrusion.
 - **Pamphlet Fact:** Vendors publish system updates primarily to resolve newly discovered security flaws that attackers actively target to execute malicious code.
 
@@ -345,7 +345,7 @@
 
 #### Req 5b(2): Device Update Verification and Installation
 **Official Requirement 5b(2):** Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you have permission to use. (If you are unable to do this on your computer, you may use an online guide with screenshots to demonstrate this.) Show your counselor how to verify that your computer or mobile device is up-to-date.
-**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 5b(2) Hands-On Skill Station & EDGE Verification Checklist (Download and Install The Latest)
+**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 5b(2) Hands-On Skill Station & EDGE Verification Checklist (Download and Install the Latest)
 - **Common Myth:** A computer stays fully protected against new threats as long as it has received a single software update during initial setup.
 - **Pamphlet Fact:** Software maintenance is an ongoing cycle because developers discover new vulnerabilities continuously, requiring regular update checks and installations.
 
@@ -642,7 +642,7 @@
 
 #### Req 8b: Collaborative Cyber Competition Participation
 **Official Requirement 8b:** Participate in a cybersecurity competition with members of your troop, school, or some other group approved by your counselor. Either design your own competition or use an existing platform.
-**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Cybersecurity Competition With Members)
+**Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Cybersecurity Competition with Members)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Cybersecurity Req 8b preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Scoring in cybersecurity competitions relies solely on offensive exploitation of opponent team servers.
 - **Pamphlet Fact:** Blue team defense exercises emphasize rapid incident triage, service availability, and boundary hardening.

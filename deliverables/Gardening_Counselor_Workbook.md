@@ -13,14 +13,14 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Gardening Hazard Management Protocol | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Vegetable And Flower Production | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Vegetable and Flower Production | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Plant Crop Nutritional Values | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Seed Germination Viability Testing | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Horticultural Facility Field Study | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Gardening Merit Badge Pamphlet (p. 47, p. 89) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Honeybee Crop Pollination Biology | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 83) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Garden Pest Management Solutions | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Gardening Merit Badge Pamphlet (p. 58, p. 70) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Specialized Horticultural Projects | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Gardening Careers And Hobbies | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Gardening Careers and Hobbies | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -62,7 +62,7 @@
 
 #### Req 1b: Garden Injury First Aid
 **Official Requirement 1b:** Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites, anaphylactic shock, heat reactions, and reactions from exposure to pesticides and fertilizers.
-**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
+**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
 - **Common Myth:** Minor scrapes from rusted metal tools require care only if active bleeding persists.
 - **Pamphlet Fact:** Garden soils harbor Clostridium tetani bacteria that enter through minor deep punctures.
 
@@ -74,7 +74,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Vegetable And Flower Production
+### Req 2: Vegetable and Flower Production
 **Official Requirement 2 (Parent Overview):** Do the following, and discuss your observations throughout the process with your counselor: (a) Grow six vegetables, three from seeds and three from seedlings, through harvest. (b) Grow six flowers, three from seeds and three from seedlings, through flowering.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Wash hands with antibacterial soap after handling potting mixes containing perlite or composted manure.
@@ -89,7 +89,7 @@
 
 #### Req 2a: Vegetable Crop Cultivation Methods
 **Official Requirement 2a:** Grow six vegetables, three from seeds and three from seedlings, through harvest.
-**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Vegetables Three From Seeds)
+**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Vegetables Three from Seeds)
 - **Common Myth:** Direct sowing cool weather squash seeds into cold early spring soil accelerates development.
 - **Pamphlet Fact:** Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit.
 
@@ -109,7 +109,7 @@
 
 #### Req 2b: Ornamental Flower Care Techniques
 **Official Requirement 2b:** Grow six flowers, three from seeds and three from seedlings, through flowering.
-**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Flowers Three From Seeds)
+**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Flowers Three from Seeds)
 - **Common Myth:** Annual flowering plants flourish best when seed pods form naturally on mature stems.
 - **Pamphlet Fact:** Removing spent blossoms redirects carbohydrates toward continuous floral bud production.
 
@@ -134,7 +134,7 @@
 - Berry Nutrient Content: Ripe strawberries provide dense antioxidant compounds alongside high bioavailable vitamin C.
 - Potato Carbohydrate Density: Underground tubers store complex starches accompanied by potassium in outer skins.
 
-#### Req 3a: Root And Tuber Nutrition
+#### Req 3a: Root and Tuber Nutrition
 **Official Requirement 3a:** Three root or tuber crops.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Root or Tuber Crops)
 - **Common Myth:** Root vegetables supply only simple sugars without contributing meaningful dietary vitamins.
@@ -150,7 +150,7 @@
 
 #### Req 3b: Aboveground Vegetable Dietary Value
 **Official Requirement 3b:** Three vegetables that bear above the ground.
-**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Vegetables That Bear Above The)
+**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Vegetables That Bear Above the)
 - **Common Myth:** Aboveground vegetables lack complex minerals because those elements remain locked inside soil roots.
 - **Pamphlet Fact:** Spinach and cabbage leaves deliver lutein, calcium, and vitamin K per serving.
 
@@ -178,7 +178,7 @@
 
 ### Req 4: Seed Germination Viability Testing
 **Official Requirement 4:** Test 100 seeds for germination. Determine the percentage of seeds that germinate. Explain why you think some did not germinate.
-**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Seeds for Germination Determine The)
+**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Seeds for Germination Determine the)
 > **Guide to Safe Scouting Warning:** Do not touch eyes or mouth when handling chemically treated commercial seeds containing powdered fungicide.
 - **Common Myth:** Every commercial seed within a packet is guaranteed to produce a viable seedling.
 - **Pamphlet Fact:** Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture.
@@ -293,7 +293,7 @@
 - **Common Myth:** Piling dry leaves in an unmixed heap produces finished compost in two weeks.
 - **Pamphlet Fact:** Maintaining internal pile temperatures above one hundred thirty degrees destroys weed seeds.
 
-![A flowering crape myrtle tree adds vibrant red blooms to home landscaping.](/assets/pamphlet_images/gardening_p028_img2.png)
+![A flowering crape myrtle tree adds bright red blooms to home landscaping.](/assets/pamphlet_images/gardening_p028_img2.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -376,7 +376,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Gardening Careers And Hobbies
+### Req 9: Gardening Careers and Hobbies
 **Official Requirement 9 (Parent Overview):** Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Follow laboratory safety protocols and wear eye protection when analyzing soil chemical reagents.
@@ -406,9 +406,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b: Gardening For Personal Wellness
+#### Req 9b: Gardening for Personal Wellness
 **Official Requirement 9b:** Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Backyard gardening yields insufficient physical activity to qualify as meaningful personal wellness.
 - **Pamphlet Fact:** Growing home food crops increases daily vegetable consumption while delivering moderate cardiovascular physical exercise.
 

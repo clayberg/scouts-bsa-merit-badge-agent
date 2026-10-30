@@ -288,7 +288,7 @@
 
 #### Req 4e: Mandatory Vessel Equipment Inventory
 **Official Requirement 4e:** Explain and show the correct use of equipment required by both state and federal regulations to be carried aboard a motorboat.
-**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Equipment Required By Both State)
+**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Equipment Required by Both State)
 - **Common Myth:** Carrying life jackets satisfies all federal safety equipment mandates for powerboats.
 - **Pamphlet Fact:** Federal law mandates USCG approved fire extinguishers, visual signals, and sound signaling devices.
 
@@ -324,7 +324,7 @@
 
 #### Req 4h: Ground Tackle Anchoring Mechanics
 **Official Requirement 4h:** Discuss the common types of anchors used in motorboating and under what conditions each would be preferred. Explain proper anchoring techniques.
-**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4h Structured Technical Study & Explanation Matrix (Discuss The Common Types of)
+**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4h Structured Technical Study & Explanation Matrix (Discuss the Common Types of)
 - **Common Myth:** Tying an anchor line to the stern stabilizes the boat against wind and waves.
 - **Pamphlet Fact:** A scope ratio of seven to one provides maximum holding power during heavy weather.
 
@@ -371,7 +371,7 @@
 
 #### Req 5b: Fueling Safety Pretrip Check
 **Official Requirement 5b:** Fuel the boat and complete a safety check.
-**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Fuel The Boat)
+**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Fuel the Boat)
 - **Common Myth:** Passengers may remain inside the cabin while the boat refuels at the fuel dock.
 - **Pamphlet Fact:** Turn off all engines and close cabin doors before pumping fuel into tanks.
 
@@ -383,7 +383,7 @@
 
 #### Req 5c: Engine Startup Departure Execution
 **Official Requirement 5c:** If equipped, attach the engine cut-off switch link and safely start the motor. Get underway from dockside or from a beach launch.
-**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Equipped Attach The Engine Cut-off)
+**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Equipped Attach the Engine Cut-off)
 - **Common Myth:** Engine cut off lanyards are only required on high performance racing powerboats.
 - **Pamphlet Fact:** The cut off switch lanyard kills ignition if the driver falls from the helm.
 
@@ -408,7 +408,7 @@
 
 #### Req 5e: Open Water Anchoring Recovery
 **Official Requirement 5e:** Stop and secure the boat in position on the open water using anchors. Raise and stow the anchor and get underway.
-**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Stop and Secure The Boat)
+**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Stop and Secure the Boat)
 - **Common Myth:** Throwing an anchor far from the bow ensures superior bottom penetration and hold.
 - **Pamphlet Fact:** Lowering an anchor by hand prevents rode fouling and guarantees controlled bottom purchase.
 
@@ -421,7 +421,7 @@
 
 #### Req 5f: Docking Landing Disembarking Technique
 **Official Requirement 5f:** Land or dock the boat, disembark, and assist others in doing the same.
-**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Land or Dock The Boat)
+**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix (Land or Dock the Boat)
 - **Common Myth:** Powering hard into a dock slip before reversing creates safe routine docking stops.
 - **Pamphlet Fact:** Approaching a dock against the wind provides greater control over vessel forward momentum.
 
@@ -433,7 +433,7 @@
 
 #### Req 5g: Vessel Mooring Gear Stowage
 **Official Requirement 5g:** Moor, dock, or beach the boat and secure all gear.
-**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5g Structured Technical Study & Explanation Matrix (Moor Dock or Beach The)
+**Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Organizer (Concept & Examples Notes):** Req 5g Structured Technical Study & Explanation Matrix (Moor Dock or Beach the)
 - **Common Myth:** Tying a single bow line provides complete security for a docked motorboat.
 - **Pamphlet Fact:** Spring lines prevent a docked vessel from surging forward and aft in slips.
 

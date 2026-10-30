@@ -12,11 +12,11 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Foundations Of Sustainable Stewardship | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 15, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Foundations of Sustainable Stewardship | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 15, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Water Resource Management Systems | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Sustainable Food Production Systems | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Sustainable Community Infrastructure Design | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 58, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Energy Generation And Conservation | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Energy Generation and Conservation | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Material Goods Lifecycle Analysis | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Global Environmental Biosphere Systems | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Scouting Outdoor Conservation Ethics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -33,7 +33,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Foundations Of Sustainable Stewardship
+### Req 1: Foundations of Sustainable Stewardship
 **Official Requirement 1:** Describe the meaning of sustainability in your own words. Explain the importance of sustainability to society and how you can contribute to fulfilling the needs of current generations without compromising the needs of future generations.
 **Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 15, p. 93)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Sustainability in Your Own Words)
 > **Guide to Safe Scouting Warning:** Maintain clean indoor air circulation when evaluating household chemical storage areas.
@@ -108,9 +108,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c: Regional Drought And Flood Management
+#### Req 2c: Regional Drought and Flood Management
 **Official Requirement 2c:** Different areas of the world are affected by either too much (flooding) or too little (drought) water. Explore whether either or both affect where you live. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried where you live or in an area of the world that interests.
-**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Areas of The World Are)
+**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Areas of the World Are)
 - **Common Myth:** Building concrete drainage channels solves regional flooding without harming downstream river environments.
 - **Pamphlet Fact:** Concrete channels accelerate runoff velocity and worsen catastrophic flooding for downstream communities.
 
@@ -154,7 +154,7 @@
 
 #### Req 3b: Global Food Supply Limitations
 **Official Requirement 3b:** Identify four factors that limit the availability of food in different regions of the world. Discuss how each factor influences the sustainability of worldwide food supplies. Share three ways individuals, families, or your community can create their own food sources.
-**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Factors That Limit The Availability)
+**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Factors That Limit the Availability)
 - **Common Myth:** Worldwide hunger exists solely because global agriculture does not harvest enough total calories.
 - **Pamphlet Fact:** Global food production produces ample calories, but poverty, conflict, and supply waste prevent equitable distribution.
 
@@ -246,7 +246,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Energy Generation And Conservation
+### Req 5: Energy Generation and Conservation
 **Official Requirement 5 (Parent Overview):** Energy. Do ONE of the following and discuss with your counselor: (a) Learn about the sustainability of different energy sources, including coal, gas, geothermal, hydro power, nuclear, petroleum, solar, and wind. Identify three common energy sources in the United States and describe how the production and consumption of each of these energy sources affects sustainability. (b) List eight ways your family consumes energy, such as gas appliances, electricity, heating systems or cooling systems, and transportation. For one home- and one transportation-related energy use, list three ways to help reduce consumption, reduce your carbon footprint, and be a better steward of this resource. (c) List five ways you and your family could reduce energy consumption in your home, such as adjusting your thermostat, window shades, opening windows, reducing hot-water temperature, and minimizing water consumption. Identify the benefits and risks of each idea and implement if possible.
 **Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never touch bare wires, open breaker panels, or insert metal objects into electrical wall outlets.
@@ -261,7 +261,7 @@
 
 #### Req 5a: Renewable Energy Resource Analysis
 **Official Requirement 5a:** Learn about the sustainability of different energy sources, including coal, gas, geothermal, hydro power, nuclear, petroleum, solar, and wind. Identify three common energy sources in the United States and describe how the production and consumption of each of these energy sources affects sustainability.
-**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About The Sustainability)
+**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About the Sustainability)
 - **Common Myth:** Solar and wind energy systems produce zero environmental impact across their entire lifetime.
 - **Pamphlet Fact:** Manufacturing solar panels and wind turbines requires mining rare elements and generates industrial manufacturing waste.
 
@@ -349,9 +349,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c: Waste Pathways And Plastic Classification
+#### Req 6c: Waste Pathways and Plastic Classification
 **Official Requirement 6c:** Research the impact waste has on the environment (land, water, air). Find out what the trash vortex is and how it was formed. Explain the number system for plastic recyclables and which plastics are more commonly recycled. Identify the average lifespan of one electronic device in your household, and whether it can be recycled in whole or part.
-**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Impact Waste Has on The)
+**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Impact Waste Has on the)
 - **Common Myth:** The Great Pacific Garbage Patch looks like a solid floating island of plastic waste.
 - **Pamphlet Fact:** Ocean garbage patches consist primarily of tiny microplastic particles suspended invisibly beneath ocean surface water.
 
@@ -412,7 +412,7 @@
 
 #### Req 7c: Product Life Cycle Evaluation
 **Official Requirement 7c:** Identify how product life cycles (the cycle of design, sourcing, production, use, and disposal or reuse) influence current and future sustainability. Choose one common product to demonstrate how the full product life cycle would apply.
-**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Product Life Cycles The Cycle)
+**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Product Life Cycles the Cycle)
 - **Common Myth:** A product labeled eco-friendly requires zero natural resources or energy during manufacturing.
 - **Pamphlet Fact:** Every manufactured product consumes energy and materials, but sustainable design minimizes lifecycle impacts.
 
@@ -427,11 +427,11 @@
 
 #### Req 7d: Human Population Ecological Pressures
 **Official Requirement 7d:** Learn how the world's population affects the sustainability of Earth. Discuss three human activities that may contribute to putting Earth at risk, now and in the future.
-**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Learn How The World's Population)
+**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Learn How the World's Population)
 - **Common Myth:** Population size alone drives environmental degradation regardless of per capita consumption rates.
 - **Pamphlet Fact:** A small population consuming vast resources per person often creates more damage than larger frugal populations.
 
-![Vibrant coral reefs provide critical marine biodiversity habitats.](/assets/pamphlet_images/sustainability_p087_img1.png)
+![Bright coral reefs provide critical marine biodiversity habitats.](/assets/pamphlet_images/sustainability_p087_img1.png)
 
 | Req 7d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -440,7 +440,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7e: Biodiversity Loss And Restoration
+#### Req 7e: Biodiversity Loss and Restoration
 **Official Requirement 7e:** Explain the term species (plant or animal) decline. Share the human activities that contribute to species decline, what can be done to help reverse the decline, and its impact on a sustainable environment.
 **Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Species Plant or Animal Decline)
 - **Common Myth:** Losing a single insect or reptile species from an ecosystem produces no noticeable biological consequences.
@@ -457,7 +457,7 @@
 
 #### Req 7f: Century Climate Temperature Trends
 **Official Requirement 7f:** Find a world map that shows the pattern of temperature change for a period of at least 100 years. Identify three factors that scientists believe affect the global weather and temperature. Discuss how climate change impacts sustainability of food, water, or other resources.
-**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Concept & Examples Notes):** Req 7f Structured Technical Study & Explanation Matrix (World Map That Shows The)
+**Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)* • **Organizer (Concept & Examples Notes):** Req 7f Structured Technical Study & Explanation Matrix (World Map That Shows the)
 - **Common Myth:** A single unseasonably cold winter day proves that global century temperature warming is inaccurate.
 - **Pamphlet Fact:** Day-to-day weather fluctuations do not disprove statistically verified, century-long upward global climate trends.
 
@@ -514,7 +514,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8b: Scouting Values And Stewardship
+#### Req 8b: Scouting Values and Stewardship
 **Official Requirement 8b:** Discuss with your counselor how living by the Scout Oath, Scout Law, Leave No Trace Seven Principles, and the Outdoor Code in your daily life helps promote sustainability.
 **Source:** *Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
 - **Common Myth:** The Outdoor Code represents outdoor etiquette recommendations rather than ethical conservation obligations.

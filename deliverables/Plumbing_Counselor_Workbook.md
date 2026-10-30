@@ -12,8 +12,8 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Home Sanitation And Health Codes | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Supply And Drainage System Layout | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Home Sanitation and Health Codes | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Supply and Drainage System Layout | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Plumber Hand Tool Mastery | Show | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Plumbing Component Terminology Recognition | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Common Piping Material Applications | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -30,7 +30,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Home Sanitation And Health Codes
+### Req 1: Home Sanitation and Health Codes
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Describe how a properly working plumbing system protects your family's health and safety. (b) List five important local health regulations related to plumbing and tell how they protect health and safety. (c) Describe the safety precautions you must take when making home plumbing repairs.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Always wear safety glasses and chemical-resistant gloves when handling drain piping containing biological pathogens.
@@ -43,7 +43,7 @@
 - Backflow Prevention Device: Atmospheric vacuum breakers prevent backsiphonage of dirty fluids into municipal supply lines.
 - Vertical roof vent stacks balance atmospheric pressure to keep drain lines flowing.
 
-#### Req 1a: Family Health And Plumbing Systems
+#### Req 1a: Family Health and Plumbing Systems
 **Official Requirement 1a:** Describe how a properly working plumbing system protects your family's health and safety.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Working Plumbing System Protects Your)
 - **Common Myth:** Clean supply water and black drain water run through separate chambers within the same pipe.
@@ -85,7 +85,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Supply And Drainage System Layout
+### Req 2: Supply and Drainage System Layout
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing. (b) Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Ensure water heaters are completely de-energized at the breaker box before draining hot water plumbing lines.
@@ -127,9 +127,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Drain Waste And Vent Architecture
+#### Req 2b: Drain Waste and Vent Architecture
 **Official Requirement 2b:** Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents.
-**Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Drawing and Explain The Drainage)
+**Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Drawing and Explain the Drainage)
 - **Common Myth:** Vent pipes carry liquid sewage up to the roof to evaporate outside.
 - **Pamphlet Fact:** Vent pipes convey only air and sewer gases, balancing system pressure so drain water flows freely.
 

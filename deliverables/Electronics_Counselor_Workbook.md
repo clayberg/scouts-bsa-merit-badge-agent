@@ -14,9 +14,9 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Electronic Device Safety Precautions | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Circuit Schematic Diagram Fundamentals | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Soldering And Assembly Practices | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Electronic Systems And Control | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Circuit Measurements And Test | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Soldering and Assembly Practices | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Electronic Systems and Control | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Circuit Measurements and Test | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Electronics Career Pathways Exploration | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -38,7 +38,7 @@
 - **Common Myth:** Low voltage circuits can never cause severe electric shocks or fires.
 - **Pamphlet Fact:** Current as low as 100 milliamperes passing across the chest can cause fatal ventricular fibrillation regardless of voltage.
 
-![Panels showcase historic electronic inventions, circuit components, schematic symbols, and soldering technique.](/assets/ai_illustrations/electronics_req_1_nano_hero.png)
+![Panels display historic electronic inventions, circuit components, schematic symbols, and soldering technique.](/assets/ai_illustrations/electronics_req_1_nano_hero.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -104,7 +104,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Soldering And Assembly Practices
+### Req 3: Soldering and Assembly Practices
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Show the right way to solder and desolder. (b) Show how to avoid heat damage to electronic components. (c) Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Keep the hot soldering iron resting in its insulated safety stand and avoid breathing toxic flux vapor plumes.
@@ -117,7 +117,7 @@
 - Board Trace Preservation: Excessive contact time with a hot iron delaminates copper foil traces from boards.
 - Rosin coated copper braid pulls molten solder away from pins through surface tension.
 
-#### Req 3a: Soldering And Desoldering Techniques
+#### Req 3a: Soldering and Desoldering Techniques
 **Official Requirement 3a:** Show the right way to solder and desolder.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Right Way to Solder and)
 - **Common Myth:** Flicking a hot iron removes molten solder safely from printed circuit board connections.
@@ -166,7 +166,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Electronic Systems And Control
+### Req 4: Electronic Systems and Control
 **Official Requirement 4 (Parent Overview):** Do the following: (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications. (b) Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers. (c) Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Confirm that prototype circuits do not draw excessive current that could burn components or overheat breadboard strips.
@@ -179,7 +179,7 @@
 - Analog systems amplify smooth gradients of physical variables like sound, heat, and light.
 - Breadboard Prototyping Process: Solderless breadboards let designers construct and test functioning electronic projects without permanent soldering.
 
-#### Req 4a: Control Digital And Analog Applications
+#### Req 4a: Control Digital and Analog Applications
 **Official Requirement 4a:** Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Discuss Electronics Control Basic)
 - **Common Myth:** Digital logic gates can process infinite subtle volume changes without analog-to-digital conversion stages.
@@ -195,7 +195,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Decimal And Binary Conversion
+#### Req 4b: Decimal and Binary Conversion
 **Official Requirement 4b:** Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist (Change Three Decimal Numbers Into)
 - **Common Myth:** Binary numbers simply append zeros to decimal numbers without changing the underlying base.
@@ -211,7 +211,7 @@
 
 #### Req 4c: Electronic Project Construction
 **Official Requirement 4c:** Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit.
-**Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c Structured Technical Study & Explanation Matrix (Projects For Your Project)
+**Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c Structured Technical Study & Explanation Matrix (Projects for Your Project)
 - **Common Myth:** Any electronic project works reliably by connecting parts randomly without checking a schematic.
 - **Pamphlet Fact:** Building an electronic project requires tracing the schematic diagram step by step onto a breadboard or circuit board.
 
@@ -233,7 +233,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Circuit Measurements And Test
+### Req 5: Circuit Measurements and Test
 **Official Requirement 5 (Parent Overview):** Do the following: (a) Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law. (b) Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate. (c) Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value. (d) Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Never measure resistance or component continuity while power is applied to the circuit under test.
@@ -258,7 +258,7 @@
 - [ ] Lockout/de-energization verification checklist and fire extinguisher reference.
 - [ ] Engineering logbook and technical specification sheet for Electronics Requirement 5.
 
-![The underside of an integrated circuit reveals an intricate ball grid array.](/assets/pamphlet_images/electronics_p027_img1.png)
+![The underside of an integrated circuit reveals an detailed ball grid array.](/assets/pamphlet_images/electronics_p027_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

@@ -122,7 +122,7 @@
 
 ### Req 5: Parliamentary Procedure Meeting Leadership
 **Official Requirement 5:** Show you know parliamentary procedure by leading a discussion or meeting according to accepted rules of order; or by answering questions on the rules of order.
-**Source:** *Official Scouting America Public Speaking Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (You Know Parliamentary Procedure By)
+**Source:** *Official Scouting America Public Speaking Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (You Know Parliamentary Procedure by)
 > **Guide to Safe Scouting Warning:** Set adequate aisle clearance in meeting halls so participants can move safely to microphones.
 - **Common Myth:** Members think anyone can shout out an opinion at any moment during a formal meeting.
 - **Pamphlet Fact:** Members must be recognized by the presiding officer and speak only to the pending motion.

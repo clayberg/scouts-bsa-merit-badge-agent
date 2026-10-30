@@ -175,7 +175,7 @@
 
 #### Req 4c(1): Local Venomous Snake Recognition Criteria
 **Official Requirement 4c(1):** Show that you can recognize the venomous snakes in your area.
-**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Concept & Examples Notes):** Req 4c(1) Structured Technical Study & Explanation Matrix (You Can Recognize The Venomous)
+**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Concept & Examples Notes):** Req 4c(1) Structured Technical Study & Explanation Matrix (You Can Recognize the Venomous)
 - **Common Myth:** A triangular head shape reliably proves that any wild snake is venomous.
 - **Pamphlet Fact:** Harmless nonvenomous water snakes and garter snakes flatten their heads into a triangular shape when threatened to mimic vipers.
 
@@ -243,7 +243,7 @@
 
 #### Req 4d(2): Insect Metamorphosis and Colony Rearing
 **Official Requirement 4d(2):** Hatch an insect from the pupa or cocoon; OR hatch adults from nymphs; OR keep larvae until they form pupae or cocoons; OR keep a colony of ants or bees through one season.
-**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Activity & Observation Log):** Req 4d(2) Quantitative Field Observation & Activity Log (Hatch An Insect From The)
+**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Activity & Observation Log):** Req 4d(2) Quantitative Field Observation & Activity Log (Hatch An Insect from the)
 - **Common Myth:** Caterpillars will readily feed on any green garden leaf provided in their rearing jar.
 - **Pamphlet Fact:** Most insect larvae are strict feeding specialists that will starve to death unless provided their specific botanical host plant.
 
@@ -337,7 +337,7 @@
 - Collect and classify three distinct soil types rich in sand, clay, and dark organic humus through texture sedimentation tests. Collect, identify, and label five local mineral or rock specimens based on hardness and cleavage.
 - Req 4h Standard (Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)): Soils and Rocks. Do ALL of the following: (1) Collect and identify three different types of soil that represent soils high in sand, clay and humus. (2) Collect and identify five different types of rocks from your area.
 
-#### Req 4h(1): Soil Texture And Composition Analysis
+#### Req 4h(1): Soil Texture and Composition Analysis
 **Official Requirement 4h(1):** Collect and identify three different types of soil that represent soils high in sand, clay and humus.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Concept & Examples Notes):** Req 4h(1) Structured Technical Study & Explanation Matrix (Soil That Represent Soils High)
 - **Common Myth:** Soil is made exclusively of ground rock particles without any biological organic components.
@@ -351,9 +351,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4h(2): Local Rock Classification And Identification
+#### Req 4h(2): Local Rock Classification and Identification
 **Official Requirement 4h(2):** Collect and identify five different types of rocks from your area.
-**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Concept & Examples Notes):** Req 4h(2) Structured Technical Study & Explanation Matrix (Rocks From Your Area)
+**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Concept & Examples Notes):** Req 4h(2) Structured Technical Study & Explanation Matrix (Rocks from Your Area)
 - **Common Myth:** Color serves as the most dependable characteristic for identifying rock types found in the wild.
 - **Pamphlet Fact:** Weathering and trace mineral impurities frequently alter exterior rock colors, making mineral crystal structure, hardness, and layering far more reliable for identification.
 
@@ -459,7 +459,7 @@
 
 #### Req 7b: Amateur Natural History Pursuits
 **Official Requirement 7b:** Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Natural history hobbies are solitary passive pastimes that produce no tangible benefits for scientific research communities.
 - **Pamphlet Fact:** Amateur ornithologists and botanists regularly contribute rigorous observational data to worldwide biodiversity repositories like eBird and iNaturalist.
 

@@ -65,7 +65,7 @@
 
 #### Req 1b: Fire Tetrahedron and Products
 **Official Requirement 1b:** Name the parts of the fire tetrahedron and the products of combustion.
-**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Fire Tetrahedron and The Products)
+**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Fire Tetrahedron and the Products)
 - **Common Myth:** A traditional fire triangle contains all necessary factors required to explain flaming combustion.
 - **Pamphlet Fact:** The fire tetrahedron adds the uninhibited chemical chain reaction to fuel, heat, and oxygen.
 
@@ -268,7 +268,7 @@
 
 #### Req 5a: Household Electrical and Appliance Hazards
 **Official Requirement 5a:** Describe how to prevent the frequent causes of home fires, including unattended cooking, electricity, smoking, clothes dryers, and rechargeable batteries.
-**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Prevent The Frequent Causes of)
+**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Prevent the Frequent Causes of)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Fire Safety Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Power strips can supply unlimited multi-plug splitters as long as breakers do not trip immediately.
 - **Pamphlet Fact:** Lint accumulation inside dryer exhaust ducts restricts airflow and ignites from heating element heat.
@@ -295,7 +295,7 @@
 
 #### Req 5c: Candle Safety and Extinguishment
 **Official Requirement 5c:** Demonstrate how to safely light and extinguish a candle. Discuss with your counselor, then with your family, how to safely use candles.
-**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist (Candle Discuss With Your Counselor)
+**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist (Candle Discuss with Your Counselor)
 - **Common Myth:** Extinguishing candles by blowing hard across the jar opening prevents hot wax spatter.
 - **Pamphlet Fact:** Trimming candle wicks to one quarter inch prevents uneven flickering flames and mushrooming embers.
 
@@ -535,7 +535,7 @@
 
 #### Req 8c: Flint and Steel Ignition
 **Official Requirement 8c:** Explain and demonstrate making sparks with flint and steel or with a ferro rod and catching a spark to create a flame. Extinguish the flame safely using one of the principles of the fire tetrahedron.
-**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist (Making Sparks With Flint and)
+**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist (Making Sparks with Flint and)
 - **Common Myth:** Flint and steel tools produce hot open flames instantly without requiring specialized dry tinder.
 - **Pamphlet Fact:** Scraping a ferrocerium rod generates molten metal shavings exceeding three thousand degrees onto char cloth.
 
@@ -586,7 +586,7 @@
 
 #### Req 8g: Campsite Fire Defense Perimeter
 **Official Requirement 8g:** Explain how to set up and keep a campsite safe from fire.
-**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Activity & Observation Log):** Req 8g Quantitative Field Observation & Activity Log (Campsite Safe From Fire)
+**Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Activity & Observation Log):** Req 8g Quantitative Field Observation & Activity Log (Campsite Safe from Fire)
 - **Common Myth:** Pitching tents within three feet of campfire rings keeps sleeping bags warm safely overnight.
 - **Pamphlet Fact:** Campfires built directly beneath low-hanging evergreen branches ignite overstory tree canopies via convective heat plumes.
 
@@ -686,7 +686,7 @@
 - **Common Myth:** Career paths in fire safety are limited strictly to shift firefighters riding emergency response vehicles.
 - **Pamphlet Fact:** Fire protection engineers design complex sprinkler calculations, while fire investigators analyze forensic origin chemistry.
 
-![Firefighters showcase protective turnout gear, breathing apparatus, and rescue tools beside a red engine for Scouts.](/assets/ai_illustrations/fire_safety_req_10_nano_hero.png)
+![Firefighters display protective turnout gear, breathing apparatus, and rescue tools beside a red engine for Scouts.](/assets/ai_illustrations/fire_safety_req_10_nano_hero.png)
 
 | Career Research Dimension | Pamphlet & Industry Findings | Professional Interview / Source Notes |
 | :--- | :--- | :--- |

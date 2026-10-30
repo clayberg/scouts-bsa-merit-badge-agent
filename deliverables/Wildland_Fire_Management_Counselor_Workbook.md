@@ -336,7 +336,7 @@
 
 #### Req 5b: Fire Triangle Suppression Principles
 **Official Requirement 5b:** Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen.
-**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Wildfire Can Be Suppressed By)
+**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Wildfire Can Be Suppressed by)
 - **Common Myth:** Water chemically neutralizes the fuel so that wet wood can never ignite under radiant heat.
 - **Pamphlet Fact:** Smothering fire with soil removes atmospheric oxygen, while water application absorbs latent heat and cools combustion below ignition temperature.
 
@@ -348,7 +348,7 @@
 
 #### Req 5c: Wildfire Parts Anatomy Diagram
 **Official Requirement 5c:** Draw a diagram to illustrate the parts of a wildfire.
-**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5c Structured Technical Study & Explanation Matrix (Illustrate The Parts of A)
+**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5c Structured Technical Study & Explanation Matrix (Illustrate the Parts of A)
 - **Common Myth:** A wildland fire forms a perfect circle that burns with identical intensity on every side.
 - **Pamphlet Fact:** A wildfire perimeter features a rapidly moving head, slower lateral flanks, an origin, a rear heel, and secondary spot fires.
 
@@ -381,7 +381,7 @@
 
 #### Req 6a: Personal Protective Equipment Standards
 **Official Requirement 6a:** Discuss with your counselor the personal protective equipment used by wildland firefighters and its use.
-**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 - **Common Myth:** Regular cotton work clothes offer the same heat and flame protection as certified aramid garments.
 - **Pamphlet Fact:** Nomex fabric does not melt or drip when exposed to intense heat, shielding firefighters from severe burns.
 
@@ -427,7 +427,7 @@
 
 #### Req 7a: Tactical Suppression Map Simulation
 **Official Requirement 7a:** Alone or with a small team, using the diagram you created in Requirement 5(c) or a map of a wildfire, and tokens to represent firefighting resources, demonstrate the following wildland fire suppression tactics. Explain under which conditions each tactic would be used: (1) Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration.
-**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Organizer (Field Sketch & Diagram Canvas):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Alone or With A Small)
+**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Organizer (Field Sketch & Diagram Canvas):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Alone or with A Small)
 - **Common Myth:** Fire suppression crews can safely start digging a fireline in the middle of a burning flank without anchors.
 - **Pamphlet Fact:** Crews initiate line construction from an unburnable anchor point, such as a road or rock outcropping, to prevent flanking.
 
@@ -597,7 +597,7 @@
 
 #### Req 9d: Community Fire Prevention Education
 **Official Requirement 9d:** Meet with a Fire Prevention Specialist or a local fire official to learn about fire prevention efforts in your community. From what you learned, prepare a fire prevention message (skit, video, or billboard concept) and share with your counselor and troop (or other group approved by your counselor)
-**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Meet With A Fire Prevention)
+**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Meet with A Fire Prevention)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Wildland Fire Management Req 9d preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Public fire prevention posters only need catchy slogans without providing concrete safety mitigation actions.
 - **Pamphlet Fact:** Effective fire prevention campaigns deliver concise, actionable guidance regarding campfire safety and lawnmower operation hours.
@@ -611,7 +611,7 @@
 
 #### Req 9e: Fire Weather Meteorological Factors
 **Official Requirement 9e:** Meet with a meteorologist or someone familiar with fire weather and discuss the fire weather concerns and typical fire seasons that exist in your area. Discuss the conditions that lead to a Fire Weather Watch or a Red Flag Warning. Discuss what you learned with your counselor.
-**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix (Meet With A Meteorologist or)
+**Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix (Meet with A Meteorologist or)
 - **Common Myth:** Hot sunny days always create extreme fire weather even during calm winds and high humidity.
 - **Pamphlet Fact:** Red Flag Warnings are triggered by combinations of relative humidity below fifteen percent and high wind speeds.
 

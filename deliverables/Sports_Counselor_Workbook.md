@@ -137,7 +137,7 @@
 - **Pamphlet Fact:** Weight training strengthens connective ligaments, balances opposing muscle groups, and reinforces bone mineral density.
 
 **Official Pamphlet Summary:**
-- Dynamic movements elevate core muscle temperature and lubricate synovial joint capsules before activity.
+- Dynamic movements raise core muscle temperature and lubricate synovial joint capsules before activity.
 - Strict lifting technique with moderate resistance builds tendon strength without damaging growth plates.
 - Amateur athletes compete solely for love of sport without receiving direct financial compensation.
 - True sportsmanship honors game rules, respects match officials, and encourages teammates through adversity.
@@ -148,7 +148,7 @@
 - **Common Myth:** Static stretching before cold muscles are warm prevents acute athletic joint sprain injuries.
 - **Pamphlet Fact:** Gradual cool-downs prevent venous blood pooling in extremities and assist rapid lactic acid clearance.
 
-![Sports Requirement 3 figure showing dynamic movements elevate core muscle temperature and lubricate synovial joint capsules.](/assets/pamphlet_images/sports_p012_img1.png)
+![Sports Requirement 3 figure showing dynamic movements raise core muscle temperature and lubricate synovial joint capsules.](/assets/pamphlet_images/sports_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -236,7 +236,7 @@
 
 #### Req 5a: Personal Training Program Design
 **Official Requirement 5a:** With guidance from your counselor, establish a suitable personal training program that you will follow throughout your competition season (or for three months)
-**Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Guidance From Your Counselor Establish)
+**Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Establish)
 - **Common Myth:** A training schedule must copy an elite adult professional routine to be effective.
 - **Pamphlet Fact:** Periodized training programs alternate hard training days with rest to allow muscular cellular repair.
 
@@ -348,7 +348,7 @@
 
 #### Req 5h: Season Evaluation Progress Review
 **Official Requirement 5h:** At the end of the season, share your completed chart with your counselor and discuss how your participation in the sports you chose has affected you mentally and physically.
-**Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5h Structured Technical Study & Explanation Matrix (End of The Season)
+**Source:** *Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82)* • **Organizer (Concept & Examples Notes):** Req 5h Structured Technical Study & Explanation Matrix (End of the Season)
 - **Common Myth:** Season discussions focus exclusively on trophies won rather than individual psychological character growth.
 - **Pamphlet Fact:** Reflecting on seasonal performance builds emotional maturity, self-awareness, and intrinsic personal motivation.
 

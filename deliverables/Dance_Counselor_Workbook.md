@@ -36,7 +36,7 @@
 **Source:** *Dance Test Lab Resource Guide, pp. 4-9* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Never rehearse high impact jumps on unyielding concrete or tile surfaces lacking spring suspension.
 - **Common Myth:** Static stretching prior to dancing fully protects tendons and ligaments from strain injuries.
-- **Pamphlet Fact:** A structured dynamic warmup elevates core body temperature and joint synovial fluid viscosity before dancing.
+- **Pamphlet Fact:** A structured dynamic warmup raises core body temperature and joint synovial fluid viscosity before dancing.
 
 **Official Pamphlet Summary:**
 - Dynamic Preparation: Active mobility exercises raise core body temperature and improve joint muscle elasticity.
@@ -88,7 +88,7 @@
 
 #### Req 1d: Dance Apparel Footwear Standards
 **Official Requirement 1d:** Explain the importance of wearing the right clothing and gear for dance, including appropriate footwear.
-**Source:** *Dance Test Lab Resource Guide, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Wearing The Right Clothing and)
+**Source:** *Dance Test Lab Resource Guide, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Wearing the Right Clothing and)
 - **Common Myth:** Any athletic sneaker provides adequate floor contact and pivoting support for all dance genres.
 - **Pamphlet Fact:** Specialized dance shoes match specific studio floor resistance to protect metatarsals and ankles.
 
@@ -100,7 +100,7 @@
 
 ### Req 2: Five Core Dance Elements
 **Official Requirement 2:** Elements of Dance. Describe the 5 Elements of dance: Body, Action (Relationships), Space, Time, and Energy.
-**Source:** *Dance Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Elements of Dance Describe The)
+**Source:** *Dance Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Elements of Dance Describe the)
 > **Guide to Safe Scouting Warning:** Maintain generous personal space boundaries to prevent accidental collisions during explosive locomotor movements.
 - **Common Myth:** Dance elements only apply to classical theatrical ballet rather than social or street styles.
 - **Pamphlet Fact:** The five core dance elements combine in varying proportions across every traditional and contemporary genre.
@@ -137,7 +137,7 @@
 **Official Requirement 3a:** Acrobatics/Acro Dance.
 **Source:** *Dance Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Acrobatics/Acro Dance)
 - **Common Myth:** Acro dance consists solely of unconnected floor gymnastics tricks performed without music.
-- **Pamphlet Fact:** Acro dance blends seamless lyricism and dance musicality with gymnastic tumbling passes.
+- **Pamphlet Fact:** Acro dance blends smooth lyricism and dance musicality with gymnastic tumbling passes.
 
 ![Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.](/assets/pamphlet_images/dance_p008_img1.png)
 
@@ -382,7 +382,7 @@
 
 #### Req 4e: Adaptive Dance Universal Inclusion
 **Official Requirement 4e:** Note if anyone with a physical disability (such a person with hearing or sight impairment or a person who uses a wheelchair) could participate in this type of dancing. What accommodations would that person need to participate.
-**Source:** *Dance Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Note If Anyone With A)
+**Source:** *Dance Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Note If Anyone with A)
 - **Common Myth:** Dancers with severe physical or sensory disabilities cannot participate in formal choreography.
 - **Pamphlet Fact:** Wheelchair dance, visual cues, and tactile rhythms create authentic artistic participation for diverse dancers.
 
@@ -397,7 +397,7 @@
 **Official Requirement 4f:** Locate and share a place near you/in your state where you could watch or participate in this type of dance as a part of a performance, competition, or class. Find out when and where this is offered and what the cost would be to watch or participate.
 **Source:** *Dance Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix (Place Near You/in Your State)
 - **Common Myth:** Authentic dance experiences are only accessible in major metropolitan commercial entertainment centers.
-- **Pamphlet Fact:** Community cultural centers, professional theaters, and universities host public dance showcases and classes.
+- **Pamphlet Fact:** Community cultural centers, professional theaters, and universities host public dance displays and classes.
 
 | Req 4f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -476,7 +476,7 @@
 > **Guide to Safe Scouting Warning:** Prioritize occupational ergonomic health, joint conservation, and safe teaching practices throughout dance careers.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Dance Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Dance training prepares individuals exclusively for competitive commercial stage performance careers.
-- **Pamphlet Fact:** Dance education fosters transferable skills in physical kinesiology, creative production, pedagogy, and lifelong health.
+- **Pamphlet Fact:** Dance education builds transferable skills in physical kinesiology, creative production, pedagogy, and lifelong health.
 
 **Official Pamphlet Summary:**
 - Career Pathways: Professional dance careers span choreography, physical therapy, lighting design, and studio ownership.

@@ -96,7 +96,7 @@
 
 #### Req 2c: Sustainable Forest Management Principles
 **Official Requirement 2c:** Tell how the industry has incorporated the concepts of sustainable forest management (SFM)
-**Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Industry Has Incorporated The Concepts)
+**Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Industry Has Incorporated the Concepts)
 - **Common Myth:** Sustainable forestry only means planting one new sapling for every felled tree.
 - **Pamphlet Fact:** Sustainable management encompasses riparian buffer preservation, biodiversity protection, and soil erosion control.
 
@@ -151,7 +151,7 @@
 
 #### Req 3b: Mechanical and Chemical Pulping
 **Official Requirement 3b:** Describe two ways of getting fibers from wood, and explain the major differences between them.
-**Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix (Getting Fibers From Wood)
+**Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix (Getting Fibers from Wood)
 - **Common Myth:** Mechanical pulping produces stronger paper than chemical pulping because fibers are unheated.
 - **Pamphlet Fact:** Chemical pulping yields far stronger paper because intact cellulose fibers bond without interfering lignin.
 
@@ -228,7 +228,7 @@
 - **Common Myth:** Paper products in households are limited strictly to writing paper, books, and tissues.
 - **Pamphlet Fact:** Home paper items include drywall backing, egg cartons, sandpaper base, and coffee filters.
 
-![A Scout and instructor examine a wall display showcasing commercial cardboard packaging, books, calendars, and paper goods.](/assets/ai_illustrations/pulp_and_paper_req_6_nano_hero.png)
+![A Scout and instructor examine a wall display displaying commercial cardboard packaging, books, calendars, and paper goods.](/assets/ai_illustrations/pulp_and_paper_req_6_nano_hero.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -259,7 +259,7 @@
 
 #### Req 7a: Pulp Mill Fiber Conversion
 **Official Requirement 7a:** Visit a pulp mill. Describe how the mill converts wood to cellulose fibers.
-**Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Pulp Mill Describe How The)
+**Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Pulp Mill Describe How the)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Pulp and Paper Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Pulp mills only produce dry sheets of printer paper for consumers.
 - **Pamphlet Fact:** Pulp mills produce bulk wet laps or baled dry pulp sheets for paper mills.

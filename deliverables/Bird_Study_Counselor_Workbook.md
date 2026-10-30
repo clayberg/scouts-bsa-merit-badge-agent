@@ -160,7 +160,7 @@
 
 #### Req 3c: Coated Optical Lens Maintenance
 **Official Requirement 3c:** Show how to properly care for and clean the lenses.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Care for and Clean The)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist (Care for and Clean the)
 - **Common Myth:** Household glass cleaner and paper towels are ideal for maintaining expensive coated binocular lenses.
 - **Pamphlet Fact:** Wiping dusty optical glass with a dry cotton shirt scratches the anti reflective chemical coatings.
 
@@ -304,7 +304,7 @@
 
 #### Req 5a: Temporal Observation Record Keeping
 **Official Requirement 5a:** Note the date and time.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Note The Date and Time)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Note the Date and Time)
 - **Common Myth:** Bird activity and detection rates remain identical across all daylight and evening hours.
 - **Pamphlet Fact:** Avian vocalization and foraging peak during the first two hours following morning sunrise.
 
@@ -324,7 +324,7 @@
 
 #### Req 5b: Geographic Habitat Field Documentation
 **Official Requirement 5b:** Note the location and habitat.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Note The Location and Habitat)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Note the Location and Habitat)
 - **Common Myth:** Listing the city or town provides sufficient geographic detail for avian ecological studies.
 - **Pamphlet Fact:** Habitat descriptions must specify canopy density, understory plants, and nearby aquatic features.
 
@@ -352,7 +352,7 @@
 
 #### Req 5d: Seasonal Residency Status Classification
 **Official Requirement 5d:** Note whether the bird is a migrant or a summer, winter, or year-round resident of your area.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Note Whether The Bird)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Note Whether the Bird)
 - **Common Myth:** Any bird seen in winter automatically remains in that exact location during breeding season.
 - **Pamphlet Fact:** Local residency categories classify species as permanent residents, breeding visitors, wintering birds, or passage migrants.
 
@@ -501,7 +501,7 @@
 - **Common Myth:** Rarely observed birds on an outing are always endangered or facing nationwide population collapse.
 - **Pamphlet Fact:** A bird may simply be uncommon locally due to specialized habitat requirements, secretive behavior, large territory sizes, or seasonal timing.
 
-![A hummingbird hovers midair to feed on nectar from vibrant flowering garden plants.](/assets/pamphlet_images/bird_study_p088_img1.png)
+![A hummingbird hovers midair to feed on nectar from bright flowering garden plants.](/assets/pamphlet_images/bird_study_p088_img1.png)
 
 | Req 8a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -535,7 +535,7 @@
 
 #### Req 8b(1): Christmas Bird Count Data Collection
 **Official Requirement 8b(1):** Explain what kinds of information are collected during the annual event.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8b(1) Structured Technical Study & Explanation Matrix (Information Are Collected During The)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8b(1) Structured Technical Study & Explanation Matrix (Information Are Collected During the)
 - **Common Myth:** Christmas Bird Count teams record only unusual or rare birds and ignore familiar backyard species.
 - **Pamphlet Fact:** Every individual bird of every species detected must be counted along with detailed records of observer hours and miles covered.
 
@@ -622,7 +622,7 @@
 
 #### Req 8c(4): Banding Station Operations and Fieldwork
 **Official Requirement 8c(4):** Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8c(4) Structured Technical Study & Explanation Matrix (Birds Were Captured The Number)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8c(4) Structured Technical Study & Explanation Matrix (Birds Were Captured the Number)
 - **Common Myth:** Scouts visiting a banding station are permitted to independently untangle birds from delicate mist nets.
 - **Pamphlet Fact:** Trained licensed banders must extract birds from nets to prevent injury, while visiting Scouts typically assist with data logging, carrying holding bags, or observation.
 
@@ -675,7 +675,7 @@
 
 #### Req 9c: Native Plant Backyard Sanctuary
 **Official Requirement 9c:** Build a backyard sanctuary for birds by planting trees and shrubs for food and cover.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Organizer (Skill Demonstration Checklist):** Req 9c Hands-On Skill Station & EDGE Verification Checklist (Backyard Sanctuary for Birds By)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Organizer (Skill Demonstration Checklist):** Req 9c Hands-On Skill Station & EDGE Verification Checklist (Backyard Sanctuary for Birds by)
 - **Common Myth:** Exotic ornamental flowering plants provide superior nutritional value for native wild bird populations.
 - **Pamphlet Fact:** Native plant species host significantly more caterpillars than nonnative ornamental garden trees and shrubs.
 
@@ -777,7 +777,7 @@
 **Official Requirement 11:** Identify a non-native bird (introduced to North America from a foreign country since 1800). Describe how non-native birds may become damaging to the ecosystem.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 18)* • **Organizer (Concept & Examples Notes):** Req 11 Structured Technical Study & Explanation Matrix (Non-native Bird Introduced to North)
 > **Guide to Safe Scouting Warning:** Never release captive nonnative cage birds into the wild because foreign pathogens can devastate native wildlife.
-- **Common Myth:** Nonnative introduced birds seamlessly integrate into local ecosystems without harming existing native bird populations.
+- **Common Myth:** Nonnative introduced birds smoothly integrate into local ecosystems without harming existing native bird populations.
 - **Pamphlet Fact:** Invasive birds like European starlings and house sparrows outcompete native cavity nesting songbirds for scarce nest sites and food resources.
 
 ![An illustration highlights distinct facial features and head plumage of an exotic bird.](/assets/pamphlet_images/bird_study_p009_img1.png)
@@ -849,7 +849,7 @@
 
 #### Req 13b: Recreational Bird Watching Avocation
 **Official Requirement 13b:** Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)* • **Organizer (Concept & Examples Notes):** Req 13b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)* • **Organizer (Concept & Examples Notes):** Req 13b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Bird watching as a hobby requires spending thousands of dollars on high end optics immediately.
 - **Pamphlet Fact:** Recreational bird watching connects hobbyists to global citizen science projects like eBird without requiring academic degrees.
 

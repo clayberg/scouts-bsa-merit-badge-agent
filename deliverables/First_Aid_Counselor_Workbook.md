@@ -1,6 +1,6 @@
 # First Aid Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
-**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
+**Counselor:** Eric Clayberg (Troop 19, Middleton MA) - `clayberg@gmail.com • (978) 555-0119`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/First%20Aid.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/first-aid/
 
@@ -39,7 +39,7 @@
 - [ ] **Station Req 3:** Scout explains signs, prevention, and first aid for closed wounds, 1st/2nd/3rd-degree burns, frostbite, blisters, punctures, poisonous plants, and bites/stings.
 - [ ] **Station Req 4:** Scout demonstrates nosebleed care, mild wound dressing, direct pressure bandage, and simulated windlass tourniquet placement (without tightening).
 - [ ] **Station Req 5:** Scout demonstrates 5-and-5 choking rescue positioning, explains asthma inhaler and epinephrine auto-injector use, and describes care for inhalation injuries and altitude sickness.
-- [ ] **Station Req 6:** Scout demonstrates placing a breathing unresponsive patient into the recovery position and explains first aid and prevention for all 7 Req 6 conditions (6a–6g).
+- [ ] **Station Req 6:** Scout demonstrates placing a breathing unresponsive patient into the recovery position and explains first aid and prevention for all 7 Req 6 conditions (6a-6g).
 - [ ] **Station Req 7:** Scout completes at least 2 full cycles of 30:2 CPR and attaches AED training pads accurately on a CPR manikin.
 - [ ] **Station Req 8:** Scout applies a padded forearm or lower-leg splint plus sling/swath on a buddy and performs pre- and post-splint CMS checks.
 - [ ] **Station Req 9:** Scout explains head/neck/back injury signs and concussion care, demonstrates a triangular head bandage for an open scalp wound, and demonstrates manual in-line spinal stabilization.
@@ -76,7 +76,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Calling Help From Any Location
+#### Req 1b: Calling Help from Any Location
 **Official Requirement 1b:** Tell how you would obtain emergency medical assistance from your home and from a remote location on a wilderness camping trip.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (You Would Obtain Emergency Medical)
 - **Common Myth:** Cellular phones reliably connect to emergency dispatch operators anywhere in remote backcountry regions.
@@ -376,7 +376,7 @@
 
 #### Req 3i: Blisters on Hands, Feet, and Shoulders
 **Official Requirement 3i:** Blisters on the hands, feet, buttocks, and shoulders.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3i Structured Technical Study & Explanation Matrix (Blisters on The Hands Feet)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3i Structured Technical Study & Explanation Matrix (Blisters on the Hands Feet)
 - **Common Myth:** Puncturing every blister with an unsterilized needle relieves pressure and expedites backcountry travel.
 - **Pamphlet Fact:** Friction blisters should be cushioned with donut pads rather than intentionally popped on the trail.
 
@@ -390,7 +390,7 @@
 
 #### Req 3j: Splinters and Fishhook Punctures
 **Official Requirement 3j:** Puncture wounds from splinters, rope splinters, nails, and fish hooks.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3j Structured Technical Study & Explanation Matrix (Puncture Wounds From Splinters Rope)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3j Structured Technical Study & Explanation Matrix (Puncture Wounds from Splinters Rope)
 - **Common Myth:** Deep dirty puncture wounds heal best when immediately sealed with waterproof skin adhesives.
 - **Pamphlet Fact:** Deep puncture wounds carry substantial risk of anaerobic tetanus and must not be sealed tightly.
 
@@ -404,7 +404,7 @@
 
 #### Req 3k: Poisonous Plant Contact Rashes
 **Official Requirement 3k:** Rash from poisonous plants.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3k Structured Technical Study & Explanation Matrix (Rash From Poisonous)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3k Structured Technical Study & Explanation Matrix (Rash from Poisonous)
 - **Common Myth:** Poison ivy blister fluid spreads the allergic rash to other parts of your body.
 - **Pamphlet Fact:** Urushiol oil from poisonous plants must be washed away using soap and cold running water.
 
@@ -519,7 +519,7 @@
 - **Common Myth:** Tilting the head back during a nosebleed stops bleeding by sending blood back inward.
 - **Pamphlet Fact:** Pinching the soft nostrils while leaning forward prevents blood from draining into the stomach.
 
-![Scout treating an injured hiker for shock on the trail by elevating the legs and wrapping in a thermal blanket.](/assets/pamphlet_images/first_aid_p023_img1.png)
+![Scout treating an injured hiker for shock on the trail by raising the legs and wrapping in a thermal blanket.](/assets/pamphlet_images/first_aid_p023_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -529,7 +529,7 @@
 
 #### Req 4b: Mild Cuts and Abrasions
 **Official Requirement 4b:** An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration)
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Open Wound With Mild or)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Open Wound with Mild or)
 - **Common Myth:** Pouring pure hydrogen peroxide into scrapes promotes superior tissue regeneration without cellular damage.
 - **Pamphlet Fact:** Minor lacerations require thorough washing with drinking water before applying sterile adhesive bandages.
 
@@ -543,7 +543,7 @@
 
 #### Req 4c: Severe Arterial and Venous Bleeding
 **Official Requirement 4c:** An open wound with severe bleeding such as a deep cut on an arm or leg.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Open Wound With Severe Bleeding)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Open Wound with Severe Bleeding)
 - **Common Myth:** Lifting a soaked gauze pad repeatedly to inspect clotting speeds up natural physiological hemostasis.
 - **Pamphlet Fact:** Severe arterial hemorrhage demands continuous direct pressure with packed gauze to promote clotting.
 
@@ -614,7 +614,7 @@
 
 #### Req 5c: Life Threatening Anaphylaxis
 **Official Requirement 5c:** Anaphylaxis from an insect bite or sting or from food or product allergy.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Anaphylaxis From An Insect Bite)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Anaphylaxis from An Insect Bite)
 - **Common Myth:** Oral antihistamines alone work rapidly enough to reverse airway closing during severe systemic anaphylaxis.
 - **Pamphlet Fact:** Epinephrine acts directly on alpha and beta adrenergic receptors to reverse severe systemic anaphylaxis.
 
@@ -1081,7 +1081,7 @@
 
 #### Req 10c: Smoke Filled Room Rescues
 **Official Requirement 10c:** By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist (Yourself and With A Partner)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist (Yourself and with A Partner)
 - **Common Myth:** Rescuers in smoke-filled buildings should stand fully erect to carry victims quickly in arms.
 - **Pamphlet Fact:** Responders crawl low beneath smoke, pulling the patient by their clothing or a blanket drag.
 
@@ -1095,7 +1095,7 @@
 
 #### Req 10d: Sprained Ankle Two Person Carries
 **Official Requirement 10d:** By yourself and with a partner, demonstrate how to transport a person with a sprained ankle for at least 25 yards.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 10d Hands-On Skill Station & EDGE Verification Checklist (Yourself and With A Partner)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 10d Hands-On Skill Station & EDGE Verification Checklist (Yourself and with A Partner)
 - **Common Myth:** A person with a sprained ankle should be forced to hop unsupported across rough terrain.
 - **Pamphlet Fact:** A two-person walking assist allows an ankle-injured victim to walk while distributing weight across responders.
 
@@ -1190,7 +1190,7 @@
 
 #### Req 11e: Cold Induced Chest Pain
 **Official Requirement 11e:** Chest pains associated with cold exposure.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11e Structured Technical Study & Explanation Matrix (Chest Pains Associated With Cold)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11e Structured Technical Study & Explanation Matrix (Chest Pains Associated with Cold)
 - **Common Myth:** Chest pain experienced while shoveling snow in freezing temperatures is simply pulled chest muscles.
 - **Pamphlet Fact:** Cold temperatures cause coronary vasoconstriction, increasing cardiac workload and precipitating acute angina pectoris.
 
@@ -1290,7 +1290,7 @@
 
 #### Req 13a: Foreign Objects in the Eye
 **Official Requirement 13a:** Object in the eye.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13a Structured Technical Study & Explanation Matrix (Object in The Eye)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13a Structured Technical Study & Explanation Matrix (Object in the Eye)
 - **Common Myth:** Rubbing an eye vigorously with fingers dislodges foreign specks from the cornea safely.
 - **Pamphlet Fact:** Chemical eye exposures require immediate continuous water irrigation for at least fifteen minutes.
 
@@ -1316,7 +1316,7 @@
 
 #### Req 13c: Food Poisoning and Dehydration
 **Official Requirement 13c:** Vomiting and diarrhea associated with food poisoning.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13c Structured Technical Study & Explanation Matrix (Vomiting and Diarrhea Associated With)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13c Structured Technical Study & Explanation Matrix (Vomiting and Diarrhea Associated with)
 - **Common Myth:** Withholding all liquids for forty-eight hours cures acute bacterial food poisoning diarrhea quickly.
 - **Pamphlet Fact:** Food poisoning causes gastrointestinal fluid loss requiring oral rehydration salts rather than antimotility drugs.
 
@@ -1354,7 +1354,7 @@
 
 ### Req 14: First Aid Instruction Methodology
 **Official Requirement 14:** With guidance from your counselor, develop a plan to teach a first-aid skill or topic using the EDGE method. Discuss your skill, topic, and plan with your counselor, and then teach your skill or topic to your family or to one or more Scouts.
-**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 14 Structured Technical Study & Explanation Matrix (Guidance From Your Counselor Develop)
+**Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 29, p. 33)* • **Organizer (Concept & Examples Notes):** Req 14 Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Develop)
 > **Guide to Safe Scouting Warning:** Ensure all demonstration bandages and training splints are removed gently without cutting clothing or skin.
 - **Common Myth:** Lecturing about a first aid technique once is sufficient for Scouts to master skills.
 - **Pamphlet Fact:** The EDGE method ensures learner competency through staged progression from demonstration to independent practice.

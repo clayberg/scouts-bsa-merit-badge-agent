@@ -16,8 +16,8 @@
 | **2** | Req 2: Manual Manufacturing Drawing Production | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Computer Aided Design Production | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Engineering Drawing Revision Process | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Manual And CAD Comparison | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 15, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Technical Lettering And Application | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Manual and CAD Comparison | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 15, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Technical Lettering and Application | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Drafting Industry Practice Investigation | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Drafting Career Pathway Opportunities | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Drafting Merit Badge Pamphlet (p. 60, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
@@ -257,7 +257,7 @@
 
 #### Req 4b: Drawing Revision Delta Implementation
 **Official Requirement 4b:** Make the correction from the redline, identify it on the drawings with a revision marker, and add a revision block.
-**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Correction From The Redline)
+**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Correction from the Redline)
 - **Common Myth:** Placing revision notes in the title block eliminates any need for sheet markers.
 - **Pamphlet Fact:** Delta revision markers connect modified sheet areas directly to corresponding lines in revision tables.
 
@@ -269,7 +269,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Manual And CAD Comparison
+### Req 5: Manual and CAD Comparison
 **Official Requirement 5:** Discuss with your counselor how fulfilling requirements 2, 3, and 4 differed from each other. Tell about the benefits derived from using CAD for requirements 3 and 4. Include in your discussion the software you used as well as other software options that are available.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 15, p. 19)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (CAD vs. Manual Drafting Workflow)
 > **Guide to Safe Scouting Warning:** Maintain clean dry computer workstations to prevent electrical shocks and hardware component damage.
@@ -292,7 +292,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Technical Lettering And Application
+### Req 6: Technical Lettering and Application
 **Official Requirement 6:** Using single-stroke slant or vertical Gothic lettering (without the aid of a template or lettering guide), write a brief explanation of what you consider to be the most important benefit in using CAD in a particular industry (aerospace, electronics, manufacturing, architectural, or other). Use the experience gained in fulfilling requirements 2 through 5 to support your opinion. Use the formatted sheet of paper you prepared in requirement 1 for your lettering project.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Single-stroke Slant or Vertical Gothic)
 > **Guide to Safe Scouting Warning:** Avoid resting heavy body weight on drafting wrists to prevent carpal tunnel strain.
@@ -343,7 +343,7 @@
 
 #### Req 7a(1): Commercial Drafting Software and Workflows
 **Official Requirement 7a(1):** Find out how much of the drafting done there is manual and how much is done using CAD. If CAD is used, find out what software is used and how and why it was chosen.
-**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7a(1) Structured Technical Study & Explanation Matrix (Out How Much of The)
+**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7a(1) Structured Technical Study & Explanation Matrix (Out How Much of the)
 - **Common Myth:** Modern commercial drafting firms have completely eliminated manual pencil drawing from their workflow.
 - **Pamphlet Fact:** Professional drafters still rely on manual pencil sketching to explore preliminary ideas, solve spatial problems, and make quick field revisions before modeling in software.
 
@@ -374,7 +374,7 @@
 
 #### Req 7a(3): Drafting Contributions to Final Products
 **Official Requirement 7a(3):** Ask how important the role of drafting is to producing the end product or service that this business supplies. Find out how drafting contributes to the company's end product or service.
-**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7a(3) Structured Technical Study & Explanation Matrix (Ask How Important The Role)
+**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7a(3) Structured Technical Study & Explanation Matrix (Ask How Important the Role)
 - **Common Myth:** Drafting is merely clerical illustration that has no direct influence on the safety or profitability of a company's final product.
 - **Pamphlet Fact:** Drafting determines exact part tolerances and fabrication sequences, meaning that errors on a drawing directly increase scrap rates, project delays, and production expenses.
 
@@ -400,7 +400,7 @@
 
 #### Req 7b(1): Evolution of Traditional Drafting Tools
 **Official Requirement 7b(1):** The drafting tools used in the past, why and how they were used. Explain which tools are still used today and how their use has changed with the advent of new tools. Discuss which tools are being made obsolete by newer tools in the industry.
-**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7b(1) Structured Technical Study & Explanation Matrix (Drafting Tools Used in The)
+**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7b(1) Structured Technical Study & Explanation Matrix (Drafting Tools Used in the)
 - **Common Myth:** Computer drafting has made physical measuring scales and hand compasses completely useless for modern drafters.
 - **Pamphlet Fact:** Drafters and engineers still use manual triangular scales and compasses to verify printed full-size drawings and take quick field measurements on construction sites.
 
@@ -431,7 +431,7 @@
 
 #### Req 7b(3): Digital Drafting Outputs and Applications
 **Official Requirement 7b(3):** Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers. Briefly discuss how new media types are used in the industry today.
-**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7b(3) Structured Technical Study & Explanation Matrix (Discuss Whether The Types of)
+**Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7b(3) Structured Technical Study & Explanation Matrix (Discuss Whether the Types of)
 - **Common Myth:** Modern computer-aided drafting files serve only as digital pictures meant for printing onto paper.
 - **Pamphlet Fact:** Modern CAD files contain parametric data that directly drives automated CNC machine tools, 3D printers, and dynamic structural simulations without generating physical paper drawings.
 

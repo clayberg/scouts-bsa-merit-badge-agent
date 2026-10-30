@@ -196,7 +196,7 @@
 
 #### Req 4c: Evidentiary Document Acquisition Methods
 **Official Requirement 4c:** Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record.
-**Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Organizer (Activity & Observation Log):** Req 4c Quantitative Field Observation & Activity Log (Obtain At Least One Genealogical)
+**Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Organizer (Activity & Observation Log):** Req 4c Quantitative Field Observation & Activity Log (Obtain at Least One Genealogical)
 - **Common Myth:** Novices think any printed certificate from a web page proves ancestral relationships conclusively.
 - **Pamphlet Fact:** A valid supporting document must directly name individuals and explicitly describe the relevant life event.
 
@@ -321,7 +321,7 @@
 
 ### Req 6: Pedigree Chart Generational Construction
 **Official Requirement 6:** Begin your family tree by listing yourself and include at least two additional generations. You may complete this requirement by using the chart provided in the Genealogy merit badge pamphlet or the genealogy software program of your choice.
-**Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Begin Your Family Tree By)
+**Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Begin Your Family Tree by)
 > **Guide to Safe Scouting Warning:** Do not publicly publish living individuals' birth dates or social security numbers online.
 - **Common Myth:** Beginners often write married surnames on pedigree charts instead of the mother's maiden surname.
 - **Pamphlet Fact:** Genealogists always record women under their biological maiden surnames to preserve maternal lineage continuity.
@@ -380,7 +380,7 @@
 
 #### Req 8a: Computer and Internet Paradigm Shift
 **Official Requirement 8a:** Explain the effect computers and the internet are having on the world of genealogy.
-**Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Computers and The Internet)
+**Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Computers and the Internet)
 - **Common Myth:** Scouts believe computer databases have completely replaced the need for visiting physical archives.
 - **Pamphlet Fact:** Computers provide access to millions of digitized collections, but vast numbers of records remain un-scanned.
 
@@ -437,6 +437,6 @@
 - Identity Discovery: Uncovering ancestral stories connects an individual's personal life with broader historic social movements.
 - Migration Tracking: Tracing family movements reveals economic motivations, geographic challenges, and cultural adaptations across eras.
 - Heirloom Appreciation: Studying family history transforms old photographs, heirlooms, and letters into meaningful biographical artifacts.
-- Generational Resilience: Discovering ancestral hardships fosters personal gratitude, emotional resilience, and deep respect for forebears.
+- Generational Resilience: Discovering ancestral hardships builds personal gratitude, emotional resilience, and deep respect for forebears.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

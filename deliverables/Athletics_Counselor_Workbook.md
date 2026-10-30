@@ -154,7 +154,7 @@
 
 #### Req 3a: Three Month Training Program
 **Official Requirement 3a:** With guidance from your counselor, establish a personal training program suited to the activity you have chosen. Follow this training program for three months.
-**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 35)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Guidance From Your Counselor Establish)
+**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 35)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Establish)
 - **Common Myth:** A training plan should remain completely identical every week without changing weights or distances.
 - **Pamphlet Fact:** Periodization cycles alternating heavy days with active recovery stimulate optimal muscular strength and endurance gains.
 
@@ -239,7 +239,7 @@
 
 #### Req 4b: Warmup and Cooldown Phases
 **Official Requirement 4b:** Discuss the importance of warming up and cooling down before and after each training session or event.
-**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss The Importance of Warming)
+**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss the Importance of Warming)
 - **Common Myth:** Cooling down after hard conditioning is unnecessary once the final whistle blows.
 - **Pamphlet Fact:** Post-exercise cool downs promote venous blood return to the heart and reduce post-workout muscle soreness.
 
@@ -267,7 +267,7 @@
 
 #### Req 4d: Sportsmanship and Character Building
 **Official Requirement 4d:** Discuss the traits and importance of good sportsmanship. Tell what role sportsmanship plays in both individual and group athletic activities.
-**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Discuss The Traits)
+**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Discuss the Traits)
 - **Common Myth:** Sportsmanship is only required when your team wins the game comfortably.
 - **Pamphlet Fact:** Commending opponents after a tough contest reinforces shared respect and mutual appreciation for athletic effort.
 
@@ -528,7 +528,7 @@
 **Official Pamphlet Summary:**
 - Req 5g(1) (1): Basketball shot for accuracy, 10 free-throw shots.
 - Req 5g(2) (2): Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line. (a) Left-side layup. (b) Right-side layup. (c) Left side of hoop, along the key line. (d) Right side of hoop, along the key line. (e) Where key line and free-throw line meet, left side. (f) Where key line and free-throw line meet, left side. (g) Top of the key. (h) Another spot along the three-point line.
-- The information from your progress chart can help you determine whether you need to alter your diet, if you are gettingenough rest, and how much—if any—you are improving.
+- The information from your progress chart can help you determine whether you need to alter your diet, if you are gettingenough rest, and how much-if any-you are improving.
 - Basketball throw for skill and agility (see the basketball key diagram provided) 1.
 
 #### Req 5g(1): Basketball Free Throw Shooting Routine
@@ -579,7 +579,7 @@
 
 #### Req 5h(1): Short Range Placekicking Goal Accuracy
 **Official Requirement 5h(1):** Goals from the 10-yard line, eight kicks.
-**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)* • **Organizer (Concept & Examples Notes):** Req 5h(1) Structured Technical Study & Explanation Matrix (Goals From The 10-yard Line)
+**Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)* • **Organizer (Concept & Examples Notes):** Req 5h(1) Structured Technical Study & Explanation Matrix (Goals from the 10-yard Line)
 - **Common Myth:** Kicking the ball with the pointed toe delivers the highest accuracy on short field goals.
 - **Pamphlet Fact:** Contacting the ball with the hard instep laces or instep creates a broader, flat impact surface that ensures consistent direction.
 
@@ -613,7 +613,7 @@
 **Official Pamphlet Summary:**
 - Req 5i(1) (1): Chest/bench press, two sets of 15 repetitions.
 - Req 5i(2) (2): Leg curls, two sets of 15 repetitions.
-- The information from your progress chart can help you determine whether you need to alter your diet, if you are gettingenough rest, and how much—if any—you are improving.
+- The information from your progress chart can help you determine whether you need to alter your diet, if you are gettingenough rest, and how much-if any-you are improving.
 - Basketball throw for skill and agility (see the basketball key diagram provided) 1.
 
 #### Req 5i(1): Bench Press Resistance Training Form

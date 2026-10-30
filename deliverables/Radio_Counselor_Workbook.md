@@ -179,7 +179,7 @@
 
 #### Req 2b: Radio Communication Categories
 **Official Requirement 2b:** Discuss the following topics with your counselor: (1) The definition of radio (2) The differences between broadcast radio and two-way radio (3) The differences between commercial broadcast radio and hobby radio.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Discuss The Following Topics)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Discuss the Following Topics)
 - **Common Myth:** Public safety two way radios operate under identical legal licenses and hardware designs as commercial broadcast stations.
 - **Pamphlet Fact:** Broadcast radio sends one way programming to mass audiences while two way radio allows interactive bidirectional exchange.
 
@@ -313,7 +313,7 @@
 
 #### Req 4d: Wireless and Fiber Bandwidth
 **Official Requirement 4d:** How the maximum data rate from a Wi-Fi radio system compares to a hard-wired or fiber-optic system.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 29, p. 76)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Maximum Data Rate From A)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 29, p. 76)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Maximum Data Rate from A)
 - **Common Myth:** Modern Wi Fi routers deliver identical maximum download speeds as dedicated commercial fiber optic internet links.
 - **Pamphlet Fact:** Fiber optic cables guide laser light through unshared dielectric glass without atmospheric attenuation or radio frequency interference.
 
@@ -475,14 +475,14 @@
 - **Pamphlet Fact:** Cellular networks divide land into geographic cells with low power base stations that reuse frequencies across non adjacent towers.
 
 **Official Pamphlet Summary:**
-- Cellular network towers seamlessly transfer mobile connections to adjacent towers during vehicular transit.
+- Cellular network towers smoothly transfer mobile connections to adjacent towers during vehicular transit.
 - Avionics Protection Measure: Airplane mode shuts down all onboard mobile cellular transmitters to protect aircraft navigation instruments.
 - Atomic Clock Synchronization: Cellular base stations pull precise time stamps from Global Positioning System atomic clock constellations.
 - Network Congestion Vulnerability: Heavy emergency telephone traffic jams local cellular network switches during severe widespread natural disasters.
 
 #### Req 7a: Cellular Network Architecture
 **Official Requirement 7a:** Explain how cellular systems differ from broadcast and hobby radio.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Cellular Systems Differ From Broadcast)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Cellular Systems Differ from Broadcast)
 - **Common Myth:** Mobile cellular phones operate on the exact same radio channels and tower infrastructure as broadcast FM radio.
 - **Pamphlet Fact:** Cellular systems utilize automated cell handoffs and full duplex microwave channels, unlike simplex push to talk radio.
 
@@ -508,7 +508,7 @@
 
 #### Req 7c: Satellite Geolocation Services
 **Official Requirement 7c:** Explain how cell phones keep the correct time and show locations and elevations.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Cell Phones Keep The Correct)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Cell Phones Keep the Correct)
 - **Common Myth:** Cell phones determine exact elevation above sea level solely by measuring ambient atmospheric barometric air pressure.
 - **Pamphlet Fact:** Cell phones calculate precise geographic coordinates and elevations by processing microsecond timing signals from multiple orbiting GPS satellites.
 
@@ -654,7 +654,7 @@
 
 #### Req 8b(1): Federal Broadcast Station Regulations
 **Official Requirement 8b(1):** Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8b(1) Structured Technical Study & Explanation Matrix (Discuss With Your Counselor FCC)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8b(1) Structured Technical Study & Explanation Matrix (Discuss with Your Counselor FCC)
 - **Common Myth:** Anyone can set up an FM radio transmitter in their backyard at any power level without government approval.
 - **Pamphlet Fact:** The FCC strictly mandates licensing and sets stringent power limits on all transmitters to prevent interference with authorized broadcasts.
 
@@ -682,7 +682,7 @@
 
 #### Req 8b(3): Broadcast Monitoring and Demographic Analysis
 **Official Requirement 8b(3):** Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Activity & Observation Log):** Req 8b(3) Quantitative Field Observation & Activity Log (Broadcast Stations Determine The Program)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Activity & Observation Log):** Req 8b(3) Quantitative Field Observation & Activity Log (Broadcast Stations Determine the Program)
 - **Common Myth:** Every commercial radio station designs its programming to appeal equally to all age groups and demographics.
 - **Pamphlet Fact:** Commercial stations tailor their music and talk formats to attract specific listener age brackets and consumer demographics for advertisers.
 
@@ -707,7 +707,7 @@
 
 #### Req 8b(5): Alternative Audio Broadcasting Platforms
 **Official Requirement 8b(5):** Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8b(5) Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Alternative)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8b(5) Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Alternative)
 - **Common Myth:** Satellite radio receivers pick up standard terrestrial AM and FM broadcasts boosted by orbital repeaters.
 - **Pamphlet Fact:** Satellite radio uses dedicated digital microwave downlinks from geostationary or geosynchronous satellites directly to specialized subscriber decoders.
 
@@ -877,7 +877,7 @@
 
 #### Req 8d(5): Map Triangulation and Bearing Plotting
 **Official Requirement 8d(5):** Show, on a map, how you located the "fox" using your receiver.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8d(5) Structured Technical Study & Explanation Matrix (You Located The Fox)
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8d(5) Structured Technical Study & Explanation Matrix (You Located the Fox)
 - **Common Myth:** A single directional bearing line plotted on a map reveals the exact location of the hidden transmitter.
 - **Pamphlet Fact:** A single bearing indicates only a line of direction, requiring at least two or three intersecting bearings from different locations to pinpoint the transmitter position.
 

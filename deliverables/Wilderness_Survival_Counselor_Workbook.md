@@ -47,7 +47,7 @@
 **Official Pamphlet Summary:**
 - Thermoregulation Monitoring: Core temperature drops below ninety-five degrees Fahrenheit require immediate active warming and sheltered insulation.
 - Dehydration Mitigation: Regular fluid intake maintaining light urine color prevents heat exhaustion during prolonged exertion.
-- Shock Management: Elevating legs eight inches and insulating underneath the victim stabilizes systemic arterial pressure.
+- Shock Management: Raising legs eight inches and insulating underneath the victim stabilizes systemic arterial pressure.
 - Friction Blister Care: Applying moleskin rings over hot spots protects damaged epidermal tissue from infection.
 
 #### Req 1a: Backcountry Environmental First Aid
@@ -210,7 +210,7 @@
 
 #### Req 5b: Outdoor Survival Clothing Systems
 **Official Requirement 5b:** Show that you know the proper clothing to wear while in the outdoors during extremely hot and cold weather and during wet conditions.
-**Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (You Know The Proper Clothing)
+**Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (You Know the Proper Clothing)
 - **Common Myth:** Heavy cotton denim pants offer adequate warmth and safety during wet winter backcountry conditions.
 - **Pamphlet Fact:** Wool and synthetic polymers retain insulating efficiency even after becoming soaked with cold water.
 
@@ -224,7 +224,7 @@
 
 #### Req 5c: Camp Wildlife Hazard Protection
 **Official Requirement 5c:** Explain how to protect yourself from bears and raccoons.
-**Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Protect Yourself From Bears and)
+**Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Protect Yourself from Bears and)
 - **Common Myth:** Keeping snack food inside your sleeping bag protects it securely from forest wildlife.
 - **Pamphlet Fact:** Hanging scented items twelve feet high and four feet outward prevents bear access.
 

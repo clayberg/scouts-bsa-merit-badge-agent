@@ -82,7 +82,7 @@
 **Official Pamphlet Summary:**
 - Leadership Dynamics: Understanding group developmental phases enhances communication during stressful wilderness patrol challenges.
 - Active Listening: Reflective responses validate participant frustration and prevent escalations during contentious discussions.
-- Intrinsic Motivation: Autonomy and competence foster sustained engagement more effectively than coercive directives.
+- Intrinsic Motivation: Autonomy and competence build sustained engagement more effectively than coercive directives.
 - Role Rehearsal: Simulation of high stress scenarios prepares teams for emergency field decisions.
 
 #### Req 2a: Behavioral Leadership Script Construction
@@ -130,7 +130,7 @@
 **Official Pamphlet Summary:**
 - Health Continuum: Psychological wellness fluctuates continuously in response to environmental demands and coping.
 - Protective Factors: Supportive peer networks and adult mentorship buffer youth against extreme distress.
-- Risk Identification: Chronic isolation and academic overload elevate vulnerability to clinical psychological conditions.
+- Risk Identification: Chronic isolation and academic overload raise vulnerability to clinical psychological conditions.
 - Resilience Cultivation: Deliberate coping mechanisms transform acute setbacks into opportunities for psychological growth.
 
 #### Req 3a: Mental Health Definition Fundamentals
@@ -154,7 +154,7 @@
 
 #### Req 3b: Risk Mitigation and Resilience
 **Official Requirement 3b:** Discuss with your counselor the concepts of protective factors, risk factors, and resilience for the mental health of youth close to your age in your community. Share ideas about how your community could strengthen the resilience of young people.
-**Source:** *Psychology Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Psychology Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 - **Common Myth:** Resilience is an unchangeable genetic trait that individuals either possess or lack entirely.
 - **Pamphlet Fact:** Protective factors actively mitigate risk factors to build measurable neurobiological and emotional resilience.
 
@@ -252,7 +252,7 @@
 
 #### Req 5b: Resilience Cultivation Through Adversity
 **Official Requirement 5b:** Discuss the importance of resilience and how Scouting experiences develop resilience.
-**Source:** *Psychology Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss The Importance of Resilience)
+**Source:** *Psychology Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss the Importance of Resilience)
 - **Common Myth:** Resilience means an individual never experiences stress, sorrow, or physical exhaustion.
 - **Pamphlet Fact:** Experiencing structured challenges with peer support creates neurobiological pathways for emotional coping.
 
@@ -281,7 +281,7 @@
 
 **Official Pamphlet Summary:**
 - Ethical Frameworks: Structured value systems reduce cognitive ambiguity during complex interpersonal moral dilemmas.
-- Community Belonging: Shared commitments foster psychological safety, encouraging vulnerable youth to seek assistance.
+- Community Belonging: Shared commitments build psychological safety, encouraging vulnerable youth to seek assistance.
 - Prosocial Norms: Prioritizing helpfulness and kindness actively counteracts antisocial aggression within troop units.
 - Writing an authentic personal code solidifies internal self-concept and moral identity.
 

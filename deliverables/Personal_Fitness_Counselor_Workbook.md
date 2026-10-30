@@ -46,7 +46,7 @@
 **Official Pamphlet Summary:**
 - Holistic Health: Complete fitness integrates physical prowess, mental alertness, emotional balance, and ethical spiritual strength.
 - Regular vigorous physical conditioning prepares the circulatory system for strenuous daily emergency tasks.
-- Cooperative teamwork and courteous social conduct foster resilient relationships during challenging troop endeavors.
+- Cooperative teamwork and courteous social conduct build resilient relationships during challenging troop endeavors.
 - Spiritual Foundation: Moral conviction and reverence guide daily choices in service to others and duty.
 
 #### Req 1a: Physical Fitness Components
@@ -63,7 +63,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Mental And Emotional Health
+#### Req 1b: Mental and Emotional Health
 **Official Requirement 1b:** Describe a person who is mentally, emotionally, and socially fit.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 88, p. 89)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Person Who Is Mentally Emotionally)
 - **Common Myth:** Mental fitness refers solely to academic test scores rather than emotional regulation and interpersonal maturity.

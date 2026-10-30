@@ -136,7 +136,7 @@
 
 #### Req 1g: Lightning Storm Shelter Protocol
 **Official Requirement 1g:** Explain what to do if caught out in the open during an electrical storm.
-**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Caught Out in The Open)
+**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Caught Out in the Open)
 - **Common Myth:** Beginners often believe lying completely flat across wet ground minimizes lightning strike danger in open fields.
 - **Pamphlet Fact:** A low crouch on insulating soles with heels touching minimizes contact points and ground current entry paths.
 
@@ -213,7 +213,7 @@
 
 #### Req 4a: Current Flow Direction Characteristics
 **Official Requirement 4a:** Explain the difference between direct current and alternating current, the advantages and disadvantages of each, and give a practical example of the use of each type.
-**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)* • **Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix (Current and Alternating Current The)
+**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)* • **Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix (Current and Alternating Current the)
 - **Common Myth:** Beginners often believe household wall receptacles supply direct current electricity to small plug-in table lamps.
 - **Pamphlet Fact:** Alternating current readily changes voltages through transformers, whereas direct current requires solid-state converter circuits.
 
@@ -377,7 +377,7 @@
 
 #### Req 8a: Meter Consumption and Billing
 **Official Requirement 8a:** Read a meter associated with an electric bill. Determine the total power used since the bill, and the cost of that power.
-**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Meter Associated With An Electric)
+**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Meter Associated with An Electric)
 - **Common Myth:** Beginners often believe digital utility meters display monthly financial charges directly in dollars and cents.
 - **Pamphlet Fact:** Subtracting the prior month reading from the current meter reading yields total kilowatt-hours used.
 
@@ -398,7 +398,7 @@
 
 #### Req 8b: Utility Tariff Fee Analysis
 **Official Requirement 8b:** Explain other charges on the bill that were taxes or fees.
-**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Charges on The Bill)
+**Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Charges on the Bill)
 - **Common Myth:** Beginners often believe the total electric bill represents only the pure cost of generated electricity.
 - **Pamphlet Fact:** Taxes and regulatory surcharges fund state energy grids, environmental initiatives, and municipal right-of-way infrastructure.
 

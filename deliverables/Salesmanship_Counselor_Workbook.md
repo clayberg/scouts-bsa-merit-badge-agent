@@ -88,7 +88,7 @@
 
 #### Req 2a: Consumer Market Research Strategy
 **Official Requirement 2a:** Research the market to be sure the product or service meets the needs of customers.
-**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Market to Be Sure The)
+**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Market to Be Sure the)
 - **Common Myth:** Market research only matters for multi-national conglomerates launching global marketing campaigns.
 - **Pamphlet Fact:** Local businesses rely on market research to adjust inventories to neighborhood consumer demand and pricing expectations.
 
@@ -102,7 +102,7 @@
 
 #### Req 2b: Technical Product Specification Mastery
 **Official Requirement 2b:** Learn all about the product to be sold.
-**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Learn All About The Product)
+**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Learn All About the Product)
 - **Common Myth:** Memorizing surface sales slogans is sufficient for closing high-value commercial transactions.
 - **Pamphlet Fact:** Professional buyers demand detailed performance metrics, warranty parameters, and maintenance schedules before signing contracts.
 
@@ -116,7 +116,7 @@
 
 #### Req 2c: Manufacturing Tour and Service Benefits
 **Official Requirement 2c:** If possible, visit the location where the product is built and learn how it is constructed. If a service is being sold, learn about the benefits of the service to the customer.
-**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Possible Visit The Location)
+**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Possible Visit the Location)
 - **Common Myth:** Inspecting production factory lines is merely a public relations tour without commercial utility.
 - **Pamphlet Fact:** Direct observation of factory quality controls equips salespeople with authentic proof points during customer objections.
 
@@ -131,7 +131,7 @@
 
 #### Req 2d: Customer Post Purchase Follow Up
 **Official Requirement 2d:** Follow up with customers after their purchase to confirm their satisfaction and discuss their concerns about the product.
-**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Follow Up With Customers)
+**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Follow Up with Customers)
 - **Common Myth:** The sales relationship terminates permanently the moment customer payment clears the register.
 - **Pamphlet Fact:** Proactive follow up calls prevent buyer remorse, resolve shipping discrepancies, and build enduring client relationships.
 
@@ -288,7 +288,7 @@
 
 #### Req 6b(1): Frequency of Vendor Sales Pitches
 **Official Requirement 6b(1):** How often is the owner approached by a sales representative.
-**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(1) Structured Technical Study & Explanation Matrix (Often Is The Owner Approached)
+**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(1) Structured Technical Study & Explanation Matrix (Often Is the Owner Approached)
 - **Common Myth:** Store owners only interact with sales representatives after submitting a formal request for new inventory.
 - **Pamphlet Fact:** Retail merchants encounter continuous weekly sales solicitations from competitive suppliers trying to secure limited shelf space.
 
@@ -317,7 +317,7 @@
 
 #### Req 6b(3): Retail Vendor Account Evaluation Criteria
 **Official Requirement 6b(3):** What does the owner consider when deciding whether to establish an account with a sales representative.
-**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(3) Structured Technical Study & Explanation Matrix (Does The Owner Consider When)
+**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(3) Structured Technical Study & Explanation Matrix (Does the Owner Consider When)
 - **Common Myth:** Merchants open accounts with sales representatives solely because the representative is friendly and likeable.
 - **Pamphlet Fact:** Store owners decide to establish accounts based on profit margins, reliable shipping timelines, return allowances for damaged goods, and proven customer demand.
 
@@ -373,7 +373,7 @@
 
 #### Req 7b: Sales Training and Education Preparation
 **Official Requirement 7b:** Discuss with your counselor what education, experience, or training you should obtain so you are prepared to serve in a sales position.
-**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
+**Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
 - **Common Myth:** Great salespeople are entirely born with natural talent and cannot be developed through training.
 - **Pamphlet Fact:** Systematic sales methodology training, communication workshops, and market analytics study substantially improve professional selling success rates.
 

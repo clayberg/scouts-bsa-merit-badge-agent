@@ -63,11 +63,11 @@
 
 #### Req 1b: Waterfront First Aid and Prevention
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
-**Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
+**Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
 - **Common Myth:** Puncture wounds from catfish spines require only basic wiping with river water.
 - **Pamphlet Fact:** Fish spine punctures carry virulent bacteria requiring thorough disinfection and hot water soaking.
 
-![A vibrant trout leaps above clear lake water, demonstrating natural freshwater game fish behavior.](/assets/pamphlet_images/fishing_p019_img1.png)
+![A bright trout leaps above clear lake water, demonstrating natural freshwater game fish behavior.](/assets/pamphlet_images/fishing_p019_img1.png)
 
 | Req 1b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -249,7 +249,7 @@
 
 ### Req 7: Fisheries Regulations and Conservation Laws
 **Official Requirement 7:** Obtain and review the regulations affecting game fishing where you live. Explain why they were adopted and what is accomplished by following them.
-**Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Obtain and Review The Regulations)
+**Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Obtain and Review the Regulations)
 > **Guide to Safe Scouting Warning:** Carry required fishing licenses and personal identification in a buoyant waterproof dry pouch.
 - **Common Myth:** Game wardens create fishing regulations primarily to collect fines and penalize recreational anglers.
 - **Pamphlet Fact:** Regulations are biological management tools crafted by fisheries biologists to maintain healthy breeding populations.

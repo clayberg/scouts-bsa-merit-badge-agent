@@ -101,7 +101,7 @@
 
 ### Req 3: Cycling Safety Gear Standards
 **Official Requirement 3:** Explain the importance of wearing the right clothing and gear while cycling, including a properly sized and fitted helmet. Know the Scouting America Bike Safety Guidelines.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 94, p. 95)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Wearing The Right Clothing and)
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 94, p. 95)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Wearing the Right Clothing and)
 > **Guide to Safe Scouting Warning:** Discard and replace any bicycle helmet that has sustained an impact or shows hairline shell cracks.
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Cycling Req 3 inspection prior to hands-on station work.
 - **Common Myth:** A loose helmet strap provides sufficient protection as long as the hard shell covers the skull.
@@ -193,7 +193,7 @@
 
 #### Req 4e: Tire Tube Flat Repair
 **Official Requirement 4e:** Show how to repair a flat by removing the tire, replacing or patching the tube, and remounting the tire.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 4e Hands-On Skill Station & EDGE Verification Checklist (Flat By Removing The Tire)
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 4e Hands-On Skill Station & EDGE Verification Checklist (Flat by Removing the Tire)
 - **Common Myth:** Metal screwdrivers work well as substitutes for plastic tire levers when prying off stubborn beads.
 - **Pamphlet Fact:** Metal tools pinch inner tubes and scratch rim beds, causing immediate puncture flats.
 
@@ -274,7 +274,7 @@
 
 #### Req 6a(1)(a): Urban Vehicular Left Turn Execution
 **Official Requirement 6a(1)(a):** On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1)(a) Hands-On Skill Station & EDGE Verification Checklist (Urban Street With Light Traffic)
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1)(a) Hands-On Skill Station & EDGE Verification Checklist (Urban Street with Light Traffic)
 - **Common Myth:** Cyclists should always make left turns by hugging the right curb all the way through an intersection.
 - **Pamphlet Fact:** Turning left from the far right curb cuts across traffic lanes unpredictably and places the cyclist directly in the blind spot of forward-moving vehicles.
 
@@ -303,7 +303,7 @@
 
 #### Req 6a(1)(c): Right Turn Only Lane Positioning
 **Official Requirement 6a(1)(c):** Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1)(c) Hands-On Skill Station & EDGE Verification Checklist (Actions At A Right-turn-only Lane)
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1)(c) Hands-On Skill Station & EDGE Verification Checklist (Actions at A Right-turn-only Lane)
 - **Common Myth:** Cyclists going straight through an intersection should stay along the far right curb even inside a right-turn-only lane.
 - **Pamphlet Fact:** Riding straight from inside a right-turn-only lane puts the cyclist on a direct collision course with turning motor vehicles.
 
@@ -506,7 +506,7 @@
 
 #### Req 6b(2)(b): Trail Obstacle Crossing Techniques
 **Official Requirement 6b(2)(b):** Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6b(2)(b) Hands-On Skill Station & EDGE Verification Checklist (Cross An Obstacle By Either)
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6b(2)(b) Hands-On Skill Station & EDGE Verification Checklist (Cross An Obstacle by Either)
 - **Common Myth:** Pulling straight upward on the handlebars while seated in the saddle is the proper way to lift a front wheel over a trail obstacle.
 - **Pamphlet Fact:** A rider must rise into the standing ready position and shift weight backward while applying a pedal punch to float the front wheel cleanly across the hazard.
 
@@ -557,7 +557,7 @@
 
 #### Req 6b(5): Single Day Trail Expedition Navigation
 **Official Requirement 6b(5):** After fulfilling the previous requirement, lay out on a trail map a 22-mile trip. You may include multiple trail systems, if needed. Stay away from main highways. Using your map, complete this ride in one day.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(5) Structured Technical Study & Explanation Matrix (Fulfilling The Previous Requirement Lay)
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(5) Structured Technical Study & Explanation Matrix (Fulfilling the Previous Requirement Lay)
 - **Common Myth:** Splitting the twenty-two miles across two consecutive days satisfies the requirement as long as the total route distance is achieved.
 - **Pamphlet Fact:** The trip must be completed in its entirety during a single day to demonstrate the endurance developed through the preparatory rides.
 

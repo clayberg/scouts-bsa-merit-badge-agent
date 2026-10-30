@@ -143,7 +143,7 @@
 
 #### Req 4a: Standard Game Baseline Evaluation
 **Official Requirement 4a:** Pick a game where the players can change the rules or objectives (examples: basketball, hearts, chess, kickball). Briefly summarize the standard rules and objectives and play through the game normally.
-**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Game Where The Players Can)
+**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Game Where the Players Can)
 - **Common Myth:** Familiar childhood games cannot yield rigorous scientific design observations.
 - **Pamphlet Fact:** Classic games like Hearts or Kickball offer mature, highly balanced reference systems ideal for experimental manipulation.
 
@@ -179,7 +179,7 @@
 
 #### Req 4c: Controlled Rule Variation Playtesting
 **Official Requirement 4c:** Play the game with one rule or objective change, observing how the players' actions and emotional experiences are affected by the rule change. Repeat this process with two other changes.
-**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Game With One Rule or)
+**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Game with One Rule or)
 - **Common Myth:** Player body language and emotional reactions matter less than quantitative score totals.
 - **Pamphlet Fact:** Emotional responses like laughter, analysis paralysis, or boredom reveal core design flaws faster than numerical statistics.
 
@@ -194,7 +194,7 @@
 
 #### Req 4d: Comparative Prediction Analysis Review
 **Official Requirement 4d:** Explain to your counselor how the changes affected the actions and experience of the players. Discuss the accuracy of your predictions.
-**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Changes Affected The Actions and)
+**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Changes Affected the Actions and)
 - **Common Myth:** An incorrect prediction proves that the design experiment was a failure.
 - **Pamphlet Fact:** Surprising playtest outcomes provide the most valuable design lessons by exposing previously invisible system interactions.
 
@@ -326,7 +326,7 @@
 
 #### Req 6b: Initial Playtest Session Execution
 **Official Requirement 6b:** Test your prototype with as many other people as you need to meet the player format. Compare the play experience to your descriptions from requirement 5(b). Correct unclear rules, holes in the rules, dead ends, and obvious rule exploits. Change at least one rule, mechanic, or objective from your first version of the game, and describe why you are making the change. Play the game again. Record in your game design notebook whether or not your change had the expected effect.
-**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)* • **Organizer (2-Column Comparison Table):** Req 6b Technical Comparison Matrix (Prototype With As Many Other)
+**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)* • **Organizer (2-Column Comparison Table):** Req 6b Technical Comparison Matrix (Prototype with As Many Other)
 - **Common Myth:** The designer should constantly intervene and instruct players whenever they make suboptimal moves.
 - **Pamphlet Fact:** Silent observation allows designers to see whether the game design communicates affordances and rules naturally.
 
@@ -343,7 +343,7 @@
 
 #### Req 6c: Multi-Round Iterative Playtesting
 **Official Requirement 6c:** Repeat 6(b) at least two more times and record the results in your game design notebook.
-**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)* • **Organizer (Activity & Observation Log):** Req 6c Quantitative Field Observation & Activity Log (Repeat 6(b At Least Two)
+**Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)* • **Organizer (Activity & Observation Log):** Req 6c Quantitative Field Observation & Activity Log (Repeat 6(b at Least Two)
 - **Common Myth:** One successful playtest is sufficient proof that the game rules are completely finalized.
 - **Pamphlet Fact:** Multiple sessions with different players are required to expose rare edge cases and statistical imbalances.
 

@@ -142,7 +142,7 @@
 
 #### Req 2d: Academic Research Methodology Evaluation
 **Official Requirement 2d:** Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals, and the internet.
-**Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (2-Column Comparison Table):** Req 2d Technical Comparison Matrix (Discuss The Advantages and Disadvantages)
+**Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (2-Column Comparison Table):** Req 2d Technical Comparison Matrix (Discuss the Advantages and Disadvantages)
 - **Common Myth:** Digital search engine results provide identical credibility and accuracy as curated library reference texts.
 - **Pamphlet Fact:** Internet sources vary widely in authority, requiring cross reference checks against verified published literature.
 
@@ -156,7 +156,7 @@
 
 ### Req 3: School Citizenship Official Certification
 **Official Requirement 3:** Get a note from the principal of your school (or another school official named by the principal) that states that during the past year your behavior, leadership, and service have been satisfactory. Note: If you are home-schooled or your school environment does not include a principal, you may obtain a note from a counterpart such as your parent or guardian.
-**Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Get A Note From The)
+**Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 49, p. 51)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Get A Note from the)
 > **Guide to Safe Scouting Warning:** Protect student identification numbers and personal contact information when handling official school correspondence.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Scholarship Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Only the head principal of a public school has authority to sign the behavioral endorsement letter.
@@ -185,7 +185,7 @@
 - **Pamphlet Fact:** Active, dedicated participation in any recognized school club, team, or class group satisfies the requirement.
 
 **Official Pamphlet Summary:**
-- Extracurricular Team Dynamics: Student organizations foster communication, mutual reliance, and unified execution toward shared organizational goals.
+- Extracurricular Team Dynamics: Student organizations build communication, mutual reliance, and unified execution toward shared organizational goals.
 - Academic Project Collaboration: Group assignments require balanced work distribution and constructive peer review among members.
 - Individual Contribution Value: Every team participant brings specialized capabilities that enhance the overall finished project.
 - Leadership Growth Opportunities: Navigating team disagreements constructively builds emotional maturity and effective listening capabilities.
@@ -239,7 +239,7 @@
 
 #### Req 5a: Lifelong Personal Education Reflection
 **Official Requirement 5a:** Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future.
-**Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Words About How The Education)
+**Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Words About How the Education)
 - **Common Myth:** Formal schooling represents the entirety of education needed across a working career.
 - **Pamphlet Fact:** Rapidly changing professions demand proactive, self directed lifelong learning and technical skill renewal.
 

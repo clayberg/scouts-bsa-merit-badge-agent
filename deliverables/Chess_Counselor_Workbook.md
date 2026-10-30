@@ -47,7 +47,7 @@
 
 #### Req 1a: Origins of Modern Chess
 **Official Requirement 1a:** Discuss with your counselor the history of the game of chess.
-**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 - **Common Myth:** Chess pieces possessed their current powerful moving abilities since the game began.
 - **Pamphlet Fact:** Persian players brought chatrang to Europe through Islamic Spain around the tenth century.
 
@@ -226,7 +226,7 @@
 
 #### Req 4a: Algebraic Chess Notation Systems
 **Official Requirement 4a:** Demonstrate scorekeeping using the algebraic system of chess notation.
-**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Scorekeeping Using The Algebraic System)
+**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Scorekeeping Using the Algebraic System)
 - **Common Myth:** Pawns require an uppercase letter P in front of destination algebraic squares.
 - **Pamphlet Fact:** Uppercase letters denote pieces while pawns use only the destination square coordinate.
 
@@ -245,7 +245,7 @@
 
 #### Req 4b: Phases of Chess Combat
 **Official Requirement 4b:** Discuss the differences between the opening, the middle game, and the endgame.
-**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix (Discuss The Differences Between The)
+**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix (Discuss the Differences Between the)
 - **Common Myth:** The king must always stay safely tucked in the corner during endgames.
 - **Pamphlet Fact:** King safety rules the opening while active king centralization rules typical simplified endgames.
 
@@ -339,7 +339,7 @@
 
 #### Req 5c(1): Two Rooks Roller Checkmate Technique
 **Official Requirement 5c(1):** White king on e1, the White rooks on a1 and h1, and the Black king.
-**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Organizer (Concept & Examples Notes):** Req 5c(1) Structured Technical Study & Explanation Matrix (White King on E1 The)
+**Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Organizer (Concept & Examples Notes):** Req 5c(1) Structured Technical Study & Explanation Matrix (White King on E1 the)
 - **Common Myth:** The attacking king must leave the first rank and actively help the two rooks trap the enemy king.
 - **Pamphlet Fact:** Two rooks provide sufficient power to strip all escape squares and finish the checkmate without any assistance from their king.
 

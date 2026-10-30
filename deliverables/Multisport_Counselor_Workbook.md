@@ -152,7 +152,7 @@
 
 #### Req 3a: Multisport Event Distance Analysis
 **Official Requirement 3a:** Discuss with your counselor your level of familiarity and experience with the multisport events (swimming, biking, and running) and the order and distance of each sports segment.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Your)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)
 - **Common Myth:** All multisport events require identical distances regardless of format or athlete experience level.
 - **Pamphlet Fact:** Sprint multisport events utilize shorter swim distances to accommodate varied aquatic proficiencies among beginner competitors.
 
@@ -234,7 +234,7 @@
 
 #### Req 4a(1)(a): Swimming Merit Badge Prerequisite
 **Official Requirement 4a(1)(a):** Before doing requirements 5 through 8, earn the Swimming merit badge.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4a(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn The)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4a(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn the)
 - **Common Myth:** Completing the annual unit swim classification test satisfies the aquatic prerequisite for advanced triathlon training.
 - **Pamphlet Fact:** Scouts must officially complete all requirements for the standalone Swimming merit badge before starting multisport requirements five through eight.
 
@@ -355,7 +355,7 @@
 
 #### Req 4a(3)(b): Road Safety Rules for Runners
 **Official Requirement 4a(3)(b):** Learn and state the basic rules of the road for runners.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4a(3)(b) Structured Technical Study & Explanation Matrix (Learn and State The Basic)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4a(3)(b) Structured Technical Study & Explanation Matrix (Learn and State the Basic)
 - **Common Myth:** Runners should run on the right side of the road in the same direction as vehicular traffic like bicycles.
 - **Pamphlet Fact:** Pedestrians and runners must face traffic on the left side of the road so they can see oncoming vehicles and react to errant drivers.
 
@@ -472,7 +472,7 @@
 
 #### Req 4b(2)(b): Road Safety Rules for Runners
 **Official Requirement 4b(2)(b):** Learn and state the basic rules of the road for runners.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4b(2)(b) Structured Technical Study & Explanation Matrix (Learn and State The Basic)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4b(2)(b) Structured Technical Study & Explanation Matrix (Learn and State the Basic)
 - **Common Myth:** Runners should travel on the right side with the flow of traffic just like bicycles.
 - **Pamphlet Fact:** Pedestrians and runners must face oncoming traffic by traveling on the left shoulder so both runners and drivers have visual reaction time.
 
@@ -522,7 +522,7 @@
 
 #### Req 4c(1)(a): Swimming Merit Badge Aquatic Prerequisite
 **Official Requirement 4c(1)(a):** Before doing requirements 5 through 8, earn the Swimming merit badge.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4c(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn The)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4c(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn the)
 - **Common Myth:** Passing a basic summer camp swimmer classification test satisfies the aquatic qualification needed for multisport events.
 - **Pamphlet Fact:** The Multisport merit badge requires completing the comprehensive Swimming merit badge to prove technical stroke efficiency, floating stamina, and water rescue competency.
 
@@ -583,7 +583,7 @@
 
 #### Req 4c(2)(b): Pedestrian Road Rules for Runners
 **Official Requirement 4c(2)(b):** Learn and state the basic rules of the road for runners.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4c(2)(b) Structured Technical Study & Explanation Matrix (Learn and State The Basic)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4c(2)(b) Structured Technical Study & Explanation Matrix (Learn and State the Basic)
 - **Common Myth:** Drivers will always yield to runners entering a marked crosswalk or roadside intersection.
 - **Pamphlet Fact:** Runners must make direct eye contact with drivers and assume vehicles cannot stop in time, because distracted or turning drivers frequently fail to notice runners.
 
@@ -633,7 +633,7 @@
 
 #### Req 4d(1)(a): Aquabike Swimming Badge Prerequisite
 **Official Requirement 4d(1)(a):** Before doing requirements 5 through 8, earn the Swimming merit badge.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4d(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn The)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4d(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn the)
 - **Common Myth:** A Scout who knows how to dog paddle or swim casually can safely enter the swim leg of a competitive multisport event.
 - **Pamphlet Fact:** Competitive multisport swims demand proven mastery of efficient forward strokes and survival floating taught in the Swimming merit badge to prevent panic and exhaustion in choppy waters.
 
@@ -729,7 +729,7 @@
 
 #### Req 5a: Four-Week Training Plan Architecture
 **Official Requirement 5a:** With guidance from your counselor, establish a four-week training plan that combines your chosen multisport format to develop proper techniques, gain self-confidence, and increase endurance. Each session should last at least 25 minutes and include a proper warmup before the session and stretching afterward.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Guidance From Your Counselor Establish)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Establish)
 - **Common Myth:** Adding hours of daily high-intensity intervals without rest accelerates aerobic development without risk.
 - **Pamphlet Fact:** Endurance gains occur during recovery periods when muscle tissues rebuild stronger following stimulus.
 
@@ -911,7 +911,7 @@
 
 #### Req 8c: Peer Multisport Group Leadership
 **Official Requirement 8c:** Demonstrate leadership by starting a training group and educating your peers on the importance of physical activity, nutrition, and the disciplines of multisport.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist (Leadership By Starting A Training)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist (Leadership by Starting A Training)
 - **Common Myth:** Leadership in athletics requires winning races rather than teaching, organizing, and motivating others.
 - **Pamphlet Fact:** Teaching fundamentals to peers reinforces personal mastery of pacing, hydration, and gear maintenance.
 
@@ -935,7 +935,7 @@
 
 #### Req 8e: Multisport Event Community Service
 **Official Requirement 8e:** Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive sporting event.
-**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Volunteer At A Local Multisport)
+**Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Volunteer at A Local Multisport)
 - **Common Myth:** Volunteering at a race provides little value compared to competing on the course.
 - **Pamphlet Fact:** Volunteers at aid stations keep runners hydrated and alert medical personnel to struggling athletes.
 

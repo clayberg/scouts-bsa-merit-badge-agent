@@ -386,7 +386,7 @@
 
 #### Req 4c(1): Rock Definition and Genetic Classes
 **Official Requirement 4c(1):** Define rock. Discuss the three classes of rocks including their origin and characteristics.
-**Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4c(1) Structured Technical Study & Explanation Matrix (Rock Discuss The Three Classes)
+**Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4c(1) Structured Technical Study & Explanation Matrix (Rock Discuss the Three Classes)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Geology Req 4 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Any hard chunk of rock found on the ground consists of only a single pure chemical compound.
 - **Pamphlet Fact:** Most rocks are composite mixtures of multiple different mineral grains locked together by crystalline interlocking or sedimentary cements.
@@ -402,7 +402,7 @@
 
 #### Req 4c(2): Mineral Identification Properties and Testing
 **Official Requirement 4c(2):** Define mineral. Discuss the origin of minerals and their chemical composition and identification properties, including hardness, specific gravity, color, streak, cleavage, luster, and crystal form.
-**Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4c(2) Structured Technical Study & Explanation Matrix (Mineral Discuss The Origin of)
+**Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4c(2) Structured Technical Study & Explanation Matrix (Mineral Discuss the Origin of)
 - **Common Myth:** Color is the most reliable and foolproof property for identifying an unknown mineral specimen.
 - **Pamphlet Fact:** Trace chemical impurities alter surface colors dramatically, making scratch hardness, streak color on unglazed porcelain, and cleavage patterns much more reliable diagnostic tests.
 
@@ -494,7 +494,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c(5)(b): Industrial Rock And Mineral Extraction
+#### Req 4c(5)(b): Industrial Rock and Mineral Extraction
 **Official Requirement 4c(5)(b):** With your counselor, choose two examples of rocks and two examples of minerals. Discuss the mining of these materials and describe how each is used by society.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4c(5)(b) Structured Technical Study & Explanation Matrix (Rocks and Two Examples of)
 - **Common Myth:** Raw quarried rocks and mined minerals enter commercial manufacturing without undergoing chemical processing or mechanical refining.
@@ -566,7 +566,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d(3): Burial Fossilization And Extinction Dynamics
+#### Req 4d(3): Burial Fossilization and Extinction Dynamics
 **Official Requirement 4d(3):** Explain to your counselor the processes of burial and fossilization, and discuss the concept of extinction.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4d(3) Structured Technical Study & Explanation Matrix (Processes of Burial and Fossilization)
 - **Common Myth:** Every dead prehistoric organism eventually turns into a fossil regardless of scavengers, oxygen exposure, or burial speed.
@@ -578,7 +578,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d(4): Paleoenvironmental Habitats And Feeding
+#### Req 4d(4): Paleoenvironmental Habitats and Feeding
 **Official Requirement 4d(4):** Explain to your counselor how fossils provide information about ancient life, environment, climate, and geography. Discuss the following terms and explain how animals from each habitat obtain food: benthonic, pelagic, littoral, lacustrine, open marine, brackish, fluvial, eolian, and protected reef.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4d(4) Structured Technical Study & Explanation Matrix (Fossils Provide Information About Ancient)
 - **Common Myth:** Finding fossilized marine seashells on high mountain ridges indicates that ocean clams once crawled uphill to live on dry alpine ground.
@@ -606,7 +606,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4d(6): Fossil Exhibition And Architectural Investigation
+### Req 4d(6): Fossil Exhibition and Architectural Investigation
 **Official Requirement 4d(6) (Parent Overview):** Do ONE of the following: (a) Visit a science museum or the geology department of a local university that has fossils on display. With your parent or guardian's and counselor's approval, before you go, make an appointment with a curator or guide who can show you how the fossils are preserved and prepared for display. (b) Visit a structure in your area that was built using fossiliferous rocks. Determine what kind of rock was used and tell your counselor the kinds of fossil evidence you found there. (c) Visit a rock outcrop that contains fossils. Determine what kind of rock contains the fossils, and tell your counselor the kinds of fossil evidence you found at the outcrop. (d) Prepare a display or presentation on your state fossil. Include an image of the fossil, the age of the fossil, and its classification. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission). Share the display with your counselor or a small group (such as your class at school). If your state does not have a state fossil, you may select a state fossil from a neighboring state.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Group Organizer:** Concept & Examples Notes
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Geology Req 4d(6) preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -619,7 +619,7 @@
 
 #### Req 4d(6)(a): University Museum Fossil Preparation Tour
 **Official Requirement 4d(6)(a):** Visit a science museum or the geology department of a local university that has fossils on display. With your parent or guardian's and counselor's approval, before you go, make an appointment with a curator or guide who can show you how the fossils are preserved and prepared for display.
-**Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4d(6)(a) Structured Technical Study & Explanation Matrix (Science Museum or The Geology)
+**Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)* • **Organizer (Concept & Examples Notes):** Req 4d(6)(a) Structured Technical Study & Explanation Matrix (Science Museum or the Geology)
 - **Common Myth:** Curators extract complete fossils from surrounding matrix rock using ordinary metal hammers and masonry chisels.
 - **Pamphlet Fact:** Paleontological preparators utilize precision pneumatic micro-air scribes, miniature abrasive blasters, binocular microscopes, and chemical solvents to extract delicate fossil structures without damage.
 
@@ -706,7 +706,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b: Field Practice and Specimen Etiquette
+#### Req 5b: Specimen Collection Ethics Etiquette
 **Official Requirement 5b:** Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while traveling in natural areas and while collecting rock and fossil specimens for this merit badge.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
 - **Common Myth:** Field exploration permits hiking off-trail along delicate scree slopes as long as no litter is left.

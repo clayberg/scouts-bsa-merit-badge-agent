@@ -76,7 +76,7 @@
 
 #### Req 1c: Totin Chip Woods Tool Certification
 **Official Requirement 1c:** Earn the Totin' Chip recognition.
-**Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Earn The Totin' Chip Recognition)
+**Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Earn the Totin' Chip Recognition)
 - **Common Myth:** Earning a Totin Chip once grants lifetime authorization to use woods tools without further review.
 - **Pamphlet Fact:** Scouts who commit safety infractions have their Totin Chip corners cut or privileges revoked until retraining occurs.
 
@@ -203,7 +203,7 @@
 
 ### Req 5: Original Project Design and Fabrication
 **Official Requirement 5:** Create your own woodworking project. Begin by making working drawings, list the materials you will need to complete your project, and then build your project. Keep track of the time you spend and the cost of the materials.
-**Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Skill Demonstration Checklist):** Req 5 Hands-On Skill Station & EDGE Verification Checklist (Own Woodworking Project Begin By)
+**Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Skill Demonstration Checklist):** Req 5 Hands-On Skill Station & EDGE Verification Checklist (Own Woodworking Project Begin by)
 > **Guide to Safe Scouting Warning:** Wear chemical splash goggles and provide adequate fresh air ventilation when mixing, applying, or cleaning synthetic wood adhesives.
 - **Common Myth:** Wood glue bonds stronger when applied in heavy, dripping layers that squeeze out profusely.
 - **Pamphlet Fact:** Excess glue starves the joint under clamp pressure, contaminates surrounding wood pores, and ruins subsequent stain absorption.
@@ -308,7 +308,7 @@
 - **Common Myth:** Any standard commercial oil-based wood stain is safe for children's wooden toys once dry.
 - **Pamphlet Fact:** Children's wooden toys must be finished with certified non-toxic, lead-free food-grade mineral oils, pure beeswax, or certified child-safe acrylics.
 
-![A smooth wooden bowl crafted on a turning lathe showcases natural wood grain patterns.](/assets/pamphlet_images/woodwork_p070_img1.png)
+![A smooth wooden bowl crafted on a turning lathe displays natural wood grain patterns.](/assets/pamphlet_images/woodwork_p070_img1.png)
 
 | Req 6e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

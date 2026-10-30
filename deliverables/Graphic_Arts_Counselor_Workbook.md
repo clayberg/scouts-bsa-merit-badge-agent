@@ -201,7 +201,7 @@
 
 #### Req 5a: Paper Finishing Operations Management
 **Official Requirement 5a:** Discuss the finishing operations of padding, drilling, cutting, and trimming with your counselor.
-**Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Discuss The Finishing Operations of)
+**Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Discuss the Finishing Operations of)
 - **Common Myth:** Scouts assume drill bits for paper are solid steel spirals identical to woodworking drill bits.
 - **Pamphlet Fact:** Paper drills use hollow cylindrical bits that funnel circular waste upward into collection canisters.
 
@@ -259,7 +259,7 @@
 
 #### Req 6b: Commercial Facility Workflow Analysis
 **Official Requirement 6b:** Visit a retail, commercial, or in-plant printing facility. Follow a project from beginning to end.
-**Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Retail Commercial or In-plant Printing)
+**Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Retail Commercial or in-plant Printing)
 - **Common Myth:** Clients assume commercial printers print files without performing automated prepress error trapping.
 - **Pamphlet Fact:** Prepress departments run automated flight checks to verify color separations, bleed margins, and resolution.
 

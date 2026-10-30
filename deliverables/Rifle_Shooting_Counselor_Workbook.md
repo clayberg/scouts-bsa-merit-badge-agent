@@ -12,7 +12,7 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Firearm Safety And Range Stewardship | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Firearm Safety and Range Stewardship | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2a** | Modern Cartridge Rifle: Parts, Safe Handling & Marksmanship | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2b** | Air Rifle (BB or Pellet): Safety, Fundamentals & Grouping | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2c** | Muzzleloading Rifle: Black Powder Safety, Loading & Grouping | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -30,7 +30,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Firearm Safety And Range Stewardship
+### Req 1: Firearm Safety and Range Stewardship
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations. (b) Explain the basic rules of safe gun handling that apply to all firearms. (c) Describe how you would react if a friend visiting your home asked to see your or your family's firearm. (d) Explain the need for, types, and use of eye protection and hearing protection. (e) Explain the main points of the laws for owning and using guns in your community and state. (f) Explain how hunting is related to the wise use of renewable wildlife resources. (g) Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state. (h) Explain to your counselor the proper hygienic guidelines followed while shooting. (i) Identify places in your community where you can join or be a part of range and target activities. (j) Discuss with your counselor a list of sources you could contact for information on firearms and their use.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Immediately obey any cease-fire command called by anyone on the shooting line by opening the rifle action and stepping back.
@@ -85,7 +85,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Eye And Hearing Protection
+#### Req 1d: Eye and Hearing Protection
 **Official Requirement 1d:** Explain the need for, types, and use of eye protection and hearing protection.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Need Protection Hearing Protection)
 - **Common Myth:** Placing foam earplugs loosely in the ear canal provides full sound protection.
@@ -99,9 +99,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: Firearm Statutes And Regulations
+#### Req 1e: Firearm Statutes and Regulations
 **Official Requirement 1e:** Explain the main points of the laws for owning and using guns in your community and state.
-**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Main Points of The Laws)
+**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Main Points of the Laws)
 - **Common Myth:** Federal firearm regulations override every municipal ordinance regarding recreational target discharge.
 - **Pamphlet Fact:** Local municipalities often enact strict ordinances prohibiting firearm discharge within town boundaries.
 
@@ -113,9 +113,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1f: Wildlife Conservation And Harvesting
+#### Req 1f: Wildlife Conservation and Harvesting
 **Official Requirement 1f:** Explain how hunting is related to the wise use of renewable wildlife resources.
-**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Hunting Is Related to The)
+**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Hunting Is Related to the)
 - **Common Myth:** Hunting reduces overall animal populations without providing any ecological or financial benefit.
 - **Pamphlet Fact:** Hunting license fees directly fund state game management and wildlife habitat preservation.
 
@@ -127,7 +127,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 1g: Hunter Education And Compliance
+### Req 1g: Hunter Education and Compliance
 **Official Requirement 1g (Parent Overview):** Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Group Organizer:** Concept & Examples Notes
 - **Common Myth:** Hunter education cards are only required for hunters using centerfire big game rifles.
@@ -137,7 +137,7 @@
 - Hunter education courses instruct sportsmen in wildlife identification, field etiquette, and firearm ethics. Legal hunters must obtain proper tags and adhere to seasonal bag limits.
 - Req 1g Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)): Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 
-#### Req 1g(1): State Hunting Regulations And Firearm Laws
+#### Req 1g(1): State Hunting Regulations and Firearm Laws
 **Official Requirement 1g(1):** Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1g(1) Structured Technical Study & Explanation Matrix (Main Points of Hunting Laws)
 - **Common Myth:** A general firearm owner permit automatically authorizes hunting game anywhere on public land.
@@ -161,7 +161,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1h: Range Hygiene And Lead
+#### Req 1h: Range Hygiene and Lead
 **Official Requirement 1h:** Explain to your counselor the proper hygienic guidelines followed while shooting.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix (Hygienic Guidelines Followed While Shooting)
 - **Common Myth:** Washing hands with warm soapy water removes heavy metal residues most effectively.
@@ -231,7 +231,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(2): Safe Rifle Handling And Storage Rules
+#### Req 2a(2): Safe Rifle Handling and Storage Rules
 **Official Requirement 2a(2):** Identify and demonstrate the rules for safely storing and handling a rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(2) Hands-On Skill Station & EDGE Verification Checklist (Storing and Handling A Rifle)
 - **Common Myth:** Engaging the mechanical safety mechanism guarantees that a rifle cannot accidentally discharge if dropped.
@@ -243,7 +243,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(3): Rimfire And Centerfire Cartridge Anatomy
+#### Req 2a(3): Rimfire and Centerfire Cartridge Anatomy
 **Official Requirement 2a(3):** Identify the two types of cartridges, their parts, and how they function.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(3) Structured Technical Study & Explanation Matrix (Cartridges Their Parts and How)
 - **Common Myth:** Rimfire cartridges can be reloaded multiple times just like centerfire rifle ammunition.
@@ -291,7 +291,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(7): Rifle Cleaning Safety And Necessary Equipment
+#### Req 2a(7): Rifle Cleaning Safety and Necessary Equipment
 **Official Requirement 2a(7):** Explain the basic safety rules for cleaning a rifle, and identify the materials needed.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(7) Structured Technical Study & Explanation Matrix (Basic Safety Rules for Cleaning)
 - **Common Myth:** Cleaning a rifle with live ammunition on the workbench is acceptable if the rounds remain in their factory boxes.
@@ -315,7 +315,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(9): Rifle Selection Criteria And Considerations
+#### Req 2a(9): Rifle Selection Criteria and Considerations
 **Official Requirement 2a(9):** Discuss what points you would consider in selecting a rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(9) Structured Technical Study & Explanation Matrix (Discuss What Points You Would)
 - **Common Myth:** Heavier calibers with larger bullets are always superior choices for beginners learning basic marksmanship.
@@ -327,7 +327,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(10): Supported Group Shooting And Sight Adjustment
+#### Req 2a(10): Supported Group Shooting and Sight Adjustment
 **Official Requirement 2a(10):** Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(10) Structured Technical Study & Explanation Matrix (Bolt-action.22 Caliber Rimfire Rifle and)
 - **Common Myth:** You should adjust the rifle sights after every single individual shot that misses the bullseye.
@@ -340,7 +340,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(11): Target Group Centering And Precision
+#### Req 2a(11): Target Group Centering and Precision
 **Official Requirement 2a(11):** Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(11) Structured Technical Study & Explanation Matrix (Sights to Center)
 - **Common Myth:** Moving the rear sight to the right moves the bullet impact point to the left on the target.
@@ -389,7 +389,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): Air Rifle Safe Storage And Handling
+#### Req 2b(2): Air Rifle Safe Storage and Handling
 **Official Requirement 2b(2):** Identify and demonstrate the rules for safely storing and handling an air rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(2) Hands-On Skill Station & EDGE Verification Checklist (Storing and Handling An Air)
 - **Common Myth:** Air rifles are basically toys and pose no serious danger if handled without eye protection or range backstops.
@@ -671,7 +671,7 @@
 
 #### Req 2c(13): Supported Muzzleloader Grouping Qualification
 **Official Requirement 2c(13):** Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink.
-**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(13) Structured Technical Study & Explanation Matrix (Muzzleloading Rifle Of.45 Or.50 Caliber)
+**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(13) Structured Technical Study & Explanation Matrix (Muzzleloading Rifle of.45 or.50 Caliber)
 - **Common Myth:** Varying the seating pressure when ramming the patched ball against the powder charge between shots has little effect on group size at 50 feet.
 - **Pamphlet Fact:** Inconsistent ramrod pressure crushes the powder grains unevenly, leading to erratic muzzle velocities and wide vertical dispersion on the target.
 
@@ -685,7 +685,7 @@
 **Official Requirement 2c(14):** Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(14) Structured Technical Study & Explanation Matrix (Sights to Center)
 - **Common Myth:** To move shot impacts upward on the target, the rear sight notch should be tapped lower toward the barrel.
-- **Pamphlet Fact:** The rear sight must always be adjusted in the identical direction you wish the bullet strike to move, so raising the rear sight elevates the point of impact on the target.
+- **Pamphlet Fact:** The rear sight must always be adjusted in the identical direction you wish the bullet strike to move, so raising the rear sight raises the point of impact on the target.
 
 | Req 2c(14) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

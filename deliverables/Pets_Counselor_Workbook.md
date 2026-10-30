@@ -13,10 +13,10 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Four Month Pet Care Record | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Pets Merit Badge Pamphlet (p. 7, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Pet Husbandry Essay And Laws | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Pet Husbandry Essay and Laws | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Pet Literature Study Discussion | Show | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Pets Merit Badge Pamphlet (p. 26, p. 29) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Exhibition Or Behavior Training | Show | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Pet Careers Or Avocations | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Exhibition or Behavior Training | Show | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Pet Careers or Avocations | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -51,9 +51,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Pet Husbandry Essay And Laws
+### Req 2: Pet Husbandry Essay and Laws
 **Official Requirement 2:** Write in 200 words or more about the care, feeding, and housing of your pet. Tell some interesting facts about it. Tell why you have this kind of pet. Give local laws, if any, relating to the pet you keep.
-**Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Words or More About The)
+**Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 41, p. 47)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Words or More About the)
 > **Guide to Safe Scouting Warning:** Store pet food in airtight containers to prevent bacterial contamination and keep rodents out of feed.
 - **Common Myth:** Commercial table scraps provide balanced nutrition and eliminate the need for commercial pet diets.
 - **Pamphlet Fact:** Table scraps lack vital balanced nutrients and frequently contain toxic ingredients such as onions or xylitol.
@@ -103,7 +103,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Exhibition Or Behavior Training
+### Req 4: Exhibition or Behavior Training
 **Official Requirement 4 (Parent Overview):** Do ONE of the following: (a) Show your pet in a pet show. (b) Train a pet in three or more tricks or special abilities.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Use secure leashes, harnesses, or transport crates in public settings to prevent escapes or conflicts.
@@ -149,7 +149,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Pet Careers Or Avocations
+### Req 5: Pet Careers or Avocations
 **Official Requirement 5 (Parent Overview):** Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this. Resource: Animal Hobbies (video)
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Observe all clinical biohazard and handling safety warnings when touring animal shelters or hospitals.
@@ -160,7 +160,7 @@
 **Official Pamphlet Summary:**
 - Option Selection Flexibility: Scouts examine either a professional employment track or personal animal recreation hobbies.
 - Career Metric Analysis: Researching vocations demands investigating degree prerequisites, tuition expenses, annual earnings, and hiring demand.
-- Avocational Community Benefits: Companion animal hobbies foster cardiovascular fitness, reduce emotional anxiety, and build community relationships.
+- Avocational Community Benefits: Companion animal hobbies build cardiovascular fitness, reduce emotional anxiety, and build community relationships.
 - Organization Network Contact: Connecting with local rescue shelters or breed clubs enriches understanding of volunteer opportunities.
 
 #### Req 5a: Animal Career Path Exploration

@@ -216,7 +216,7 @@
 
 #### Req 5b: Welding Station Setup Configuration
 **Official Requirement 5b:** Choose one welding process. Set up the process you have chosen, including gas regulators, work clamps, cables, filler materials, and equipment settings. Have your counselor inspect and approve the area for the welding process you have chosen.
-**Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Welding Process Set Up The)
+**Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Welding Process Set Up the)
 - **Common Myth:** Tightening wire drive roll tension all the way prevents wire slippage inside gun liners.
 - **Pamphlet Fact:** Excessive roller tension deforms welding wire and causes severe feeding jams inside gun liners.
 
@@ -295,7 +295,7 @@
 
 #### Req 6d: Square Groove Butt Welding
 **Official Requirement 6d:** Weld the two plates together from 6(c) on both sides.
-**Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Plates Together From 6(c)
+**Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Plates Together from 6(c)
 - **Common Myth:** Welding only one side of a thick butt joint achieves total structural joint capacity.
 - **Pamphlet Fact:** Single-sided welds without backing leave unfused roots that crack easily under bending stress.
 

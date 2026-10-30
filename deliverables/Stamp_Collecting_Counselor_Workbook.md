@@ -40,7 +40,7 @@
 - **Pamphlet Fact:** Every stamp design represents deliberate government commemoration of significant cultural figures, architecture, or science.
 
 **Official Pamphlet Summary:**
-- Historical Chronology: Postage stamp portraits commemorate pivotal civil leaders, military conflicts, and revolutionary political movements.
+- Historical Chronology: Postage stamp portraits commemorate major civil leaders, military conflicts, and revolutionary political movements.
 - Geographical Boundaries: Territorial names printed on vintage stamps reflect shifting colonial borders and national sovereignty.
 - Domestic Rate Systems: The Postal Act of 1845 established cheap uniform rates across all states.
 - Universal Postal Union: International agreements standardized cross-border mail dispatch fees between sovereign countries without surcharge.
@@ -51,7 +51,7 @@
 - **Common Myth:** New collectors often consider stamp imagery to be arbitrary decorative art chosen at random.
 - **Pamphlet Fact:** Postal administrations convene formal citizens stamp advisory committees to select historically significant subjects.
 
-![Stamp Collecting Requirement 1 figure showing postage stamp portraits commemorate pivotal civil leaders, military conflicts.](/assets/pamphlet_images/stamp_collecting_p003_img1.png)
+![Stamp Collecting Requirement 1 figure showing postage stamp portraits commemorate major civil leaders, military conflicts.](/assets/pamphlet_images/stamp_collecting_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -451,7 +451,7 @@
 
 #### Req 6b: Preservation and Environmental Protection
 **Official Requirement 6b:** Discuss at least THREE ways you can help to preserve stamps, covers, and albums in first-class condition.
-**Source:** *Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Discuss At Least THREE Ways)
+**Source:** *Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Discuss at Least THREE Ways)
 - **Common Myth:** Scouts sometimes believe sealing albums inside airtight plastic containers protects against moisture indefinitely.
 - **Pamphlet Fact:** Trapped moisture inside plastic containers creates a microclimate that accelerates mold and sulfur toning.
 
@@ -510,7 +510,7 @@
 
 #### Req 7c: Philatelic Literature Article Review
 **Official Requirement 7c:** Write a review of an interesting article from a stamp newspaper, magazine, book, or website (with your parent or guardian's permission)
-**Source:** *Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Interesting Article From A Stamp)
+**Source:** *Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Interesting Article from A Stamp)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Stamp Collecting Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Beginners often think stamp magazines only print basic lists of newly issued stamps.
 - **Pamphlet Fact:** Philatelic literature publishes scholarly research on rates, routes, counterfeit detection, and production errors.
@@ -523,7 +523,7 @@
 
 #### Req 7d: Philatelic Biography Historical Research
 **Official Requirement 7d:** Research and report on a famous stamp-related personality or the history behind a particular stamp.
-**Source:** *Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Famous Stamp-related Personality or The)
+**Source:** *Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Famous Stamp-related Personality or the)
 - **Common Myth:** Scouts sometimes assume famous stamp errors were intentionally printed by governments to create collectibles.
 - **Pamphlet Fact:** Errors like the Inverted Jenny occurred through accidental inverted sheet insertion during two-color printing.
 

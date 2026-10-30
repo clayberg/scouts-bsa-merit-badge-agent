@@ -73,7 +73,7 @@
 
 #### Req 2a: Total Station Radial Measurements
 **Official Requirement 2a:** Set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one of the other corners for reference and, using radial measurement methods, record the angle turned and the distance measured to each of the remaining corners, as directed by your counselor. Record the angle and distance to five topographic features (trees, shrubs, rocks, etc.) near your work area.
-**Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (Activity & Observation Log):** Req 2a Quantitative Field Observation & Activity Log (Instrument Over One of The)
+**Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (Activity & Observation Log):** Req 2a Quantitative Field Observation & Activity Log (Instrument Over One of the)
 - **Common Myth:** Scouts sometimes believe rough visual centering over a stake produces acceptable boundary angle records.
 - **Pamphlet Fact:** Centering with an optical plummet or plumb bob within millimeters is mandatory for true boundary angles.
 
@@ -93,7 +93,7 @@
 
 #### Req 2b: Satellite Position Distance Comparison
 **Official Requirement 2b:** Measure to three of the same points with GPS measurement and compare the distances between the points measured.
-**Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Same Points With GPS Measurement)
+**Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Same Points with GPS Measurement)
 - **Common Myth:** Beginners often assume recreational hand-held GPS receivers match the millimeter precision of optical surveying instruments.
 - **Pamphlet Fact:** Uncorrected handheld satellite receivers carry errors of several meters while surveying instruments measure within hundredths of a foot.
 
@@ -159,7 +159,7 @@
 
 ### Req 5: Property Deed Legal Analysis
 **Official Requirement 5:** Get a copy of the deed to a piece of property approved by your counselor, from the local courthouse or title agency. Discuss with your counselor the different parts of the deed and their importance.
-**Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Get A Copy of The)
+**Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 61)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Get A Copy of the)
 > **Guide to Safe Scouting Warning:** Wash hands thoroughly after handling dusty archival record books stored in historic county courthouse basements.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Surveying Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Beginners often believe property tax bills provide the legal boundary description necessary for land surveying.

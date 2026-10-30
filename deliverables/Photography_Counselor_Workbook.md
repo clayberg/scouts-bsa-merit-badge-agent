@@ -63,7 +63,7 @@
 
 #### Req 1b: Digital Safety Awareness Education
 **Official Requirement 1b:** View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission)
-**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 33, p. 63)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (View The Personal Safety Awareness)
+**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 33, p. 63)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Photography Req 1b with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Deleting photo location data from phone settings eliminates all personal digital risks.
 - **Pamphlet Fact:** Online photographs containing embedded EXIF location coordinates can expose home addresses publicly.
@@ -84,7 +84,7 @@
 - **Pamphlet Fact:** Aperture, shutter speed, and sensor sensitivity balance together to establish correct image exposure.
 
 **Official Pamphlet Summary:**
-- Natural Lighting: Low angle morning sunlight casts long shadows that reveal intricate physical surface textures.
+- Natural Lighting: Low angle morning sunlight casts long shadows that reveal detailed physical surface textures.
 - Aperture Control: Wider lens openings decrease depth of field to isolate subjects from background elements.
 - Fast shutter speeds freeze rapid movement while slow speeds introduce intentional motion blur.
 - Positioning visual centers of interest along grid intersections creates balanced, compelling compositions.
@@ -95,7 +95,7 @@
 - **Common Myth:** Direct midday sunlight always produces the highest quality portrait lighting for faces.
 - **Pamphlet Fact:** Directional natural sunlight creates high contrast shadows that require fill flash or reflectors.
 
-![Photography Requirement 2 figure showing low angle morning sunlight casts long shadows that reveal intricate physical surface.](/assets/pamphlet_images/photography_p007_img1.png)
+![Photography Requirement 2 figure showing low angle morning sunlight casts long shadows that reveal detailed physical surface.](/assets/pamphlet_images/photography_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -224,7 +224,7 @@
 
 #### Req 4a: Dual Perspective Subject Documentation
 **Official Requirement 4a:** Photograph one subject from two different angles or perspectives.
-**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Subject From Two Different Angles)
+**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Subject from Two Different Angles)
 - **Common Myth:** Changing perspective simply means zooming the lens barrel from a static position.
 - **Pamphlet Fact:** Moving camera perspective shifts background horizons and alters relative sizes of scene elements.
 
@@ -238,11 +238,11 @@
 
 #### Req 4b: Comparative Light Source Evaluation
 **Official Requirement 4b:** Photograph one subject from two different light sources, artificial and natural.
-**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Subject From Two Different Light)
+**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Subject from Two Different Light)
 - **Common Myth:** Artificial flash units perfectly replicate the softness and color cast of natural light.
 - **Pamphlet Fact:** Directional window light creates gentle gradations while direct camera flash yields harsh highlights.
 
-![A vibrant close-up photograph of red apples demonstrates rich color saturation and surface detail.](/assets/pamphlet_images/photography_p045_img1.png)
+![A bright close-up photograph of red apples demonstrates rich color saturation and surface detail.](/assets/pamphlet_images/photography_p045_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -252,7 +252,7 @@
 
 #### Req 4c: Aperture and Depth Variation
 **Official Requirement 4c:** Photograph one subject with two different depth of fields.
-**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Subject With Two Different Depth)
+**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Subject with Two Different Depth)
 - **Common Myth:** Subject isolation depends entirely on shutter speed rather than lens aperture diameter.
 - **Pamphlet Fact:** Changing f-stops while maintaining exposure alters background distraction levels behind primary subjects.
 
@@ -266,7 +266,7 @@
 
 #### Req 4d: Comparative Image Composition Methods
 **Official Requirement 4d:** Photograph one subject with two different compositional techniques.
-**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Subject With Two Different Compositional)
+**Source:** *Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Subject with Two Different Compositional)
 - **Common Myth:** Compositional rules dictate rigid formulas that cannot be modified for creative goals.
 - **Pamphlet Fact:** Applying leading lines draws viewer attention directly to subjects unlike simple centered framing.
 

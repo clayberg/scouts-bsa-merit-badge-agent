@@ -12,14 +12,14 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Fundamentals Of Ionizing Radiation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Atomic Structure And Radioactivity | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Particle Accelerators And Physics | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Fundamentals of Ionizing Radiation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Atomic Structure and Radioactivity | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Particle Accelerators and Physics | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Classic Nuclear Science Experiments | Show | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 33, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Radiation Safety And Measurement | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Radiation Safety and Measurement | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Nuclear Fission Power Generation | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 53, p. 55) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Beneficial Applications Of Nuclear Science | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 42, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Careers In Nuclear Science | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 78, p. 79) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Beneficial Applications of Nuclear Science | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 42, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Careers in Nuclear Science | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 78, p. 79) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -35,7 +35,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Fundamentals Of Ionizing Radiation
+### Req 1: Fundamentals of Ionizing Radiation
 **Official Requirement 1 (Parent Overview):** Radiation. Do the following: (a) Explain radiation and the difference between ionizing and nonionizing radiation. (b) Explain the ALARA principle. Explain what process you would go through to ensure your dose is kept ALARA when performing the requirements in this merit badge. (c) Describe the radiation hazard symbol and explain where it should be used. (d) Explain how we are exposed to ionizing radiation from outside the earth as well as on earth every day. List four examples of Naturally Occurring Radioactive Materials (NORM) that are in your house or grocery store and explain why they are radioactive. (e) Explain the difference between radiation exposure and contamination. Describe the hazards of radiation to humans, the environment, and wildlife. Calculate your approximate annual radiation dose and compare it to a typical expected dose of someone who works in a nuclear power plant.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Always maintain maximum separation distance from active sources and wear nitrile gloves to prevent skin contamination.
@@ -50,7 +50,7 @@
 
 #### Req 1a: Ionizing Radiation Energy Differences
 **Official Requirement 1a:** Explain radiation and the difference between ionizing and nonionizing radiation.
-**Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (2-Column Comparison Table):** Req 1a Technical Comparison Matrix (Radiation and The Difference Between)
+**Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (2-Column Comparison Table):** Req 1a Technical Comparison Matrix (Radiation and the Difference Between)
 - **Common Myth:** Cell phones and home Wi-Fi routers emit dangerous ionizing waves that strip atomic electrons.
 - **Pamphlet Fact:** Radiofrequency signals are nonionizing and lack the quantum energy required to break molecular bonds.
 
@@ -106,7 +106,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: Dose Calculation And Contamination
+#### Req 1e: Dose Calculation and Contamination
 **Official Requirement 1e:** Explain the difference between radiation exposure and contamination. Describe the hazards of radiation to humans, the environment, and wildlife. Calculate your approximate annual radiation dose and compare it to a typical expected dose of someone who works in a nuclear power plant.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 67, p. 69)* • **Organizer (2-Column Comparison Table):** Req 1e Technical Comparison Matrix (Radiation Exposure and Contamination)
 - **Common Myth:** Standing near an irradiated patient transfers radioactive particles directly to your clothes.
@@ -122,7 +122,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Atomic Structure And Radioactivity
+### Req 2: Atomic Structure and Radioactivity
 **Official Requirement 2 (Parent Overview):** Basic Nuclear Science. Do the following: (a) Explain the following terms: atom, nucleus, proton, neutron, electron, quark, isotope; alpha particle, beta particle, gamma ray, X-ray; ionization, radioactivity, radioisotope, and stability. (b) Choose an element from the periodic table. Construct 3-D models for the atoms of three isotopes of this element, showing neutrons, protons, and electrons. Write down the isotope notation for each model including the atomic and mass numbers. In a separate model or diagram, explain or show how quarks make up protons and neutrons.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Use blunt craft wire and safety glasses when constructing structural orbital models of atomic nuclei.
@@ -135,7 +135,7 @@
 - Quark Composition: Protons consist of two up quarks and one down quark held by gluons.
 - Isotope Identification: Isotopes share identical atomic numbers of protons but differ in total nuclear neutron count.
 
-#### Req 2a: Subatomic Particles And Ionization
+#### Req 2a: Subatomic Particles and Ionization
 **Official Requirement 2a:** Explain the following terms: atom, nucleus, proton, neutron, electron, quark, isotope; alpha particle, beta particle, gamma ray, X-ray; ionization, radioactivity, radioisotope, and stability.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Atom Nucleus Proton Neutron Electron)
 - **Common Myth:** Gamma rays are particulate fragments of shattered nucleons expelled during spontaneous atomic fission.
@@ -151,9 +151,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Isotope Modeling And Notation
+#### Req 2b: Isotope Modeling and Notation
 **Official Requirement 2b:** Choose an element from the periodic table. Construct 3-D models for the atoms of three isotopes of this element, showing neutrons, protons, and electrons. Write down the isotope notation for each model including the atomic and mass numbers. In a separate model or diagram, explain or show how quarks make up protons and neutrons.
-**Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Element From The Periodic Table)
+**Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 12, p. 20)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Element from the Periodic Table)
 - **Common Myth:** Adding neutrons to a nucleus always increases atomic instability and induces rapid decay.
 - **Pamphlet Fact:** Specific neutron to proton ratios are required to maintain strong force stability across nuclei.
 
@@ -176,7 +176,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Particle Accelerators And Physics
+### Req 3: Particle Accelerators and Physics
 **Official Requirement 3 (Parent Overview):** Modern Particle Physics. Do the following: (a) Explain how a particle accelerator works. (b) Do ONE of the following: (1) Visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus or nucleons. (2) List three particle accelerators and describe several experiments conducted and their associated basic science and practical applications.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Stay behind radiation interlocks and shielding doors during facility operations when accelerators generate active beam radiation.
@@ -227,7 +227,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b(2): Particle Accelerator Types And Applications
+#### Req 3b(2): Particle Accelerator Types and Applications
 **Official Requirement 3b(2):** List three particle accelerators and describe several experiments conducted and their associated basic science and practical applications.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Organizer (Concept & Examples Notes):** Req 3b(2) Structured Technical Study & Explanation Matrix (Particle Accelerators and Describe Several)
 - **Common Myth:** Particle accelerators serve only theoretical high-energy physics research and have no practical everyday applications outside advanced physics laboratories.
@@ -309,7 +309,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Radiation Safety And Measurement
+### Req 5: Radiation Safety and Measurement
 **Official Requirement 5 (Parent Overview):** Radiation Safety. Do ONE of the following: (a) Using a radiation survey meter and a radioactive source, show how the counts per minute change as the source gets closer to or farther from the radiation detector. Adults must handle radioactive materials. Place three different materials between the source and the detector, then explain any differences in the measurements per minute. Explain how time, distance, and shielding can reduce an individual's radiation dose. (b) Describe how radon is detected in homes. Discuss the steps taken for the long-term and short-term test methods, tell how to interpret the results, and explain when each type of test should be used. Explain the health concerns related to radon gas and tell what steps can be taken to reduce radon in buildings. (c) Visit a place where X-rays are used. Draw a floor plan of this room. Show where the unit, the unit operator, and the patient would be when the X-ray unit is operated. Explain the precautions taken and the importance of those precautions for the safety of the operator.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 39, p. 72)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Never touch an unsealed radioactive check source directly with bare skin; use laboratory tongs or tweezers.
@@ -438,7 +438,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Beneficial Applications Of Nuclear Science
+### Req 7: Beneficial Applications of Nuclear Science
 **Official Requirement 7:** Beneficial Applications of Nuclear Science. Give an example of each of the following and explain how nuclear science is used in these applications: nuclear medicine, environmental applications, industrial applications, space exploration, and radiation therapy. For each example, explain the application and its significance to nuclear science.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 42, p. 46)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Beneficial Applications of Nuclear Science)
 > **Guide to Safe Scouting Warning:** Confirm that industrial radiography sources remain secured inside their shielded transport pigs when not operating.
@@ -461,7 +461,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Careers In Nuclear Science
+### Req 8: Careers in Nuclear Science
 **Official Requirement 8:** Careers. Explore careers related to nuclear science. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 78, p. 79)* • **Organizer (Career & Profession Exploration Card):** Req 8 Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Wear an assigned thermoluminescent dosimeter badge when job shadowing personnel within licensed radiation work areas.

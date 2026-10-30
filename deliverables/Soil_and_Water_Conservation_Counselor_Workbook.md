@@ -181,7 +181,7 @@
 
 #### Req 3a: Principles of Conservation Practices
 **Official Requirement 3a:** Tell what is meant by conservation practices.
-**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Meant By Conservation)
+**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Meant by Conservation)
 - **Common Myth:** Scouts believe conservation means stopping all commercial timber harvesting and agricultural land cultivation.
 - **Pamphlet Fact:** Conservation represents wise, sustainable utilization of natural resources to ensure continuous future replenishment.
 
@@ -258,7 +258,7 @@
 
 #### Req 4b: Contour Map Catchment Delineation
 **Official Requirement 4b:** Outline the smallest watershed that you can find on a contour map.
-**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Outline The Smallest Watershed That)
+**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Outline the Smallest Watershed That)
 - **Common Myth:** Scouts believe tracing directly along blue stream lines delineates the boundary of a watershed.
 - **Pamphlet Fact:** Watershed borders follow high dry ridgelines where rainfall divides and flows in opposite directions.
 
@@ -344,7 +344,7 @@
 
 #### Req 5a: Global Hydrologic Cycle Mechanics
 **Official Requirement 5a:** Make a drawing to show the hydrologic cycle.
-**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Drawing to Show The Hydrologic)
+**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Drawing to Show the Hydrologic)
 - **Common Myth:** Scouts believe rainfall represents newly created planetary water rather than recycled prehistoric moisture.
 - **Pamphlet Fact:** Earth possesses a finite volume of water that has circulated continuously for billions of years.
 
@@ -441,7 +441,7 @@
 
 #### Req 6a: Definition of Water Quality Impairment
 **Official Requirement 6a:** Tell what is meant by water pollution.
-**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Meant By Water Pollution)
+**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Meant by Water Pollution)
 - **Common Myth:** Scouts believe muddy water from natural river bends is considered industrial chemical pollution.
 - **Pamphlet Fact:** Pollution specifically describes human-induced degradation that harms water usability and aquatic biological health.
 
@@ -479,7 +479,7 @@
 
 #### Req 6d: Complete Wastewater Facility Process Diagram
 **Official Requirement 6d:** Make a drawing showing the principles of complete waste treatment.
-**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6d Hands-On Skill Station & EDGE Verification Checklist (Drawing Showing The Principles)
+**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6d Hands-On Skill Station & EDGE Verification Checklist (Drawing Showing the Principles)
 - **Common Myth:** Scouts believe modern sewage treatment plants dump untreated sludge solids directly into rivers.
 - **Pamphlet Fact:** Modern treatment facilities digest separated sludge in anaerobic tanks to produce soil conditioner or biogas.
 
@@ -536,7 +536,7 @@
 
 #### Req 7b: Erosion Stabilization Seedling Planting Project
 **Official Requirement 7b:** Plant 100 trees, bushes, and/or vines for a good purpose.
-**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Trees Bushes And/or Vines)
+**Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Trees Bushes and/or Vines)
 - **Common Myth:** Scouts believe digging shallow holes and bending seedling roots into J-shapes ensures tree survival.
 - **Pamphlet Fact:** Seedling taproots must hang straight down in deep vertical holes to prevent underground root rot.
 

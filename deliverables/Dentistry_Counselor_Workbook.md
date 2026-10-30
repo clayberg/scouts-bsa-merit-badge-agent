@@ -60,7 +60,7 @@
 
 #### Req 1b: Lower Molar Anatomical Diagram
 **Official Requirement 1b:** Draw a lower molar, using the radiographs as a guide. Label its parts and surfaces. Show surrounding structures such as bone and gum tissues.
-**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 1b Structured Technical Study & Explanation Matrix (Lower Molar Using The Radiographs)
+**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 1b Structured Technical Study & Explanation Matrix (Lower Molar Using the Radiographs)
 - **Common Myth:** Lower molars contain a single conical root identical to front incisors.
 - **Pamphlet Fact:** Mandibular molars feature two distinct roots separated by a furcation and anchored by alveolar bone.
 
@@ -84,7 +84,7 @@
 
 #### Req 1c: Neurovascular Pulp Entry Pathways
 **Official Requirement 1c:** Show on your drawing where the nerves and blood vessels enter and leave the tooth.
-**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Drawing Where The Nerves and)
+**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Drawing Where the Nerves and)
 - **Common Myth:** Teeth receive their blood supply through tiny pores spread across the outer enamel surface.
 - **Pamphlet Fact:** All blood vessels and nerve fibers enter exclusively through microscopic apical foramina at the root tips.
 
@@ -168,7 +168,7 @@
 
 #### Req 2d: Tobacco Oral Health Consequences
 **Official Requirement 2d:** Discuss how the use of tobacco products can negatively affect your oral health.
-**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Discuss How The Use of)
+**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Discuss How the Use of)
 - **Common Myth:** Chewing tobacco is safer for teeth and gums than smoking combustible cigarettes.
 - **Pamphlet Fact:** Smokeless tobacco delivers concentrated carcinogens directly to oral mucosa, causing severe recession and precancerous leukoplakia.
 
@@ -295,7 +295,7 @@
 
 #### Req 5b: Oral Systemic Health Relations
 **Official Requirement 5b:** How the mouth is related to the rest of the body. Topics might include chewing, saliva, enzymes, nutrition, and speech.
-**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Mouth Is Related to The)
+**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Mouth Is Related to the)
 - **Common Myth:** Mouth bacteria remain strictly confined within the oral cavity without entering systemic circulation.
 - **Pamphlet Fact:** Periodontal bacteria can enter capillary beds during chewing and brushing, triggering systemic inflammatory cascades.
 
@@ -338,7 +338,7 @@
 
 #### Req 6b: Dental Disease Prevention Poster
 **Official Requirement 6b:** Make a poster on the prevention of dental disease. Show the importance of good oral health.
-**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Poster on The Prevention of)
+**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Poster on the Prevention of)
 - **Common Myth:** Effective health posters rely solely on long technical text paragraphs to educate viewers.
 - **Pamphlet Fact:** Impactful health posters use bold anatomical illustrations and concise callouts to communicate key prevention messages.
 
@@ -384,7 +384,7 @@
 
 #### Req 6e: Caries Progression and Restorations
 **Official Requirement 6e:** Make drawings and write about the progress of dental decay. Describe the types of dental filling and treatments a dentist can use to repair dental decay problems.
-**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Drawings and Write About The)
+**Source:** *Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Drawings and Write About the)
 - **Common Myth:** Once a cavity starts forming in outer enamel, drilling and filling is the only option.
 - **Pamphlet Fact:** Incipient white-spot lesions confined to outer enamel can be reversed through intensive topical fluoride remineralization.
 
@@ -404,7 +404,7 @@
 - **Common Myth:** All personnel working inside a dental office complete identical four-year graduate dental programs.
 - **Pamphlet Fact:** Dental teams include diverse specialized roles with training pathways ranging from certificate programs to doctoral degrees.
 
-![Straight, well-aligned teeth and healthy gums showcase successful orthodontic correction.](/assets/pamphlet_images/dentistry_p058_img2.png)
+![Straight, well-aligned teeth and healthy gums display successful orthodontic correction.](/assets/pamphlet_images/dentistry_p058_img2.png)
 
 | Career Research Dimension | Pamphlet & Industry Findings | Professional Interview / Source Notes |
 | :--- | :--- | :--- |

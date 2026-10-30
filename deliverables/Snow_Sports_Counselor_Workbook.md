@@ -143,7 +143,7 @@
 
 ### Req 4: Physical Conditioning and Fitness
 **Official Requirement 4:** Discuss the importance of strength, endurance, and flexibility in snow sports. Demonstrate exercises and activities you can do to get fit for the option you choose in requirement 7.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26)* • **Organizer (Skill Demonstration Checklist):** Req 4 Hands-On Skill Station & EDGE Verification Checklist (Discuss The Importance of Strength)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26)* • **Organizer (Skill Demonstration Checklist):** Req 4 Hands-On Skill Station & EDGE Verification Checklist (Discuss the Importance of Strength)
 > **Guide to Safe Scouting Warning:** Stop skiing when extreme muscle fatigue sets in, because tired muscles fail to stabilize knee joints during falls.
 - **Common Myth:** Strong leg muscles alone prevent all knee injuries without any need for balance.
 - **Pamphlet Fact:** Core stability and neuromuscular coordination are vital for absorbing sudden twisting forces.
@@ -200,7 +200,7 @@
 
 #### Req 6a: Your Responsibility Code Rules
 **Official Requirement 6a:** Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why each person must follow this code.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Elements of The Your Responsibility)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Elements of the Your Responsibility)
 - **Common Myth:** Faster skiers always have right of way over slower learners practicing downhill turns.
 - **Pamphlet Fact:** The downhill skier always has right of way regardless of speed or skill.
 
@@ -298,7 +298,7 @@
 
 #### Req 7a(3): Alpine Ski Categories and Safe Transport
 **Official Requirement 7a(3):** Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7a(3) Hands-On Skill Station & EDGE Verification Checklist (Discuss The Different Types of)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7a(3) Hands-On Skill Station & EDGE Verification Checklist (Discuss the Different Types of)
 - **Common Myth:** Carrying skis horizontally across both shoulders in crowded base areas offers the easiest and safest way to move through lines.
 - **Pamphlet Fact:** Turning around with skis balanced horizontally across your shoulders can strike nearby people with the swinging tips and tails.
 
@@ -399,7 +399,7 @@
 
 #### Req 7a(10): United States Ski Organization Roles
 **Official Requirement 7a(10):** Name the major ski organizations in the United States and explain their functions.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7a(10) Structured Technical Study & Explanation Matrix (Major Ski Organizations in The)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7a(10) Structured Technical Study & Explanation Matrix (Major Ski Organizations in the)
 - **Common Myth:** The National Ski Patrol operates resort chairlifts and manages daily ticket sales alongside mountain safety patrols.
 - **Pamphlet Fact:** The National Ski Patrol is a dedicated rescue organization focused on emergency medical care, slope safety education, and avalanche mitigation.
 
@@ -475,7 +475,7 @@
 
 #### Req 7b(4): Cross Country Touring Waxing Principles
 **Official Requirement 7b(4):** Discuss the basic principles of waxing for cross-country ski touring.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7b(4) Structured Technical Study & Explanation Matrix (Discuss The Basic Principles of)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7b(4) Structured Technical Study & Explanation Matrix (Discuss the Basic Principles of)
 - **Common Myth:** Applying grip wax along the entire length of a cross-country ski provides maximum speed and traction.
 - **Pamphlet Fact:** Coating the tips and tails with grip wax prevents the ski from gliding forward across the snow.
 
@@ -487,7 +487,7 @@
 
 #### Req 7b(5): Nordic and Backcountry Skiing Disciplines
 **Official Requirement 7b(5):** Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (2-Column Comparison Table):** Req 7b(5) Technical Comparison Matrix (Discuss The Differences Between Cross-country)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (2-Column Comparison Table):** Req 7b(5) Technical Comparison Matrix (Discuss the Differences Between Cross-country)
 - **Common Myth:** Backcountry ski touring and groomed cross-country track skiing use identical lightweight equipment and clothing.
 - **Pamphlet Fact:** Backcountry touring requires heavier metal-edged skis, sturdier supportive boots, avalanche rescue gear, and comprehensive wilderness survival provisions.
 
@@ -509,7 +509,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(7): Topographic Map And Compass Navigation
+#### Req 7b(7): Topographic Map and Compass Navigation
 **Official Requirement 7b(7):** Demonstrate the proper use of a topographic map and compass.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7b(7) Hands-On Skill Station & EDGE Verification Checklist (Topographic Map and Compass)
 - **Common Myth:** Following established tracks in the snow eliminates the need to carry and read a topographic map while touring.
@@ -569,7 +569,7 @@
 
 #### Req 7b(11): Steep Terrain Cross Country Maneuvers
 **Official Requirement 7b(11):** Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7b(11) Hands-On Skill Station & EDGE Verification Checklist (Several Methods of Dealing With)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7b(11) Hands-On Skill Station & EDGE Verification Checklist (Several Methods of Dealing with)
 - **Common Myth:** Holding ski poles out in front of the body provides an effective brake when descending steep slopes on cross-country skis.
 - **Pamphlet Fact:** Braking on steep narrow descents requires pressing pole grips together behind the hips and dragging the baskets in the snow beneath the skier.
 
@@ -614,9 +614,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c(2): Snowboard Equipment Selection And Fit
+#### Req 7c(2): Snowboard Equipment Selection and Fit
 **Official Requirement 7c(2):** Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7c(2) Structured Technical Study & Explanation Matrix (Ability to Select The Correct)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7c(2) Structured Technical Study & Explanation Matrix (Ability to Select the Correct)
 - **Common Myth:** Selecting a snowboard depends entirely on finding a board length that stands level with the tip of the nose regardless of body weight.
 - **Pamphlet Fact:** Rider weight and boot size dictate board flex, width, and control much more accurately than standing height alone.
 
@@ -626,7 +626,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c(3): Snowboard Binding Maintenance And Leashes
+#### Req 7c(3): Snowboard Binding Maintenance and Leashes
 **Official Requirement 7c(3):** Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7c(3) Hands-On Skill Station & EDGE Verification Checklist (Own Bindings)
 - **Common Myth:** Snowboard leashes are unnecessary because boards automatically brake and stop when detached from boots on slopes.
@@ -639,9 +639,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c(4): Snowboard Types And Carrying Methods
+#### Req 7c(4): Snowboard Types and Carrying Methods
 **Official Requirement 7c(4):** Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7c(4) Hands-On Skill Station & EDGE Verification Checklist (Discuss The Four Types of)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7c(4) Hands-On Skill Station & EDGE Verification Checklist (Discuss the Four Types of)
 - **Common Myth:** Carrying a snowboard horizontally over the shoulder is safe in crowded base areas and lift lines.
 - **Pamphlet Fact:** Carrying a board horizontally over the shoulder creates a swinging hazard that can strike bystanders during turns, so boards must be carried tucked underarm vertically.
 
@@ -751,7 +751,7 @@
 
 #### Req 7c(11): United States Snowboarding Organizations
 **Official Requirement 7c(11):** Name the major snowboarding organizations in the United States and explain their functions.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7c(11) Structured Technical Study & Explanation Matrix (Major Snowboarding Organizations in The)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7c(11) Structured Technical Study & Explanation Matrix (Major Snowboarding Organizations in the)
 - **Common Myth:** A single sports federation manages both professional instructor certifications and Olympic competition teams in America.
 - **Pamphlet Fact:** The American Association of Snowboard Instructors trains instructors while U.S. Ski and Snowboard oversees national competitive racing and freestyle teams.
 
@@ -858,7 +858,7 @@
 
 #### Req 7d(7): Physical Health Benefits of Snowshoeing
 **Official Requirement 7d(7):** Discuss the benefits of snowshoeing.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7d(7) Structured Technical Study & Explanation Matrix (Discuss The Benefits of Snowshoeing)
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7d(7) Structured Technical Study & Explanation Matrix (Discuss the Benefits of Snowshoeing)
 - **Common Myth:** Walking on snowshoes requires the same physical exertion as walking on bare ground.
 - **Pamphlet Fact:** Pushing through snow resistance and lifting weighted footwear burns up to twice as many calories as walking on dry pavement.
 

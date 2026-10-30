@@ -82,7 +82,7 @@
 
 #### Req 1c: Multi Genre Catalog Search
 **Official Requirement 1c:** In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies.
-**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Library Search The Card Catalog)
+**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Library Search the Card Catalog)
 - **Common Myth:** Beginners often think all book genres are mixed together by publication year.
 - **Pamphlet Fact:** Libraries separate fiction by author surname while assigning Dewey numbers to poetry and nonfiction.
 
@@ -152,7 +152,7 @@
 
 #### Req 2b: Curated Reading List Selection
 **Official Requirement 2b:** Look at one or more "best books" lists. These can be based on year, subject, or even all time. Identify at least one book you would like to read.
-**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Look At One or More)
+**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Look at One or More)
 - **Common Myth:** Beginners often assume best books lists reflect only commercial sales figures.
 - **Pamphlet Fact:** Literary award lists evaluate artistic excellence, thematic depth, and character development over raw sales.
 
@@ -197,7 +197,7 @@
 
 #### Req 3b: Book and Film Comparison
 **Official Requirement 3b:** Watch a movie based on the book. What was the same between the book and movie? What was different? Which did you enjoy more? Discuss this with your counselor.
-**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Movie Based on The Book)
+**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Movie Based on the Book)
 - **Common Myth:** Viewers believe cinematic adaptations are always inferior copies of original books.
 - **Pamphlet Fact:** Film adaptations function as distinct artistic interpretations that translate literary themes into visual language.
 
@@ -307,9 +307,9 @@
 
 #### Req 6b: Library Facility Volunteer Assistance
 **Official Requirement 6b:** Perform volunteer work at your school library or a public library.
-**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Volunteer Work At Your School)
+**Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Volunteer Work at Your School)
 - **Common Myth:** Volunteers assume library tasks consist solely of checking out books at the desk.
-- **Pamphlet Fact:** Crucial volunteer tasks include shelf-reading, precision book sorting, barcode scanning, and collection preservation.
+- **Pamphlet Fact:** Essential volunteer tasks include shelf-reading, precision book sorting, barcode scanning, and collection preservation.
 
 ![Young children gather attentively to listen to a book read aloud.](/assets/pamphlet_images/reading_p042_img1.png)
 

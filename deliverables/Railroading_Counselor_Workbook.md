@@ -13,11 +13,11 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Modern Freight Rail Operations | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Passenger Rail And Mass Transit | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Railroad Industry Careers And Organization | Describe | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Passenger Rail and Mass Transit | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Railroad Industry Careers and Organization | Describe | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Public Rail Crossing Safety | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Railroad Crossing Signs And Signals | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Railroad Signaling And Communications | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Railroad Crossing Signs and Signals | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Railroad Signaling and Communications | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7a** | Model Railroading: Track Scales, Layout Building & DCC Control | Identify | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7b** | Railfanning: Railroad Museums, Scenic Rides & Trip Planning | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
@@ -91,7 +91,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Locomotive Propulsion And Truck Mechanics
+#### Req 1d: Locomotive Propulsion and Truck Mechanics
 **Official Requirement 1d:** Explain how a modern diesel or electric locomotive develops power. Explain the terms dynamic braking and radial steering trucks.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Modern Diesel or Electric Locomotive)
 - **Common Myth:** Dynamic braking wears down traditional composite brake shoes against the steel wheels during mountain descents.
@@ -106,7 +106,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Passenger Rail And Mass Transit
+### Req 2: Passenger Rail and Mass Transit
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Explain the purpose and formation of Amtrak. Explain, by the use of a timetable, a plan for making a trip by rail between two cities at least 500 miles apart. List the times of departure and arrival at your destination, the train number and name, and the type of service you want. (b) List and explain the various forms of public/mass transit using rail.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never step across the yellow warning strip on passenger platforms until the train stops completely.
@@ -119,7 +119,7 @@
 - Commuter Rail Corridors: Regional passenger lines connect outlying suburban stations directly to central downtown terminal stations.
 - Grade-separated subway and elevated rail systems move high passenger densities along dedicated rights-of-way.
 
-#### Req 2a: Amtrak History And Journey Planning
+#### Req 2a: Amtrak History and Journey Planning
 **Official Requirement 2a:** Explain the purpose and formation of Amtrak. Explain, by the use of a timetable, a plan for making a trip by rail between two cities at least 500 miles apart. List the times of departure and arrival at your destination, the train number and name, and the type of service you want.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Formation of Amtrak)
 - **Common Myth:** Amtrak has operated national passenger trains under continuous private corporate ownership since the nineteenth century.
@@ -149,7 +149,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Railroad Industry Careers And Organization
+### Req 3: Railroad Industry Careers and Organization
 **Official Requirement 3 (Parent Overview):** Do ONE of the following: (a) Name four departments of a railroad company. Describe what each department does. (b) Tell about the opportunities in railroading that interest you most and why. (c) Name four rail support industries. Describe the function of each one. (d) With your parent or guardian's and counselor's approval, interview someone employed in the rail industry. Learn what that person does and how this person became interested in railroading. Find out what type of schooling and training is required for this position.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Wear steel-toed boots, safety glasses, and high-visibility vests when touring railroad maintenance shops or yards.
@@ -195,7 +195,7 @@
 
 #### Req 3c: Rail Industry Support Infrastructure
 **Official Requirement 3c:** Name four rail support industries. Describe the function of each one.
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Rail Support Industries Describe The)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Rail Support Industries Describe the)
 - **Common Myth:** Railroads smelt their own steel rails and construct their own locomotives in internal workshops.
 - **Pamphlet Fact:** Railroads purchase locomotives from specialized manufacturers like Wabtec and Progress Rail and purchase rail from commercial steel mills.
 
@@ -210,7 +210,7 @@
 
 #### Req 3d: Rail Industry Professional Interview
 **Official Requirement 3d:** With your parent or guardian's and counselor's approval, interview someone employed in the rail industry. Learn what that person does and how this person became interested in railroading. Find out what type of schooling and training is required for this position.
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Someone Employed in The Rail)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Someone Employed in the Rail)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Railroading Req 3d preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Railroad employees work regular eight-hour weekday shifts with fixed weekends off throughout their careers.
 - **Pamphlet Fact:** Train service crews frequently operate on irregular on-call rosters twenty-four hours a day in all weather conditions.
@@ -300,7 +300,7 @@
 - **Common Myth:** Light rail transit vehicles can stop as quickly as a passenger automobile when running in city streets.
 - **Pamphlet Fact:** Light rail cars ride on steel wheels against steel rails and require substantially greater stopping distance than road vehicles.
 
-![A model railroad display showcases miniature towns, trains, and tracks.](/assets/pamphlet_images/railroading_p062_img1.png)
+![A model railroad display displays miniature towns, trains, and tracks.](/assets/pamphlet_images/railroading_p062_img1.png)
 
 | Req 4e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -308,7 +308,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Railroad Crossing Signs And Signals
+### Req 5: Railroad Crossing Signs and Signals
 **Official Requirement 5 (Parent Overview):** Explain the appearance and meaning of the following rail signs and signals: (a) Passive signs and active signs (b) Devices at the crossing (flashing red lights, with or without bells, flashing red lights and gates, and cantilever flashing lights) (c) Markings on the road (pavement markings and stop bars) (d) Signs before the crossing (advance warning sign, advance warning sign for side streets, no train horn sign, and low ground clearance grade crossing sign) (e) Signs along the railroad property (no trespassing sign) (f) Signs at the crossing (crossbuck sign, emergency notification system sign, multiple track sign, stop sign, and yield sign)
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Group Organizer:** Activity & Observation Log
 > **Guide to Safe Scouting Warning:** Always stop between fifteen and fifty feet from the nearest rail when crossing signals activate.
@@ -337,7 +337,7 @@
 
 #### Req 5b: Active Crossing Warning Devices
 **Official Requirement 5b:** Devices at the crossing (flashing red lights, with or without bells, flashing red lights and gates, and cantilever flashing lights)
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Devices At The Crossing Flashing)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Devices at the Crossing Flashing)
 - **Common Myth:** Flashing red lights at a railroad crossing indicate that drivers may proceed if no train is visible.
 - **Pamphlet Fact:** Flashing red lights carry the legal weight of a stop sign, and drivers must stop completely until signals stop.
 
@@ -349,7 +349,7 @@
 
 #### Req 5c: Roadway Pavement Warning Markings
 **Official Requirement 5c:** Markings on the road (pavement markings and stop bars)
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Markings on The Road Pavement)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Markings on the Road Pavement)
 - **Common Myth:** Stop bars painted on the road allow motorists to stop their tires on top of the line.
 - **Pamphlet Fact:** Vehicles must stop completely behind the stop bar to ensure adequate clearance from passing train equipment.
 
@@ -361,7 +361,7 @@
 
 #### Req 5d: Advance Warning Road Signs
 **Official Requirement 5d:** Signs before the crossing (advance warning sign, advance warning sign for side streets, no train horn sign, and low ground clearance grade crossing sign)
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Signs Before The Crossing Advance)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Signs Before the Crossing Advance)
 - **Common Myth:** A round yellow railroad advance warning sign indicates that tracks are located directly at the sign.
 - **Pamphlet Fact:** Round advance warning signs are placed several hundred feet before the tracks to give motorists adequate stopping distance.
 
@@ -373,7 +373,7 @@
 
 #### Req 5e: Railroad Property Trespassing Signs
 **Official Requirement 5e:** Signs along the railroad property (no trespassing sign)
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Signs Along The Railroad Property)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Signs Along the Railroad Property)
 - **Common Myth:** Railroad rights-of-way outside city limits are public property open for hiking, jogging, and recreational off-roading.
 - **Pamphlet Fact:** Railroad property is private land, and walking along tracks constitutes illegal trespassing subject to arrest and fines.
 
@@ -385,7 +385,7 @@
 
 #### Req 5f: Crossing Location Regulatory Placards
 **Official Requirement 5f:** Signs at the crossing (crossbuck sign, emergency notification system sign, multiple track sign, stop sign, and yield sign)
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Activity & Observation Log):** Req 5f Quantitative Field Observation & Activity Log (Signs At The Crossing Crossbuck)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Organizer (Activity & Observation Log):** Req 5f Quantitative Field Observation & Activity Log (Signs at the Crossing Crossbuck)
 - **Common Myth:** A crossbuck sign alone means the motorist always has the right of way over approaching trains.
 - **Pamphlet Fact:** The crossbuck obligates motorists to yield the right-of-way to oncoming rail traffic at all times.
 
@@ -395,7 +395,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Railroad Signaling And Communications
+### Req 6: Railroad Signaling and Communications
 **Official Requirement 6 (Parent Overview):** Do EACH of the following: (a) Explain how railroad signals operate and show two basic signal types using color or configuration. (b) Explain the meaning of three horn signals. (c) Describe a way to signal a train for an emergency stop. (d) Explain the use and function of the EOTD (end-of-train device), or FRED (flashing rear end device), used on the last car of most freight trains.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Wear hearing protection when standing near operating locomotive air horns to prevent auditory damage.
@@ -408,7 +408,7 @@
 - Any object or hand waved violently across the track indicates an emergency stop.
 - The rear end device monitors brake pressure and initiates emergency braking upon command.
 
-#### Req 6a: Block Signals And Aspects
+#### Req 6a: Block Signals and Aspects
 **Official Requirement 6a:** Explain how railroad signals operate and show two basic signal types using color or configuration.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Railroad Signals)
 - **Common Myth:** Railroad signal colors mean the same simple stop, go, and caution rules as city traffic lights.
@@ -446,9 +446,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d: End Of Train Devices
+#### Req 6d: End of Train Devices
 **Official Requirement 6d:** Explain the use and function of the EOTD (end-of-train device), or FRED (flashing rear end device), used on the last car of most freight trains.
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Function of The EOTD End-of-train)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Function of the EOTD End-of-train)
 - **Common Myth:** The flashing red light on the last freight car is merely an unpowered reflector or decorative battery marker.
 - **Pamphlet Fact:** The device contains radio telemetry sensors that actively monitor brake line pressure and can independently dump brake air during emergencies.
 
@@ -513,7 +513,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(3): Model Railroad Scale And Gauge Standards
+#### Req 7a(3): Model Railroad Scale and Gauge Standards
 **Official Requirement 7a(3):** Name the scale of four popular model railroad gauges. Identify the scale of four model cars or locomotives.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7a(3) Structured Technical Study & Explanation Matrix (Scale of Four Popular Model)
 - **Common Myth:** Scale and gauge mean the exact same thing in model railroading.
@@ -539,9 +539,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(5): Railroad Structure Assembly And Weathering
+#### Req 7a(5): Railroad Structure Assembly and Weathering
 **Official Requirement 7a(5):** Build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it on your layout or diorama, and make the surrounding area on the diorama scenic.
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 7a(5) Hands-On Skill Station & EDGE Verification Checklist (Railroad Structure From Scratch)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 7a(5) Hands-On Skill Station & EDGE Verification Checklist (Railroad Structure from Scratch)
 - **Common Myth:** Factory plastic structures look realistic on a layout without painting or weathering.
 - **Pamphlet Fact:** Unpainted molded plastic reflects artificial glare and requires dulling coats, washes, and dry brush weathering to resemble prototype industrial materials.
 
@@ -577,7 +577,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(8): Direct Current And Command Control
+#### Req 7a(8): Direct Current and Command Control
 **Official Requirement 7a(8):** Explain the difference between powering and controlling a model railroad by using direct current, and powering and controlling a model railroad using digital command control.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (2-Column Comparison Table):** Req 7a(8) Technical Comparison Matrix (Powering and Controlling A Model)
 - **Common Myth:** Digital command control runs multiple trains by varying separate DC voltages along the rails.
@@ -603,7 +603,7 @@
 - Req 7b(3) (3): Locate the websites of four rail historical groups, then find information on the history of the rail preservation operations and purpose of each group. Talk with a member of one of the groups and find out how you might help.
 - Req 7b(4) (4): Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two intermediate points. Purchase the tickets and make the trip. Explain to your counselor what you saw.
 
-#### Req 7b(1): Railroad Museum And Equipment Documentation
+#### Req 7b(1): Railroad Museum and Equipment Documentation
 **Official Requirement 7b(1):** Visit a railroad museum, historical display, or a prototype railroad-sponsored public event. With permission, photograph, digitally record, or sketch items of interest. Explain what you saw and describe your photos, sketches, or video.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Field Sketch & Diagram Canvas):** Req 7b(1) Quantitative Field Observation & Activity Log (Railroad Museum Historical Display)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Railroading Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -654,7 +654,7 @@
 
 #### Req 7b(4): Passenger Rail Travel Route Planning
 **Official Requirement 7b(4):** Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two intermediate points. Purchase the tickets and make the trip. Explain to your counselor what you saw.
-**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7b(4) Structured Technical Study & Explanation Matrix (Trip By Rail)
+**Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7b(4) Structured Technical Study & Explanation Matrix (Trip by Rail)
 - **Common Myth:** Passenger train timetables list only the departure from the initial terminal and arrival at the final destination.
 - **Pamphlet Fact:** Timetables detail scheduled arrivals and departures at intermediate stations, conditional flag stops, and connecting transfer points along the route.
 

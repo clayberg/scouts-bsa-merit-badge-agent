@@ -35,14 +35,128 @@ class StoryboardPlan(BaseModel):
     slides: List[SlideSpec] = Field(..., description="Ordered list of slide specifications.")
 
 
+_UNSLOP_WORD_MAP: Dict[str, str] = {
+    "crucial": "essential",
+    "Crucial": "Essential",
+    "pivotal": "major",
+    "Pivotal": "Major",
+    "delve": "investigate",
+    "Delve": "Investigate",
+    "delves": "investigates",
+    "Delves": "Investigates",
+    "delving": "investigating",
+    "Delving": "Investigating",
+    "testament": "proof",
+    "Testament": "Proof",
+    "vibrant": "bright",
+    "Vibrant": "Bright",
+    "tapestry": "history",
+    "Tapestry": "History",
+    "underscore": "highlight",
+    "Underscore": "Highlight",
+    "underscores": "highlights",
+    "Underscores": "Highlights",
+    "underscoring": "accompaniment",
+    "Underscoring": "Accompaniment",
+    "showcase": "display",
+    "Showcase": "Display",
+    "showcases": "displays",
+    "Showcases": "Displays",
+    "showcasing": "displaying",
+    "Showcasing": "Displaying",
+    "showcased": "displayed",
+    "Showcased": "Displayed",
+    "fostering": "building",
+    "Fostering": "Building",
+    "foster": "build",
+    "Foster": "Build",
+    "fosters": "builds",
+    "Fosters": "Builds",
+    "interplay": "interaction",
+    "Interplay": "Interaction",
+    "intricate": "detailed",
+    "Intricate": "Detailed",
+    "groundbreaking": "pioneering",
+    "Groundbreaking": "Pioneering",
+    "seamless": "smooth",
+    "Seamless": "Smooth",
+    "seamlessly": "smoothly",
+    "Seamlessly": "Smoothly",
+    "elevate": "raise",
+    "Elevate": "Raise",
+    "elevates": "raises",
+    "Elevates": "Raises",
+    "elevating": "raising",
+    "Elevating": "Raising",
+    "boasts": "features",
+    "Boasts": "Features",
+    "boast": "feature",
+    "Boast": "Feature",
+}
+
+_UNSLOP_REGEX = None
+
+
+def _replace_unslop_words(text: str) -> str:
+    """Replaces stock AI vocabulary with plain, concrete Scouting/engineering words."""
+    if not text:
+        return ""
+    global _UNSLOP_REGEX
+    import re
+
+    if _UNSLOP_REGEX is None:
+        sorted_keys = sorted(_UNSLOP_WORD_MAP.keys(), key=len, reverse=True)
+        pattern = r"\b(" + "|".join(re.escape(k) for k in sorted_keys) + r")\b"
+        _UNSLOP_REGEX = re.compile(pattern, flags=re.IGNORECASE)
+
+    def _repl(m: Any) -> str:
+        word = m.group(0)
+        if word in _UNSLOP_WORD_MAP:
+            return _UNSLOP_WORD_MAP[word]
+        low = word.lower()
+        rep = _UNSLOP_WORD_MAP.get(low, word)
+        if word.isupper():
+            return rep.upper()
+        return rep.capitalize() if word[0].isupper() else rep
+
+    return _UNSLOP_REGEX.sub(_repl, text)
+
+
+def _smart_title_case(text: str) -> str:
+    """Normalizes interior conjunctions, articles, and short prepositions to lowercase in titles."""
+    if not text:
+        return ""
+    import re
+
+    minor_words = {"and", "or", "of", "in", "the", "for", "to", "on", "at", "by", "with", "from"}
+
+    def _fix_minor(m: Any) -> str:
+        prefix = m.group(1)
+        word = m.group(2)
+        if word.lower() in minor_words:
+            return f"{prefix}{word.lower()}"
+        return m.group(0)
+
+    # Lowercase interior minor words that follow a word character or comma/closing paren (not after ':' or '-' or '(')
+    cur = str(text)
+    pat = re.compile(r"([A-Za-z0-9,)\]]\s+)\b(And|Or|Of|In|The|For|To|On|At|By|With|From)\b")
+    for _ in range(3):
+        nxt = pat.sub(_fix_minor, cur)
+        if nxt == cur:
+            break
+        cur = nxt
+    return cur
+
+
 def _sanitize_no_ellipsis_or_emdash(text: str) -> str:
-    """Removes ellipses ('...'), em-dashes ('—', '--'), en-dashes ('–'), trailing dangling stopwords, and PDF kerning glitches."""
+    """Removes ellipses ('...'), em-dashes ('—', '--'), en-dashes ('–'), trailing dangling stopwords, PDF kerning glitches, and AI puffery words."""
     if not text:
         return ""
     import re
     from src.tools.pamphlet_extractor import _repair_pdf_word_concatenations
 
     cleaned = _repair_pdf_word_concatenations(str(text))
+    cleaned = _replace_unslop_words(cleaned)
     cleaned = cleaned.replace("...", ".").replace("…", ".")
     cleaned = cleaned.replace(" — ", ", ").replace(" – ", ", ").replace(" -- ", ", ")
     cleaned = cleaned.replace("—", ", ").replace("–", "-").replace("--", ", ")
@@ -2099,7 +2213,7 @@ def generate_slide_storyboard(
         decompose_requirement_into_topic_slides,
     )
 
-    clean_badge = _sanitize_no_ellipsis_or_emdash(badge_name.strip().title())
+    clean_badge = _smart_title_case(_sanitize_no_ellipsis_or_emdash(badge_name.strip().title()))
     slides: List[SlideSpec] = []
 
     # -------------------------------------------------------------------------
@@ -2117,8 +2231,8 @@ def generate_slide_storyboard(
         r_num = str(req.get("req_number", "1"))
         r_text = _sanitize_no_ellipsis_or_emdash(str(req.get("req_text", "Complete requirement.")))
         raw_topic = str(req.get("topic_title") or _derive_topic_title(r_num, r_text))
-        clean_topic = _sanitize_no_ellipsis_or_emdash(raw_topic.replace(f"Req {r_num}:", "").strip())
-        triage_topic = _concise_card_body(clean_topic, max_words=5, max_chars=32).rstrip(" .,:;-")
+        clean_topic = _smart_title_case(_sanitize_no_ellipsis_or_emdash(raw_topic.replace(f"Req {r_num}:", "").strip()))
+        triage_topic = _smart_title_case(_concise_card_body(clean_topic, max_words=5, max_chars=32).rstrip(" .,:;-"))
         if "(" in triage_topic and ")" not in triage_topic:
             triage_topic = triage_topic.split("(", 1)[0].strip()
         mode = _infer_execution_mode(req)
@@ -2221,10 +2335,12 @@ def generate_slide_storyboard(
         edge_phase = str(req.get("edge_phase") or (
             "Demonstrate & Guide" if exec_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value else "Explain & Guide"
         ))
-        raw_topic_title = _sanitize_no_ellipsis_or_emdash(
-            str(req.get("topic_title") or _derive_topic_title(req_num, req_text))
+        raw_topic_title = _smart_title_case(
+            _sanitize_no_ellipsis_or_emdash(
+                str(req.get("topic_title") or _derive_topic_title(req_num, req_text))
+            )
         )
-        clean_section_title = raw_topic_title.replace(f"Req {req_num}:", "").strip()
+        clean_section_title = _smart_title_case(raw_topic_title.replace(f"Req {req_num}:", "").strip())
         req_misc_pair = req.get("common_misconception_pair") if isinstance(req.get("common_misconception_pair"), dict) else None
         req_pamphlet_ref = _sanitize_no_ellipsis_or_emdash(
             str(req.get("pamphlet_page_citation") or f"BSA {clean_badge} Pamphlet • Req {req_num}")
@@ -2366,7 +2482,7 @@ def generate_slide_storyboard(
 
         # Topic Instruction & Full-Page Diagram Slides for Requirement N
         for t_idx, ts in enumerate(selected_topic_slides, start=1):
-            ts_title = _sanitize_no_ellipsis_or_emdash(str(ts.get("title") or f"{clean_section_title} (Part {t_idx})"))
+            ts_title = _smart_title_case(_sanitize_no_ellipsis_or_emdash(str(ts.get("title") or f"{clean_section_title} (Part {t_idx})")))
             ts_layout = str(ts.get("layout") or "CONCEPT_TEXT_SLIDE")
             raw_ts_bullets = ts.get("bullets") or _build_bullet_points_for_req(req, req_num, req_text)
 

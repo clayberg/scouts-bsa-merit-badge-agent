@@ -302,7 +302,7 @@
 
 ### Req 6: Physician Oath Ethical Foundations
 **Official Requirement 6:** Discuss with your counselor your understanding of the meaning of the Physician's Oath.
-**Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 9, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Your)
+**Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 9, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)
 > **Guide to Safe Scouting Warning:** Ethical medical practice demands immediate disclosure of clinical errors to ensure timely patient protective intervention.
 - **Common Myth:** The Hippocratic Oath is a legally binding contract enforced by federal criminal courts.
 - **Pamphlet Fact:** The Physician's Oath represents an ethical code of conduct rather than a statutory criminal law document.

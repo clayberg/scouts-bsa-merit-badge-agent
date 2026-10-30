@@ -14,7 +14,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: American Free Enterprise Foundations | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Corporate Financial Statement Analysis | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Business Profitability And Ethics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Business Profitability and Ethics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Federal Labor Regulations Overview | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Business Merit Badge Pamphlet (p. 60, p. 61) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Enterprise Core Functional Integration | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America American Business Merit Badge Pamphlet (p. 22, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Professional Business Career Pathways | Identify | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America American Business Merit Badge Pamphlet (p. 38, p. 42) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -44,7 +44,7 @@
 
 #### Req 1a: Free Enterprise Core Characteristics
 **Official Requirement 1a:** Explain four features of the free enterprise system in the United States. Describe the difference between freedom and license. Tell how the Scout Oath and Scout Law apply to business and free enterprise.
-**Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Organizer (2-Column Comparison Table):** Req 1a Technical Comparison Matrix (Features of The Free Enterprise)
+**Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Organizer (2-Column Comparison Table):** Req 1a Technical Comparison Matrix (Features of the Free Enterprise)
 - **Common Myth:** Private property rights give business owners total immunity from municipal zoning ordinances.
 - **Pamphlet Fact:** Private property rights grant operational ownership subject to local zoning and public safety laws.
 
@@ -104,7 +104,7 @@
 
 #### Req 1e: Global Economic Interdependence Factors
 **Official Requirement 1e:** Discuss with your counselor how business impacts the local, national, and global economy.
-**Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Discuss With Your Counselor How)
+**Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)
 - **Common Myth:** A neighborhood retail shop remains entirely unaffected by disruptions in overseas container shipping.
 - **Pamphlet Fact:** Small local retailers depend on international shipping for inventory pricing and component availability.
 
@@ -188,7 +188,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Business Profitability And Ethics
+### Req 3: Business Profitability and Ethics
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Explain the place of profit in business. (b) Describe to your counselor green marketing and sustainable business practices. (c) Explain how ethics plays a role in business decision making. (d) Discuss the differences between operating a brick-and-mortar business versus an online business.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Dispose of hazardous commercial materials and electronic waste through licensed environmental recycling facilities.
@@ -201,7 +201,7 @@
 - Ethical Corporate Governance: Honest accounting disclosure prevents investor deception and protects company reputation.
 - Digital Commerce Logistics: Online storefronts eliminate physical showroom leases while expanding international consumer access.
 
-#### Req 3a: Economic Function Of Profit
+#### Req 3a: Economic Function of Profit
 **Official Requirement 3a:** Explain the place of profit in business.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Place of Profit in Business)
 - **Common Myth:** A business operating at zero profit can sustain long-term technological innovation indefinitely.
@@ -245,7 +245,7 @@
 
 #### Req 3d: Retail Operational Model Comparison
 **Official Requirement 3d:** Discuss the differences between operating a brick-and-mortar business versus an online business.
-**Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Organizer (2-Column Comparison Table):** Req 3d Technical Comparison Matrix (Discuss The Differences Between Operating)
+**Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Organizer (2-Column Comparison Table):** Req 3d Technical Comparison Matrix (Discuss the Differences Between Operating)
 - **Common Myth:** E-commerce retailers eliminate overhead expenses because they operate without commercial physical locations.
 - **Pamphlet Fact:** Online businesses maintain significant overhead in logistics fulfillment centers, web servers, and shipping.
 

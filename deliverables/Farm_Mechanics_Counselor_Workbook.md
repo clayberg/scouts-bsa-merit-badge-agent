@@ -45,7 +45,7 @@
 
 #### Req 1a: Personal Protective Equipment Standards
 **Official Requirement 1a:** Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing farm equipment. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.
-**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 - **Common Myth:** Loose cotton clothing keeps mechanics cooler without presenting any moving machine entanglement risk.
 - **Pamphlet Fact:** Untucked shirts or loose sleeves easily wrap around spinning tractor shafts causing severe injury.
 
@@ -180,7 +180,7 @@
 
 #### Req 3a: Striking Tool Handle Replacement
 **Official Requirement 3a:** Replace the handle of any tool found on the farm.
-**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Replace The Handle of Any)
+**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Replace the Handle of Any)
 - **Common Myth:** Any hardwood branch from the farm woodlot works reliably as a sledgehammer handle.
 - **Pamphlet Fact:** Steep grain runout on replacement wood handles creates weak points that snap under heavy shock.
 
@@ -208,7 +208,7 @@
 
 #### Req 3c: Cold Chisel Crown Dressing
 **Official Requirement 3c:** Using a hand file, properly dress the mushroomed head of a chisel or punch.
-**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Hand File Properly Dress The)
+**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Hand File Properly Dress the)
 - **Common Myth:** Hammer heads and cold chisels share identical metal hardness across striking surfaces.
 - **Pamphlet Fact:** Filing away mushroomed metal edges removes work-hardened steel before brittle slivers detach violently.
 
@@ -293,7 +293,7 @@
 
 ### Req 5: Implement Dealership Maintenance Consultation
 **Official Requirement 5:** Visit an implement dealer. Interview the dealer technician or service manager for hints on good preventive maintenance. Ask why it is important, the costs, and what causes wear or damage. Report what you learn.
-**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 52, p. 74)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Implement Dealer Interview The Dealer)
+**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 52, p. 74)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Implement Dealer Interview the Dealer)
 > **Guide to Safe Scouting Warning:** Stay behind designated yellow customer walkways and wear safety glasses when entering dealership repair service bays.
 - **Common Myth:** Operating machinery until parts break down completely is cheaper than performing scheduled maintenance.
 - **Pamphlet Fact:** Scheduled preventive maintenance costs significantly less than emergency field repairs during planting season.
@@ -350,7 +350,7 @@
 
 #### Req 6b: Engine Air Filter Servicing
 **Official Requirement 6b:** Checking the air filter.
-**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Checking The Air Filter)
+**Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Checking the Air Filter)
 - **Common Myth:** Washing paper air filter elements with diesel fuel restores factory air flow capacity.
 - **Pamphlet Fact:** Tapping paper filter ends lightly dislodges loose dust without tearing delicate pleated media fibers.
 

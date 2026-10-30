@@ -168,7 +168,7 @@
 
 #### Req 2c: Disaster Supply Kit Maintenance
 **Official Requirement 2c:** Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a family disaster kit for sheltering-in-place and for evacuation of your home. Review the needs and uses of the items in a kit with your counselor.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Checklist in The Emergency Preparedness)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Checklist in the Emergency Preparedness)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 2c preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Standard camping gear without modifications serves as a complete disaster kit.
 - **Pamphlet Fact:** Emergency kits require specific survival documentation, specialized tools, and sanitation gear.
@@ -263,7 +263,7 @@
 
 #### Req 4b: Carbon Monoxide Structure Extraction
 **Official Requirement 4b:** A structure filled with carbon monoxide.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Structure Filled With Carbon Monoxide)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Structure Filled with Carbon Monoxide)
 - **Common Myth:** Holding your breath allows a quick dash inside to rescue unconscious victims.
 - **Pamphlet Fact:** High concentrations cause rapid asphyxiation and unconsciousness in fewer than two breaths.
 
@@ -318,7 +318,7 @@
 
 #### Req 5a: Aerial Distress Signal Systems
 **Official Requirement 5a:** Show three ways of attracting and communicating with rescue aircraft or drones.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Attracting and Communicating With Rescue)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Attracting and Communicating with Rescue)
 - **Common Myth:** Waving two arms casually overhead is sufficient to signal an emergency aircraft.
 - **Pamphlet Fact:** Standardized visual body signals or ground symbols like X or V prevent confusion.
 
@@ -338,7 +338,7 @@
 
 #### Req 5b: Wilderness Ground Searcher Signals
 **Official Requirement 5b:** Show ways to attract the attention of searchers on the ground if you are lost in the wilderness.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Attract The Attention of Searchers)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Attract the Attention of Searchers)
 - **Common Myth:** Yelling loudly repeatedly is more effective than carrying an emergency whistle.
 - **Pamphlet Fact:** Human voices tire quickly, while pealess whistles carry sound over twice as far.
 
@@ -352,7 +352,7 @@
 
 #### Req 5c: Marine Distress Signaling Equipment
 **Official Requirement 5c:** Show ways to attract the attention of searchers on the water if you are stranded with a capsized or disabled motorboat or sailboat.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Attract The Attention of Searchers)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Attract the Attention of Searchers)
 - **Common Myth:** Swimming away from a disabled boat toward distant shores improves survival odds.
 - **Pamphlet Fact:** Remaining with floating hulls preserves body heat and presents larger radar targets.
 
@@ -464,7 +464,7 @@
 
 #### Req 8a: Troop Emergency Service Duties
 **Official Requirement 8a:** Discuss with your counselor the duties that a Scout troop should be prepared to do, the training they need, and the safety precautions they should take for the following emergency services: (1) Crowd and traffic control (2) Messenger service during an incident (3) Collection and distribution services (4) Group feeding, shelter, and sanitation.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Scouts should perform structural fire suppression when municipal emergency personnel are overwhelmed.
 - **Pamphlet Fact:** Scout emergency service excludes all active firefighting, technical rescues, and hazardous entries.
@@ -497,7 +497,7 @@
 
 #### Req 8c: Emergency Service Pack Preparation
 **Official Requirement 8c:** Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a personal emergency service pack for a mobilization call. Explain the needs and uses of the contents to your counselor.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Checklist in The Emergency Preparedness)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Checklist in the Emergency Preparedness)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 8c preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Pack weight does not matter since emergency deployment supplies will stay in vehicles.
 - **Pamphlet Fact:** Responders frequently carry gear on foot across debris, requiring light, balanced rucksacks.
@@ -544,7 +544,7 @@
 **Official Pamphlet Summary:**
 - Airway Priority: Clearing blocked breathing passages always precedes treatment of secondary extremity fractures.
 - Hemorrhage Control: Direct pressure and arterial tourniquets stop catastrophic life-threatening blood loss quickly.
-- Shock Management: Elevating legs and conserving body heat preserves vital organ perfusion effectively.
+- Shock Management: Raising legs and conserving body heat preserves vital organ perfusion effectively.
 - Triage Classification: Sorting casualties by injury severity ensures optimal allocation of medical resources.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
@@ -597,7 +597,7 @@
 
 #### Req 10c: Preparedness Lifestyle and Hobbies
 **Official Requirement 10c:** Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Preparedness hobbies require extreme bunker construction and isolationist survival philosophies.
 - **Pamphlet Fact:** Constructive preparedness hobbies focus on community resilience, communication skills, and outdoor physical conditioning.
 

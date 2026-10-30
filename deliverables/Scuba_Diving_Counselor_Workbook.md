@@ -104,7 +104,7 @@
 
 ### Req 3: Scuba Diver Code Guidelines
 **Official Requirement 3:** Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba diver's safety.
-**Source:** *Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Discuss The Scuba Diver's)
+**Source:** *Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Discuss the Scuba Diver's)
 > **Guide to Safe Scouting Warning:** Any diver can cancel or terminate a dive at any time without fear of criticism.
 - **Common Myth:** Divers assume the code functions merely as an informal suggestion rather than safety protocol.
 - **Pamphlet Fact:** Adherence to the diver code directly prevents panic, equipment failure, and fatal out of air situations.

@@ -119,7 +119,7 @@
 
 #### Req 4a: Engineering Duties and Tools
 **Official Requirement 4a:** Discuss the work this engineer does and the tools the engineer uses.
-**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Discuss The Work This Engineer)
+**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Discuss the Work This Engineer)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Engineering Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Engineering tools are limited to manual hand tools like calipers and soldering irons.
 - **Pamphlet Fact:** Modern engineers primarily use computer aided design software, finite element simulators, and specialized diagnostic instruments.
@@ -134,7 +134,7 @@
 
 #### Req 4b: Active Project Role Examination
 **Official Requirement 4b:** Discuss with the engineer a current project and the engineer's particular role.
-**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss With The Engineer A)
+**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss with the Engineer A)
 - **Common Myth:** A lead project engineer oversees every single detailed calculation without specialized team delegation.
 - **Pamphlet Fact:** Engineers contribute as subsystem leads, materials analysts, or quality specialists within a larger structured project hierarchy.
 
@@ -148,7 +148,7 @@
 
 #### Req 4c: Engineering Methodology and Results
 **Official Requirement 4c:** Find out how the engineer's work is done and how results are achieved.
-**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Out How The Engineer's Work)
+**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Out How the Engineer's Work)
 - **Common Myth:** Engineering outcomes are proven solely through intuition and trial error without rigorous documentation.
 - **Pamphlet Fact:** Engineers validate results by comparing experimental empirical data against predictive mathematical models and established codes.
 
@@ -176,7 +176,7 @@
 
 #### Req 4e: Engineering Visit Learning Synthesis
 **Official Requirement 4e:** Discuss with your counselor what you learned about engineering from this visit.
-**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
+**Source:** *Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
 - **Common Myth:** A site visit only serves to confirm whether someone enjoys working in an office.
 - **Pamphlet Fact:** Debriefing an engineering visit highlights how technical standards, communication skills, and safety ethics intersect in practice.
 
@@ -278,7 +278,7 @@
 - **Common Myth:** A denser material always exhibits higher tensile strength and better thermal insulation.
 - **Pamphlet Fact:** Dense metals conduct heat rapidly while lightweight polymer foams and aerated wood provide superior insulation.
 
-![Intricate highway flyovers demonstrate civil engineering designed for vehicular transit.](/assets/pamphlet_images/engineering_p026_img1.png)
+![Detailed highway flyovers demonstrate civil engineering designed for vehicular transit.](/assets/pamphlet_images/engineering_p026_img1.png)
 
 | Comparison Dimension | Mechanical Motion and Material Testing | Electrical Power and Energy Conversion |
 | :--- | :--- | :--- |

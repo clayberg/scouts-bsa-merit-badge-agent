@@ -18,7 +18,7 @@
 | **4** | Req 4: United States Coin Design Features | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: American Bicentennial Reverse Coinage | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 12, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Federal Reserve Currency Identification | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 25, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: World Numismatics And Exonumia | Identify | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: World Numismatics and Exonumia | Identify | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -76,7 +76,7 @@
 
 ### Req 3: Numismatic Storage System Methods
 **Official Requirement 3:** Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method.
-**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 21, p. 55)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Collection and The Benefits Drawbacks)
+**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 21, p. 55)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Collection and the Benefits Drawbacks)
 > **Guide to Safe Scouting Warning:** Flatten all staple prongs completely using needle-nose pliers before placing cardboard flips into binder pages to prevent scratching adjacent coins.
 - **Common Myth:** Soft plastic vinyl sleeves protect coins better than stiff archival cardboard and mylar holders.
 - **Pamphlet Fact:** Mylar cardboard flips provide safe, economical storage without releasing damaging polyvinyl chloride acidic softeners.
@@ -110,7 +110,7 @@
 
 #### Req 4a: Lincoln Cent Reverse Evolutions
 **Official Requirement 4a:** Collect a one-cent coin from the year group: 1959-2008 (that is, dated between 1959 and 2008) and a one-cent coin from the year group 2010-present. Explain how and why the one-cent coins issued in 2009 were different from either of the other two year groups.
-**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (One-cent Coin From The Year)
+**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (One-cent Coin from the Year)
 - **Common Myth:** All modern Lincoln cents share identical reverse imagery since the memorial building introduction in 1959.
 - **Pamphlet Fact:** The Union Shield reverse designed by Lyndall Bass replaced Frank Gasparro Lincoln Memorial motif in 2010.
 
@@ -145,7 +145,7 @@
 
 #### Req 4c: Roosevelt Dime Clad Composition
 **Official Requirement 4c:** Collect a ten-cent coin from 1965-present.
-**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Ten-cent Coin From 1965-present)
+**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Ten-cent Coin from 1965-present)
 - **Common Myth:** Circulating ten-cent coins minted after 1964 continue to contain ninety percent pure silver metal.
 - **Pamphlet Fact:** Roosevelt dimes struck since 1965 feature a copper core bonded between copper-nickel clad outer faces.
 
@@ -159,7 +159,7 @@
 
 #### Req 4d: Commemorative Quarter Series Programs
 **Official Requirement 4d:** Collect a twenty-five-cent coin from 1965-1998, two examples from the 50-State Quarter®/territories Program 1999-2009, two designs from the America the Beautiful® program 2010-2021 and two designs from the American Women Quarter® program (2022-2024). Explain the purpose of each of those programs.
-**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Twenty-five-cent Coin From 1965-1998)
+**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Twenty-five-cent Coin from 1965-1998)
 - **Common Myth:** The reverse of the Washington quarter remained completely unchanged between 1965 and the present day.
 - **Pamphlet Fact:** Circulating quarters transitioned across multiple multi-year commemorative reverse programs starting with state designs in 1999.
 
@@ -174,7 +174,7 @@
 
 #### Req 4e: Kennedy Half Dollar Transitions
 **Official Requirement 4e:** Collect a half dollar coin from 1965-present.
-**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Half Dollar Coin From 1965-present)
+**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Half Dollar Coin from 1965-present)
 - **Common Myth:** All Kennedy half dollars struck after 1964 lack any silver precious metal content whatsoever.
 - **Pamphlet Fact:** Kennedy half dollars dated 1965 through 1970 contain forty percent silver, whereas 1971 pieces contain zero silver.
 
@@ -206,7 +206,7 @@
 
 ### Req 5: American Bicentennial Reverse Coinage
 **Official Requirement 5:** Describe and discuss with your counselor the special reverse designs of the quarters, half dollar, and dollar coin struck in 1975-1976 to honor the U. S. Bicentennial.
-**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 12, p. 36)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 12, p. 36)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Guide to Safe Scouting Warning:** Never use acidic chemical dips or jewelry cleaners on commemorative coins because stripping patina destroys numismatic value.
 - **Common Myth:** The United States Mint struck standard circulating coins with normal single-year dates during calendar year 1975.
 - **Pamphlet Fact:** All 1975 and 1976 Bicentennial quarters, half dollars, and dollars carry the dual date 1776-1976 on the obverse.
@@ -234,7 +234,7 @@
 - **Common Myth:** Every historical portrait featured on United States paper currency portrays an elected American president.
 - **Pamphlet Fact:** Alexander Hamilton and Benjamin Franklin appear on current circulating federal currency without having served as president.
 
-![Bustling historical market stalls showcase everyday trade and paper money.](/assets/pamphlet_images/coin_collecting_p025_img1.png)
+![Bustling historical market stalls display everyday trade and paper money.](/assets/pamphlet_images/coin_collecting_p025_img1.png)
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -249,7 +249,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: World Numismatics And Exonumia
+### Req 7: World Numismatics and Exonumia
 **Official Requirement 7 (Parent Overview):** Do ONE of the following: (a) Collect and identify for your counselor 20 different world coins from at least seven different countries. Identify the country, major design elements, and denomination of each. (b) Collect and identify for your counselor 20 different world paper money from at least seven different countries. Identify the country, major design elements, and denomination of each. (c) Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use of each. (d) Complete one of the following and report to your counselor what you experienced: (1) Attend a coin show (2) Attend a coin club meeting (3) Tour a U. S. Mint facility or museum (4) Tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Maintain constant awareness of your personal collection cases when attending crowded coin shows or public club meetings.
@@ -259,7 +259,7 @@
 
 **Official Pamphlet Summary:**
 - World Coin Identification: Catalogs help identify issuing nations through royal monograms, dates, and heraldic crests.
-- Foreign Banknote Security: Advanced polymer substrates incorporate intricate transparent windows resisting widespread commercial counterfeiting.
+- Foreign Banknote Security: Advanced polymer substrates incorporate detailed transparent windows resisting widespread commercial counterfeiting.
 - Exonumia Token Utility: Merchant scrip and transit tokens document local economic solutions during monetary shortages.
 - Numismatic Club Resources: Local coin gatherings connect beginner collectors with experienced mentors and research materials.
 
@@ -294,9 +294,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c: Exonumia Token And Medal
+#### Req 7c: Exonumia Token and Medal
 **Official Requirement 7c:** Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use.
-**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Tokens And/or Medals Identify The)
+**Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Tokens and/or Medals Identify the)
 - **Common Myth:** Tokens and medals hold zero historical value because they were never struck by federal mints.
 - **Pamphlet Fact:** Transportation tokens and civil war merchant store cards served vital economic exchange functions during coin shortages.
 

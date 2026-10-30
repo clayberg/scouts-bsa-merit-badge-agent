@@ -12,12 +12,12 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Score Reading And Song Performance | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Instrument Families And Acoustic Tone | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Music Appreciation And Cultural Traditions | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Music Instruction Composition And Construction | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Intellectual Property And Music Copyright | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Musical Careers And Lifelong Hobbies | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Score Reading and Song Performance | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Instrument Families and Acoustic Tone | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Music Appreciation and Cultural Traditions | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Music Instruction Composition and Construction | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Intellectual Property and Music Copyright | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Musical Careers and Lifelong Hobbies | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Music Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -30,7 +30,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Score Reading And Song Performance
+### Req 1: Score Reading and Song Performance
 **Official Requirement 1:** Sing or play a simple song or hymn chosen by your counselor, using good technique, phrasing, tone, rhythm, and dynamics. Read all the signs and terms of the score.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Simple Song or Hymn Chosen)
 > **Guide to Safe Scouting Warning:** Avoid vocal strain or embouchure fatigue by pausing immediately if throat irritation occurs.
@@ -52,7 +52,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Instrument Families And Acoustic Tone
+### Req 2: Instrument Families and Acoustic Tone
 **Official Requirement 2:** Name the five general groups of musical instruments. Create an illustration that shows how tones are generated and how instruments produce sound.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (General Groups of Musical Instruments)
 > **Guide to Safe Scouting Warning:** Hearing protection rated above twenty decibels must be worn when testing high-decibel percussion instruments.
@@ -74,7 +74,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Music Appreciation And Cultural Traditions
+### Req 3: Music Appreciation and Cultural Traditions
 **Official Requirement 3 (Parent Overview):** Do TWO of the following: (a) Attend a live performance, or listen to three hours of recordings from any two of the following musical styles: blues, jazz, classical, country, bluegrass, ethnic, gospel, musical theater, opera. Describe the sound of the music and the instruments used. Identify the composers or songwriters, the performers, and the titles of the pieces you heard. If it was a live performance, describe the setting and the reaction of the audience. Discuss your thoughts about the music. (b) Interview an adult member of your family about music. Find out what the most popular music was when he or she was your age. Find out what his or her favorite music is now, and listen to three of your relative's favorite tunes with him or her. How do those favorites sound to you? Had you ever heard any of them? Play three of your favorite songs for your relative, and explain why you like these songs. Ask what he or she thinks of your favorite music. (c) Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times. (d) List five people who are important in the history of American music and explain to your counselor why they continue to be influential. Include at least one composer, one performer, one innovator, and one person born more than 100 years ago.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Audience members must maintain awareness of venue emergency exits and avoid excessive acoustic decibel exposure.
@@ -87,7 +87,7 @@
 - Oral Tradition: Families transmit cultural heritage and historical memory across generations through shared musical preferences.
 - Pioneering Figures: Visionary composers and performers transform regional idioms into enduring American musical traditions.
 
-#### Req 3a: Genre Analysis And Live Listening
+#### Req 3a: Genre Analysis and Live Listening
 **Official Requirement 3a:** Attend a live performance, or listen to three hours of recordings from any two of the following musical styles: blues, jazz, classical, country, bluegrass, ethnic, gospel, musical theater, opera. Describe the sound of the music and the instruments used. Identify the composers or songwriters, the performers, and the titles of the pieces you heard. If it was a live performance, describe the setting and the reaction of the audience. Discuss your thoughts about the music.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Live Performance)
 - **Common Myth:** Beginners often assume all classical performances lack emotional expression due to strict sheet music.
@@ -128,7 +128,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Ensemble Participation And Solo Performance
+#### Req 3c: Ensemble Participation and Solo Performance
 **Official Requirement 3c:** Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Serve for Six Months)
 - **Common Myth:** Scouts sometimes think ensemble members only need to listen to their own individual instrument.
@@ -155,7 +155,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Music Instruction Composition And Construction
+### Req 4: Music Instruction Composition and Construction
 **Official Requirement 4 (Parent Overview):** Do ONE of the following: (a) Teach three songs to a group of people. Lead them in singing the songs, using proper hand motions. (b) Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument. (c) Make a traditional instrument and learn to play it.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Use eye protection and clamp workpieces securely when cutting, drilling, or sanding homemade instrument bodies.
@@ -165,7 +165,7 @@
 **Official Pamphlet Summary:**
 - Song Leadership: Confident downbeats and clear preparatory gestures keep vocal groups synchronized in tempo.
 - Melodic Composition: Structuring twelve measures requires balanced phrase lengths, rhythmic variety, and harmonic tonal resolution.
-- Instrument Fabrication: Selecting resonant materials like dried gourds or hardwoods ensures vibrant acoustic sound projection.
+- Instrument Fabrication: Selecting resonant materials like dried gourds or hardwoods ensures bright acoustic sound projection.
 - Standard meter patterns signal time signature, expressive dynamics, and definitive cutoffs to performers.
 
 #### Req 4a: Group Song Leadership Techniques
@@ -183,9 +183,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Score Composition And Instrumental Performance
+#### Req 4b: Score Composition and Instrumental Performance
 **Official Requirement 4b:** Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument.
-**Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Compose and Write The Score)
+**Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Compose and Write the Score)
 - **Common Myth:** New composers assume melodies can wander randomly without adhering to a key signature.
 - **Pamphlet Fact:** Cohesive musical compositions rely on tonic harmony, rhythmic motifs, and logical cadence resolution points.
 
@@ -195,7 +195,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Traditional Instrument Crafting And Playing
+#### Req 4c: Traditional Instrument Crafting and Playing
 **Official Requirement 4c:** Make a traditional instrument and learn to play.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist (Traditional Instrument and Learn)
 - **Common Myth:** Crafters often believe any box shape will naturally produce rich acoustic instrument resonance.
@@ -207,7 +207,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Intellectual Property And Music Copyright
+### Req 5: Intellectual Property and Music Copyright
 **Official Requirement 5:** Define for your counselor intellectual property (IP). Explain how to properly obtain and share recorded music.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Intellectual Property)
 > **Guide to Safe Scouting Warning:** Avoid unauthorized download sites that harbor malware, spyware, and phishing risks designed to compromise computers.
@@ -229,7 +229,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Musical Careers And Lifelong Hobbies
+### Req 6: Musical Careers and Lifelong Hobbies
 **Official Requirement 6 (Parent Overview):** Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Musicians and sound engineers must use filtered earplugs to avoid irreversible occupational noise-induced hearing loss.

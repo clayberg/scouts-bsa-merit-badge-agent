@@ -17,8 +17,8 @@
 | **3** | Req 3: Natural Habitat Mammal Field Observations | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Mammal Study Practical Field Projects | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Mammal Population Influence Habitat Project | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Mammal Study Merit Badge Pamphlet (p. 51, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Outdoor Code And Conservation Ethics | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Mammal Study Merit Badge Pamphlet (p. 44, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Mammal Science Careers And Avocations | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Outdoor Code and Conservation Ethics | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Mammal Study Merit Badge Pamphlet (p. 44, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Mammal Science Careers and Avocations | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -195,7 +195,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d: Tracking Sandpit Construction And Baiting
+#### Req 4d: Tracking Sandpit Construction and Baiting
 **Official Requirement 4d:** Make and bait a tracking pit. Report what mammals and other animals came to the bait.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Bait A Tracking Pit)
 - **Common Myth:** Tracking pits attract only mammalian predators while excluding birds and common woodland rodents.
@@ -232,7 +232,7 @@
 - **Common Myth:** Children stories or fictional novels about animals provide valid source material for this report.
 - **Pamphlet Fact:** The review must analyze an authoritative non-fiction monograph detailing verified biological science and field data.
 
-![A wild ground squirrel perches on a rock ledge showcasing rodent characteristics.](/assets/pamphlet_images/mammal_study_p019_img1.png)
+![A wild ground squirrel perches on a rock ledge displaying rodent characteristics.](/assets/pamphlet_images/mammal_study_p019_img1.png)
 
 | Req 4f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -275,7 +275,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Outdoor Code And Conservation Ethics
+### Req 6: Outdoor Code and Conservation Ethics
 **Official Requirement 6:** Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to Mammal Study. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
 > **Guide to Safe Scouting Warning:** Maintain safe viewing distances from large or cornered mammals to avoid aggressive defensive reactions.
@@ -297,7 +297,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Mammal Science Careers And Avocations
+### Req 7: Mammal Science Careers and Avocations
 **Official Requirement 7 (Parent Overview):** Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Follow laboratory biosafety protocols and field equipment procedures when shadowing wildlife biologists outdoors.

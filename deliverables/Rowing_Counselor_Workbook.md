@@ -12,15 +12,15 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Rowing Hazards And Emergency Preparedness | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Rowing Hazards and Emergency Preparedness | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Scouting America Swimmer Classification Test | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 15, p. 16) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Personal Flotation Device Selection | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rowing Merit Badge Pamphlet (p. 16, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Basic Rowing Strokes And Maneuvers | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Docking Passenger Transfers And Sculling | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Basic Rowing Strokes and Maneuvers | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Docking Passenger Transfers and Sculling | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Swamped Boat Recovery Drill | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 29, p. 83) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Rowing Rescue Of Swimmers | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Rowing Craft Materials And Oarlocks | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Rowing Physics Maintenance And Health | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Rowing Rescue of Swimmers | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Rowing Craft Materials and Oarlocks | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Rowing Physics Maintenance and Health | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -34,7 +34,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Rowing Hazards And Emergency Preparedness
+### Req 1: Rowing Hazards and Emergency Preparedness
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, including weather- and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while rowing: blisters, hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains. (c) Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to rowing activities.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Immediately head for the nearest shore and seek low-lying shelter when thunder is heard or lightning is spotted.
@@ -48,7 +48,7 @@
 - Strainers And Obstacles: River currents force small rowboats against submerged trees causing rapid swamping.
 - Blister Mitigation: Friction tape applied to tender palm pressure points prevents severe skin tears.
 
-#### Req 1a: Waterway Hazards And Weather Risks
+#### Req 1a: Waterway Hazards and Weather Risks
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, including weather- and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Rowing Hazards and First Aid)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
@@ -63,7 +63,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Rowing Injuries And Thermal Illnesses
+#### Req 1b: Rowing Injuries and Thermal Illnesses
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while rowing: blisters, hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
 - **Common Myth:** Popping large hand blisters speeds up recovery and toughens skin for subsequent rowing sessions.
@@ -143,7 +143,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Basic Rowing Strokes And Maneuvers
+### Req 4: Basic Rowing Strokes and Maneuvers
 **Official Requirement 4 (Parent Overview):** Do ONE of the following: (a) Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch. (2) Row in a straight line for 100 yards. Stop, pivot, and return to the starting point. (3) Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point. (4) Land and moor or rack your craft. (5) Tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch. (b) Participate as a rowing team member in a competitive rowing meet. The team may be sponsored by a school, club, or Scout unit. The meet must include competition between two or more teams with different sponsors. Complete at least 10 hours of team practice prior to the meet.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Look over your shoulder every few strokes to maintain situational awareness and prevent catastrophic collisions.
@@ -156,7 +156,7 @@
 - Pivot Maneuver Execution: Pull one oar forward while simultaneously pushing the opposite oar in reverse.
 - Backing Down Method: Push oar handles away from your chest to drive the boat astern.
 
-### Req 4a: Fixed Seat Maneuvering And Backing
+### Req 4a: Fixed Seat Maneuvering and Backing
 **Official Requirement 4a (Parent Overview):** Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch. (2) Row in a straight line for 100 yards. Stop, pivot, and return to the starting point. (3) Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point. (4) Land and moor or rack your craft. (5) Tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Look over your shoulder every few strokes to maintain situational awareness and prevent catastrophic collisions.
@@ -181,7 +181,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(2): Straight Line Rowing And Pivoting
+#### Req 4a(2): Straight Line Rowing and Pivoting
 **Official Requirement 4a(2):** Row in a straight line for 100 yards. Stop, pivot, and return to the starting point.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (Straight Line for Yards Stop)
 - **Common Myth:** Twisting around to look over your shoulder on every stroke is the best way to steer a rowboat in a straight line.
@@ -196,7 +196,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(3): Backwatering And Underway Turn Maneuvers
+#### Req 4a(3): Backwatering and Underway Turn Maneuvers
 **Official Requirement 4a(3):** Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Skill Demonstration Checklist):** Req 4a(3) Hands-On Skill Station & EDGE Verification Checklist (Backwater in A Straight Line)
 - **Common Myth:** Executing an underway turn requires bringing the rowboat to a dead stop and reversing one oar against the other.
@@ -211,7 +211,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(4): Rowboat Landing Mooring And Racking
+#### Req 4a(4): Rowboat Landing Mooring and Racking
 **Official Requirement 4a(4):** Land and moor or rack your craft.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a(4) Structured Technical Study & Explanation Matrix (Land and Moor or Rack)
 - **Common Myth:** Approaching a dock downwind at full speed gives the craft the maximum steerage needed for a controlled landing.
@@ -256,7 +256,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Docking Passenger Transfers And Sculling
+### Req 5: Docking Passenger Transfers and Sculling
 **Official Requirement 5 (Parent Overview):** Do ONE of the following: (a) In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull away from the pier, change positions with your passenger, and demonstrate sculling over the stern or side. Resume your rowing position, return alongside the pier, and help your passenger out of the boat. (b) In a sliding-seat rowboat, come alongside a pier and, with your buddy assisting you, get out onto the pier. Help your buddy into the boat. Reverse roles with your buddy and repeat the procedure.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Maintain physical contact with the pier until your passenger is securely seated on the thwart.
@@ -323,7 +323,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Rowing Rescue Of Swimmers
+### Req 7: Rowing Rescue of Swimmers
 **Official Requirement 7:** Alone in a rowboat, push off from the shore or a pier. Row 20 yards to a swimmer. While giving instructions to the swimmer, pivot the boat so that the swimmer can hold on to the stern. Tow the swimmer to shore.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 65, p. 79)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Alone in A Rowboat Push)
 > **Guide to Safe Scouting Warning:** Never allow a distressed swimmer to grab the oar blades or side gunwales.
@@ -347,7 +347,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Rowing Craft Materials And Oarlocks
+### Req 8: Rowing Craft Materials and Oarlocks
 **Official Requirement 8 (Parent Overview):** Describe the following: (a) Types of craft used in commercial, competitive, and recreational rowing (b) Four common boatbuilding materials. Give some positive and negative points of each (c) Types of oarlocks used in competitive and recreational rowing
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Always secure oarlock retaining pins or strings so hardware cannot dislodge in deep water.
@@ -374,7 +374,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8b: Boatbuilding Material Properties And Tradeoffs
+#### Req 8b: Boatbuilding Material Properties and Tradeoffs
 **Official Requirement 8b:** Four common boatbuilding materials. Give some positive and negative points.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Common Boatbuilding Materials Give Some)
 - **Common Myth:** Fiberglass rowboats are completely maintenance free and never suffer hull degradation from sunlight.
@@ -389,7 +389,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8c: Competitive And Recreational Oarlock Mechanisms
+#### Req 8c: Competitive and Recreational Oarlock Mechanisms
 **Official Requirement 8c:** Types of oarlocks used in competitive and recreational rowing.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Oarlocks Used in Competitive and)
 - **Common Myth:** Pinned oarlocks offer superior rowing performance because the oar cannot slide away.
@@ -403,7 +403,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Rowing Physics Maintenance And Health
+### Req 9: Rowing Physics Maintenance and Health
 **Official Requirement 9 (Parent Overview):** Discuss the following: (a) The advantage of feathering oars while rowing (b) Precautions regarding strong winds and heavy waves, and boat-handling procedures in rough water and windstorms (c) How to properly fit out and maintain a boat in season, and how to prepare and store a boat for winter (d) How to determine the proper length of oars (e) The differences between fixed-seat and sliding-seat rowing (f) The different meanings of the term sculling in fixed- and sliding-seat rowing (g) The health benefits from rowing for exercise
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Never head a small rowboat beam-to or parallel to heavy breaking windblown waves.
@@ -444,7 +444,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9c: Seasonal Boat Maintenance And Storage
+#### Req 9c: Seasonal Boat Maintenance and Storage
 **Official Requirement 9c:** How to properly fit out and maintain a boat in season, and how to prepare and store a boat for winter.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Out and Maintain A Boat)
 - **Common Myth:** Storing a rowboat right side up uncovered outdoors prevents moisture accumulation inside bilges.
@@ -486,7 +486,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9f: Dual Meanings Of Sculling Terminology
+#### Req 9f: Dual Meanings of Sculling Terminology
 **Official Requirement 9f:** The different meanings of the term sculling in fixed- and sliding-seat rowing.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Organizer (Concept & Examples Notes):** Req 9f Structured Technical Study & Explanation Matrix (Sculling in Fixed- and Sliding-seat)
 - **Common Myth:** The term sculling exclusively describes propelling a rowboat with one oar over the stern.
@@ -500,9 +500,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9g: Cardiovascular And Muscular Health Benefits
+#### Req 9g: Cardiovascular and Muscular Health Benefits
 **Official Requirement 9g:** The health benefits from rowing for exercise.
-**Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Organizer (Concept & Examples Notes):** Req 9g Structured Technical Study & Explanation Matrix (Health Benefits From Rowing for)
+**Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Organizer (Concept & Examples Notes):** Req 9g Structured Technical Study & Explanation Matrix (Health Benefits from Rowing for)
 - **Common Myth:** Rowing exercise primarily builds upper arm bicep mass while leaving leg muscles unconditioned.
 - **Pamphlet Fact:** Rowing activates over eighty percent of body musculature with sixty percent of power from legs.
 

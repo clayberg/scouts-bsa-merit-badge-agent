@@ -166,7 +166,7 @@
 
 #### Req 3c: Useful Outcome Quantification
 **Official Requirement 3c:** Identify the useful outcomes of the system.
-**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Useful Outcomes of The System)
+**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Useful Outcomes of the System)
 - **Common Myth:** Scouts often classify incidental heat output from electric motors as a useful system outcome.
 - **Pamphlet Fact:** Useful output constitutes the specific intended work delivered by a machine to its load.
 
@@ -180,7 +180,7 @@
 
 #### Req 3d: Parasitic Loss Determination
 **Official Requirement 3d:** Identify the energy losses of the system.
-**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Energy Losses of The System)
+**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Energy Losses of the System)
 - **Common Myth:** Scouts often believe friction reduction alone can eliminate total parasitic losses in engines.
 - **Pamphlet Fact:** Inherent thermodynamic entropy forces a portion of input power into degraded environmental heat.
 
@@ -300,7 +300,7 @@
 
 #### Req 6a: National Energy Supply Mix
 **Official Requirement 6a:** The energy resources that supply the United States with most of its energy.
-**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Energy Resources That Supply The)
+**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Energy Resources That Supply the)
 - **Common Myth:** Scouts often think solar and wind farms currently provide most national industrial energy.
 - **Pamphlet Fact:** Hydrocarbons, nuclear fission, and grid renewables constitute the foundational primary resources supplying domestic energy.
 
@@ -314,7 +314,7 @@
 
 #### Req 6b: Energy Import Share Analysis
 **Official Requirement 6b:** The share of energy resources used by the United States that comes from other countries.
-**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Energy Resources Used By The)
+**Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Energy Resources Used by the)
 - **Common Myth:** Scouts often assume the nation imports one hundred percent of its transportation petroleum.
 - **Pamphlet Fact:** Domestic crude oil production and international petroleum imports fluctuate based on global trade economics.
 

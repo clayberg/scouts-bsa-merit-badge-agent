@@ -204,7 +204,7 @@
 - **Common Myth:** New painters often believe oil paints dry quickly through liquid evaporation like water-based paints.
 - **Pamphlet Fact:** Oil paint cures slowly through chemical oxidation over weeks or months rather than simple solvent evaporation.
 
-![A vibrant collection of circular sewing buttons demonstrates repetition, variety, and color rhythm.](/assets/pamphlet_images/art_p023_img1.png)
+![A bright collection of circular sewing buttons demonstrates repetition, variety, and color rhythm.](/assets/pamphlet_images/art_p023_img1.png)
 
 | Req 4e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -232,7 +232,7 @@
 - **Common Myth:** Beginners frequently assume dried acrylic paint can be easily reworked by spraying water onto the canvas.
 - **Pamphlet Fact:** Acrylic paint polymerizes permanently once dry and cannot be reactivated or re-blended with water.
 
-![Colorful geometric stained glass panels demonstrate vibrant hue contrasts, geometric shapes, and symmetry.](/assets/pamphlet_images/art_p024_img1.png)
+![Colorful geometric stained glass panels demonstrate bright hue contrasts, geometric shapes, and symmetry.](/assets/pamphlet_images/art_p024_img1.png)
 
 | Req 4g Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -246,7 +246,7 @@
 - **Common Myth:** Students often think vine charcoal creates permanent dark lines that resist smudging or accidental erasure.
 - **Pamphlet Fact:** Vine charcoal wipes away easily and is intended for preliminary sketching, whereas compressed charcoal yields dark, indelible marks.
 
-![Painted red-crowned cranes showcase delicate brush line work, negative space, and organic shapes.](/assets/pamphlet_images/art_p024_img2.png)
+![Painted red-crowned cranes display delicate brush line work, negative space, and organic shapes.](/assets/pamphlet_images/art_p024_img2.png)
 
 | Req 4h Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -315,7 +315,7 @@
 
 #### Req 5b: Visual Narrative Storytelling
 **Official Requirement 5b:** Tell a story with a picture or pictures or using a 3-D rendering.
-**Source:** *Official Scouting America Art Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Story With A Picture or)
+**Source:** *Official Scouting America Art Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Story with A Picture or)
 - **Common Myth:** Beginners often believe visual stories require identical camera angles across every sequential scene.
 - **Pamphlet Fact:** Varying viewpoints from wide establishing shots to intense close-ups creates dramatic pacing in visual narratives.
 
@@ -331,7 +331,7 @@
 **Official Requirement 5c:** Design a logo. Share your design with your counselor and explain the significance of your logo. Then, with your parent or guardian's permission and your counselor's approval, put your logo on Scout equipment, furniture, ceramics, or fabric.
 **Source:** *Official Scouting America Art Merit Badge Pamphlet (p. 56, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Logo Significance Logo Then)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Art Req 5c preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Students sometimes think a successful logo must contain intricate, photographic illustrations with numerous colors.
+- **Common Myth:** Students sometimes think a successful logo must contain detailed, photographic illustrations with numerous colors.
 - **Pamphlet Fact:** The most effective logos use simplified geometric silhouettes that remain legible at tiny sizes in single-color printing.
 
 ![A studio easel set up with paints, solvent, and canvas illustrates essential tools for acrylic and oil painting.](/assets/pamphlet_images/art_p039_img1.png)

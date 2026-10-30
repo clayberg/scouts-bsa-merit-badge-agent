@@ -13,13 +13,13 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Chemical Safety Data Analysis | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Antiseptic Chemistry And Sanitation | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Antiseptic Chemistry and Sanitation | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Culinary Chemical Reaction Analysis | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 15, p. 17) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Outdoor Chemistry And Combustion | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Outdoor Chemistry and Combustion | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Sustainable Materials Life Cycle | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 52, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Foundational Chemistry Subdisciplines Overview | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 9, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Chemical Regulatory Agencies Oversight | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 17, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Chemical Professions And Facilities | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Chemical Professions and Facilities | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -96,11 +96,11 @@
 
 #### Req 1d: Safe Chemical Storage Strategies
 **Official Requirement 1d:** Discuss the safe storage of chemicals. How does the safe storage of chemicals apply to your home, school, community, and the environment.
-**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Discuss The Safe Storage of)
+**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Discuss the Safe Storage of)
 - **Common Myth:** Storing household cleaning agents together alphabetically inside one utility closet is completely safe.
 - **Pamphlet Fact:** Mixing incompatible oxidizers like bleach with ammonia produces lethal chloramine gas clouds instantaneously.
 
-![Modern ice skates showcase advanced polymers and treated steel engineered for friction.](/assets/pamphlet_images/chemistry_p017_img2.png)
+![Modern ice skates display advanced polymers and treated steel engineered for friction.](/assets/pamphlet_images/chemistry_p017_img2.png)
 
 | Req 1d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -109,7 +109,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Antiseptic Chemistry And Sanitation
+### Req 2: Antiseptic Chemistry and Sanitation
 **Official Requirement 2 (Parent Overview):** Chemistry and First Aid. After successfully completing requirement 1, do the following: (a) Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor. (b) Coat your hands with a mixture of cooking oil and a nontoxic powder, such as sand or cocoa. Wash your hands with water and observe what happens. Coat your hands again, then wash with soap and water. Discuss the differences with your counselor. (c) Perform an experiment to demonstrate how rubbing alcohol affects microbial growth using baker's yeast. Discuss the results with your counselor. Resource: Watching How Alcohol Kills Virus and Bacteria Under a Microscope (video)
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Keep rubbing alcohol away from open flames, heat sources, eyes, and broken mucous membranes.
@@ -124,7 +124,7 @@
 
 #### Req 2a: Antiseptic Action Hypothesis Formulation
 **Official Requirement 2a:** Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor.
-**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Why)
+**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Why)
 - **Common Myth:** Stinging sensations prove that an antiseptic solution is effectively eradicating infectious bacterial contamination.
 - **Pamphlet Fact:** Pain stems from chemical irritation of exposed nerve endings rather than the antiseptic eradication process.
 
@@ -139,7 +139,7 @@
 
 #### Req 2b: Soap Emulsification Washing Demonstration
 **Official Requirement 2b:** Coat your hands with a mixture of cooking oil and a nontoxic powder, such as sand or cocoa. Wash your hands with water and observe what happens. Coat your hands again, then wash with soap and water. Discuss the differences with your counselor.
-**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Coat Your Hands With A)
+**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix (Coat Your Hands with A)
 - **Common Myth:** Hot running water alone can strip vegetable oil completely from human skin without soap.
 - **Pamphlet Fact:** Surfactant molecules are chemically necessary to emulsify nonpolar oils into water soluble micelle structures.
 
@@ -213,7 +213,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Outdoor Chemistry And Combustion
+### Req 4: Outdoor Chemistry and Combustion
 **Official Requirement 4 (Parent Overview):** Chemistry and Camping. After successfully completing requirement 1, do TWO of the following: (a) Design and conduct an experiment to compare at least two different types of waterproofing. Discuss with your counselor which one you would prefer to use on your tent and which one you would prefer to use on your boots, and why. (b) Describe the four classes of fires, and the four classes of fire extinguishers. Discuss with your counselor how sand, baking soda, and the four classes of extinguishers work to put out fires. (c) Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, conduct flame tests of at least five elements using a kitchen or propane torch. (d) Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, synthesize nylon (may be from a kit).
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Perform flame tests and polymer syntheses only under adult supervision with indirect vent safety goggles.
@@ -241,7 +241,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Combustion Classes And Extinguishing
+#### Req 4b: Combustion Classes and Extinguishing
 **Official Requirement 4b:** Describe the four classes of fires, and the four classes of fire extinguishers. Discuss with your counselor how sand, baking soda, and the four classes of extinguishers work to put out fires.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Classes of Fires)
 - **Common Myth:** Carbon dioxide fire extinguishers operate primarily by freezing the fuel source down below ignition.
@@ -258,7 +258,7 @@
 
 #### Req 4c: Atomic Emission Flame Testing
 **Official Requirement 4c:** Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, conduct flame tests of at least five elements using a kitchen or propane torch.
-**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Supervision And/or The Supervision)
+**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Supervision and/or the Supervision)
 - **Common Myth:** The flame color changes because the metal itself is undergoing rapid chemical oxidation reactions.
 - **Pamphlet Fact:** Excited atomic electrons emit characteristic light as they fall back to ground energy states.
 
@@ -272,7 +272,7 @@
 
 #### Req 4d: Interfacial Nylon Polymerization Synthesis
 **Official Requirement 4d:** Under your counselor's supervision and/or the supervision of a knowledgeable adult approved in advance by your counselor, synthesize nylon (may be from a kit)
-**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Supervision And/or The Supervision)
+**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 21, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Supervision and/or the Supervision)
 - **Common Myth:** Nylon forms because two liquids mix together into one uniform solid chemical gel mass.
 - **Pamphlet Fact:** Polymerization occurs exclusively at the liquid interface boundary where the immiscible solutions make contact.
 
@@ -312,7 +312,7 @@
 - **Common Myth:** People often believe organic chemistry strictly refers to pesticide free natural foods and farming.
 - **Pamphlet Fact:** Organic chemistry is the formal scientific study of all carbon-containing molecules and synthetic compounds.
 
-![Iridescent soap bubbles showcase surface tension and molecular surfactant properties.](/assets/pamphlet_images/chemistry_p009_img1.png)
+![Iridescent soap bubbles display surface tension and molecular surfactant properties.](/assets/pamphlet_images/chemistry_p009_img1.png)
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -348,7 +348,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Chemical Professions And Facilities
+### Req 8: Chemical Professions and Facilities
 **Official Requirement 8 (Parent Overview):** Do ONE of the following: (a) Visit a research laboratory, and discuss the research performed there with a chemist or chemical technician. Learn what education and training they received. (b) Visit a company or plant that makes chemical products or uses chemical processes. Learn about their products or processes, and talk with someone who works there. Learn what they do, and what education and training they received. (c) Identify three career opportunities that would use skills and knowledge in chemistry. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Adhere to all facility visitor safety guidelines including mandatory safety glasses, steel-toed footwear, and escorts.
@@ -363,7 +363,7 @@
 
 #### Req 8a: Research Laboratory Facility Tour
 **Official Requirement 8a:** Visit a research laboratory, and discuss the research performed there with a chemist or chemical technician. Learn what education and training they received.
-**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Laboratory and Discuss The Research)
+**Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 93, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Laboratory and Discuss the Research)
 - **Common Myth:** Research chemists spend most of their workday performing explosive reactions in glass beakers.
 - **Pamphlet Fact:** Modern research centers on computational modeling, meticulous spectroscopic characterization, and careful data analysis.
 

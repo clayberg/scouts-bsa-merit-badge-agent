@@ -12,14 +12,14 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Fish And Wildlife Conservation Principles | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Fish and Wildlife Conservation Principles | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: State Wildlife Population Threat Assessment | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Public Wildlife Stewardship Action Pathways | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: State Wildlife Habitat Management Practices | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Wildlife Habitat Enhancement Project Options | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Wildlife Observation And Species Classification | List | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Wildlife Observation and Species Classification | List | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Fisheries Science Investigation Methods | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Fish And Wildlife Professional Careers | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Fish and Wildlife Professional Careers | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -31,7 +31,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Fish And Wildlife Conservation Principles
+### Req 1: Fish and Wildlife Conservation Principles
 **Official Requirement 1:** Describe the meaning and purposes of fish and wildlife conservation and management.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Fish and Wildlife Conservation and)
 > **Guide to Safe Scouting Warning:** Carry navigation aids and potable water when conducting field evaluations in remote game lands.
@@ -75,7 +75,7 @@
 
 ### Req 3: Public Wildlife Stewardship Action Pathways
 **Official Requirement 3:** Describe some ways in which everyone can help with fish and wildlife conservation.
-**Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Everyone Can Help With Fish)
+**Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Everyone Can Help with Fish)
 > **Guide to Safe Scouting Warning:** Wear heavy leather gloves and eye protection when cleaning litter and metal debris from riparian corridors.
 - **Common Myth:** Public wildlife management receives all of its operational funding from general federal income taxes.
 - **Pamphlet Fact:** Hunting and fishing licenses combined with excise taxes on sporting equipment fund state conservation agencies.
@@ -156,7 +156,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Aquatic Or Terrestrial Habitat Enhancement
+#### Req 5c: Aquatic or Terrestrial Habitat Enhancement
 **Official Requirement 5c:** Develop and implement a fishery improvement project or a backyard wildlife habitat improvement project. Share the results with your counselor.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Develop and Implement A Fishery)
 - **Common Myth:** Dumping random yard debris in a heap creates ideal habitat for all local small mammals.
@@ -171,7 +171,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d: Wildlife Blind Construction And Observation
+#### Req 5d: Wildlife Blind Construction and Observation
 **Official Requirement 5d:** Design and construct a wildlife blind near a game trail, water hole, salt lick, bird feeder, or birdbath and take good photographs or make sketches from the blind of any combination of 10 wild birds, mammals, reptiles, or amphibians.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 5d Hands-On Skill Station & EDGE Verification Checklist (Wildlife Blind Near A Game)
 - **Common Myth:** Wildlife blinds must be built with artificial camouflage tarps regardless of surrounding natural brush.
@@ -195,7 +195,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Wildlife Observation And Species Classification
+### Req 6: Wildlife Observation and Species Classification
 **Official Requirement 6 (Parent Overview):** Do ONE of the following: (a) Observe and record 25 species of wildlife. Your list may include mammals, birds, reptiles, amphibians, and fish. Write down when and where each animal was seen. (b) List the wildlife species in your state that are classified as endangered, threatened, exotic, non-native, game species, furbearers, or migratory game birds. Discuss with your counselor management practices in place or being developed for at least three of these species. (c) Start a scrapbook of North American fish and wildlife. Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish. Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them in your notebook accordingly. Articles and pictures may be taken from newspapers or science, nature, and outdoor magazines, or from other sources including the internet (with your parent or guardian's permission). Enter at least five articles on mammals, five on birds, five on reptiles, five on amphibians, and five on fish. Put each animal on a separate sheet in alphabetical order. Include pictures whenever possible.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Activity & Observation Log
 > **Guide to Safe Scouting Warning:** Maintain safe viewing distances using binoculars to avoid provoking defensive attacks from wild animals.
@@ -301,7 +301,7 @@
 
 #### Req 7c: Fish Stomach Content Trophic Analysis
 **Official Requirement 7c:** Examine the stomach contents of three fish and record the findings. It is not necessary to catch any fish for this option.
-**Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Activity & Observation Log):** Req 7c Quantitative Field Observation & Activity Log (Examine The Stomach Contents)
+**Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Activity & Observation Log):** Req 7c Quantitative Field Observation & Activity Log (Examine the Stomach Contents)
 - **Common Myth:** Predatory game fish consume only smaller fish rather than insects and freshwater invertebrates.
 - **Pamphlet Fact:** Bass, trout, and panfish rely heavily on aquatic macroinvertebrates, terrestrial insects, and micro-crustaceans.
 
@@ -327,7 +327,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Fish And Wildlife Professional Careers
+### Req 8: Fish and Wildlife Professional Careers
 **Official Requirement 8:** Identify three career opportunities that would use skills and knowledge by fish and wildlife professionals. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6)* • **Organizer (Career & Profession Exploration Card):** Req 8 Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Follow laboratory biosafety level protocols when analyzing biological tissue samples and chemical water reagents.

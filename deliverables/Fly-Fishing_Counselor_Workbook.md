@@ -67,7 +67,7 @@
 
 #### Req 1b: Angler Medical Concern Management
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fly-fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
-**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
+**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
 - **Common Myth:** Drinking clear mountain creek water directly from the stream is completely safe while wading.
 - **Pamphlet Fact:** Untreated surface stream water often carries Giardia lamblia cysts that cause severe gastrointestinal illness.
 
@@ -131,7 +131,7 @@
 
 #### Req 3a: Arbor Knot Spool Attachment
 **Official Requirement 3a:** Tie backing to the arbor of a fly reel spool using an arbor knot.
-**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Backing to The Arbor)
+**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Backing to the Arbor)
 - **Common Myth:** Tying backing to a reel spool with a single loose overhand loop prevents spinning.
 - **Pamphlet Fact:** Smooth metal spools require a sliding jam knot to prevent the entire spool bundle from spinning.
 
@@ -149,9 +149,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Backing To Line Connection
+#### Req 3b: Backing to Line Connection
 **Official Requirement 3b:** Tie backing to the fly line using a nail (tube) knot.
-**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Backing to The Fly Line)
+**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Backing to the Fly Line)
 - **Common Myth:** Looping bulky overhand knots between backing and fly line travels smoothly through narrow guides.
 - **Pamphlet Fact:** Bulky knots catch on rod guides during blistering fish runs, breaking light leaders instantly.
 
@@ -193,7 +193,7 @@
 
 #### Req 3e: Terminal Fly Attachment Knots
 **Official Requirement 3e:** Tie a fly onto the terminal end of the leader using an improved clinch knot.
-**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Onto The Terminal End)
+**Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Onto the Terminal End)
 - **Common Myth:** Standard clinch knots without the final tag tuck never slip under strong trout strikes.
 - **Pamphlet Fact:** Without the final tag loop lock, slick monofilament pulls through hook eyes under sudden load.
 

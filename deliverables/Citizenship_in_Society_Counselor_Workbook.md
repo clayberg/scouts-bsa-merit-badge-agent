@@ -88,7 +88,7 @@
 
 #### Req 2b: Evaluation of Ethical Leadership Outcomes
 **Official Requirement 2b:** Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action.
-**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Decision And/or Options That Leader)
+**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Decision and/or Options That Leader)
 - **Common Myth:** A correct ethical decision always produces an immediate outcome that pleases every participant.
 - **Pamphlet Fact:** Unintended negative outcomes can still follow ethically sound decisions made in complex social environments.
 
@@ -167,7 +167,7 @@
 
 #### Req 4a: Campfire Conflict and Disability Slurs
 **Official Requirement 4a:** Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/should.
-**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Scenario While At Camp A)
+**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Scenario While at Camp A)
 - **Common Myth:** Offensive words spoken in momentary anger can be dismissed as harmless emotional venting.
 - **Pamphlet Fact:** Slurs targeting people with disabilities inflict serious emotional harm and violate the Scout Law.
 
@@ -221,7 +221,7 @@
 - Proactive Hospitality: Welcoming environments require intentional orientation, consistent friendliness, and clear explanations of troop customs.
 - Intentional Outreach: Going out of your way to invite isolated individuals builds lifelong patrol unity.
 - Equitable Voice: Structured meeting agendas ensure younger and quieter Scouts speak without fear of interruption.
-- Involving every member in trip planning fosters authentic ownership and long term retention.
+- Involving every member in trip planning builds authentic ownership and long term retention.
 
 #### Req 5a: Troop Welcoming Environment Development Ideas
 **Official Requirement 5a:** Ideas on what you personally can do to create a welcoming environment in your Scouting unit.
@@ -229,7 +229,7 @@
 - **Common Myth:** A welcoming environment emerges naturally without any deliberate structural planning by patrol leaders.
 - **Pamphlet Fact:** Creating a welcoming unit culture requires deliberate outreach, mentorship systems, and continuous peer encouragement.
 
-![Scouts take notes, assist community neighbors, and complete service projects to foster mutual respect.](/assets/ai_illustrations/citizenship_in_society_req_5_topic_visual.png)
+![Scouts take notes, assist community neighbors, and complete service projects to build mutual respect.](/assets/ai_illustrations/citizenship_in_society_req_5_topic_visual.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -338,7 +338,7 @@
 
 #### Req 6c: Counselor Debrief on Peer Dialogue
 **Official Requirement 6c:** Discuss with your counselor what you learned from the discussion with the other Scout or youth.
-**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
+**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
 - **Common Myth:** A brief conversation with someone different cannot alter a person lifelong outlook or habits.
 - **Pamphlet Fact:** Intentional listening across cultural lines breaks down inherited stereotypes and builds inclusive community habits.
 
@@ -363,7 +363,7 @@
 
 #### Req 7a: Advocate Inspiration and Obstacle Analysis
 **Official Requirement 7a:** Discover what inspired the individual, learn about the challenges they faced, and share what you feel attributed to their success.
-**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Discover What Inspired The Individual)
+**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Discover What Inspired the Individual)
 - **Common Myth:** Successful community advocates never face significant opposition or moments of discouragement in their work.
 - **Pamphlet Fact:** Social progress requires persistent dedication through setbacks, public criticism, and slow institutional reform.
 
@@ -377,7 +377,7 @@
 
 #### Req 7b: Practical Application of Community Insights
 **Official Requirement 7b:** Discuss with your counselor what you learned and how you can apply it in your life.
-**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
+**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
 - **Common Myth:** Civil advocacy techniques only apply to professional politicians rather than ordinary student leaders.
 - **Pamphlet Fact:** Leadership principles from adult community organizers translate directly into everyday youth patrol dynamics.
 
@@ -405,8 +405,8 @@
 | **2. Describe to your counselor the event and what you learned** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Historical Turning: Major civil rights events transform public consciousness and foster widespread empathy toward marginalized groups.
-- Legislative Milestones: Groundbreaking laws provide enforceable protections while signaling that discrimination is no longer acceptable.
+- Historical Turning: Major civil rights events transform public consciousness and build widespread empathy toward marginalized groups.
+- Legislative Milestones: Pioneering laws provide enforceable protections while signaling that discrimination is no longer acceptable.
 - Community Welcome: Cultural shifts enable previously excluded populations to participate fully in education and civic life.
 - Civic Reflection: Studying historical progress inspires youth to sustain inclusive values in their current communities.
 
@@ -491,7 +491,7 @@
 
 ### Req 10: Dismantling Stereotypes and Bias
 **Official Requirement 10:** Discuss with your counselor how stereotyping people can be harmful, and how stereotypes can lead to prejudice and discrimination. Share ideas you have for challenging assumptions and celebrating individuality.
-**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 58-63* • **Organizer (Concept & Examples Notes):** Req 10 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor How)
+**Source:** *Official BSA Citizenship in Society Pamphlet, pp. 58-63* • **Organizer (Concept & Examples Notes):** Req 10 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)
 > **Guide to Safe Scouting Warning:** Address prejudiced remarks calmly without escalating arguments, maintaining a safe and respectful conversational space.
 - **Common Myth:** Positive stereotypes are harmless because they express favorable assumptions about an entire group of people.
 - **Pamphlet Fact:** Stereotypes dehumanize individuals by erasing their unique attributes, often hardening into institutional discrimination.

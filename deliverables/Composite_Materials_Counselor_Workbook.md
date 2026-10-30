@@ -321,7 +321,7 @@
 - **Common Myth:** Composite engineering positions require no formal post-secondary mathematics, physics, or chemistry university coursework.
 - **Pamphlet Fact:** Aerospace composite tooling engineers often hold degrees in mechanical engineering or specialized materials science.
 
-![SpaceShipOne showcases advanced carbon composite engineering in aerospace craft.](/assets/pamphlet_images/composite_materials_p072_img1.png)
+![SpaceShipOne displays advanced carbon composite engineering in aerospace craft.](/assets/pamphlet_images/composite_materials_p072_img1.png)
 
 | Career Research Dimension | Pamphlet & Industry Findings | Professional Interview / Source Notes |
 | :--- | :--- | :--- |

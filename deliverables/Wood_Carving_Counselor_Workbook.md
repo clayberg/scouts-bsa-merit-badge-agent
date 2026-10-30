@@ -12,13 +12,13 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Carving Hazards And First Aid | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Totin Chip And Safety Rules | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Carving Tools And Sharpening Devices | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Carving Hazards and First Aid | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Totin Chip and Safety Rules | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Carving Tools and Sharpening Devices | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Fundamental Wood Carving Cuts | Show | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Wood Species Selection Criteria | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 29, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Carving In The Round | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 42, p. 44) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Relief And Chip Carving | Complete | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 55, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Carving in the Round | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 42, p. 44) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Relief and Chip Carving | Complete | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Wood Carving Merit Badge Pamphlet (p. 55, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -31,7 +31,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Carving Hazards And First Aid
+### Req 1: Carving Hazards and First Aid
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards. (b) Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never carve toward your body or toward fingers supporting the wooden workpiece.
@@ -72,7 +72,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Totin Chip And Safety Rules
+### Req 2: Totin Chip and Safety Rules
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Earn the Totin' Chip recognition. (b) Discuss with your counselor your understanding of the Safety Checklist for Carving.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never carve while standing or walking, and never leave open blades resting on benches.
@@ -87,7 +87,7 @@
 
 #### Req 2a: Totin Chip Certification Requirements
 **Official Requirement 2a:** Earn the Totin' Chip recognition.
-**Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Earn The Totin' Chip Recognition)
+**Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Earn the Totin' Chip Recognition)
 - **Common Myth:** Carrying a pocketknife at Scout camp is permitted without earning the Totin Chip.
 - **Pamphlet Fact:** Scouts must earn the Totin Chip before carrying or using pocketknives at camp.
 
@@ -107,7 +107,7 @@
 
 #### Req 2b: Carving Safety Checklist Review
 **Official Requirement 2b:** Discuss with your counselor your understanding of the Safety Checklist for Carving.
-**Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Your)
+**Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)
 - **Common Myth:** Carving while sitting cross-legged on the ground provides adequate cutting stability.
 - **Pamphlet Fact:** Carving on the ground restricts arm mobility and places exposed legs directly in slip paths.
 
@@ -119,7 +119,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Carving Tools And Sharpening Devices
+### Req 3: Carving Tools and Sharpening Devices
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project. (b) Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Keep sharpening strokes trailing away from fingers and never test sharpness by dragging skin across edges.
@@ -132,9 +132,9 @@
 - Whetstone Lubrication: Water or light mineral oil floats away steel swarf during blade edge sharpening.
 - Stropping on leather charged with chromium oxide polishes the micro bevel razor sharp.
 
-#### Req 3a: Carving Tool Care And Use
+#### Req 3a: Carving Tool Care and Use
 **Official Requirement 3a:** Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project.
-**Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Orally or in Writing The)
+**Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Orally or in Writing the)
 - **Common Myth:** Storing carving gouges together loose in a tool box preserves cutting bevels.
 - **Pamphlet Fact:** Loose steel edges collide and chip, ruining hours of careful blade hone work.
 
@@ -146,7 +146,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Sharpening Device Maintenance And Operation
+#### Req 3b: Sharpening Device Maintenance and Operation
 **Official Requirement 3b:** Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Care for and Use Several)
 - **Common Myth:** High speed motorized grinding wheels sharpen delicate wood carving gouges safely and effectively.
@@ -193,7 +193,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Basic And Push Cuts
+#### Req 4b: Basic and Push Cuts
 **Official Requirement 4b:** Basic cut and push cut.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Basic Cut and Push Cut)
 - **Common Myth:** Push cuts require locking elbows and pushing with full body weight behind the blade.
@@ -257,7 +257,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Carving In The Round
+### Req 6: Carving in the Round
 **Official Requirement 6:** Plan your own or select a project from the Wood Carving merit badge pamphlet and complete a simple carving in the round.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 42, p. 44)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Own or Select A Project)
 > **Guide to Safe Scouting Warning:** Keep the non-dominant hand behind the cutting edge when rotating three-dimensional workpieces.
@@ -278,7 +278,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Relief And Chip Carving
+### Req 7: Relief and Chip Carving
 **Official Requirement 7:** Complete a simple low-relief OR a chip carving project.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 55, p. 56)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Simple Low-relief OR A Chip)
 > **Guide to Safe Scouting Warning:** Always clamp relief boards to the workbench so both hands remain behind the cutting chisel.

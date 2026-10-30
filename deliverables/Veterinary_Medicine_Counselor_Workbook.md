@@ -14,7 +14,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Clinical Veterinary Practice Sectors | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Nonclinical Veterinary Public Health | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Veterinary Education And Prerequisites | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 24, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Veterinary Education and Prerequisites | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 24, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Veterinary Technician Professional Credentials | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 39) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Veterinary Human Animal Bond | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 41, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Veterinary Facility Clinical Observation | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 16, p. 30) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -43,7 +43,7 @@
 - Food Animal Production: Livestock veterinarians maintain herd health, implement biosecurity plans, and prevent herd epidemics.
 - Aquaculture Biosecurity Monitoring: Aquatic veterinary specialists diagnose parasitic skin infestations and monitor recirculating water parameters.
 
-#### Req 1a: Companion And Equine Medicine
+#### Req 1a: Companion and Equine Medicine
 **Official Requirement 1a:** Companion or small animal medicine, and equine medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Companion or Small Animal Medicine)
 - **Common Myth:** Equine veterinarians use identical surgical tools and anesthesia protocols as small animal veterinary clinics.
@@ -85,7 +85,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Marine Mammal And Fish Medicine
+#### Req 1d: Marine Mammal and Fish Medicine
 **Official Requirement 1d:** Marine animal medicine (mammal and fish)
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Marine Animal Medicine Mammal and)
 - **Common Myth:** Marine animal veterinarians only administer medical care to stranded whales and seals on beaches.
@@ -113,7 +113,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1f: Wildlife And Aquaculture Medicine
+#### Req 1f: Wildlife and Aquaculture Medicine
 **Official Requirement 1f:** Wildlife medicine and aquaculture medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Wildlife Medicine and Aquaculture Medicine)
 - **Common Myth:** Wildlife veterinarians and aquaculture specialists rely exclusively on tranquilizer darts for all medical interventions.
@@ -196,7 +196,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2e: Veterinary Education And Governance
+#### Req 2e: Veterinary Education and Governance
 **Official Requirement 2e:** Teaching and government.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Teaching and Government)
 - **Common Myth:** Government veterinarians work exclusively as classroom teachers without managing real agricultural or regulatory emergencies.
@@ -210,7 +210,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Veterinary Education And Prerequisites
+### Req 3: Veterinary Education and Prerequisites
 **Official Requirement 3:** Describe the training required to become a veterinarian. Where is the veterinary medical college in your state or nearest to you? Describe the prerequisites for applying to veterinary school.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 24, p. 35)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Training Required to Become A)
 > **Guide to Safe Scouting Warning:** Follow chemical hygiene plans and wear chemical splash goggles when handling formalin-preserved anatomy specimens in university laboratories.
@@ -260,7 +260,7 @@
 
 ### Req 5: Veterinary Human Animal Bond
 **Official Requirement 5:** Discuss with your counselor the role a veterinarian plays in the human-animal bond.
-**Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 41, p. 43)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Guide to Safe Scouting Warning:** Utilize low-stress feline and canine restraint methods including towel wraps and calming pheromones to prevent fearful bites.
 - **Common Myth:** The human-animal bond is purely emotional and holds zero clinical significance during veterinary medical treatment.
 - **Pamphlet Fact:** Veterinarians actively preserve the human-animal bond by treating companion animal illnesses and guiding families through difficult end-of-life decisions.
@@ -368,7 +368,7 @@
 
 #### Req 7c: Veterinary Profession Daily Challenges
 **Official Requirement 7c:** What would be the biggest challenges in doing this job.
-**Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Would Be The Biggest Challenges)
+**Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Would Be the Biggest Challenges)
 - **Common Myth:** The primary difficulty in veterinary medicine is simply memorizing pharmaceutical names and anatomy terms.
 - **Pamphlet Fact:** Veterinary medicine carries significant emotional burdens including client grief, difficult financial constraints, and physical strain.
 
@@ -382,7 +382,7 @@
 
 #### Req 7d: Surprising Professional Career Aspects
 **Official Requirement 7d:** What to you has been the most surprising aspect of this job.
-**Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (You Has Been The Most)
+**Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (You Has Been the Most)
 - **Common Myth:** Veterinarians work almost entirely in isolation with animals without needing human interpersonal skills.
 - **Pamphlet Fact:** Veterinarians spend substantial daily time educating human clients, managing business operations, and directing clinic staff.
 

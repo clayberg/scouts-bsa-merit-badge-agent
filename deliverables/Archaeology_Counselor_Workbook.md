@@ -43,7 +43,7 @@
 - **Common Myth:** Archaeologists spend their careers digging up dinosaur skeletons alongside ancient human stone spearheads.
 - **Pamphlet Fact:** Dinosaurs went extinct millions of years before humans appeared, so archaeology only investigates past human societies and their material culture.
 
-![Panels showcase transit surveying, stratigraphic pit digging, laboratory cleaning of artifacts, and precise field journal recordkeeping.](/assets/ai_illustrations/archaeology_req_1_nano_hero.png)
+![Panels display transit surveying, stratigraphic pit digging, laboratory cleaning of artifacts, and precise field journal recordkeeping.](/assets/ai_illustrations/archaeology_req_1_nano_hero.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -81,7 +81,7 @@
 
 ### Req 3: Archaeological Chronology and Dating Methods
 **Official Requirement 3:** Describe at least two ways in which archaeologists determine the age of sites, structures, or artifacts. Explain what absolute dating and relative dating are.
-**Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Archaeologists Determine The Age of)
+**Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 52, p. 88)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Archaeologists Determine the Age of)
 > **Guide to Safe Scouting Warning:** Use clean tweezers and avoid touching organic samples with bare fingers to prevent chemical contamination.
 - **Common Myth:** Carbon-14 testing can determine the exact construction year of stone projectile points and metal swords.
 - **Pamphlet Fact:** Radiocarbon dating measures the radioactive decay of carbon in organic materials like wood, bone, and charcoal, not inorganic stone or metal.
@@ -168,7 +168,7 @@
 
 #### Req 5a: Federal and Local Preservation Laws
 **Official Requirement 5a:** Learn about the federal laws and international conventions that protect archaeological sites. Find out if your state, county, or local government has regulations that apply to archaeological or historic sites.
-**Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About The Federal Laws)
+**Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Learn About the Federal Laws)
 - **Common Myth:** State preservation laws are identical to federal statutes and apply identically to private backyard property.
 - **Pamphlet Fact:** Most state laws govern state and municipal land, but many states have separate strict statutes protecting all unmarked burials everywhere.
 
@@ -271,7 +271,7 @@
 #### Req 7a: Museum Artifact Narrative Analysis
 **Official Requirement 7a:** Visit a museum to observe how artifacts aid in conveying history.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Museum to Observe How Artifacts)
-- **Common Myth:** Museum displays showcase artifacts solely because they are beautiful artistic masterpieces.
+- **Common Myth:** Museum displays display artifacts solely because they are beautiful artistic masterpieces.
 - **Pamphlet Fact:** Archaeological museum exhibits are organized to explain cultural patterns, economic systems, and historical events through everyday objects.
 
 ![Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.](/assets/pamphlet_images/archaeology_p040_img1.png)
@@ -302,7 +302,7 @@
 - **Common Myth:** People generate trash that perfectly matches what they claim they buy and consume on written surveys.
 - **Pamphlet Fact:** Landmark garbology research proves people consistently underestimate their food waste and unhealthy consumption when self-reporting.
 
-![Uniformed Scouts examine excavated stone tools and artifacts displayed inside a museum showcase.](/assets/pamphlet_images/archaeology_p028_img1.png)
+![Uniformed Scouts examine excavated stone tools and artifacts displayed inside a museum display.](/assets/pamphlet_images/archaeology_p028_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

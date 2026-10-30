@@ -127,7 +127,7 @@
 
 #### Req 2a(3): Ice Skate Anatomy and Construction
 **Official Requirement 2a(3):** Discuss the parts and functions of the different types of ice skates.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(3) Structured Technical Study & Explanation Matrix (Discuss The Parts and Functions)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(3) Structured Technical Study & Explanation Matrix (Discuss the Parts and Functions)
 - **Common Myth:** Figure skate blades and hockey skate blades share the same basic curve along the ice.
 - **Pamphlet Fact:** Figure skates use flatter rocker profiles with serrated toe picks, while hockey blades have continuous curves that rock from toe to heel.
 
@@ -141,7 +141,7 @@
 
 #### Req 2a(4): Ice Skate Transport and Handling
 **Official Requirement 2a(4):** Describe the proper way to carry ice skates at the rink and for travel.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(4) Structured Technical Study & Explanation Matrix (Ice Skates At The Rink)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(4) Structured Technical Study & Explanation Matrix (Ice Skates at the Rink)
 - **Common Myth:** Tying skate laces together and slinging the boots over a shoulder provides a safe way to carry skates.
 - **Pamphlet Fact:** Carrying loose skates over your shoulder exposes sharp blade edges to people walking behind you and risks serious cuts.
 
@@ -169,7 +169,7 @@
 
 #### Req 2a(6): Forward Snowplow Stopping Technique
 **Official Requirement 2a(6):** Skate forward at least 40 feet and come to a complete stop. Use either a two-foot snowplow stop or a one-foot snowplow stop.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(6) Structured Technical Study & Explanation Matrix (Skate Forward At Least Feet)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(6) Structured Technical Study & Explanation Matrix (Skate Forward at Least Feet)
 - **Common Myth:** Digging the front toe picks straight down into the ice acts as an effective emergency brake.
 - **Pamphlet Fact:** Catching a toe pick during forward motion pitches the skater forward over their toes and risks face plant injuries.
 
@@ -198,7 +198,7 @@
 
 #### Req 2a(8): Forward Strokework from T Position
 **Official Requirement 2a(8):** Starting from a T position, stroke forward around the test area, avoiding the use of toe picks if wearing figure skates.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(8) Structured Technical Study & Explanation Matrix (Starting From A T Position)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(8) Structured Technical Study & Explanation Matrix (Starting from A T Position)
 - **Common Myth:** Pushing straight back off the serrated teeth of the toe pick produces the strongest forward acceleration.
 - **Pamphlet Fact:** Pushing with the toe pick causes blade slippage and gouges the ice without transferring efficient horizontal thrust.
 
@@ -224,7 +224,7 @@
 
 #### Req 2a(10): Backward C Cut Propulsion Technique
 **Official Requirement 2a(10):** Skate backward for at least 20 feet on two skates.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(10) Structured Technical Study & Explanation Matrix (Skate Backward for At Least)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(10) Structured Technical Study & Explanation Matrix (Skate Backward for at Least)
 - **Common Myth:** Skating backward requires picking up both feet and stepping backward onto the ice.
 - **Pamphlet Fact:** Continuous backward motion comes from pressing the inside edges outward and drawing them together in continuous arcs without lifting the blades.
 
@@ -321,7 +321,7 @@
 
 #### Req 2b(2): Roller Skate Components and Functions
 **Official Requirement 2b(2):** Discuss the parts of a roller skate and their functions.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (Discuss The Parts of A)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (Discuss the Parts of A)
 - **Common Myth:** Tightening wheel axle nuts completely flush against the bearings ensures optimal stability and prevents wobbling.
 - **Pamphlet Fact:** Axle nuts must leave a minute fraction of free play so bearings rotate freely without binding or excessive friction.
 
@@ -345,7 +345,7 @@
 
 #### Req 2b(4): Forward Stroking and Stopping Techniques
 **Official Requirement 2b(4):** Skate forward with smooth, linked strokes on two feet for at least 100 feet in both directions around the rink and demonstrate proper techniques for stopping.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Skill Demonstration Checklist):** Req 2b(4) Hands-On Skill Station & EDGE Verification Checklist (Skate Forward With Smooth Linked)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Skill Demonstration Checklist):** Req 2b(4) Hands-On Skill Station & EDGE Verification Checklist (Skate Forward with Smooth Linked)
 - **Common Myth:** Dragging the rubber toe stop while skating forward is the standard emergency stopping method on quad roller skates.
 - **Pamphlet Fact:** Dragging a front toe stop during forward motion causes violent chattering that can pitch the skater forward onto the floor.
 
@@ -381,7 +381,7 @@
 
 #### Req 2b(7): Backward Stroking and Glide Balance
 **Official Requirement 2b(7):** Skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2b(7) Structured Technical Study & Explanation Matrix (Skate Backward for At Least)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2b(7) Structured Technical Study & Explanation Matrix (Skate Backward for at Least)
 - **Common Myth:** Leaning back toward the heels provides the necessary leverage to propel skates backward.
 - **Pamphlet Fact:** Weight must stay centered over the balls of the feet with knees bent to steer properly and avoid falling backward.
 
@@ -417,7 +417,7 @@
 
 #### Req 2b(10): Continuous Shuttle Skating and Bends
 **Official Requirement 2b(10):** Shuttle skate once around the rink, bending twice along the way, without stopping.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2b(10) Structured Technical Study & Explanation Matrix (Shuttle Skate Once Around The)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2b(10) Structured Technical Study & Explanation Matrix (Shuttle Skate Once Around the)
 - **Common Myth:** Leaning the upper body backward while squatting during a rolling bend keeps the center of gravity stable.
 - **Pamphlet Fact:** Skaters must bend at the knees with weight over the midfoot and keep the torso upright to maintain balance while rolling.
 
@@ -512,7 +512,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(3): Required In-Line Protective Safety Gear
+#### Req 2c(3): Required in-Line Protective Safety Gear
 **Official Requirement 2c(3):** Describe the required and recommended safety equipment for in-line skating.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(3) Structured Technical Study & Explanation Matrix (Required and Recommended Safety Equipment)
 - **Common Myth:** Wrist guards are designed to allow skaters to catch themselves with straight, locked arms during a fall.
@@ -524,9 +524,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(4): Essential In-Line Skate Care Routine
+#### Req 2c(4): Essential in-Line Skate Care Routine
 **Official Requirement 2c(4):** Explain four essential steps to good in-line skate care.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(4) Structured Technical Study & Explanation Matrix (Essential Steps to Good In-line)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(4) Structured Technical Study & Explanation Matrix (Essential Steps to Good in-line)
 - **Common Myth:** Bearings should be rinsed with tap water and lubricated with thick household motor oil to wash away road dirt.
 - **Pamphlet Fact:** Water quickly rusts precision steel bearings, so skaters must clean them with specialized solvent and apply light synthetic skate oil.
 
@@ -538,7 +538,7 @@
 
 #### Req 2c(5): Forward Stride Stroke Technique
 **Official Requirement 2c(5):** Skate forward with smooth, linked strokes on two feet for at least 100 feet.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(5) Structured Technical Study & Explanation Matrix (Skate Forward With Smooth Linked)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(5) Structured Technical Study & Explanation Matrix (Skate Forward with Smooth Linked)
 - **Common Myth:** Propelling an in-line skate forward requires kicking straight backward off the toe wheels like walking on pavement.
 - **Pamphlet Fact:** In-line skates generate forward momentum by pushing outward to the side against the wheel edges rather than kicking backward.
 
@@ -598,7 +598,7 @@
 
 #### Req 2c(10): Backward Linked Swizzle Motion
 **Official Requirement 2c(10):** Skate backward for at least 40 feet in a series of linked, backward swizzles.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(10) Structured Technical Study & Explanation Matrix (Skate Backward for At Least)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(10) Structured Technical Study & Explanation Matrix (Skate Backward for at Least)
 - **Common Myth:** Looking straight down at the skate toes keeps the skater aligned and upright while rolling backward.
 - **Pamphlet Fact:** Looking downward rounds the back, moves the center of gravity dangerously forward, and blinds the skater to backward travel hazards.
 
@@ -634,7 +634,7 @@
 
 #### Req 2c(13): Downhill One-Footed Slalom Carving
 **Official Requirement 2c(13):** Perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(13) Structured Technical Study & Explanation Matrix (Series of At Least Four)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(13) Structured Technical Study & Explanation Matrix (Series of at Least Four)
 - **Common Myth:** A skater should keep the single gliding skate perfectly centered without tilting onto either wheel edge while descending a slope.
 - **Pamphlet Fact:** Controlled downhill speed regulation depends on rolling onto distinct inside and outside edges to generate turning resistance against gravity.
 
@@ -646,7 +646,7 @@
 
 #### Req 2c(14): Trail Passing Courtesy Protocol
 **Official Requirement 2c(14):** Describe how to pass a pedestrian or another skater from behind.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(14) Structured Technical Study & Explanation Matrix (Pedestrian or Another Skater From)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(14) Structured Technical Study & Explanation Matrix (Pedestrian or Another Skater from)
 - **Common Myth:** Skating silently past pedestrians at full cruising speed prevents startling them with sudden vocal commands.
 - **Pamphlet Fact:** Pedestrians frequently drift unpredictably across trails, making an early voice call and reduced passing speed mandatory for collision prevention.
 
@@ -719,7 +719,7 @@
 **Official Requirement 2d(2):** Describe the benefits of skateboarding (physical fitness, balance, coordination, perseverance, and creativity)
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2d(2) Structured Technical Study & Explanation Matrix (Benefits of Skateboarding Physical Fitness)
 - **Common Myth:** Skateboarding only exercises leg muscles while providing little overall cardiovascular or mental fitness benefits.
-- **Pamphlet Fact:** Skateboarding provides vigorous full-body cardiovascular exercise, strengthens core stabilizing muscles, and fosters resilience through repeatedly attempting challenging physical skills.
+- **Pamphlet Fact:** Skateboarding provides vigorous full-body cardiovascular exercise, strengthens core stabilizing muscles, and builds resilience through repeatedly attempting challenging physical skills.
 
 | Req 2d(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -778,7 +778,7 @@
 
 #### Req 2d(7): Complete Skateboard Assembly Process
 **Official Requirement 2d(7):** Build a board by assembling all pieces (deck, wheels, trucks, hardware, and grip tape) in the proper order.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Skill Demonstration Checklist):** Req 2d(7) Hands-On Skill Station & EDGE Verification Checklist (Board By Assembling All Pieces)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Skill Demonstration Checklist):** Req 2d(7) Hands-On Skill Station & EDGE Verification Checklist (Board by Assembling All Pieces)
 - **Common Myth:** Mounting hardware bolts should be pushed through the trucks first before applying grip tape to the deck.
 - **Pamphlet Fact:** Grip tape must be applied and trimmed smoothly over the deck before piercing holes for the mounting hardware bolts.
 
@@ -850,7 +850,7 @@
 
 #### Req 2d(13): Ramp Coping Drop-In Execution
 **Official Requirement 2d(13):** Show how to drop-in from coping.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Skill Demonstration Checklist):** Req 2d(13) Hands-On Skill Station & EDGE Verification Checklist (Drop-in From Coping)
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Skill Demonstration Checklist):** Req 2d(13) Hands-On Skill Station & EDGE Verification Checklist (Drop-in from Coping)
 - **Common Myth:** Leaning back toward the platform during a drop in prevents the board from rolling away too quickly.
 - **Pamphlet Fact:** Leaning back on a drop in causes the board to shoot out from under the rider, while committing forward over the front bolts ensures safe transition onto the ramp.
 

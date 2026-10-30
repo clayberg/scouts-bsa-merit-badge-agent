@@ -15,13 +15,13 @@
 | **1** | Req 1: Native Herpetological Species Identification | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: United States Herpetofauna Distribution | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Herpetological Taxonomic Structural Differences | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Herpetological Ecology And Conservation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Herpetological Ecology and Conservation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Herpetological Reproductive Biology Comparisons | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Serpentine Locomotion Musculoskeletal Mechanics | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Venomous Herpetofauna Identification Management | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Live Herpetological Husbandry Methods | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Herpetological Field Survey Techniques | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **10** | Req 10: Herpetological Folklore And Biological Adaptations | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **10** | Req 10: Herpetological Folklore and Biological Adaptations | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -67,7 +67,7 @@
 
 ### Req 2: United States Herpetofauna Distribution
 **Official Requirement 2:** Discuss with your counselor the approximate number of species and general geographic distribution of reptiles and amphibians in the United States. Prepare a list of the most common species found in your local area or state.
-**Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Guide to Safe Scouting Warning:** Check local game regulations and obtain required observer permits before collecting herpetological distribution data on state wildlife lands.
 - **Common Myth:** Reptiles and amphibians maintain uniform species diversity across all fifty states regardless of regional climate.
 - **Pamphlet Fact:** Over three hundred native reptile species and two hundred thirty amphibian species inhabit distinct regional life zones across North America.
@@ -100,7 +100,7 @@
 - Cranial Dentition Differences: Alligators expose only upper teeth when jaws close, whereas crocodiles display lower fourth teeth.
 - Glandular Integument Traits: True frogs maintain smooth moist skin while bufonid toads possess dry warty exteriors.
 
-#### Req 3a: Amphibian And Reptile Distinctions
+#### Req 3a: Amphibian and Reptile Distinctions
 **Official Requirement 3a:** Amphibians and reptiles.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Amphibians and Reptiles)
 - **Common Myth:** Amphibians can safely live in dry desert terrain because their skin holds moisture like reptile scales.
@@ -114,7 +114,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Alligator And Crocodile Comparisons
+#### Req 3b: Alligator and Crocodile Comparisons
 **Official Requirement 3b:** Alligators and crocodiles.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Alligators and Crocodiles)
 - **Common Myth:** Alligators and crocodiles share identical saltwater tolerances and jaw profiles throughout North America.
@@ -128,7 +128,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Toad And Frog Characteristics
+#### Req 3c: Toad and Frog Characteristics
 **Official Requirement 3c:** Toads and frogs.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Toads and Frogs)
 - **Common Myth:** Handling a common terrestrial toad causes human skin to develop contagious warts.
@@ -142,7 +142,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3d: Snake And Lizard Anatomy
+#### Req 3d: Snake and Lizard Anatomy
 **Official Requirement 3d:** Snakes and lizards.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Snakes and Lizards)
 - **Common Myth:** Any elongated, legless reptile encountered in tall grass is automatically a snake.
@@ -156,7 +156,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Herpetological Ecology And Conservation
+### Req 4: Herpetological Ecology and Conservation
 **Official Requirement 4:** Explain how reptiles and amphibians are an important component of the natural environment. List four species that are officially protected by the federal government or by the state you live in, and tell why each is protected. List three species of reptiles and three species of amphibians found in your local area that are not protected. Discuss the food habits of all 10 species.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Reptiles and Amphibians Are An)
 > **Guide to Safe Scouting Warning:** Disinfect field wading boots with a ten percent bleach solution between ponds to prevent spreading chytrid fungal spores.
@@ -249,7 +249,7 @@
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
 ### Req 8: Live Herpetological Husbandry Methods
-**Official Requirement 8 (Parent Overview):** Do ONE of the following: (a) Take custody of one or more reptiles or amphibians in a manner approved by your counselor. Maintain one or more reptiles or amphibians for at least a month. Record food accepted, eating methods, changes in coloration, shedding of skins, and general habits; or keep the eggs of a reptile from the time of laying until hatching; or keep the eggs of an amphibian from the time of laying until their transformation into tadpoles (frogs) or larvae (salamanders). Whichever you choose, keep records of and report to your counselor how you cared for your animal, eggs, or larvae, including lighting, habitat, temperature and humidity maintenance, and any veterinary care requirements. Unless you are the long-term owner, at the conclusion of this study, turn the animal(s) over to another responsible party approved by your counselor. (b) Choose a reptile or amphibian that you can observe or foster at a local zoo, aquarium, nature center, local rescue, or other such exhibit (such as your classroom or school). Study the specimen weekly for a period of three months. At each visit, sketch the specimen in its captive habitat and note any changes in its coloration, shedding of skins, and general habits and behavior. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting, temperature, and humidity were maintained, and any veterinary care requirements. Find out, either from information you locate on your own or by talking to the caretaker, what this species eats and what are its native habitat and home range, preferred climate, average life expectancy, and natural predators. Also, identify any human-caused threats to its population and any laws that protect the species and its habitat. After the observation period, share what you have learned with your counselor.
+**Official Requirement 8 (Parent Overview):** Do ONE of the following: (a) Take custody of one or more reptiles or amphibians in a manner approved by your counselor. Maintain one or more reptiles or amphibians for at least a month. Record food accepted, eating methods, changes in coloration, shedding of skins, and general habits; or keep the eggs of a reptile from the time of laying until hatching; or keep the eggs of an amphibian from the time of laying until their transformation into tadpoles (frogs) or larvae (salamanders). Whichever you choose, keep records of and report to your counselor how you cared for your animal, eggs, or larvae, including lighting, habitat, temperature and humidity maintenance, and any veterinary care requirements. Unless you are the long-term owner, at the conclusion of this study, turn the animal(s) over to another responsible party approved by your counselor. (b) Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium, nature center, local rescue, or other such exhibit (such as your classroom or school). Study the specimen weekly for a period of three months. At each visit, sketch the specimen in its captive habitat and note any changes in its coloration, shedding of skins, and general habits and behavior. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting, temperature, and humidity were maintained, and any veterinary care requirements. Find out, either from information you locate on your own or by talking to the caretaker, what this species eats and what are its native habitat and home range, preferred climate, average life expectancy, and natural predators. Also, identify any human-caused threats to its population and any laws that protect the species and its habitat. After the observation period, share what you have learned with your counselor.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Always wash hands with antibacterial soap after maintaining terrariums to prevent accidental Salmonella bacterial transmission.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Reptile and Amphibian Study Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -282,7 +282,7 @@
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
 #### Req 8b: Institutional Exhibit Specimen Study
-**Official Requirement 8b:** Choose a reptile or amphibian that you can observe or foster at a local zoo, aquarium, nature center, local rescue, or other such exhibit (such as your classroom or school). Study the specimen weekly for a period of three months. At each visit, sketch the specimen in its captive habitat and note any changes in its coloration, shedding of skins, and general habits and behavior. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting, temperature, and humidity were maintained, and any veterinary care requirements. Find out, either from information you locate on your own or by talking to the caretaker, what this species eats and what are its native habitat and home range, preferred climate, average life expectancy, and natural predators. Also, identify any human-caused threats to its population and any laws that protect the species and its habitat. After the observation period, share what you have learned with your counselor.
+**Official Requirement 8b:** Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium, nature center, local rescue, or other such exhibit (such as your classroom or school). Study the specimen weekly for a period of three months. At each visit, sketch the specimen in its captive habitat and note any changes in its coloration, shedding of skins, and general habits and behavior. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting, temperature, and humidity were maintained, and any veterinary care requirements. Find out, either from information you locate on your own or by talking to the caretaker, what this species eats and what are its native habitat and home range, preferred climate, average life expectancy, and natural predators. Also, identify any human-caused threats to its population and any laws that protect the species and its habitat. After the observation period, share what you have learned with your counselor.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Field Sketch & Diagram Canvas):** Req 8b Structured Technical Study & Explanation Matrix (Reptile or Amphibian That You)
 - **Common Myth:** Zoo reptile and amphibian exhibits maintain identical room temperatures and humidity for all display species.
 - **Pamphlet Fact:** Institutional exhibits rely on automated climate controls and specialized biosecurity protocols to maintain delicate amphibian skin health.
@@ -291,7 +291,7 @@
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
-| **1. Choose a reptile or amphibian that you can observe or foster at a local zoo, aquarium, nature center, local rescue** | `____________________________________` | `____________________________________` |
+| **1. Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium, nature center, local rescue** | `____________________________________` | `____________________________________` |
 | **2. Study the specimen weekly for a period of three months** | `____________________________________` | `____________________________________` |
 | **3. At each visit, sketch the specimen in its captive habitat and note any changes in its coloration, shedding of skins** | `____________________________________` | `____________________________________` |
 | **4. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting** | `____________________________________` | `____________________________________` |
@@ -364,7 +364,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 10: Herpetological Folklore And Biological Adaptations
+### Req 10: Herpetological Folklore and Biological Adaptations
 **Official Requirement 10:** Tell five superstitions or false beliefs about reptiles and amphibians and give a correct explanation for each. Give seven examples of unusual behavior or other true facts about reptiles and amphibians.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 10 Structured Technical Study & Explanation Matrix (Superstitions or False Beliefs About)
 > **Guide to Safe Scouting Warning:** Do not grab squamate tails in the wild because defensive caudal autotomy causes stress and energy loss.

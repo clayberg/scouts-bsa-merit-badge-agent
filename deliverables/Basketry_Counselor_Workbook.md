@@ -55,7 +55,7 @@
 
 #### Req 1b: Shop Injury Prevention Protocols
 **Official Requirement 1b:** Discuss the prevention of and first-aid treatment for injuries, including cuts, scratches, and scrapes, that could occur while working with basketry tools and materials.
-**Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
+**Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)
 - **Common Myth:** Minor reed cuts do not need washing because dry rattan fibers are naturally sterile.
 - **Pamphlet Fact:** Plant fibers carry soil bacteria and fungi that cause serious infections in untreated punctures.
 
@@ -106,7 +106,7 @@
 - **Common Myth:** Pairing and waling are purely decorative variations with zero added structural strength.
 - **Pamphlet Fact:** Pairing locks upright spokes in place and prevents outward bowing under heavy loads.
 
-![Traditional handwoven baskets showcase ribbed frames and plaited reed patterns.](/assets/pamphlet_images/basketry_p012_img3.png)
+![Traditional handwoven baskets display ribbed frames and plaited reed patterns.](/assets/pamphlet_images/basketry_p012_img3.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

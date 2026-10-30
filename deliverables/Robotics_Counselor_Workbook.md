@@ -18,7 +18,7 @@
 | **4** | Req 4: Robotic System Engineering Lifecycle | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Operational Demonstration Technical Defense | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Competitive Robotics Program Operations | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Robotics Career And Avocation | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Robotics Career and Avocation | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -169,7 +169,7 @@
 
 #### Req 4a: Robotic Task Specification Selection
 **Official Requirement 4a:** With your counselor's approval, choose a task for the robot or robotic subsystem that you plan to build. Include sensor feedback and programming in the task. Document this information in your robot engineering notebook.
-**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Task for The Robot or)
+**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist (Task for the Robot or)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Robotics Req 4a preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Choosing a broad generic goal like navigating a room provides sufficient engineering project criteria.
 - **Pamphlet Fact:** A viable engineering task specification contains measurable success criteria rather than subjective performance goals.
@@ -192,7 +192,7 @@
 
 #### Req 4b: Kinematic Design Engineering Documentation
 **Official Requirement 4b:** Design your robot. The robot design should use sensors and programming and have at least 2 degrees of freedom. Document the design in your robot engineering notebook using drawings and a written description.
-**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Robot The Robot)
+**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Robot the Robot)
 - **Common Myth:** A simple wheeled rover moving backward and forward possesses two separate degrees of freedom.
 - **Pamphlet Fact:** Planar movement along two perpendicular axes provides two distinct translational degrees of mechanical freedom.
 
@@ -232,11 +232,11 @@
 
 #### Req 4d(1): Robot Program Source Code Implementation
 **Official Requirement 4d(1):** Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook.
-**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(1) Structured Technical Study & Explanation Matrix (Robot to Perform The Task)
+**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(1) Structured Technical Study & Explanation Matrix (Robot to Perform the Task)
 - **Common Myth:** Graphical block programming languages do not qualify as legitimate source code for the engineering notebook.
 - **Pamphlet Fact:** Scouting America accepts visual block diagrams and text-based code equally as long as the printed sample includes clear annotations explaining the logic.
 
-![The Robonaut humanoid robot showcases advanced human-robot interface and dexterity for space.](/assets/pamphlet_images/robotics_p017_img2.png)
+![The Robonaut humanoid robot displays advanced human-robot interface and dexterity for space.](/assets/pamphlet_images/robotics_p017_img2.png)
 
 | Req 4d(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -247,7 +247,7 @@
 
 #### Req 4d(2): Sensor Logic Program Flowchart Development
 **Official Requirement 4d(2):** Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.
-**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(2) Structured Technical Study & Explanation Matrix (Flowchart of The Desired)
+**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(2) Structured Technical Study & Explanation Matrix (Flowchart of the Desired)
 - **Common Myth:** Program flowcharts follow a single linear sequence without decision branches for sensor feedback.
 - **Pamphlet Fact:** Standard programming flowcharts require diamond decision blocks that branch into alternate actions based on live sensor readings.
 
@@ -263,7 +263,7 @@
 
 #### Req 4e: Systematic Testing Performance Documentation
 **Official Requirement 4e:** Test your robot and record the results in your robot engineering notebook. Include suggestions on how you could improve your robot, as well as pictures or sketches of your finished robot.
-**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Activity & Observation Log):** Req 4e Quantitative Field Observation & Activity Log (Robot and Record The Results)
+**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Activity & Observation Log):** Req 4e Quantitative Field Observation & Activity Log (Robot and Record the Results)
 - **Common Myth:** A program that runs successfully once on a test bench will perform identically across all arenas.
 - **Pamphlet Fact:** Environmental ambient light fluctuations alter infrared line sensor readings between separate test environments.
 
@@ -380,7 +380,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Robotics Career And Avocation
+### Req 7: Robotics Career and Avocation
 **Official Requirement 7 (Parent Overview):** Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in robotics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Follow workshop ventilation guidelines when 3D printing custom robotic chassis parts or soldering circuits.
@@ -412,7 +412,7 @@
 
 #### Req 7b: Amateur Robotics Hobby Development
 **Official Requirement 7b:** Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Amateur robotics hobbies require thousands of dollars in commercial CNC machinery to start.
 - **Pamphlet Fact:** Low cost microcontrollers and community shared designs allow hobbyists to build functional competitive combat robots.
 

@@ -116,7 +116,7 @@
 
 #### Req 2b: Digital Simulation and Drafting
 **Official Requirement 2b:** Explain to your counselor how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, and assist in constructing or fabricating parts.
-**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Traditional And/or Computer Design Tools)
+**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Traditional and/or Computer Design Tools)
 - **Common Myth:** Beginners believe computer modeling software eliminates the need to understand physical material tolerances.
 - **Pamphlet Fact:** Digital tools require precise real-world material thickness values to generate accurate joint assemblies.
 
@@ -154,7 +154,7 @@
 
 #### Req 3a: Scaled Technical Drawing Preparation
 **Official Requirement 3a:** Prepare the necessary plans to the proper scale.
-**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Necessary Plans to The Proper)
+**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Necessary Plans to the Proper)
 - **Common Myth:** Beginners assume drawings made to approximate eye proportions function adequately as cutting templates.
 - **Pamphlet Fact:** Inaccurate drawings cause mismatched seams, uneven roof pitches, and failed interlocking joints during assembly.
 
@@ -205,7 +205,7 @@
 
 #### Req 3e: Digital Design Tool Integration
 **Official Requirement 3e:** Discuss with your counselor if you plan to integrate computer design tools to complete your project.
-**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Discuss With Your Counselor If)
+**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor If)
 - **Common Myth:** Novices think using digital CAD tools reduces the required manual skill of the modeler.
 - **Pamphlet Fact:** Digital tools require rigorous mastery of spatial coordinates, geometric constraints, and manufacturing parameters.
 
@@ -225,7 +225,7 @@
 
 **Official Pamphlet Summary:**
 - Architectural models built at quarter-inch scale require accurate door and window openings.
-- Framed Corner Joinery: Structural timber models showcase double top plates, corner studs, and sole plates.
+- Framed Corner Joinery: Structural timber models display double top plates, corner studs, and sole plates.
 - Process plumbing layouts utilize designated colors to separate hot and cold water.
 - Mechanical assemblies must demonstrate smooth kinetic transfer across two combined simple machines.
 
@@ -359,11 +359,11 @@
 
 #### Req 5b: Spacecraft Subsystem Component Architecture
 **Official Requirement 5b:** Design individual components (such as the cockpit, living areas, engines, and storage)
-**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Individual Components Such As The)
+**Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Individual Components Such As the)
 - **Common Myth:** Scouts assume a fantasy spaceship exterior can be built without considering internal crew accommodation space.
 - **Pamphlet Fact:** Modeling logical cockpit seats, airlocks, and engine bulkheads prevents nonsensical window and door placements.
 
-![Uniformed Scouts collaborate around a craft table to assemble intricate plastic panels on a scale spacecraft model.](/assets/ai_illustrations/model_design_and_building_req_5_nano_hero.png)
+![Uniformed Scouts collaborate around a craft table to assemble detailed plastic panels on a scale spacecraft model.](/assets/ai_illustrations/model_design_and_building_req_5_nano_hero.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -370,9 +370,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8d: Cache In Trash Out
+#### Req 8d: Cache in Trash Out
 **Official Requirement 8d:** Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public.
-**Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Cache In Trash Out CITO)
+**Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)* • **Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix (Cache in Trash Out CITO)
 - **Common Myth:** Picking up litter along trails is secondary to logging the physical cache.
 - **Pamphlet Fact:** Environmental stewardship represents a core ethical commitment of the international geocaching community.
 

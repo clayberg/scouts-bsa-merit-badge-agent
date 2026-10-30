@@ -130,7 +130,7 @@
 
 #### Req 2c: Environmental and Community Context
 **Official Requirement 2c:** The relationship of architecture with its surrounding environment and the community.
-**Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Relationship of Architecture With Its)
+**Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Relationship of Architecture with Its)
 - **Common Myth:** Architects only focus on property boundaries rather than adjacent streets or watersheds.
 - **Pamphlet Fact:** Zoning codes, stormwater runoff patterns, and neighbor sightlines dictate building height, setbacks, and massing.
 

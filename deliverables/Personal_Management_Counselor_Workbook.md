@@ -13,15 +13,15 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Major Family Expense Planning | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Personal Budget And Expense Tracking | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Consumer Psychology And Spending Behavior | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Principles Of Saving And Investing | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Investment Vehicles And Financial Instruments | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Insurance Fundamentals And Risk Management | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Credit, Loans, And Debt Management | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Time Management And Scheduling Systems | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Personal Budget and Expense Tracking | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Consumer Psychology and Spending Behavior | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Principles of Saving and Investing | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Investment Vehicles and Financial Instruments | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Insurance Fundamentals and Risk Management | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Credit, Loans, and Debt Management | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Time Management and Scheduling Systems | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Written Project Planning Methodology | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **10** | Req 10: Career Preparation And Educational Financing | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **10** | Req 10: Career Preparation and Educational Financing | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -94,7 +94,7 @@
 
 #### Req 1c(1): Independent Consumer Product Quality Evaluation
 **Official Requirement 1c(1):** Determine the quality of the item or service (using consumer publications or rating systems)
-**Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1c(1) Structured Technical Study & Explanation Matrix (Quality of The Item or)
+**Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1c(1) Structured Technical Study & Explanation Matrix (Quality of the Item or)
 - **Common Myth:** Manufacturer advertisements and promotional website testimonials provide objective evaluations of product quality and reliability.
 - **Pamphlet Fact:** Independent consumer reporting agencies and standardized rating systems provide unbiased quality testing free from commercial marketing motives.
 
@@ -123,7 +123,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Personal Budget And Expense Tracking
+### Req 2: Personal Budget and Expense Tracking
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Prepare a budget reflecting your expected income (allowance, gifts, wages), expenses, and savings for a period of 13 consecutive weeks. (b) Compare expected income with expected expenses. (1) If expenses exceed budget income, determine steps to balance your budget. (2) If income exceeds budget expenses, state how you would use the excess money (new goal, savings). (c) Track and record your actual income, expenses, and savings for 13 consecutive weeks (the same 13-week period for which you budgeted). (You may use the forms provided in the Personal Management merit badge pamphlet, devise your own, or use a computer-generated version.) When complete, present the records showing the results to your counselor. (d) Compare your budget with your actual income and expenses to understand when your budget worked and when it did not work. With your counselor, discuss what you might do differently the next time.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Group Organizer:** Ledger 13Wk
 > **Guide to Safe Scouting Warning:** Store physical cash receipts and transaction logs securely to protect personal spending data from loss.
@@ -158,7 +158,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2b: Income And Expense Balancing
+### Req 2b: Income and Expense Balancing
 **Official Requirement 2b (Parent Overview):** Compare expected income with expected expenses. (1) If expenses exceed budget income, determine steps to balance your budget. (2) If income exceeds budget expenses, state how you would use the excess money (new goal, savings)
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Group Organizer:** 2-Column Comparison Table
 - **Common Myth:** Small budget deficits resolve themselves automatically without intentional reductions in discretionary purchases.
@@ -213,7 +213,7 @@
 
 #### Req 2d: Budget Performance Variance Evaluation
 **Official Requirement 2d:** Compare your budget with your actual income and expenses to understand when your budget worked and when it did not work. With your counselor, discuss what you might do differently the next time.
-**Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (2-Column Comparison Table):** Req 2d Technical Comparison Matrix (Budget With Your Actual Income)
+**Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (2-Column Comparison Table):** Req 2d Technical Comparison Matrix (Budget with Your Actual Income)
 - **Common Myth:** Failing to meet budgeted targets exactly indicates total failure of the budgeting method.
 - **Pamphlet Fact:** Variances between planned and actual figures supply critical data for improving subsequent budget accuracy.
 
@@ -226,7 +226,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Consumer Psychology And Spending Behavior
+### Req 3: Consumer Psychology and Spending Behavior
 **Official Requirement 3 (Parent Overview):** Discuss with your counselor FIVE of the following concepts: (a) The emotions you feel when you receive money. (b) Your understanding of how the amount of money you have with you affects your spending habits. (c) Your thoughts when you buy something new and your thoughts about the same item three months later. Explain the concept of buyer's remorse. (d) How hunger affects you when shopping for food items (snacks, groceries). (e) Your experience of an item you have purchased after seeing or hearing advertisements for it. Did the item work as well as advertised? (f) Your understanding of what happens when you put money into a savings account. (g) Charitable giving. Explain its purpose and your thoughts about it. (h) What you can do to better manage your money.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Avoid carrying large sums of physical cash in public environments to prevent theft or robbery.
@@ -255,7 +255,7 @@
 
 #### Req 3b: Carried Currency Spending Habits
 **Official Requirement 3b:** Your understanding of how the amount of money you have with you affects your spending habits.
-**Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Understanding of How The Amount)
+**Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Understanding of How the Amount)
 - **Common Myth:** The physical amount of currency in a wallet does not impact spending frequency.
 - **Pamphlet Fact:** Having immediate cash on hand reduces friction and increases casual convenience store purchases.
 
@@ -282,7 +282,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3d: Hunger Impact On Purchasing
+#### Req 3d: Hunger Impact on Purchasing
 **Official Requirement 3d:** How hunger affects you when shopping for food items (snacks, groceries)
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Hunger Affects You When Shopping)
 - **Common Myth:** Physical hunger affects food volume choices but never impacts non-food retail purchasing decisions.
@@ -350,7 +350,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Principles Of Saving And Investing
+### Req 4: Principles of Saving and Investing
 **Official Requirement 4 (Parent Overview):** Explain the following to your counselor: (a) The differences between saving and investing, including reasons for using one over the other. (b) The concepts of return on investment and risk and how they are related. (c) The concepts of simple interest and compound interest. (d) The concept of diversification in investing. (e) Why it is important to save and invest for retirement.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Verify that investment platforms utilize two factor authentication and encrypted communication to prevent account takeover.
@@ -389,7 +389,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Simple And Compound Interest
+#### Req 4c: Simple and Compound Interest
 **Official Requirement 4c:** The concepts of simple interest and compound interest.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Concepts of Simple Interest and)
 - **Common Myth:** Simple interest and compound interest yield identical total earnings over a thirty year period.
@@ -425,7 +425,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Investment Vehicles And Financial Instruments
+### Req 5: Investment Vehicles and Financial Instruments
 **Official Requirement 5 (Parent Overview):** Explain to your counselor what the following investments are and how each works: (a) Common stocks (b) Mutual funds (c) Life insurance (d) A certificate of deposit (CD) (e) A savings account (f) A U. S. savings bond
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Verify federal deposit insurance coverage limits before transferring funds to non-bank investment intermediaries.
@@ -476,7 +476,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d: Certificate Of Deposit Accounts
+#### Req 5d: Certificate of Deposit Accounts
 **Official Requirement 5d:** A certificate of deposit.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Certificate of Deposit)
 - **Common Myth:** Certificates of deposit allow penalty free cash withdrawals at any moment before maturity.
@@ -512,7 +512,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Insurance Fundamentals And Risk Management
+### Req 6: Insurance Fundamentals and Risk Management
 **Official Requirement 6 (Parent Overview):** Explain to your counselor why people might purchase the following types of insurance and how they work: (a) Automobile (b) Health (c) Homeowner's/renter's (d) Whole life and term life
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Maintain active automobile liability coverage documentation in vehicle glove compartments for roadside emergency inspections.
@@ -551,7 +551,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c: Property And Renter Insurance
+#### Req 6c: Property and Renter Insurance
 **Official Requirement 6c:** Homeowner's/renter's.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Personal Management Homeowner's/renter's Principles)
 - **Common Myth:** A landlord insurance policy automatically reimburses tenants for personal belongings destroyed in fires.
@@ -575,7 +575,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Credit, Loans, And Debt Management
+### Req 7: Credit, Loans, and Debt Management
 **Official Requirement 7 (Parent Overview):** Explain to your counselor the following: (a) What a loan is, what interest is, and how the annual percentage rate (APR) measures the true cost of a loan (b) The different ways to borrow money (c) The differences between a charge card, debit card, and credit card, including the costs and pitfalls of using these financial tools, and why it is unwise to make only the minimum payment on your credit card (d) Credit reports and how personal responsibility can affect your credit report (e) Ways to reduce or eliminate debt.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Shred physical credit card offers and pre-approved loan letters to prevent fraudulent account origination.
@@ -588,7 +588,7 @@
 - Timely debt repayments build positive credit scores, lowering lifetime personal borrowing costs.
 - Debt Elimination Hierarchy: Paying down high interest balances first reduces total finance charges over time.
 
-#### Req 7a: Loan Mechanics And APR
+#### Req 7a: Loan Mechanics and APR
 **Official Requirement 7a:** What a loan is, what interest is, and how the annual percentage rate (APR) measures the true cost of a loan.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Loan Is What Interest)
 - **Common Myth:** The advertised nominal interest rate represents the entire true yearly cost of borrowing.
@@ -626,7 +626,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7d: Credit Reporting And Responsibility
+#### Req 7d: Credit Reporting and Responsibility
 **Official Requirement 7d:** Credit reports and how personal responsibility can affect your credit report.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix (Credit Reports and How Personal)
 - **Common Myth:** Checking personal credit reports through authorized bureaus damages your credit score rating permanently.
@@ -638,7 +638,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7e: Debt Reduction And Elimination
+#### Req 7e: Debt Reduction and Elimination
 **Official Requirement 7e:** Ways to reduce or eliminate debt.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Reduce or Eliminate Debt)
 - **Common Myth:** Spreading extra debt payments equally across all balances eliminates obligations the fastest way.
@@ -650,7 +650,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Time Management And Scheduling Systems
+### Req 8: Time Management and Scheduling Systems
 **Official Requirement 8 (Parent Overview):** Demonstrate to your counselor your understanding of time management by doing the following: (a) Write a to-do list of tasks or activities, such as homework assignments, chores, and personal projects, that must be done in the coming week. List these in order of importance to you. (b) Make a seven-day calendar or schedule. Put in your set activities, such as school classes, sports practices or games, jobs or chores, and/or Scout or place of worship or club meetings, then plan when you will do all the tasks from your to-do list between your set activities. (c) Follow the one-week schedule you planned. Keep a daily diary or journal during each of the seven days of this week's activities, writing down when you completed each of the tasks on your to-do list compared to when you scheduled them. (d) With your counselor, review your to-do list, one-week schedule, and diary/journal to understand when your schedule worked and when it did not work. Discuss what you might do differently the next time.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)* • **Group Organizer:** Time Diary 7Day
 > **Guide to Safe Scouting Warning:** Schedule sufficient sleep and rest breaks into daily calendars to prevent fatigue during transport.
@@ -663,7 +663,7 @@
 - Keeping hourly activity journals exposes unacknowledged digital distractions and schedule slippage.
 - Schedule Variance Review: Evaluating completed weekly routines identifies structural bottlenecks to improve future productivity.
 
-#### Req 8a: Prioritized To-Do List Formulation
+#### Req 8a: Prioritized to-Do List Formulation
 **Official Requirement 8a:** Write a to-do list of tasks or activities, such as homework assignments, chores, and personal projects, that must be done in the coming week. List these in order of importance.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (To-do List of Tasks or)
 - **Common Myth:** Unranked to-do lists are just as effective as prioritized lists for managing deadlines.
@@ -701,7 +701,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8c: Schedule Execution And Logging
+#### Req 8c: Schedule Execution and Logging
 **Official Requirement 8c:** Follow the one-week schedule you planned. Keep a daily diary or journal during each of the seven days of this week's activities, writing down when you completed each of the tasks on your to-do list compared to when you scheduled them.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)* • **Organizer (Time Diary 7Day):** Req 8c 7-Day Time Management Schedule & Daily Diary
 - **Common Myth:** Maintaining a daily diary requires recording only emotional impressions rather than concrete completion times.
@@ -740,7 +740,7 @@
 - Resource Allocation Mapping: Identifying human labor, physical tools, and community facilities guarantees operational capability.
 - Fiscal Constraint Modeling: Formulating itemized project budgets accounts for unexpected price inflation and emergency contingencies.
 
-#### Req 9a: Project Scope And Goal Definition
+#### Req 9a: Project Scope and Goal Definition
 **Official Requirement 9a:** Define the project. What is your goal.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Project What Is Your Goal)
 - **Common Myth:** Project goals should remain broad and flexible so any eventual outcome qualifies as success.
@@ -779,7 +779,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9d: Resource Identification And Allocation
+#### Req 9d: Resource Identification and Allocation
 **Official Requirement 9d:** Develop a list of resources. Identify how these resources will help you achieve your goal.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Develop A List of Resources)
 - **Common Myth:** Project resources refer strictly to physical hardware while ignoring human volunteer labor requirements.
@@ -804,7 +804,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 10: Career Preparation And Educational Financing
+### Req 10: Career Preparation and Educational Financing
 **Official Requirement 10 (Parent Overview):** Do the following: (a) Choose a career you might want to enter after high school or college graduation. Discuss with your counselor the needed qualifications, education, skills, and experience. (b) Explain to your counselor what the associated costs might be to pursue this career, such as tuition, school or training supplies, and room and board. Explain how you could prepare for these costs and how you might make up for any shortfall.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Adhere to occupational safety gear regulations and professional credentialing requirements in technical trade environments.
@@ -817,7 +817,7 @@
 - Educational Funding Planning: Researching scholarships, grants, and work study opportunities reduces reliance on high student debt.
 - Return On Education: Evaluating future career earning trajectories against training debt prevents long term financial hardship.
 
-#### Req 10a: Career Selection And Qualifications
+#### Req 10a: Career Selection and Qualifications
 **Official Requirement 10a:** Choose a career you might want to enter after high school or college graduation. Discuss with your counselor the needed qualifications, education, skills, and experience.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53)* • **Organizer (Career & Profession Exploration Card):** Req 10a Career & Professional Pathway Investigation Matrix
 - **Common Myth:** Graduating high school provides complete qualification for specialized engineering or medical careers.

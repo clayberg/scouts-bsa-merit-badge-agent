@@ -15,12 +15,12 @@
 | **1** | Req 1: Personal Digital Safety Awareness | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 64) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Digital Technology Evolution History | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 23, p. 25) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Digital Data Processing Fundamentals | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Software Architecture And Security | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Internet Communications And Security | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Software Architecture and Security | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Internet Communications and Security | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Applied Digital Productivity Projects | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Intellectual Property And Licensing | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Intellectual Property and Licensing | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Electronic Waste Environmental Stewardship | Describe | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Digital Careers And Hobbies | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Digital Careers and Hobbies | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -39,7 +39,7 @@
 
 ### Req 1: Personal Digital Safety Awareness
 **Official Requirement 1:** View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission).
-**Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 64)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (View The Personal Safety Awareness)
+**Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 64)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)
 > **Guide to Safe Scouting Warning:** Maintain strict privacy by never sharing real names, troop numbers, or GPS location tags during online activities.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Digital Technology Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Digital safety guidelines only apply when connecting to public networks outside the home.
@@ -120,7 +120,7 @@
 - Pixel Color Mapping: Digital photographs store red, green, and blue light values per pixel.
 - Lossless Redundancy Removal: Algorithms replace repetitive data patterns without eliminating any original source information.
 
-#### Req 3a: Data Digitization And Storage
+#### Req 3a: Data Digitization and Storage
 **Official Requirement 3a:** Explain to your counselor how text, sound, and pictures are digitized for storage.
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Text Sound and Pictures Are)
 - **Common Myth:** Digital images store physical ink dots rather than numeric color values per coordinate.
@@ -164,7 +164,7 @@
 
 #### Req 3d: Computing Platform Architecture Comparison
 **Official Requirement 3d:** Discuss the similarities and differences between computers, mobile devices, and gaming consoles.
-**Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (2-Column Comparison Table):** Req 3d Technical Comparison Matrix (Discuss The Similarities)
+**Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (2-Column Comparison Table):** Req 3d Technical Comparison Matrix (Discuss the Similarities)
 - **Common Myth:** Consoles and mobile phones share identical hardware configurations and operating system schedulers.
 - **Pamphlet Fact:** Gaming consoles utilize specialized graphic processing architectures, whereas mobile devices prioritize thermal battery management.
 
@@ -176,7 +176,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3e: Local And Wide Networks
+#### Req 3e: Local and Wide Networks
 **Official Requirement 3e:** Explain what a computer network is and the difference between a local area network (LAN) versus a wide area network (WAN)
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)* • **Organizer (2-Column Comparison Table):** Req 3e Technical Comparison Matrix (Computer Network)
 - **Common Myth:** Home Wi-Fi routers communicate across continents without routing through external service providers.
@@ -190,7 +190,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Software Architecture And Security
+### Req 4: Software Architecture and Security
 **Official Requirement 4 (Parent Overview):** Do the following: (a) Explain what a program or software application or "app" is and how a computer uses a CPU and memory to execute it. (b) Name four software programs or mobile apps you or your family use, and explain how each one helps you. (c) Describe what malware is, and explain how to protect your digital devices and the information stored on them. (d) Explain what a barcode, a QR code, and an RFID tag are along with the data they contain and two or more examples where each is used.
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never open suspicious email attachments or unverified file downloads that could introduce destructive rootkit malware.
@@ -231,7 +231,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Malware Threats And Defense
+#### Req 4c: Malware Threats and Defense
 **Official Requirement 4c:** Describe what malware is, and explain how to protect your digital devices and the information stored on them.
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Malware Protect Digital Devices)
 - **Common Myth:** Installing one antivirus program permanently immunizes an operating system against all phishing scams.
@@ -259,7 +259,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Internet Communications And Security
+### Req 5: Internet Communications and Security
 **Official Requirement 5 (Parent Overview):** Do the following: (a) Describe at least two different ways data can be transferred through the internet. (b) Using an internet search engine (with a parent or guardian's permission), find ideas from at least three different websites about how to conduct a troop court of honor or campfire program. Present the ideas to your counselor and explain how you used a search engine to find this information. (c) Use a web browser to connect to an HTTPS (secure) website (with your parent or guardian's permission). Explain to your counselor how to tell whether the site's security certificate can be trusted, and what it means to use this kind of connection.
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Verify web domain spellings before entering passwords to prevent credential harvesting on fake phishing sites.
@@ -470,7 +470,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Intellectual Property And Licensing
+### Req 7: Intellectual Property and Licensing
 **Official Requirement 7 (Parent Overview):** Do the following: (a) Explain to your counselor each of these protections and why they exist: copyright, patents, trademarks, and trade secrets. (b) Explain when it is permissible to accept a free copy of a program from a friend. (c) Discuss with your counselor an article or (with your parent or guardian's permission) a report on the internet about a recent legal case involving an intellectual property dispute.
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Avoid downloading software from unauthorized peer to peer trackers that frequently bundle destructive Trojan installers.
@@ -513,7 +513,7 @@
 
 #### Req 7c: Digital Technology Litigation Analysis
 **Official Requirement 7c:** Discuss with your counselor an article or (with your parent or guardian's permission) a report on the internet about a recent legal case involving an intellectual property dispute.
-**Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Discuss With Your Counselor An)
+**Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Discuss with Your Counselor An)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Digital Technology Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Nonprofit educational use grants automatic total immunity from all federal copyright infringement claims.
 - **Pamphlet Fact:** Legal fair use defenses depend on educational purpose, nature of work, and market impact.
@@ -592,7 +592,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8e: Battery Reclamation And Safety
+#### Req 8e: Battery Reclamation and Safety
 **Official Requirement 8e:** Find a battery recycling center near you and find out what it does to recycle batteries. Share what you have learned with your counselor about the proper methods for recycling batteries.
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Battery Recycling Center Near You)
 - **Common Myth:** Alkaline and lithium rechargeable batteries follow identical pyrometallurgical refining processes without sorting.
@@ -605,7 +605,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Digital Careers And Hobbies
+### Req 9: Digital Careers and Hobbies
 **Official Requirement 9 (Parent Overview):** Do ONE of the following: (a) Explore careers related to the Digital Technology merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from the Digital Technology merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Observe proper electrical grounding and anti-static precautions when servicing open computer hardware chassis.

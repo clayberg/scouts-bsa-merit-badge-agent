@@ -37,7 +37,7 @@
 
 ### Req 1: Baden-Powell and American Scouting Origins
 **Official Requirement 1:** Discuss with your counselor the life and times of Lord Baden-Powell of Gilwell. Explain why he felt a program like Scouting would be good for the young men of his day. Include in your discussion how Scouting was introduced in the United States, and the origins of Boy Scouting and Cub Scouting under Baden-Powell.
-**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 9, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 9, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 > **Guide to Safe Scouting Warning:** Review digital citizenship guidelines and establish adult leader supervision before searching online historical archives or public correspondence records.
 - **Common Myth:** Baden-Powell originally designed Scouting as a military recruitment program to train young British boys for frontline combat.
 - **Pamphlet Fact:** Robert Baden-Powell adapted observation exercises from his 1899 military manual Aids to Scouting into peacetime youth training after seeing boys reading it across Britain.
@@ -105,7 +105,7 @@
 - **Pamphlet Fact:** The 1920 First World Scout Jamboree at London Olympia hall brought together eight thousand scouts from thirty-four nations.
 
 **Official Pamphlet Summary:**
-- Milestone events and publications established uniform field traditions and shared communication channels across diverse international borders. Groundbreaking assemblies and official periodicals united scattered patrols under standard global advancement ranks.
+- Milestone events and publications established uniform field traditions and shared communication channels across diverse international borders. Pioneering assemblies and official periodicals united scattered patrols under standard global advancement ranks.
 - Req 2b Standard (Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)): Discuss the significance to Scouting of any TWO of the following: (1) Brownsea Island (2) The First World Scout Jamboree (3) Scouts BSA Handbook (4) Scout Life magazine (formerly Boys' Life ) Resources: Artifact of the Week, Boys' Life to Scout Life (video) The Story of Boys' Life / Scout Life (video)
 
 #### Req 2b(1): Brownsea Island Experimental Scout Camp
@@ -166,7 +166,7 @@
 
 ### Req 3: Program Adaptation Across Decades
 **Official Requirement 3:** Discuss with your counselor how Scouting's programs have developed over time and been adapted to fit different age groups and interests (Cub Scouting, Scouts BSA, Exploring, Venturing).
-**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 38, p. 40)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor How)
+**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 38, p. 40)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)
 > **Guide to Safe Scouting Warning:** Ensure all modern youth protection rules and age-appropriate activity guidelines from the Guide to Safe Scouting are observed during comparisons.
 - **Common Myth:** All current scouting divisions existed simultaneously with identical age boundaries and coeducational structures from the 1910 founding.
 - **Pamphlet Fact:** Cub Scouting began officially in 1930 to serve younger boys, while Exploring and Venturing evolved for teenagers.
@@ -268,7 +268,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for History of Your Unit Council.
 - [ ] Buddy-pair checklist and counselor review rubric.
 
-![Museum display cases showcase historic Scouting memorabilia and gear.](/assets/pamphlet_images/scouting_heritage_p059_img1.png)
+![Museum display cases display historic Scouting memorabilia and gear.](/assets/pamphlet_images/scouting_heritage_p059_img1.png)
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -310,7 +310,7 @@
 
 ### Req 7: Historic Field Games Recreation
 **Official Requirement 7:** Reproduce the equipment for an old-time Scouting game such as those played at Brownsea Island. You may find one on your own (with your counselor's approval) or pick one from the Scouting Heritage merit badge pamphlet. Teach and play the game with other Scouts.
-**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 8, p. 11)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Reproduce The Equipment for An)
+**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 8, p. 11)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Reproduce the Equipment for An)
 > **Guide to Safe Scouting Warning:** Ensure throwing lanes are cleared of bystanders, sand all wooden components smooth, and pad blunt projectile tips before play.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Scouting Heritage Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Games played at the 1907 Brownsea Island camp were modern sport games identical to dodgeball and basketball.
@@ -334,7 +334,7 @@
 
 ### Req 8: Oral History Veteran Interviews
 **Official Requirement 8:** Interview at least three people (different from those you interviewed for requirement 5) over the age of 40 who were Scouts. Find out about their Scouting experiences. Ask about the impact that Scouting has had on their lives. Share what you learned with your counselor.
-**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 10, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (People Different From Those You)
+**Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 10, p. 60)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (People Different from Those You)
 > **Guide to Safe Scouting Warning:** Follow youth protection protocols by ensuring a parent or second adult is present during all in-person or virtual interviews.
 - **Common Myth:** Adults who were scouts decades ago only remember merit badge requirements and have forgotten long-term life impacts.
 - **Pamphlet Fact:** Scouting alumni who earned Eagle Scout or attended national camps frequently attribute their adult leadership styles to the patrol method.

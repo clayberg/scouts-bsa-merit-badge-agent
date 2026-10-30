@@ -92,7 +92,7 @@
 
 #### Req 1d: Ethics of Voluntary Legal Adherence
 **Official Requirement 1d:** Why everyone should follow the law even when no one is watching.
-**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Everyone Should Follow The Law)
+**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Everyone Should Follow the Law)
 - **Common Myth:** Laws only carry binding authority when active law enforcement patrols monitor immediate individual conduct.
 - **Pamphlet Fact:** Unseen civic integrity creates trust and prevents social breakdown in democratic self-governing neighborhoods.
 
@@ -128,7 +128,7 @@
 **Official Pamphlet Summary:**
 - Citizen Watch Programs: Active neighborhood surveillance and prompt reporting eliminate opportunistic burglary conditions around residential streets.
 - Educational Defense Frameworks: School resource officers and faculty implement anti-bullying policies to safeguard educational environments.
-- Civic Group Involvement: Youth organizations foster positive social engagement that directs adolescent energy away from gangs.
+- Civic Group Involvement: Youth organizations build positive social engagement that directs adolescent energy away from gangs.
 - Multi Agency Synchronization: Private security officers complement sworn police forces through targeted physical perimeter asset protection.
 
 #### Req 2a: Citizen and Youth Crime Deterrence
@@ -345,7 +345,7 @@
 
 #### Req 4c: EDGE Method Security Instruction
 **Official Requirement 4c:** Use information from your survey for requirement 4(b) and the EDGE method to develop a lesson about how a family or Scouts can protect themselves from crime. Review your teaching plan with your counselor, then present your lesson to your family or to Scouts.
-**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Information From Your Survey)
+**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Information from Your Survey)
 - **Common Myth:** Scouts master personal safety techniques merely by reading printed checklist pamphlets without practical demonstration.
 - **Pamphlet Fact:** Effective safety training requires demonstrations, hands-on practice, and clear practical feedback using the EDGE method.
 
@@ -387,7 +387,7 @@
 
 #### Req 5b: Retail Loss Prevention Methodologies
 **Official Requirement 5b:** Techniques used by retail stores to prevent shoplifting.
-**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Techniques Used By Retail)
+**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Techniques Used by Retail)
 - **Common Myth:** Retailers rely exclusively on uniformed security guards chasing suspects down public sidewalks to prevent theft.
 - **Pamphlet Fact:** Strategic merchandise placement, convex mirrors, and attentive customer service deter shoplifting without physical force.
 
@@ -470,7 +470,7 @@
 - **Pamphlet Fact:** Positive peer accountability buffers teenagers against delinquent recruitment and empowers assertive refusal of illegal dares.
 
 **Official Pamphlet Summary:**
-- Constructive peer groups encourage legal compliance while negative peer pressure fosters delinquency.
+- Constructive peer groups encourage legal compliance while negative peer pressure builds delinquency.
 - Confident refusal statements paired with alternative activities effectively neutralize coercive social pressure.
 - Hazing Danger Signs: Coercive group initiation rituals involving physical degradation signal dangerous, illegal organizational behavior.
 - Gang Recruitment Disruption: Street gangs exploit adolescent vulnerability by using youth as couriers for illegal distribution.
@@ -553,7 +553,7 @@
 #### Req 8b: Substance Impairment and Victimization Vulnerability
 **Official Requirement 8b:** How substance use contributes to violence and property crime and increases a person's risk of becoming a victim of crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Substance Use Contributes to Violence)
-- **Common Myth:** Substance intoxication only leads to nonviolent traffic offenses without elevating risk for violent crime victimization.
+- **Common Myth:** Substance intoxication only leads to nonviolent traffic offenses without raising risk for violent crime victimization.
 - **Pamphlet Fact:** Intoxication impairs situational awareness and physical coordination, making impaired individuals primary targets for muggers.
 
 | Req 8b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
@@ -601,7 +601,7 @@
 
 #### Req 9a: Online Crime Avoidance Strategies
 **Official Requirement 9a:** How to avoid being the victim of online crimes.
-**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Avoid Being The Victim of)
+**Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Avoid Being the Victim of)
 - **Common Myth:** Browsing the internet on a smartphone is inherently immune to malicious malware and credential harvesting.
 - **Pamphlet Fact:** Verifying sender domain addresses and avoiding public Wi-Fi transactions protects personal data from network snooping.
 

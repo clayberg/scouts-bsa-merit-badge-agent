@@ -13,13 +13,13 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Environmental Science Foundation Principles | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 77, p. 91) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Ecology And Ecosystem Dynamics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Ecology and Ecosystem Dynamics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Atmospheric Air Pollution Assessment | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Hydrological Water Quality Management | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Terrestrial Land Pollution Mitigation | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Endangered Species Conservation Ecology | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Pollution Prevention And Resource Recovery | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Pollination Ecology And Agriculture | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Pollution Prevention and Resource Recovery | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Pollination Ecology and Agriculture | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Invasive Species Ecosystem Disruption | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 70) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **10** | Req 10: Construction Environmental Impact Assessment | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 71) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **11** | Req 11: Environmental Science Career Pathways | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Environmental Science Merit Badge Pamphlet (p. 76, p. 77) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -57,7 +57,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Ecology And Ecosystem Dynamics
+### Req 2: Ecology and Ecosystem Dynamics
 **Official Requirement 2 (Parent Overview):** Ecology. Do the following and discuss with your counselor: (a) Choose an area approved by your counselor and observe (sight, sound, and smell) its ecosystem over a two-day period. (b) Make notes about the living, nonliving (e. g., rocks), and formerly living components. Include information about interactions among the components, including the food chain, predators, native species, and invasive species, and identify how human activities have affected the ecosystem.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Survey the selected plot for stinging insects, poison ivy, and unstable terrain before beginning observations.
@@ -92,11 +92,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Biotic And Abiotic Interactions
+#### Req 2b: Biotic and Abiotic Interactions
 **Official Requirement 2b:** Make notes about the living, nonliving (e. g., rocks), and formerly living components. Include information about interactions among the components, including the food chain, predators, native species, and invasive species, and identify how human activities have affected the ecosystem.
-**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Notes About The Living Nonliving)
+**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Notes About the Living Nonliving)
 - **Common Myth:** Scouts often assume dead logs and dry leaves are nonliving rather than formerly living matter.
-- **Pamphlet Fact:** Abiotic structures like deadwood and rock crevices provide crucial microhabitats and thermal shelter.
+- **Pamphlet Fact:** Abiotic structures like deadwood and rock crevices provide essential microhabitats and thermal shelter.
 
 ![Serpentine larval galleries under tree bark show damage caused by wood-boring insect species.](/assets/pamphlet_images/environmental_science_p067_img1.png)
 
@@ -153,7 +153,7 @@
 
 #### Req 3c: Clean Air Act Progress
 **Official Requirement 3c:** Learn about the Clean Air Act. Make notes on when it was passed, its environmental goals, what progress has been made and what remains to be done to achieve the law's goals. Describe the impact, benefits, and costs of the law as well as what is required to implement and enforce the law.
-**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Learn About The Clean Air)
+**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Learn About the Clean Air)
 - **Common Myth:** Scouts often assume federal air pollution laws immediately halted all industrial emissions nationwide.
 - **Pamphlet Fact:** The Clean Air Act has drastically lowered criteria pollutants while the national economy grew.
 
@@ -195,7 +195,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Hydrological Flooding And Drought
+#### Req 4b: Hydrological Flooding and Drought
 **Official Requirement 4b:** Identify a local or regional area that experiences periodic flooding and/or drought. Collect facts on prior event(s) and investigate the environmental impacts of these extreme events.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Local or Regional Area That)
 - **Common Myth:** Scouts often believe that periodic flooding is entirely unnatural and always destroys ecosystems.
@@ -212,7 +212,7 @@
 
 #### Req 4c: Clean Water Act Legislation
 **Official Requirement 4c:** Learn about the Clean Water Act. Make notes on when it was passed, its environmental goals, what progress has been made and what remains to be done to achieve the law's goals. Describe the impact, benefits, and costs of the law as well as what is required to implement and enforce the law.
-**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Learn About The Clean Water)
+**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Learn About the Clean Water)
 - **Common Myth:** Scouts often think the Clean Water Act regulates private residential drinking wells.
 - **Pamphlet Fact:** The Clean Water Act established the National Pollutant Discharge Elimination System permit program.
 
@@ -256,9 +256,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b: Soil Erosion And Deposition
+#### Req 5b: Soil Erosion and Deposition
 **Official Requirement 5b:** Learn about the erosion process and identify an example of where erosion occurs. Determine where the eroded material ends up and how erosion can be minimized.
-**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Learn About The Erosion Process)
+**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Learn About the Erosion Process)
 - **Common Myth:** Scouts often believe erosion is only a natural geological event that humans cannot alter.
 - **Pamphlet Fact:** Eroded soil is the leading freshwater pollutant by volume in American waterways.
 
@@ -351,7 +351,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Pollution Prevention And Resource Recovery
+### Req 7: Pollution Prevention and Resource Recovery
 **Official Requirement 7 (Parent Overview):** Pollution Prevention, Resource Recovery, and Conservation. Do ONE of the following and discuss with your counselor: (a) Determine five ways to conserve resources or use resources more efficiently in your home, school, or camp. Practice at least two of these methods for at least one week. (b) Explain Resource Recovery and why it is important to reduce pollution. Collect samples or take photos of 10 items that can demonstrate the principle of Reduce, Reuse, Recycle. Explain your collection, how these materials are currently handled, and potential improvements. (c) Identify five items in your household that will become hazardous waste. Explain how they should be properly stored, what special care is needed for disposal, and proper disposal options available in your area.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Never mix household chemicals together because dangerous toxic chlorine gases may evolve.
@@ -410,7 +410,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Pollination Ecology And Agriculture
+### Req 8: Pollination Ecology and Agriculture
 **Official Requirement 8 (Parent Overview):** Pollination. Do ONE of the following and discuss with your counselor: (a) Investigate pollination and its importance to our environment and ecosystems. Make a list of five pollinators and the plants that attract them in your region. Explain the importance of pollinators and what Scouts can do to support pollinators in their area. (b) Visit an area with flowering plants during pollination season for an hour to observe pollination. Record which pollinators are attracted to which plant. Explain the importance of pollinators and what Scouts can do to support pollinators in their area. (c) Learn about the importance of pollination to agriculture, including the economic costs and benefits. Identify four crop-pollinator pairs. Explain the relationship of pollinators to agriculture.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Maintain calm posture around foraging stinging insects to prevent accidental defensive stings.
@@ -441,7 +441,7 @@
 
 #### Req 8b: Pollination Field Observation Survey
 **Official Requirement 8b:** Visit an area with flowering plants during pollination season for an hour to observe pollination. Record which pollinators are attracted to which plant. Explain the importance of pollinators and what Scouts can do to support pollinators in their area.
-**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Activity & Observation Log):** Req 8b Quantitative Field Observation & Activity Log (Area With Flowering Plants During)
+**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Activity & Observation Log):** Req 8b Quantitative Field Observation & Activity Log (Area with Flowering Plants During)
 - **Common Myth:** Scouts often think insects visit flowers randomly without any preference or pattern.
 - **Pamphlet Fact:** Pollinators exhibit flower constancy, visiting one flower species repeatedly during a forage flight.
 
@@ -457,7 +457,7 @@
 
 #### Req 8c: Agricultural Pollination Economic Value
 **Official Requirement 8c:** Learn about the importance of pollination to agriculture, including the economic costs and benefits. Identify four crop-pollinator pairs. Explain the relationship of pollinators to agriculture.
-**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Learn About The Importance of)
+**Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Learn About the Importance of)
 - **Common Myth:** Scouts often think staple grains like corn and wheat require insect pollination.
 - **Pamphlet Fact:** Almonds, apples, and blueberries depend heavily on managed and wild pollinator services.
 

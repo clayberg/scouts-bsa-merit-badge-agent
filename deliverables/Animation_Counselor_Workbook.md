@@ -119,7 +119,7 @@
 
 #### Req 3a(1): Initial Storyboard and Layout Planning
 **Official Requirement 3a(1):** Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program.
-**Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches And/or)
+**Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches and/or)
 - **Common Myth:** Thumbnail sketches must be fully rendered, polished artwork with complete character details before animation begins.
 - **Pamphlet Fact:** Thumbnails serve as quick, simplified gesture drawings that map out motion paths, timing, and scene composition rather than final visual polish.
 
@@ -180,7 +180,7 @@
 
 #### Req 3b(1): Alternative Technique Storyboard and Staging
 **Official Requirement 3b(1):** Plan your animation using thumbnail sketches and/or layout drawings.
-**Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches And/or)
+**Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches and/or)
 - **Common Myth:** Stop motion and clay animations do not need storyboards because animators can invent physical poses spontaneously during filming.
 - **Pamphlet Fact:** Physical stop motion requires thorough planning with thumbnail sketches because moving or resetting physical puppets without a visual guide creates erratic motion and continuity breaks.
 
@@ -259,7 +259,7 @@
 
 #### Req 4b: Future Applications of Animation
 **Official Requirement 4b:** Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive.
-**Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor How)
+**Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)
 - **Common Myth:** Novices often consider future animation advancements solely as improvements in graphic resolution.
 - **Pamphlet Fact:** Emerging animation technologies focus heavily on real time interactive simulation, virtual training, and spatial visualization.
 

@@ -99,7 +99,7 @@
 
 #### Req 1e: Firearm Ownership Legal Frameworks
 **Official Requirement 1e:** Explain the main points of the laws for owning and using guns in your community and state.
-**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Main Points of The Laws)
+**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Main Points of the Laws)
 - **Common Myth:** State firearm laws are identical across all jurisdictions and allow open carry in vehicles.
 - **Pamphlet Fact:** Federal, state, and local ordinances define minimum ownership ages, storage standards, and transportation criteria.
 
@@ -113,7 +113,7 @@
 
 #### Req 1f: Wildlife Resource Conservation Principles
 **Official Requirement 1f:** Explain how hunting is related to the wise use of renewable wildlife resources.
-**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Hunting Is Related to The)
+**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Hunting Is Related to the)
 - **Common Myth:** Hunting depletes game populations without contributing to the overall preservation of regional wildlife habitats.
 - **Pamphlet Fact:** Regulated hunting fees and excise taxes provide primary funding for state wildlife agency conservation programs.
 
@@ -335,7 +335,7 @@
 
 #### Req 2a(10): Moving Target Fundamentals and Marksmanship
 **Official Requirement 2a(10):** Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house.
-**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(10) Structured Technical Study & Explanation Matrix (Moving Target With A Shotgun)
+**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(10) Structured Technical Study & Explanation Matrix (Moving Target with A Shotgun)
 - **Common Myth:** Shooters should aim directly at the moving clay target and stop the gun swing the instant they pull the trigger.
 - **Pamphlet Fact:** Effective shotgun marksmanship requires pointing ahead of the target to establish lead and continuing the smooth barrel swing through trigger release.
 
@@ -518,7 +518,7 @@
 
 #### Req 2b(13): Moving Target Marksmanship Qualification
 **Official Requirement 2b(13):** Shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 5 out of 15 targets in each of two 15-target groups. The two groups need not be shot in consecutive order. A minimum of 30 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. A 10 gauge or smaller muzzleloading rifle in appropriate size for the participant may be used. Matchlock, wheellock, or flintlock firearms are not approved. Standard clay targets customarily used for trap and skeet are to be used. On a standard trap field, the shooter should be positioned 8 yards behind the trap house. The trap should be set to throw only straightaway targets. If using a skeet field, shoot station 7 low house.
-**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(13) Structured Technical Study & Explanation Matrix (Moving Target With A Muzzleloading)
+**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(13) Structured Technical Study & Explanation Matrix (Moving Target with A Muzzleloading)
 - **Common Myth:** Stopping the swing at the exact moment of pulling the trigger ensures an accurate shot by aligning the muzzle directly with the moving clay bird.
 - **Pamphlet Fact:** Halting the swing when pulling the trigger causes the shot pattern to pass well behind a moving target because the clay continues traveling while the shot column travels down the barrel and through the air.
 

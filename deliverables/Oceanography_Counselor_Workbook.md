@@ -93,7 +93,7 @@
 
 #### Req 3a: Distinctions Among Extreme Marine Waves
 **Official Requirement 3a:** Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore.
-**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Organizer (2-Column Comparison Table):** Req 3a Technical Comparison Matrix (Out The Differences Among The)
+**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Organizer (2-Column Comparison Table):** Req 3a Technical Comparison Matrix (Out the Differences Among the)
 - **Common Myth:** Scouts frequently assume that tidal waves are simply unusually large storm surges.
 - **Pamphlet Fact:** A storm surge is driven by low pressure and wind, while tsunamis stem from seismic displacement.
 
@@ -266,7 +266,7 @@
 
 #### Req 7a: Plankton Sampling Net Construction
 **Official Requirement 7a:** Make a plankton net. Tow the net by a dock, wade with it, hold it in a current, or tow it from a rowboat. Do this for about 20 minutes. Save the sample. Examine it under a microscope or high-power glass. Identify the three most common types of plankton in the sample. Note: May be done in lakes or streams.
-**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Plankton Net Tow The Net)
+**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Plankton Net Tow the Net)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Oceanography Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Scouts often assume towing a net faster captures a greater density of marine plankton.
 - **Pamphlet Fact:** Tow nets require slow speeds to prevent water backwash and mesh blowout while collecting plankton.
@@ -306,7 +306,7 @@
 
 #### Req 7c: Water Column Thermal Profiling
 **Official Requirement 7c:** Measure the water temperature at the surface, midwater, and bottom of a body of water four times daily for five consecutive days. You may measure depth with a rock tied to a line. Make a Secchi disk to measure turbidity (how much suspended sedimentation is in the water). Measure the air temperature. Note the cloud cover and roughness of the water. Show your findings (air and water temperature, turbidity) on a graph. Tell how the water temperature changes with air temperature.
-**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Water Temperature At The Surface)
+**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist (Water Temperature at the Surface)
 - **Common Myth:** Scouts believe shallow water bodies maintain identical temperatures from surface to muddy bottom throughout daytime.
 - **Pamphlet Fact:** Water bodies develop a warm epilimnion, sharp thermocline, and cold hypolimnion through solar warming.
 
@@ -323,7 +323,7 @@
 
 #### Req 7d: Inshore Sediment Transport Modeling
 **Official Requirement 7d:** Make a model showing the inshore sediment movement by littoral currents, tidal movement, and wave action. Include such formations as high and low waterlines, low-tide terrace, berm, and coastal cliffs. Show how offshore bars are built up and torn down.
-**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist (Model Showing The Inshore Sediment)
+**Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist (Model Showing the Inshore Sediment)
 - **Common Myth:** Scouts think beach sand simply moves straight in and out with rising and falling tides.
 - **Pamphlet Fact:** Littoral drift transports sand along the coast through combined zig-zag swash action and longshore currents.
 

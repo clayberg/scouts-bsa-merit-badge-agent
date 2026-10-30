@@ -34,7 +34,7 @@
 
 ### Req 1: First Amendment Press Freedoms
 **Official Requirement 1:** Explain what freedom of the press is and how the First Amendment guarantees that you can voice your opinion. In your discussion, tell how to distinguish between fact and opinion, and explain the terms libel, slander, defamation, fair comment and criticism, public figure, privacy, and malice. Discuss how these matters relate to ethics in journalism.
-**Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Freedom of The Press)
+**Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 20, p. 62)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Freedom of the Press)
 > **Guide to Safe Scouting Warning:** When covering controversial disputes, conduct public interviews in designated neutral locations and exit hostile situations promptly.
 - **Common Myth:** Freedom of the press allows reporters to publish any damaging statement without legal consequence.
 - **Pamphlet Fact:** The First Amendment does not protect reporters from civil liability when publishing defamatory falsehoods.
@@ -92,7 +92,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(2): Newsroom Editorial And Business Independence
+#### Req 2a(2): Newsroom Editorial and Business Independence
 **Official Requirement 2a(2):** Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a "good" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 2a(2) Structured Technical Study & Explanation Matrix (Office of A Newspaper Magazine)
 - **Common Myth:** Commercial advertisers who purchase ads in a newspaper or on a news website have the power to approve news articles and suppress unfavorable stories.
@@ -165,7 +165,7 @@
 > **Guide to Safe Scouting Warning:** Never approach moving machinery or restricted emergency perimeters while collecting field notes at active news events.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Journalism Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** A hard news lead should build suspense by withholding key facts until the final paragraph.
-- **Pamphlet Fact:** Hard news leads prioritize immediacy by presenting the most crucial information in the very first sentence.
+- **Pamphlet Fact:** Hard news leads prioritize immediacy by presenting the most essential information in the very first sentence.
 
 **Official Pamphlet Summary:**
 - Hard News: Urgent reports deliver vital public interest facts without flowery description or dramatic suspense.
@@ -209,7 +209,7 @@
 
 #### Req 3c: Journalist Autobiography Research Review
 **Official Requirement 3c:** With your parent or guardian's permission and counselor's approval, read an autobiography written by a journalist you want to learn more about. Write an article that tells what you learned about this person and the contributions this person has made to the field of journalism.
-**Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Autobiography Written By A Journalist)
+**Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Autobiography Written by A Journalist)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Journalism Req 3c preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Autobiographies written by journalists focus solely on personal adventure rather than newsgathering ethics.
 - **Pamphlet Fact:** Journalist memoirs document technical tradecraft, ethical decision making, and historical press freedom battles in extensive detail.
@@ -254,7 +254,7 @@
 
 #### Req 4a: Dual Structure Article Production
 **Official Requirement 4a:** Write two articles about the event, one using the inverted pyramid style and one using the chronological style.
-**Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Articles About The Event)
+**Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Articles About the Event)
 - **Common Myth:** Chronological news writing simply copies raw field notes in order without editorial selection.
 - **Pamphlet Fact:** Chronological articles still require intentional narrative pacing, selective detail inclusion, and clear contextual signposts for readers.
 
@@ -285,7 +285,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Photojournalism Storytelling And Captions
+#### Req 4c: Photojournalism Storytelling and Captions
 **Official Requirement 4c:** Take a series of photographs to help tell the story of the event in pictures. Include news photos and feature photos in your presentation. Write a brief synopsis of the event as well as captions for your photos.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Series of Photographs to Help)
 - **Common Myth:** Photojournalists are allowed to alter digital images and remove background objects to create better compositions.

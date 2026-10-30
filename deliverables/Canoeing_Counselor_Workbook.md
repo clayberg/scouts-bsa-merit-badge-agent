@@ -144,7 +144,7 @@
 
 #### Req 3a: Canoe Structural Component Identification
 **Official Requirement 3a:** Name and point out the major parts of a canoe.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Out The Major)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Out the Major)
 - **Common Myth:** The bow and stern decks have identical designs and identical internal flotation volumes.
 - **Pamphlet Fact:** Thwarts brace the gunwales against water pressure and must never serve as passenger seating.
 
@@ -308,7 +308,7 @@
 
 #### Req 7a: Safe Canoe Launching Protocols
 **Official Requirement 7a:** Safely carry and launch the canoe from a dock or shore (both, if possible)
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Launch The Canoe From A)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Launch the Canoe from A)
 - **Common Myth:** The stern paddler should push the canoe perpendicular into deep water before boarding.
 - **Pamphlet Fact:** Boarding one person at a time while maintaining gunwale contact prevents shoreline tipping accidents.
 
@@ -328,7 +328,7 @@
 
 #### Req 7b: Controlled Dock Shoreline Landings
 **Official Requirement 7b:** Safely land the canoe on a dock or shore (both, if possible) and return it to its proper storage location.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Land The Canoe on A)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Land the Canoe on A)
 - **Common Myth:** Canoes should ram directly into mud or sand shores at full forward paddling speed.
 - **Pamphlet Fact:** Landing parallel to shore in shallow water prevents grounding damage to the bow stem.
 
@@ -383,7 +383,7 @@
 
 #### Req 8a: Deep Water Self Reentry
 **Official Requirement 8a:** Safely exit the canoe in deep water without losing contact with the canoe. Reenter the canoe with the assistance of the other paddler without capsizing the boat.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Exit The Canoe in Deep)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Exit the Canoe in Deep)
 - **Common Myth:** Reentering a canoe requires pulling down forcefully with arms without kicking the legs.
 - **Pamphlet Fact:** Kicking your feet to horizontal enables sliding your chest smoothly across the gunwale edge.
 
@@ -404,7 +404,7 @@
 
 #### Req 8b: Controlled Capsize Flotation Support
 **Official Requirement 8b:** Safely perform a controlled capsize of the canoe and demonstrate how staying with a capsized canoe will support both paddlers.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist (Controlled Capsize of The Canoe)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist (Controlled Capsize of the Canoe)
 - **Common Myth:** A fully swamped aluminum or composite canoe will sink straight to lake bottoms.
 - **Pamphlet Fact:** Holding onto opposing ends of a capsized canoe keeps paddlers afloat and visible.
 
@@ -462,7 +462,7 @@
 
 #### Req 8f: Rescue Throw Bag Deployment
 **Official Requirement 8f:** Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30 feet away. Show how to repack the bag when done.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 8f Hands-On Skill Station & EDGE Verification Checklist (Rescue Throw Bag From Shore)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 8f Hands-On Skill Station & EDGE Verification Checklist (Rescue Throw Bag from Shore)
 - **Common Myth:** Coiling rescue rope in loops before throwing delivers greater distance and accuracy.
 - **Pamphlet Fact:** Stuffing throw rope loosely into the bag by hand prevents knots during subsequent deployments.
 
@@ -490,7 +490,7 @@
 
 #### Req 9a: Stationary Pivot Hull Rotation
 **Official Requirement 9a:** Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to the left using draw and pushaway strokes or using forward and reverse sweeps staying within 2 boat lengths of the starting position.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9a Structured Technical Study & Explanation Matrix (Pivot Spin The Canoe Half)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9a Structured Technical Study & Explanation Matrix (Pivot Spin the Canoe Half)
 - **Common Myth:** Pivoting a canoe requires moving forward through a large wide steering circle.
 - **Pamphlet Fact:** Simultaneous draw and pushaway strokes by bow and stern spin the canoe in place.
 
@@ -540,7 +540,7 @@
 
 #### Req 9c: Controlled Forward Motion Stop
 **Official Requirement 9c:** While in forward motion, stop the canoe within two boat lengths using the backstroke.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Forward Motion Stop The Canoe)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Forward Motion Stop the Canoe)
 - **Common Myth:** Dragging paddles flat alongside the gunwale stops a moving canoe faster than backstroking.
 - **Pamphlet Fact:** Placing blade faces square against forward water flow arrests hull glide within two lengths.
 
@@ -568,7 +568,7 @@
 
 #### Req 9e: Tandem Forward Straight Cruising
 **Official Requirement 9e:** Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as necessary the forward stroke, draw stroke or forward sweep and the stern paddler using an appropriate steering stroke, e. g., the J-stroke or thumb-down rudder stroke with or without a stern pry.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9e Structured Technical Study & Explanation Matrix (Move The Canoe in A)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9e Structured Technical Study & Explanation Matrix (Move the Canoe in A)
 - **Common Myth:** The stern paddler should dictate the stroke rate and cadence for tandem crews.
 - **Pamphlet Fact:** Setting a steady rhythm in the bow enables the stern paddler to match cadence.
 
@@ -590,7 +590,7 @@
 
 #### Req 9f: Moving Arc Turn Execution
 **Official Requirement 9f:** While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat lengths with the bow paddler using as necessary either the draw stroke or forward sweep and the stern paddler using only the forward stroke. Repeat the maneuver turning the canoe 90° to the left.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9f Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn The)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9f Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn the)
 - **Common Myth:** Turning right always requires both paddlers to backpaddle furiously on the right side.
 - **Pamphlet Fact:** A forward sweep in the bow swings the nose across water through an arc.
 
@@ -611,7 +611,7 @@
 
 #### Req 9g: Reverse Straight Line Travel
 **Official Requirement 9g:** Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back stroke, reverse sweep or draw stroke in the bow or the stern.
-**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9g Structured Technical Study & Explanation Matrix (Move The Canoe Backwards)
+**Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9g Structured Technical Study & Explanation Matrix (Move the Canoe Backwards)
 - **Common Myth:** Backing up requires paddlers to turn their bodies completely around in seats.
 - **Pamphlet Fact:** Reversing paddle orientation while keeping blade faces vertical propels the canoe backwards in line.
 

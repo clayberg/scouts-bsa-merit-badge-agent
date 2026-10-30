@@ -78,7 +78,7 @@
 
 ### Req 2: Community Disability Agency Site Visit
 **Official Requirement 2:** Visit an agency that works with people with physical, mental, emotional, or educational disabilities. Collect and read information about the agency's activities. Learn about opportunities its members have for training, employment, and education. Discuss what you have learned with your counselor.
-**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Agency That Works With People)
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 56)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Agency That Works with People)
 > **Guide to Safe Scouting Warning:** Maintain strict client confidentiality by never photographing, recording, or publishing client medical data or faces during agency tours.
 - **Common Myth:** Disability agencies primarily function as sheltered care facilities offering non-vocational daytime supervision.
 - **Pamphlet Fact:** Modern disability organizations prioritize competitive integrated employment and autonomous community living outcomes.
@@ -120,7 +120,7 @@
 
 #### Req 3a: Scout Experience and Advancement Discussion
 **Official Requirement 3a:** Talk with a Scout who has a disability and learn about the Scout's experiences taking part in Scouting activities and earning different merit badges. Discuss what you have learned with your counselor.
-**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Talk With A Scout Who)
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Talk with A Scout Who)
 - **Common Myth:** Scouts with disabilities receive automatic waivers that exempt them from fulfilling badge skills.
 - **Pamphlet Fact:** Scouts must fulfill equivalent requirements approved through official council advancement committees without lowering standards.
 
@@ -135,7 +135,7 @@
 
 #### Req 3b: Community Member Perspective Interview
 **Official Requirement 3b:** Talk with an individual who has a disability and learn about this person's experiences and the activities in which this person likes to participate. Discuss what you have learned with your counselor.
-**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Talk With An Individual Who)
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Talk with An Individual Who)
 - **Common Myth:** People with disabilities define their personal identities solely around their diagnosed medical condition.
 - **Pamphlet Fact:** Disability represents only one facet of a person's identity alongside hobbies, careers, family, and interests.
 
@@ -150,7 +150,7 @@
 
 #### Req 3c: Adaptive Sports and Recreation
 **Official Requirement 3c:** Learn how people with disabilities take part in a particular adaptive sport or recreational activity. Discuss what you have learned with your counselor.
-**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Learn How People With Disabilities)
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Learn How People with Disabilities)
 - **Common Myth:** Adaptive sports are simplified recreational games that lack true competitive athletic rigor.
 - **Pamphlet Fact:** Adaptive sports feature elite Paralympic competition demanding rigorous athletic training, strategy, and specialized equipment.
 

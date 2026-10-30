@@ -99,7 +99,7 @@
 
 #### Req 3a: Compass Design and Mechanics
 **Official Requirement 3a:** Explain how a compass works. Describe the features of an orienteering compass.
-**Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Compass Works Describe The Features)
+**Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Compass Works Describe the Features)
 - **Common Myth:** Orienteering compasses function identically to standard military lensatic compasses in map plotting workflows.
 - **Pamphlet Fact:** Baseplates provide directional travel arrows and scaled edges specifically designed for direct map plot calculations.
 
@@ -209,7 +209,7 @@
 
 #### Req 4d: Magnetic North Meridian Alignment
 **Official Requirement 4d:** Show a topographic map with magnetic north-south lines.
-**Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Topographic Map With Magnetic North-south)
+**Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Topographic Map with Magnetic North-south)
 - **Common Myth:** Maps cannot be altered by drawing custom grid lines across the surveyed cartography.
 - **Pamphlet Fact:** Parallel magnetic meridian lines drawn across the sheet eliminate mathematical mental conversions in high speed competition.
 

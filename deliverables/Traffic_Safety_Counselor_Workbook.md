@@ -63,7 +63,7 @@
 
 #### Req 1b: Substance Impairment Risk Factors
 **Official Requirement 1b:** Explain why a driver impaired by alcohol, drugs, or other substances must not operate a motor vehicle. Describe how alcohol, cold medications, and prescription and illegal drugs affect driving abilities. For the state where you live, find out what is the legal blood alcohol concentration and what are the consequences for driving while intoxicated or driving under the influence. Find out what the open-container law is in your state.
-**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 17, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Driver Impaired By Alcohol Drugs)
+**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 17, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Driver Impaired by Alcohol Drugs)
 - **Common Myth:** Drinking black coffee or taking cold showers quickly restores driving coordination after consuming alcohol.
 - **Pamphlet Fact:** A blood alcohol concentration below the legal limit degrades peripheral vision and tracking skills.
 
@@ -188,7 +188,7 @@
 
 #### Req 3b: Windshield Vision Maintenance Standards
 **Official Requirement 3b:** Explain issues that might affect the driver's ability to see through the front, rear, and side windows. Demonstrate with a smear-and-clear test if the windshield wiper blades will clear the windshield completely or need to be replaced. Describe instances in good and bad weather when windshield wipers are important to safe driving.
-**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Issues That Might Affect The)
+**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Issues That Might Affect the)
 - **Common Myth:** Adding plain tap water to washer reservoirs prevents windshield freezing during harsh winter conditions.
 - **Pamphlet Fact:** Smearing wiper blades leave oily water films that distort oncoming headlamp beams at night.
 
@@ -234,7 +234,7 @@
 
 #### Req 3e: Stopping Distance Field Layout
 **Official Requirement 3e:** In a location away from traffic hazards, mark off the reaction distances and braking distances that a car will travel as it makes an emergency stop at 25, 55, and 70 miles per hour on level dry and level wet pavement. Discuss how these distances change for normal and impaired drivers, for day and night driving, and for weather conditions. Note: Use the graphics template in the Traffic Safety merit badge pamphlet or one approved by your counselor to set up this demonstration.
-**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Location Away From Traffic Hazards)
+**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Location Away from Traffic Hazards)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Traffic Safety Req 3e preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Vehicle braking distance represents the total space required to halt during roadway emergencies.
 - **Pamphlet Fact:** Braking distance quadruples whenever vehicle velocity doubles due to kinetic energy exponential increases.
@@ -418,7 +418,7 @@
 
 #### Req 6d: Commercial Vehicle Blind Spots
 **Official Requirement 6d:** Discuss the risks associated with blind spots on cars and trucks and how drivers can prevent lane change crashes.
-**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 55, p. 59)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Discuss The Risks Associated With)
+**Source:** *Official Scouting America Traffic Safety Merit Badge Pamphlet (p. 55, p. 59)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Discuss the Risks Associated with)
 - **Common Myth:** Large truck rear mirrors eliminate all blind spots directly behind forty-foot freight trailers.
 - **Pamphlet Fact:** Commercial semi-trucks possess vast blind spots extending twenty feet directly in front of grills.
 

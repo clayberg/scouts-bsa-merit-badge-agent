@@ -13,14 +13,14 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Astronomy Field Safety Hazards | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Light And Atmospheric Pollution | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 24, p. 69) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Astronomical Tools And Optics | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Constellation And Star Identification | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Planetary Motion And Observation | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Lunar Features And Orbital Mechanics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Solar Physics And Stellar Colors | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Observational Exploration And Public Outreach | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Astronomy Careers And Personal Hobbies | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Light and Atmospheric Pollution | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 24, p. 69) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Astronomical Tools and Optics | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Constellation and Star Identification | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Planetary Motion and Observation | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Lunar Features and Orbital Mechanics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Solar Physics and Stellar Colors | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Observational Exploration and Public Outreach | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Astronomy Careers and Personal Hobbies | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -61,7 +61,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Field Illness And Eye Care
+#### Req 1b: Field Illness and Eye Care
 **Official Requirement 1b:** Explain first aid for injuries or illnesses such as heat and cold reactions, dehydration, bites and stings, and damage to your eyes that could occur during observations.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
 - **Common Myth:** Hypothermia only occurs during winter observing runs rather than windy autumn evenings.
@@ -91,7 +91,7 @@
 
 #### Req 1d: Safe Solar Observation Methods
 **Official Requirement 1d:** Explain how to safely observe the Sun, objects near the Sun and solar eclipses.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Sun Objects Near The Sun)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Sun Objects Near the Sun)
 - **Common Myth:** Stacking multiple ordinary sunglasses provides sufficient filtration to view a solar eclipse safely.
 - **Pamphlet Fact:** Certified solar filters placed over the telescope objective provide safe direct viewing methods.
 
@@ -103,7 +103,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Light And Atmospheric Pollution
+### Req 2: Light and Atmospheric Pollution
 **Official Requirement 2:** Explain what light pollution is and how it and air pollution affect astronomy.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 24, p. 69)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (Light Pollution and Sky Observation)
 > **Guide to Safe Scouting Warning:** Always monitor footing and maintain buddy pairs when traveling through dark sky preserves.
@@ -124,7 +124,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Astronomical Tools And Optics
+### Req 3: Astronomical Tools and Optics
 **Official Requirement 3 (Parent Overview):** With the aid of diagrams (or real telescopes if available), do the following: (a) Explain why binoculars and telescopes are important astronomical tools. Demonstrate or explain how these tools are used. (b) Describe the similarities and differences of several types of astronomical telescopes, including at least one that observes light beyond the visible part of the spectrum (i. e., radio, X-ray, ultraviolet, or infrared). (c) Explain the purposes of three instruments used with astronomical telescopes. (d) Describe the proper care and storage of telescopes and binoculars both at home and in the field.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Never touch coated optical surfaces directly because human skin oils etch glass coatings.
@@ -137,7 +137,7 @@
 - Reflector telescopes utilize curved parabolic mirrors to bounce light toward the eyepiece.
 - Parabolic radio antennae focus invisible radio frequency wavelengths onto specialized electronic receivers.
 
-#### Req 3a: Binocular And Telescope Fundamentals
+#### Req 3a: Binocular and Telescope Fundamentals
 **Official Requirement 3a:** Explain why binoculars and telescopes are important astronomical tools. Demonstrate or explain how these tools are used.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Binoculars and Telescopes Are Important)
 - **Common Myth:** Binoculars lack sufficient optical power to display astronomical targets like the lunar surface.
@@ -166,9 +166,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Telescope Accessories And Instruments
+#### Req 3c: Telescope Accessories and Instruments
 **Official Requirement 3c:** Explain the purposes of three instruments used with astronomical telescopes.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Instruments Used With Astronomical Telescopes)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Instruments Used with Astronomical Telescopes)
 - **Common Myth:** Eyepiece filters increase the total light entering the optical tube assembly from space.
 - **Pamphlet Fact:** A Barlow lens doubles or triples eyepiece magnification by lengthening the effective focal length.
 
@@ -194,7 +194,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Constellation And Star Identification
+### Req 4: Constellation and Star Identification
 **Official Requirement 4 (Parent Overview):** Do the following (if instruction is done in a planetarium, Scouts must still identify the required stars and constellations outside under the natural night sky): (a) Identify in the sky 10 constellations, at least four of which are in the zodiac. (b) Identify in the sky eight conspicuous stars, five of which are of magnitude 1 or brighter. (c) Make two sketches of the Big Dipper or Cassiopeia from direct observation. In one sketch, show the Big Dipper's or Cassiopeia's orientation in the early evening sky. Make another sketch, showing its position several hours later. In both sketches, show the North Star and the horizon. Record the date and time each sketch was made. (d) Explain what we see when we look at the Milky Way.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)* • **Group Organizer:** Activity & Observation Log
 > **Guide to Safe Scouting Warning:** Maintain stationary positions during sky orientation to avoid stepping into dark terrain depressions.
@@ -242,7 +242,7 @@
 
 #### Req 4c: Circumpolar Constellation Motion Sketches
 **Official Requirement 4c:** Make two sketches of the Big Dipper or Cassiopeia from direct observation. In one sketch, show the Big Dipper's or Cassiopeia's orientation in the early evening sky. Make another sketch, showing its position several hours later. In both sketches, show the North Star and the horizon. Record the date and time each sketch was made.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c Quantitative Field Observation & Activity Log (Sketches of The Big Dipper)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c Quantitative Field Observation & Activity Log (Sketches of the Big Dipper)
 - **Common Myth:** The Big Dipper remains in a fixed sky orientation throughout an entire night.
 - **Pamphlet Fact:** Earth axial rotation causes circumpolar asterisms to rotate counterclockwise around Polaris each night.
 
@@ -279,7 +279,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Planetary Motion And Observation
+### Req 5: Planetary Motion and Observation
 **Official Requirement 5 (Parent Overview):** Do the following: (a) List the names of the five most visible planets. Explain which ones can appear in phases similar to lunar phases and which ones cannot, and explain why. (b) Using the internet (with your parent or guardian's permission) and other resources, find out when each of the five most visible planets that you identified in requirement 5(a) will be observable in the evening sky during the next 12 months, then compile this information in the form of a chart or table. (c) Describe the motion of the planets across the sky. (d) Observe a planet and describe what you saw.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never track Mercury or Venus when they sit dangerously close to the blinding solar disc.
@@ -336,7 +336,7 @@
 
 #### Req 5c: Planetary Motion Along Ecliptic
 **Official Requirement 5c:** Describe the motion of the planets across the sky.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Motion of The Planets Across)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Motion of the Planets Across)
 - **Common Myth:** Planets remain permanently fixed in their positions relative to the background constellations.
 - **Pamphlet Fact:** Planets wander eastward relative to stars, occasionally looping westward during planetary orbital passes.
 
@@ -351,7 +351,7 @@
 #### Req 5d: Direct Telescopic Planetary Observation
 **Official Requirement 5d:** Observe a planet and describe what you saw.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Planet and Describe What You)
-- **Common Myth:** Small telescopes instantly display vibrant colors on planetary surfaces identical to spacecraft photos.
+- **Common Myth:** Small telescopes instantly display bright colors on planetary surfaces identical to spacecraft photos.
 - **Pamphlet Fact:** Atmospheric turbulence causes shimmering that requires waiting for brief moments of clear seeing.
 
 ![Circular star trails swirl above a mountaintop astronomical observatory dome at night.](/assets/pamphlet_images/astronomy_p066_img1.png)
@@ -362,7 +362,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Lunar Features And Orbital Mechanics
+### Req 6: Lunar Features and Orbital Mechanics
 **Official Requirement 6 (Parent Overview):** Do the following: (a) Sketch the face of the Moon and indicate five seas and five craters. Label these landmarks. (b) Sketch the phase and position of the Moon, at the same hour and place, for four nights (or days) within a one-week period by direct observation. Include landmarks on the horizon such as hills, trees, and buildings. Explain the changes you observe. (c) List the factors that keep the Moon in orbit around Earth. (d) With the aid of diagrams, explain the relative positions of the Sun, Earth, and the Moon at the times of lunar and solar eclipses, and at the times of new, first-quarter, full, and last-quarter phases of the Moon.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Use neutral density lunar filters to prevent eye strain during intense full Moon viewing.
@@ -375,9 +375,9 @@
 - Earth gravitational pull provides centripetal acceleration keeping the Moon in circular orbit.
 - Eclipse Orbital Nodes: Eclipses occur only when Moon crosses Earth orbital plane during alignment.
 
-#### Req 6a: Lunar Topography And Landmark Sketching
+#### Req 6a: Lunar Topography and Landmark Sketching
 **Official Requirement 6a:** Sketch the face of the Moon and indicate five seas and five craters. Label these landmarks.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6a Structured Technical Study & Explanation Matrix (Face of The Moon and)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6a Structured Technical Study & Explanation Matrix (Face of the Moon and)
 - **Common Myth:** Lunar craters originate primarily from active volcanic eruptions rather than ancient meteorite impacts.
 - **Pamphlet Fact:** Crater rims cast sharp black shadows because the Moon lacks an atmosphere to scatter light.
 
@@ -406,7 +406,7 @@
 
 #### Req 6b: Multi Night Lunar Tracking Sketches
 **Official Requirement 6b:** Sketch the phase and position of the Moon, at the same hour and place, for four nights (or days) within a one-week period by direct observation. Include landmarks on the horizon such as hills, trees, and buildings. Explain the changes you observe.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6b Structured Technical Study & Explanation Matrix (Phase and Position of The)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6b Structured Technical Study & Explanation Matrix (Phase and Position of the)
 - **Common Myth:** The Moon rises at the exact same hour and horizon position every evening.
 - **Pamphlet Fact:** The Moon moves roughly thirteen degrees eastward across the sky every single twenty four hours.
 
@@ -430,7 +430,7 @@
 
 #### Req 6c: Lunar Orbital Gravitational Mechanics
 **Official Requirement 6c:** List the factors that keep the Moon in orbit around Earth.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Factors That Keep The Moon)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Factors That Keep the Moon)
 - **Common Myth:** There is zero gravity in space holding the Moon in its path around Earth.
 - **Pamphlet Fact:** Forward orbital inertia balances Earth gravitational pull to keep the Moon in stable orbit.
 
@@ -442,9 +442,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d: Lunar Phase And Eclipse Geometry
+#### Req 6d: Lunar Phase and Eclipse Geometry
 **Official Requirement 6d:** With the aid of diagrams, explain the relative positions of the Sun, Earth, and the Moon at the times of lunar and solar eclipses, and at the times of new, first-quarter, full, and last-quarter phases of the Moon.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Aid of Diagrams Explain The)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Aid of Diagrams Explain the)
 - **Common Myth:** Lunar phases are caused by Earth casting a dark shadow on the Moon surface.
 - **Pamphlet Fact:** The Moon orbit is tilted five degrees relative to Earth plane, preventing monthly eclipses.
 
@@ -464,7 +464,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Solar Physics And Stellar Colors
+### Req 7: Solar Physics and Stellar Colors
 **Official Requirement 7 (Parent Overview):** Do the following: (a) Describe the composition of the Sun, its relationship to other stars, and some effects of its radiation on Earth's weather and communications. (b) Define sunspots and describe some of the effects they may have on solar radiation. (c) Identify at least one red star, one blue star, and one yellow star (other than the Sun). Explain the meaning of these colors.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never observe sunspots through optical equipment without factory certified front aperture solar filters installed.
@@ -477,9 +477,9 @@
 - Solar flares and coronal eruptions release charged particles that disrupt radio communications.
 - Surface temperatures dictate stellar wavelengths, making blue stars hottest and red stars coolest.
 
-#### Req 7a: Solar Composition And Terrestrial Radiation
+#### Req 7a: Solar Composition and Terrestrial Radiation
 **Official Requirement 7a:** Describe the composition of the Sun, its relationship to other stars, and some effects of its radiation on Earth's weather and communications.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Composition of The Sun Its)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Composition of the Sun Its)
 - **Common Myth:** Solar radiation consists only of visible light with no magnetic or charged particle components.
 - **Pamphlet Fact:** Coronal mass ejections induce electrical currents that can collapse regional municipal power grid infrastructure.
 
@@ -491,7 +491,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b: Sunspot Dynamics And Solar Activity
+#### Req 7b: Sunspot Dynamics and Solar Activity
 **Official Requirement 7b:** Define sunspots and describe some of the effects they may have on solar radiation.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Sunspots They Have Solar)
 - **Common Myth:** Sunspots are permanent burned out carbon holes floating across the solar photosphere layer.
@@ -505,7 +505,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c: Stellar Classification And Color Temperature
+#### Req 7c: Stellar Classification and Color Temperature
 **Official Requirement 7c:** Identify at least one red star, one blue star, and one yellow star (other than the Sun). Explain the meaning of these colors.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Red Star One Blue Star)
 - **Common Myth:** All night stars share identical temperatures and differ in color only because of atmospheric dust.
@@ -520,7 +520,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Observational Exploration And Public Outreach
+### Req 8: Observational Exploration and Public Outreach
 **Official Requirement 8 (Parent Overview):** With your counselor's approval and guidance, do ONE of the following: (a) Visit a planetarium or astronomical observatory. Submit a written report, a scrapbook, OR a video presentation afterward to your counselor that includes the following information: activities occurring there, exhibits and displays you saw, telescopes and other instruments being used, and celestial objects you observed. (b) Plan and participate in an observation session that includes using binoculars or a telescope and includes at least 10 celestial objects beyond those observed in requirement 4. These might be lunar features, Messier objects, additional constellations or planets, or artificial satellites including the International Space Station. List the celestial objects you want to observe and find each in a star chart, guidebook or by using an app. Prepare a log or notebook. Discuss with your counselor what you hope to observe prior to your observation session. Review your log or notebook with your counselor afterward. (c) Plan and host a star party for your Scout troop or other group such as your class at school. Use binoculars or a telescope to show and explain celestial objects to the group. (d) Help an astronomy club in your community hold a star party that is open to the public. (e) Personally take a series of photographs or digital images of the movement of the Moon, a planet, an asteroid, meteor, or a comet. In your visual display, label each image and include the date and time it was taken. Show all positions on a star chart or map. Show your display at school or at a troop meeting. Explain the changes you observed. (f) With your parent or guardian's and counselor's approval, use online observing opportunities such as SkyNet to observe planets, comets, galaxies, and/or the sun. Describe your experience to your counselor.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Group Organizer:** Activity & Observation Log
 > **Guide to Safe Scouting Warning:** Mark all power cords and telescope tripod legs with illuminated markers during public gatherings.
@@ -534,7 +534,7 @@
 - Telescope operators teach the public how to view without grabbing delicate eyepiece tubes.
 - Robotic telescope networks execute digital sensor exposures across remote mountaintop dark sky locations.
 
-#### Req 8a: Observatory And Planetarium Field Visits
+#### Req 8a: Observatory and Planetarium Field Visits
 **Official Requirement 8a:** Visit a planetarium or astronomical observatory. Submit a written report, a scrapbook, OR a video presentation afterward to your counselor that includes the following information: activities occurring there, exhibits and displays you saw, telescopes and other instruments being used, and celestial objects you observed.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix (Planetarium or Astronomical Observatory Submit)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Astronomy Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -591,7 +591,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8e: Astrophotography And Celestial Image Capture
+#### Req 8e: Astrophotography and Celestial Image Capture
 **Official Requirement 8e:** Personally take a series of photographs or digital images of the movement of the Moon, a planet, an asteroid, meteor, or a comet. In your visual display, label each image and include the date and time it was taken. Show all positions on a star chart or map. Show your display at school or at a troop meeting. Explain the changes you observed.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Personally Take A Series)
 - **Common Myth:** Handheld smartphones pointed through an eyepiece can capture publication grade deep sky photos instantly.
@@ -628,7 +628,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Astronomy Careers And Personal Hobbies
+### Req 9: Astronomy Careers and Personal Hobbies
 **Official Requirement 9 (Parent Overview):** Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in astronomy. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in astronomy to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)* • **Group Organizer:** Career & Profession Exploration Card
 > **Guide to Safe Scouting Warning:** Follow ergonomic workstation protocols and eye rest guidelines during prolonged astronomical data processing.
@@ -658,9 +658,9 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b: Personal Astronomy Hobby And Societies
+#### Req 9b: Personal Astronomy Hobby and Societies
 **Official Requirement 9b:** Identify how you might use the skills and knowledge in astronomy to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
-**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
+**Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (You Might Use the Skills)
 - **Common Myth:** Amateur astronomy requires spending thousands of dollars on high end computerized telescope equipment.
 - **Pamphlet Fact:** Amateur observers provide vital light curve data on variable stars to professional research networks.
 

@@ -713,7 +713,7 @@ BENCHMARK_BADGES_DATA: Dict[str, Dict[str, Any]] = {
                         ],
                     },
                 ],
-                "counselor_signoff_criteria": "Scout demonstrates placing a breathing unresponsive patient into the recovery position and explains first aid and prevention for all 7 Req 6 conditions (6a–6g).",
+                "counselor_signoff_criteria": "Scout demonstrates placing a breathing unresponsive patient into the recovery position and explains first aid and prevention for all 7 Req 6 conditions (6a-6g).",
             },
             {
                 "req_id": "7",
@@ -7491,7 +7491,13 @@ def generate_counselor_workbook_markdown(
         lines.append("**Scout Notes / Demonstration Verification:** `___________________________________________________________`")
         lines.append("")
 
-    return "\n".join(lines)
+    from src.agents.planner import _replace_unslop_words
+
+    md_out = "\n".join(lines)
+    md_out = _replace_unslop_words(md_out)
+    md_out = md_out.replace(" — ", " - ").replace(" – ", " - ").replace("—", "-").replace("–", "-")
+    md_out = md_out.replace("...", ".").replace("…", ".")
+    return md_out
 
 
 def generate_fillable_scout_workbook_html(
@@ -7928,6 +7934,12 @@ def generate_fillable_scout_workbook_html(
   </script>
 </body>
 </html>"""
+
+    from src.agents.planner import _replace_unslop_words
+
+    html_doc = _replace_unslop_words(html_doc)
+    html_doc = html_doc.replace(" — ", " - ").replace(" – ", " - ").replace("—", "-").replace("–", "-")
+    html_doc = html_doc.replace("...", ".").replace("…", ".")
 
     return {
         "status": "SUCCESS",

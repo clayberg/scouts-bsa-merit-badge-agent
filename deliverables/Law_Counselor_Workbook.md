@@ -73,7 +73,7 @@
 
 #### Req 2a: Ancient Codifications of Law
 **Official Requirement 2a:** Justinian's Code, the Code of Hammurabi, and the Magna Carta.
-**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Justinian's Code The Code of)
+**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Justinian's Code the Code of)
 - **Common Myth:** The Magna Carta immediately created universal democratic voting rights for all citizens.
 - **Pamphlet Fact:** The Magna Carta established limits on monarchical authority and guaranteed fundamental procedural protections.
 
@@ -87,7 +87,7 @@
 
 #### Req 2b: Development of Modern Juries
 **Official Requirement 2b:** The development of the jury system.
-**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Development of The Jury System)
+**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Development of the Jury System)
 - **Common Myth:** Juries have always functioned as passive evaluators of courtroom witness testimony throughout history.
 - **Pamphlet Fact:** The modern jury evolved from medieval investigative witnesses into an impartial panel evaluating presented evidence.
 
@@ -162,7 +162,7 @@
 
 ### Req 5: Consumer and Commercial Protections
 **Official Requirement 5:** Discuss with your counselor several laws that were passed to protect the consumer and the seller. Describe several organizations that provide help to consumers and sellers.
-**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor Several)
+**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 44, p. 47)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Several)
 > **Guide to Safe Scouting Warning:** Do not share real personal credit numbers, banking passwords, or identity credentials during consumer fraud case studies.
 - **Common Myth:** The principle of buyer beware still leaves modern consumers completely unprotected against fraudulent business practices.
 - **Pamphlet Fact:** Consumer protection laws balance fair commercial transactions by holding deceptive merchants accountable while protecting honest merchants from fraudulent chargebacks.
@@ -217,7 +217,7 @@
 
 #### Req 6b: Patrol Mock Trial Simulation
 **Official Requirement 6b:** Plan and conduct a mock trial with your troop, school class, or other group. After the trial is over, discuss it with the group.
-**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 57, p. 61)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Mock Trial With Your Troop)
+**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 57, p. 61)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Mock Trial with Your Troop)
 - **Common Myth:** A mock trial is simply an informal classroom debate without procedural restrictions or evidence constraints.
 - **Pamphlet Fact:** Mock trials require participants to follow formalized objections and strict evidentiary standards rather than unscripted debate.
 
@@ -232,7 +232,7 @@
 
 ### Req 7: Institutional Legal Counsel Practice
 **Official Requirement 7:** Arrange a visit with a lawyer who works for a business, bank, title company, or government agency. Find out his or her duties and responsibilities. Report what you have learned.
-**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 60, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Arrange A Visit With A)
+**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 60, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Arrange A Visit with A)
 > **Guide to Safe Scouting Warning:** Follow Scouting America Youth Protection policies by ensuring two registered adult leaders accompany the professional interview.
 - **Common Myth:** Every practicing lawyer spends their workweek arguing cases before juries inside a courtroom.
 - **Pamphlet Fact:** In-house and agency attorneys focus primarily on regulatory compliance, risk mitigation, and administrative rulemaking rather than courtroom litigation.
@@ -282,7 +282,7 @@
 
 ### Req 9: Careers in the Legal Field
 **Official Requirement 9:** Make a list of 15 jobs that deal with some aspects of law or legal processes. Tell which you prefer. Why?
-**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 73, p. 75)* • **Organizer (Skill Demonstration Checklist):** Req 9 Hands-On Skill Station & EDGE Verification Checklist (Jobs That Deal With Some)
+**Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 73, p. 75)* • **Organizer (Skill Demonstration Checklist):** Req 9 Hands-On Skill Station & EDGE Verification Checklist (Jobs That Deal with Some)
 > **Guide to Safe Scouting Warning:** Avoid publishing personal contact details when requesting educational materials from professional legal trade associations.
 - **Common Myth:** The only meaningful career paths within the legal system involve becoming a lawyer or a judge.
 - **Pamphlet Fact:** The administration of justice relies on paralegals, court reporters, probation officers, and title examiners as much as lawyers.

@@ -215,7 +215,7 @@
 
 ### Req 6: Industrial Ceramics Manufacturing Scope
 **Official Requirement 6:** Explain the scope of the ceramic industry in the United States. Tell some things made other than craft pottery.
-**Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 89, p. 91)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Scope of The Ceramic Industry)
+**Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 89, p. 91)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Scope of the Ceramic Industry)
 > **Guide to Safe Scouting Warning:** Industrial ceramic powder processing requires specialized dust extraction hoods to prevent inhalation of synthetic oxides.
 - **Common Myth:** Most people believe the ceramic industry primarily manufactures decorative tableware, vases, and artistic pottery.
 - **Pamphlet Fact:** Technical ceramics represent a multibillion dollar industry producing electronics, engine components, and medical devices.
@@ -251,7 +251,7 @@
 
 #### Req 7a: Kiln Types and Mechanics
 **Official Requirement 7a:** Visit the kiln yard at a local college or other craft school. Learn how the different kinds of kilns work, including low fire electric, gas or propane high fire, wood or salt/soda, and raku.
-**Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Kiln Yard At A Local)
+**Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Kiln Yard at A Local)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Pottery Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Students often believe electric kilns can easily perform atmospheric fuel reduction firings.
 - **Pamphlet Fact:** Electric coils quickly burn out and fail if deprived of oxygen in reduction atmospheres.
@@ -271,7 +271,7 @@
 - **Common Myth:** Gallery visitors often think hand-built vessels lack the precision and durability of wheel-thrown work.
 - **Pamphlet Fact:** Master hand builders achieve exquisite geometric tolerances and wall uniformity matching wheel thrown standards.
 
-![An ornate painted porcelain platter displays intricate historical glaze patterns and botanical artwork.](/assets/pamphlet_images/pottery_p020_img2.png)
+![An ornate painted porcelain platter displays detailed historical glaze patterns and botanical artwork.](/assets/pamphlet_images/pottery_p020_img2.png)
 
 | Req 7b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -282,12 +282,12 @@
 
 #### Req 7c: Pottery Cultural and Historical Roles
 **Official Requirement 7c:** Using resources from the library, magazines, the internet (with your parent or guardian's permission), and other outlets, learn about the historical and cultural importance of pottery. Share what you discovered with your counselor.
-**Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Resources From The Library Magazines)
+**Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Resources from the Library Magazines)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Pottery Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** People often believe prehistoric pottery served solely utilitarian food storage purposes without artistic intent.
-- **Pamphlet Fact:** Ancient potters integrated intricate cultural symbols, regional slips, and ceremonial motifs into daily vessels.
+- **Pamphlet Fact:** Ancient potters integrated detailed cultural symbols, regional slips, and ceremonial motifs into daily vessels.
 
-![Colorful hand-painted ceramic bowls showcase diverse glaze finishes and patterns in a pottery studio display.](/assets/pamphlet_images/pottery_p025_img1.png)
+![Colorful hand-painted ceramic bowls display diverse glaze finishes and patterns in a pottery studio display.](/assets/pamphlet_images/pottery_p025_img1.png)
 
 | Req 7c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

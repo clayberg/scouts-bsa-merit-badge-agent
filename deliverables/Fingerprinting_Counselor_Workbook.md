@@ -12,12 +12,12 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Fingerprint History And Identification Types | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 13, p. 15) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Automated And Biometric Security Systems | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Friction Ridge Anatomy And Identification | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Fingerprint Recording Methods And Cards | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Fingerprint History and Identification Types | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 13, p. 15) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Automated and Biometric Security Systems | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Friction Ridge Anatomy and Identification | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Fingerprint Recording Methods and Cards | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Fingerprint Pattern Classification Analysis | Show | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 18, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Biometrics And Forensic Career Pathways | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 36, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Biometrics and Forensic Career Pathways | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 36, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -29,7 +29,7 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Fingerprint History And Identification Types
+### Req 1: Fingerprint History and Identification Types
 **Official Requirement 1:** Give a short history of fingerprinting. Tell the difference between civil and criminal identification.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 13, p. 15)* • **Organizer (2-Column Comparison Table):** Req 1 Technical Comparison Matrix (Short History of Fingerprinting)
 > **Guide to Safe Scouting Warning:** Sanitize shared historical document replicas and archival displays to prevent allergic reactions or dust inhalation.
@@ -51,7 +51,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Automated And Biometric Security Systems
+### Req 2: Automated and Biometric Security Systems
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint systems used to control access to computers and places like buildings and airports. (b) Discuss how our society uses identification systems based on tokens, passwords, and biometrics.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Clean biometric optical glass sensors with alcohol wipes to avoid transferring pathogens between consecutive users.
@@ -64,7 +64,7 @@
 - Physical Tokens: Keycards and metal badges grant access but risk theft by unauthorized third parties.
 - Password Vulnerability: Memorized secret strings provide digital security but remain vulnerable to brute force guessing.
 
-#### Req 2a: Database Searching And Access Systems
+#### Req 2a: Database Searching and Access Systems
 **Official Requirement 2a:** Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint systems used to control access to computers and places like buildings and airports.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)* • **Organizer (2-Column Comparison Table):** Req 2a Technical Comparison Matrix (Automated Fingerprint Identification Systems AFIS)
 - **Common Myth:** Commercial door locks store actual photographic images of every fingerprint scanned at the entrance.
@@ -92,7 +92,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Friction Ridge Anatomy And Identification
+### Req 3: Friction Ridge Anatomy and Identification
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Name the surfaces of the body where friction or papillary ridges are found. (b) Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle. (c) Explain what it takes to positively identify a person using fingerprints.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Examine hand surfaces gently without applying excessive force to prevent paper cuts or skin abrasion.
@@ -107,7 +107,7 @@
 
 #### Req 3a: Papillary Ridge Skin Locations
 **Official Requirement 3a:** Name the surfaces of the body where friction or papillary ridges are found.
-**Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Surfaces of The Body Where)
+**Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Surfaces of the Body Where)
 - **Common Myth:** Friction ridges cover all parts of human skin to facilitate tactile sensory perception everywhere.
 - **Pamphlet Fact:** Friction ridges exist exclusively on the hairless palmar and plantar epidermal surfaces of the body.
 
@@ -121,7 +121,7 @@
 
 #### Req 3b: Foundational Fingerprint Science Principles
 **Official Requirement 3b:** Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle.
-**Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Basic Principles Supporting The Science)
+**Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Basic Principles Supporting the Science)
 - **Common Myth:** Severe surface skin scrapes will permanently erase personal fingerprint ridge patterns from the fingertips.
 - **Pamphlet Fact:** Superficial epidermal damage regrows original ridge details unless the deeper dermal layer sustains scar tissue.
 
@@ -147,7 +147,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Fingerprint Recording Methods And Cards
+### Req 4: Fingerprint Recording Methods and Cards
 **Official Requirement 4 (Parent Overview):** Take a clear set of prints using ONE of the following methods: (a) Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint identification card, available from your local police department or your counselor. (b) Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)* • **Group Organizer:** Activity & Observation Log
 > **Guide to Safe Scouting Warning:** Dispose of ink solvent wipes in designated metal containers to mitigate volatile chemical exposure hazards.
@@ -191,7 +191,7 @@
 
 ### Req 5: Fingerprint Pattern Classification Analysis
 **Official Requirement 5:** Show your counselor you can identify the three basic types of fingerprint patterns and their subcategories. Using your own hand, identify the types of patterns you see.
-**Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 18, p. 23)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (You Can Identify The Three)
+**Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 18, p. 23)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (You Can Identify the Three)
 > **Guide to Safe Scouting Warning:** Maintain safe eye distance from optical magnification lenses to prevent eye strain and collision.
 - **Common Myth:** Arch patterns are the most common fingerprint configuration found across the human population.
 - **Pamphlet Fact:** Loops constitute approximately sixty five percent of human patterns, while arches occur in roughly five percent.
@@ -216,7 +216,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Biometrics And Forensic Career Pathways
+### Req 6: Biometrics and Forensic Career Pathways
 **Official Requirement 6:** Identify three career opportunities that would use skills and knowledge in the areas of biometrics and/or fingerprinting. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 36, p. 37)* • **Organizer (Career & Profession Exploration Card):** Req 6 Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Follow ergonomic computer display guidelines and wear protective eyewear during prolonged microscope examination research.

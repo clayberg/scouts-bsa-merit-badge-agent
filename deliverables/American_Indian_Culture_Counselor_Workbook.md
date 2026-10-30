@@ -163,11 +163,11 @@
 
 #### Req 4b: Indigenous Inventions and Global Adoptions
 **Official Requirement 4b:** Describe eight things adopted by others from American Indians.
-**Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 9, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Adopted By Others From American)
+**Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 9, p. 12)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Adopted by Others from American)
 - **Common Myth:** Adopted items were limited to basic frontier survival tools and decorative clothing.
 - **Pamphlet Fact:** Indigenous agricultural domestications comprise three-fifths of all crops grown worldwide today.
 
-![Stone masonry dwellings built into a canyon cliff showcase ancient architecture.](/assets/pamphlet_images/american_indian_culture_p013_img1.png)
+![Stone masonry dwellings built into a canyon cliff display ancient architecture.](/assets/pamphlet_images/american_indian_culture_p013_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -195,7 +195,7 @@
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 37, p. 45)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Stay within designated visitor pathways and maintain safe hydration during outdoor summer gatherings.
 - **Common Myth:** Powwows and tribal museum exhibits represent historical reenactments of an extinct past culture.
-- **Pamphlet Fact:** Contemporary gatherings express vibrant living traditions, community governance, and evolving modern art forms.
+- **Pamphlet Fact:** Contemporary gatherings express bright living traditions, community governance, and evolving modern art forms.
 
 **Official Pamphlet Summary:**
 - Museum Provenance: Curators document the tribal origin, estimated creation era, and original utility of artifacts.
@@ -205,7 +205,7 @@
 
 #### Req 5a: Museum Curation and Artifact Identification
 **Official Requirement 5a:** Visit a museum either in-person or virtually to see American Indian exhibitions and collections. Discuss with your counselor what you observed or learned from two exhibitions and identify 10 artifacts by tribe or nation, their shape, size, and use.
-**Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Museum Either In-person or Virtually)
+**Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 37, p. 45)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Museum Either in-person or Virtually)
 - **Common Myth:** Artifacts in museums were all collected with full consent from tribal elders.
 - **Pamphlet Fact:** Modern museums collaborate under federal repatriation laws to return sacred items to tribes.
 

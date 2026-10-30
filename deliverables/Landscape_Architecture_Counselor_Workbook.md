@@ -65,7 +65,7 @@
 
 #### Req 2a: Spatial Organization and Circulation
 **Official Requirement 2a:** Tell whether the design had separate spaces, a defined point of entry, a clear path system, and sun and shade variety.
-**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Whether The Design Had Separate)
+**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Whether the Design Had Separate)
 - **Common Myth:** People often believe open parks should consist entirely of unrestricted, uniform turfgrass without internal divisions.
 - **Pamphlet Fact:** Distinct outdoor rooms separated by grade transitions or low plantings create varied microclimates and functional zones.
 
@@ -79,7 +79,7 @@
 
 #### Req 2b: Built Structure Amenity Integration
 **Official Requirement 2b:** Discuss how any structures, the designated seating, eating, or parking areas suited the overall design.
-**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss How Any Structures The)
+**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Discuss How Any Structures the)
 - **Common Myth:** Scouts sometimes expect parking lots to be hidden far away without direct visual connection to entryways.
 - **Pamphlet Fact:** Proper parking integration incorporates vegetated bioswales, perimeter buffers, and clearly marked, direct pedestrian paths toward main entrances.
 
@@ -93,7 +93,7 @@
 
 #### Req 2c: User Comfort and Safety
 **Official Requirement 2c:** Explain how the design reflected consideration for the comfort, shelter, and security of the users.
-**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Reflected Consideration for The Comfort)
+**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Reflected Consideration for the Comfort)
 - **Common Myth:** Beginners often think dense perimeter shrubs improve park security by completely enclosing the perimeter.
 - **Pamphlet Fact:** Dense shrubbery blocks visibility, whereas maintaining open sightlines between two and seven feet prevents ambush zones.
 
@@ -107,7 +107,7 @@
 
 #### Req 2d: Botanical Composition and Function
 **Official Requirement 2d:** Discuss how the choice of trees, shrubs, and ground covers used in the project contributed to its appeal and function.
-**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Discuss How The Choice of)
+**Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Discuss How the Choice of)
 - **Common Myth:** Students occasionally imagine plants serve purely cosmetic functions without physical or environmental utility.
 - **Pamphlet Fact:** Roots stabilize slopes, leaf canopies intercept storm runoff, and dense hedges buffer highway sound pollution.
 

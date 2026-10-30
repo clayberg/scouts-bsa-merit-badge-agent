@@ -91,7 +91,7 @@
 
 #### Req 2a: Swimming Merit Badge Completion
 **Official Requirement 2a:** Earn the Swimming merit badge.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Earn The Swimming)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Earn the Swimming)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
 - **Common Myth:** Recreational swimming experience substitutes for formal Swimming merit badge completion records.
 - **Pamphlet Fact:** Swimming merit badge requirements validate survival floating and deep water surface entry skills.
@@ -147,7 +147,7 @@
 
 #### Req 3b: Swimmer Distress Recognition Indicators
 **Official Requirement 3b:** How to identify persons in the water who need assistance.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Persons in The Water)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Persons in the Water)
 - **Common Myth:** Tired swimmers behave identically to victims experiencing the instinctive drowning response.
 - **Pamphlet Fact:** Active drowning victims press their arms downward against water without kicking their feet.
 
@@ -189,7 +189,7 @@
 
 #### Req 3e: Nonentry Aquatic Rescue Criteria
 **Official Requirement 3e:** Situations for which in-water rescues should not be undertaken.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Situations for Which In-water Rescues)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Situations for Which in-water Rescues)
 - **Common Myth:** Rescuers must enter the water regardless of personal safety during every emergency.
 - **Pamphlet Fact:** Floodwater rapids and low head dam hydraulics kill trained rescuers attempting contact rescues.
 
@@ -258,7 +258,7 @@
 
 ### Req 6: Watercraft Rescue Demonstration Analysis
 **Official Requirement 6:** With your counselor's approval, view in-person or on video a rowing rescue performed using a rowboat, canoe, kayak, or stand up paddleboard. Discuss with your counselor how effectively and efficiently the rescue was performed.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (View In-person or on Video)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 41, p. 45)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (View in-person or on Video)
 > **Guide to Safe Scouting Warning:** Never permit an active victim to grasp the gunwale amidships on a small watercraft.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Lifesaving Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Kayaks and canoes provide stable platforms for dragging panicked victims over high gunwales.
@@ -336,7 +336,7 @@
 
 #### Req 8b: Buoyant Aid Subject Tow
 **Official Requirement 8b:** In a separate rescue, present the other aid to a subject and use it to tow the subject to safety.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Separate Rescue Present The Other)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Separate Rescue Present the Other)
 - **Common Myth:** Towing a conscious subject with a buoyant tube requires dragging them by the wrist.
 - **Pamphlet Fact:** Towing via a rescue tube towline keeps the rescuer completely out of reach of thrashing limbs.
 
@@ -476,7 +476,7 @@
 
 **Official Pamphlet Summary:**
 - Splash water onto the subject face from safe distance to verify unresponsiveness.
-- Place the rescue tube under the subject chest to elevate their airway.
+- Place the rescue tube under the subject chest to raise their airway.
 - Grasp the wrist, pull forward, and rotate the subject onto their back.
 - Rear Armpit Towing: Grasp both armpits from behind while pulling the floating body toward shore.
 
@@ -584,7 +584,7 @@
 
 #### Req 15a: Spinal Injury Symptom Recognition
 **Official Requirement 15a:** Discuss the causes, signs, and symptoms of a spinal injury.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 15a Structured Technical Study & Explanation Matrix (Discuss The Causes Signs and)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 15a Structured Technical Study & Explanation Matrix (Discuss the Causes Signs and)
 - **Common Myth:** A spinal injury victim will always lose consciousness immediately following blunt head trauma.
 - **Pamphlet Fact:** Neck pain, limb numbness, and head lacerations after shallow diving signal serious spinal injury.
 
@@ -612,7 +612,7 @@
 
 #### Req 15c: Facedown Spinal Subject Rotation
 **Official Requirement 15c:** Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 15c Structured Technical Study & Explanation Matrix (Turn A Subject From A)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 15c Structured Technical Study & Explanation Matrix (Turn A Subject from A)
 - **Common Myth:** Turning a facedown spinal victim requires flipping them quickly to restore air access.
 - **Pamphlet Fact:** Rotating the subject under the rescuer armpit preserves perfect in-line head and spine alignment.
 
@@ -639,7 +639,7 @@
 
 #### Req 16a: Resuscitation Need Clinical Assessment
 **Official Requirement 16a:** Describe how to recognize the need for rescue breathing and CPR.
-**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)* • **Organizer (Concept & Examples Notes):** Req 16a Structured Technical Study & Explanation Matrix (Recognize The Need for Rescue)
+**Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)* • **Organizer (Concept & Examples Notes):** Req 16a Structured Technical Study & Explanation Matrix (Recognize the Need for Rescue)
 - **Common Myth:** Rescuers should wait to begin CPR until all water is drained from lungs.
 - **Pamphlet Fact:** Victims who are unresponsive and not breathing or only gasping need immediate resuscitation.
 

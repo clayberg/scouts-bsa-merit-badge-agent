@@ -68,7 +68,7 @@
 
 #### Req 1b: Personal Protective Equipment Standards
 **Official Requirement 1b:** Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing a motor vehicle. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
 - **Common Myth:** Loose clothing, rings, and sneakers are acceptable attire for light under-hood vehicle checks.
 - **Pamphlet Fact:** Flame resistant cotton clothing, steel toe boots, and impact goggles protect against catastrophic shop trauma.
 
@@ -111,7 +111,7 @@
 
 #### Req 1e: Manufacturer Maintenance Schedule Interpretation
 **Official Requirement 1e:** Review the maintenance chart in the vehicle owner's manual. Explain the requirements and time limits.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Maintenance Chart in The Vehicle)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Maintenance Chart in the Vehicle)
 - **Common Myth:** Vehicle maintenance intervals depend strictly on elapsed mileage regardless of operating temperature or calendar time.
 - **Pamphlet Fact:** Factory maintenance charts designate severe service schedules for frequent short trips, towing, and dusty environments.
 
@@ -140,7 +140,7 @@
 
 #### Req 1g: State Emissions Inspection Mandates
 **Official Requirement 1g:** Find out the requirements for your state's emissions and safety inspections (as applicable), including how often a vehicle needs to be inspected.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Out The Requirements for Your)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Out the Requirements for Your)
 - **Common Myth:** State vehicle inspections examine only cosmetic body panels and tailpipe smoke visibility.
 - **Pamphlet Fact:** Jurisdictional inspections monitor particulate exhaust limits, evaporative emissions systems, brake lining thickness, and suspension ball joints.
 
@@ -277,7 +277,7 @@
 
 #### Req 3a: Instrument Cluster Gauge Monitoring
 **Official Requirement 3a:** Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine temperature gauge. Point each one out on the instrument cluster.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Function of The Fuel Gauge)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Function of the Fuel Gauge)
 - **Common Myth:** The tachometer measures wheel speed over the ground rather than internal crankshaft rotation rate.
 - **Pamphlet Fact:** Tachometers indicate crankshaft revolutions per minute, allowing drivers to prevent severe mechanical over-revving.
 
@@ -435,7 +435,7 @@
 
 #### Req 5b: Engine Oil Viscosity Classifications
 **Official Requirement 5b:** Discuss the purpose of engine oil. Explain the API service code, the SAE number, and the viscosity rating.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss The Purpose of Engine)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss the Purpose of Engine)
 - **Common Myth:** Thicker motor oil always provides superior engine protection compared to thin factory-recommended low-viscosity oils.
 - **Pamphlet Fact:** The American Petroleum Institute starburst mark certifies oil performance standards, while SAE numbers define fluid viscosity.
 
@@ -448,7 +448,7 @@
 
 #### Req 5c: Engine Oil Capacity Specifications
 **Official Requirement 5c:** Explain where to find the recommended oil type and the amount of oil to be used in the vehicle engine.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Recommended Oil Type and The)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Recommended Oil Type and the)
 - **Common Myth:** Every four-cylinder passenger car engine requires exactly five quarts of motor oil during changes.
 - **Pamphlet Fact:** The vehicle owner manual specifies exact crankcase capacities with and without oil filter canister replacement.
 
@@ -473,7 +473,7 @@
 
 #### Req 6a: Coolant Chemistry and Selection
 **Official Requirement 6a:** Explain the need for coolant in the cooling system, and the importance of selecting the correct coolant type for a given vehicle.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Need for Coolant in The)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Need for Coolant in the)
 - **Common Myth:** All universal green antifreeze products can be mixed safely into any modern automotive cooling system.
 - **Pamphlet Fact:** Organic acid technology coolants contain chemical inhibitor packages formulated specifically for aluminum engine blocks.
 
@@ -487,7 +487,7 @@
 
 #### Req 6b: Coolant Flush and Disposal
 **Official Requirement 6b:** Explain how to flush and change the engine coolant in the vehicle, and how to properly dispose of the used coolant.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Flush and Change The Engine)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Flush and Change the Engine)
 - **Common Myth:** Flushed engine coolant can be washed down storm drains or household plumbing sinks safely.
 - **Pamphlet Fact:** Recycling facilities distill spent antifreeze to remove heavy metals and recover ethylene glycol base stock.
 
@@ -611,7 +611,7 @@
 
 #### Req 8e: Electric Vehicle Range Factors
 **Official Requirement 8e:** Discuss with your counselor what factors can affect range on an electrified vehicle. Explain the procedure for recharging an electric or plug-in hybrid vehicle.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)
 - **Common Myth:** Electric vehicle driving range remains completely unaffected by extreme sub-zero winter temperatures.
 - **Pamphlet Fact:** Cabin climate control heating draws direct battery current in electric vehicles, significantly diminishing available winter range.
 
@@ -817,7 +817,7 @@
 
 #### Req 11c: Emergency Jack and Tire Replacement
 **Official Requirement 11c:** Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack correctly on the vehicle, then change a tire correctly.
-**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Organizer (Skill Demonstration Checklist):** Req 11c Hands-On Skill Station & EDGE Verification Checklist (Manufacturer's Jack Use The Jack)
+**Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Organizer (Skill Demonstration Checklist):** Req 11c Hands-On Skill Station & EDGE Verification Checklist (Manufacturer's Jack Use the Jack)
 - **Common Myth:** Lug nuts should be tightened in sequential clockwise order around the wheel perimeter during installation.
 - **Pamphlet Fact:** Vehicle lug nuts must be torqued in a crisscross star pattern to prevent warping the brake rotor.
 

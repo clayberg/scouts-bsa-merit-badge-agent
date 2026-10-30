@@ -127,7 +127,7 @@
 
 #### Req 2a: River Features and Current
 **Official Requirement 2a:** Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream V, downstream V, riffle, eddy with an eddy line, ledge, river bend, shallows, current at different depths, drop, horizon line, and hydraulic.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Understanding of The Following River)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Understanding of the Following River)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
 - **Common Myth:** All V formations on the river surface mark clear paths through shallow boulder gardens.
 - **Pamphlet Fact:** Downstream Vs mark channels of clear deep water, whereas upstream Vs mark rocks waiting to break hulls.
@@ -162,7 +162,7 @@
 
 #### Req 2c: Boat Edging and Tilting
 **Official Requirement 2c:** Explain how to tilt or edge the boat without leaning your body (1) When entering and exiting an eddy. (2) When ferrying in downstream and upstream directions.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Tilt or Edge The Boat)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Tilt or Edge the Boat)
 - **Common Myth:** Leaning your head and upper torso over the side provides the stability needed for crossing eddy lines.
 - **Pamphlet Fact:** Tilting the hull exposes the smooth bottom to incoming current while keeping the upstream edge elevated safely.
 
@@ -245,7 +245,7 @@
 
 #### Req 4a(1): Tandem Canoe Bow Steering Strokes
 **Official Requirement 4a(1):** Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes in The Bow Cross)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes in the Bow Cross)
 - **Common Myth:** Switching to an offside cross bow draw requires swapping top and bottom hand positions on the paddle shaft.
 - **Pamphlet Fact:** Bow paddlers perform the cross bow draw by rotating the torso across the opposite gunwale while keeping their original paddle grip unchanged.
 
@@ -273,7 +273,7 @@
 
 #### Req 4a(2): Tandem Canoe Stern Control Strokes
 **Official Requirement 4a(2):** Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(2) Hands-On Skill Station & EDGE Verification Checklist (Strokes in The Stern Stern)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(2) Hands-On Skill Station & EDGE Verification Checklist (Strokes in the Stern Stern)
 - **Common Myth:** Dragging the paddle blade passively behind the canoe like a rudder controls river maneuvers better than applying active stern pry strokes.
 - **Pamphlet Fact:** Active forward strokes ending in a stern pry maintain boat speed and provide far greater directional control than passive dragging rudders in moving current.
 
@@ -318,7 +318,7 @@
 - Req 4b(1) (1): Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.
 - Req 4b(2) (2): Demonstrate a high brace, low brace, and righting pry.
 - The paddle shaft should be vertical and move in a path 2 to 3 feet long next to the side of the boat.
-- Angle the blade at 45 degrees—as if you were spreading butter on a slice of bread— and move the paddle from side to side.
+- Angle the blade at 45 degrees-as if you were spreading butter on a slice of bread- and move the paddle from side to side.
 
 #### Req 4b(1): Solo Canoe Whitewater Maneuvering Strokes
 **Official Requirement 4b(1):** Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.
@@ -373,7 +373,7 @@
 - Req 4c(1) (1): Demonstrate the following strokes: bow draw, rudder, and sculling draw.
 - Req 4c(2) (2): Demonstrate a high brace and low brace.
 - The paddle shaft should be vertical and move in a path 2 to 3 feet long next to the side of the boat.
-- Angle the blade at 45 degrees—as if you were spreading butter on a slice of bread— and move the paddle from side to side.
+- Angle the blade at 45 degrees-as if you were spreading butter on a slice of bread- and move the paddle from side to side.
 
 #### Req 4c(1): Solo Kayak Directional Control Strokes
 **Official Requirement 4c(1):** Demonstrate the following strokes: bow draw, rudder, and sculling draw.
@@ -448,9 +448,9 @@
 
 #### Req 5b: River Difficulty Factor Assessment
 **Official Requirement 5b:** Identify the specific characteristics of the river that are factors in your classification according to the International Scale.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Specific Characteristics of The River)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Specific Characteristics of the River)
 - **Common Myth:** Only the presence of large waterfalls determines whether a river section is rated difficult.
-- **Pamphlet Fact:** Continuous boulder gardens and restricted channel widths elevate the technical difficulty rating of a river section.
+- **Pamphlet Fact:** Continuous boulder gardens and restricted channel widths raise the technical difficulty rating of a river section.
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -460,7 +460,7 @@
 
 #### Req 5c: Flow Rates and Seasonal Changes
 **Official Requirement 5c:** Discuss how the level of flow changes a river from one class to another and what effects different flow rates have on the features of a river and its hazards.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Discuss How The Level of)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Discuss How the Level of)
 - **Common Myth:** Higher water levels always make river rapids smoother and easier for open boats to navigate.
 - **Pamphlet Fact:** Higher water levels drown out some boulder obstacles while creating violent hydraulic holes in other river sections.
 
@@ -633,7 +633,7 @@
 
 #### Req 10d: Upstream Ferry Technique
 **Official Requirement 10d:** Ferry upstream from both sides of the river.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10d Structured Technical Study & Explanation Matrix (Ferry Upstream From Both Sides)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10d Structured Technical Study & Explanation Matrix (Ferry Upstream from Both Sides)
 - **Common Myth:** Pointing the bow straight across the river current moves the boat sideways without losing downstream position.
 - **Pamphlet Fact:** Setting a thirty-degree bow angle allows incoming current to push the boat sideways without washing downstream.
 
@@ -645,7 +645,7 @@
 
 #### Req 10e: Downstream Ferry Maneuver
 **Official Requirement 10e:** Ferry downstream from both sides of the river.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix (Ferry Downstream From Both Sides)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix (Ferry Downstream from Both Sides)
 - **Common Myth:** Downstream ferrying requires high speed forward paddling straight toward downstream rocks and obstacles.
 - **Pamphlet Fact:** A downstream ferry uses backstrokes with the stern angled toward the destination bank to drift.
 
@@ -657,7 +657,7 @@
 
 #### Req 10f: Eddy Turn Execution
 **Official Requirement 10f:** Eddy turn from both sides of an eddy.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10f Structured Technical Study & Explanation Matrix (Eddy Turn From Both Sides)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10f Structured Technical Study & Explanation Matrix (Eddy Turn from Both Sides)
 - **Common Myth:** Boats naturally slide into eddies without any adjustment to paddler body posture or hull edge.
 - **Pamphlet Fact:** Carving into an eddy demands tilting the hull toward the calm water to prevent current catching the gunwale.
 
@@ -669,7 +669,7 @@
 
 #### Req 10g: Eddy Peel Out Transition
 **Official Requirement 10g:** Peel out from both sides of an eddy.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10g Structured Technical Study & Explanation Matrix (Peel Out From Both Sides)
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10g Structured Technical Study & Explanation Matrix (Peel Out from Both Sides)
 - **Common Myth:** Paddlers should leave eddies slowly without tilting the hull to avoid tipping in turbulent water.
 - **Pamphlet Fact:** Driving from an eddy into main current requires setting a downstream tilt before crossing the eddy line.
 

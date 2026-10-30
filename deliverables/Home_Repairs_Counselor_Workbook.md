@@ -145,7 +145,7 @@
 
 #### Req 2e: Window Screen Mesh Replacement
 **Official Requirement 2e:** Repair or replace the screen in a window or door.
-**Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Replace The Screen in A)
+**Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Replace the Screen in A)
 - **Common Myth:** Stretching replacement window screen mesh tightly by hand before inserting spline prevents bagging.
 - **Pamphlet Fact:** Spline roller tools press rubber spline into perimeter frame grooves to lock fiberglass mesh tight.
 

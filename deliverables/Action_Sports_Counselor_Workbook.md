@@ -125,7 +125,7 @@
 **Official Requirement 2b:** Demonstrate a warm-up, stretching, and conditioning routine for action sports.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Warm-up Stretching and Conditioning Routine)
 - **Common Myth:** Athletes think muscle soreness following a session stems solely from impact rather than inadequate conditioning.
-- **Pamphlet Fact:** Eccentric quad fatigue causes micro-tears and reduces knee stabilization, greatly elevating anterior cruciate ligament tear risks.
+- **Pamphlet Fact:** Eccentric quad fatigue causes micro-tears and reduces knee stabilization, greatly raising anterior cruciate ligament tear risks.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
