@@ -1246,7 +1246,13 @@ def _build_slide_teaching_notes(
     )
     if slide_idx_in_req == 0 and not _is_generic_meta_misconception(raw_myth, raw_fact):
         myth_txt, fact_txt = raw_myth, raw_fact
-    elif slide_idx_in_req > 0 and matched_sub_ids and not _is_generic_meta_misconception(raw_myth, raw_fact) and raw_myth.strip().lower() != parent_myth_norm:
+    elif (
+        slide_idx_in_req > 0
+        and matched_sub_ids
+        and arch not in _specialized_archs
+        and not _is_generic_meta_misconception(raw_myth, raw_fact)
+        and raw_myth.strip().lower() != parent_myth_norm
+    ):
         myth_txt, fact_txt = raw_myth, raw_fact
     elif slide_idx_in_req > 0 and sub_misc_candidates and arch not in _specialized_archs and (slide_idx_in_req - 1) < len(sub_misc_candidates):
         myth_txt, fact_txt = sub_misc_candidates[slide_idx_in_req - 1]
@@ -1575,7 +1581,24 @@ def _build_slide_teaching_notes(
     )
 
     # 5. [DEMONSTRATION & SIGN-OFF RUBRIC] — Never repeats clean_caption; 6 varied templates tailored to modality & verb
-    if execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value or arch == SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value:
+    if arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
+        q_rule_noun = "key safety rule" if is_hazard_ctx else "key pamphlet principle"
+        demo_action = (
+            f"[Pause for patrol decision check and hold up the {clean_badge} Workbook] Have each buddy pair justify their chosen response for {clean_title} and record the {q_rule_noun} under {req_display_label} ({wb_type_clean})."
+        )
+    elif arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
+        demo_action = (
+            f"[Point to the two comparison columns and open the {clean_badge} Fillable Scout Workbook] Have Scouts complete the {wb_type_clean} for {req_display_label}, contrasting {topic_1} and {topic_2} in their own words."
+        )
+    elif arch == SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value or worked_example:
+        demo_action = (
+            f"[Hold up the {clean_badge} Scout Log template on screen] Walk Scouts through recording a complete entry for {clean_title} ({topic_1} and {topic_2}) in their {wb_type_clean}."
+        )
+    elif arch == SlideArchetype.GEAR_CHECKLIST_GRID.value or gear_checklist:
+        demo_action = (
+            f"[Conduct a hands-on patrol gear shakedown for {clean_title}] Have buddy pairs physically inspect {topic_1} and {topic_2} and check off each item in their {wb_type_clean}."
+        )
+    elif execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value or arch == SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value:
         demo_actions = [
             f"[Hold up the station gear and model {topic_1} using the BSA EDGE method] Demonstrate {topic_1} followed by {topic_2} at half-speed, then coach buddy pairs as they practice.",
             f"[Point to the skill station table] Walk a two-Scout buddy team through {topic_1} ({first_body.rstrip('.')}) and {topic_2}, verifying each hands-on step.",
@@ -1585,15 +1608,6 @@ def _build_slide_teaching_notes(
             f"[Point to Card 1 and step to the demonstration area] Coach Scouts through a hands-on trial of {topic_summary} until every Scout demonstrates independent mastery.",
         ]
         demo_action = demo_actions[tpl_idx]
-    elif arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
-        q_rule_noun = "key safety rule" if is_hazard_ctx else "key pamphlet principle"
-        demo_action = (
-            f"[Pause for patrol decision check and hold up the {clean_badge} Workbook] Have each buddy pair justify their chosen response for {clean_title} and record the {q_rule_noun} under {req_display_label} ({wb_type_clean})."
-        )
-    elif arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
-        demo_action = (
-            f"[Point to the two comparison columns and open the {clean_badge} Fillable Scout Workbook] Have Scouts complete the {wb_type_clean} for {req_display_label}, contrasting {topic_1} and {topic_2} in their own words."
-        )
     else:
         demo_actions_concept = [
             f"[Hold up the {clean_badge} Fillable Scout Workbook] Direct Scouts to {req_display_label} ({wb_type_clean}) to record their key definitions and field examples for {topic_summary}.",
